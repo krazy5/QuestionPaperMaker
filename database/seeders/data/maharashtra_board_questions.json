@@ -1,0 +1,71 @@
+[
+  {
+    "subject": "Maths1",
+    "chapters": [
+      {
+        "name": "Logic",
+        "questions": [
+          { "text": "Construct the truth table for the statement $(p \\rightarrow q) \\land q$.", "answer": "The final column of the truth table is T, F, T, T. It is a contingency.", "marks": 3 },
+          { "text": "Write the negation of the statement: \"$\\forall x \\in N, x+7 > 6$\".", "answer": "The negation is \"$\\exists x \\in N$, such that $x+7 \\leq 6$\".", "marks": 2 },
+          { "text": "Examine whether the statement pattern $(p \\land q) \\rightarrow (p \\lor q)$ is a tautology, contradiction or contingency.", "answer": "The statement is a tautology as the final column in its truth table is always T.", "marks": 3 },
+          { "text": "Using truth tables, prove the logical equivalence $p \\leftrightarrow q \\equiv (p \\rightarrow q) \\land (q \\rightarrow p)$.", "answer": "The truth tables for both LHS and RHS are identical (T, F, F, T), hence they are logically equivalent.", "marks": 4 },
+          { "text": "Write the converse, inverse, and contrapositive of the statement 'If it rains, then the match will be cancelled.'", "answer": "Converse: If the match is cancelled, then it rains. Inverse: If it does not rain, then the match will not be cancelled. Contrapositive: If the match is not cancelled, then it does not rain.", "marks": 3 },
+          { "text": "Without using truth table, show that $(p \\lor q) \\land (\\sim p \\land \\sim q)$ is a contradiction.", "answer": "Using distributive law, we get $(p \\land \\sim p \\land \\sim q) \\lor (q \\land \\sim p \\land \\sim q)$. This simplifies to $(c \\land \\sim q) \\lor (c \\land \\sim p)$, which is $c \\lor c \\equiv c$.", "marks": 4 },
+          { "text": "Write the symbolic form of the statement 'An angle is a right angle if and only if it is of measure $90^\\circ$'.", "answer": "Let p: An angle is a right angle. q: It is of measure $90^\\circ$. Symbolic form: $p \\leftrightarrow q$.", "marks": 2 },
+          { "text": "Determine the truth value of the following statement: 'If $3+5=7$, then $4+2=6$.'", "answer": "Here the hypothesis is false (F) and conclusion is true (T). The implication $F \\rightarrow T$ is True. So the truth value is T.", "marks": 2 },
+          { "text": "Write the dual of the statement $(p \\lor q) \\land T$.", "answer": "To find the dual, we replace $\\lor$ with $\\land$, and T with c (contradiction). The dual is $(p \\land q) \\lor c$.", "marks": 2 },
+          { "text": "Check if the statements $\\sim(p \\lor q)$ and $\\sim p \\land \\sim q$ are logically equivalent using a truth table.", "answer": "Yes, the truth tables for both statements are identical (F, F, F, T). This is De Morgan's Law.", "marks": 3 },
+          { "text": "Construct a switching circuit for the statement $(p \\land q) \\lor (\\sim p \\land r)$.", "answer": "Two parallel branches. The first branch has switches P and Q in series. The second branch has switch P' (negation of P) and R in series.", "marks": 4 },
+          { "text": "Simplify the switching circuit for the statement $(p \\lor q) \\land (p \\lor \\sim q)$.", "answer": "Using Distributive law: $p \\lor (q \\land \\sim q) \\equiv p \\lor c \\equiv p$. The simplified circuit is just a single switch P.", "marks": 3 },
+          { "text": "If $p$ and $q$ are true and $r$ is false, find the truth value of $(p \\land \\sim r) \\rightarrow (\\sim q \\lor r)$.", "answer": "$(T \\land T) \\rightarrow (F \\lor F) \\equiv T \\rightarrow F \\equiv F$. The truth value is False.", "marks": 3 },
+          { "text": "Show that $\\sim(p \\rightarrow \\sim q) \\equiv p \\land q$ without using a truth table.", "answer": "$\\sim(p \\rightarrow \\sim q) \\equiv \\sim(\\sim p \\lor \\sim q) \\equiv \\sim(\\sim p) \\land \\sim(\\sim q) \\equiv p \\land q$.", "marks": 3 },
+          { "text": "Write the negation of 'Some teachers are sincere'.", "answer": "The negation is 'No teachers are sincere' or 'All teachers are insincere'.", "marks": 2 },
+          { "text": "Is the statement 'The sun rises in the west' a statement in logic? Give reason.", "answer": "Yes, it is a statement in logic because it is a declarative sentence which is definitively false.", "marks": 2 },
+          { "text": "Construct the truth table for $(p \\land q) \\lor \\sim r$.", "answer": "The final column of the truth table when read from top to bottom (TTT to FFF) is T, T, T, F, T, F, T, F.", "marks": 4 },
+          { "text": "Write the negation of the statement: 'For every real number $x$, $x^2 \\ge 0$'.", "answer": "The negation is 'There exists a real number $x$ such that $x^2 < 0$'.", "marks": 2 },
+          { "text": "Given the statement 'If a quadrilateral is a rhombus, then it is a square'. Write its converse and contrapositive.", "answer": "Converse: 'If a quadrilateral is a square, then it is a rhombus'. Contrapositive: 'If a quadrilateral is not a square, then it is not a rhombus'.", "marks": 3 },
+          { "text": "Using laws of logic, simplify $p \\lor (q \\land \\sim p)$.", "answer": "Using Distributive Law: $(p \\lor q) \\land (p \\lor \\sim p) \\equiv (p \\lor q) \\land T \\equiv p \\lor q$.", "marks": 3 },
+          { "text": "Check for tautology: $[(p \\rightarrow q) \\land q] \\rightarrow p$.", "answer": "This is not a tautology. When p is F and q is T, the statement is false. This is the Fallacy of the Converse.", "marks": 3 },
+          { "text": "Write the negation of '$\\exists x \\in R$ such that $x^2+1=0$'.", "answer": "The negation is '$\\forall x \\in R, x^2+1 \\neq 0$'.", "marks": 2 }
+        ]
+      },
+      {
+        "name": "Matrices",
+        "questions": [
+          { "text": "If $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, find the adjoint of matrix A.", "answer": "The cofactors are $C_{11}=4, C_{12}=-3, C_{21}=-2, C_{22}=1$. The Adjoint is $adj(A) = \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}$.", "marks": 3 },
+          { "text": "Solve the following equations by inversion method: $x + 2y = 2$ and $2x + 3y = 3$.", "answer": "The solution is $x=0, y=1$.", "marks": 4 },
+          { "text": "Find the inverse of the matrix $A = \\begin{pmatrix} 2 & -2 \\\\ 4 & 3 \\end{pmatrix}$ using elementary row transformations.", "answer": "The inverse is $A^{-1} = \\frac{1}{14} \\begin{pmatrix} 3 & 2 \\\\ -4 & 2 \\end{pmatrix}$.", "marks": 4 }
+        ]
+      },
+      {
+        "name": "Trigonometry function",
+        "questions": [
+            { "text": "Find the principal solution of $\\sin(x) = \\frac{1}{\\sqrt{2}}$.", "answer": "The principal solutions are $x = \\frac{\\pi}{4}$ and $x = \\frac{3\\pi}{4}$.", "marks": 2 },
+            { "text": "In $\\triangle ABC$, prove that $\\tan(\\frac{C-A}{2}) = \\frac{c-a}{c+a} \\cot(\\frac{B}{2})$.", "answer": "This is a direct application of Napier's Analogy.", "marks": 4 },
+            { "text": "Find the general solution of $\\cos(x) = -\\frac{1}{2}$.", "answer": "The general solution is $x = 2n\\pi \\pm \\frac{2\\pi}{3}$, where $n \\in Z$.", "marks": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Maths2",
+    "chapters": [
+      {
+        "name": "Differentiation",
+        "questions": [
+          { "text": "Find $\\frac{dy}{dx}$ if $y = x^x$.", "answer": "Taking log on both sides, we get $\\frac{dy}{dx} = x^x (1 + \\log x)$.", "marks": 4 },
+          { "text": "If $y = \\sin^{-1}(2x\\sqrt{1-x^2})$, find $\\frac{dy}{dx}$.", "answer": "Substitute $x = \\sin\\theta$. The answer is $\\frac{dy}{dx} = \\frac{2}{\\sqrt{1-x^2}}$.", "marks": 3 },
+          { "text": "Differentiate $\\tan^{-1}(\\frac{\\cos x}{1 + \\sin x})$ with respect to x.", "answer": "The simplified form is $\\tan^{-1}(\\tan(\\frac{\\pi}{4} - \\frac{x}{2}))$. The derivative is $-\\frac{1}{2}$.", "marks": 4 }
+        ]
+      },
+      {
+        "name": "Application of derivative",
+        "questions": [
+          { "text": "Find the equation of tangent to the curve $y=x^2-2x+7$ at $(1, 6)$.", "answer": "The slope at $(1, 6)$ is $0$. The equation of the tangent is $y=6$.", "marks": 3 },
+          { "text": "A spherical soap bubble is expanding so that its radius is increasing at the rate of $0.02$ cm/s. At what rate is the surface area increasing when its radius is $5$ cm?", "answer": "The rate of increase of surface area is $0.8\\pi$ cm$^2$/s.", "marks": 4 },
+          { "text": "Find the approximate value of $\\sqrt{8.95}$.", "answer": "Using differentials, the approximate value is $2.9916$.", "marks": 3 }
+        ]
+      }
+    ]
+  }
+]
