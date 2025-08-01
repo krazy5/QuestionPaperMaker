@@ -16,17 +16,27 @@ use App\Models\Chapter;
 
 class PaperController extends Controller
 {
-    public function index()
-    {
-        $instituteId = Auth::id();
+    // In app/Http/Controllers/Institute/PaperController.php
 
-            $papers = Paper::where('institute_id', $instituteId)
-                            ->with('subject.academicClass')
-                            ->latest()
-                            ->paginate(15); // <-- Change .get() to .paginate(15)
+            public function index()
+            {
+                $user = auth()->user();
+                $instituteId = $user->id;
 
-            return view('institute.papers.index', compact('papers'));
-    }
+                // Fetch the user's current active subscription
+                $activeSubscription = $user->subscriptions()
+                                            ->where('status', 'active')
+                                            ->where('ends_at', '>', now())
+                                            ->latest('starts_at') // Get the most recent one
+                                            ->first();
+
+                $papers = Paper::where('institute_id', $instituteId)
+                                ->with('subject.academicClass')
+                                ->latest()
+                                ->paginate(15);
+
+                return view('institute.papers.index', compact('papers', 'activeSubscription'));
+            }
 
     public function create()
     {

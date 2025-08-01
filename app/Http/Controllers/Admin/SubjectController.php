@@ -4,21 +4,20 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Subject;
-use App\Models\AcademicClassModel; // <-- We need this model for the dropdown
+use App\Models\AcademicClassModel;
 use Illuminate\Http\Request;
 
 class SubjectController extends Controller
 {
     public function index()
     {
-        // Eager load the class relationship to prevent N+1 issues
-        $subjects = Subject::with('academicClass')->latest()->get();
+        // Change get() to paginate(15)
+        $subjects = Subject::with('academicClass')->latest()->paginate(15);
         return view('admin.subjects.index', compact('subjects'));
     }
 
     public function create()
     {
-        // Get all classes to populate the dropdown
         $classes = AcademicClassModel::all();
         return view('admin.subjects.create', compact('classes'));
     }
@@ -30,7 +29,7 @@ class SubjectController extends Controller
             'class_id' => 'required|exists:academic_class_models,id',
         ]);
         Subject::create($validated);
-        return redirect()->route('subjects.index')->with('success', 'Subject created successfully!');
+        return redirect()->route('admin.subjects.index')->with('success', 'Subject created successfully!');
     }
 
     public function edit(Subject $subject)
@@ -46,12 +45,12 @@ class SubjectController extends Controller
             'class_id' => 'required|exists:academic_class_models,id',
         ]);
         $subject->update($validated);
-        return redirect()->route('subjects.index')->with('success', 'Subject updated successfully!');
+        return redirect()->route('admin.subjects.index')->with('success', 'Subject updated successfully!');
     }
 
     public function destroy(Subject $subject)
     {
         $subject->delete();
-        return redirect()->route('subjects.index')->with('success', 'Subject deleted successfully!');
+        return redirect()->route('admin.subjects.index')->with('success', 'Subject deleted successfully!');
     }
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head><title>Edit Subject</title><link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"></head>
 <body><header><h1>Edit Subject: {{ $subject->name }}</h1></header><main>
-<form action="{{ route('subjects.update', $subject) }}" method="POST">
+<form action="{{ route('admin.subjects.update', $subject) }}" method="POST">
     @csrf @method('PUT')
     <div><label for="name">Subject Name</label><input type="text" name="name" id="name" value="{{ $subject->name }}" required></div>
     <div><label for="class_id">Class</label>
@@ -12,6 +12,6 @@
             @endforeach
         </select>
     </div>
-    <button type="submit">Update Subject</button><a href="{{ route('subjects.index') }}">Cancel</a>
+    <button type="submit">Update Subject</button><a href="{{ route('admin.subjects.index') }}">Cancel</a>
 </form>
 </main></body></html>

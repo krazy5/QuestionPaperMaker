@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute; // <-- Import this
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -36,61 +37,57 @@ class Question extends Model
 
     /**
      * The attributes that should be cast.
-     * This helps handle special data types automatically.
+     * We will keep this for good practice.
      *
      * @var array<string, string>
      */
     protected $casts = [
-        'options' => 'array',    // Convert the JSON 'options' column to a PHP array
-        'approved' => 'boolean', // Convert the 'approved' column to true/false
+        'approved' => 'boolean',
     ];
+
+    /**
+     * THIS IS THE NEW, ROBUST FIX.
+     *
+     * This is an accessor that automatically decodes the 'options' attribute
+     * from a JSON string into a PHP array whenever you access it.
+     * This is more explicit than $casts and will solve the issue.
+     */
+    protected function options(): Attribute
+    {
+        return Attribute::make(
+            get: fn ($value) => json_decode($value, true),
+            set: fn ($value) => json_encode($value),
+        );
+    }
 
     // --- RELATIONSHIPS ---
 
-    /**
-     * Get the institute that created the question (if any).
-     * This relationship is optional because an admin might create questions.
-     */
     public function institute(): BelongsTo
     {
+        // Note: You may need to add 'use App\Models\User;' at the top
         return $this->belongsTo(User::class, 'institute_id');
     }
 
-    /**
-     * Get the board for this question.
-     */
     public function board(): BelongsTo
     {
         return $this->belongsTo(Board::class);
     }
 
-    /**
-     * Get the class for this question.
-     */
     public function academicClass(): BelongsTo
     {
         return $this->belongsTo(AcademicClassModel::class, 'class_id');
     }
 
-    /**
-     * Get the subject for this question.
-     */
     public function subject(): BelongsTo
     {
         return $this->belongsTo(Subject::class);
     }
 
-    /**
-     * Get the chapter for this question.
-     */
     public function chapter(): BelongsTo
     {
         return $this->belongsTo(Chapter::class);
     }
 
-    /**
-     * The papers that this question belongs to.
-     */
     public function papers(): BelongsToMany
     {
         return $this->belongsToMany(Paper::class, 'paper_questions');

@@ -7,7 +7,7 @@
 <body>
 <header><h1>Add New Chapter</h1></header>
 <main>
-    <form action="{{ route('chapters.store') }}" method="POST">
+    <form action="{{ route('admin.chapters.store') }}" method="POST">
         @csrf
 
         <div>
@@ -33,7 +33,7 @@
         </div>
         
         <button type="submit">Save Chapter</button>
-        <a href="{{ route('chapters.index') }}">Cancel</a>
+        <a href="{{ route('admin.chapters.index') }}">Cancel</a>
     </form>
 </main>
 

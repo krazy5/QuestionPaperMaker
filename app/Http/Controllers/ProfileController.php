@@ -14,10 +14,19 @@ class ProfileController extends Controller
     /**
      * Display the user's profile form.
      */
-    public function edit(Request $request): View
+     public function edit(Request $request): View
     {
+        // Get the authenticated user
+        $user = $request->user();
+
+        // Fetch all of the user's subscriptions, ordered by the most recent
+        $subscriptions = $user->subscriptions()->latest('starts_at')->get();
+
         return view('profile.edit', [
-            'user' => $request->user(),
+            'user' => $user,
+            'mustVerifyEmail' => $request->user() instanceof MustVerifyEmail,
+            'status' => session('status'),
+            'subscriptions' => $subscriptions, // Pass the new subscription data
         ]);
     }
 

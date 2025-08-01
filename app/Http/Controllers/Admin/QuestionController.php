@@ -19,7 +19,9 @@ class QuestionController extends Controller
     public function index()
     {
         // Eager load relationships for efficiency
-        $questions = Question::with('subject.academicClass', 'chapter', 'board')->latest()->get();
+        $questions = Question::with('subject.academicClass', 'chapter', 'board')
+                             ->latest()
+                             ->paginate(15);
 
         return view('admin.questions.index', compact('questions'));
     }
@@ -69,7 +71,7 @@ class QuestionController extends Controller
 
             Question::create($validated);
 
-            return redirect()->route('questions.index')->with('success', 'Question added successfully!');
+            return redirect()->route('admin.questions.index')->with('success', 'Question added successfully!');
         }
     /**
          * Show the form for editing the specified resource.
@@ -119,7 +121,7 @@ class QuestionController extends Controller
 
             $question->update($validated);
 
-            return redirect()->route('questions.index')->with('success', 'Question updated successfully!');
+            return redirect()->route('admin.questions.index')->with('success', 'Question updated successfully!');
         }
 
     /**
@@ -142,6 +144,6 @@ class QuestionController extends Controller
         $question->delete();
 
         // Redirect back to the question list with a success message
-        return redirect()->route('questions.index')->with('success', 'Question deleted successfully!');
+        return redirect()->route('admin.questions.index')->with('success', 'Question deleted successfully!');
     }
 }

@@ -19,7 +19,7 @@
             </div>
         @endif
 
-        <form action="{{ route('questions.store') }}" method="POST">
+        <form action="{{ route('admin.questions.store') }}" method="POST">
             @csrf
             
             <p><strong>Academic Details</strong></p>
@@ -81,7 +81,7 @@
             <textarea name="solution_text" id="solution_text" rows="5"></textarea>
 
             <button type="submit">Save Question</button>
-            <a href="{{ route('questions.index') }}">Cancel</a>
+            <a href="{{ route('admin.questions.index') }}">Cancel</a>
         </form>
     </main>
 

@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <title>Preview: {{ $paper->title }}</title>
     
+    {{-- MathJax Configuration --}}
     <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
       }
     };
     </script>
-     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-   
+    {{-- MathJax Library --}}
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <style>
         body { font-family: DejaVu Sans, sans-serif; font-size: 14px; background-color: #f0f0f0; }
@@ -22,7 +22,7 @@
         .instructions { border: 1px solid #ccc; padding: 10px; margin-bottom: 20px; }
         .question { margin-bottom: 20px; page-break-inside: avoid; }
         .question-text { font-weight: bold; }
-        .options { margin-left: 20px; }
+        .options { margin-left: 20px; margin-top: 10px; }
         .marks { float: right; font-weight: bold; }
         .print-button-container { text-align: center; padding: 20px; }
 
@@ -38,7 +38,7 @@
 </head>
 <body>
     <div class="print-button-container no-print">
-        <button onclick="window.print()">Print or Save as PDF</button>
+        <button onclick="window.print()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Print or Save as PDF</button>
     </div>
 
     <div class="container">
@@ -63,13 +63,22 @@
                     <span class="marks">[{{ $question->pivot->marks }} Marks]</span>
                 </p>
                 
-                @if($question->question_type === 'mcq' && is_array($question->options))
-                    <div class="options">
-                        @foreach($question->options as $optionIndex => $option)
-                            <p>({{ chr(65 + $optionIndex) }}) {!! $option !!}</p>
-                        @endforeach
-                    </div>
+                {{-- THIS IS THE NEW MANUAL DECODING LOGIC --}}
+                @if($question->question_type === 'mcq')
+                    @php
+                        $optionsArray = json_decode($question->options, true);
+                    @endphp
+                    @if(is_array($optionsArray))
+                        <div class="options">
+                            @foreach($optionsArray as $optionIndex => $option)
+                                <p style="margin: 5px 0;">({{ chr(65 + $optionIndex) }}) {!! $option !!}</p>
+                            @endforeach
+                        </div>
+                    @endif
                 @endif
+
+                {{-- For True/False, we just show the question text, the answer is in the answer key --}}
+
             </div>
         @endforeach
     </div>

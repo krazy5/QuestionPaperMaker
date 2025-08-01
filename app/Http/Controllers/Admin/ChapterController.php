@@ -4,14 +4,15 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Chapter;
-use App\Models\Subject; // <-- We need this model for the dropdown
+use App\Models\Subject;
 use Illuminate\Http\Request;
 
 class ChapterController extends Controller
 {
     public function index()
     {
-        $chapters = Chapter::with('subject.academicClass')->latest()->get();
+        // Change get() to paginate(15)
+        $chapters = Chapter::with('subject.academicClass')->latest()->paginate(15);
         return view('admin.chapters.index', compact('chapters'));
     }
 
@@ -28,7 +29,7 @@ class ChapterController extends Controller
             'subject_id' => 'required|exists:subjects,id',
         ]);
         Chapter::create($validated);
-        return redirect()->route('chapters.index')->with('success', 'Chapter created successfully!');
+        return redirect()->route('admin.chapters.index')->with('success', 'Chapter created successfully!');
     }
 
     public function edit(Chapter $chapter)
@@ -44,12 +45,12 @@ class ChapterController extends Controller
             'subject_id' => 'required|exists:subjects,id',
         ]);
         $chapter->update($validated);
-        return redirect()->route('chapters.index')->with('success', 'Chapter updated successfully!');
+        return redirect()->route('admin.chapters.index')->with('success', 'Chapter updated successfully!');
     }
 
     public function destroy(Chapter $chapter)
     {
         $chapter->delete();
-        return redirect()->route('chapters.index')->with('success', 'Chapter deleted successfully!');
+        return redirect()->route('admin.chapters.index')->with('success', 'Chapter deleted successfully!');
     }
 }

@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Manage Questions') }}
+            {{ __('My Question Bank') }}
         </h2>
     </x-slot>
 
@@ -17,9 +17,8 @@
                     @endif
 
                     <div class="flex justify-between items-center mb-4">
-                        <h3 class="text-lg font-medium text-gray-900">Question Bank</h3>
-                        {{-- Corrected route name --}}
-                        <a href="{{ route('admin.questions.create') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">+ Add New Question</a>
+                        <h3 class="text-lg font-medium text-gray-900">My Private Questions</h3>
+                        <a href="{{ route('institute.questions.create') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">+ Add New Question</a>
                     </div>
                     
                     <div class="overflow-x-auto">
@@ -39,9 +38,9 @@
                                         <td class="px-6 py-4 whitespace-nowrap">{{ $question->subject->name ?? 'N/A' }}</td>
                                         <td class="px-6 py-4 whitespace-nowrap">{{ strtoupper($question->question_type) }}</td>
                                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                            {{-- Corrected route names --}}
-                                            <a href="{{ route('admin.questions.edit', $question) }}" class="text-indigo-600 hover:text-indigo-900 mr-4">Edit</a>
-                                            <form action="{{ route('admin.questions.destroy', $question) }}" method="POST" class="inline">
+                                            {{-- UPDATED LINKS --}}
+                                            <a href="{{ route('institute.questions.edit', $question) }}" class="text-indigo-600 hover:text-indigo-900 mr-4">Edit</a>
+                                            <form action="{{ route('institute.questions.destroy', $question) }}" method="POST" class="inline">
                                                 @csrf
                                                 @method('DELETE')
                                                 <button type="submit" class="text-red-600 hover:text-red-900" onclick="return confirm('Are you sure?')">Delete</button>
@@ -50,14 +49,13 @@
                                     </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="4" class="px-6 py-4 text-center text-gray-500">No questions found.</td>
+                                        <td colspan="4" class="px-6 py-4 text-center text-gray-500">You have not created any questions yet.</td>
                                     </tr>
                                 @endforelse
                             </tbody>
                         </table>
                     </div>
 
-                    {{-- Added pagination links --}}
                     <div class="mt-4">
                         {{ $questions->links() }}
                     </div>

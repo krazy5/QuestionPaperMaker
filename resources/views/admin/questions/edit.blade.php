@@ -25,7 +25,7 @@
             </div>
         @endif
 
-        <form action="{{ route('questions.update', $question) }}" method="POST">
+        <form action="{{ route('admin.questions.update', $question) }}" method="POST">
             @csrf
             @method('PUT')
 
@@ -111,7 +111,7 @@
             <textarea name="solution_text" id="solution_text" rows="5">{{ $question->solution_text }}</textarea>
 
             <button type="submit">Update Question</button>
-            <a href="{{ route('questions.index') }}">Cancel</a>
+            <a href="{{ route('admin.questions.index') }}">Cancel</a>
         </form>
     </main>
     
