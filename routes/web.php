@@ -13,6 +13,7 @@ use App\Http\Controllers\Admin\QuestionController;
 use App\Http\Controllers\Admin\InstituteController;
 use App\Http\Controllers\Institute\PaperController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\Admin\PaperBlueprintController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -63,6 +64,12 @@ Route::middleware(['auth', 'role:admin'])->prefix('admin')->name('admin.')->grou
     Route::post('/institutes/{institute}/subscriptions', [InstituteController::class, 'storeSubscription'])->name('institutes.subscriptions.store');
      // ADD THIS NEW ROUTE for cancelling a specific subscription
     Route::post('/subscriptions/{subscription}/cancel', [InstituteController::class, 'cancelSubscription'])->name('institutes.subscriptions.cancel');
+    
+    Route::resource('blueprints', PaperBlueprintController::class);
+    Route::post('/blueprints/{blueprint}/sections', [PaperBlueprintController::class, 'storeSection'])->name('blueprints.sections.store');
+    Route::post('/blueprints/sections/{section}/rules', [PaperBlueprintController::class, 'storeRule'])->name('blueprints.sections.rules.store');
+Route::delete('/blueprints/rules/{rule}', [PaperBlueprintController::class, 'destroyRule'])->name('blueprints.rules.destroy');
+
 });
 
 // --- Institute Routes ---
@@ -86,6 +93,14 @@ Route::middleware(['auth', 'role:institute'])->prefix('institute')->name('instit
     Route::put('/papers/{paper}', [PaperController::class, 'update'])->name('papers.update');
     Route::delete('/papers/{paper}', [PaperController::class, 'destroy'])->name('papers.destroy');
     Route::get('/papers/{paper}/answers', [PaperController::class, 'previewAnswers'])->name('papers.answers');
+
+
+    // ADD THESE TWO NEW ROUTES FOR INSTANT SAVING
+    Route::post('/papers/{paper}/questions/{question}/attach', [PaperController::class, 'attachQuestion'])->name('papers.questions.attach');
+    Route::post('/papers/{paper}/questions/{question}/detach', [PaperController::class, 'detachQuestion'])->name('papers.questions.detach');
+     
+    Route::get('/papers/{paper}/fulfill-blueprint', [PaperController::class, 'fulfillBlueprint'])->name('papers.fulfill_blueprint');
+Route::post('/papers/{paper}/auto-fill', [PaperController::class, 'autoFillBlueprint'])->name('papers.auto_fill');
 
 });
 

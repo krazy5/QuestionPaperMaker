@@ -1,0 +1,40 @@
+[
+  {
+    "type": "mcq",
+    "text": "The principal value branch of $\\sec^{-1}x$ is... (Board 2024)",
+    "options": ["$(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$", "$[0, \\pi] - \\{\\frac{\\pi}{2}\\}$", "$[0, \\pi]$", "$(0, \\pi)$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In $\\triangle ABC$, if $c^2 + a^2 - b^2 = ac$, then $\\angle B = $... (Board 2023)",
+    "options": ["$\\frac{\\pi}{4}$", "$\\frac{\\pi}{3}$", "$\\frac{\\pi}{2}$", "$\\frac{\\pi}{6}$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the principal solution of $\\sin(x) = \\frac{1}{\\sqrt{2}}$. (Board 2023)",
+    "answer": "The principal solutions are $x = \\frac{\\pi}{4}$ and $x = \\frac{3\\pi}{4}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In $\\triangle ABC$, prove that $a(\\sin B - \\sin C) + b(\\sin C - \\sin A) + c(\\sin A - \\sin B) = 0$. (Board 2024)",
+    "answer": "Using the sine rule, $a = k\\sin A, b = k\\sin B, c = k\\sin C$. Substituting these into the LHS gives $k\\sin A(\\sin B - \\sin C) + k\\sin B(\\sin C - \\sin A) + k\\sin C(\\sin A - \\sin B)$. Expanding this expression results in all terms cancelling out, proving the identity.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, prove that $\\tan(\\frac{C-A}{2}) = \\frac{c-a}{c+a} \\cot(\\frac{B}{2})$. (Board 2023)",
+    "answer": "This is a direct application of Napier's Analogy. Starting with the formula $\\tan(\\frac{C-A}{2}) = \\frac{c-a}{c+a} \\cot(\\frac{B}{2})$, we can prove it using the sine rule and properties of triangles.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the general solution of $\\cos(x) = -\\frac{1}{2}$. (Board 2024)",
+    "answer": "We know $\\cos(\\frac{\\pi}{3}) = \\frac{1}{2}$. Since $\\cos(\\pi - \\theta) = -\\cos\\theta$, we have $\\cos(\\pi - \\frac{\\pi}{3}) = \\cos(\\frac{2\\pi}{3}) = -\\frac{1}{2}$. The general solution for $\\cos x = \\cos \\alpha$ is $x = 2n\\pi \\pm \\alpha$. Therefore, the general solution is $x = 2n\\pi \\pm \\frac{2\\pi}{3}$, where $n \\in Z$.",
+    "marks": 3
+  }
+]

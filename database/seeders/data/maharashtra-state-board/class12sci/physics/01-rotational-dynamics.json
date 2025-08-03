@@ -1,0 +1,79 @@
+[
+  {
+    "type": "mcq",
+    "text": "When the bob performs a vertical circular motion and the string rotates in a vertical plane, the difference in the tension in the string at horizontal position and uppermost position is _______. (Board 2022)",
+    "options": ["mg", "2mg", "3mg", "6mg"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The angular momentum of a system of particles is conserved when... (Board 2021)",
+    "options": ["no external force acts upon the system.", "no external torque acts upon the system.", "no external impulse acts upon the system.", "axis of rotation remains the same."],
+    "correct_answer": "B",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "A diver in a swimming pool bends his head before diving. It _______. (Board 2021)",
+    "options": ["Increases his linear velocity.", "Decreases his angular velocity.", "Increases his moment of inertia.", "Decreases his moment of inertia."],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The moment of inertia of a thin uniform rod about an axis passing through its centre and perpendicular to its length is... (Board 2024)",
+    "options": ["$ML^2/3$", "$ML^2/12$", "$2ML^2/5$", "$MR^2$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A particle is moving in a circle with uniform speed. Its motion is... (Board 2023)",
+    "options": ["simple harmonic", "oscillatory", "periodic but not simple harmonic", "non-periodic"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State the theorem of parallel axes about moment of inertia. (Board 2024)",
+    "answer": "The theorem of parallel axes states that the moment of inertia ($I$) of a body about any axis is equal to the sum of its moment of inertia ($I_c$) about a parallel axis passing through its centre of mass and the product of its mass ($M$) and the square of the distance ($h$) between the two axes. Formula: $I = I_c + Mh^2$.",
+    "marks": 2
+  },
+    {
+    "type": "short",
+    "text": "Define moment of inertia of a rotating rigid body. State its SI unit and dimensions. (Board 2022)",
+    "answer": "Moment of inertia is defined as the sum of the product of the mass of each particle and the square of its distance from the axis of rotation. SI unit: kg m$^2$. Dimensions: $[M^1L^2T^0]$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define radius of gyration and write its physical significance. (Board 2023)",
+    "answer": "The radius of gyration of a body about a given axis is the distance from the axis of rotation to a point where the entire mass of the body is supposed to be concentrated, so as to give the same moment of inertia. Its physical significance is that it indicates how the mass of the body is distributed about the axis of rotation.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A solid sphere of mass 1 kg and radius 0.5 m rolls without slipping on a horizontal surface. If its linear speed is 2 m/s, calculate its total kinetic energy. (Board 2024)",
+    "answer": "Total K.E. = Translational K.E. + Rotational K.E. = $\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$. For a solid sphere, $I = \\frac{2}{5}mr^2$ and $\\omega = v/r$. Total K.E. = $\\frac{1}{2}mv^2(1 + \\frac{K^2}{R^2}) = \\frac{1}{2}mv^2(1 + \\frac{2}{5}) = \\frac{7}{10}mv^2$. Substituting values, Total K.E. = $\\frac{7}{10}(1)(2)^2 = 2.8$ J.",
+    "marks": 3
+  },
+    {
+    "type": "long",
+    "text": "In a Circus, a motor-cyclist having mass of 50 kg moves in a spherical cage of radius 3 m. Calculate the least velocity with which he must pass the highest point without losing contact. (g = $9.8 \\text{ m/s}^2$) (Board 2020)",
+    "answer": "At the highest point, the minimum velocity is given by $v_{min} = \\sqrt{rg}$. Substituting the values, $v_{min} = \\sqrt{3 \\times 9.8} = \\sqrt{29.4} \\approx 5.42$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the kinetic energy of a rotating body. (Board 2023)",
+    "answer": "Consider a rigid body rotating with constant angular velocity $\\omega$. It consists of n particles of masses $m_1, m_2, ..., m_n$ at distances $r_1, r_2, ..., r_n$ from the axis. The linear velocity of a particle is $v_i = r_i\\omega$. The K.E. of the i-th particle is $\\frac{1}{2}m_iv_i^2 = \\frac{1}{2}m_i(r_i\\omega)^2$. The total K.E. is the sum of the K.E. of all particles: $K.E._{total} = \\sum \\frac{1}{2}m_ir_i^2\\omega^2 = \\frac{1}{2}(\\sum m_ir_i^2)\\omega^2$. Since $I = \\sum m_ir_i^2$, the final expression is $K.E. = \\frac{1}{2}I\\omega^2$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "State and prove the law of conservation of angular momentum. (Board 2024)",
+    "answer": "The law of conservation of angular momentum states that if the net external torque acting on a body is zero, its angular momentum remains constant. Proof: We know that torque $\\vec{\\tau} = \\frac{d\\vec{L}}{dt}$. If the net external torque is zero, then $\\frac{d\\vec{L}}{dt} = 0$. This implies that $\\vec{L}$ is a constant vector.",
+    "marks": 4
+  }
+]

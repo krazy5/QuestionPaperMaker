@@ -1,0 +1,40 @@
+[
+  {
+    "type": "mcq",
+    "text": "The angle of contact for pure water and clean glass is... (Board 2024)",
+    "options": ["$90^\\circ$", "$0^\\circ$", "$140^\\circ$", "$45^\\circ$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The property of a liquid to oppose the relative motion between its layers is called... (Board 2023)",
+    "options": ["surface tension", "elasticity", "viscosity", "capillarity"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is capillarity? Give one application where this phenomenon is used. (Board 2024)",
+    "answer": "The phenomenon of rise or fall of a liquid inside a narrow tube (capillary tube) is called capillarity. An application is the absorption of ink by a blotting paper or the rise of oil in the wick of a lamp.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State Stokes' law and write the formula for the viscous force acting on a spherical object. (Board 2023)",
+    "answer": "Stokes' law states that the viscous force (F) acting on a small spherical object falling through a viscous medium is directly proportional to the radius of the sphere (r), its velocity (v), and the coefficient of viscosity ($\\eta$) of the fluid. The formula is $F = 6\\pi\\eta rv$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the work done in blowing a soap bubble to a radius of 0.1 m. The surface tension of the soap solution is $0.03$ N/m. (Board 2024)",
+    "answer": "A soap bubble has two free surfaces. The initial surface area is 0. The final surface area is $A = 2 \\times (4\\pi r^2)$. Work done $W = T \\times A = T \\times 8\\pi r^2$. Substituting values, $W = 0.03 \\times 8 \\times \\pi \\times (0.1)^2 = 0.0024\\pi$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A hydraulic lift is designed to lift cars with a maximum mass of 3000 kg. The area of the cross-section of the piston carrying the load is $425 \\text{ cm}^2$. What maximum pressure would the smaller piston have to bear? (g = $9.8 \\text{ m/s}^2$) (Board 2023)",
+    "answer": "According to Pascal's law, the pressure is transmitted equally. First, find the force on the larger piston: $F_2 = mg = 3000 \\times 9.8 = 29400$ N. Convert area to m$^2$: $A_2 = 425 \\text{ cm}^2 = 425 \\times 10^{-4} \\text{ m}^2$. The pressure on the larger piston is $P_2 = F_2/A_2 = 29400 / (425 \\times 10^{-4})$. This pressure is the same as on the smaller piston. $P = 6.917 \\times 10^5$ Pa.",
+    "marks": 3
+  }
+]

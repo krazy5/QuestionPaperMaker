@@ -5,161 +5,151 @@
         </h2>
     </x-slot>
 
-    {{-- MathJax Configuration --}}
+    {{-- MathJax Configuration and Library --}}
     <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
       }
     };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
+  {{-- NEW: Floating Marks Counter --}}
+    {{-- UPDATED: Added z-50 class to ensure it's on top --}}
+    <div id="marks-counter" class="fixed bottom-5 right-5 z-50 bg-gray-800 text-white py-3 px-5 rounded-lg shadow-lg text-lg">
+        Selected Marks: <span id="selected-marks-count" class="font-bold">{{ $currentMarks }}</span> / {{ $paper->total_marks }}
+    </div>
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <form action="{{ route('institute.papers.questions.save', $paper) }}" method="POST">
-                @csrf
-                <div class="bg-white shadow-sm sm:rounded-lg">
-                    <div class="p-6 text-gray-900 flex space-x-6">
+            <div class="bg-white shadow-sm sm:rounded-lg">
+                <div class="p-6 text-gray-900 flex flex-col md:flex-row md:space-x-6">
 
-                         {{-- Left Column: Chapter List --}}
-                        <div class="w-1/4 border-r pr-6">
-                            <h3 class="text-lg font-medium mb-4">Chapters</h3>
-                            <ul class="space-y-2" id="chapter-list">
-                                <li>
-                                    <a href="#" class="chapter-link block p-2 rounded bg-blue-500 text-white" data-chapter-id="all">
-                                        All Chapters
-                                    </a>
-                                </li>
-                                @foreach($chapters as $chapter)
-                                    <li>
-                                        <a href="#" class="chapter-link block p-2 rounded hover:bg-gray-100" data-chapter-id="{{ $chapter->id }}">
-                                            {{ $chapter->name }}
-                                        </a>
-                                    </li>
-                                @endforeach
-                            </ul>
-                        </div>
-
-                        {{-- Right Column: Question List --}}
-                        <div class="w-3/4">
-                            <div class="flex justify-between items-center mb-4">
-                                <h3 class="text-lg font-medium">Available Questions</h3>
-                                <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Save Selections & Finish</button>
-                            </div>
+                    {{-- Left Column: Filters --}}
+                    <div class="w-full md:w-1/4 border-b md:border-b-0 md:border-r pb-6 md:pb-0 md:pr-6 mb-6 md:mb-0">
+                        <form id="filter-form" method="GET" action="{{ route('institute.papers.questions.select', $paper) }}">
+                            <h3 class="text-lg font-medium mb-4">Filters</h3>
                             
-                            {{-- Filter by Question Type --}}
-                            <div class="mb-4 p-4 border rounded-lg bg-gray-50">
-                                <h4 class="font-medium mb-2 text-sm text-gray-600">Filter by Type</h4>
-                                <div class="flex flex-wrap gap-x-6 gap-y-2">
-                                    <div><label class="inline-flex items-center"><input type="checkbox" class="type-filter-checkbox rounded" value="mcq" checked> <span class="ml-2">MCQ</span></label></div>
-                                    <div><label class="inline-flex items-center"><input type="checkbox" class="type-filter-checkbox rounded" value="long" checked> <span class="ml-2">Long Answer</span></label></div>
-                                    <div><label class="inline-flex items-center"><input type="checkbox" class="type-filter-checkbox rounded" value="short" checked> <span class="ml-2">Short Answer</span></label></div>
-                                    <div><label class="inline-flex items-center"><input type="checkbox" class="type-filter-checkbox rounded" value="true_false" checked> <span class="ml-2">True/False</span></label></div>
+                            <div class="mb-6">
+                                <h4 class="font-medium mb-2 text-sm text-gray-600">Chapter</h4>
+                                <select name="chapter" onchange="this.form.submit()" class="w-full rounded-md border-gray-300 shadow-sm">
+                                    <option value="all" @selected($currentChapter == 'all')>All Chapters</option>
+                                    @foreach($chapters as $chapter)
+                                        <option value="{{ $chapter->id }}" @selected($currentChapter == $chapter->id)>{{ $chapter->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+
+                            <div>
+                                <h4 class="font-medium mb-2 text-sm text-gray-600">Question Type</h4>
+                                <div class="space-y-2">
+                                    <div><label class="inline-flex items-center"><input type="checkbox" name="types[]" class="type-filter-checkbox rounded" value="mcq" @checked(in_array('mcq', $currentTypes))> <span class="ml-2">MCQ</span></label></div>
+                                    <div><label class="inline-flex items-center"><input type="checkbox" name="types[]" class="type-filter-checkbox rounded" value="long" @checked(in_array('long', $currentTypes))> <span class="ml-2">Long Answer</span></label></div>
+                                    <div><label class="inline-flex items-center"><input type="checkbox" name="types[]" class="type-filter-checkbox rounded" value="short" @checked(in_array('short', $currentTypes))> <span class="ml-2">Short Answer</span></label></div>
+                                    <div><label class="inline-flex items-center"><input type="checkbox" name="types[]" class="type-filter-checkbox rounded" value="true_false" @checked(in_array('true_false', $currentTypes))> <span class="ml-2">True/False</span></label></div>
+                                    <button type="submit" class="mt-2 w-full px-4 py-2 bg-red-600 text-white rounded-md text-sm">Apply Filters</button>
                                 </div>
                             </div>
+                        </form>
+                    </div>
 
-                            {{-- Question List --}}
-                            <div id="question-list" class="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
-                                @forelse ($questions as $question)
-                                    <div class="question-item p-4 border rounded-lg" data-chapter-id="{{ $question->chapter_id }}" data-question-type="{{ $question->question_type }}">
-                                        <label class="flex items-start space-x-3">
-                                            <input 
-                                                type="checkbox" 
-                                                name="questions[]" 
-                                                value="{{ $question->id }}"
-                                                class="mt-1"
-                                                @checked(in_array($question->id, $existingQuestionIds->toArray()))
-                                            >
-                                            <div class="flex-1">
-                                                <div class="font-semibold">{!! $question->question_text !!}</div>
-                                                
-                                                @if($question->question_type === 'mcq')
-                                                    @php
-                                                        $optionsArray = json_decode($question->options, true);
-                                                    @endphp
-                                                    @if(is_array($optionsArray))
-                                                        <div class="mt-2 pl-4 text-sm text-gray-700 space-y-1">
-                                                            @foreach($optionsArray as $index => $option)
-                                                                <div>
-                                                                    <span class="font-semibold">{{ chr(65 + $index) }})</span> {!! $option !!}
-                                                                </div>
-                                                            @endforeach
-                                                        </div>
-                                                    @endif
+                    {{-- Right Column: Question List --}}
+                    <div class="w-full md:w-3/4">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-lg font-medium">Available Questions</h3>
+                            <a href="{{ route('institute.dashboard') }}" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700">Finish & Go to Dashboard</a>
+                        </div>
+                        
+                        <div id="question-list-wrapper" class="space-y-4 min-h-[60vh]">
+                            @forelse ($questions as $question)
+                                <div class="question-item p-4 border rounded-lg">
+                                    <label class="flex items-start space-x-3">
+                                        <input 
+                                            type="checkbox" 
+                                            class="question-checkbox mt-1 rounded"
+                                            value="{{ $question->id }}"
+                                            data-marks="{{ $question->marks }}" {{-- Add marks data --}}
+                                            @checked($existingQuestionIds->contains($question->id))
+                                        >
+                                        <div class="flex-1">
+                                            <div class="font-semibold">{!! $question->question_text !!}</div>
+                                            @if($question->question_type === 'mcq')
+                                                @php $optionsArray = json_decode($question->options, true); @endphp
+                                                @if(is_array($optionsArray))
+                                                    <div class="mt-2 pl-4 text-sm text-gray-700 space-y-1">
+                                                        @foreach($optionsArray as $index => $option)
+                                                            <div><span class="font-semibold">{{ chr(65 + $index) }})</span> {!! $option !!}</div>
+                                                        @endforeach
+                                                    </div>
                                                 @endif
+                                            @endif
+                                            <small class="text-gray-500 mt-2 block">
+                                               Type: {{ strtoupper($question->question_type) }} | Marks: {{ $question->marks }} | Difficulty: {{ ucfirst($question->difficulty) }}
+                                            </small>
+                                        </div>
+                                    </label>
+                                </div>
+                            @empty
+                                <div class="text-center py-12 text-gray-500">
+                                    <p>No questions found matching your current filters.</p>
+                                </div>
+                            @endforelse
+                        </div>
 
-                                                <small class="text-gray-500 mt-2 block">
-                                                    Type: {{ strtoupper($question->question_type) }} | Marks: {{ $question->marks }} | Difficulty: {{ ucfirst($question->difficulty) }}
-                                                </small>
-                                            </div>
-                                        </label>
-                                    </div>
-                                @empty
-                                    <p>No questions found for this subject.</p>
-                                @endforelse
-                            </div>
+                        <div class="mt-4">
+                            {{ $questions->links() }}
                         </div>
                     </div>
+
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 
-    {{-- JavaScript Filtering --}}
-    {{-- JavaScript Filtering --}}
+  
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const chapterLinks = document.querySelectorAll('.chapter-link');
-            const typeCheckboxes = document.querySelectorAll('.type-filter-checkbox');
-            const questionItems = document.querySelectorAll('.question-item');
-            
-            function filterQuestions() {
-                const selectedTypes = Array.from(typeCheckboxes)
-                                        .filter(cb => cb.checked)
-                                        .map(cb => cb.value);
+            const checkboxes = document.querySelectorAll('.question-checkbox');
+            const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+            const selectedMarksSpan = document.getElementById('selected-marks-count');
 
-                // --- CHANGE #1: Look for bg-blue-500, not bg-blue-600 ---
-                const activeLink = document.querySelector('.chapter-link.bg-blue-500');
-                const currentChapterId = activeLink ? activeLink.getAttribute('data-chapter-id') : 'all';
-
-                questionItems.forEach(item => {
-                    const chapterMatch = currentChapterId === 'all' || item.dataset.chapterId === currentChapterId;
-                    const typeMatch = selectedTypes.includes(item.dataset.questionType);
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const questionId = this.value;
+                    const isChecked = this.checked;
+                    const marks = parseInt(this.getAttribute('data-marks'), 10);
                     
-                    item.style.display = (chapterMatch && typeMatch) ? '' : 'none';
-                });
+                    const attachUrl = "{{ route('institute.papers.questions.attach', [$paper, ':questionId']) }}".replace(':questionId', questionId);
+                    const detachUrl = "{{ route('institute.papers.questions.detach', [$paper, ':questionId']) }}".replace(':questionId', questionId);
+                    const url = isChecked ? attachUrl : detachUrl;
 
-                if (window.MathJax) {
-                    MathJax.typesetPromise();
-                }
-            }
+                    // Update the counter immediately for a responsive feel
+                    let currentTotal = parseInt(selectedMarksSpan.textContent, 10);
+                    selectedMarksSpan.textContent = isChecked ? currentTotal + marks : currentTotal - marks;
 
-            // --- CHANGE #2: The click handler now uses the correct classes ---
-            chapterLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-
-                    // Reset all links to their default, inactive state
-                    chapterLinks.forEach(l => {
-                        l.classList.remove('bg-blue-500', 'text-white');
-                        l.classList.add('hover:bg-gray-100');
+                    fetch(url, {
+                        method: 'POST',
+                        headers: {
+                            'X-CSRF-TOKEN': csrfToken,
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json'
+                        },
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            // If the server fails, revert the change
+                            selectedMarksSpan.textContent = currentTotal;
+                            this.checked = !isChecked;
+                            alert('An error occurred. Please try again.');
+                        }
+                    })
+                    .catch(() => {
+                        selectedMarksSpan.textContent = currentTotal;
+                        this.checked = !isChecked;
+                        alert('A network error occurred. Please try again.');
                     });
-
-                    // Set the clicked link to the active state
-                    this.classList.remove('hover:bg-gray-100');
-                    this.classList.add('bg-blue-500', 'text-white');
-
-                    // Now, run the filter function
-                    filterQuestions();
                 });
             });
-
-            typeCheckboxes.forEach(cb => cb.addEventListener('change', filterQuestions));
-
-            // Initial run
-            filterQuestions();
         });
     </script>
 </x-app-layout>

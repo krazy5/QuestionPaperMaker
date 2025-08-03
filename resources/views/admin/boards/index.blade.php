@@ -34,7 +34,7 @@
         @endif
 
      
-        <a href="{{ route('boards.create') }}">
+        <a href="{{ route('admin.boards.create') }}">
             <button>+ Add New Board</button>
         </a>
 
@@ -54,8 +54,8 @@
                         <td>{{ $board->id }}</td>
                         <td>{{ $board->name }}</td>
                         <td>
-                            <a href="{{ route('boards.edit', $board) }}">Edit</a> |
-                           <form action="{{ route('boards.destroy', $board) }}" method="POST" style="display:inline;">
+                            <a href="{{ route('admin.boards.edit', $board) }}">Edit</a> |
+                           <form action="{{ route('admin.boards.destroy', $board) }}" method="POST" style="display:inline;">
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="link-button" onclick="return confirm('Are you sure you want to delete this board?')">

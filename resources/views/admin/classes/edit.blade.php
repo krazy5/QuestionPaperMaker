@@ -7,7 +7,7 @@
 <body>
     <header><h1>Edit Class: {{ $class->name }}</h1></header>
     <main>
-        <form action="{{ route('classes.update', $class) }}" method="POST">
+        <form action="{{ route('admin.classes.update', $class) }}" method="POST">
             @csrf
             @method('PUT')
             <div>
@@ -15,7 +15,7 @@
                 <input type="text" name="name" id="name" value="{{ $class->name }}" required>
             </div>
             <button type="submit">Update Class</button>
-            <a href="{{ route('classes.index') }}">Cancel</a>
+            <a href="{{ route('admin.classes.index') }}">Cancel</a>
         </form>
     </main>
 </body>

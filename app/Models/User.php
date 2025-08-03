@@ -2,33 +2,34 @@
 
 namespace App\Models;
 
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Illuminate\Database\Eloquent\Relations\HasMany; // Import HasMany
+use Laravel\Sanctum\HasApiTokens; // <-- ADD OR ENSURE THIS LINE EXISTS
 
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable;
+    use HasApiTokens, HasFactory, Notifiable; // <-- ADD OR ENSURE HasApiTokens IS HERE
 
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'name',
+        'institute_name',
         'email',
         'password',
-        'institute_name', // ADDED: So you can save the institute's name
-        'role',           // ADDED: So you can set the user's role
+        'role',
     ];
 
     /**
      * The attributes that should be hidden for serialization.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $hidden = [
         'password',
@@ -48,32 +49,19 @@ class User extends Authenticatable
         ];
     }
 
-    // --- RELATIONSHIPS (Add this entire section) ---
+    // --- RELATIONSHIPS ---
+    public function subscriptions()
+    {
+        return $this->hasMany(Subscription::class);
+    }
 
-    /**
-     * Get all of the papers for the User (Institute).
-     * This defines a one-to-many relationship. One institute can have many papers.
-     */
-    public function papers(): HasMany
+    public function papers()
     {
         return $this->hasMany(Paper::class, 'institute_id');
     }
 
-    /**
-     * Get all of the questions for the User (Institute).
-     * One institute can create many questions.
-     */
-    public function questions(): HasMany
+    public function questions()
     {
         return $this->hasMany(Question::class, 'institute_id');
-    }
-
-    /**
-     * Get all of the subscriptions for the User.
-     * One user can have many subscription records over time.
-     */
-    public function subscriptions(): HasMany
-    {
-        return $this->hasMany(Subscription::class, 'user_id');
     }
 }

@@ -22,6 +22,7 @@ $table->foreignId('class_id')->constrained('academic_class_models')->onDelete('c
 
             $table->string('title');
             $table->text('instructions')->nullable();
+            $table->string('time_allowed')->default('3 Hrs');
             $table->integer('total_marks')->default(0);
             $table->enum('status', ['draft', 'final'])->default('draft');
 

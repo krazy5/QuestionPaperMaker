@@ -7,14 +7,14 @@
 <body>
     <header><h1>Add New Class</h1></header>
     <main>
-        <form action="{{ route('classes.store') }}" method="POST">
+        <form action="{{ route('admin.classes.store') }}" method="POST">
             @csrf
             <div>
                 <label for="name">Class Name</label>
                 <input type="text" name="name" id="name" required>
             </div>
             <button type="submit">Save Class</button>
-            <a href="{{ route('classes.index') }}">Cancel</a>
+            <a href="{{ route('admin.classes.index') }}">Cancel</a>
         </form>
     </main>
 </body>

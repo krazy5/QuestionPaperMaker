@@ -23,7 +23,7 @@ class ClassController extends Controller
     {
         $validated = $request->validate(['name' => 'required|string|max:255|unique:academic_class_models']);
         AcademicClassModel::create($validated);
-        return redirect()->route('classes.index')->with('success', 'Class created successfully!');
+        return redirect()->route('admin.classes.index')->with('success', 'Class created successfully!');
     }
 
     public function edit(AcademicClassModel $class)
@@ -35,12 +35,12 @@ class ClassController extends Controller
     {
         $validated = $request->validate(['name' => 'required|string|max:255|unique:academic_class_models,name,' . $class->id]);
         $class->update($validated);
-        return redirect()->route('classes.index')->with('success', 'Class updated successfully!');
+        return redirect()->route('admin.classes.index')->with('success', 'Class updated successfully!');
     }
 
     public function destroy(AcademicClassModel $class)
     {
         $class->delete();
-        return redirect()->route('classes.index')->with('success', 'Class deleted successfully!');
+        return redirect()->route('admin.classes.index')->with('success', 'Class deleted successfully!');
     }
 }

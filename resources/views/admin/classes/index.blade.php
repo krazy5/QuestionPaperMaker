@@ -11,7 +11,7 @@
         @if (session('success'))
             <div class="notice"><p>{{ session('success') }}</p></div>
         @endif
-        <a href="{{ route('classes.create') }}"><button>+ Add New Class</button></a>
+        <a href="{{ route('admin.classes.create') }}"><button>+ Add New Class</button></a>
         <hr>
         <table>
             <thead><tr><th>ID</th><th>Name</th><th>Actions</th></tr></thead>
@@ -21,8 +21,8 @@
                         <td>{{ $class->id }}</td>
                         <td>{{ $class->name }}</td>
                         <td>
-                            <a href="{{ route('classes.edit', $class) }}">Edit</a> |
-                            <form action="{{ route('classes.destroy', $class) }}" method="POST" style="display:inline;">
+                            <a href="{{ route('admin.classes.edit', $class) }}">Edit</a> |
+                            <form action="{{ route('admin.classes.destroy', $class) }}" method="POST" style="display:inline;">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="link-button" onclick="return confirm('Are you sure?')">Delete</button>

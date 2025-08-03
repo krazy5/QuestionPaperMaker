@@ -84,7 +84,7 @@ class BoardController extends Controller
             $board->update($validated);
 
             // 3. Redirect back to the index page with a success message
-            return redirect()->route('boards.index')->with('success', 'Board updated successfully!');
+            return redirect()->route('admin.boards.index')->with('success', 'Board updated successfully!');
         }
 
     /**
@@ -99,6 +99,6 @@ class BoardController extends Controller
             $board->delete();
 
             // 2. Redirect back with a success message
-            return redirect()->route('boards.index')->with('success', 'Board deleted successfully!');
+            return redirect()->route('admin.boards.index')->with('success', 'Board deleted successfully!');
         }
 }

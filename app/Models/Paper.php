@@ -26,6 +26,7 @@ class Paper extends Model
         'instructions',
         'total_marks',
         'status',
+        'time_allowed',
     ];
 
     // --- RELATIONSHIPS ---

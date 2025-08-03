@@ -12,7 +12,7 @@
     </header>
 
     <main>
-        <form action="{{ route('boards.store') }}" method="POST">
+        <form action="{{ route('admin.boards.store') }}" method="POST">
             @csrf
 
             <div>
@@ -21,7 +21,7 @@
             </div>
 
             <button type="submit">Save Board</button>
-            <a href="{{ route('boards.index') }}">Cancel</a>
+            <a href="{{ route('admin.boards.index') }}">Cancel</a>
         </form>
     </main>
 

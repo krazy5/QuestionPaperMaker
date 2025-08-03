@@ -23,6 +23,13 @@
             <x-input-error class="mt-2" :messages="$errors->get('name')" />
         </div>
 
+         {{-- ADD THIS NEW BLOCK FOR INSTITUTE NAME --}}
+        <div>
+            <x-input-label for="institute_name" :value="__('Institute Name')" />
+            <x-text-input id="institute_name" name="institute_name" type="text" class="mt-1 block w-full" :value="old('institute_name', $user->institute_name)" required autocomplete="organization" />
+            <x-input-error class="mt-2" :messages="$errors->get('institute_name')" />
+        </div>
+        
         <div>
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input id="email" name="email" type="email" class="mt-1 block w-full" :value="old('email', $user->email)" required autocomplete="username" />

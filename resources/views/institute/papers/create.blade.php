@@ -45,7 +45,10 @@
                     <option value="{{ $subject->id }}">{{ $subject->name }} ({{ $subject->academicClass->name }})</option>
                 @endforeach
             </select>
-
+            <div>
+                      <label for="time_allowed" class="block text-sm font-medium text-gray-700">Time Allowed (e.g., "3 Hrs", "90 Mins")</label>
+                      <input type="text" name="time_allowed" id="time_allowed" value="{{ old('time_allowed', '3 Hrs') }}" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
+            </div>
             <label for="total_marks">Total Marks</label>
             <input type="number" name="total_marks" id="total_marks" value="{{ old('total_marks', 100) }}" required>
 

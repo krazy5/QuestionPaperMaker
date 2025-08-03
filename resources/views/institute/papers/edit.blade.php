@@ -51,6 +51,10 @@
             <label for="total_marks">Total Marks</label>
             <input type="number" name="total_marks" id="total_marks" value="{{ $paper->total_marks }}" required>
 
+            <div>
+                <label for="time_allowed" class="block text-sm font-medium text-gray-700">Time Allowed (e.g., "3 Hrs", "90 Mins")</label>
+                <input type="text" name="time_allowed" id="time_allowed" value="{{ old('time_allowed', $paper->time_allowed) }}" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
+            </div>
             <label for="instructions">Instructions (Optional)</label>
             <textarea name="instructions" id="instructions" rows="5">{{ $paper->instructions }}</textarea>
 

@@ -1,0 +1,10 @@
+[
+          { "text": "If $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, find the adjoint of matrix A.", "answer": "The cofactors are $C_{11}=4, C_{12}=-3, C_{21}=-2, C_{22}=1$. The Adjoint is $adj(A) = \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}$.", "marks": 3, "type": "long" },
+          { "text": "Solve the following equations by inversion method: $x + 2y = 2$ and $2x + 3y = 3$.", "answer": "The solution is $x=0, y=1$.", "marks": 4, "type": "long" },
+          { "text": "Find the inverse of the matrix $A = \\begin{pmatrix} 2 & -2 \\\\ 4 & 3 \\end{pmatrix}$ using elementary row transformations.", "answer": "The inverse is $A^{-1} = \\frac{1}{14} \\begin{pmatrix} 3 & 2 \\\\ -4 & 2 \\end{pmatrix}$.", "marks": 4, "type": "long" },
+          { "text": "If a matrix has 8 elements, what are the possible orders it can have?", "type": "mcq", "options": ["$1 \\times 8, 8 \\times 1, 2 \\times 4, 4 \\times 2$", "$1 \\times 8, 2 \\times 4$", "$8 \\times 1, 4 \\times 2$", "Only $2 \\times 4$"], "correct_answer": "A", "marks": 1 },
+          { "text": "If $A = \\begin{pmatrix} \\cos\\alpha & \\sin\\alpha \\\\ -\\sin\\alpha & \\cos\\alpha \\end{pmatrix}$, then $A A'$ is:", "type": "mcq", "options": ["$A^2$", "$I$", "$A'$", "$-A$"], "correct_answer": "B", "marks": 1 },
+          { "text": "A square matrix $A$ is said to be singular if:", "type": "mcq", "options": ["$|A| = 0$", "$|A| \\neq 0$", "$A$ is symmetric", "$A$ is skew-symmetric"], "correct_answer": "A", "marks": 1 },
+          { "text": "If $A$ and $B$ are square matrices of the same order, then $(AB)'$ is equal to:", "type": "mcq", "options": ["$A'B'$", "$B'A'$", "$AB$", "$BA$"], "correct_answer": "B", "marks": 1 },
+          { "text": "The matrix $\\begin{pmatrix} 0 & 5 & -7 \\\\ -5 & 0 & 11 \\\\ 7 & -11 & 0 \\end{pmatrix}$ is a:", "type": "mcq", "options": ["Symmetric matrix", "Skew-symmetric matrix", "Diagonal matrix", "Scalar matrix"], "correct_answer": "B", "marks": 1 }
+        ]

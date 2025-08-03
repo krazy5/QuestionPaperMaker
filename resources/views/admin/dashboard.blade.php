@@ -29,9 +29,13 @@
                         <div class="mt-8">
                             <h3 class="text-lg font-medium text-gray-900">Quick Links</h3>
                             <div class="mt-4 flex space-x-4">
+                                <a href="{{ route('admin.classes.index') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Manage Classes</a>
+                                 <a href="{{ route('admin.boards.index') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Manage Boards</a>
                                 <a href="{{ route('admin.questions.index') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Manage Questions</a>
                                 <a href="{{ route('admin.subjects.index') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Manage Subjects</a>
                                 <a href="{{ route('admin.chapters.index') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Manage Chapters</a>
+                                <a href="{{ route('admin.blueprints.index') }}" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-purple-700">Manage Blueprints</a>
+   
                                 <a href="{{ route('admin.institutes.index') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-green-700">Manage Institutes</a>
                             </div>
                         </div>
