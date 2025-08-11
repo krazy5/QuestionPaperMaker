@@ -27,6 +27,7 @@ class Paper extends Model
         'total_marks',
         'status',
         'time_allowed',
+        'exam_date', 
     ];
 
     // --- RELATIONSHIPS ---

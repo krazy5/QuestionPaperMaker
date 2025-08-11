@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mcq",
+    "text": "The radius of the first Bohr orbit in a hydrogen atom is known as... (Board 2023)",
+    "options": ["Rydberg constant", "Bohr radius", "Planck's constant", "Avogadro's number"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In hydrogen atom, an electron jumps from the 3rd orbit to the 1st orbit. The change in angular momentum is _______. (Board 2020)",
+    "options": ["$h/2\\pi$", "$2h/2\\pi$", "$3h/2\\pi$", "$h/\\pi$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process by which a heavy nucleus splits into two lighter nuclei is known as... (Board 2018)",
+    "options": ["nuclear fusion", "nuclear fission", "radioactive decay", "chain reaction"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State the mathematical formula for the third postulate of Bohr's atomic model. (Board 2022)",
+    "answer": "The third postulate of Bohr's atomic model states that the energy of an emitted photon is equal to the difference in energy between the initial and final orbits. Formula: $h\\nu = E_i - E_f$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is meant by binding energy of a nucleus? (Board 2021)",
+    "answer": "The binding energy of a nucleus is the minimum energy required to separate its constituent nucleons (protons and neutrons) to an infinite distance from each other.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define: a) Isotopes b) Isobars. (Board 2019)",
+    "answer": "a) Isotopes are nuclei having the same atomic number (Z) but different mass numbers (A). b) Isobars are nuclei having the same mass number (A) but different atomic numbers (Z).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the change in angular momentum of the electron when it jumps from the third orbit to the first orbit in a hydrogen atom. ($h = 6.63 \\times 10^{-34}$ Js) (Board 2023)",
+    "answer": "According to Bohr's second postulate, angular momentum $L = n(h/2\\pi)$. For the 3rd orbit, $L_3 = 3(h/2\\pi)$. For the 1st orbit, $L_1 = 1(h/2\\pi)$. The change is $\\Delta L = L_3 - L_1 = 2(h/2\\pi) = h/\\pi = (6.63 \\times 10^{-34}) / 3.142 \\approx 2.11 \\times 10^{-34}$ Js.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The half-life of a certain radioactive element is 10 days. Find the time required for 1 gram of the element to reduce to 0.125 gram. (Textbook Numerical)",
+    "answer": "The fraction remaining is $N/N_0 = 0.125/1 = 1/8$. We know that $N/N_0 = (1/2)^n$, so $(1/2)^n = 1/8 = (1/2)^3$. This means $n=3$ half-lives have passed. The total time required is $t = n \\times T_{1/2} = 3 \\times 10 = 30$ days.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the radius of the nth Bohr orbit for the hydrogen atom. (Board 2022)",
+    "answer": "The derivation involves equating the centripetal force ($mv^2/r$) with the electrostatic force of attraction between the electron and the nucleus ($e^2/(4\\pi\\epsilon_0 r^2)$) and using Bohr's quantization condition for angular momentum ($mvr = nh/2\\pi$). Solving these two equations for r gives the expression: $r_n = \\frac{\\epsilon_0 n^2 h^2}{\\pi m e^2}$.",
+    "marks": 4
+  }
+]

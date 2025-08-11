@@ -1,4 +1,8 @@
 php artisan tinker --execute="DB::statement('SET FOREIGN_KEY_CHECKS=0;'); DB::table('paper_questions')->truncate(); DB::table('papers')->truncate(); DB::table('questions')->truncate(); DB::table('chapters')->truncate(); DB::table('subjects')->truncate(); DB::table('academic_class_models')->truncate(); DB::table('boards')->truncate(); DB::statement('SET FOREIGN_KEY_CHECKS=1;');"
 
+even more powerfull below command will also help to manage blueprint error 
 
-php artisan db:seed --class=MaharashtraBoardSeeder
+
+php artisan tinker --execute="DB::statement('SET FOREIGN_KEY_CHECKS=0;'); DB::table('paper_questions')->truncate(); DB::table('papers')->truncate(); DB::table('questions')->truncate(); DB::table('chapters')->truncate(); DB::table('subjects')->truncate(); DB::table('academic_class_models')->truncate(); DB::table('boards')->truncate(); DB::table('section_rules')->truncate(); DB::table('blueprint_sections')->truncate(); DB::table('paper_blueprints')->truncate(); DB::statement('SET FOREIGN_KEY_CHECKS=1;');"
+
+php artisan db:seed --class=MaharashtraBoardSeeder  

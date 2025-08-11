@@ -1,8 +1,8 @@
 [
   {
     "type": "mcq",
-    "text": "When the bob performs a vertical circular motion and the string rotates in a vertical plane, the difference in the tension in the string at horizontal position and uppermost position is _______. (Board 2022)",
-    "options": ["mg", "2mg", "3mg", "6mg"],
+    "text": "A particle is moving in a circle with uniform speed. Its motion is... (Board 2023)",
+    "options": ["simple harmonic", "oscillatory", "periodic but not simple harmonic", "non-periodic"],
     "correct_answer": "C",
     "marks": 1
   },
@@ -13,11 +13,11 @@
     "correct_answer": "B",
     "marks": 1
   },
-    {
+  {
     "type": "mcq",
-    "text": "A diver in a swimming pool bends his head before diving. It _______. (Board 2021)",
-    "options": ["Increases his linear velocity.", "Decreases his angular velocity.", "Increases his moment of inertia.", "Decreases his moment of inertia."],
-    "correct_answer": "D",
+    "text": "When the bob performs a vertical circular motion, the difference in the tension in the string at the lowest and highest position is _______. (Board 2019)",
+    "options": ["2mg", "4mg", "6mg", "8mg"],
+    "correct_answer": "C",
     "marks": 1
   },
   {
@@ -29,8 +29,43 @@
   },
   {
     "type": "mcq",
-    "text": "A particle is moving in a circle with uniform speed. Its motion is... (Board 2023)",
-    "options": ["simple harmonic", "oscillatory", "periodic but not simple harmonic", "non-periodic"],
+    "text": "A diver in a swimming pool bends his head before diving. It _______. (Board 2017)",
+    "options": ["Increases his linear velocity.", "Decreases his angular velocity.", "Increases his moment of inertia.", "Decreases his moment of inertia."],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The moment of inertia of a circular loop of radius R, at a distance of R/2 around a rotating axis parallel to its horizontal diameter is... (Board 2016)",
+    "options": ["(1/2)MR^2", "(3/4)MR^2", "MR^2", "2MR^2"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A 500 kg car takes a round turn of radius 50m with a velocity of 36 km/hr. The centripetal force is... (Board 2015)",
+    "options": ["250 N", "750 N", "1000 N", "1200 N"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The body performing uniform circular motion has... (Board 2018)",
+    "options": ["constant velocity", "constant acceleration", "constant kinetic energy", "constant displacement"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The radius of gyration of a uniform disc about an axis perpendicular to its plane and passing through its center is... (Board 2020)",
+    "options": ["$R/\\sqrt{2}$", "$R/2$", "$R$", "$\\sqrt{2}R$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In U.C.M., the angle between the radius vector and velocity vector is... (Board 2016)",
+    "options": ["$0^\\circ$", "$45^\\circ$", "$90^\\circ$", "$180^\\circ$"],
     "correct_answer": "C",
     "marks": 1
   },
@@ -40,12 +75,6 @@
     "answer": "The theorem of parallel axes states that the moment of inertia ($I$) of a body about any axis is equal to the sum of its moment of inertia ($I_c$) about a parallel axis passing through its centre of mass and the product of its mass ($M$) and the square of the distance ($h$) between the two axes. Formula: $I = I_c + Mh^2$.",
     "marks": 2
   },
-    {
-    "type": "short",
-    "text": "Define moment of inertia of a rotating rigid body. State its SI unit and dimensions. (Board 2022)",
-    "answer": "Moment of inertia is defined as the sum of the product of the mass of each particle and the square of its distance from the axis of rotation. SI unit: kg m$^2$. Dimensions: $[M^1L^2T^0]$.",
-    "marks": 2
-  },
   {
     "type": "short",
     "text": "Define radius of gyration and write its physical significance. (Board 2023)",
@@ -53,27 +82,81 @@
     "marks": 2
   },
   {
+    "type": "short",
+    "text": "Distinguish between centripetal force and centrifugal force. (Board 2018)",
+    "answer": "Centripetal force is a real force directed towards the center of the circular path, responsible for circular motion. Centrifugal force is a pseudo or fictitious force directed away from the center, experienced in a non-inertial (rotating) frame of reference.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State the principle of conservation of angular momentum. (Board 2021)",
+    "answer": "The principle of conservation of angular momentum states that if the net external torque acting on a system is zero, its total angular momentum remains constant.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why do dancers outstretch their arms and legs during ice ballet? (Board 2020)",
+    "answer": "Dancers outstretch their arms and legs to increase their moment of inertia. By the conservation of angular momentum ($L=I\\omega$), if moment of inertia (I) increases, the angular velocity ($\\omega$) decreases, allowing them to perform slower turns.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive an expression for maximum safety speed with which a vehicle should move along a curved horizontal road. (Board 2017)",
+    "answer": "The centripetal force is provided by the force of static friction. $mv^2/r = f_s = \\mu_s N = \\mu_s mg$. This gives $v_{max} = \\sqrt{\\mu_s rg}$.",
+    "marks": 2
+  },
+  {
     "type": "long",
-    "text": "A solid sphere of mass 1 kg and radius 0.5 m rolls without slipping on a horizontal surface. If its linear speed is 2 m/s, calculate its total kinetic energy. (Board 2024)",
-    "answer": "Total K.E. = Translational K.E. + Rotational K.E. = $\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$. For a solid sphere, $I = \\frac{2}{5}mr^2$ and $\\omega = v/r$. Total K.E. = $\\frac{1}{2}mv^2(1 + \\frac{K^2}{R^2}) = \\frac{1}{2}mv^2(1 + \\frac{2}{5}) = \\frac{7}{10}mv^2$. Substituting values, Total K.E. = $\\frac{7}{10}(1)(2)^2 = 2.8$ J.",
+    "text": "A flywheel is revolving with a speed of 120 r.p.m. It is brought to rest in 20 seconds. Calculate the angular retardation in rad/s$^2$ and the number of revolutions made before it comes to rest. (Textbook Numerical)",
+    "answer": "Initial angular velocity $\\omega_0 = 120 \\text{ rpm} = 4\\pi$ rad/s. Final angular velocity $\\omega = 0$. Time $t=20$s. Angular retardation $\\alpha = (\\omega - \\omega_0)/t = (0 - 4\\pi)/20 = -0.2\\pi$ rad/s$^2$. Number of revolutions $\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$. $\\theta = (4\\pi)(20) + \\frac{1}{2}(-0.2\\pi)(20)^2 = 40\\pi$ rad. Number of revolutions = $\\theta / 2\\pi = 20$ revolutions.",
     "marks": 3
   },
-    {
+  {
     "type": "long",
-    "text": "In a Circus, a motor-cyclist having mass of 50 kg moves in a spherical cage of radius 3 m. Calculate the least velocity with which he must pass the highest point without losing contact. (g = $9.8 \\text{ m/s}^2$) (Board 2020)",
-    "answer": "At the highest point, the minimum velocity is given by $v_{min} = \\sqrt{rg}$. Substituting the values, $v_{min} = \\sqrt{3 \\times 9.8} = \\sqrt{29.4} \\approx 5.42$ m/s.",
+    "text": "A solid sphere of mass 1 kg and radius 0.5 m rolls without slipping on a horizontal surface. If its linear speed is 2 m/s, calculate its total kinetic energy. (Board 2024)",
+    "answer": "Total K.E. = Translational K.E. + Rotational K.E. = $\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$. For a solid sphere, $I = \\frac{2}{5}mr^2$ and $\\omega = v/r$. Total K.E. = $\\frac{7}{10}mv^2$. Substituting values, Total K.E. = $\\frac{7}{10}(1)(2)^2 = 2.8$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Calculate the moment of inertia of a uniform disc of mass 10 kg and radius 60 cm about an axis perpendicular to its plane and passing through its centre. (Textbook Numerical)",
+    "answer": "The moment of inertia of a disc about an axis perpendicular to its plane and passing through its centre is $I = \\frac{1}{2}MR^2$. Given M=10 kg, R=0.6 m. $I = \\frac{1}{2}(10)(0.6)^2 = 5 \\times 0.36 = 1.8$ kg m$^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A bucket containing water is tied to one end of a rope 5 m long and it is rotated in a vertical circle. Find the minimum speed at the top so that the water does not spill. (Textbook Numerical)",
+    "answer": "For the water not to spill at the highest point, the centripetal force must be at least equal to the weight of the water. $mv^2/r \\ge mg$. This gives the minimum speed at the top as $v_{top} = \\sqrt{rg} = \\sqrt{5 \\times 9.8} = \\sqrt{49} = 7$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The moment of inertia of a body about a given axis is 1.2 kgm$^2$. Initially, the body is at rest. For what duration an angular acceleration of 25 rad/s$^2$ must be applied to produce a rotational K.E. of 1500 J? (Textbook Numerical)",
+    "answer": "Rotational K.E. = $\\frac{1}{2}I\\omega^2$. $1500 = \\frac{1}{2}(1.2)\\omega^2$, which gives $\\omega^2 = 2500$, so $\\omega = 50$ rad/s. Using the rotational equation $\\omega = \\omega_0 + \\alpha t$, we have $50 = 0 + 25t$. This gives $t = 2$ seconds.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "Derive an expression for the kinetic energy of a rotating body. (Board 2023)",
-    "answer": "Consider a rigid body rotating with constant angular velocity $\\omega$. It consists of n particles of masses $m_1, m_2, ..., m_n$ at distances $r_1, r_2, ..., r_n$ from the axis. The linear velocity of a particle is $v_i = r_i\\omega$. The K.E. of the i-th particle is $\\frac{1}{2}m_iv_i^2 = \\frac{1}{2}m_i(r_i\\omega)^2$. The total K.E. is the sum of the K.E. of all particles: $K.E._{total} = \\sum \\frac{1}{2}m_ir_i^2\\omega^2 = \\frac{1}{2}(\\sum m_ir_i^2)\\omega^2$. Since $I = \\sum m_ir_i^2$, the final expression is $K.E. = \\frac{1}{2}I\\omega^2$.",
+    "answer": "Consider a rigid body rotating with constant angular velocity $\\omega$. The total K.E. is the sum of the K.E. of all particles: $K.E._{total} = \\sum \\frac{1}{2}m_ir_i^2\\omega^2 = \\frac{1}{2}(\\sum m_ir_i^2)\\omega^2$. Since $I = \\sum m_ir_i^2$, the final expression is $K.E. = \\frac{1}{2}I\\omega^2$.",
     "marks": 4
   },
   {
     "type": "long",
     "text": "State and prove the law of conservation of angular momentum. (Board 2024)",
     "answer": "The law of conservation of angular momentum states that if the net external torque acting on a body is zero, its angular momentum remains constant. Proof: We know that torque $\\vec{\\tau} = \\frac{d\\vec{L}}{dt}$. If the net external torque is zero, then $\\frac{d\\vec{L}}{dt} = 0$. This implies that $\\vec{L}$ is a constant vector.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is a conical pendulum? Obtain an expression for its time period. (Board 2015)",
+    "answer": "A conical pendulum is a simple pendulum which is given such a motion that the bob describes a horizontal circle and the string describes a cone. The forces acting are tension T and weight mg. $T\\cos\\theta = mg$ and $T\\sin\\theta = mv^2/r$. Dividing gives $\\tan\\theta = v^2/rg$. The time period is $T = 2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Obtain an expression for maximum safety speed with which a vehicle can be safely driven along a curved banked road. (Board 2018)",
+    "answer": "The maximum safety speed on a banked road is given by the formula $v_{max} = \\sqrt{rg(\\frac{\\mu_s + \\tan\\theta}{1 - \\mu_s\\tan\\theta})}$, where r is the radius, g is acceleration due to gravity, $\\mu_s$ is the coefficient of static friction, and $\\theta$ is the angle of banking.",
     "marks": 4
   }
 ]

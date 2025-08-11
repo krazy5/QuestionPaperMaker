@@ -1,0 +1,218 @@
+[
+  {
+    "type": "short",
+    "text": "Explain the following terms: (i) Homopolymers (ii) Elastomers. (March 2013)",
+    "answer": "(i) **Homopolymers:** These are polymers that are formed from the polymerization of a single type of monomer unit. The repeating structural units are all identical. \n   Example: Polyethene, `-[CH₂-CH₂]ₙ-`, is formed only from ethene monomers. \n\n(ii) **Elastomers:** These are rubber-like solid polymers in which the polymer chains are held together by the weakest intermolecular forces. They exhibit elastic properties, meaning they can be stretched to several times their original length and return to their original shape and size when the stretching force is removed. \n   Example: Natural rubber, Buna-S.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the chemical reaction to prepare novolac polymer. (March 2013)",
+    "answer": "Novolac is a linear condensation polymer prepared by reacting phenol with formaldehyde in the presence of an acid catalyst (like $H^+$). In this reaction, formaldehyde is used in a smaller amount compared to phenol. The phenol units are joined together by methylene bridges ($-CH_2-$) primarily at the ortho and para positions. \n\n**Reaction:** \n$n C_6H_5OH + n HCHO \\xrightarrow{H^+, \\Delta} -[C_6H_3(OH)-CH_2-]_n- + n H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How are polymers classified on the basis of polymerisation process? (Oct. 2013)",
+    "answer": "On the basis of the mode of polymerization, polymers are classified into two main types: \n1.  **Addition Polymers:** These are formed by the repeated addition of monomer units, usually possessing double or triple bonds, without the elimination of any small molecules like water or ammonia. This process is also known as chain-growth polymerization. \n    Example: Polyethene from ethene. \n2.  **Condensation Polymers:** These are formed by the reaction between two different bifunctional or trifunctional monomer units, with the elimination of small molecules such as water, ammonia, or HCl. This process is also known as step-growth polymerization. \n    Example: Nylon 6,6 from hexamethylenediamine and adipic acid.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the structure of melamine. (Oct. 2013)",
+    "answer": "Melamine is a heterocyclic aromatic compound. Its structure consists of a six-membered triazine ring (a ring with three carbon and three nitrogen atoms alternating). Three amino groups ($-NH_2$) are attached to the three carbon atoms of the ring. \nIts chemical formula is $C_3H_6N_6$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write names and chemical formulae of monomers used in preparing Buna-S. (March 2014)",
+    "answer": "Buna-S is a synthetic copolymer. The monomers used in its preparation are: \n1.  **Name:** 1,3-Butadiene \n    **Formula:** $CH_2=CH-CH=CH_2$ \n2.  **Name:** Styrene \n    **Formula:** $C_6H_5-CH=CH_2$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are thermoplastic polymers? (March 2014)",
+    "answer": "Thermoplastic polymers (or thermoplastics) are linear or slightly branched polymers in which the individual polymer chains are held together by weak intermolecular forces (van der Waals forces). They become soft and pliable on heating and harden on cooling, and this process is reversible. They can be remolded into different shapes repeatedly without any significant change in their chemical properties. Examples include polyethene and polyvinyl chloride (PVC).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "How is Nylon 6, 6 prepared? Write any 'two' uses of terylene. (Oct. 2014)",
+    "answer": "**Preparation of Nylon 6,6:** \nNylon 6,6 is a condensation polymer. It is prepared by the high-pressure, high-temperature polymerization of two monomers: \n1.  Hexamethylenediamine ($H_2N-(CH_2)_6-NH_2$) \n2.  Adipic acid ($HOOC-(CH_2)_4-COOH$) \nThe reaction involves the formation of amide linkages with the elimination of water molecules. \n$n H_2N-(CH_2)_6-NH_2 + n HOOC-(CH_2)_4-COOH \\xrightarrow{High T, P} -[NH-(CH_2)_6-NH-CO-(CH_2)_4-CO]_n- + 2n H_2O$ \n\n**Two Uses of Terylene (Dacron):** \n1.  **Textiles:** It is widely used in the textile industry for making fabrics for clothing (like sarees and dress materials), often blended with cotton (terrycot) or wool (terrywool) to improve their properties. \n2.  **Industrial Applications:** It is used for making safety belts, tire cords, and sails for boats due to its high tensile strength and resistance to creasing.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain with examples, branched and linear polymers. (March 2015)",
+    "answer": "**Linear Polymers:** These polymers consist of long, straight chains of monomer units. The monomer units are linked together to form a linear chain with no branching. They have high density and high tensile strength due to close packing. \n   Example: High-density polyethene (HDPE), Polyvinyl chloride (PVC). \n\n**Branched Polymers:** These polymers consist of a main linear chain with smaller side chains or branches of different lengths attached to it. The branching prevents the chains from packing closely, so they have lower density and tensile strength compared to linear polymers. \n   Example: Low-density polyethene (LDPE).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are biodegradable polymers and non-biodegradable polymers? Write 'one example' of each. (March 2015)",
+    "answer": "**Biodegradable Polymers:** These are polymers that can be broken down (decomposed) into natural by-products such as carbon dioxide, water, and biomass by the action of microorganisms like bacteria and fungi over a period of time. \n   Example: PHBV (Poly-β-hydroxybutyrate-co-β-hydroxyvalerate), Nylon-2-Nylon-6. \n\n**Non-biodegradable Polymers:** These are polymers that cannot be broken down by the action of microorganisms and thus persist in the environment for a very long time, causing pollution. \n   Example: Polyethene, Polyvinyl chloride (PVC), Polystyrene.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the reactions involved in the preparation of - (a) Teflon (b) Orlon (c) PVC. (Oct. 2015)",
+    "answer": "(a) **Teflon (Polytetrafluoroethene, PTFE):** Formed by the free-radical addition polymerization of tetrafluoroethene monomer. \n   $n CF_2=CF_2 \\xrightarrow{Catalyst, High P} -[CF_2-CF_2]_n-$ \n\n(b) **Orlon (Polyacrylonitrile, PAN):** Formed by the addition polymerization of acrylonitrile monomer. \n   $n CH_2=CH(CN) \\xrightarrow{Peroxide} -[CH_2-CH(CN)]_n-$ \n\n(c) **PVC (Polyvinyl chloride):** Formed by the addition polymerization of vinyl chloride monomer. \n   $n CH_2=CH(Cl) \\xrightarrow{Peroxide} -[CH_2-CH(Cl)]_n-$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the reaction for the preparation of Nylon-6. (March 2016)",
+    "answer": "Nylon-6 is prepared by the ring-opening polymerization of its monomer, **caprolactam**. Caprolactam is heated with a trace amount of water at a high temperature (533-543 K). The water first hydrolyzes the caprolactam ring to form aminocaproic acid, which then initiates the polymerization process. \n\n**Reaction:** \n$n(\\text{Caprolactam}) \\xrightarrow{H_2O, 533-543K} -[NH-(CH_2)_5-CO]_n-$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "How are polythene and neoprene prepared? (March 2016)",
+    "answer": "**Preparation of Polythene (Polyethylene):** \nPolythene is an addition polymer prepared by the polymerization of ethene ($CH_2=CH_2$) monomer. There are two main types: \n-   **Low-Density Polythene (LDPE):** Prepared by heating ethene at high pressure (1000-2000 atm) and high temperature (350-570 K) in the presence of a trace of oxygen or a peroxide initiator. \n-   **High-Density Polythene (HDPE):** Prepared by heating ethene at lower pressure (6-7 atm) and temperature (333-343 K) in the presence of a Ziegler-Natta catalyst. \n   $n CH_2=CH_2 \\xrightarrow{Polymerisation} -[CH_2-CH_2]_n-$ \n\n**Preparation of Neoprene (Polychloroprene):** \nNeoprene is an addition polymer prepared by the free-radical polymerization of its monomer, chloroprene (2-chloro-1,3-butadiene). \n$n CH_2=C(Cl)-CH=CH_2 \\xrightarrow{Polymerisation} -[CH_2-C(Cl)=CH-CH_2]_n-$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the formulae of the raw materials used for preparation of Buna-S. (July 2016)",
+    "answer": "The raw materials (monomers) used for the preparation of Buna-S are: \n1.  **1,3-Butadiene:** $CH_2=CH-CH=CH_2$ \n2.  **Styrene:** $C_6H_5-CH=CH_2$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "How are the following polymers prepared? (a) Orlon (b) Teflon (July 2016)",
+    "answer": "(a) **Orlon (Polyacrylonitrile):** It is prepared by the addition polymerization of acrylonitrile ($CH_2=CH-CN$) monomer, usually in the presence of a peroxide catalyst. \n   $n CH_2=CH(CN) \\xrightarrow{Catalyst} -[CH_2-CH(CN)]_n-$ \n\n(b) **Teflon (Polytetrafluoroethene):** It is prepared by the free-radical addition polymerization of tetrafluoroethene ($CF_2=CF_2$) monomer at high pressure in the presence of a catalyst. \n   $n CF_2=CF_2 \\xrightarrow{Catalyst, High P} -[CF_2-CF_2]_n-$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the term: Homopolymers (March 2017)",
+    "answer": "Homopolymers are polymers formed from the polymerization of only one type of monomer species. The resulting polymer chain consists of identical repeating structural units. For example, polyethene, which is made up of only ethene monomer units, is a homopolymer. Its repeating unit is `-[CH₂-CH₂]-`.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is nylon 6,6 prepared? (March 2017)",
+    "answer": "Nylon 6,6 is a polyamide, prepared by the condensation polymerization of two monomers: hexamethylenediamine and adipic acid. Equimolar amounts of these monomers are heated together at a high temperature (around 553 K) and high pressure. The reaction involves the formation of amide linkages between the monomers with the elimination of water molecules. \n\n**Reaction:** \n$n H_2N-(CH_2)_6-NH_2 + n HOOC-(CH_2)_4-COOH \\xrightarrow{553 K, High P} -[NH-(CH_2)_6-NH-CO-(CH_2)_4-CO]_n- + 2n H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is Terylene prepared? (July 2017)",
+    "answer": "Terylene (also known as Dacron) is a polyester, prepared by the condensation polymerization of two monomers: \n1. Ethylene glycol ($HO-CH_2-CH_2-OH$) \n2. Terephthalic acid ($p-HOOC-C_6H_4-COOH$) \nThe reaction is carried out by heating the mixture of monomers at 420-460 K in the presence of a catalyst like a mixture of zinc acetate and antimony trioxide. It involves the formation of ester linkages with the elimination of water. \n\n**Reaction:** \n$n HO-CH_2-CH_2-OH + n HOOC-C_6H_4-COOH \\xrightarrow{Catalyst, \\Delta} -[O-CH_2-CH_2-O-CO-C_6H_4-CO]_n- + 2n H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the names and chemical formulae of monomers used in preparing Buna-N. (July 2017)",
+    "answer": "Buna-N (Nitrile Butadiene Rubber) is a copolymer. Its monomers are: \n1.  **Name:** 1,3-Butadiene \n    **Formula:** $CH_2=CH-CH=CH_2$ \n2.  **Name:** Acrylonitrile \n    **Formula:** $CH_2=CH-CN$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the preparation and uses of nylon-2-nylon-6. (March 2018)",
+    "answer": "**Preparation of Nylon-2-Nylon-6:** \nNylon-2-nylon-6 is an alternating polyamide copolymer. It is prepared by the condensation polymerization of two different amino acid monomers: \n1.  Glycine ($H_2N-CH_2-COOH$) \n2.  Aminocaproic acid ($H_2N-(CH_2)_5-COOH$) \nThe polymerization involves the formation of peptide (amide) bonds between the amino group of one monomer and the carboxyl group of the other, with the elimination of water molecules. \n\n**Uses:** \nNylon-2-nylon-6 is a **biodegradable polymer**. Its main use is in specialized applications where biodegradability is important, such as making surgical sutures that dissolve naturally in the body after a wound heals, and in controlled-release drug delivery systems.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are elastomers? (July 2018)",
+    "answer": "Elastomers are rubber-like solid polymers that have elastic properties. Their polymer chains are held together by very weak intermolecular forces, allowing the polymer to be stretched to a great extent. When the external force is removed, they return to their original shape and size. These polymers have a few cross-links introduced between the chains which help them regain their shape. Examples include natural rubber, neoprene, and Buna-S.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between thermoplastic polymers and thermosetting polymers. (July 2018)",
+    "answer": "| Feature | Thermoplastic Polymers | Thermosetting Polymers |\n|---|---|---|\n| **Structure** | Linear or slightly branched polymer chains. | Cross-linked or heavily branched, three-dimensional network structure. |\n| **Intermolecular Forces** | Held by weak van der Waals forces. | Held by strong covalent bonds (cross-links). |\n| **Effect of Heat** | Soften on heating and harden on cooling. This process is reversible. | Harden permanently on heating. They do not soften again and decompose at high temperatures. |\n| **Recyclability** | Can be remolded and recycled. | Cannot be remolded or recycled. |\n| **Examples** | Polyethene, PVC, Polystyrene. | Bakelite, Melamine-formaldehyde resin, Urea-formaldehyde resin. |",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reactions to prepare the following polymers: (i) Teflon (ii) Nylon-6 (March 2019)",
+    "answer": "(i) **Teflon (Polytetrafluoroethene):** Prepared by the addition polymerization of tetrafluoroethene. \n   $n CF_2=CF_2 \\xrightarrow{Catalyst, High P} -[CF_2-CF_2]_n-$ \n\n(ii) **Nylon-6:** Prepared by the ring-opening polymerization of caprolactam. \n   $n(\\text{Caprolactam}) \\xrightarrow{H_2O, 533-543K} -[NH-(CH_2)_5-CO]_n-$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the reactions for the preparation of polymers by using the following monomers: (i) Vinyl chloride (ii) Tetrafluoroethane. (July 2019)",
+    "answer": "(i) **From Vinyl chloride (to form PVC):** \n   This is an addition polymerization reaction. \n   $n CH_2=CH(Cl) \\xrightarrow{Peroxide} -[CH_2-CH(Cl)]_n-$ \n\n(ii) **From Tetrafluoroethene (to form Teflon):** \n   This is an addition polymerization reaction. The question likely means tetrafluoroethene. \n   $n CF_2=CF_2 \\xrightarrow{Catalyst, High P} -[CF_2-CF_2]_n-$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define: (i) Condensation polymer (ii) Homopolymer. (July 2019)",
+    "answer": "(i) **Condensation polymer:** A polymer formed by the repeated condensation reaction between two or more bifunctional or polyfunctional monomer units, accompanied by the elimination of small molecules like water, ammonia, or HCl. Example: Nylon 6,6. \n\n(ii) **Homopolymer:** A polymer whose repeating structural units are derived from only one type of monomer unit. Example: Polyethene is formed only from ethene monomers.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define non-biodegradable polymer. Write the preparation of terelyne. (March 2020)",
+    "answer": "**Non-biodegradable polymer:** A polymer that cannot be decomposed by the action of microorganisms (like bacteria or fungi) and hence persists in the environment for a very long time, causing pollution. Example: Polyethene. \n\n**Preparation of Terylene (Dacron):** \nTerylene is a polyester formed by the condensation polymerization of ethylene glycol and terephthalic acid at 420-460 K in the presence of a zinc acetate-antimony trioxide catalyst. \n$n HO-CH_2-CH_2-OH + n HOOC-C_6H_4-COOH \\rightarrow -[O-CH_2-CH_2-O-CO-C_6H_4-CO]_n- + 2n H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write names and structure of monomers used in the preparation of Nylon 6, 6 polymer. (Sept. 2021)",
+    "answer": "The monomers used in the preparation of Nylon 6,6 are: \n1.  **Name:** Hexamethylenediamine \n    **Structure:** $H_2N-(CH_2)_6-NH_2$ \n2.  **Name:** Adipic acid \n    **Structure:** $HOOC-(CH_2)_4-COOH$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write classification of polymers on the basis of structure. (March 2022)",
+    "answer": "On the basis of structure, polymers are classified into three types: \n1.  **Linear Polymers:** These polymers consist of long, straight chains of repeating monomer units. Example: High-density polyethene (HDPE). \n2.  **Branched-chain Polymers:** These polymers have a main linear chain with smaller side branches. Example: Low-density polyethene (LDPE). \n3.  **Cross-linked or Network Polymers:** These polymers consist of monomer units that are linked together to form a three-dimensional network. The links between chains are strong covalent bonds. Example: Bakelite, melamine.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the name of biodegradable polyamide copolymer. (March 2022)",
+    "answer": "The name of a common biodegradable polyamide copolymer is **Nylon 2-Nylon 6**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the name of monomer used for preparation of Nylon 6. (July 2022)",
+    "answer": "The monomer used for the preparation of Nylon 6 is **Caprolactam**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write chemical composition of Ziegler-Natta catalyst. (July 2022)",
+    "answer": "The Ziegler-Natta catalyst is a combination of two components: \n1.  A trialkylaluminium, such as **triethylaluminium ($Al(C_2H_5)_3$)**. \n2.  A transition metal halide, such as **titanium tetrachloride ($TiCl_4$)**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define: Elastomer. (July 2022)",
+    "answer": "An elastomer is a polymer with viscoelasticity (both viscosity and elasticity) and very weak intermolecular forces, generally having low Young's modulus and high failure strain compared with other materials. They are rubber-like solids that can be stretched and will return to their original shape when the force is removed.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the reactions for the formation of nylon 6, 6 polymer. (March 2023)",
+    "answer": "Nylon 6,6 is formed by the condensation polymerization of hexamethylenediamine and adipic acid. The reaction is carried out at high temperature (553 K) and high pressure. \n\n**Reaction:** \n$n H_2N-(CH_2)_6-NH_2 \\text{ (Hexamethylenediamine)} + n HOOC-(CH_2)_4-COOH \\text{ (Adipic acid)} \\xrightarrow{553 K, High P} -[NH-(CH_2)_6-NH-CO-(CH_2)_4-CO]_n- \\text{ (Nylon 6,6)} + 2n H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define: Vulcanization. (March 2023)",
+    "answer": "Vulcanization is a chemical process for converting natural rubber or related polymers into more durable materials by heating them with sulfur or other equivalent curatives. This process introduces covalent cross-links between the individual polymer chains, which improves the rubber's elasticity, tensile strength, and resistance to temperature changes and chemical attack.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the reaction involved in the formation of Teflon. (July 2023)",
+    "answer": "Teflon (Polytetrafluoroethene or PTFE) is an addition polymer. It is formed by the free-radical polymerization of its monomer, tetrafluoroethene ($CF_2=CF_2$), at high pressure in the presence of a catalyst. \n\n**Reaction:** \n$n CF_2=CF_2 \\text{ (Tetrafluoroethene)} \\xrightarrow{Catalyst, High Pressure} -[CF_2-CF_2]_n- \\text{ (Teflon)}$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the structure of and name of monomer of: (a) Nylon-6 (b) Natural rubber. (March 2024)",
+    "answer": "(a) **Nylon-6:** \n   - **Name of Monomer:** Caprolactam \n   - **Structure of Monomer:** A 7-membered cyclic amide ring. \n\n(b) **Natural Rubber:** \n   - **Name of Monomer:** Isoprene (2-methyl-1,3-butadiene) \n   - **Structure of Monomer:** $CH_2=C(CH_3)-CH=CH_2$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the chemical reaction for the preparation of polyacrylonitrile. (March 2024)",
+    "answer": "Polyacrylonitrile (PAN), also known as Orlon, is an addition polymer. It is prepared by the free-radical polymerization of its monomer, acrylonitrile (vinyl cyanide), in the presence of a peroxide catalyst. \n\n**Reaction:** \n$n CH_2=CH(CN) \\text{ (Acrylonitrile)} \\xrightarrow{Peroxide Catalyst} -[CH_2-CH(CN)]_n- \\text{ (Polyacrylonitrile)}$",
+    "marks": 1
+  }
+]

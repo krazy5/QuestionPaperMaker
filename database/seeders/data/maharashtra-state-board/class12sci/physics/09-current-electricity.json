@@ -1,0 +1,72 @@
+[
+  {
+    "type": "mcq",
+    "text": "The SI unit of potential gradient is... (Board 2023)",
+    "options": ["V/m", "V·m", "A/m", "V/A"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Kirchhoff's first law (junction law) is based on the conservation of... (Board 2021)",
+    "options": ["energy", "momentum", "charge", "mass"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A galvanometer can be converted into a voltmeter by connecting a... (Board 2019)",
+    "options": ["low resistance in series", "high resistance in series", "low resistance in parallel", "high resistance in parallel"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a Wheatstone bridge, if the positions of the cell and galvanometer are interchanged, the balance point... (Board 2017)",
+    "options": ["shifts to the left", "shifts to the right", "remains unchanged", "becomes zero"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Kirchhoff's voltage law (loop law). (Board 2024)",
+    "answer": "Kirchhoff's voltage law states that the algebraic sum of the potential differences (voltages) and electromotive forces (emfs) around any closed loop in a circuit is zero.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the principle of a potentiometer? (Board 2022)",
+    "answer": "The principle of a potentiometer states that the potential difference between any two points of a potentiometer wire is directly proportional to the length of the wire between those two points, provided the wire is of uniform cross-section and a constant current flows through it.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between a potentiometer and a voltmeter. (Board 2021)",
+    "answer": "A potentiometer measures the exact emf of a cell as it draws no current from the cell at the balance point (it's an ideal voltmeter). A voltmeter is a high-resistance galvanometer that draws a small current from the circuit and measures the potential difference, which is slightly less than the actual emf.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the value of resistance for an ideal voltmeter? (Board 2022)",
+    "answer": "The resistance of an ideal voltmeter is infinite.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Two resistances X and Y in the two gaps of a meter bridge give a null point dividing the wire in the ratio 2:3. If each resistance is increased by 30 Ω, the null point divides the wire in the ratio 5:6. Calculate the value of X and Y. (Board 2020)",
+    "answer": "Initially, $X/Y = 2/3$. So, $3X = 2Y$. After increasing resistance, $(X+30)/(Y+30) = 5/6$. So, $6X + 180 = 5Y + 150$. Solving these two simultaneous equations, we get $X = 20 \\Omega$ and $Y = 30 \\Omega$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A voltmeter has a resistance of 100 Ω. What will be its reading when it is connected across a cell of emf 6 V and internal resistance 20 Ω? (Textbook Numerical)",
+    "answer": "The total resistance of the circuit is $R_{total} = R_V + r = 100 + 20 = 120 \\Omega$. The current flowing through the circuit is $I = E / R_{total} = 6 / 120 = 0.05$ A. The reading of the voltmeter is the potential difference across it, which is $V = I \\times R_V = 0.05 \\times 100 = 5$ V.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe with a neat circuit diagram how you will determine the internal resistance of a cell using a potentiometer. (Board 2023)",
+    "answer": "The setup involves connecting the cell whose internal resistance is to be found to the potentiometer. A resistance box is connected in parallel with the cell. First, the balancing length $l_1$ is found with the key open (corresponding to emf E). Then, the key is closed, and a known resistance R is taken from the box. The new balancing length $l_2$ is found (corresponding to terminal voltage V). The internal resistance is calculated using the formula $r = R(\\frac{l_1 - l_2}{l_2})$.",
+    "marks": 4
+  }
+]

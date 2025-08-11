@@ -1,0 +1,78 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which property of light does not change when it travels from one medium to another? (Board 2022)",
+    "options": ["Velocity", "Wavelength", "Amplitude", "Frequency"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In Young's double-slit experiment, the path difference between two interfering waves at a point on the screen is given by... (Board 2020)",
+    "options": ["$x/dD$", "$xd/D$", "$D/xd$", "$dD/x$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of diffraction is observed for... (Board 2018)",
+    "options": ["sound waves only", "light waves only", "all types of waves", "water waves only"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The resolving power of a telescope increases when... (Board 2016)",
+    "options": ["the wavelength of light decreases", "the wavelength of light increases", "the diameter of the objective lens decreases", "the focal length of the objective lens increases"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a wavefront? (Board 2024)",
+    "answer": "A wavefront is a locus of all points in a medium where the waves are in the same phase of oscillation.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Huygens' principle. (Board 2023)",
+    "answer": "Huygens' principle states that every point on a primary wavefront acts as a source of secondary wavelets, which spread out in all directions with the speed of the wave. The new wavefront is the tangential surface to all these secondary wavelets.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is polarization of light? (Board 2019)",
+    "answer": "Polarization of light is the phenomenon of restricting the vibrations of light waves (transverse waves) to a particular direction perpendicular to the direction of wave motion.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is diffraction of light? (Board 2017)",
+    "answer": "Diffraction of light is the phenomenon of bending of light waves around the corners of an obstacle or an aperture and their encroachment into the region of the geometrical shadow.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Plane wavefront of light of wavelength 6000 Å is incident on two slits on a screen. If the total separation of 10 bright fringes on a screen 2 m away is 2 cm, find the distance between the slits. (Board 2022)",
+    "answer": "The fringe width is $W = \\frac{2 \\text{ cm}}{10} = 0.2 \\text{ cm} = 0.002$ m. We know $W = \\frac{\\lambda D}{d}$. Therefore, the distance between the slits is $d = \\frac{\\lambda D}{W} = \\frac{(6000 \\times 10^{-10}) \\times 2}{0.002} = 6 \\times 10^{-4}$ m or 0.6 mm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In a Young's double-slit experiment, the slits are separated by 0.28 mm and the screen is placed 1.4 m away. The distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm. Determine the wavelength of light used. (Textbook Numerical)",
+    "answer": "The distance of the 4th bright fringe is $x_4 = \\frac{4\\lambda D}{d}$. Given $x_4 = 1.2 \\text{ cm} = 0.012$ m, $d = 0.28 \\text{ mm} = 0.28 \\times 10^{-3}$ m, $D = 1.4$ m. Rearranging for wavelength, $\\lambda = \\frac{x_4 d}{4D} = \\frac{0.012 \\times (0.28 \\times 10^{-3})}{4 \\times 1.4} = 6 \\times 10^{-7}$ m or 6000 Å.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "State and prove Brewster's law. (Board 2024)",
+    "answer": "Brewster's law states that when unpolarized light is incident on the surface of a transparent medium, the reflected light is completely plane-polarized if the tangent of the angle of incidence (polarizing angle, $i_p$) is equal to the refractive index (n) of the medium. Formula: $n = \\tan(i_p)$. The proof involves showing that at the polarizing angle, the reflected and refracted rays are perpendicular to each other.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the Fraunhofer diffraction pattern due to a single slit. (Board 2018)",
+    "answer": "The Fraunhofer diffraction pattern due to a single slit consists of a central bright maximum, which is twice as wide as the other secondary maxima. On either side of the central maximum, there are alternating dark and bright bands (secondary minima and maxima) of decreasing intensity. The condition for minima is $a \\sin\\theta = n\\lambda$, and for maxima is $a \\sin\\theta = (2n+1)\\lambda/2$.",
+    "marks": 4
+  }
+]

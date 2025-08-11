@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mcq",
+    "text": "The average value of alternating current over a full cycle is always _______. [I_0 = Peak value of current] (Board 2022)",
+    "options": ["zero", "$I_0/\\sqrt{2}$", "$I_0/2$", "$2I_0$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a purely capacitive circuit, the current... (Board 2020)",
+    "options": ["leads the emf by a phase angle of $\\pi/2$", "lags behind the emf by a phase angle of $\\pi/2$", "is in phase with the emf", "lags behind the emf by a phase angle of $\\pi$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The power factor of a purely resistive AC circuit is... (Board 2018)",
+    "options": ["0", "1", "0.5", "-1"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is capacitive reactance? State its SI unit and dimensions. (Board 2021)",
+    "answer": "Capacitive reactance ($X_C$) is the opposition offered by a capacitor to the flow of alternating current. Its SI unit is the Ohm ($\\Omega$) and its dimensions are $[M^1L^2T^{-3}I^{-2}]$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by the term 'power factor'? (Board 2019)",
+    "answer": "The power factor of an AC circuit is defined as the cosine of the phase angle between the voltage and the current. It is the ratio of the true power to the apparent power.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define RMS value of an alternating current. (Board 2017)",
+    "answer": "The Root Mean Square (RMS) value of an alternating current is that steady current which would produce the same amount of heat in a given resistance in a given time as is produced by the AC current in the same resistance and same time.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A 0.1 H inductor, a $25 \\times 10^{-6}$ F capacitor and a 15 $\\Omega$ resistor are connected in series to a 120 V, 50 Hz AC source. Calculate the resonant frequency. (Board 2022)",
+    "answer": "The resonant frequency ($f_r$) is given by the formula $f_r = \\frac{1}{2\\pi\\sqrt{LC}}$. Substituting the values: $f_r = \\frac{1}{2\\pi\\sqrt{0.1 \\times (25 \\times 10^{-6})}} = \\frac{1}{2\\pi\\sqrt{2.5 \\times 10^{-6}}} \\approx 100.6$ Hz.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A 100 $\\Omega$ resistor is connected to a 220 V, 50 Hz AC supply. What is the rms value of current in the circuit? What is the net power consumed over a full cycle? (Textbook Numerical)",
+    "answer": "The rms value of the current is $I_{rms} = V_{rms} / R = 220 / 100 = 2.2$ A. The net power consumed is $P = V_{rms} I_{rms} \\cos\\phi$. For a purely resistive circuit, the phase angle $\\phi=0$, so $\\cos\\phi = 1$. $P = 220 \\times 2.2 \\times 1 = 484$ W.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the impedance of an LCR series circuit. (Board 2023)",
+    "answer": "The impedance (Z) of a series LCR circuit is the effective opposition to the current. Using the phasor diagram, the impedance is found by the Pythagorean theorem: $Z = \\sqrt{R^2 + (X_L - X_C)^2}$, where R is resistance, $X_L$ is inductive reactance, and $X_C$ is capacitive reactance.",
+    "marks": 4
+  }
+]

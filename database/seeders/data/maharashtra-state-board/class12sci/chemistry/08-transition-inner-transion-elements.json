@@ -1,0 +1,290 @@
+[
+  {
+    "type": "short",
+    "text": "Write the different oxidation states of manganese. Why +2 oxidation state of manganese is more stable? (March 2013)",
+    "answer": "The different oxidation states of Manganese (Mn, Z=25) are +2, +3, +4, +5, +6, and +7. \nThe +2 oxidation state of manganese is more stable than other states. This is due to its electronic configuration. The configuration of neutral Mn is $[Ar] 3d^5 4s^2$. When it forms the $Mn^{2+}$ ion, it loses the two 4s electrons, resulting in the configuration $[Ar] 3d^5$. This configuration has a half-filled d-orbital, which is an exceptionally stable electronic arrangement due to symmetry and higher exchange energy.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain the following terms: (I) Smelting (II) Flux. (March 2013)",
+    "answer": "(I) **Smelting:** Smelting is a metallurgical process of extracting a metal from its ore by heating it to a high temperature, typically above its melting point, in the presence of a reducing agent (like carbon) and a flux. The process involves reduction of the ore and removal of the gangue as slag. \n(II) **Flux:** A flux is a chemical substance added to the ore during smelting to combine with the infusible gangue (impurities) to form a fusible mass called slag. The slag is lighter and immiscible with the molten metal, allowing for easy separation. For example, limestone ($CaCO_3$) is a basic flux used to remove acidic gangue like silica ($SiO_2$).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write observed electronic configuration of elements from first transition series having half filled d-orbitals. (Oct. 2013)",
+    "answer": "The elements from the first transition series (3d series) that have a half-filled d-orbital in their ground state electronic configuration are: \n1.  **Chromium (Cr, Z=24):** Its configuration is $[Ar] 3d^5 4s^1$. The d-orbital is half-filled ($d^5$), which provides extra stability. \n2.  **Manganese (Mn, Z=25):** Its configuration is $[Ar] 3d^5 4s^2$. The d-orbital is half-filled ($d^5$).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is lanthanoid contraction? Explain the cause and effects of lanthanoid contraction. (Oct. 2013)",
+    "answer": "**Lanthanoid Contraction:** It is the steady and gradual decrease in the atomic and ionic radii of the lanthanoid elements with increasing atomic number. \n\n**Cause:** As we move across the lanthanoid series, each new electron enters a 4f orbital, while the nuclear charge increases by one unit at each step. The 4f electrons have a very poor shielding effect on the outer electrons from the increasing nuclear charge. This is because of the diffused shape of the f-orbitals. Consequently, the effective nuclear charge experienced by the outermost electrons increases, causing the electron cloud to contract, which results in a decrease in size. \n\n**Effects:** \n1.  **Similarity in Radii:** The atomic radii of the second (4d) and third (5d) transition series elements are very similar (e.g., Zr and Hf). \n2.  **Difficulty in Separation:** The chemical properties of lanthanoids are very similar due to their similar radii, making their separation from each other very difficult. \n3.  **Basicity of Hydroxides:** The basic strength of lanthanoid hydroxides, $Ln(OH)_3$, decreases from $La(OH)_3$ to $Lu(OH)_3$ as the ionic size decreases.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are lanthanoids? What is the position of actinoids in periodic table? (March 2014)",
+    "answer": "**Lanthanoids:** The series of 14 elements following lanthanum (La), from Cerium (Ce, Z=58) to Lutetium (Lu, Z=71), are called lanthanoids. In these elements, the last electron enters the 4f orbital. They are also known as rare earth elements. \n\n**Position of Actinoids:** The actinoids are a series of 14 elements from Thorium (Th, Z=90) to Lawrencium (Lr, Z=103), which follow Actinium (Ac, Z=89). They are placed in a separate row at the bottom of the main periodic table, below the lanthanoids, to avoid making the main table too wide. They belong to the 7th period and Group 3.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is 'calcination'? How does it differ from 'roasting'? (March 2014)",
+    "answer": "**Calcination** is the process of heating a concentrated ore to a high temperature, either in the absence of air or in a limited supply of air, to drive off volatile impurities like moisture ($H_2O$) and carbon dioxide ($CO_2$). It is typically used for carbonate and hydrated oxide ores. \nExample: $CaCO_{3(s)} \\rightarrow CaO_{(s)} + CO_{2(g)}$. \n\n**Difference from Roasting:** \n| Feature | Calcination | Roasting |\n|---|---|---|\n| **Atmosphere** | Done in the absence or limited supply of air. | Done in the presence of excess air. |\n| **Purpose** | To remove volatile impurities like $H_2O$ and $CO_2$. | To convert sulfide ores into oxides and remove impurities like As and Sb as volatile oxides. |\n| **Ore Type** | Used for carbonate and hydrated ores. | Primarily used for sulfide ores. |",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write chemical formula of the following ores: (a) Calamine (b) Haematite (c) Magnetite (d) Corundum. (Oct. 2014)",
+    "answer": "(a) Calamine: $ZnCO_3$ (Zinc Carbonate) \n(b) Haematite: $Fe_2O_3$ (Iron(III) Oxide) \n(c) Magnetite: $Fe_3O_4$ (Iron(II,III) Oxide) \n(d) Corundum: $Al_2O_3$ (Aluminium Oxide)",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are interstitial compounds? Why do these compounds have higher melting points than corresponding pure metals? (March 2015)",
+    "answer": "**Interstitial Compounds:** These are non-stoichiometric compounds formed when small non-metal atoms (like H, B, C, N) get trapped in the interstitial voids (empty spaces) of a transition metal's crystal lattice. \n\n**Reason for Higher Melting Points:** The small atoms trapped in the interstitial sites form strong covalent bonds with the surrounding metal atoms. These new bonds are stronger than the metallic bonds present in the pure metal. To break these additional strong bonds and melt the compound, a higher amount of energy is required, which results in a higher melting point compared to the pure parent metal.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define lanthanoid contraction. Explain its effects. (March 2015)",
+    "answer": "**Lanthanoid Contraction:** The steady decrease in atomic and ionic radii of the lanthanoid elements as the atomic number increases from Cerium (Ce) to Lutetium (Lu). \n\n**Effects:** \n1.  **Similarity in Atomic Radii:** Due to the lanthanoid contraction, the elements of the third transition series (5d) have atomic radii that are very similar to their corresponding elements in the second transition series (4d). For example, Zirconium (Zr) and Hafnium (Hf) have almost identical radii. \n2.  **Difficulty in Separation of Lanthanoids:** The chemical properties of the lanthanoids are very similar because of their nearly identical sizes. This makes their separation from one another in their pure state extremely difficult.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the reactions involved in the zone of reduction in blast furnace during extraction of iron. (March 2015)",
+    "answer": "In the zone of reduction of a blast furnace (temperature range 500 K - 800 K), the iron oxides are reduced to spongy iron by carbon monoxide (CO). The main reactions are: \n1.  Reduction of Haematite ($Fe_2O_3$) to Magnetite ($Fe_3O_4$): \n    $3Fe_2O_{3(s)} + CO_{(g)} \\rightarrow 2Fe_3O_{4(s)} + CO_{2(g)}$ \n2.  Reduction of Magnetite ($Fe_3O_4$) to Iron(II) oxide (FeO): \n    $Fe_3O_{4(s)} + CO_{(g)} \\rightarrow 3FeO_{(s)} + CO_{2(g)}$ \n3.  Reduction of Iron(II) oxide (FeO) to Iron (Fe): \n    $FeO_{(s)} + CO_{(g)} \\rightarrow Fe_{(s)} + CO_{2(g)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the position of iron (Z = 26) in periodic table? Explain why is Fe³⁺ more stable than Fe²⁺? (Oct. 2015)",
+    "answer": "**Position of Iron (Fe, Z=26):** Iron is a d-block element. It is located in **Period 4** and **Group 8** of the periodic table. \n\n**Stability of Fe³⁺ vs Fe²⁺:** \nThe electronic configuration of Fe is $[Ar] 3d^6 4s^2$. \n-   $Fe^{2+}$ is formed by the loss of two 4s electrons: $[Ar] 3d^6$. \n-   $Fe^{3+}$ is formed by the loss of two 4s electrons and one 3d electron: $[Ar] 3d^5$. \nThe $Fe^{3+}$ ion has a $3d^5$ configuration, which means its d-orbital is exactly half-filled. Half-filled and fully-filled orbitals are exceptionally stable due to symmetry and greater exchange energy. The $3d^6$ configuration of $Fe^{2+}$ is less stable. Therefore, $Fe^{3+}$ is more stable than $Fe^{2+}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between (a) Hydrometallurgy (b) Electrometallurgy. (Oct. 2015)",
+    "answer": "(a) **Hydrometallurgy:** This is a process of extracting metals from their ores by first dissolving the ore in a suitable aqueous solvent (leaching) and then recovering the metal from the solution by precipitation or displacement with a more reactive metal. Example: Extraction of silver and gold using cyanide solutions. \n\n(b) **Electrometallurgy:** This is a process of extracting metals by electrolysis. It is used for highly reactive metals. It involves the electrolysis of the metal's molten salt or its aqueous solution, where the metal ions are reduced and deposited at the cathode. Example: Extraction of sodium and aluminium from their molten salts.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define (a) Hydrometallurgy (b) Electrometallurgy. (Oct. 2015)",
+    "answer": "(a) **Hydrometallurgy:** The process of metal extraction that involves the use of aqueous solutions to leach (dissolve) the metal from its ore, followed by recovery of the metal from the solution. \n(b) **Electrometallurgy:** The process of metal extraction from molten or aqueous solutions of their salts using electrolysis, where the desired metal is deposited at the cathode.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the names and chemical formulae of any one ore of iron and zinc each. (March 2016)",
+    "answer": "**Ore of Iron:** \n-   Name: Haematite \n-   Chemical Formula: $Fe_2O_3$ \n\n**Ore of Zinc:** \n-   Name: Zinc Blende (or Sphalerite) \n-   Chemical Formula: $ZnS$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is Sc³⁺ colourless while Ti³⁺ coloured? (Atomic number Sc = 21, Ti = 22). (March 2016)",
+    "answer": "The color of transition metal ions is generally due to d-d electronic transitions, which require the presence of unpaired electrons in the d-orbitals. \n-   **Scandium (Sc, Z=21):** Configuration is $[Ar] 3d^1 4s^2$. The $Sc^{3+}$ ion is formed by losing all three valence electrons, so its configuration is $[Ar] 3d^0$. Since there are no electrons in the d-orbital, d-d transitions are not possible. Therefore, $Sc^{3+}$ is **colourless**. \n-   **Titanium (Ti, Z=22):** Configuration is $[Ar] 3d^2 4s^2$. The $Ti^{3+}$ ion is formed by losing three valence electrons, so its configuration is $[Ar] 3d^1$. It has one unpaired electron in its d-orbital. This electron can absorb light from the visible region to get promoted to a higher energy d-orbital (d-d transition). The transmitted light is colored. Therefore, $Ti^{3+}$ is **coloured** (purple).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are f-block elements? Distinguish between lanthanoids and actinoids. (March 2016)",
+    "answer": "**f-Block Elements:** These are elements in which the last differentiating electron enters the ante-penultimate f-orbital (the (n-2)f subshell). They consist of two series, the lanthanoids (4f series) and the actinoids (5f series), which are placed at the bottom of the periodic table. \n\n**Distinction between Lanthanoids and Actinoids:** \n| Feature | Lanthanoids | Actinoids |\n|---|---|---|\n| **Differentiating Electron** | Enters the 4f orbital. | Enters the 5f orbital. |\n| **Radioactivity** | Mostly non-radioactive (except promethium). | All are radioactive. |\n| **Oxidation States** | Predominantly show a +3 oxidation state. | Show a wider range of oxidation states (e.g., +3, +4, +5, +6, +7). |\n| **Contraction** | Exhibit lanthanoid contraction. | Exhibit a greater actinoid contraction. |\n| **Complex Formation** | Have a lesser tendency to form complexes. | Have a greater tendency to form complexes. |",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain the term - Interstitial compounds. (March 2017)",
+    "answer": "Interstitial compounds are non-stoichiometric compounds formed when small atoms of non-metals like hydrogen, boron, carbon, or nitrogen are trapped in the interstitial voids (empty spaces) within the crystal lattice of a transition metal. They are typically hard, have high melting points, retain metallic conductivity, and are chemically inert.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the factors which are related to the colour of transition metal ions. (March 2017)",
+    "answer": "The factors related to the color of transition metal ions are: \n1.  **Presence of Unpaired d-electrons:** The ion must have a partially filled d-orbital ($d^1$ to $d^9$ configuration) to allow for d-d electronic transitions. \n2.  **d-d Transition:** When light falls on the ion, an unpaired d-electron absorbs energy and gets promoted from a lower energy d-orbital to a higher energy d-orbital. \n3.  **Nature of the Ligand:** The color depends on the energy difference between the d-orbitals, which is determined by the nature of the ligands surrounding the metal ion in a complex. Different ligands cause different degrees of splitting, leading to different colors. \n4.  **Geometry of the Complex:** The geometry of the complex (e.g., octahedral, tetrahedral) also affects the splitting of the d-orbitals and thus the color.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the different oxidation states of iron. Why oxidation state of manganese is more stable? (Given: Z of Mn = 25). (March 2017)",
+    "answer": "**Different oxidation states of Iron (Fe):** The most common oxidation states of iron are **+2** (ferrous) and **+3** (ferric). It can also exhibit other states like 0, +4, and +6 under certain conditions. \n\n**Why the +2 oxidation state of Manganese is more stable:** \nThe electronic configuration of Manganese (Mn, Z=25) is $[Ar] 3d^5 4s^2$. The $Mn^{2+}$ ion is formed by the loss of the two 4s electrons. This results in the electronic configuration $[Ar] 3d^5$. This configuration has a half-filled 3d subshell, which is an arrangement of extra stability due to its symmetry and high exchange energy. Therefore, the +2 oxidation state of manganese is particularly stable.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is Lanthanoid contraction? Explain, why lanthanum (Z = 57) forms $La^{3+}$ ion, while cerium (Z = 58) forms $Ce^{4+}$ ion? (July 2017)",
+    "answer": "**Lanthanoid Contraction:** The gradual decrease in atomic and ionic radii across the lanthanoid series with increasing atomic number. This is caused by the poor shielding of the nuclear charge by the 4f electrons. \n\n**Reason for $La^{3+}$ and $Ce^{4+}$ ions:** \n-   **Lanthanum (La, Z=57):** Configuration is $[Xe] 5d^1 6s^2$. To achieve a stable noble gas configuration of Xenon ($[Xe]$), it readily loses all three of its valence electrons (two 6s and one 5d). Thus, it forms the stable $La^{3+}$ ion. \n-   **Cerium (Ce, Z=58):** Configuration is $[Xe] 4f^1 5d^1 6s^2$. While it can form a $Ce^{3+}$ ion by losing the 5d and 6s electrons, it can also lose the 4f electron to form the $Ce^{4+}$ ion. The configuration of $Ce^{4+}$ is $[Xe]$, which is the highly stable noble gas configuration. Therefore, cerium readily forms the $Ce^{4+}$ ion, which acts as a strong oxidizing agent.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Mention the names of various steps involved in the extraction of pure metals from their ores. (July 2017)",
+    "answer": "The main steps involved in the extraction of pure metals from their ores (metallurgy) are: \n1.  **Concentration of the Ore:** The removal of unwanted earthy or siliceous impurities (gangue) from the ore. Methods include hydraulic washing, magnetic separation, froth flotation, and leaching. \n2.  **Conversion of Concentrated Ore to Oxide:** The concentrated ore is converted into its metallic oxide form, usually by calcination or roasting. \n3.  **Reduction of the Oxide to Metal:** The metal oxide is reduced to the crude metal. Methods include smelting (reduction with carbon), reduction by other metals (aluminothermic process), or electrolytic reduction. \n4.  **Refining of the Metal:** The purification of the crude metal to obtain a metal of high purity. Methods include distillation, liquation, poling, and electrolytic refining.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the action of carbon on the following metal oxide: Fe₂O₃ in blast furnace. (March 2018)",
+    "answer": "In a blast furnace, carbon (in the form of coke) primarily acts as a reducing agent. However, the direct reduction of iron oxide by carbon occurs at very high temperatures in the lower part of the furnace. The main reducing agent is carbon monoxide, which is produced from the partial combustion of coke. \nThe direct reduction reaction is: \n$Fe_2O_{3(s)} + 3C_{(s)} \\xrightarrow{High Temp.} 2Fe_{(l)} + 3CO_{(g)}$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are 'd' and 'f' block elements? (July 2018)",
+    "answer": "**d-Block Elements (Transition Elements):** These are the elements in which the last differentiating electron enters the penultimate d-orbital (the (n-1)d subshell). They are located in Groups 3 to 12 of the periodic table. They have a general electronic configuration of $(n-1)d^{1-10} ns^{1-2}$. \n\n**f-Block Elements (Inner Transition Elements):** These are the elements in which the last differentiating electron enters the ante-penultimate f-orbital (the (n-2)f subshell). They consist of two series, the lanthanoids (4f series) and the actinoids (5f series), which are placed separately at the bottom of the periodic table.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the action of the following on lanthanoids? (a) Water (b) Sulphur, heat (c) Nitrogen, heat (July 2018)",
+    "answer": "Lanthanoids (Ln) are quite reactive metals. \n(a) **Water:** Lanthanoids react slowly with cold water and more rapidly with hot water to form their hydroxides and liberate hydrogen gas. \n   $2Ln_{(s)} + 6H_2O_{(l)} \\rightarrow 2Ln(OH)_{3(aq)} + 3H_{2(g)}$ \n(b) **Sulphur, heat:** When heated with sulphur, lanthanoids form their corresponding sulfides. \n   $2Ln_{(s)} + 3S_{(s)} \\xrightarrow{\\Delta} Ln_2S_{3(s)}$ \n(c) **Nitrogen, heat:** When heated with nitrogen, lanthanoids form their corresponding nitrides. \n   $2Ln_{(s)} + N_{2(g)} \\xrightarrow{\\Delta} 2LnN_{(s)}$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain the position of actinides in the periodic table. What is the action of sulphur on lanthanoids? Calculate the magnetic moment of divalent ion in aqueous solution if its atomic number is 24. (March 2019)",
+    "answer": "**Position of Actinides:** The actinides are the series of 14 f-block elements from Thorium (Th, Z=90) to Lawrencium (Lr, Z=103). They are placed in a separate horizontal row at the bottom of the periodic table, below the lanthanoids. They belong to Period 7 and Group 3. \n\n**Action of Sulphur on Lanthanoids:** When heated with sulphur, lanthanoids (Ln) react to form their corresponding sulphides, typically of the formula $Ln_2S_3$. \n$2Ln_{(s)} + 3S_{(s)} \\xrightarrow{\\Delta} Ln_2S_{3(s)}$ \n\n**Magnetic Moment Calculation:** \nThe element with atomic number Z=24 is Chromium (Cr). Its electronic configuration is $[Ar] 3d^5 4s^1$. \nA divalent ion means a +2 charge, so we have $Cr^{2+}$. It is formed by losing one 4s and one 3d electron. \nThe configuration of $Cr^{2+}$ is $[Ar] 3d^4$. \nThis ion has 4 unpaired electrons (n=4). \nThe spin-only magnetic moment ($\\mu$) is calculated using the formula $\\mu = \\sqrt{n(n+2)}$ Bohr Magnetons (BM). \n$\\mu = \\sqrt{4(4+2)} = \\sqrt{4 \\times 6} = \\sqrt{24} \\approx 4.90$ BM.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write a note on Lanthanoid contraction. Write two uses of KMnO₄. (July 2019)",
+    "answer": "**Lanthanoid Contraction:** This refers to the steady decrease in the atomic and ionic radii of the lanthanoid elements with increasing atomic number. The cause is the poor shielding of the outer electrons from the increasing nuclear charge by the intervening 4f electrons. This contraction has significant consequences, such as the similarity in size and properties between the 2nd and 3rd transition series elements. \n\n**Two uses of Potassium Permanganate ($KMnO_4$):** \n1.  **Oxidizing Agent:** It is a strong oxidizing agent used in volumetric analysis (permanganometry) for the estimation of substances like ferrous salts, oxalates, and hydrogen peroxide. \n2.  **Disinfectant:** In its dilute solutions, it is used as a disinfectant to sterilize water in wells and as a mild antiseptic for washing wounds (under the name Condy's fluid).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain Bessermization process. (July 2019)",
+    "answer": "Bessemerization is a process used for the purification of pig iron to produce steel. The process is carried out in a pear-shaped furnace called a Bessemer converter, which is lined with silica (for acidic impurities) or dolomite (for basic impurities). A blast of hot air is blown through the molten pig iron. The impurities present in the iron, such as manganese, silicon, and carbon, are oxidized. The gaseous oxides (like $CO$) escape, while the solid oxides (like $MnO$ and $SiO_2$) combine to form a fusible slag, which is then removed. The process is rapid and exothermic, and the composition can be adjusted to produce steel of a desired quality.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is electrometallurgy? (March 2020)",
+    "answer": "Electrometallurgy is a branch of metallurgy that uses electrical energy for the extraction and refining of metals. It typically involves the electrolysis of a molten salt of the metal or its aqueous solution. It is the preferred method for extracting highly electropositive metals like sodium, magnesium, and aluminium, which cannot be reduced by common reducing agents.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the name and chemical formula of one ore of zinc. (March 2020)",
+    "answer": "-   **Name:** Zinc Blende (or Sphalerite) \n-   **Chemical Formula:** $ZnS$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a note on leaching process. (March 2020)",
+    "answer": "Leaching is a hydrometallurgical process used for the concentration of an ore. It involves treating the powdered ore with a suitable solvent in which the desired metal component is soluble, while the impurities (gangue) are not. The metal is then recovered from the resulting solution by a suitable chemical method like precipitation or displacement. A common example is the cyanide process for the extraction of gold and silver, where the ore is leached with an aqueous solution of sodium cyanide (NaCN).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the general electronic configuration of lanthanoids. Why are most of the compounds of transition metals coloured? (March 2020)",
+    "answer": "**General electronic configuration of lanthanoids:** The general valence shell electronic configuration of lanthanoids is $[Xe] 4f^{1-14} 5d^{0-1} 6s^2$. \n\n**Why most transition metal compounds are coloured:** \nMost compounds of transition metals are colored because of the presence of unpaired electrons in their (n-1)d orbitals. When visible light falls on these compounds, the unpaired d-electrons absorb energy of a particular wavelength and get promoted from a lower energy d-orbital to a higher energy d-orbital. This electronic transition is called a d-d transition. The color observed is the complementary color of the light that was absorbed.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Iron exhibits +2 and +3 oxidation states. Write their electronic configuration. Which will be more stable? Why? (Sept. 2021)",
+    "answer": "The electronic configuration of Iron (Fe, Z=26) is $[Ar] 3d^6 4s^2$. \n-   **$Fe^{2+}$ Electronic Configuration:** $[Ar] 3d^6$ \n-   **$Fe^{3+}$ Electronic Configuration:** $[Ar] 3d^5$ \n\nThe **$Fe^{3+}$** oxidation state is more stable. \n**Reason:** The $Fe^{3+}$ ion has a $3d^5$ electronic configuration, which is a half-filled d-subshell. Half-filled and fully-filled electronic configurations are exceptionally stable due to their symmetrical distribution of electrons and high exchange energy. The $3d^6$ configuration of $Fe^{2+}$ is less stable in comparison.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why La(OH)₃ is the strongest base, while Lu(OH)₃ is the weakest base? (Sept. 2021)",
+    "answer": "The basic strength of the hydroxides of lanthanoids ($Ln(OH)_3$) decreases across the series from Lanthanum (La) to Lutetium (Lu). This trend is a consequence of the lanthanoid contraction. As we move from La to Lu, the ionic size of the $Ln^{3+}$ ion decreases. Due to the smaller size and increased effective nuclear charge, the covalent character of the Ln-OH bond increases. A more covalent Ln-OH bond is less likely to dissociate to release $OH^-$ ions in solution. Therefore, $La(OH)_3$, with the largest ion ($La^{3+}$) and most ionic character, is the strongest base, while $Lu(OH)_3$, with the smallest ion ($Lu^{3+}$) and most covalent character, is the weakest base.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write two applications of catalytic properties of transition metals and compounds. (Sept. 2021)",
+    "answer": "1.  **Haber Process:** Finely divided iron is used as a catalyst, with molybdenum as a promoter, in the synthesis of ammonia from nitrogen and hydrogen. \n    $N_{2(g)} + 3H_{2(g)} \\xrightarrow{Fe/Mo} 2NH_{3(g)}$ \n2.  **Contact Process:** Vanadium pentoxide ($V_2O_5$) is used as a catalyst for the oxidation of sulfur dioxide ($SO_2$) to sulfur trioxide ($SO_3$) in the manufacture of sulfuric acid. \n    $2SO_{2(g)} + O_{2(g)} \\xrightarrow{V_2O_5} 2SO_{3(g)}$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the chemical formula of Haematite. (Sept. 2021)",
+    "answer": "The chemical formula of Haematite is $Fe_2O_3$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define mineral. (Sept. 2021)",
+    "answer": "A mineral is a naturally occurring, inorganic solid substance with a definite chemical composition and a characteristic crystalline structure.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate spin only magnetic moment of divalent cation of transition metal with atomic number 25. Salts of Ti⁴⁺ are colourless. Give reason. (March 2022)",
+    "answer": "**Magnetic Moment Calculation:** \nThe element with atomic number Z=25 is Manganese (Mn). Its configuration is $[Ar] 3d^5 4s^2$. \nThe divalent cation is $Mn^{2+}$. Its configuration is $[Ar] 3d^5$ (by losing two 4s electrons). \nIt has 5 unpaired electrons (n=5). \nThe spin-only magnetic moment is $\\mu = \\sqrt{n(n+2)}$ BM. \n$\\mu = \\sqrt{5(5+2)} = \\sqrt{35} \\approx 5.92$ BM. \n\n**Reason for Ti⁴⁺ being Colourless:** \nThe color of transition metal ions is due to d-d transitions, which requires partially filled d-orbitals. \nThe configuration of Titanium (Ti, Z=22) is $[Ar] 3d^2 4s^2$. \nThe $Ti^{4+}$ ion is formed by losing all four valence electrons. Its configuration is $[Ar] 3d^0$. Since there are no electrons in the d-orbital, d-d transitions are impossible. Therefore, salts of $Ti^{4+}$ are colorless.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write the molecular formula of the following minerals: (i) Chalcopyrite (ii) Calamine. (July 2022)",
+    "answer": "(i) Chalcopyrite: $CuFeS_2$ \n(ii) Calamine: $ZnCO_3$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is lanthanoid contraction? Write similarities between lanthanoids and actinoids. (July 2022)",
+    "answer": "**Lanthanoid Contraction:** The steady decrease in atomic and ionic radii with increasing atomic number across the lanthanoid series. It is caused by the poor shielding effect of the 4f electrons. \n\n**Similarities between Lanthanoids and Actinoids:** \n1.  Both series involve the filling of f-orbitals (4f for lanthanoids, 5f for actinoids). \n2.  Both show a common and most stable oxidation state of +3. \n3.  Both series exhibit contraction in atomic and ionic radii with increasing atomic number (lanthanoid and actinoid contraction). \n4.  The elements of both series are highly electropositive and reactive.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Give the electronic configuration of Gd (Z = 64). (March 2023)",
+    "answer": "The electronic configuration of Gadolinium (Gd, Z=64) is: \n$[Xe] 4f^7 5d^1 6s^2$. \nThis configuration is notable because it achieves a stable, half-filled 4f subshell.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are interstitial lanthanides? Give the classification of alloys with examples. (March 2023)",
+    "answer": "The term 'interstitial lanthanides' is unusual; the question likely means **interstitial compounds** formed by transition metals (which include lanthanides). Interstitial compounds are formed when small atoms like H, C, or N fit into the interstitial voids of the metal's crystal lattice. \n\n**Classification of Alloys:** \n1.  **Ferrous Alloys:** Alloys where iron is the main constituent. Example: Stainless Steel (an alloy of iron, chromium, and nickel). \n2.  **Non-ferrous Alloys:** Alloys that do not contain iron as the main constituent. Example: Brass (an alloy of copper and zinc).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why do d - block elements form coloured compounds? (July 2023)",
+    "answer": "d-block elements form colored compounds because of the presence of unpaired electrons in their d-orbitals. When visible light passes through a solution containing these ions, the unpaired d-electrons absorb energy of a specific wavelength and get promoted from a lower-energy d-orbital to a higher-energy d-orbital. This phenomenon is called a **d-d transition**. The color we see is the complementary color of the light that was absorbed.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Which alloy is used in Fischer Tropsch process in the synthesis of gasoline? (March 2022)",
+    "answer": "In the Fischer-Tropsch process for synthesizing gasoline, a **cobalt-thoria** catalyst is often used. This is not typically referred to as an alloy but as a promoted catalyst.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define: Gangue. (July 2023)",
+    "answer": "Gangue, or matrix, is the unwanted earthy, rocky, or siliceous impurities that are found commercially mixed with a mineral in its ore.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write different oxidation states of manganese. Why +2 oxidation state of manganese is more stable? (July 2023)",
+    "answer": "**Oxidation states of Manganese (Mn):** The common oxidation states are +2, +3, +4, +5, +6, and +7. \n\n**Stability of +2 state:** The electronic configuration of Mn (Z=25) is $[Ar] 3d^5 4s^2$. When it forms the $Mn^{2+}$ ion, it loses its two 4s electrons. The resulting configuration is $[Ar] 3d^5$. This configuration contains a half-filled d-subshell, which is an arrangement of extra stability due to symmetry and high exchange energy. This makes the +2 oxidation state of manganese particularly stable.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define Lanthanide contraction. Write the balanced chemical equations when acidified K₂Cr₂O₇ reacts with H₂S. (March 2024)",
+    "answer": "**Lanthanide Contraction:** The steady, gradual decrease in atomic and ionic radii of the lanthanoid elements with increasing atomic number. \n\n**Reaction of acidified K₂Cr₂O₇ with H₂S:** \nAcidified potassium dichromate is a strong oxidizing agent. It oxidizes hydrogen sulfide ($H_2S$) to elemental sulfur (a yellow precipitate), while the dichromate ion ($Cr_2O_7^{2-}$) is reduced to the green chromium(III) ion ($Cr^{3+}$). \n\n**Ionic Equation:** \n$Cr_2O_7^{2-}_{(aq)} + 8H^+_{(aq)} + 3H_2S_{(g)} \\rightarrow 2Cr^{3+}_{(aq)} + 3S_{(s)} + 7H_2O_{(l)}$ \n\n**Molecular Equation:** \n$K_2Cr_2O_{7(aq)} + 4H_2SO_{4(aq)} + 3H_2S_{(g)} \\rightarrow K_2SO_{4(aq)} + Cr_2(SO_4)_{3(aq)} + 3S_{(s)} + 7H_2O_{(l)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the preparation of potassium dichromate from chromite ore. (March 2024)",
+    "answer": "The preparation of potassium dichromate ($K_2Cr_2O_7$) from chromite ore ($FeCr_2O_4$) involves three main steps: \n**Step 1: Conversion of chromite ore to sodium chromate.** \nThe powdered chromite ore is fused with sodium carbonate ($Na_2CO_3$) in the presence of excess air. \n$4FeCr_2O_{4(s)} + 8Na_2CO_{3(s)} + 7O_{2(g)} \\rightarrow 8Na_2CrO_{4(s)} + 2Fe_2O_{3(s)} + 8CO_{2(g)}$ \n\n**Step 2: Conversion of sodium chromate to sodium dichromate.** \nThe resulting sodium chromate solution is filtered and acidified with concentrated sulfuric acid. \n$2Na_2CrO_{4(aq)} + H_2SO_{4(conc)} \\rightarrow Na_2Cr_2O_{7(aq)} + Na_2SO_{4(aq)} + H_2O_{(l)}$ \n\n**Step 3: Conversion of sodium dichromate to potassium dichromate.** \nThe less soluble potassium dichromate is crystallized out from a hot, concentrated solution of sodium dichromate by adding potassium chloride (KCl). \n$Na_2Cr_2O_{7(aq)} + 2KCl_{(aq)} \\rightarrow K_2Cr_2O_{7(s)} + 2NaCl_{(aq)}$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the atomic numbers of transuranium elements. (March 2024)",
+    "answer": "Transuranium elements are the elements with atomic numbers greater than that of uranium (Z=92). Their atomic numbers start from 93 and go upwards. \nExamples: Neptunium (Np, Z=93), Plutonium (Pu, Z=94), Americium (Am, Z=95), etc.",
+    "marks": 1
+  }
+]

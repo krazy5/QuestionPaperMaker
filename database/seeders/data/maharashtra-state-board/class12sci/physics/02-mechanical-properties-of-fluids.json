@@ -14,6 +14,20 @@
     "marks": 1
   },
   {
+    "type": "mcq",
+    "text": "A liquid rises in a glass capillary tube up to a height of 2.5 cm. If another glass capillary tube having a radius half that of the earlier tube is immersed in the same liquid, the rise of liquid in it will be... (Board 2022)",
+    "options": ["1.25 cm", "2.5 cm", "5 cm", "10 cm"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The dimensional formula of surface tension is _______. (Board 2023)",
+    "options": ["[L^{-1}M^1T^{-2}]", "[L^2M^1T^{-2}]", "[L^1M^1T^{-1}]", "[L^0M^1T^{-2}]"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
     "type": "short",
     "text": "What is capillarity? Give one application where this phenomenon is used. (Board 2024)",
     "answer": "The phenomenon of rise or fall of a liquid inside a narrow tube (capillary tube) is called capillarity. An application is the absorption of ink by a blotting paper or the rise of oil in the wick of a lamp.",
@@ -26,6 +40,18 @@
     "marks": 2
   },
   {
+    "type": "short",
+    "text": "Define angle of contact and state its two characteristics. (Board 2019)",
+    "answer": "The angle of contact is the angle measured within the liquid between the tangent to the liquid surface at the point of contact and the solid surface. Characteristics: 1) For a given solid-liquid pair, it is constant. 2) It depends on the nature of the liquid and the solid in contact.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State the formula for critical velocity in terms of Reynold's number for a flow of a fluid. (Board 2022)",
+    "answer": "The critical velocity ($v_c$) is given by the formula $v_c = \\frac{R_n \\eta}{\\rho d}$, where $R_n$ is the Reynold's number, $\\eta$ is the coefficient of viscosity, $\\rho$ is the density of the fluid, and d is the diameter of the pipe.",
+    "marks": 2
+  },
+  {
     "type": "long",
     "text": "Calculate the work done in blowing a soap bubble to a radius of 0.1 m. The surface tension of the soap solution is $0.03$ N/m. (Board 2024)",
     "answer": "A soap bubble has two free surfaces. The initial surface area is 0. The final surface area is $A = 2 \\times (4\\pi r^2)$. Work done $W = T \\times A = T \\times 8\\pi r^2$. Substituting values, $W = 0.03 \\times 8 \\times \\pi \\times (0.1)^2 = 0.0024\\pi$ J.",
@@ -34,7 +60,25 @@
   {
     "type": "long",
     "text": "A hydraulic lift is designed to lift cars with a maximum mass of 3000 kg. The area of the cross-section of the piston carrying the load is $425 \\text{ cm}^2$. What maximum pressure would the smaller piston have to bear? (g = $9.8 \\text{ m/s}^2$) (Board 2023)",
-    "answer": "According to Pascal's law, the pressure is transmitted equally. First, find the force on the larger piston: $F_2 = mg = 3000 \\times 9.8 = 29400$ N. Convert area to m$^2$: $A_2 = 425 \\text{ cm}^2 = 425 \\times 10^{-4} \\text{ m}^2$. The pressure on the larger piston is $P_2 = F_2/A_2 = 29400 / (425 \\times 10^{-4})$. This pressure is the same as on the smaller piston. $P = 6.917 \\times 10^5$ Pa.",
+    "answer": "According to Pascal's law, the pressure is transmitted equally. First, find the force on the larger piston: $F_2 = mg = 3000 \\times 9.8 = 29400$ N. Convert area to m$^2$: $A_2 = 425 \\text{ cm}^2 = 425 \\times 10^{-4} \\text{ m}^2$. The pressure on the larger piston is $P_2 = F_2/A_2 = 29400 / (425 \\times 10^{-4})$. This pressure is the same as on the smaller piston. $P \\approx 6.917 \\times 10^5$ Pa.",
     "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Twenty-seven droplets of water, each of radius 0.1 mm, coalesce into a single drop. Find the change in surface energy. Surface tension of water is 0.072 N/m. (Textbook Numerical)",
+    "answer": "Let r be the radius of a small drop and R be the radius of the big drop. Volume remains constant: $27 \\times \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi R^3$, which gives $R = 3r$. Change in surface area $\\Delta A = 27(4\\pi r^2) - 4\\pi R^2 = 27(4\\pi r^2) - 4\\pi (3r)^2 = 4\\pi(27r^2 - 9r^2) = 72\\pi r^2$. Change in energy $W = T \\times \\Delta A = 0.072 \\times 72 \\times \\pi \\times (0.1 \\times 10^{-3})^2 \\approx 1.628 \\times 10^{-7}$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the excess pressure inside a liquid drop. (Board 2018)",
+    "answer": "Consider a spherical liquid drop of radius r. Let the pressure inside be $p_i$ and outside be $p_o$. The excess pressure is $p_i - p_o$. If the radius increases by dr, the work done is $dW = (p_i - p_o)4\\pi r^2 dr$. The increase in surface energy is $dU = T \\times dA = T \\times (8\\pi r dr)$. Equating dW and dU gives the expression for excess pressure: $p_i - p_o = \\frac{2T}{r}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "State and prove Bernoulli's principle. (Board 2016)",
+    "answer": "Bernoulli's principle states that for the streamline flow of an ideal (incompressible and non-viscous) fluid, the sum of the pressure energy, kinetic energy per unit volume, and potential energy per unit volume is always constant. The equation is $P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}$. The proof is based on the work-energy theorem applied to a fluid element.",
+    "marks": 4
   }
 ]

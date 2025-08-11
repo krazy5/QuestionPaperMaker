@@ -1,0 +1,248 @@
+[
+  {
+    "type": "short",
+    "text": "Distinguish between crystalline and amorphous solid. (Board March 2014, 2017)",
+    "answer": "Crystalline solids have a definite, regular arrangement of constituent particles (long-range order), a sharp melting point, are anisotropic, and give a clean cleavage. Amorphous solids have a random, irregular arrangement (short-range order), melt over a range of temperatures, are isotropic, and show an irregular cleavage.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Gold crystallises into face-centered cubic and has density of 19.30 kg dm⁻³. Calculate atomic radius of gold. (Molar mass of Au = 197 g mol⁻¹) (Board Oct. 2013)",
+    "answer": "Given: Density ($\\rho$) = 19.30 kg dm⁻³ = 19.30 g cm⁻³, Molar Mass (M) = 197 g mol⁻¹, Structure = FCC (n=4). The density is given by the formula: $\\rho = \\frac{n \\times M}{a^3 \\times N_A}$. Rearranging for edge length 'a': $a^3 = \\frac{n \\times M}{\\rho \\times N_A} = \\frac{4 \\times 197}{19.30 \\times (6.022 \\times 10^{23})} = 6.766 \\times 10^{-23} \\text{ cm}^3$. Therefore, $a = \\sqrt[3]{67.66 \\times 10^{-24}} \\approx 4.074 \\times 10^{-8} \\text{ cm} = 407.4 \\text{ pm}$. For an FCC lattice, the relationship between edge length (a) and atomic radius (r) is $a = 2\\sqrt{2}r$. So, $r = \\frac{a}{2\\sqrt{2}} = \\frac{407.4}{2 \\times 1.414} \\approx 144.1 \\text{ pm}$. The atomic radius of gold is approximately 144 pm.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the number of atoms present in 2 gram of crystal which has face-centered cubic (fcc) crystal lattice having edge length of 100 pm and density 10 g cm⁻³. (Board Oct. 2013)",
+    "answer": "Given: Mass of crystal = 2 g, Structure = FCC (n=4), Edge length (a) = 100 pm = $100 \\times 10^{-10}$ cm = $1 \\times 10^{-8}$ cm, Density ($\\rho$) = 10 g cm⁻³. Volume of one unit cell = $a^3 = (1 \\times 10^{-8} \\text{ cm})^3 = 1 \\times 10^{-24} \\text{ cm}^3$. Mass of one unit cell = Density $\\times$ Volume = $10 \\text{ g cm}^{-3} \\times 1 \\times 10^{-24} \\text{ cm}^3 = 1 \\times 10^{-23} \\text{ g}$. An FCC unit cell contains 4 atoms. So, $1 \\times 10^{-23}$ g of the crystal contains 4 atoms. Number of atoms in 2 g of crystal = $\\frac{4 \\text{ atoms}}{1 \\times 10^{-23} \\text{ g}} \\times 2 \\text{ g} = 8 \\times 10^{23}$ atoms.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are Schottky defect and Frenkel defect? (Board March 2014)",
+    "answer": "Schottky Defect: It is a point defect in ionic crystals where an equal number of cations and anions are missing from their normal lattice sites, creating a pair of vacancies. This defect decreases the density of the crystal.\nFrenkel Defect: It is a point defect where an ion (usually a cation) leaves its normal lattice site and occupies an interstitial site within the crystal. This defect does not change the density of the crystal.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Face-centered cubic crystal lattice of copper has density of 8.966 g cm⁻³. Calculate the volume of the unit cell. (Given molar mass of copper is 63.5 g mol⁻¹ and Avogadro's number $N_A$ is $6.022 \\times 10^{23}$) (Board Oct. 2014)",
+    "answer": "Given: $\\rho = 8.966$ g cm⁻³, $M = 63.5$ g mol⁻¹, $N_A = 6.022 \\times 10^{23}$ mol⁻¹, Structure = FCC (n=4). The formula for density is $\\rho = \\frac{n \\times M}{V \\times N_A}$, where V is the volume of the unit cell. Rearranging for V: $V = \\frac{n \\times M}{\\rho \\times N_A} = \\frac{4 \\times 63.5}{8.966 \\times (6.022 \\times 10^{23})} = \\frac{254}{5.40 \\times 10^{24}} \\approx 4.704 \\times 10^{-23} \\text{ cm}^3$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A unit cell of iron crystal has edge length 288 pm and density 7.86 g cm⁻³. Find the number of atoms per unit cell and type of the crystal lattice. (Molar mass of iron = 56 g mol⁻¹) (Board Oct. 2014)",
+    "answer": "Given: $a = 288$ pm = $2.88 \\times 10^{-8}$ cm, $\\rho = 7.86$ g cm⁻³, $M = 56$ g mol⁻¹, $N_A = 6.022 \\times 10^{23}$ mol⁻¹. From the density formula $\\rho = \\frac{n \\times M}{a^3 \\times N_A}$, we can find 'n', the number of atoms per unit cell. $n = \\frac{\\rho \\times a^3 \\times N_A}{M} = \\frac{7.86 \\times (2.88 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})}{56} = \\frac{7.86 \\times (23.888 \\times 10^{-24}) \\times (6.022 \\times 10^{23})}{56} \\approx \\frac{113.2}{56} \\approx 2.02$. Since 'n' must be an integer, $n=2$. A cubic unit cell with 2 atoms is a Body-Centered Cubic (BCC) lattice.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain impurity defect in stainless steel with diagram. (Board March 2015)",
+    "answer": "Stainless steel is an alloy primarily of iron and chromium, with small amounts of carbon. It exhibits two types of impurity defects:\n1.  **Substitutional Impurity Defect:** Some iron atoms in the crystal lattice are replaced by chromium atoms. Since iron and chromium have similar atomic sizes, this substitution is easily accommodated.\n2.  **Interstitial Impurity Defect:** Small carbon atoms occupy the vacant interstitial spaces (voids) between the iron atoms in the lattice. This makes the steel hard and strong.\nA simple diagram would show a regular lattice of Fe atoms, with some sites occupied by Cr atoms (substitutional) and some small C atoms in the gaps between Fe atoms (interstitial).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Niobium crystallises as body centered cubic (BCC) and has density of 8.55 g cm⁻³. Calculate the atomic radius of niobium. (Given: At. mass of niobium = 93 g mol⁻¹) (Board March 2015)",
+    "answer": "Given: Structure = BCC (n=2), $\\rho = 8.55$ g cm⁻³, $M = 93$ g mol⁻¹. First, calculate the edge length 'a' of the unit cell. $a^3 = \\frac{n \\times M}{\\rho \\times N_A} = \\frac{2 \\times 93}{8.55 \\times (6.022 \\times 10^{23})} = 3.61 \\times 10^{-23} \\text{ cm}^3$. $a = \\sqrt[3]{36.1 \\times 10^{-24}} \\approx 3.30 \\times 10^{-8} \\text{ cm} = 330 \\text{ pm}$. For a BCC lattice, the relationship between edge length (a) and atomic radius (r) is $\\sqrt{3}a = 4r$. So, $r = \\frac{\\sqrt{3}a}{4} = \\frac{1.732 \\times 330 \\text{ pm}}{4} \\approx 143 \\text{ pm}$. The atomic radius of niobium is 143 pm or 0.143 nm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Silver crystallises in F.C.C. (face-centered cubic structure). The edge length of unit cell is 4.087 Å. Calculate density of silver. (Molar mass of silver = 108 g mol⁻¹) (Board Oct. 2015)",
+    "answer": "Given: Structure = FCC (n=4), $a = 4.087$ Å = $4.087 \\times 10^{-8}$ cm, $M = 108$ g mol⁻¹. The density is calculated as: $\\rho = \\frac{n \\times M}{a^3 \\times N_A} = \\frac{4 \\times 108}{(4.087 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})} = \\frac{432}{(68.27 \\times 10^{-24}) \\times (6.022 \\times 10^{23})} = \\frac{432}{41.11} \\approx 10.51 \\text{ g cm}^{-3}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is ferromagnetism? Iron (Z=26) is strongly ferromagnetic. Explain. (Board March 2016)",
+    "answer": "Ferromagnetism is a property of certain materials (like iron, cobalt, nickel) that are strongly attracted to magnetic fields and can retain their magnetic properties after the external field is removed. \nExplanation for Iron: In ferromagnetic substances, the magnetic moments of atoms in a domain (a small region) are all aligned in the same direction, even without an external magnetic field. In unmagnetized iron, these domains are randomly oriented, so their net magnetic effect is zero. When placed in a magnetic field, the domains align parallel to the field, creating a strong magnetic effect. Iron ($[Ar] 3d^6 4s^2$) has four unpaired electrons in its 3d orbital, contributing to its strong magnetic moment and ferromagnetic behavior.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Silver crystallises in FCC structure. If density of silver is 10.51 g cm⁻³, calculate the volume of unit cell. (Atomic mass of silver (Ag) = 108 g mol⁻¹) (Board March 2016)",
+    "answer": "Given: $\\rho = 10.51$ g cm⁻³, $M = 108$ g mol⁻¹, Structure = FCC (n=4). Using the density formula $\\rho = \\frac{n \\times M}{V \\times N_A}$, we solve for the volume V. $V = \\frac{n \\times M}{\\rho \\times N_A} = \\frac{4 \\times 108}{10.51 \\times (6.022 \\times 10^{23})} = \\frac{432}{6.329 \\times 10^{24}} \\approx 6.826 \\times 10^{-23} \\text{ cm}^3 = 68.26 \\times 10^{-24} \\text{ cm}^3$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How many atoms are present per unit cell of a face centered cube (fcc)? (Board July 2016)",
+    "answer": "In a face-centered cubic (FCC) unit cell, there are:\n- 8 atoms at the corners, with each corner atom contributing 1/8 to the cell: $8 \\times (1/8) = 1$ atom.\n- 6 atoms at the center of the faces, with each face atom contributing 1/2 to the cell: $6 \\times (1/2) = 3$ atoms.\nTotal atoms per unit cell = $1 + 3 = 4$ atoms.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Determine the density of Cesium chloride which crystallizes in BCC type structure with the edge length 412.1 pm. The atomic masses of Cs and Cl are 133 and 35.5 respectively. Predict the co-ordination number of Cs⁺ ion. (Board July 2016)",
+    "answer": "For CsCl, the BCC structure contains one formula unit per cell, so $n=1$. \nMolar Mass (M) = $133 + 35.5 = 168.5$ g mol⁻¹. Edge length (a) = 412.1 pm = $4.121 \\times 10^{-8}$ cm. \nDensity ($\\rho$) = $\\frac{n \\times M}{a^3 \\times N_A} = \\frac{1 \\times 168.5}{(4.121 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})} \\approx \\frac{168.5}{(70 \\times 10^{-24}) \\times (6.022 \\times 10^{23})} \\approx 3.99$ g cm⁻³. \nCoordination Number: In a BCC-type structure like CsCl, each Cs⁺ ion is surrounded by 8 Cl⁻ ions, and each Cl⁻ ion is surrounded by 8 Cs⁺ ions. Therefore, the coordination number is 8.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Calculate the percentage efficiency of packing in case of simple cubic cell. (Board March 2017)",
+    "answer": "Packing efficiency = (Volume of atoms in unit cell / Total volume of unit cell) $\\times 100$. \nFor a simple cubic (SC) cell, the number of atoms per unit cell, $n=1$. The atoms touch along the edge, so the edge length $a = 2r$, where r is the atomic radius. \nVolume of atoms = $n \\times \\frac{4}{3}\\pi r^3 = 1 \\times \\frac{4}{3}\\pi r^3$. \nVolume of unit cell = $a^3 = (2r)^3 = 8r^3$. \nPacking Efficiency = $\\frac{\\frac{4}{3}\\pi r^3}{8r^3} \\times 100 = \\frac{\\pi}{6} \\times 100 \\approx 0.5236 \\times 100 = 52.36\\%$. The packing efficiency is approximately 52.4%.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Calculate the number of atoms in a unit cell of a metal crystallising in face centered cubic structure. (Board March 2017)",
+    "answer": "In a face-centered cubic (FCC) unit cell, there are 8 atoms at the corners (each contributing 1/8) and 6 atoms on the faces (each contributing 1/2). \nTotal atoms = $(8 \\times 1/8) + (6 \\times 1/2) = 1 + 3 = 4$ atoms.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Classify the following solids into different types: (a) Ammonium phosphate (b) Brass (c) S₈ molecule (d) Diamond. (Board July 2017)",
+    "answer": "(a) Ammonium phosphate ($(NH_4)_3PO_4$): Ionic Solid (contains polyatomic ions).\n(b) Brass (alloy of Cu and Zn): Metallic Solid.\n(c) S₈ molecule: Molecular Solid (non-polar).\n(d) Diamond (an allotrope of Carbon): Covalent or Network Solid.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A metal crystallises into two cubic faces namely face centered (FCC) and body centered (BCC), whose unit cell edge lengths are 3.5 Å and 3.0 Å respectively. Find the ratio of the densities of FCC and BCC. (Board July 2017)",
+    "answer": "Let the molar mass of the metal be M. \nFor FCC: $n_{fcc} = 4$, $a_{fcc} = 3.5$ Å. Density $\\rho_{fcc} = \\frac{n_{fcc} \\times M}{a_{fcc}^3 \\times N_A} = \\frac{4M}{(3.5)^3 N_A}$.\nFor BCC: $n_{bcc} = 2$, $a_{bcc} = 3.0$ Å. Density $\\rho_{bcc} = \\frac{n_{bcc} \\times M}{a_{bcc}^3 \\times N_A} = \\frac{2M}{(3.0)^3 N_A}$.\nRatio: $\\frac{\\rho_{fcc}}{\\rho_{bcc}} = \\frac{4M/(3.5)^3 N_A}{2M/(3.0)^3 N_A} = \\frac{4}{2} \\times \\frac{(3.0)^3}{(3.5)^3} = 2 \\times \\frac{27}{42.875} \\approx 1.259$. \nThe ratio of densities $d_{fcc} : d_{bcc}$ is approximately 1.26:1.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Ionic solids are hard and brittle. Explain. (Board March 2018)",
+    "answer": "Ionic solids are hard because their constituent ions (cations and anions) are held together by strong electrostatic forces of attraction, requiring a large amount of energy to separate them. They are brittle because when an external force is applied, it can cause a shift in the layers of ions. This shift can bring ions with like charges close to each other, leading to strong repulsive forces that cause the crystal to fracture or cleave.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The density of iron is 8.54 gram cm⁻³. If the edge length of unit cell is 2.8 Å and atomic mass is 56 gram mol⁻¹, find the number of atoms in the unit cell. (Board March 2018)",
+    "answer": "Given: $\\rho = 8.54$ g cm⁻³, $a = 2.8$ Å = $2.8 \\times 10^{-8}$ cm, $M = 56$ g mol⁻¹. We need to find 'n'. \n$n = \\frac{\\rho \\times a^3 \\times N_A}{M} = \\frac{8.54 \\times (2.8 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})}{56} = \\frac{8.54 \\times (21.952 \\times 10^{-24}) \\times (6.022 \\times 10^{23})}{56} \\approx \\frac{112.9}{56} \\approx 2.016$. \nSince the number of atoms must be an integer, $n=2$. This corresponds to a Body-Centered Cubic (BCC) lattice.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Classify the following molecular solids into different types: (a) HCl (b) CO₂ (c) Solid ice (d) SO₂. (Board July 2018)",
+    "answer": "(a) HCl: Polar molecular solid (due to dipole-dipole interactions).\n(b) CO₂: Non-polar molecular solid (held by weak London dispersion forces).\n(c) Solid ice (H₂O): Hydrogen-bonded molecular solid (strongest type of intermolecular force).\n(d) SO₂: Polar molecular solid (due to dipole-dipole interactions).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The density of silver having atomic mass 107.8 g mol⁻¹ is 10.8 gram cm⁻³. If the edge length of cubic unit cell is 4.05 x 10⁻⁸ cm, find the number of silver atoms in the unit cell. (Board July 2018)",
+    "answer": "Given: $\\rho = 10.8$ g cm⁻³, $M = 107.8$ g mol⁻¹, $a = 4.05 \\times 10^{-8}$ cm. We need to find 'n'.\n$n = \\frac{\\rho \\times a^3 \\times N_A}{M} = \\frac{10.8 \\times (4.05 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})}{107.8} = \\frac{10.8 \\times (66.43 \\times 10^{-24}) \\times (6.022 \\times 10^{23})}{107.8} \\approx \\frac{432.2}{107.8} \\approx 4.009$. \nSince the number of atoms must be an integer, $n=4$. This corresponds to a Face-Centered Cubic (FCC) lattice.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the ratio of octahedral holes to the number of anions in hexagonal closed packed structure? (Board March 2019)",
+    "answer": "In a hexagonal close-packed (HCP) structure, if the number of anions (or atoms) is N, then the number of octahedral holes is also N. Therefore, the ratio of octahedral holes to the number of anions is N:N or 1:1.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between crystalline solids and amorphous solids. (Board July 2019)",
+    "answer": "Crystalline solids have a long-range order in the arrangement of particles, sharp melting points, and are anisotropic. Amorphous solids have only short-range order, melt over a temperature range, and are isotropic.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define the relation between radius of atom and edge length in body centered cubic crystal. (Board July 2019)",
+    "answer": "In a body-centered cubic (BCC) crystal, the atoms touch along the body diagonal. The length of the body diagonal is $\\sqrt{3}a$, which is equal to four times the atomic radius (4r). Thus, the relation is $\\sqrt{3}a = 4r$, or $r = \\frac{\\sqrt{3}}{4}a$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Classify the following solids: (i) Diamond (ii) NaCl (iii) P₄ molecule (iv) Brass. What is Schottky defect? (Board July 2019)",
+    "answer": "Classification:\n(i) Diamond: Covalent (or Network) Solid\n(ii) NaCl: Ionic Solid\n(iii) P₄ molecule: Molecular Solid\n(iv) Brass: Metallic Solid (Alloy)\nSchottky Defect: It is a stoichiometric point defect in which an equal number of cations and anions are absent from their regular lattice sites, creating a pair of vacancies.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Classify the following into different types: (a) Silver (b) P₄ (c) Diamond (d) NaCl. (Board March 2020)",
+    "answer": "(a) Silver: Metallic Solid\n(b) P₄: Molecular Solid\n(c) Diamond: Covalent (or Network) Solid\n(d) NaCl: Ionic Solid",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Unit cell of a metal has edge length of 288 pm and density of 7.86 g cm⁻³. Determine the type of crystal lattice. (Atomic mass of metal = 56 g mol⁻¹) (Board March 2020)",
+    "answer": "This is a repeated question. Given: $a = 288$ pm = $2.88 \\times 10^{-8}$ cm, $\\rho = 7.86$ g cm⁻³, $M = 56$ g mol⁻¹. We find 'n'. \n$n = \\frac{\\rho \\times a^3 \\times N_A}{M} = \\frac{7.86 \\times (2.88 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})}{56} \\approx 2.02$. \nSince $n=2$, the crystal lattice is Body-Centered Cubic (BCC).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the coordination number of atoms in simple cubic crystal lattice? (Board Sept. 2021)",
+    "answer": "The coordination number of an atom in a simple cubic (SC) crystal lattice is 6. Each atom is in direct contact with six other atoms (one above, one below, one left, one right, one front, one back).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A compound forms hexagonal close packed (hcp) structure. What is the number of (i) Octahedral voids (ii) Tetrahedral voids (iii) Total voids formed in 0.4 mol of it? (Board Sept. 2021)",
+    "answer": "First, calculate the number of atoms (N) in 0.4 mol of the compound. \n$N = \\text{moles} \\times N_A = 0.4 \\text{ mol} \\times (6.022 \\times 10^{23} \\text{ atoms/mol}) = 2.4088 \\times 10^{23}$ atoms. \nIn any close-packed structure (hcp or ccp):\n(i) Number of Octahedral voids = N = $2.4088 \\times 10^{23}$.\n(ii) Number of Tetrahedral voids = 2N = $2 \\times (2.4088 \\times 10^{23}) = 4.8176 \\times 10^{23}$.\n(iii) Total voids = (Octahedral voids) + (Tetrahedral voids) = N + 2N = 3N = $3 \\times (2.4088 \\times 10^{23}) = 7.2264 \\times 10^{23}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the consequences of Schottky defect with reasons. (Board March 2022)",
+    "answer": "Consequences of Schottky defect:\n1.  **Decreased Density:** The density of the crystal decreases. Reason: An equal number of cations and anions are missing from the lattice, leading to a decrease in mass while the volume remains unchanged.\n2.  **Electrical Neutrality is Maintained:** The crystal remains electrically neutral. Reason: The number of missing positive ions (cations) is equal to the number of missing negative ions (anions), so the overall charge is balanced.\n3.  **Increased Electrical Conductivity:** It can slightly increase the electrical conductivity of the ionic solid through an ion-jump mechanism into the created vacancies.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Gold crystallises into face-centred cubic cells. The edge length of unit cell is 4.08 x 10⁻⁸ cm. Calculate the density of gold. (Molar mass of gold = 197 gmol⁻¹) (Board March 2022)",
+    "answer": "Given: Structure = FCC (n=4), $a = 4.08 \\times 10^{-8}$ cm, $M = 197$ g mol⁻¹. \nDensity ($\\rho$) = $\\frac{n \\times M}{a^3 \\times N_A} = \\frac{4 \\times 197}{(4.08 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})} = \\frac{788}{(67.92 \\times 10^{-24}) \\times (6.022 \\times 10^{23})} \\approx 19.27 \\text{ g cm}^{-3}$. \nSince 1 g cm⁻³ = 1 kg dm⁻³, the density is 19.27 kg dm⁻³.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain metal deficiency defect with example. (Board March 2022)",
+    "answer": "Metal deficiency defect is a non-stoichiometric point defect that occurs in compounds where a metal can exhibit variable oxidation states. In this defect, a cation is missing from its lattice site, and the resulting excess negative charge is balanced by an adjacent metal ion acquiring a higher positive charge. \nExample: Wüstite (FeO). In its crystal, some Fe²⁺ ions are missing. To maintain electrical neutrality, two Fe²⁺ ions are oxidized to two Fe³⁺ ions for every one missing Fe²⁺ site. The actual formula is often $Fe_{x}O$, where x ranges from 0.93 to 0.96.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Schottky and Frenkel defect. (Board July 2022)",
+    "answer": "1.  **Nature:** Schottky defect is the absence of an equal number of cations and anions. Frenkel defect is the dislocation of an ion from its lattice site to an interstitial site.\n2.  **Density:** Schottky defect decreases the density of the crystal. Frenkel defect does not change the density.\n3.  **Occurrence:** Schottky defect is common in ionic compounds with high coordination numbers and similar-sized ions (e.g., NaCl, KCl). Frenkel defect is common in compounds with low coordination numbers and a large difference in ion sizes (e.g., AgCl, ZnS).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the number of atoms and unit cells present in 0.5 g of Niobium if it forms body centered cubic structure. The density of Niobium is 8.55 g cm⁻³ and edge length of unit cell is 330.6 pm. (Board July 2022)",
+    "answer": "Given: Mass = 0.5 g, $\\rho = 8.55$ g cm⁻³, $a = 330.6$ pm = $3.306 \\times 10^{-8}$ cm, Structure = BCC (2 atoms/cell). \n1.  **Calculate number of unit cells:** \nVolume of one unit cell ($V_{cell}$) = $a^3 = (3.306 \\times 10^{-8} \\text{ cm})^3 \\approx 3.613 \\times 10^{-23} \\text{ cm}^3$. \nTotal volume of sample ($V_{total}$) = Mass / Density = $0.5 \\text{ g} / 8.55 \\text{ g cm}^{-3} \\approx 0.05848 \\text{ cm}^3$. \nNumber of unit cells = $V_{total} / V_{cell} = 0.05848 / (3.613 \\times 10^{-23}) \\approx 1.618 \\times 10^{21}$ unit cells. \n2.  **Calculate number of atoms:** \nNumber of atoms = (Number of unit cells) $\\times$ (atoms per cell) = $(1.618 \\times 10^{21}) \\times 2 \\approx 3.236 \\times 10^{21}$ atoms.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the following terms: (a) Substitutional impurity defect (b) Interstitial impurity defect. (Board March 2023)",
+    "answer": "(a) **Substitutional Impurity Defect:** This defect arises when some of the regular atoms or ions of the host crystal are replaced by impurity atoms or ions of another substance. This typically occurs when the host and impurity atoms have similar sizes. Example: Brass, where zinc atoms replace copper atoms in the copper lattice.\n(b) **Interstitial Impurity Defect:** This defect occurs when small impurity atoms (like H, C, or N) occupy the empty interstitial sites (voids) in the host crystal lattice without displacing any host atoms. Example: Carbon atoms in the interstitial sites of an iron lattice to form steel.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Silver crystallizes in fcc structure. If edge length of unit cell is 400 pm, calculate density of silver. (Atomic mass of Ag = 108) (Board March 2023)",
+    "answer": "Given: Structure = FCC (n=4), $a = 400$ pm = $4.00 \\times 10^{-8}$ cm, $M = 108$ g mol⁻¹. \nDensity ($\\rho$) = $\\frac{n \\times M}{a^3 \\times N_A} = \\frac{4 \\times 108}{(4 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})} = \\frac{432}{(64 \\times 10^{-24}) \\times (6.022 \\times 10^{23})} = \\frac{432}{38.54} \\approx 11.21 \\text{ g cm}^{-3}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the number of particles present in FCC per unit cell. (Board July 2023)",
+    "answer": "The number of particles (atoms) in a face-centered cubic (FCC) unit cell is 4. This is calculated as (8 corners $\\times$ 1/8 atom/corner) + (6 faces $\\times$ 1/2 atom/face) = 1 + 3 = 4.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "An element with molar mass 27 g/mol forms cubic unit cell with edge length of 405 pm If density of the element is 2.7 g/cm³ what is the nature of cubic unit cell? (Board July 2023)",
+    "answer": "Given: $M = 27$ g/mol, $a = 405$ pm = $4.05 \\times 10^{-8}$ cm, $\\rho = 2.7$ g/cm³. We need to find the number of atoms per unit cell, 'n', to determine the nature of the cell. \n$n = \\frac{\\rho \\times a^3 \\times N_A}{M} = \\frac{2.7 \\times (4.05 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})}{27} = \\frac{2.7 \\times (66.43 \\times 10^{-24}) \\times (6.022 \\times 10^{23})}{27} \\approx \\frac{108.0}{27} = 4.0$. \nSince $n=4$, the cubic unit cell is a Face-Centered Cubic (FCC) lattice.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define isomorphism. (Board July 2023)",
+    "answer": "Isomorphism is the phenomenon where two or more different crystalline substances have the same crystal structure and similar chemical formulas, often with constituent atoms of comparable sizes. For example, $NaNO_3$ and $CaCO_3$ are isomorphous.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Derive the relationship between molar mass, density of the substance and unit cell edge length. (Board March 2024)",
+    "answer": "Let the edge length of a cubic unit cell be 'a'. Then, the volume of the unit cell is $V = a^3$. \nLet the density of the substance be '$\\rho$'. The mass of the unit cell can be expressed as: \nMass of unit cell = Density $\\times$ Volume = $\\rho \\times a^3$ ... (1)\nLet 'n' be the number of atoms per unit cell. Let 'M' be the molar mass and '$N_A$' be Avogadro's number. The mass of a single atom is $M/N_A$. The total mass of all atoms in the unit cell is: \nMass of unit cell = Number of atoms $\\times$ Mass of one atom = $n \\times \\frac{M}{N_A}$ ... (2)\nEquating (1) and (2): \n$\\rho \\times a^3 = \\frac{n \\times M}{N_A}$ \nThis can be rearranged to give the final relationship: $\\rho = \\frac{n M}{a^3 N_A}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Predict the type of cubic lattice of a solid element having edge length of 400 pm and density is 6.25 g/cm³. (Atomic mass of element = 60). (Board March 2024)",
+    "answer": "Given: $a = 400$ pm = $4.00 \\times 10^{-8}$ cm, $\\rho = 6.25$ g/cm³, $M = 60$ g/mol. We will find 'n', the number of atoms per unit cell. \n$n = \\frac{\\rho \\times a^3 \\times N_A}{M} = \\frac{6.25 \\times (4 \\times 10^{-8})^3 \\times (6.022 \\times 10^{23})}{60} = \\frac{6.25 \\times (64 \\times 10^{-24}) \\times (6.022 \\times 10^{23})}{60} = \\frac{400 \\times (6.022 \\times 10^{-1})}{60} = \\frac{240.88}{60} \\approx 4.01$. \nSince $n=4$, the type of cubic lattice is Face-Centered Cubic (FCC).",
+    "marks": 2
+  }
+]

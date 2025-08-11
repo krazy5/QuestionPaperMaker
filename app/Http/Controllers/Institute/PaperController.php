@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Log;
 
 class PaperController extends Controller
 {
-    // ... index, create, store methods ...
+    // ... index method ...
     public function index()
     {
         $user = auth()->user();
@@ -30,7 +30,9 @@ class PaperController extends Controller
     {
         $boards = Board::all();
         $classes = AcademicClassModel::all();
-        $subjects = Subject::with('academicClass')->get();
+        // We no longer need to load all subjects here, as they will be fetched dynamically.
+        // We pass an empty array so the view doesn't break.
+        $subjects = []; 
         return view('institute.papers.create', compact('boards', 'classes', 'subjects'));
     }
 
@@ -43,6 +45,7 @@ class PaperController extends Controller
             'title' => 'required|string|max:255',
             'total_marks' => 'required|integer|min:1',
             'time_allowed' => 'required|string|max:50',
+            'exam_date' => 'nullable|date',
             'instructions' => 'nullable|string',
         ]);
         $validated['institute_id'] = auth()->id();
@@ -53,7 +56,28 @@ class PaperController extends Controller
         }
         return redirect()->route('institute.papers.questions.select', $paper);
     }
-    
+
+    // ✅ ===================================================================
+    // ✅ NEW METHOD TO FETCH SUBJECTS DYNAMICALLY
+    // ✅ ===================================================================
+    /**
+     * Fetch subjects for a given class and return as JSON.
+     *
+     * @param  int  $classId
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getSubjectsForClass($classId)
+    {
+        // This assumes your Subject model has a 'class_id' column.
+        // Based on your other code, it looks like the column is 'class_id' on the subjects table.
+        // If your column is named differently (e.g., 'academic_class_model_id'), update it here.
+        $subjects = Subject::where('class_id', $classId)->get(['id', 'name']);
+
+        return response()->json($subjects);
+    }
+    // ===================================================================
+    // END OF NEW METHOD
+    // ===================================================================
 
 
     
@@ -69,14 +93,14 @@ class PaperController extends Controller
 
             // Start the query
             $query = Question::where('board_id', $paper->board_id)
-                                 ->where('class_id', $paper->class_id)
-                                 ->where('subject_id', $paper->subject_id)
-                                 ->where('question_type', $rule->question_type)
-                                 ->where('marks', $rule->marks_per_question)
-                                 ->where(function ($query) {
-                                     $query->where('approved', true)
-                                           ->orWhere('institute_id', auth()->id());
-                                 });
+                                ->where('class_id', $paper->class_id)
+                                ->where('subject_id', $paper->subject_id)
+                                ->where('question_type', $rule->question_type)
+                                ->where('marks', $rule->marks_per_question)
+                                ->where(function ($query) {
+                                    $query->where('approved', true)
+                                          ->orWhere('institute_id', auth()->id());
+                                });
             
             // --- NEW: Apply chapter filter if provided ---
             $chapterIds = $request->input('chapters', []);
@@ -105,9 +129,9 @@ class PaperController extends Controller
             abort(403);
         }
         $blueprint = PaperBlueprint::with('sections.rules')
-                                   ->where('board_id', $paper->board_id)
-                                   ->where('class_id', $paper->class_id)
-                                   ->firstOrFail();
+                                    ->where('board_id', $paper->board_id)
+                                    ->where('class_id', $paper->class_id)
+                                    ->firstOrFail();
         
         // Fetch chapters for the filter
         $chapters = Chapter::where('subject_id', $paper->subject_id)->get();
@@ -127,14 +151,14 @@ class PaperController extends Controller
         foreach ($blueprint->sections as $section) {
             foreach ($section->rules as $rule) {
                 $questions = Question::where('board_id', $paper->board_id)
-                                     ->where('class_id', $paper->class_id)
-                                     ->where('subject_id', $paper->subject_id)
-                                     ->where('question_type', $rule->question_type)
-                                     ->where('marks', $rule->marks_per_question)
-                                     ->where(fn($q) => $q->where('approved', true)->orWhere('institute_id', auth()->id()))
-                                     ->inRandomOrder()
-                                     ->limit($rule->number_of_questions_to_select)
-                                     ->get();
+                                        ->where('class_id', $paper->class_id)
+                                        ->where('subject_id', $paper->subject_id)
+                                        ->where('question_type', $rule->question_type)
+                                        ->where('marks', $rule->marks_per_question)
+                                        ->where(fn($q) => $q->where('approved', true)->orWhere('institute_id', auth()->id()))
+                                        ->inRandomOrder()
+                                        ->limit($rule->number_of_questions_to_select)
+                                        ->get();
 
                 foreach ($questions as $question) {
                     $allQuestionsToAttach[$question->id] = ['marks' => $question->marks];
@@ -210,19 +234,28 @@ class PaperController extends Controller
         return response()->json(['status' => 'success']);
     }
 
-    public function edit(Paper $paper)
-    {
-        if ($paper->institute_id !== auth()->id()) abort(403);
-        $boards = Board::all();
-        $classes = AcademicClassModel::all();
-        $subjects = Subject::with('academicClass')->get();
-        return view('institute.papers.edit', compact('paper', 'boards', 'classes', 'subjects'));
-    }
+        // --- THIS IS THE UPDATED EDIT METHOD ---
+        public function edit(Paper $paper)
+        {
+            if ($paper->institute_id !== auth()->id()) abort(403);
+
+            // Check if a blueprint exists for this paper's board and class
+            $blueprint = PaperBlueprint::where('board_id', $paper->board_id)
+                                        ->where('class_id', $paper->class_id)
+                                        ->first();
+
+            $boards = Board::all();
+            $classes = AcademicClassModel::all();
+            $subjects = Subject::with('academicClass')->get();
+
+            // Pass the blueprint (or null if it doesn't exist) to the view
+            return view('institute.papers.edit', compact('paper', 'boards', 'classes', 'subjects', 'blueprint'));
+        }
 
     public function update(Request $request, Paper $paper)
     {
         if ($paper->institute_id !== auth()->id()) abort(403);
-        $validated = $request->validate(['board_id' => 'required|exists:boards,id', 'class_id' => 'required|exists:academic_class_models,id', 'subject_id' => 'required|exists:subjects,id', 'title' => 'required|string|max:255', 'total_marks' => 'required|integer|min:1', 'time_allowed' => 'required|string|max:50', 'instructions' => 'nullable|string']);
+        $validated = $request->validate(['board_id' => 'required|exists:boards,id', 'class_id' => 'required|exists:academic_class_models,id', 'subject_id' => 'required|exists:subjects,id', 'title' => 'required|string|max:255', 'total_marks' => 'required|integer|min:1', 'time_allowed' => 'required|string|max:50','exam_date' => 'nullable|date', 'instructions' => 'nullable|string']);
         $paper->update($validated);
         return redirect()->route('institute.dashboard')->with('success', 'Paper details updated successfully!');
     }
@@ -237,14 +270,30 @@ class PaperController extends Controller
     public function preview(Paper $paper)
     {
         if ($paper->institute_id !== auth()->id()) abort(403);
+
+        // Load the paper's questions
         $paper->load('questions');
-        return view('institute.papers.preview', compact('paper'));
+        
+        // Also load the blueprint for this paper
+        $blueprint = PaperBlueprint::with('sections.rules')
+                                    ->where('board_id', $paper->board_id)
+                                    ->where('class_id', $paper->class_id)
+                                    ->first();
+
+        return view('institute.papers.preview', compact('paper', 'blueprint'));
     }
 
     public function previewAnswers(Paper $paper)
     {
         if ($paper->institute_id !== auth()->id()) abort(403);
+
         $paper->load('questions');
-        return view('institute.papers.preview_answers', compact('paper'));
+        
+        $blueprint = PaperBlueprint::with('sections.rules')
+                                    ->where('board_id', $paper->board_id)
+                                    ->where('class_id', $paper->class_id)
+                                    ->first();
+
+        return view('institute.papers.preview_answers', compact('paper', 'blueprint'));
     }
 }

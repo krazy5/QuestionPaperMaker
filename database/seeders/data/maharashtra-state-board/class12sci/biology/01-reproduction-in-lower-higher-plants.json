@@ -1,0 +1,38 @@
+[
+  {
+    "type": "short",
+    "text": "Define pollination. What are the two types of pollination?",
+    "answer": "**Pollination** is the process of transferring pollen grains from the anther (male part) to the stigma (female part) of a flower. It's a crucial step for fertilization in flowering plants. 🌱\n\nThe two main types are:\n1.  **Self-Pollination (Autogamy):** When pollen is transferred to the stigma of the same flower or another flower on the same plant.\n2.  **Cross-Pollination (Allogamy):** When pollen is transferred from the anther of a flower on one plant to the stigma of a flower on a different plant of the same species.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Sketch and label the structure of an anatropous ovule.",
+    "answer": "The **anatropous ovule** is the most common type in angiosperms, characterized by its inverted structure. This inversion brings the micropyle close to the funiculus.\n\n[Image of a labeled anatropous ovule]\n\n## Key Parts\n- **Funiculus:** The stalk attaching the ovule to the placenta.\n- **Hilum:** The point where the funiculus joins the main body of the ovule.\n- **Integuments:** The outer protective layers (outer and inner).\n- **Micropyle:** A small opening where the integuments don't fully cover the nucellus, allowing the pollen tube to enter.\n- **Chalaza:** The basal part of the ovule, opposite the micropyle.\n- **Nucellus:** The central tissue mass containing the embryo sac.\n- **Embryo Sac:** The female gametophyte, which contains the egg cell, synergids, antipodal cells, and the secondary nucleus.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is double fertilization? Why is it called so?",
+    "answer": "**Double fertilization** is a unique and complex fertilization mechanism found exclusively in flowering plants (angiosperms). 🌸\n\nIt's called 'double' because it involves the fusion of **two male gametes** with **two different cells** in the embryo sac:\n1.  **Syngamy:** One male gamete fuses with the **egg cell** to form the diploid **zygote** (2n), which develops into the embryo.\n2.  **Triple Fusion:** The second male gamete fuses with the **diploid secondary nucleus** (or two polar nuclei) to form the triploid **Primary Endosperm Nucleus (PEN)** (3n), which develops into the endosperm, a nutritive tissue for the embryo.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Distinguish between self-pollination and cross-pollination.",
+    "answer": "Here's the difference between self-pollination and cross-pollination:\n\n| Feature | Self-Pollination (Autogamy) | Cross-Pollination (Allogamy) |\n|---|---|---|\n| **Definition** | Transfer of pollen from the anther to the stigma of the **same flower** or another flower on the **same plant**. | Transfer of pollen from the anther of one flower to the stigma of a flower on a **different plant** of the same species. |\n| **Genetic Makeup** | Offspring are genetically **identical** to the parent, leading to purity of the race but less adaptability. | Offspring are genetically **different** from the parents, leading to variation and better adaptability. | \n| **Agents** | Doesn't require external pollinating agents. | Requires external agents like wind (anemophily), water (hydrophily), or animals (zoophily). 🦋 | \n| **Flower Type** | Occurs in bisexual flowers and requires the anther and stigma to mature at the same time. | Can occur in both unisexual and bisexual flowers. |",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are parthenocarpic fruits? Give an example.",
+    "answer": "**Parthenocarpic fruits** are fruits that develop **without the process of fertilization**. Since no fertilization occurs, these fruits are typically **seedless**. This process can occur naturally or can be induced by applying growth hormones like auxins.\n\n**Example:** Banana 🍌, Grapes (some varieties), and Pineapple.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define vegetative propagation and mention any two of its natural methods.",
+    "answer": "**Vegetative propagation** is a type of asexual reproduction in plants where new plants are produced from vegetative parts of the parent plant, such as roots, stems, or leaves. The offspring are genetically identical to the parent (clones).\n\nTwo natural methods are:\n1.  **Runners:** Stems that grow horizontally along the ground, producing new plants at their nodes. Example: Strawberry 🍓.\n2.  **Tubers:** Swollen underground stems that store food and have 'eyes' (axillary buds) from which new plants can grow. Example: Potato 🥔.",
+    "marks": 2
+  }
+]

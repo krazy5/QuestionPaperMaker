@@ -17,6 +17,8 @@ class Question extends Model
      *
      * @var array<int, string>
      */
+    // In app/Models/Question.php
+
     protected $fillable = [
         'source',
         'institute_id',
@@ -25,11 +27,13 @@ class Question extends Model
         'subject_id',
         'chapter_id',
         'question_text',
+        'question_image_path', // This is correct
         'question_type',
         'options',
         'correct_answer',
         'answer_text',
         'solution_text',
+        'answer_image_path', // <-- ADD THIS LINE
         'marks',
         'difficulty',
         'approved',

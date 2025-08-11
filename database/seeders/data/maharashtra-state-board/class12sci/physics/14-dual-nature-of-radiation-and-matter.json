@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mcq",
+    "text": "The work function of a metal is $4.2$ eV. Its threshold wavelength will be... (Board 2023)",
+    "options": ["2955 Å", "2855 Å", "2755 Å", "2655 Å"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The momentum of a photon of energy $E$ is... (Board 2021)",
+    "options": ["$E/c$", "$Ec$", "$Ec^2$", "$E/c^2$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the maximum kinetic energy of emitted electrons in the photoelectric effect is 2 eV, the stopping potential will be ______. (Board 2022)",
+    "options": ["0.5 V", "1.0 V", "1.5 V", "2.0 V"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the photoelectric effect? (Board 2024)",
+    "answer": "The photoelectric effect is the phenomenon of emission of electrons from a metal surface when electromagnetic radiation of a suitable frequency is incident upon it.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define: a) Threshold frequency b) Stopping potential. (Board 2020)",
+    "answer": "a) Threshold frequency is the minimum frequency of incident radiation required to cause photoelectric emission from a given surface. b) Stopping potential is the minimum negative (retarding) potential applied to the anode for which the photoelectric current becomes zero.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State any two characteristics of the photoelectric effect. (Board 2018)",
+    "answer": "1) The photoelectric effect is an instantaneous process. 2) For a given photosensitive material, there exists a certain minimum cut-off frequency, called the threshold frequency, below which no photoelectrons are emitted, however intense the incident light.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "If the total energy of radiation of frequency $10^{14}$ Hz is 6.63 J, calculate the number of photons in the radiation. ($h = 6.63 \\times 10^{-34}$ J·s) (Board 2021)",
+    "answer": "Energy of one photon is $E = h\\nu = (6.63 \\times 10^{-34}) \\times 10^{14} = 6.63 \\times 10^{-20}$ J. The number of photons is $n = \\frac{E_{total}}{E} = \\frac{6.63}{6.63 \\times 10^{-20}} = 10^{20}$ photons.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "An electron is accelerated through a potential difference of 100 volts. Calculate the de Broglie wavelength in nm. (Textbook Numerical)",
+    "answer": "The de Broglie wavelength for an electron is given by $\\lambda = \\frac{h}{\\sqrt{2meV}} = \\frac{1.228}{\\sqrt{V}}$ nm. Substituting $V=100$ V, we get $\\lambda = \\frac{1.228}{\\sqrt{100}} = \\frac{1.228}{10} = 0.1228$ nm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "State Einstein's photoelectric equation and explain its characteristics. (Board 2023)",
+    "answer": "Einstein's photoelectric equation is $K.E._{max} = h\\nu - \\phi_0$, where $K.E._{max}$ is the maximum kinetic energy of the emitted photoelectron, $h\\nu$ is the energy of the incident photon, and $\\phi_0$ is the work function of the metal. It successfully explains that: 1) K.E. depends on frequency, not intensity. 2) There is a threshold frequency. 3) The process is instantaneous.",
+    "marks": 4
+  }
+]

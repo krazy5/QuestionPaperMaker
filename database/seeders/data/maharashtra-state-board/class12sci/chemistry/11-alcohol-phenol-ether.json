@@ -1,0 +1,284 @@
+[
+  {
+    "type": "long",
+    "text": "How is ethanol prepared from methanal by using Grignard reagent? (March 2013)",
+    "answer": "Ethanol, a primary alcohol, can be prepared from methanal (formaldehyde) using a Grignard reagent in a two-step process. \n\n**Step 1: Formation of an adduct with Grignard reagent.** \nFirst, a suitable Grignard reagent, methylmagnesium bromide ($CH_3MgBr$), is prepared. This reagent is then reacted with methanal ($HCHO$) in the presence of dry ether. The nucleophilic methyl group from the Grignard reagent attacks the electrophilic carbonyl carbon of methanal. \n$HCHO + CH_3MgBr \\xrightarrow{Dry Ether} H_2C(OMgBr)CH_3$ (Adduct) \n\n**Step 2: Acidic hydrolysis of the adduct.** \nThe magnesium complex (adduct) formed is then hydrolyzed with a dilute acid (like $H_2O/H^+$) to produce ethanol. \n$H_2C(OMgBr)CH_3 + H_2O \\xrightarrow{H^+} CH_3CH_2OH + Mg(Br)OH$ \nThus, ethanol is prepared from methanal.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the mechanism of action of hydroiodic acid on 3-methylbutan-2-ol. (March 2013)",
+    "answer": "The reaction of 3-methylbutan-2-ol (a secondary alcohol) with hydroiodic acid (HI) proceeds via an $S_N1$ mechanism due to the formation of a stable secondary carbocation which can rearrange to an even more stable tertiary carbocation. \n\n**Mechanism:** \n**Step 1: Protonation of the alcohol.** \nThe lone pair of electrons on the oxygen atom of the alcohol attacks the proton from HI to form a protonated alcohol (an oxonium ion). \n$CH_3-CH(OH)-CH(CH_3)_2 + H^+ \\rightleftharpoons CH_3-CH(OH_2^+)-CH(CH_3)_2$ \n\n**Step 2: Formation of a secondary carbocation.** \nThe protonated alcohol is unstable and loses a water molecule to form a secondary carbocation. This is the slow, rate-determining step. \n$CH_3-CH(OH_2^+)-CH(CH_3)_2 \\xrightarrow{Slow} CH_3-CH^+-CH(CH_3)_2 + H_2O$ \n\n**Step 3: Rearrangement to a more stable tertiary carbocation.** \nThe secondary carbocation undergoes a 1,2-hydride shift, where a hydrogen atom from the adjacent carbon migrates to the positively charged carbon. This forms a more stable tertiary carbocation. \n$CH_3-CH^+-C(H)(CH_3)_2 \\xrightarrow{1,2-H^- shift} CH_3-CH_2-C^+(CH_3)_2$ \n\n**Step 4: Nucleophilic attack.** \nThe iodide ion ($I^-$) acts as a nucleophile and attacks the tertiary carbocation to form the final major product, 2-iodo-2-methylbutane. \n$CH_3-CH_2-C^+(CH_3)_2 + I^- \\xrightarrow{Fast} CH_3-CH_2-C(I)(CH_3)_2$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is phenol converted into the following? (a) Benzene (b) Benzoquinone (c) Picric acid. (Oct. 2013)",
+    "answer": "(a) **Phenol to Benzene:** Phenol is converted to benzene by heating it with zinc dust. The zinc dust reduces the phenol. \n   $C_6H_5OH + Zn \\xrightarrow{\\Delta} C_6H_6 + ZnO$ \n\n(b) **Phenol to Benzoquinone:** Phenol is oxidized to benzoquinone using a strong oxidizing agent like chromic acid ($Na_2Cr_2O_7$ in $H_2SO_4$). \n   $C_6H_5OH \\xrightarrow{[O], Na_2Cr_2O_7/H_2SO_4} C_6H_4O_2 \\text{ (p-benzoquinone)} + H_2O$ \n\n(c) **Phenol to Picric acid:** Phenol is treated with a nitrating mixture (concentrated nitric acid and concentrated sulfuric acid) to undergo nitration at all three ortho and para positions. \n   $C_6H_5OH + 3HNO_{3(conc)} \\xrightarrow{Conc. H_2SO_4} C_6H_2(NO_2)_3OH \\text{ (2,4,6-trinitrophenol)} + 3H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is methoxy benzene prepared from carbolic acid? (Oct. 2013)",
+    "answer": "Methoxybenzene (anisole) is prepared from carbolic acid (phenol) using the **Williamson synthesis**. \n\n**Step 1:** Phenol is first treated with a strong base like sodium hydroxide (NaOH) to form the sodium phenoxide ion, which is a strong nucleophile. \n$C_6H_5OH + NaOH \\rightarrow C_6H_5O^-Na^+ + H_2O$ \n\n**Step 2:** The sodium phenoxide is then treated with a methyl halide, such as methyl iodide ($CH_3I$). The phenoxide ion acts as a nucleophile and displaces the iodide ion in an $S_N2$ reaction. \n$C_6H_5O^-Na^+ + CH_3I \\rightarrow C_6H_5OCH_3 + NaI$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write the structural formula and IUPAC names of all possible isomers of the compound with molecular formula C₄H₁₀O. Write 'two' uses of phenol. (March 2014)",
+    "answer": "**Isomers of $C_4H_{10}O$ (Alcohols and Ethers):** \n**Alcohols:** \n1. $CH_3-CH_2-CH_2-CH_2-OH$: Butan-1-ol \n2. $CH_3-CH_2-CH(OH)-CH_3$: Butan-2-ol \n3. $(CH_3)_2CH-CH_2-OH$: 2-Methylpropan-1-ol \n4. $(CH_3)_3C-OH$: 2-Methylpropan-2-ol \n\n**Ethers:** \n1. $CH_3CH_2-O-CH_2CH_3$: Diethyl ether (Ethoxyethane) \n2. $CH_3-O-CH_2CH_2CH_3$: Methyl n-propyl ether (1-Methoxypropane) \n3. $CH_3-O-CH(CH_3)_2$: Methyl isopropyl ether (2-Methoxypropane) \n\n**Two Uses of Phenol:** \n1.  It is used as an antiseptic and disinfectant in some household cleaners and mouthwashes (in low concentrations). \n2.  It is used as a precursor in the industrial synthesis of plastics (like Bakelite), drugs (like aspirin), and other chemicals (like picric acid).",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "How is methoxyethane prepared from methyl iodide? (March 2014)",
+    "answer": "Methoxyethane is prepared from methyl iodide using the **Williamson synthesis**. Methyl iodide ($CH_3I$, an alkyl halide) is treated with sodium ethoxide ($CH_3CH_2ONa$, an alkoxide). The ethoxide ion acts as a nucleophile and displaces the iodide ion from methyl iodide. \n\n**Reaction:** \n$CH_3I + NaOCH_2CH_3 \\rightarrow CH_3-O-CH_2CH_3 + NaI$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the action of the following reagents on phenol - (a) Bromine in CS₂ at low temperature (b) Conc. H₂SO₄ at room temperature. (Oct. 2014)",
+    "answer": "(a) **Bromine in $CS_2$ at low temperature:** This is a non-polar solvent, and the reaction conditions are mild. Electrophilic substitution (bromination) occurs primarily at the ortho and para positions. The para isomer is the major product due to less steric hindrance. \n   $C_6H_5OH + Br_2 \\xrightarrow{CS_2, low temp} p-Br-C_6H_4-OH + o-Br-C_6H_4-OH + HBr$ \n\n(b) **Conc. $H_2SO_4$ at room temperature:** At room temperature (approx. 298 K), sulphonation of phenol occurs mainly at the ortho position. \n   $C_6H_5OH + H_2SO_{4(conc)} \\xrightarrow{298 K} o-HO-C_6H_4-SO_3H + H_2O$ \n   (Note: At higher temperatures, around 373 K, the para isomer becomes the major product).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the structure and IUPAC name of all the metamerism represented by formula C₄H₁₀O. (Oct. 2014)",
+    "answer": "Metamerism is a type of structural isomerism where isomers have the same molecular formula but differ in the nature of the alkyl or aryl groups attached to the same functional group. For the formula $C_4H_{10}O$, metamerism is possible only for ethers. \nThe possible metamers are: \n1.  **Structure:** $CH_3CH_2-O-CH_2CH_3$ \n    **IUPAC Name:** Ethoxyethane \n    (Alkyl groups are ethyl and ethyl) \n\n2.  **Structure:** $CH_3-O-CH_2CH_2CH_3$ \n    **IUPAC Name:** 1-Methoxypropane \n    (Alkyl groups are methyl and n-propyl) \n\nNote: 2-Methoxypropane ($CH_3-O-CH(CH_3)_2$) is a positional isomer of 1-Methoxypropane, not a metamer of ethoxyethane.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is carbolic acid prepared from the following compounds: (i) Aniline (ii) Chlorobenzene and steam at 698K? (March 2015)",
+    "answer": "Carbolic acid is the common name for phenol ($C_6H_5OH$). \n\n**(i) From Aniline:** This is a two-step process. \n1.  **Diazotization:** Aniline is treated with nitrous acid ($NaNO_2 + HCl$) at low temperature (0-5 °C) to form benzene diazonium chloride. \n    $C_6H_5NH_2 + NaNO_2 + 2HCl \\xrightarrow{273-278K} C_6H_5N_2^+Cl^- + NaCl + 2H_2O$ \n2.  **Hydrolysis:** The diazonium salt solution is warmed with water or dilute acid to hydrolyze it to phenol. \n    $C_6H_5N_2^+Cl^- + H_2O \\xrightarrow{Warm} C_6H_5OH + N_2 + HCl$ \n\n**(ii) From Chlorobenzene and steam at 698K (Dow Process):** \nChlorobenzene is heated with aqueous sodium hydroxide solution at high temperature (623 K) and high pressure (300 atm) to produce sodium phenoxide. This is then acidified to yield phenol. The reaction with steam at 698 K is part of the Raschig process. \n$C_6H_5Cl + NaOH_{(aq)} \\xrightarrow{623K, 300 atm} C_6H_5ONa \\xrightarrow{H^+} C_6H_5OH$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Mention 'two' physical properties of carbolic acid. (March 2015)",
+    "answer": "Two physical properties of carbolic acid (phenol) are: \n1.  **State and Odour:** Phenol is a colorless, crystalline, deliquescent solid with a characteristic phenolic (carbolic) odour. It turns pink on exposure to air and light due to oxidation. \n2.  **Solubility:** Phenol is sparingly soluble in water at room temperature due to its ability to form hydrogen bonds with water molecules. However, its solubility increases significantly at higher temperatures. It is completely soluble in organic solvents like alcohol and ether.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "How are the following compounds prepared? (a) Benzyl alcohol from benzyl chloride. (b) Propan-1-ol from propanal. (Oct. 2015)",
+    "answer": "(a) **Benzyl alcohol from benzyl chloride:** This is prepared by the hydrolysis of benzyl chloride using aqueous alkali (like NaOH or KOH) in a nucleophilic substitution reaction. \n   $C_6H_5CH_2Cl + NaOH_{(aq)} \\rightarrow C_6H_5CH_2OH + NaCl$ \n\n(b) **Propan-1-ol from propanal:** This is prepared by the reduction of propanal (an aldehyde). Common reducing agents include lithium aluminium hydride ($LiAlH_4$) or sodium borohydride ($NaBH_4$), or by catalytic hydrogenation. \n   $CH_3CH_2CHO + H_2 \\xrightarrow{Ni/Pd/Pt} CH_3CH_2CH_2OH$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How is carbolic acid prepared from chlorobenzene? What is the action of bromine water on carbolic acids? Write chemical test to distinguish between carbolic acid and alcohol. (Oct. 2015)",
+    "answer": "**Preparation of Carbolic Acid from Chlorobenzene (Dow Process):** \nCarbolic acid (phenol) is prepared by heating chlorobenzene with a 6-8% aqueous solution of sodium hydroxide at 623 K and 300 atm pressure. This produces sodium phenoxide, which upon acidification with a dilute acid (like HCl) gives phenol. \n1. $C_6H_5Cl + 2NaOH \\xrightarrow{623K, 300 atm} C_6H_5ONa + NaCl + H_2O$ \n2. $C_6H_5ONa + HCl \\rightarrow C_6H_5OH + NaCl$ \n\n**Action of Bromine Water on Carbolic Acid:** \nWhen phenol is treated with excess bromine water, it gives a white precipitate of 2,4,6-tribromophenol. \n$C_6H_5OH + 3Br_{2(aq)} \\rightarrow C_6H_2(Br)_3OH_{(s)} + 3HBr$ \n\n**Test to Distinguish Carbolic Acid (Phenol) and Alcohol:** \n**Neutral Ferric Chloride Test:** \n-   **Phenol:** When a few drops of neutral ferric chloride ($FeCl_3$) solution are added to an aqueous solution of phenol, a characteristic violet or purple coloration is produced. \n-   **Alcohol:** Alcohols do not give any coloration with neutral ferric chloride solution.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the reactions involved in dehydration of 1°, 2° and 3° alcohols. (March 2016)",
+    "answer": "Dehydration of alcohols to form alkenes is typically carried out by heating with a protic acid (like conc. $H_2SO_4$ or $H_3PO_4$) or by passing vapors over heated alumina ($Al_2O_3$). \n-   **Primary (1°) Alcohol:** Requires strong conditions (e.g., conc. $H_2SO_4$ at 443 K). \n    $CH_3CH_2OH \\xrightarrow{Conc. H_2SO_4, 443K} CH_2=CH_2 + H_2O$ \n-   **Secondary (2°) Alcohol:** Requires milder conditions (e.g., 85% $H_3PO_4$ at 440 K). \n    $CH_3CH(OH)CH_3 \\xrightarrow{85\\% H_3PO_4, 440K} CH_3-CH=CH_2 + H_2O$ \n-   **Tertiary (3°) Alcohol:** Dehydrates under the mildest conditions (e.g., 20% $H_3PO_4$ at 358 K). \n    $(CH_3)_3C-OH \\xrightarrow{20\\% H_3PO_4, 358K} (CH_3)_2C=CH_2 + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is metamerism? Explain metamerism with suitable examples of ethers. (March 2016)",
+    "answer": "**Metamerism** is a type of structural isomerism where compounds having the same molecular formula and the same functional group differ in the arrangement of alkyl or aryl groups on either side of the functional group. \n\n**Metamerism in Ethers:** Ethers with the molecular formula $C_4H_{10}O$ exhibit metamerism. \n-   **Example 1: Diethyl ether ($CH_3CH_2-O-CH_2CH_3$)** \n    Here, two **ethyl** groups are attached to the oxygen atom. \n-   **Example 2: Methyl propyl ether ($CH_3-O-CH_2CH_2CH_3$)** \n    Here, a **methyl** group and a **propyl** group are attached to the oxygen atom. \nBoth compounds have the same formula ($C_4H_{10}O$) and the same ether functional group, but the alkyl groups attached to the oxygen are different. Therefore, they are metamers.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is metamerism? Write the structure and IUPAC name of 'methyl-n-propyl ether'. What is the action of hot HI on it? (July 2016)",
+    "answer": "**Metamerism:** A type of structural isomerism where isomers have the same molecular formula but differ in the nature of the alkyl groups attached on either side of the same functional group. \n\n**Structure and IUPAC Name of 'methyl-n-propyl ether':** \n-   Structure: $CH_3-O-CH_2CH_2CH_3$ \n-   IUPAC Name: 1-Methoxypropane \n\n**Action of hot HI on it:** \nEthers are cleaved by strong acids like hot, concentrated HI. In an unsymmetrical ether like 1-methoxypropane, the reaction proceeds via an $S_N2$ mechanism. The iodide ion ($I^-$) attacks the smaller alkyl group (methyl) due to less steric hindrance. \n$CH_3-O-CH_2CH_2CH_3 + HI \\xrightarrow{Hot} CH_3I + CH_3CH_2CH_2OH$ \nThe products are **methyl iodide** and **propan-1-ol**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "How are the following conversions carried out? (i) 2-Methylbutan-1-ol into 2-methylbutanoic acid. (ii) Phenylethyne into Benzoic acid (iii) Benzoic acid into metanitrobenzoic acid. (July 2016)",
+    "answer": "(i) **2-Methylbutan-1-ol into 2-methylbutanoic acid:** This is an oxidation of a primary alcohol to a carboxylic acid. It can be done using a strong oxidizing agent like acidified potassium permanganate ($KMnO_4$) or potassium dichromate ($K_2Cr_2O_7$). \n   $(CH_3)_2CH-CH_2-CH_2OH \\xrightarrow{[O], KMnO_4/H^+} (CH_3)_2CH-CH_2-COOH$ \n\n(ii) **Phenylethyne into Benzoic acid:** This is a two-step conversion. \n   1.  **Oxidative Cleavage:** The triple bond of phenylethyne is cleaved by ozonolysis or by hot, alkaline $KMnO_4$. \n      $C_6H_5-C\\equiv CH \\xrightarrow{KMnO_4/KOH, \\Delta} C_6H_5COOK$ (Potassium benzoate) \n   2.  **Acidification:** The resulting salt is acidified to give benzoic acid. \n      $C_6H_5COOK \\xrightarrow{H_3O^+} C_6H_5COOH$ \n\n(iii) **Benzoic acid into m-nitrobenzoic acid:** This is the nitration of benzoic acid. The carboxylic acid group (-COOH) is a meta-directing and deactivating group. \n   $C_6H_5COOH + HNO_{3(conc)} \\xrightarrow{Conc. H_2SO_4} m-NO_2-C_6H_4-COOH + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define carbolic acid. How carbolic acid is prepared from benzene sulphonic acid? (March 2017)",
+    "answer": "**Carbolic Acid:** The common name for **phenol** ($C_6H_5OH$). It is an aromatic compound where a hydroxyl group (-OH) is directly attached to a benzene ring. \n\n**Preparation from Benzene Sulphonic Acid:** \nThis is a two-step process. \n1.  **Formation of Sodium Phenoxide:** Benzene sulphonic acid is fused with solid sodium hydroxide (NaOH) at a high temperature (around 573 K). This neutralizes the sulphonic acid and replaces the $-SO_3Na$ group with an $-ONa$ group. \n    $C_6H_5SO_3H + 2NaOH \\xrightarrow{573 K, Fuse} C_6H_5ONa + NaHSO_3 + H_2O$ \n2.  **Acidification:** The resulting sodium phenoxide is then treated with a dilute acid (like HCl or $H_2SO_4$) to protonate the phenoxide ion and form phenol. \n    $C_6H_5ONa + H^+_{(aq)} \\rightarrow C_6H_5OH + Na^+_{(aq)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is diethyl ether prepared by continuous esterification process? (March 2017)",
+    "answer": "The question likely means 'continuous **etherification** process'. Diethyl ether is prepared by the continuous etherification process by dehydrating excess ethanol with concentrated sulfuric acid at 413 K (140°C). \n\n**Mechanism:** \n1.  Ethanol is protonated by the acid. \n2.  A second molecule of ethanol acts as a nucleophile and attacks the protonated ethanol, displacing a water molecule ($S_N2$ reaction). \n3.  A protonated ether is formed, which then loses a proton to yield diethyl ether. \n\nIn the continuous process, ethanol is continuously added to the reaction mixture, and the more volatile diethyl ether (b.p. 308 K) is distilled off as it is formed, shifting the equilibrium to the right. \n\n**Overall Reaction:** \n$2CH_3CH_2OH \\xrightarrow{Conc. H_2SO_4, 413K} CH_3CH_2-O-CH_2CH_3 + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How will you prepare ethanol, propan-2-ol and 2-methylpropan-2-ol from Grignard's reagent? (July 2017)",
+    "answer": "Grignard reagents react with aldehydes and ketones to produce alcohols. \n-   **Ethanol (Primary Alcohol):** Prepared from **methanal (formaldehyde)** and **methylmagnesium bromide**. \n    1. $HCHO + CH_3MgBr \\rightarrow CH_3-CH_2-OMgBr$ \n    2. $CH_3-CH_2-OMgBr + H_2O \\xrightarrow{H^+} CH_3-CH_2-OH + Mg(Br)OH$ \n\n-   **Propan-2-ol (Secondary Alcohol):** Prepared from an **aldehyde other than methanal (e.g., ethanal)** and **methylmagnesium bromide**. \n    1. $CH_3CHO + CH_3MgBr \\rightarrow (CH_3)_2CH-OMgBr$ \n    2. $(CH_3)_2CH-OMgBr + H_2O \\xrightarrow{H^+} (CH_3)_2CH-OH + Mg(Br)OH$ \n\n-   **2-Methylpropan-2-ol (Tertiary Alcohol):** Prepared from a **ketone (e.g., acetone/propanone)** and **methylmagnesium bromide**. \n    1. $(CH_3)_2CO + CH_3MgBr \\rightarrow (CH_3)_3C-OMgBr$ \n    2. $(CH_3)_3C-OMgBr + H_2O \\xrightarrow{H^+} (CH_3)_3C-OH + Mg(Br)OH$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is phenol prepared from cumene? (July 2017, 2023)",
+    "answer": "Phenol is commercially prepared from cumene (isopropylbenzene) in a two-step process. \n\n**Step 1: Formation of Cumene Hydroperoxide.** \nCumene is oxidized by passing air or oxygen through it at about 400 K in the presence of a catalyst (like cobalt naphthenate). This forms cumene hydroperoxide. \n$C_6H_5-CH(CH_3)_2 + O_2 \\rightarrow C_6H_5-C(OOH)(CH_3)_2$ \n\n**Step 2: Decomposition of Cumene Hydroperoxide.** \nThe cumene hydroperoxide is then treated with a dilute acid (like $H_2SO_4$). It decomposes and rearranges to form phenol and acetone as a valuable by-product. \n$C_6H_5-C(OOH)(CH_3)_2 \\xrightarrow{H^+/H_2O} C_6H_5OH + (CH_3)_2CO$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How will you prepare carbolic acid from benzene sulphonic acid? Write a chemical equation for the action of neutral ferric chloride on phenol. (March 2018)",
+    "answer": "**Preparation of Carbolic Acid (Phenol) from Benzene Sulphonic Acid:** \n1.  Benzene sulphonic acid is neutralized with NaOH and then fused with solid NaOH at 573 K to form sodium phenoxide. \n    $C_6H_5SO_3H + 2NaOH \\xrightarrow{Fuse, 573 K} C_6H_5ONa + NaHSO_3 + H_2O$ \n2.  The sodium phenoxide is then acidified with a dilute acid (e.g., HCl) to produce phenol. \n    $C_6H_5ONa + HCl \\rightarrow C_6H_5OH + NaCl$ \n\n**Action of Neutral Ferric Chloride on Phenol:** \nWhen a neutral solution of ferric chloride ($FeCl_3$) is added to phenol, a characteristic deep violet or purple coloration is produced due to the formation of a complex. This is a common test for the phenolic group. \n$6C_6H_5OH + FeCl_3 \\rightarrow [Fe(OC_6H_5)_6]^{3-} + 3H^+ + 3HCl$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Why ethanol has higher boiling point than ethane? (March 2018)",
+    "answer": "Ethanol ($C_2H_5OH$) has a much higher boiling point than ethane ($C_2H_6$) because ethanol molecules can form strong **intermolecular hydrogen bonds** with each other. The hydroxyl (-OH) group in ethanol is highly polar, allowing the hydrogen of one molecule to form a strong electrostatic attraction with the oxygen of a neighboring molecule. A large amount of energy is required to break these hydrogen bonds. Ethane, being a nonpolar molecule, only has weak van der Waals forces between its molecules, which require much less energy to overcome.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a preparation of phenol from cumene? What happens when phenol is heated with zinc dust? (July 2018)",
+    "answer": "**Preparation of Phenol from Cumene:** \n1.  **Oxidation:** Cumene (isopropylbenzene) is oxidized with air to form cumene hydroperoxide. \n    $C_6H_5CH(CH_3)_2 + O_2 \\rightarrow C_6H_5C(CH_3)_2OOH$ \n2.  **Acid Hydrolysis:** The hydroperoxide is treated with dilute acid, which cleaves it into phenol and acetone. \n    $C_6H_5C(CH_3)_2OOH \\xrightarrow{H^+} C_6H_5OH + CH_3COCH_3$ \n\n**Action of Zinc Dust on Phenol:** \nWhen phenol is heated with zinc dust, it is reduced to benzene. \n$C_6H_5OH + Zn \\xrightarrow{\\Delta} C_6H_6 + ZnO$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the action of the following on isopropyl methyl ether? (a) cold HI (b) hot HI (July 2018)",
+    "answer": "Isopropyl methyl ether ($(CH_3)_2CH-O-CH_3$) is an unsymmetrical ether. Its cleavage with HI depends on the conditions. \n(a) **Cold HI:** The reaction follows an $S_N2$ mechanism. The iodide ion ($I^-$) attacks the smaller, less sterically hindered methyl group. The products are **methyl iodide** and **isopropyl alcohol**. \n   $(CH_3)_2CH-O-CH_3 + HI \\xrightarrow{Cold} CH_3I + (CH_3)_2CH-OH$ \n\n(b) **Hot HI:** With hot or excess HI, the reaction proceeds further. The isopropyl alcohol formed in the first step reacts further with HI to form isopropyl iodide. The products are **methyl iodide** and **isopropyl iodide**. \n   $(CH_3)_2CH-O-CH_3 + 2HI \\xrightarrow{Hot} CH_3I + (CH_3)_2CH-I + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are ethers? (March 2019)",
+    "answer": "Ethers are a class of organic compounds in which an oxygen atom is connected to two alkyl or aryl groups. Their general formula is R-O-R', where R and R' can be the same (simple or symmetrical ethers) or different (mixed or unsymmetrical ethers).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write balanced chemical equations for the following: (a) Action of sodium metal on ethanol (b) Action of zinc dust on phenol. (March 2019)",
+    "answer": "(a) **Action of sodium metal on ethanol:** Ethanol reacts with active metals like sodium to form sodium ethoxide and liberate hydrogen gas. \n   $2CH_3CH_2OH + 2Na \\rightarrow 2CH_3CH_2ONa + H_{2(g)}$ \n\n(b) **Action of zinc dust on phenol:** When phenol is heated with zinc dust, it gets reduced to benzene. \n   $C_6H_5OH + Zn \\xrightarrow{\\Delta} C_6H_6 + ZnO$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give IUPAC name of $CH_3-C(CH_3)_2-CH(OH)-C_2H_5$. (July 2019)",
+    "answer": "The structure is $CH_3-C(CH_3)_2-CH(OH)-CH_2-CH_3$. \n1.  The longest carbon chain containing the -OH group has 5 carbons (pentane). \n2.  Numbering from the right gives the -OH group the lower number (3). \n3.  There are two methyl groups on carbon 4. \nThe IUPAC name is **4,4-Dimethylpentan-3-ol**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the following conversion: Ethoxyethane into ethanol. (July 2019)",
+    "answer": "The conversion of ethoxyethane (diethyl ether) into ethanol involves the cleavage of the ether linkage by hydrolysis with a dilute acid under pressure. \n\n**Reaction:** \n$CH_3CH_2-O-CH_2CH_3 + H_2O \\xrightarrow{dil. H_2SO_4, High P, \\Delta} 2CH_3CH_2OH$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Give two uses of ethanol. (July 2019)",
+    "answer": "1.  **Solvent:** Ethanol is widely used as a solvent in the manufacture of paints, varnishes, perfumes, and pharmaceuticals (e.g., in tinctures and cough syrups). \n2.  **Beverages and Fuel:** It is the main psychoactive constituent in alcoholic beverages. It is also used as an additive to gasoline (gasohol) to act as a fuel.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write IUPAC name of pyrogallol. (July 2019)",
+    "answer": "The IUPAC name of pyrogallol is **Benzene-1,2,3-triol**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write structural formula of the alcohol that results when acetaldehyde is reacted with CH₃MgBr in the presence of dry ether and the product is hydrolysed. (March 2020)",
+    "answer": "This is a Grignard synthesis of a secondary alcohol. \n**Step 1:** Acetaldehyde ($CH_3CHO$) reacts with methylmagnesium bromide ($CH_3MgBr$). \n$CH_3CHO + CH_3MgBr \\rightarrow CH_3-CH(OMgBr)-CH_3$ \n\n**Step 2:** The intermediate adduct is hydrolyzed. \n$CH_3-CH(OMgBr)-CH_3 + H_2O \\xrightarrow{H^+} CH_3-CH(OH)-CH_3 + Mg(Br)OH$ \n\nThe resulting alcohol is **propan-2-ol**. \n**Structural Formula:** $CH_3-CH(OH)-CH_3$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain the continuous etherification process for the preparation of diethyl ether. (March 2020)",
+    "answer": "The continuous etherification process is an industrial method for preparing simple ethers like diethyl ether. In this process, excess ethanol is heated with concentrated sulfuric acid at a constant temperature of 413 K (140°C). Ethanol is continuously added to the reaction flask at the same rate that the ether distills out. Because diethyl ether has a low boiling point (308 K), it is removed from the reaction mixture as it forms. This removal of the product shifts the equilibrium to the right, ensuring a continuous and high yield of the ether. \n**Overall Reaction:** $2C_2H_5OH \\xrightarrow{Conc. H_2SO_4, 413K} C_2H_5-O-C_2H_5 + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is ethanol prepared from the following compounds: (a) Ethanal (b) Ethene (c) Bromoethane. (March 2020)",
+    "answer": "(a) **From Ethanal (Reduction):** Ethanol is prepared by the reduction of ethanal using reducing agents like sodium borohydride ($NaBH_4$), lithium aluminium hydride ($LiAlH_4$), or catalytic hydrogenation ($H_2/Ni$). \n   $CH_3CHO + H_2 \\xrightarrow{Ni} CH_3CH_2OH$ \n\n(b) **From Ethene (Hydration):** Ethanol is prepared by the acid-catalyzed hydration of ethene. Ethene is passed through concentrated sulfuric acid and then hydrolyzed. \n   $CH_2=CH_2 + H_2O \\xrightarrow{H^+} CH_3CH_2OH$ \n\n(c) **From Bromoethane (Hydrolysis):** Ethanol is prepared by heating bromoethane with an aqueous alkali like NaOH or KOH (nucleophilic substitution). \n   $CH_3CH_2Br + KOH_{(aq)} \\rightarrow CH_3CH_2OH + KBr$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write a note on Kolbe reaction. (Sept. 2021)",
+    "answer": "The Kolbe reaction (or Kolbe-Schmitt reaction) is a chemical reaction used to synthesize salicylic acid. In this reaction, sodium phenoxide is heated with carbon dioxide under pressure (typically at 398 K and 6 atm). This results in an electrophilic substitution where the carboxylation occurs, primarily at the ortho position, to form sodium salicylate. Subsequent acidification of the sodium salicylate yields salicylic acid (2-hydroxybenzoic acid).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Convert the following: (i) Chlorobenzene to phenol (ii) Ethanol to ethanol (iii) Iodomethane to methoxy methane. (Sept. 2021)",
+    "answer": "(i) **Chlorobenzene to phenol (Dow Process):** \n   $C_6H_5Cl + NaOH_{(aq)} \\xrightarrow{623K, 300 atm} C_6H_5ONa \\xrightarrow{H^+} C_6H_5OH$ \n\n(ii) **Ethanol to ethanol:** The question is likely a typo and might mean **Ethanal to ethanol** or **Ethene to ethanol**. \n   - Ethanal to ethanol: $CH_3CHO \\xrightarrow{H_2/Ni} CH_3CH_2OH$ \n   - Ethene to ethanol: $CH_2=CH_2 + H_2O \\xrightarrow{H^+} CH_3CH_2OH$ \n\n(iii) **Iodomethane to methoxy methane (Williamson Synthesis):** \n   $CH_3I + NaOCH_3 \\rightarrow CH_3-O-CH_3 + NaI$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the preparation of phenol from aniline. (March 2022)",
+    "answer": "Phenol is prepared from aniline by a two-step process: \n1.  **Diazotization:** Aniline is treated with nitrous acid (generated in situ from $NaNO_2$ and HCl) at a low temperature (273-278 K) to form benzene diazonium chloride. \n    $C_6H_5NH_2 + NaNO_2 + 2HCl \\xrightarrow{273-278K} C_6H_5N_2^+Cl^- + NaCl + 2H_2O$ \n2.  **Hydrolysis:** The aqueous solution of the diazonium salt is then warmed, causing it to hydrolyze to phenol, liberating nitrogen gas. \n    $C_6H_5N_2^+Cl^- + H_2O \\xrightarrow{Warm} C_6H_5OH + N_2 + HCl$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reaction of following reagents on methoxyethane: (i) Hot HI (ii) PCl₅ (iii) Dilute H₂SO₄. (March 2022)",
+    "answer": "(i) **Hot HI:** Methoxyethane ($CH_3-O-C_2H_5$) is cleaved by hot HI. The iodide ion attacks the less hindered methyl group first ($S_N2$). The resulting ethanol reacts further with excess hot HI to form ethyl iodide. \n   $CH_3-O-C_2H_5 + 2HI \\xrightarrow{Hot} CH_3I + C_2H_5I + H_2O$ \n\n(ii) **PCl₅:** Ethers react with phosphorus pentachloride upon heating to give alkyl chlorides. \n   $CH_3-O-C_2H_5 + PCl_5 \\xrightarrow{\\Delta} CH_3Cl + C_2H_5Cl + POCl_3$ \n\n(iii) **Dilute H₂SO₄:** Ethers are quite stable and do not react with dilute acids. However, under forcing conditions (heating under pressure), they can be hydrolyzed back to alcohols. \n   $CH_3-O-C_2H_5 + H_2O \\xrightarrow{dil. H_2SO_4, \\Delta, P} CH_3OH + C_2H_5OH$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the name of reaction during conversion of phenol to salicylic acid. (July 2022)",
+    "answer": "The reaction for the conversion of phenol to salicylic acid is called the **Kolbe reaction** (or Kolbe-Schmitt reaction).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write balanced chemical reactions of the following reagents on carbolic acid: (i) Br₂ water (ii) Concentrated HNO₃. (July 2022)",
+    "answer": "(i) **Bromine Water ($Br_2$ water):** Carbolic acid (phenol) reacts with excess bromine water to give a white precipitate of 2,4,6-tribromophenol. \n   $C_6H_5OH + 3Br_{2(aq)} \\rightarrow C_6H_2(Br)_3OH_{(s)} + 3HBr$ \n\n(ii) **Concentrated Nitric Acid (Conc. $HNO_3$):** Phenol reacts with concentrated nitric acid in the presence of concentrated sulfuric acid to form 2,4,6-trinitrophenol, commonly known as picric acid. \n   $C_6H_5OH + 3HNO_{3(conc)} \\xrightarrow{Conc. H_2SO_4} C_6H_2(NO_2)_3OH + 3H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What happens when vapours of 1° and 2° alcohols are passed over hot Cu metal? (July 2022)",
+    "answer": "When the vapors of alcohols are passed over hot copper metal at 573 K, they undergo dehydrogenation. \n-   **Primary (1°) Alcohols** are oxidized to **aldehydes**. \n    $R-CH_2OH \\xrightarrow{Cu, 573K} R-CHO + H_2$ \n-   **Secondary (2°) Alcohols** are oxidized to **ketones**. \n    $R-CH(OH)-R' \\xrightarrow{Cu, 573K} R-CO-R' + H_2$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reactions for the following conversion: Acetic acid into ethyl alcohol. (March 2023)",
+    "answer": "Acetic acid ($CH_3COOH$) can be converted into ethyl alcohol ($CH_3CH_2OH$) by reduction. This requires a strong reducing agent like lithium aluminium hydride ($LiAlH_4$) followed by hydrolysis. \n\n**Reaction:** \n$CH_3COOH \\xrightarrow{(i) LiAlH_4 / Ether, (ii) H_3O^+} CH_3CH_2OH$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Convert the following: (i) Ethyl alcohol into ethyl acetate (ii) Phenol into benzene (iii) Diethyl ether into ethyl chloride. (March 2023)",
+    "answer": "(i) **Ethyl alcohol into ethyl acetate (Fischer Esterification):** \n   $CH_3CH_2OH + CH_3COOH \\rightleftharpoons CH_3COOCH_2CH_3 + H_2O$ \n\n(ii) **Phenol into benzene (Reduction):** \n   $C_6H_5OH + Zn \\xrightarrow{\\Delta} C_6H_6 + ZnO$ \n\n(iii) **Diethyl ether into ethyl chloride:** \n   $CH_3CH_2-O-CH_2CH_3 + PCl_5 \\xrightarrow{\\Delta} 2CH_3CH_2Cl + POCl_3$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write Dow process for preparation of Phenol. What is the action of bromine water on phenol? (March 2023)",
+    "answer": "**Dow Process for Preparation of Phenol:** \nThis process involves heating chlorobenzene with an aqueous solution of sodium hydroxide at a high temperature (623 K) and high pressure (300 atm). This produces sodium phenoxide, which is then acidified to yield phenol. \n1. $C_6H_5Cl + 2NaOH \\xrightarrow{623K, 300 atm} C_6H_5ONa + NaCl + H_2O$ \n2. $C_6H_5ONa + HCl_{(dil)} \\rightarrow C_6H_5OH + NaCl$ \n\n**Action of Bromine Water on Phenol:** \nPhenol reacts with an excess of bromine water to form a white precipitate of 2,4,6-tribromophenol instantly. \n$C_6H_5OH + 3Br_{2(aq)} \\rightarrow C_6H_2Br_3OH_{(s)} + 3HBr$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Prepare the following by using methyl magnesium iodide: (a) Ethanol (b) Propan-2-ol (c) 2-Methylpropan-2-ol (July 2023)",
+    "answer": "Methyl magnesium iodide ($CH_3MgI$) is the Grignard reagent. \n(a) **Ethanol (Primary alcohol):** React $CH_3MgI$ with methanal (formaldehyde, HCHO), followed by hydrolysis. \n   $HCHO + CH_3MgI \\rightarrow CH_3CH_2OMgI \\xrightarrow{H_3O^+} CH_3CH_2OH$ \n\n(b) **Propan-2-ol (Secondary alcohol):** React $CH_3MgI$ with ethanal (acetaldehyde, $CH_3CHO$), followed by hydrolysis. \n   $CH_3CHO + CH_3MgI \\rightarrow (CH_3)_2CHOMgI \\xrightarrow{H_3O^+} (CH_3)_2CHOH$ \n\n(c) **2-Methylpropan-2-ol (Tertiary alcohol):** React $CH_3MgI$ with propanone (acetone, $(CH_3)_2CO$), followed by hydrolysis. \n   $(CH_3)_2CO + CH_3MgI \\rightarrow (CH_3)_3COMgI \\xrightarrow{H_3O^+} (CH_3)_3COH$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write the preparation of (i) Diethyl ether (ii) Ethyl bromide from ethyl bromide. (March 2024)",
+    "answer": "The second part of the question has a typo, 'Ethyl bromide from ethyl bromide'. It likely means 'from ethyl alcohol'. \n\n(i) **Preparation of Diethyl ether from Ethyl bromide (Williamson Synthesis):** \nEthyl bromide is treated with sodium ethoxide (prepared from ethanol and sodium). \n$CH_3CH_2Br + NaOC_2H_5 \\rightarrow CH_3CH_2-O-CH_2CH_3 + NaBr$ \n\n(ii) **Preparation of Ethyl bromide from Ethyl alcohol:** \nEthyl alcohol is treated with a halogenating agent like hydrogen bromide (HBr) or phosphorus tribromide ($PBr_3$). \n$CH_3CH_2OH + HBr \\xrightarrow{Conc. H_2SO_4} CH_3CH_2Br + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Identify 'A', 'B' and 'C' in following chain reaction and rewrite the chemical reactions: $CH_3CH_2OH \\xrightarrow{Red P, Br_2} A \\xrightarrow{KCN} B \\xrightarrow{LiAlH_4} C$ (March 2024)",
+    "answer": "**Step 1:** Ethanol reacts with bromine in the presence of red phosphorus to form ethyl bromide. \n$CH_3CH_2OH \\xrightarrow{Red P, Br_2} CH_3CH_2Br$ \n**A = Ethyl bromide ($CH_3CH_2Br$)** \n\n**Step 2:** Ethyl bromide reacts with alcoholic potassium cyanide (KCN) in a nucleophilic substitution reaction to form propanenitrile. \n$CH_3CH_2Br + KCN_{(alc)} \\rightarrow CH_3CH_2CN + KBr$ \n**B = Propanenitrile ($CH_3CH_2CN$)** \n\n**Step 3:** Propanenitrile is reduced with a strong reducing agent, lithium aluminium hydride ($LiAlH_4$), to form a primary amine. \n$CH_3CH_2CN \\xrightarrow{LiAlH_4 / H_2O} CH_3CH_2CH_2NH_2$ \n**C = Propan-1-amine ($CH_3CH_2CH_2NH_2$)**",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Convert the following: (i) Acetaldehyde to isopropyl alcohol (ii) Cumene to phenol (iii) Anisole to phenol. (March 2024)",
+    "answer": "(i) **Acetaldehyde to isopropyl alcohol:** This is a two-step Grignard synthesis. \n   1. $CH_3CHO + CH_3MgBr \\rightarrow (CH_3)_2CHOMgBr$ \n   2. $(CH_3)_2CHOMgBr + H_2O \\xrightarrow{H^+} (CH_3)_2CHOH$ \n\n(ii) **Cumene to phenol:** This is the industrial cumene process. \n   1. $C_6H_5CH(CH_3)_2 + O_2 \\rightarrow C_6H_5C(OOH)(CH_3)_2$ (Cumene hydroperoxide) \n   2. $C_6H_5C(OOH)(CH_3)_2 \\xrightarrow{H^+} C_6H_5OH + (CH_3)_2CO$ \n\n(iii) **Anisole to phenol:** This is the cleavage of an ether using a strong acid like HI. \n   $C_6H_5OCH_3 + HI \\xrightarrow{\\Delta} C_6H_5OH + CH_3I$",
+    "marks": 3
+  }
+]

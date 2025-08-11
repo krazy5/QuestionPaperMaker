@@ -1,0 +1,230 @@
+[
+  {
+    "type": "short",
+    "text": "Write the formula of the following compounds: (a) Sodium hexanitro-N-cobaltate (III) (b) Tetraaquodichloridochromium (III) chloride. (c) Potassium tetracyanurate (III) ion. (March 2013)",
+    "answer": "(a) Sodium hexanitro-N-cobaltate (III): $Na_3[Co(NO_2)_6]$ \n(b) Tetraaquodichloridochromium (III) chloride: $[Cr(H_2O)_4Cl_2]Cl$ \n(c) Potassium tetracyanurate (III) ion: The question likely means potassium tetracyanoaurate(III) or a similar compound. Assuming potassium tetracyanoaurate(III), the formula is $K[Au(CN)_4]$. If it's potassium tetracyanonickelate(II), it would be $K_2[Ni(CN)_4]$. The name as written is ambiguous.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write two applications of co-ordination compounds in medicine and electroplating. (Oct. 2013)",
+    "answer": "**In Medicine:** \n1.  **Cisplatin**, a coordination compound of platinum with the formula $[Pt(NH_3)_2Cl_2]$, is widely used as an anticancer drug in chemotherapy. \n2.  **EDTA** (ethylenediaminetetraacetic acid) is used in the treatment of lead poisoning. It forms a stable, water-soluble complex with lead ions, which can then be excreted from the body. \n\n**In Electroplating:** \n1.  Coordination compounds like potassium dicyanoargentate(I), $K[Ag(CN)_2]$, are used as electrolytes for smooth and uniform electroplating of silver onto other metals. \n2.  Potassium dicyanoaurate(I), $K[Au(CN)_2]$, is used for gold plating of articles.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is effective atomic number (EAN)? (Oct. 2013)",
+    "answer": "The Effective Atomic Number (EAN) is the total number of electrons surrounding the central metal ion in a coordination complex. It is calculated as the sum of the electrons on the metal ion and the electrons donated by the ligands. According to the EAN rule, a complex is considered stable if its EAN is equal to the atomic number of the next noble gas.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate EAN of cobalt (Z = 27) in $[Co(NH_3)_6]^{3+}$ and of zinc (Z = 30) in $[Zn(NH_3)_4]SO_4$. (March 2014)",
+    "answer": "The formula for EAN is: EAN = Z - X + Y, where Z = atomic number, X = oxidation state, Y = electrons from ligands. \n\n**(a) For $[Co(NH_3)_6]^{3+}$:** \n- Atomic number of Co (Z) = 27. \n- Oxidation state of Co (X): Let it be x. $x + 6(0) = +3 \\implies x = +3$. \n- Electrons from ligands (Y): 6 ammonia ligands, each donating 2 electrons. Y = $6 \\times 2 = 12$. \n- EAN = $27 - 3 + 12 = 36$. \n\n**(b) For $[Zn(NH_3)_4]SO_4$:** \n- Atomic number of Zn (Z) = 30. \n- Oxidation state of Zn (X): The complex ion is $[Zn(NH_3)_4]^{2+}$ as $SO_4$ has a 2- charge. Let Zn be x. $x + 4(0) = +2 \\implies x = +2$. \n- Electrons from ligands (Y): 4 ammonia ligands, each donating 2 electrons. Y = $4 \\times 2 = 8$. \n- EAN = $30 - 2 + 8 = 36$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Classify the following ligands into monodentate and polydentate - (a) Ammonia (b) Carbon monoxide (c) Ethylene diamine (d) Ethylene diamine tetra acetate ion. (Oct. 2014)",
+    "answer": "(a) Ammonia ($NH_3$): **Monodentate** (donates one electron pair via Nitrogen). \n(b) Carbon monoxide (CO): **Monodentate** (donates one electron pair via Carbon). \n(c) Ethylene diamine (en): **Polydentate** (specifically, bidentate, as it has two donor Nitrogen atoms). \n(d) Ethylene diamine tetra acetate ion ($EDTA^{4-}$): **Polydentate** (specifically, hexadentate, as it has two Nitrogen and four Oxygen donor atoms).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "On the basis of valence bond theory explain the nature of bonding in $[CoF_6]^{3-}$ ion. (March 2015)",
+    "answer": "In the complex ion $[CoF_6]^{3-}$, the central metal ion is Cobalt. \n1.  **Oxidation State of Cobalt:** Let the oxidation state be x. $x + 6(-1) = -3 \\implies x = +3$. So, we have $Co^{3+}$. \n2.  **Electronic Configuration:** Atomic number of Co is 27 ($[Ar] 3d^7 4s^2$). The configuration of $Co^{3+}$ is $[Ar] 3d^6$. \n3.  **Nature of Ligand:** The fluoride ion ($F^-$) is a weak field ligand. It does not cause pairing of the 3d electrons. \n4.  **Hybridization:** Since the 3d orbitals are not paired, the six electron pairs from the six $F^-$ ligands must occupy the outer orbitals. One 4s, three 4p, and two 4d orbitals are used, resulting in **$sp^3d^2$ hybridization**. \n5.  **Geometry:** $sp^3d^2$ hybridization leads to an **octahedral** geometry. \n6.  **Magnetic Property:** The complex has four unpaired electrons in the 3d orbitals. Due to the presence of unpaired electrons, the complex is **paramagnetic**. This is a high-spin, outer orbital complex.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain cationic complexes and anionic complexes of co-ordination compounds. (Oct. 2015)",
+    "answer": "**Cationic Complexes:** A coordination compound in which the coordination sphere (the central metal ion and its ligands, written in square brackets) carries a net positive charge. Example: In $[Co(NH_3)_6]Cl_3$, the complex ion $[Co(NH_3)_6]^{3+}$ is a cationic complex. \n\n**Anionic Complexes:** A coordination compound in which the coordination sphere carries a net negative charge. Example: In $K_4[Fe(CN)_6]$, the complex ion $[Fe(CN)_6]^{4-}$ is an anionic complex.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Illustrate with example, the difference between a double salt and a co-ordination compound. (March 2016)",
+    "answer": "| Feature | Double Salt | Co-ordination Compound |\n|---|---|---|\n| **Identity in Solution** | Loses its identity and dissociates completely into its constituent simple ions when dissolved in water. | Retains its identity and does not dissociate completely. The complex ion remains intact. |\n| **Test for Ions** | Gives positive tests for all of its constituent ions. | Does not give tests for the central metal ion or the ligands within the coordination sphere. |\n| **Example** | Mohr's salt, $FeSO_4 \\cdot (NH_4)_2SO_4 \\cdot 6H_2O$. In solution, it gives tests for $Fe^{2+}$, $NH_4^+$, and $SO_4^{2-}$ ions. | Potassium ferrocyanide, $K_4[Fe(CN)_6]$. In solution, it gives a test for $K^+$ but not for $Fe^{2+}$ or $CN^-$ ions. |",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the terms - Ligand. Write the formula of Tetramminodichloridoplatinum (IV) chloride. (March 2016)",
+    "answer": "**Ligand:** A ligand is an ion or a neutral molecule that is bonded to the central metal atom or ion in a coordination complex. Ligands act as Lewis bases, donating at least one pair of electrons to the central metal atom (a Lewis acid) to form a coordinate bond. \n\n**Formula of Tetramminodichloridoplatinum (IV) chloride:** \nThe complex has: \n-   Central metal: Platinum (Pt) in +4 state. \n-   Ligands: Four ammine ($NH_3$) and two chlorido (Cl⁻). \n-   Counter ion: Chloride (Cl⁻). \nCharge of the complex sphere = $(+4) + 4(0) + 2(-1) = +2$. \nTo balance the +2 charge, two chloride counter ions are needed. \nFormula: $[Pt(NH_3)_4Cl_2]Cl_2$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define ligand. Write four postulates of Werner's theory. (July 2016)",
+    "answer": "**Ligand:** A ligand is an ion or molecule that binds to a central metal atom to form a coordination complex. It donates one or more pairs of electrons to the metal, acting as a Lewis base. \n\n**Four Postulates of Werner's Theory:** \n1.  In coordination compounds, metals exhibit two types of valencies: a primary (ionizable) valency and a secondary (non-ionizable) valency. \n2.  The primary valency is satisfied by negative ions and corresponds to the oxidation state of the metal. \n3.  The secondary valency is satisfied by either negative ions or neutral molecules and corresponds to the coordination number of the metal. It is directional. \n4.  The ligands satisfying the secondary valency are always directed towards fixed positions in space, giving the complex a definite geometry.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the effective atomic number (EAN)? Calculate the effective atomic number in the following compounds: (a) $K_4Fe(CN)_6$, Fe (Z = 26) (b) $Cr(CO)_6$, Cr (Z = 24). (March 2017)",
+    "answer": "**Effective Atomic Number (EAN):** The total number of electrons present on the central metal ion in a complex. It is the sum of the electrons of the metal ion and the electrons donated by the ligands. \n\n**Calculations:** EAN = Z - X + Y \n(a) **$K_4[Fe(CN)_6]$:** \n- Z for Fe = 26. \n- Oxidation state of Fe (X): $4(+1) + x + 6(-1) = 0 \\implies x = +2$. \n- Electrons from ligands (Y): 6 CN⁻ ligands, each donating 2 electrons. Y = $6 \\times 2 = 12$. \n- EAN = $26 - 2 + 12 = 36$. \n\n(b) **$Cr(CO)_6$:** \n- Z for Cr = 24. \n- Oxidation state of Cr (X): CO is a neutral ligand, so Cr is in the 0 oxidation state. X = 0. \n- Electrons from ligands (Y): 6 CO ligands, each donating 2 electrons. Y = $6 \\times 2 = 12$. \n- EAN = $24 - 0 + 12 = 36$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How ligands are classified? Explain with suitable examples. (July 2017)",
+    "answer": "Ligands are classified based on the number of donor atoms they use to bind to the central metal ion. This property is called denticity. \n1.  **Monodentate Ligands:** These ligands have only one donor atom and can form only one coordinate bond with the metal ion. \n    Examples: Chloride ion ($Cl^-$), Ammonia ($:NH_3$), Water ($H_2O:$). \n2.  **Bidentate Ligands:** These ligands have two donor atoms and can form two coordinate bonds with the same metal ion, forming a chelate ring. \n    Example: Ethylenediamine ($H_2N-CH_2-CH_2-NH_2$), Oxalate ion ($C_2O_4^{2-}$). \n3.  **Polydentate Ligands:** These ligands have more than two donor atoms. They can be tridentate, tetradentate, etc. \n    Example: EDTA⁴⁻ (Ethylenediaminetetraacetate) is a hexadentate ligand with six donor atoms (2 N and 4 O).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the geometry of $[Co(NH_3)_6]^{3+}$ on the basis of hybridisation. (Z of Co = 27). (March 2018)",
+    "answer": "In the complex ion $[Co(NH_3)_6]^{3+}$: \n1.  **Central Metal Ion:** The central metal is Cobalt (Co). \n2.  **Oxidation State of Co:** Let it be x. $x + 6(0) = +3 \\implies x = +3$. So, we have $Co^{3+}$. \n3.  **Electronic Configuration:** The atomic number of Co is 27 ($[Ar] 3d^7 4s^2$). The configuration of $Co^{3+}$ is $[Ar] 3d^6$. \n4.  **Nature of Ligand:** Ammonia ($NH_3$) is a strong field ligand. It causes the pairing of the 3d electrons of the $Co^{3+}$ ion. The six 3d electrons pair up in the first three 3d orbitals, leaving two 3d orbitals empty. \n5.  **Hybridization:** The six electron pairs from the six $NH_3$ ligands occupy the two vacant 3d orbitals, one 4s orbital, and three 4p orbitals. This results in **$d^2sp^3$ hybridization**. \n6.  **Geometry:** $d^2sp^3$ hybridization corresponds to an **octahedral** geometry. Since inner d-orbitals are used, this is an inner orbital complex. \n7.  **Magnetic Property:** Since all electrons in the 3d orbitals are paired, the complex is **diamagnetic**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the formula of the complex Copper (II) hexacyanoferrate(II). (March 2018)",
+    "answer": "The formula for Copper(II) hexacyanoferrate(II) is derived by balancing the charges of the cation and the complex anion. \n-   Cation: Copper(II) = $Cu^{2+}$ \n-   Complex Anion: hexacyanoferrate(II) = $[Fe(CN)_6]^{4-}$ \nTo balance the charges, we need two $Cu^{2+}$ ions for every one $[Fe(CN)_6]^{4-}$ ion. \nFormula: $Cu_2[Fe(CN)_6]$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the formula for pentaamminechloridocobalt (II) sulphate. (July 2018)",
+    "answer": "The question likely has a typo and should be cobalt(III). Assuming cobalt(III): \n-   Complex Cation: pentaamminechloridocobalt(III) = $[Co(NH_3)_5Cl]^{2+}$ \n-   Anion: sulphate = $SO_4^{2-}$ \nCharges are balanced, so the formula is **$[Co(NH_3)_5Cl]SO_4$**. \n\nIf we strictly follow the question with cobalt(II): \n-   Complex Cation: pentaamminechloridocobalt(II) = $[Co(NH_3)_5Cl]^{+}$ \n-   Anion: sulphate = $SO_4^{2-}$ \nTo balance charges, we need two complex cations for one sulphate. The formula would be **$([Co(NH_3)_5Cl])_2SO_4$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the geometry of $[Cu(NH_3)_4]^{2+}$ on the basis of hybridisation [At. No. Cu = 29]. What is effective atomic number? Calculate effective atomic number of copper (Z = 29) in $[Cu(NH_3)_4]^{2+}$. (July 2018)",
+    "answer": "**Geometry of $[Cu(NH_3)_4]^{2+}$:** \n1.  **Oxidation State of Cu:** $x + 4(0) = +2 \\implies x = +2$. We have $Cu^{2+}$. \n2.  **Electronic Configuration:** Cu (Z=29) is $[Ar] 3d^{10} 4s^1$. The configuration of $Cu^{2+}$ is $[Ar] 3d^9$. One of the 3d orbitals contains an unpaired electron. \n3.  **Hybridization:** For a coordination number of 4, the geometry is either tetrahedral ($sp^3$) or square planar ($dsp^2$). To form a square planar complex, the unpaired 3d electron is promoted to a higher energy orbital (like 4p), making one 3d orbital available. The four lone pairs from the four $NH_3$ ligands occupy one 3d, one 4s, and two 4p orbitals, resulting in **$dsp^2$ hybridization**. \n4.  **Geometry:** $dsp^2$ hybridization corresponds to a **square planar** geometry. \n\n**Effective Atomic Number (EAN):** The total number of electrons around the central metal ion in a complex. \n\n**EAN Calculation for $[Cu(NH_3)_4]^{2+}$:** \n- Z (for Cu) = 29. \n- X (oxidation state) = +2. \n- Y (electrons from ligands) = $4 \\times 2 = 8$. \n- EAN = $Z - X + Y = 29 - 2 + 8 = 35$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write IUPAC name of $[Pt(en)_2Cl_2]^{2+}$ complex. (March 2019)",
+    "answer": "The IUPAC name of the complex $[Pt(en)_2Cl_2]^{2+}$ is **Dichloridobis(ethylenediamine)platinum(IV) ion**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is Nesslert's reagent? (March 2019)",
+    "answer": "Nessler's reagent is an alkaline solution of potassium tetraiodomercurate(II). Its chemical formula is $K_2[HgI_4]$. It is used for the detection of ammonium ions ($NH_4^+$), with which it forms a brown precipitate known as the iodide of Millon's base.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate the effective atomic number (E.A.N.) of copper in $[Cu(NH_3)_4]^{2+}$. (Z of Cu = 29). (July 2019)",
+    "answer": "The formula for Effective Atomic Number (EAN) is: EAN = Z - X + Y. \n- Z = Atomic number of the central metal. \n- X = Oxidation state of the central metal. \n- Y = Total number of electrons donated by the ligands. \n\nFor the complex $[Cu(NH_3)_4]^{2+}$: \n-   Z (for Copper) = 29. \n-   The oxidation state (X) of Cu is +2, since ammonia ($NH_3$) is a neutral ligand. \n-   There are 4 ammonia ligands, and each donates 2 electrons, so Y = $4 \\times 2 = 8$. \n\nEAN = $29 - 2 + 8 = 35$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are bidentate ligands? Give one example. (Sept. 2021)",
+    "answer": "Bidentate ligands are ligands that have two donor atoms and can therefore form two coordinate bonds with a single central metal ion. They are a type of chelating ligand. \n**Example:** Ethylenediamine ($H_2N-CH_2-CH_2-NH_2$, abbreviated as 'en'). It has two nitrogen atoms that can donate their lone pairs of electrons.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two applications of coordinate compounds. (Sept. 2021)",
+    "answer": "1.  **Analytical Chemistry:** Coordination compounds are used in both qualitative and quantitative chemical analysis. For example, EDTA is used in complexometric titrations to determine the hardness of water, and Nessler's reagent ($K_2[HgI_4]$) is used to test for the ammonium ion. \n2.  **Medicine:** Several coordination compounds are used in medicine. For example, cisplatin, $[Pt(NH_3)_2Cl_2]$, is an effective anticancer drug, and EDTA is used for the treatment of lead poisoning.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write IUPAC name of $[Fe(CO)_5]$ complex. (Sept. 2021)",
+    "answer": "The IUPAC name of the complex $[Fe(CO)_5]$ is **Pentacarbonyliron(0)**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the name of isomerism in the following complexes: $[Cu(NH_3)_4][PtCl_4]$ and $[Pt(NH_3)_4][CuCl_4]$. (March 2022)",
+    "answer": "These two complexes, $[Cu(NH_3)_4][PtCl_4]$ and $[Pt(NH_3)_4][CuCl_4]$, are examples of **coordination isomerism**. This type of isomerism arises from the interchange of ligands between the cationic and anionic coordination spheres.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain monodentate and ambidentate ligands with example. (March 2022)",
+    "answer": "**Monodentate Ligand:** A ligand that can donate only one pair of electrons to the central metal ion because it has only one donor atom. \nExample: Ammonia ($:NH_3$), where nitrogen is the single donor atom. \n\n**Ambidentate Ligand:** A ligand that has two different donor atoms, but can only use one of them at a time to form a coordinate bond with the metal ion. \nExample: The thiocyanate ion ($SCN^-$), which can coordinate through either the sulfur atom (thiocyanato) or the nitrogen atom (isothiocyanato).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain cationic, anionic and neutral sphere complexes with example. (March 2022)",
+    "answer": "**Cationic Sphere Complex:** A complex in which the coordination sphere carries a net positive charge. \nExample: $[Co(NH_3)_6]^{3+}$ in the compound $[Co(NH_3)_6]Cl_3$. \n\n**Anionic Sphere Complex:** A complex in which the coordination sphere carries a net negative charge. \nExample: $[Fe(CN)_6]^{4-}$ in the compound $K_4[Fe(CN)_6]$. \n\n**Neutral Sphere Complex:** A complex in which the coordination sphere has no net charge. \nExample: $[Ni(CO)_4]$ (Tetracarbonylnickel(0)).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Calculate the effective atomic no. of Co in $[Co(NH_3)_6]^{3+}$ complex. (July 2022)",
+    "answer": "The effective atomic number (EAN) is calculated using the formula: EAN = Z - X + Y. \nFor the complex $[Co(NH_3)_6]^{3+}$: \n-   Z = Atomic number of Cobalt = 27. \n-   X = Oxidation state of Cobalt. Since $NH_3$ is neutral, the oxidation state of Co is +3. \n-   Y = Number of electrons donated by the ligands. There are 6 $NH_3$ ligands, each donating 2 electrons, so Y = $6 \\times 2 = 12$. \nEAN = $27 - 3 + 12 = 36$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain homoleptic and heteroleptic complexes with examples. (July 2022)",
+    "answer": "**Homoleptic Complexes:** These are coordination complexes in which the central metal ion is bonded to only one type of ligand. \nExample: $[Co(NH_3)_6]^{3+}$ (Hexaamminecobalt(III) ion), where the cobalt ion is bonded only to ammonia ligands. \n\n**Heteroleptic Complexes:** These are coordination complexes in which the central metal ion is bonded to more than one type of ligand. \nExample: $[Co(NH_3)_4Cl_2]^+$ (Tetraamminedichloridocobalt(III) ion), where the cobalt ion is bonded to both ammonia and chloride ligands.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two postulates of Werner theory of coordinate complexes. (July 2022)",
+    "answer": "Two postulates of Werner's theory are: \n1.  Metals in coordination compounds exhibit two types of valencies: a primary (ionizable) valency and a secondary (non-ionizable) valency. \n2.  The secondary valency is fixed for a metal (it is the coordination number) and is directed towards specific positions in space, which determines the geometry of the complex.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the name of platinum complex used in the treatment of cancer. (March 2023)",
+    "answer": "The platinum complex used in the treatment of cancer is **cisplatin**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define: Diastereoisomers. (March 2023)",
+    "answer": "Diastereoisomers are stereoisomers that are not mirror images of each other. This category includes geometrical isomers (cis-trans isomers). Unlike enantiomers, diastereoisomers can have different physical properties like melting point, boiling point, and solubility.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Give cis and trans isomers of $[Co(NH_3)_4Cl_2]^⊕$. (March 2023)",
+    "answer": "The complex $[Co(NH_3)_4Cl_2]^+$ is an octahedral complex of the type $MA_4B_2$, which exhibits geometrical (cis-trans) isomerism. \n-   **cis-isomer:** The two chloride (Cl) ligands are adjacent to each other, occupying positions at a 90° angle with respect to the central cobalt ion. \n-   **trans-isomer:** The two chloride (Cl) ligands are opposite to each other, occupying positions at a 180° angle across the central cobalt ion.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain formation of $[CoF_6]^{3-}$ complex with respect to: (I) Hybridisation (II) Magnetic properties (III) Inner/outer complex (iv) Geometry. (March 2023)",
+    "answer": "For the complex $[CoF_6]^{3-}$: \n- Oxidation state of Co is +3. The electronic configuration of $Co^{3+}$ is $[Ar] 3d^6$. \n- Fluoride ($F^-$) is a weak field ligand, so it does not cause pairing of the 3d electrons. The 3d orbitals remain occupied as: one orbital with a pair of electrons and four orbitals with one unpaired electron each. \n\n(I) **Hybridisation:** Since the inner 3d orbitals are not available, the six electron pairs from the six $F^-$ ligands occupy the vacant outer orbitals: one 4s, three 4p, and two 4d. The hybridization is **$sp^3d^2$**. \n\n(II) **Magnetic properties:** The complex has **four unpaired electrons** in its 3d orbitals. Therefore, it is strongly **paramagnetic**. \n\n(III) **Inner/outer complex:** Since the outer (4d) orbitals are used for hybridization, it is an **outer orbital complex** (or high-spin complex). \n\n(IV) **Geometry:** The $sp^3d^2$ hybridization corresponds to an **octahedral** geometry.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write four postulates of Werner theory of coordination complexes. (July 2023)",
+    "answer": "Four postulates of Werner's theory are: \n1.  Metals exhibit two types of valencies: primary (ionizable) and secondary (non-ionizable). \n2.  The primary valency is satisfied by negative ions and corresponds to the metal's oxidation state. \n3.  The secondary valency is fixed for a metal, corresponds to its coordination number, and is satisfied by ligands (neutral molecules or anions). \n4.  The secondary valencies are directional, leading to a definite geometry for the coordination complex.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "On the basis of valence bond theory explain the nature of bonding in $[Ni(Cl)_4]^{2-}$ complex ion. (July 2023)",
+    "answer": "In the complex ion $[NiCl_4]^{2-}$: \n1.  **Oxidation State of Nickel:** Let it be x. $x + 4(-1) = -2 \\implies x = +2$. So, we have $Ni^{2+}$. \n2.  **Electronic Configuration:** The atomic number of Ni is 28 ($[Ar] 3d^8 4s^2$). The configuration of $Ni^{2+}$ is $[Ar] 3d^8$. \n3.  **Nature of Ligand:** The chloride ion ($Cl^-$) is a weak field ligand. It does not cause pairing of the 3d electrons. The 3d orbitals contain three paired and two unpaired electrons. \n4.  **Hybridization:** Since the inner 3d orbitals are not vacant, the four electron pairs from the four $Cl^-$ ligands occupy the empty outer orbitals: one 4s and three 4p. This results in **$sp^3$ hybridization**. \n5.  **Geometry:** $sp^3$ hybridization corresponds to a **tetrahedral** geometry. \n6.  **Magnetic Property:** The complex has two unpaired electrons in the 3d orbitals. Therefore, it is **paramagnetic**.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define: Ionisation isomer. (March 2024)",
+    "answer": "Ionization isomers are coordination compounds that have the same overall chemical formula but differ in the ions present inside and outside the coordination sphere. They yield different ions when dissolved in a solvent. For example, $[Co(NH_3)_5SO_4]Br$ and $[Co(NH_3)_5Br]SO_4$ are ionization isomers.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate effective atomic number of $[Co(NH_3)_6]^{3+}$. (March 2024)",
+    "answer": "The effective atomic number (EAN) is given by the formula: EAN = Z - X + Y. \nFor the complex ion $[Co(NH_3)_6]^{3+}$: \n-   Z = Atomic number of Cobalt = 27. \n-   X = Oxidation state of Co. As $NH_3$ is a neutral ligand, the oxidation state of Co is +3. \n-   Y = Total electrons donated by ligands. There are 6 ammonia ligands, each donating a pair of electrons (2 electrons). So, Y = $6 \\times 2 = 12$. \nEAN = $27 - 3 + 12 = 36$. \nThe EAN of cobalt in the complex is 36, which is the atomic number of the noble gas Krypton.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write postulates of Werner theory of co-ordination complexes. Write the name of a hexadentate ligand. (March 2024)",
+    "answer": "**Postulates of Werner's Theory:** \n1.  Metals in coordination complexes possess two types of valencies: a primary (ionizable) valency and a secondary (non-ionizable) valency. \n2.  The primary valency corresponds to the oxidation state of the metal and is satisfied by anions. \n3.  The secondary valency corresponds to the coordination number of the metal, is fixed, and is satisfied by ligands. \n4.  The ligands satisfying the secondary valency are arranged in specific spatial orientations, determining the geometry of the complex. \n\n**Name of a Hexadentate Ligand:** \nEthylenediaminetetraacetate ion ($EDTA^{4-}$).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Mention the number of unpaired electrons and geometry of following complexes: (i) $[Ni(Cl)_4]^{2-}$ (ii) $[Ni(CN)_4]^{2-}$. (March 2024)",
+    "answer": "(i) **$[NiCl_4]^{2-}$:** \n-   Ni is in the +2 oxidation state ($Ni^{2+}$), with a $3d^8$ configuration. \n-   $Cl^-$ is a weak field ligand, so no electron pairing occurs. The configuration remains with two unpaired electrons. \n-   Hybridization is **$sp^3$** (using the 4s and 4p orbitals). \n-   **Geometry:** Tetrahedral. \n-   **Number of unpaired electrons:** 2. \n\n(ii) **$[Ni(CN)_4]^{2-}$:** \n-   Ni is in the +2 oxidation state ($Ni^{2+}$), with a $3d^8$ configuration. \n-   $CN^-$ is a strong field ligand, so it forces the two unpaired 3d electrons to pair up. This leaves one 3d orbital empty. \n-   Hybridization is **$dsp^2$** (using one 3d, one 4s, and two 4p orbitals). \n-   **Geometry:** Square planar. \n-   **Number of unpaired electrons:** 0.",
+    "marks": 2
+  }
+]

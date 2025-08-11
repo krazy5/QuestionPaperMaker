@@ -1,0 +1,320 @@
+[
+  {
+    "type": "short",
+    "text": "How is 4-methylpent-3-en-2-one obtained from propan-2-one? (March 2013)",
+    "answer": "4-Methylpent-3-en-2-one is obtained from propan-2-one (acetone) through an **aldol condensation** reaction. \nTwo molecules of propan-2-one react in the presence of a dilute base (like dilute NaOH or $Ba(OH)_2$). First, a self-aldol addition occurs to form an aldol product (4-hydroxy-4-methylpentan-2-one). Upon gentle heating, this aldol product readily undergoes dehydration (loss of a water molecule) to form the more stable, α,β-unsaturated ketone. \n\n**Reaction:** \n$2CH_3-CO-CH_3 \\xrightarrow{dil. Ba(OH)_2} (CH_3)_2C(OH)CH_2COCH_3 \\xrightarrow{\\Delta, -H_2O} (CH_3)_2C=CHCOCH_3$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How are the following compounds prepared? (a) Benzaldehyde from benzene. (b) Acetophenone from benzene. (c) Methyl benzoate from benzyl chloride. (March 2013)",
+    "answer": "(a) **Benzaldehyde from benzene (Gattermann-Koch reaction):** \nBenzene is treated with carbon monoxide (CO) and hydrogen chloride (HCl) gas in the presence of a catalyst mixture of anhydrous aluminium chloride ($AlCl_3$) and cuprous chloride ($CuCl$). \n$C_6H_6 + CO + HCl \\xrightarrow{Anhyd. AlCl_3/CuCl} C_6H_5CHO + HCl$ \n\n(b) **Acetophenone from benzene (Friedel-Crafts acylation):** \nBenzene is treated with acetyl chloride ($CH_3COCl$) or acetic anhydride ($(CH_3CO)_2O$) in the presence of a Lewis acid catalyst, anhydrous aluminium chloride ($AlCl_3$). \n$C_6H_6 + CH_3COCl \\xrightarrow{Anhyd. AlCl_3} C_6H_5COCH_3 + HCl$ \n\n(c) **Methyl benzoate from benzyl chloride:** This is a multi-step conversion. \n1.  Oxidize benzyl chloride to benzoic acid using an oxidizing agent like alkaline $KMnO_4$. \n    $C_6H_5CH_2Cl \\xrightarrow{KMnO_4, KOH, \\Delta} C_6H_5COOH$ \n2.  Esterify the benzoic acid with methanol in the presence of an acid catalyst. \n    $C_6H_5COOH + CH_3OH \\xrightarrow{H^+} C_6H_5COOCH_3 + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Mention 'two' uses of propan-2-one. (March 2013)",
+    "answer": "Two uses of propan-2-one (acetone) are: \n1.  **Solvent:** It is an excellent and widely used industrial solvent for a variety of organic substances, including paints, varnishes, lacquers, and plastics. \n2.  **Chemical Synthesis:** It is used as a starting material for the synthesis of many other organic compounds, such as methacrylates (for polymers like PMMA), chloroform, and aldol products.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain the mechanism of aldol condensation. (Oct. 2013; March 2015)",
+    "answer": "The aldol condensation of an aldehyde (e.g., ethanal) in the presence of a dilute base (e.g., NaOH) proceeds in three main steps: \n\n**Step 1: Formation of the Enolate Ion.** \nThe hydroxide ion ($OH^-$) from the base acts as a catalyst and removes an acidic α-hydrogen from one molecule of ethanal to form a resonance-stabilized carbanion called an enolate ion. \n$CH_3-CHO + OH^- \\rightleftharpoons [\\bar{C}H_2-CHO] + H_2O$ \n\n**Step 2: Nucleophilic Attack.** \nThe enolate ion is a strong nucleophile. It attacks the electrophilic carbonyl carbon of a second molecule of ethanal. \n$CH_3-CHO + \\bar{C}H_2-CHO \\rightarrow CH_3-CH(O^-)-CH_2-CHO$ \n\n**Step 3: Protonation to form Aldol.** \nThe alkoxide ion formed in the previous step is protonated by a water molecule (formed in Step 1) to give the final aldol addition product, 3-hydroxybutanal. \n$CH_3-CH(O^-)-CH_2-CHO + H_2O \\rightleftharpoons CH_3-CH(OH)-CH_2-CHO + OH^-$ \nIf this product is heated, it undergoes dehydration to form an α,β-unsaturated aldehyde (crotonaldehyde).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is benzophenone prepared from benzonitrile? (Oct. 2013; July 2016; March 2018)",
+    "answer": "Benzophenone is prepared from benzonitrile ($C_6H_5CN$) using a **Grignard reagent**. \n\n**Step 1:** Benzonitrile is treated with phenylmagnesium bromide ($C_6H_5MgBr$) in dry ether. The nucleophilic phenyl group of the Grignard reagent adds to the electrophilic carbon of the nitrile group to form an imine magnesium complex. \n$C_6H_5-C\\equiv N + C_6H_5MgBr \\rightarrow (C_6H_5)_2C=N-MgBr$ \n\n**Step 2:** The intermediate complex is then hydrolyzed with a dilute acid ($H_3O^+$) to yield benzophenone. \n$(C_6H_5)_2C=N-MgBr \\xrightarrow{H_3O^+} (C_6H_5)_2C=O + NH_3 + Mg(Br)OH$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a note on aldol condensation. (March 2014; July 2017; 2022)",
+    "answer": "Aldol condensation is a reaction in which two molecules of an aldehyde or a ketone containing at least one α-hydrogen atom react in the presence of a dilute base (like NaOH, KOH, $Ba(OH)_2$) to form a β-hydroxy aldehyde (an aldol) or a β-hydroxy ketone (a ketol). The 'aldol' product often undergoes spontaneous dehydration upon gentle warming to yield an α,β-unsaturated aldehyde or ketone. The overall reaction, including the dehydration step, is called aldol condensation. The reaction proceeds via the formation of a nucleophilic enolate ion from one molecule, which then attacks the carbonyl carbon of a second molecule.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a note on self oxidation-reduction reaction of aldehyde with suitable example. (March 2014)",
+    "answer": "The self oxidation-reduction reaction of an aldehyde is known as the **Cannizzaro reaction**. This reaction is characteristic of aldehydes that **do not have an α-hydrogen atom**. When such an aldehyde is treated with a concentrated alkali (like 50% NaOH or KOH), one molecule of the aldehyde is reduced to a primary alcohol, and another molecule is oxidized to the sodium or potassium salt of a carboxylic acid. This is a disproportionation reaction. \n\n**Example:** Formaldehyde ($HCHO$) with concentrated NaOH. \n$2HCHO + NaOH_{(conc.)} \\rightarrow CH_3OH + HCOONa$ \n(Methanol, from reduction + Sodium formate, from oxidation)",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Identify 'A' and 'B' in the following reaction: $C_6H_5MgBr + CO_2 \\xrightarrow{Dry Ether} 'A' \\xrightarrow{PCl_5} 'B'$ (Oct. 2014)",
+    "answer": "This reaction seems to be missing a hydrolysis step after the formation of A. Assuming hydrolysis before reaction with $PCl_5$. \n\n**Step 1:** The Grignard reagent, phenylmagnesium bromide ($C_6H_5MgBr$), reacts with carbon dioxide ($CO_2$) in dry ether to form a magnesium salt of benzoic acid. \n$C_6H_5MgBr + CO_2 \\xrightarrow{Dry Ether} C_6H_5COOMgBr$ \n\n**Step 2: Hydrolysis (assumed)** \nThis salt is then hydrolyzed with acid to form benzoic acid. \n$C_6H_5COOMgBr \\xrightarrow{H_3O^+} C_6H_5COOH$ \nSo, **A is Benzoic acid ($C_6H_5COOH$)**. \n\n**Step 3:** Benzoic acid reacts with phosphorus pentachloride ($PCl_5$) to form benzoyl chloride. \n$C_6H_5COOH + PCl_5 \\rightarrow C_6H_5COCl + POCl_3 + HCl$ \nSo, **B is Benzoyl chloride ($C_6H_5COCl$)**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the structure and IUPAC names of all the metamers represented by formula C₄H₈O. (Oct. 2014)",
+    "answer": "Metamerism in a compound with formula $C_4H_8O$ is only possible for ketones. The ketone functional group (-CO-) must be present, and the alkyl groups on either side must differ. \n\nThe only ketone with this formula is **Butan-2-one**. Its structure is $CH_3-CO-CH_2-CH_3$. It has a methyl group on one side and an ethyl group on the other. It is not possible to rearrange these groups to form another ketone with the same formula. Therefore, **no metamers exist** for the formula $C_4H_8O$. \n(Note: The question is likely flawed, as metamerism requires at least 5 carbons for ketones, e.g., Pentan-2-one and Pentan-3-one).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write balanced chemical equations for action of ammonia on - (a) Formaldehyde (b) Acetaldehyde (c) Acetone. (Oct. 2014)",
+    "answer": "(a) **Formaldehyde:** Reacts with ammonia to form hexamethylenetetramine (Urotropine). \n   $6HCHO + 4NH_3 \\rightarrow (CH_2)_6N_4 + 6H_2O$ \n\n(b) **Acetaldehyde:** Reacts with ammonia to form an unstable addition product, acetaldehyde ammonia, which then trimerizes. The initial step is: \n   $CH_3CHO + NH_3 \\rightarrow CH_3CH(OH)NH_2$ \n\n(c) **Acetone:** Two molecules of acetone react with one molecule of ammonia, followed by loss of water, to form diacetone amine. \n   $2(CH_3)_2CO + NH_3 \\rightarrow (CH_3)_2C(NH_2)CH_2COCH_3 + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a note on Friedel Craft's acylation. (March 2015)",
+    "answer": "Friedel-Crafts acylation is an electrophilic aromatic substitution reaction used to introduce an acyl group (R-CO-) onto an aromatic ring. The reaction is typically carried out by treating an aromatic compound (like benzene) with an acylating agent, such as an acyl halide (R-CO-Cl) or an acid anhydride ($(R-CO)_2O$), in the presence of a Lewis acid catalyst, most commonly anhydrous aluminium chloride ($AlCl_3$). The Lewis acid generates a highly electrophilic acylium ion ($R-C^+=O$), which then attacks the benzene ring. \n\n**Example:** Acylation of benzene to form acetophenone. \n$C_6H_6 + CH_3COCl \\xrightarrow{Anhyd. AlCl_3} C_6H_5COCH_3 + HCl$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain, why are boiling points of carboxylic acids higher than corresponding alcohols. (March 2015)",
+    "answer": "The boiling points of carboxylic acids are significantly higher than those of alcohols of comparable molar mass. This is because carboxylic acid molecules are capable of forming stronger and more extensive intermolecular hydrogen bonds. In the vapor phase or in aprotic solvents, most carboxylic acids exist as stable, hydrogen-bonded **dimers**. Each molecule forms two hydrogen bonds with its neighbor. This effectively doubles the size of the molecule that needs to be vaporized, requiring a much larger amount of energy to break the two hydrogen bonds per dimer. Alcohols can only form single hydrogen bonds between molecules, which are weaker in comparison.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the structures and IUPAC names of the following compounds: (a) Adipic acid (b) Methyl butyraldehyde (March 2015)",
+    "answer": "(a) **Adipic acid:** \n   - Structure: $HOOC-(CH_2)_4-COOH$ \n   - IUPAC Name: Hexanedioic acid \n\n(b) **Methyl butyraldehyde:** This common name is ambiguous. It likely refers to a branched-chain aldehyde. Assuming it's α-methylbutyraldehyde: \n   - Structure: $CH_3CH_2-CH(CH_3)-CHO$ \n   - IUPAC Name: 2-Methylbutanal",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is Stephen reaction? (Oct. 2015)",
+    "answer": "The Stephen reaction (or Stephen aldehyde synthesis) is a chemical reaction used to prepare an aldehyde from a nitrile (R-C≡N). The process involves two steps: \n1.  The nitrile is first reduced with stannous chloride ($SnCl_2$) in the presence of gaseous hydrogen chloride (HCl). This forms an iminium salt ($[R-CH=NH_2^+]Cl^-$), which precipitates. \n2.  The iminium salt is then hydrolyzed by boiling with water to yield the corresponding aldehyde. \n\n**Overall Reaction:** \n$R-C\\equiv N \\xrightarrow{(i) SnCl_2/HCl, (ii) H_3O^+, \\Delta} R-CHO$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the structure and IUPAC names of isomeric aldehydes having molecular formula C₄H₈O. (Oct. 2015)",
+    "answer": "There are two isomeric aldehydes with the molecular formula $C_4H_8O$: \n1.  **Structure:** $CH_3-CH_2-CH_2-CHO$ \n    **IUPAC Name:** Butanal \n\n2.  **Structure:** $(CH_3)_2CH-CHO$ \n    **IUPAC Name:** 2-Methylpropanal",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are ketones? How are ketones classified? (March 2016)",
+    "answer": "**Ketones:** Ketones are organic compounds that contain a carbonyl functional group (C=O) where the carbonyl carbon is bonded to two other carbon atoms (from alkyl or aryl groups). Their general formula is R-CO-R'. \n\n**Classification of Ketones:** \nKetones are classified based on the nature of the alkyl or aryl groups attached to the carbonyl carbon: \n1.  **Simple or Symmetrical Ketones:** The two alkyl or aryl groups attached to the carbonyl group are identical. \n    Example: Propanone (acetone), $CH_3-CO-CH_3$. \n2.  **Mixed or Unsymmetrical Ketones:** The two alkyl or aryl groups attached to the carbonyl group are different. \n    Example: Butan-2-one, $CH_3-CO-CH_2CH_3$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the mechanism of esterification. (March 2016)",
+    "answer": "The mechanism of Fischer esterification (acid-catalyzed esterification of a carboxylic acid with an alcohol) involves several reversible steps: \n\n**Step 1: Protonation of the carbonyl oxygen.** \nThe carboxylic acid is protonated by the acid catalyst, making the carbonyl carbon more electrophilic. \n$R-COOH + H^+ \\rightleftharpoons R-C(OH)_2^+$ \n\n**Step 2: Nucleophilic attack by the alcohol.** \nThe alcohol molecule acts as a nucleophile and attacks the protonated carbonyl carbon, forming a tetrahedral intermediate. \n$R-C(OH)_2^+ + R'-OH \\rightleftharpoons R-C(OH)_2(OHR')^+$ \n\n**Step 3: Proton transfer.** \nA proton is transferred from the oxonium ion to one of the hydroxyl groups to form a better leaving group (water). \n$R-C(OH)_2(OHR')^+ \\rightleftharpoons R-C(OH)(OH_2^+)(OR')$ \n\n**Step 4: Elimination of water.** \nThe intermediate loses a molecule of water, and a double bond is reformed between the carbon and oxygen, yielding a protonated ester. \n$R-C(OH)(OH_2^+)(OR') \\rightleftharpoons [R-C(OH)(OR')]^+ + H_2O$ \n\n**Step 5: Deprotonation.** \nThe protonated ester loses a proton (regenerating the acid catalyst) to form the final ester product. \n$[R-C(OH)(OR')]^+ \\rightleftharpoons R-CO-OR' + H^+$",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write IUPAC names of the following compounds: (a) Phenylacetaldehyde (b) 4-oxopentanal (July 2016)",
+    "answer": "(a) The given name is **Phenylacetaldehyde**. Its IUPAC name is **2-Phenylethanal**. Structure: $C_6H_5-CH_2-CHO$. \n\n(b) The given structure is **$CH_3-CO-CH_2-CH_2-CHO$**. The principal functional group is the aldehyde (-CHO), so numbering starts from its carbon. The ketone group is treated as a substituent ('oxo'). \nIUPAC Name: **4-Oxopentanal**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is ethanoic acid prepared from dry ice? (March 2017)",
+    "answer": "Ethanoic acid is prepared from dry ice (solid carbon dioxide, $CO_2$) using a **Grignard reagent**. \n\n**Step 1:** A Grignard reagent, methylmagnesium bromide ($CH_3MgBr$), is prepared and is added to dry ice suspended in dry ether. The nucleophilic methyl group attacks the electrophilic carbon of $CO_2$. \n$CH_3MgBr + O=C=O \\xrightarrow{Dry Ether} CH_3-COO-MgBr$ \n\n**Step 2:** The resulting magnesium salt of the carboxylic acid is then hydrolyzed with a dilute mineral acid to yield ethanoic acid. \n$CH_3-COO-MgBr + H_2O \\xrightarrow{H^+} CH_3-COOH + Mg(Br)OH$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give IUPAC name of $CH_3-CH_2-CH-CHO$. (March 2017)",
+    "answer": "The structure appears to have a substituent missing from the third carbon. Assuming a methyl group is attached to C-2, i.e., $CH_3-CH_2-CH(CH_3)-CHO$. \n-   The longest chain containing the aldehyde group has 4 carbons (butanal). \n-   Numbering starts from the aldehyde carbon as C-1. \n-   A methyl group is on C-2. \nIUPAC Name: **2-Methylbutanal**. \n\nIf the structure is as written, $CH_3-CH_2-CH-CHO$, it is incomplete and cannot be named.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the action of the following reagents on propanone? (a) Phenyl hydrazine (b) Zn-Hg / conc. HCl (c) Sodium bisulphite. (July 2017)",
+    "answer": "(a) **Phenylhydrazine:** Propanone (acetone) reacts with phenylhydrazine to form a crystalline solid derivative called propanone phenylhydrazone, with the elimination of a water molecule. \n   $(CH_3)_2CO + H_2N-NH-C_6H_5 \\rightarrow (CH_3)_2C=N-NH-C_6H_5 + H_2O$ \n\n(b) **Zn-Hg / conc. HCl (Clemmensen Reduction):** This reagent reduces the carbonyl group of a ketone to a methylene group ($-CH_2-$), forming an alkane. Propanone is reduced to propane. \n   $CH_3-CO-CH_3 + 4[H] \\xrightarrow{Zn-Hg/conc. HCl} CH_3-CH_2-CH_3 + H_2O$ \n\n(c) **Sodium bisulphite ($NaHSO_3$):** Propanone undergoes a nucleophilic addition reaction with sodium bisulphite to form a white, crystalline bisulphite addition product. \n   $(CH_3)_2CO + NaHSO_3 \\rightarrow (CH_3)_2C(OH)SO_3Na$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write a note on self oxidation-reduction reaction of aldehyde with suitable example. (July 2017)",
+    "answer": "The self oxidation-reduction reaction of an aldehyde, also known as the **Cannizzaro reaction**, is a disproportionation reaction. It is undergone by aldehydes that **do not have an α-hydrogen atom**. When such an aldehyde is treated with a concentrated alkali solution (e.g., 50% NaOH), one molecule of the aldehyde is reduced to the corresponding primary alcohol, while another molecule is oxidized to the salt of the corresponding carboxylic acid. \n\n**Example:** Benzaldehyde ($C_6H_5CHO$) with concentrated KOH. \n$2C_6H_5CHO + KOH_{(conc.)} \\rightarrow C_6H_5CH_2OH + C_6H_5COOK$ \n(Benzyl alcohol + Potassium benzoate)",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Complete and rewrite the balanced chemical equations. (a) Chlorobenzene -> ? (b) Isobutyraldehyde -> ? (c) Butanone -> ? (March 2018)",
+    "answer": "The question is incomplete as reagents are missing. Assuming standard reactions: \n(a) **Chlorobenzene $\\xrightarrow{NaOH, 623K, 300atm; then H^+}$ ?** (Dow Process) \n   $C_6H_5Cl \\xrightarrow{(i) NaOH, 623K, (ii) H^+} C_6H_5OH$ (Phenol) \n\n(b) **Isobutyraldehyde $\\xrightarrow{50\\% KOH}$ ?** (Cannizzaro Reaction) \n   Isobutyraldehyde has an α-hydrogen, so it would undergo aldol, not Cannizzaro. Assuming a different aldehyde without α-H, like Formaldehyde: \n   $2HCHO \\xrightarrow{50\\% KOH} CH_3OH + HCOOK$ \n\n(c) **Butanone + 2,4-dinitrophenyl hydrazine $\\xrightarrow{H^+}$ ?** \n   This is a reaction to form a 2,4-DNP derivative (a colored precipitate), a common test for carbonyl compounds. \n   $CH_3-CO-C_2H_5 + H_2N-NH-C_6H_3(NO_2)_2 \\xrightarrow{H^+} CH_3-C(=N-NH-C_6H_3(NO_2)_2)-C_2H_5 + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the action of the following reagents on ethanoic acid? (a) LiAlH₄ / H₂O (b) PCl₅, heat (c) P₂O₅, heat. (March 2018)",
+    "answer": "(a) **LiAlH₄ / H₂O:** Lithium aluminium hydride is a strong reducing agent that reduces carboxylic acids to primary alcohols. \n   $CH_3COOH \\xrightarrow{(i) LiAlH_4 / Ether, (ii) H_2O} CH_3CH_2OH$ \n\n(b) **PCl₅, heat:** Phosphorus pentachloride reacts with ethanoic acid to replace the -OH group with a -Cl group, forming an acid chloride. \n   $CH_3COOH + PCl_5 \\xrightarrow{\\Delta} CH_3COCl + POCl_3 + HCl$ \n\n(c) **P₂O₅, heat:** Phosphorus pentoxide is a strong dehydrating agent. It removes one molecule of water from two molecules of ethanoic acid to form an acid anhydride. \n   $2CH_3COOH \\xrightarrow{P_2O_5, \\Delta} (CH_3CO)_2O + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Complete and rewrite the balanced chemical equation for the following reactions: (a) Benzaldehyde -> ? (b) Acetone + phenylhydrazine -> ? (July 2018)",
+    "answer": "(a) **Benzaldehyde $\\xrightarrow{50\\% KOH}$ ?** (Cannizzaro Reaction) \n   Benzaldehyde has no α-hydrogen, so it undergoes self-oxidation and reduction. \n   $2C_6H_5CHO + KOH_{(conc.)} \\rightarrow C_6H_5CH_2OH + C_6H_5COOK$ \n   (Product (?): A mixture of Benzyl alcohol and Potassium benzoate) \n\n(b) **Acetone + phenylhydrazine $\\xrightarrow{H^+}$ ?** \n   This is a condensation reaction to form a phenylhydrazone. \n   $(CH_3)_2CO + H_2NNHC_6H_5 \\xrightarrow{H^+} (CH_3)_2C=NNHC_6H_5 + H_2O$ \n   (Product (?): Acetone phenylhydrazone)",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write balanced equations for the following conversions: (a) Cyclopropane carboxylic acid to cyclopropylmethanol. (b) Acetyl chloride to methyl ethyl ketone using dialkyl cadmium. (July 2018)",
+    "answer": "(a) **Cyclopropane carboxylic acid to cyclopropylmethanol:** This is the reduction of a carboxylic acid to a primary alcohol, using a strong reducing agent like $LiAlH_4$. \n   $c-C_3H_5-COOH \\xrightarrow{(i) LiAlH_4 / Ether, (ii) H_3O^+} c-C_3H_5-CH_2OH$ \n\n(b) **Acetyl chloride to methyl ethyl ketone (butan-2-one) using dialkyl cadmium:** \n   First, prepare diethyl cadmium from ethyl magnesium bromide and cadmium chloride. \n   $2C_2H_5MgBr + CdCl_2 \\rightarrow (C_2H_5)_2Cd + 2Mg(Br)Cl$ \n   Then, react diethyl cadmium with acetyl chloride. \n   $2CH_3COCl + (C_2H_5)_2Cd \\rightarrow 2CH_3COC_2H_5 + CdCl_2$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write chemical equation for the following: (i) Gatterman-Koch formylation (ii) Rosenmund reduction (iii) Fischer esterification. (March 2019)",
+    "answer": "(i) **Gatterman-Koch formylation:** \n   $C_6H_6 + CO + HCl \\xrightarrow{Anhyd. AlCl_3 / CuCl} C_6H_5CHO + HCl$ \n\n(ii) **Rosenmund reduction:** \n   $R-COCl + H_2 \\xrightarrow{Pd/BaSO_4, quinoline} R-CHO + HCl$ \n\n(iii) **Fischer esterification:** \n   $R-COOH + R'-OH \\xrightarrow{H^+} R-COOR' + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How will you convert: (i) Sodium acetate to acetaldehyde (ii) Acetone to acetone cyanohydrin (iii) Sodium acetate to methane (iv) Benzoic acid to m-bromobenzoic acid? (March 2019)",
+    "answer": "(i) **Sodium acetate to acetaldehyde:** Dry distillation of a mixture of sodium acetate and sodium formate. \n   $CH_3COONa + HCOONa \\xrightarrow{\\Delta} CH_3CHO + Na_2CO_3$ \n\n(ii) **Acetone to acetone cyanohydrin:** Nucleophilic addition of hydrogen cyanide (HCN) to acetone. \n   $(CH_3)_2CO + HCN \\rightarrow (CH_3)_2C(OH)CN$ \n\n(iii) **Sodium acetate to methane:** Decarboxylation by heating with soda lime (NaOH + CaO). \n   $CH_3COONa + NaOH \\xrightarrow{CaO, \\Delta} CH_4 + Na_2CO_3$ \n\n(iv) **Benzoic acid to m-bromobenzoic acid:** Electrophilic bromination. The -COOH group is meta-directing. \n   $C_6H_5COOH + Br_2 \\xrightarrow{FeBr_3} m-Br-C_6H_4-COOH + HBr$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Convert the following: (i) Ethanal into ethanol cyanohydrin. (ii) 3,5-Dinitorbenzoic acid into 3,5-dinitrobenzoyl chloride. (July 2019)",
+    "answer": "(i) **Ethanal into ethanal cyanohydrin (acetaldehyde cyanohydrin):** \nThis is a nucleophilic addition reaction. Ethanal is treated with hydrogen cyanide (HCN) in the presence of a base catalyst. \n$CH_3CHO + HCN \\rightleftharpoons CH_3-CH(OH)-CN$ \n\n(ii) **3,5-Dinitrobenzoic acid into 3,5-dinitrobenzoyl chloride:** \nThis conversion involves replacing the -OH group of the carboxylic acid with a -Cl group. This is achieved by reacting the acid with a chlorinating agent like thionyl chloride ($SOCl_2$) or phosphorus pentachloride ($PCl_5$). \n$C_6H_3(NO_2)_2COOH + SOCl_2 \\xrightarrow{\\Delta} C_6H_3(NO_2)_2COCl + SO_2 + HCl$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How are the following conversion carried out? Dry ice into ethanoic acid. (July 2019)",
+    "answer": "The conversion of dry ice (solid $CO_2$) into ethanoic acid ($CH_3COOH$) is carried out using a Grignard reagent. \n**Step 1:** React methyl halide (e.g., $CH_3Br$) with Mg in dry ether to form methylmagnesium bromide. \n$CH_3Br + Mg \\xrightarrow{Dry Ether} CH_3MgBr$ \n**Step 2:** Add the Grignard reagent to dry ice. \n$CH_3MgBr + CO_2 \\rightarrow CH_3COOMgBr$ \n**Step 3:** Hydrolyze the resulting magnesium salt with a dilute acid. \n$CH_3COOMgBr + H_2O \\xrightarrow{H^+} CH_3COOH + Mg(Br)OH$",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write aldol condensation reaction between ethanal and propanal. (July 2019)",
+    "answer": "This is a **crossed aldol condensation**. Since both ethanal and propanal have α-hydrogens, a mixture of four products is formed: two self-condensation products and two cross-condensation products. \nThe base (e.g., $OH^-$) can remove an α-hydrogen from either ethanal or propanal to form two different enolates. Each enolate can then attack a molecule of either ethanal or propanal. \n1.  **Self-condensation of ethanal:** 3-Hydroxybutanal \n2.  **Self-condensation of propanal:** 3-Hydroxy-2-methylpentanal \n3.  **Cross-condensation (ethanal enolate + propanal):** 3-Hydroxypentanal \n4.  **Cross-condensation (propanal enolate + ethanal):** 3-Hydroxy-2-methylbutanal",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write balanced chemical reaction for preparation of acetic anhydride using acetic acid. (March 2020)",
+    "answer": "Acetic anhydride is prepared by the dehydration of acetic acid. This is achieved by heating acetic acid with a strong dehydrating agent such as phosphorus pentoxide ($P_2O_5$). Two molecules of acetic acid combine with the loss of one molecule of water. \n\n**Reaction:** \n$2CH_3COOH \\xrightarrow{P_2O_5, \\Delta} (CH_3CO)_2O + H_2O$",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Identify 'A' and 'B' in the following reaction: Benzene + Acetyl Chloride -> A -> B + H₂O (March 2020)",
+    "answer": "**Step 1:** The reaction of benzene with acetyl chloride ($CH_3COCl$) in the presence of anhydrous $AlCl_3$ is a Friedel-Crafts acylation. \n$C_6H_6 + CH_3COCl \\xrightarrow{Anhyd. AlCl_3} C_6H_5COCH_3 + HCl$ \nSo, **A is Acetophenone ($C_6H_5COCH_3$)**. \n\n**Step 2:** Acetophenone is then treated with Zn-Hg and concentrated HCl. This is a Clemmensen reduction, which reduces the carbonyl group to a methylene group. \n$C_6H_5COCH_3 + 4[H] \\xrightarrow{Zn-Hg, Conc. HCl} C_6H_5CH_2CH_3 + H_2O$ \nSo, **B is Ethylbenzene ($C_6H_5CH_2CH_3$)**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the mechanism of aldol addition reaction. Mention two uses of carboxylic acids. (Sept. 2021)",
+    "answer": "**Mechanism of Aldol Addition (Base-catalyzed):** \n1.  **Enolate Formation:** A base abstracts an acidic α-hydrogen from an aldehyde/ketone to form a resonance-stabilized enolate ion. \n2.  **Nucleophilic Attack:** The nucleophilic enolate ion attacks the carbonyl carbon of a second molecule of the aldehyde/ketone. \n3.  **Protonation:** The resulting alkoxide intermediate is protonated by water (or another proton source) to give the final β-hydroxy aldehyde or ketone (the aldol). \n\n**Two Uses of Carboxylic Acids:** \n1.  **Food Industry:** Acetic acid (vinegar) is used as a food preservative and a flavoring agent. Sorbic acid and benzoic acid salts are also used as preservatives. \n2.  **Industrial Synthesis:** They are used as starting materials for the production of many other organic compounds like esters (used in perfumes and flavorings), polymers (like nylon), soaps, and pharmaceuticals (like aspirin).",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write the name of reagent used during conversion of acetaldehyde to acetaldehyde cyanohydrin. (Sept. 2021)",
+    "answer": "The reagent used for the conversion of acetaldehyde to acetaldehyde cyanohydrin is **Hydrogen Cyanide (HCN)**, often in the presence of a small amount of base (like $CN^-$ or $OH^-$) as a catalyst.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "How is benzophenone prepared from benzonitrile? (Sept. 2021)",
+    "answer": "Benzophenone is prepared from benzonitrile using a Grignard reagent. Benzonitrile ($C_6H_5CN$) is treated with phenylmagnesium bromide ($C_6H_5MgBr$) in dry ether. This is followed by acid hydrolysis of the intermediate imine complex. \n\n**Reactions:** \n1.  $C_6H_5CN + C_6H_5MgBr \\rightarrow (C_6H_5)_2C=NMgBr$ \n2.  $(C_6H_5)_2C=NMgBr + H_2O \\xrightarrow{H^+} (C_6H_5)_2C=O + NH_3 + Mg(Br)OH$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write a note on 'aldol' condensation reaction of ethanal. Write chemical reaction involved when benzaldehyde is treated with concentrated caustic potash. (Sept. 2021)",
+    "answer": "**Aldol Condensation of Ethanal:** \nWhen two molecules of ethanal ($CH_3CHO$), which has α-hydrogens, are warmed with a dilute alkali (like NaOH), they undergo a condensation reaction. The initial product is a β-hydroxy aldehyde called an aldol (3-hydroxybutanal). Upon further heating, this aldol readily loses a water molecule to form an α,β-unsaturated aldehyde, crotonaldehyde (But-2-enal). \n$2CH_3CHO \\xrightarrow{dil. NaOH} CH_3CH(OH)CH_2CHO \\xrightarrow{\\Delta} CH_3CH=CHCHO + H_2O$ \n\n**Reaction of Benzaldehyde with Concentrated Caustic Potash (Cannizzaro Reaction):** \nBenzaldehyde ($C_6H_5CHO$) has no α-hydrogen atoms. When treated with concentrated caustic potash (KOH), it undergoes a self-oxidation-reduction (disproportionation) reaction. One molecule is reduced to benzyl alcohol, and the other is oxidized to potassium benzoate. \n$2C_6H_5CHO + KOH_{(conc.)} \\rightarrow C_6H_5CH_2OH + C_6H_5COOK$",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write the name of product formed, when acetone is treated with 2, 4- dinitrophenyl hydrazine. (March 2022)",
+    "answer": "When acetone (propanone) is treated with 2,4-dinitrophenylhydrazine (Brady's reagent), a condensation reaction occurs, forming a yellow, orange, or red precipitate. The name of the product is **acetone 2,4-dinitrophenylhydrazone**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Identify A and B from the following reaction: $2CH_3-C=O \\rightarrow A \\rightarrow B + H_2O$ (March 2022)",
+    "answer": "The starting material ($CH_3-C=O$) is incomplete but is clearly an acetaldehyde/ethanal molecule ($CH_3CHO$). The reaction shown is a self-aldol condensation of ethanal. \n1.  **Step 1 (Aldol Addition):** Two molecules of ethanal react in the presence of a dilute base to form an aldol. \n    $2CH_3CHO \\xrightarrow{dil. base} CH_3-CH(OH)-CH_2-CHO$ \n    So, **A is 3-hydroxybutanal**. \n2.  **Step 2 (Dehydration):** The aldol product is heated, causing it to lose a water molecule and form an α,β-unsaturated aldehyde. \n    $CH_3-CH(OH)-CH_2-CHO \\xrightarrow{\\Delta} CH_3-CH=CH-CHO + H_2O$ \n    So, **B is Crotonaldehyde (But-2-enal)**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write preparation of acetic acid from: (i) Dry ice (ii) Acetyl chloride. (March 2022)",
+    "answer": "(i) **From Dry Ice ($CO_2$):** Acetic acid is prepared from dry ice using a Grignard reagent (methylmagnesium bromide). \n   $CH_3MgBr + CO_{2(s)} \\rightarrow CH_3COOMgBr \\xrightarrow{H_3O^+} CH_3COOH + Mg(Br)OH$ \n\n(ii) **From Acetyl Chloride ($CH_3COCl$):** Acetic acid is prepared by the simple hydrolysis of acetyl chloride with water. \n   $CH_3COCl + H_2O \\rightarrow CH_3COOH + HCl$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the classification of aliphatic ketones with example. What is the action of sodium hypoidite on acetone? (March 2022)",
+    "answer": "**Classification of Aliphatic Ketones:** \nThey are classified based on the nature of the alkyl groups attached to the carbonyl group. \n1.  **Simple (Symmetrical) Ketones:** Both alkyl groups are identical. \n    Example: Propanone (acetone), $CH_3-CO-CH_3$. \n2.  **Mixed (Unsymmetrical) Ketones:** The two alkyl groups are different. \n    Example: Butan-2-one, $CH_3-CO-CH_2CH_3$. \n\n**Action of Sodium Hypoiodite on Acetone (Iodoform Test):** \nAcetone is a methyl ketone and gives a positive iodoform test. It reacts with sodium hypoiodite ($NaOI$, formed from $I_2 + NaOH$) to give a yellow precipitate of iodoform ($CHI_3$) and sodium acetate. \n$CH_3COCH_3 + 3NaOI \\rightarrow CHI_3 \\downarrow + CH_3COONa + 2NaOH$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the IUPAC name of α-methylpropionic acid. (July 2022)",
+    "answer": "α-Methylpropionic acid has the structure $CH_3-CH(CH_3)-COOH$. \nTo find the IUPAC name: \n-   The parent chain containing the -COOH group has 3 carbons (propanoic acid). \n-   Numbering starts from the carboxylic carbon as C-1. \n-   A methyl group is on C-2 (the α-carbon). \nIUPAC Name: **2-Methylpropanoic acid**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the action of the following on carboxylic acid: (i) SOCl₂ (ii) P₂O₅? (July 2022)",
+    "answer": "(i) **Thionyl Chloride ($SOCl_2$):** Carboxylic acids react with thionyl chloride to replace the -OH group with a -Cl group, forming an acid chloride. This is a preferred method as the byproducts ($SO_2$ and $HCl$) are gases and escape easily. \n   $R-COOH + SOCl_2 \\rightarrow R-COCl + SO_2 + HCl$ \n\n(ii) **Phosphorus Pentoxide ($P_2O_5$):** This is a strong dehydrating agent. When heated with a carboxylic acid, it removes one molecule of water from two molecules of the acid to form an acid anhydride. \n   $2R-COOH \\xrightarrow{P_2O_5, \\Delta} (R-CO)_2O + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Convert carboxylic acids to: (i) Ester (ii) Acid amide. (July 2022)",
+    "answer": "(i) **Conversion to Ester (Esterification):** Carboxylic acids are converted to esters by heating them with an alcohol in the presence of a strong acid catalyst (like conc. $H_2SO_4$). \n   $R-COOH + R'-OH \\xrightarrow{H^+} R-COOR' + H_2O$ \n\n(ii) **Conversion to Acid Amide:** This is a two-step process. \n   1.  First, the carboxylic acid is reacted with ammonia to form an ammonium salt. \n      $R-COOH + NH_3 \\rightarrow R-COO^-NH_4^+$ \n   2.  The ammonium salt is then heated strongly to eliminate a molecule of water and form the acid amide. \n      $R-COO^-NH_4^+ \\xrightarrow{\\Delta} R-CONH_2 + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain Aldol condensation of ethanal. (March 2023)",
+    "answer": "When ethanal ($CH_3CHO$), an aldehyde with α-hydrogens, is treated with a dilute base like NaOH, two molecules of it condense together. The first step is an **aldol addition** where one molecule forms an enolate which attacks the other molecule, resulting in the formation of a β-hydroxy aldehyde, **3-hydroxybutanal** (an aldol). \n$2CH_3CHO \\xrightarrow{dil. NaOH} CH_3-CH(OH)-CH_2-CHO$ \nIf this product is then heated, it undergoes dehydration (loss of water) to form an α,β-unsaturated aldehyde, **But-2-enal** (crotonaldehyde). This second step is the **condensation** part. \n$CH_3-CH(OH)-CH_2-CHO \\xrightarrow{\\Delta} CH_3-CH=CH-CHO + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a note on Haloform reaction. (March 2023)",
+    "answer": "The haloform reaction is a chemical reaction given by methyl ketones (compounds containing a $CH_3-CO-$ group) and compounds that can be oxidized to methyl ketones (like ethanol and secondary alcohols with a $CH_3-CH(OH)-$ group). The reagent used is a halogen (Cl₂, Br₂, or I₂) in the presence of a strong base (like NaOH). The reaction produces a haloform ($CHX_3$, where X is Cl, Br, or I) and the sodium salt of a carboxylic acid with one less carbon atom than the starting ketone. The most common version is the **iodoform test** (using $I_2/NaOH$), which produces a characteristic yellow precipitate of iodoform ($CHI_3$), used as a diagnostic test.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the IUPAC name of isobutyraldehyde. (July 2023)",
+    "answer": "Isobutyraldehyde has the structure $(CH_3)_2CH-CHO$. \n- The principal functional group is the aldehyde (-CHO). \n- The longest carbon chain containing this group has 3 carbons, so the parent name is 'propanal'. \n- Numbering starts from the aldehyde carbon as C-1. \n- A methyl group is attached to C-2. \nThe IUPAC name is **2-Methylpropanal**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write a note on: Wolf-Kishner reduction reaction. (July 2023)",
+    "answer": "The Wolff-Kishner reduction is a chemical reaction used to reduce the carbonyl group of an aldehyde or a ketone completely to a methylene group ($-CH_2-$), thus converting the carbonyl compound into an alkane. The reaction is carried out by heating the aldehyde or ketone with **hydrazine ($NH_2-NH_2$)** and a strong base such as **potassium hydroxide (KOH)** or potassium tert-butoxide in a high-boiling solvent like ethylene glycol. This method is particularly useful for compounds that are sensitive to acids (unlike the Clemmensen reduction). \n**General Reaction:** $R-CO-R' \\xrightarrow{NH_2NH_2, KOH, Ethylene Glycol, \\Delta} R-CH_2-R' + N_2 + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Convert: (a) Acetic acid to acetamide (b) Acetyl chloride to acetaldehyde (c) Sodium acetate to methane. (July 2023)",
+    "answer": "(a) **Acetic acid to acetamide:** \n   $CH_3COOH + NH_3 \\rightarrow CH_3COO^-NH_4^+ \\xrightarrow{\\Delta} CH_3CONH_2 + H_2O$ \n\n(b) **Acetyl chloride to acetaldehyde (Rosenmund Reduction):** \n   $CH_3COCl + H_2 \\xrightarrow{Pd/BaSO_4} CH_3CHO + HCl$ \n\n(c) **Sodium acetate to methane (Decarboxylation):** \n   $CH_3COONa + NaOH \\xrightarrow{CaO, \\Delta} CH_4 + Na_2CO_3$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define: Aromatic ketones. (July 2023)",
+    "answer": "Aromatic ketones are ketones in which the carbonyl group (C=O) is attached to at least one aryl (aromatic) group. They can be of two types: \n1. **Alkyl aryl ketones:** The carbonyl group is attached to one aryl and one alkyl group. Example: Acetophenone ($C_6H_5-CO-CH_3$). \n2. **Diaryl ketones:** The carbonyl group is attached to two aryl groups. Example: Benzophenone ($C_6H_5-CO-C_6H_5$).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reactions involved in: (a) Rosenmund reduction (b) Gatterman Koch formylation (c) Cannizaro reaction of methanal. (March 2024)",
+    "answer": "(a) **Rosenmund Reduction:** The catalytic hydrogenation of an acid chloride to an aldehyde. \n   $R-COCl + H_2 \\xrightarrow{Pd/BaSO_4, quinoline} R-CHO + HCl$ \n\n(b) **Gatterman-Koch Formylation:** The formylation of benzene to produce benzaldehyde. \n   $C_6H_6 + CO + HCl \\xrightarrow{Anhyd. AlCl_3 / CuCl} C_6H_5CHO + HCl$ \n\n(c) **Cannizzaro Reaction of Methanal:** The self-oxidation and reduction of methanal (formaldehyde) in concentrated alkali. \n   $2HCHO + NaOH_{(conc.)} \\rightarrow CH_3OH + HCOONa$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain Wolf-Kishner reduction reaction. Write preparation of propanone by using ethanoyl chloride and dimethyl cadmium. (March 2024)",
+    "answer": "**Wolff-Kishner Reduction:** This is a method for reducing the carbonyl group (C=O) of aldehydes and ketones to a methylene group ($-CH_2-$), effectively converting them to alkanes. The reaction involves heating the carbonyl compound with hydrazine ($N_2H_4$) and a strong base like KOH in a high-boiling solvent such as ethylene glycol. It is particularly useful for base-stable compounds. \n\n**Preparation of Propanone:** \nThis method uses an organocadmium reagent to prepare a ketone from an acid chloride. \n1.  **Preparation of Dimethyl Cadmium:** A Grignard reagent (methylmagnesium bromide) is treated with cadmium chloride. \n    $2CH_3MgBr + CdCl_2 \\rightarrow (CH_3)_2Cd + 2Mg(Br)Cl$ \n2.  **Reaction with Ethanoyl Chloride:** The prepared dimethyl cadmium is then reacted with ethanoyl chloride (acetyl chloride) to produce propanone (acetone). \n    $2CH_3COCl + (CH_3)_2Cd \\rightarrow 2CH_3COCH_3 + CdCl_2$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Convert the following: (a) Ethanenitrile into ethanal. (b) Cyclohexane into adipic acid. (March 2024)",
+    "answer": "(a) **Ethanenitrile into ethanal (Stephen Reaction):** \nThis is a two-step process. \n1.  Ethanenitrile ($CH_3CN$) is reduced with stannous chloride ($SnCl_2$) in the presence of hydrochloric acid (HCl) to form an iminium salt. \n2.  The intermediate salt is then hydrolyzed with boiling water to yield ethanal. \n   $CH_3CN \\xrightarrow{(i) SnCl_2/HCl, (ii) H_3O^+, \\Delta} CH_3CHO$ \n\n(b) **Cyclohexane into adipic acid:** This is a two-step oxidation process. \n1.  First, cyclohexane is oxidized to cyclohexanol and cyclohexanone using air in the presence of a catalyst. \n2.  The resulting mixture is then oxidized with a strong oxidizing agent, nitric acid ($HNO_3$), in the presence of a catalyst (like $V_2O_5$) to cleave the ring and form adipic acid (hexanedioic acid). \n   $C_6H_{12} \\xrightarrow{Air, Co-naphthenate} C_6H_{11}OH + C_6H_{10}O \\xrightarrow{HNO_3, V_2O_5} HOOC-(CH_2)_4-COOH$",
+    "marks": 2
+  }
+]

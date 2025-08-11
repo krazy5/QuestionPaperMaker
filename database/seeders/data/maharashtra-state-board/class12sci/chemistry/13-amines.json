@@ -1,0 +1,266 @@
+[
+  {
+    "type": "short",
+    "text": "What is the action of bromine in alkaline medium on: (a) $CH_3CH_2NO_2$ (b) $CH_3-CH(NO_2)-CH_3$ (March 2013)",
+    "answer": "(a) **On Nitroethane ($CH_3CH_2NO_2$):** Nitroethane has two acidic α-hydrogens. In an alkaline medium, it forms a salt. This salt then reacts with bromine, but a simple substitution is complex. The more characteristic reaction is the formation of a bromonitroalkane if conditions are controlled. A common reaction taught is the reaction of the nitroalkane anion with bromine. \n$CH_3CH_2NO_2 + NaOH \\rightarrow CH_3CH(Na)NO_2 \\xrightarrow{Br_2} CH_3CH(Br)NO_2 + NaBr$ \n\n(b) **On 2-Nitropropane ($CH_3-CH(NO_2)-CH_3$):** 2-Nitropropane has one acidic α-hydrogen. It reacts with bromine in an alkaline medium (like NaOH) to form 2-bromo-2-nitropropane. \n$(CH_3)_2CHNO_2 + NaOH \\rightarrow (CH_3)_2C(Na)NO_2 \\xrightarrow{Br_2} (CH_3)_2C(Br)NO_2 + NaBr$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a short note on Hoffmann bromamide degradation. (March 2013)",
+    "answer": "The Hofmann bromamide degradation is a chemical reaction used to convert a primary amide into a primary amine with one less carbon atom. The reaction is carried out by treating the amide with bromine in an aqueous or ethanolic solution of an alkali like sodium hydroxide (NaOH). The overall reaction involves the degradation of the amide group, where the carbonyl carbon is lost as carbonate. This method is very useful for descending a homologous series (reducing the carbon chain length by one). \n\n**General Reaction:** \n$R-CONH_2 + Br_2 + 4NaOH \\rightarrow R-NH_2 + Na_2CO_3 + 2NaBr + 2H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is nitromethane prepared from the following? (a) Alkyl halide (b) α-Halogen carboxylic acid (c) α-Nitroalkene. (Oct. 2013)",
+    "answer": "(a) **From Alkyl halide (e.g., Methyl iodide):** Nitromethane is prepared by heating methyl iodide with aqueous ethanolic silver nitrite ($AgNO_2$). \n   $CH_3I + AgNO_2 \\rightarrow CH_3NO_2 + AgI$ \n\n(b) **From α-Halogen carboxylic acid (e.g., Chloroacetic acid):** Chloroacetic acid is boiled with an aqueous solution of sodium nitrite. The chloro group is replaced by a nitro group. The resulting nitroacetic acid is unstable and decarboxylates on heating to give nitromethane. \n   $ClCH_2COOH + NaNO_2 \\rightarrow [NO_2CH_2COOH] \\xrightarrow{-\\Delta, -CO_2} CH_3NO_2$ \n\n(c) **From α-Nitroalkene:** This is incorrect. Nitromethane is a saturated compound and cannot be prepared from an α-nitroalkene by a simple, standard method. The question might be flawed.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain Hoffmann bromamide degradation reaction. (Oct. 2013; March 2017, 2018)",
+    "answer": "The Hoffmann bromamide degradation is a method for preparing a primary amine from a primary amide. In this reaction, the amide is treated with bromine and an aqueous or ethanolic solution of an alkali (like NaOH or KOH). The key feature of this reaction is that the resulting amine has one carbon atom less than the parent amide, making it a step-down or degradation reaction. The carbonyl group of the amide is removed as a carbonate ion. \n\n**General Reaction:** \n$R-CONH_2 + Br_2 + 4NaOH \\rightarrow R-NH_2 + Na_2CO_3 + 2NaBr + 2H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the action of the following reagents on aniline? (a) Bromine water (b) Acetic anhydride (c) Hot and conc. sulphuric acid. (March 2014)",
+    "answer": "(a) **Bromine water:** Aniline is highly activated towards electrophilic substitution. It reacts with excess bromine water at room temperature to give a white precipitate of 2,4,6-tribromoaniline. \n   $C_6H_5NH_2 + 3Br_{2(aq)} \\rightarrow C_6H_2(Br)_3NH_2 + 3HBr$ \n\n(b) **Acetic anhydride (Acetylation):** Aniline reacts with acetic anhydride in the presence of a base like pyridine to form N-phenylacetamide (acetanilide). This reaction protects the amino group. \n   $C_6H_5NH_2 + (CH_3CO)_2O \\rightarrow C_6H_5NHCOCH_3 + CH_3COOH$ \n\n(c) **Hot and conc. sulphuric acid (Sulfonation):** Aniline reacts with concentrated sulfuric acid to form anilinium hydrogen sulphate. Upon heating this salt at 453-473 K, it rearranges to form p-aminobenzenesulphonic acid (sulfanilic acid), which exists as a zwitterion. \n   $C_6H_5NH_2 + H_2SO_4 \\rightarrow [C_6H_5NH_3]^+HSO_4^- \\xrightarrow{453-473K} p-NH_2-C_6H_4-SO_3H$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Identify the compound 'A' and 'B' in the following equation: $CH_3-CH_3 + HNO_3 \\xrightarrow{423-600K} 'A' \\xrightarrow{Sn/conc.HCl} 'B' + H_2O$ (March 2014)",
+    "answer": "**Step 1:** Ethane ($CH_3-CH_3$) reacts with nitric acid ($HNO_3$) at high temperature (vapor phase nitration) to form nitroethane. \n$CH_3-CH_3 + HNO_3 \\xrightarrow{423-600K} CH_3-CH_2-NO_2 + H_2O$ \nSo, **A is Nitroethane ($CH_3CH_2NO_2$)**. \n\n**Step 2:** Nitroethane (A) is reduced to a primary amine using a reducing agent like tin (Sn) and concentrated hydrochloric acid (HCl). \n$CH_3-CH_2-NO_2 + 6[H] \\xrightarrow{Sn/conc.HCl} CH_3-CH_2-NH_2 + 2H_2O$ \nSo, **B is Ethanamine ($CH_3CH_2NH_2$)**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What will be the action of the mixture of sodium nitrite and dilute hydrochloric acid on: (a) Ethyl amine (b) Aniline (c) Triethyl amine? (Oct. 2014)",
+    "answer": "The mixture of sodium nitrite ($NaNO_2$) and dilute hydrochloric acid (HCl) generates nitrous acid ($HNO_2$) in situ. \n(a) **Ethyl amine (Primary aliphatic amine):** Reacts with nitrous acid to form an unstable diazonium salt, which immediately decomposes to form ethanol and liberates nitrogen gas. \n   $C_2H_5NH_2 + HNO_2 \\rightarrow [C_2H_5N_2^+Cl^-] \\xrightarrow{H_2O} C_2H_5OH + N_2 + HCl$ \n\n(b) **Aniline (Primary aromatic amine):** Reacts with nitrous acid at low temperature (0-5°C) to form a relatively stable benzene diazonium chloride salt. \n   $C_6H_5NH_2 + HNO_2 + HCl \\xrightarrow{273-278K} C_6H_5N_2^+Cl^- + 2H_2O$ \n\n(c) **Triethyl amine (Tertiary aliphatic amine):** Reacts with nitrous acid to form a soluble triethylammonium nitrite salt. \n   $(C_2H_5)_3N + HNO_2 \\rightarrow [(C_2H_5)_3NH]^+NO_2^-$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How are propan-1-amine and propan-2-amine prepared from oxime? (Oct. 2014)",
+    "answer": "Primary amines are prepared by the reduction of oximes. \n\n**Preparation of Propan-1-amine:** \nPropan-1-amine is prepared by the reduction of **propanal oxime**. Propanal oxime is first formed by reacting propanal with hydroxylamine. \n$CH_3CH_2CHO + NH_2OH \\rightarrow CH_3CH_2CH=NOH$ \nThe oxime is then reduced using a reducing agent like $LiAlH_4$ or catalytic hydrogenation ($H_2/Ni$). \n$CH_3CH_2CH=NOH + 4[H] \\xrightarrow{LiAlH_4} CH_3CH_2CH_2NH_2 + H_2O$ \n\n**Preparation of Propan-2-amine:** \nPropan-2-amine is prepared by the reduction of **propanone oxime**. \n$(CH_3)_2CO + NH_2OH \\rightarrow (CH_3)_2C=NOH$ \nThe oxime is then reduced. \n$(CH_3)_2C=NOH + 4[H] \\xrightarrow{LiAlH_4} (CH_3)_2CHNH_2 + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is ethyl amine prepared from methyl iodide? (March 2015)",
+    "answer": "This is a two-step process to increase the carbon chain length by one. \n**Step 1: Conversion to a nitrile.** \nMethyl iodide ($CH_3I$) is treated with alcoholic potassium cyanide (KCN) to form ethanenitrile (acetonitrile) via a nucleophilic substitution reaction. \n$CH_3I + KCN_{(alc)} \\rightarrow CH_3CN + KI$ \n\n**Step 2: Reduction of the nitrile.** \nThe ethanenitrile is then reduced to ethyl amine (ethanamine) using a strong reducing agent like lithium aluminium hydride ($LiAlH_4$) or by catalytic hydrogenation ($H_2/Ni$). \n$CH_3CN + 4[H] \\xrightarrow{LiAlH_4/H_2O} CH_3CH_2NH_2$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a note on Gabriel phthalimide synthesis. (March 2015)",
+    "answer": "The Gabriel phthalimide synthesis is a method used for the preparation of pure primary aliphatic amines. It involves three main steps: \n1.  **Formation of Potassium Phthalimide:** Phthalimide is treated with alcoholic potassium hydroxide (KOH) to form its potassium salt, which is a strong nucleophile. \n2.  **Formation of N-Alkylphthalimide:** The potassium phthalimide is then heated with an alkyl halide (R-X). The phthalimide ion displaces the halide ion in an $S_N2$ reaction to form N-alkylphthalimide. \n3.  **Hydrolysis:** The N-alkylphthalimide is hydrolyzed with an aqueous acid or base (e.g., aq. NaOH) to yield the primary amine and phthalic acid (or its salt). \nThis method is preferred because it avoids the formation of secondary and tertiary amines. Aromatic primary amines cannot be prepared by this method.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the action of acetic anhydride on: (a) Ethyl amine (b) Diethyl amine. (Oct 2015)",
+    "answer": "Acetic anhydride causes acetylation of amines. \n(a) **On Ethyl amine (Primary amine):** Ethyl amine reacts with acetic anhydride to form an N-substituted amide, N-ethylethanamide. \n   $CH_3CH_2NH_2 + (CH_3CO)_2O \\rightarrow CH_3CH_2NHCOCH_3 + CH_3COOH$ \n\n(b) **On Diethyl amine (Secondary amine):** Diethyl amine reacts with acetic anhydride to form an N,N-disubstituted amide, N,N-diethylethanamide. \n   $(CH_3CH_2)_2NH + (CH_3CO)_2O \\rightarrow (CH_3CH_2)_2NCOCH_3 + CH_3COOH$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the action of nitrous acid on: (a) Primary nitroalkane (b) Secondary nitroalkane (c) Tertiary nitroalkane (Oct. 2015)",
+    "answer": "(a) **Primary Nitroalkane (e.g., Nitroethane):** Reacts with nitrous acid ($HNO_2$) to form a nitrolic acid, which dissolves in NaOH to give a red solution. This is a characteristic test. \n   $R-CH_2NO_2 + HONO \\rightarrow R-C(NO_2)=NOH + H_2O$ \n\n(b) **Secondary Nitroalkane (e.g., 2-Nitropropane):** Reacts with nitrous acid to form a pseudonitrole, which is a blue-colored compound and is insoluble in alkali. \n   $R_2CHNO_2 + HONO \\rightarrow R_2C(NO)NO_2 + H_2O$ \n\n(c) **Tertiary Nitroalkane:** Having no α-hydrogen atom, tertiary nitroalkanes do not react with nitrous acid.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "2-Nitropropane prepared from suitable oxime? (March 2016)",
+    "answer": "This question appears to be incorrect. Nitro compounds are generally not prepared from oximes. Oximes are typically reduced to form amines. For example, propanone oxime on reduction gives propan-2-amine. \n$(CH_3)_2C=NOH \\xrightarrow{LiAlH_4} (CH_3)_2CHNH_2$ \nPerhaps the question intended to ask for the preparation of 2-aminopropane from a suitable oxime.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How are 1-nitropropane, 2-nitropropane and 2-methyl-2-nitropropane are distinguished from each other using nitrous acid? (March 2016)",
+    "answer": "Primary, secondary, and tertiary nitroalkanes are distinguished using the **Victor Meyer test**, which involves reaction with nitrous acid ($HNO_2$). \n-   **1-Nitropropane (Primary):** It reacts with $HNO_2$ to form a nitrolic acid. When treated with an alkali (NaOH), it gives a **blood red** coloration. \n-   **2-Nitropropane (Secondary):** It reacts with $HNO_2$ to form a pseudonitrole. When treated with an alkali, it gives a **blue** coloration. \n-   **2-Methyl-2-nitropropane (Tertiary):** It has no α-hydrogen and therefore **does not react** with nitrous acid. The solution remains **colorless**.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the action of benzene diazonium chloride on: (a) Phenol in alkaline medium. (b) Aniline. (July 2016)",
+    "answer": "These are examples of **coupling reactions**. \n(a) **On Phenol in alkaline medium:** Benzene diazonium chloride reacts with phenol in a mildly alkaline solution (pH 9-10) to form p-hydroxyazobenzene, an orange-colored azo dye. \n   $C_6H_5N_2^+Cl^- + C_6H_5OH \\xrightarrow{OH^-} C_6H_5-N=N-C_6H_4-OH + HCl$ \n\n(b) **On Aniline:** Benzene diazonium chloride reacts with aniline in a mildly acidic solution to form p-aminoazobenzene, a yellow-colored azo dye. \n   $C_6H_5N_2^+Cl^- + C_6H_5NH_2 \\xrightarrow{H^+} C_6H_5-N=N-C_6H_4-NH_2 + HCl$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Identify 'A' and 'B' and rewrite the reactions: $C_2H_5I \\xrightarrow{Ag₂O/H₂O} 'A' \\xrightarrow{H^+} B + (CH_3)_2N + H_2O$ (July 2016)",
+    "answer": "The question seems to have multiple unrelated parts or a significant typo. The first reagent suggests hydrolysis, while the final products suggest a Hofmann elimination from a quaternary ammonium salt. \nLet's assume the starting material for the second step was a quaternary ammonium salt derived from $C_2H_5I$: \n\nAssuming the reaction is a **Hofmann elimination:** \nLet's start with tetraethylammonium iodide: $(C_2H_5)_4N^+I^-$. \n1.  **Formation of hydroxide salt (A):** The iodide salt is treated with moist silver oxide ($Ag_2O/H_2O$, which is AgOH) to form the quaternary ammonium hydroxide. \n    $(C_2H_5)_4N^+I^- + AgOH \\rightarrow (C_2H_5)_4N^+OH^- + AgI$ \n    So, **A is Tetraethylammonium hydroxide**. \n2.  **Elimination (B):** When this hydroxide is heated, it undergoes elimination to form an alkene and a tertiary amine. \n    $(C_2H_5)_4N^+OH^- \\xrightarrow{\\Delta} CH_2=CH_2 + (C_2H_5)_3N + H_2O$ \n    So, **B is Ethene**. \n(Note: The products listed in the question, $(CH_3)_2N$, are inconsistent with an ethyl-based starting material).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the action of mixture of NaNO₂ and dil.HCl on: (a) Ethylamine (b) Aniline (c) Diethylamine (March 2017)",
+    "answer": "A mixture of $NaNO_2$ and dilute HCl produces nitrous acid ($HNO_2$). \n(a) **Ethylamine (Primary amine):** Reacts to form an unstable diazonium salt which decomposes to ethanol, liberating nitrogen gas. \n   $C_2H_5NH_2 + HNO_2 \\rightarrow C_2H_5OH + N_2 + H_2O$ \n\n(b) **Aniline (Aromatic primary amine):** Reacts at low temperature (0-5°C) to form a stable benzene diazonium chloride salt. \n   $C_6H_5NH_2 + HNO_2 + HCl \\xrightarrow{273K} C_6H_5N_2^+Cl^- + 2H_2O$ \n\n(c) **Diethylamine (Secondary amine):** Reacts to form N-nitrosodiethylamine, a yellow oily liquid. \n   $(C_2H_5)_2NH + HNO_2 \\rightarrow (C_2H_5)_2N-N=O + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is nitroethane converted into: (a) Ethyl amine (b) N-ethylhydroxyl amine (c) Acetic acid? (July 2017)",
+    "answer": "(a) **Ethyl amine:** Nitroethane is reduced to ethyl amine using a reducing agent like tin and concentrated HCl, or by catalytic hydrogenation ($H_2/Ni$). \n   $CH_3CH_2NO_2 + 6[H] \\xrightarrow{Sn/HCl} CH_3CH_2NH_2 + 2H_2O$ \n\n(b) **N-ethylhydroxylamine:** Nitroethane is partially reduced to N-ethylhydroxylamine using a milder reducing agent like zinc dust and ammonium chloride solution. \n   $CH_3CH_2NO_2 + 4[H] \\xrightarrow{Zn/NH_4Cl} CH_3CH_2NHOH + H_2O$ \n\n(c) **Acetic acid (Nef Reaction):** The sodium salt of nitroethane (a primary nitroalkane) is hydrolyzed with strong mineral acid (like $H_2SO_4$) to produce an aldehyde or ketone. In this case, it produces acetaldehyde, which would then need to be oxidized to acetic acid. \n   $CH_3CH_2NO_2 \\xrightarrow{NaOH} [CH_3CH=NO_2]^-Na^+ \\xrightarrow{H_2SO_4} CH_3CHO$. The question's direct conversion is not standard.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is ethanamine prepared from (a) Nitro-alkane (b) Oxime? Explain basic nature of amines. (March 2010; Oct. 2009; July 2017)",
+    "answer": "**Preparation of Ethanamine:** \n(a) **From Nitroalkane (Nitroethane):** By reduction using tin and concentrated HCl or by catalytic hydrogenation ($H_2/Pd$). \n   $CH_3CH_2NO_2 + 6[H] \\xrightarrow{Sn/HCl} CH_3CH_2NH_2 + 2H_2O$ \n(b) **From Oxime (Ethanal oxime):** By reduction using $LiAlH_4$ or sodium in ethanol. \n   $CH_3CH=NOH + 4[H] \\xrightarrow{LiAlH_4} CH_3CH_2NH_2 + H_2O$ \n\n**Basic Nature of Amines:** \nAmines are basic in nature due to the presence of a lone pair of electrons on the nitrogen atom. According to Lewis theory, a base is an electron pair donor. Amines can donate this lone pair to an electron-deficient species, such as a proton ($H^+$). When dissolved in water, they accept a proton from water to form an alkylammonium ion and a hydroxide ion, making the solution alkaline. \n$R-NH_2 + H_2O \\rightleftharpoons R-NH_3^+ + OH^-$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is the action of p-toluenesulphonyl chloride on ethylamine and diethylamine? (July 2017)",
+    "answer": "p-Toluenesulphonyl chloride (Hinsberg's reagent) is used to distinguish between primary, secondary, and tertiary amines. \n\n**On Ethylamine (Primary amine):** \nEthylamine reacts with Hinsberg's reagent to form N-ethylbenzenesulphonamide. The product has an acidic hydrogen atom attached to the nitrogen, so it is soluble in aqueous alkali (like KOH or NaOH) by forming a salt. \n$C_2H_5NH_2 + C_6H_4(CH_3)SO_2Cl \\rightarrow C_6H_4(CH_3)SO_2NHC_2H_5 + HCl$ \n\n**On Diethylamine (Secondary amine):** \nDiethylamine reacts with Hinsberg's reagent to form N,N-diethylbenzenesulphonamide. The product does not have any acidic hydrogen atom attached to the nitrogen, so it is insoluble in aqueous alkali. \n$(C_2H_5)_2NH + C_6H_4(CH_3)SO_2Cl \\rightarrow C_6H_4(CH_3)SO_2N(C_2H_5)_2 + HCl$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is the action of lithium aluminium hydride in the presence of ether on the following compounds? (a) Nitroethane (b) 2-Methyl-1-nitropropane. (July 2018)",
+    "answer": "Lithium aluminium hydride ($LiAlH_4$) in ether is a strong reducing agent. It reduces nitroalkanes to primary amines. \n(a) **On Nitroethane:** Nitroethane is reduced to ethanamine (ethyl amine). \n   $CH_3CH_2NO_2 \\xrightarrow{LiAlH_4, ether} CH_3CH_2NH_2$ \n\n(b) **On 2-Methyl-1-nitropropane:** 2-Methyl-1-nitropropane is reduced to 2-methyl-1-propanamine. \n   $(CH_3)_2CHCH_2NO_2 \\xrightarrow{LiAlH_4, ether} (CH_3)_2CHCH_2NH_2$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write resonance structures of aniline. What is the action of benzene diaozonium chloride on ethanol? (July 2018)",
+    "answer": "**Resonance Structures of Aniline:** \nThe lone pair of electrons on the nitrogen atom of the amino group is delocalized into the benzene ring through resonance. This increases the electron density at the ortho and para positions. There are five main contributing resonance structures. \n\n**Action of Benzene Diazonium Chloride on Ethanol:** \nBenzene diazonium chloride is reduced to benzene when it is warmed with ethanol. Ethanol itself is oxidized to ethanal. \n$C_6H_5N_2^+Cl^- + CH_3CH_2OH \\xrightarrow{Warm} C_6H_6 + CH_3CHO + N_2 + HCl$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the structure of Phenylmethanamine. (March 2019)",
+    "answer": "Phenylmethanamine is also known as benzylamine. Its structure consists of a benzyl group ($C_6H_5CH_2-$) attached to an amino group ($-NH_2$). \n**Structure:** $C_6H_5-CH_2-NH_2$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write a note on Hofmann elimination. (March 2019)",
+    "answer": "Hofmann elimination is a reaction that converts a quaternary ammonium hydroxide into a tertiary amine and an alkene by heating. The process involves: \n1.  **Exhaustive methylation:** A primary amine is treated with excess methyl iodide to form a quaternary ammonium iodide salt. \n2.  **Conversion to hydroxide:** The iodide salt is treated with moist silver oxide ($Ag_2O/H_2O$) to form the quaternary ammonium hydroxide. \n3.  **Elimination:** The hydroxide salt is heated strongly, causing it to undergo an elimination reaction. The hydroxide ion acts as a base, and the elimination proceeds to form the **least substituted (less stable) alkene** as the major product. This is known as the **Hofmann rule**.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are amines? (March 2019)",
+    "answer": "Amines are organic compounds that are considered derivatives of ammonia ($NH_3$), where one, two, or all three hydrogen atoms have been replaced by alkyl or aryl groups. They are classified as primary ($RNH_2$), secondary ($R_2NH$), or tertiary ($R_3N$) based on the number of hydrogen atoms replaced.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write the following conversion: Acetaldoxime into ethylamine. (July 2019)",
+    "answer": "Acetaldoxime can be converted into ethylamine (ethanamine) by reduction. A strong reducing agent is used for this conversion. \n\n**Reaction:** \nAcetaldoxime ($CH_3CH=NOH$) is treated with a reducing agent like sodium metal in absolute ethanol (Mendius reduction) or with lithium aluminium hydride ($LiAlH_4$) in ether, or by catalytic hydrogenation ($H_2/Ni$). \n\nUsing sodium and ethanol: \n$CH_3CH=NOH + 4[H] \\xrightarrow{Na/C_2H_5OH} CH_3CH_2NH_2 + H_2O$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Amines are basic in nature. Explain. (July 2019)",
+    "answer": "Amines are basic in nature due to the presence of a lone pair of electrons on the nitrogen atom. According to the Lewis theory of acids and bases, a base is a substance that can donate an electron pair. The nitrogen atom in an amine can donate its lone pair to an electron-deficient species, like a proton ($H^+$). In an aqueous solution, amines accept a proton from water, forming an alkylammonium ion and a hydroxide ion ($OH^-$), which makes the solution alkaline. \n$R-NH_2 + H_2O \\rightleftharpoons R-NH_3^+ + OH^-$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Convert benzene diazonium halide into aryl iodide. (July 2019)",
+    "answer": "Benzene diazonium halide (e.g., chloride) is converted into aryl iodide (iodobenzene) by warming the diazonium salt solution with an aqueous solution of potassium iodide (KI). \n\n**Reaction:** \n$C_6H_5N_2^+Cl^- + KI \\xrightarrow{Warm} C_6H_5I + N_2 + KCl$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the action of benzenesulphonyl chloride on ethanamine? (July 2019)",
+    "answer": "Benzenesulphonyl chloride ($C_6H_5SO_2Cl$), also known as Hinsberg's reagent, reacts with ethanamine (a primary amine). The reaction forms a sulphonamide, N-ethylbenzenesulphonamide, which is acidic due to the hydrogen attached to the nitrogen atom. This product is soluble in aqueous alkali (like NaOH or KOH). \n\n**Reaction:** \n$C_6H_5SO_2Cl + H_2NC_2H_5 \\rightarrow C_6H_5SO_2NHC_2H_5 + HCl$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define a quaternary ammonium salt. (March 2020)",
+    "answer": "A quaternary ammonium salt is a compound in which all four hydrogen atoms of an ammonium ion ($NH_4^+$) have been replaced by four alkyl or aryl groups. Its general formula is $R_4N^+X^-$, where R can be alkyl or aryl groups (which can be the same or different), and $X^-$ is an anion like a halide (Cl⁻, Br⁻, I⁻).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write the chemical reaction involved in the formation of ethyl amine using acetaldoxime. (March 2020)",
+    "answer": "Ethyl amine (ethanamine) is formed by the reduction of acetaldoxime. The C=N double bond of the oxime is reduced to a C-N single bond. This can be achieved using several reducing agents. \n\n**Using Sodium and Ethanol (Mendius Reduction):** \n$CH_3CH=NOH + 4[H] \\xrightarrow{Na/C_2H_5OH} CH_3CH_2NH_2 + H_2O$ \n\n**Using Catalytic Hydrogenation:** \n$CH_3CH=NOH + 2H_2 \\xrightarrow{Ni} CH_3CH_2NH_2 + H_2O$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reaction to prepare ethanamine from: (i) Acetonitrile (ii) Nitroethane (iii) Propanamide. (Sept. 2021)",
+    "answer": "(i) **From Acetonitrile (Ethanenitrile):** By reduction using $LiAlH_4$ or $H_2/Ni$. \n   $CH_3CN + 2H_2 \\xrightarrow{Ni} CH_3CH_2NH_2$ \n\n(ii) **From Nitroethane:** By reduction using Sn/HCl or $H_2/Ni$. \n   $CH_3CH_2NO_2 + 3H_2 \\xrightarrow{Ni} CH_3CH_2NH_2 + 2H_2O$ \n\n(iii) **From Propanamide (Hofmann Bromamide Degradation):** This is a step-down reaction. \n   $CH_3CH_2CONH_2 + Br_2 + 4NaOH \\rightarrow CH_3CH_2NH_2 + Na_2CO_3 + 2NaBr + 2H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How will you convert - (i) Methyl iodide to methyl isocyanide. (ii) Methyl cyanide to ethanoic acid. (Sept. 2021)",
+    "answer": "(i) **Methyl iodide to methyl isocyanide:** \n   Methyl iodide is treated with silver cyanide (AgCN). The attack occurs through the nitrogen atom due to the covalent nature of the Ag-C bond. \n   $CH_3I + AgCN \\rightarrow CH_3NC + AgI$ \n\n(ii) **Methyl cyanide (Acetonitrile) to ethanoic acid:** \n   Methyl cyanide is subjected to complete acid-catalyzed hydrolysis by boiling with a dilute mineral acid (like HCl or $H_2SO_4$). \n   $CH_3CN + 2H_2O + H^+ \\xrightarrow{\\Delta} CH_3COOH + NH_4^+$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reactions to prepare ethanamine from: (i) Acetonitrile (ii) Nitroethane. (March 2022)",
+    "answer": "(i) **From Acetonitrile ($CH_3CN$):** Ethanamine is prepared by the reduction of acetonitrile. A common method is catalytic hydrogenation. \n   $CH_3C\\equiv N + 2H_2 \\xrightarrow{Ni, Pt, or Pd} CH_3CH_2NH_2$ \n\n(ii) **From Nitroethane ($CH_3CH_2NO_2$):** Ethanamine is prepared by the reduction of nitroethane using a metal and acid catalyst (like Sn/HCl) or by catalytic hydrogenation. \n   $CH_3CH_2NO_2 + 6[H] \\xrightarrow{Sn/HCl} CH_3CH_2NH_2 + 2H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the formula of Hinsberg's reagent. (July 2022)",
+    "answer": "The formula for Hinsberg's reagent is $C_6H_5SO_2Cl$. Its chemical name is **benzenesulphonyl chloride**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reaction for carbylamine test. (July 2022)",
+    "answer": "The carbylamine test (or isocyanide test) is a test for primary amines (both aliphatic and aromatic). The amine is heated with chloroform ($CHCl_3$) and alcoholic potassium hydroxide (KOH). This produces an isocyanide (or carbylamine), which has a characteristic, extremely unpleasant foul smell. \n\n**General Reaction:** \n$R-NH_2 + CHCl_3 + 3KOH_{(alc)} \\xrightarrow{\\Delta} R-NC + 3KCl + 3H_2O$",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the following reaction and identify A and B. Isopropyl alcohol -> A -> B (July 2022)",
+    "answer": "The question is incomplete as reagents are missing. A plausible two-step conversion is: \n\n**Step 1:** Oxidation of Isopropyl alcohol (a secondary alcohol) to a ketone. \n$(CH_3)_2CHOH \\xrightarrow{PCC} (CH_3)_2C=O$ \nSo, **A is Acetone (Propanone)**. \n\n**Step 2:** Reaction of Acetone with excess HCN. \nThis step is unclear as written. Let's assume a different second step, for example, reduction back to an alkane. \n$(CH_3)_2C=O \\xrightarrow{Zn-Hg, conc. HCl} CH_3CH_2CH_3$ \nSo, **B is Propane**. \n\nThe reaction written in the image '$C_6H_5Cl \\xrightarrow{NH_3, excess} A \\xrightarrow{CH_3I, excess} B$' is a separate question. Let's solve that: \n-   $C_6H_5Cl + 2NH_3 \\xrightarrow{Cu_2O, \\Delta, P} C_6H_5NH_2 + NH_4Cl$. So, **A is Aniline**. \n-   Aniline undergoes exhaustive methylation with excess methyl iodide. \n    $C_6H_5NH_2 + 3CH_3I \\rightarrow [C_6H_5N(CH_3)_3]^+I^-$. So, **B is Phenyltrimethylammonium iodide**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the name of the product formed by the action of LiAlH₄/ether on acetamide. (March 2023)",
+    "answer": "Lithium aluminium hydride ($LiAlH_4$) is a strong reducing agent that reduces the carbonyl group of an amide to a methylene group ($-CH_2-$). When acetamide ($CH_3CONH_2$) is treated with $LiAlH_4$ followed by hydrolysis, it is reduced to a primary amine. \nThe name of the product is **ethanamine** (or ethylamine). \n$CH_3CONH_2 \\xrightarrow{(i) LiAlH_4/Ether (ii) H_2O} CH_3CH_2NH_2$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reactions for the following conversion: Acetic acid into acetic anhydride. (March 2023)",
+    "answer": "Acetic anhydride is formed by the dehydration of acetic acid. This is achieved by heating acetic acid with a strong dehydrating agent like phosphorus pentoxide ($P_2O_5$). \n\n**Reaction:** \n$2CH_3COOH \\xrightarrow{P_2O_5, \\Delta} (CH_3CO)_2O + H_2O$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write IUPAC name and structure of methyl amine. (March 2023)",
+    "answer": "-   **Structure:** $CH_3-NH_2$ \n-   **IUPAC Name:** Methanamine",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the action of the following reagents on ethyl amine. (i) Chloroform and caustic potash (ii) Nitrous acid. (March 2023)",
+    "answer": "(i) **Chloroform and caustic potash (Carbylamine Reaction):** When ethyl amine (a primary amine) is heated with chloroform and alcoholic caustic potash (KOH), it forms ethyl isocyanide, a foul-smelling compound. \n   $C_2H_5NH_2 + CHCl_3 + 3KOH_{(alc)} \\xrightarrow{\\Delta} C_2H_5NC + 3KCl + 3H_2O$ \n\n(ii) **Nitrous acid ($HNO_2$):** Ethyl amine reacts with nitrous acid (from $NaNO_2$ + dil. HCl) to form an unstable diazonium salt, which decomposes to produce ethanol and liberates nitrogen gas. \n   $C_2H_5NH_2 + HNO_2 \\rightarrow C_2H_5OH + N_2 + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write a note on Hofmann bromamide degradation. Convert benzene diazonium chloride into benzene. (July 2023)",
+    "answer": "**Hofmann Bromamide Degradation:** This is a method for preparing a primary amine with one carbon atom less than the parent amide. It involves treating an amide with bromine and an alkali like NaOH. The overall reaction is: \n$R-CONH_2 + Br_2 + 4NaOH \\rightarrow R-NH_2 + Na_2CO_3 + 2NaBr + 2H_2O$. \n\n**Conversion of Benzene Diazonium Chloride into Benzene:** \nThis can be achieved by reduction. Benzene diazonium chloride is treated with a mild reducing agent like hypophosphorous acid ($H_3PO_2$) in the presence of a cuprous ion catalyst. \n$C_6H_5N_2^+Cl^- + H_3PO_2 + H_2O \\xrightarrow{Cu^+} C_6H_6 + N_2 + H_3PO_3 + HCl$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the name of reduction product formed when ethyl cyanide is treated with sodium and alcohol. (March 2024)",
+    "answer": "The reduction of a cyanide (nitrile) with sodium and alcohol is known as the **Mendius reduction**. Ethyl cyanide (propanenitrile) is reduced to a primary amine. \n$CH_3CH_2CN + 4[H] \\xrightarrow{Na/C_2H_5OH} CH_3CH_2CH_2NH_2$ \nThe name of the reduction product is **Propan-1-amine**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Why amines are basic in nature? Among dimethylamine (pKᵦ = 3.27) and diethylamine (pKᵦ = 3.0), which one is more basic? (March 2024)",
+    "answer": "**Why amines are basic:** Amines are basic due to the presence of a lone pair of electrons on the nitrogen atom. According to Lewis theory, they can donate this electron pair, acting as a Lewis base. In aqueous solution, they act as Brønsted-Lowry bases by accepting a proton from water. \n\n**Comparison of Basicity:** \nBasicity is inversely related to the pKb value; a **smaller pKb value indicates a stronger base**. \n-   pKb of dimethylamine = 3.27 \n-   pKb of diethylamine = 3.0 \nSince diethylamine has a smaller pKb value (3.0 < 3.27), **diethylamine is more basic** than dimethylamine.",
+    "marks": 2
+  }
+]

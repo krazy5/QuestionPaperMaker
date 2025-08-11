@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Preview: {{ $paper->title }}</title>
     
-    {{-- MathJax Configuration --}}
+    {{-- MathJax Configuration and Library --}}
     <script>
     window.MathJax = {
       tex: {
@@ -12,167 +12,141 @@
       }
     };
     </script>
-    {{-- MathJax Library --}}
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    {{-- Add print-specific styles --}}
     <style>
-        /* --- General Page Styles --- */
-        body {
-            font-family: "Times New Roman", Times, serif; /* Professional serif font */
-            font-size: 16px;
-            line-height: 1.6;
-            background-color: #e9e9e9; /* Light grey background to highlight the paper */
-        }
-        .container {
-            max-width: 8.5in; /* Standard paper width */
-            min-height: 11in; /* Standard paper height */
-            margin: 30px auto;
-            padding: 50px 60px; /* Generous padding */
-            background-color: white;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            border: 1px solid #ccc;
-        }
-
-        /* --- Header Section --- */
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-            border-bottom: 2px solid black;
-            padding-bottom: 15px;
-        }
-        .header h1 {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 0;
-        }
-        .header h2 {
-            font-size: 20px;
-            font-weight: bold;
-            margin: 5px 0;
-        }
-        .header-details {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-            font-weight: bold;
-        }
-
-        /* --- Instructions --- */
-        .instructions {
-            margin-bottom: 30px;
-            font-style: italic;
-        }
-        .instructions p {
-            margin: 5px 0 0 0;
-        }
-
-        /* --- Question Formatting --- */
-        .question {
-            margin-bottom: 25px;
-        }
-        .question-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .question-text {
-            flex-grow: 1; /* Allows question text to take up available space */
-        }
-        .marks {
-            white-space: nowrap; /* Prevents marks from wrapping */
-            margin-left: 20px;
-        }
-        .options {
-            margin-left: 30px;
-            margin-top: 10px;
-        }
-        .options p {
-            margin: 8px 0;
-        }
-        hr {
-            border: none;
-            border-top: 1px solid #ddd;
-            margin-top: 25px;
-        }
-
-        /* --- Print-Specific Styles --- */
-        .print-button-container {
-            text-align: center;
-            padding: 20px;
-        }
         @media print {
+            body {
+                background-color: white !important;
+            }
             .no-print {
                 display: none !important;
             }
-            body {
-                background-color: white;
-            }
-            .container {
-                margin: 0;
-                padding: 0;
-                box-shadow: none;
-                border: none;
+            .printable-container {
+                margin: 0 !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+                border: none !important;
             }
         }
     </style>
 </head>
-<body>
-    <div class="print-button-container no-print">
-        <button onclick="window.print()" style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; border: 1px solid #ccc; background-color: #f0f0f0;">
+<body class="bg-gray-100 font-serif leading-normal">
+    <div class="text-center py-4 no-print">
+        <button onclick="window.print()" class="px-6 py-2 bg-gray-700 text-white rounded-md shadow-md hover:bg-gray-800">
             Print or Save as PDF
         </button>
     </div>
 
-    <div class="container">
-        {{-- Header Section --}}
-        <div class="header">
-            <h1>{{ $paper->institute->institute_name ?? 'Sample Institute' }}</h1>
-            <h2>{{ $paper->title }}</h2>
-            <div class="header-details">
+    <div class="max-w-4xl min-h-[11in] mx-auto my-8 p-12 bg-white shadow-lg border printable-container">
+        
+        {{-- Professional Header Section --}}
+        <div class="mb-4 border-b-2 border-black pb-4">
+            <div class="flex justify-between items-start">
+                <div class="w-1/5">
+                    {{-- Logo Placeholder --}}
+                </div>
+                <div class="w-3/5 text-center">
+                    <h1 class="text-lg font-bold">{{ $paper->institute->department ?? 'DEPARTMENT OF EXAMINATIONS' }}</h1>
+                    <h2 class="text-xl font-bold my-1">{{ $paper->institute->institute_name ?? 'Name of University' }}</h2>
+                    <h3 class="text-md font-semibold">{{ $paper->title }}</h3>
+                </div>
+                <div class="w-1/5 text-right">
+                    {{-- Placeholder for a paper code or serial number --}}
+                </div>
+            </div>
+            <div class="flex justify-between items-end text-sm font-bold mt-4">
                 <span>Time: {{ $paper->time_allowed }}</span>
-                <span>Subject: {{ $paper->subject->name }} ({{ $paper->academicClass->name }})</span>
-                <span>Marks: {{ $paper->total_marks }}</span>
+                <span class="text-center flex-grow">Subject: {{ $paper->subject->name }} ({{ $paper->academicClass->name }})</span>
+                <div class="text-right">
+                    @if($paper->exam_date)
+                        <div>Date: {{ \Carbon\Carbon::parse($paper->exam_date)->format('d/m/Y') }}</div>
+                    @endif
+                    <div>Maximum Marks: {{ $paper->total_marks }}</div>
+                </div>
             </div>
         </div>
 
-        {{-- Instructions Section --}}
         @if($paper->instructions)
-            <div class="instructions">
-                <strong>Instructions:</strong>
-                <p>{!! nl2br(e($paper->instructions)) !!}</p>
+            <div class="mb-8 italic">
+                <strong class="not-italic">Instructions:</strong>
+                <p class="m-0">{!! nl2br(e($paper->instructions)) !!}</p>
             </div>
         @endif
 
-        {{-- Questions Loop --}}
-        @foreach($paper->questions as $index => $question)
-            <div class="question">
-                <div class="question-header">
-                    <div class="question-text">Q.{{ $index + 1 }}) {!! $question->question_text !!}</div>
-                    <div class="marks">[{{ $question->pivot->marks }}]</div>
-                </div>
-                
-                @if($question->question_type === 'mcq')
-                    @php $optionsArray = json_decode($question->options, true); @endphp
-                    @if(is_array($optionsArray))
-                        <div class="options">
-                            @foreach($optionsArray as $optionIndex => $option)
-                                <p>({{ chr(65 + $optionIndex) }}) {!! $option !!}</p>
-                            @endforeach
+        @php $questionCounter = 1; @endphp
+
+        @if($blueprint)
+            @foreach($blueprint->sections as $section)
+                <div class="text-lg font-bold text-center mt-6 mb-4">{{ $section->name }}</div>
+                @if($section->instructions)
+                    <div class="mb-4 italic"><p><em>{{ $section->instructions }}</em></p></div>
+                @endif
+
+                @foreach($section->rules as $rule)
+                    @php
+                        $sectionQuestions = $paper->questions->filter(function ($question) use ($rule) {
+                            return $question->question_type == $rule->question_type && $question->pivot->marks == $rule->marks_per_question;
+                        });
+                    @endphp
+                    @foreach($sectionQuestions as $question)
+                        <div class="mb-4">
+                           
+                            <div class="flex justify-between items-start font-bold mb-1">
+                                <div class="flex-grow pr-4">Q.{{ $questionCounter++ }}) {!! $question->question_text !!}</div>
+                                <div class="flex-shrink-0">[{{ $question->pivot->marks }}]</div>
+                            </div>
+                             @if($question->question_image_path)
+                                <div class="mb-2">
+                                    <img src="{{ asset('storage/' . $question->question_image_path) }}" alt="Question Diagram" style="max-width: 100%; height: auto;">
+                                </div>
+                            @endif
+                            @if($question->question_type === 'mcq')
+                                @php $optionsArray = json_decode($question->options, true); @endphp
+                                @if(is_array($optionsArray))
+                                    <div class="ml-8 mt-1">
+                                        @foreach($optionsArray as $optionIndex => $option)
+                                            <p class="my-1">({{ chr(65 + $optionIndex) }}) {!! $option !!}</p>
+                                        @endforeach
+                                    </div>
+                                @endif
+                            @endif
+                        </div>
+                    @endforeach
+                @endforeach
+            @endforeach
+        @else
+            {{-- Fallback for papers created without a blueprint --}}
+            @foreach($paper->questions as $question)
+                <div class="mb-4">
+                    
+                    <div class="flex justify-between items-start font-bold mb-1">
+                        <div class="flex-grow pr-4">Q.{{ $questionCounter++ }}) {!! $question->question_text !!}</div>
+                        <div class="flex-shrink-0">[{{ $question->pivot->marks }}]</div>
+                    </div>
+                     @if($question->question_image_path)
+                        <div class="mb-2">
+                            <img src="{{ asset('storage/' . $question->question_image_path) }}" alt="Question Diagram" style="max-width: 100%; height: auto;">
                         </div>
                     @endif
-                @endif
-            </div>
-            @if(!$loop->last)
-                <hr>
-            @endif
-        @endforeach
+                    @if($question->question_type === 'mcq')
+                        @php $optionsArray = json_decode($question->options, true); @endphp
+                        @if(is_array($optionsArray))
+                            <div class="ml-8 mt-1">
+                                @foreach($optionsArray as $optionIndex => $option)
+                                    <p class="my-1">({{ chr(65 + $optionIndex) }}) {!! $option !!}</p>
+                                @endforeach
+                            </div>
+                        @endif
+                    @endif
+                </div>
+            @endforeach
+        @endif
 
-        <div style="text-align: center; font-weight: bold; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ccc;">
-            <p>****** All the Best ******</p>
-        </div>
-
+        <div class="text-center font-bold mt-10 pt-5 border-t"><p>****** All the Best ******</p></div>
     </div>
 </body>
 </html>

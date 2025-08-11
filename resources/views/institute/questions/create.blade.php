@@ -21,7 +21,8 @@
                         </div>
                     @endif
 
-                    <form action="{{ route('institute.questions.store') }}" method="POST">
+                    {{-- IMPORTANT: Added enctype for file uploads --}}
+                    <form action="{{ route('institute.questions.store') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         
                         <div class="space-y-6">
@@ -60,6 +61,14 @@
                                     <label for="question_text" class="block text-sm font-medium text-gray-700">Question Text</label>
                                     <textarea name="question_text" id="question_text" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm"></textarea>
                                 </div>
+
+                                {{-- NEW: Question Image Upload --}}
+                                <div class="mt-4">
+                                    <label for="question_image" class="block text-sm font-medium text-gray-700">Question Image (Optional)</label>
+                                    <input type="file" name="question_image" id="question_image" class="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+                                    <img id="question_image_preview" src="#" alt="Question Image Preview" class="mt-2 rounded-md max-h-48" style="display: none;"/>
+                                </div>
+
                                 <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
                                     <div>
                                         <label for="question_type" class="block text-sm font-medium text-gray-700">Question Type</label>
@@ -107,6 +116,13 @@
                                     <label for="solution_text" class="block text-sm font-medium text-gray-700">Detailed Solution (Optional)</label>
                                     <textarea name="solution_text" id="solution_text" rows="5" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm"></textarea>
                                 </div>
+
+                                {{-- NEW: Solution Image Upload --}}
+                                <div class="mt-4">
+                                    <label for="solution_image" class="block text-sm font-medium text-gray-700">Solution Image (Optional)</label>
+                                    <input type="file" name="solution_image" id="solution_image" class="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+                                    <img id="solution_image_preview" src="#" alt="Solution Image Preview" class="mt-2 rounded-md max-h-48" style="display: none;"/>
+                                </div>
                             </div>
                         </div>
 
@@ -122,47 +138,54 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const classSelect = document.getElementById('class_id');
-            const subjectSelect = document.getElementById('subject_id');
-            const chapterSelect = document.getElementById('chapter_id');
+           
+                // --- Dynamic Dropdown Logic ---
+                const classSelect = document.getElementById('class_id');
+                const subjectSelect = document.getElementById('subject_id');
+                const chapterSelect = document.getElementById('chapter_id');
 
-            classSelect.addEventListener('change', function () {
-                const classId = this.value;
-                subjectSelect.innerHTML = '<option value="">Loading...</option>';
-                chapterSelect.innerHTML = '<option value="">-- Select a Subject First --</option>';
-
-                if (classId) {
-                    fetch(`/api/subjects-by-class?class_id=${classId}`)
-                        .then(response => response.json())
-                        .then(data => {
-                            subjectSelect.innerHTML = '<option value="">-- Select a Subject --</option>';
-                            data.forEach(subject => {
-                                subjectSelect.innerHTML += `<option value="${subject.id}">${subject.name}</option>`;
-                            });
-                        });
-                } else {
-                    subjectSelect.innerHTML = '<option value="">-- Select a Class First --</option>';
-                }
-            });
-
-            subjectSelect.addEventListener('change', function () {
-                const subjectId = this.value;
-                chapterSelect.innerHTML = '<option value="">Loading...</option>';
-
-                if (subjectId) {
-                    fetch(`/api/chapters-by-subject?subject_id=${subjectId}`)
-                        .then(response => response.json())
-                        .then(data => {
-                            chapterSelect.innerHTML = '<option value="">-- Select a Chapter --</option>';
-                            data.forEach(chapter => {
-                                chapterSelect.innerHTML += `<option value="${chapter.id}">${chapter.name}</option>`;
-                            });
-                        });
-                } else {
+                classSelect.addEventListener('change', function () {
+                    const classId = this.value;
+                    subjectSelect.innerHTML = '<option value="">Loading...</option>';
                     chapterSelect.innerHTML = '<option value="">-- Select a Subject First --</option>';
-                }
-            });
+
+                    if (classId) {
+                        // ✅ CORRECTED URL PATTERN
+                        fetch(`/api/subjects-by-class?class_id=${classId}`)
+                            .then(response => response.json())
+                            .then(data => {
+                                subjectSelect.innerHTML = '<option value="">-- Select a Subject --</option>';
+                                data.forEach(subject => {
+                                    subjectSelect.innerHTML += `<option value="${subject.id}">${subject.name}</option>`;
+                                });
+                            })
+                            .catch(error => console.error('Error fetching subjects:', error));
+                    } else {
+                        subjectSelect.innerHTML = '<option value="">-- Select a Class First --</option>';
+                    }
+                });
+
+                subjectSelect.addEventListener('change', function () {
+                        const subjectId = this.value; // It correctly gets the subjectId here
+                        chapterSelect.innerHTML = '<option value="">Loading...</option>';
+
+                        if (subjectId) {
+                            // ✅ THIS IS THE CORRECTED LINE
+                            fetch(`/api/chapters-by-subject?subject_id=${subjectId}`)
+                                .then(response => response.json())
+                                .then(data => {
+                                    chapterSelect.innerHTML = '<option value="">-- Select a Chapter --</option>';
+                                    data.forEach(chapter => {
+                                        chapterSelect.innerHTML += `<option value="${chapter.id}">${chapter.name}</option>`;
+                                    });
+                                })
+                                .catch(error => console.error('Error fetching chapters:', error));
+                        } else {
+                            chapterSelect.innerHTML = '<option value="">-- Select a Subject First --</option>';
+                        }
+                    });
             
+            // --- MCQ Options Logic ---
             const questionTypeSelect = document.getElementById('question_type');
             const mcqOptionsContainer = document.getElementById('mcq_options_container');
             const addOptionBtn = document.getElementById('add-option-btn');
@@ -201,6 +224,34 @@
             questionTypeSelect.addEventListener('change', toggleMcqOptions);
             toggleMcqOptions();
             updateCorrectAnswerOptions();
+
+            // --- NEW: Image Preview Logic ---
+            const questionImageInput = document.getElementById('question_image');
+            const questionImagePreview = document.getElementById('question_image_preview');
+            const solutionImageInput = document.getElementById('solution_image');
+            const solutionImagePreview = document.getElementById('solution_image_preview');
+
+            questionImageInput.addEventListener('change', function(event) {
+                if (event.target.files && event.target.files[0]) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        questionImagePreview.src = e.target.result;
+                        questionImagePreview.style.display = 'block';
+                    }
+                    reader.readAsDataURL(event.target.files[0]);
+                }
+            });
+
+            solutionImageInput.addEventListener('change', function(event) {
+                if (event.target.files && event.target.files[0]) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        solutionImagePreview.src = e.target.result;
+                        solutionImagePreview.style.display = 'block';
+                    }
+                    reader.readAsDataURL(event.target.files[0]);
+                }
+            });
         });
     </script>
 </x-app-layout>

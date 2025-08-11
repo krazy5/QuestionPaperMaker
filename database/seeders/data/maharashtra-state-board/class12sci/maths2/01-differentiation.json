@@ -1,0 +1,392 @@
+[
+  {
+    "type": "short",
+    "text": "Differentiate $(x^{3}-2x-1)^{5}$ w.r.t. x.",
+    "answer": "Let $y=(x^{3}-2x-1)^{5}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx}=\\frac{d}{dx}(x^{3}-2x-1)^{5} = 5(x^{3}-2x-1)^{4} \\times \\frac{d}{dx}(x^{3}-2x-1) = 5(x^{3}-2x-1)^{4} \\times (3x^{2}-2) = 5(3x^{2}-2)(x^{3}-2x-1)^{4}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $(2x^{\\frac{3}{2}}-3x^{\\frac{4}{3}}-5)^{\\frac{5}{2}}$ w.r.t. x.",
+    "answer": "Let $y=(2x^{\\frac{3}{2}}-3x^{\\frac{4}{3}}-5)^{\\frac{5}{2}}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{5}{2}(2x^{\\frac{3}{2}}-3x^{\\frac{4}{3}}-5)^{\\frac{3}{2}} \\times (3x^{\\frac{1}{2}}-4x^{\\frac{1}{3}}) = \\frac{5}{2}(3\\sqrt{x}-4\\sqrt[3]{x})(2x^{\\frac{3}{2}}-3x^{\\frac{4}{3}}-5)^{\\frac{3}{2}}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\sqrt{x^{2}+4x-7}$ w.r.t. x.",
+    "answer": "Let $y=\\sqrt{x^{2}+4x-7} = (x^{2}+4x-7)^{1/2}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{2}(x^{2}+4x-7)^{-1/2} \\cdot (2x+4) = \\frac{x+2}{\\sqrt{x^{2}+4x-7}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $\\sqrt{x^{2}+\\sqrt{x^{2}+1}}$ w.r.t. x.",
+    "answer": "Let $y=\\sqrt{x^{2}+\\sqrt{x^{2}+1}}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{2\\sqrt{x^{2}+\\sqrt{x^{2}+1}}} \\cdot [2x+\\frac{x}{\\sqrt{x^{2}+1}}] = \\frac{x(2\\sqrt{x^{2}+1}+1)}{2\\sqrt{x^{2}+1}\\sqrt{x^{2}+\\sqrt{x^{2}+1}}}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\frac{3}{5\\sqrt[3]{(2x^{2}-7x-5)^{5}}}$ w.r.t. x.",
+    "answer": "Let $y = \\frac{3}{5}(2x^{2}-7x-5)^{-\\frac{5}{3}}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{3}{5} \\times (-\\frac{5}{3})(2x^{2}-7x-5)^{-\\frac{8}{3}} \\cdot (4x-7) = -\\frac{4x-7}{(2x^{2}-7x-5)^{\\frac{8}{3}}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $(\\sqrt{3x-5}-\\frac{1}{\\sqrt{3x-5}})^{5}$ w.r.t. x.",
+    "answer": "Let $y=(\\sqrt{3x-5}-\\frac{1}{\\sqrt{3x-5}})^{5}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = 5(\\sqrt{3x-5}-\\frac{1}{\\sqrt{3x-5}})^{4} \\cdot [\\frac{3}{2\\sqrt{3x-5}}+\\frac{3}{2(3x-5)^{\\frac{3}{2}}}] = \\frac{15(3x-4)}{2(3x-5)^{\\frac{3}{2}}}(\\sqrt{3x-5}-\\frac{1}{\\sqrt{3x-5}})^{4}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $cos(x^{2}+a^{2})$ w.r.t. x.",
+    "answer": "Let $y=cos(x^{2}+a^{2})$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = -sin(x^{2}+a^{2}) \\cdot (2x) = -2xsin(x^{2}+a^{2})$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\sqrt{e^{(3x+2)}+5}$ w.r.t. x.",
+    "answer": "Let $y=\\sqrt{e^{(3x+2)}+5}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{2\\sqrt{e^{(3x+2)}+5}} \\cdot e^{(3x+2)} \\cdot 3 = \\frac{3e^{(3x+2)}}{2\\sqrt{e^{(3x+2)}+5}}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $log[tan(\\frac{x}{2})]$ w.r.t. x.",
+    "answer": "Let $y=log[tan(\\frac{x}{2})]$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{tan(\\frac{x}{2})} \\cdot sec^{2}(\\frac{x}{2}) \\cdot \\frac{1}{2} = \\frac{1}{2sin(\\frac{x}{2})cos(\\frac{x}{2})} = \\frac{1}{sin(x)} = cosec(x)$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\sqrt{tan\\sqrt{x}}$ w.r.t. x.",
+    "answer": "Let $y=\\sqrt{tan\\sqrt{x}}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{2\\sqrt{tan\\sqrt{x}}} \\cdot sec^{2}\\sqrt{x} \\cdot \\frac{1}{2\\sqrt{x}} = \\frac{sec^{2}\\sqrt{x}}{4\\sqrt{x}\\sqrt{tan\\sqrt{x}}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $cot^{3}[log(x^{3})]$ w.r.t. x.",
+    "answer": "Let $y=cot^{3}[log(x^{3})]$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = 3cot^{2}[log(x^{3})] \\cdot [-cosec^{2}(log(x^{3}))] \\cdot \\frac{3}{x} = \\frac{-9cosec^{2}[log(x^{3})]cot^{2}[log(x^{3})]}{x}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $5^{sin^{3}x+3}$ w.r.t. x.",
+    "answer": "Let $y=5^{sin^{3}x+3}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = 5^{sin^{3}x+3} \\cdot log(5) \\cdot 3sin^{2}x \\cdot cos(x) = 3sin^{2}x cos(x) \\cdot 5^{sin^{3}x+3} \\cdot log(5)$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $cosec(\\sqrt{cos(x)})$ w.r.t. x.",
+    "answer": "Let $y=cosec(\\sqrt{cos(x)})$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = -cosec(\\sqrt{cos(x)})cot(\\sqrt{cos(x)}) \\cdot \\frac{1}{2\\sqrt{cos(x)}} \\cdot (-sin(x)) = \\frac{sin(x)cosec(\\sqrt{cos(x)})cot(\\sqrt{cos(x)})}{2\\sqrt{cos(x)}}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $log[cos(x^{3}-5)]$ w.r.t. x.",
+    "answer": "Let $y=log[cos(x^{3}-5)]$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{cos(x^{3}-5)} \\cdot [-sin(x^{3}-5)] \\cdot 3x^{2} = -3x^{2}tan(x^{3}-5)$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $e^{3sin^{2}x-2cos^{2}x}$ w.r.t. x.",
+    "answer": "Let $y=e^{3sin^{2}x-2cos^{2}x}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = e^{3sin^{2}x-2cos^{2}x} \\cdot (6sin(x)cos(x) + 4cos(x)sin(x)) = e^{3sin^{2}x-2cos^{2}x} \\cdot (10sin(x)cos(x)) = 5sin(2x)e^{3sin^{2}x-2cos^{2}x}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $cos^{2}[log(x^{2}+7)]$ w.r.t. x.",
+    "answer": "Let $y=cos^{2}[log(x^{2}+7)]$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = 2cos[log(x^{2}+7)] \\cdot [-sin(log(x^{2}+7))] \\cdot \\frac{1}{x^{2}+7} \\cdot 2x = -sin[2log(x^{2}+7)] \\cdot \\frac{2x}{x^{2}+7} = \\frac{-2x sin[2log(x^{2}+7)]}{x^{2}+7}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $tan[cos(sin(x))]$ w.r.t. x.",
+    "answer": "Let $y=tan[cos(sin(x))]$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = sec^{2}[cos(sin(x))] \\cdot [-sin(sin(x))] \\cdot cos(x) = -sec^{2}[cos(sin(x))]sin(sin(x))cos(x)$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $sec[tan(x^{4}+4)]$ w.r.t. x.",
+    "answer": "Let $y=sec[tan(x^{4}+4)]$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = sec[tan(x^{4}+4)]tan[tan(x^{4}+4)] \\cdot sec^{2}(x^{4}+4) \\cdot 4x^{3} = 4x^{3}sec^{2}(x^{4}+4)sec[tan(x^{4}+4)]tan[tan(x^{4}+4)]$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $e^{log[(log(x))^{2}-log(x^{2})]}$ w.r.t. x.",
+    "answer": "Let $y=e^{log[(log(x))^{2}-log(x^{2})]} = (log(x))^{2}-2log(x)$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = 2log(x) \\cdot \\frac{1}{x} - \\frac{2}{x} = \\frac{2log(x)-2}{x}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $sin\\sqrt{sin\\sqrt{x}}$ w.r.t. x.",
+    "answer": "Let $y=sin\\sqrt{sin\\sqrt{x}}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = cos\\sqrt{sin\\sqrt{x}} \\cdot \\frac{1}{2\\sqrt{sin\\sqrt{x}}} \\cdot cos\\sqrt{x} \\cdot \\frac{1}{2\\sqrt{x}} = \\frac{cos\\sqrt{sin\\sqrt{x}}cos\\sqrt{x}}{4\\sqrt{x}\\sqrt{sin\\sqrt{x}}}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $log[sec(e^{x^{2}})]$ w.r.t. x.",
+    "answer": "Let $y=log[sec(e^{x^{2}})]$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{sec(e^{x^{2}})} \\cdot sec(e^{x^{2}})tan(e^{x^{2}}) \\cdot e^{x^{2}} \\cdot 2x = 2xe^{x^{2}}tan(e^{x^{2}})$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $log_{e^{2}}(log(x))$ w.r.t. x.",
+    "answer": "Let $y=log_{e^{2}}(log(x)) = \\frac{log(log(x))}{log(e^{2})} = \\frac{log(log(x))}{2}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = \\frac{1}{2} \\cdot \\frac{1}{log(x)} \\cdot \\frac{1}{x} = \\frac{1}{2xlog(x)}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $[log[log(log(x))]]^{2}$ w.r.t. x.",
+    "answer": "Let $y=[log[log(log(x))]]^{2}$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = 2log[log(log(x))] \\cdot \\frac{1}{log(log(x))} \\cdot \\frac{1}{log(x)} \\cdot \\frac{1}{x} = \\frac{2log[log(log(x))]}{x log(x) log(log(x))}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $sin^{2}x^{2}-cos^{2}x^{2}$ w.r.t. x.",
+    "answer": "Let $y=sin^{2}x^{2}-cos^{2}x^{2} = -cos(2x^{2})$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = -[-sin(2x^{2})] \\cdot 4x = 4xsin(2x^{2})$.",
+    "marks": 2
+  },
+  
+  {
+    "type": "long",
+    "text": "Find the derivative of the function $y=\\sqrt{x}$ using the derivative of the inverse function $x=f^{-1}(y)$.",
+    "answer": "Given $y=\\sqrt{x}$. First, we find the inverse function by expressing x in terms of y: $x = y^2$. This is our inverse function, $x = f^{-1}(y)$. Now, we differentiate x with respect to y: $\\frac{dx}{dy} = \\frac{d}{dy}(y^2) = 2y$. Since we want the derivative in terms of x, we substitute back $y=\\sqrt{x}$, so $\\frac{dx}{dy} = 2\\sqrt{x}$. The derivative of y with respect to x is the reciprocal of the derivative of x with respect to y: $\\frac{dy}{dx} = \\frac{1}{(\\frac{dx}{dy})} = \\frac{1}{2\\sqrt{x}}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the derivative of the function $y=\\sqrt{2-\\sqrt{x}}$ using the derivative of the inverse function $x=f^{-1}(y)$.",
+    "answer": "Given $y=\\sqrt{2-\\sqrt{x}}$. We find the inverse function: $y^2 = 2-\\sqrt{x} \\implies \\sqrt{x} = 2-y^2 \\implies x = (2-y^2)^2$. Differentiating x w.r.t. y: $\\frac{dx}{dy} = \\frac{d}{dy}(2-y^2)^2 = 2(2-y^2) \\cdot (-2y) = -4y(2-y^2)$. Substitute back y: $\\frac{dx}{dy} = -4\\sqrt{2-\\sqrt{x}}(2-(2-\\sqrt{x})) = -4\\sqrt{2-\\sqrt{x}}(\\sqrt{x})$. Therefore, $\\frac{dy}{dx} = \\frac{1}{(\\frac{dx}{dy})} = -\\frac{1}{4\\sqrt{x}\\sqrt{2-\\sqrt{x}}}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the derivative of the function $y=\\sqrt[3]{x-2}$ using the derivative of the inverse function $x=f^{-1}(y)$.",
+    "answer": "Given $y=\\sqrt[3]{x-2}$. The inverse function is $x = y^3 + 2$. Differentiating x w.r.t. y: $\\frac{dx}{dy} = \\frac{d}{dy}(y^3+2) = 3y^2$. Substitute back y: $\\frac{dx}{dy} = 3(\\sqrt[3]{x-2})^2 = 3(x-2)^{\\frac{2}{3}}$. Therefore, $\\frac{dy}{dx} = \\frac{1}{(\\frac{dx}{dy})} = \\frac{1}{3(x-2)^{\\frac{2}{3}}}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the derivative of the function $y=log(2x-1)$ using the derivative of the inverse function $x=f^{-1}(y)$.",
+    "answer": "Given $y=log(2x-1)$. The inverse function is $e^y = 2x-1 \\implies x = \\frac{1}{2}(e^y+1)$. Differentiating x w.r.t. y: $\\frac{dx}{dy} = \\frac{1}{2}e^y$. Substitute back y: $\\frac{dx}{dy} = \\frac{1}{2}(2x-1)$. Therefore, $\\frac{dy}{dx} = \\frac{1}{(\\frac{dx}{dy})} = \\frac{2}{2x-1}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the derivative of the inverse function of $y=x^2 e^x$.",
+    "answer": "Given $y=x^2 e^x$. We first find $\\frac{dy}{dx}$. Using the product rule: $\\frac{dy}{dx} = x^2 \\frac{d}{dx}(e^x) + e^x \\frac{d}{dx}(x^2) = x^2e^x + e^x(2x) = xe^x(x+2)$. The derivative of the inverse function is $\\frac{dx}{dy}$, which is the reciprocal of $\\frac{dy}{dx}$. So, $\\frac{dx}{dy} = \\frac{1}{xe^x(x+2)}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find the derivative of the inverse function of $y=x \\cos(x)$.",
+    "answer": "Given $y=x \\cos(x)$. First, find $\\frac{dy}{dx}$ using the product rule: $\\frac{dy}{dx} = x \\frac{d}{dx}(\\cos x) + \\cos x \\frac{d}{dx}(x) = x(-\\sin x) + \\cos x(1) = \\cos x - x\\sin x$. The derivative of the inverse function is $\\frac{dx}{dy} = \\frac{1}{(\\frac{dy}{dx})} = \\frac{1}{\\cos x - x\\sin x}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find the derivative of the inverse of the function $y=x^5 + 2x^3 + 3x$ at $x=1$.",
+    "answer": "Given $y = f(x) = x^5 + 2x^3 + 3x$. First, we find the derivative of f(x): $f'(x) = \\frac{dy}{dx} = 5x^4 + 6x^2 + 3$. We need to find the value of this derivative at $x=1$: $(\\frac{dy}{dx})_{x=1} = 5(1)^4 + 6(1)^2 + 3 = 14$. The derivative of the inverse function at $x=1$ is the reciprocal of this value: $(\\frac{dx}{dy})_{x=1} = \\frac{1}{(\\frac{dy}{dx})_{x=1}} = \\frac{1}{14}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the derivative of the inverse of the function $y=e^x + 3x + 2$ at $x=0$.",
+    "answer": "Given $y = f(x) = e^x + 3x + 2$. First, find the derivative of f(x): $f'(x) = \\frac{dy}{dx} = e^x + 3$. Evaluate the derivative at $x=0$: $(\\frac{dy}{dx})_{x=0} = e^0 + 3 = 1+3=4$. The derivative of the inverse function at $x=0$ is the reciprocal of this value: $(\\frac{dx}{dy})_{x=0} = \\frac{1}{(\\frac{dy}{dx})_{x=0}} = \\frac{1}{4}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "If $f(x) = x^3 + x - 2$, find $(f^{-1})'(0)$.",
+    "answer": "Let $y = f(x) = x^3 + x - 2$. We need to find the value of x for which $f(x)=0$. By inspection, if $x=1$, $f(1) = 1^3 + 1 - 2 = 0$. So we need to find the derivative of the inverse at $y=0$, which corresponds to $x=1$. First, find $f'(x) = 3x^2 + 1$. Then, evaluate at $x=1$: $f'(1) = 3(1)^2 + 1 = 4$. The formula for the derivative of an inverse function is $(f^{-1})'(y) = \\frac{1}{f'(x)}$. Therefore, $(f^{-1})'(0) = \\frac{1}{f'(1)} = \\frac{1}{4}$. The source document appears to have an error in calculation.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Using derivatives, prove that $tan^{-1}(x) + cot^{-1}(x) = \\frac{\\pi}{2}$.",
+    "answer": "Let $f(x) = tan^{-1}(x) + cot^{-1}(x)$. Differentiating f(x) with respect to x: $f'(x) = \\frac{d}{dx}(tan^{-1}x) + \\frac{d}{dx}(cot^{-1}x) = \\frac{1}{1+x^2} - \\frac{1}{1+x^2} = 0$. Since the derivative is 0, f(x) must be a constant function, say $f(x)=k$. To find the value of k, we can substitute any value for x. Let $x=0$. $f(0) = tan^{-1}(0) + cot^{-1}(0) = 0 + \\frac{\\pi}{2} = \\frac{\\pi}{2}$. Therefore, $k = \\frac{\\pi}{2}$, and $tan^{-1}(x) + cot^{-1}(x) = \\frac{\\pi}{2}$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $tan^{-1}(log(x))$ w.r.t. x.",
+    "answer": "Let $y = tan^{-1}(log(x))$. Using the chain rule: $\\frac{dy}{dx} = \\frac{1}{1+(log(x))^2} \\cdot \\frac{d}{dx}(log(x)) = \\frac{1}{1+(log(x))^2} \\cdot \\frac{1}{x} = \\frac{1}{x[1+(log(x))^2]}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $cosec^{-1}(e^{-x})$ w.r.t. x.",
+    "answer": "Let $y=cosec^{-1}(e^{-x})$. Using the chain rule: $\\frac{dy}{dx} = \\frac{-1}{e^{-x}\\sqrt{(e^{-x})^2 - 1}} \\cdot \\frac{d}{dx}(e^{-x}) = \\frac{-1}{e^{-x}\\sqrt{e^{-2x}-1}} \\cdot (-e^{-x}) = \\frac{1}{\\sqrt{e^{-2x}-1}} = \\frac{1}{\\sqrt{\\frac{1-e^{2x}}{e^{2x}}}} = \\frac{e^x}{\\sqrt{1-e^{2x}}}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $cot^{-1}(x^3)$ w.r.t. x.",
+    "answer": "Let $y=cot^{-1}(x^3)$. Using the chain rule: $\\frac{dy}{dx} = \\frac{-1}{1+(x^3)^2} \\cdot \\frac{d}{dx}(x^3) = \\frac{-1}{1+x^6} \\cdot 3x^2 = \\frac{-3x^2}{1+x^6}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $sin^{-1}(\\sqrt{\\frac{1+x^2}{2}})$ w.r.t. x.",
+    "answer": "Let $y=sin^{-1}(\\sqrt{\\frac{1+x^2}{2}})$. Using the chain rule: $\\frac{dy}{dx} = \\frac{1}{\\sqrt{1-(\\sqrt{\\frac{1+x^2}{2}})^2}} \\cdot \\frac{1}{2\\sqrt{\\frac{1+x^2}{2}}} \\cdot \\frac{1}{2}(2x) = \\frac{1}{\\sqrt{1-\\frac{1+x^2}{2}}} \\cdot \\frac{\\sqrt{2}}{2\\sqrt{1+x^2}} \\cdot x = \\frac{1}{\\sqrt{\\frac{1-x^2}{2}}} \\cdot \\frac{x}{\\sqrt{2}\\sqrt{1+x^2}} = \\frac{\\sqrt{2}}{\\sqrt{1-x^2}} \\cdot \\frac{x}{\\sqrt{2}\\sqrt{1+x^2}} = \\frac{x}{\\sqrt{1-x^4}}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $cos^{-1}(1-x^2)$ w.r.t. x.",
+    "answer": "Let $y = cos^{-1}(1-x^2)$. Using the chain rule: $\\frac{dy}{dx} = \\frac{-1}{\\sqrt{1-(1-x^2)^2}} \\cdot (-2x) = \\frac{2x}{\\sqrt{1-(1-2x^2+x^4)}} = \\frac{2x}{\\sqrt{2x^2-x^4}} = \\frac{2x}{x\\sqrt{2-x^2}} = \\frac{2}{\\sqrt{2-x^2}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $cot^{-1}[cot(e^{x^2})]$ w.r.t. x.",
+    "answer": "Let $y = cot^{-1}[cot(e^{x^2})]$. Since $cot^{-1}(cot(\\theta)) = \\theta$, we can simplify the expression to $y = e^{x^2}$. Differentiating with respect to x: $\\frac{dy}{dx} = \\frac{d}{dx}(e^{x^2}) = e^{x^2} \\cdot \\frac{d}{dx}(x^2) = 2xe^{x^2}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $cos^{-1}(\\sqrt{\\frac{1+cos(x)}{2}})$ w.r.t. x.",
+    "answer": "Let $y = cos^{-1}(\\sqrt{\\frac{1+cos(x)}{2}})$. Using the half-angle identity $1+cos(x) = 2cos^2(\\frac{x}{2})$, we simplify: $y = cos^{-1}(\\sqrt{\\frac{2cos^2(\\frac{x}{2})}{2}}) = cos^{-1}(cos(\\frac{x}{2})) = \\frac{x}{2}$. Differentiating with respect to x: $\\frac{dy}{dx} = \\frac{d}{dx}(\\frac{x}{2}) = \\frac{1}{2}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $tan^{-1}(\\frac{1+cos(\\frac{x}{3})}{sin(\\frac{x}{3})})$ w.r.t. x.",
+    "answer": "Let $y = tan^{-1}(\\frac{1+cos(\\frac{x}{3})}{sin(\\frac{x}{3})})$. Using half-angle identities $1+cos(\\theta) = 2cos^2(\\frac{\\theta}{2})$ and $sin(\\theta) = 2sin(\\frac{\\theta}{2})cos(\\frac{\\theta}{2})$, we get: $y = tan^{-1}(\\frac{2cos^2(\\frac{x}{6})}{2sin(\\frac{x}{6})cos(\\frac{x}{6})}) = tan^{-1}(cot(\\frac{x}{6}))$. Since $cot(\\theta) = tan(\\frac{\\pi}{2}-\\theta)$, we have $y = tan^{-1}(tan(\\frac{\\pi}{2}-\\frac{x}{6})) = \\frac{\\pi}{2}-\\frac{x}{6}$. Differentiating w.r.t. x: $\\frac{dy}{dx} = -\\frac{1}{6}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $sin^{-1}(\\frac{4sin(x)+5cos(x)}{\\sqrt{41}})$ w.r.t. x.",
+    "answer": "Let $y = sin^{-1}(\\frac{4}{\\sqrt{41}}sin(x) + \\frac{5}{\\sqrt{41}}cos(x))$. We can set $cos(\\alpha) = \\frac{4}{\\sqrt{41}}$ and $sin(\\alpha) = \\frac{5}{\\sqrt{41}}$. The expression becomes $y = sin^{-1}(cos(\\alpha)sin(x) + sin(\\alpha)cos(x)) = sin^{-1}(sin(x+\\alpha))$. This simplifies to $y = x+\\alpha = x + tan^{-1}(\\frac{5}{4})$. Differentiating w.r.t. x: $\\frac{dy}{dx} = \\frac{d}{dx}(x + tan^{-1}(\\frac{5}{4})) = 1+0=1$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $cos^{-1}(\\frac{1-x^2}{1+x^2})$ w.r.t. x.",
+    "answer": "Let $y = cos^{-1}(\\frac{1-x^2}{1+x^2})$. Substitute $x=tan(\\theta)$, so $\\theta = tan^{-1}(x)$. The expression becomes $y = cos^{-1}(\\frac{1-tan^2\\theta}{1+tan^2\\theta}) = cos^{-1}(cos(2\\theta)) = 2\\theta$. Substitute back for $\\theta$: $y = 2tan^{-1}(x)$. Differentiating w.r.t. x: $\\frac{dy}{dx} = 2 \\cdot \\frac{1}{1+x^2} = \\frac{2}{1+x^2}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $sin^{-1}(2x\\sqrt{1-x^2})$ w.r.t. x.",
+    "answer": "Let $y = sin^{-1}(2x\\sqrt{1-x^2})$. Substitute $x=sin(\\theta)$, so $\\theta = sin^{-1}(x)$. The expression becomes $y = sin^{-1}(2sin(\\theta)\\sqrt{1-sin^2\\theta}) = sin^{-1}(2sin(\\theta)cos(\\theta)) = sin^{-1}(sin(2\\theta)) = 2\\theta$. Substitute back for $\\theta$: $y = 2sin^{-1}(x)$. Differentiating w.r.t. x: $\\frac{dy}{dx} = \\frac{2}{\\sqrt{1-x^2}}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $tan^{-1}(\\frac{8x}{1-15x^2})$ w.r.t. x.",
+    "answer": "Let $y = tan^{-1}(\\frac{8x}{1-15x^2})$. We can rewrite the argument as $\\frac{5x+3x}{1-(5x)(3x)}$. Using the formula $tan^{-1}(A)+tan^{-1}(B) = tan^{-1}(\\frac{A+B}{1-AB})$, we get $y = tan^{-1}(5x) + tan^{-1}(3x)$. Differentiating w.r.t. x: $\\frac{dy}{dx} = \\frac{1}{1+(5x)^2} \\cdot 5 + \\frac{1}{1+(3x)^2} \\cdot 3 = \\frac{5}{1+25x^2} + \\frac{3}{1+9x^2}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $cot^{-1}(\\frac{1+35x^2}{2x})$ w.r.t. x.",
+    "answer": "Let $y = cot^{-1}(\\frac{1+35x^2}{2x}) = tan^{-1}(\\frac{2x}{1+35x^2})$. We rewrite the argument as $\\frac{7x-5x}{1+(7x)(5x)}$. Using the formula $tan^{-1}(A)-tan^{-1}(B) = tan^{-1}(\\frac{A-B}{1+AB})$, we get $y = tan^{-1}(7x) - tan^{-1}(5x)$. Differentiating w.r.t. x: $\\frac{dy}{dx} = \\frac{1}{1+(7x)^2} \\cdot 7 - \\frac{1}{1+(5x)^2} \\cdot 5 = \\frac{7}{1+49x^2} - \\frac{5}{1+25x^2}$.",
+    "marks": 3
+  
+},
+
+  {
+    "type": "long",
+    "text": "Differentiate $\\frac{(x+1)^{2}}{(x+2)^{3}(x+3)^{4}}$ w.r.t. x.",
+    "answer": "Let $y = \\frac{(x+1)^{2}}{(x+2)^{3}(x+3)^{4}}$. Taking the natural logarithm of both sides gives: $log(y) = log[\\frac{(x+1)^{2}}{(x+2)^{3}(x+3)^{4}}]$. Using logarithm properties, this simplifies to: $log(y) = 2log(x+1) - 3log(x+2) - 4log(x+3)$. Differentiating both sides with respect to x, we get: $\\frac{1}{y}\\frac{dy}{dx} = \\frac{2}{x+1} - \\frac{3}{x+2} - \\frac{4}{x+3}$. Multiplying by y to solve for $\\frac{dy}{dx}$: $\\frac{dy}{dx} = y[\\frac{2}{x+1} - \\frac{3}{x+2} - \\frac{4}{x+3}] = \\frac{(x+1)^{2}}{(x+2)^{3}(x+3)^{4}}[\\frac{2}{x+1} - \\frac{3}{x+2} - \\frac{4}{x+3}]$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $\\sqrt[3]{\\frac{4x-1}{(2x+3)(5-2x)^{2}}}$ w.r.t. x.",
+    "answer": "Let $y = [\\frac{4x-1}{(2x+3)(5-2x)^{2}}]^{1/3}$. Taking the natural logarithm of both sides: $log(y) = \\frac{1}{3}[log(4x-1) - log(2x+3) - 2log(5-2x)]$. Differentiating both sides w.r.t. x: $\\frac{1}{y}\\frac{dy}{dx} = \\frac{1}{3}[\\frac{4}{4x-1} - \\frac{2}{2x+3} - \\frac{2(-2)}{5-2x}] = \\frac{1}{3}[\\frac{4}{4x-1} - \\frac{2}{2x+3} + \\frac{4}{5-2x}]$. Therefore, $\\frac{dy}{dx} = \\frac{y}{3}[\\frac{4}{4x-1} - \\frac{2}{2x+3} + \\frac{4}{5-2x}]$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $(x^{2}+3)^{\\frac{3}{2}} \\cdot sin^{3}(2x) \\cdot 2^{x^{2}}$ w.r.t. x.",
+    "answer": "Let $y = (x^{2}+3)^{\\frac{3}{2}} \\cdot sin^{3}(2x) \\cdot 2^{x^{2}}$. Taking the natural logarithm: $log(y) = \\frac{3}{2}log(x^2+3) + 3log(sin(2x)) + x^2log(2)$. Differentiating w.r.t. x: $\\frac{1}{y}\\frac{dy}{dx} = \\frac{3}{2} \\cdot \\frac{2x}{x^2+3} + 3 \\cdot \\frac{2cos(2x)}{sin(2x)} + 2xlog(2) = \\frac{3x}{x^2+3} + 6cot(2x) + 2xlog(2)$. Therefore, $\\frac{dy}{dx} = y[\\frac{3x}{x^2+3} + 6cot(2x) + 2xlog(2)]$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $x^{tan^{-1}(x)}$ w.r.t. x.",
+    "answer": "Let $y = x^{tan^{-1}(x)}$. Taking the natural logarithm: $log(y) = tan^{-1}(x) \\cdot log(x)$. Differentiating w.r.t. x using the product rule: $\\frac{1}{y}\\frac{dy}{dx} = tan^{-1}(x) \\cdot \\frac{1}{x} + log(x) \\cdot \\frac{1}{1+x^2}$. Therefore, $\\frac{dy}{dx} = x^{tan^{-1}(x)}[\\frac{tan^{-1}(x)}{x} + \\frac{log(x)}{1+x^2}]$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $(sin(x))^{x}$ w.r.t. x.",
+    "answer": "Let $y = (sin(x))^{x}$. Taking the natural logarithm: $log(y) = x \\cdot log(sin(x))$. Differentiating w.r.t. x using the product rule: $\\frac{1}{y}\\frac{dy}{dx} = x \\cdot \\frac{cos(x)}{sin(x)} + log(sin(x)) \\cdot 1 = xcot(x) + log(sin(x))$. Therefore, $\\frac{dy}{dx} = (sin(x))^{x}[xcot(x) + log(sin(x))]$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $sin(x^x)$ w.r.t. x.",
+    "answer": "Let $y=sin(x^x)$. Differentiating using the chain rule: $\\frac{dy}{dx} = cos(x^x) \\cdot \\frac{d}{dx}(x^x)$. To find the derivative of $u=x^x$, we use logarithmic differentiation: $log(u)=xlog(x) \\implies \\frac{1}{u}\\frac{du}{dx} = x(\\frac{1}{x}) + log(x)(1) = 1+log(x) \\implies \\frac{du}{dx} = x^x(1+log(x))$. Substituting this back, we get $\\frac{dy}{dx} = cos(x^x) \\cdot x^x(1+log(x))$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $x^e + x^x + e^x + e^e$ w.r.t. x.",
+    "answer": "Let $y=x^e + x^x + e^x + e^e$. We differentiate term by term. The derivative of $x^e$ is $ex^{e-1}$. The derivative of $e^x$ is $e^x$. The derivative of the constant $e^e$ is 0. For the term $u=x^x$, we use logarithmic differentiation to find $\\frac{du}{dx} = x^x(1+log(x))$. Combining these results, $\\frac{dy}{dx} = ex^{e-1} + x^x(1+log(x)) + e^x$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $(log(x))^x - (cos(x))^{cot(x)}$ w.r.t. x.",
+    "answer": "Let $u = (log(x))^x$ and $v = (cos(x))^{cot(x)}$. Then $y=u-v$ and $\\frac{dy}{dx} = \\frac{du}{dx} - \\frac{dv}{dx}$.<br>For u: $log(u) = x log(log(x)) \\implies \\frac{1}{u}\\frac{du}{dx} = x\\frac{1}{x log(x)} + log(log(x)) \\implies \\frac{du}{dx} = (log(x))^x[\\frac{1}{log(x)} + log(log(x))]$.<br>For v: $log(v) = cot(x) log(cos(x)) \\implies \\frac{1}{v}\\frac{dv}{dx} = cot(x)\\frac{-sin(x)}{cos(x)} + log(cos(x))(-cosec^2(x)) = -1 - cosec^2(x)log(cos(x)) \\implies \\frac{dv}{dx} = -(cos(x))^{cot(x)}[1+cosec^2(x)log(cos(x))]$.<br>Thus, $\\frac{dy}{dx} = (log(x))^x[\\frac{1}{log(x)} + log(log(x))] + (cos(x))^{cot(x)}[1+cosec^2(x)log(cos(x))]$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $\\sqrt{x}+\\sqrt{y}=\\sqrt{a}$.",
+    "answer": "Given $\\sqrt{x}+\\sqrt{y}=\\sqrt{a}$. Differentiating both sides with respect to x: $\\frac{1}{2\\sqrt{x}} + \\frac{1}{2\\sqrt{y}}\\frac{dy}{dx} = 0$. Rearranging the terms to solve for $\\frac{dy}{dx}$: $\\frac{1}{2\\sqrt{y}}\\frac{dy}{dx} = -\\frac{1}{2\\sqrt{x}}$. Therefore, $\\frac{dy}{dx} = -\\frac{\\sqrt{y}}{\\sqrt{x}} = -\\sqrt{\\frac{y}{x}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $x^3+x^2y+xy^2+y^3=81$.",
+    "answer": "Given $x^3+x^2y+xy^2+y^3=81$. Differentiating term by term with respect to x: $3x^2 + (x^2\\frac{dy}{dx} + y(2x)) + (x(2y\\frac{dy}{dx}) + y^2(1)) + 3y^2\\frac{dy}{dx} = 0$. Grouping the $\\frac{dy}{dx}$ terms: $\\frac{dy}{dx}(x^2+2xy+3y^2) = -3x^2-2xy-y^2$. Therefore, $\\frac{dy}{dx} = -\\frac{3x^2+2xy+y^2}{x^2+2xy+3y^2}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $x^2y^2 - tan^{-1}\\sqrt{x^2+y^2} = cot^{-1}\\sqrt{x^2+y^2}$.",
+    "answer": "Given $x^2y^2 - tan^{-1}\\sqrt{x^2+y^2} = cot^{-1}\\sqrt{x^2+y^2}$. We can rearrange the equation using the identity $tan^{-1}(\\theta)+cot^{-1}(\\theta)=\\frac{\\pi}{2}$: $x^2y^2 = tan^{-1}\\sqrt{x^2+y^2} + cot^{-1}\\sqrt{x^2+y^2} = \\frac{\\pi}{2}$. Now, differentiate $x^2y^2 = \\frac{\\pi}{2}$ with respect to x using the product rule: $x^2(2y\\frac{dy}{dx}) + y^2(2x) = 0$. This simplifies to $2x^2y\\frac{dy}{dx} = -2xy^2$. Therefore, $\\frac{dy}{dx} = -\\frac{2xy^2}{2x^2y} = -\\frac{y}{x}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $e^{x+y}=cos(x-y)$.",
+    "answer": "Given $e^{x+y}=cos(x-y)$. Differentiating both sides with respect to x: $e^{x+y}(1+\\frac{dy}{dx}) = -sin(x-y)(1-\\frac{dy}{dx})$. Expanding the terms: $e^{x+y} + e^{x+y}\\frac{dy}{dx} = -sin(x-y) + sin(x-y)\\frac{dy}{dx}$. Grouping the $\\frac{dy}{dx}$ terms: $\\frac{dy}{dx}(e^{x+y}-sin(x-y)) = -sin(x-y)-e^{x+y}$. Therefore, $\\frac{dy}{dx} = -\\frac{sin(x-y)+e^{x+y}}{e^{x+y}-sin(x-y)} = \\frac{sin(x-y)+e^{x+y}}{sin(x-y)-e^{x+y}}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Show that $\\frac{dy}{dx}=\\frac{y}{x}$ if $x^7y^5 = (x+y)^{12}$.",
+    "answer": "Given $x^7y^5 = (x+y)^{12}$. Taking the natural logarithm of both sides: $7log(x) + 5log(y) = 12log(x+y)$. Differentiating with respect to x: $\\frac{7}{x} + \\frac{5}{y}\\frac{dy}{dx} = \\frac{12}{x+y}(1+\\frac{dy}{dx})$. Grouping the $\\frac{dy}{dx}$ terms: $\\frac{dy}{dx}(\\frac{5}{y} - \\frac{12}{x+y}) = \\frac{12}{x+y} - \\frac{7}{x}$. Finding a common denominator for each side: $\\frac{dy}{dx}(\\frac{5(x+y)-12y}{y(x+y)}) = \\frac{12x-7(x+y)}{x(x+y)}$. This simplifies to $\\frac{dy}{dx}(\\frac{5x-7y}{y(x+y)}) = \\frac{5x-7y}{x(x+y)}$. Canceling the common term $(5x-7y)$ and $(x+y)$, we get $\\frac{1}{y}\\frac{dy}{dx} = \\frac{1}{x}$, which means $\\frac{dy}{dx} = \\frac{y}{x}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If $log(x+y) = log(xy)+p$, where p is a constant, then prove that $\\frac{dy}{dx}=-\\frac{y^2}{x^2}$.",
+    "answer": "Given $log(x+y) = log(x)+log(y)+p$. Differentiating w.r.t. x: $\\frac{1}{x+y}(1+\\frac{dy}{dx}) = \\frac{1}{x} + \\frac{1}{y}\\frac{dy}{dx}$. Expanding and rearranging: $\\frac{1}{x+y} + \\frac{1}{x+y}\\frac{dy}{dx} = \\frac{1}{x} + \\frac{1}{y}\\frac{dy}{dx}$. Grouping $\\frac{dy}{dx}$ terms: $\\frac{dy}{dx}(\\frac{1}{x+y} - \\frac{1}{y}) = \\frac{1}{x} - \\frac{1}{x+y}$. Finding common denominators: $\\frac{dy}{dx}(\\frac{y-(x+y)}{y(x+y)}) = \\frac{x-(x+y)}{x(x+y)}$. This simplifies to $\\frac{dy}{dx}(\\frac{-x}{y(x+y)}) = \\frac{-y}{x(x+y)}$. Therefore, $\\frac{dy}{dx} = \\frac{-y}{x(x+y)} \\cdot \\frac{y(x+y)}{-x} = \\frac{y^2}{x^2}$. The source document has a sign error in the final step.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If $log_{10}(\\frac{x^3-y^3}{x^3+y^3})=2$, show that $\\frac{dy}{dx}=-\\frac{99x^2}{101y^2}$.",
+    "answer": "Given $log_{10}(\\frac{x^3-y^3}{x^3+y^3})=2$. This implies $\\frac{x^3-y^3}{x^3+y^3} = 10^2 = 100$. Rearranging the equation: $x^3-y^3 = 100(x^3+y^3) = 100x^3+100y^3$. This gives $-99x^3 = 101y^3$. Differentiating this implicit equation with respect to x: $-99(3x^2) = 101(3y^2\\frac{dy}{dx})$. Solving for $\\frac{dy}{dx}$: $\\frac{dy}{dx} = -\\frac{99 \\cdot 3x^2}{101 \\cdot 3y^2} = -\\frac{99x^2}{101y^2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If $x^y = e^{x-y}$, then show that $\\frac{dy}{dx}=\\frac{log(x)}{(1+log(x))^2}$.",
+    "answer": "Given $x^y = e^{x-y}$. Taking the natural logarithm of both sides: $ylog(x) = (x-y)log(e) = x-y$. Rearranging to solve for y: $y log(x) + y = x \\implies y(1+log(x)) = x \\implies y = \\frac{x}{1+log(x)}$. Now, differentiate using the quotient rule: $\\frac{dy}{dx} = \\frac{(1+log(x))(1) - x(\\frac{1}{x})}{(1+log(x))^2} = \\frac{1+log(x)-1}{(1+log(x))^2} = \\frac{log(x)}{(1+log(x))^2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If $y=\\sqrt{log(x)+\\sqrt{log(x)+\\sqrt{log(x)+...}}}$, then show that $\\frac{dy}{dx}=\\frac{1}{x(2y-1)}$.",
+    "answer": "The given equation can be written recursively as $y = \\sqrt{log(x)+y}$. Squaring both sides gives $y^2 = log(x)+y$. Differentiating this implicit equation with respect to x: $2y\\frac{dy}{dx} = \\frac{1}{x} + \\frac{dy}{dx}$. Grouping the $\\frac{dy}{dx}$ terms: $2y\\frac{dy}{dx} - \\frac{dy}{dx} = \\frac{1}{x} \\implies \\frac{dy}{dx}(2y-1) = \\frac{1}{x}$. Therefore, $\\frac{dy}{dx} = \\frac{1}{x(2y-1)}$.",
+    "marks": 4
+  }
+
+
+
+]

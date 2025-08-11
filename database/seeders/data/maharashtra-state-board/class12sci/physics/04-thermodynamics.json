@@ -1,0 +1,96 @@
+[
+  {
+    "type": "mcq",
+    "text": "The first law of thermodynamics is concerned with the conservation of _______. (Board 2022)",
+    "options": ["momentum", "energy", "temperature", "mass"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In an isothermal process, which of the following remains constant? (Board 2020)",
+    "options": ["Pressure", "Volume", "Temperature", "Internal Energy"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For an adiabatic process, the relation between pressure and volume is given by... (Board 2018)",
+    "options": ["$PV = \\text{constant}$", "$PV^\\gamma = \\text{constant}$", "$P^\\gamma V = \\text{constant}$", "$P/V = \\text{constant}$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A Carnot engine operates between two reservoirs at temperatures $T_1$ and $T_2$. Its efficiency is... (Board 2016)",
+    "options": ["$1 - T_2/T_1$", "$1 - T_1/T_2$", "$T_1/T_2$", "$T_2/T_1$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is an isothermal process? (Board 2020)",
+    "answer": "An isothermal process is a thermodynamic process in which the temperature of the system remains constant.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is an adiabatic process? (Board 2017)",
+    "answer": "An adiabatic process is a thermodynamic process in which there is no heat transfer into or out of the system ($Q=0$).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State the zeroth law of thermodynamics. (Board 2024)",
+    "answer": "The zeroth law of thermodynamics states that if two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 'thermal equilibrium'? (Board 2022)",
+    "answer": "Thermal equilibrium is a state in which there is no net flow of thermal energy between two systems when they are connected by a path permeable to heat.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define internal energy of a system. (Board 2019)",
+    "answer": "The internal energy of a system is the sum of the kinetic energies and potential energies of the molecules of the system.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a reversible process? (Textbook Exercise)",
+    "answer": "A reversible process is a process that can be reversed in such a way that both the system and the surroundings return to their original states, with no other change anywhere else in the universe.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a heat engine? (Board 2018)",
+    "answer": "A heat engine is a device that converts thermal energy (heat) into mechanical work.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a p-V diagram showing an isothermal and an adiabatic process. Which curve is steeper? (Board 2023)",
+    "answer": "The diagram shows two curves starting from the same point. The adiabatic curve is always steeper than the isothermal curve because the slope of the adiabatic curve is $\\gamma$ times the slope of the isothermal curve.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A gas of 0.5 mole at 300 K expands isothermally from an initial volume of 2.0 litre to a final volume of 6.0 litre. What is the work done by the gas? ($R = 8.31$ J/mol K) (Board 2024)",
+    "answer": "For an isothermal process, work done $W = nRT \\ln(V_f/V_i)$. Substituting the values: $W = 0.5 \\times 8.31 \\times 300 \\times \\ln(6/2) = 1246.5 \\times \\ln(3) \\approx 1246.5 \\times 1.0986 \\approx 1369.5$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the working of a refrigerator and obtain an expression for its coefficient of performance. (Board 2017)",
+    "answer": "A refrigerator is a heat pump that works in reverse. It extracts heat ($Q_C$) from a cold reservoir (inside of the fridge) and transfers it to a hot reservoir (the surroundings) with the help of external work (W). The coefficient of performance is given by $K = \\frac{Q_C}{W} = \\frac{T_C}{T_H - T_C}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Derive the relation between the two molar specific heats of a gas ($C_p - C_v = R$). (Board 2015)",
+    "answer": "This is Mayer's relation. The proof involves considering one mole of an ideal gas heated at constant volume and then at constant pressure, applying the first law of thermodynamics to both cases, and equating the change in internal energy which depends only on temperature.",
+    "marks": 4
+  }
+]

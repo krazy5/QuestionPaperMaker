@@ -80,6 +80,8 @@ Route::middleware(['auth', 'role:institute'])->prefix('institute')->name('instit
      // ADD THIS LINE FOR MANAGING QUESTIONS
     Route::resource('questions', \App\Http\Controllers\Institute\QuestionController::class);
 
+    Route::get('/get-subjects-for-class/{classId}', [PaperController::class, 'getSubjectsForClass'])->name('subjects.for.class');
+
 
     // PROTECT THESE ROUTES
     Route::get('/papers/create', [PaperController::class, 'create'])->name('papers.create')->middleware('subscribed');

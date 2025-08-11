@@ -10,7 +10,18 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 md:p-8 text-gray-900">
 
-                    <form action="{{ route('institute.questions.update', $question) }}" method="POST">
+                    @if ($errors->any())
+                        <div class="mb-4 p-4 bg-red-100 text-red-700 rounded">
+                            <strong>Whoops! Something went wrong.</strong>
+                            <ul class="mt-2 list-disc list-inside">
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+
+                    <form action="{{ route('institute.questions.update', $question) }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
                         
@@ -34,13 +45,17 @@
                                     <div>
                                         <label for="subject_id" class="block text-sm font-medium text-gray-700">Subject</label>
                                         <select name="subject_id" id="subject_id" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
-                                            @foreach($subjects as $subject)<option value="{{ $subject->id }}" @selected($question->subject_id == $subject->id)>{{ $subject->name }} ({{ $subject->academicClass->name }})</option>@endforeach
+                                            @foreach($subjects as $subject)
+                                                <option value="{{ $subject->id }}" @selected($question->subject_id == $subject->id)>{{ $subject->name }}</option>
+                                            @endforeach
                                         </select>
                                     </div>
                                     <div>
                                         <label for="chapter_id" class="block text-sm font-medium text-gray-700">Chapter</label>
                                         <select name="chapter_id" id="chapter_id" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
-                                            @foreach($chapters as $chapter)<option value="{{ $chapter->id }}" @selected($question->chapter_id == $chapter->id)>{{ $chapter->name }} ({{ $chapter->subject->name }})</option>@endforeach
+                                            @foreach($chapters as $chapter)
+                                                <option value="{{ $chapter->id }}" @selected($question->chapter_id == $chapter->id)>{{ $chapter->name }}</option>
+                                            @endforeach
                                         </select>
                                     </div>
                                 </div>
@@ -53,6 +68,20 @@
                                     <label for="question_text" class="block text-sm font-medium text-gray-700">Question Text</label>
                                     <textarea name="question_text" id="question_text" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">{{ $question->question_text }}</textarea>
                                 </div>
+
+                                <div class="mt-4">
+                                    <label for="question_image" class="block text-sm font-medium text-gray-700">Update Question Image (Optional)</label>
+                                    <input type="file" name="question_image" id="question_image" class="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+                                    <div class="mt-2">
+                                        @if($question->question_image_path)
+                                            <p class="text-xs text-gray-500 mb-1">Current Image:</p>
+                                            <img id="question_image_preview" src="{{ asset('storage/' . $question->question_image_path) }}" alt="Current Question Image" class="rounded-md max-h-48 border p-1"/>
+                                        @else
+                                            <img id="question_image_preview" src="#" alt="Question Image Preview" class="rounded-md max-h-48 border p-1" style="display: none;"/>
+                                        @endif
+                                    </div>
+                                </div>
+
                                 <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
                                     <div>
                                         <label for="question_type" class="block text-sm font-medium text-gray-700">Question Type</label>
@@ -108,6 +137,19 @@
                                     <label for="solution_text" class="block text-sm font-medium text-gray-700">Detailed Solution (Optional)</label>
                                     <textarea name="solution_text" id="solution_text" rows="5" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">{{ $question->solution_text }}</textarea>
                                 </div>
+
+                                <div class="mt-4">
+                                    <label for="solution_image" class="block text-sm font-medium text-gray-700">Update Solution Image (Optional)</label>
+                                    <input type="file" name="solution_image" id="solution_image" class="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+                                    <div class="mt-2">
+                                        @if($question->answer_image_path)
+                                            <p class="text-xs text-gray-500 mb-1">Current Image:</p>
+                                            <img id="solution_image_preview" src="{{ asset('storage/' . $question->answer_image_path) }}" alt="Current Solution Image" class="rounded-md max-h-48 border p-1"/>
+                                        @else
+                                            <img id="solution_image_preview" src="#" alt="Solution Image Preview" class="rounded-md max-h-48 border p-1" style="display: none;"/>
+                                        @endif
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -122,8 +164,52 @@
     </div>
 
     <script>
-        // This JavaScript is for the dynamic MCQ fields
         document.addEventListener('DOMContentLoaded', function () {
+            // --- Dynamic Dropdown Logic ---
+            const classSelect = document.getElementById('class_id');
+            const subjectSelect = document.getElementById('subject_id');
+            const chapterSelect = document.getElementById('chapter_id');
+
+            classSelect.addEventListener('change', function () {
+                const classId = this.value;
+                subjectSelect.innerHTML = '<option value="">Loading...</option>';
+                chapterSelect.innerHTML = '<option value="">-- Select a Subject First --</option>';
+
+                if (classId) {
+                    fetch(`/api/subjects-by-class?class_id=${classId}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            subjectSelect.innerHTML = '<option value="">-- Select a Subject --</option>';
+                            data.forEach(subject => {
+                                subjectSelect.innerHTML += `<option value="${subject.id}">${subject.name}</option>`;
+                            });
+                        })
+                        .catch(error => console.error('Error fetching subjects:', error));
+                } else {
+                    subjectSelect.innerHTML = '<option value="">-- Select a Class First --</option>';
+                }
+            });
+
+            subjectSelect.addEventListener('change', function () {
+                const subjectId = this.value;
+                chapterSelect.innerHTML = '<option value="">Loading...</option>';
+
+                if (subjectId) {
+                    fetch(`/api/chapters-by-subject?subject_id=${subjectId}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            chapterSelect.innerHTML = '<option value="">-- Select a Chapter --</option>';
+                            data.forEach(chapter => {
+                                chapterSelect.innerHTML += `<option value="${chapter.id}">${chapter.name}</option>`;
+                            });
+                        })
+                        .catch(error => console.error('Error fetching chapters:', error));
+                } else {
+                    chapterSelect.innerHTML = '<option value="">-- Select a Subject First --</option>';
+                }
+            });
+
+            // --- MCQ Options Logic ---
             const questionTypeSelect = document.getElementById('question_type');
             const mcqOptionsContainer = document.getElementById('mcq_options_container');
             const addOptionBtn = document.getElementById('add-option-btn');
@@ -142,7 +228,7 @@
                 }
             }
             function updateCorrectAnswerOptions() {
-                const optionInputs = optionsWrapper.querySelectorAll('input');
+                const optionInputs = optionsWrapper.querySelectorAll('input[name="options[]"]');
                 correctAnswerSelect.innerHTML = '';
                 optionInputs.forEach((input, index) => {
                     const letter = String.fromCharCode(65 + index);
@@ -166,6 +252,34 @@
             questionTypeSelect.addEventListener('change', toggleMcqOptions);
             toggleMcqOptions();
             updateCorrectAnswerOptions();
+
+            // --- Image Preview Logic ---
+            const questionImageInput = document.getElementById('question_image');
+            const questionImagePreview = document.getElementById('question_image_preview');
+            const solutionImageInput = document.getElementById('solution_image');
+            const solutionImagePreview = document.getElementById('solution_image_preview');
+
+            questionImageInput.addEventListener('change', function(event) {
+                if (event.target.files && event.target.files[0]) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        questionImagePreview.src = e.target.result;
+                        questionImagePreview.style.display = 'block';
+                    }
+                    reader.readAsDataURL(event.target.files[0]);
+                }
+            });
+
+            solutionImageInput.addEventListener('change', function(event) {
+                if (event.target.files && event.target.files[0]) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        solutionImagePreview.src = e.target.result;
+                        solutionImagePreview.style.display = 'block';
+                    }
+                    reader.readAsDataURL(event.target.files[0]);
+                }
+            });
         });
     </script>
 </x-app-layout>

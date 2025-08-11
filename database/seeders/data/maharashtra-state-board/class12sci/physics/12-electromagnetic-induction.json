@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mcq",
+    "text": "A circular coil of 100 turns with a cross-sectional area of 1 m$^2$ is kept with its plane perpendicular to the magnetic field of 1 T. The magnetic flux linkage is ______. (Board 2022)",
+    "options": ["1 Wb", "50 Wb", "100 Wb", "200 Wb"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of inductance, Henry, can be written as... (Board 2020)",
+    "options": ["Weber/Ampere", "Volt·Second/Ampere", "Joule/Ampere$^2$", "All of the above"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Lenz's law is a consequence of the law of conservation of... (Board 2018)",
+    "options": ["charge", "mass", "energy", "momentum"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Faraday's first law of electromagnetic induction. (Board 2024)",
+    "answer": "Faraday's first law states that whenever there is a change in the magnetic flux associated with a coil, an electromotive force (emf) is induced in the coil.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What does the negative sign indicate in Lenz's law? (Board 2020)",
+    "answer": "The negative sign in Lenz's law indicates that the direction of the induced emf (and hence the induced current) is such that it opposes the change in magnetic flux that produced it.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define self-inductance and mutual-inductance. (Board 2019)",
+    "answer": "Self-inductance is the phenomenon in which a changing current in a coil induces an opposing emf in the same coil. Mutual-inductance is the phenomenon in which a changing current in one coil induces an emf in a neighboring coil.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "An aircraft of wing span of 60 m flies horizontally in earth's magnetic field of $6 \\times 10^{-5}$ T at a speed of 500 m/s. Calculate the e.m.f. induced between the tips of the wings of the aircraft. (Board 2023)",
+    "answer": "The induced emf is given by $e = Blv$. Substituting the values: $e = (6 \\times 10^{-5} \\text{ T}) \\times (60 \\text{ m}) \\times (500 \\text{ m/s}) = 1.8$ V.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "An emf of 91 mV is induced in the windings of a coil when the current in a nearby coil is increasing at the rate of 1.3 A/s. What is the mutual inductance (M) of the two coils in mH? (Board 2022)",
+    "answer": "The induced emf is given by $e = -M \\frac{dI}{dt}$. We consider the magnitude: $|e| = M |\\frac{dI}{dt}|$. Rearranging for M: $M = \\frac{|e|}{|dI/dt|} = \\frac{91 \\times 10^{-3} \\text{ V}}{1.3 \\text{ A/s}} = 0.07$ H or 70 mH.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the energy stored in a magnetic field. (Board 2017)",
+    "answer": "The energy stored in an inductor is the work done to establish a current in it. The work done is $dW = eIdt = (L\\frac{dI}{dt})Idt = LIdI$. Integrating from 0 to I, we get the total energy $U = \\int_0^I LIdI = \\frac{1}{2}LI^2$.",
+    "marks": 4
+  }
+]

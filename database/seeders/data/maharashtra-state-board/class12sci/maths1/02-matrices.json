@@ -1,10 +1,38 @@
 [
-          { "text": "If $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, find the adjoint of matrix A.", "answer": "The cofactors are $C_{11}=4, C_{12}=-3, C_{21}=-2, C_{22}=1$. The Adjoint is $adj(A) = \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}$.", "marks": 3, "type": "long" },
-          { "text": "Solve the following equations by inversion method: $x + 2y = 2$ and $2x + 3y = 3$.", "answer": "The solution is $x=0, y=1$.", "marks": 4, "type": "long" },
-          { "text": "Find the inverse of the matrix $A = \\begin{pmatrix} 2 & -2 \\\\ 4 & 3 \\end{pmatrix}$ using elementary row transformations.", "answer": "The inverse is $A^{-1} = \\frac{1}{14} \\begin{pmatrix} 3 & 2 \\\\ -4 & 2 \\end{pmatrix}$.", "marks": 4, "type": "long" },
-          { "text": "If a matrix has 8 elements, what are the possible orders it can have?", "type": "mcq", "options": ["$1 \\times 8, 8 \\times 1, 2 \\times 4, 4 \\times 2$", "$1 \\times 8, 2 \\times 4$", "$8 \\times 1, 4 \\times 2$", "Only $2 \\times 4$"], "correct_answer": "A", "marks": 1 },
-          { "text": "If $A = \\begin{pmatrix} \\cos\\alpha & \\sin\\alpha \\\\ -\\sin\\alpha & \\cos\\alpha \\end{pmatrix}$, then $A A'$ is:", "type": "mcq", "options": ["$A^2$", "$I$", "$A'$", "$-A$"], "correct_answer": "B", "marks": 1 },
-          { "text": "A square matrix $A$ is said to be singular if:", "type": "mcq", "options": ["$|A| = 0$", "$|A| \\neq 0$", "$A$ is symmetric", "$A$ is skew-symmetric"], "correct_answer": "A", "marks": 1 },
-          { "text": "If $A$ and $B$ are square matrices of the same order, then $(AB)'$ is equal to:", "type": "mcq", "options": ["$A'B'$", "$B'A'$", "$AB$", "$BA$"], "correct_answer": "B", "marks": 1 },
-          { "text": "The matrix $\\begin{pmatrix} 0 & 5 & -7 \\\\ -5 & 0 & 11 \\\\ 7 & -11 & 0 \\end{pmatrix}$ is a:", "type": "mcq", "options": ["Symmetric matrix", "Skew-symmetric matrix", "Diagonal matrix", "Scalar matrix"], "correct_answer": "B", "marks": 1 }
-        ]
+  {
+    "type": "long",
+    "text": "Find the co-factors of the elements of the matrix: $\\begin{pmatrix} -1 & 2 \\\\ -3 & 4 \\end{pmatrix}$",
+    "answer": "The co-factor $A_{ij}$ of $a_{ij}$ is equal to $(-1)^{i+j}M_{ij}$.<br>Here, $a_{11}=-1 \\therefore M_{11}=4$ and $A_{11}=(-1)^{1+1}M_{11}=(1)(4)=4$.<br>$a_{12}=2 \\therefore M_{12}=-3$ and $A_{12}=(-1)^{1+2}M_{12}=(-1)(-3)=3$.<br>$a_{21}=-3 \\therefore M_{21}=2$ and $A_{21}=(-1)^{2+1}M_{21}=(-1)(2)=-2$.<br>$a_{22}=4 \\therefore M_{22}=-1$ and $A_{22}=(-1)^{2+2}M_{22}=(1)(-1)=-1$.<br>Thus, the required co-factors are 4, 3, -2, -1.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the matrix of co-factors for the matrix: $\\begin{pmatrix} 1 & 3 \\\\ 4 & -1 \\end{pmatrix}$",
+    "answer": "Step 1: Find the co-factor for each element.<br>$A_{11}=(-1)^{1+1}(-1)=-1$.<br>$A_{12}=(-1)^{1+2}(4)=-4$.<br>$A_{21}=(-1)^{2+1}(3)=-3$.<br>$A_{22}=(-1)^{2+2}(1)=1$.<br>Step 2: Arrange the co-factors into a matrix.<br>The matrix of co-factors is $\\begin{pmatrix} A_{11} & A_{12} \\\\ A_{21} & A_{22} \\end{pmatrix} = \\begin{pmatrix} -1 & -4 \\\\ -3 & 1 \\end{pmatrix}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the adjoint of the matrix: $\\begin{pmatrix} 2 & -3 \\\\ 3 & 5 \\end{pmatrix}$",
+    "answer": "Step 1: Let $A = \\begin{pmatrix} 2 & -3 \\\\ 3 & 5 \\end{pmatrix}$. First, find the matrix of co-factors.<br>$A_{11}=5$, $A_{12}=-3$, $A_{21}=-(-3)=3$, $A_{22}=2$.<br>Step 2: The matrix of co-factors is $\\begin{pmatrix} 5 & -3 \\\\ 3 & 2 \\end{pmatrix}$.<br>Step 3: The adjoint of A is the transpose of the co-factor matrix.<br>adj(A) = $\\begin{pmatrix} 5 & 3 \\\\ -3 & 2 \\end{pmatrix}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify that $A(\\text{adj } A) = (\\text{adj } A)A = |A|I$ for $A = \\begin{pmatrix} 1 & -1 & 2 \\\\ 3 & 0 & -2 \\\\ 1 & 0 & 3 \\end{pmatrix}$",
+    "answer": "Step 1: Find the determinant: $|A| = 1(0) - (-1)(9 - (-2)) + 2(0) = 11$.<br>Step 2: Find the matrix of co-factors: $\\begin{pmatrix} 0 & -11 & 0 \\\\ 3 & 1 & -1 \\\\ 2 & 8 & 3 \\end{pmatrix}$.<br>Step 3: Find the adjoint: adj(A) = $\\begin{pmatrix} 0 & 3 & 2 \\\\ -11 & 1 & 8 \\\\ 0 & -1 & 3 \\end{pmatrix}$.<br>Step 4: Calculate $A(\\text{adj } A) = \\begin{pmatrix} 1 & -1 & 2 \\\\ 3 & 0 & -2 \\\\ 1 & 0 & 3 \\end{pmatrix} \\begin{pmatrix} 0 & 3 & 2 \\\\ -11 & 1 & 8 \\\\ 0 & -1 & 3 \\end{pmatrix} = \\begin{pmatrix} 11 & 0 & 0 \\\\ 0 & 11 & 0 \\\\ 0 & 0 & 11 \\end{pmatrix}$.<br>Step 5: Calculate $(\\text{adj } A)A = \\begin{pmatrix} 0 & 3 & 2 \\\\ -11 & 1 & 8 \\\\ 0 & -1 & 3 \\end{pmatrix} \\begin{pmatrix} 1 & -1 & 2 \\\\ 3 & 0 & -2 \\\\ 1 & 0 & 3 \\end{pmatrix} = \\begin{pmatrix} 11 & 0 & 0 \\\\ 0 & 11 & 0 \\\\ 0 & 0 & 11 \\end{pmatrix}$.<br>Step 6: Calculate $|A|I = 11 \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix} = \\begin{pmatrix} 11 & 0 & 0 \\\\ 0 & 11 & 0 \\\\ 0 & 0 & 11 \\end{pmatrix}$.<br>Step 7: Since all results are equal, the property is verified.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the inverse of the matrix $\\begin{pmatrix} -1 & 5 \\\\ -3 & 2 \\end{pmatrix}$ by the adjoint method.",
+    "answer": "Step 1: Let $A = \\begin{pmatrix} -1 & 5 \\\\ -3 & 2 \\end{pmatrix}$. Find the determinant: $|A| = (-1)(2) - (5)(-3) = -2 + 15 = 13$.<br>Step 2: Find the matrix of co-factors: $\\begin{pmatrix} 2 & 3 \\\\ -5 & -1 \\end{pmatrix}$.<br>Step 3: Find the adjoint: adj(A) = $\\begin{pmatrix} 2 & -5 \\\\ 3 & -1 \\end{pmatrix}$.<br>Step 4: Find the inverse: $A^{-1} = \\frac{1}{|A|}\\text{adj}(A) = \\frac{1}{13} \\begin{pmatrix} 2 & -5 \\\\ 3 & -1 \\end{pmatrix}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the inverse of the matrix $\\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix}$ by elementary row transformations.",
+    "answer": "Step 1: Start with $AA^{-1}=I$: $\\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix} A^{-1} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$.<br>Step 2: Apply $R_2 \\rightarrow R_2 - 2R_1$: $\\begin{pmatrix} 1 & 2 \\\\ 0 & -5 \\end{pmatrix} A^{-1} = \\begin{pmatrix} 1 & 0 \\\\ -2 & 1 \\end{pmatrix}$.<br>Step 3: Apply $R_2 \\rightarrow -\\frac{1}{5}R_2$: $\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix} A^{-1} = \\begin{pmatrix} 1 & 0 \\\\ 2/5 & -1/5 \\end{pmatrix}$.<br>Step 4: Apply $R_1 \\rightarrow R_1 - 2R_2$: $\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} A^{-1} = \\begin{pmatrix} 1/5 & 2/5 \\\\ 2/5 & -1/5 \\end{pmatrix}$.<br>Step 5: Therefore, $A^{-1} = \\frac{1}{5} \\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix}$.",
+    "marks": 4
+  }
+]

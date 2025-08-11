@@ -1,0 +1,272 @@
+[
+  {
+    "type": "short",
+    "text": "Distinguish between molecularity and order of the reaction. (March 2008, 2009, 2011, 2020; Oct. 2008, 2009, 2010, 2013, 2014)",
+    "answer": "| Feature | Order of Reaction | Molecularity of Reaction |\n|---|---|---|\n| **Definition** | It is the sum of the powers of the concentration terms of the reactants in the experimentally determined rate law. | It is the number of reactant molecules taking part in an elementary reaction step. |\n| **Nature** | It is an experimental quantity, determined from the rate law. | It is a theoretical concept, applicable only to elementary reactions. |\n| **Values** | It can be an integer, zero, or a fraction. | It is always a positive integer (cannot be zero or fractional). |\n| **Applicability**| It applies to both elementary and complex reactions. | It applies only to elementary reactions. For complex reactions, molecularity of the overall reaction has no meaning. |",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Consider the reaction: $3I^-_{(aq)} + S_2O_8^{2-}_{(aq)} \\rightarrow I_3^-_{(aq)} + 2SO_4^{2-}_{(aq)}$ at particular time t, $\\frac{d[SO_4^{2-}]}{dt} = 2.2 \\times 10^{-2}$ M/s. What are the values of the following at the same time? (a) $-\\frac{d[I^-]}{dt}$ (b) $-\\frac{d[S_2O_8^{2-}]}{dt}$ (c) $\\frac{d[I_3^-]}{dt}$ (March 2013)",
+    "answer": "The rate of reaction can be expressed in terms of any reactant or product: \nRate = $-\\frac{1}{3}\\frac{d[I^-]}{dt} = -\\frac{d[S_2O_8^{2-}]}{dt} = +\\frac{d[I_3^-]}{dt} = +\\frac{1}{2}\\frac{d[SO_4^{2-}]}{dt}$. \nFirst, find the overall rate of reaction using the given value: \nRate = $+\\frac{1}{2}\\frac{d[SO_4^{2-}]}{dt} = \\frac{1}{2}(2.2 \\times 10^{-2} \\text{ M/s}) = 1.1 \\times 10^{-2}$ M/s. \nNow, we can find the individual rates: \n(a) $-\\frac{d[I^-]}{dt} = 3 \\times \\text{Rate} = 3 \\times (1.1 \\times 10^{-2}) = 3.3 \\times 10^{-2}$ M/s. \n(b) $-\\frac{d[S_2O_8^{2-}]}{dt} = \\text{Rate} = 1.1 \\times 10^{-2}$ M/s. \n(c) $\\frac{d[I_3^-]}{dt} = \\text{Rate} = 1.1 \\times 10^{-2}$ M/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Define activation energy. Calculate activation energy for a reaction of which rate constant becomes four times when temperature changes from 30°C to 50°C. [Given R = 8.314 JK⁻¹ mol⁻¹] (Oct. 2013)",
+    "answer": "**Activation Energy ($E_a$)**: The minimum amount of extra energy that the reactant molecules must possess over and above their average energy to undergo a chemical reaction. It is the energy barrier that must be overcome for reactants to be converted into products. \n\n**Calculation:** \nGiven: $k_2 = 4k_1$, $T_1 = 30°C = 303$ K, $T_2 = 50°C = 323$ K, $R = 8.314$ J K⁻¹ mol⁻¹. \nUsing the Arrhenius equation for two temperatures: \n$\\log_{10}(\\frac{k_2}{k_1}) = \\frac{E_a}{2.303 R} [\\frac{T_2 - T_1}{T_1 T_2}]$. \n$\\log_{10}(4) = \\frac{E_a}{2.303 \\times 8.314} [\\frac{323 - 303}{323 \\times 303}]$. \n$0.6021 = \\frac{E_a}{19.147} [\\frac{20}{97869}]$. \n$0.6021 = \\frac{E_a}{19.147} [2.043 \\times 10^{-4}]$. \n$E_a = \\frac{0.6021 \\times 19.147}{2.043 \\times 10^{-4}} = 56488$ J/mol = 56.49 kJ/mol. \n(Note: The provided answer of 50.4 kJ/mol is inconsistent with the data; the rate constant would need to increase by a factor of ~3.44 for that answer).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write molecularity of the following reaction: $2NO_{(g)} + O_{2(g)} \\rightarrow 2NO_{2(g)}$ (March 2014)",
+    "answer": "Assuming this is an elementary reaction as written, the molecularity is the sum of the number of reactant molecules. In this case, there are two molecules of NO and one molecule of O₂. \nMolecularity = 2 (from NO) + 1 (from O₂) = 3. \nThe reaction is trimolecular.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "The decomposition of $N_2O_5$ at 320K according to the following equation follows first order reaction: $N_2O_{5(g)} \\rightarrow 2NO_{2(g)} + \\frac{1}{2}O_{2(g)}$. The initial concentration of $N_2O_5$ is 1.24 x 10⁻² mol.L⁻¹ and after 60 minutes, 0.20 x 10⁻² mol.L⁻¹. Calculate the rate constant of the reaction at 320 K. (March 2014)",
+    "answer": "Given: This is a first-order reaction. \nInitial concentration $[A]_0 = 1.24 \\times 10^{-2}$ mol/L. \nConcentration at time t, $[A]_t = 0.20 \\times 10^{-2}$ mol/L. \nTime $t = 60$ minutes. \nThe integrated rate law for a first-order reaction is: \n$k = \\frac{2.303}{t} \\log_{10}(\\frac{[A]_0}{[A]_t})$. \n$k = \\frac{2.303}{60 \\text{ min}} \\log_{10}(\\frac{1.24 \\times 10^{-2}}{0.20 \\times 10^{-2}})$. \n$k = \\frac{2.303}{60} \\log_{10}(6.2)$. \n$k = 0.03838 \\times 0.7924$. \n$k \\approx 0.0304$ min⁻¹.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Derive the relation between half-life period and rate constant for a first order reaction. (March 2014)",
+    "answer": "The integrated rate law for a first-order reaction is: \n$k = \\frac{2.303}{t} \\log_{10}(\\frac{[A]_0}{[A]_t})$. \nThe half-life period ($t_{1/2}$) is the time required for the concentration of a reactant to reduce to half its initial value. So, at $t = t_{1/2}$, $[A]_t = \\frac{[A]_0}{2}$. \nSubstituting these into the rate law: \n$k = \\frac{2.303}{t_{1/2}} \\log_{10}(\\frac{[A]_0}{[A]_0/2})$. \n$k = \\frac{2.303}{t_{1/2}} \\log_{10}(2)$. \nSince $\\log_{10}(2) = 0.3010$: \n$k = \\frac{2.303 \\times 0.3010}{t_{1/2}} = \\frac{0.693}{t_{1/2}}$. \nRearranging gives the relation: $t_{1/2} = \\frac{0.693}{k}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Sucrose decomposes in acid solution to give glucose and fructose according to the first order rate law. The half life of the reaction is 3 hours. Calculate fraction of sucrose which will remain after 8 hours. (Oct. 2014)",
+    "answer": "Given: This is a first-order reaction. Half-life $t_{1/2} = 3$ hours. Time $t = 8$ hours. \n**Step 1: Calculate the rate constant (k).** \nFor a first-order reaction, $k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{3 \\text{ hr}} = 0.231$ hr⁻¹. \n\n**Step 2: Use the integrated rate law to find the remaining fraction.** \nThe integrated rate law is $\\log_{10}(\\frac{[A]_0}{[A]_t}) = \\frac{kt}{2.303}$. \nWe need to find the fraction remaining, which is $\\frac{[A]_t}{[A]_0}$. \n$\\log_{10}(\\frac{[A]_0}{[A]_t}) = \\frac{0.231 \\text{ hr}^{-1} \\times 8 \\text{ hr}}{2.303} = \\frac{1.848}{2.303} = 0.8024$. \nNow, take the antilog: \n$\\frac{[A]_0}{[A]_t} = 10^{0.8024} = 6.345$. \nThe fraction remaining is the reciprocal of this value: \n$\\frac{[A]_t}{[A]_0} = \\frac{1}{6.345} \\approx 0.1576$. \nTherefore, the fraction of sucrose remaining after 8 hours is 0.1576.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Derive the relation between half life and rate constant for a first order reaction. (March 2015, 2017)",
+    "answer": "For a first-order reaction, the integrated rate law is $kt = \\ln(\\frac{[A]_0}{[A]_t})$. Half-life ($t_{1/2}$) is the time when $[A]_t = \\frac{1}{2}[A]_0$. \nSubstituting this condition: \n$k t_{1/2} = \\ln(\\frac{[A]_0}{[A]_0/2}) = \\ln(2)$. \nSince $\\ln(2) \\approx 0.693$, the relation is: \n$k t_{1/2} = 0.693$ or $t_{1/2} = \\frac{0.693}{k}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define: (a) Average rate of reaction (b) Instantaneous rate of reaction. (Oct. 2015)",
+    "answer": "(a) **Average rate of reaction:** The change in concentration of a reactant or a product over a finite, measurable interval of time. For a reaction R → P, it is calculated as $Rate_{avg} = -\\frac{\\Delta[R]}{\\Delta t} = +\\frac{\\Delta[P]}{\\Delta t}$. \n(b) **Instantaneous rate of reaction:** The rate of reaction at a specific instant in time. It is determined by calculating the slope of the tangent to the concentration vs. time curve at that particular instant. Mathematically, it is the derivative of concentration with respect to time: $Rate_{inst} = -\\frac{d[R]}{dt} = +\\frac{d[P]}{dt}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Ammonia and oxygen react at high temperature as: $4NH_{3(g)} + 5O_{2(g)} \\rightarrow 4NO_{(g)} + 6H_2O_{(g)}$. In an experiment, rate of formation of NO is $3.6 \\times 10^{-3}$ mol L⁻¹ s⁻¹. Calculate: (a) Rate of disappearance of ammonia. (b) Rate of formation of water. (Oct. 2015)",
+    "answer": "From the stoichiometry of the reaction, the rate can be expressed as: \nRate = $-\\frac{1}{4}\\frac{d[NH_3]}{dt} = -\\frac{1}{5}\\frac{d[O_2]}{dt} = +\\frac{1}{4}\\frac{d[NO]}{dt} = +\\frac{1}{6}\\frac{d[H_2O]}{dt}$. \nGiven: Rate of formation of NO, $\\frac{d[NO]}{dt} = 3.6 \\times 10^{-3}$ mol L⁻¹ s⁻¹. \n(a) **Rate of disappearance of ammonia ($-\\frac{d[NH_3]}{dt}$):** \nFrom the rate expression, $-\\frac{1}{4}\\frac{d[NH_3]}{dt} = +\\frac{1}{4}\\frac{d[NO]}{dt}$. \nThis simplifies to $-\\frac{d[NH_3]}{dt} = \\frac{d[NO]}{dt}$. \nSo, the rate of disappearance of ammonia is $3.6 \\times 10^{-3}$ mol L⁻¹ s⁻¹. \n(b) **Rate of formation of water ($\\frac{d[H_2O]}{dt}$):** \nFrom the rate expression, $+\\frac{1}{4}\\frac{d[NO]}{dt} = +\\frac{1}{6}\\frac{d[H_2O]}{dt}$. \n$\\frac{d[H_2O]}{dt} = \\frac{6}{4} \\times \\frac{d[NO]}{dt} = 1.5 \\times (3.6 \\times 10^{-3}) = 5.4 \\times 10^{-3}$ mol L⁻¹ s⁻¹.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define 'Zero order reaction'. (Oct. 2015)",
+    "answer": "A zero-order reaction is a chemical reaction wherein the rate of reaction does not depend on the concentration of the reactants. The rate is constant over time. For a reaction R → P, the rate law is expressed as: Rate = $k[R]^0 = k$, where k is the rate constant.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain graphical method to determine activation energy of a reaction. (March 2016)",
+    "answer": "The activation energy ($E_a$) can be determined graphically using the Arrhenius equation in its logarithmic form: \n$\\ln k = \\ln A - \\frac{E_a}{RT}$ or $\\log_{10} k = \\log_{10} A - \\frac{E_a}{2.303R} (\\frac{1}{T})$. \nThis equation is in the form of a straight line, $y = mx + c$. \n**Method:** \n1. Conduct the reaction at several different temperatures (T) and determine the corresponding rate constant (k) for each temperature. \n2. Plot a graph of $\\log_{10} k$ (on the y-axis) versus $\\frac{1}{T}$ (on the x-axis). \n3. The plot will yield a straight line. \n4. The slope of this line is equal to $-\\frac{E_a}{2.303R}$. \n5. Therefore, the activation energy can be calculated from the slope: $E_a = -\\text{Slope} \\times 2.303R$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In a first order reaction x -> y, 40% of the given sample of compound remains unreacted in 45 minutes. Calculate rate constant of the reaction. (March 2016)",
+    "answer": "Given: This is a first-order reaction. Time $t = 45$ minutes. \nIf 40% of the sample remains unreacted, then the concentration at time t, $[A]_t$, is 40% of the initial concentration, $[A]_0$. \nSo, $[A]_t = 0.40 \\times [A]_0$, or $\\frac{[A]_0}{[A]_t} = \\frac{1}{0.40} = 2.5$. \nThe integrated rate law for a first-order reaction is: \n$k = \\frac{2.303}{t} \\log_{10}(\\frac{[A]_0}{[A]_t})$. \n$k = \\frac{2.303}{45 \\text{ min}} \\log_{10}(2.5)$. \n$k = 0.05118 \\times 0.3979$. \n$k \\approx 0.02036$ min⁻¹.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The rate constant of a first-order reaction are 0.58 s⁻¹ at 313 K and 0.045 s⁻¹ at 293 K. What is the energy of activation for the reaction? (July 2016)",
+    "answer": "Given: $k_1 = 0.045$ s⁻¹ at $T_1 = 293$ K. $k_2 = 0.58$ s⁻¹ at $T_2 = 313$ K. $R = 8.314$ J K⁻¹ mol⁻¹. \nUsing the Arrhenius equation for two temperatures: \n$\\log_{10}(\\frac{k_2}{k_1}) = \\frac{E_a}{2.303 R} [\\frac{T_2 - T_1}{T_1 T_2}]$. \n$\\log_{10}(\\frac{0.58}{0.045}) = \\frac{E_a}{2.303 \\times 8.314} [\\frac{313 - 293}{313 \\times 293}]$. \n$\\log_{10}(12.89) = \\frac{E_a}{19.147} [\\frac{20}{91709}]$. \n$1.110 = \\frac{E_a}{19.147} [2.181 \\times 10^{-4}]$. \n$E_a = \\frac{1.110 \\times 19.147}{2.181 \\times 10^{-4}} = 97663$ J/mol. \n$E_a = 97.66$ kJ/mol.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the Nernst equation and explain the terms involved. (July 2016)",
+    "answer": "The Nernst equation relates the reduction potential of an electrochemical reaction to the standard electrode potential, temperature, and activities (often approximated by concentrations) of the chemical species. \nFor a general reduction reaction $M^{n+}_{(aq)} + ne^- \\rightarrow M_{(s)}$, the equation is: \n$E_{cell} = E^\\circ_{cell} - \\frac{RT}{nF} \\ln Q$. \nIn a more common form at 298 K: \n$E_{cell} = E^\\circ_{cell} - \\frac{0.0592}{n} \\log_{10} Q$. \n**Terms explained:** \n- $E_{cell}$: The cell potential under non-standard conditions. \n- $E^\\circ_{cell}$: The standard cell potential. \n- R: The ideal gas constant (8.314 J K⁻¹ mol⁻¹). \n- T: Absolute temperature in Kelvin. \n- n: The number of moles of electrons transferred in the balanced cell reaction. \n- F: Faraday's constant (96485 C/mol). \n- Q: The reaction quotient, which is the ratio of product concentrations to reactant concentrations, raised to their stoichiometric powers.",
+    "marks": 2
+  },
+  {
+    "type":"long",
+    "text": "In the Arrhenius equation for a first order reaction, the values of 'A' and 'Eₐ' are $4 \\times 10^{13}$ sec⁻¹ and 98.6 kJ mol⁻¹, respectively. At what temperature will its half life period be 10 minutes? [R = 8.314 JK⁻¹ mol⁻¹] (March 2017)",
+    "answer": "Given: $A = 4 \\times 10^{13}$ s⁻¹, $E_a = 98.6$ kJ/mol = 98600 J/mol, $R = 8.314$ J K⁻¹ mol⁻¹. \nHalf-life $t_{1/2} = 10$ minutes = 600 seconds. \n**Step 1: Calculate the rate constant (k) from the half-life.** \nFor a first-order reaction, $k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{600 \\text{ s}} = 0.001155$ s⁻¹. \n\n**Step 2: Use the Arrhenius equation to find the temperature (T).** \nThe Arrhenius equation is $k = A e^{-E_a/RT}$. We use its logarithmic form: \n$\\ln(\\frac{k}{A}) = -\\frac{E_a}{RT}$ or $T = -\\frac{E_a}{R \\ln(k/A)}$. \n$\\ln(\\frac{k}{A}) = \\ln(\\frac{0.001155}{4 \\times 10^{13}}) = \\ln(2.8875 \\times 10^{-17}) = -37.98$. \n$T = -\\frac{98600 \\text{ J/mol}}{8.314 \\text{ J K}^{-1} \\text{ mol}^{-1} \\times (-37.98)} = \\frac{98600}{315.8} \\approx 312.2$ K. \nSo, the temperature is approximately 312 K.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "The reaction $2H_2 + 2NO \\rightarrow N_2 + 2H_2O$ is given by rate = $k[H_2][NO]^2$. The reaction occurs in the following two steps: (a) $H_2 + 2NO \\rightarrow N_2O + H_2O$ (b) $N_2O + H_2 \\rightarrow N_2 + H_2O$. What is the role of $N_2O$ in the mechanism? What is the molecularity of the elementary steps? (July 2017)",
+    "answer": "**Role of $N_2O$:** In this mechanism, $N_2O$ is produced in the first step and consumed in the second step. It does not appear in the overall balanced equation. Therefore, $N_2O$ is a **reaction intermediate**. \n\n**Molecularity of elementary steps:** \n(a) $H_2 + 2NO \\rightarrow N_2O + H_2O$: The number of reactant molecules is 1 ($H_2$) + 2 ($NO$) = 3. The molecularity is **trimolecular (3)**. \n(b) $N_2O + H_2 \\rightarrow N_2 + H_2O$: The number of reactant molecules is 1 ($N_2O$) + 1 ($H_2$) = 2. The molecularity is **bimolecular (2)**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "From the following data for the liquid phase reaction A → B, determine the order of reaction and calculate its rate constant: t/s: 0, 600, 1200, 1800; [A]/mol L⁻¹: 0.624, 0.446, 0.318, 0.226. (July 2017)",
+    "answer": "**Step 1: Determine the order of reaction.** \nWe can test if the data fits the first-order integrated rate law, $k = \\frac{2.303}{t} \\log_{10}(\\frac{[A]_0}{[A]_t})$. If k is constant, the reaction is first-order. $[A]_0 = 0.624$ mol/L. \n- At t = 600 s: $k = \\frac{2.303}{600} \\log_{10}(\\frac{0.624}{0.446}) = 0.00384 \\times \\log_{10}(1.399) = 0.00384 \\times 0.1458 \\approx 5.6 \\times 10^{-4}$ s⁻¹. \n- At t = 1200 s: $k = \\frac{2.303}{1200} \\log_{10}(\\frac{0.624}{0.318}) = 0.00192 \\times \\log_{10}(1.962) = 0.00192 \\times 0.2927 \\approx 5.6 \\times 10^{-4}$ s⁻¹. \n- At t = 1800 s: $k = \\frac{2.303}{1800} \\log_{10}(\\frac{0.624}{0.226}) = 0.00128 \\times \\log_{10}(2.761) = 0.00128 \\times 0.4411 \\approx 5.6 \\times 10^{-4}$ s⁻¹. \nSince the value of k is constant across different time intervals, the reaction is **first order**. \n\n**Step 2: Calculate the rate constant.** \nThe rate constant, as calculated above, is $k = 5.6 \\times 10^{-4}$ s⁻¹.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "A certain reaction occurs in the following steps: (i) $Cl_{(g)} + O_{3(g)} \\rightarrow ClO_{(g)} + O_{2(g)}$ (ii) $ClO_{(g)} + O_{(g)} \\rightarrow Cl_{(g)} + O_{2(g)}$ (a) What is the molecularity of each of the elementary steps? (b) Identify the reaction intermediate and write the chemical equation for overall reaction. (March 2018)",
+    "answer": "(a) **Molecularity of each step:** \n(i) $Cl_{(g)} + O_{3(g)} \\rightarrow ClO_{(g)} + O_{2(g)}$: Two reactant molecules ($Cl$ and $O_3$) are involved. The molecularity is **bimolecular (2)**. \n(ii) $ClO_{(g)} + O_{(g)} \\rightarrow Cl_{(g)} + O_{2(g)}$: Two reactant species ($ClO$ and $O$) are involved. The molecularity is **bimolecular (2)**. \n\n(b) **Reaction Intermediate and Overall Reaction:** \n- The species $ClO_{(g)}$ is produced in step (i) and consumed in step (ii), so it is the **reaction intermediate**. The species $Cl_{(g)}$ is a catalyst, as it is consumed and then regenerated. \n- To get the overall reaction, add the two steps and cancel the intermediate ($ClO$) and the catalyst ($Cl$): \n  $Cl + O_3 + ClO + O \\rightarrow ClO + O_2 + Cl + O_2$. \n  Overall Reaction: $O_{3(g)} + O_{(g)} \\rightarrow 2O_{2(g)}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How does the rate of reaction change if the concentration of A is increased by factor 3? (b) What is the change in the rate of reaction if the concentration of A is halved and concentration of B is doubled? The reaction A + B → products is first order in each of the reactants. (March 2018)",
+    "answer": "The rate law for the reaction is Rate = $k[A]^1[B]^1$. Let the initial rate be $R_1 = k[A][B]$. \n(a) If the concentration of A is increased by a factor of 3, the new concentration is $[A]' = 3[A]$. \nThe new rate, $R_2 = k[3A][B] = 3(k[A][B]) = 3R_1$. \nThe rate of reaction **increases by a factor of 3**. \n(b) If [A] is halved ($[A]' = [A]/2$) and [B] is doubled ($[B]' = 2[B]$): \nThe new rate, $R_3 = k([A]/2)(2[B]) = k[A][B] = R_1$. \nThe rate of reaction **remains unchanged**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define the order of chemical reaction. Find the overall order of the following reactions: (a) $CHCl_{3(g)} + Cl_{2(g)} \\rightarrow CCl_{4(g)} + HCl_{(g)}$; Rate = $k[CHCl_3][Cl_2]^{1/2}$ (b) $2NO_{(g)} + O_{2(g)} \\rightarrow 2NO_{2(g)}$; Rate = $k[NO]^2[O_2]$ (March 2018)",
+    "answer": "**Order of chemical reaction:** The order of a reaction is the sum of the powers to which the concentration terms of the reactants are raised in the experimentally determined rate law expression. \n\n**Overall order of reactions:** \n(a) Rate = $k[CHCl_3]^1[Cl_2]^{1/2}$. \nOverall order = (order with respect to $CHCl_3$) + (order with respect to $Cl_2$) = $1 + \\frac{1}{2} = 1.5$ or $\\frac{3}{2}$. \n(b) Rate = $k[NO]^2[O_2]^1$. \nOverall order = (order with respect to $NO$) + (order with respect to $O_2$) = $2 + 1 = 3$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In a first order reaction A → product, 80% of the given sample of compound decomposes in 40 min. What is the half life of the reaction? (July 2018)",
+    "answer": "Given: First-order reaction. Time $t = 40$ min. \nIf 80% decomposes, then 20% remains unreacted. \nSo, $[A]_t = 0.20 \\times [A]_0$, which means $\\frac{[A]_0}{[A]_t} = \\frac{1}{0.20} = 5$. \n**Step 1: Calculate the rate constant (k).** \n$k = \\frac{2.303}{t} \\log_{10}(\\frac{[A]_0}{[A]_t}) = \\frac{2.303}{40 \\text{ min}} \\log_{10}(5) = 0.05757 \\times 0.6990 = 0.0402$ min⁻¹. \n\n**Step 2: Calculate the half-life ($t_{1/2}$).** \n$t_{1/2} = \\frac{0.693}{k} = \\frac{0.693}{0.0402 \\text{ min}^{-1}} \\approx 17.22$ min.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write Arrhenius equation. Derive an expression for temperature variations. (July 2018)",
+    "answer": "**Arrhenius equation:** $k = A e^{-E_a/RT}$. Where k is the rate constant, A is the pre-exponential factor, $E_a$ is the activation energy, R is the gas constant, and T is the absolute temperature. \n\n**Derivation for temperature variations:** \nLet $k_1$ and $k_2$ be the rate constants at temperatures $T_1$ and $T_2$ respectively. \n(1) $\\ln k_1 = \\ln A - \\frac{E_a}{RT_1}$ \n(2) $\\ln k_2 = \\ln A - \\frac{E_a}{RT_2}$ \nSubtracting equation (1) from (2): \n$\\ln k_2 - \\ln k_1 = (\\ln A - \\frac{E_a}{RT_2}) - (\\ln A - \\frac{E_a}{RT_1})$. \n$\\ln(\\frac{k_2}{k_1}) = \\frac{E_a}{RT_1} - \\frac{E_a}{RT_2} = \\frac{E_a}{R} [\\frac{1}{T_1} - \\frac{1}{T_2}]$. \nThis gives the final expression: $\\log_{10}(\\frac{k_2}{k_1}) = \\frac{E_a}{2.303R} [\\frac{T_2 - T_1}{T_1 T_2}]$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The rate of a first order reaction, A + B → P, is $1 \\times 10^{-4}$ mol⁻¹ when [A] is 0.3M. Calculate the rate constant of the reaction. (March 2019)",
+    "answer": "The question appears to contain a typo. The rate unit 'mol⁻¹' is incorrect; it should likely be mol L⁻¹ s⁻¹ or similar. Also, for a reaction that is first order in both A and B, the concentration of B is needed. Assuming the reaction is **first order with respect to A only**, the rate law is: Rate = k[A]. \nGiven: Rate = $1 \\times 10^{-4}$ mol L⁻¹ s⁻¹ (assuming units), [A] = 0.3 mol L⁻¹. \nRate constant $k = \\frac{\\text{Rate}}{[A]} = \\frac{1 \\times 10^{-4} \\text{ mol L}^{-1} \\text{s}^{-1}}{0.3 \\text{ mol L}^{-1}} = 3.33 \\times 10^{-4}$ s⁻¹. \n(Note: If the reaction order was zero, k would equal the rate. The provided answer of $1.8 \\times 10^{-5}$ s⁻¹ cannot be derived from the given data).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "The half life of a first order reaction is 6.0 h. Calculate the rate constant. (March 2019)",
+    "answer": "Given: Half-life $t_{1/2} = 6.0$ h. Reaction is first order. \nThe relationship between half-life and the rate constant (k) for a first-order reaction is: \n$t_{1/2} = \\frac{0.693}{k}$. \nRearranging to solve for k: \n$k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{6.0 \\text{ h}} = 0.1155$ h⁻¹. \nTo express in seconds: $k = 0.1155 \\frac{1}{3600 \\text{ s}} = 3.208 \\times 10^{-5}$ s⁻¹. \n(The provided answer of $1.8 \\times 10^{-5}$ s⁻¹ is likely a calculation error).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "The half life of a first order reaction is 6.0 hours. How long it will take for the concentration of reactant to decrease from 0.8M to 0.25M. (July 2019)",
+    "answer": "Given: $t_{1/2} = 6.0$ hours. Initial concentration $[A]_0 = 0.8$ M. Final concentration $[A]_t = 0.25$ M. \n**Step 1: Calculate the rate constant (k).** \n$k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{6.0 \\text{ hr}} = 0.1155$ hr⁻¹. \n\n**Step 2: Use the integrated rate law to find the time (t).** \n$t = \\frac{2.303}{k} \\log_{10}(\\frac{[A]_0}{[A]_t})$. \n$t = \\frac{2.303}{0.1155 \\text{ hr}^{-1}} \\log_{10}(\\frac{0.8}{0.25})$. \n$t = 19.94 \\times \\log_{10}(3.2) = 19.94 \\times 0.5051 \\approx 10.07$ hours.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "For a certain second order reaction at 923K of activation is 240 kJ mol⁻¹. Calculate its rate constant at 1023 K if the rate constant at 923 is 0.0113 m⁻¹s⁻¹. [R = 8.314 JK⁻¹ mol⁻¹] (July 2019)",
+    "answer": "This question seems to have a typo '923K of activation'. Assuming it means 'the activation energy is 240 kJ/mol'. \nGiven: $E_a = 240$ kJ/mol = 240000 J/mol. $T_1 = 923$ K, $k_1 = 0.0113$ M⁻¹s⁻¹ (assuming m⁻¹ is M⁻¹). $T_2 = 1023$ K. We need to find $k_2$. \nUsing the Arrhenius equation: \n$\\log_{10}(\\frac{k_2}{k_1}) = \\frac{E_a}{2.303R} [\\frac{T_2 - T_1}{T_1 T_2}]$. \n$\\log_{10}(\\frac{k_2}{0.0113}) = \\frac{240000}{2.303 \\times 8.314} [\\frac{1023 - 923}{1023 \\times 923}]$. \n$\\log_{10}(\\frac{k_2}{0.0113}) = 12534.6 \\times [\\frac{100}{944229}] = 12534.6 \\times (1.059 \\times 10^{-4}) = 1.327$. \n$\\frac{k_2}{0.0113} = 10^{1.327} = 21.23$. \n$k_2 = 21.23 \\times 0.0113 \\approx 0.24$ M⁻¹s⁻¹.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define elementary reaction. (July 2019)",
+    "answer": "An elementary reaction is a chemical reaction that occurs in a single step, where the reactant molecules collide and transform directly into products without forming any reaction intermediates. The rate law for an elementary reaction can be written directly from its stoichiometry.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "A reaction occurs by the following mechanism: (i) $NO_{2(g)} + F_{2(g)} \\rightarrow NO_2F_{(g)} + F_{(g)}$ (ii) $F_{(g)} + NO_{2(g)} \\rightarrow NO_2F_{(g)}$. Identify the intermediate and write net reaction. (July 2019)",
+    "answer": "**Identify the intermediate:** The species $F_{(g)}$ is produced in the first step and consumed in the second step. Therefore, **F(g) is the reaction intermediate**. \n\n**Write net reaction:** To find the net reaction, add the two elementary steps and cancel out any species that appear on both the reactant and product sides. \nStep (i): $NO_{2(g)} + F_{2(g)} \\rightarrow NO_2F_{(g)} + F_{(g)}$ \nStep (ii): $F_{(g)} + NO_{2(g)} \\rightarrow NO_2F_{(g)}$ \n---------------------------------------------------- \nNet Reaction: $2NO_{2(g)} + F_{2(g)} \\rightarrow 2NO_2F_{(g)}$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the relationship between half life of zero order reaction and its rate constant. (March 2020)",
+    "answer": "For a zero-order reaction, the half-life ($t_{1/2}$) is directly proportional to the initial concentration of the reactant ($[A]_0$) and inversely proportional to the rate constant (k). The relationship is given by the equation: \n$t_{1/2} = \\frac{[A]_0}{2k}$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define instantaneous rate of reaction. Explain pseudo first order reaction with suitable example. (March 2020)",
+    "answer": "**Instantaneous rate of reaction:** The rate of a chemical reaction at a particular moment in time. It is determined by the slope of the tangent to the concentration-time curve at that specific instant. \n\n**Pseudo-first-order reaction:** A reaction that is biomolecular (or higher order) but experimentally behaves as a first-order reaction. This occurs when one of the reactants is present in a very large excess compared to the other, so its concentration remains effectively constant throughout the reaction. \n**Example:** The hydrolysis of ethyl acetate (an ester) in an aqueous solution. \n$CH_3COOC_2H_{5(aq)} + H_2O_{(l)} \\rightarrow CH_3COOH_{(aq)} + C_2H_5OH_{(aq)}$. \nThe true rate law is Rate = $k'[CH_3COOC_2H_5][H_2O]$. However, water (the solvent) is in such large excess that its concentration does not change significantly. Therefore, the term $k'[H_2O]$ is a constant, which we can call k. The rate law simplifies to Rate = $k[CH_3COOC_2H_5]$, which is the form of a first-order reaction.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define half life of a first order reaction. (Sept. 2021)",
+    "answer": "The half-life ($t_{1/2}$) of a first-order reaction is the time required for the concentration of a reactant to be reduced to half of its initial value. It is independent of the initial concentration of the reactant and is related to the rate constant (k) by the equation $t_{1/2} = 0.693/k$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is pseudo first order reaction? Explain with suitable example. (Sept. 2021)",
+    "answer": "**Pseudo-first-order reaction:** A reaction that has a true rate law of second order or higher but appears to follow first-order kinetics under specific conditions. This typically happens when one reactant is present in a very large excess, causing its concentration to remain nearly constant during the reaction. \n\n**Example:** Inversion of cane sugar (sucrose) in an acidic aqueous solution. \n$C_{12}H_{22}O_{11(aq)} + H_2O_{(l)} \\xrightarrow{H^+} C_6H_{12}O_{6(aq)} + C_6H_{12}O_{6(aq)}$. \nThe rate law is Rate = $k'[C_{12}H_{22}O_{11}][H_2O]$. Since water is the solvent and is present in a huge excess, its concentration is effectively constant. The rate law becomes Rate = $k[C_{12}H_{22}O_{11}]$, where $k = k'[H_2O]$. The reaction behaves as if it were first order.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the value of $-\\frac{2.303RT}{F}$ in Nernst equation. (Sept. 2021)",
+    "answer": "The term $-\\frac{2.303RT}{F}$ appears in the Nernst equation when converting the natural logarithm (ln) to the base-10 logarithm (log). To find its value, we substitute the standard values at T = 298 K (25°C): \n- R = 8.314 J K⁻¹ mol⁻¹ \n- T = 298 K \n- F = 96485 C mol⁻¹ \nValue = $-\\frac{2.303 \\times 8.314 \\times 298}{96485} \\approx -0.0592$ V. \nSo, the value is approximately **-0.0592 V** at standard temperature (298 K).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define half life of first order reaction. Obtain the expression for half life and rate constant of the first order reaction. (March 2022)",
+    "answer": "**Half-life of a first-order reaction ($t_{1/2}$):** It is the time taken for the initial concentration of a reactant to decrease to half of its value. \n\n**Expression:** \nThe integrated rate law for a first-order reaction is $k = \\frac{2.303}{t} \\log_{10}(\\frac{[A]_0}{[A]_t})$. \nAt $t = t_{1/2}$, the concentration $[A]_t = \\frac{[A]_0}{2}$. \nSubstituting these values: \n$k = \\frac{2.303}{t_{1/2}} \\log_{10}(\\frac{[A]_0}{[A]_0/2}) = \\frac{2.303}{t_{1/2}} \\log_{10}(2)$. \nUsing the value $\\log_{10}(2) = 0.3010$: \n$k = \\frac{2.303 \\times 0.3010}{t_{1/2}} = \\frac{0.693}{t_{1/2}}$. \nTherefore, the expression is $t_{1/2} = \\frac{0.693}{k}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define the molecularity of following elementary reaction: $NO_{2(g)} + O_{3(g)} \\rightarrow NO_{3(g)} + O_{2(g)}$ (March 2022)",
+    "answer": "Molecularity is the number of reactant molecules, atoms, or ions that collide simultaneously to bring about a chemical reaction in a single (elementary) step. \nFor the given elementary reaction, the reactants are one molecule of $NO_2$ and one molecule of $O_3$. \nTherefore, the molecularity is $1 + 1 = 2$. The reaction is **bimolecular**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Show that time required for 99.9% completion of a first order reaction is three times the time required for 90% completion. (September 2021)",
+    "answer": "For a first-order reaction, $t = \\frac{2.303}{k} \\log_{10}(\\frac{[A]_0}{[A]_t})$. \n**Case 1: 99.9% completion** \nIf 99.9% is completed, 0.1% remains. So, $[A]_t = 0.001 [A]_0$, and $\\frac{[A]_0}{[A]_t} = 1000$. \n$t_{99.9\\%} = \\frac{2.303}{k} \\log_{10}(1000) = \\frac{2.303}{k} \\times 3$.  (Equation 1) \n\n**Case 2: 90% completion** \nIf 90% is completed, 10% remains. So, $[A]_t = 0.1 [A]_0$, and $\\frac{[A]_0}{[A]_t} = 10$. \n$t_{90\\%} = \\frac{2.303}{k} \\log_{10}(10) = \\frac{2.303}{k} \\times 1$. (Equation 2) \n\n**Comparison:** \nDivide Equation 1 by Equation 2: \n$\\frac{t_{99.9\\%}}{t_{90\\%}} = \\frac{(\\frac{2.303}{k} \\times 3)}{(\\frac{2.303}{k} \\times 1)} = 3$. \nTherefore, $t_{99.9\\%} = 3 \\times t_{90\\%}$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "A chemical reaction occurs in the following steps: \n(i) $NO_{(g)} + F_{2(g)} \\rightarrow NOF_{(g)} + F_{(g)}$ (slow) \n(ii) $F_{(g)} + NO_{(g)} \\rightarrow NOF_{(g)}$ (fast) \n(a) Write the equation of overall reaction. \n(b) Write down rate law. \n(c) Identify the reaction intermediate. (July 2022)",
+    "answer": "(a) **Equation of overall reaction:** Add the two steps and cancel the species that appear on both sides. \n$NO + F_2 + F + NO \\rightarrow NOF + F + NOF$. \nOverall reaction: $2NO_{(g)} + F_{2(g)} \\rightarrow 2NOF_{(g)}$. \n\n(b) **Rate law:** The rate of a multi-step reaction is determined by the slowest step (the rate-determining step). The slow step is (i): $NO_{(g)} + F_{2(g)} \\rightarrow NOF_{(g)} + F_{(g)}$. \nAssuming this is an elementary step, the rate law is written based on its molecularity: \nRate = $k[NO][F_2]$. \n\n(c) **Reaction intermediate:** The species $F_{(g)}$ is produced in the slow step (i) and consumed in the fast step (ii). It does not appear in the overall equation. Therefore, **F(g) is the reaction intermediate**.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is Pseudo first order reaction? Derive integrated rate law equation for zero order reaction. (March 2022)",
+    "answer": "**Pseudo-first-order reaction:** A reaction which is not truly first order but becomes first order under certain conditions. This usually occurs when a second-order reaction involves one reactant in a large excess, so its concentration remains effectively constant. \n\n**Derivation of integrated rate law for zero-order reaction:** \nFor a zero-order reaction R → P, the rate law is: \nRate = $-\\frac{d[R]}{dt} = k[R]^0 = k$. \nRearranging gives: $d[R] = -k dt$. \nIntegrating both sides within the limits: initial concentration $[R]_0$ at $t=0$ and concentration $[R]_t$ at time t. \n$\\int_{[R]_0}^{[R]_t} d[R] = \\int_0^t -k dt$. \n$[R]_t - [R]_0 = -k(t - 0)$. \n$[R]_t - [R]_0 = -kt$. \nThe integrated rate law is: $k = \\frac{[R]_0 - [R]_t}{t}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Show that time required for 99.9% completion of a first order reaction is three times the time required for 90% completion. (March 2023)",
+    "answer": "For a first-order reaction, the time required for a certain completion is given by $t = \\frac{2.303}{k} \\log_{10}(\\frac{a}{a-x})$, where 'a' is the initial amount and 'x' is the amount reacted. \n**For 90% completion:** $x = 0.9a$, so $a-x = 0.1a$. \n$t_{90\\%} = \\frac{2.303}{k} \\log_{10}(\\frac{a}{0.1a}) = \\frac{2.303}{k} \\log_{10}(10) = \\frac{2.303}{k}(1)$. \n**For 99.9% completion:** $x = 0.999a$, so $a-x = 0.001a$. \n$t_{99.9\\%} = \\frac{2.303}{k} \\log_{10}(\\frac{a}{0.001a}) = \\frac{2.303}{k} \\log_{10}(1000) = \\frac{2.303}{k}(3)$. \nComparing the two times: \n$\\frac{t_{99.9\\%}}{t_{90\\%}} = \\frac{\\frac{2.303}{k}(3)}{\\frac{2.303}{k}(1)} = 3$. \nHence, $t_{99.9\\%} = 3 \\times t_{90\\%}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive integrated rate law for zero order reaction. (March 2023)",
+    "answer": "A zero-order reaction is one where the rate is independent of the reactant concentration. For a reaction R → P, the differential rate law is: \nRate = $-\\frac{d[R]}{dt} = k[R]^0 = k$. \nRearranging the equation to separate variables: \n$d[R] = -k dt$. \nTo get the integrated rate law, we integrate both sides between the limits of initial concentration $[R]_0$ at time $t=0$ and concentration $[R]_t$ at time t. \n$\\int_{[R]_0}^{[R]_t} d[R] = -k \\int_0^t dt$. \n$[R]_t - [R]_0 = -k(t-0)$. \n$[R]_t - [R]_0 = -kt$. \nThis can be rearranged to the form $k = \\frac{[R]_0 - [R]_t}{t}$ or $[R]_t = -kt + [R]_0$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write Arrhenius equation. Derive an expression to determine activation energy for two different temperatures T₁ and T₂. (July 2023)",
+    "answer": "**Arrhenius Equation:** $k = A e^{-E_a/RT}$, where k is the rate constant, A is the frequency factor, $E_a$ is the activation energy, R is the gas constant, and T is the absolute temperature. \n\n**Derivation:** \nTake the natural logarithm of the Arrhenius equation: $\\ln k = \\ln A - \\frac{E_a}{RT}$. \nLet $k_1$ be the rate constant at temperature $T_1$ and $k_2$ be the rate constant at temperature $T_2$. \n(1) $\\ln k_1 = \\ln A - \\frac{E_a}{RT_1}$ \n(2) $\\ln k_2 = \\ln A - \\frac{E_a}{RT_2}$ \nSubtracting equation (1) from (2): \n$\\ln k_2 - \\ln k_1 = (\\ln A - \\frac{E_a}{RT_2}) - (\\ln A - \\frac{E_a}{RT_1})$ \n$\\ln(\\frac{k_2}{k_1}) = \\frac{E_a}{RT_1} - \\frac{E_a}{RT_2}$ \n$\\ln(\\frac{k_2}{k_1}) = \\frac{E_a}{R} [\\frac{1}{T_1} - \\frac{1}{T_2}]$. \nThis can be written in base-10 log as: $\\log_{10}(\\frac{k_2}{k_1}) = \\frac{E_a}{2.303R} [\\frac{T_2 - T_1}{T_1 T_2}]$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "For the reaction A + B → P, if [B] is doubled at constant [A], the rate of reaction doubled. If [A] is triple and [B] is doubled, the rate of reaction increases by a factor of 6. Calculate the rate law equation. (July 2023)",
+    "answer": "Let the rate law be: Rate = $k[A]^x[B]^y$. \\n**Condition 1:** [B] is doubled, rate is doubled. \n$2 \\times \\text{Rate} = k[A]^x(2[B])^y = k[A]^x 2^y [B]^y$. \n$2 \\times (k[A]^x[B]^y) = (k[A]^x[B]^y) 2^y$. \n$2 = 2^y \\implies y=1$. \nThe reaction is first order with respect to B. \n\n**Condition 2:** [A] is tripled, [B] is doubled, rate increases by a factor of 6. \n$6 \\times \\text{Rate} = k(3[A])^x(2[B])^y = k \\cdot 3^x [A]^x \\cdot 2^y [B]^y$. \n$6 \\times (k[A]^x[B]^y) = (k[A]^x[B]^y) \\cdot 3^x \\cdot 2^y$. \n$6 = 3^x \\cdot 2^y$. \nWe already know $y=1$. \n$6 = 3^x \\cdot 2^1 \\implies 3^x = 3 \\implies x=1$. \\nThe reaction is first order with respect to A.\\n\\nTherefore, the rate law equation is: **Rate = $k[A]^1[B]^1$** or **Rate = k[A][B]**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive the relation between half life period and rate constant for first order reaction. (March 2024)",
+    "answer": "The integrated rate law for a first-order reaction is $k = \\frac{2.303}{t}\\log_{10}(\\frac{[A]_0}{[A]_t})$. \nThe half-life period ($t_{1/2}$) is the time at which the reactant concentration becomes half of its initial value, i.e., $[A]_t = [A]_0 / 2$. \nSubstituting this into the equation: \n$k = \\frac{2.303}{t_{1/2}}\\log_{10}(\\frac{[A]_0}{[A]_0/2})$. \n$k = \\frac{2.303}{t_{1/2}}\\log_{10}(2)$. \nSince $\\log_{10}(2) = 0.3010$, we have: \n$k = \\frac{2.303 \\times 0.3010}{t_{1/2}} = \\frac{0.693}{t_{1/2}}$. \nThe relation is $t_{1/2} = \\frac{0.693}{k}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write two uses of neon. (March 2024)",
+    "answer": "This question appears to be from the 'p-Block Elements' chapter, not Chemical Kinetics. However, here is the answer: \n1. **Lighting:** Neon is famously used in advertising signs (neon signs), which produce a characteristic bright reddish-orange glow when electricity is passed through the gas at low pressure. \n2. **Cryogenics:** Liquid neon is used as an economical cryogenic refrigerant in applications that do not require the extremely low temperature range of liquid helium.",
+    "marks": 1
+  }
+]

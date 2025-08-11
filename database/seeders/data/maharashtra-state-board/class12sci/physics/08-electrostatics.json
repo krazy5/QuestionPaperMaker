@@ -1,0 +1,66 @@
+[
+  {
+    "type": "mcq",
+    "text": "The angle at which maximum torque is exerted by the external uniform electric field on the electric dipole is _______. (Board 2022)",
+    "options": ["$0^\\circ$", "$30^\\circ$", "$45^\\circ$", "$90^\\circ$"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A capacitor stores energy in the form of... (Board 2020)",
+    "options": ["magnetic field", "electric field", "both electric and magnetic fields", "heat"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of electric flux is... (Board 2018)",
+    "options": ["N/C", "V/m", "V·m", "N·m$^2$/C"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the distance between the plates of a parallel plate capacitor is halved, its capacity will... (Board 2016)",
+    "options": ["be halved", "be doubled", "remain the same", "become four times"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are polar dielectrics and non-polar dielectrics? (Board 2022)",
+    "answer": "Polar dielectrics are those in which the centre of positive charge and the centre of negative charge of a molecule do not coincide (e.g., HCl, H$_2$O). Non-polar dielectrics are those in which the centers of positive and negative charges coincide (e.g., H$_2$, CO$_2$).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State Gauss's law in electrostatics. (Board 2019)",
+    "answer": "Gauss's law states that the net electric flux through any closed surface is equal to $1/\\epsilon_0$ times the net charge enclosed by the surface. Formula: $\\Phi = \\oint \\vec{E} \\cdot d\\vec{s} = \\frac{Q_{enclosed}}{\\epsilon_0}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is an equipotential surface? (Board 2017)",
+    "answer": "An equipotential surface is a surface on which the electric potential is the same at every point. No work is done in moving a charge from one point to another on an equipotential surface.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Obtain an expression for the energy stored in a charged capacitor. Express it in different forms. (Board 2021)",
+    "answer": "The energy stored (U) in a capacitor is the work done to charge it. The derivation leads to $U = \\frac{1}{2}QV$. Using the relation $Q=CV$, the energy can also be expressed as $U = \\frac{1}{2}CV^2$ and $U = \\frac{Q^2}{2C}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Two capacitors each of capacity $2\\mu F$ are connected in parallel. This combination is connected in series with a third capacitor of capacity $12\\mu F$. Find the equivalent capacity of the combination. (Textbook Numerical)",
+    "answer": "The equivalent capacity of the two parallel capacitors is $C_p = C_1 + C_2 = 2 + 2 = 4\\mu F$. Now, this $C_p$ is in series with the $12\\mu F$ capacitor. The final equivalent capacity $C_{eq}$ is given by $\\frac{1}{C_{eq}} = \\frac{1}{C_p} + \\frac{1}{C_3} = \\frac{1}{4} + \\frac{1}{12} = \\frac{3+1}{12} = \\frac{4}{12} = \\frac{1}{3}$. Therefore, $C_{eq} = 3\\mu F$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the electric field intensity due to an infinitely long straight charged wire. (Board 2023)",
+    "answer": "Using Gauss's law, we consider a cylindrical Gaussian surface of radius r and length L coaxial with the wire. The electric flux through the surface is $\\Phi = E \\times (2\\pi rL)$. The charge enclosed is $q = \\lambda L$, where $\\lambda$ is the linear charge density. According to Gauss's law, $E \\times (2\\pi rL) = \\frac{\\lambda L}{\\epsilon_0}$. This gives the expression for the electric field: $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$.",
+    "marks": 4
+  }
+]

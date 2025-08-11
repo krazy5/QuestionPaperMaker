@@ -18,7 +18,6 @@
 
                     <div class="flex justify-between items-center mb-4">
                         <h3 class="text-lg font-medium text-gray-900">All Paper Blueprints</h3>
-                        {{-- This link will work in the next step --}}
                         <a href="{{ route('admin.blueprints.create') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">+ Create New Blueprint</a>
                     </div>
                     
@@ -39,8 +38,17 @@
                                         <td class="px-6 py-4 whitespace-nowrap">{{ $blueprint->board->name }}</td>
                                         <td class="px-6 py-4 whitespace-nowrap">{{ $blueprint->academicClass->name }}</td>
                                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                            {{-- This link will take us to the page to manage sections and rules --}}
-                                            <a href="{{ route('admin.blueprints.show', $blueprint) }}" class="text-indigo-600 hover:text-indigo-900">Manage Sections & Rules</a>
+                                            <a href="{{ route('admin.blueprints.show', $blueprint) }}" class="text-indigo-600 hover:text-indigo-900 mr-4">Manage Sections</a>
+                                            
+                                            {{-- Edit link is a placeholder for now --}}
+                                            <a href="#" class="text-indigo-600 hover:text-indigo-900 mr-4">Edit</a>
+                                            
+                                            {{-- Delete Form --}}
+                                            <form action="{{ route('admin.blueprints.destroy', $blueprint) }}" method="POST" class="inline">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="text-red-600 hover:text-red-900" onclick="return confirm('Are you sure you want to delete this entire blueprint?')">Delete</button>
+                                            </form>
                                         </td>
                                     </tr>
                                 @empty

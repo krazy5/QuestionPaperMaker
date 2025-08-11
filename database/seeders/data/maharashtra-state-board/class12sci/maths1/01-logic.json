@@ -1,44 +1,372 @@
 [
-          { "text": "Construct the truth table for the statement $(p \\rightarrow q) \\land q$ (march 2022).", "answer": "The final column of the truth table is T, F, T, T. It is a contingency.", "marks": 3, "type": "long" },
-          { "text": "Write the negation of the statement: \"$\\forall x \\in N, x+7 > 6$\".", "answer": "The negation is \"$\\exists x \\in N$, such that $x+7 \\leq 6$\".", "marks": 2, "type": "long" },
-          { "text": "Examine whether the statement pattern $(p \\land q) \\rightarrow (p \\lor q)$ is a tautology, contradiction or contingency.", "answer": "The statement is a tautology as the final column in its truth table is always T.", "marks": 3, "type": "long" },
-          { "text": "Using truth tables, prove the logical equivalence $p \\leftrightarrow q \\equiv (p \\rightarrow q) \\land (q \\rightarrow p)$.", "answer": "The truth tables for both LHS and RHS are identical (T, F, F, T), hence they are logically equivalent.", "marks": 4, "type": "long" },
-          { "text": "Write the converse, inverse, and contrapositive of the statement 'If it rains, then the match will be cancelled.'", "answer": "Converse: If the match is cancelled, then it rains. Inverse: If it does not rain, then the match will not be cancelled. Contrapositive: If the match is not cancelled, then it does not rain.", "marks": 3, "type": "long" },
-          { "text": "Without using truth table, show that $(p \\lor q) \\land (\\sim p \\land \\sim q)$ is a contradiction.", "answer": "Using distributive law, we get $(p \\land \\sim p \\land \\sim q) \\lor (q \\land \\sim p \\land \\sim q)$. This simplifies to $(c \\land \\sim q) \\lor (c \\land \\sim p)$, which is $c \\lor c \\equiv c$.", "marks": 4, "type": "long" },
-          { "text": "Write the symbolic form of the statement 'An angle is a right angle if and only if it is of measure $90^\\circ$'.", "answer": "Let p: An angle is a right angle. q: It is of measure $90^\\circ$. Symbolic form: $p \\leftrightarrow q$.", "marks": 2, "type": "long" },
-          { "text": "Determine the truth value of the following statement: 'If $3+5=7$, then $4+2=6$.'", "answer": "Here the hypothesis is false (F) and conclusion is true (T). The implication $F \\rightarrow T$ is True. So the truth value is T.", "marks": 2, "type": "long" },
-          { "text": "Write the dual of the statement $(p \\lor q) \\land T$.", "answer": "To find the dual, we replace $\\lor$ with $\\land$, and T with c (contradiction). The dual is $(p \\land q) \\lor c$.", "marks": 2, "type": "long" },
-          { "text": "Check if the statements $\\sim(p \\lor q)$ and $\\sim p \\land \\sim q$ are logically equivalent using a truth table.", "answer": "Yes, the truth tables for both statements are identical (F, F, F, T). This is De Morgan's Law.", "marks": 3, "type": "long" },
-          { "text": "Construct a switching circuit for the statement $(p \\land q) \\lor (\\sim p \\land r)$.", "answer": "Two parallel branches. The first branch has switches P and Q in series. The second branch has switch P' (negation of P) and R in series.", "marks": 4, "type": "long" },
-          { "text": "Simplify the switching circuit for the statement $(p \\lor q) \\land (p \\lor \\sim q)$.", "answer": "Using Distributive law: $p \\lor (q \\land \\sim q) \\equiv p \\lor c \\equiv p$. The simplified circuit is just a single switch P.", "marks": 3, "type": "long" },
-          { "text": "If $p$ and $q$ are true and $r$ is false, find the truth value of $(p \\land \\sim r) \\rightarrow (\\sim q \\lor r)$.", "answer": "$(T \\land T) \\rightarrow (F \\lor F) \\equiv T \\rightarrow F \\equiv F$. The truth value is False.", "marks": 3, "type": "long" },
-          { "text": "Show that $\\sim(p \\rightarrow \\sim q) \\equiv p \\land q$ without using a truth table.", "answer": "$\\sim(p \\rightarrow \\sim q) \\equiv \\sim(\\sim p \\lor \\sim q) \\equiv \\sim(\\sim p) \\land \\sim(\\sim q) \\equiv p \\land q$.", "marks": 3, "type": "long" },
-          { "text": "Write the negation of 'Some teachers are sincere'.", "answer": "The negation is 'No teachers are sincere' or 'All teachers are insincere'.", "marks": 2, "type": "long" },
-          { "text": "Is the statement 'The sun rises in the west' a statement in logic? Give reason.", "answer": "Yes, it is a statement in logic because it is a declarative sentence which is definitively false.", "marks": 2, "type": "long" },
-          { "text": "Construct the truth table for $(p \\land q) \\lor \\sim r$.", "answer": "The final column of the truth table when read from top to bottom (TTT to FFF) is T, T, T, F, T, F, T, F.", "marks": 4, "type": "long" },
-          { "text": "Write the negation of the statement: 'For every real number $x$, $x^2 \\ge 0$'.", "answer": "The negation is 'There exists a real number $x$ such that $x^2 < 0$'.", "marks": 2, "type": "long" },
-          { "text": "Given the statement 'If a quadrilateral is a rhombus, then it is a square'. Write its converse and contrapositive.", "answer": "Converse: 'If a quadrilateral is a square, then it is a rhombus'. Contrapositive: 'If a quadrilateral is not a square, then it is not a rhombus'.", "marks": 3, "type": "long" },
-          { "text": "Using laws of logic, simplify $p \\lor (q \\land \\sim p)$.", "answer": "Using Distributive Law: $(p \\lor q) \\land (p \\lor \\sim p) \\equiv (p \\lor q) \\land T \\equiv p \\lor q$.", "marks": 3, "type": "long" },
-          { "text": "Check for tautology: $[(p \\rightarrow q) \\land q] \\rightarrow p$.", "answer": "This is not a tautology. When p is F and q is T, the statement is false. This is the Fallacy of the Converse.", "marks": 3, "type": "long" },
-          { "text": "Write the negation of '$\\exists x \\in R$ such that $x^2+1=0$'.", "answer": "The negation is '$\\forall x \\in R, x^2+1 \\neq 0$'.", "marks": 2, "type": "long" },
-          { "text": "The statement $p \\rightarrow q$ is equivalent to:", "type": "mcq", "options": ["$\\sim p \\lor q$", "$p \\lor \\sim q$", "$\\sim p \\land q$", "$p \\land \\sim q$"], "correct_answer": "A", "marks": 1 },
-          { "text": "Which of the following is a tautology?", "type": "mcq", "options": ["$p \\lor \\sim p$", "$p \\land \\sim p$", "$p \\rightarrow \\sim p$", "$p \\leftrightarrow \\sim p$"], "correct_answer": "A", "marks": 1 },
-          { "text": "The dual of $(p \\land q) \\lor T$ is:", "type": "mcq", "options": ["$(p \\lor q) \\land c$", "$(p \\lor q) \\land T$", "$(\\sim p \\lor \\sim q) \\land c$", "$(p \\land q) \\lor c$"], "correct_answer": "A", "marks": 1 },
-          { "text": "The converse of 'If I work hard, then I will succeed' is:", "type": "mcq", "options": ["If I succeed, then I work hard.", "If I don't work hard, then I won't succeed.", "If I don't succeed, then I don't work hard.", "I work hard and I succeed."], "correct_answer": "A", "marks": 1 },
-          { "text": "The inverse of $p \\rightarrow q$ is:", "type": "mcq", "options": ["$q \\rightarrow p$", "$\\sim p \\rightarrow \\sim q$", "$\\sim q \\rightarrow \\sim p$", "$p \\lor q$"], "correct_answer": "B", "marks": 1 },
-          { "text": "The contrapositive of $p \\rightarrow q$ is:", "type": "mcq", "options": ["$q \\rightarrow p$", "$\\sim p \\rightarrow \\sim q$", "$\\sim q \\rightarrow \\sim p$", "$\\sim p \\lor \\sim q$"], "correct_answer": "C", "marks": 1 },
-          { "text": "If $p$ is true and $q$ is false, then $p \\leftrightarrow q$ is:", "type": "mcq", "options": ["True", "False", "Both", "Neither"], "correct_answer": "B", "marks": 1 },
-          { "text": "The negation of 'All students are hardworking' is:", "type": "mcq", "options": ["All students are not hardworking", "Some students are not hardworking", "No student is hardworking", "Some students are hardworking"], "correct_answer": "B", "marks": 1 },
-          { "text": "The negation of $p \\land (q \\rightarrow r)$ is:", "type": "mcq", "options": ["$\\sim p \\lor (\\sim q \\lor r)$", "$\\sim p \\land (q \\land \\sim r)$", "$\\sim p \\lor (q \\land \\sim r)$", "$p \\lor (\\sim q \\land r)$"], "correct_answer": "C", "marks": 1 },
-          { "text": "The symbolic form of 'It is not true that I am not happy' is:", "type": "mcq", "options": ["$p$", "$\\sim p$", "$\\sim (\\sim p)$", "$p \\land \\sim p$"], "correct_answer": "C", "marks": 1 },
-          { "text": "Which of the following is NOT a statement in logic?", "type": "mcq", "options": ["The sky is blue.", "Please close the door.", "$2+2=4$.", "Mumbai is the capital of India."], "correct_answer": "B", "marks": 1 },
-          { "text": "The absorption law is given by:", "type": "mcq", "options": ["$p \\lor (p \\land q) \\equiv p$", "$p \\land (p \\lor q) \\equiv q$", "$p \\lor (q \\lor r) \\equiv (p \\lor q) \\lor r$", "$p \\land T \\equiv p$"], "correct_answer": "A", "marks": 1 },
-          { "text": "The truth value of 'If $2$ is a prime number, then $3$ is an odd number' is:", "type": "mcq", "options": ["True", "False", "Cannot be determined", "Both True and False"], "correct_answer": "A", "marks": 1 },
-          { "text": "The statement $(p \\lor q) \\lor (\\sim p \\land \\sim q)$ is a:", "type": "mcq", "options": ["Tautology", "Contradiction", "Contingency", "None of the above"], "correct_answer": "A", "marks": 1 },
-          { "text": "The negation of '$\\forall x, x > 5$' is:", "type": "mcq", "options": ["$\\exists x, x \\le 5$", "$\\exists x, x > 5$", "$\\forall x, x \\le 5$", "$\\forall x, x < 5$"], "correct_answer": "A", "marks": 1 },
-          { "text": "The statement $(p \\rightarrow q) \\leftrightarrow (\\sim q \\rightarrow \\sim p)$ is a tautology.", "type": "true_false", "answer": "True", "marks": 1 },
-          { "text": "The negation of a statement is logically equivalent to its converse.", "type": "true_false", "answer": "False", "marks": 1 },
-          { "text": "The truth value of 'If the Earth is a planet, then the sun is a star' is True.", "type": "true_false", "answer": "True", "marks": 1 },
-          { "text": "The dual of a statement is its negation.", "type": "true_false", "answer": "False", "marks": 1 },
-          { "text": "A statement pattern which is always false is called a contingency.", "type": "true_false", "answer": "False", "marks": 1 }
-        ]
+  {
+    "type": "mcq",
+    "text": "If $p \\land q$ is false and $p \\lor q$ is true, then which of the following is not true?",
+    "options": ["$p \\lor q$", "$p \\leftrightarrow q$", "$\\sim p \\lor \\sim q$", "$q \\lor \\sim p$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$(p \\land q) \\rightarrow r$ is logically equivalent to...",
+    "options": ["$p \\rightarrow (q \\rightarrow r)$", "$(p \\land q) \\rightarrow \\sim r$", "$(\\sim p \\lor \\sim q) \\rightarrow \\sim r$", "$(p \\lor q) \\rightarrow r$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Inverse of statement pattern $(p \\lor q) \\rightarrow (p \\land q)$ is:",
+    "options": ["$(p \\land q) \\rightarrow (p \\lor q)$", "$\\sim(p \\lor q) \\rightarrow (p \\land q)$", "$(\\sim p \\land \\sim q) \\rightarrow (\\sim p \\lor \\sim q)$", "$(\\sim p \\land \\sim q) \\rightarrow (\\sim p \\land \\sim q)$"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $p \\land q$ is F, and $p \\rightarrow q$ is F, then the truth values of p and q are:",
+    "options": ["T, T", "T, F", "F, T", "F, F"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The negation of inverse of $\\sim p \\rightarrow q$ is:",
+    "options": ["$q \\land p$", "$\\sim p \\land \\sim q$", "$p \\land q$", "$\\sim q \\rightarrow \\sim p$"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The negation of $p \\land (q \\rightarrow r)$ is:",
+    "options": ["$\\sim p \\land (\\sim q \\rightarrow \\sim r)$", "$p \\lor (\\sim q \\lor r)$", "$\\sim p \\lor (q \\land \\sim r)$", "$\\sim p \\lor (\\sim q \\land \\sim r)$"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $A = \\{1, 2, 3, 4, 5\\}$, then which of the following is not true?",
+    "options": ["$\\exists x \\in A$ such that $x+3=8$", "$\\exists x \\in A$ such that $x+2<9$", "$\\forall x \\in A, x+6 \\ge 9$", "$\\exists x \\in A$ such that $x+6<10$"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which of the following is a statement in logic? Justify. '4! = 24'",
+    "answer": "It is a statement. It is a declarative sentence which is true. Truth value: T.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which of the following is a statement in logic? Justify. '$\\pi$ is an irrational number.'",
+    "answer": "It is a statement. It is a declarative sentence which is true. Truth value: T.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which of the following is a statement in logic? Justify. 'India is a country and Himalayas is a river.'",
+    "answer": "It is a statement. It is a declarative sentence which is false because Himalayas is not a river. Truth value: F.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which of the following is a statement in logic? Justify. 'Please get me a glass of water.'",
+    "answer": "It is not a statement. It is an imperative sentence (a request).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which of the following is a statement in logic? Justify. '$\\cos^2\\theta - \\sin^2\\theta = \\cos(2\\theta)$ for all $\\theta \\in R$'",
+    "answer": "It is a statement. It is a declarative sentence which is a true trigonometric identity. Truth value: T.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which of the following is a statement in logic? Justify. 'If x is a whole number then $x+6=0$'",
+    "answer": "It is an open statement, as its truth value depends on the value of x.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the truth value of: '$\\sqrt{5}$ is an irrational number but $3\\sqrt{5}$ is a complex number.'",
+    "answer": "Let p: $\\sqrt{5}$ is irrational (True).<br>Let q: $3\\sqrt{5}$ is complex (True).<br>The truth value of p ^ q is T.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the truth value of: '$\\forall n \\in N, n^2+n$ is an even number while $n^2-n$ is an odd number.'",
+    "answer": "Let p: $\\forall n \\in N, n^2+n$ is even (True).<br>Let q: $\\forall n \\in N, n^2-n$ is odd (False).<br>The truth value of p ^ q is F.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the truth value of: '$\\exists n \\in N$ such that $n+5>10$.'",
+    "answer": "The statement is True. For example, if n=6, 6+5=11 > 10.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the truth value of: 'The square of any even number is odd or the cube of any odd number is odd.'",
+    "answer": "Let p: The square of any even number is odd (False).<br>Let q: The cube of any odd number is odd (True).<br>The truth value of p v q is T.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the truth value of: 'In $\\triangle ABC$ if all sides are equal then its all angles are equal.'",
+    "answer": "This is a true statement (an equilateral triangle is also equiangular). Truth value: T.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the truth value of: '$\\forall n \\in N, n+6>8$'",
+    "answer": "The statement is False. For n=1, 1+6=7 is not greater than 8.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "If $A=\\{1,2,3,4,5,6,7,8,9\\}$, determine the truth value of: '$\\exists x \\in A$ such that $x+8=15$'.",
+    "answer": "The statement is True. For $x=7 \\in A$, the condition $7+8=15$ is satisfied.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "If $A=\\{1,2,3,4,5,6,7,8,9\\}$, determine the truth value of: '$\\forall x \\in A, x+5<12$'.",
+    "answer": "The statement is False. For $x=7 \\in A$, $7+5=12$, which is not less than 12.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "If $A=\\{1,2,3,4,5,6,7,8,9\\}$, determine the truth value of: '$\\exists x \\in A$ such that $x+7 \\ge 11$'.",
+    "answer": "The statement is True. For $x=4 \\in A$, $4+7=11$, which is greater than or equal to 11.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "If $A=\\{1,2,3,4,5,6,7,8,9\\}$, determine the truth value of: '$\\forall x \\in A, 3x \\le 25$'.",
+    "answer": "The statement is False. For $x=9 \\in A$, $3(9)=27$, which is not less than or equal to 25.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the negation of: '$\\forall n \\in A, n+7>6$'.",
+    "answer": "The negation is: '$\\exists n \\in A$ such that $n+7 \\le 6$'.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the negation of: '$\\exists x \\in A$ such that $x+9 \\le 15$'.",
+    "answer": "The negation is: '$\\forall x \\in A, x+9 > 15$'.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the negation of: 'Some triangles are equilateral triangle.'",
+    "answer": "The negation is: 'No triangles are equilateral triangle' or 'All triangles are not equilateral.'",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Construct the truth table for: $p \\rightarrow (q \\rightarrow p)$.",
+    "answer": "The statement pattern is a tautology. The final column is always True. <br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><thead><tr><th>p</th><th>q</th><th>q → p</th><th>p → (q → p)</th></tr></thead><tbody><tr><td>T</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td></tr></tbody></table>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Construct the truth table for: $(\\sim p \\lor \\sim q) \\leftrightarrow [\\sim(p \\land q)]$.",
+    "answer": "The statement pattern is a tautology. The final column is always True. <br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><thead><tr><th>p</th><th>q</th><th>~p</th><th>~q</th><th>~p v ~q</th><th>p ^ q</th><th>~(p ^ q)</th><th>(~p v ~q) ↔ [~(p ^ q)]</th></tr></thead><tbody><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td></tr></tbody></table>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Construct the truth table for: $\\sim(\\sim p \\land \\sim q) \\lor q$.",
+    "answer": "The final column of the truth table is T, T, T, F. It is a contingency.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Construct the truth table for: $[(p \\land q) \\lor r] \\land [\\sim r \\lor (p \\land q)]$.",
+    "answer": "The final column of the truth table is T, F, T, F, F, F, F, F. It is a contingency.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Construct the truth table for: $[(\\sim p \\lor q) \\land (q \\rightarrow r)] \\rightarrow (p \\rightarrow r)$.",
+    "answer": "The statement pattern is a tautology. The final column is always True.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $[(p \\rightarrow q) \\land \\sim q] \\rightarrow \\sim p$.",
+    "answer": "The statement pattern is a tautology. The final column in its truth table is always True.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $[(p \\lor q) \\land \\sim p] \\land \\sim q$.",
+    "answer": "The statement pattern is a contradiction. The final column in its truth table is always False.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $(p \\rightarrow q) \\land (p \\land \\sim q)$.",
+    "answer": "The statement pattern is a contradiction. The final column in its truth table is always False.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $[p \\rightarrow (q \\rightarrow r)] \\leftrightarrow [(p \\land q) \\rightarrow r]$.",
+    "answer": "The statement pattern is a tautology. The final column in its truth table is always True.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $[p \\rightarrow (p \\rightarrow q)] \\rightarrow q$.",
+    "answer": "The statement pattern is a tautology. The final column in its truth table is always True.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $(p \\land q) \\lor (\\sim p \\land q) \\lor (p \\land \\sim q) \\lor (\\sim p \\land \\sim q)$.",
+    "answer": "The statement pattern is a tautology. The final column in its truth table is always True.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $[(p \\lor \\sim q) \\lor (\\sim p \\land q)] \\land r$.",
+    "answer": "The statement pattern is a contingency. Its truth value depends on the truth value of r.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $(p \\rightarrow q) \\lor (q \\rightarrow p)$.",
+    "answer": "The statement pattern is a tautology. The final column in its truth table is always True.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Determine the truth values of p and q if $(p \\lor q)$ is T and $(p \\land q)$ is T.",
+    "answer": "For $(p \\land q)$ to be T, both p and q must be T.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Determine the truth values of p and q if $(p \\lor q)$ is T and $(p \\lor q) \\rightarrow q$ is F.",
+    "answer": "Step 1: For an implication to be F, the hypothesis must be T and the conclusion F.<br>Step 2: Therefore, $(p \\lor q)$ is T and $q$ is F.<br>Step 3: For $(p \\lor F)$ to be T, p must be T.<br>Step 4: So, p is T and q is F.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Determine the truth values of p and q if $(p \\land q)$ is F and $(p \\land q) \\rightarrow q$ is T.",
+    "answer": "This case has multiple solutions.<br>Case 1: If p=T, q=F, then (F → F) is T.<br>Case 2: If p=F, q=T, then (F → T) is T.<br>Case 3: If p=F, q=F, then (F → F) is T.<br>The truth values cannot be uniquely determined.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Using truth tables prove the logical equivalence: $p \\leftrightarrow q \\equiv (p \\land q) \\lor (\\sim p \\land \\sim q)$.",
+    "answer": "The truth table columns for $p \\leftrightarrow q$ and $(p \\land q) \\lor (\\sim p \\land \\sim q)$ are identical (T, F, F, T), proving the equivalence.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Using truth tables prove the logical equivalence: $(p \\land q) \\rightarrow r \\equiv p \\rightarrow (q \\rightarrow r)$.",
+    "answer": "The truth table columns for $(p \\land q) \\rightarrow r$ and $p \\rightarrow (q \\rightarrow r)$ are identical (T, T, T, T, T, T, T, T), proving the equivalence.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Using rules of logic, prove that $p \\leftrightarrow q \\equiv \\sim(p \\land \\sim q) \\land \\sim(q \\land \\sim p)$.",
+    "answer": "Step 1: Start with the definition: $p \\leftrightarrow q \\equiv (p \\rightarrow q) \\land (q \\rightarrow p)$.<br>Step 2: Apply the conditional law: $\\equiv (\\sim p \\lor q) \\land (\\sim q \\lor p)$.<br>Step 3: Consider the RHS: $\\sim(p \\land \\sim q) \\land \\sim(q \\land \\sim p)$.<br>Step 4: Apply De Morgan's Law: $\\equiv (\\sim p \\lor \\sim(\\sim q)) \\land (\\sim q \\lor \\sim(\\sim p))$.<br>Step 5: Apply the double negation law: $\\equiv (\\sim p \\lor q) \\land (\\sim q \\lor p)$.<br>Step 6: Since LHS = RHS, the equivalence is proved.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Using rules of logic, prove that $\\sim p \\land q \\equiv (p \\lor q) \\land \\sim p$.",
+    "answer": "Step 1: Start with the RHS: $(p \\lor q) \\land \\sim p$.<br>Step 2: Apply the Distributive Law: $(\\sim p \\land p) \\lor (\\sim p \\land q)$.<br>Step 3: Apply the Complement Law: $c \\lor (\\sim p \\land q)$, where c is a contradiction.<br>Step 4: Apply the Identity Law: $\\sim p \\land q$, which is the LHS.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Using rules of logic, prove that $\\sim(p \\lor q) \\lor (\\sim p \\land q) \\equiv \\sim p$.",
+    "answer": "Step 1: Start with the LHS: $\\sim(p \\lor q) \\lor (\\sim p \\land q)$.<br>Step 2: Apply De Morgan's Law: $\\equiv (\\sim p \\land \\sim q) \\lor (\\sim p \\land q)$.<br>Step 3: Apply the Distributive Law: $\\equiv \\sim p \\land (\\sim q \\lor q)$.<br>Step 4: Apply the Complement Law: $\\equiv \\sim p \\land T$.<br>Step 5: Apply the Identity Law: $\\equiv \\sim p$, which is the RHS.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Using the rules in logic, write the negation of $p \\land (q \\lor r)$.",
+    "answer": "$\\sim[p \\land (q \\lor r)] \\equiv \\sim p \\lor \\sim(q \\lor r) \\equiv \\sim p \\lor (\\sim q \\land \\sim r)$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Using the rules in logic, write the negation of $(p \\rightarrow q) \\land r$.",
+    "answer": "$\\sim[(p \\rightarrow q) \\land r] \\equiv \\sim(p \\rightarrow q) \\lor \\sim r \\equiv \\sim(\\sim p \\lor q) \\lor \\sim r \\equiv (p \\land \\sim q) \\lor \\sim r$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Using the rules in logic, write the negation of $(\\sim p \\land q) \\lor (p \\land \\sim q)$.",
+    "answer": "$\\sim[(\\sim p \\land q) \\lor (p \\land \\sim q)] \\equiv \\sim(\\sim p \\land q) \\land \\sim(p \\land \\sim q) \\equiv (p \\lor \\sim q) \\land (\\sim p \\lor q)$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Express the following circuit in symbolic form and prepare the switching table.",
+    "image": "circuit-fig-1.30.png",
+    "answer": "Let p: S1 is closed, q: S2 is closed.<br>Symbolic form: $(p \\land q) \\lor (\\sim p \\land q) \\lor (p \\land \\sim q)$.<br>Simplified form is $p \\lor q$.<br>The lamp will be ON if at least one switch is ON.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Express the following circuit in symbolic form and prepare the switching table.",
+    "image": "circuit-fig-1.31.png",
+    "answer": "Let p: S1 is closed, q: S2 is closed, r: S3 is closed.<br>Symbolic form: $(p \\lor q) \\land (p \\lor r)$.<br>The lamp will be ON if S1 is ON, or if both S2 and S3 are ON.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Simplify the following circuit so that the new circuit has minimum number of switches.",
+    "image": "circuit-fig-1.32.png",
+    "answer": "Step 1: Write the symbolic form: $(p \\land q \\land \\sim r) \\lor (p \\land \\sim q \\land \\sim r) \\lor (\\sim p \\land \\sim q \\land \\sim r)$.<br>Step 2: Factor out $\\sim r$: $[(p \\land q) \\lor (p \\land \\sim q) \\lor (\\sim p \\land \\sim q)] \\land \\sim r$.<br>Step 3: Simplify the inner bracket: $[p \\lor (\\sim p \\land \\sim q)] \\land \\sim r \\equiv (p \\lor \\sim q) \\land \\sim r$.<br>Step 4: The simplified circuit has switch P in parallel with switch Q', and this combination is in series with switch R'.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Simplify the following circuit so that the new circuit has minimum number of switches.",
+    "image": "circuit-fig-1.33.png",
+    "answer": "Step 1: Write the symbolic form: $[(p \\lor q \\lor r) \\land (p \\lor s \\lor t)] \\land [p \\lor u \\lor v]$.<br>Step 2: Apply the Distributive Law: $p \\lor [(q \\lor r) \\land (s \\lor t) \\land (u \\lor v)]$.<br>Step 3: The simplified circuit has switch P in parallel with a series of three parallel blocks.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Check whether the following switching circuits are logically equivalent. Justify. Circuit A (Fig 1.34) and Circuit B (Fig 1.35).",
+    "image": "circuit-fig-1.34-1.35.png",
+    "answer": "Circuit A: $p \\land (q \\lor r)$.<br>Circuit B: $(p \\land q) \\lor (p \\land r)$.<br>By the distributive law, $p \\land (q \\lor r) \\equiv (p \\land q) \\lor (p \\land r)$.<br>Therefore, the circuits are logically equivalent.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Check whether the following switching circuits are logically equivalent. Justify. Circuit A (Fig 1.36) and Circuit B (Fig 1.37).",
+    "image": "circuit-fig-1.36-1.37.png",
+    "answer": "Circuit A: $(p \\lor q) \\land (p \\lor r)$.<br>Circuit B: $p \\lor (q \\land r)$.<br>By the distributive law, $p \\lor (q \\land r) \\equiv (p \\lor q) \\land (p \\lor r)$.<br>Therefore, the circuits are logically equivalent.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Give an alternative arrangement of the following circuit so that it has minimum switches.",
+    "image": "circuit-fig-1.38.png",
+    "answer": "Step 1: Write the symbolic form: $(p \\land q) \\lor (\\sim p \\land q) \\lor (p \\land \\sim q)$.<br>Step 2: Simplify the expression: This simplifies to $p \\lor q$.<br>Step 3: The alternative arrangement is a simple parallel circuit with switches P and Q.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Simplify the following circuit so that the new circuit has minimum switches.",
+    "image": "circuit-fig-1.39.png",
+    "answer": "Step 1: Write the symbolic form: $(p \\land q \\land r) \\lor (p \\land \\sim q \\land r) \\lor (p \\land q \\land \\sim r)$.<br>Step 2: Factor out $p$: $p \\land [(q \\land r) \\lor (\\sim q \\land r) \\lor (q \\land \\sim r)]$.<br>Step 3: Simplify the inner bracket: $p \\land (q \\lor r)$.<br>Step 4: The simplified circuit has switch P in series with a parallel combination of switches Q and R.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Represent the following switching circuit in symbolic form and construct its switching table. Write your conclusion from the switching table.",
+    "image": "circuit-fig-1.40.png",
+    "answer": "Let p: S1, q: S2, r: S3.<br>Symbolic form: $[p \\land (q \\lor r)] \\lor [\\sim r \\land \\sim q \\land p]$.<br>This simplifies to $p \\land [(q \\lor r) \\lor (\\sim q \\land \\sim r)] \\equiv p \\land [(q \\lor r) \\lor \\sim(q \\lor r)] \\equiv p \\land T \\equiv p$.<br>The lamp will be ON if and only if switch S1 is ON.",
+    "marks": 4
+  }
+]

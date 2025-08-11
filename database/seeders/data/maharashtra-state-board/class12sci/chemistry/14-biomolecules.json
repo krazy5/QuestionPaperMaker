@@ -1,0 +1,218 @@
+[
+  {
+    "type": "short",
+    "text": "Write the structures of nucleotide and nucleoside. (March 2013)",
+    "answer": "**Nucleoside:** A nucleoside is formed by the condensation of a pentose sugar (ribose or deoxyribose) with a nitrogenous base (purine or pyrimidine). The sugar is linked to the base via an N-glycosidic bond. \nStructure: (Nitrogenous Base) — (Pentose Sugar) \n\n**Nucleotide:** A nucleotide is the phosphate ester of a nucleoside. It is formed when a phosphate group is attached to the 5'-hydroxyl group of the pentose sugar in a nucleoside. Nucleotides are the building blocks of nucleic acids (DNA and RNA). \nStructure: (Nitrogenous Base) — (Pentose Sugar) — (Phosphate Group)",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Enlist the properties of glucose that cannot be explained on the basis of open chain structure of it. (Oct. 2013)",
+    "answer": "The following properties of glucose cannot be explained by its open-chain structure: \n1.  Despite having an aldehyde group, glucose does not give the 2,4-DNP test, Schiff's test, and it does not form a bisulfite addition product with $NaHSO_3$. \n2.  The pentaacetate of glucose does not react with hydroxylamine, indicating the absence of a free -CHO group. \n3.  Glucose exists in two different crystalline forms, α-glucose and β-glucose, which have different melting points and optical rotations. \n4.  Glucose exhibits mutarotation, which is the change in the specific optical rotation of an aqueous solution of either α- or β-glucose until a constant equilibrium value is reached.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What happens when glucose is treated with- (a) Bromine water (b) Dilute nitric acid (c) Hydrogen cyanide (HCN). (March 2014)",
+    "answer": "(a) **Bromine water:** Bromine water is a mild oxidizing agent. It oxidizes the aldehyde group (-CHO) of glucose to a carboxylic acid group (-COOH), forming gluconic acid. The rest of the molecule remains unchanged. \n   $CHO-(CHOH)_4-CH_2OH \\xrightarrow{Br_2/H_2O} COOH-(CHOH)_4-CH_2OH$ \n\n(b) **Dilute nitric acid:** Dilute nitric acid is a strong oxidizing agent. It oxidizes both the aldehyde group (-CHO) at C1 and the primary alcohol group ($-CH_2OH$) at C6 to carboxylic acid groups, forming a dicarboxylic acid called saccharic acid. \n   $CHO-(CHOH)_4-CH_2OH \\xrightarrow{HNO_3} COOH-(CHOH)_4-COOH$ \n\n(c) **Hydrogen cyanide (HCN):** HCN adds across the carbonyl double bond of the aldehyde group of glucose in a nucleophilic addition reaction to form a cyanohydrin. \n   $CHO-(CHOH)_4-CH_2OH + HCN \\rightarrow CH(OH)(CN)-(CHOH)_4-CH_2OH$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Describe laboratory method for preparation of glucose. Write the reaction that indicates the presence of -CHO group in glucose. (Oct. 2014)",
+    "answer": "**Laboratory Preparation of Glucose (from Sucrose):** \nGlucose is prepared in the laboratory by the acid-catalyzed hydrolysis of sucrose (cane sugar). Sucrose is boiled with a dilute solution of hydrochloric acid (HCl) or sulfuric acid ($H_2SO_4$). Sucrose is a disaccharide that, upon hydrolysis, breaks down into one molecule of glucose and one molecule of fructose. \n$C_{12}H_{22}O_{11} \\text{ (Sucrose)} + H_2O \\xrightarrow{H^+, \\Delta} C_6H_{12}O_6 \\text{ (Glucose)} + C_6H_{12}O_6 \\text{ (Fructose)}$ \n\n**Reaction indicating the presence of -CHO group:** \nThe reaction of glucose with a mild oxidizing agent like **bromine water** confirms the presence of an aldehyde group. Glucose is oxidized to gluconic acid, while the bromine water is decolorized. \n$CHO-(CHOH)_4-CH_2OH + Br_{2(aq)} + H_2O \\rightarrow COOH-(CHOH)_4-CH_2OH + 2HBr$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Draw the simple Fischer projection formulae of D-(+)-glucose and D-(-)-fructose. (Oct. 2014)",
+    "answer": "**D-(+)-Glucose (Fischer Projection):** \nThis is an aldohexose. The structure is a six-carbon chain with an aldehyde group at the top (C1) and a primary alcohol group at the bottom (C6). The orientation of the -OH groups on the chiral carbons is: \n- C2: -OH on the right \n- C3: -OH on the left \n- C4: -OH on the right \n- C5: -OH on the right \n\n**D-(-)-Fructose (Fischer Projection):** \nThis is a ketohexose. The structure is a six-carbon chain with a primary alcohol group at the top (C1), a ketone group at C2, and another primary alcohol group at the bottom (C6). The orientation of the -OH groups on the chiral carbons is: \n- C3: -OH on the left \n- C4: -OH on the right \n- C5: -OH on the right",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How are proteins classified on the basis of molecular shapes? (March 2015)",
+    "answer": "On the basis of their molecular shape, proteins are classified into two main types: \n1.  **Fibrous Proteins:** These proteins consist of long, thread-like polypeptide chains that are held together side-by-side by hydrogen and disulfide bonds, forming a fiber-like structure. They are generally insoluble in water. Examples include keratin (in hair, wool) and collagen (in skin, tendons). \n2.  **Globular Proteins:** These proteins have polypeptide chains that are folded and coiled into a compact, spherical or globular shape. They are generally soluble in water. Examples include insulin, albumin, and most enzymes.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define carbohydrates. What are reducing and non-reducing sugars? (March 2015)",
+    "answer": "**Carbohydrates:** Carbohydrates are optically active polyhydroxy aldehydes or polyhydroxy ketones, or substances that produce such units upon hydrolysis. They are also known as saccharides. \n\n**Reducing Sugars:** These are carbohydrates that contain a free aldehyde or a free α-hydroxy ketone group. They can reduce oxidizing agents like Tollens' reagent or Fehling's solution. All monosaccharides (e.g., glucose, fructose) and most disaccharides (e.g., maltose, lactose) are reducing sugars. \n\n**Non-reducing Sugars:** These are carbohydrates that do not have a free aldehyde or ketone group because their anomeric carbons are involved in the glycosidic bond. They do not reduce Tollens' or Fehling's solution. Example: Sucrose.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are monosaccharides? Draw ring structure of α-D-(+)-glucopyranose? (Oct. 2015)",
+    "answer": "**Monosaccharides:** These are the simplest form of carbohydrates, often called simple sugars. They are polyhydroxy aldehydes or ketones that cannot be hydrolyzed further into smaller carbohydrate units. Examples include glucose, fructose, and ribose. \n\n**Ring Structure of α-D-(+)-Glucopyranose (Haworth Projection):** \nThe structure is a six-membered ring (a pyranose ring) containing five carbon atoms and one oxygen atom. \n- The ring is drawn as a hexagon, viewed from the side and slightly tilted. \n- The carbon atoms are numbered clockwise, starting from the anomeric carbon (C1) to the right of the ring oxygen. \n- The orientation of the hydroxyl (-OH) groups is as follows: \n  - C1: The anomeric -OH group is pointing **down** (this defines it as α). \n  - C2: -OH group is pointing **down**. \n  - C3: -OH group is pointing **up**. \n  - C4: -OH group is pointing **down**. \n  - C5: The $-CH_2OH$ group is pointing **up** (this defines it as D-glucose).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is peptide linkage? How is tripeptide formed? (Oct. 2015)",
+    "answer": "**Peptide Linkage:** A peptide linkage (or peptide bond) is an amide bond ($-CO-NH-$) formed between two amino acid molecules. It is formed when the carboxyl group (-COOH) of one amino acid reacts with the amino group ($-NH_2$) of another amino acid, with the elimination of a water molecule. \n\n**Formation of a Tripeptide:** A tripeptide is formed by linking three amino acid molecules together via two peptide bonds. First, two amino acids join to form a dipeptide. Then, the dipeptide reacts with a third amino acid molecule. The carboxyl group of the dipeptide reacts with the amino group of the third amino acid (or vice versa) to form a second peptide bond, resulting in a tripeptide.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are carbohydrates? (March 2016)",
+    "answer": "Carbohydrates are a class of naturally occurring organic compounds that are optically active polyhydroxy aldehydes or polyhydroxy ketones, or larger molecules that can be hydrolyzed to form such units. They serve as a major source of energy in living organisms and as structural components. Their general formula is often represented as $C_x(H_2O)_y$.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the action of following reagents on glucose? (a) Bromine water (b) Dilute HNO₃ (c) Hydroxyl amine. (July 2016, 2018)",
+    "answer": "(a) **Bromine water:** This is a mild oxidizing agent. It oxidizes the aldehyde group (-CHO) of glucose to a carboxylic acid group (-COOH), forming gluconic acid. \n   $CHO-(CHOH)_4-CH_2OH \\xrightarrow{Br_2/H_2O} COOH-(CHOH)_4-CH_2OH$ \n\n(b) **Dilute HNO₃:** Nitric acid is a strong oxidizing agent. It oxidizes both the aldehyde group and the primary alcohol group of glucose to carboxylic acid groups, forming saccharic acid. \n   $CHO-(CHOH)_4-CH_2OH \\xrightarrow{HNO_3} COOH-(CHOH)_4-COOH$ \n\n(c) **Hydroxylamine ($NH_2OH$):** Glucose reacts with hydroxylamine to form an oxime, confirming the presence of a carbonyl group. \n   $CHO-(CHOH)_4-CH_2OH + NH_2OH \\rightarrow CH=NOH-(CHOH)_4-CH_2OH + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is the glucose prepared from sucrose? (March 2009, 2017; July 2022)",
+    "answer": "Glucose is prepared from sucrose (cane sugar) by **acid-catalyzed hydrolysis**. Sucrose is a disaccharide. When an aqueous solution of sucrose is boiled with a dilute acid, such as hydrochloric acid (HCl) or sulfuric acid ($H_2SO_4$), the glycosidic bond is broken. This hydrolysis reaction yields an equimolar mixture of D-glucose and D-fructose. \n\n**Reaction:** \n$C_{12}H_{22}O_{11} \\text{ (Sucrose)} + H_2O \\xrightarrow{H^+, \\Delta} C_6H_{12}O_6 \\text{ (Glucose)} + C_6H_{12}O_6 \\text{ (Fructose)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define enzymes. How is peptide linkage formed? (July 2017)",
+    "answer": "**Enzymes:** Enzymes are biological catalysts. They are highly specific, complex protein molecules that speed up the rate of biochemical reactions in living organisms without being consumed in the process. \n\n**Formation of Peptide Linkage:** A peptide linkage is an amide bond ($-CO-NH-$) that is formed when the carboxyl group (-COOH) of one amino acid molecule reacts with the amino group ($-NH_2$) of another amino acid molecule. This is a condensation reaction, involving the elimination of a molecule of water. \n$H_2N-CHR-COOH + H_2N-CHR'-COOH \\rightarrow H_2N-CHR-CO-NH-CHR'-COOH + H_2O$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What happens when glucose is treated with: (a) Hydroxylamine (b) Hydrogen cyanide. (July 2017)",
+    "answer": "(a) **Hydroxylamine ($NH_2OH$):** Glucose reacts with hydroxylamine via its aldehyde group. It undergoes a condensation reaction to form glucose oxime, with the elimination of a water molecule. This reaction confirms the presence of a carbonyl group in glucose. \n   $CHO-(CHOH)_4-CH_2OH + NH_2OH \\rightarrow CH=NOH-(CHOH)_4-CH_2OH + H_2O$ \n\n(b) **Hydrogen cyanide (HCN):** Glucose undergoes a nucleophilic addition reaction with hydrogen cyanide. The cyanide ion adds to the carbonyl carbon of the aldehyde group to form glucose cyanohydrin. This reaction adds a carbon atom to the glucose chain. \n   $CHO-(CHOH)_4-CH_2OH + HCN \\rightarrow CH(OH)(CN)-(CHOH)_4-CH_2OH$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is glucose prepared from cane suger? (March 2018)",
+    "answer": "Glucose is prepared from cane sugar (sucrose) by hydrolysis. Sucrose is boiled with a dilute acid, like sulfuric acid ($H_2SO_4$) or hydrochloric acid (HCl), in an alcoholic solution. The hydrolysis breaks the glycosidic linkage in sucrose, yielding one molecule of glucose and one molecule of fructose. \n$C_{12}H_{22}O_{11} \\text{ (Sucrose)} + H_2O \\xrightarrow{H^+, \\Delta} C_6H_{12}O_6 \\text{ (Glucose)} + C_6H_{12}O_6 \\text{ (Fructose)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are amino acids? Write the correct reaction for formation of peptide bond between amino acids. (March 2018)",
+    "answer": "**Amino Acids:** Amino acids are organic compounds that contain both an amino group ($-NH_2$) and a carboxyl group ($-COOH$). They are the monomers (building blocks) of proteins. The general structure is $R-CH(NH_2)-COOH$. \n\n**Reaction for Peptide Bond Formation:** \nA peptide bond is formed by a condensation reaction between the carboxyl group of one amino acid and the amino group of another, with the elimination of a water molecule. \n\n$H_2N-CHR-COOH + H_2N-CHR'-COOH \\rightarrow H_2N-CHR-CO-NH-CHR'-COOH + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is glucose prepared from starch? (July 2018)",
+    "answer": "Glucose is prepared commercially from starch by hydrolysis. Starch is a polysaccharide. It is boiled with dilute sulfuric acid ($H_2SO_4$) at a high temperature (393 K) and under pressure. The hydrolysis reaction breaks down the large starch polymer into its constituent glucose monomer units. The excess acid is then neutralized with chalk ($CaCO_3$). \n\n**Reaction:** \n$(C_6H_{10}O_5)_n \\text{ (Starch)} + nH_2O \\xrightarrow{H^+, 393K, pressure} nC_6H_{12}O_6 \\text{ (Glucose)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of Thyamine. (July 2018)",
+    "answer": "The question likely means **Thymine**, a nitrogenous base, or **Thiamine** (Vitamin B1). \n\n**Structure of Thymine:** \nThymine is a pyrimidine base found in DNA. Its structure is a six-membered heterocyclic ring containing two nitrogen atoms (at positions 1 and 3) and two keto groups (at positions 2 and 4). A methyl group is attached to carbon 5. \n\n**Structure of Thiamine (Vitamin B1):** \nThiamine has a more complex structure, consisting of a pyrimidine ring and a thiazole ring linked by a methylene bridge.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the number of hydroxyl groups present in α-D-(+)-Glucopyranose (trans). (March 2019)",
+    "answer": "The structure of α-D-(+)-Glucopyranose has a total of **five** hydroxyl (-OH) groups. Four of these are secondary alcohol groups attached to the ring carbons (C1, C2, C3, C4), and one is a primary alcohol group in the $-CH_2OH$ substituent at C5.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "How is glucose prepared by commercial method? How is peptide linkage formed? (March 2019)",
+    "answer": "**Commercial Preparation of Glucose:** \nGlucose is manufactured commercially by the hydrolysis of starch. Starch is boiled with dilute sulfuric acid at 393 K under pressure. This breaks down the starch polysaccharide into glucose monomers. \n$(C_6H_{10}O_5)_n \\text{ (Starch)} + nH_2O \\xrightarrow{H^+, \\Delta} nC_6H_{12}O_6 \\text{ (Glucose)}$ \n\n**Formation of Peptide Linkage:** \nA peptide linkage (or bond) is an amide bond ($-CO-NH-$) formed when the carboxyl group (-COOH) of one amino acid condenses with the amino group ($-NH_2$) of another, eliminating a molecule of water.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define enzyme. (July 2019)",
+    "answer": "An enzyme is a biological catalyst, almost always a protein, that speeds up the rate of a specific biochemical reaction without itself being changed in the overall process. Enzymes are highly specific and efficient.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "How are the following conversion carried out? (i) Glucose into n-hexane (ii) Glucose into glucoxime? (July 2019)",
+    "answer": "(i) **Glucose into n-hexane:** \nThis conversion proves that the six carbon atoms in glucose are in a straight, unbranched chain. Glucose is heated for a prolonged period with a strong reducing agent, hydroiodic acid (HI) in the presence of red phosphorus. \n$CHO-(CHOH)_4-CH_2OH \\xrightarrow{HI, Red P, \\Delta} CH_3-(CH_2)_4-CH_3$ \n\n(ii) **Glucose into glucoxime:** \nThis reaction confirms the presence of a carbonyl group. Glucose is treated with hydroxylamine ($NH_2OH$). The aldehyde group reacts to form an oxime. \n$CHO-(CHOH)_4-CH_2OH + NH_2OH \\rightarrow CH=NOH-(CHOH)_4-CH_2OH + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write Haworth projection formula of α-D-(+)-glucopyranose. Define hormones. (March 2020)",
+    "answer": "**Haworth Projection of α-D-(+)-Glucopyranose:** \nThis is a six-membered pyranose ring. The -OH group on the anomeric carbon (C1) is in the **axial** position (pointing down). The -OH on C2 is down, C3 is up, C4 is down, and the $-CH_2OH$ group on C5 is up. \n\n**Hormones:** \nHormones are chemical messengers produced by endocrine (ductless) glands in multicellular organisms. They are transported by the bloodstream to target organs or cells, where they regulate various physiological processes and behaviors, such as growth, metabolism, and reproduction.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are monosaccharides? Explain denaturation of proteins. (March 2020)",
+    "answer": "**Monosaccharides:** These are the simplest carbohydrates (simple sugars) that cannot be hydrolyzed into smaller units. They are optically active polyhydroxy aldehydes (aldoses) or polyhydroxy ketones (ketoses). Examples include glucose and fructose. \n\n**Denaturation of Proteins:** This is a process in which a protein loses its native three-dimensional structure (secondary, tertiary, and quaternary structures) due to the application of an external stress or chemical agent, such as heat, change in pH, or presence of organic solvents. During denaturation, the protein unfolds, and its biological activity is lost. However, the primary structure (the sequence of amino acids) remains intact.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the name of sugar present in RNA. (Sept. 2021)",
+    "answer": "The sugar present in RNA (Ribonucleic acid) is **D-ribose**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write classification of proteins on the basis of molecular shapes with examples. (Sept. 2021)",
+    "answer": "On the basis of molecular shape, proteins are classified into two main types: \n1.  **Fibrous Proteins:** These proteins have long, fiber-like structures formed by polypeptide chains running parallel to each other. They are held together by hydrogen and disulfide bonds and are generally insoluble in water. They provide structural support. \n    Example: Keratin (in hair and nails), Collagen (in connective tissue). \n2.  **Globular Proteins:** These proteins have polypeptide chains that are folded into a compact, spherical or globular shape. They are usually soluble in water and have functional roles (e.g., as enzymes or hormones). \n    Example: Insulin, Albumin, Hemoglobin.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain formation of peptide linkage in protein with an example. (March 2022)",
+    "answer": "A peptide linkage (or peptide bond) is the amide bond ($-CO-NH-$) that chemically links amino acids together to form polypeptide chains in proteins. It is formed by a condensation reaction where the carboxyl group ($-COOH$) of one amino acid reacts with the amino group ($-NH_2$) of another amino acid. This process involves the elimination of one molecule of water. \n\n**Example (Formation of Glycylalanine):** \nLet's take two amino acids, Glycine ($H_2N-CH_2-COOH$) and Alanine ($H_2N-CH(CH_3)-COOH$). \n$H_2N-CH_2-COOH + H_2N-CH(CH_3)-COOH \\rightarrow H_2N-CH_2-CO-NH-CH(CH_3)-COOH + H_2O$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write commercial method of preparation of glucose. Write structure of adipic acid. (March 2022)",
+    "answer": "**Commercial Method of Preparation of Glucose:** \nCommercially, glucose is manufactured on a large scale by the hydrolysis of starch. Starch is obtained from sources like corn, rice, or potatoes. A slurry of starch is boiled with dilute sulfuric acid ($H_2SO_4$) at 393 K under a pressure of 2-3 atm. The hydrolysis breaks down the polysaccharide into glucose monomers. \n$(C_6H_{10}O_5)_n \\text{ (Starch)} + nH_2O \\xrightarrow{H^+, 393K, pressure} nC_6H_{12}O_6 \\text{ (Glucose)}$ \n\n**Structure of Adipic Acid:** \nAdipic acid is a dicarboxylic acid. Its IUPAC name is Hexanedioic acid. \nStructure: $HOOC-(CH_2)_4-COOH$. It consists of a four-carbon chain with a carboxyl group at each end.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is denaturation of protein? (July 2022)",
+    "answer": "Denaturation of a protein is the process where the protein loses its unique three-dimensional structure (secondary, tertiary, and quaternary levels of organization) and consequently its biological activity. This is caused by exposure to external factors like extreme heat, changes in pH, or certain chemicals. While the primary structure (sequence of amino acids) remains intact, the unfolding of the protein renders it non-functional.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write chemical reaction for the preparation of glucose from sucrose. Write structure of D-ribose. (March 2023)",
+    "answer": "**Preparation of Glucose from Sucrose:** \nGlucose is prepared by the acid-catalyzed hydrolysis of sucrose. \n$C_{12}H_{22}O_{11} \\text{ (Sucrose)} + H_2O \\xrightarrow{H^+, \\Delta} C_6H_{12}O_6 \\text{ (Glucose)} + C_6H_{12}O_6 \\text{ (Fructose)}$ \n\n**Structure of D-Ribose (Fischer Projection):** \nD-Ribose is an aldopentose. Its structure is a five-carbon chain with an aldehyde group at C1 and a primary alcohol group at C5. The -OH groups on the chiral carbons (C2, C3, C4) are all on the **right** side.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is peptide bond. (March 2023)",
+    "answer": "A peptide bond (or peptide linkage) is an amide type of covalent chemical bond ($-CO-NH-$) that links two consecutive amino acid monomers along a peptide or protein chain. It is formed via a condensation reaction between the carboxyl group of one amino acid and the amino group of another.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the structure of glycine. (July 2023)",
+    "answer": "Glycine is the simplest amino acid. Its structure has a central carbon atom (the α-carbon) bonded to: \n- An amino group ($-NH_2$) \n- A carboxyl group ($-COOH$) \n- Two hydrogen atoms (-H) \nFormula: $H_2N-CH_2-COOH$. \nIt is the only common amino acid that is not chiral.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "How is glucose prepared from sucrose? (July 2023)",
+    "answer": "Glucose is prepared from sucrose by hydrolysis. Sucrose is a disaccharide, and when it is boiled with a dilute mineral acid like HCl or $H_2SO_4$, the glycosidic linkage breaks, yielding an equimolar mixture of glucose and fructose. \n$C_{12}H_{22}O_{11} + H_2O \\xrightarrow{H^+, \\Delta} C_6H_{12}O_6 + C_6H_{12}O_6$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw the Fischer projection formula for α-D-(t)-glucose. (July 2023)",
+    "answer": "The Fischer projection represents the open-chain form of glucose, not the α- or β-anomers which exist in the cyclic form. The question is likely asking for the Fischer projection of **D-(+)-glucose**. \n\n**Fischer Projection of D-(+)-Glucose:** \n- A vertical six-carbon chain. \n- C1 at the top is an aldehyde group (-CHO). \n- C6 at the bottom is a primary alcohol group ($-CH_2OH$). \n- The hydroxyl groups (-OH) on the chiral carbons are positioned as follows: \n  - C2: Right \n  - C3: Left \n  - C4: Right \n  - C5: Right",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write classification of proteins with an example. (March 2024)",
+    "answer": "Proteins can be classified based on their molecular shape: \n1.  **Fibrous Proteins:** These consist of long, parallel polypeptide chains forming fibers or sheets. They are insoluble in water and provide structural support. \n    Example: **Keratin** (in hair, nails), **Collagen** (in skin, bones). \n2.  **Globular Proteins:** These have polypeptide chains that are tightly folded into compact, spherical shapes. They are generally soluble in water and have metabolic functions. \n    Example: **Insulin** (hormone), **Haemoglobin** (oxygen transport), **Enzymes**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are enzymes? (March 2024)",
+    "answer": "Enzymes are highly specialized proteins that act as biological catalysts. They accelerate the rate of biochemical reactions within living organisms by providing an alternative reaction pathway with a lower activation energy. They are highly specific in their action and are not consumed during the reaction.",
+    "marks": 1
+  }
+]

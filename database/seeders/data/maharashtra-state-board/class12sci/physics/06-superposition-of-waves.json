@@ -1,0 +1,91 @@
+[
+  {
+    "type": "mcq",
+    "text": "When two waves interfere, there is a change in the distribution of... (Board 2023)",
+    "options": ["energy", "frequency", "wavelength", "amplitude"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of beats is produced by the superposition of two waves of... (Board 2021)",
+    "options": ["same amplitude and same frequency", "different amplitudes and same frequency", "same amplitude and slightly different frequencies", "different amplitudes and different frequencies"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a stationary wave, the distance between a node and its adjacent antinode is... (Board 2019)",
+    "options": ["$\\lambda$", "$\\lambda/2$", "$\\lambda/4$", "$2\\lambda$"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For a stationary wave set up in a string having both ends fixed, what is the ratio of the fundamental frequency to the third harmonic? (Board 2020)",
+    "options": ["1:3", "3:1", "1:9", "9:1"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of beats produced per second is equal to the... (Board 2016)",
+    "options": ["sum of the frequencies", "difference of the frequencies", "product of the frequencies", "ratio of the frequencies"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are beats? (Board 2024)",
+    "answer": "Beats are the periodic variations in the intensity of sound produced by the superposition of two sound waves having slightly different frequencies.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a stationary wave? (Board 2022)",
+    "answer": "A stationary wave is produced when two identical progressive waves travelling along the same path but in opposite directions interfere with each other.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define 'antinode'. (Board 2018)",
+    "answer": "An antinode is a point in a stationary wave where the amplitude of vibration is maximum.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are harmonics and overtones? (Board 2021)",
+    "answer": "Harmonics are integral multiples of the fundamental frequency. Overtones are the frequencies that are actually present above the fundamental frequency.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State the conditions for constructive and destructive interference of light waves. (Board 2017)",
+    "answer": "For constructive interference, the path difference must be an integral multiple of the wavelength ($n\\lambda$). For destructive interference, the path difference must be an odd integral multiple of half the wavelength ($(2n-1)\\lambda/2$).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A sonometer wire of length 1 m is stretched by a weight of 10 kg. The fundamental frequency of vibration is 100 Hz. Calculate the linear density of the wire. (g = 9.8 m/s$^2$) (Textbook Numerical)",
+    "answer": "Fundamental frequency $n = \\frac{1}{2L}\\sqrt{\\frac{T}{m}}$. Tension $T = 10 \\times 9.8 = 98$ N. Length $L=1$ m. $100 = \\frac{1}{2 \\times 1}\\sqrt{\\frac{98}{m}}$. Squaring both sides, $10000 = \\frac{1}{4} \\frac{98}{m}$. This gives linear density $m = \\frac{98}{40000} = 0.00245$ kg/m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Two tuning forks having frequencies 320 Hz and 340 Hz are sounded together to produce sound waves. The velocity of sound in air is 340 m/s. Find the difference in wavelength of these waves. (Board 2023)",
+    "answer": "For the first fork, $\\lambda_1 = v/n_1 = 340/320 = 1.0625$ m. For the second fork, $\\lambda_2 = v/n_2 = 340/340 = 1$ m. The difference in wavelength is $\\Delta\\lambda = \\lambda_1 - \\lambda_2 = 1.0625 - 1 = 0.0625$ m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Show that for a pipe closed at one end, only odd harmonics are present. (Board 2022)",
+    "answer": "For a pipe closed at one end, the closed end is a node and the open end is an antinode. The length of the air column is $L = (2p-1)\\lambda/4$. The fundamental frequency is for p=1, $n_1 = v/4L$. The next possible frequency (first overtone) is for p=2, $n_2 = 3v/4L = 3n_1$. The next is $n_3 = 5v/4L = 5n_1$. The frequencies are in the ratio 1:3:5..., hence only odd harmonics are present.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "State the laws of vibrating strings. (Board 2016)",
+    "answer": "The three laws of vibrating strings are: 1) Law of Length: The fundamental frequency is inversely proportional to the length of the string ($n \\propto 1/L$). 2) Law of Tension: The fundamental frequency is directly proportional to the square root of the tension ($n \\propto \\sqrt{T}$). 3) Law of Linear Density: The fundamental frequency is inversely proportional to the square root of the linear density ($n \\propto 1/\\sqrt{m}$).",
+    "marks": 3
+  }
+]

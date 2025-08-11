@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mcq",
+    "text": "The magnetic field at the centre of a circular coil carrying current is... (Board 2023)",
+    "options": ["inversely proportional to the radius", "directly proportional to the radius", "inversely proportional to the square of the radius", "directly proportional to the square of the radius"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A charge q is moving in a uniform magnetic field B. The magnetic force acting on it is... (Board 2021)",
+    "options": ["$\\vec{F} = q(\\vec{v} \\times \\vec{B})$", "$\\vec{F} = q(\\vec{B} \\times \\vec{v})$", "$\\vec{F} = q\\vec{v} / \\vec{B}$", "$\\vec{F} = q\\vec{B} / \\vec{v}$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The force on a closed circuit in a magnetic field is... (Board 2022)",
+    "options": ["always zero", "always non-zero", "zero if the field is uniform", "zero if the field is non-uniform"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Ampere's circuital law. (Board 2024)",
+    "answer": "Ampere's circuital law states that the line integral of the magnetic field $\\vec{B}$ around any closed path in vacuum is equal to $\\mu_0$ times the total current I enclosed by the path. Formula: $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a solenoid? (Board 2020)",
+    "answer": "A solenoid is a long coil of wire wound in the form of a helix. When a current passes through it, it produces a nearly uniform magnetic field inside its core.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain the term 'magnetic dipole moment'. (Board 2018)",
+    "answer": "The magnetic dipole moment of a current loop is a vector quantity defined as the product of the current (I) flowing through the loop and the area (A) of the loop. Its direction is perpendicular to the plane of the loop, given by the right-hand thumb rule.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A solenoid of length $\\pi$ m and 5 cm in diameter has a winding of 1000 turns and carries a current of 5 A. Calculate the magnetic field at its centre. ($\\mu_0 = 4\\pi \\times 10^{-7}$ Wb/Am) (Board 2024)",
+    "answer": "The number of turns per unit length is $n = N/L = 1000/\\pi$. The magnetic field at the centre of a long solenoid is $B = \\mu_0 n I = (4\\pi \\times 10^{-7}) \\times (1000/\\pi) \\times 5 = 4 \\times 10^{-7} \\times 1000 \\times 5 = 2 \\times 10^{-3}$ T.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Currents of equal magnitude pass through two long parallel wires having a separation of 1.35 cm. If the force per unit length on each of the wires is $4.76 \\times 10^{-2}$ N/m, what must be the current I? (Textbook Numerical)",
+    "answer": "The force per unit length between two parallel wires is given by $\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$. Since $I_1 = I_2 = I$, we have $\\frac{F}{L} = \\frac{\\mu_0 I^2}{2\\pi d}$. Rearranging for I: $I = \\sqrt{\\frac{F}{L} \\frac{2\\pi d}{\\mu_0}} = \\sqrt{4.76 \\times 10^{-2} \\times \\frac{2\\pi \\times 0.0135}{4\\pi \\times 10^{-7}}} \\approx 56.6$ A.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain Biot-Savart's Law. (Board 2021)",
+    "answer": "Biot-Savart's law gives the magnetic field produced due to a current-carrying element. It states that the magnetic field $d\\vec{B}$ at a point P due to a small current element $Id\\vec{l}$ is directly proportional to the current I, the length of the element $dl$, the sine of the angle $\\theta$ between the element and the line joining the element to P, and inversely proportional to the square of the distance r. Formula: $d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{Id\\vec{l} \\times \\vec{r}}{r^3}$.",
+    "marks": 4
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "type": "short",
+    "text": "Derive the relationship between pH and pOH. (Sept. 2021, March 2022)",
+    "answer": "The ionic product of water, $K_w$, is given by the product of the concentrations of hydronium ions and hydroxide ions. \n$K_w = [H_3O^+][OH^-]$. \nAt 298 K (25°C), the value of $K_w$ is $1.0 \\times 10^{-14}$. \nTaking the negative logarithm to the base 10 on both sides: \n$-\\log_{10}(K_w) = -\\log_{10}([H_3O^+][OH^-])$. \n$-\\log_{10}(K_w) = -\\log_{10}[H_3O^+] + (-\\log_{10}[OH^-])$. \nBy definition, $pK_w = -\\log_{10}(K_w)$, $pH = -\\log_{10}[H_3O^+]$, and $pOH = -\\log_{10}[OH^-]$. \nSubstituting these into the equation gives: $pK_w = pH + pOH$. \nSince $K_w = 1.0 \\times 10^{-14}$, its negative logarithm, $pK_w$, is 14. \nTherefore, the final relationship is $pH + pOH = 14$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'Solubility product'. Derive the relationship between solubility and solubility product for PbI₂. (Sept. 2021)",
+    "answer": "Solubility product ($K_{sp}$) is defined as the equilibrium constant for a sparingly soluble salt. For a saturated solution, it is the product of the molar concentrations of its constituent ions, with each concentration term raised to the power of its stoichiometric coefficient in the balanced equilibrium equation. \n\nFor $PbI_2$, the dissociation equilibrium in a saturated solution is: \n$PbI_{2(s)} \\rightleftharpoons Pb^{2+}_{(aq)} + 2I^{-}_{(aq)}$. \nLet 'S' be the molar solubility of $PbI_2$ in mol/L. According to the stoichiometry: \n$[Pb^{2+}] = S$ \n$[I^-] = 2S$ \nThe solubility product expression is: \n$K_{sp} = [Pb^{2+}][I^-]^2$. \nSubstituting the equilibrium concentrations in terms of S: \n$K_{sp} = (S)(2S)^2 = S(4S^2) = 4S^3$. \nThus, the relationship is $K_{sp} = 4S^3$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Calculate the pH of buffer solution composed of 0.01 M weak base BOH and 0.02 M of its salt BA. [Kᵦ = 1.8 x 10⁻⁵ for weak base] (March 2022)",
+    "answer": "Given: Concentration of weak base [Base] = $[BOH] = 0.01$ M. \nConcentration of its salt [Salt] = $[BA] = 0.02$ M. \nBase dissociation constant $K_b = 1.8 \\times 10^{-5}$. \nFirst, we calculate pOH using the Henderson-Hasselbalch equation for a basic buffer: \n$pOH = pK_b + \\log_{10} \\frac{[Salt]}{[Base]}$. \nCalculate $pK_b$: \n$pK_b = -\\log_{10}(K_b) = -\\log_{10}(1.8 \\times 10^{-5}) = -(\\log_{10}1.8 - 5) = 5 - 0.2553 = 4.7447$. \nNow, substitute the values into the equation: \n$pOH = 4.7447 + \\log_{10} \\frac{0.02}{0.01} = 4.7447 + \\log_{10}(2) = 4.7447 + 0.3010 = 5.0457$. \nFinally, calculate pH using the relation $pH + pOH = 14$: \n$pH = 14 - pOH = 14 - 5.0457 = 8.9543$. \nThe pH of the buffer solution is approximately 8.95. (Note: The answer '13.95' in the image is incorrect).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The pH of solution is 3.12. Calculate the concentration of H₃O⁺ ion. (July 2022)",
+    "answer": "Given: $pH = 3.12$. \nThe relationship between pH and the hydronium ion concentration, $[H_3O^+]$, is given by the formula: \n$pH = -\\log_{10}[H_3O^+]$. \nTo find the concentration, we rearrange the formula: \n$[H_3O^+] = 10^{-pH}$. \n$[H_3O^+] = 10^{-3.12}$. \nTo solve this, we can write $10^{-3.12} = 10^{0.88 - 4} = 10^{0.88} \\times 10^{-4}$. \n$[H_3O^+] = \\text{antilog}(0.88) \\times 10^{-4}$. \n$[H_3O^+] = 7.586 \\times 10^{-4}$ M. \nThe concentration of H₃O⁺ ions is $7.59 \\times 10^{-4}$ mol/L.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive an expression of Ostwald's dilution law for weak acid. (July 2022)",
+    "answer": "Consider a weak monoprotic acid, HA, with initial concentration 'C' mol/L, that dissociates partially in water. Let '$\\alpha$' be its degree of dissociation. \nThe equilibrium is: \n$HA_{(aq)} \\rightleftharpoons H^+_{(aq)} + A^-_{(aq)}$ \nInitial concentration: C, 0, 0 \nEquilibrium concentration: $C(1-\\alpha)$, $C\\alpha$, $C\\alpha$ \nThe acid dissociation constant, $K_a$, for this equilibrium is given by: \n$K_a = \\frac{[H^+][A^-]}{[HA]} = \\frac{(C\\alpha)(C\\alpha)}{C(1-\\alpha)} = \\frac{C^2\\alpha^2}{C(1-\\alpha)} = \\frac{C\\alpha^2}{1-\\alpha}$. \nFor a weak acid, the degree of dissociation $\\alpha$ is very small compared to 1. Therefore, we can make the approximation $(1-\\alpha) \\approx 1$. \nThe expression simplifies to $K_a \\approx C\\alpha^2$. This is Ostwald's dilution law for a weak acid.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define: Acidic buffer solution. Write the relationship between solubility and solubility product for PbCl₂. (March 2023)",
+    "answer": "**Acidic buffer solution:** An acidic buffer is a solution that resists changes in pH upon the addition of a small amount of acid or base. It is typically prepared by mixing a weak acid with its salt of a strong base (e.g., acetic acid, $CH_3COOH$, and sodium acetate, $CH_3COONa$). \n\n**Relationship for PbCl₂:** \nThe dissociation equilibrium for lead(II) chloride is: \n$PbCl_{2(s)} \\rightleftharpoons Pb^{2+}_{(aq)} + 2Cl^{-}_{(aq)}$. \nIf 'S' is the molar solubility of $PbCl_2$, then at equilibrium: \n$[Pb^{2+}] = S$ and $[Cl^{-}] = 2S$. \nThe solubility product is given by $K_{sp} = [Pb^{2+}][Cl^{-}]^2$. \nSubstituting the concentrations: $K_{sp} = (S)(2S)^2 = 4S^3$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A weak monobasic acid is 10% dissociated in 0.05 M solution. What is percent dissociation in 0.15 M solution? (March 2023)",
+    "answer": "For a weak monobasic acid, we can use Ostwald's dilution law, $K_a \\approx C\\alpha^2$, where $K_a$ is the acid dissociation constant, C is the concentration, and $\\alpha$ is the degree of dissociation. \n**Step 1: Calculate $K_a$ from the first condition.** \nGiven: $C_1 = 0.05$ M, Percent dissociation = 10%, so $\\alpha_1 = 0.10$. \n$K_a = C_1\\alpha_1^2 = 0.05 \\times (0.10)^2 = 0.05 \\times 0.01 = 5 \\times 10^{-4}$. \n\n**Step 2: Calculate the new degree of dissociation ($\\alpha_2$) for the second condition.** \nGiven: $C_2 = 0.15$ M. $K_a$ remains the same for the acid. \n$K_a = C_2\\alpha_2^2$. \n$\\alpha_2^2 = \\frac{K_a}{C_2} = \\frac{5 \\times 10^{-4}}{0.15} \\approx 3.333 \\times 10^{-3}$. \n$\\alpha_2 = \\sqrt{3.333 \\times 10^{-3}} \\approx 0.0577$. \n\n**Step 3: Convert to percent dissociation.** \nPercent dissociation = $\\alpha_2 \\times 100 = 0.0577 \\times 100 = 5.77\\%$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive Ostwald's dilution law equation for weak acid. (July 2023)",
+    "answer": "Consider a weak acid HA with initial concentration C and degree of dissociation $\\alpha$. The equilibrium is: $HA \\rightleftharpoons H^+ + A^-$. \nAt equilibrium, the concentrations are: $[HA] = C(1-\\alpha)$, $[H^+] = C\\alpha$, and $[A^-] = C\\alpha$. \nThe acid dissociation constant ($K_a$) expression is: \n$K_a = \\frac{[H^+][A^-]}{[HA]} = \\frac{(C\\alpha)(C\\alpha)}{C(1-\\alpha)} = \\frac{C\\alpha^2}{1-\\alpha}$. \nSince the acid is weak, its dissociation is very small, so $\\alpha \\ll 1$. This allows the approximation $1-\\alpha \\approx 1$. \nTherefore, the equation simplifies to $K_a = C\\alpha^2$. This is Ostwald's dilution law.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define: Buffer solution. Write any four applications of buffer solution. (July 2023)",
+    "answer": "**Buffer solution:** A solution which resists a change in its pH value upon dilution or on the addition of a small amount of either acid or base. \n\n**Four applications of buffer solutions:** \n1.  **Biochemical Systems:** The pH of blood is maintained at approximately 7.4 by the carbonic acid-bicarbonate buffer system ($H_2CO_3/HCO_3^-$). This is crucial for the proper functioning of enzymes. \n2.  **Pharmaceuticals:** Buffers are added to many medicines, especially injections and eye drops, to maintain a specific pH for stability, effectiveness, and to prevent irritation. \n3.  **Industrial Processes:** Buffers are essential in industries like leather tanning, paper manufacturing, electroplating, and the production of dyes, where a constant pH is required for the processes to work correctly. \n4.  **Analytical Chemistry:** In chemical analysis and instrument calibration, standard buffer solutions are used to calibrate pH meters.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain buffer action of sodium acetate-acetic acid buffer. (March 2024)",
+    "answer": "A sodium acetate-acetic acid buffer contains a high concentration of weak acid, acetic acid ($CH_3COOH$), and its conjugate base, the acetate ion ($CH_3COO^-$), from the salt sodium acetate. \n1.  **When a small amount of acid ($H^+$) is added:** The added $H^+$ ions are neutralized by the large reserve of acetate ions present in the buffer, forming weakly dissociated acetic acid. The equilibrium shifts to the left. \n    $CH_3COO^-_{(aq)} + H^+_{(aq)} \\rightarrow CH_3COOH_{(aq)}$ \n    This prevents a significant decrease in the pH. \n2.  **When a small amount of base ($OH^-$) is added:** The added $OH^-$ ions are neutralized by the acetic acid molecules in the buffer to form water and acetate ions. \n    $CH_3COOH_{(aq)} + OH^-_{(aq)} \\rightarrow CH_3COO^-_{(aq)} + H_2O_{(l)}$ \n    This prevents a significant increase in the pH.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define acids and bases according to Bronsted-Lowry theory. Derive relationship between pH and OH. (March 2024)",
+    "answer": "**Bronsted-Lowry Theory:** \n-   A **Bronsted-Lowry acid** is a chemical species that donates a proton ($H^+$). \n-   A **Bronsted-Lowry base** is a chemical species that accepts a proton ($H^+$). \n\n**Derivation of pH and pOH relationship:** \nThe self-ionization of water produces hydronium ($H_3O^+$) and hydroxide ($OH^-$) ions. The ionic product of water, $K_w$, is given by: \n$K_w = [H_3O^+][OH^-]$. \nAt 298 K, $K_w = 1.0 \\times 10^{-14}$. \nTaking the negative logarithm of both sides: \n$-\\log_{10}(K_w) = -\\log_{10}([H_3O^+][OH^-])$. \n$-\\log_{10}(K_w) = -\\log_{10}[H_3O^+] - \\log_{10}[OH^-]$. \nUsing the definitions $pK_w = -\\log_{10}(K_w)$, $pH = -\\log_{10}[H_3O^+]$, and $pOH = -\\log_{10}[OH^-]$, we get: \n$pK_w = pH + pOH$. \nSubstituting the value of $pK_w$: \n$14 = pH + pOH$.",
+    "marks": 3
+  }
+]

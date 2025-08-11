@@ -1,0 +1,344 @@
+[
+  {
+    "type": "short",
+    "text": "State Kohlrausch law and write mathematical expression of molar conductivity of the given solution at infinite dilution. (March 2013)",
+    "answer": "Kohlrausch's law of independent migration of ions states that at infinite dilution, the molar conductivity of an electrolyte is the sum of the individual molar ionic conductivities of its constituent cations and anions. \n\nMathematical Expression: For an electrolyte $A_x B_y$ that dissociates into 'x' cations ($A^{y+}$) and 'y' anions ($B^{x-}$), the molar conductivity at infinite dilution ($\\Lambda_m^0$) is given by: \n$\\Lambda_m^0 = x \\lambda_+^0 + y \\lambda_-^0$. \nWhere $\\lambda_+^0$ and $\\lambda_-^0$ are the molar ionic conductivities of the cation and anion at infinite dilution, respectively.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the cell reactions in lead storage battery during discharge. (March 2013)",
+    "answer": "In a lead storage battery during discharge, the following reactions occur: \n-   **Anode (Oxidation):** Spongy lead is oxidized to lead(II) sulfate. \n    $Pb_{(s)} + SO_4^{2-}_{(aq)} \\rightarrow PbSO_{4(s)} + 2e^-$ \n-   **Cathode (Reduction):** Lead dioxide is reduced to lead(II) sulfate. \n    $PbO_{2(s)} + SO_4^{2-}_{(aq)} + 4H^+_{(aq)} + 2e^- \\rightarrow PbSO_{4(s)} + 2H_2O_{(l)}$ \n-   **Overall Cell Reaction:** Adding the anode and cathode reactions gives: \n    $Pb_{(s)} + PbO_{2(s)} + 2H_2SO_{4(aq)} \\rightarrow 2PbSO_{4(s)} + 2H_2O_{(l)}$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In the electrolysis of AgNO₃ solution 0.7 g of Ag is deposited after a certain period of time. Calculate the quantity of electricity required in coulomb. [Molar mass of Ag is 107.9 g mol⁻¹] (March 2013)",
+    "answer": "Given: Mass of silver deposited, $m = 0.7$ g. Molar mass of silver, $M = 107.9$ g/mol. \nThe reaction for the deposition of silver is: $Ag^+_{(aq)} + e^- \\rightarrow Ag_{(s)}$. \nThis shows that 1 mole of electrons is required to deposit 1 mole of Ag. The number of moles of electrons transferred, $n=1$. \n\n**Step 1: Calculate the moles of silver deposited.** \nMoles of Ag = $\\frac{\\text{mass}}{\\text{molar mass}} = \\frac{0.7 \\text{ g}}{107.9 \\text{ g/mol}} = 0.0064875$ mol. \n\n**Step 2: Calculate the quantity of electricity (Q).** \nThe charge required is given by $Q = (\\text{moles of substance}) \\times n \\times F$, where F is Faraday's constant (96500 C/mol). \n$Q = 0.0064875 \\text{ mol} \\times 1 \\times 96500 \\frac{\\text{C}}{\\text{mol}} = 626.04$ C. \nThe quantity of electricity required is approximately 626 coulombs.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write electrode reaction and net cell reaction for fuel cell. Calculate e.m.f. of the following cell at 25°C. $Zn_{(s)} | Zn^{2+}_{(aq)} (0.1 M) || Cu^{2+}_{(aq)} (0.5 M) | Cu_{(s)}$. Standard reduction potential (SRP) of Zn and Cu are -0.76 V and 0.334 V respectively. (Oct. 2013)",
+    "answer": "**H₂-O₂ Fuel Cell Reactions:** \n-   Anode: $2H_{2(g)} + 4OH^-_{(aq)} \\rightarrow 4H_2O_{(l)} + 4e^-$ \n-   Cathode: $O_{2(g)} + 2H_2O_{(l)} + 4e^- \\rightarrow 4OH^-_{(aq)}$ \n-   Net Reaction: $2H_{2(g)} + O_{2(g)} \\rightarrow 2H_2O_{(l)}$ \n\n**EMF Calculation:** \nGiven: $[Zn^{2+}] = 0.1$ M, $[Cu^{2+}] = 0.5$ M, $E^\\circ_{Zn} = -0.76$ V, $E^\\circ_{Cu} = +0.334$ V. \nThe cell reaction is $Zn_{(s)} + Cu^{2+}_{(aq)} \\rightarrow Zn^{2+}_{(aq)} + Cu_{(s)}$. Here, $n=2$. \nFirst, calculate the standard EMF: $E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = E^\\circ_{Cu} - E^\\circ_{Zn} = 0.334 - (-0.76) = 1.094$ V. \nNow, use the Nernst equation: $E_{cell} = E^\\circ_{cell} - \\frac{0.0592}{n} \\log_{10} \\frac{[Zn^{2+}]}{[Cu^{2+}]}$. \n$E_{cell} = 1.094 - \\frac{0.0592}{2} \\log_{10} (\\frac{0.1}{0.5}) = 1.094 - 0.0296 \\log_{10}(0.2)$. \n$E_{cell} = 1.094 - 0.0296(-0.699) = 1.094 + 0.0207 = 1.1147$ V. \nThe EMF of the cell is 1.115 V.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State and explain Faraday's second law of electrolysis. (March 2014)",
+    "answer": "**Faraday's Second Law of Electrolysis:** This law states that when the same quantity of electricity is passed through different electrolytic solutions, the masses of the substances deposited or liberated at the electrodes are directly proportional to their chemical equivalent weights. \n\n**Explanation:** If $m_1$ and $m_2$ are the masses of two different substances deposited by passing the same amount of charge, and $E_1$ and $E_2$ are their respective equivalent weights, then according to the law: \n$m_1 \\propto E_1$ and $m_2 \\propto E_2$. \nTherefore, $\\frac{m_1}{m_2} = \\frac{E_1}{E_2}$. The equivalent weight is the molar mass divided by the number of electrons transferred in the redox reaction ($E = M/n$).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Resistance of a conductivity cell containing 0.001 M KCl solution at 298 K is 1500 Ω and its conductance is 1.46 x 10⁻⁴ S.cm⁻². What is the cell constant? (March 2014)",
+    "answer": "The question seems to have a typo. Conductance is measured in Siemens (S), while conductivity (specific conductance, k) is measured in S/cm or S/m. Assuming 'conductance' is a typo for 'conductivity'. \nGiven: Resistance, $R = 1500 \\Omega$. Conductivity, $\\kappa = 1.46 \\times 10^{-4}$ S cm⁻¹. \nThe relationship between conductivity ($\\{\\kappa\\}$), resistance (R), and the cell constant ($G^*$) is: \n$\\kappa = \\frac{1}{R} \\times G^*$. \nRearranging to solve for the cell constant: \n$G^* = \\kappa \\times R$. \n$G^* = (1.46 \\times 10^{-4} \\text{ S cm}^{-1}) \\times (1500 \\Omega)$. \n$G^* = 0.219$ cm⁻¹. (Note: Since S = 1/Ω, the units cancel correctly).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State and write the first and second law of electrolysis. (Oct. 2014)",
+    "answer": "**Faraday's First Law:** The mass (m) of a substance deposited or liberated at any electrode during electrolysis is directly proportional to the quantity of electricity (Q) passed through the electrolyte. Mathematically, $m \\propto Q$, or $m = ZQ$, where Z is the electrochemical equivalent. \n\n**Faraday's Second Law:** When the same quantity of electricity is passed through different electrolytes, the masses of the substances deposited or liberated at the electrodes are directly proportional to their chemical equivalent weights (E). Mathematically, $\\frac{m_1}{m_2} = \\frac{E_1}{E_2}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write any four applications of electrochemical series. (Oct. 2014)",
+    "answer": "Four applications of the electrochemical series are: \n1.  **To compare the relative oxidizing and reducing strengths:** A substance with a higher standard reduction potential ($E^\\circ$) is a stronger oxidizing agent, while one with a lower $E^\\circ$ is a stronger reducing agent. \n2.  **To predict the feasibility of a redox reaction:** A redox reaction is generally feasible or spontaneous if the standard EMF of the resulting cell ($E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}$) is positive. \n3.  **To calculate the standard EMF of a galvanic cell:** $E^\\circ_{cell}$ can be calculated by subtracting the standard potential of the anode from that of the cathode. \n4.  **To predict whether a metal can displace another metal from its salt solution:** A metal with a lower reduction potential can displace a metal with a higher reduction potential from its salt solution.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "With the help of the equation, ΔG⁰ = -nFE⁰, explain that cell potential is an intensive property. (Oct. 2014)",
+    "answer": "The equation is $\\Delta G^\\circ = -nFE^\\circ_{cell}$. \n- $\\Delta G^\\circ$ (Standard Gibbs Free Energy Change) is an **extensive property** because it depends on the amount of substance (moles) involved in the reaction. If we double the reaction coefficients, $\\Delta G^\\circ$ doubles. \n- '$n$' (moles of electrons transferred) is also an **extensive property**. If we double the reaction coefficients, the value of 'n' doubles. \n- 'F' (Faraday's constant) is a constant. \n\nTo find the cell potential, we rearrange the equation: $E^\\circ_{cell} = -\\frac{\\Delta G^\\circ}{nF}$. \nIf we consider a reaction like $A \\rightarrow B$, let its energy change be $\\Delta G^\\circ_1$ and electrons transferred be $n_1$. Then $E^\\circ_{cell} = -\\frac{\\Delta G^\\circ_1}{n_1 F}$. \nIf we double the reaction to $2A \\rightarrow 2B$, the energy change becomes $\\Delta G^\\circ_2 = 2\\Delta G^\\circ_1$ and electrons transferred become $n_2 = 2n_1$. The new cell potential is: \n$E^\\circ_{cell} = -\\frac{\\Delta G^\\circ_2}{n_2 F} = -\\frac{2\\Delta G^\\circ_1}{2n_1 F} = -\\frac{\\Delta G^\\circ_1}{n_1 F}$. \nThe value of $E^\\circ_{cell}$ remains the same. Since the cell potential does not depend on the amount of substance (represented by the stoichiometric coefficients), it is an **intensive property**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How much electricity in terms of Faradays is required to produce: (a) 20 g of Ca from molten CaCl₂ (b) 40 g of Al from molten Al₂O₃. [Given: Molar mass of Calcium and Aluminium are 40g.mol⁻¹ and 27g.mol⁻¹ respectively.] (Oct. 2014)",
+    "answer": "(a) **For Calcium (Ca):** \nReaction: $Ca^{2+} + 2e^- \\rightarrow Ca$. This means 2 moles of electrons are needed for 1 mole of Ca. \nMoles of Ca = $\\frac{\\text{mass}}{\\text{molar mass}} = \\frac{20 \\text{ g}}{40 \\text{ g/mol}} = 0.5$ mol. \nElectricity required (in Faradays) = moles of Ca $\\times$ n = $0.5 \\times 2 = 1$ F. \n\n(b) **For Aluminium (Al):** \nReaction: $Al^{3+} + 3e^- \\rightarrow Al$. This means 3 moles of electrons are needed for 1 mole of Al. \nMoles of Al = $\\frac{\\text{mass}}{\\text{molar mass}} = \\frac{40 \\text{ g}}{27 \\text{ g/mol}} = 1.481$ mol. \nElectricity required (in Faradays) = moles of Al $\\times$ n = $1.481 \\times 3 = 4.44$ F.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw neat and labelled diagram of dry cell. (March 2015)",
+    "answer": "A neat, labelled diagram of a dry cell (Leclanché cell) would be described as follows: \n-   **Outer Casing:** A cylindrical zinc container which acts as the **anode (negative electrode)**. \n-   **Cathode:** A graphite (carbon) rod is placed in the center of the cell, acting as the **cathode (positive electrode)**. It is surrounded by a brass cap at the top for the positive terminal. \n-   **Electrolyte Paste:** The space between the anode and cathode is filled with a moist paste. This paste consists of manganese dioxide ($MnO_2$), ammonium chloride ($NH_4Cl$), and carbon powder. \n-   **Separator:** A porous paper separator is placed between the zinc container and the electrolyte paste to prevent direct contact. \n-   **Seal:** The top of the cell is sealed with pitch or wax to prevent the paste from drying out.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Arrange the following reducing agents in the order of increasing strength under standard state conditions. Justify the answer. Element: $Al, Cu, Cl_2, I_2, Ni$. $E^\\circ$: -1.66 V, 0.34 V, 1.36 V, 0.54 V, -0.26 V. (March 2015)",
+    "answer": "The given species are $Al, Cu, Cl_2, I_2, Ni$. The reduction potentials ($E^\\circ$) are for their corresponding ions: $Al^{3+}/Al = -1.66$V, $Cu^{2+}/Cu = 0.34$V, $Cl_2/Cl^- = 1.36$V, $I_2/I^- = 0.54$V, $Ni^{2+}/Ni = -0.26$V. \nA reducing agent is a substance that gets oxidized. A stronger reducing agent has a more negative (or less positive) standard reduction potential. \n\n**Values of $E^\\circ$ for the reducing agents (metals/ions):** \n-   $E^\\circ(Al^{3+}/Al) = -1.66$ V \n-   $E^\\circ(Ni^{2+}/Ni) = -0.26$ V \n-   $E^\\circ(Cu^{2+}/Cu) = +0.34$ V \n-   $E^\\circ(I_2/I^-) = +0.54$ V (This is for $I_2$ acting as an oxidizing agent, $I^-$ is the reducing agent) \n-   $E^\\circ(Cl_2/Cl^-) = +1.36$ V (This is for $Cl_2$ acting as an oxidizing agent, $Cl^-$ is the reducing agent) \n\nThe reducing agents are Al, Ni, Cu, $I^-$, and $Cl^-$. Arranging them by their corresponding $E^\\circ$ values from most positive to most negative gives the order of increasing reducing strength. \n\n**Order of Increasing Reducing Strength:** \n$Cl^- < I^- < Cu < Ni < Al$ \n\n**Justification:** A lower standard reduction potential indicates a greater tendency for the substance to be oxidized (i.e., to act as a reducing agent). Since the $E^\\circ$ values increase in the order $Al < Ni < Cu < I_2 < Cl_2$, the strength of the corresponding reducing agents ($Al, Ni, Cu, I^-, Cl^-$) increases in the reverse order.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate Ecell and ΔG for the following at 28°C: $Mg_{(s)} + Sn^{2+}_{(aq)} (0.04M) \\rightarrow Mg^{2+}_{(aq)} (0.06M) + Sn_{(s)}$. $E^\\circ_{cell} = 2.23$ V. Is the reaction spontaneous? (March 2015)",
+    "answer": "Given: $[Sn^{2+}] = 0.04$ M, $[Mg^{2+}] = 0.06$ M, $E^\\circ_{cell} = 2.23$ V, T = 28°C = 301 K. \nIn the reaction, Mg is oxidized and Sn²⁺ is reduced. The number of electrons transferred, $n=2$. \n\n**1. Calculate $E_{cell}$ using the Nernst Equation:** \n$E_{cell} = E^\\circ_{cell} - \\frac{2.303RT}{nF} \\log_{10} \\frac{[Mg^{2+}]}{[Sn^{2+}]}$. \n$E_{cell} = 2.23 - \\frac{2.303 \\times 8.314 \\times 301}{2 \\times 96500} \\log_{10} (\\frac{0.06}{0.04})$. \n$E_{cell} = 2.23 - 0.0299 \\log_{10}(1.5) = 2.23 - 0.0299(0.1761) = 2.23 - 0.00526 = 2.2247$ V. \n$E_{cell} \\approx 2.225$ V. \n\n**2. Calculate $\\Delta G$:** \n$\\Delta G = -nFE_{cell} = -2 \\times 96500 \\times 2.2247 = -429318$ J = -429.3 kJ. \n\n**3. Spontaneity:** \nSince both $E_{cell}$ is positive and $\\Delta G$ is negative, the reaction is **spontaneous** under these conditions.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Can copper sulphate solution be stored in an iron vessel? Explain. (March 2015)",
+    "answer": "No, copper sulphate solution cannot be stored in an iron vessel. \n**Explanation:** Iron (Fe) is more reactive than copper (Cu). This can be seen from their standard reduction potentials: $E^\\circ(Fe^{2+}/Fe) = -0.44$ V and $E^\\circ(Cu^{2+}/Cu) = +0.34$ V. Since iron has a lower reduction potential, it has a greater tendency to get oxidized. When an iron vessel is used to store copper sulphate solution, the iron will displace copper from the solution in a spontaneous redox reaction: \n$Fe_{(s)} + CuSO_{4(aq)} \\rightarrow FeSO_{4(aq)} + Cu_{(s)}$. \nThis reaction will cause the iron vessel to corrode (dissolve) and contaminate the copper sulphate solution with iron(II) sulphate.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The resistance of conductivity cell filled with 0.1 M KCl solution is 100 ohms. calculate the conductivity and molar conductivity of 0.02 M KCl solution. [Given: Conductivity of 0.1 M KCl solution is 1.29 S m⁻¹]. (Oct. 2015)",
+    "answer": "This question is missing the resistance of the 0.02 M KCl solution. Let's assume the question intended to give this value, for example, R = 520 ohms for the 0.02 M solution. \n\n**Step 1: Calculate the cell constant ($G^*$) using the standard solution.** \nGiven: For 0.1 M KCl, $R_1 = 100 \\Omega$. Conductivity, $\\kappa_1 = 1.29$ S m⁻¹ = $0.0129$ S cm⁻¹. \n$G^* = \\kappa_1 \\times R_1 = 0.0129 \\text{ S cm}^{-1} \\times 100 \\Omega = 1.29$ cm⁻¹. \n\n**Step 2: Calculate the conductivity of the 0.02 M KCl solution ($\\{\\kappa_2\\}$).** \nAssuming its resistance is $R_2 = 520 \\Omega$ (this value is needed to solve the problem). \n$\\kappa_2 = \\frac{G^*}{R_2} = \\frac{1.29 \\text{ cm}^{-1}}{520 \\Omega} = 0.00248$ S cm⁻¹. \n\n**Step 3: Calculate the molar conductivity ($\\Lambda_m$) of the 0.02 M KCl solution.** \nConcentration, $c = 0.02$ M. \n$\\Lambda_m = \\frac{1000 \\times \\kappa_2}{c} = \\frac{1000 \\text{ cm}^3 L^{-1} \\times 0.00248 \\text{ S cm}^{-1}}{0.02 \\text{ mol L}^{-1}} = \\frac{2.48}{0.02} = 124$ S cm² mol⁻¹.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'Molar conductivity'. Draw a neat and well labelled diagram of primary reference electrode. (Oct. 2015)",
+    "answer": "**Molar Conductivity ($\\Lambda_m$):** It is the conductivity of a volume of solution containing one mole of an electrolyte, placed between two electrodes that are one unit distance apart and have a sufficient area to hold the entire solution. It is related to specific conductivity ($\\{\\kappa\\}$) by the formula $\\Lambda_m = \\frac{1000 \\kappa}{c}$. \n\n**Diagram of Primary Reference Electrode (Standard Hydrogen Electrode - SHE):** \nA textual description of the diagram is as follows: \n1.  **Beaker:** A beaker containing a 1 M solution of an acid (e.g., HCl), providing $[H^+] = 1$ M. \n2.  **Platinum Electrode:** A small square of platinum foil, coated with finely divided platinum black, is immersed in the acid solution. This foil is welded to a platinum wire. \n3.  **Glass Casing:** The platinum wire is sealed inside a narrow glass tube. This tube is placed inside a wider outer glass jacket. \n4.  **Gas Inlet:** The outer glass jacket has an inlet at the top for bubbling pure hydrogen gas ($H_2$) at 1 atm pressure. \n5.  **Outlet:** The outer jacket also has small outlets at the bottom to allow the excess hydrogen gas to escape. \n6.  **Connection:** The top end of the platinum wire serves as the connection point to an external circuit.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Conductivity of a solution is $6.23 \\times 10^{-5} \\Omega^{-1}$ cm⁻¹ and its resistance is 13710 Ω. If the electrodes are 0.7 cm apart, calculate the cross-sectional area of electrode. (March 2016)",
+    "answer": "Given: Conductivity, $\\kappa = 6.23 \\times 10^{-5} \\Omega^{-1}$ cm⁻¹ (or S cm⁻¹). Resistance, $R = 13710 \\Omega$. Distance between electrodes (length), $l = 0.7$ cm. \nThe relationship between conductivity ($\\{\\kappa\\}$), resistance (R), length (l), and cross-sectional area (A) is: \n$\\kappa = \\frac{1}{R} \\times \\frac{l}{A}$. \nWe can rearrange this formula to solve for the area (A): \n$A = \\frac{1}{R} \\times \\frac{l}{\\kappa}$. \n$A = \\frac{1}{13710 \\Omega} \\times \\frac{0.7 \\text{ cm}}{6.23 \\times 10^{-5} \\Omega^{-1} \\text{ cm}^{-1}}$. \n$A = \\frac{0.7}{13710 \\times 6.23 \\times 10^{-5}} = \\frac{0.7}{0.854} = 0.819$ cm². \nThe cross-sectional area of the electrode is approximately 0.82 cm².",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define Nernst equation and explain the terms involved. (March 2016)",
+    "answer": "**Nernst Equation:** An equation that relates the reduction potential of an electrochemical reaction (half-cell or full cell reaction) to the standard electrode potential, temperature, and concentrations of the reacting species. The general form is: \n$E = E^\\circ - \\frac{RT}{nF} \\ln Q$. \n\n**Terms Explained:** \n-   **E:** The electrode potential (or cell potential) under non-standard conditions. \n-   **$E^\\circ$**: The standard electrode potential (or standard cell potential). \n-   **R**: The universal gas constant (8.314 J K⁻¹ mol⁻¹). \n-   **T**: The absolute temperature in Kelvin. \n-   **n**: The number of moles of electrons transferred in the balanced redox equation. \n-   **F**: Faraday's constant (approximately 96500 C/mol). \n-   **Q**: The reaction quotient, which is the ratio of the molar concentrations (or partial pressures) of the products to the reactants, each raised to the power of its stoichiometric coefficient.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The conductivity of 0.02 M AgNO₃ at 25°C is $2.428 \\times 10^{-3} \\Omega^{-1}$ cm⁻¹. What is its molar conductivity? (July 2016)",
+    "answer": "Given: Concentration, $c = 0.02$ M. Conductivity, $\\kappa = 2.428 \\times 10^{-3} \\Omega^{-1}$ cm⁻¹ (or S cm⁻¹). \nThe molar conductivity ($\\Lambda_m$) is related to the specific conductivity ($\\kappa$) and concentration (c) by the formula: \n$\\Lambda_m = \\frac{1000 \\times \\kappa}{c}$. \nSubstituting the given values: \n$\\Lambda_m = \\frac{1000 \\text{ cm}^3 L^{-1} \\times 2.428 \\times 10^{-3} \\text{ S cm}^{-1}}{0.02 \\text{ mol L}^{-1}}$. \n$\\Lambda_m = \\frac{2.428}{0.02} = 121.4$ S cm² mol⁻¹.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is 'fuel cell'? Write cathode and anode reaction in a fuel cell. (July 2016)",
+    "answer": "**Fuel Cell:** A fuel cell is a galvanic cell that converts the chemical energy of a fuel (like hydrogen, methane, or methanol) and an oxidant (like oxygen) directly into electrical energy through a continuous electrochemical process. \n\n**Reactions in a Hydrogen-Oxygen (H₂-O₂) Fuel Cell (in basic medium):** \n-   **Anode (Oxidation):** Hydrogen gas is oxidized. \n    $2H_{2(g)} + 4OH^-_{(aq)} \\rightarrow 4H_2O_{(l)} + 4e^-$ \n-   **Cathode (Reduction):** Oxygen gas is reduced. \n    $O_{2(g)} + 2H_2O_{(l)} + 4e^- \\rightarrow 4OH^-_{(aq)}$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "0.05 M NaOH solution offered a resistance of 31.6 Ω in a conductivity cell at 298 K. If the cell constant of the cell is 0.367 cm⁻¹, Calculate the molar conductivity of NaOH solution. (July 2017)",
+    "answer": "Given: Concentration, $c = 0.05$ M. Resistance, $R = 31.6 \\Omega$. Cell constant, $G^* = 0.367$ cm⁻¹. \n\n**Step 1: Calculate the conductivity ($\\kappa$) of the solution.** \n$\\kappa = \\frac{G^*}{R} = \\frac{0.367 \\text{ cm}^{-1}}{31.6 \\Omega} = 0.01161$ S cm⁻¹. \n\n**Step 2: Calculate the molar conductivity ($\\Lambda_m$).** \n$\\Lambda_m = \\frac{1000 \\times \\kappa}{c} = \\frac{1000 \\text{ cm}^3 L^{-1} \\times 0.01161 \\text{ S cm}^{-1}}{0.05 \\text{ mol L}^{-1}}$. \n$\\Lambda_m = \\frac{11.61}{0.05} = 232.2$ S cm² mol⁻¹.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "State Faraday's first law of electrolysis. (March 2017)",
+    "answer": "Faraday's first law of electrolysis states that the mass of any substance deposited or liberated at an electrode during electrolysis is directly proportional to the quantity of electric charge passed through the electrolyte.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Construct a labelled diagram for the following cell: $Zn_{(s)} | Zn^{2+}_{(aq)} (1 M) || H^+_{(aq)} (1 M) | H_{2(g)} (1 atm) | Pt$. (July 2017)",
+    "answer": "A textual description of the labelled diagram is as follows: \n-   **Left Beaker (Anode Compartment):** A beaker containing a 1 M solution of zinc sulphate ($ZnSO_4$). A zinc metal rod is dipped into this solution. This is the anode. A wire connects the zinc rod to the external circuit. \n-   **Right Beaker (Cathode Compartment):** A beaker containing a 1 M solution of an acid (like HCl). This is the Standard Hydrogen Electrode (SHE). A platinum foil coated with platinum black is immersed in the acid. This foil is connected to a platinum wire, which is sealed in a glass tube. This tube is inside a larger glass jacket through which hydrogen gas ($H_2$) is bubbled at 1 atm pressure. A wire connects the platinum to the external circuit. \n-   **Salt Bridge:** A U-shaped tube filled with an inert electrolyte (like KCl in agar-agar gel) connects the two beakers. Its ends are plugged with cotton wool. \n-   **External Circuit:** A voltmeter or ammeter is connected between the zinc anode and the platinum cathode to measure the cell potential or current.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write the cell representation and calculate equilibrium constant for the following redox reaction: $Ni_{(s)} + 2Ag^+_{(aq)} (1 M) \\rightarrow Ni^{2+}_{(aq)} (1 M) + 2Ag_{(s)}$ at 25°C; $E^\\circ_{Ni} = -0.25$ V and $E^\\circ_{Ag} = 0.799$ V. (July 2017)",
+    "answer": "**Cell Representation:** \nThe cell is represented with the anode (oxidation) on the left and the cathode (reduction) on the right. \n$Ni_{(s)} | Ni^{2+}_{(aq)} (1M) || Ag^+_{(aq)} (1M) | Ag_{(s)}$ \n\n**Calculation of Equilibrium Constant (K):** \nFirst, calculate the standard cell potential ($E^\\circ_{cell}$): \n$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = E^\\circ_{Ag} - E^\\circ_{Ni} = 0.799 - (-0.25) = 1.049$ V. \nThe number of electrons transferred, $n=2$. \nThe relationship between $E^\\circ_{cell}$ and the equilibrium constant K is: \n$E^\\circ_{cell} = \\frac{0.0592}{n} \\log_{10} K$. \nRearranging to solve for $\\log_{10} K$: \n$\\log_{10} K = \\frac{n \\times E^\\circ_{cell}}{0.0592} = \\frac{2 \\times 1.049}{0.0592} = \\frac{2.098}{0.0592} = 35.44$. \n$K = 10^{35.44} = 10^{0.44} \\times 10^{35} = 2.75 \\times 10^{35}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw a neat and labelled diagram of lead storage battery. (July 2017)",
+    "answer": "A neat, labelled diagram of a lead storage battery cell would be described as: \n-   **Container:** An acid-resistant container (e.g., made of polypropylene). \n-   **Electrolyte:** The container is filled with an aqueous solution of sulfuric acid ($H_2SO_4$), typically with a concentration of about 38% by mass. \n-   **Anode Plates:** A set of grids made of lead ($Pb$) and packed with spongy lead. These plates are connected together and form the negative terminal. \n-   **Cathode Plates:** A set of grids made of lead ($Pb$) and packed with lead dioxide ($PbO_2$). These plates are connected together and form the positive terminal. \n-   **Arrangement:** The anode and cathode plates are arranged alternately. \n-   **Separators:** Porous separators (made of rubber or fiberglass) are placed between the anode and cathode plates to prevent them from touching and short-circuiting, while allowing the electrolyte to pass through.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define: Reference electrode. (March 2018)",
+    "answer": "A reference electrode is an electrode that has a stable and well-known electrode potential. It is used as a reference point for measuring the electrode potentials of other half-cells. The potential of a reference electrode is constant under specified conditions. The most common primary reference electrode is the Standard Hydrogen Electrode (SHE), and common secondary reference electrodes include the calomel and silver-silver chloride electrodes.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "How many faradays of electricity are required to produce 13 gram of aluminium from aluminium chloride solution? [Given: molar mass of Al = 27.0 gram mol⁻¹] (March 2018)",
+    "answer": "Given: Mass of Aluminium (Al) = 13 g. Molar mass of Al = 27.0 g/mol. \nAluminium is produced from aluminium chloride ($AlCl_3$), where aluminium exists as $Al^{3+}$ ions. \nThe reduction half-reaction is: $Al^{3+} + 3e^- \\rightarrow Al$. \nThis shows that 3 moles of electrons are required to produce 1 mole of aluminium. \n\n**Step 1: Calculate the moles of aluminium.** \nMoles of Al = $\\frac{\\text{mass}}{\\text{molar mass}} = \\frac{13 \\text{ g}}{27 \\text{ g/mol}} = 0.4815$ mol. \n\n**Step 2: Calculate the required electricity in Faradays.** \n1 mole of electrons corresponds to 1 Faraday (F) of charge. Since 3 moles of electrons are needed per mole of Al, the electricity required is: \nCharge (in F) = moles of Al $\\times$ 3 = $0.4815 \\times 3 = 1.444$ F.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Represent a cell consisting of Mg²⁺|Mg half cell and Ag⁺|Ag half cell and write the cell reaction. ($E^\\circ_{Mg} = -2.37$ V, $E^\\circ_{Ag} = 0.799$ V). (July 2018)",
+    "answer": "To construct a voltaic cell, the half-cell with the lower reduction potential acts as the anode (oxidation) and the one with the higher reduction potential acts as the cathode (reduction). \n-   $E^\\circ(Mg^{2+}/Mg) = -2.37$ V (Lower, so Anode) \n-   $E^\\circ(Ag^+/Ag) = +0.799$ V (Higher, so Cathode) \n\n**Cell Representation:** \n$Mg_{(s)} | Mg^{2+}_{(aq)} || Ag^+_{(aq)} | Ag_{(s)}$ \n\n**Cell Reactions:** \n-   **Anode (Oxidation):** $Mg_{(s)} \\rightarrow Mg^{2+}_{(aq)} + 2e^-$ \n-   **Cathode (Reduction):** $Ag^+_{(aq)} + e^- \\rightarrow Ag_{(s)}$ \nTo balance the electrons, the cathode reaction must be multiplied by 2: \n$2Ag^+_{(aq)} + 2e^- \\rightarrow 2Ag_{(s)}$ \n\n-   **Overall Cell Reaction:** (Adding the anode and balanced cathode reactions) \n    $Mg_{(s)} + 2Ag^+_{(aq)} \\rightarrow Mg^{2+}_{(aq)} + 2Ag_{(s)}$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How much quantity of electricity in coulomb is required to deposit 1.346 x 10⁻³ kg of Ag in 3.5 minutes from AgNO₃ solution? (Given: Molar mass of Ag is 108 x 10⁻³ kg mol⁻¹) (July 2018)",
+    "answer": "Given: Mass of Ag, $m = 1.346 \\times 10^{-3}$ kg = 1.346 g. Molar mass of Ag, $M = 108 \\times 10^{-3}$ kg/mol = 108 g/mol. \nThe deposition reaction is $Ag^+ + e^- \\rightarrow Ag$, so the number of electrons transferred, $n=1$. \n\n**Step 1: Calculate the moles of Ag deposited.** \nMoles of Ag = $\\frac{m}{M} = \\frac{1.346 \\text{ g}}{108 \\text{ g/mol}} = 0.01246$ mol. \n\n**Step 2: Calculate the quantity of electricity (Q) in Coulombs.** \nThe formula is $Q = (\\text{moles of substance}) \\times n \\times F$, where F is Faraday's constant (96500 C/mol). \n$Q = 0.01246 \\text{ mol} \\times 1 \\times 96500 \\frac{\\text{C}}{\\text{mol}} = 1202.6$ C. \nThe time given (3.5 minutes) is not needed to answer the question. The quantity of electricity required is 1203 C. (The answer in the book appears to be incorrect).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define resistivity. (July 2018)",
+    "answer": "Resistivity ($\\rho$), also known as specific resistance, of a material is defined as the resistance of a conductor of that material having a unit length and a unit cross-sectional area. It is an intrinsic property of a material. Its SI unit is the ohm-meter ($\\Omega\\cdot$m).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "How many faradays of electricity are required to produce 6 g of Mg from MgCl₂? (March 2019)",
+    "answer": "Given: Mass of Mg = 6 g. Molar mass of Mg = 24.3 g/mol. \nIn MgCl₂, magnesium is present as $Mg^{2+}$ ions. The reduction reaction is: \n$Mg^{2+} + 2e^- \\rightarrow Mg$. \nThis shows that 2 moles of electrons are required to produce 1 mole of Mg. \n\n**Step 1: Calculate moles of Mg.** \nMoles of Mg = $\\frac{\\text{mass}}{\\text{molar mass}} = \\frac{6 \\text{ g}}{24.3 \\text{ g/mol}} = 0.2469$ mol. \n\n**Step 2: Calculate Faradays required.** \nSince 1 mole of electrons equals 1 Faraday (F), and 2 moles of electrons are needed per mole of Mg: \nFaradays = Moles of Mg $\\times$ 2 = $0.2469 \\times 2 = 0.4938$ F. \nApproximately 0.5 F of electricity is required.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The molar conductivity of 0.05 M BaCl₂ solution at 25°C is 223 Ω⁻¹ cm² mol⁻¹. What is its conductivity? (March 2019)",
+    "answer": "Given: Molar conductivity, $\\Lambda_m = 223 \\Omega^{-1}$ cm² mol⁻¹. Concentration, $c = 0.05$ M. \nThe relationship between molar conductivity ($\\Lambda_m$), conductivity ($\\kappa$), and concentration (c) is: \n$\\Lambda_m = \\frac{1000 \\times \\kappa}{c}$. \nRearranging to solve for conductivity ($\\kappa$): \n$\\kappa = \\frac{\\Lambda_m \\times c}{1000}$. \n$\\kappa = \\frac{223 \\text{ } \\Omega^{-1} \\text{cm}^2 \\text{mol}^{-1} \\times 0.05 \\text{ mol L}^{-1}}{1000 \\text{ cm}^3 L^{-1}}$. \n$\\kappa = \\frac{11.15}{1000} = 0.01115$ $\\Omega^{-1}$ cm⁻¹ or S cm⁻¹.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define electrochemical series. Write its applications. (March 2019)",
+    "answer": "**Electrochemical Series:** An arrangement of electrodes (metals and non-metals in contact with their ions) in the increasing order of their standard reduction potentials ($E^\\circ$) at 298 K. \n\n**Applications:** \n1.  **To Compare Oxidizing/Reducing Strength:** Elements at the top (with high positive $E^\\circ$) are strong oxidizing agents, while those at the bottom (with high negative $E^\\circ$) are strong reducing agents. \n2.  **To Predict Spontaneity of Redox Reactions:** A reaction is spontaneous if the $E^\\circ_{cell}$ is positive. The series helps in selecting the correct anode and cathode to construct a cell with a positive EMF. \n3.  **To Predict Displacement Reactions:** A metal with a lower reduction potential will displace another metal with a higher reduction potential from its salt solution. \n4.  **To Calculate Standard Cell EMF:** The standard EMF of any galvanic cell can be calculated using the formula $E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The molar conductivity of 0.02 M HCl solution is 407.2 Ω⁻¹ cm² mol⁻¹ at 25°C. Calculate its conductivity. (July 2019)",
+    "answer": "Given: Molar conductivity, $\\Lambda_m = 407.2 \\Omega^{-1}$ cm² mol⁻¹. Concentration, $c = 0.02$ M. \nThe formula relating molar conductivity ($\\Lambda_m$) and conductivity ($\\kappa$) is: \n$\\Lambda_m = \\frac{1000 \\kappa}{c}$. \nRearranging to solve for conductivity ($\\{\\kappa\\}$): \n$\\kappa = \\frac{\\Lambda_m \\times c}{1000} = \\frac{407.2 \\times 0.02}{1000} = \\frac{8.144}{1000} = 8.144 \\times 10^{-3}$ $\\Omega^{-1}$ cm⁻¹.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw a neat labelled diagram of standard hydrogen electrode. (July 2019)",
+    "answer": "A textual description of a neat, labelled diagram of the Standard Hydrogen Electrode (SHE) is: \n-   A beaker containing a 1 M solution of an acid (e.g., HCl), which provides $[H^+] = 1$ M. \n-   A platinum foil, coated with platinum black, is immersed in the acid. \n-   This foil is attached to a platinum wire, which is sealed inside a narrow glass tube. \n-   This entire assembly is encased in an outer glass jacket with an inlet at the top. \n-   Pure hydrogen gas ($H_2$) at 1 atmosphere (or 1 bar) pressure is bubbled through this inlet, over the platinum foil. \n-   Small outlets at the bottom of the jacket allow excess H₂ gas to escape. \n-   The platinum wire serves as the electrical contact.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw a neat labelled diagram of H₂-O₂ fuel cell. (July 2019)",
+    "answer": "A textual description of a neat, labelled diagram of an H₂-O₂ fuel cell is: \n-   **Anode Compartment:** An inlet for hydrogen ($H_2$) gas is shown on one side. This leads to a porous carbon electrode impregnated with a catalyst (like platinum or palladium). This electrode is labelled 'Anode'. \n-   **Cathode Compartment:** An inlet for oxygen ($O_2$) gas is shown on the opposite side. This leads to another porous carbon electrode impregnated with a catalyst. This electrode is labelled 'Cathode'. \n-   **Electrolyte:** The space between the two electrodes is filled with a concentrated aqueous solution of an electrolyte, such as KOH or NaOH. \n-   **Outlets:** An outlet for the product, water ($H_2O$), is shown, typically at the bottom of the cell. \n-   **External Circuit:** The anode and cathode are connected externally by a wire through a load (like a light bulb or voltmeter) to show the flow of electrons from the anode to the cathode.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The standard e.m.f. of the following cell is 0.463 V. $Cu_{(s)} | Cu^{++}_{(aq)} (1M) || Ag^+_{(aq)} (1M) | Ag_{(s)}$. If the standard potential of Ag electrode is 0.800 V, what is the standard potential of Cu electrode? (March 2020)",
+    "answer": "Given: Standard EMF of the cell, $E^\\circ_{cell} = 0.463$ V. \nThe cell representation shows that Cu is the anode (oxidation) and Ag is the cathode (reduction). \nStandard potential of the cathode (Ag), $E^\\circ_{cathode} = E^\\circ_{Ag} = 0.800$ V. \nThe standard EMF of a cell is calculated as: \n$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}$. \nWe need to find the standard potential of the Cu electrode, which is the anode ($E^\\circ_{anode} = E^\\circ_{Cu}$). \nRearranging the formula: \n$E^\\circ_{anode} = E^\\circ_{cathode} - E^\\circ_{cell}$. \n$E^\\circ_{Cu} = 0.800 \\text{ V} - 0.463 \\text{ V} = 0.337$ V. \nThe standard potential of the copper electrode is +0.337 V.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write the cell reaction and calculate E⁰ cell of the following electrochemical cell: $Al_{(s)} | Al^{3+}_{(aq)} (1M) || Zn^{2+}_{(aq)} (1M) | Zn_{(s)}$. ($E^⁰_{Al} = -1.66 V$, $E^⁰_{Zn} = -0.76 V$). (March 2020)",
+    "answer": "The cell notation indicates that Al is the anode and Zn is the cathode. \n\n**Cell Reactions:** \n-   Anode (Oxidation): $Al_{(s)} \\rightarrow Al^{3+}_{(aq)} + 3e^-$ \n-   Cathode (Reduction): $Zn^{2+}_{(aq)} + 2e^- \\rightarrow Zn_{(s)}$ \nTo balance the electrons, multiply the anode reaction by 2 and the cathode reaction by 3: \n$2Al_{(s)} \\rightarrow 2Al^{3+}_{(aq)} + 6e^-$ \n$3Zn^{2+}_{(aq)} + 6e^- \\rightarrow 3Zn_{(s)}$ \n-   Overall Cell Reaction: $2Al_{(s)} + 3Zn^{2+}_{(aq)} \\rightarrow 2Al^{3+}_{(aq)} + 3Zn_{(s)}$ \n\n**Calculation of $E^\\circ_{cell}$:** \n$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = E^\\circ_{Zn} - E^\\circ_{Al}$. \n$E^\\circ_{cell} = (-0.76 \\text{ V}) - (-1.66 \\text{ V}) = -0.76 + 1.66 = +0.90$ V.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define terms: (a) Electrochemical series (b) Corrosion. Write two applications of electrochemical series. (March 2020)",
+    "answer": "(a) **Electrochemical Series:** It is a list of elements or electrodes arranged in increasing order of their standard reduction potentials. It helps in comparing the relative tendencies of species to get oxidized or reduced. \n(b) **Corrosion:** It is the gradual destruction or deterioration of a metal by chemical or electrochemical reaction with its environment. Rusting of iron is a common example. \n\n**Two Applications of Electrochemical Series:** \n1.  **Predicting Spontaneity:** It is used to predict whether a redox reaction will be spontaneous. A reaction is spontaneous if the calculated standard cell potential ($E^\\circ_{cell}$) is positive. \n2.  **Comparing Oxidizing and Reducing Power:** Species with higher (more positive) reduction potentials are strong oxidizing agents, while those with lower (more negative) potentials are strong reducing agents.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the value of $-\\frac{2.303RT}{F}$ in Nernst equation. (Sept. 2021)",
+    "answer": "The term $-\\frac{2.303RT}{F}$ in the Nernst equation is evaluated at a standard temperature of T = 298 K (25°C). \nSubstituting the values of the constants: \n- R (Gas Constant) = 8.314 J K⁻¹ mol⁻¹ \n- T (Temperature) = 298 K \n- F (Faraday Constant) = 96500 C mol⁻¹ \nValue = $-\\frac{2.303 \\times 8.314 \\times 298}{96500} \\approx -0.0592$ V. \nSo, the value of the term at 298 K is **-0.0592 V**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "The molar conductivity of 0.01 M acetic acid at 25°C is 16.5 Ω⁻¹ cm² mol⁻¹. Calculate its degree of dissociation in 0.01 M solution and dissociation constant, if the molar conductivity of acetic acid at zero concentration is 400 Ω⁻¹ cm² mol⁻¹. (Sept. 2021)",
+    "answer": "Given: Concentration, $c = 0.01$ M. \nMolar conductivity at concentration c, $\\Lambda_m = 16.5$ $\\Omega^{-1}$ cm² mol⁻¹. \nMolar conductivity at zero concentration (infinite dilution), $\\Lambda_m^0 = 400$ $\\Omega^{-1}$ cm² mol⁻¹. \n\n**1. Calculate Degree of Dissociation ($\\alpha$):** \n$\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^0} = \\frac{16.5}{400} = 0.04125$. \n\n**2. Calculate Dissociation Constant ($K_a$):** \nFor a weak acid, the dissociation constant is given by the formula: \n$K_a = \\frac{c \\alpha^2}{1-\\alpha}$. \n$K_a = \\frac{0.01 \\times (0.04125)^2}{1 - 0.04125} = \\frac{0.01 \\times 0.00170156}{0.95875} = \\frac{1.70156 \\times 10^{-5}}{0.95875} = 1.77 \\times 10^{-5}$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "State Kohlrausch law of independent migration of ions. Write and explain two applications of electrochemical series. (Sept. 2021)",
+    "answer": "**Kohlrausch's Law of Independent Migration of Ions:** This law states that at infinite dilution, the molar conductivity of an electrolyte can be expressed as the sum of the individual contributions from its constituent ions. Each ion makes a definite contribution to the total molar conductivity, irrespective of the nature of the other ion with which it is associated. \n\n**Two Applications of Electrochemical Series:** \n1.  **Predicting Spontaneity of Redox Reactions:** The series allows us to calculate the standard cell potential ($E^\\circ_{cell}$). If $E^\\circ_{cell}$ is positive, the reaction is spontaneous under standard conditions. This helps predict if a reaction will proceed. \n2.  **Predicting Displacement Reactions:** The series can predict whether a metal will displace another metal from its salt solution. A metal with a lower (more negative) reduction potential will displace a metal with a higher (more positive) reduction potential. For example, Zn ($E^\\circ = -0.76$V) will displace Cu ($E^\\circ = +0.34$V) from a $CuSO_4$ solution.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "How many moles of electrons are required for reduction of 2 moles of Zn²⁺ to Zn? How many faraday of electricity will be required? (March 2022)",
+    "answer": "The reduction reaction for zinc ion is: \n$Zn^{2+} + 2e^- \\rightarrow Zn$. \nFrom this balanced half-reaction, we can see that 2 moles of electrons are required to reduce 1 mole of $Zn^{2+}$ ions. \n\n**1. Moles of electrons for 2 moles of Zn²⁺:** \nMoles of electrons = (moles of $Zn^{2+}$) $\\times$ (electrons per ion) = 2 mol $\\times$ 2 = **4 moles of electrons**. \n\n**2. Faradays of electricity required:** \nOne mole of electrons is equivalent to one Faraday (F) of charge. \nTherefore, the electricity required = **4 Faraday (F)**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define reference electrode. Write the functions of salt bridge. (March 2022)",
+    "answer": "**Reference Electrode:** An electrode whose potential is accurately known and remains constant under specified conditions. It is used as a standard against which the potentials of other electrodes are measured. Examples include the Standard Hydrogen Electrode (SHE) and the Calomel electrode. \n\n**Functions of a Salt Bridge:** \n1.  **Completes the Electrical Circuit:** It provides a path for the migration of ions between the two half-cells, thereby completing the internal circuit of the galvanic cell. \n2.  **Maintains Electrical Neutrality:** It prevents the accumulation of excess positive charge in the anode compartment and excess negative charge in the cathode compartment by allowing the flow of inert ions into the half-cells. This maintains the electrical neutrality of the solutions and allows the cell to operate continuously.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw neat, labelled diagram of Standard Hydrogen Electrode (SHE). (March 2022)",
+    "answer": "A neat, labelled diagram of the Standard Hydrogen Electrode (SHE) is described as: \n-   A beaker is filled with a 1 M solution of H⁺ ions (e.g., 1 M HCl). \n-   A platinum wire is sealed in a glass tube. At the bottom of the wire is a small platinum foil coated with platinum black, which is immersed in the acid solution. \n-   An outer glass jacket surrounds the inner tube. This jacket has an inlet at the top for bubbling pure hydrogen gas ($H_2$) at 1 bar (or 1 atm) pressure. \n-   The H₂ gas flows over the platinum foil. \n-   The outer jacket has side vents at the bottom to allow excess H₂ gas to escape. \n-   The top of the platinum wire serves as the terminal for electrical connection.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write cell representation of standard hydrogen electrode. (July 2022)",
+    "answer": "The standard hydrogen electrode (SHE) can act as either an anode or a cathode. \n-   **When acting as an anode (oxidation):** \n    $Pt_{(s)} | H_{2(g, 1 atm)} | H^+_{(aq, 1M)}$ \n-   **When acting as a cathode (reduction):** \n    $H^+_{(aq, 1M)} | H_{2(g, 1 atm)} | Pt_{(s)}$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Kohlrausch Law of independent migration of ions. Write one application of Kohlrausch Law of independent migration of ions. (July 2022)",
+    "answer": "**Kohlrausch's Law of Independent Migration of Ions:** This law states that the limiting molar conductivity of an electrolyte (molar conductivity at infinite dilution) is the sum of the limiting ionic conductivities of the cation and the anion, each multiplied by the number of ions present in one formula unit of the electrolyte. \n\n**Application:** \nOne important application is the **calculation of the molar conductivity at infinite dilution for weak electrolytes**. The molar conductivity of a weak electrolyte at infinite dilution cannot be determined experimentally by extrapolation. However, it can be calculated using the Kohlrausch law by using the $\\Lambda_m^0$ values of strong electrolytes. For example, for acetic acid: \n$\\Lambda_m^0(CH_3COOH) = \\Lambda_m^0(CH_3COONa) + \\Lambda_m^0(HCl) - \\Lambda_m^0(NaCl)$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is reference electrode? (July 2022)",
+    "answer": "A reference electrode is an electrode which has a stable, constant, and well-defined electrode potential. It is used as a benchmark in an electrochemical cell to measure the potentials of other electrodes or half-cells. The Standard Hydrogen Electrode (SHE) is the primary reference electrode, defined to have a potential of 0.00 V.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate the molar conductivity for 0.5 M BaCl₂ if its conductivity is 0.01 Ω⁻¹ cm⁻¹. (March 2023)",
+    "answer": "Given: Concentration, $c = 0.5$ M. Conductivity, $\\kappa = 0.01 \\Omega^{-1}$ cm⁻¹. \nThe molar conductivity ($\\Lambda_m$) is calculated using the formula: \n$\\Lambda_m = \\frac{1000 \\times \\kappa}{c}$. \n$\\Lambda_m = \\frac{1000 \\text{ cm}^3 L^{-1} \\times 0.01 \\text{ } \\Omega^{-1} \\text{cm}^{-1}}{0.5 \\text{ mol L}^{-1}}$. \n$\\Lambda_m = \\frac{10}{0.5} = 20$ $\\Omega^{-1}$ cm² mol⁻¹.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate standard Gibb's energy change at 25°C for the cell reaction. $Cd_{(s)} + Sn^{2+}_{(aq)} \\rightarrow Cd^{2+}_{(aq)} + Sn_{(s)}$. $E^\\circ_{Cd} = -0.403$ V, $E^\\circ_{Sn} = -0.136$ V. (March 2023)",
+    "answer": "Given: $E^\\circ_{Cd} = -0.403$ V (Anode), $E^\\circ_{Sn} = -0.136$ V (Cathode). \nThe reaction shows Cd is oxidized and Sn²⁺ is reduced. The number of electrons transferred, $n=2$. \n\n**Step 1: Calculate the standard cell potential ($E^\\circ_{cell}$).** \n$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = E^\\circ_{Sn} - E^\\circ_{Cd}$. \n$E^\\circ_{cell} = (-0.136) - (-0.403) = -0.136 + 0.403 = 0.267$ V. \n\n**Step 2: Calculate the standard Gibbs energy change ($\\Delta G^\\circ$).** \nThe formula is $\\Delta G^\\circ = -nFE^\\circ_{cell}$. Faraday's constant, $F = 96500$ C/mol. \n$\\Delta G^\\circ = -2 \\times 96500 \\times 0.267 = -51531$ J/mol. \n$\\Delta G^\\circ = -51.53$ kJ/mol.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw labelled diagram of H₂-O₂ fuel cell. (March 2023)",
+    "answer": "A textual description of a labelled diagram of a H₂-O₂ fuel cell is as follows: \n-   Two porous carbon electrodes (anode and cathode) are placed in a container, separated by a space filled with a concentrated aqueous electrolyte (like KOH). \n-   The electrodes are impregnated with catalysts (e.g., Platinum). \n-   **Anode Side (Left):** An inlet is shown for feeding Hydrogen ($H_2$) gas. This side is labelled as the Anode (Negative electrode). \n-   **Cathode Side (Right):** An inlet is shown for feeding Oxygen ($O_2$) gas. This side is labelled as the Cathode (Positive electrode). \n-   **Outlet:** An outlet, usually at the bottom, is labelled for the removal of the product, water ($H_2O$). \n-   **External Circuit:** A wire connects the anode to the cathode through an external load (e.g., a voltmeter), showing the direction of electron flow from anode to cathode.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the unit of cell constant. (July 2023)",
+    "answer": "The cell constant ($G^*$) is the ratio of the distance between the electrodes (l) to the cross-sectional area of the electrodes (A). \n$G^* = l/A$. \nThe unit of length is typically cm and the unit of area is cm². Therefore, the unit of the cell constant is $\\frac{\\text{cm}}{\\text{cm}^2} = \\text{cm}^{-1}$. \nThe SI unit is m⁻¹.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the mass of Cu metal produced at the cathode during the passage of 5 ampere current through CuSO₄ solution for 6000 seconds. Molar mass of Cu is 63.5 g mol⁻¹. (July 2023)",
+    "answer": "Given: Current, $I = 5$ A. Time, $t = 6000$ s. Molar mass of Cu, $M = 63.5$ g/mol. \nThe reduction reaction at the cathode is $Cu^{2+} + 2e^- \\rightarrow Cu$. The number of electrons transferred, $n=2$. \n\n**Step 1: Calculate the total charge (Q) passed.** \n$Q = I \\times t = 5 \\text{ A} \\times 6000 \\text{ s} = 30000$ C. \n\n**Step 2: Use Faraday's first law to find the mass (m).** \nThe mass deposited is given by the formula $m = \\frac{M \\times I \\times t}{n \\times F}$, where F = 96500 C/mol. \n$m = \\frac{63.5 \\text{ g/mol} \\times 30000 \\text{ C}}{2 \\times 96500 \\text{ C/mol}} = \\frac{1905000}{193000} = 9.87$ g. \nThe mass of copper produced is 9.87 g.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Describe the construction and working of Standard Hydrogen Electrode. Write any two difficulties in setting SHE. (July 2023)",
+    "answer": "**Construction of SHE:** \nThe Standard Hydrogen Electrode (SHE) consists of a platinum foil coated with platinum black, which is dipped into a 1 M solution of H⁺ ions. Pure hydrogen gas at 1 bar pressure is continuously bubbled over the platinum foil. The platinum foil is connected via a platinum wire to the external circuit. \n\n**Working:** \nThe SHE can act as an anode or a cathode depending on the other half-cell it is connected to. \n-   As anode (oxidation): $H_{2(g)} \\rightarrow 2H^+_{(aq)} + 2e^-$ \n-   As cathode (reduction): $2H^+_{(aq)} + 2e^- \\rightarrow H_{2(g)}$ \nBy convention, its standard electrode potential is assigned a value of exactly 0.00 V at all temperatures. \n\n**Difficulties in Setting up SHE:** \n1.  **Maintaining Conditions:** It is very difficult to maintain the pressure of pure H₂ gas at exactly 1 bar and the concentration of H⁺ ions at exactly 1 M. \n2.  **Platinum Poisoning:** The platinum electrode surface is easily poisoned (deactivated) by impurities present in the gas or solution, which affects its potential.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Calculate the time required to deposit 2.4 g of Cu, when 2.03 A of current passed through CuSO₄ solution. (At. mass of Cu = 63.5 g mol⁻¹) (March 2024)",
+    "answer": "Given: Mass of Cu, $m = 2.4$ g. Current, $I = 2.03$ A. Molar mass of Cu, $M = 63.5$ g/mol. \nThe reaction is $Cu^{2+} + 2e^- \\rightarrow Cu$, so $n=2$. Faraday's constant, $F = 96500$ C/mol. \nFrom Faraday's law, $m = \\frac{M \\times I \\times t}{n \\times F}$. \nWe need to find the time, t. Rearranging the formula: \n$t = \\frac{m \\times n \\times F}{M \\times I}$. \n$t = \\frac{2.4 \\text{ g} \\times 2 \\times 96500 \\text{ C/mol}}{63.5 \\text{ g/mol} \\times 2.03 \\text{ A}}$. \n$t = \\frac{463200}{128.805} = 3596$ s. \nThe time required is approximately 3596 seconds.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define electrochemical series and write its two applications. (March 2024)",
+    "answer": "**Electrochemical Series:** It is the arrangement of various elements and electrodes in the increasing order of their standard reduction potentials ($E^\\circ$). \n\n**Two Applications:** \n1.  **To predict the spontaneity of a redox reaction:** A redox reaction is spontaneous if its standard cell potential ($E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}$) is positive. The series provides the $E^\\circ$ values needed for this calculation. \n2.  **To compare the relative strengths of oxidizing and reducing agents:** A substance with a higher standard reduction potential is a stronger oxidizing agent, while a substance with a lower standard reduction potential is a stronger reducing agent.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the cell reaction during discharging of lead accumulator. (March 2024)",
+    "answer": "During the discharging of a lead accumulator (lead-acid battery), the following reactions take place: \n-   **At the Anode (Negative Plate):** \n    $Pb_{(s)} + SO_4^{2-}_{(aq)} \\rightarrow PbSO_{4(s)} + 2e^-$ \n-   **At the Cathode (Positive Plate):** \n    $PbO_{2(s)} + 4H^+_{(aq)} + SO_4^{2-}_{(aq)} + 2e^- \\rightarrow PbSO_{4(s)} + 2H_2O_{(l)}$ \n-   **The Overall Net Reaction is:** \n    $Pb_{(s)} + PbO_{2(s)} + 2H_2SO_{4(aq)} \\rightarrow 2PbSO_{4(s)} + 2H_2O_{(l)}$",
+    "marks": 2
+  }
+]

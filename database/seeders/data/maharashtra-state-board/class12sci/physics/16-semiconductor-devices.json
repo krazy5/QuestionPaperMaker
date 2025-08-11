@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mcq",
+    "text": "In a p-n junction diode, the depletion region is formed due to... (Board 2023)",
+    "options": ["drift of electrons", "diffusion of charge carriers", "drift of holes", "recombination of charge carriers"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A Zener diode is always used in... (Board 2021)",
+    "options": ["forward bias", "reverse bias", "either forward or reverse bias", "zero bias"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The logic gate which produces a HIGH output only when all its inputs are HIGH is called... (Board 2019)",
+    "options": ["OR gate", "AND gate", "NOT gate", "NAND gate"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a rectifier? (Board 2020)",
+    "answer": "A rectifier is an electronic device that converts an alternating current (AC) into a direct current (DC) by allowing the current to flow in only one direction.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Draw the circuit symbol for NPN and PNP transistors. (Board 2021)",
+    "answer": "The symbols should be drawn correctly, showing the three terminals (Emitter, Base, Collector) and the arrow on the emitter indicating the direction of conventional current (outward for NPN, inward for PNP).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a photodiode? State its working principle. (Board 2018)",
+    "answer": "A photodiode is a p-n junction diode that converts light energy into electrical energy. It works on the principle of the photoelectric effect. When light of a suitable frequency falls on the junction, electron-hole pairs are generated, causing a change in the reverse current.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat, labelled circuit diagram of a full-wave rectifier using semiconductor diodes. (Board 2022)",
+    "answer": "The diagram should show a center-tapped transformer, two diodes (D1 and D2), and a load resistor (RL). The input AC is applied to the primary, and the output DC is taken across the load resistor.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the working of a Zener diode as a voltage regulator. (Board 2023)",
+    "answer": "A Zener diode is connected in reverse bias across the load resistor. A series resistor (Rs) is used to limit the current. When the input voltage increases, the current through the Zener diode increases, but the voltage across it (and the load) remains constant at the Zener breakdown voltage. If the input voltage decreases, the Zener current decreases, but the load voltage remains constant.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the working of an n-p-n transistor as an amplifier in common emitter (CE) configuration. (Board 2017)",
+    "answer": "The explanation should include a neat circuit diagram. The emitter-base junction is forward-biased, and the collector-base junction is reverse-biased. A small AC signal applied to the base causes a large change in the collector current, resulting in an amplified voltage across the load resistor in the collector circuit. The output is 180 degrees out of phase with the input.",
+    "marks": 4
+  }
+]

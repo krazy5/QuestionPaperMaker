@@ -1,0 +1,53 @@
+[
+  {
+    "type": "mcq",
+    "text": "The magnetic susceptibility is negative for... (Board 2023)",
+    "options": ["paramagnetic materials", "diamagnetic materials", "ferromagnetic materials", "all of the above"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Soft iron is used to make the core of a transformer because of its... (Board 2022)",
+    "options": ["low coercivity and low retentivity", "low coercivity and high retentivity", "high coercivity and high retentivity", "high coercivity and low retentivity"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Above the Curie temperature, a ferromagnetic material behaves like a... (Board 2020)",
+    "options": ["paramagnetic material", "diamagnetic material", "superconductor", "insulator"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define magnetization. State its SI unit and dimensions. (Board 2024)",
+    "answer": "Magnetization is the net magnetic dipole moment per unit volume of a material. Its SI unit is Amperes per meter (A/m) and its dimensions are $[L^{-1}M^0I^1]$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between diamagnetic and paramagnetic substances. (Board 2019)",
+    "answer": "Diamagnetic substances are feebly repelled by a magnetic field and have negative magnetic susceptibility. Paramagnetic substances are feebly attracted by a magnetic field and have small positive magnetic susceptibility.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is magnetic hysteresis? (Board 2017)",
+    "answer": "Magnetic hysteresis is the lagging of intensity of magnetization (M) behind the magnetic field intensity (H) when a magnetic material is subjected to a cycle of magnetization and demagnetization.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the origin of magnetism in materials on the basis of electron theory. (Board 2018)",
+    "answer": "According to the electron theory of magnetism, the magnetic moment of an atom arises from two sources: the orbital motion of electrons around the nucleus, which is equivalent to a current loop, and the intrinsic spin of the electrons, which also gives rise to a magnetic moment. The net magnetic moment of an atom is the vector sum of these orbital and spin magnetic moments.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "An iron rod of cross-sectional area 0.1 m$^2$ is subjected to a magnetizing field of 1200 A/m. If the susceptibility of iron is 599, calculate the magnetic permeability and the magnetic flux produced. ($\\mu_0 = 4\\pi \\times 10^{-7}$ SI units) (Textbook Numerical)",
+    "answer": "Magnetic permeability $\\mu = \\mu_0(1 + \\chi) = (4\\pi \\times 10^{-7})(1 + 599) = 4\\pi \\times 10^{-7} \\times 600 \\approx 7.54 \\times 10^{-4}$ T·m/A. Magnetic induction $B = \\mu H = (7.54 \\times 10^{-4}) \\times 1200 = 0.9048$ T. Magnetic flux $\\Phi = B \\times A = 0.9048 \\times 0.1 = 0.09048$ Wb.",
+    "marks": 3
+  }
+]

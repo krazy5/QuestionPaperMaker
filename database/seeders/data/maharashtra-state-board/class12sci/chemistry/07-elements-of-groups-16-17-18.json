@@ -1,0 +1,362 @@
+[
+  {
+    "type": "short",
+    "text": "What is the action of the following reagents on ammonia? (a) Excess of air (b) Excess of chlorine (c) Na metal (March 2013)",
+    "answer": "(a) **Excess of air:** In the presence of a platinum catalyst at about 800°C, ammonia is oxidized to nitric oxide (Ostwald process). \n   $4NH_{3(g)} + 5O_{2(g)} \\xrightarrow{Pt, 800°C} 4NO_{(g)} + 6H_2O_{(g)}$ \n(b) **Excess of chlorine:** Ammonia reacts with excess chlorine to form nitrogen trichloride (an explosive liquid) and hydrogen chloride. \n   $NH_{3(g)} + 3Cl_{2(g, excess)} \\rightarrow NCl_{3(l)} + 3HCl_{(g)}$ \n(c) **Na metal:** Ammonia reacts with active metals like sodium at high temperatures to form sodamide and liberate hydrogen gas. \n   $2NH_{3(g)} + 2Na_{(s)} \\xrightarrow{300°C} 2NaNH_{2(s)} + H_{2(g)}$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain the trends in the following properties with reference to group 16: (a) Atomic radii and ionic radii (b) Density (c) Ionisation enthalpy (d) Electronegativity (March 2013)",
+    "answer": "(a) **Atomic and Ionic Radii:** Both atomic and ionic radii increase down the group from Oxygen to Polonium. This is due to the addition of a new electron shell at each successive element, which increases the distance of the outermost electrons from the nucleus. \n(b) **Density:** Density increases down the group. This is because the atomic mass increases significantly more than the atomic volume down the group. \n(c) **Ionisation Enthalpy:** Ionisation enthalpy decreases down the group. As the atomic size increases, the outermost electrons are farther from the nucleus and are more effectively shielded by the inner electrons. This reduces the nuclear attraction, making it easier to remove an electron. \n(d) **Electronegativity:** Electronegativity decreases down the group. With increasing atomic size, the attractive force of the nucleus on the shared pair of electrons in a covalent bond decreases.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the action of chlorine (Cl) on the following: (a) Cold and dilute caustic soda. (b) Hot and concentrated caustic soda. (c) Potassium bromide solution. (Oct. 2013)",
+    "answer": "(a) **Cold and dilute caustic soda (NaOH):** Chlorine reacts to form a mixture of sodium chloride and sodium hypochlorite. \n   $Cl_{2(g)} + 2NaOH_{(aq, cold/dilute)} \\rightarrow NaCl_{(aq)} + NaOCl_{(aq)} + H_2O_{(l)}$ \n(b) **Hot and concentrated caustic soda (NaOH):** Chlorine reacts to form a mixture of sodium chloride and sodium chlorate. \n   $3Cl_{2(g)} + 6NaOH_{(aq, hot/conc.)} \\rightarrow 5NaCl_{(aq)} + NaClO_{3(aq)} + 3H_2O_{(l)}$ \n(c) **Potassium bromide solution:** Chlorine, being more electronegative than bromine, displaces bromine from its salt solution. \n   $Cl_{2(g)} + 2KBr_{(aq)} \\rightarrow 2KCl_{(aq)} + Br_{2(aq)}$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write electronic configuration and two uses of neon (Z = 10). (Oct. 2013)",
+    "answer": "**Electronic Configuration of Neon (Ne, Z=10):** \n$1s^2 2s^2 2p^6$ or $[He] 2s^2 2p^6$. \n\n**Two Uses of Neon:** \n1.  **Lighting:** Neon is widely used in discharge tubes and fluorescent bulbs for advertising purposes, commonly known as 'neon signs', which produce a characteristic reddish-orange glow. \n2.  **Safety Devices:** It is used in safety devices like voltage indicators, regulators, and lightning arrestors.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write resonating structures of ozone. (March 2014)",
+    "answer": "Ozone ($O_3$) is a resonance hybrid of two canonical structures. The molecule is bent, with a central oxygen atom double-bonded to one terminal oxygen and single-bonded to the other. The single-bonded oxygen carries a formal charge of -1, and the central oxygen carries a formal charge of +1. The double bond and single bond positions are interchanged in the two resonating structures. \nStructure 1: $O=O^+-O^-$ \nStructure 2: $O^--O^+=O$ \nThese are represented with a double-headed arrow between them: $O=O^+-O^- \\leftrightarrow O^--O^+=O$. The actual structure is an average of these two, with both O-O bonds being identical in length (intermediate between a single and a double bond).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Describe anomalous behaviour of fluorine with the other elements of group 17 with reference to: (a) Hydrogen bonding (b) Oxidation state (c) Polyhalide ions. (March 2014)",
+    "answer": "Fluorine exhibits anomalous behavior due to its small atomic size, high electronegativity, low F-F bond dissociation enthalpy, and absence of d-orbitals. \n(a) **Hydrogen Bonding:** Due to its very high electronegativity, fluorine forms strong intermolecular hydrogen bonds in compounds like hydrogen fluoride (HF). This leads to an unusually high boiling point for HF compared to other hydrogen halides (HCl, HBr, HI). \n(b) **Oxidation State:** Fluorine, being the most electronegative element, consistently shows only a -1 oxidation state. Other halogens can exhibit positive oxidation states (+1, +3, +5, +7) in compounds with more electronegative elements like oxygen or fluorine. \n(c) **Polyhalide Ions:** Due to the absence of d-orbitals in its valence shell, fluorine cannot expand its octet and thus does not form polyhalide ions (like $I_3^-$, $Br_3^-$, $ICl_2^-$). Other halogens can form these ions.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Describe anomalous behaviour of oxygen as compared with other elements of group 16 with reference to- (a) Magnetic property (b) Oxidation state (c) Hydrides (Oct. 2014)",
+    "answer": "Oxygen shows anomalous behavior due to its small size, high electronegativity, and absence of d-orbitals. \n(a) **Magnetic Property:** Dioxygen ($O_2$) is paramagnetic due to the presence of two unpaired electrons in its antibonding molecular orbitals. The other elements of group 16 are diamagnetic in their elemental form. \n(b) **Oxidation State:** Oxygen typically shows a -2 oxidation state, along with -1 (peroxides) and +2 (in $OF_2$). Other elements in the group show -2, +2, +4, and +6 oxidation states due to the availability of d-orbitals. \n(c) **Hydrides:** Water ($H_2O$), the hydride of oxygen, is a liquid at room temperature and forms strong intermolecular hydrogen bonds. The hydrides of other group 16 elements ($H_2S$, $H_2Se$, etc.) are gases and do not form hydrogen bonds.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of: (a) Orthophosphoric acid (b) Pyrophosphoric acid (Oct. 2014)",
+    "answer": "(a) **Orthophosphoric acid ($H_3PO_4$):** The central phosphorus atom is tetrahedrally coordinated. It is bonded to one oxygen atom via a double bond (P=O) and to three hydroxyl (-OH) groups via single bonds. \n\n(b) **Pyrophosphoric acid ($H_4P_2O_7$):** This structure contains two phosphorus atoms linked by an oxygen bridge (P-O-P). Each phosphorus atom is also bonded to one oxygen atom via a double bond (P=O) and to two hydroxyl (-OH) groups via single bonds. Each P atom has a tetrahedral geometry.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the structure of sulphur dioxide. (March 2015)",
+    "answer": "Sulphur dioxide ($SO_2$) has an angular or bent (V-shaped) structure. The central sulfur atom is $sp^2$ hybridized. It forms one sigma and one pi bond with one oxygen atom, and another sigma and one pi bond with the second oxygen atom. There is also one lone pair of electrons on the sulfur atom. The presence of this lone pair causes repulsion with the bonding pairs, reducing the O-S-O bond angle from the ideal 120° to approximately 119.5°. The two S-O bonds are equal in length due to resonance between the two contributing structures: $O=S^+-O^- \\leftrightarrow O^--S^+=O$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write molecular formulae and structures of the following compounds: (a) Dithionic acid (b) Peroxy monosulphuric acid (c) Pyrosulphuric acid (d) Dithionous acid (March 2015)",
+    "answer": "(a) **Dithionic acid ($H_2S_2O_6$):** Two sulfur atoms are directly linked by a single bond (S-S). Each sulfur atom is also bonded to one hydroxyl group (-OH) and two oxygen atoms via double bonds. \n(b) **Peroxy monosulphuric acid (Caro's acid, $H_2SO_5$):** The central sulfur atom is bonded to one hydroxyl group (-OH), two oxygen atoms via double bonds, and one peroxy group (-O-OH). \n(c) **Pyrosulphuric acid (Oleum, $H_2S_2O_7$):** Two sulfur atoms are linked by an oxygen bridge (S-O-S). Each sulfur atom is also bonded to one hydroxyl group (-OH) and two oxygen atoms via double bonds. \n(d) **Dithionous acid ($H_2S_2O_4$):** Two sulfur atoms are linked by a single bond (S-S). Each sulfur atom is also bonded to one hydroxyl group (-OH) and one oxygen atom via a double bond.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Draw structures of: (a) Chlorine trifluoride (b) Chlorine pentafluoride. (March 2015)",
+    "answer": "(a) **Chlorine trifluoride ($ClF_3$):** This is an interhalogen compound. The central chlorine atom has 3 bond pairs and 2 lone pairs of electrons, leading to a trigonal bipyramidal electron geometry. The shape of the molecule is a **bent T-shape**, with the two lone pairs occupying the equatorial positions to minimize repulsion. \n\n(b) **Chlorine pentafluoride ($ClF_5$):** The central chlorine atom has 5 bond pairs and 1 lone pair of electrons, leading to an octahedral electron geometry. The shape of the molecule is **square pyramidal**, with the lone pair occupying one of the axial positions.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the action of dioxygen on: (a) Calcium (b) Iron (c) Carbon disulphide? (Oct. 2015)",
+    "answer": "(a) **Calcium:** Calcium reacts with dioxygen upon heating to form calcium oxide. \n   $2Ca_{(s)} + O_{2(g)} \\xrightarrow{\\Delta} 2CaO_{(s)}$ \n(b) **Iron:** Iron reacts with dioxygen in the presence of moisture to form hydrated iron(III) oxide, commonly known as rust. At high temperatures, it forms iron(II,III) oxide. \n   $4Fe_{(s)} + 3O_{2(g)} \\xrightarrow{moisture} 2Fe_2O_3 \\cdot xH_2O_{(s)}$ (Rusting) \n   $3Fe_{(s)} + 2O_{2(g)} \\xrightarrow{\\Delta} Fe_3O_{4(s)}$ \n(c) **Carbon disulphide:** Carbon disulphide burns in dioxygen to produce carbon dioxide and sulphur dioxide. \n   $CS_{2(l)} + 3O_{2(g)} \\xrightarrow{\\Delta} CO_{2(g)} + 2SO_{2(g)}$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write 'four' uses of hydrocloric acid. (Oct. 2015)",
+    "answer": "Four uses of hydrochloric acid (HCl) are: \n1.  **Industrial Manufacturing:** It is used in the manufacture of chemicals like chlorine, ammonium chloride, and glucose from corn starch. \n2.  **Metal Processing:** It is used for 'pickling' of steel (removing oxide scale from steel before galvanizing or plating) and for cleaning metal surfaces. \n3.  **Extraction of Metals:** It is used in the extraction of glue from bones and in the purification of bone black. \n4.  **Laboratory Reagent:** It is a common and important reagent used in laboratories for analysis and as a source of H⁺ ions.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write chemical formula of the following oxoacids of chlorine: (a) Hypochlorous acid (b) Chlorous acid (c) Chloric acid (d) Perchloric acid. (July 2016)",
+    "answer": "(a) Hypochlorous acid: $HOCl$ \n(b) Chlorous acid: $HClO_2$ \n(c) Chloric acid: $HClO_3$ \n(d) Perchloric acid: $HClO_4$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What happens when dilute sulphuric acid is treated with (a) Fe (b) CaF₂? (July 2016)",
+    "answer": "(a) **Iron (Fe):** Iron reacts with dilute sulphuric acid to produce iron(II) sulphate and liberate hydrogen gas. \n   $Fe_{(s)} + H_2SO_{4(dilute, aq)} \\rightarrow FeSO_{4(aq)} + H_{2(g)}$ \n(b) **Calcium Fluoride ($CaF_2$):** Calcium fluoride reacts with concentrated sulphuric acid upon heating to produce hydrogen fluoride gas and calcium sulphate. With dilute sulphuric acid, there is generally no significant reaction as it is the salt of a strong base and a weak acid. \n   $CaF_{2(s)} + H_2SO_{4(conc., aq)} \\xrightarrow{\\Delta} CaSO_{4(s)} + 2HF_{(g)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What happens when thin copper leaves are thrown in jar containing chlorine? (July 2016)",
+    "answer": "When thin copper leaves (or foil) are introduced into a jar containing chlorine gas, they react vigorously to form copper(II) chloride. A greenish-brown smoke of solid $CuCl_2$ particles is formed. \n$Cu_{(s)} + Cl_{2(g)} \\rightarrow CuCl_{2(s)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "$H_2O$ is liquid while $H_2S$ is gas at room temperature. Explain. (July 2016)",
+    "answer": "Water ($H_2O$) is a liquid at room temperature because its molecules are associated with each other through strong intermolecular hydrogen bonds. Oxygen is highly electronegative and has a small size, which facilitates the formation of these strong bonds. \nSulphur in hydrogen sulphide ($H_2S$) is less electronegative and has a larger size compared to oxygen. As a result, it does not form hydrogen bonds. The only intermolecular forces present in $H_2S$ are weak van der Waals forces, which are not strong enough to hold the molecules together in a liquid state at room temperature, so it exists as a gas.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the electronic configuration of the following elements: (a) Sulphur (Z = 16) (b) Krypton (Z = 36) (March 2017)",
+    "answer": "(a) **Sulphur (S, Z = 16):** The electronic configuration is $1s^2 2s^2 2p^6 3s^2 3p^4$. The condensed configuration is $[Ne] 3s^2 3p^4$. \n\n(b) **Krypton (Kr, Z = 36):** The electronic configuration is $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6$. The condensed configuration is $[Ar] 3d^{10} 4s^2 4p^6$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write any 'two' uses of each of the following: (a) H₂SO₄ (b) Chlorine (March 2017)",
+    "answer": "(a) **Two uses of Sulphuric Acid ($H_2SO_4$):** \n1.  It is used extensively in the manufacture of fertilizers, such as ammonium sulphate and superphosphate of lime. \n2.  It is used as an electrolyte in lead-acid storage batteries and as a dehydrating agent in many chemical reactions. \n\n(b) **Two uses of Chlorine ($Cl_2$):** \n1.  It is used for disinfecting drinking water and sterilizing water in swimming pools, making it safe for use. \n2.  It is used as a bleaching agent for wood pulp (in the paper industry) and cotton textiles.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the action of concentrated sulphuric acid on the following: (a) Phosphorous pentachloride (b) Copper (c) Potassium chlorate. (July 2017)",
+    "answer": "(a) **Phosphorous pentachloride ($PCl_5$):** Concentrated sulphuric acid dehydrates $PCl_5$ to form phosphoryl chloride. \n   $PCl_5 + H_2SO_4 \\rightarrow POCl_3 + 2HCl + SO_2Cl_2$ (This is a complex reaction, another possibility is dehydration of impurities). A more standard reaction is its hydrolysis, but the question asks action of acid. If heated, it may also produce $SO_2Cl_2$. A simpler interpretation is not a direct reaction but a dehydrating action if moisture is present. \n(b) **Copper (Cu):** Hot, concentrated sulphuric acid acts as an oxidizing agent and reacts with copper to form copper(II) sulphate, sulphur dioxide gas, and water. \n   $Cu_{(s)} + 2H_2SO_{4(conc)} \\xrightarrow{\\Delta} CuSO_{4(aq)} + SO_{2(g)} + 2H_2O_{(l)}$ \n(c) **Potassium chlorate ($KClO_3$):** Concentrated sulphuric acid reacts with potassium chlorate to produce potassium bisulphate and chloric acid, which is unstable and can decompose explosively to chlorine dioxide. \n   $KClO_3 + H_2SO_4 \\rightarrow KHSO_4 + HClO_3$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Arrange the following oxoacids of chlorine: HClO, HClO₂, HClO₃ and HClO₄ with respect to: (a) Increasing order of thermal stability (b) Increasing order of oxidising power. (July 2017)",
+    "answer": "(a) **Increasing order of thermal stability:** The thermal stability of the oxoacids of chlorine increases as the number of oxygen atoms increases (or the oxidation state of chlorine increases). This is because the delocalization of the negative charge on the conjugate base increases, making it more stable. \n   Order: $HClO < HClO_2 < HClO_3 < HClO_4$. \n\n(b) **Increasing order of oxidising power:** The oxidising power of the oxoacids of chlorine decreases as the oxidation state of chlorine increases, because their thermal stability increases. The least stable acid is the strongest oxidizing agent. \n   Order: $HClO_4 < HClO_3 < HClO_2 < HClO$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write balanced chemical equations for the following: (a) Action of ozone on hydrogen peroxide. (March 2018)",
+    "answer": "(a) **Action of ozone on hydrogen peroxide:** Ozone oxidizes hydrogen peroxide to oxygen and water, while ozone itself is reduced to oxygen. \n$H_2O_{2(aq)} + O_{3(g)} \\rightarrow H_2O_{(l)} + 2O_{2(g)}$",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write molecular and structural formulae of: (a) Thiosulphuric acid (b) Dithionous acid (March 2018)",
+    "answer": "(a) **Thiosulphuric acid:** \n   - Molecular Formula: $H_2S_2O_3$ \n   - Structural Formula: The central sulfur atom is tetrahedrally bonded to one hydroxyl group (-OH), two oxygen atoms via double bonds, and another sulfur atom via a single bond. This terminal sulfur has a formal oxidation state of -2, like in sulfides. \n\n(b) **Dithionous acid:** \n   - Molecular Formula: $H_2S_2O_4$ \n   - Structural Formula: It has a direct S-S single bond. Each sulfur atom is also bonded to one hydroxyl group (-OH) and one oxygen atom via a double bond.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of IF₇. Write its geometry and the type of hybridization. (March 2018)",
+    "answer": "**Structure of Iodine Heptafluoride ($IF_7$):** \nThe central iodine atom is bonded to seven fluorine atoms. \n\n**Geometry:** The geometry of the $IF_7$ molecule is **pentagonal bipyramidal**. Five fluorine atoms are in a plane forming a regular pentagon (equatorial positions), and the other two fluorine atoms are located above and below this plane (axial positions). \n\n**Hybridization:** The iodine atom has 7 bond pairs and 0 lone pairs. To accommodate 7 electron pairs, the hybridization of the central iodine atom is **$sp^3d^3$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the following with the help of balanced chemical equation: (a) Bleaching action of SO₂ (b) Dehydration of formic acid by concentrated H₂SO₄. (c) Burning of benzene in presence of excess of dioxygen. (July 2018)",
+    "answer": "(a) **Bleaching action of SO₂:** Sulphur dioxide bleaches by reduction. In the presence of moisture, it forms nascent hydrogen which reduces the colored matter to a colorless substance. \n   $SO_{2(g)} + 2H_2O_{(l)} \\rightarrow H_2SO_{4(aq)} + 2[H]$ \n   Coloured matter + $2[H] \\rightarrow$ Colourless matter \n(b) **Dehydration of formic acid by concentrated H₂SO₄:** Concentrated sulphuric acid is a strong dehydrating agent. It removes a molecule of water from formic acid, producing carbon monoxide gas. \n   $HCOOH_{(l)} \\xrightarrow{Conc. H_2SO_4} H_2O_{(l)} + CO_{(g)}$ \n(c) **Burning of benzene in presence of excess of dioxygen:** Benzene undergoes complete combustion in excess dioxygen (air) to produce carbon dioxide and water. \n   $2C_6H_{6(l)} + 15O_{2(g)} \\xrightarrow{\\Delta} 12CO_{2(g)} + 6H_2O_{(g)}$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write structure and molecular formula for sulphurous acid. (July 2018)",
+    "answer": "**Molecular Formula:** $H_2SO_3$ \n\n**Structure:** In sulphurous acid, the central sulfur atom is bonded to two hydroxyl (-OH) groups via single bonds and one oxygen atom via a double bond. There is also one lone pair of electrons on the sulfur atom. The geometry around the sulfur atom is pyramidal.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write any two points of difference between fluorine and other halogens. (July 2018)",
+    "answer": "Two points of difference between fluorine and other halogens (Cl, Br, I) are: \n1.  **Oxidation State:** Fluorine, being the most electronegative element, exhibits only a -1 oxidation state. Other halogens can show positive oxidation states (+1, +3, +5, +7) in addition to -1. \n2.  **Hydrogen Bonding:** Due to its small size and high electronegativity, fluorine forms strong intermolecular hydrogen bonds in its hydride (HF), leading to its high boiling point. Other hydrogen halides (HCl, HBr, HI) do not form hydrogen bonds.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the following properties of group 16 elements: (I) Electronegativity (II) Melting and boiling points (III) Metallic character (iv) Allotropy (March 2019)",
+    "answer": "(I) **Electronegativity:** The electronegativity of group 16 elements decreases down the group from oxygen to polonium. This is due to the increase in atomic size and shielding effect, which reduces the nucleus's attraction for bonding electrons. \n(II) **Melting and Boiling Points:** The melting and boiling points increase down the group. This is because the strength of the van der Waals forces of attraction between the molecules increases with the increase in atomic size and mass. \n(III) **Metallic Character:** Metallic character increases down the group. Oxygen and Sulfur are non-metals, Selenium and Tellurium are metalloids, and Polonium is a radioactive metal. This trend is due to the decreasing ionization enthalpy down the group. \n(IV) **Allotropy:** All elements of group 16 exhibit allotropy. For example, oxygen exists as dioxygen ($O_2$) and ozone ($O_3$). Sulfur exists in rhombic, monoclinic, and plastic forms.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What are oxides? Write different types of oxides with one example each. (March 2019)",
+    "answer": "**Oxides** are binary compounds of oxygen with another element. \n\n**Types of Oxides:** \n1.  **Acidic Oxides:** Oxides of non-metals that react with water to form acids or with bases to form salts. Example: Sulphur dioxide ($SO_2$), which forms sulphurous acid ($H_2SO_3$) with water. \n2.  **Basic Oxides:** Oxides of metals that react with acids to form salts and water. Example: Calcium oxide ($CaO$), which reacts with HCl to form $CaCl_2$. \n3.  **Amphoteric Oxides:** Oxides that exhibit both acidic and basic properties. They react with both acids and bases. Example: Aluminium oxide ($Al_2O_3$). \n4.  **Neutral Oxides:** Oxides that are neither acidic nor basic. Example: Carbon monoxide ($CO$).",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write the name of an inert gas element used in the treatment of cancer by radiotherapy. (July 2019)",
+    "answer": "The inert gas element used in the treatment of cancer by radiotherapy is **Radon (Rn)**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "The layer of ozone acts as a protective umbrella. Explain. (July 2019)",
+    "answer": "The layer of ozone ($O_3$) in the stratosphere acts as a protective umbrella for life on Earth by absorbing the majority of the harmful high-frequency ultraviolet (UV) radiation coming from the sun. This absorption prevents dangerous UV-B and UV-C radiation from reaching the Earth's surface, where it can cause skin cancer, cataracts, damage to immune systems, and harm to plants and aquatic life.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two uses of each of the following: (a) Helium (b) Neon. (March 2020)",
+    "answer": "(a) **Two uses of Helium (He):** \n1.  It is used to fill meteorological balloons and airships because it is non-inflammable and the second lightest gas. \n2.  It is used as a cryogenic agent for low-temperature research and in MRI scanners. It is also used in gas-cooled nuclear reactors. \n\n(b) **Two uses of Neon (Ne):** \n1.  It is widely used in advertising signs ('neon signs') which produce a distinct reddish-orange glow. \n2.  It is used in electronic devices such as voltage regulators and television tubes.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of sulphurous acid. Explain why nitrogen does not form pentahalides. (March 2020)",
+    "answer": "**Structure of Sulphurous Acid ($H_2SO_3$):** \nThe central sulfur atom is bonded to two hydroxyl (-OH) groups and one oxygen atom via a double bond (S=O). There is also one lone pair of electrons on the sulfur atom, giving the molecule a pyramidal geometry. \n\n**Why Nitrogen does not form pentahalides:** \nNitrogen has the electronic configuration $1s^2 2s^2 2p^3$. Its valence shell is the second shell (n=2), which contains only s and p orbitals. It does not have vacant d-orbitals. To form five bonds (a pentahalide like $NCl_5$), nitrogen would need to expand its octet by promoting an electron to a d-orbital, which is not available. Therefore, nitrogen cannot form pentahalides.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain Interhalogen compounds. (March 2020)",
+    "answer": "Interhalogen compounds are compounds formed when two or more different halogen atoms react with each other. The general formula is $XY_n$, where X is the larger, less electronegative halogen (central atom) and Y is the smaller, more electronegative halogen. The value of 'n' can be 1, 3, 5, or 7. Examples include $ClF$, $BrF_3$, $IF_5$, and $IF_7$. They are generally more reactive than the individual halogens (except fluorine) because the X-Y bond is weaker than the X-X bond.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How is oxygen prepared from the following compounds? (a) KClO₃ (b) PbO₂. (March 2020)",
+    "answer": "(a) **From Potassium Chlorate ($KClO_3$):** Oxygen is prepared in the laboratory by heating potassium chlorate in the presence of manganese dioxide ($MnO_2$) as a catalyst. The $MnO_2$ lowers the decomposition temperature. \n   $2KClO_{3(s)} \\xrightarrow{MnO_2, \\Delta} 2KCl_{(s)} + 3O_{2(g)}$ \n\n(b) **From Lead Dioxide ($PbO_2$):** Oxygen can be prepared by the thermal decomposition of lead dioxide at high temperatures. It decomposes to form lead(II) oxide and oxygen gas. \n   $2PbO_{2(s)} \\xrightarrow{\\Delta} 2PbO_{(s)} + O_{2(g)}$",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write the name of the interhalogen compound of chlorine which has square pyramidal structure. (Sept. 2021)",
+    "answer": "The interhalogen compound of chlorine that has a square pyramidal structure is **Chlorine pentafluoride ($ClF_5$)**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of sulphurous acid. Write two uses of helium. (Sept. 2021)",
+    "answer": "**Structure of Sulphurous Acid ($H_2SO_3$):** The central sulfur atom has one lone pair of electrons. It is single-bonded to two hydroxyl (-OH) groups and double-bonded to one oxygen atom. The geometry is pyramidal. \n\n**Two Uses of Helium:** \n1.  It is used as a cryogenic fluid for cooling superconducting magnets in MRI scanners. \n2.  It is used to fill weather balloons and airships due to its low density and non-combustible nature.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write chemical equations involved during manufacture of sulphuric acid by contact process. Write two uses of sulphur dioxide. (Sept. 2021)",
+    "answer": "**Equations for Contact Process:** \n1.  Burning of sulfur or sulfide ores in air to produce $SO_2$: \n    $S_{(s)} + O_{2(g)} \\rightarrow SO_{2(g)}$ \n2.  Catalytic oxidation of $SO_2$ to $SO_3$ using a vanadium pentoxide ($V_2O_5$) catalyst: \n    $2SO_{2(g)} + O_{2(g)} \\rightleftharpoons 2SO_{3(g)}$, $\\Delta H = -196.6$ kJ/mol \n3.  Absorption of $SO_3$ in concentrated $H_2SO_4$ to form oleum ($H_2S_2O_7$): \n    $SO_{3(g)} + H_2SO_{4(conc)} \\rightarrow H_2S_2O_{7(l)}$ \n4.  Dilution of oleum with water to get $H_2SO_4$ of the desired concentration: \n    $H_2S_2O_{7(l)} + H_2O_{(l)} \\rightarrow 2H_2SO_{4(aq)}$ \n\n**Two Uses of Sulphur Dioxide ($SO_2$):** \n1.  It is used as a disinfectant and a preservative for foods like dried fruits and in the production of wine. \n2.  It is used as a bleaching agent for delicate materials like wool and silk.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is the action of concentrated H₂SO₄ on: (i) CaF₂ (ii) Cane sugar. What is nucleotide? Write reaction for the preparation of polyacrylonitrile (PAN). (Sept. 2021)",
+    "answer": "**Action of concentrated H₂SO₄:** \n(i) **On Calcium Fluoride ($CaF_2$):** Concentrated sulphuric acid reacts with calcium fluoride upon heating to produce hydrogen fluoride gas. \n    $CaF_{2(s)} + H_2SO_{4(conc)} \\xrightarrow{\\Delta} CaSO_{4(s)} + 2HF_{(g)}$ \n(ii) **On Cane Sugar ($C_{12}H_{22}O_{11}$):** Concentrated sulphuric acid is a strong dehydrating agent. It removes water from cane sugar, leaving behind a black, porous mass of carbon. This is known as the charring of sugar. \n    $C_{12}H_{22}O_{11(s)} \\xrightarrow{Conc. H_2SO_4} 12C_{(s)} + 11H_2O_{(l)}$ \n\n**Nucleotide:** A nucleotide is the basic building block of nucleic acids like DNA and RNA. It consists of three components: a nitrogenous base (adenine, guanine, cytosine, thymine, or uracil), a five-carbon sugar (deoxyribose or ribose), and at least one phosphate group. \n\n**Preparation of PAN:** Polyacrylonitrile (PAN) is prepared by the addition polymerization of acrylonitrile monomers in the presence of a peroxide catalyst. \n$n(CH_2=CH-CN) \\xrightarrow{Peroxide} -[CH_2-CH(CN)]_n-$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the action of selenium on magnesium metal? (March 2022)",
+    "answer": "Selenium (Se) reacts with active metals like magnesium (Mg) upon heating to form the corresponding metal selenide. \n$Mg_{(s)} + Se_{(s)} \\xrightarrow{\\Delta} MgSe_{(s)}$ (Magnesium selenide)",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain the trends in the following atomic properties of group 16 elements: (i) Atomic radii (ii) Ionisation enthalpy (iii) Electronegativity (iv) Electron gain enthalpy. (March 2022)",
+    "answer": "(i) **Atomic Radii:** Atomic radii increase down Group 16. This is due to the addition of a new principal energy level (shell) for each successive element. \n(ii) **Ionisation Enthalpy:** Ionisation enthalpy decreases down the group. The increasing atomic size and shielding effect weaken the attraction between the nucleus and the outermost electron, making it easier to remove. \n(iii) **Electronegativity:** Electronegativity decreases down the group. As the atomic size increases, the ability of an atom's nucleus to attract the shared electrons in a bond diminishes. \n(iv) **Electron Gain Enthalpy:** Oxygen has a less negative electron gain enthalpy than sulfur due to its very small size and high electron density, which causes interelectronic repulsion. From sulfur onwards, the value generally becomes less negative down the group due to the increase in atomic size.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write chemical composition of haematite. Write the names and electronic configurations of first two elements of group 17. (March 2022)",
+    "answer": "**Chemical composition of haematite:** Haematite is a principal ore of iron. Its chemical composition is iron(III) oxide, with the formula **$Fe_2O_3$**. \n\n**First two elements of Group 17 (Halogens):** \n1.  **Fluorine (F):** Atomic number Z = 9. \n    Electronic Configuration: $1s^2 2s^2 2p^5$ or $[He] 2s^2 2p^5$. \n2.  **Chlorine (Cl):** Atomic number Z = 17. \n    Electronic Configuration: $1s^2 2s^2 2p^6 3s^2 3p^5$ or $[Ne] 3s^2 3p^5$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write chemical equation for preparation of sulphur dioxide from sulphur. Write uses of sulphur. (March 2022)",
+    "answer": "**Preparation of Sulphur Dioxide from Sulphur:** \nSulphur dioxide is prepared by burning sulphur in air or oxygen. \n$S_{(s)} + O_{2(g)} \\xrightarrow{\\Delta} SO_{2(g)}$ \n\n**Uses of Sulphur:** \n1.  The primary use of sulphur is in the manufacture of sulphuric acid ($H_2SO_4$) via the Contact Process. \n2.  It is used in the vulcanization of rubber to make it hard and durable for use in tires. \n3.  It is used in the manufacture of fungicides, insecticides, and matches.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the action of chlorine on the following: (i) NH₃ (excess) (ii) phosphorus? (July 2022)",
+    "answer": "(i) **Excess Ammonia ($NH_3$):** When chlorine gas is passed through excess ammonia, nitrogen gas and ammonium chloride are formed. \n   $8NH_{3(excess)} + 3Cl_{2(g)} \\rightarrow 6NH_4Cl_{(s)} + N_{2(g)}$ \n\n(ii) **Phosphorus (P₄):** The product depends on the amount of chlorine. \n   - With a limited supply of chlorine, white phosphorus reacts to form phosphorus trichloride. \n     $P_{4(s)} + 6Cl_{2(g, limited)} \\rightarrow 4PCl_{3(l)}$ \n   - With an excess of chlorine, phosphorus trichloride reacts further to form phosphorus pentachloride. \n     $P_{4(s)} + 10Cl_{2(g, excess)} \\rightarrow 4PCl_{5(s)}$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What happens when: (i) Ethene reacts with iodine monochloride. (ii) Sulphur dioxide is oxidised in presence of V₂O₅. (iii) Cu heated with concentrated H₂SO₄. (July 2022)",
+    "answer": "(i) **Ethene reacts with iodine monochloride (ICl):** This is an electrophilic addition reaction across the double bond of ethene. The more electronegative chlorine atom adds to one carbon, and the iodine adds to the other. \n   $CH_2=CH_2 + I-Cl \\rightarrow ICH_2-CH_2Cl$ (1-chloro-2-iodoethane) \n\n(ii) **Sulphur dioxide is oxidised in presence of V₂O₅:** This is the key step in the Contact Process for manufacturing sulphuric acid. Sulphur dioxide is catalytically oxidized by air (oxygen) to sulphur trioxide. \n   $2SO_{2(g)} + O_{2(g)} \\xrightarrow{V_2O_5, ~450°C} 2SO_{3(g)}$ \n\n(iii) **Copper (Cu) heated with concentrated H₂SO₄:** Hot, concentrated sulphuric acid acts as an oxidizing agent and reacts with copper metal to produce copper(II) sulphate, sulphur dioxide gas, and water. \n   $Cu_{(s)} + 2H_2SO_{4(conc)} \\xrightarrow{\\Delta} CuSO_{4(aq)} + SO_{2(g)} + 2H_2O_{(l)}$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are interhalogen compounds? Write two uses of neon. (July 2022)",
+    "answer": "**Interhalogen Compounds:** These are compounds formed between two or more different halogen elements. They have the general formula $XY_n$, where X is the larger central halogen and Y is the smaller, more electronegative halogen. Examples: $ClF$, $BrF_3$, $IF_7$. \n\n**Two Uses of Neon:** \n1.  Used in 'neon signs' and fluorescent lamps for advertising displays, which emit a characteristic bright reddish-orange light. \n2.  Used in safety devices like voltage indicators, regulators, and lightning arrestors.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the chemical composition of cryolite. (March 2023)",
+    "answer": "The chemical composition of cryolite is sodium hexafluoroaluminate. Its chemical formula is $Na_3AlF_6$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Give reason: Group 16th elements have lower ionisation enthalpy compared to group 15th elements. (March 2023)",
+    "answer": "Group 16 elements have a lower first ionization enthalpy compared to the corresponding elements of Group 15. This is because Group 15 elements have a half-filled p-orbital electronic configuration ($ns^2 np^3$), which is exceptionally stable. Removing an electron from this stable configuration requires more energy. In contrast, Group 16 elements have an $ns^2 np^4$ configuration. Removing one electron results in a more stable, half-filled $p^3$ configuration, making the electron removal process energetically easier.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write two uses of oxygen. Give reason: Bleaching action of ozone is also called dry bleach. (March 2023)",
+    "answer": "**Two Uses of Oxygen:** \n1.  It is essential for respiration in all aerobic organisms. \n2.  It is used in oxy-acetylene torches for cutting and welding metals. \n\n**Reason for Ozone as Dry Bleach:** \nOzone ($O_3$) is a powerful oxidizing agent. It decomposes to give dioxygen and nascent oxygen: $O_3 \\rightarrow O_2 + [O]$. This highly reactive nascent oxygen oxidizes colored substances to colorless ones. Since this process does not require the presence of moisture (water), the bleaching action of ozone is known as dry bleach.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Draw the structures of the following compounds: (a) Chloric acid (b) Peroxy disulphuric acid. (March 2023)",
+    "answer": "(a) **Chloric Acid ($HClO_3$):** The central chlorine atom is bonded to one hydroxyl group (-OH) and two oxygen atoms via double bonds. There is one lone pair on the chlorine atom, giving it a pyramidal geometry. \n\n(b) **Peroxydisulphuric Acid (Marshall's acid, $H_2S_2O_8$):** This structure contains two sulfur atoms linked by a peroxy bridge (-O-O-). Each sulfur atom is also bonded to one hydroxyl group (-OH) and two oxygen atoms via double bonds.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain anomalous behaviour of oxygen in group 16 with respect to: (i) Atomicity (ii) Magnetic property (iii) Oxidation state. (March 2023)",
+    "answer": "(i) **Atomicity:** Oxygen exists as a diatomic molecule ($O_2$) which is a gas. Other elements in group 16 are polyatomic solids (e.g., $S_8$). This is due to oxygen's ability to form strong $p\\pi-p\\pi$ multiple bonds with itself. \n(ii) **Magnetic Property:** Dioxygen ($O_2$) is paramagnetic because its molecular orbital diagram shows two unpaired electrons in the antibonding $\\pi^*$ orbitals. The other elements of the group are diamagnetic. \n(iii) **Oxidation State:** Oxygen, being highly electronegative, typically shows a -2 oxidation state (and -1 in peroxides). It only shows a positive oxidation state (+2) with fluorine ($OF_2$). Other elements can show positive oxidation states of +2, +4, and +6 due to the availability of vacant d-orbitals.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Write the name of radioactive element in group 16. (July 2023)",
+    "answer": "The radioactive element in group 16 is **Polonium (Po)**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Why fluorine shows anomalous behaviour? (July 2023)",
+    "answer": "Fluorine shows anomalous behaviour compared to the other halogens primarily due to three reasons: \n1.  **Small Atomic Size:** It is the smallest atom in its group. \n2.  **High Electronegativity:** It is the most electronegative element in the periodic table. \n3.  **Absence of d-orbitals:** Its valence shell (n=2) lacks d-orbitals, so it cannot expand its octet to form more than one covalent bond or exhibit higher positive oxidation states.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write molecular formula and structure of: (a) Sulphuric acid (b) Peroxy monosulphuric acid (c) Thiosulphuric acid (July 2023)",
+    "answer": "(a) **Sulphuric acid:** Formula: $H_2SO_4$. Structure: Central sulfur atom is tetrahedrally bonded to two hydroxyl (-OH) groups and two oxygen atoms via double bonds. \n(b) **Peroxy monosulphuric acid (Caro's acid):** Formula: $H_2SO_5$. Structure: Central sulfur is bonded to one hydroxyl (-OH) group, one peroxy (-O-OH) group, and two oxygen atoms via double bonds. \n(c) **Thiosulphuric acid:** Formula: $H_2S_2O_3$. Structure: Central sulfur atom is bonded to one hydroxyl (-OH) group, two oxygen atoms via double bonds, and one terminal sulfur atom via a single bond.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are interhalogen compounds? (July 2023)",
+    "answer": "Interhalogen compounds are molecules that contain two or more different halogen atoms (fluorine, chlorine, bromine, iodine) and no atoms of any other elements. Their general formula is $XY_n$, where X is the less electronegative halogen and Y is the more electronegative halogen.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write any two general characteristics of interhalogen compounds. (July 2023)",
+    "answer": "Two general characteristics of interhalogen compounds are: \n1.  **Reactivity:** They are generally more reactive than the individual halogens (except for fluorine). This is because the bond between two different halogen atoms (X-Y) is weaker than the bond between two identical halogen atoms (X-X), except for the F-F bond. \n2.  **Covalent Nature:** All interhalogen compounds are covalent molecules and are diamagnetic in nature.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The compounds of Ti⁴⁺ ions are colourless due to _______________. (March 2024)",
+    "answer": "The compounds of $Ti^{4+}$ ions are colourless due to the **absence of unpaired electrons in the d-orbital** (it has a $d^0$ electronic configuration), which means d-d electronic transitions are not possible.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are interhalogen compounds? Write the chemical reaction, when chlorine reacts with dry slaked lime. (March 2024)",
+    "answer": "**Interhalogen Compounds:** These are compounds formed when two or more different halogens react with each other. The general formula is $XY_n$, where X is the central, larger halogen and Y is the smaller halogen. \n\n**Reaction of Chlorine with Dry Slaked Lime:** Chlorine reacts with dry slaked lime ($Ca(OH)_2$) to form bleaching powder (calcium chloro-hypochlorite). \n$2Ca(OH)_{2(s)} + 2Cl_{2(g)} \\rightarrow Ca(OCl)_{2(s)} + CaCl_{2(s)} + 2H_2O_{(l)}$",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Arrange the following in the increasing order of the property mentioned. \n(i) HOCl, HClO₂, HClO₃, HClO₄ (acidic strength) \n(ii) HF, HCl, HBr, HI (thermal stability) \n(iii) MF, MCl, MBr, MI (ionic character) (March 2024)",
+    "answer": "(i) **Increasing acidic strength:** $HOCl < HClO_2 < HClO_3 < HClO_4$ \n(ii) **Increasing thermal stability:** This is incorrect; thermal stability decreases down the group. The increasing order of bond length/decreasing order of stability is: $HI < HBr < HCl < HF$. The question asks for increasing order of the property. So, $HI < HBr < HCl < HF$. \n(iii) **Increasing ionic character:** $MI < MBr < MCl < MF$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of peroxymonosulphuric acid. (March 2024)",
+    "answer": "The structure of peroxymonosulphuric acid (Caro's acid, $H_2SO_5$) has a central sulfur atom. The sulfur atom is tetrahedrally coordinated. It is bonded to: \n-   One hydroxyl group (-OH) via a single bond. \n-   One peroxy group (-O-OH) via a single S-O bond. \n-   Two oxygen atoms via double bonds (S=O).",
+    "marks": 1
+  }
+]

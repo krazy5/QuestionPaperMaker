@@ -1,40 +1,290 @@
 [
   {
     "type": "mcq",
-    "text": "The principal value branch of $\\sec^{-1}x$ is... (Board 2024)",
-    "options": ["$(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$", "$[0, \\pi] - \\{\\frac{\\pi}{2}\\}$", "$[0, \\pi]$", "$(0, \\pi)$"],
+    "text": "The principal value of $\\cos^{-1}(-\\frac{1}{2})$ is:",
+    "options": [
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{2\\pi}{3}$",
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{5\\pi}{6}$"
+    ],
     "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "In $\\triangle ABC$, if $c^2 + a^2 - b^2 = ac$, then $\\angle B = $... (Board 2023)",
-    "options": ["$\\frac{\\pi}{4}$", "$\\frac{\\pi}{3}$", "$\\frac{\\pi}{2}$", "$\\frac{\\pi}{6}$"],
+    "text": "The value of $\\sin^{-1}(\\sin(\\frac{7\\pi}{6}))$ is:",
+    "options": [
+      "$\\frac{7\\pi}{6}$",
+      "$\\frac{\\pi}{6}$",
+      "$-\\frac{\\pi}{6}$",
+      "None of these"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In $\\triangle ABC$, if $a=2, b=3, \\sin A = 2/3$, then $\\angle B$ is:",
+    "options": [
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$120^\\circ$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the principal solutions of $\\cot\\theta = \\sqrt{3}$.",
+    "answer": "We have $\\cot\\theta = \\sqrt{3}$. Since $\\cot(\\pi/6) = \\sqrt{3}$ and $\\cot(\\pi + \\pi/6) = \\cot(7\\pi/6) = \\sqrt{3}$. The principal solutions are $\\theta = \\pi/6$ and $\\theta = 7\\pi/6$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In $\\triangle ABC$, prove that $\\sin(\\frac{B-C}{2}) = \\frac{b-c}{a} \\cos(\\frac{A}{2})$.",
+    "answer": "Using the sine rule, $b=k\\sin B$ and $c=k\\sin C$. RHS = $\\frac{k(\\sin B - \\sin C)}{k\\sin A} \\cos(\\frac{A}{2})$. Using sum-to-product and half-angle formulas, this simplifies to the LHS.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the value of $\\tan^{-1}(\\sqrt{3}) - \\sec^{-1}(-2)$.",
+    "answer": "$\\tan^{-1}(\\sqrt{3}) = \\pi/3$. $\\sec^{-1}(-2) = \\pi - \\sec^{-1}(2) = \\pi - \\pi/3 = 2\\pi/3$. The value is $\\pi/3 - 2\\pi/3 = -\\pi/3$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Prove that $\\tan^{-1}(\\frac{1}{2}) + \\tan^{-1}(\\frac{1}{3}) = \\frac{\\pi}{4}$.",
+    "answer": "Using the formula $\\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}(\\frac{x+y}{1-xy})$, we get LHS = $\\tan^{-1}(\\frac{1/2 + 1/3}{1 - (1/2)(1/3)}) = \\tan^{-1}(\\frac{5/6}{5/6}) = \\tan^{-1}(1) = \\frac{\\pi}{4}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, if $\\angle A = 45^\\circ, \\angle B = 60^\\circ$, then find the ratio of its sides.",
+    "answer": "$\\angle C = 180 - (45+60) = 75^\\circ$. By the sine rule, $a:\\sin A = b:\\sin B = c:\\sin C$. So, $a:b:c = \\sin 45^\\circ : \\sin 60^\\circ : \\sin 75^\\circ$. This gives the ratio $\\frac{1}{\\sqrt{2}} : \\frac{\\sqrt{3}}{2} : \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$. Multiplying by $2\\sqrt{2}$ gives the ratio $2 : \\sqrt{6} : (\\sqrt{3}+1)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Two ships leave a port at the same time. One goes 24 km per hour in the direction N $45^\\circ$ E and other travels 32 km per hour in the direction S $75^\\circ$ E. Find the distance between the ships at the end of 3 hours.",
+    "answer": "After 3 hours, the distances are $a=72$ km and $b=96$ km. The angle between their paths is $45 + (90-75) = 60^\\circ$. Using the cosine rule, the distance $d^2 = a^2 + b^2 - 2ab\\cos(60^\\circ)$. $d^2 = 72^2 + 96^2 - 2(72)(96)(1/2) = 5184 + 9216 - 6912 = 7488$. So, $d = \\sqrt{7488} \\approx 86.5$ km.",
+    "marks": 4
+  },
+  {
+    "type": "true_false",
+    "text": "The principal value branch of $\\sin^{-1}x$ is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The sine rule can be applied to any triangle.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The principal value of $\\cos^{-1}(-\\frac{1}{2})$ is:",
+    "options": [
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{2\\pi}{3}$",
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{5\\pi}{6}$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $\\sin^{-1}(\\sin(\\frac{7\\pi}{6}))$ is:",
+    "options": [
+      "$\\frac{7\\pi}{6}$",
+      "$\\frac{\\pi}{6}$",
+      "$-\\frac{\\pi}{6}$",
+      "None of these"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In $\\triangle ABC$, if $a=2, b=3, \\sin A = 2/3$, then $\\angle B$ is:",
+    "options": [
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$120^\\circ$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the principal solutions of $\\cot\\theta = \\sqrt{3}$.",
+    "answer": "We have $\\cot\\theta = \\sqrt{3}$. Since $\\cot(\\pi/6) = \\sqrt{3}$ and $\\cot(\\pi + \\pi/6) = \\cot(7\\pi/6) = \\sqrt{3}$. The principal solutions are $\\theta = \\pi/6$ and $\\theta = 7\\pi/6$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In $\\triangle ABC$, prove that $\\sin(\\frac{B-C}{2}) = \\frac{b-c}{a} \\cos(\\frac{A}{2})$.",
+    "answer": "Using the sine rule, $b=k\\sin B$ and $c=k\\sin C$. RHS = $\\frac{k(\\sin B - \\sin C)}{k\\sin A} \\cos(\\frac{A}{2})$. Using sum-to-product and half-angle formulas, this simplifies to the LHS.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the value of $\\tan^{-1}(\\sqrt{3}) - \\sec^{-1}(-2)$.",
+    "answer": "$\\tan^{-1}(\\sqrt{3}) = \\pi/3$. $\\sec^{-1}(-2) = \\pi - \\sec^{-1}(2) = \\pi - \\pi/3 = 2\\pi/3$. The value is $\\pi/3 - 2\\pi/3 = -\\pi/3$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Prove that $\\tan^{-1}(\\frac{1}{2}) + \\tan^{-1}(\\frac{1}{3}) = \\frac{\\pi}{4}$.",
+    "answer": "Using the formula $\\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}(\\frac{x+y}{1-xy})$, we get LHS = $\\tan^{-1}(\\frac{1/2 + 1/3}{1 - (1/2)(1/3)}) = \\tan^{-1}(\\frac{5/6}{5/6}) = \\tan^{-1}(1) = \\frac{\\pi}{4}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, if $\\angle A = 45^\\circ, \\angle B = 60^\\circ$, then find the ratio of its sides.",
+    "answer": "$\\angle C = 180 - (45+60) = 75^\\circ$. By the sine rule, $a:\\sin A = b:\\sin B = c:\\sin C$. So, $a:b:c = \\sin 45^\\circ : \\sin 60^\\circ : \\sin 75^\\circ$. This gives the ratio $\\frac{1}{\\sqrt{2}} : \\frac{\\sqrt{3}}{2} : \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$. Multiplying by $2\\sqrt{2}$ gives the ratio $2 : \\sqrt{6} : (\\sqrt{3}+1)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Two ships leave a port at the same time. One goes 24 km per hour in the direction N $45^\\circ$ E and other travels 32 km per hour in the direction S $75^\\circ$ E. Find the distance between the ships at the end of 3 hours.",
+    "answer": "After 3 hours, the distances are $a=72$ km and $b=96$ km. The angle between their paths is $45 + (90-75) = 60^\\circ$. Using the cosine rule, the distance $d^2 = a^2 + b^2 - 2ab\\cos(60^\\circ)$. $d^2 = 72^2 + 96^2 - 2(72)(96)(1/2) = 5184 + 9216 - 6912 = 7488$. So, $d = \\sqrt{7488} \\approx 86.5$ km.",
+    "marks": 4
+  },
+  {
+    "type": "true_false",
+    "text": "The principal value branch of $\\sin^{-1}x$ is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The sine rule can be applied to any triangle.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "In $\\triangle ABC$, if $a = 18, b = 24, c = 30$, find the value of $\\cos A$.",
+    "answer": "Using the cosine rule, $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{24^2 + 30^2 - 18^2}{2(24)(30)} = \\frac{576 + 900 - 324}{1440} = \\frac{1152}{1440} = \\frac{4}{5}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In $\\triangle ABC$, prove the projection rule: $a = b\\cos C + c\\cos B$.",
+    "answer": "From properties of a triangle, we know $b = a\\cos C + c\\cos A$ and $c = a\\cos B + b\\cos A$. Adding these gives $b+c = a(\\cos B + \\cos C) + (b+c)\\cos A$. This is one way to prove it. A simpler way is to drop a perpendicular from A to BC.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, prove that $a(b\\cos C - c\\cos B) = b^2 - c^2$.",
+    "answer": "Using the projection rules, $b = a\\cos C + c\\cos A$ and $c = a\\cos B + b\\cos A$. LHS = $ab\\cos C - ac\\cos B$. From cosine rule, $\\cos C = \\frac{a^2+b^2-c^2}{2ab}$ and $\\cos B = \\frac{a^2+c^2-b^2}{2ac}$. Substituting these into the LHS gives $\\frac{a^2+b^2-c^2}{2} - \\frac{a^2+c^2-b^2}{2} = b^2 - c^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the value of $\\tan^{-1}(1) + \\cos^{-1}(\\frac{1}{2}) + \\sin^{-1}(\\frac{1}{2})$.",
+    "answer": "$\\tan^{-1}(1) = \\pi/4$. $\\cos^{-1}(1/2) = \\pi/3$. $\\sin^{-1}(1/2) = \\pi/6$. The sum is $\\frac{\\pi}{4} + \\frac{\\pi}{3} + \\frac{\\pi}{6} = \\frac{3\\pi + 4\\pi + 2\\pi}{12} = \\frac{9\\pi}{12} = \\frac{3\\pi}{4}$.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "In $\\triangle ABC$, with usual notations, if $\\cos A = \\frac{\\sin B}{2\\sin C}$, then the triangle is:",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Right-angled",
+      "Scalene"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $\\cot(\\tan^{-1}(x) + \\cot^{-1}(x))$ is:",
+    "options": [
+      "1",
+      "0",
+      "$\\pi/2$",
+      "undefined"
+    ],
     "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "short",
-    "text": "Find the principal solution of $\\sin(x) = \\frac{1}{\\sqrt{2}}$. (Board 2023)",
-    "answer": "The principal solutions are $x = \\frac{\\pi}{4}$ and $x = \\frac{3\\pi}{4}$.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "In $\\triangle ABC$, prove that $a(\\sin B - \\sin C) + b(\\sin C - \\sin A) + c(\\sin A - \\sin B) = 0$. (Board 2024)",
-    "answer": "Using the sine rule, $a = k\\sin A, b = k\\sin B, c = k\\sin C$. Substituting these into the LHS gives $k\\sin A(\\sin B - \\sin C) + k\\sin B(\\sin C - \\sin A) + k\\sin C(\\sin A - \\sin B)$. Expanding this expression results in all terms cancelling out, proving the identity.",
+    "text": "Find the general solution of $\\sin x = -\\frac{\\sqrt{3}}{2}$.",
+    "answer": "Since $\\sin(\\pi/3) = \\sqrt{3}/2$, we have $\\sin(\\pi + \\pi/3) = \\sin(4\\pi/3) = -\\sqrt{3}/2$. The general solution is $x = n\\pi + (-1)^n \\frac{4\\pi}{3}$, where $n \\in Z$.",
     "marks": 2
   },
   {
     "type": "long",
-    "text": "In $\\triangle ABC$, prove that $\\tan(\\frac{C-A}{2}) = \\frac{c-a}{c+a} \\cot(\\frac{B}{2})$. (Board 2023)",
-    "answer": "This is a direct application of Napier's Analogy. Starting with the formula $\\tan(\\frac{C-A}{2}) = \\frac{c-a}{c+a} \\cot(\\frac{B}{2})$, we can prove it using the sine rule and properties of triangles.",
+    "text": "Prove that $\\sin^{-1}(\\frac{3}{5}) + \\cos^{-1}(\\frac{12}{13}) = \\sin^{-1}(\\frac{56}{65})$.",
+    "answer": "Let $A = \\sin^{-1}(3/5)$ and $B = \\cos^{-1}(12/13)$. Then $\\sin A = 3/5, \\cos A = 4/5$ and $\\cos B = 12/13, \\sin B = 5/13$. We need to find $\\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B = (3/5)(12/13) + (4/5)(5/13) = 36/65 + 20/65 = 56/65$. Hence proved.",
+    "marks": 4
+  },
+  {
+    "type": "true_false",
+    "text": "The general solution of $\\tan x = 1$ is $x = n\\pi + \\frac{\\pi}{4}$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The projection rule is only applicable for right-angled triangles.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, if $A = 45^\\circ, B = 60^\\circ$ then find the ratio of its sides.",
+    "answer": "Step 1: Find the third angle, C. We know $A+B+C = 180^\\circ$, so $C = 180 - (45+60) = 75^\\circ$. Step 2: Use the Sine Rule, which states $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$. Step 3: The ratio of sides is $a:b:c = \\sin A : \\sin B : \\sin C$. Step 4: Substitute the values: $a:b:c = \\sin 45^\\circ : \\sin 60^\\circ : \\sin 75^\\circ$. Step 5: We know $\\sin 45^\\circ = \\frac{1}{\\sqrt{2}}$, $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$, and $\\sin 75^\\circ = \\sin(45+30) = \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$. Step 6: The ratio is $\\frac{1}{\\sqrt{2}} : \\frac{\\sqrt{3}}{2} : \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$. To simplify, multiply all parts by $2\\sqrt{2}$, giving the final ratio $2 : \\sqrt{6} : (\\sqrt{3}+1)$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Find the general solution of $\\cos(x) = -\\frac{1}{2}$. (Board 2024)",
-    "answer": "We know $\\cos(\\frac{\\pi}{3}) = \\frac{1}{2}$. Since $\\cos(\\pi - \\theta) = -\\cos\\theta$, we have $\\cos(\\pi - \\frac{\\pi}{3}) = \\cos(\\frac{2\\pi}{3}) = -\\frac{1}{2}$. The general solution for $\\cos x = \\cos \\alpha$ is $x = 2n\\pi \\pm \\alpha$. Therefore, the general solution is $x = 2n\\pi \\pm \\frac{2\\pi}{3}$, where $n \\in Z$.",
-    "marks": 3
+    "text": "In $\\triangle ABC$, prove that $\\sin(\\frac{B-C}{2}) = \\frac{b-c}{a} \\cos(\\frac{A}{2})$.",
+    "answer": "Step 1: Start with the RHS: $\\frac{b-c}{a} \\cos(\\frac{A}{2})$. Step 2: Apply the Sine Rule: $a=k\\sin A, b=k\\sin B, c=k\\sin C$. The expression becomes $\\frac{k(\\sin B - \\sin C)}{k\\sin A} \\cos(\\frac{A}{2})$. Step 3: Use the sum-to-product formula: $\\sin B - \\sin C = 2\\cos(\\frac{B+C}{2})\\sin(\\frac{B-C}{2})$. Step 4: Use the half-angle formula for the denominator: $\\sin A = 2\\sin(\\frac{A}{2})\\cos(\\frac{A}{2})$. Step 5: Substitute these back: $\\frac{2\\cos(\\frac{B+C}{2})\\sin(\\frac{B-C}{2})}{2\\sin(\\frac{A}{2})\\cos(\\frac{A}{2})} \\cos(\\frac{A}{2})$. Step 6: Since $A+B+C=\\pi$, $\\frac{B+C}{2} = \\frac{\\pi}{2} - \\frac{A}{2}$, so $\\cos(\\frac{B+C}{2}) = \\sin(\\frac{A}{2})$. Step 7: The expression simplifies to $\\frac{\\sin(\\frac{A}{2})\\sin(\\frac{B-C}{2})}{\\sin(\\frac{A}{2})} = \\sin(\\frac{B-C}{2})$, which is the LHS.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "With usual notations prove that $2\\{a\\sin^2(\\frac{C}{2}) + c\\sin^2(\\frac{A}{2})\\} = a - b + c$.",
+    "answer": "Step 1: Start with the LHS. Use the half-angle formulas: $\\sin^2(\\frac{C}{2}) = \\frac{(s-a)(s-b)}{ab}$ and $\\sin^2(\\frac{A}{2}) = \\frac{(s-b)(s-c)}{bc}$. Step 2: Substitute these into the LHS: $2\\{a\\frac{(s-a)(s-b)}{ab} + c\\frac{(s-b)(s-c)}{bc}\\}$. Step 3: Simplify by cancelling terms: $2\\{\\frac{(s-a)(s-b)}{b} + \\frac{(s-b)(s-c)}{b}\\}$. Step 4: Factor out the common term $\\frac{s-b}{b}$: $\\frac{2(s-b)}{b} [(s-a) + (s-c)] = \\frac{2(s-b)}{b} [2s - a - c]$. Step 5: We know $2s = a+b+c$, so $2s-a-c = b$. Step 6: The expression becomes $\\frac{2(s-b)}{b} [b] = 2(s-b)$. Step 7: Substitute $s = \\frac{a+b+c}{2}$: $2(\\frac{a+b+c}{2} - b) = a+b+c - 2b = a-b+c$, which is the RHS.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, if $\\cot A, \\cot B, \\cot C$ are in A.P. then show that $a^2, b^2, c^2$ are also in A.P.",
+    "answer": "Step 1: Since $\\cot A, \\cot B, \\cot C$ are in A.P., we have $2\\cot B = \\cot A + \\cot C$. Step 2: Use the cotangent rule: $\\cot A = \\frac{b^2+c^2-a^2}{4\\Delta}$, $\\cot B = \\frac{a^2+c^2-b^2}{4\\Delta}$, $\\cot C = \\frac{a^2+b^2-c^2}{4\\Delta}$. Step 3: Substitute into the A.P. condition: $2(\\frac{a^2+c^2-b^2}{4\\Delta}) = \\frac{b^2+c^2-a^2}{4\\Delta} + \\frac{a^2+b^2-c^2}{4\\Delta}$. Step 4: Multiply the entire equation by $4\\Delta$ to cancel the denominator. $2(a^2+c^2-b^2) = (b^2+c^2-a^2) + (a^2+b^2-c^2)$. Step 5: Simplify the RHS: $2a^2+2c^2-2b^2 = 2b^2$. Step 6: Rearrange the terms: $2a^2+2c^2 = 4b^2$, which simplifies to $a^2+c^2 = 2b^2$. Step 7: This is the condition for $a^2, b^2, c^2$ being in an Arithmetic Progression.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, if $a \\cos A = b \\cos B$ then prove that the triangle is right-angled or an isosceles triangle.",
+    "answer": "Step 1: Start with the given condition $a \\cos A = b \\cos B$. Step 2: Apply the Sine Rule: $a = k\\sin A, b = k\\sin B$. The equation becomes $k\\sin A \\cos A = k\\sin B \\cos B$. Step 3: Multiply by 2: $2\\sin A \\cos A = 2\\sin B \\cos B$. Step 4: Use the double angle identity $\\sin(2x) = 2\\sin x \\cos x$. The equation is now $\\sin(2A) = \\sin(2B)$. Step 5: This implies either $2A = 2B$ or $2A = \\pi - 2B$. Step 6: Case 1: $2A=2B \\implies A=B$. If two angles are equal, the triangle is isosceles. Step 7: Case 2: $2A = \\pi - 2B \\implies 2A+2B = \\pi \\implies A+B = \\pi/2$. Since $A+B+C=\\pi$, this means $C = \\pi/2 = 90^\\circ$. If one angle is $90^\\circ$, the triangle is right-angled. Thus, the triangle is either isosceles or right-angled.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "With usual notations prove that $2(bc \\cos A + ac \\cos B + ab \\cos C) = a^2 + b^2 + c^2$.",
+    "answer": "Step 1: Start with the LHS. Step 2: Apply the Cosine Rule for each term: $\\cos A = \\frac{b^2+c^2-a^2}{2bc}$, $\\cos B = \\frac{a^2+c^2-b^2}{2ac}$, $\\cos C = \\frac{a^2+b^2-c^2}{2ab}$. Step 3: Substitute these into the LHS: $2(bc(\\frac{b^2+c^2-a^2}{2bc}) + ac(\\frac{a^2+c^2-b^2}{2ac}) + ab(\\frac{a^2+b^2-c^2}{2ab}))$. Step 4: Cancel the terms in the denominators: $(b^2+c^2-a^2) + (a^2+c^2-b^2) + (a^2+b^2-c^2)$. Step 5: Combine like terms: $(b^2-b^2) + (c^2+c^2-c^2) + (-a^2+a^2+a^2) + b^2 = a^2+b^2+c^2$. This is the RHS.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, if $a = 18, b = 24, c = 30$, find the value of $\\cos A$.",
+    "answer": "Step 1: Use the Cosine Rule for $\\cos A$: $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$. Step 2: Substitute the given values: $\\cos A = \\frac{24^2 + 30^2 - 18^2}{2(24)(30)}$. Step 3: Calculate the squares: $\\cos A = \\frac{576 + 900 - 324}{1440}$. Step 4: Simplify the numerator and denominator: $\\cos A = \\frac{1152}{1440}$. Step 5: Reduce the fraction: $\\frac{1152}{1440} = \\frac{4}{5}$. So, $\\cos A = 0.8$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In $\\triangle ABC$, prove that $(b + c - a) \\tan(\\frac{A}{2}) = (a + b - c) \\tan(\\frac{C}{2})$.",
+    "answer": "Step 1: Use the semi-perimeter $s = \\frac{a+b+c}{2}$. Note that $b+c-a = 2(s-a)$ and $a+b-c = 2(s-c)$. Step 2: Use the half-angle formulas for tangent: $\\tan(\\frac{A}{2}) = \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}}$ and $\\tan(\\frac{C}{2}) = \\sqrt{\\frac{(s-a)(s-b)}{s(s-c)}}$. Step 3: Substitute these into the LHS: $2(s-a) \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}} = 2\\sqrt{\\frac{(s-a)^2(s-b)(s-c)}{s(s-a)}} = 2\\sqrt{\\frac{(s-a)(s-b)(s-c)}{s}}$. Step 4: Substitute into the RHS: $2(s-c) \\sqrt{\\frac{(s-a)(s-b)}{s(s-c)}} = 2\\sqrt{\\frac{(s-c)^2(s-a)(s-b)}{s(s-c)}} = 2\\sqrt{\\frac{(s-a)(s-b)(s-c)}{s}}$. Since LHS = RHS, the identity is proved.",
+    "marks": 4
   }
 ]

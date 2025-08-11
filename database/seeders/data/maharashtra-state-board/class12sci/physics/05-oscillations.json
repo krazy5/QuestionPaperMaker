@@ -1,0 +1,103 @@
+[
+  {
+    "type": "mcq",
+    "text": "A particle performing linear S.H.M. has zero velocity at its... (Board 2023)",
+    "options": ["mean position", "extreme positions", "path length", "none of the above"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The total energy of a particle executing S.H.M. is directly proportional to... (Board 2021)",
+    "options": ["the square of its amplitude", "its velocity", "the square of its period", "its displacement"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a damped harmonic oscillator, which of the following quantities decreases over time? (Board 2019)",
+    "options": ["Period", "Frequency", "Amplitude", "Mass"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The time period of a simple pendulum depends on... (Board 2017)",
+    "options": ["its mass", "the amplitude of oscillation", "its length and acceleration due to gravity", "the material of the bob"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When a particle executing S.H.M. is at the mean position, its kinetic energy is... (Board 2015)",
+    "options": ["zero", "minimum", "maximum", "half of the total energy"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define Simple Harmonic Motion (S.H.M.). (Board 2024)",
+    "answer": "Simple Harmonic Motion is a type of periodic motion where the restoring force is directly proportional to the displacement from the mean position and is always directed towards the mean position.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the phase of S.H.M.? (Textbook Exercise)",
+    "answer": "The phase of S.H.M. is the state of oscillation of a particle. It is given by the argument of the sine or cosine function in the equation of S.H.M., i.e., $(\\omega t + \\phi)$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the differential equation for angular S.H.M. (Board 2022)",
+    "answer": "The differential equation for angular S.H.M. is $I \\frac{d^2\\theta}{dt^2} + C\\theta = 0$, where I is the moment of inertia, C is the torsional constant, and $\\theta$ is the angular displacement.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "At which position is the total energy of a particle executing linear S.H.M. purely potential? (Board 2020)",
+    "answer": "The total energy of a particle executing linear S.H.M. is purely potential at the extreme positions.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are damped oscillations? (Board 2018)",
+    "answer": "Damped oscillations are oscillations in which the amplitude of the oscillating body decreases over time due to the presence of resistive or dissipative forces, such as friction or air resistance.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State the laws of a simple pendulum. (Board 2016)",
+    "answer": "The laws of a simple pendulum are: 1) The period is directly proportional to the square root of its length ($T \\propto \\sqrt{L}$). 2) The period is inversely proportional to the square root of the acceleration due to gravity ($T \\propto 1/\\sqrt{g}$). 3) The period is independent of the mass and material of the bob. 4) The period is independent of the amplitude (for small amplitudes).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A body of mass 0.8 kg performs linear S.H.M. It experiences a restoring force of 0.4 N when its displacement from the mean position is 4 cm. Determine the period of S.H.M. (Board 2024)",
+    "answer": "Restoring force $F = -kx$. So, force constant $k = |F/x| = 0.4 / 0.04 = 10$ N/m. The time period is given by $T = 2\\pi\\sqrt{m/k} = 2\\pi\\sqrt{0.8/10} = 2\\pi\\sqrt{0.08} \\approx 1.777$ s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The acceleration due to gravity on the surface of the moon is 1.7 m/s$^2$. What is the time period of a simple pendulum on the surface of the moon if its time period on the surface of the earth is 3.5 s? (g on earth = 9.8 m/s$^2$) (Textbook Numerical)",
+    "answer": "We know that $T \\propto 1/\\sqrt{g}$. Therefore, $\\frac{T_{moon}}{T_{earth}} = \\sqrt{\\frac{g_{earth}}{g_{moon}}}$. $T_{moon} = T_{earth} \\times \\sqrt{\\frac{9.8}{1.7}} = 3.5 \\times \\sqrt{5.76} = 3.5 \\times 2.4 = 8.4$ s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A particle performs linear S.H.M. of period 4 seconds and amplitude 4 cm. Find the speed of the particle when it is at a distance of 1 cm from the mean position. (Textbook Numerical)",
+    "answer": "Period $T=4$s, so angular velocity $\\omega = 2\\pi/T = \\pi/2$ rad/s. Amplitude $A=4$ cm = 0.04 m. Displacement $x=1$ cm = 0.01 m. The speed is given by $v = \\omega\\sqrt{A^2 - x^2} = (\\pi/2)\\sqrt{(0.04)^2 - (0.01)^2} = (\\pi/2)\\sqrt{0.0015} \\approx 0.061$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the total energy of a particle performing S.H.M. and show that it is conserved. (Board 2023)",
+    "answer": "The kinetic energy is $K.E. = \\frac{1}{2}m\\omega^2(A^2 - x^2)$ and the potential energy is $P.E. = \\frac{1}{2}m\\omega^2x^2$. The total energy is $E = K.E. + P.E. = \\frac{1}{2}m\\omega^2(A^2 - x^2) + \\frac{1}{2}m\\omega^2x^2 = \\frac{1}{2}m\\omega^2A^2$. Since m, $\\omega$, and A are constants, the total energy E is conserved.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation of linear simple harmonic motion. (Board 2018)",
+    "answer": "The restoring force in S.H.M. is given by $F = -kx$. According to Newton's second law, $F = ma = m\\frac{d^2x}{dt^2}$. Equating the two, we get $m\\frac{d^2x}{dt^2} = -kx$. Rearranging gives the differential equation: $\\frac{d^2x}{dt^2} + \\frac{k}{m}x = 0$. Since $\\omega^2 = k/m$, it can also be written as $\\frac{d^2x}{dt^2} + \\omega^2x = 0$.",
+    "marks": 4
+  }
+]
