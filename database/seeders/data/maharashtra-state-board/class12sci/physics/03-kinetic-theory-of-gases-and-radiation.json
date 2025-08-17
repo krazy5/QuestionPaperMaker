@@ -87,5 +87,305 @@
     "text": "The difference between the two molar specific heats of a gas is 9000 J/kg K. If the ratio of the two specific heats is 1.5, calculate the two molar specific heats. (Board 2021)",
     "answer": "Given $C_p - C_v = 9000$ and $\\gamma = C_p/C_v = 1.5$. From the second equation, $C_p = 1.5 C_v$. Substituting into the first equation: $1.5 C_v - C_v = 9000$, so $0.5 C_v = 9000$, which gives $C_v = 18000$ J/kg K. Then, $C_p = 1.5 \\times 18000 = 27000$ J/kg K.",
     "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Q) In an ideal gas, the molecules possess",
+    "options": [
+      "A) only kinetic energy",
+      "B) both kinetic energy and potential energy",
+      "C) only potential energy",
+      "D) neither kinetic energy nor potential energy"
+    ],
+    "correct_answer": "A) only kinetic energy",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The mean free path $\\lambda$ of molecules is given by",
+    "options": [
+      "A) $\\frac{2}{\\sqrt{\\pi}nd^2}$",
+      "B) $\\frac{1}{\\pi nd^2}$",
+      "C) $\\frac{1}{\\sqrt{2}\\pi nd^2}$",
+      "D) $\\frac{1}{\\sqrt{2\\pi}nd}$"
+    ],
+    "correct_answer": "C) $\\frac{1}{\\sqrt{2}\\pi nd^2}$",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) If pressure of an ideal gas is decreased by 10% isothermally, then its volume will",
+    "options": [
+      "A) decrease by 9%",
+      "B) increase by 9%",
+      "C) decrease by 10%",
+      "D) increase by 11.11%"
+    ],
+    "correct_answer": "D) increase by 11.11%",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) If $a=0.72$ and $r=0.24$, then the value of $t_r$ is",
+    "options": [
+      "A) 0.02",
+      "B) 0.04",
+      "C) 0.4",
+      "D) 0.2"
+    ],
+    "correct_answer": "D) 0.2",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The ratio of emissive power of a perfect blackbody at $1327^\\circ C$ and $527^\\circ C$ is",
+    "options": [
+      "A) 4:1",
+      "B) 16:1",
+      "C) 2:1",
+      "D) 8:1"
+    ],
+    "correct_answer": "B) 16:1",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the pressure 200 m below the surface of the ocean if pressure on the free surface of liquid is one atmosphere. (Density of sea water = 1060 kg/m$^3$).",
+    "answer": "The pressure at a depth $h$ below the surface of a fluid is given by the formula $P = P_0 + h\\rho g$, where $P_0$ is the pressure on the surface, $h$ is the depth, $\\rho$ is the density of the fluid, and $g$ is the acceleration due to gravity (approximately $9.8$ m/s$^2$). <br>Given: <br>$P_0 = 1$ atmosphere $\\approx 1.013 \\times 10^5 \\text{ N/m}^2$. <br>$h = 200$ m. <br>$\\rho = 1060 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>Pressure due to the water column is $h\\rho g = (200)(1060)(9.8) = 2077600 \\text{ N/m}^2 = 2.0776 \\times 10^6 \\text{ N/m}^2$. <br>Total pressure $P = P_0 + h\\rho g = 1.013 \\times 10^5 + 2.0776 \\times 10^6 = 0.1013 \\times 10^6 + 2.0776 \\times 10^6 = 2.1789 \\times 10^6 \\text{ N/m}^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) In a hydraulic lift, the input piston had surface area 30 cm$^2$ and the output piston has surface area of 1500 cm$^2$. If a force of 25 N is applied to the input piston, calculate weight on output piston.",
+    "answer": "A hydraulic lift works on Pascal's principle, which states that the pressure exerted on an enclosed incompressible fluid is transmitted equally to every portion of the fluid and the walls of the container. So, the pressure on the input piston is equal to the pressure on the output piston: $P_{input} = P_{output}$. <br>Pressure is defined as force per unit area, $P = F/A$. So, $\\frac{F_{input}}{A_{input}} = \\frac{F_{output}}{A_{output}}$. <br>Given: <br>$A_{input} = 30 \\text{ cm}^2$. <br>$A_{output} = 1500 \\text{ cm}^2$. <br>$F_{input} = 25$ N. <br>We need to find $F_{output}$. Rearranging the formula: <br>$F_{output} = F_{input} \\times \\frac{A_{output}}{A_{input}} = 25 \\times \\frac{1500}{30} = 25 \\times 50 = 1250$ N. <br>The weight on the output piston is **1250 N**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the viscous force acting on a rain drop of diameter 1 mm, falling with a uniform velocity 2 m/s through air. The coefficient of viscosity of air is $1.8 \\times 10^{-5} \\text{ N s/m}^2$.",
+    "answer": "The viscous force acting on a spherical object falling through a fluid is given by Stokes' Law: $F_v = 6\\pi\\eta rv$, where $\\eta$ is the coefficient of viscosity, $r$ is the radius of the sphere, and $v$ is the velocity. <br>Given: <br>Diameter $d = 1$ mm $= 1 \\times 10^{-3}$ m, so radius $r = 0.5 \\times 10^{-3}$ m. <br>Velocity $v = 2$ m/s. <br>Coefficient of viscosity $\\eta = 1.8 \\times 10^{-5} \\text{ N s/m}^2$. <br>The viscous force is: <br>$F_v = 6\\pi(1.8 \\times 10^{-5})(0.5 \\times 10^{-3})(2) = 6\\pi(1.8 \\times 10^{-5})(1.0 \\times 10^{-3}) = 10.8\\pi \\times 10^{-8} \\approx 3.393 \\times 10^{-7}$ N.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A horizontal force of 1 N is required to move a metal plate of area $10^{-2} \\text{ m}^2$ with a velocity of $2 \\times 10^{-2} \\text{ m/s}$, when it rests on a layer of oil 1.5 $\\times 10^{-3}$ m thick. Find the coefficient of viscosity of oil.",
+    "answer": "The viscous force is given by $F_v = \\eta A \\frac{dv}{dy}$, where $\\eta$ is the coefficient of viscosity, $A$ is the area of the plate, and $\\frac{dv}{dy}$ is the velocity gradient. <br>Given: <br>Force $F_v = 1$ N. <br>Area $A = 10^{-2} \\text{ m}^2$. <br>Velocity $dv = 2 \\times 10^{-2} \\text{ m/s}$. <br>Thickness of oil layer $dy = 1.5 \\times 10^{-3}$ m. <br>We need to find $\\eta$. Rearranging the formula: <br>$\\eta = \\frac{F_v}{A} \\cdot \\frac{dy}{dv} = \\frac{1}{10^{-2}} \\cdot \\frac{1.5 \\times 10^{-3}}{2 \\times 10^{-2}} = 100 \\cdot \\frac{1.5}{2} \\times 10^{-1} = 100 \\cdot 0.75 \\times 0.1 = 7.5$ N s/m$^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what terminal velocity will an air bubble 0.4 mm in diameter rise in a liquid of viscosity $0.1 \\text{ N s/m}^2$ and specific gravity 0.9? Density of air is $1.29 \\text{ kg/m}^3$.",
+    "answer": "The terminal velocity of a spherical object moving through a fluid is given by $v_t = \\frac{2r^2g}{9\\eta}(\\rho_{object} - \\rho_{fluid})$. Since the bubble is rising, its density is less than the fluid's density. <br>Given: <br>Diameter of bubble $d = 0.4$ mm $= 0.4 \\times 10^{-3}$ m, so radius $r = 0.2 \\times 10^{-3}$ m. <br>Viscosity of liquid $\\eta = 0.1 \\text{ N s/m}^2$. <br>Specific gravity of liquid $= 0.9$, so density of liquid $\\rho_{liquid} = 0.9 \\times 1000 \\text{ kg/m}^3 = 900 \\text{ kg/m}^3$. <br>Density of air $\\rho_{air} = 1.29 \\text{ kg/m}^3$. <br>Acceleration due to gravity $g = 9.8 \\text{ m/s}^2$. <br>The terminal velocity is: <br>$v_t = \\frac{2(0.2 \\times 10^{-3})^2(9.8)}{9(0.1)}(1.29 - 900) \\approx -7.82 \\times 10^{-4}$ m/s. <br>The negative sign indicates the bubble rises up. The magnitude is $7.82 \\times 10^{-4}$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The speed of water is 2 m/s through a pipe of internal diameter 10 cm. What should be the internal diameter of nozzle of the pipe if the speed of water at nozzle is 4 m/s?",
+    "answer": "This problem is based on the equation of continuity, which states that for an incompressible fluid, the product of the cross-sectional area and the velocity is constant: $A_1v_1 = A_2v_2$. The area of the pipe is $A = \\pi r^2 = \\pi (d/2)^2 = \\frac{\\pi d^2}{4}$. <br>Given: <br>Initial velocity $v_1 = 2$ m/s. <br>Initial diameter $d_1 = 10$ cm. <br>Final velocity $v_2 = 4$ m/s. <br>We need to find the final diameter $d_2$. <br>The equation of continuity becomes $\\frac{\\pi d_1^2}{4}v_1 = \\frac{\\pi d_2^2}{4}v_2 \\implies d_1^2v_1 = d_2^2v_2$. <br>Rearranging to solve for $d_2$: <br>$d_2^2 = d_1^2 \\frac{v_1}{v_2} \\implies d_2 = d_1 \\sqrt{\\frac{v_1}{v_2}} = 10 \\sqrt{\\frac{2}{4}} = 10 \\sqrt{\\frac{1}{2}} = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2} \\approx 7.07$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what velocity does water flow out of an orifice in a tank with gauge pressure $4 \\times 10^5 \\text{ N/m}^2$ before the flow starts? Density of water = 1000 kg/m$^3$.",
+    "answer": "This problem is based on Torricelli's Law, which is a special case of Bernoulli's principle. The velocity of the effluence is given by $v = \\sqrt{2gh}$. However, the problem gives the gauge pressure, not the height. We can relate the gauge pressure to the height by $P_{gauge} = h\\rho g$. <br>So, $h = \\frac{P_{gauge}}{\\rho g}$. Substituting this into the velocity formula: <br>$v = \\sqrt{2g(\\frac{P_{gauge}}{\\rho g})} = \\sqrt{\\frac{2P_{gauge}}{\\rho}}$. <br>Given: <br>Gauge pressure $P_{gauge} = 4 \\times 10^5 \\text{ N/m}^2$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>The velocity of the water flow is: <br>$v = \\sqrt{\\frac{2(4 \\times 10^5)}{1000}} = \\sqrt{\\frac{8 \\times 10^5}{10^3}} = \\sqrt{8 \\times 10^2} = \\sqrt{800} \\approx 28.28$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The pressure of water inside the closed pipe is $3 \\times 10^5 \\text{ N/m}^2$. This pressure reduces to $2 \\times 10^5 \\text{ N/m}^2$ on opening the valve of the pipe. Calculate the speed of water flowing through the pipe. (Density of water = 1000 kg/m$^3$).",
+    "answer": "This problem is based on Bernoulli's principle. For a fluid flowing through a horizontal pipe, the total energy per unit volume is constant: $P + \\frac{1}{2}\\rho v^2 = \\text{constant}$. Before the valve is opened, the velocity is zero, so the initial pressure is the total pressure. <br>Given: <br>Initial pressure $P_{initial} = 3 \\times 10^5 \\text{ N/m}^2$. <br>Final pressure $P_{final} = 2 \\times 10^5 \\text{ N/m}^2$. <br>Initial velocity $v_{initial} = 0$ m/s. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>Applying Bernoulli's principle between the initial and final states: <br>$P_{initial} + \\frac{1}{2}\\rho v_{initial}^2 = P_{final} + \\frac{1}{2}\\rho v_{final}^2$. <br>$3 \\times 10^5 + 0 = 2 \\times 10^5 + \\frac{1}{2}(1000)v_{final}^2$. <br>$(3-2) \\times 10^5 = 500 v_{final}^2$. <br>$1 \\times 10^5 = 500 v_{final}^2$. <br>$v_{final}^2 = \\frac{100000}{500} = 200$. <br>$v_{final} = \\sqrt{200} = 10\\sqrt{2} \\approx 14.14$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the rise of water inside a clean glass capillary tube of radius 0.1 mm, when immersed in water of surface tension $7 \\times 10^{-2} \\text{ N/m}$. The angle of contact between water and glass is zero, density of water = 1000 kg/m$^3$, $g = 9.8 \\text{ m/s}^2$.",
+    "answer": "The height of capillary rise is given by the formula $h = \\frac{2T\\cos\\theta}{\\rho rg}$, where $T$ is the surface tension, $\\theta$ is the angle of contact, $\\rho$ is the density of the liquid, $r$ is the radius of the capillary tube, and $g$ is the acceleration due to gravity. <br>Given: <br>Radius of tube $r = 0.1$ mm $= 0.1 \\times 10^{-3}$ m $= 10^{-4}$ m. <br>Surface tension $T = 7 \\times 10^{-2} \\text{ N/m}$. <br>Angle of contact $\\theta = 0^\\circ$, so $\\cos\\theta = 1$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>The height of the water rise is: <br>$h = \\frac{2(7 \\times 10^{-2})(1)}{(1000)(10^{-4})(9.8)} = \\frac{14 \\times 10^{-2}}{9.8 \\times 10^{-1}} = \\frac{1.4 \\times 10^{-1}}{9.8 \\times 10^{-1}} = \\frac{1.4}{9.8} \\approx 0.1428$ m $= 14.28$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) An air bubble of radius 0.2 mm is situated just below the water surface. Calculate the gauge pressure. Surface tension of water = $7.2 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The excess pressure inside a spherical bubble in a liquid (or a liquid drop) is given by the formula $\\Delta P = \\frac{2T}{r}$, where $T$ is the surface tension and $r$ is the radius. This is the gauge pressure relative to the outside pressure. <br>Given: <br>Radius of air bubble $r = 0.2$ mm $= 0.2 \\times 10^{-3}$ m $= 2 \\times 10^{-4}$ m. <br>Surface tension $T = 7.2 \\times 10^{-2} \\text{ N/m}$. <br>The gauge pressure is: <br>$\\Delta P = \\frac{2(7.2 \\times 10^{-2})}{2 \\times 10^{-4}} = \\frac{7.2 \\times 10^{-2}}{10^{-4}} = 7.2 \\times 10^2 = 720$ Pa.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Twenty seven droplets of water, each of radius 0.1 mm coalesce into a single drop. Find the change in surface energy. Surface tension of water is $0.072 \\text{ N/m}$.",
+    "answer": "The change in surface energy is the difference between the final surface energy and the initial surface energy. We need to find the radius of the single large drop. The total volume remains constant during coalescence. <br>Given: <br>Number of droplets $n=27$. <br>Radius of each small droplet $r = 0.1$ mm $= 10^{-4}$ m. <br>Surface tension $T = 0.072 \\text{ N/m}$. <br>Volume of one small droplet $V = \\frac{4}{3}\\pi r^3$. <br>Total initial volume is $n \\times V = 27 \\times \\frac{4}{3}\\pi r^3$. <br>Let the radius of the large drop be $R$. Its volume is $\\frac{4}{3}\\pi R^3$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 27 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 27r^3 \\implies R = 3r = 3(0.1 \\times 10^{-3}) = 0.3 \\times 10^{-3}$ m. <br>Initial surface energy $E_{initial} = n \\times T \\times A_{small} = 27 \\times T \\times (4\\pi r^2) = 27(0.072)(4\\pi)(10^{-4})^2 \\approx 2.44 \\times 10^{-7}$ J. <br>Final surface energy $E_{final} = T \\times A_{large} = T(4\\pi R^2) = 0.072(4\\pi)(3 \\times 10^{-4})^2 \\approx 8.14 \\times 10^{-8}$ J. <br>Change in surface energy $\\Delta E = E_{final} - E_{initial} \\approx 8.14 \\times 10^{-8} - 2.44 \\times 10^{-7} = -1.628 \\times 10^{-7}$ J. <br>The magnitude of the change is $1.628 \\times 10^{-7}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A drop of mercury of radius 0.2 cm is broken into 8 droplets of the same size. Find the work done if the surface tension of mercury is 435.5 dyne/cm.",
+    "answer": "This problem is the reverse of the previous one. We are breaking a large drop into smaller droplets, so work is done on the system. The total volume remains constant. <br>Given: <br>Radius of large drop $R = 0.2$ cm. <br>Number of droplets $n=8$. <br>Surface tension $T = 435.5$ dyne/cm. <br>Let the radius of the small droplets be $r$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 8 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 8r^3 \\implies R = 2r$. <br>$r = R/2 = 0.2/2 = 0.1$ cm. <br>Initial surface area $A_{initial} = 4\\pi R^2 = 4\\pi(0.2)^2 = 0.16\\pi$ cm$^2$. <br>Final surface area $A_{final} = 8 \\times 4\\pi r^2 = 32\\pi(0.1)^2 = 0.32\\pi$ cm$^2$. <br>Change in surface area $\\Delta A = A_{final} - A_{initial} = 0.32\\pi - 0.16\\pi = 0.16\\pi$ cm$^2$. <br>Work done is $W = T \\times \\Delta A = 435.5 \\times 0.16\\pi = 69.68\\pi \\approx 218.89$ ergs. <br>Since $1 \\text{ erg} = 10^{-7}$ J, $W = 218.89 \\times 10^{-7}$ J, which is $2.1889 \\times 10^{-5}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) How much work is required to form a bubble of 2 cm radius from a soap solution having surface tension 0.07 N/m.",
+    "answer": "The work required to form a soap bubble is the energy needed to create two free surfaces. The work done is given by $W = T \\times (\\text{final area} - \\text{initial area})$. We assume the initial area is zero. <br>Given: <br>Radius of bubble $r = 2$ cm $= 0.02$ m. <br>Surface tension of soap solution $T = 0.07$ N/m. <br>The area of a soap bubble is $2 \\times 4\\pi r^2 = 8\\pi r^2$. <br>Work done is $W = T \\times (8\\pi r^2) = 0.07 \\times 8\\pi (0.02)^2 = 0.56\\pi (0.0004) = 0.000224\\pi \\approx 7.037 \\times 10^{-4}$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A rectangular wire frame of size 2 cm $\\times$ 2 cm, is dipped in a soap solution and taken out. A soap film is formed, if the size of the film is changed to 3 cm $\\times$ 3 cm, calculate the work done in the process. The surface tension of soap film is $3 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The work done is equal to the change in surface energy, which is the surface tension times the change in total surface area. A soap film has two free surfaces. <br>Given: <br>Initial dimensions: $2$ cm $\\times 2$ cm. <br>Final dimensions: $3$ cm $\\times 3$ cm. <br>Surface tension $T = 3 \\times 10^{-2} \\text{ N/m}$. <br>Initial area of film $A_{initial} = 2 \\times (2 \\text{ cm} \\times 2 \\text{ cm}) = 8 \\text{ cm}^2 = 8 \\times 10^{-4} \\text{ m}^2$. <br>Final area of film $A_{final} = 2 \\times (3 \\text{ cm} \\times 3 \\text{ cm}) = 18 \\text{ cm}^2 = 18 \\times 10^{-4} \\text{ m}^2$. <br>Change in total surface area $\\Delta A = A_{final} - A_{initial} = 18 \\times 10^{-4} - 8 \\times 10^{-4} = 10 \\times 10^{-4} = 10^{-3} \\text{ m}^2$. <br>Work done is $W = T \\times \\Delta A = (3 \\times 10^{-2}) \\times (10^{-3}) = 3 \\times 10^{-5}$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Define athermanous substances and diathermanous substances.",
+    "answer": "An **athermanous substance** is a material that is opaque to thermal radiation (heat). It absorbs all the thermal radiation that falls on it and does not allow any to pass through. An example of an athermanous substance is wood or metal. <br><br>A **diathermanous substance** is a material that is transparent to thermal radiation. It allows thermal radiation to pass through it without absorbing it. An example of a diathermanous substance is rock salt or air.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) When a gas is heated its temperature increases. Explain this phenomenon based on kinetic theory of gases.",
+    "answer": "According to the **kinetic theory of gases**, the temperature of an ideal gas is directly proportional to the average kinetic energy of its molecules. When heat is supplied to a gas, its molecules absorb this energy. This absorbed energy is converted into kinetic energy, causing the molecules to move faster. The increase in the average kinetic energy of the molecules is directly observed as an increase in the temperature of the gas.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Explain, on the basis of kinetic theory, how the pressure of gas changes if its volume is reduced at constant temperature.",
+    "answer": "Based on the **kinetic theory of gases**, gas pressure is caused by the force exerted by gas molecules on the walls of the container as they collide with them. At a constant temperature, the average kinetic energy and speed of the gas molecules remain the same. If the volume of the gas is reduced, the molecules are confined to a smaller space. This leads to an increase in the frequency of collisions between the molecules and the container walls. The increased collision rate results in a greater force exerted on the walls per unit area, thus increasing the pressure.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Mention the conditions under which a real gas obeys ideal gas equation.",
+    "answer": "A real gas can be approximated to behave as an ideal gas under two main conditions: <br>1. **High temperature**: At high temperatures, the kinetic energy of the gas molecules is large, so the intermolecular forces of attraction are negligible compared to the kinetic energy. <br>2. **Low pressure**: At low pressures, the gas molecules are far apart, so the volume occupied by the molecules themselves is negligible compared to the total volume of the container. The intermolecular forces are also weak at these large distances.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) What will happen to the mean square speed of the molecules of a gas if the temperature of the gas increases?",
+    "answer": "According to the kinetic theory of gases, the absolute temperature of a gas is directly proportional to the average kinetic energy of its molecules. The average kinetic energy is given by $KE_{avg} = \\frac{1}{2}m v_{rms}^2$. Therefore, if the temperature of the gas increases, the average kinetic energy of its molecules increases, which in turn leads to an increase in the **mean square speed ($v_{rms}^2$)** of the molecules.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) On what factors do the degrees of freedom depend?",
+    "answer": "The degrees of freedom of a gas molecule depend on its **molecular structure** and the **temperature**. <br>For a monatomic gas (e.g., He, Ne), there are 3 translational degrees of freedom. <br>For a diatomic gas (e.g., O$_2$, N$_2$), there are 3 translational and 2 rotational degrees of freedom at room temperature, for a total of 5. At very high temperatures, vibrational degrees of freedom are also activated. <br>For a polyatomic gas, there are 3 translational and 3 rotational degrees of freedom at room temperature, for a total of 6. Vibrational modes can also be activated at high temperatures.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) What is an ideal gas? Does an ideal gas exist in practice?",
+    "answer": "An **ideal gas** is a theoretical gas composed of randomly moving, non-interacting point particles. It is an idealization used to simplify calculations and model the behavior of real gases. In an ideal gas, the molecules have no volume, and there are no intermolecular forces of attraction or repulsion. <br><br>No, an ideal gas **does not exist in practice**. All real gases have a finite volume and experience intermolecular forces. However, at low pressures and high temperatures, real gases behave very similarly to ideal gases, and the ideal gas model is a good approximation.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) What is a perfect blackbody? How can it be realized in practice?",
+    "answer": "A **perfect blackbody** is a theoretical object that absorbs all electromagnetic radiation that falls on it, regardless of frequency or angle. It neither reflects nor transmits any radiation. A blackbody is also a perfect radiator, meaning it emits the maximum possible thermal radiation for its temperature. <br><br>In practice, a perfect blackbody can be approximated by a **cavity with a small hole**. Any radiation entering the hole undergoes multiple reflections inside the cavity, with a small fraction absorbed at each reflection. After many reflections, the radiation is almost completely absorbed. The radiation emitted from the hole is then a good approximation of blackbody radiation.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) State (i) Stefan-Boltzmann law and (ii) Wein's displacement law.",
+    "answer": "i) The **Stefan-Boltzmann law** states that the total radiant heat energy emitted from a surface is proportional to the fourth power of its absolute temperature. The formula is $P = e\\sigma AT^4$, where $P$ is the total power radiated, $e$ is the emissivity, $\\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, and $T$ is the absolute temperature. For a perfect blackbody, $e=1$. <br><br>ii) **Wien's displacement law** states that the wavelength corresponding to the maximum intensity of emission from a blackbody is inversely proportional to its absolute temperature. The formula is $\\lambda_{max} T = b$, where $\\lambda_{max}$ is the peak wavelength, $T$ is the absolute temperature, and $b$ is Wien's displacement constant.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Explain spectral distribution of blackbody radiation.",
+    "answer": "The spectral distribution of blackbody radiation describes how the energy emitted by a blackbody is distributed across different wavelengths at a given temperature. <br>1. The total energy radiated per unit area per second is proportional to $T^4$. <br>2. For a given temperature, the intensity of radiation is not uniformly distributed across all wavelengths; it is zero at very short and very long wavelengths and has a maximum value at a specific wavelength, $\\lambda_{max}$. <br>3. As the temperature of the blackbody increases, the peak of the curve shifts to shorter wavelengths (Wien's displacement law), and the total area under the curve increases significantly, indicating a rapid increase in total energy radiated (Stefan-Boltzmann law). <br>4. At any given wavelength, the intensity of radiation increases with an increase in temperature.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) State and prove Kirchhoff's law of heat radiation.",
+    "answer": "Kirchhoff's law of heat radiation states that at any given temperature, the ratio of the emissive power ($E$) to the coefficient of absorption ($a$) is the same for all bodies and is equal to the emissive power of a perfect blackbody ($E_b$) at that same temperature. The law can be expressed as $\\frac{E}{a} = E_b$. <br><br>**Proof**: <br>Consider two bodies, A and B, in thermal equilibrium in an enclosure at a constant temperature $T$. Let one of the bodies, A, be a perfect blackbody and the other, B, be an ordinary body. Let $E_A$ and $E_B$ be the emissive powers of bodies A and B, and $a_A$ and $a_B$ be their coefficients of absorption, respectively. <br>The energy radiated by a body is absorbed by the enclosure walls, which in turn radiates the same amount of energy. The energy absorbed by a body in time $t$ is $aQ$, where $Q$ is the radiant energy falling on the body. The energy emitted by the body is $EtA$. In thermal equilibrium, the energy absorbed is equal to the energy emitted. <br>For body A (blackbody): $E_A = a_A E_b = 1 \\cdot E_b = E_b$. <br>For body B (ordinary body): $E_B = a_B E_b$. <br>Dividing by $a_B$: $\\frac{E_B}{a_B} = E_b$. <br>Since $E_b$ is the same for both bodies, we can conclude that $\\frac{E_A}{a_A} = \\frac{E_B}{a_B} = E_b$. This proves Kirchhoff's law.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the ratio of mean square speeds of molecules of a gas at 30 K and 120 K.",
+    "answer": "According to the kinetic theory of gases, the mean square speed of the molecules of a gas is directly proportional to its absolute temperature: $v_{rms}^2 \\propto T$. <br>Let $v_1^2$ be the mean square speed at temperature $T_1$ and $v_2^2$ at $T_2$. <br>We have the relation $\\frac{v_1^2}{v_2^2} = \\frac{T_1}{T_2}$. <br>Given: $T_1 = 30$ K and $T_2 = 120$ K. <br>The ratio is $\\frac{v_1^2}{v_2^2} = \\frac{30}{120} = \\frac{1}{4}$. <br>The ratio of the mean square speeds is **1:4**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Two vessels A and B are filled with same gas where volume, temperature and pressure in vessel A is twice the volume, temperature and pressure in vessel B. Calculate the ratio of number of molecules of gas in vessel A to that in vessel B.",
+    "answer": "This problem uses the ideal gas equation: $PV = nRT$, where $P$ is pressure, $V$ is volume, $n$ is the number of moles, $R$ is the ideal gas constant, and $T$ is temperature. The number of molecules is $N = nN_A$, where $N_A$ is Avogadro's number. So, $N = \\frac{PV}{RT}N_A$. <br>For vessel A: $N_A = \\frac{P_A V_A}{R T_A}N_A$. <br>For vessel B: $N_B = \\frac{P_B V_B}{R T_B}N_A$. <br>We are given that $V_A = 2V_B$, $T_A = 2T_B$, and $P_A = 2P_B$. <br>The ratio of the number of molecules is: <br>$\\frac{N_A}{N_B} = \\frac{\\frac{P_A V_A}{R T_A}N_A}{\\frac{P_B V_B}{R T_B}N_A} = \\frac{P_A V_A T_B}{P_B V_B T_A} = \\frac{(2P_B)(2V_B)T_B}{P_B V_B (2T_B)} = \\frac{4P_B V_B T_B}{2P_B V_B T_B} = 2$. <br>The ratio of the number of molecules of gas in vessel A to that in vessel B is **2:1**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A gas in a cylinder is at pressure P. If the masses of all the molecules are made one third of their original value and their speeds are doubled, then find the resultant pressure.",
+    "answer": "The pressure of an ideal gas is given by the formula $P = \\frac{1}{3} \\frac{N}{V} m v_{rms}^2$, where $N$ is the number of molecules, $V$ is the volume, $m$ is the mass of a molecule, and $v_{rms}$ is the root mean square speed. <br>The initial pressure is $P_{initial} = \\frac{1}{3} \\frac{N}{V} m v_{rms}^2$. <br>We are given that the new mass of each molecule is $m' = \\frac{1}{3}m$ and the new speed is $v' = 2v_{rms}$. The volume and number of molecules remain the same. <br>The new pressure is $P_{final} = \\frac{1}{3} \\frac{N}{V} m' (v')^2 = \\frac{1}{3} \\frac{N}{V} (\\frac{1}{3}m) (2v_{rms})^2 = \\frac{1}{3} \\frac{N}{V} (\\frac{1}{3}m) (4v_{rms}^2) = \\frac{4}{3} (\\frac{1}{3} \\frac{N}{V} m v_{rms}^2) = \\frac{4}{3}P_{initial}$. <br>The resultant pressure is **4/3 P**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Show that rms velocity of an oxygen molecule is $\\sqrt{2}$ times that of a sulfur dioxide molecule at S.T.P.",
+    "answer": "The root mean square (rms) velocity of a gas molecule is given by the formula $v_{rms} = \\sqrt{\\frac{3RT}{M}}$, where $R$ is the ideal gas constant, $T$ is the absolute temperature, and $M$ is the molar mass of the gas. <br>At S.T.P. (Standard Temperature and Pressure), the temperature $T$ is constant. Therefore, $v_{rms} \\propto \\frac{1}{\\sqrt{M}}$. <br>The molar mass of an oxygen molecule ($O_2$) is $M_{O_2} = 16 \\times 2 = 32$ g/mol. <br>The molar mass of a sulfur dioxide molecule ($SO_2$) is $M_{SO_2} = 32 + 16 \\times 2 = 64$ g/mol. <br>The ratio of their rms velocities is: <br>$$\\frac{v_{rms,O_2}}{v_{rms,SO_2}} = \\frac{\\sqrt{1/M_{O_2}}}{\\sqrt{1/M_{SO_2}}} = \\sqrt{\\frac{M_{SO_2}}{M_{O_2}}} = \\sqrt{\\frac{64}{32}} = \\sqrt{2}$$<br>This shows that the rms velocity of an oxygen molecule is $\\sqrt{2}$ times that of a sulfur dioxide molecule at S.T.P.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) At what temperature will oxygen molecules have same rms speed as helium molecules at S.T.P.? (Molecular masses of oxygen and helium are 32 and 4 respectively)",
+    "answer": "The rms velocity of a gas molecule is given by $v_{rms} = \\sqrt{\\frac{3RT}{M}}$. We want to find the temperature $T_{O_2}$ at which the rms speed of oxygen molecules is equal to the rms speed of helium molecules at S.T.P. ($T_{He} = 273$ K). <br>We set the rms speeds equal: $v_{rms,O_2} = v_{rms,He}$. <br>$$\\sqrt{\\frac{3RT_{O_2}}{M_{O_2}}} = \\sqrt{\\frac{3RT_{He}}{M_{He}}}$$<br>Squaring both sides and simplifying: <br>$$\\frac{T_{O_2}}{M_{O_2}} = \\frac{T_{He}}{M_{He}}$$ <br>Given: <br>$M_{O_2} = 32$ g/mol. <br>$M_{He} = 4$ g/mol. <br>$T_{He} = 273$ K. <br>Solving for $T_{O_2}$: <br>$$T_{O_2} = T_{He} \\frac{M_{O_2}}{M_{He}} = 273 \\frac{32}{4} = 273 \\times 8 = 2184 \\text{ K}$$<br>The oxygen molecules will have the same rms speed as helium molecules at S.T.P. at a temperature of **2184 K**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Compare the rms speed of hydrogen molecules at $127^\\circ C$ with rms speed of oxygen molecules at $27^\\circ C$ given that molecular masses of hydrogen and oxygen are 2 and 32 respectively.",
+    "answer": "The rms velocity of a gas molecule is given by $v_{rms} = \\sqrt{\\frac{3RT}{M}}$. <br>For hydrogen molecules: <br>$T_H = 127^\\circ C = 127 + 273 = 400$ K. <br>$M_H = 2$ g/mol. <br>$v_{rms,H} = \\sqrt{\\frac{3R(400)}{2}}$. <br>For oxygen molecules: <br>$T_O = 27^\\circ C = 27 + 273 = 300$ K. <br>$M_O = 32$ g/mol. <br>$v_{rms,O} = \\sqrt{\\frac{3R(300)}{32}}$. <br>The ratio of the rms speeds is: <br>$$\\frac{v_{rms,H}}{v_{rms,O}} = \\frac{\\sqrt{3R(400)/2}}{\\sqrt{3R(300)/32}} = \\sqrt{\\frac{400/2}{300/32}} = \\sqrt{\\frac{200}{300/32}} = \\sqrt{\\frac{200 \\times 32}{300}} = \\sqrt{\\frac{2 \\times 32}{3}} = \\sqrt{\\frac{64}{3}} = \\frac{8}{\\sqrt{3}}$$ <br>The rms speed of hydrogen molecules is $\\frac{8}{\\sqrt{3}}$ times the rms speed of oxygen molecules.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find kinetic energy of 5000 cc of a gas at S.T.P. given standard pressure is $1.013 \\times 10^5 \\text{ N/m}^2$.",
+    "answer": "The total kinetic energy of a gas is given by $KE = \\frac{3}{2}PV$, where $P$ is the pressure and $V$ is the volume. <br>Given: <br>Volume $V = 5000 \\text{ cc} = 5000 \\text{ cm}^3 = 5000 \\times (10^{-2})^3 \\text{ m}^3 = 5000 \\times 10^{-6} \\text{ m}^3 = 5 \\times 10^{-3} \\text{ m}^3$. <br>Pressure $P = 1.013 \\times 10^5 \\text{ N/m}^2$. <br>The total kinetic energy is: <br>$KE = \\frac{3}{2}(1.013 \\times 10^5)(5 \\times 10^{-3}) = \\frac{3}{2}(1.013 \\times 5) \\times 10^2 = \\frac{3}{2}(5.065) \\times 10^2 = 7.5975 \\times 10^2 \\approx 759.8$ J. <br>The kinetic energy of the gas is approximately **759.8 J**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the average molecular kinetic energy (i) per kmol (ii) per kg (iii) per molecule of oxygen at $127^\\circ C$ given that molecular weight of oxygen is 32, $R$ is $8.31 \\text{ J mol}^{-1}\\text{ K}^{-1}$ and Avogadro's number $N_A$ is $6.02 \\times 10^{23} \\text{ molecules mol}^{-1}$.",
+    "answer": "Given: <br>Temperature $T = 127^\\circ C = 127 + 273 = 400$ K. <br>Molecular weight of oxygen $M = 32$ g/mol $= 0.032$ kg/mol. <br>$R = 8.31 \\text{ J mol}^{-1}\\text{ K}^{-1}$. <br>$N_A = 6.02 \\times 10^{23} \\text{ molecules mol}^{-1}$. <br><br>i) **Average kinetic energy per kmol** <br>Average kinetic energy per mole is $\\frac{3}{2}RT$. For a kmol (1000 moles), it is: <br>$KE_{kmol} = 1000 \\times \\frac{3}{2}RT = 1500(8.31)(400) = 4986000 \\text{ J} = 4.986 \\times 10^6$ J. <br><br>ii) **Average kinetic energy per kg** <br>The number of moles in 1 kg of oxygen is $n = \\frac{1 \\text{ kg}}{0.032 \\text{ kg/mol}} = 31.25$ moles. <br>$KE_{kg} = n \\times \\frac{3}{2}RT = 31.25 \\times \\frac{3}{2}(8.31)(400) = 31.25(1.5)(8.31)(400) = 155812.5 \\text{ J} \\approx 1.558 \\times 10^5$ J. <br><br>iii) **Average kinetic energy per molecule** <br>Average kinetic energy per molecule is $\\frac{3}{2}k_B T$, where $k_B = R/N_A$ is the Boltzmann constant. <br>$k_B = \\frac{8.31}{6.02 \\times 10^{23}} = 1.38 \\times 10^{-23} \\text{ J/K}$. <br>$KE_{molecule} = \\frac{3}{2}(1.38 \\times 10^{-23})(400) = 1.5(1.38 \\times 10^{-23})(400) = 828 \\times 10^{-23} = 8.28 \\times 10^{-21}$ J. <br>The given answer is $8.282 \\times 10^{-21}$ J, which matches our result with more precision.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the energy radiated in one minute by a blackbody of surface area $100 \\text{ cm}^2$ when it is maintained at $227^\\circ C$. (Take Stefan's constant $\\sigma = 5.67 \\times 10^{-8} \\text{ J m}^{-2}\\text{s}^{-1}\\text{K}^{-4}$).",
+    "answer": "The energy radiated per second by a blackbody is given by the Stefan-Boltzmann law: $P = A\\sigma T^4$. The total energy radiated in time $t$ is $E = P \\times t = A\\sigma T^4 t$. <br>Given: <br>Surface area $A = 100 \\text{ cm}^2 = 100 \\times (10^{-2})^2 \\text{ m}^2 = 100 \\times 10^{-4} \\text{ m}^2 = 10^{-2} \\text{ m}^2$. <br>Time $t = 1$ minute $= 60$ s. <br>Temperature $T = 227^\\circ C = 227+273 = 500$ K. <br>Stefan's constant $\\sigma = 5.67 \\times 10^{-8} \\text{ J m}^{-2}\\text{s}^{-1}\\text{K}^{-4}$. <br>The energy radiated is: <br>$E = (10^{-2})(5.67 \\times 10^{-8})(500)^4(60) = (10^{-2})(5.67 \\times 10^{-8})(625 \\times 10^8)(60) = (10^{-2})(5.67)(625)(60) = 5.67(625)(0.6) = 2126.25$ J. <br>The energy radiated is **2126.25 J**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Energy is emitted from a hole in an electric furnace at the rate of 20 W, when the temperature of the furnace is $727^\\circ C$. What is the area of the hole? (Take Stefan's constant $\\sigma$ to be $5.7 \\times 10^{-8} \\text{ J s}^{-1}\\text{m}^{-2}\\text{K}^{-4}$).",
+    "answer": "This problem uses the Stefan-Boltzmann law for a blackbody, $P = A\\sigma T^4$. <br>Given: <br>Power radiated $P = 20$ W. <br>Temperature $T = 727^\\circ C = 727+273 = 1000$ K. <br>Stefan's constant $\\sigma = 5.7 \\times 10^{-8} \\text{ J s}^{-1}\\text{m}^{-2}\\text{K}^{-4}$. <br>We need to find the area of the hole, $A$. Rearranging the formula: <br>$A = \\frac{P}{\\sigma T^4} = \\frac{20}{(5.7 \\times 10^{-8})(1000)^4} = \\frac{20}{(5.7 \\times 10^{-8})(10^{12})} = \\frac{20}{5.7 \\times 10^4} = \\frac{200000}{5.7} = 35087.7 \\times 10^{-4} \\approx 3.509 \\times 10^{-4}$ m$^2$. <br>The area of the hole is approximately **$3.509 \\times 10^{-4}$ m$^2$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The emissive power of a sphere of area $0.02 \\text{ m}^2$ is $0.5 \\text{ kcal s}^{-1}\\text{m}^{-2}$. What is the amount of heat radiated by the spherical surface in 20 second?",
+    "answer": "The emissive power ($E$) is the total energy radiated per unit surface area per unit time. The total heat radiated is given by the formula $Q = EAt$, where $E$ is the emissive power, $A$ is the surface area, and $t$ is the time. <br>Given: <br>Emissive power $E = 0.5 \\text{ kcal s}^{-1}\\text{m}^{-2}$. <br>Surface area $A = 0.02 \\text{ m}^2$. <br>Time $t = 20$ s. <br>The amount of heat radiated is: <br>$Q = EAt = (0.5)(0.02)(20) = 0.5(0.4) = 0.2$ kcal. <br>The amount of heat radiated is **0.2 kcal**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Compare the rates of emission of heat by a blackbody maintained at $727^\\circ C$ and at $227^\\circ C$, if the blackbodies are surrounded by an enclosure (black) at $27^\\circ C$. What would be the ratio of their rates of loss of heat?",
+    "answer": "This problem uses the Stefan-Boltzmann law with a surrounding enclosure. The net rate of heat loss is given by $P_{net} = A\\sigma(T^4 - T_0^4)$, where $T$ is the temperature of the blackbody and $T_0$ is the temperature of the enclosure. <br>Given: <br>First blackbody temperature $T_1 = 727^\\circ C = 727+273 = 1000$ K. <br>Second blackbody temperature $T_2 = 227^\\circ C = 227+273 = 500$ K. <br>Enclosure temperature $T_0 = 27^\\circ C = 27+273 = 300$ K. <br>We want to find the ratio of their rates of emission of heat, which is $P_1/P_2$. Assuming the surface area $A$ is the same for both bodies. <br>$$\\frac{P_1}{P_2} = \\frac{A\\sigma(T_1^4 - T_0^4)}{A\\sigma(T_2^4 - T_0^4)} = \\frac{1000^4 - 300^4}{500^4 - 300^4} = \\frac{100^4(10^4 - 3^4)}{100^4(5^4 - 3^4)} = \\frac{10000-81}{625-81} = \\frac{9919}{544} \\approx 18.23$$ <br>The ratio of their rates of loss of heat is approximately **18.23:1**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Earth's mean temperature can be assumed to be 280 K. How will the curve of blackbody radiation look like for this temperature? Find out $\\lambda_{max}$. In which part of the electromagnetic spectrum, does this value lie? (Take Wien's constant $b = 2.897 \\times 10^{-3} \\text{ m K}$).",
+    "answer": "This problem uses Wien's displacement law, $\\lambda_{max} T = b$. The curve of blackbody radiation for Earth's mean temperature would be similar to a standard blackbody radiation curve, but with its peak shifted to longer wavelengths compared to, say, the sun's radiation, because Earth's temperature is much lower. <br>Given: <br>Temperature $T = 280$ K. <br>Wien's constant $b = 2.897 \\times 10^{-3} \\text{ m K}$. <br>We need to find $\\lambda_{max}$. Rearranging the formula: <br>$$\\lambda_{max} = \\frac{b}{T} = \\frac{2.897 \\times 10^{-3}}{280} \\approx 0.010346 \\times 10^{-2} = 1.0346 \\times 10^{-5} \\text{ m}$$ <br>This is equal to $10.346 \\text{ }\\mu\\text{m}$ (micrometers). <br>This value lies in the **infrared** part of the electromagnetic spectrum.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A small-blackened solid copper sphere of radius 2.5 cm is placed in an evacuated chamber. The temperature of the chamber is maintained at $100^\\circ C$. At what rate energy must be supplied to the copper sphere to maintain its temperature at $110^\\circ C$? (Take Stefan's constant $\\sigma$ to be $5.670 \\times 10^{-8} \\text{ J s}^{-1}\\text{m}^{-2}\\text{K}^{-4}$).",
+    "answer": "This problem involves the net rate of heat exchange between the copper sphere and its surroundings (the chamber). The net rate of heat loss is given by the Stefan-Boltzmann law with surroundings: $P_{net} = A\\sigma(T^4 - T_0^4)$. The rate at which energy must be supplied to the sphere must be equal to this net rate of heat loss to maintain a constant temperature. Since the sphere is blackened, its emissivity is $e=1$. <br>Given: <br>Radius of sphere $r = 2.5$ cm $= 0.025$ m. <br>Area of sphere $A = 4\\pi r^2 = 4\\pi(0.025)^2 = 4\\pi(0.000625) = 0.0025\\pi \\text{ m}^2$. <br>Sphere temperature $T = 110^\\circ C = 110+273 = 383$ K. <br>Chamber temperature $T_0 = 100^\\circ C = 100+273 = 373$ K. <br>Stefan's constant $\\sigma = 5.670 \\times 10^{-8} \\text{ J s}^{-1}\\text{m}^{-2}\\text{K}^{-4}$. <br>The rate of energy supply is: <br>$P_{net} = A\\sigma(T^4 - T_0^4) = (0.0025\\pi)(5.670 \\times 10^{-8})(383^4 - 373^4) \\approx 0.0025\\pi(5.670 \\times 10^{-8})(2.155 \\times 10^{10} - 1.936 \\times 10^{10}) = 0.0025\\pi(5.670 \\times 10^{-8})(0.219 \\times 10^{10}) = 0.0025\\pi(5.670)(21.9) = 0.9822 \\text{ W}$. <br>The rate of energy supply is approximately **0.9822 W**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the temperature of a blackbody if its spectrum has a peak at (a) $\\lambda_{max} = 700$ nm (visible), (b) $\\lambda_{max} = 3$ cm (microwave region) and (c) $\\lambda_{max} = 3$ m (short radio waves). (Take Wien's constant $b = 2.897 \\times 10^{-3} \\text{ m K}$).",
+    "answer": "This problem uses Wien's displacement law, $\\lambda_{max} T = b$, so $T = \\frac{b}{\\lambda_{max}}$. <br>Given: $b = 2.897 \\times 10^{-3} \\text{ m K}$. <br>a) $\\lambda_{max} = 700 \\text{ nm} = 700 \\times 10^{-9} \\text{ m} = 7 \\times 10^{-7} \\text{ m}$. <br>$T_a = \\frac{2.897 \\times 10^{-3}}{7 \\times 10^{-7}} = \\frac{2.897}{7} \\times 10^4 \\approx 0.4138 \\times 10^4 = 4138$ K. <br>b) $\\lambda_{max} = 3$ cm $= 3 \\times 10^{-2}$ m. <br>$T_b = \\frac{2.897 \\times 10^{-3}}{3 \\times 10^{-2}} = \\frac{2.897}{3} \\times 10^{-1} \\approx 0.9657 \\times 0.1 = 0.09657$ K. <br>c) $\\lambda_{max} = 3$ m. <br>$T_c = \\frac{2.897 \\times 10^{-3}}{3} \\approx 0.9657 \\times 10^{-3} = 0.0009657$ K. <br>The temperatures for the given peak wavelengths are **4138 K, 0.09657 K, and 0.0009657 K** respectively.",
+    "marks": 4
   }
 ]

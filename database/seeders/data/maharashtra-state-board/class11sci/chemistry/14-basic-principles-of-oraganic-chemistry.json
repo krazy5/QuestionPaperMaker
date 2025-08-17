@@ -1,0 +1,208 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following statements are true with respect to electronic displacement in covalent bond?",
+    "options": [
+      "i. Inductive effect operates through $\\pi$ bond; Resonance effect operates through $\\sigma$ bond.",
+      "ii. Inductive effect operates through $\\sigma$ bond; Resonance effect operates through $\\pi$ bond.",
+      "i. a and b",
+      "ii. a and c",
+      "iii. c and d",
+      "iv. b and c"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Hyperconjugation involves overlap of ....... orbitals.",
+    "options": [
+      "$\\sigma - \\sigma$",
+      "$\\sigma - p$",
+      "$p - p$",
+      "$\\pi - \\pi$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is isomerism is possible in $CH_3CHCHCH_3$?",
+    "options": [
+      "Position",
+      "Chain",
+      "Geometrical",
+      "Tautomerism"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct IUPAC name of the compound is.....",
+    "options": [
+      "hept-3-ene",
+      "2-ethylpent-2-ene",
+      "hex-3-ene",
+      "3-methylhex-3-ene"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The geometry of a carbocation is .....",
+    "options": [
+      "linear",
+      "planar",
+      "tetrahedral",
+      "octahedral"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The homologous series of alcohols has general molecular formula ........",
+    "options": [
+      "$C_nH_{2n}OH$",
+      "$C_nH_{2n+1}OH$",
+      "$C_nH_{2n-1}OH$",
+      "$C_nH_{2n+2}OH$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'deloccalization of electrons due to overlap between p-orbital and sigma bond' is called",
+    "options": [
+      "Inductive effect",
+      "Electronic effect",
+      "Hyperconjugation",
+      "Resonance"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Identify primary, secondary, tertiary and quaternary carbon in the following compounds: a. $CH_3-C(CH_3)_2-CH_2-CH_3$ and b. $CH_3-CH_2-CH(CH_3)-CH_2-CH_3$",
+    "answer": "a. In the compound 2,2,3-trimethylbutane, the carbon atoms are:<br> - **Primary (1°):** The three $CH_3$ groups at the ends and the one attached to the second carbon atom.<br> - **Tertiary (3°):** The carbon atom bonded to the three other carbon atoms.<br> - **Quaternary (4°):** The carbon atom bonded to four other carbon atoms.<br>b. In the compound 3-methylpentane, the carbon atoms are:<br> - **Primary (1°):** The three $CH_3$ groups at the ends and the one attached to the second carbon atom.<br> - **Secondary (2°):** The carbon atom bonded to the two other carbon atoms.<br> - **Tertiary (3°):** The carbon atom bonded to three other carbon atoms.<br>There are no quaternary carbon atoms in this compound. The specific carbons are: In 2,2-dimethylbutane, the carbons in the three $CH_3$ groups are 1°. The carbon atom in the middle with no hydrogens is 4°. The next carbon is 2° and the last carbon is 1°.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is meant by homologous series? Write the first four members of homologous series that begins with $CH_3CHO$. Also write down their general molecular formula.",
+    "answer": "A **homologous series** is a series of compounds with the same functional group and similar chemical properties. Each successive member differs from the previous one by a $CH_2$ group. The first four members of the homologous series that begins with $CH_3CHO$ (acetaldehyde) are:<br>1. **Acetaldehyde ($CH_3CHO$)**<br>2. **Propionaldehyde ($CH_3CH_2CHO$)**<br>3. **Butyraldehyde ($CH_3CH_2CH_2CHO$)**<br>4. **Valeraldehyde ($CH_3CH_2CH_2CH_2CHO$)**<br>The general molecular formula for aldehydes is **$C_nH_{2n}O$**, where n $\\geq$ 1.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write IUPAC names of the following: a. $CH_3-CH_2-CH(CH_3)-CH_2-CH_3$ b. $CH_3-CH_2-CH=CH_2$ c. $CH_3-CH_2-C\\equiv CH$ d. $CH_3-C(O)-CH_2-CH_3$ e. Phenyl with two OH groups f. Cyclohexanol",
+    "answer": "a. **3-Methylpentane**<br>b. **But-1-ene**<br>c. **But-1-yne**<br>d. **Butan-2-one**<br>e. **Resorcinol (Benzene-1,3-diol)**<br>f. **Cyclohexanol**",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find out the type of isomerism exhibited by the following pairs: a. $CH_3-CH_2-NH-CH_3$ and $CH_3-NH-CH_2-CH_3$, b. $CH_3-CH_2-CH_2-CH_2-OH$ and $CH_3-CH_2-O-CH_2-CH_3$.",
+    "answer": "a. The two compounds are $N$-methylethanamine and $N$-ethylmethanamine. They have the same molecular formula but different alkyl groups attached to the nitrogen atom. This is an example of **metamerism**.<br>b. The two compounds are butan-1-ol and diethyl ether. They have the same molecular formula but different functional groups (alcohol and ether). This is an example of **functional group isomerism**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw resonance srctures of the following: a. Phenol, b. Buta-1,3-diene, c. Benzaldehyde, d. Acetone ion.",
+    "answer": "a. **Phenol:** The resonance structures show the delocalization of the lone pair of electrons on the oxygen atom into the benzene ring.<br>b. **Buta-1,3-diene:** The resonance structures show the delocalization of the pi electrons across the conjugated system.<br>c. **Benzaldehyde:** The resonance structures show the delocalization of the pi electrons from the benzene ring to the carbonyl group.<br>d. **Acetone ion ($CH_3COCH_3$):** The anion of acetone is the enolate ion. The resonance structures show the delocalization of the negative charge between the oxygen atom and the carbon atom.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Distinguish: a. Inductive effect and resonance effect, b. Electrophile and nucleophile, c. Carbocation and carbanion, d. Homolysis and heterolysis.",
+    "answer": "a. **Inductive vs. Resonance effect:** The inductive effect is the permanent displacement of sigma ($\\sigma$) electrons along a chain of atoms due to a difference in electronegativity. It is a weak, short-range effect. The resonance effect is the delocalization of pi ($\\pi$) electrons in a conjugated system. It is a stronger, long-range effect.<br>b. **Electrophile vs. Nucleophile:** An electrophile is an electron-deficient species that is attracted to electron-rich centers and accepts an electron pair. A nucleophile is an electron-rich species that is attracted to electron-deficient centers and donates an electron pair.<br>c. **Carbocation vs. Carbanion:** A carbocation is a species with a positively charged carbon atom that has six electrons in its valence shell. It is an electrophile and has a trigonal planar geometry. A carbanion is a species with a negatively charged carbon atom that has a lone pair of electrons. It is a nucleophile and has a pyramidal geometry.<br>d. **Homolysis vs. Heterolysis:** Homolysis is the symmetrical breaking of a covalent bond, where each atom gets one electron, forming two free radicals. Heterolysis is the unsymmetrical breaking of a covalent bond, where one atom gets both electrons, forming a cation and an anion.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Phytane is naturally occuring alkane produced by the alga spirogyra and is a constituent of petroleum. The IUPAC name for phytane is 2,6,10,14-tetramethylhexadecane. Write zig-zag formula for phytane. How many primary, secondary, tertiary and quaternary carbons are present in this molecule?",
+    "answer": "Phytane is a long-chain alkane. The zig-zag formula for 2,6,10,14-tetramethylhexadecane shows a 16-carbon chain with methyl groups at carbons 2, 6, 10, and 14.<br>In this molecule, there are:<br>- **Primary (1°):** Five methyl groups, so **5** primary carbons.<br>- **Secondary (2°):** The carbons on the main chain that are not branching points, there are 12 of them. So, **12** secondary carbons.<br>- **Tertiary (3°):** The carbons on the main chain that are bonded to three other carbons. These are the carbons at positions 2, 6, 10, and 14. So, there are **4** tertiary carbons.<br>- **Quaternary (4°):** There are no carbon atoms bonded to four other carbon atoms. So, there are **0** quaternary carbons.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Observe the following structures and answer the questions given below. (i) $CH_3-CH_2-CH_2-CHO$, (ii) $CH_3-CH(CH_3)-CHO$. a. What is the relation between (i) and (ii)? b. Write IUPAC name of (ii), c. Draw the functional group isomer of (i).",
+    "answer": "a. The compounds are butanal ($CH_3CH_2CH_2CHO$) and 2-methylpropanal ($CH_3CH(CH_3)CHO$). They have the same molecular formula ($C_4H_8O$) but a different arrangement of carbon atoms in the chain. They are **chain isomers**.<br>b. The IUPAC name of compound (ii) is **2-methylpropanal**.<br>c. The functional group isomer of butanal (an aldehyde) is a ketone with the same molecular formula. The only ketone with the formula $C_4H_8O$ is **butan-2-one** ($CH_3COCH_2CH_3$).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write condensed formulae and bond line formulae for the following structures.",
+    "answer": "a. **H-C$\\equiv$C-C$\\equiv$C-H:** Condensed formula is **$C_4H_2$**. Bond line formula: <br>b. **H-C=C(H)-C(H)=C(H)-H:** Condensed formula is **$C_4H_4$**. Bond line formula: <br>c. **H-C(H)(H)-C(H)(H)-C(H)(H)-C(H)(H)-H:** Condensed formula is **$C_5H_{12}$**. Bond line formula: <br>d. **N$\\equiv$C-C(H)(H)-C$\\equiv$N:** Condensed formula is **$C_3H_2N_2$**. Bond line formula: ",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write dash formulae for the following bond line formulae.",
+    "answer": "a. <br>b. ",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write bond line formulae and condensed formulae for the following compounds: a. 3-methyloctane, b. hept-2-ene, c. 2, 2, 4, 4- tetramethylpentane, d. octa-1,4-diene, e. methoxyethane.",
+    "answer": "a. **3-methyloctane:** Condensed formula is $CH_3CH_2CH(CH_3)(CH_2)_4CH_3$. <br>b. **hept-2-ene:** Condensed formula is $CH_3CH=CH(CH_2)_3CH_3$. <br>c. **2,2,4,4-tetramethylpentane:** Condensed formula is $(CH_3)_3C-CH_2-C(CH_3)_3$. <br>d. **octa-1,4-diene:** Condensed formula is $CH_2=CHCH_2CH=CH(CH_2)_2CH_3$. <br>e. **methoxyethane:** Condensed formula is $CH_3OCH_2CH_3$. ",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write the structural formulae for the following names and also write correct IUPAC names for them. a. 5-ethyl-3-methylheptane, b. 2,4,5-trimethylhexane, c. 2,2,3-trimethylpentan-4-ol.",
+    "answer": "a. **5-ethyl-3-methylheptane:** The correct IUPAC name is **3-ethyl-5-methylheptane**.<br>b. **2,4,5-trimethylhexane:** The correct IUPAC name is **2,3,5-trimethylhexane**.<br>c. **2,2,3-trimethylpentan-4-ol:** The correct IUPAC name is **4,4,2-trimethylpentan-2-ol**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Identify more favourable resonance structure from the following. Justify. a. $CH_3-C(O)-OH \\leftrightarrow CH_3-C(O)^- = O^H$. b. $CH_3-CH=C-H \\leftrightarrow CH_3-CH^-=C^+H$.",
+    "answer": "a. The structure $CH_3-C(O)-OH$ is more favorable because it has no formal charges. The structure with the positive and negative charges is less stable due to charge separation.<br>b. The structure $CH_3-CH=C-H$ is more favorable because it has no formal charges. The structure with the charge separation is less stable.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find out all the functional groups present in the following polyfunctional compounds: a. Dopamine a neurotransmitter that is deficient in Parkinson's disease, b. Thyroxine the principal thyroid hormone, c. Penicillin G a naturally occuring antibiotic.",
+    "answer": "a. **Dopamine:** **-OH** (hydroxyl group, a phenol), and **$-NH_2$** (amino group).<br>b. **Thyroxine:** **-OH** (hydroxyl group, a phenol), **$-O-$** (ether group), **-COOH** (carboxyl group), and **$-NH_2$** (amino group).<br>c. **Penicillin G:** **-COOH** (carboxyl group), **-NH-C(O)-** (amide group), **$-S-$** (thioether group), and the **beta-lactam ring** (a cyclic amide).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find out the most stable species from the following. Justify. a. $CH_3$, $CH_3-CH-CH_3$, $CH_3-C(CH_3)-CH_3$. b. $CH_3$, $CH_3Br$, $CBr_3$. c. $CH_3$, $CH_2Cl$, $CCl_3$.",
+    "answer": "a. The stability of carbocations increases with the number of alkyl groups attached to the positively charged carbon. Therefore, the order of stability is $3^\\circ > 2^\\circ > 1^\\circ >$ methyl. The most stable species is **$CH_3-C(CH_3)-CH_3$** (tertiary carbocation).<br>b. The stability of carbocations is enhanced by electron-donating groups like alkyl groups. Halogens are electron-withdrawing groups due to their electronegativity, which destabilizes a carbocation. Therefore, the most stable species is **$CH_3$**.<br>c. The stability of carbocations is also affected by inductive effects. Chlorine is an electron-withdrawing group, and it will destabilize the carbocation. The more chlorine atoms there are, the more unstable the carbocation becomes. The most stable species is **$CH_3$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Identify the $\\alpha$ - carbons in the following species and give the total number of $\\alpha$-hydrogen in each. a. $CH_3-CH_2-CH_2-CH_3$, b. $H_3C-C-CH_2-CH_3$, c. Cyclohexanone.",
+    "answer": "a. **$CH_3-CH_2-CH_2-CH_3$:** A simple alkane with no functional group. Let's assume the question is a typo and should have a functional group. If we assume the central C-C bond is a functional group, the $\\alpha$-carbons would be the carbons adjacent to it. Let's assume the question is about an isobutane-like structure. The question is flawed.<br>b. **$H_3C-C(O)-CH_2-CH_3$ (butan-2-one):** The $\\alpha$-carbons are the carbons adjacent to the carbonyl carbon. These are the two carbons on either side of the C=O group. The total number of $\\alpha$-hydrogens is **3 + 2 = 5**.<br>c. **Cyclohexanone:** The two carbons adjacent to the carbonyl carbon are the $\\alpha$-carbons. Each of these carbons has two hydrogen atoms attached. The total number of $\\alpha$-hydrogens is **2 + 2 = 4**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Observe the following and answer the questions given below. $CH_3-CH_3 \\xrightarrow{\\text{U.V. light}} \\dot{CH_3} + \\dot{CH_3}$. a. Name the reactive intermediate produced, b. Indicate the movement of electrons by suitable arrow to produce this intermediate, c. Comment on stability of this intermediate produced.",
+    "answer": "a. The reactive intermediate produced is a **methyl free radical** ($\\dot{CH_3}$), which is a neutral species with an unpaired electron.<br>b. The movement of electrons is indicated by a **single-headed arrow** (fishhook arrow), which shows the movement of a single electron.<br>$CH_3-CH_3 \\xrightarrow{\\text{homolytic fission}} CH_3\\dot + \\dot CH_3$<br>c. The stability of a free radical depends on the number of adjacent alkyl groups. The order of stability is $3^\\circ > 2^\\circ > 1^\\circ >$ methyl. The methyl free radical is a primary radical and is **less stable** than a tertiary or secondary free radical.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "An electronic displacement in a covalent bond is represented by following notation. $CH_3 \\xrightarrow{\\delta^+} CH_2 \\xrightarrow{\\delta^-} Cl$. a. Identify the effect, b. Is the displacement of electrons in a covalent bond temporary or permanent.",
+    "answer": "a. The effect represented by the notation $CH_3 \\rightarrow CH_2 \\rightarrow Cl$ with partial charges is the **Inductive Effect**. It is the permanent displacement of sigma electrons toward a more electronegative atom.<br>b. The displacement of electrons in a covalent bond due to the inductive effect is a **permanent** effect.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw all the no-bond resonance structures of isopropyl carbocation.",
+    "answer": "Isopropyl carbocation ($CH_3-CH^+-CH_3$) has a positive charge on the central carbon atom. It is stabilized by hyperconjugation, which involves the delocalization of electrons from the adjacent C-H sigma bonds to the empty p-orbital of the carbocation. The no-bond resonance structures are formed by shifting the sigma electrons from the C-H bonds of the methyl groups to the carbocation center, creating a double bond and a proton. There are a total of **six** such structures (three from each methyl group). ",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A covalent bond in tert-butylbromide breaks in a suitable polat solvent to give ions. a. Name the anion produced by this breaking of a covalent bond, b. Indicate the type of bond breaking in this case, c. Comment on geometry of the cation formed by such bond cleavage.",
+    "answer": "a. The anion produced is the **bromide ion ($Br^-$)**.<br>b. The bond breaking is **heterolytic fission**, where the C-Br bond breaks unsymmetrically, with the more electronegative bromine atom taking both electrons.<br>c. The cation formed is a tert-butyl carbocation ($ (CH_3)_3C^+ $). The central carbon is $sp^2$ hybridized, and it has an empty p-orbital. The geometry of the cation is **trigonal planar**.",
+    "marks": 3
+  }
+]

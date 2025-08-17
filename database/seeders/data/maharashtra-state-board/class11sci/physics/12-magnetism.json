@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mcq",
+    "text": "The magnetic field lines of a bar magnet...",
+    "options": [
+      "form continuous closed loops",
+      "start from the north pole and end at the south pole",
+      "start from the south pole and end at the north pole",
+      "do not exist"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

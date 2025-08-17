@@ -1,0 +1,38 @@
+[
+  {
+    "type": "mcq",
+    "text": "The equation of the parabola with focus at (3, 0) and directrix x = -3 is:",
+    "options": [
+      "$y^2=12x$",
+      "$y^2=-12x$",
+      "$x^2=12y$",
+      "$x^2=-12y$"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The eccentricity of an ellipse is...",
+    "options": [
+      "e = 1",
+      "e > 1",
+      "0 < e < 1",
+      "e = 0"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the equation of the parabola with vertex at the origin, axis along the Y-axis and passing through the point (6, -3).",
+    "answer": "<strong>Solution:</strong><br>Step 1: The equation of a parabola with vertex at origin and axis along the Y-axis is of the form $x^2 = 4by$.<br>Step 2: Since the parabola passes through (6, -3), this point must satisfy the equation.<br>Step 3: Substitute the point: $(6)^2 = 4b(-3) \\implies 36 = -12b$.<br>Step 4: Solve for b: $b = -3$.<br>Step 5: Substitute the value of b back into the standard equation: $x^2 = 4(-3)y$.<br><strong>Final Answer:</strong> The equation is $x^2 = -12y$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find the coordinates of the foci, the vertices, the length of major axis, the minor axis, the eccentricity and the length of the latus rectum of the ellipse $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Compare with the standard form $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. We get $a^2=25 \\implies a=5$ and $b^2=9 \\implies b=3$.<br>Step 2: Vertices are at $(\\pm a, 0)$, so they are $(\\pm 5, 0)$.<br>Step 3: Length of major axis is $2a = 10$. Length of minor axis is $2b = 6$.<br>Step 4: Find c using $c^2 = a^2-b^2 = 25-9=16 \\implies c=4$.<br>Step 5: Foci are at $(\\pm c, 0)$, so they are $(\\pm 4, 0)$.<br>Step 6: Eccentricity is $e = c/a = 4/5$.<br>Step 7: Length of the latus rectum is $\\frac{2b^2}{a} = \\frac{2(9)}{5} = \\frac{18}{5}$.",
+    "marks": 4
+  }
+]

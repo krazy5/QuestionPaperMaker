@@ -1,0 +1,26 @@
+[
+  {
+    "type": "mcq",
+    "text": "The process of heat transfer from one particle to another without the actual motion of particles is called...",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "None of these"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define specific heat capacity.",
+    "answer": "<strong>Specific Heat Capacity:</strong><br>The specific heat capacity of a substance is defined as the amount of heat required to raise the temperature of a unit mass of the substance by one degree Celsius or one Kelvin.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the three modes of heat transfer.",
+    "answer": "<strong>Modes of Heat Transfer:</strong><br>1. <strong>Conduction:</strong> Heat is transferred from one particle to another through molecular vibrations without the actual movement of particles. It is the primary mode of heat transfer in solids.<br>2. <strong>Convection:</strong> Heat is transferred through the actual movement of particles of the medium. This occurs in fluids (liquids and gases). The heated, less dense fluid rises, and the cooler, denser fluid sinks, creating a convection current.<br>3. <strong>Radiation:</strong> Heat is transferred in the form of electromagnetic waves (infrared radiation). It does not require a medium for propagation and is the fastest mode of heat transfer.",
+    "marks": 4
+  }
+]

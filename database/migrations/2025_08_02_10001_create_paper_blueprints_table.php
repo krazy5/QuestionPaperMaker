@@ -16,6 +16,12 @@ return new class extends Migration
             $table->string('name'); // e.g., "HSC Science - Physics Pattern"
             $table->foreignId('board_id')->constrained('boards')->onDelete('cascade');
             $table->foreignId('class_id')->constrained('academic_class_models')->onDelete('cascade');
+            $table->foreignId('subject_id')->constrained('subjects')->onDelete('cascade')->after('class_id');
+             $table->unsignedInteger('total_marks');
+              $table->foreignId('institute_id')->nullable()->constrained('users')->onDelete('cascade');
+
+             // ✅ ADD THIS FOR CHAPTER SELECTION
+            $table->json('selected_chapters')->nullable();
             $table->timestamps();
         });
     }

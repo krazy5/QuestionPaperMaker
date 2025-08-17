@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mcq",
+    "text": "If $f(x) = 2x+5$, find $f(3)$.",
+    "options": [
+      "6",
+      "11",
+      "8",
+      "1"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the domain and range of the function $f(x) = \\sqrt{x-2}$.",
+    "answer": "<strong>Solution:</strong><br>Domain: For the square root to be a real number, the expression inside must be non-negative. $x-2 \\ge 0 \\implies x \\ge 2$. Domain is $[2, \\infty)$.<br>Range: The square root function always returns a non-negative value. Range is $[0, \\infty)$.",
+    "marks": 2
+  }
+]

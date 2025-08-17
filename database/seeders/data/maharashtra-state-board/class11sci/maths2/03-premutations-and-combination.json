@@ -1,0 +1,38 @@
+[
+  {
+    "type": "mcq",
+    "text": "The value of $^5P_2$ is:",
+    "options": [
+      "10",
+      "20",
+      "60",
+      "120"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $^7C_3$ is:",
+    "options": [
+      "21",
+      "35",
+      "210",
+      "420"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "In how many ways can 5 students be arranged in a row?",
+    "answer": "<strong>Solution:</strong><br>This is a permutation of 5 distinct items.<br>The number of ways is $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A committee of 3 is to be formed from a group of 5 men and 4 women. In how many ways can this be done if the committee must contain exactly 2 women?",
+    "answer": "<strong>Solution:</strong><br>Step 1: We need to select 2 women from 4, and 1 man from 5.<br>Step 2: The number of ways to select 2 women from 4 is $^4C_2 = \\frac{4!}{2!(4-2)!} = \\frac{4 \\times 3}{2} = 6$.<br>Step 3: The number of ways to select 1 man from 5 is $^5C_1 = 5$.<br>Step 4: The total number of ways to form the committee is the product of these two values.<br>Total ways = $^4C_2 \\times ^5C_1 = 6 \\times 5 = 30$.",
+    "marks": 3
+  }
+]

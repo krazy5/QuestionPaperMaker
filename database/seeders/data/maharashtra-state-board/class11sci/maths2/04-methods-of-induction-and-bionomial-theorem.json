@@ -1,0 +1,26 @@
+[
+  {
+    "type": "mcq",
+    "text": "The number of terms in the expansion of $(x+y)^{10}$ is:",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "9"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the 4th term in the expansion of $(x-2y)^{12}$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The general term is $T_{r+1} = {^nC_r} x^{n-r} a^r$. Here $n=12$, we want the 4th term so $r=3$. The first term is $x$ and the second term is $-2y$.<br>Step 2: $T_4 = {^{12}C_3} x^{12-3} (-2y)^3$.<br>Step 3: Calculate $^{12}C_3 = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = 220$.<br>Step 4: $T_4 = 220 \\cdot x^9 \\cdot (-8y^3) = -1760x^9y^3$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Prove by the method of induction that $1+2+3+...+n = \\frac{n(n+1)}{2}$ for all $n \\in N$.",
+    "answer": "<strong>Solution:</strong><br>Step 1 (Base Case): For n=1, LHS = 1. RHS = $\\frac{1(1+1)}{2} = 1$. So it is true for n=1.<br>Step 2 (Inductive Hypothesis): Assume the formula is true for n=k. So, $1+2+...+k = \\frac{k(k+1)}{2}$.<br>Step 3 (Inductive Step): We need to prove it for n=k+1. We need to show $1+2+...+(k+1) = \\frac{(k+1)(k+2)}{2}$.<br>LHS = $(1+2+...+k) + (k+1) = \\frac{k(k+1)}{2} + (k+1)$.<br>LHS = $(k+1)(\\frac{k}{2} + 1) = (k+1)(\\frac{k+2}{2}) = \\frac{(k+1)(k+2)}{2}$ = RHS.<br>Hence, by the principle of mathematical induction, the formula is true for all $n \\in N$.",
+    "marks": 4
+  }
+]

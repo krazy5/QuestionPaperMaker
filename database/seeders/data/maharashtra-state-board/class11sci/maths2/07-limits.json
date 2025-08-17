@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mcq",
+    "text": "The value of $\\lim_{x \\to 2} (3x+4)$ is:",
+    "options": [
+      "10",
+      "7",
+      "2",
+      "12"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Evaluate $\\lim_{x \\to 1} \\frac{x^2-1}{x-1}$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Factor the numerator: $\\frac{(x-1)(x+1)}{x-1}$.<br>Step 2: Cancel the $(x-1)$ term: $\\lim_{x \\to 1} (x+1)$.<br>Step 3: Substitute x=1: $1+1=2$.",
+    "marks": 2
+  }
+]

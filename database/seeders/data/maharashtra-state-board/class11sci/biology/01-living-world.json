@@ -1,0 +1,77 @@
+[
+    {
+      "type": "mcq",
+      "text": "Which of the following is NOT a property of living organisms?",
+      "options": ["Metabolism", "Homeostasis", "Reproduction", "Rusting of iron"],
+      "correct_answer": "D",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which feature is common to both plants and animals?",
+      "options": ["Photosynthesis", "Respiration", "Chlorophyll", "Cell wall"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "The term 'biodiversity' refers to:",
+      "options": [
+        "Variety of life forms in a given area",
+        "Number of habitats in a region",
+        "Different climate zones",
+        "Distribution of rainfall"
+      ],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which of these taxonomic aids provides preserved plant specimens for reference?",
+      "options": ["Botanical garden", "Herbarium", "Museum", "Zoo"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Identify the correct sequence of taxonomic categories from highest to lowest.",
+      "options": [
+        "Species → Genus → Family → Order",
+        "Order → Family → Genus → Species",
+        "Family → Order → Class → Phylum",
+        "Class → Order → Family → Genus"
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "State any two reasons why classification is important in biology.",
+      "answer": "<strong>Reasons:</strong><br>1. Helps in systematic study and identification of organisms.<br>2. Reflects evolutionary relationships and predicts characteristics.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "What is meant by the term 'species'? Give one example.",
+      "answer": "<strong>Species:</strong> A group of similar organisms capable of interbreeding to produce fertile offspring.<br><strong>Example:</strong> <em>Homo sapiens</em> (humans).",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Name two taxonomic aids and state their uses.",
+      "answer": "<strong>Examples:</strong><br>1. <strong>Herbarium:</strong> Preserved plant specimens for identification and research.<br>2. <strong>Museum:</strong> Preserved animal specimens for study and reference.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Explain five fundamental characteristics of living organisms with examples.",
+      "answer": "<strong>Characteristics:</strong><br>1. <strong>Organization:</strong> Ordered structure (e.g., cells, tissues).<br>2. <strong>Metabolism:</strong> Chemical processes like respiration in mitochondria.<br>3. <strong>Homeostasis:</strong> Temperature regulation in humans.<br>4. <strong>Growth & Development:</strong> Increase in mass/complexity (e.g., plant growth).<br>5. <strong>Reproduction:</strong> Formation of new individuals (e.g., binary fission in Amoeba).",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Describe the role and importance of botanical gardens in biodiversity conservation.",
+      "answer": "<strong>Roles:</strong><br>1. <strong>Conservation:</strong> Ex-situ preservation of rare/endangered species.<br>2. <strong>Education:</strong> Public awareness about plant diversity.<br>3. <strong>Research:</strong> Plant taxonomy and propagation studies.<br>4. <strong>Recreation:</strong> Aesthetic value and tourism.",
+      "marks": 3
+    }
+  ]

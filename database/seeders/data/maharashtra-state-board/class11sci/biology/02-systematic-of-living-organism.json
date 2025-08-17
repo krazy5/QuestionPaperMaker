@@ -1,0 +1,77 @@
+ [
+    {
+      "type": "mcq",
+      "text": "Who is known as the 'Father of Taxonomy'?",
+      "options": ["Aristotle", "Carolus Linnaeus", "John Ray", "Charles Darwin"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In the binomial name 'Mangifera indica', which part refers to the genus?",
+      "options": ["Mangifera", "indica", "Mango", "Plantae"],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which taxonomic rank is broader than 'genus' but narrower than 'order'?",
+      "options": ["Species", "Family", "Class", "Phylum"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Identify the correct sequence of taxonomic hierarchy from highest to lowest.",
+      "options": [
+        "Class → Phylum → Order → Genus → Species",
+        "Phylum → Class → Order → Family → Genus → Species",
+        "Phylum → Order → Class → Genus → Family",
+        "Species → Genus → Family → Order → Class"
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which code governs the naming of plants?",
+      "options": [
+        "International Code of Botanical Nomenclature (ICBN)",
+        "International Code of Zoological Nomenclature (ICZN)",
+        "International Union of Botanical Science (IUBS)",
+        "International Botanical Society Code (IBSC)"
+      ],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "What is meant by 'taxon'? Give one example.",
+      "answer": "<strong>Taxon:</strong> A taxonomic unit at any rank in the classification system.<br><strong>Example:</strong> 'Felidae' is a family taxon containing cats.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "State two advantages of binomial nomenclature.",
+      "answer": "<strong>Advantages:</strong><br>1. Provides a unique and universal name for each species.<br>2. Avoids confusion caused by local/common names.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Name any two taxonomic aids other than herbarium and explain one of them.",
+      "answer": "<strong>Examples:</strong> Botanical gardens, Museums.<br><strong>Explanation:</strong> A botanical garden conserves and displays living plant collections for research and education.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Explain the main rules of binomial nomenclature as per ICBN.",
+      "answer": "<strong>Rules:</strong><br>1. Each species name has two parts: Genus (capitalized) + species epithet (lowercase).<br>2. Names are italicized in print or underlined when handwritten.<br>3. The genus name may be abbreviated after first mention (e.g., <em>H. sapiens</em>).<br>4. Names must be published following ICBN guidelines.<br>5. The species epithet should never be used alone.",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Differentiate between species and genus with at least three points.",
+      "answer": "<strong>Species vs Genus:</strong><br><table border='1' style='border-collapse: collapse; width: 100%;'><tr><th>Feature</th><th>Species</th><th>Genus</th></tr><tr><td>Definition</td><td>Group of organisms capable of interbreeding and producing fertile offspring.</td><td>Group of closely related species.</td></tr><tr><td>Rank</td><td>Lowest/basic unit of classification.</td><td>Higher than species, lower than family.</td></tr><tr><td>Example</td><td>'indica' in <em>Mangifera indica</em>.</td><td>'Mangifera' in <em>Mangifera indica</em>.</td></tr></table>",
+      "marks": 3
+    }
+]

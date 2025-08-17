@@ -1,0 +1,29 @@
+[
+  {
+    "type": "mcq",
+    "text": "The body of a cockroach is divided into...",
+    "options": ["Head and trunk", "Head, thorax, and abdomen", "Cephalothorax and abdomen", "Head and abdomen"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The respiratory organs in a cockroach are...",
+    "options": ["Lungs", "Gills", "Tracheae", "Skin"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the function of Malpighian tubules in a cockroach?",
+    "answer": "<strong>Function of Malpighian Tubules:</strong><br>Malpighian tubules are the main excretory organs in a cockroach. They absorb nitrogenous wastes from the haemolymph (blood) and convert them into uric acid, which is then passed out along with the feces. They help in osmoregulation.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat and labelled diagram of the digestive system of a cockroach.",
+    "image": "cockroach-digestive-system.png",
+    "answer": "<strong>Digestive System of Cockroach:</strong><br>The diagram should show the alimentary canal divided into three parts:<br>1. <strong>Foregut:</strong> Includes the pharynx, oesophagus, crop (for storing food), and gizzard (for grinding food).<br>2. <strong>Midgut (Mesenteron):</strong> The main site of digestion and absorption. Hepatic caeca are present at the junction of the foregut and midgut.<br>3. <strong>Hindgut:</strong> Includes the ileum, colon, and rectum. Malpighian tubules are present at the junction of the midgut and hindgut.",
+    "marks": 4
+  }
+]

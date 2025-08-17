@@ -1,0 +1,120 @@
+[
+  {
+    "type": "mcq",
+    "text": "An object thrown from a moving bus is on example of",
+    "options": [
+      "(A) Uniform circular motion",
+      "(B) Rectilinear motion",
+      "(C) Projectile motion",
+      "(D) Motion in one dimension"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For a particle having a uniform circular motion, which of the following is constant",
+    "options": [
+      "(A) Speed",
+      "(B) Acceleration",
+      "(C) Velocity",
+      "(D) Displacement"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bob of a conical pendulum under goes",
+    "options": [
+      "(A) Rectilinear motion in horizontal plane",
+      "(B) Uniform motion in a horizontal circle"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For uniform acceleration in rectilinear motion which of the following is not correct?",
+    "options": [
+      "(A) Velocity-time graph is linear",
+      "(B) Acceleration is the slope of velocity time graph",
+      "(C) The area under the velocity-time graph equals displacement",
+      "(D) Velocity-time graph is nonlinear"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If three particles A, B and C are having velocities $\\vec{v}_A$, $\\vec{v}_B$ and $\\vec{v}_C$ which of the following formula gives the relative velocity of A with respect to B",
+    "options": [
+      "(A) $\\vec{v}_A + \\vec{v}_B$",
+      "(B) $\\vec{v}_A - \\vec{v}_C + \\vec{v}_B$",
+      "(C) $\\vec{v}_A - \\vec{v}_B$",
+      "(D) $\\vec{v}_C - \\vec{v}_A$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Separate the following in groups of scalar and vectors: velocity, speed, displacement, work done, force, power, energy, acceleration, electric charge, angular velocity.",
+    "answer": "<strong>Scalar quantities:</strong> Speed, work done, power, energy, electric charge. <br><strong>Vector quantities:</strong> Velocity, displacement, force, acceleration, angular velocity.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define average velocity and instantaneous velocity. When are they same?",
+    "answer": "<strong>Average velocity:</strong> The total displacement divided by the total time taken. <br><strong>Instantaneous velocity:</strong> The velocity of an object at a specific instant in time. <br>They are the same when the object is moving with a constant velocity (zero acceleration).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define free fall.",
+    "answer": "Free fall is the motion of an object where the only force acting on it is gravity. Air resistance is considered negligible.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "If the motion of an object is described by x = f(t) write formulae for instantaneous velocity and acceleration.",
+    "answer": "Instantaneous velocity: $v = \\frac{dx}{dt} = f'(t)$. <br>Instantaneous acceleration: $a = \\frac{dv}{dt} = \\frac{d^2x}{dt^2} = f''(t)$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive equations of motion for a particle moving in a plane and show that the motion can be resolved in two independent motions in mutually perpendicular directions.",
+    "answer": "The derivation involves resolving the velocity and acceleration into their x and y components. The equations of motion for the x and y components are: <br>x-direction: $v_x = u_x + a_xt$, $x = u_xt + \\frac{1}{2}a_xt^2$, $v_x^2 = u_x^2 + 2a_xx$ <br>y-direction: $v_y = u_y + a_yt$, $y = u_yt + \\frac{1}{2}a_yt^2$, $v_y^2 = u_y^2 + 2a_yy$ <br>These equations show that the motion in the x and y directions can be analyzed independently, confirming that a 2D motion can be resolved into two independent 1D motions.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive equations of motion graphically for a particle having uniform acceleration, moving along a straight line.",
+    "answer": "The three equations of motion ($v = u + at$, $s = ut + \\frac{1}{2}at^2$, $v^2 = u^2 + 2as$) can be derived from a velocity-time graph for a uniformly accelerating object. <br>1. $v = u + at$ is derived from the slope of the v-t graph. <br>2. $s = ut + \\frac{1}{2}at^2$ is derived from the area under the v-t graph. <br>3. $v^2 = u^2 + 2as$ is derived by eliminating time 't' from the first two equations.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Derive the formula for the range and maximum height achieved by a projectile thrown from the origin with initial velocity u at an angle $\\theta$ to the horizontal.",
+    "answer": "<strong>Range (R):</strong> The horizontal distance traveled. <br>$R = \\frac{u^2 \\sin(2\\theta)}{g}$. <br><strong>Maximum Height ($H_{max}$):</strong> The maximum vertical distance. <br>$H_{max} = \\frac{u^2 \\sin^2(\\theta)}{2g}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Show that the path of a projectile is a parabola.",
+    "answer": "The path of a projectile can be described by the equation of trajectory, which relates the vertical position (y) to the horizontal position (x). By using the kinematic equations for horizontal and vertical motion, we can derive the equation $y = x\\tan(\\theta) - \\frac{g x^2}{2 u^2 \\cos^2(\\theta)}$. This equation is in the form of $y = ax - bx^2$, which is the equation of a parabola.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is a conical pendulum? Show that its time period is given by $2\\pi\\sqrt{\\frac{l \\cos\\theta}{g}}$, where $l$ is the length of the string, $\\theta$ is the angle that the string makes with the vertical and g is the acceleration due to gravity.",
+    "answer": "A conical pendulum is a simple pendulum that, instead of swinging back and forth, moves in a horizontal circle, with the string tracing out a cone. <br>The time period is derived by analyzing the forces acting on the bob (tension and gravity) and resolving them into vertical and horizontal components. The vertical component of tension balances the gravitational force, while the horizontal component provides the necessary centripetal force. By equating these forces and using the geometry of the cone, the formula for the time period can be derived.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define angular velocity. Show that the centripetal force on a particle undergoing uniform circular motion is $-m\\omega^2 \\vec{r}$.",
+    "answer": "<strong>Angular velocity ($ \\vec{\\omega} $):</strong> It is the rate of change of angular displacement of a rotating body. It is a vector quantity, with its direction given by the right-hand rule. <br><strong>Centripetal Force ($F_c$):</strong> The centripetal force is given by $F_c = ma_c$. For uniform circular motion, the centripetal acceleration is $a_c = \\omega^2 r$. The force vector is directed towards the center of the circle, opposite to the position vector $\\vec{r}$. Therefore, $\\vec{F}_c = m\\vec{a}_c = -m\\omega^2 \\vec{r}$.",
+    "marks": 4
+  }
+]

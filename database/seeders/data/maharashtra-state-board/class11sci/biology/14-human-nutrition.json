@@ -1,0 +1,29 @@
+[
+  {
+    "type": "mcq",
+    "text": "The digestion of proteins begins in the...",
+    "options": ["Mouth", "Stomach", "Small intestine", "Large intestine"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which vitamin deficiency causes scurvy?",
+    "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the role of bile in digestion?",
+    "answer": "<strong>Role of Bile:</strong><br>Bile is produced by the liver and stored in the gall bladder. It does not contain any digestive enzymes but plays a crucial role in fat digestion through a process called emulsification. It breaks down large fat globules into smaller droplets, increasing the surface area for the enzyme lipase to act upon.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat and labelled diagram of the human digestive system.",
+    "image": "human-digestive-system.png",
+    "answer": "<strong>Human Digestive System:</strong><br>The diagram should include the complete alimentary canal and associated glands, with labels for:<br><ul><li>Mouth, Pharynx, Oesophagus</li><li>Stomach</li><li>Small Intestine (Duodenum, Jejunum, Ileum)</li><li>Large Intestine (Caecum, Colon, Rectum)</li><li>Anus</li><li>Associated Glands: Salivary glands, Liver, Gall bladder, Pancreas.</li></ul>",
+    "marks": 5
+  }
+]

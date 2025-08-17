@@ -87,5 +87,232 @@
     "text": "State the laws of vibrating strings. (Board 2016)",
     "answer": "The three laws of vibrating strings are: 1) Law of Length: The fundamental frequency is inversely proportional to the length of the string ($n \\propto 1/L$). 2) Law of Tension: The fundamental frequency is directly proportional to the square root of the tension ($n \\propto \\sqrt{T}$). 3) Law of Linear Density: The fundamental frequency is inversely proportional to the square root of the linear density ($n \\propto 1/\\sqrt{m}$).",
     "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "A particle performs linear S.H.M. starting from the mean position. Its amplitude is $A$ and time period is $T$. At the instance when its speed is half the maximum speed, its displacement $x$ is:",
+    "options": ["$\\frac{\\sqrt{3}}{2}A$", "$\\frac{2}{\\sqrt{3}}A$", "$\\frac{A}{2}$", "$\\frac{1}{\\sqrt{2}}A$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A body of mass 1 kg is performing linear S.H.M. Its displacement $x$ (cm) at $t$ (second) is given by $x = 6 \\sin(100t + \\pi/4)$. Maximum kinetic energy of the body is:",
+    "options": ["36 J", "9 J", "27 J", "18 J"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The length of a second's pendulum on the surface of earth is nearly 1 m. Its length on the surface of moon should be [Given: acceleration due to gravity ($g$) on moon is 1/6th of that on the earth's surface]:",
+    "options": ["1/6 m", "6 m", "1/36 m", "$\\frac{1}{\\sqrt{6}}$ m"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two identical springs of constant $k$ are connected, first in series and then in parallel. A metal block of mass $m$ is suspended from their combination. The ratio of their frequencies of vertical oscillations will be in a ratio:",
+    "options": ["1:4", "1:2", "2:1", "4:1"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The graph shows variation of displacement of a particle performing S.H.M. with time $t$. Which of the following statements is correct from the graph?",
+    "options": ["The acceleration is maximum at time T.", "The force is maximum at time 3T/4.", "The velocity is zero at time T/2.", "The kinetic energy is equal to total energy at time T/4."],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define linear simple harmonic motion.",
+    "answer": "Linear simple harmonic motion (S.H.M.) is defined as the linear periodic motion of a body in which the restoring force (or acceleration) is always directed towards the mean position and its magnitude is directly proportional to the displacement from the mean position.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Using the differential equation of linear S.H.M, obtain the expression for (a) velocity in S.H.M., (b) acceleration in S.H.M.",
+    "answer": "The differential equation for linear S.H.M. is $\\frac{d^2x}{dt^2} + \\omega^2 x = 0$. (a) Velocity: We can write $\\frac{d^2x}{dt^2} = v \\frac{dv}{dx}$. So, $v \\frac{dv}{dx} = -\\omega^2 x$. Integrating, $\\int v dv = -\\int \\omega^2 x dx$ gives $\\frac{v^2}{2} = -\\frac{\\omega^2 x^2}{2} + C$. At extreme position $x=A$, $v=0$, so $C = \\frac{\\omega^2 A^2}{2}$. Thus, $v^2 = \\omega^2(A^2 - x^2)$, which gives the velocity as $v = \\pm \\omega \\sqrt{A^2 - x^2}$. (b) Acceleration: From the differential equation itself, the acceleration is $a = \\frac{d^2x}{dt^2} = -\\omega^2 x$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Obtain the expression for the period of a simple pendulum performing S.H.M.",
+    "answer": "For a simple pendulum with bob mass $m$ and length $L$, the restoring force for a small angular displacement $\\theta$ is $F = -mg \\sin\\theta$. For small angles, $\\sin\\theta \\approx \\theta = x/L$. So, $F \\approx -mg(x/L)$. The acceleration is $a = F/m = -(g/L)x$. Comparing this with the standard S.H.M. equation $a = -\\omega^2 x$, we get $\\omega^2 = g/L$. The period $T$ is given by $T = 2\\pi/\\omega$. Therefore, $T = 2\\pi\\sqrt{L/g}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "State the laws of simple pendulum.",
+    "answer": "The laws of a simple pendulum are: 1. Law of Isochronism: The period is independent of the amplitude (for small oscillations). 2. Law of Length: The period is directly proportional to the square root of its effective length ($T \\propto \\sqrt{L}$). 3. Law of Acceleration due to Gravity: The period is inversely proportional to the square root of the acceleration due to gravity ($T \\propto 1/\\sqrt{g}$). 4. Law of Mass: The period is independent of the mass of the bob.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "At what distance from the mean position is the speed of a particle performing S.H.M. half its maximum speed. Given path length of S.H.M. = 10 cm.",
+    "answer": "The path length is 10 cm, so the amplitude is $A = 10/2 = 5$ cm. The maximum speed is $v_{max} = A\\omega$. The speed at displacement $x$ is $v = \\omega\\sqrt{A^2 - x^2}$. Given $v = v_{max}/2$, we have $\\frac{A\\omega}{2} = \\omega\\sqrt{A^2 - x^2}$. Squaring both sides gives $\\frac{A^2}{4} = A^2 - x^2$. Rearranging, $x^2 = A^2 - \\frac{A^2}{4} = \\frac{3A^2}{4}$. So, $x = \\pm\\frac{\\sqrt{3}}{2}A = \\pm\\frac{\\sqrt{3}}{2}(5 \\text{ cm}) \\approx \\pm 4.33$ cm. The distance is 4.33 cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In SI units, the differential equation of an S.H.M. is $\\frac{d^2x}{dt^2} = -36x$. Find its frequency and period.",
+    "answer": "f = 0.9548 Hz, T = 1.047 s",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A needle of a sewing machine moves along a path of amplitude 4 cm with frequency 5 Hz. Find its acceleration $\\frac{1}{30}$ s after it has crossed the mean position.",
+    "answer": "34.2 m/s²",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Potential energy of a particle performing linear S.H.M is $0.1\\pi^2x^2$ joule. If mass of the particle is 20 g, find the frequency of S.H.M.",
+    "answer": "1.581 Hz",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The total energy of a body of mass 2 kg performing S.H.M. is 40 J. Find its speed while crossing the centre of the path.",
+    "answer": "6.324 m/s",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A simple pendulum performs S.H.M of period 4 seconds. How much time after crossing the mean position, will the displacement of the bob be one third of its amplitude.",
+    "answer": "0.2163 s",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A simple pendulum of length 100 cm performs S.H.M. Find the restoring force acting on its bob of mass 50 g when the displacement from the mean position is 3 cm.",
+    "answer": "$1.48 \\times 10^{-2} \\text{ N}$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the change in length of a second's pendulum, if the acceleration due to gravity at the place changes from 9.75 m/s² to 9.80 m/s².",
+    "answer": "Decreases by 5.07 mm",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "At what distance from the mean position is the kinetic energy of a particle performing S.H.M. of amplitude 8 cm, three times its potential energy?",
+    "answer": "4 cm",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A particle performing linear S.H.M. of period $2\\pi$ seconds about the mean position O is observed to have a speed of $b\\sqrt{3}$ m/s, when at a distance $b$ (metre) from O. If the particle is moving away from O at that instant, find the time required by the particle, to travel a further distance $b$.",
+    "answer": "$\\pi/3$ s",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The period of oscillation of a body of mass $m_1$ suspended from a light spring is $T$. When a body of mass $m_2$ is tied to the first body and the system is made to oscillate, the period is $2T$. Compare the masses $m_1$ and $m_2$.",
+    "answer": "$m_1/m_2 = 1/3$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The displacement of an oscillating particle is given by $x = a\\sin\\omega t + b\\cos\\omega t$ where a, b and $\\omega$ are constants. Prove that the particle performs a linear S.H.M. with amplitude $A = \\sqrt{a^2 + b^2}$.",
+    "answer": "To prove the motion is S.H.M., we show acceleration is proportional to displacement: $v = \\frac{dx}{dt} = a\\omega\\cos\\omega t - b\\omega\\sin\\omega t$. $a_{accel} = \\frac{d^2x}{dt^2} = -a\\omega^2\\sin\\omega t - b\\omega^2\\cos\\omega t = -\\omega^2(a\\sin\\omega t + b\\cos\\omega t) = -\\omega^2x$. Since acceleration is proportional to $-x$, the motion is S.H.M. The amplitude is given by $A = \\sqrt{a^2 + b^2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Two parallel S.H.M.s represented by $x_1 = 5\\sin(4\\pi t + \\pi/3)$ cm and $x_2 = 3\\sin(4\\pi t + \\pi/4)$ cm are superposed on a particle. Determine the amplitude and epoch of the resultant S.H.M.",
+    "answer": "Amplitude = 7.936 cm, Epoch (initial phase) = 54° 23'",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A 20 cm wide thin circular disc of mass 200 g is suspended to a rigid support from a thin metallic string. By holding the rim of the disc, the string is twisted through 60° and released. It now performs angular oscillations of period 1 second. Calculate the maximum restoring torque generated in the string under undamped conditions. ($\\pi^2 \\approx 31$)",
+    "answer": "0.04133 N m",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the number of oscillations performed per minute by a magnet is vibrating in the plane of a uniform field of $1.6 \\times 10^{-5}$ Wb/m². The magnet has moment of inertia $3 \\times 10^{-6}$ kg m² and magnetic moment 3 Am².",
+    "answer": "38.19 osc/min",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A wooden block of mass m is kept on a piston that can perform vertical vibrations. We don't want the block to leave contact with the piston. How much maximum frequency is possible if the amplitude of vibrations is restricted to 25 cm? In this case, how much is the energy per unit mass of the block? ($g \\approx \\pi^2 \\approx 10$ m/s²)",
+    "answer": "$n_{max} = 1$ Hz, E/m = 1.25 J/kg",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "When an air column in a pipe closed at one end vibrates such that three nodes are formed in it, the frequency of its vibrations is ........times the fundamental frequency.",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If two open organ pipes of length 50 cm and 51 cm sounded together produce 7 beats per second, the speed of sound is.",
+    "options": ["307m/s", "327m/s", "350m/s", "357m/s"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The tension in a piano wire is increased by 25%. Its frequency becomes ..... times the original frequency.",
+    "options": ["0.8", "1.12", "1.25", "1.56"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following equations represents a wave travelling along the y-axis?",
+    "options": ["$x = A\\sin(ky - \\omega t)$", "$y = A\\sin(kx - \\omega t)$", "$y = A\\sin(ky)\\cos(\\omega t)$", "$y = A\\cos(ky)\\sin(\\omega t)$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A standing wave is produced on a string fixed at one end with the other end free. The length of the string must be...",
+    "options": ["an odd integral multiple of $\\lambda/4$.", "an odd integral multiple of $\\lambda/2$.", "an even integral multiple of $\\lambda$.", "an even integral multiple of $\\lambda/2$."],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "A wave is represented by an equation $y = A\\sin(Bx + Ct)$. Given that the constants A, B and C are positive, can you tell in which direction the wave is moving?",
+    "answer": "The wave is moving in the negative x-direction. The general form for a wave moving in the negative direction is $f(x+vt)$, and the equation can be written as $y = A\\sin(B(x + (C/B)t))$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A string is fixed at the two ends and is vibrating in its fundamental mode. It is known that the two ends will be at rest. Apart from these, is there any position on the string which can be touched so as not to disturb the motion?",
+    "answer": "No. In the fundamental mode of vibration, the only points of zero displacement (nodes) are at the two fixed ends. All other points on the string are in motion.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are harmonics and overtones?",
+    "answer": "Harmonics are integral multiples of the fundamental frequency ($f, 2f, 3f, ...$). Overtones are the frequencies that are actually produced by an instrument above the fundamental frequency. The first overtone is the second harmonic, the second overtone is the third harmonic, and so on (this may vary depending on the instrument).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "For a stationary wave set up in a string having both ends fixed, what is the ratio of the fundamental frequency to the second harmonic?",
+    "answer": "The frequencies for a string fixed at both ends are $f_n = nf_1$. The fundamental frequency is $f_1$. The second harmonic is $f_2 = 2f_1$. The ratio is $f_1 / f_2 = 1/2$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The amplitude of a wave is represented by $y = 0.2\\sin[4\\pi(\\frac{t}{0.08} - \\frac{x}{0.8})]$ in SI units. Find (a) wavelength, (b) frequency and (c) amplitude of the wave.",
+    "answer": "Expanding the equation gives $y = 0.2\\sin(50\\pi t - 5\\pi x)$. Comparing with the standard form $y = A\\sin(\\omega t - kx)$: (a) Wavelength: $k=5\\pi \\implies 2\\pi/\\lambda = 5\\pi \\implies \\lambda = 0.4$ m. (b) Frequency: $\\omega=50\\pi \\implies 2\\pi f = 50\\pi \\implies f = 25$ Hz. (c) Amplitude: $A = 0.2$ m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A wave of frequency 500 Hz is travelling with a speed of 350 m/s. (a) What is the phase difference between two displacements at a certain point at times 1.0 ms apart? (b) what will be the smallest distance between two points which are 45° out of phase at an instant of time?",
+    "answer": "(a) Phase difference $\\Delta\\phi = \\omega \\Delta t = (2\\pi f) \\Delta t = 2\\pi(500)(1.0 \\times 10^{-3}) = \\pi$ radians. (b) Wavelength $\\lambda = v/f = 350/500 = 0.7$ m. Path difference for phase difference $\\Delta\\phi = 45° = \\pi/4$ is $\\Delta x = (\\lambda/2\\pi)\\Delta\\phi = (0.7/2\\pi)(\\pi/4) = 0.0875$ m or 8.75 cm.",
+    "marks": 4
   }
 ]
+ 

@@ -1,0 +1,134 @@
+[
+  {
+    "type": "mcq",
+    "text": "The equilibrium, $H_2O(l) \\rightleftharpoons H^+(aq) + OH^-(aq)$ is",
+    "options": [
+      "dynamic",
+      "static",
+      "physical",
+      "mechanical"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For the equilibrium, A $\\rightleftharpoons$ 2B + Heat, the number of 'A' molecules increases if",
+    "options": [
+      "volume is increased",
+      "temperature is increased",
+      "catalyst is added",
+      "concentration of B is decreased"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For the equilibrium $Cl_2(g) + 2NO(g) \\rightleftharpoons 2NOCl(g)$ the concentration of $NOCl$ will increase if the equilibrium is disturbed by",
+    "options": [
+      "adding $Cl_2$",
+      "removing NO",
+      "adding $NOCl$",
+      "all of the above"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The relation between $K_p$ and $K_c$ for the reaction $A(g) + B(g) \\rightleftharpoons 2C(g) + D(g)$ is",
+    "options": [
+      "$K_c = K_p (RT)^{1}$",
+      "$K_p = K_c$",
+      "$K_p = K_c(RT)^2$",
+      "$K_p = K_c(RT)^{1}$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When volume of the equilibrium reaction $C(g) + H_2O(g) \\rightleftharpoons CO(g) + H_2(g)$ is increased at constant temperature the equilibrium will",
+    "options": [
+      "shift from left to right",
+      "shift from right to left",
+      "be unaltered",
+      "can not be predicted"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "How does the change of pressure affect the value of equilibrium constant?",
+    "answer": "The value of the equilibrium constant ($K_c$ or $K_p$) is independent of pressure changes. The equilibrium constant's value only changes with a change in temperature. Changes in pressure only cause a shift in the equilibrium position to either the product or reactant side, but the ratio of products to reactants at the new equilibrium will still be the same.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate irreversible and reversible reaction.",
+    "answer": "An **irreversible reaction** proceeds in only one direction, from reactants to products, and the reaction goes to completion. A **reversible reaction** can proceed in both the forward and backward directions, and it reaches a state of equilibrium where the rates of the forward and backward reactions are equal.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write suitable conditions of concentration, temperature and pressure used during manufacture of ammonia by Haber process.",
+    "answer": "The Haber process is used to manufacture ammonia from nitrogen and hydrogen. The suitable conditions are: **Pressure** of 200-300 atm, **Temperature** of 400-500°C, and the use of a **catalyst** (like iron oxide with a promoter like $K_2O$ and $Al_2O_3$). The concentration of reactants is kept high.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Relate the terms reversible reactions and dynamic equilibrium.",
+    "answer": "A **reversible reaction** is a reaction that can proceed in both the forward and reverse directions. A **dynamic equilibrium** is a state achieved in a reversible reaction where the rate of the forward reaction is equal to the rate of the reverse reaction, and the concentrations of reactants and products remain constant. At dynamic equilibrium, the reaction does not stop; it continues in both directions at equal rates.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the effect of adding chloride on the position of the equilibrium? $AgCl(s) \\rightleftharpoons Ag^+(aq) + Cl^-(aq)$",
+    "answer": "Adding a chloride ion ($Cl^-$) to the equilibrium will shift the equilibrium to the left. This is due to the common ion effect, which is an application of Le Châtelier's principle. The added $Cl^-$ increases the concentration of a product, so the system shifts to the left to consume the excess $Cl^-$ and restore equilibrium, resulting in the precipitation of more AgCl(s).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "State Law of Mass action.",
+    "answer": "The **Law of Mass Action** states that at a constant temperature, the rate of a chemical reaction is directly proportional to the product of the molar concentrations of the reactants, each raised to a power equal to its stoichiometric coefficient in the balanced chemical equation. For a reaction $aA + bB \\rightarrow$ products, the rate is given by: Rate = $k[A]^a[B]^b$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write on expression for equilibrium constant with respect to concentration.",
+    "answer": "For a general reversible reaction: $aA + bB \\rightleftharpoons cC + dD$, the expression for the equilibrium constant with respect to concentration ($K_c$) is: **$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$**.<br>Where $[A]$, $[B]$, $[C]$, and $[D]$ are the molar concentrations of the reactants and products at equilibrium.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Derive mathematically value of $K_c$ for $A(g) + B(g) \\rightleftharpoons C(g) + D(g)$.",
+    "answer": "According to the Law of Mass Action, for the reaction $A(g) + B(g) \\rightleftharpoons C(g) + D(g)$:<br>- Rate of forward reaction: $r_f = k_f [A][B]$<br>- Rate of backward reaction: $r_b = k_b [C][D]$<br>At equilibrium, the rate of the forward reaction equals the rate of the backward reaction ($r_f = r_b$):<br>$k_f [A][B] = k_b [C][D]$<br>Rearranging the equation gives:<br>$\\frac{k_f}{k_b} = \\frac{[C][D]}{[A][B]}$<br>The ratio of the rate constants ($k_f/k_b$) is a new constant called the equilibrium constant ($K_c$). Therefore, **$K_c = \\frac{[C][D]}{[A][B]}$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write expressions of $K_c$ for following chemical reactions: a. $2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)$, b. $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$.",
+    "answer": "a. For the reaction $2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)$, the expression for $K_c$ is: **$K_c = \\frac{[SO_3]^2}{[SO_2]^2[O_2]}$**.<br>b. For the reaction $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$, the expression for $K_c$ is: **$K_c = \\frac{[NO_2]^2}{[N_2O_4]}$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Mention various applications of equilibrium constant.",
+    "answer": "1. **Predicting the direction of a reaction:** By comparing the reaction quotient (Q) with the equilibrium constant ($K_c$), one can determine if the reaction will proceed in the forward or backward direction to reach equilibrium. 2. **Predicting the extent of a reaction:** A large $K_c$ value indicates that the reaction proceeds almost to completion. A small $K_c$ value indicates that the reaction proceeds to a small extent. 3. **Calculating equilibrium concentrations:** The equilibrium constant can be used to calculate the concentrations of reactants and products at equilibrium.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "How does the change of pressure affect the value of equilibrium constant? (Duplicate question)",
+    "answer": "This question is a duplicate of a previous one. The value of the equilibrium constant is independent of pressure changes. It only changes with a change in temperature.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain: a. Dynamic nature of chemical equilibrium with suitable example, b. Relation between $K_p$ and $K_c$, c. State and explain Le Châtelier's principle with reference to 1. change in temperature, 2. change in concentration, d. Reversible reaction, e. Rate of reaction, f. What is the effect of adding chloride on the position of the equilibrium?",
+    "answer": "a. **Dynamic nature of chemical equilibrium:** At equilibrium, the concentrations of reactants and products remain constant, but the forward and reverse reactions are still occurring at equal and opposite rates. It is not a static state. **Example:** In the reaction $H_2(g) + I_2(g) \\rightleftharpoons 2HI(g)$, molecules of $H_2$ and $I_2$ are constantly reacting to form $HI$, while at the same time, $HI$ molecules are decomposing to form $H_2$ and $I_2$.<br>b. **Relation between $K_p$ and $K_c$:** The relationship between the equilibrium constant in terms of partial pressures ($K_p$) and concentrations ($K_c$) is given by the formula: **$K_p = K_c (RT)^{\\Delta n_g}$**, where R is the ideal gas constant, T is the absolute temperature, and $\\Delta n_g$ is the change in the number of moles of gaseous products and reactants ($n_p - n_r$).<br>c. **Le Châtelier's principle:** Le Châtelier's principle states that if a change of condition is applied to a system in equilibrium, the system will shift in a direction that relieves the stress. **1. Change in temperature:** If the temperature is increased, the equilibrium shifts in the direction of the endothermic reaction (heat is a reactant). If the temperature is decreased, the equilibrium shifts in the direction of the exothermic reaction (heat is a product). **2. Change in concentration:** If the concentration of a reactant is increased, the equilibrium shifts to the right to consume the added reactant. If the concentration of a product is increased, the equilibrium shifts to the left to consume the added product.<br>d. **Reversible reaction:** A reversible reaction is a chemical reaction in which the reactants form products, and the products can also react to form the original reactants. The reaction proceeds in both the forward and reverse directions.<br>e. **Rate of reaction:** The rate of a reaction is the change in the concentration of reactants or products over time. It measures how fast a reaction is proceeding.<br>f. **Effect of adding chloride:** This is a duplicate question. Adding a chloride ion ($Cl^-$) to the equilibrium $AgCl(s) \\rightleftharpoons Ag^+(aq) + Cl^-(aq)$ will cause the equilibrium to shift to the left, as per Le Châtelier's principle. This is to consume the added chloride ion and form more solid silver chloride, which precipitates out.",
+    "marks": 5
+  }
+]

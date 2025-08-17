@@ -1,0 +1,26 @@
+[
+  {
+    "type": "mcq",
+    "text": "The refractive index of a medium is the ratio of...",
+    "options": [
+      "speed of light in vacuum to the speed of light in the medium",
+      "speed of light in the medium to the speed of light in vacuum",
+      "wavelength of light in vacuum to the wavelength of light in the medium",
+      "both A and C"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Snell's law of refraction.",
+    "answer": "<strong>Snell's Law:</strong><br>Snell's law states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant, for the light of a given color and for the given pair of media. This constant is called the refractive index. Formula: $n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A ray of light is incident at an angle of $60^\\circ$ on a glass slab of refractive index 1.5. Calculate the angle of refraction.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Use Snell's Law: $n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$.<br>Step 2: Here, the light travels from air ($n_1=1$) to glass ($n_2=1.5$). The angle of incidence is $\\theta_1 = 60^\\circ$.<br>Step 3: Substitute the values: $(1) \\sin(60^\\circ) = (1.5) \\sin\\theta_2$.<br>Step 4: $\\frac{\\sqrt{3}}{2} = 1.5 \\sin\\theta_2 \\implies \\sin\\theta_2 = \\frac{\\sqrt{3}}{3} \\approx 0.577$.<br>Step 5: The angle of refraction is $\\theta_2 = \\sin^{-1}(0.577) \\approx 35.26^\\circ$.",
+    "marks": 3
+  }
+]

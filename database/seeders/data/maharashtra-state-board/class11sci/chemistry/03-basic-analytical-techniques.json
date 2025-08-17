@@ -1,0 +1,170 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following methods can be used to separate two compounds with different solubilities in the same solvent?",
+    "options": [
+      "Fractional crystallization",
+      "Crystallization",
+      "Distillation",
+      "Solvent extraction"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following techniques is used for seperation of glycerol from soap in soap industry?",
+    "options": [
+      "Distillation under reduced pressure",
+      "Fractional distillation",
+      "Filtration",
+      "Crystallization"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which technique is widely used in industry to seperate components of mixture and also to purify them ?",
+    "options": [
+      "Steam distillation",
+      "Chromatography",
+      "Solvent extraction",
+      "Filtration"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A mixture of acetone and benzene can be seperated by the following method :",
+    "options": [
+      "Simple distillation",
+      "Fractional distillation",
+      "Distillation under reduced pressure",
+      "Sublimation"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Colourless components on chromatogram can not be observed by the following :",
+    "options": [
+      "Using UV light",
+      "Using iodine chamber",
+      "Using the spraying reagent",
+      "Using infrared light"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What will happen if the upper outlet of the condenser is connected to the top instead of the lower outlet?",
+    "answer": "If the water inlet and outlet are reversed, the condenser will not fill completely with cooling water. The condenser will not be as efficient in cooling the vapor, and some of the vaporized liquid may escape without condensing, leading to a loss of product and inaccurate results.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give names of two materials used as stationary phase in chromatography.",
+    "answer": "Two common materials used as a stationary phase in chromatography are **silica gel** and **alumina**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which properties of solvents are useful for solvent extraction?",
+    "answer": "The properties of solvents that are useful for solvent extraction include: a high affinity for the solute, low miscibility with the other solvent, a low boiling point for easy removal, and a high density difference from the other solvent.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why should spotting of mixture be done above the level of mobile phase?",
+    "answer": "Spotting of the mixture must be done above the level of the mobile phase (solvent) to prevent the spot from dissolving directly into the solvent pool at the bottom. If the spot is below the solvent level, the components of the mixture will not be carried up the stationary phase by the capillary action of the solvent.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define : a. Stationary phase, b. Saturated solution",
+    "answer": "<strong>a. Stationary phase:</strong> The stationary phase in chromatography is the solid or liquid phase that remains fixed in place, through which the mobile phase and its components pass.<br><strong>b. Saturated solution:</strong> A saturated solution is a solution that contains the maximum amount of dissolved solute at a specific temperature. Any additional solute added will not dissolve and will instead remain as a solid.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between simple distillation and fractional distillation?",
+    "answer": "<strong>Simple distillation</strong> is used to separate a liquid from a non-volatile impurity or to separate two liquids with a large difference in their boiling points ($>25^\\circ C$). <strong>Fractional distillation</strong> is used to separate two or more volatile liquids with boiling points that are close to each other. It uses a fractionating column to increase the efficiency of the separation.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define : a. Solvent extraction, b. Distillation",
+    "answer": "<strong>a. Solvent extraction:</strong> A method used to separate a compound from a mixture based on its relative solubility in two different immiscible liquids. One liquid, the solvent, selectively dissolves the compound of interest from the other liquid.<br><strong>b. Distillation:</strong> A process that involves heating a liquid to its boiling point to create vapor, which is then cooled and condensed back into a liquid. It is used to separate components of a liquid mixture based on differences in their boiling points.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "List the properties of solvents which make them suitable for crystallization.",
+    "answer": "Properties of a good solvent for crystallization include: it should not react chemically with the compound, the compound should be highly soluble in the solvent at high temperatures but poorly soluble at low temperatures, and the solvent should have a low boiling point for easy removal.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Name the different types of Chromatography and explain the principles underlying them.",
+    "answer": "Some types of chromatography include paper chromatography, thin-layer chromatography (TLC), column chromatography, and gas chromatography. The underlying principle is that components of a mixture are separated based on their differential distribution between a stationary phase and a mobile phase. The rate at which components move is determined by their relative affinities for the stationary and mobile phases.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why do we see bands separating in column chromatography?",
+    "answer": "Bands separating in column chromatography are a result of the different affinities of the mixture's components for the stationary and mobile phases. Components with a higher affinity for the stationary phase move more slowly, while those with a higher affinity for the mobile phase move faster. This difference in migration rates causes the components to separate into distinct bands.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How do you visualize colourless compounds after separation in TLC and Paper Chromatography?",
+    "answer": "To visualize colourless compounds in TLC and paper chromatography, you can use: a) **UV light**, as many organic compounds fluoresce or absorb UV light. b) Placing the chromatogram in a closed container with **iodine vapor**, as iodine often stains the spots brown. c) Using a **spraying reagent**, such as ninhydrin for amino acids, which reacts with the compound to produce a colored spot.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Compare TLC and Paper Chromatography techniques.",
+    "answer": "<strong>Thin-Layer Chromatography (TLC):</strong> It uses a thin layer of an adsorbent (like silica gel) coated on a solid support (like glass). It is faster and more sensitive than paper chromatography. The separation is often more efficient. <strong>Paper Chromatography:</strong> It uses a strip of filter paper as the stationary phase. The separation is based on partition, where the components partition between the water molecules trapped in the paper and the mobile phase. TLC is generally preferred for its speed and higher resolving power.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Which of the following techniques is used for purification of solid organic compounds?",
+    "answer": "For the purification of solid organic compounds, the most common technique is **crystallization**. It involves dissolving the impure solid in a suitable hot solvent and then allowing the solution to cool slowly. As the solution cools, the solubility of the compound decreases, and it crystallizes out in a pure form, leaving the impurities behind in the solution.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What do you understand by the terms a. residue b. filtrate.",
+    "answer": "<strong>a. Residue:</strong> In filtration, the residue is the solid substance that remains on the filter paper or other filtering medium after the liquid has passed through it.<br><strong>b. Filtrate:</strong> The filtrate is the liquid that passes through the filter paper during the filtration process.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why is a condenser used in distillation process?",
+    "answer": "A condenser is a vital part of a distillation apparatus. Its purpose is to cool the hot vapor produced by boiling a liquid, causing the vapor to condense back into a liquid state. This allows for the collection of the purified liquid (the distillate) and prevents the vapor from escaping.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why is paper moistened before filtration?",
+    "answer": "In filtration, the filter paper is moistened with the same solvent as the mixture being filtered. This is done to ensure that the filter paper is properly seated in the funnel and that a proper seal is formed. It also helps prevent the initial particles of the mixture from passing through the pores of the paper before the filter cake is established.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is the stationary phase in Paper Chromatography?",
+    "answer": "In paper chromatography, the stationary phase is the **filter paper** itself. More specifically, it is the layer of water molecules that are adsorbed on the surface of the cellulose fibers of the paper.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Label the diagram and explain the process in your words.",
+    "answer": "The diagram shows a filtration setup. The components are labeled as follows: **1. Residue** (the solid remaining on the filter paper), **2. Filtrate** (the liquid that passes through the filter paper), and **3. Funnel** (holding the filter paper). The process involves pouring a mixture of a solid and a liquid through a piece of folded filter paper placed in a funnel. The filter paper acts as a barrier, allowing the liquid (filtrate) to pass through while retaining the solid (residue). This separates an insoluble solid from a liquid.",
+    "marks": 3
+  }
+]

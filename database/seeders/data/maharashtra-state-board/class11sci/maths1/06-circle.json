@@ -1,0 +1,32 @@
+[
+  {
+    "type": "mcq",
+    "text": "The equation of a circle with centre at origin and radius 4 is:",
+    "options": [
+      "$x^2+y^2=4$",
+      "$x^2+y^2=16$",
+      "$x^2-y^2=16$",
+      "$x^2+y^2=2$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the equation of the circle with centre at (-2, 3) and radius 4.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The standard equation of a circle is $(x-h)^2 + (y-k)^2 = r^2$, where (h, k) is the centre and r is the radius.<br>Step 2: Given centre $(h, k) = (-2, 3)$ and radius $r=4$.<br>Step 3: Substitute the values: $(x - (-2))^2 + (y - 3)^2 = 4^2$.<br>Step 4: Simplify the equation: $(x+2)^2 + (y-3)^2 = 16$.<br>Step 5: Expand the squares: $(x^2+4x+4) + (y^2-6y+9) = 16$.<br><strong>Final Answer:</strong> $x^2+y^2+4x-6y-3=0$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the centre and radius of the circle $x^2+y^2-6x-8y-24=0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Compare the given equation with the general form $x^2+y^2+2gx+2fy+c=0$.<br>Step 2: We get $2g=-6 \\implies g=-3$, and $2f=-8 \\implies f=-4$, and $c=-24$.<br>Step 3: The centre of the circle is $(-g, -f) = (3, 4)$.<br>Step 4: The radius is $r = \\sqrt{g^2+f^2-c} = \\sqrt{(-3)^2+(-4)^2-(-24)}$.<br>Step 5: Simplify: $r = \\sqrt{9+16+24} = \\sqrt{49} = 7$.<br><strong>Final Answer:</strong> The centre is (3, 4) and the radius is 7.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the equation of the circle passing through the points (5, 7), (6, 6), and (2, -2).",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the equation of the circle be $x^2+y^2+2gx+2fy+c=0$.<br>Step 2: Since the points lie on the circle, they must satisfy the equation.<br>(i) For (5,7): $25+49+10g+14f+c=0 \\implies 10g+14f+c = -74$.<br>(ii) For (6,6): $36+36+12g+12f+c=0 \\implies 12g+12f+c = -72$.<br>(iii) For (2,-2): $4+4+4g-4f+c=0 \\implies 4g-4f+c = -8$.<br>Step 3: Solve these three linear equations for g, f, and c. Subtracting (iii) from (ii) gives $8g+16f = -64 \\implies g+2f=-8$.<br>Step 4: Subtracting (iii) from (i) gives $6g+18f = -66 \\implies g+3f=-11$.<br>Step 5: Solving these two new equations gives $f=-3$ and $g=-2$.<br>Step 6: Substitute g and f into (iii) to find c: $4(-2)-4(-3)+c=-8 \\implies -8+12+c=-8 \\implies c=-12$.<br><strong>Final Answer:</strong> The equation is $x^2+y^2-4x-6y-12=0$.",
+    "marks": 4
+  }
+]

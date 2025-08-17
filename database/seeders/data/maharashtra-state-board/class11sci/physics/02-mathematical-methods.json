@@ -1,0 +1,134 @@
+[
+  {
+    "type": "mcq",
+    "text": "The resultant of two forces 10 N and 15 N acting along +x and -x-axes respectively, is",
+    "options": [
+      "25 N along +x-axis",
+      "25 N along -x-axis",
+      "5 N along +x-axis",
+      "5 N along -x-axis"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For two vectors to be equal, they should have the",
+    "options": [
+      "some magnitude",
+      "some direction",
+      "some magnitude and direction",
+      "some magnitude but opposite direction"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnitude of scalar product of two unit vectors perpendicular to each other is",
+    "options": [
+      "zero",
+      "1",
+      "-1",
+      "2"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnitude of vector product of two unit vectors making an angle of 60° with each other is",
+    "options": [
+      "1",
+      "2",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{\\sqrt{3}}{3}$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $\\vec{A}$, $\\vec{B}$ and $\\vec{C}$ are three vectors, then which of the following is not correct?",
+    "options": [
+      "$\\vec{A}\\cdot(\\vec{B}+\\vec{C})=\\vec{A}\\cdot\\vec{B}+\\vec{A}\\cdot\\vec{C}$",
+      "$\\vec{A}\\cdot\\vec{B} = \\vec{B}\\cdot\\vec{A}$",
+      "$\\vec{A}\\times(\\vec{B}\\times\\vec{C}) = (\\vec{A}\\times\\vec{B})\\times\\vec{C}$",
+      "$\\vec{A}\\times(\\vec{B}+\\vec{C})=\\vec{A}\\times\\vec{B}+\\vec{A}\\times\\vec{C}$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Find a vector which is parallel to $\\vec{v}=\\vec{i}-2\\vec{j}$ and has a magnitude 10.",
+    "answer": "First, find the unit vector in the direction of $\\vec{v}$: $\\hat{v} = \\frac{\\vec{v}}{|\\vec{v}|}$.<br>$|\\vec{v}| = \\sqrt{1^2+(-2)^2} = \\sqrt{1+4} = \\sqrt{5}$.<br>$\\hat{v} = \\frac{\\vec{i}-2\\vec{j}}{\\sqrt{5}}$.<br>The required vector with magnitude 10 is $10\\hat{v} = 10\\left(\\frac{\\vec{i}-2\\vec{j}}{\\sqrt{5}}\\right) = \\frac{10}{\\sqrt{5}}\\vec{i} - \\frac{20}{\\sqrt{5}}\\vec{j}$.<br>The vector is **$\\frac{10}{\\sqrt{5}}\\vec{i} - \\frac{20}{\\sqrt{5}}\\vec{j}$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Show that vectors $\\vec{a}=2\\vec{i}+5\\vec{j}-6\\vec{k}$ and $\\vec{b}=\\vec{i}+\\frac{5}{2}\\vec{j}-3\\vec{k}$ are parallel.",
+    "answer": "Two vectors $\\vec{a}$ and $\\vec{b}$ are parallel if one is a scalar multiple of the other, i.e., $\\vec{a} = k\\vec{b}$.<br>Here, $\\vec{a}=2\\vec{i}+5\\vec{j}-6\\vec{k}$ and $\\vec{b}=\\vec{i}+\\frac{5}{2}\\vec{j}-3\\vec{k}$.<br>We can see that if we multiply $\\vec{b}$ by 2, we get: $2\\vec{b} = 2(\\vec{i}+\\frac{5}{2}\\vec{j}-3\\vec{k}) = 2\\vec{i} + 5\\vec{j} - 6\\vec{k}$.<br>This is equal to $\\vec{a}$. So, $\\vec{a} = 2\\vec{b}$. Since $\\vec{a}$ is a scalar multiple of $\\vec{b}$, the two vectors are **parallel**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Show that $|\\vec{i}-\\vec{j}| / \\sqrt{2}$ is a unit vector.",
+    "answer": "A unit vector has a magnitude of 1. First, find the magnitude of the vector $\\vec{i}-\\vec{j}$: $|\\vec{i}-\\vec{j}| = \\sqrt{1^2 + (-1)^2} = \\sqrt{2}$.<br>Now, we need to find the magnitude of the given vector: $|\\frac{\\vec{i}-\\vec{j}}{\\sqrt{2}}| = \\frac{|\\vec{i}-\\vec{j}|}{\\sqrt{2}} = \\frac{\\sqrt{2}}{\\sqrt{2}} = 1$.<br>Since the magnitude of the vector is 1, it is a **unit vector**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "If $\\vec{v}_1 = 3\\vec{i}+4\\vec{j}+\\vec{k}$ and $\\vec{v}_2 = \\vec{i}-\\vec{j}-\\vec{k}$, determine the magnitude of $\\vec{v}_1+\\vec{v}_2$.",
+    "answer": "First, find the sum of the two vectors: $\\vec{v}_1 + \\vec{v}_2 = (3+1)\\vec{i} + (4-1)\\vec{j} + (1-1)\\vec{k} = 4\\vec{i} + 3\\vec{j} + 0\\vec{k}$.<br>Now, find the magnitude of the resultant vector: $|\\vec{v}_1 + \\vec{v}_2| = \\sqrt{4^2 + 3^2 + 0^2} = \\sqrt{16+9} = \\sqrt{25} = 5$.<br>The magnitude is **5**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "For $\\vec{v}_1 = 2\\vec{i}-3\\vec{j}$ and $\\vec{v}_2 = -6\\vec{i}+5\\vec{j}$, determine the magnitude and direction of $\\vec{v}_1+\\vec{v}_2$.",
+    "answer": "First, find the sum of the two vectors: $\\vec{v}_1 + \\vec{v}_2 = (2-6)\\vec{i} + (-3+5)\\vec{j} = -4\\vec{i} + 2\\vec{j}$.<br>Now, find the magnitude of the resultant vector: $|\\vec{v}_1 + \\vec{v}_2| = \\sqrt{(-4)^2 + 2^2} = \\sqrt{16+4} = \\sqrt{20} = 2\\sqrt{5}$.<br>To find the direction, we can use the angle $\\theta$ with the positive x-axis: $\\tan\\theta = \\frac{y}{x} = \\frac{2}{-4} = -\\frac{1}{2}$.<br>The vector is in the second quadrant. The magnitude is **$2\\sqrt{5}$**, and the direction is **$\\tan\\theta = -\\frac{1}{2}$ with the x-axis**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Determine $\\vec{a}\\times\\vec{b}$, given $\\vec{a}=2\\vec{i}+3\\vec{j}$ and $\\vec{b}=3\\vec{i}+5\\vec{j}$.",
+    "answer": "The cross product of two vectors in a 2D plane can be calculated using a determinant:<br>$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ 2 & 3 & 0 \\\\ 3 & 5 & 0 \\end{vmatrix} = \\vec{i}(3 \\cdot 0 - 0 \\cdot 5) - \\vec{j}(2 \\cdot 0 - 0 \\cdot 3) + \\vec{k}(2 \\cdot 5 - 3 \\cdot 3) = 0\\vec{i} - 0\\vec{j} + (10-9)\\vec{k} = \\vec{k}$.<br>The cross product is **$\\vec{k}$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Show that vectors $\\vec{a}=2\\vec{i}+3\\vec{j}+6\\vec{k}$, $\\vec{b}=3\\vec{i}-6\\vec{j}+2\\vec{k}$ and $\\vec{c}=6\\vec{i}+2\\vec{j}-3\\vec{k}$ are mutually perpendicular.",
+    "answer": "Two vectors are perpendicular if their dot product is zero.<br>1. **$\\vec{a} \\cdot \\vec{b}$:** $(2)(3) + (3)(-6) + (6)(2) = 6 - 18 + 12 = 0$. So $\\vec{a}$ and $\\vec{b}$ are perpendicular.<br>2. **$\\vec{b} \\cdot \\vec{c}$:** $(3)(6) + (-6)(2) + (2)(-3) = 18 - 12 - 6 = 0$. So $\\vec{b}$ and $\\vec{c}$ are perpendicular.<br>3. **$\\vec{a} \\cdot \\vec{c}$:** $(2)(6) + (3)(2) + (6)(-3) = 12 + 6 - 18 = 0$. So $\\vec{a}$ and $\\vec{c}$ are perpendicular.<br>Since the dot product of every pair of vectors is zero, they are **mutually perpendicular**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Determine the vector product of $\\vec{v}_1=2\\vec{i}+3\\vec{j}-\\vec{k}$ and $\\vec{v}_2=2\\vec{i}+2\\vec{j}-3\\vec{k}$.",
+    "answer": "The vector product (cross product) is calculated using a determinant:<br>$\\vec{v}_1 \\times \\vec{v}_2 = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ 2 & 3 & -1 \\\\ 2 & 2 & -3 \\end{vmatrix} = \\vec{i}((3)(-3) - (-1)(2)) - \\vec{j}((2)(-3) - (-1)(2)) + \\vec{k}((2)(2) - (3)(2)) = \\vec{i}(-9+2) - \\vec{j}(-6+2) + \\vec{k}(4-6) = -7\\vec{i} - (-4)\\vec{j} - 2\\vec{k} = -7\\vec{i} + 4\\vec{j} - 2\\vec{k}$.<br>The vector product is **$-7\\vec{i} + 4\\vec{j} - 2\\vec{k}$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Given $\\vec{v}_1=5\\vec{i}+2\\vec{j}+a\\vec{k}$ and $\\vec{v}_2=\\vec{i}-a\\vec{j}-6\\vec{k}$ are perpendicular to each other, determine the value of a.",
+    "answer": "For two vectors to be perpendicular, their dot product must be zero: $\\vec{v}_1 \\cdot \\vec{v}_2 = 0$.<br>$\\vec{v}_1 \\cdot \\vec{v}_2 = (5)(1) + (2)(-a) + (a)(-6) = 0$.<br>$5 - 2a - 6a = 0$.<br>$5 - 8a = 0$.<br>$8a = 5$.<br>$a = \\frac{5}{8}$. The value of a is **$\\frac{5}{8}$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Obtain derivatives of the following functions: i. $x \\sin x$, ii. $x^4+\\cos x$, iii. $x/\\sin x$.",
+    "answer": "i. To find the derivative of $x \\sin x$, we use the product rule: $(uv)' = u'v + uv'$. Here, u = x and v = sin(x).<br>$\\frac{d}{dx}(x \\sin x) = (1)(\\sin x) + (x)(\\cos x) = \\sin x + x \\cos x$.<br>ii. To find the derivative of $x^4 + \\cos x$, we use the sum rule and power rule:<br>$\\frac{d}{dx}(x^4 + \\cos x) = 4x^3 - \\sin x$.<br>iii. To find the derivative of $\\frac{x}{\\sin x}$, we use the quotient rule: $(\\frac{u}{v})' = \\frac{u'v - uv'}{v^2}$. Here, u = x and v = sin(x).<br>$\\frac{d}{dx}(\\frac{x}{\\sin x}) = \\frac{(1)(\\sin x) - (x)(\\cos x)}{(\\sin x)^2} = \\frac{\\sin x - x \\cos x}{\\sin^2 x}$.<br>The derivatives are: i. **$\\sin x + x \\cos x$**, ii. **$4x^3 - \\sin x$**, iii. **$\\frac{\\sin x - x \\cos x}{\\sin^2 x}$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Using the rule for differentiation for quotient of two functions, prove that $\\frac{d}{dx}(\\frac{\\sin x}{\\cos x}) = \\sec^2 x$.",
+    "answer": "We use the quotient rule: $(\\frac{u}{v})' = \\frac{u'v - uv'}{v^2}$. Here, u = sin(x) and v = cos(x).<br>$u' = \\cos x$ and $v' = -\\sin x$.<br>$\\frac{d}{dx}(\\frac{\\sin x}{\\cos x}) = \\frac{(\\cos x)(\\cos x) - (\\sin x)(-\\sin x)}{(\\cos x)^2} = \\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x}$.<br>Using the identity $\\sin^2 x + \\cos^2 x = 1$, we get: $\\frac{1}{\\cos^2 x}$.<br>Since $\\frac{1}{\\cos x} = \\sec x$, we have $\\frac{1}{\\cos^2 x} = \\sec^2 x$.<br>Therefore, **$\\frac{d}{dx}(\\frac{\\sin x}{\\cos x}) = \\sec^2 x$** is proven.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Evaluate the following integral: i. $\\int_0^{\\pi/2} \\sin x \\,dx$, ii. $\\int x^4 \\,dx$.",
+    "answer": "i. To evaluate $\\int_0^{\\pi/2} \\sin x \\,dx$: The integral of sin(x) is -cos(x).<br>$\\int_0^{\\pi/2} \\sin x \\,dx = [-\\cos x]_0^{\\pi/2} = (-\\cos(\\pi/2)) - (-\\cos(0)) = (0) - (-1) = 1$.<br>ii. To evaluate $\\int x^4 \\,dx$: We use the power rule for integration, $\\int x^n \\,dx = \\frac{x^{n+1}}{n+1} + C$.<br>$\\int x^4 \\,dx = \\frac{x^{4+1}}{4+1} + C = \\frac{x^5}{5} + C$.<br>The evaluated integrals are: i. **1**, ii. **$\\frac{x^5}{5} + C$**.",
+    "marks": 2
+  }
+]

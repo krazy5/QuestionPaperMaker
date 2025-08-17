@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mcq",
+    "text": "According to Newton's first law of motion, an object continues in its state of rest or of uniform motion unless acted upon by a...",
+    "options": [
+      "net internal force",
+      "net external force",
+      "frictional force",
+      "gravitational force"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Newton's second law of motion.",
+    "answer": "<strong>Newton's Second Law:</strong><br>The rate of change of linear momentum of a body is directly proportional to the applied external force and takes place in the direction of the force. Mathematically, $\\vec{F} = \\frac{d\\vec{p}}{dt} = m\\vec{a}$.",
+    "marks": 2
+  }
+]

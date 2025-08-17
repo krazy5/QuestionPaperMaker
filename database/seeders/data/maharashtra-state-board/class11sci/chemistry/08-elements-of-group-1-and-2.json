@@ -1,0 +1,80 @@
+[
+  {
+    "type": "mcq",
+    "text": "The unstable isotope of hydrogen is ......?",
+    "options": [
+      "H-1",
+      "H-2",
+      "H-3",
+      "H-4"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Identify the odd one.",
+    "options": [
+      "Rb",
+      "Ra",
+      "Sr",
+      "Be"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is Lewis acid?",
+    "options": [
+      "$BaCl_2$",
+      "KCl",
+      "$BeCl_2$",
+      "LiCl"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What happens when crystalline $Na_2CO_3$ is heated?",
+    "options": [
+      "releases $CO_2$",
+      "loses $H_2O$",
+      "decomposes into $NaHCO_3$",
+      "colour changes"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Name the following: a. Alkali metal with smallest atom, b. The most abundant element in the universe, c. Radioactive alkali metal, d. Ions having high concentration in cell sap, e. A compound having hydrogen, aluminium and lithium as its constituent elements.",
+    "answer": "a. **Lithium (Li)** has the smallest atom among the alkali metals.<br>b. The most abundant element in the universe is **Hydrogen (H)**.<br>c. The radioactive alkali metal is **Francium (Fr)**.<br>d. The ions having high concentration in cell sap are **$K^+$ (potassium ions)**.<br>e. A compound having hydrogen, aluminium and lithium as its constituent elements is **lithium aluminium hydride ($LiAlH_4$)**.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Name the isotopes of hydrogen. Write their atomic composition schematically and explain which of these is radioactive?",
+    "answer": "The three isotopes of hydrogen are: **Protium** ($^1_1H$), **Deuterium** ($^2_1H$ or D), and **Tritium** ($^3_1H$ or T).<br>Schematic atomic composition:<br>- **Protium:** 1 proton, 0 neutrons, 1 electron.<br>- **Deuterium:** 1 proton, 1 neutron, 1 electron.<br>- **Tritium:** 1 proton, 2 neutrons, 1 electron.<br>Among these, **Tritium is radioactive** because it has a large neutron-to-proton ratio, making its nucleus unstable. It decays by emitting a beta particle.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the following: a. Hydrogen shows similarity with alkali metals as well as halogens, b. Standard reduction potential of alkali metals have high negative values, c. Alkaline earth metals have low values of electronegativity; which decrease down the group, d. Sodium dissolves in liquid ammonia to form a solution which shows electrical conductivity, e. $BeCl_2$ is covalent while $MgCl_2$ is ionic, f. Lithium floats on water while sodium floats and catches fire when put in water.",
+    "answer": "a. **Similarity of Hydrogen:** Hydrogen has one valence electron like alkali metals and readily loses it to form a positive ion ($H^+$). It can also gain one electron to achieve a noble gas configuration, similar to halogens, forming a hydride ion ($H^-$).<br>b. **Standard reduction potential:** The standard reduction potential of alkali metals have high negative values because they have a very high tendency to get oxidized (lose an electron) and a very low tendency to get reduced (gain an electron).<br>c. **Electronegativity of Alkaline Earth Metals:** These metals have low electronegativity, which decreases down the group. This is because as the atomic size increases down the group, the valence electrons are farther from the nucleus and are less attracted, leading to a lower ability to attract electrons in a bond.<br>d. **Sodium in liquid ammonia:** Sodium dissolves in liquid ammonia to form a deep blue solution. The sodium atom loses its valence electron, which becomes solvated by ammonia molecules. The positive sodium ion also becomes solvated. The solvated electrons are free to move and give the solution its electrical conductivity.<br>e. **Covalent vs. Ionic bonds:** According to Fajan's rules, smaller cations and larger anions favour covalent bonding. $Be^{2+}$ is much smaller than $Mg^{2+}$, and thus has a higher polarizing power. This enables it to polarize the electron cloud of the chloride ion more effectively, resulting in significant covalent character in $BeCl_2$. $Mg^{2+}$ is larger, so its polarizing power is weaker, making $MgCl_2$ predominantly ionic.<br>f. **Lithium vs. Sodium reaction with water:** Both lithium and sodium react with water, but lithium's reaction is less vigorous. Lithium is less dense than water and stays on the surface. Its reaction produces hydrogen gas and enough heat to melt the lithium but not to ignite the hydrogen gas. Sodium's reaction is more exothermic, generating enough heat to ignite the hydrogen gas it produces, causing it to burn with a yellow flame.",
+    "marks": 6
+  },
+  {
+    "type": "long",
+    "text": "Write balanced chemical equations for the following: a. $CO_2$ is passed into concentrated solution of NaCl, which is saturated with $NH_3$, b. A 50% solution of sulphuric acid is subjected to electrolyte oxidation and the product is hydrolysed, c. Magnesium is heated in air, d. Beryllium oxide is treated separately with aqueous HCl and aqueous NaOH solutions.",
+    "answer": "a. The reaction is for the Solvay process: **$NaCl + NH_3 + H_2O + CO_2 \\rightarrow NaHCO_3 + NH_4Cl$**.<br>b. Electrolytic oxidation of 50% $H_2SO_4$ produces peroxodisulfuric acid ($H_2S_2O_8$), which on hydrolysis gives $H_2SO_4$ and $H_2O_2$: **$2H_2SO_4 \\xrightarrow{\\text{Electrolysis}} H_2S_2O_8 + H_2$** and **$H_2S_2O_8 + 2H_2O \\rightarrow 2H_2SO_4 + H_2O_2$**.<br>c. Magnesium reacts with both nitrogen and oxygen in the air: **$2Mg + O_2 \\rightarrow 2MgO$** and **$3Mg + N_2 \\rightarrow Mg_3N_2$**.<br>d. Beryllium oxide (an amphoteric oxide) reacts with both acid and base:<br>With HCl: **$BeO + 2HCl \\rightarrow BeCl_2 + H_2O$**.<br>With NaOH: **$BeO + 2NaOH + H_2O \\rightarrow Na_2[Be(OH)_4]$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Answer the following questions: a. Describe the diagonal relationship between Li and Mg with the help of two illustrative properties, b. Describe the industrial production of dihydrogen from steam. Also write the chemical reaction involved, c. A water sample, which did not give lather with soap, was found to contain $Ca(HCO_3)_2$ and $Mg(HCO_3)_2$. Which chemical will make this water give lather with soap? Explain with the help of chemical reactions, d. Name the isotopes of hydrogen. Write their atomic composition schematically and explain which of these is radioactive?",
+    "answer": "a. **Diagonal Relationship:** The diagonal relationship is a similarity in properties between elements that are diagonally opposite each other in the periodic table. Lithium (Li) and Magnesium (Mg) show this relationship. **Illustrative properties:** Both form nitrides when heated in air ($6Li + N_2 \\rightarrow 2Li_3N$ and $3Mg + N_2 \\rightarrow Mg_3N_2$). Both have a similar tendency to form complex compounds, and their carbonates are unstable to heat.<br>b. **Industrial Production of Dihydrogen:** Dihydrogen is produced industrially by the **steam-reforming of hydrocarbons**. In this process, steam is reacted with hydrocarbons (like methane) at high temperatures ($800-900 ^\\circ C$) in the presence of a nickel catalyst. The chemical reaction is: **$CH_4(g) + H_2O(g) \\xrightarrow{\\text{Ni catalyst}} CO(g) + 3H_2(g)$**. This is followed by the water-gas shift reaction to produce more hydrogen: **$CO(g) + H_2O(g) \\xrightarrow{FeCrO_4 catalyst} CO_2(g) + H_2(g)$**.<br>c. **Water Hardness:** The water sample is temporarily hard due to the presence of calcium and magnesium bicarbonates. This hardness can be removed by adding a chemical like **slaked lime ($Ca(OH)_2$)**, which precipitates the bicarbonates as insoluble carbonates. **Reactions:** **$Ca(HCO_3)_2 + Ca(OH)_2 \\rightarrow 2CaCO_3\\downarrow + 2H_2O$** and **$Mg(HCO_3)_2 + 2Ca(OH)_2 \\rightarrow Mg(OH)_2\\downarrow + 2CaCO_3\\downarrow + 2H_2O$**.<br>d. The isotopes of hydrogen are Protium ($^1_1H$), Deuterium ($^2_1H$), and Tritium ($^3_1H$). **Protium** has 1 proton, 0 neutrons, and 1 electron. **Deuterium** has 1 proton, 1 neutron, and 1 electron. **Tritium** has 1 proton, 2 neutrons, and 1 electron. **Tritium is radioactive** because of its unstable nucleus with a high neutron-to-proton ratio.",
+    "marks": 5
+  }
+]

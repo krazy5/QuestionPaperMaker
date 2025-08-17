@@ -1,0 +1,28 @@
+[
+  {
+    "type": "mcq",
+    "text": "The tissue that forms the lining of blood vessels is...",
+    "options": ["Epithelial tissue", "Connective tissue", "Muscle tissue", "Nervous tissue"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a type of connective tissue?",
+    "options": ["Nerve cells", "Muscle fibers", "Skin", "Blood"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the function of adipose tissue?",
+    "answer": "<strong>Function of Adipose Tissue:</strong><br>Adipose tissue is a type of loose connective tissue that primarily stores energy in the form of fat (lipids). It also serves to insulate the body against heat loss and provides cushioning for vital organs.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between Striated, Unstriated, and Cardiac muscles.",
+    "answer": "<strong>Difference between Muscle Types:</strong><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr style='background-color: #f2f2f2;'><th style='padding: 8px;'>Feature</th><th style='padding: 8px;'>Striated Muscle</th><th style='padding: 8px;'>Unstriated Muscle</th><th style='padding: 8px;'>Cardiac Muscle</th></tr></thead><tbody><tr><td style='padding: 8px;'><strong>Location</strong></td><td style='padding: 8px;'>Attached to bones (skeletal muscles).</td><td style='padding: 8px;'>Walls of internal organs like stomach, intestine.</td><td style='padding: 8px;'>Wall of the heart.</td></tr><tr><td style='padding: 8px;'><strong>Appearance</strong></td><td style='padding: 8px;'>Striped (striated) appearance.</td><td style='padding: 8px;'>Smooth (non-striated) appearance.</td><td style='padding: 8px;'>Faintly striated.</td></tr><tr><td style='padding: 8px;'><strong>Control</strong></td><td style='padding: 8px;'>Voluntary (under conscious control).</td><td style='padding: 8px;'>Involuntary (not under conscious control).</td><td style='padding: 8px;'>Involuntary.</td></tr><tr><td style='padding: 8px;'><strong>Shape of Cells</strong></td><td style='padding: 8px;'>Long, cylindrical, unbranched.</td><td style='padding: 8px;'>Spindle-shaped.</td><td style='padding: 8px;'>Cylindrical, branched.</td></tr></tbody></table>",
+    "marks": 5
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "type": "mcq",
+    "text": "The raw materials for photosynthesis are...",
+    "options": ["Carbon dioxide and oxygen", "Water and oxygen", "Carbon dioxide and water", "Glucose and oxygen"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which pigment is essential for photosynthesis?",
+    "options": ["Xanthophyll", "Carotene", "Chlorophyll", "Anthocyanin"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the overall balanced equation for photosynthesis.",
+    "answer": "<strong>Overall Equation for Photosynthesis:</strong><br>$6CO_2 + 12H_2O \\xrightarrow[\\text{Chlorophyll}]{\\text{Sunlight}} C_6H_{12}O_6 + 6H_2O + 6O_2\\uparrow$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between Light Reaction and Dark Reaction of photosynthesis.",
+    "answer": "<strong>Difference between Light and Dark Reactions:</strong><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr style='background-color: #f2f2f2;'><th style='padding: 8px;'>Feature</th><th style='padding: 8px;'>Light Reaction (Photochemical Phase)</th><th style='padding: 8px;'>Dark Reaction (Biosynthetic Phase)</th></tr></thead><tbody><tr><td style='padding: 8px;'><strong>Location</strong></td><td style='padding: 8px;'>Grana of the chloroplasts.</td><td style='padding: 8px;'>Stroma of the chloroplasts.</td></tr><tr><td style='padding: 8px;'><strong>Requirement of Light</strong></td><td style='padding: 8px;'>Directly dependent on light.</td><td style='padding: 8px;'>Not directly dependent on light, but depends on the products of the light reaction.</td></tr><tr><td style='padding: 8px;'><strong>Main Process</strong></td><td style='padding: 8px;'>Photolysis of water, formation of ATP and NADPH (assimilatory power).</td><td style='padding: 8px;'>Fixation and reduction of CO2 into glucose using ATP and NADPH.</td></tr><tr><td style='padding: 8px;'><strong>Products</strong></td><td style='padding: 8px;'>ATP, NADPH, and Oxygen.</td><td style='padding: 8px;'>Glucose (food), ADP, NADP+.</td></tr></tbody></table>",
+    "marks": 4
+  }
+]

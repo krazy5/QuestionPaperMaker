@@ -1,0 +1,38 @@
+[
+  {
+    "type": "mcq",
+    "text": "The 20th term of the A.P. 2, 7, 12, 17, ... is:",
+    "options": [
+      "97",
+      "92",
+      "87",
+      "82"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sum of the first 'n' natural numbers is:",
+    "options": [
+      "n(n+1)",
+      "n(n+1)/2",
+      "n(n-1)/2",
+      "n^2"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the fourth term of a G.P. if its first term is 2 and common ratio is 3.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The formula for the nth term of a G.P. is $t_n = ar^{n-1}$.<br>Step 2: Given first term $a=2$ and common ratio $r=3$. We need to find the 4th term, so $n=4$.<br>Step 3: $t_4 = 2 \\times 3^{4-1} = 2 \\times 3^3 = 2 \\times 27 = 54$.<br><strong>Final Answer:</strong> The fourth term is 54.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "For a G.P., if $a = 7, r = 1/3$, find $S_n$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The sum of the first n terms of a G.P. is given by $S_n = a\\frac{(1-r^n)}{1-r}$ when $|r|<1$.<br>Step 2: Given $a=7$ and $r=1/3$.<br>Step 3: Substitute the values into the formula:<br>$S_n = 7 \\frac{(1 - (1/3)^n)}{1 - 1/3}$.<br>Step 4: Simplify the denominator: $1 - 1/3 = 2/3$.<br>Step 5: $S_n = 7 \\frac{(1 - (1/3)^n)}{2/3} = \\frac{21}{2}(1 - \\frac{1}{3^n})$.<br><strong>Final Answer:</strong> $S_n = \\frac{21}{2}(1 - \\frac{1}{3^n})$.",
+    "marks": 3
+  }
+]

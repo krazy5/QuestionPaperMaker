@@ -1,0 +1,238 @@
+[
+  {
+    "type": "mcq",
+    "text": "Oxidation numbers of Cl atoms marked as $Cl^a$ and $Cl^b$ in $CaOCl_2$ (bleaching powder) are",
+    "options": [
+      "zero in each",
+      "-1 in $Cl^a$ and +1 in $Cl^b$",
+      "+1 in $Cl^a$ and -1 in $Cl^b$",
+      "-1 in each"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not an example of redox reaction?",
+    "options": [
+      "$CuO + H_2 \\rightarrow Cu + H_2O$",
+      "$Fe_2O_3 + 3CO \\rightarrow 2Fe + 3CO_2$",
+      "$2K + F_2 \\rightarrow 2KF$",
+      "$BaCl_2 + H_2SO_4 \\rightarrow BaSO_4 + 2HCl$"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A compound contains atoms of three elements A, B and C. If the oxidation state of A is +2, B is +5 and that of C is -2, the compound is possibly represented by",
+    "options": [
+      "$A_2(BC_3)_2$",
+      "$A_3(BC_4)_2$",
+      "$A_3(B_2C)_2$",
+      "$ABC_2$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The coefficients p, q, r, s in the reaction p $Cr_2O_7^{2-} + q Fe^{2+} \\rightarrow r Cr^{3+} + s Fe^{3+} + H_2O$ respectively are:",
+    "options": [
+      "1, 2, 6, 6",
+      "6, 1, 2, 4",
+      "1, 6, 2, 6",
+      "1, 2, 4, 6"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For the following redox reactions, find the correct statement: $Sn^{2+} + 2Fe^{3+} \\rightarrow Sn^{4+} + 2Fe^{2+}$",
+    "options": [
+      "$Sn^{2+}$ is undergoing oxidation",
+      "$Fe^{3+}$ is undergoing oxidation",
+      "It is not a redox reaction",
+      "Both $Sn^{2+}$ and $Fe^{3+}$ are oxidised"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Oxidation number of carbon in $H_2CO_3$ is",
+    "options": [
+      "+1",
+      "+2",
+      "+3",
+      "+4"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which is the correct stock notation for magenese dioxide?",
+    "options": [
+      "$Mn(I)O_2$",
+      "$Mn(II)O_2$",
+      "$Mn(III)O_2$",
+      "$Mn(IV)O_2$"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Oxidation number of oxygen in superoxide is",
+    "options": [
+      "-2",
+      "-1",
+      "-$\\frac{1}{2}$",
+      "0"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following halogens does always show oxidation state -1 ?",
+    "options": [
+      "F",
+      "Cl",
+      "Br",
+      "I"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process $SO_2 \\rightarrow S_2Cl_2$ is",
+    "options": [
+      "Reduction",
+      "Oxidation",
+      "Neither oxidation nor reduction",
+      "Oxidation and reduction"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following redox couple is stronger oxidizing agent?",
+    "options": [
+      "$Cl_2$ ($E^o = 1.36$ V) and $Br_2$ ($E^o = 1.09$ V)",
+      "$MnO_4^-$ ($E^o = 1.51$ V) and $Cr_2O_7^{2-}$ ($E^o = 1.33$ V)"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following redox couple is stronger reducing agent?",
+    "options": [
+      "Li ($E^o = -3.05$ V) and Mg ($E^o = -2.36$ V)",
+      "Zn ($E^o = -0.76$ V) and Fe ($E^o = -0.44$ V)"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the formula for the following compounds: A. Mercury(II) chloride, B. Thallium(I) sulphate, C. Tin(IV) oxide, D. Chromium(III) oxide.",
+    "answer": "A. Mercury(II) chloride: **$HgCl_2$**<br>B. Thallium(I) sulphate: **$Tl_2SO_4$**<br>C. Tin(IV) oxide: **$SnO_2$**<br>D. Chromium(III) oxide: **$Cr_2O_3$**",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In which chemical reaction does carbon exibit variation of oxidation state from -4 to +4? Write balanced chemical reaction.",
+    "answer": "In the reaction of methane combustion, carbon's oxidation state changes from -4 in methane ($CH_4$) to +4 in carbon dioxide ($CO_2$). The balanced chemical reaction is: **$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In which reaction does nitrogen exibit variation of oxidation state from -3 to +5?",
+    "answer": "This can be observed in the reaction of nitric acid ($HNO_3$) with ammonia ($NH_3$). In $NH_3$, the oxidation state of nitrogen is -3, and in $HNO_3$, it is +5. In a redox reaction between them, nitrogen's oxidation state can vary between these values. A typical example would be the reaction that forms dinitrogen oxide, $N_2O$: **$4Zn + 10HNO_3 \\rightarrow 4Zn(NO_3)_2 + N_2O + 5H_2O$**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is oxidation? Which one of the following pairs of species is in its oxidized state?",
+    "answer": "Oxidation is a chemical process that involves the **loss of electrons**, an **increase in the oxidation number**, or the **addition of oxygen** to an element or compound. Of the pairs provided, **$O_2$ / $O^{2-}$** is the one where $O_2$ is the oxidized state (oxidation number 0) and $O^{2-}$ is the reduced state (oxidation number -2).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find out the oxidizing and reducing agents in the reaction: $2Na(s) + S(s) \\rightarrow Na_2S(s)$",
+    "answer": "In this reaction, the oxidation number of Sodium (Na) increases from 0 to +1, so **Na is the reducing agent**. The oxidation number of Sulfur (S) decreases from 0 to -2, so **S is the oxidizing agent**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Justify the following reaction as redox reaction; identify the species oxidized/reduced, which acts as an oxidant and which act as a reductant. a. $2Cu_2O(s) + Cu_2S(s) \\rightarrow 6Cu(s) + SO_2(g)$",
+    "answer": "This is a redox reaction because the oxidation states of both Copper (Cu) and Sulfur (S) change. In $Cu_2O$, Cu is in the +1 oxidation state. In $Cu_2S$, Cu is in the +1 oxidation state, and S is in the -2 oxidation state. In the product, Cu is in the 0 oxidation state and S is in the +4 oxidation state in $SO_2$.<br><strong>Species oxidized:</strong> S in $Cu_2S$ is oxidized (from -2 to +4). Thus, **$Cu_2S$ is the reductant**. <strong>Species reduced:</strong> Cu in $Cu_2O$ is reduced (from +1 to 0). Thus, **$Cu_2O$ is the oxidant**.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Justify the following reaction as redox reaction; identify the species oxidized/reduced, which acts as an oxidant and which act as a reductant. b. $I_2(aq) + 2S_2O_3^{2-}(aq) \\rightarrow S_4O_6^{2-}(aq) + 2I^-(aq)$",
+    "answer": "This is a redox reaction because the oxidation states of both Iodine (I) and Sulfur (S) change. In the reactants, I is in the 0 oxidation state in $I_2$ and S is in the +2 oxidation state in $S_2O_3^{2-}$. In the products, I is in the -1 oxidation state in $I^-$ and S is in the +2.5 oxidation state in $S_4O_6^{2-}$.<br><strong>Species oxidized:</strong> S in $S_2O_3^{2-}$ is oxidized (from +2 to +2.5). Thus, **$S_2O_3^{2-}$ is the reductant**. <strong>Species reduced:</strong> I in $I_2$ is reduced (from 0 to -1). Thus, **$I_2$ is the oxidant**.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Justify the following reaction as redox reaction; identify the species oxidized/reduced, which acts as an oxidant and which act as a reductant. c. $HF(aq) + OH^-(aq) \\rightarrow H_2O(l) + F^-(aq)$",
+    "answer": "This is **not a redox reaction**. It is a simple acid-base neutralization reaction. The oxidation states of all the elements remain the same throughout the reaction: H (+1), F (-1), O (-2), and H (+1).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Assign oxidation number to each atom in the following species: a. $Cr(OH)_4^-$, b. $Na_2S_2O_3$, c. $H_2BO_3^-$.",
+    "answer": "a. $Cr(OH)_4^-$: O = -2, H = +1. Let Cr be x. $x + 4(-2) + 4(+1) = -1 \\Rightarrow x-8+4 = -1 \\Rightarrow x = +3$. Cr = **+3**, O = **-2**, H = **+1**.<br>b. $Na_2S_2O_3$: Na = +1, O = -2. Let S be x. $2(+1) + 2x + 3(-2) = 0 \\Rightarrow 2+2x-6=0 \\Rightarrow 2x=4 \\Rightarrow x=+2$. Na = **+1**, S = **+2**, O = **-2**.<br>c. $H_2BO_3^-$: H = +1, O = -2. Let B be x. $2(+1) + x + 3(-2) = -1 \\Rightarrow 2+x-6=-1 \\Rightarrow x = +3$. H = **+1**, B = **+3**, O = **-2**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Calculate the oxidation number of underlined atoms. a. $H_2SO_4$, b. $HNO_3$, c. $H_3PO_4$, d. $K_2Cr_2O_7$, e. $H_2S_2O_8$, f. $CrO_5$, g. $NaH_2PO_4$.",
+    "answer": "a. $H_2SO_4$: H = +1, O = -2. Let S be x. $2(+1) + x + 4(-2) = 0 \\Rightarrow 2+x-8 = 0 \\Rightarrow x=+6$. S = **+6**.<br>b. $HNO_3$: H = +1, O = -2. Let N be x. $1(+1) + x + 3(-2) = 0 \\Rightarrow 1+x-6 = 0 \\Rightarrow x=+5$. N = **+5**.<br>c. $H_3PO_4$: H = +1, O = -2. Let P be x. $3(+1) + x + 4(-2) = 0 \\Rightarrow 3+x-8 = 0 \\Rightarrow x=+5$. P = **+5**.<br>d. $K_2Cr_2O_7$: K = +1, O = -2. Let Cr be x. $2(+1) + 2x + 7(-2) = 0 \\Rightarrow 2+2x-14=0 \\Rightarrow 2x=12 \\Rightarrow x=+6$. Cr = **+6**.<br>e. $H_2S_2O_8$: This is a peroxosulfate. H = +1, O = -2 (except for two O atoms with -1). Let S be x. $2(+1)+2x+6(-2)+2(-1)=0 \\Rightarrow 2+2x-12-2=0 \\Rightarrow 2x=12 \\Rightarrow x=+6$. S = **+6**.<br>f. $CrO_5$: This has a peroxo structure. O = -2 (one O atom), and -1 (four O atoms in a peroxo bond). Let Cr be x. $x + 1(-2) + 4(-1) = 0 \\Rightarrow x-2-4=0 \\Rightarrow x=+6$. Cr = **+6**.<br>g. $NaH_2PO_4$: Na = +1, H = +1, O = -2. Let P be x. $1(+1) + 2(+1) + x + 4(-2) = 0 \\Rightarrow 1+2+x-8=0 \\Rightarrow x=+5$. P = **+5**.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Balance the following reactions by oxidation number method: a. $Cr_2O_7^{2-}(aq) + SO_3^{2-}(aq) \\rightarrow Cr^{3+}(aq) + SO_4^{2-}(aq)$",
+    "answer": "1. Assign oxidation numbers: $Cr_2O_7^{2-}$ (Cr=+6), $SO_3^{2-}$ (S=+4), $Cr^{3+}$ (Cr=+3), $SO_4^{2-}$ (S=+6).<br>2. Identify changes: Cr changes from +6 to +3 (reduction), S changes from +4 to +6 (oxidation).<br>3. Balance number of atoms that change oxidation state: $Cr_2O_7^{2-} \\rightarrow 2Cr^{3+}$. $SO_3^{2-} \\rightarrow SO_4^{2-}$.<br>4. Calculate total change: Cr: $2(+6 \\rightarrow +3) = -6$ (gain of 6 electrons). S: $+4 \\rightarrow +6 = +2$ (loss of 2 electrons).<br>5. Equalize electron change: Multiply S change by 3. $3SO_3^{2-} \\rightarrow 3SO_4^{2-}$.<br>6. Combine half-reactions: $Cr_2O_7^{2-} + 3SO_3^{2-} \\rightarrow 2Cr^{3+} + 3SO_4^{2-}$.<br>7. Balance charges and atoms with $H_2O$ and $H^+$ (acidic): Total charge on left = $(-2) + 3(-2) = -8$. Total charge on right = $2(+3) + 3(-2) = 0$. Add $8H^+$ to the left: $Cr_2O_7^{2-} + 3SO_3^{2-} + 8H^+ \\rightarrow 2Cr^{3+} + 3SO_4^{2-}$.<br>8. Balance H and O with $H_2O$: Add $4H_2O$ to the right. The final balanced equation is: **$Cr_2O_7^{2-}(aq) + 3SO_3^{2-}(aq) + 8H^+(aq) \\rightarrow 2Cr^{3+}(aq) + 3SO_4^{2-}(aq) + 4H_2O(l)$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Balance the following reactions by oxidation number method: b. $MnO_4^-(aq) + Br^-(aq) \\rightarrow MnO_2(s) + BrO_3^-(aq)$ (basic)",
+    "answer": "1. Assign oxidation numbers: $MnO_4^-$ (Mn=+7), $Br^-$ (Br=-1), $MnO_2$ (Mn=+4), $BrO_3^-$ (Br=+5).<br>2. Identify changes: Mn changes from +7 to +4 (reduction), Br changes from -1 to +5 (oxidation).<br>3. Balance atoms: $MnO_4^- \\rightarrow MnO_2$. $Br^- \\rightarrow BrO_3^-$.<br>4. Calculate total change: Mn: $+7 \\rightarrow +4 = -3$ (gain of 3 electrons). Br: $-1 \\rightarrow +5 = +6$ (loss of 6 electrons).<br>5. Equalize electron change: Multiply Mn change by 2. $2MnO_4^- \\rightarrow 2MnO_2$.<br>6. Combine half-reactions: $2MnO_4^- + Br^- \\rightarrow 2MnO_2 + BrO_3^-$.<br>7. Balance charges with $OH^-$ (basic): Left charge: $2(-1) + (-1) = -3$. Right charge: $2(0) + (-1) = -1$. Add $2OH^-$ to the right: $2MnO_4^- + Br^- \\rightarrow 2MnO_2 + BrO_3^- + 2OH^-$.<br>8. Balance H and O with $H_2O$: Left has 8 O, Right has $4+3+2=9$ O. Left has 0 H, Right has 2 H. Add $1H_2O$ to the left. The final balanced equation is: **$2MnO_4^-(aq) + Br^-(aq) + H_2O(l) \\rightarrow 2MnO_2(s) + BrO_3^-(aq) + 2OH^-(aq)$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Balance the following reactions by oxidation number method: c. $H_2SO_4(aq) + C(s) \\rightarrow SO_2(g) + H_2O(l) + CO_2(g)$ (acidic)",
+    "answer": "1. Assign oxidation numbers: $H_2SO_4$ (S=+6), C (C=0), $SO_2$ (S=+4), $CO_2$ (C=+4).<br>2. Identify changes: S changes from +6 to +4 (reduction), C changes from 0 to +4 (oxidation).<br>3. Balance atoms: $H_2SO_4 \\rightarrow SO_2$. $C \\rightarrow CO_2$.<br>4. Calculate total change: S: $+6 \\rightarrow +4 = -2$ (gain of 2 electrons). C: $0 \\rightarrow +4 = +4$ (loss of 4 electrons).<br>5. Equalize electron change: Multiply S change by 2. $2H_2SO_4 \\rightarrow 2SO_2$.<br>6. Combine half-reactions: $2H_2SO_4 + C \\rightarrow 2SO_2 + CO_2$.<br>7. Balance remaining atoms (H and O) with $H_2O$: Left has 4 H, Right has 0 H. Add $2H_2O$ to the right. Left has 8 O, Right has $4+2+2 = 8$ O. The equation is now balanced. The final balanced equation is: **$2H_2SO_4(aq) + C(s) \\rightarrow 2SO_2(g) + CO_2(g) + 2H_2O(l)$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Balance the following reactions by oxidation number method: d. $Bi(OH)_3(s) + Sn(OH)_6^{2-}(aq) \\rightarrow Bi(s) + Sn(OH)_6^{2-}(aq)$ (basic)",
+    "answer": "1. Assign oxidation numbers: $Bi(OH)_3$ (Bi=+3), $Sn(OH)_6^{2-}$ (Sn=+4). $Bi$ (Bi=0), $Sn(OH)_6^{2-}$ (Sn=+4).<br>2. Identify changes: Bi changes from +3 to 0 (reduction). Sn is a spectator ion, its oxidation number does not change.<br>3. The problem seems to be a typo. Let's assume the product is $Sn(OH)_6^{4-}$, which would have Sn at +2 oxidation state. The reaction is likely: $Bi(OH)_3(s) + Sn(OH)_6^{2-}(aq) \\rightarrow Bi(s) + Sn(OH)_6^{4-}(aq)$ (basic)<br>4. Re-evaluate changes: Bi changes from +3 to 0 (reduction). Sn changes from +4 to +2 (reduction). This cannot be a redox reaction. Let's assume the question meant $Sn(OH)_3^{-}$ as a reductant and $Sn(OH)_6^{2-}$ as a product. A common reaction is: $Bi(OH)_3(s) + Sn(OH)_3^-(aq) \\rightarrow Bi(s) + Sn(OH)_6^{2-}(aq)$ (basic)<br>5. Let's balance this more probable reaction. Bi: +3 to 0 (reduction). Sn: +2 to +4 (oxidation).<br>6. Balance changes: Bi change is -3. Sn change is +2. Equalize: multiply Bi change by 2 and Sn change by 3. $2Bi(OH)_3 + 3Sn(OH)_3^- \\rightarrow 2Bi + 3Sn(OH)_6^{2-}$.<br>7. Balance O and H with $OH^-$ and $H_2O$: Left: 2(3)+3(3) = 15 O; 2(3)+3(3) = 15 H. Right: 3(6) = 18 O; 3(6) = 18 H. Add $3H_2O$ to the left: $2Bi(OH)_3 + 3Sn(OH)_3^- + 3H_2O \\rightarrow 2Bi + 3Sn(OH)_6^{2-}$. Left has $3+3(1)=6$ charge. Right has $3(-2)=-6$ charge. Add $12OH^-$ to the left. The final balanced equation for the corrected reaction is: **$2Bi(OH)_3(s) + 3Sn(OH)_3^-(aq) + 3H_2O(l) \\rightarrow 2Bi(s) + 3Sn(OH)_6^{2-}(aq) + 3OH^-(aq)$**.<br>8. Re-reading the provided problem, it is very likely a typo and the $Sn(OH)_6^{2-}$ is both a reactant and product, which means it should not have been included in the balancing process as it does not change. Therefore the reaction is not a redox reaction but a disproportionation reaction of Bi(OH)3. However, if we assume a typo and try to balance based on the other half of the reaction: $2Bi(OH)_3 \\rightarrow 2Bi$. This is a gain of 3 electrons per Bi, so 6 electrons total. We need another species to lose 6 electrons. Since the problem is likely flawed as written, it's best to state the flaw and provide the balancing for the most probable intended reaction.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Balance the following redox equation by half reaction method (acidic): $H_2C_2O_4(aq) + MnO_4^-(aq) \\rightarrow CO_2(g) + Mn^{2+}(aq)$",
+    "answer": "1. **Oxidation half-reaction:** $H_2C_2O_4 \\rightarrow CO_2$<br>   - Balance C: $H_2C_2O_4 \\rightarrow 2CO_2$.<br>   - Balance O and H with $H_2O$ and $H^+$: The oxygen and hydrogen atoms are already balanced. We have 2 C, 2 H, and 4 O on both sides. <br>   - Balance charge with electrons: Left charge is 0, Right charge is 0. But C's oxidation state goes from +3 to +4. So, two C atoms lose a total of 2 electrons. $H_2C_2O_4 \\rightarrow 2CO_2 + 2e^-$.<br>2. **Reduction half-reaction:** $MnO_4^- \\rightarrow Mn^{2+}$<br>   - Balance Mn: It's already balanced.<br>   - Balance O with $H_2O$: $MnO_4^- \\rightarrow Mn^{2+} + 4H_2O$.<br>   - Balance H with $H^+$: $MnO_4^- + 8H^+ \\rightarrow Mn^{2+} + 4H_2O$.<br>   - Balance charge with electrons: Left charge is $-1 + 8 = +7$. Right charge is $+2$. Add 5 electrons to the left: $MnO_4^- + 8H^+ + 5e^- \\rightarrow Mn^{2+} + 4H_2O$.<br>3. **Combine half-reactions:** The number of electrons lost must equal the number of electrons gained. The LCM of 2 and 5 is 10. Multiply the oxidation half-reaction by 5 and the reduction half-reaction by 2.<br>   - Oxidation: $5H_2C_2O_4 \\rightarrow 10CO_2 + 10e^-$.<br>   - Reduction: $2MnO_4^- + 16H^+ + 10e^- \\rightarrow 2Mn^{2+} + 8H_2O$.<br>4. **Add the two reactions together and simplify:**<br>   $5H_2C_2O_4(aq) + 2MnO_4^-(aq) + 16H^+(aq) \\rightarrow 10CO_2(g) + 2Mn^{2+}(aq) + 8H_2O(l)$<br>This is the final balanced equation. There are no common terms to cancel out. ",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Balance the following redox equation by half reaction method (basic): $Bi(OH)_3(s) + Sn(OH)_3^-(aq) \\rightarrow Bi(s) + Sn(OH)_6^{2-}(aq)$",
+    "answer": "1. **Reduction half-reaction:** $Bi(OH)_3 \\rightarrow Bi$<br>   - Balance Bi: Already balanced.<br>   - Balance O with $H_2O$: Left has 3 O, Right has 0. Add $3H_2O$ to the right: $Bi(OH)_3 \\rightarrow Bi + 3H_2O$.<br>   - Balance H with $H^+$: Left has 3 H, Right has 6 H. Add $3H^+$ to the left: $Bi(OH)_3 + 3H^+ \\rightarrow Bi + 3H_2O$.<br>   - Balance charge: Left has $+3$. Right has 0. Add 3 electrons to the left: $Bi(OH)_3 + 3H^+ + 3e^- \\rightarrow Bi + 3H_2O$.<br>   - Convert to basic medium by adding $OH^-$ to both sides to neutralize $H^+$: $Bi(OH)_3 + 3H_2O + 3e^- \\rightarrow Bi + 3H_2O$. The $3H_2O$ on both sides can be cancelled, so no. Let's try again from the charge balancing step in basic medium. $Bi(OH)_3 \\rightarrow Bi$. Change in oxidation state is +3 to 0, so 3 electrons gained. $Bi(OH)_3 + 3e^- \\rightarrow Bi$. To balance charge, add $3OH^-$ to the right: $Bi(OH)_3 + 3e^- \\rightarrow Bi + 3OH^-$. To balance O and H, add $3H_2O$ to the left: $Bi(OH)_3 + 3e^- + 3H_2O \\rightarrow Bi + 3OH^-$. Now there are 6 H and 6 O on both sides. This is the correct half-reaction.<br>2. **Oxidation half-reaction:** $Sn(OH)_3^- \\rightarrow Sn(OH)_6^{2-}$<br>   - Balance Sn: Already balanced.<br>   - Balance O and H with $OH^-$ and $H_2O$: Left has 3 O, 3 H. Right has 6 O, 6 H. Add $3OH^-$ to the left to balance O and H: $Sn(OH)_3^- + 3OH^- \\rightarrow Sn(OH)_6^{2-}$. This is balanced for atoms. <br>   - Balance charge: Left has $-1 + (-3) = -4$. Right has $-2$. Add 2 electrons to the right: $Sn(OH)_3^- + 3OH^- \\rightarrow Sn(OH)_6^{2-} + 2e^-$.<br>3. **Combine half-reactions:** The number of electrons gained (3) must equal the number of electrons lost (2). The LCM is 6. Multiply the reduction half-reaction by 2 and the oxidation half-reaction by 3.<br>   - Reduction: $2Bi(OH)_3 + 6e^- + 6H_2O \\rightarrow 2Bi + 6OH^-$.<br>   - Oxidation: $3Sn(OH)_3^- + 9OH^- \\rightarrow 3Sn(OH)_6^{2-} + 6e^-$.<br>4. **Add the two reactions together and simplify:**<br>   $2Bi(OH)_3(s) + 3Sn(OH)_3^-(aq) + 6H_2O(l) + 9OH^-(aq) \\rightarrow 2Bi(s) + 6OH^-(aq) + 3Sn(OH)_6^{2-}(aq)$.<br>   - Cancel out common terms ($6OH^-$ on both sides, $3H_2O$ is needed to balance, not $6H_2O$ but this is not how it is in the reaction, let me try again.) Let's redo the reduction part again from the start.<br>2. **Oxidation half-reaction:** $Sn(OH)_3^- \\rightarrow Sn(OH)_6^{2-}$<br>   - Sn: +2 to +4, so loses 2 electrons. $Sn(OH)_3^- \\rightarrow Sn(OH)_6^{2-} + 2e^-$.<br>   - Left charge: -1. Right charge: -2 + -2 = -4. Add 3 $OH^-$ to the right: $Sn(OH)_3^- + 3OH^- \\rightarrow Sn(OH)_6^{2-} + 2e^-$. Charge is now $-1-3=-4$ and $-2-2=-4$. O and H balance. This is correct.<br>1. **Reduction half-reaction:** $Bi(OH)_3 \\rightarrow Bi$.<br>   - Bi: +3 to 0, so gains 3 electrons. $Bi(OH)_3 + 3e^- \\rightarrow Bi$.<br>   - Left charge: 0-3 = -3. Right charge: 0. Add $3OH^-$ to the right: $Bi(OH)_3 + 3e^- \\rightarrow Bi + 3OH^-$.<br>   - Left O and H: 3 O, 3 H. Right O and H: 3 O, 3 H. Wait. This is not balanced. The $3OH^-$ on the product side must be formed from something. Let's add $H_2O$ to balance atoms. $Bi(OH)_3 + 3e^- \\rightarrow Bi + 3OH^-$. O balance: Left has 3 O, Right has 3 O. H balance: Left has 3 H, Right has 3 H. The charges are balanced with electrons. This is a correct half reaction.<br>3. Combine them: Multiply oxidation by 3 and reduction by 2. Total electrons = 6.<br>   - $3Sn(OH)_3^- + 9OH^- \\rightarrow 3Sn(OH)_6^{2-} + 6e^-$.<br>   - $2Bi(OH)_3 + 6e^- \\rightarrow 2Bi + 6OH^-$.<br>4. Add and simplify:<br>   $3Sn(OH)_3^- + 9OH^- + 2Bi(OH)_3 \\rightarrow 3Sn(OH)_6^{2-} + 2Bi + 6OH^-$.<br>   - Cancel out $6OH^-$ on both sides. $3OH^-$ remain on the left.<br>   The final balanced equation is: **$2Bi(OH)_3(s) + 3Sn(OH)_3^-(aq) + 3OH^-(aq) \\rightarrow 2Bi(s) + 3Sn(OH)_6^{2-}(aq)$**.",
+    "marks": 5
+  }
+]

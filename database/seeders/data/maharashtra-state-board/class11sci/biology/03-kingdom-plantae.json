@@ -1,0 +1,68 @@
+[
+    {
+      "type": "mcq",
+      "text": "Which of the following is NOT a characteristic of plants?",
+      "options": ["Autotrophic nutrition", "Cell wall made of cellulose", "Presence of chloroplasts", "Lack of cell division"],
+      "correct_answer": "D",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Bryophytes are commonly known as:",
+      "options": ["Mosses and liverworts", "Ferns", "Flowering plants", "Algae"],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which plant group produces seeds but not flowers?",
+      "options": ["Gymnosperms", "Angiosperms", "Bryophytes", "Pteridophytes"],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which of the following is the dominant phase in the life cycle of ferns?",
+      "options": ["Gametophyte", "Sporophyte", "Zygote", "Spore"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Angiosperms differ from gymnosperms in having:",
+      "options": ["Seeds", "Flowers and fruits", "Vascular tissues", "Sporophyte generation"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "What is alternation of generations in plants?",
+      "answer": "<strong>Alternation of generations:</strong> The life cycle of plants alternates between haploid gametophyte and diploid sporophyte phases. Each phase produces the other through sexual and asexual reproduction.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "State two characteristics of gymnosperms.",
+      "answer": "<strong>Gymnosperms:</strong><br>1. Produce naked seeds not enclosed in fruits.<br>2. Usually have needle-like or scale-like leaves adapted to conserve water.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Name two examples each of pteridophytes and bryophytes.",
+      "answer": "<strong>Pteridophytes:</strong> Fern (<em>Dryopteris</em>), Horse-tail (<em>Equisetum</em>).<br><strong>Bryophytes:</strong> Moss (<em>Funaria</em>), Liverwort (<em>Marchantia</em>).",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Describe the main groups of plants within Kingdom Plantae with one example each.",
+      "answer": "<strong>Groups:</strong><br>1. <strong>Algae:</strong> Simple, autotrophic, aquatic plants (e.g., <em>Chlamydomonas</em>).<br>2. <strong>Bryophytes:</strong> Non-vascular plants (e.g., <em>Funaria</em>).<br>3. <strong>Pteridophytes:</strong> Seedless vascular plants (e.g., <em>Dryopteris</em>).<br>4. <strong>Gymnosperms:</strong> Seed plants without flowers (e.g., <em>Pinus</em>).<br>5. <strong>Angiosperms:</strong> Flowering plants producing seeds within fruits (e.g., Mango).",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Explain the economic importance of angiosperms.",
+      "answer": "<strong>Economic importance:</strong><br>1. Provide food crops (e.g., rice, wheat).<br>2. Source of timber and wood products.<br>3. Medicinal plants (e.g., <em>Catharanthus roseus</em>).<br>4. Ornamental plants for decoration.<br>5. Raw materials for industry (cotton, rubber).",
+      "marks": 3
+    }
+]
+

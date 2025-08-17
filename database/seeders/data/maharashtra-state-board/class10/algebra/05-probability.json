@@ -1,0 +1,202 @@
+[
+  {
+    "type": "long",
+    "text": "How many possibilities are there in each of the following?<br>(1) Vanita knows the following sites in Maharashtra. She is planning to visit one of them in her summer vacation. Ajintha, Mahabaleshwar, Lonar Sarovar, Tadoba wild life sanctuary, Amboli, Raigad, Matheran, Anandavan.",
+    "answer": "Step 1: List all the possible sites Vanita can visit.<br>The sites are: Ajintha, Mahabaleshwar, Lonar Sarovar, Tadoba wild life sanctuary, Amboli, Raigad, Matheran, Anandavan.<br>Step 2: Count the total number of sites.<br>There are 8 different sites.<br>Step 3: Since she is planning to visit one of them, the number of possibilities is the total number of sites.<br>Conclusion: There are 8 possibilities.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How many possibilities are there in each of the following?<br>(2) Any day of a week is to be selected randomly.",
+    "answer": "Step 1: List all the days in a week.<br>The days are: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.<br>Step 2: Count the total number of days.<br>There are 7 days in a week.<br>Step 3: Since any one day is to be selected, the number of possibilities is the total number of days.<br>Conclusion: There are 7 possibilities.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How many possibilities are there in each of the following?<br>(3) Select one card from the pack of 52 cards.",
+    "answer": "Step 1: Identify the total number of items to choose from.<br>A standard pack of cards has 52 cards.<br>Step 2: Determine how many items are being selected.<br>One card is to be selected.<br>Step 3: The number of possibilities is the total number of cards.<br>Conclusion: There are 52 possibilities.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How many possibilities are there in each of the following?<br>(4) One number from 10 to 20 is written on each card. Select one card randomly.",
+    "answer": "Step 1: List all the numbers from 10 to 20, inclusive.<br>The numbers are: 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.<br>Step 2: Count the total number of numbers.<br>There are 11 numbers in total.<br>Step 3: Since one card is to be selected, the number of possibilities is the total number of cards.<br>Conclusion: There are 11 possibilities.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "For the experiment 'One coin and one die are thrown simultaneously', write the sample space 'S' and the number of sample points n(S).",
+    "answer": "<strong>Experiment:</strong> One coin and one die are thrown simultaneously.<br><strong>Sample Space (S):</strong> The possible outcomes for a coin are Head (H) and Tail (T). The possible outcomes for a die are 1, 2, 3, 4, 5, 6. The sample space is the set of all possible pairs.<br>S = { (H,1), (H,2), (H,3), (H,4), (H,5), (H,6), (T,1), (T,2), (T,3), (T,4), (T,5), (T,6) }<br><strong>Number of Sample Points n(S):</strong> By counting the elements in the sample space, we find:<br>n(S) = 12.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "For the experiment 'Two digit numbers are formed using digits 2, 3, and 5 without repeating a digit', write the sample space 'S' and the number of sample points n(S).",
+    "answer": "<strong>Experiment:</strong> Forming two-digit numbers from 2, 3, 5 without repetition.<br><strong>Sample Space (S):</strong> We can pair the digits to form the numbers.<br>If the tens digit is 2, the units digit can be 3 or 5. Numbers: 23, 25.<br>If the tens digit is 3, the units digit can be 2 or 5. Numbers: 32, 35.<br>If the tens digit is 5, the units digit can be 2 or 3. Numbers: 52, 53.<br>S = { 23, 25, 32, 35, 52, 53 }<br><strong>Number of Sample Points n(S):</strong><br>n(S) = 6.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The arrow is rotated and it stops randomly on the disc. Find out on which colour it may stop.",
+    "image": "probability-spinner-disc.png",
+    "answer": "<strong>Experiment:</strong> A spinner with different colored sections is rotated.<br><strong>Sample Space (S):</strong> The arrow can stop on any of the colored sections.<br>The colors on the disc are: Red, Orange, Yellow, Blue, Green, Purple.<br>S = { Red, Orange, Yellow, Blue, Green, Purple }<br><strong>Number of Sample Points n(S):</strong><br>n(S) = 6.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In the month of March 2019, find the days on which the date is a multiple of 5. (See the given page of the calender).",
+    "image": "march-2019-calendar.png",
+    "answer": "<strong>Experiment:</strong> Finding the days in March 2019 where the date is a multiple of 5.<br><strong>Sample Space (S):</strong> First, list the dates in March that are multiples of 5: 5, 10, 15, 20, 25, 30.<br>Now, find the corresponding day for each date from the calendar.<br>5th is a Tuesday.<br>10th is a Sunday.<br>15th is a Friday.<br>20th is a Wednesday.<br>25th is a Monday.<br>30th is a Saturday.<br>S = { Tuesday, Sunday, Friday, Wednesday, Monday, Saturday }<br><strong>Number of Sample Points n(S):</strong><br>n(S) = 6.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Form a 'Road safety committee' of two, from 2 boys (B1, B2) and 2 girls(G1, G2). Complete the following activity to write the sample space.<br>(a) Committee of 2 boys = { ... }<br>(b) Committee of 2 girls = { ... }<br>(c) Committee of one boy and one girl = { ... }<br>∴ Sample space (S) = { ... }",
+    "answer": "<strong>Experiment:</strong> Forming a road safety committee of two people from a group of 2 boys and 2 girls.<br><strong>(a) Committee of 2 boys:</strong> We can select both boys.<br>Committee = { B1, B2 }<br><strong>(b) Committee of 2 girls:</strong> We can select both girls.<br>Committee = { G1, G2 }<br><strong>(c) Committee of one boy and one girl:</strong> We can pair each boy with each girl.<br>Committees = { (B1, G1), (B1, G2), (B2, G1), (B2, G2) }<br><strong>∴ Sample Space (S):</strong> This is the set of all possible committees.<br>S = { {B1, B2}, {G1, G2}, {B1, G1}, {B1, G2}, {B2, G1}, {B2, G2} }<br><strong>Number of Sample Points n(S):</strong><br>n(S) = 6.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "For the experiment 'One die is rolled', write the sample space 'S', n(S), and events A, B, C in set form with n(A), n(B), n(C).<br>Event A: Even number on the upper face.<br>Event B: Odd number on the upper face.<br>Event C: Prime number on the upper face.",
+    "answer": "<strong>Experiment:</strong> One die is rolled.<br><strong>Sample Space (S):</strong><br>S = {1, 2, 3, 4, 5, 6}<br>n(S) = 6<br><br><strong>Event A: Even number on the upper face.</strong><br>A = {2, 4, 6}<br>n(A) = 3<br><br><strong>Event B: Odd number on the upper face.</strong><br>B = {1, 3, 5}<br>n(B) = 3<br><br><strong>Event C: Prime number on the upper face.</strong><br>C = {2, 3, 5}<br>n(C) = 3",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "For the experiment 'Two dice are rolled simultaneously', write the sample space 'S', n(S), and events A, B, C in set form with n(A), n(B), n(C).<br>Event A: The sum of the digits on the upper faces is a multiple of 6.<br>Event B: The sum of the digits on the upper faces is minimum 10.<br>Event C: The same digit on both the upper faces.",
+    "answer": "<strong>Experiment:</strong> Two dice are rolled simultaneously.<br><strong>Sample Space (S):</strong><br>S = { (1,1), (1,2), ..., (6,6) }<br>n(S) = 36<br><br><strong>Event A: Sum is a multiple of 6.</strong> (The sum can be 6 or 12)<br>A = { (1,5), (2,4), (3,3), (4,2), (5,1), (6,6) }<br>n(A) = 6<br><br><strong>Event B: Sum is minimum 10.</strong> (The sum can be 10, 11, or 12)<br>B = { (4,6), (5,5), (6,4), (5,6), (6,5), (6,6) }<br>n(B) = 6<br><br><strong>Event C: Same digit on both faces.</strong><br>C = { (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) }<br>n(C) = 6",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "For the experiment 'Three coins are tossed simultaneously', write the sample space 'S', n(S), and the conditions for events A, B, C with n(A), n(B), n(C).<br>Condition for event A: To get at least two heads.<br>Condition for event B: To get no head.<br>Condition for event C: To get head on the second coin.",
+    "answer": "<strong>Experiment:</strong> Three coins are tossed simultaneously.<br><strong>Sample Space (S):</strong><br>S = { HHH, HHT, HTH, THH, HTT, THT, TTH, TTT }<br>n(S) = 8<br><br><strong>Event A: At least two heads.</strong><br>A = { HHH, HHT, HTH, THH }<br>n(A) = 4<br><br><strong>Event B: No head.</strong><br>B = { TTT }<br>n(B) = 1<br><br><strong>Event C: Head on the second coin.</strong><br>C = { HHH, HHT, THH, THT }<br>n(C) = 4",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "For the experiment 'Two digit numbers are formed using digits 0, 1, 2, 3, 4, 5 without repetition', write the sample space 'S', n(S), and the conditions for events A, B, C with n(A), n(B), n(C).<br>Condition for event A: The number formed is even.<br>Condition for event B: The number formed is divisible by 3.<br>Condition for event C: The number formed is greater than 50.",
+    "answer": "<strong>Experiment:</strong> Two digit numbers from 0,1,2,3,4,5 without repetition.<br><strong>Sample Space (S):</strong><br>S = { 10, 12, 13, 14, 15, 20, 21, 23, 24, 25, 30, 31, 32, 34, 35, 40, 41, 42, 43, 45, 50, 51, 52, 53, 54 }<br>n(S) = 25<br><br><strong>Event A: The number is even.</strong><br>A = { 10, 12, 14, 20, 24, 30, 32, 34, 40, 42, 50, 52, 54 }<br>n(A) = 13<br><br><strong>Event B: The number is divisible by 3.</strong><br>B = { 12, 15, 21, 24, 30, 42, 45, 51, 54 }<br>n(B) = 9<br><br><strong>Event C: The number is greater than 50.</strong><br>C = { 51, 52, 53, 54 }<br>n(C) = 4",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "From three men and two women, an environment committee of two persons is to be formed. Write the sample space 'S', n(S), and the conditions for events A, B, C with n(A), n(B), n(C).<br>Condition for event A: There must be at least one woman member.<br>Condition for event B: One man, one woman committee to be formed.<br>Condition for event C: There should not be a woman member.",
+    "answer": "<strong>Experiment:</strong> Committee of 2 from 3 men (M1, M2, M3) and 2 women (W1, W2).<br><strong>Sample Space (S):</strong><br>S = { {M1,M2}, {M1,M3}, {M2,M3}, {W1,W2}, {M1,W1}, {M1,W2}, {M2,W1}, {M2,W2}, {M3,W1}, {M3,W2} }<br>n(S) = 10<br><br><strong>Event A: At least one woman.</strong><br>A = { {W1,W2}, {M1,W1}, {M1,W2}, {M2,W1}, {M2,W2}, {M3,W1}, {M3,W2} }<br>n(A) = 7<br><br><strong>Event B: One man, one woman.</strong><br>B = { {M1,W1}, {M1,W2}, {M2,W1}, {M2,W2}, {M3,W1}, {M3,W2} }<br>n(B) = 6<br><br><strong>Event C: No woman.</strong><br>C = { {M1,M2}, {M1,M3}, {M2,M3} }<br>n(C) = 3",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "For the experiment 'One coin and one die are thrown simultaneously', write the sample space 'S', n(S), and the conditions for events A, B, C with n(A), n(B), n(C).<br>Condition for event A: To get head and an odd number.<br>Condition for event B: To get a head or tail and an even number.<br>Condition for event C: Number on the upper face is greater than 7 and tail on the coin.",
+    "answer": "<strong>Experiment:</strong> One coin and one die are thrown.<br><strong>Sample Space (S):</strong><br>S = { (H,1), (H,2), (H,3), (H,4), (H,5), (H,6), (T,1), (T,2), (T,3), (T,4), (T,5), (T,6) }<br>n(S) = 12<br><br><strong>Event A: Head and an odd number.</strong><br>A = { (H,1), (H,3), (H,5) }<br>n(A) = 3<br><br><strong>Event B: Head or tail and an even number.</strong><br>B = { (H,2), (H,4), (H,6), (T,2), (T,4), (T,6) }<br>n(B) = 6<br><br><strong>Event C: Number > 7 and tail.</strong><br>Since a die only has numbers up to 6, this event is impossible.<br>C = { } or $\\emptyset$<br>n(C) = 0",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If two coins are tossed, find the probability of the following events.<br>(1) Getting at least one head.<br>(2) Getting no head.",
+    "answer": "<strong>Experiment:</strong> Two coins are tossed.<br><strong>Sample Space (S):</strong><br>S = { HH, HT, TH, TT }<br>n(S) = 4<br><br><strong>(1) Event A: Getting at least one head.</strong><br>This means one head or two heads.<br>A = { HH, HT, TH }<br>n(A) = 3<br>Probability of Event A: $P(A) = \\frac{n(A)}{n(S)} = \\frac{3}{4}$<br><br><strong>(2) Event B: Getting no head.</strong><br>This means both are tails.<br>B = { TT }<br>n(B) = 1<br>Probability of Event B: $P(B) = \\frac{n(B)}{n(S)} = \\frac{1}{4}$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "If two dice are rolled simultaneously, find the probability of the following events.<br>(1) The sum of the digits on the upper faces is at least 10.<br>(2) The sum of the digits on the upper faces is 33.<br>(3) The digit on the first die is greater than the digit on the second die.",
+    "answer": "<strong>Experiment:</strong> Two dice are rolled.<br><strong>Sample Space (S):</strong> n(S) = 36<br><br><strong>(1) Event A: The sum is at least 10.</strong> (Sum can be 10, 11, or 12)<br>A = { (4,6), (5,5), (6,4), (5,6), (6,5), (6,6) }<br>n(A) = 6<br>Probability of Event A: $P(A) = \\frac{n(A)}{n(S)} = \\frac{6}{36} = \\frac{1}{6}$<br><br><strong>(2) Event B: The sum is 33.</strong><br>The maximum sum possible with two dice is 6+6=12. This event is impossible.<br>B = { } or $\\emptyset$<br>n(B) = 0<br>Probability of Event B: $P(B) = \\frac{n(B)}{n(S)} = \\frac{0}{36} = 0$<br><br><strong>(3) Event C: The digit on the first die is greater than the second.</strong><br>C = { (2,1), (3,1), (3,2), (4,1), (4,2), (4,3), (5,1), (5,2), (5,3), (5,4), (6,1), (6,2), (6,3), (6,4), (6,5) }<br>n(C) = 15<br>Probability of Event C: $P(C) = \\frac{n(C)}{n(S)} = \\frac{15}{36} = \\frac{5}{12}$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "There are 15 tickets in a box, each bearing one of the numbers from 1 to 15. One ticket is drawn at random. Find the probability that the ticket drawn -<br>(1) shows an even number.<br>(2) shows a number which is a multiple of 5.",
+    "answer": "<strong>Experiment:</strong> One ticket is drawn from 15.<br><strong>Sample Space (S):</strong><br>S = { 1, 2, 3, ..., 15 }<br>n(S) = 15<br><br><strong>(1) Event A: The ticket shows an even number.</strong><br>A = { 2, 4, 6, 8, 10, 12, 14 }<br>n(A) = 7<br>Probability of Event A: $P(A) = \\frac{n(A)}{n(S)} = \\frac{7}{15}$<br><br><strong>(2) Event B: The ticket shows a multiple of 5.</strong><br>B = { 5, 10, 15 }<br>n(B) = 3<br>Probability of Event B: $P(B) = \\frac{n(B)}{n(S)} = \\frac{3}{15} = \\frac{1}{5}$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A two digit number is formed with digits 2, 3, 5, 7, 9 without repetition. What is the probability that the number formed is (1) an odd number? (2) a multiple of 5?",
+    "answer": "<strong>Experiment:</strong> A two-digit number is formed from {2,3,5,7,9} without repetition.<br><strong>Sample Space (S):</strong><br>S = { 23, 25, 27, 29, 32, 35, 37, 39, 52, 53, 57, 59, 72, 73, 75, 79, 92, 93, 95, 97 }<br>n(S) = 20<br><br><strong>(1) Event A: The number is odd.</strong><br>A = { 23, 25, 27, 29, 35, 37, 39, 53, 57, 59, 73, 75, 79, 93, 95, 97 }<br>n(A) = 16<br>Probability of Event A: $P(A) = \\frac{n(A)}{n(S)} = \\frac{16}{20} = \\frac{4}{5}$<br><br><strong>(2) Event B: The number is a multiple of 5.</strong><br>A number is a multiple of 5 if its unit digit is 5.<br>B = { 25, 35, 75, 95 }<br>n(B) = 4<br>Probability of Event B: $P(B) = \\frac{n(B)}{n(S)} = \\frac{4}{20} = \\frac{1}{5}$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A card is drawn at random from a pack of well shuffled 52 playing cards. Find the probability that the card drawn is -<br>(1) an ace.<br>(2) a spade.",
+    "answer": "<strong>Experiment:</strong> A card is drawn from a pack of 52.<br><strong>Sample Space (S):</strong> n(S) = 52<br><br><strong>(1) Event A: The card is an ace.</strong><br>There are 4 aces in a pack.<br>n(A) = 4<br>Probability of Event A: $P(A) = \\frac{n(A)}{n(S)} = \\frac{4}{52} = \\frac{1}{13}$<br><br><strong>(2) Event B: The card is a spade.</strong><br>There are 13 spade cards in a pack.<br>n(B) = 13<br>Probability of Event B: $P(B) = \\frac{n(B)}{n(S)} = \\frac{13}{52} = \\frac{1}{4}$",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "Which number cannot represent a probability?",
+    "options": ["$\\frac{2}{3}$", "1.5", "15%", "0.7"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A die is rolled. What is the probability that the number appearing on the upper face is less than 3?",
+    "options": ["$\\frac{1}{6}$", "$\\frac{1}{3}$", "$\\frac{1}{2}$", "0"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the probability of the event that a number chosen from 1 to 100 is a prime number?",
+    "options": ["$\\frac{1}{5}$", "$\\frac{6}{25}$", "$\\frac{1}{4}$", "$\\frac{13}{50}$"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "There are 40 cards in a bag. Each bears a number from 1 to 40. One card is drawn at random. What is the probability that the card bears a number which is a multiple of 5?",
+    "options": ["$\\frac{1}{5}$", "$\\frac{3}{5}$", "$\\frac{4}{5}$", "$\\frac{1}{3}$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If n(A) = 2, P(A) = $\\frac{1}{5}$, then n(S) = ?",
+    "options": ["10", "$\\frac{5}{2}$", "$\\frac{2}{5}$", "$\\frac{1}{3}$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Basketball players John, Vasim, and Akash were practising the ball drop in the basket. The probabilities of success for John, Vasim and Akash are $\\frac{4}{5}$, 0.83 and 58% respectively. Who had the greatest probability of success?",
+    "answer": "Step 1: Convert all probabilities to a common format, like decimals.<br>John's probability: $P(J) = \\frac{4}{5} = 0.80$.<br>Vasim's probability: $P(V) = 0.83$.<br>Akash's probability: $P(A) = 58\\% = 0.58$.<br>Step 2: Compare the decimal values.<br>$0.83 > 0.80 > 0.58$.<br>Step 3: Conclude who has the highest probability.<br>Vasim had the greatest probability of success.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "In a hockey team there are 6 defenders, 4 offenders and 1 goalie. Out of these, one player is to be selected randomly as a captain. Find the probability of the selection that - (1) The goalie will be selected. (2) A defender will be selected.",
+    "answer": "Step 1: Find the total number of players.<br>Total players = 6 (defenders) + 4 (offenders) + 1 (goalie) = 11.<br>So, n(S) = 11.<br><br><strong>(1) Event A: The goalie will be selected.</strong><br>There is 1 goalie, so n(A) = 1.<br>Probability of Event A: $P(A) = \\frac{n(A)}{n(S)} = \\frac{1}{11}$.<br><br><strong>(2) Event B: A defender will be selected.</strong><br>There are 6 defenders, so n(B) = 6.<br>Probability of Event B: $P(B) = \\frac{n(B)}{n(S)} = \\frac{6}{11}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Joseph kept 26 cards in a cap, bearing one English alphabet on each card. One card is drawn at random. What is the probability that the card drawn is a vowel card?",
+    "answer": "Step 1: Find the total number of outcomes.<br>There are 26 alphabets, so n(S) = 26.<br>Step 2: Identify the favorable outcomes (vowels).<br>The vowels are A, E, I, O, U. So, Event A = {A, E, I, O, U}.<br>n(A) = 5.<br>Step 3: Calculate the probability.<br>Probability of drawing a vowel: $P(A) = \\frac{n(A)}{n(S)} = \\frac{5}{26}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A balloon vendor has 2 red, 3 blue and 4 green balloons. He wants to choose one of them at random to give it to Pranali. What is the probability of the event that Pranali gets: (1) a red balloon (2) a blue balloon (3) a green balloon.",
+    "answer": "Step 1: Find the total number of balloons.<br>Total balloons = 2 (red) + 3 (blue) + 4 (green) = 9.<br>So, n(S) = 9.<br><br><strong>(1) Event A: Pranali gets a red balloon.</strong><br>There are 2 red balloons, so n(A) = 2.<br>Probability: $P(A) = \\frac{n(A)}{n(S)} = \\frac{2}{9}$.<br><br><strong>(2) Event B: Pranali gets a blue balloon.</strong><br>There are 3 blue balloons, so n(B) = 3.<br>Probability: $P(B) = \\frac{n(B)}{n(S)} = \\frac{3}{9} = \\frac{1}{3}$.<br><br><strong>(3) Event C: Pranali gets a green balloon.</strong><br>There are 4 green balloons, so n(C) = 4.<br>Probability: $P(C) = \\frac{n(C)}{n(S)} = \\frac{4}{9}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A box contains 5 red, 8 blue and 3 green pens. Rutuja wants to pick a pen at random. What is the probability that the pen is blue?",
+    "answer": "Step 1: Find the total number of pens.<br>Total pens = 5 (red) + 8 (blue) + 3 (green) = 16.<br>So, n(S) = 16.<br>Step 2: Identify the favorable outcomes (blue pens).<br>Event A: The pen is blue.<br>There are 8 blue pens, so n(A) = 8.<br>Step 3: Calculate the probability.<br>Probability of picking a blue pen: $P(A) = \\frac{n(A)}{n(S)} = \\frac{8}{16} = \\frac{1}{2}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Six faces of a die are as shown below: A, B, C, D, E, A. If the die is rolled once, find the probability of - (1) ‘A’ appears on upper face. (2) ‘D’ appears on upper face.",
+    "answer": "Step 1: Write the sample space.<br>The possible outcomes are the letters on the faces.<br>S = { A, B, C, D, E, A }<br>n(S) = 6.<br><br><strong>(1) Event X: ‘A’ appears on the upper face.</strong><br>The letter 'A' appears on two faces.<br>X = { A, A }<br>n(X) = 2.<br>Probability: $P(X) = \\frac{n(X)}{n(S)} = \\frac{2}{6} = \\frac{1}{3}$.<br><br><strong>(2) Event Y: ‘D’ appears on the upper face.</strong><br>The letter 'D' appears on one face.<br>Y = { D }<br>n(Y) = 1.<br>Probability: $P(Y) = \\frac{n(Y)}{n(S)} = \\frac{1}{6}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A box contains 30 tickets, bearing only one number from 1 to 30 on each. If one ticket is drawn at random, find the probability of an event that the ticket drawn bears (1) an odd number (2) a complete square number.",
+    "answer": "Step 1: Write the sample space.<br>S = { 1, 2, 3, ..., 30 }<br>n(S) = 30.<br><br><strong>(1) Event A: The ticket bears an odd number.</strong><br>A = { 1, 3, 5, ..., 29 }<br>There are 15 odd numbers from 1 to 30.<br>n(A) = 15.<br>Probability: $P(A) = \\frac{n(A)}{n(S)} = \\frac{15}{30} = \\frac{1}{2}$.<br><br><strong>(2) Event B: The ticket bears a complete square number.</strong><br>The complete squares between 1 and 30 are $1^2, 2^2, 3^2, 4^2, 5^2$.<br>B = { 1, 4, 9, 16, 25 }<br>n(B) = 5.<br>Probability: $P(B) = \\frac{n(B)}{n(S)} = \\frac{5}{30} = \\frac{1}{6}$.",
+    "marks": 3
+  }
+
+]

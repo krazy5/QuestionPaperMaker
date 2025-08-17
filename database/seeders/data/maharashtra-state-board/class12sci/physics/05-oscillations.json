@@ -99,5 +99,197 @@
     "text": "Obtain the differential equation of linear simple harmonic motion. (Board 2018)",
     "answer": "The restoring force in S.H.M. is given by $F = -kx$. According to Newton's second law, $F = ma = m\\frac{d^2x}{dt^2}$. Equating the two, we get $m\\frac{d^2x}{dt^2} = -kx$. Rearranging gives the differential equation: $\\frac{d^2x}{dt^2} + \\frac{k}{m}x = 0$. Since $\\omega^2 = k/m$, it can also be written as $\\frac{d^2x}{dt^2} + \\omega^2x = 0$.",
     "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Q) A particle performs linear S.H.M. starting from the mean position. Its amplitude is $A$ and time period is $T$. At the instance when its speed is half the maximum speed, its displacement $x$ is",
+    "options": [
+      "A) $\\frac{\\sqrt{3}}{2}A$",
+      "B) $\\frac{A}{\\sqrt{2}}$",
+      "C) $\\frac{A}{2}$",
+      "D) $\\frac{A}{2}$"
+    ],
+    "correct_answer": "A) $\\frac{\\sqrt{3}}{2}A$",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) A body of mass 1 kg is performing linear S.H.M. Its displacement $x$ (cm) at $t$ (second) is given by $x = 6\\sin(100t + \\pi/4)$. Maximum kinetic energy of the body is",
+    "options": [
+      "A) 36 J",
+      "B) 9 J",
+      "C) 27 J",
+      "D) 18 J"
+    ],
+    "correct_answer": "D) 18 J",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The length of second's pendulum on the surface of earth is nearly 1 m. Its length on the surface of moon should be [Given: acceleration due to gravity (g) on moon is $1/6^{\\text{th}}$ of that on the earth's surface]",
+    "options": [
+      "A) 1/6 m",
+      "B) 6 m",
+      "C) 1/36 m",
+      "D) $\\frac{1}{\\sqrt{6}}$ m"
+    ],
+    "correct_answer": "A) 1/6 m",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) Two identical springs of constant $k$ are connected, first in series and then in parallel. A metal block of mass $m$ is suspended from their combination. The ratio of their frequencies of vertical oscillations will be in a ratio",
+    "options": [
+      "A) 1:4",
+      "B) 1:2",
+      "C) 2:1",
+      "D) 4:1"
+    ],
+    "correct_answer": "B) 1:2",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The graph shows variation of displacement of a particle performing S.H.M. with time $t$. Which of the following statements is correct from the graph?",
+    "options": [
+      "A) The acceleration is maximum at time T.",
+      "B) The force is maximum at time T/4.",
+      "C) The velocity is zero at time T/2.",
+      "D) The kinetic energy is equal to total energy at time T/4."
+    ],
+    "correct_answer": "D) The kinetic energy is equal to total energy at time T/4.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Q) Define linear simple harmonic motion. Using differential equation of linear S.H.M., obtain the expression for (a) velocity in S.H.M., (b) acceleration in S.H.M.",
+    "answer": "Linear Simple Harmonic Motion (S.H.M.) is the oscillatory motion of a particle about a fixed equilibrium position such that the restoring force is always directly proportional to the displacement of the particle from the equilibrium position and is always directed towards the equilibrium position. The differential equation for linear S.H.M. is $$\\frac{d^2x}{dt^2} + \\omega^2x = 0$$ <br>a) **Expression for acceleration:** <br>From the differential equation, the acceleration is given by $a = \\frac{d^2x}{dt^2} = -\\omega^2x$. <br>b) **Expression for velocity:** <br>We can find velocity by integrating the acceleration. A more direct way is to start from the displacement equation, $x = A\\sin(\\omega t + \\phi)$. <br>The velocity is the first derivative of displacement with respect to time: $v = \\frac{dx}{dt} = \\frac{d}{dt}(A\\sin(\\omega t + \\phi)) = A\\omega\\cos(\\omega t + \\phi)$. <br>Using the identity $\\sin^2\\theta + \\cos^2\\theta = 1$, we can write $\\cos(\\omega t + \\phi) = \\pm\\sqrt{1-\\sin^2(\\omega t + \\phi)}$. <br>Substituting $x=A\\sin(\\omega t + \\phi)$, we get $\\sin(\\omega t + \\phi) = x/A$. <br>So, $v = A\\omega\\sqrt{1-(x/A)^2} = \\omega\\sqrt{A^2-x^2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Obtain the expression for the period of a simple pendulum performing S.H.M.",
+    "answer": "A simple pendulum consists of a point mass (bob) suspended by a massless, inextensible string of length $L$. For small angular displacements $\\theta$, the restoring force is the component of gravity that acts tangentially to the arc of motion, $F = -mg\\sin\\theta$. For small $\\theta$, $\\sin\\theta \\approx \\theta$. The displacement along the arc is $x = L\\theta$, so $\\theta = x/L$. <br>The restoring force is $F = -mg\\theta = -mg\\frac{x}{L}$. <br>By Newton's second law, $F = ma = m\\frac{d^2x}{dt^2}$. <br>Equating the two expressions for force, $m\\frac{d^2x}{dt^2} = -\\frac{mg}{L}x$. <br>This gives the differential equation of S.H.M.: $\\frac{d^2x}{dt^2} + \\frac{g}{L}x = 0$. <br>Comparing this to the standard form $\\frac{d^2x}{dt^2} + \\omega^2x = 0$, we find the angular frequency is $\\omega = \\sqrt{\\frac{g}{L}}$. <br>The time period $T$ is related to angular frequency by $T = \\frac{2\\pi}{\\omega}$. <br>Substituting $\\omega$, we get the expression for the time period of a simple pendulum: $$T = 2\\pi\\sqrt{\\frac{L}{g}}$$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Prove that under certain conditions a magnet vibrating in a uniform magnetic field performs angular S.H.M. Obtain the expression for the period of a magnet vibrating in a uniform magnetic field and performing S.H.M.",
+    "answer": "Consider a bar magnet of magnetic moment $M$ and moment of inertia $I$ oscillating in a uniform magnetic field $B$. When the magnet is displaced from its equilibrium position by a small angle $\\theta$, a restoring torque acts on it. The magnitude of this torque is $\\tau = MB\\sin\\theta$. <br>For small angular displacements, $\\sin\\theta \\approx \\theta$. The restoring torque is then $\\tau = -MB\\theta$. The negative sign indicates that the torque opposes the displacement. <br>The rotational equivalent of Newton's second law is $\\tau = I\\alpha = I\\frac{d^2\\theta}{dt^2}$. <br>Equating the two expressions for torque, we get $I\\frac{d^2\\theta}{dt^2} = -MB\\theta$, which can be rearranged to $\\frac{d^2\\theta}{dt^2} + \\frac{MB}{I}\\theta = 0$. <br>This is the differential equation for angular S.H.M. The angular frequency is $\\omega = \\sqrt{\\frac{MB}{I}}$. <br>The time period of oscillation is $T = \\frac{2\\pi}{\\omega} = 2\\pi\\sqrt{\\frac{I}{MB}}$. Thus, the magnet performs angular S.H.M. under these conditions.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Show that a linear S.H.M. is the projection of a U.C.M. along any of its diameter.",
+    "answer": "Consider a particle P performing Uniform Circular Motion (U.C.M.) of radius $A$ on a circle in the x-y plane. Let the projection of this particle on the x-axis be Q. The particle's motion on the x-axis is linear. We will show that this linear motion is Simple Harmonic Motion (S.H.M.). <br>Let the angular velocity of the particle P be $\\omega$. The displacement of the particle on the x-axis at any time $t$ is given by $x = A\\cos(\\omega t + \\phi)$, where $\\phi$ is the initial phase. <br>The velocity of the projection is $v = \\frac{dx}{dt} = -A\\omega\\sin(\\omega t + \\phi)$. <br>The acceleration of the projection is $a = \\frac{dv}{dt} = -A\\omega^2\\cos(\\omega t + \\phi)$. <br>Substituting the expression for displacement $x$ into the acceleration equation, we get $a = -\\omega^2x$. <br>This is the defining characteristic of S.H.M., which states that the acceleration is directly proportional to the displacement and is directed opposite to the displacement. Therefore, the projection of a U.C.M. along a diameter is a linear S.H.M.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Draw graphs of displacement, velocity and acceleration against phase angle, for a particle performing linear S.H.M. from a) the mean position (b) the positive extreme position. Deduce your conclusions from the graph.",
+    "answer": "Let's assume the displacement is given by $x = A\\sin(\\omega t + \\phi)$. The phase angle is $\\theta = \\omega t + \\phi$. <br>Velocity is $v = A\\omega\\cos(\\omega t + \\phi)$. <br>Acceleration is $a = -A\\omega^2\\sin(\\omega t + \\phi)$. <br>a) **Starting from the mean position:** This corresponds to an initial phase angle of $\\phi=0$. The graphs are: <br>Displacement: A sine wave, starting at 0. <br>Velocity: A cosine wave, starting at max positive value. <br>Acceleration: A negative sine wave, starting at 0. <br> <br>b) **Starting from the positive extreme position:** This corresponds to an initial phase angle of $\\phi=\\pi/2$. The graphs are: <br>Displacement: A cosine wave, starting at max positive value. <br>Velocity: A negative sine wave, starting at 0. <br>Acceleration: A negative cosine wave, starting at max negative value. <br> <br> **Conclusions from the graphs:** <br>1. Acceleration is always opposite to displacement. <br>2. Velocity is maximum when displacement is zero (at the mean position). <br>3. Velocity is zero when displacement is maximum (at the extreme positions). <br>4. Acceleration is maximum when displacement is maximum (at the extreme positions). <br>5. Velocity leads displacement by a phase angle of $\\pi/2$ (or 90 degrees). <br>6. Acceleration leads displacement by a phase angle of $\\pi$ (or 180 degrees).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Deduce the expressions for the kinetic energy and potential energy of a particle executing S.H.M. Hence obtain the expression for total energy of a particle performing S.H.M. and show that the total energy is conserved. State the factors on which total energy depends.",
+    "answer": "The displacement of a particle performing S.H.M. is given by $x = A\\sin(\\omega t + \\phi)$. <br>a) **Kinetic Energy (K.E.)** <br>The velocity of the particle is $v = A\\omega\\cos(\\omega t + \\phi)$. The K.E. is given by $KE = \\frac{1}{2}mv^2$. <br>$$KE = \\frac{1}{2}m(A\\omega\\cos(\\omega t + \\phi))^2 = \\frac{1}{2}mA^2\\omega^2\\cos^2(\\omega t + \\phi)$$<br>We can also express K.E. in terms of displacement: $v = \\omega\\sqrt{A^2-x^2}$. <br>$$KE = \\frac{1}{2}m\\omega^2(A^2-x^2)$$<br>b) **Potential Energy (P.E.)** <br>The restoring force is $F = -kx = -m\\omega^2x$. The P.E. is the work done against this force to displace the particle from the mean position. <br>$$PE = \\int_0^x -F dx = \\int_0^x m\\omega^2x dx = \\frac{1}{2}m\\omega^2x^2$$<br>Substituting $x = A\\sin(\\omega t + \\phi)$: <br>$$PE = \\frac{1}{2}m\\omega^2A^2\\sin^2(\\omega t + \\phi)$$<br>c) **Total Energy (T.E.)** <br>The total energy is the sum of the kinetic and potential energies. <br>$$E_{Total} = KE + PE = \\frac{1}{2}m\\omega^2(A^2-x^2) + \\frac{1}{2}m\\omega^2x^2 = \\frac{1}{2}m\\omega^2A^2 - \\frac{1}{2}m\\omega^2x^2 + \\frac{1}{2}m\\omega^2x^2 = \\frac{1}{2}m\\omega^2A^2$$<br>Since the mass ($m$), angular frequency ($\\omega$), and amplitude ($A$) are constants for a given S.H.M., the total energy is also a constant. Therefore, the total energy of a particle performing S.H.M. is conserved. <br>The total energy depends on the **mass of the particle, the angular frequency of oscillation, and the amplitude of the motion**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Deduce the expression for the time period of a simple pendulum. Hence state the factors on which it depends.",
+    "answer": "This is a duplicate question. The solution is already provided above.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) At what distance from the mean position is the speed of a particle performing S.H.M. half its maximum speed. Given path length of S.H.M. = 10 cm.",
+    "answer": "The velocity of a particle performing S.H.M. is given by $v = \\omega\\sqrt{A^2-x^2}$. The maximum speed occurs at the mean position ($x=0$), so $v_{max} = \\omega A$. <br>We are given that the speed is half the maximum speed, so $v = \\frac{1}{2}v_{max} = \\frac{1}{2}\\omega A$. <br>Equating the two expressions for velocity: <br>$\\omega\\sqrt{A^2-x^2} = \\frac{1}{2}\\omega A$. <br>Squaring both sides: <br>$\\omega^2(A^2-x^2) = \\frac{1}{4}\\omega^2A^2 \\implies A^2-x^2 = \\frac{1}{4}A^2$. <br>Solving for $x$: <br>$x^2 = A^2 - \\frac{1}{4}A^2 = \\frac{3}{4}A^2$. <br>$x = \\pm\\sqrt{\\frac{3}{4}A^2} = \\pm\\frac{\\sqrt{3}}{2}A$. <br>The path length is 10 cm, which means $2A = 10$ cm, so the amplitude is $A = 5$ cm. <br>Substituting the value of $A$: <br>$x = \\pm\\frac{\\sqrt{3}}{2}(5) = \\pm\\frac{5\\sqrt{3}}{2} \\approx \\pm 4.33$ cm. <br>The distance from the mean position is **4.33 cm**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the pressure 200 m below the surface of the ocean if pressure on the free surface of liquid is one atmosphere. (Density of sea water = 1060 kg/m$^3$).",
+    "answer": "The pressure at a depth $h$ below the surface of a fluid is given by the formula $P = P_0 + h\\rho g$, where $P_0$ is the pressure on the surface, $h$ is the depth, $\\rho$ is the density of the fluid, and $g$ is the acceleration due to gravity (approximately $9.8$ m/s$^2$). <br>Given: <br>$P_0 = 1$ atmosphere $\\approx 1.013 \\times 10^5 \\text{ N/m}^2$. <br>$h = 200$ m. <br>$\\rho = 1060 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>Pressure due to the water column is $h\\rho g = (200)(1060)(9.8) = 2077600 \\text{ N/m}^2 = 2.0776 \\times 10^6 \\text{ N/m}^2$. <br>Total pressure $P = P_0 + h\\rho g = 1.013 \\times 10^5 + 2.0776 \\times 10^6 = 0.1013 \\times 10^6 + 2.0776 \\times 10^6 = 2.1789 \\times 10^6 \\text{ N/m}^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) In a hydraulic lift, the input piston had surface area 30 cm$^2$ and the output piston has surface area of 1500 cm$^2$. If a force of 25 N is applied to the input piston, calculate weight on output piston.",
+    "answer": "A hydraulic lift works on Pascal's principle, which states that the pressure exerted on an enclosed incompressible fluid is transmitted equally to every portion of the fluid and the walls of the container. So, the pressure on the input piston is equal to the pressure on the output piston: $P_{input} = P_{output}$. <br>Pressure is defined as force per unit area, $P = F/A$. So, $\\frac{F_{input}}{A_{input}} = \\frac{F_{output}}{A_{output}}$. <br>Given: <br>$A_{input} = 30 \\text{ cm}^2$. <br>$A_{output} = 1500 \\text{ cm}^2$. <br>$F_{input} = 25$ N. <br>We need to find $F_{output}$. Rearranging the formula: <br>$F_{output} = F_{input} \\times \\frac{A_{output}}{A_{input}} = 25 \\times \\frac{1500}{30} = 25 \\times 50 = 1250$ N. <br>The weight on the output piston is **1250 N**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the viscous force acting on a rain drop of diameter 1 mm, falling with a uniform velocity 2 m/s through air. The coefficient of viscosity of air is $1.8 \\times 10^{-5} \\text{ N s/m}^2$.",
+    "answer": "The viscous force acting on a spherical object falling through a fluid is given by Stokes' Law: $F_v = 6\\pi\\eta rv$, where $\\eta$ is the coefficient of viscosity, $r$ is the radius of the sphere, and $v$ is the velocity. <br>Given: <br>Diameter $d = 1$ mm $= 1 \\times 10^{-3}$ m, so radius $r = 0.5 \\times 10^{-3}$ m. <br>Velocity $v = 2$ m/s. <br>Coefficient of viscosity $\\eta = 1.8 \\times 10^{-5} \\text{ N s/m}^2$. <br>The viscous force is: <br>$F_v = 6\\pi(1.8 \\times 10^{-5})(0.5 \\times 10^{-3})(2) = 6\\pi(1.8 \\times 10^{-5})(1.0 \\times 10^{-3}) = 10.8\\pi \\times 10^{-8} \\approx 3.393 \\times 10^{-7}$ N.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A horizontal force of 1 N is required to move a metal plate of area $10^{-2} \\text{ m}^2$ with a velocity of $2 \\times 10^{-2} \\text{ m/s}$, when it rests on a layer of oil 1.5 $\\times 10^{-3}$ m thick. Find the coefficient of viscosity of oil.",
+    "answer": "The viscous force is given by $F_v = \\eta A \\frac{dv}{dy}$, where $\\eta$ is the coefficient of viscosity, $A$ is the area of the plate, and $\\frac{dv}{dy}$ is the velocity gradient. <br>Given: <br>Force $F_v = 1$ N. <br>Area $A = 10^{-2} \\text{ m}^2$. <br>Velocity $dv = 2 \\times 10^{-2} \\text{ m/s}$. <br>Thickness of oil layer $dy = 1.5 \\times 10^{-3}$ m. <br>We need to find $\\eta$. Rearranging the formula: <br>$\\eta = \\frac{F_v}{A} \\cdot \\frac{dy}{dv} = \\frac{1}{10^{-2}} \\cdot \\frac{1.5 \\times 10^{-3}}{2 \\times 10^{-2}} = 100 \\cdot \\frac{1.5}{2} \\times 10^{-1} = 100 \\cdot 0.75 \\times 0.1 = 7.5$ N s/m$^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what terminal velocity will an air bubble 0.4 mm in diameter rise in a liquid of viscosity $0.1 \\text{ N s/m}^2$ and specific gravity 0.9? Density of air is $1.29 \\text{ kg/m}^3$.",
+    "answer": "The terminal velocity of a spherical object moving through a fluid is given by $v_t = \\frac{2r^2g}{9\\eta}(\\rho_{object} - \\rho_{fluid})$. Since the bubble is rising, its density is less than the fluid's density. <br>Given: <br>Diameter of bubble $d = 0.4$ mm $= 0.4 \\times 10^{-3}$ m, so radius $r = 0.2 \\times 10^{-3}$ m. <br>Viscosity of liquid $\\eta = 0.1 \\text{ N s/m}^2$. <br>Specific gravity of liquid $= 0.9$, so density of liquid $\\rho_{liquid} = 0.9 \\times 1000 \\text{ kg/m}^3 = 900 \\text{ kg/m}^3$. <br>Density of air $\\rho_{air} = 1.29 \\text{ kg/m}^3$. <br>Acceleration due to gravity $g = 9.8 \\text{ m/s}^2$. <br>The terminal velocity is: <br>$v_t = \\frac{2(0.2 \\times 10^{-3})^2(9.8)}{9(0.1)}(1.29 - 900) \\approx -7.82 \\times 10^{-4}$ m/s. <br>The negative sign indicates the bubble rises up. The magnitude is $7.82 \\times 10^{-4}$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The speed of water is 2 m/s through a pipe of internal diameter 10 cm. What should be the internal diameter of nozzle of the pipe if the speed of water at nozzle is 4 m/s?",
+    "answer": "This problem is based on the equation of continuity, which states that for an incompressible fluid, the product of the cross-sectional area and the velocity is constant: $A_1v_1 = A_2v_2$. The area of the pipe is $A = \\pi r^2 = \\pi (d/2)^2 = \\frac{\\pi d^2}{4}$. <br>Given: <br>Initial velocity $v_1 = 2$ m/s. <br>Initial diameter $d_1 = 10$ cm. <br>Final velocity $v_2 = 4$ m/s. <br>We need to find the final diameter $d_2$. <br>The equation of continuity becomes $\\frac{\\pi d_1^2}{4}v_1 = \\frac{\\pi d_2^2}{4}v_2 \\implies d_1^2v_1 = d_2^2v_2$. <br>Rearranging to solve for $d_2$: <br>$d_2^2 = d_1^2 \\frac{v_1}{v_2} \\implies d_2 = d_1 \\sqrt{\\frac{v_1}{v_2}} = 10 \\sqrt{\\frac{2}{4}} = 10 \\sqrt{\\frac{1}{2}} = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2} \\approx 7.07$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what velocity does water flow out of an orifice in a tank with gauge pressure $4 \\times 10^5 \\text{ N/m}^2$ before the flow starts? Density of water = 1000 kg/m$^3$.",
+    "answer": "This problem is based on Torricelli's Law, which is a special case of Bernoulli's principle. The velocity of the effluence is given by $v = \\sqrt{2gh}$. However, the problem gives the gauge pressure, not the height. We can relate the gauge pressure to the height by $P_{gauge} = h\\rho g$. <br>So, $h = \\frac{P_{gauge}}{\\rho g}$. Substituting this into the velocity formula: <br>$v = \\sqrt{2g(\\frac{P_{gauge}}{\\rho g})} = \\sqrt{\\frac{2P_{gauge}}{\\rho}}$. <br>Given: <br>Gauge pressure $P_{gauge} = 4 \\times 10^5 \\text{ N/m}^2$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>The velocity of the water flow is: <br>$v = \\sqrt{\\frac{2(4 \\times 10^5)}{1000}} = \\sqrt{\\frac{8 \\times 10^5}{10^3}} = \\sqrt{8 \\times 10^2} = \\sqrt{800} \\approx 28.28$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The pressure of water inside the closed pipe is $3 \\times 10^5 \\text{ N/m}^2$. This pressure reduces to $2 \\times 10^5 \\text{ N/m}^2$ on opening the valve of the pipe. Calculate the speed of water flowing through the pipe. (Density of water = 1000 kg/m$^3$).",
+    "answer": "This problem is based on Bernoulli's principle. For a fluid flowing through a horizontal pipe, the total energy per unit volume is constant: $P + \\frac{1}{2}\\rho v^2 = \\text{constant}$. Before the valve is opened, the velocity is zero, so the initial pressure is the total pressure. <br>Given: <br>Initial pressure $P_{initial} = 3 \\times 10^5 \\text{ N/m}^2$. <br>Final pressure $P_{final} = 2 \\times 10^5 \\text{ N/m}^2$. <br>Initial velocity $v_{initial} = 0$ m/s. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>Applying Bernoulli's principle between the initial and final states: <br>$P_{initial} + \\frac{1}{2}\\rho v_{initial}^2 = P_{final} + \\frac{1}{2}\\rho v_{final}^2$. <br>$3 \\times 10^5 + 0 = 2 \\times 10^5 + \\frac{1}{2}(1000)v_{final}^2$. <br>$(3-2) \\times 10^5 = 500 v_{final}^2$. <br>$1 \\times 10^5 = 500 v_{final}^2$. <br>$v_{final}^2 = \\frac{100000}{500} = 200$. <br>$v_{final} = \\sqrt{200} = 10\\sqrt{2} \\approx 14.14$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the rise of water inside a clean glass capillary tube of radius 0.1 mm, when immersed in water of surface tension $7 \\times 10^{-2} \\text{ N/m}$. The angle of contact between water and glass is zero, density of water = 1000 kg/m$^3$, $g = 9.8 \\text{ m/s}^2$.",
+    "answer": "The height of capillary rise is given by the formula $h = \\frac{2T\\cos\\theta}{\\rho rg}$, where $T$ is the surface tension, $\\theta$ is the angle of contact, $\\rho$ is the density of the liquid, $r$ is the radius of the capillary tube, and $g$ is the acceleration due to gravity. <br>Given: <br>Radius of tube $r = 0.1$ mm $= 0.1 \\times 10^{-3}$ m $= 10^{-4}$ m. <br>Surface tension $T = 7 \\times 10^{-2} \\text{ N/m}$. <br>Angle of contact $\\theta = 0^\\circ$, so $\\cos\\theta = 1$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>The height of the water rise is: <br>$h = \\frac{2(7 \\times 10^{-2})(1)}{(1000)(10^{-4})(9.8)} = \\frac{14 \\times 10^{-2}}{9.8 \\times 10^{-1}} = \\frac{1.4 \\times 10^{-1}}{9.8 \\times 10^{-1}} = \\frac{1.4}{9.8} \\approx 0.1428$ m $= 14.28$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) An air bubble of radius 0.2 mm is situated just below the water surface. Calculate the gauge pressure. Surface tension of water = $7.2 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The excess pressure inside a spherical bubble in a liquid (or a liquid drop) is given by the formula $\\Delta P = \\frac{2T}{r}$, where $T$ is the surface tension and $r$ is the radius. This is the gauge pressure relative to the outside pressure. <br>Given: <br>Radius of air bubble $r = 0.2$ mm $= 0.2 \\times 10^{-3}$ m $= 2 \\times 10^{-4}$ m. <br>Surface tension $T = 7.2 \\times 10^{-2} \\text{ N/m}$. <br>The gauge pressure is: <br>$\\Delta P = \\frac{2(7.2 \\times 10^{-2})}{2 \\times 10^{-4}} = \\frac{7.2 \\times 10^{-2}}{10^{-4}} = 7.2 \\times 10^2 = 720$ Pa.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Twenty seven droplets of water, each of radius 0.1 mm coalesce into a single drop. Find the change in surface energy. Surface tension of water is $0.072 \\text{ N/m}$.",
+    "answer": "The change in surface energy is the difference between the final surface energy and the initial surface energy. We need to find the radius of the single large drop. The total volume remains constant during coalescence. <br>Given: <br>Number of droplets $n=27$. <br>Radius of each small droplet $r = 0.1$ mm $= 10^{-4}$ m. <br>Surface tension $T = 0.072 \\text{ N/m}$. <br>Volume of one small droplet $V = \\frac{4}{3}\\pi r^3$. <br>Total initial volume is $n \\times V = 27 \\times \\frac{4}{3}\\pi r^3$. <br>Let the radius of the large drop be $R$. Its volume is $\\frac{4}{3}\\pi R^3$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 27 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 27r^3 \\implies R = 3r = 3(0.1 \\times 10^{-3}) = 0.3 \\times 10^{-3}$ m. <br>Initial surface energy $E_{initial} = n \\times T \\times A_{small} = 27 \\times T \\times (4\\pi r^2) = 27(0.072)(4\\pi)(10^{-4})^2 \\approx 2.44 \\times 10^{-7}$ J. <br>Final surface energy $E_{final} = T \\times A_{large} = T(4\\pi R^2) = 0.072(4\\pi)(3 \\times 10^{-4})^2 \\approx 8.14 \\times 10^{-8}$ J. <br>Change in surface energy $\\Delta E = E_{final} - E_{initial} \\approx 8.14 \\times 10^{-8} - 2.44 \\times 10^{-7} = -1.628 \\times 10^{-7}$ J. <br>The magnitude of the change is $1.628 \\times 10^{-7}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A drop of mercury of radius 0.2 cm is broken into 8 droplets of the same size. Find the work done if the surface tension of mercury is 435.5 dyne/cm.",
+    "answer": "This problem is the reverse of the previous one. We are breaking a large drop into smaller droplets, so work is done on the system. The total volume remains constant. <br>Given: <br>Radius of large drop $R = 0.2$ cm. <br>Number of droplets $n=8$. <br>Surface tension $T = 435.5$ dyne/cm. <br>Let the radius of the small droplets be $r$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 8 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 8r^3 \\implies R = 2r$. <br>$r = R/2 = 0.2/2 = 0.1$ cm. <br>Initial surface area $A_{initial} = 4\\pi R^2 = 4\\pi(0.2)^2 = 0.16\\pi$ cm$^2$. <br>Final surface area $A_{final} = 8 \\times 4\\pi r^2 = 32\\pi(0.1)^2 = 0.32\\pi$ cm$^2$. <br>Change in surface area $\\Delta A = A_{final} - A_{initial} = 0.32\\pi - 0.16\\pi = 0.16\\pi$ cm$^2$. <br>Work done is $W = T \\times \\Delta A = 435.5 \\times 0.16\\pi = 69.68\\pi \\approx 218.89$ ergs. <br>Since $1 \\text{ erg} = 10^{-7}$ J, $W = 218.89 \\times 10^{-7}$ J, which is $2.1889 \\times 10^{-5}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) How much work is required to form a bubble of 2 cm radius from a soap solution having surface tension 0.07 N/m.",
+    "answer": "The work required to form a soap bubble is the energy needed to create two free surfaces. The work done is given by $W = T \\times (\\text{final area} - \\text{initial area})$. We assume the initial area is zero. <br>Given: <br>Radius of bubble $r = 2$ cm $= 0.02$ m. <br>Surface tension of soap solution $T = 0.07$ N/m. <br>The area of a soap bubble is $2 \\times 4\\pi r^2 = 8\\pi r^2$. <br>Work done is $W = T \\times (8\\pi r^2) = 0.07 \\times 8\\pi (0.02)^2 = 0.56\\pi (0.0004) = 0.000224\\pi \\approx 7.037 \\times 10^{-4}$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A rectangular wire frame of size 2 cm $\\times$ 2 cm, is dipped in a soap solution and taken out. A soap film is formed, if the size of the film is changed to 3 cm $\\times$ 3 cm, calculate the work done in the process. The surface tension of soap film is $3 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The work done is equal to the change in surface energy, which is the surface tension times the change in total surface area. A soap film has two free surfaces. <br>Given: <br>Initial dimensions: $2$ cm $\\times 2$ cm. <br>Final dimensions: $3$ cm $\\times 3$ cm. <br>Surface tension $T = 3 \\times 10^{-2} \\text{ N/m}$. <br>Initial area of film $A_{initial} = 2 \\times (2 \\text{ cm} \\times 2 \\text{ cm}) = 8 \\text{ cm}^2 = 8 \\times 10^{-4} \\text{ m}^2$. <br>Final area of film $A_{final} = 2 \\times (3 \\text{ cm} \\times 3 \\text{ cm}) = 18 \\text{ cm}^2 = 18 \\times 10^{-4} \\text{ m}^2$. <br>Change in total surface area $\\Delta A = A_{final} - A_{initial} = 18 \\times 10^{-4} - 8 \\times 10^{-4} = 10 \\times 10^{-4} = 10^{-3} \\text{ m}^2$. <br>Work done is $W = T \\times \\Delta A = (3 \\times 10^{-2}) \\times (10^{-3}) = 3 \\times 10^{-5}$ J.",
+    "marks": 3
   }
 ]

@@ -1,0 +1,68 @@
+[
+  {
+    "type": "mcq",
+    "text": "The equation of the line parallel to the Y-axis and at a distance of 5 units to its left is:",
+    "options": [
+      "x = 5",
+      "x = -5",
+      "y = 5",
+      "y = -5"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The slope of the line passing through the points A(2, 3) and B(4, 7) is:",
+    "options": [
+      "2",
+      "1/2",
+      "-2",
+      "-1/2"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The equation of the line with slope 3 and y-intercept -2 is:",
+    "options": [
+      "y = 3x + 2",
+      "y = 3x - 2",
+      "y = -2x + 3",
+      "y = -2x - 3"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the slope of the line whose inclination is $60^\\circ$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The slope (m) of a line is given by $m = \\tan\\theta$, where $\\theta$ is the inclination.<br>Step 2: Given $\\theta = 60^\\circ$.<br>Step 3: $m = \\tan(60^\\circ) = \\sqrt{3}$.<br><strong>Final Answer:</strong> The slope is $\\sqrt{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the equation of the line passing through the point (2, 5) and parallel to the X-axis.",
+    "answer": "<strong>Solution:</strong><br>Step 1: A line parallel to the X-axis has the equation $y = k$, where k is a constant.<br>Step 2: Since the line passes through the point (2, 5), the y-coordinate must be 5.<br>Step 3: Therefore, $k=5$.<br><strong>Final Answer:</strong> The equation of the line is $y=5$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the distance between the parallel lines $3x + 4y - 20 = 0$ and $6x + 8y + 1 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Make the coefficients of x and y the same. Divide the second equation by 2: $3x + 4y + 1/2 = 0$.<br>Step 2: The lines are now in the form $Ax+By+C_1=0$ and $Ax+By+C_2=0$. Here, $C_1 = -20$ and $C_2 = 1/2$.<br>Step 3: The distance between parallel lines is given by the formula $d = \\frac{|C_1 - C_2|}{\\sqrt{A^2+B^2}}$.<br>Step 4: $d = \\frac{|-20 - 1/2|}{\\sqrt{3^2+4^2}} = \\frac{|-41/2|}{\\sqrt{25}} = \\frac{41/2}{5} = \\frac{41}{10}$.<br><strong>Final Answer:</strong> The distance is 4.1 units.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the equation of the line passing through the point of intersection of lines $x+y-2=0$ and $2x-3y+4=0$ and having slope 3.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Solve the two equations to find the point of intersection. Multiply the first equation by 3: $3x+3y-6=0$.<br>Step 2: Add this to the second equation: $(3x+3y-6) + (2x-3y+4) = 0 \\implies 5x-2=0 \\implies x=2/5$.<br>Step 3: Substitute x back into $x+y-2=0$: $2/5 + y - 2 = 0 \\implies y = 2 - 2/5 = 8/5$.<br>Step 4: The point of intersection is $(2/5, 8/5)$.<br>Step 5: Use the point-slope form of a line: $y-y_1 = m(x-x_1)$.<br>$y - 8/5 = 3(x - 2/5)$.<br>Step 6: Simplify: $y - 8/5 = 3x - 6/5$. Multiply by 5: $5y - 8 = 15x - 6$.<br><strong>Final Answer:</strong> The equation is $15x - 5y + 2 = 0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the equation of the line passing through the origin and perpendicular to the line $3x+2y-5=0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Find the slope of the given line. Rearrange to $y = -\\frac{3}{2}x + \\frac{5}{2}$. The slope is $m_1 = -3/2$.<br>Step 2: The slope of a line perpendicular to it is the negative reciprocal, $m_2 = -1/m_1 = -1/(-3/2) = 2/3$.<br>Step 3: The required line passes through the origin (0,0) and has a slope of 2/3.<br>Step 4: Use the point-slope form: $y-0 = \\frac{2}{3}(x-0)$.<br>Step 5: Simplify: $y = \\frac{2}{3}x \\implies 3y = 2x$.<br><strong>Final Answer:</strong> The equation is $2x - 3y = 0$.",
+    "marks": 3
+  }
+]

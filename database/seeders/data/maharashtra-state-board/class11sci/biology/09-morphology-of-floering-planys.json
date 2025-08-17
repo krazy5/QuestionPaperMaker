@@ -1,0 +1,67 @@
+[
+  {
+    "type": "mcq",
+    "text": "A modified stem that protects the plant from grazing animals is...",
+    "options": ["Thorn", "Tendril", "Phylloclade", "Bulbil"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The root system that develops from the radicle is called...",
+    "options": ["Adventitious root system", "Tap root system", "Fibrous root system", "Prop root system"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The arrangement of flowers on the floral axis is known as...",
+    "options": ["Phyllotaxy", "Aestivation", "Inflorescence", "Placentation"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a syncarpous flower, the carpels are...",
+    "options": ["Free", "Fused", "Absent", "Arranged spirally"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is phyllotaxy?",
+    "answer": "<strong>Phyllotaxy:</strong><br>Phyllotaxy is the pattern of arrangement of leaves on the stem or a branch of a plant. The three main types of phyllotaxy are alternate, opposite, and whorled.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define venation.",
+    "answer": "<strong>Venation:</strong><br>Venation is the arrangement of veins and veinlets in the lamina (leaf blade) of a leaf. The two principal types of venation are reticulate venation (found in dicots) and parallel venation (found in monocots).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a flower?",
+    "answer": "<strong>Flower:</strong><br>A flower is a highly modified and condensed reproductive shoot of an angiosperm plant. It is specialized to carry out sexual reproduction and eventually develops into a fruit containing seeds.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the different types of root modifications.",
+    "answer": "<strong>Root Modifications:</strong><br>Roots are modified to perform functions other than absorption and anchorage. Some major modifications are:<br>1. <strong>For Food Storage:</strong> Roots become swollen and fleshy. Examples include conical roots (Carrot), fusiform roots (Radish), and napiform roots (Turnip).<br>2. <strong>For Support:</strong> These provide additional mechanical support. Examples include prop roots (Banyan tree) which grow vertically downwards from branches, and stilt roots (Maize, Sugarcane) which arise from the lower nodes of the stem.<br>3. <strong>For Respiration:</strong> In marshy areas, some plants develop specialized roots called pneumatophores that grow vertically upwards (negatively geotropic) to get oxygen. Example: Rhizophora.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between Racemose and Cymose inflorescence.",
+    "answer": "<strong>Difference between Racemose and Cymose Inflorescence:</strong><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr style='background-color: #f2f2f2;'><th style='padding: 8px;'>Feature</th><th style='padding: 8px;'>Racemose Inflorescence</th><th style='padding: 8px;'>Cymose Inflorescence</th></tr></thead><tbody><tr><td style='padding: 8px;'><strong>Main Axis</strong></td><td style='padding: 8px;'>The main axis has indefinite growth and does not terminate in a flower.</td><td style='padding: 8px;'>The main axis has limited growth and terminates in a flower.</td></tr><tr><td style='padding: 8px;'><strong>Arrangement of Flowers</strong></td><td style='padding: 8px;'>Flowers are arranged in an acropetal succession (older flowers at the base, younger ones at the apex).</td><td style='padding: 8px;'>Flowers are arranged in a basipetal succession (older flower at the apex, younger ones at the base).</td></tr><tr><td style='padding: 8px;'><strong>Opening of Flowers</strong></td><td style='padding: 8px;'>Centripetal (from periphery to the center).</td><td style='padding: 8px;'>Centrifugal (from center to the periphery).</td></tr><tr><td style='padding: 8px;'><strong>Example</strong></td><td style='padding: 8px;'>Mustard, Radish.</td><td style='padding: 8px;'>Jasmine, Hibiscus.</td></tr></tbody></table>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat and labelled diagram of a typical flower.",
+    "image": "typical-flower-labelled-diagram.png",
+    "answer": "<strong>Diagram of a Typical Flower:</strong><br>The diagram should show the four main whorls and their parts clearly labelled:<br><ul><li><strong>Calyx:</strong> Composed of sepals (the outermost green leaves).</li><li><strong>Corolla:</strong> Composed of petals (usually brightly colored).</li><li><strong>Androecium (Stamen):</strong> The male reproductive part, consisting of the anther and filament.</li><li><strong>Gynoecium (Pistil/Carpel):</strong> The female reproductive part, consisting of the stigma, style, and ovary.</li><li>Other labels should include the <strong>pedicel</strong> (stalk) and <strong>thalamus</strong> (receptacle).</li></ul>",
+    "marks": 4
+  }
+]

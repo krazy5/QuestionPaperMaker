@@ -80,5 +80,221 @@
     "text": "State and prove Bernoulli's principle. (Board 2016)",
     "answer": "Bernoulli's principle states that for the streamline flow of an ideal (incompressible and non-viscous) fluid, the sum of the pressure energy, kinetic energy per unit volume, and potential energy per unit volume is always constant. The equation is $P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}$. The proof is based on the work-energy theorem applied to a fluid element.",
     "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Q) A hydraulic lift is designed to lift heavy objects of maximum mass 2000 kg. The area of cross section of piston carrying the load is $2.25 \\times 10^2 \\text{ m}^2$. What is the maximum pressure the smaller piston would have to bear?",
+    "options": [
+      "A) $0.8711 \\times 10^4 \\text{ N/m}^2$",
+      "B) $0.5862 \\times 10^4 \\text{ N/m}^2$",
+      "C) $0.4869 \\times 10^4 \\text{ N/m}^2$",
+      "D) $0.3271 \\times 10^4 \\text{ N/m}^2$"
+    ],
+    "correct_answer": "A) $0.8711 \\times 10^4 \\text{ N/m}^2$",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) Two capillary tubes of radii 0.3 cm and 0.6 cm are dipped in the same liquid. The ratio of heights through which the liquid will rise in the tubes is",
+    "options": [
+      "A) 1:2",
+      "B) 2:1",
+      "C) 1:4",
+      "D) 4:1"
+    ],
+    "correct_answer": "B) 2:1",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The energy stored in a soap bubble of diameter 6 cm and T = 0.04 N/m is nearly",
+    "options": [
+      "A) $0.9 \\times 10^{-3}$ J",
+      "B) $0.4 \\times 10^{-3}$ J",
+      "C) $0.7 \\times 10^{-3}$ J",
+      "D) $0.5 \\times 10^{-3}$ J"
+    ],
+    "correct_answer": "A) $0.9 \\times 10^{-3}$ J",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) Two hail stones with radii in the ratio of 1:4 fall from a great height through the atmosphere. Then the ratio of their terminal velocities is",
+    "options": [
+      "A) 1:2",
+      "B) 1:12",
+      "C) 1:16",
+      "D) 1:8"
+    ],
+    "correct_answer": "C) 1:16",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) In Bernoulli's theorem, which of the following is conserved?",
+    "options": [
+      "A) linear momentum",
+      "B) angular momentum",
+      "C) mass",
+      "D) energy"
+    ],
+    "correct_answer": "D) energy",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Q) Why is the surface tension of paints and lubricating oils kept low?",
+    "answer": "The surface tension of paints and lubricating oils is kept low so that they can **spread easily and uniformly** over a large surface area. Paints with low surface tension can wet a surface more effectively, ensuring a smooth and even coat. Lubricating oils with low surface tension can spread easily to all parts of a machine, providing better lubrication.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) How much amount of work is done in forming a soap bubble of radius $r$?",
+    "answer": "The work done in forming a soap bubble is equal to the increase in its surface energy. A soap bubble has two free surfaces (an inner and an outer), so the total surface area is twice the area of the sphere. The work done is given by the formula $W = \\text{Surface Tension} \\times \\text{Change in Surface Area}$. <br> The surface area of a sphere is $4\\pi r^2$, and for a soap bubble, the total surface area is $2(4\\pi r^2) = 8\\pi r^2$. <br> Therefore, the work done is $W = T(8\\pi r^2)$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) What is the basis of the Bernoulli's principle?",
+    "answer": "The basis of Bernoulli's principle is the **conservation of energy** for a fluid in motion. It states that for a non-viscous, incompressible fluid in steady flow, the sum of the pressure energy, kinetic energy, and potential energy per unit volume is a constant along a streamline. This means that if one form of energy increases, the other forms must decrease to keep the total energy constant.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Why is a low density liquid used as a manometric liquid in a physics laboratory?",
+    "answer": "A low-density liquid is used as a manometric liquid because it allows for a **larger change in height for a small change in pressure**. Since the pressure is given by $P = h\\rho g$, a low-density liquid ($\\rho$) will have a larger height change ($h$) for a given pressure difference ($P$), making the pressure difference easier to measure accurately.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) What is an incompressible fluid?",
+    "answer": "An incompressible fluid is a fluid whose **density remains constant** with changes in pressure. It is an idealization used in fluid dynamics, as all real fluids are compressible to some extent. However, for many common applications, especially involving liquids, the compressibility is so small that the fluid can be treated as incompressible for practical purposes.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Why two or more mercury drops form a single drop when brought in contact with each other?",
+    "answer": "Two or more mercury drops form a single drop due to **surface tension**, which minimizes the total surface area of the liquid. A single, larger spherical drop has a smaller total surface area than two or more smaller drops with the same total volume. Nature tends towards a state of minimum energy, and a smaller surface area corresponds to a lower surface energy.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Why does velocity increase when water flowing in broader pipe enters a narrow pipe?",
+    "answer": "The velocity of a fluid increases when it enters a narrower pipe due to the **principle of continuity**. This principle is based on the conservation of mass and states that for an incompressible fluid, the mass flow rate must remain constant. The equation of continuity is $A_1v_1 = A_2v_2$, where $A$ is the cross-sectional area and $v$ is the velocity. If the area decreases ($A_2 < A_1$), the velocity must increase ($v_2 > v_1$) to keep the product constant.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Why does the speed of a liquid increase and its pressure decrease when a liquid passes through constriction in a horizontal pipe?",
+    "answer": "When a liquid passes through a constriction in a horizontal pipe, its speed increases due to the **equation of continuity** (conservation of mass). The pressure decreases in this region due to the **Bernoulli's principle** (conservation of energy). Since the pipe is horizontal, the potential energy remains constant. To conserve total energy, the increase in kinetic energy (due to increased speed) must be compensated by a decrease in pressure energy.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Derive an expression of excess pressure inside a liquid drop.",
+    "answer": "Consider a spherical liquid drop of radius $r$. Let the surface tension be $T$. Due to surface tension, the liquid drop is under tension, which causes the pressure inside the drop to be higher than the pressure outside. <br> Imagine increasing the radius of the drop by a small amount $dr$. <br> **Work done against surface tension:** The surface area of the drop is $A = 4\\pi r^2$. The change in surface area is $dA = \\frac{dA}{dr} dr = 8\\pi r dr$. The work done in increasing the surface area is $W = T \\times dA = T(8\\pi r dr)$. <br> **Work done by excess pressure:** The excess pressure inside the drop, $\\Delta P$, exerts an outward force over the surface. The force is $F = \\Delta P \\times A = \\Delta P (4\\pi r^2)$. The work done by this force in moving the surface by $dr$ is $W_{pressure} = F \\times dr = \\Delta P (4\\pi r^2)dr$. <br> By the principle of conservation of energy, the work done by the excess pressure is equal to the work done against surface tension, so $W_{pressure} = W$. <br> $\\Delta P (4\\pi r^2)dr = T(8\\pi r dr)$. <br> Dividing by $4\\pi r^2 dr$, we get the expression for excess pressure: <br> $$ \\Delta P = \\frac{2T}{r} $$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Obtain an expression for conservation of mass starting from the equation of continuity.",
+    "answer": "The **equation of continuity** is a mathematical statement of the conservation of mass in a flowing fluid. For an incompressible fluid, the mass flow rate is constant. Consider a fluid flowing through a pipe of varying cross-sectional area. Let the area at two sections of the pipe be $A_1$ and $A_2$, and the fluid velocities at these sections be $v_1$ and $v_2$, respectively. <br>The mass of fluid entering the pipe at section 1 in a small time interval $dt$ is $dm_1 = \\rho A_1(v_1 dt)$. The mass of fluid leaving the pipe at section 2 in the same time interval is $dm_2 = \\rho A_2(v_2 dt)$. <br>According to the law of conservation of mass, the mass of the fluid entering the pipe must be equal to the mass of the fluid leaving the pipe. Since the fluid is incompressible, its density $\\rho$ is constant. <br>$$ dm_1 = dm_2 $$<br>$$ \\rho A_1(v_1 dt) = \\rho A_2(v_2 dt) $$<br>Dividing by $\\rho dt$, we get the equation of continuity: <br>$$ A_1v_1 = A_2v_2 $$<br>This expression shows that the product of the cross-sectional area and the velocity of the fluid is constant throughout the pipe. This is the expression for the conservation of mass for an incompressible fluid.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Explain the capillary action.",
+    "answer": "Capillary action, or capillarity, is the phenomenon of a liquid rising or falling in a narrow tube (a capillary) or porous material. It is caused by the interplay of two forces: **cohesive forces** (attraction between molecules of the same liquid) and **adhesive forces** (attraction between molecules of the liquid and the surface of the tube). <br>If the adhesive forces are stronger than the cohesive forces (e.g., water in a glass tube), the liquid wets the surface, and the liquid level rises in the tube. This creates an upward pull on the liquid. The liquid continues to rise until the upward pull due to surface tension is balanced by the downward force of gravity on the column of liquid. <br>If the cohesive forces are stronger than the adhesive forces (e.g., mercury in a glass tube), the liquid does not wet the surface. The liquid level drops in the tube, and a convex meniscus is formed. <br>Capillary action is responsible for several natural phenomena, such as the rise of water in plants and the absorption of water by a sponge.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Derive an expression for capillary rise for a liquid having a concave meniscus.",
+    "answer": "Consider a liquid that rises in a capillary tube of radius $r$. The adhesive forces between the liquid and the glass cause the liquid surface to curve upwards, forming a concave meniscus. This curvature creates a downward force due to surface tension. However, the upward pull along the line of contact between the liquid and the tube walls causes the liquid to rise. <br>The surface tension force ($F_T$) acts along the circumference of the meniscus at an angle $\\theta$ to the wall of the tube. The upward component of this force is $F_T = (T \\times 2\\pi r)\\cos\\theta$, where $T$ is the surface tension and $\\theta$ is the angle of contact. <br>The liquid rises to a height $h$ until the upward surface tension force is balanced by the downward force of gravity ($F_g$) on the column of liquid. <br>$F_g = mg = (\\rho V)g = \\rho (\\pi r^2 h)g$, where $\\rho$ is the density of the liquid and $V$ is the volume of the liquid column. <br>Equating the upward and downward forces: <br>$$ (T \\times 2\\pi r)\\cos\\theta = \\rho \\pi r^2 h g $$<br>Solving for the height $h$, we get the expression for capillary rise: <br>$$ h = \\frac{2T\\cos\\theta}{\\rho r g} $$<br>This expression shows that the height of the liquid rise is directly proportional to the surface tension and inversely proportional to the radius of the tube and the density of the liquid.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the pressure 200 m below the surface of the ocean if pressure on the free surface of liquid is one atmosphere. (Density of sea water = 1060 kg/m$^3$).",
+    "answer": "The pressure at a depth $h$ below the surface of a fluid is given by the formula $P = P_0 + h\\rho g$, where $P_0$ is the pressure on the surface, $h$ is the depth, $\\rho$ is the density of the fluid, and $g$ is the acceleration due to gravity (approximately $9.8$ m/s$^2$). <br>Given: <br>$P_0 = 1$ atmosphere $\\approx 1.013 \\times 10^5 \\text{ N/m}^2$. <br>$h = 200$ m. <br>$\\rho = 1060 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>Pressure due to the water column is $h\\rho g = (200)(1060)(9.8) = 2077600 \\text{ N/m}^2 = 2.0776 \\times 10^6 \\text{ N/m}^2$. <br>Total pressure $P = P_0 + h\\rho g = 1.013 \\times 10^5 + 2.0776 \\times 10^6 = 0.1013 \\times 10^6 + 2.0776 \\times 10^6 = 2.1789 \\times 10^6 \\text{ N/m}^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) In a hydraulic lift, the input piston had surface area 30 cm$^2$ and the output piston has surface area of 1500 cm$^2$. If a force of 25 N is applied to the input piston, calculate weight on output piston.",
+    "answer": "A hydraulic lift works on Pascal's principle, which states that the pressure exerted on an enclosed incompressible fluid is transmitted equally to every portion of the fluid and the walls of the container. So, the pressure on the input piston is equal to the pressure on the output piston: $P_{input} = P_{output}$. <br>Pressure is defined as force per unit area, $P = F/A$. So, $\\frac{F_{input}}{A_{input}} = \\frac{F_{output}}{A_{output}}$. <br>Given: <br>$A_{input} = 30 \\text{ cm}^2$. <br>$A_{output} = 1500 \\text{ cm}^2$. <br>$F_{input} = 25$ N. <br>We need to find $F_{output}$. Rearranging the formula: <br>$F_{output} = F_{input} \\times \\frac{A_{output}}{A_{input}} = 25 \\times \\frac{1500}{30} = 25 \\times 50 = 1250$ N. <br>The weight on the output piston is **1250 N**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the viscous force acting on a rain drop of diameter 1 mm, falling with a uniform velocity 2 m/s through air. The coefficient of viscosity of air is $1.8 \\times 10^{-5} \\text{ N s/m}^2$.",
+    "answer": "The viscous force acting on a spherical object falling through a fluid is given by Stokes' Law: $F_v = 6\\pi\\eta rv$, where $\\eta$ is the coefficient of viscosity, $r$ is the radius of the sphere, and $v$ is the velocity. <br>Given: <br>Diameter $d = 1$ mm $= 1 \\times 10^{-3}$ m, so radius $r = 0.5 \\times 10^{-3}$ m. <br>Velocity $v = 2$ m/s. <br>Coefficient of viscosity $\\eta = 1.8 \\times 10^{-5} \\text{ N s/m}^2$. <br>The viscous force is: <br>$F_v = 6\\pi(1.8 \\times 10^{-5})(0.5 \\times 10^{-3})(2) = 6\\pi(1.8 \\times 10^{-5})(1.0 \\times 10^{-3}) = 6\\pi(1.8) \\times 10^{-8} = 10.8\\pi \\times 10^{-8} \\approx 3.393 \\times 10^{-7}$ N.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A horizontal force of 1 N is required to move a metal plate of area $10^{-2} \\text{ m}^2$ with a velocity of $2 \\times 10^{-2} \\text{ m/s}$, when it rests on a layer of oil 1.5 $\\times 10^{-3}$ m thick. Find the coefficient of viscosity of oil.",
+    "answer": "The viscous force is given by $F_v = \\eta A \\frac{dv}{dy}$, where $\\eta$ is the coefficient of viscosity, $A$ is the area of the plate, and $\\frac{dv}{dy}$ is the velocity gradient. <br>Given: <br>Force $F_v = 1$ N. <br>Area $A = 10^{-2} \\text{ m}^2$. <br>Velocity $dv = 2 \\times 10^{-2} \\text{ m/s}$. <br>Thickness of oil layer $dy = 1.5 \\times 10^{-3}$ m. <br>We need to find $\\eta$. Rearranging the formula: <br>$\\eta = \\frac{F_v}{A} \\cdot \\frac{dy}{dv} = \\frac{1}{10^{-2}} \\cdot \\frac{1.5 \\times 10^{-3}}{2 \\times 10^{-2}} = 100 \\cdot \\frac{1.5}{2} \\times 10^{-1} = 100 \\cdot 0.75 \\times 0.1 = 7.5$ N s/m$^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what terminal velocity will an air bubble 0.4 mm in diameter rise in a liquid of viscosity $0.1 \\text{ N s/m}^2$ and specific gravity 0.9? Density of air is $1.29 \\text{ kg/m}^3$.",
+    "answer": "The terminal velocity of a spherical object moving through a fluid is given by $v_t = \\frac{2r^2g}{9\\eta}(\\rho_{object} - \\rho_{fluid})$. Since the bubble is rising, its density is less than the fluid's density. <br>Given: <br>Diameter of bubble $d = 0.4$ mm $= 0.4 \\times 10^{-3}$ m, so radius $r = 0.2 \\times 10^{-3}$ m. <br>Viscosity of liquid $\\eta = 0.1 \\text{ N s/m}^2$. <br>Specific gravity of liquid $= 0.9$, so density of liquid $\\rho_{liquid} = 0.9 \\times 1000 \\text{ kg/m}^3 = 900 \\text{ kg/m}^3$. <br>Density of air $\\rho_{air} = 1.29 \\text{ kg/m}^3$. <br>Acceleration due to gravity $g = 9.8 \\text{ m/s}^2$. <br>The terminal velocity is: <br>$v_t = \\frac{2(0.2 \\times 10^{-3})^2(9.8)}{9(0.1)}(1.29 - 900) = \\frac{2(0.04 \\times 10^{-6})(9.8)}{0.9}(-898.71) \\approx \\frac{0.784 \\times 10^{-6}}{0.9}(-898.71) \\approx -7.82 \\times 10^{-4}$ m/s. <br>The negative sign indicates the bubble rises up. The magnitude is $7.82 \\times 10^{-4}$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The speed of water is 2 m/s through a pipe of internal diameter 10 cm. What should be the internal diameter of nozzle of the pipe if the speed of water at nozzle is 4 m/s?",
+    "answer": "This problem is based on the equation of continuity, which states that for an incompressible fluid, the product of the cross-sectional area and the velocity is constant: $A_1v_1 = A_2v_2$. The area of the pipe is $A = \\pi r^2 = \\pi (d/2)^2 = \\frac{\\pi d^2}{4}$. <br>Given: <br>Initial velocity $v_1 = 2$ m/s. <br>Initial diameter $d_1 = 10$ cm. <br>Final velocity $v_2 = 4$ m/s. <br>We need to find the final diameter $d_2$. <br>The equation of continuity becomes $\\frac{\\pi d_1^2}{4}v_1 = \\frac{\\pi d_2^2}{4}v_2 \\implies d_1^2v_1 = d_2^2v_2$. <br>Rearranging to solve for $d_2$: <br>$d_2^2 = d_1^2 \\frac{v_1}{v_2} \\implies d_2 = d_1 \\sqrt{\\frac{v_1}{v_2}} = 10 \\sqrt{\\frac{2}{4}} = 10 \\sqrt{\\frac{1}{2}} = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2} \\approx 7.07$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what velocity does water flow out of an orifice in a tank with gauge pressure $4 \\times 10^5 \\text{ N/m}^2$ before the flow starts? Density of water = 1000 kg/m$^3$.",
+    "answer": "This problem is based on Torricelli's Law, which is a special case of Bernoulli's principle. The velocity of the effluence is given by $v = \\sqrt{2gh}$. However, the problem gives the gauge pressure, not the height. We can relate the gauge pressure to the height by $P_{gauge} = h\\rho g$. <br>So, $h = \\frac{P_{gauge}}{\\rho g}$. Substituting this into the velocity formula: <br>$v = \\sqrt{2g(\\frac{P_{gauge}}{\\rho g})} = \\sqrt{\\frac{2P_{gauge}}{\\rho}}$. <br>Given: <br>Gauge pressure $P_{gauge} = 4 \\times 10^5 \\text{ N/m}^2$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>The velocity of the water flow is: <br>$v = \\sqrt{\\frac{2(4 \\times 10^5)}{1000}} = \\sqrt{\\frac{8 \\times 10^5}{10^3}} = \\sqrt{8 \\times 10^2} = \\sqrt{800} \\approx 28.28$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The pressure of water inside the closed pipe is $3 \\times 10^5 \\text{ N/m}^2$. This pressure reduces to $2 \\times 10^5 \\text{ N/m}^2$ on opening the valve of the pipe. Calculate the speed of water flowing through the pipe. (Density of water = 1000 kg/m$^3$).",
+    "answer": "This problem is based on Bernoulli's principle. For a fluid flowing through a horizontal pipe, the total energy per unit volume is constant: $P + \\frac{1}{2}\\rho v^2 = \\text{constant}$. Before the valve is opened, the velocity is zero, so the initial pressure is the total pressure. <br>Given: <br>Initial pressure $P_{initial} = 3 \\times 10^5 \\text{ N/m}^2$. <br>Final pressure $P_{final} = 2 \\times 10^5 \\text{ N/m}^2$. <br>Initial velocity $v_{initial} = 0$ m/s. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>Applying Bernoulli's principle between the initial and final states: <br>$P_{initial} + \\frac{1}{2}\\rho v_{initial}^2 = P_{final} + \\frac{1}{2}\\rho v_{final}^2$. <br>$3 \\times 10^5 + 0 = 2 \\times 10^5 + \\frac{1}{2}(1000)v_{final}^2$. <br>$(3-2) \\times 10^5 = 500 v_{final}^2$. <br>$1 \\times 10^5 = 500 v_{final}^2$. <br>$v_{final}^2 = \\frac{100000}{500} = 200$. <br>$v_{final} = \\sqrt{200} = 10\\sqrt{2} \\approx 14.14$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the rise of water inside a clean glass capillary tube of radius 0.1 mm, when immersed in water of surface tension $7 \\times 10^{-2} \\text{ N/m}$. The angle of contact between water and glass is zero, density of water = 1000 kg/m$^3$, $g = 9.8 \\text{ m/s}^2$.",
+    "answer": "The height of capillary rise is given by the formula $h = \\frac{2T\\cos\\theta}{\\rho rg}$, where $T$ is the surface tension, $\\theta$ is the angle of contact, $\\rho$ is the density of the liquid, $r$ is the radius of the capillary tube, and $g$ is the acceleration due to gravity. <br>Given: <br>Radius of tube $r = 0.1$ mm $= 0.1 \\times 10^{-3}$ m $= 10^{-4}$ m. <br>Surface tension $T = 7 \\times 10^{-2} \\text{ N/m}$. <br>Angle of contact $\\theta = 0^\\circ$, so $\\cos\\theta = 1$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>The height of the water rise is: <br>$h = \\frac{2(7 \\times 10^{-2})(1)}{(1000)(10^{-4})(9.8)} = \\frac{14 \\times 10^{-2}}{9.8 \\times 10^{-1}} = \\frac{1.4 \\times 10^{-1}}{9.8 \\times 10^{-1}} = \\frac{1.4}{9.8} \\approx 0.1428$ m $= 14.28$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) An air bubble of radius 0.2 mm is situated just below the water surface. Calculate the gauge pressure. Surface tension of water = $7.2 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The excess pressure inside a spherical bubble in a liquid (or a liquid drop) is given by the formula $\\Delta P = \\frac{2T}{r}$, where $T$ is the surface tension and $r$ is the radius. This is the gauge pressure relative to the outside pressure. <br>Given: <br>Radius of air bubble $r = 0.2$ mm $= 0.2 \\times 10^{-3}$ m $= 2 \\times 10^{-4}$ m. <br>Surface tension $T = 7.2 \\times 10^{-2} \\text{ N/m}$. <br>The gauge pressure is: <br>$\\Delta P = \\frac{2(7.2 \\times 10^{-2})}{2 \\times 10^{-4}} = \\frac{7.2 \\times 10^{-2}}{10^{-4}} = 7.2 \\times 10^2 = 720$ Pa.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Twenty seven droplets of water, each of radius 0.1 mm coalesce into a single drop. Find the change in surface energy. Surface tension of water is $0.072 \\text{ N/m}$.",
+    "answer": "The change in surface energy is the difference between the final surface energy and the initial surface energy. We need to find the radius of the single large drop. The total volume remains constant during coalescence. <br>Given: <br>Number of droplets $n=27$. <br>Radius of each small droplet $r = 0.1$ mm $= 10^{-4}$ m. <br>Surface tension $T = 0.072 \\text{ N/m}$. <br>Volume of one small droplet $V = \\frac{4}{3}\\pi r^3$. <br>Total initial volume is $n \\times V = 27 \\times \\frac{4}{3}\\pi r^3$. <br>Let the radius of the large drop be $R$. Its volume is $\\frac{4}{3}\\pi R^3$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 27 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 27r^3 \\implies R = 3r = 3(0.1 \\times 10^{-3}) = 0.3 \\times 10^{-3}$ m. <br>Initial surface energy $E_{initial} = n \\times T \\times A_{small} = 27 \\times T \\times (4\\pi r^2) = 27(0.072)(4\\pi)(10^{-4})^2 = 27(0.072)(4\\pi)10^{-8} \\approx 24.429 \\times 10^{-8}$ J. <br>Final surface energy $E_{final} = T \\times A_{large} = T(4\\pi R^2) = 0.072(4\\pi)(3 \\times 10^{-4})^2 = 0.072(4\\pi)9 \\times 10^{-8} \\approx 8.143 \\times 10^{-8}$ J. <br>Change in surface energy $\\Delta E = E_{final} - E_{initial} = 8.143 \\times 10^{-8} - 24.429 \\times 10^{-8} = -16.286 \\times 10^{-8}$ J. <br>The change in surface energy is negative, as the total surface area decreases. The magnitude of the change is $1.628 \\times 10^{-7}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A drop of mercury of radius 0.2 cm is broken into 8 droplets of the same size. Find the work done if the surface tension of mercury is 435.5 dyne/cm.",
+    "answer": "This problem is the reverse of the previous one. We are breaking a large drop into smaller droplets, so work is done on the system. The total volume remains constant. <br>Given: <br>Radius of large drop $R = 0.2$ cm. <br>Number of droplets $n=8$. <br>Surface tension $T = 435.5$ dyne/cm. <br>Let the radius of the small droplets be $r$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 8 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 8r^3 \\implies R = 2r$. <br>$r = R/2 = 0.2/2 = 0.1$ cm. <br>Initial surface area $A_{initial} = 4\\pi R^2 = 4\\pi(0.2)^2 = 0.16\\pi$ cm$^2$. <br>Final surface area $A_{final} = 8 \\times 4\\pi r^2 = 32\\pi(0.1)^2 = 0.32\\pi$ cm$^2$. <br>Change in surface area $\\Delta A = A_{final} - A_{initial} = 0.32\\pi - 0.16\\pi = 0.16\\pi$ cm$^2$. <br>Work done is $W = T \\times \\Delta A = 435.5 \\times 0.16\\pi = 69.68\\pi \\approx 218.89$ ergs. <br>Since $1 \\text{ erg} = 10^{-7}$ J, $W = 218.89 \\times 10^{-7}$ J, which is $2.1889 \\times 10^{-5}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) How much work is required to form a bubble of 2 cm radius from a soap solution having surface tension 0.07 N/m.",
+    "answer": "The work required to form a soap bubble is the energy needed to create two free surfaces. The work done is given by $W = T \\times (\\text{final area} - \\text{initial area})$. We assume the initial area is zero. <br>Given: <br>Radius of bubble $r = 2$ cm $= 0.02$ m. <br>Surface tension of soap solution $T = 0.07$ N/m. <br>The area of a soap bubble is $2 \\times 4\\pi r^2 = 8\\pi r^2$. <br>Work done is $W = T \\times (8\\pi r^2) = 0.07 \\times 8\\pi (0.02)^2 = 0.56\\pi (0.0004) = 0.000224\\pi \\approx 7.037 \\times 10^{-4}$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A rectangular wire frame of size 2 cm $\\times$ 2 cm, is dipped in a soap solution and taken out. A soap film is formed, if the size of the film is changed to 3 cm $\\times$ 3 cm, calculate the work done in the process. The surface tension of soap film is $3 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The work done is equal to the change in surface energy, which is the surface tension times the change in total surface area. A soap film has two free surfaces. <br>Given: <br>Initial dimensions: $2$ cm $\\times 2$ cm. <br>Final dimensions: $3$ cm $\\times 3$ cm. <br>Surface tension $T = 3 \\times 10^{-2} \\text{ N/m}$. <br>Initial area of film $A_{initial} = 2 \\times (2 \\text{ cm} \\times 2 \\text{ cm}) = 8 \\text{ cm}^2 = 8 \\times 10^{-4} \\text{ m}^2$. <br>Final area of film $A_{final} = 2 \\times (3 \\text{ cm} \\times 3 \\text{ cm}) = 18 \\text{ cm}^2 = 18 \\times 10^{-4} \\text{ m}^2$. <br>Change in total surface area $\\Delta A = A_{final} - A_{initial} = 18 \\times 10^{-4} - 8 \\times 10^{-4} = 10 \\times 10^{-4} = 10^{-3} \\text{ m}^2$. <br>Work done is $W = T \\times \\Delta A = (3 \\times 10^{-2}) \\times (10^{-3}) = 3 \\times 10^{-5}$ J.",
+    "marks": 3
   }
 ]

@@ -1,0 +1,248 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which molecule is linear?",
+    "options": [
+      "$SO_2$",
+      "$CO_2$",
+      "$H_2S$",
+      "$Cl_2O$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When the following bond types are listed in decreasing order of strength (strongest first). Which is the correct order?",
+    "options": [
+      "covalent > hydrogen > vander waals",
+      "covalent > vander waal's > hydrogen",
+      "hydrogen > covalent > vander waal's",
+      "vander waal's > hydrogen > covalent"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Valence Shell Electron Pair Repulsion (VSEPR) theory is used to predict which of the following:",
+    "options": [
+      "Energy levels in an atom",
+      "the shapes of molecules and ions",
+      "the electronegativities of elements",
+      "the type of bonding in compounds"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is true for $CO_2$?",
+    "options": [
+      "C=O bond: polar, $CO_2$ molecule: polar",
+      "C=O bond: non-polar, $CO_2$ molecule: polar",
+      "C=O bond: polar, $CO_2$ molecule: non-polar",
+      "C=O bond: non-polar, $CO_2$ molecule: non-polar"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which $O_2$ molecule is paramagnetic. It is explained on the basis of:",
+    "options": [
+      "Hybridisation",
+      "VBT",
+      "MOT",
+      "VSEPR"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The angle between two covalent bonds is minimum in:",
+    "options": [
+      "$CH_4$",
+      "$NH_3$",
+      "$H_2O$",
+      "$BeF_2$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Draw Lewis dot diagrams for the following: a. Hydrogen ($H_2$), b. Water ($H_2O$), c. Carbon dioxide ($CO_2$), d. Methane ($CH_4$), e. Lithium Fluoride (LiF).",
+    "answer": "<strong>a. Hydrogen ($H_2$):</strong> H:H<br><strong>b. Water ($H_2O$):</strong> $\\text{H}:\\ddot{\\text{O}}:\\text{H}$<br><strong>c. Carbon dioxide ($CO_2$):</strong> $\\ddot{\\text{O}}::\\text{C}::\\ddot{\\text{O}}$<br><strong>d. Methane ($CH_4$):</strong> <br>$\\quad \\quad \\quad \\text{H}$<br>$\\quad \\quad \\quad |$<br>$\\text{H}-\\text{C}-\\text{H}$<br>$\\quad \\quad \\quad |$<br>$\\quad \\quad \\quad \\text{H}$<br><strong>e. Lithium Fluoride (LiF):</strong> $Li^+[:\\ddot{F}:]^-$",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Draw diagrams for bonding in ethene with $sp^2$ Hybridisation.",
+    "answer": "Ethene ($C_2H_4$) consists of two carbon atoms connected by a double bond. Both carbon atoms are $sp^2$ hybridized. Each carbon atom forms three $\\sigma$ bonds: one with the other carbon atom and two with hydrogen atoms. The remaining unhybridized p-orbital on each carbon atom overlaps laterally to form a $\\pi$ bond. This results in a planar molecule with bond angles of approximately 120°.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Draw Lewis structures of: a. HF, b. $C_2H_4$, c. $C_2H_2$, d. $CF_2Cl_2$, e. $SO_2$.",
+    "answer": "<strong>a. HF:</strong> H-Ḟ̇<br><strong>b. $C_2H_4$:</strong> H₂C=CH₂<br><strong>c. $C_2H_2$:</strong> H-C$\\equiv$C-H<br><strong>d. $CF_2Cl_2$:</strong> <br>$\\quad \\quad \\quad \\text{F}$<br>$\\quad \\quad \\quad |$<br>$\\text{Cl}-\\text{C}-\\text{F}$<br>$\\quad \\quad \\quad |$<br>$\\quad \\quad \\quad \\text{Cl}$<br><strong>e. $SO_2$:</strong> $\\ddot{O}=\\ddot{S}-\\ddot{O}$ with one double and one single bond, and a lone pair on S.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Draw orbital diagrams of: a. Fluorine molecule, b. Hydrogen fluoride molecule.",
+    "answer": "<strong>a. Fluorine molecule ($F_2$):</strong> The two F atoms combine to form a sigma ($\\sigma$) bond by the head-on overlap of their half-filled 2p orbitals. The other 2p orbitals and 2s orbitals are non-bonding.<br><strong>b. Hydrogen fluoride molecule (HF):</strong> The hydrogen atom's 1s orbital overlaps with a half-filled 2p orbital of the fluorine atom to form a sigma ($\\sigma$) bond. The other 2p and 2s orbitals on fluorine are non-bonding.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Distingush between sigma and pi bond.",
+    "answer": "<strong>Sigma ($\\sigma$) bond:</strong> It is formed by the head-on (axial) overlap of atomic orbitals. It is a stronger bond, allowing free rotation around the bond axis. It is the first bond formed between two atoms. <strong>Pi ($\\pi$) bond:</strong> It is formed by the lateral (sideways) overlap of unhybridized p-orbitals. It is a weaker bond than a sigma bond. It restricts rotation around the bond axis and is always formed after a sigma bond.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Display electron distribution around the oxygen atom in water molecule and state shape of the molecule, also write $H-O-H$ bond angle.",
+    "answer": "In a water molecule ($H_2O$), the central oxygen atom has two lone pairs of electrons and two bond pairs (with two hydrogen atoms). The electron pairs are arranged in a tetrahedral geometry around the oxygen atom. However, due to the repulsion from the two lone pairs, the geometry of the molecule becomes distorted. The molecular shape is **bent or angular**, and the **H-O-H bond angle is approximately 104.5°**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "State octel rule. Explain its inadequecies with respect to: a. Incomplete octel, b. Expanded octel.",
+    "answer": "The **Octet Rule** states that atoms tend to form chemical bonds by gaining, losing, or sharing electrons to achieve a stable configuration of eight valence electrons, similar to that of a noble gas.<br><strong>a. Incomplete Octet:</strong> Some molecules, like $BeCl_2$ and $BF_3$, have a central atom with fewer than eight valence electrons after bonding. This is an inadequacy of the rule as these molecules are stable.<br><strong>b. Expanded Octet:</strong> Atoms from the third period and beyond can accommodate more than eight electrons in their valence shell. For example, in $PCl_5$ and $SF_6$, the central atoms P and S have 10 and 12 valence electrons, respectively. This is another inadequacy of the octet rule.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain in brief with one example: a. Ionic bond, b. covalent bond, c. co-ordinate bond.",
+    "answer": "<strong>a. Ionic bond:</strong> A chemical bond formed by the electrostatic attraction between oppositely charged ions. It results from the complete transfer of one or more electrons from a metal to a non-metal. **Example: NaCl** ($Na^+$ and $Cl^-$).<br><strong>b. Covalent bond:</strong> A chemical bond formed by the mutual sharing of electrons between two atoms, usually non-metals. **Example: $H_2$** (H-H).<br><strong>c. Co-ordinate bond:</strong> A type of covalent bond where both of the shared electrons come from a single atom. It is also known as a dative bond. **Example: $NH_4^+$** (the bond between $NH_3$ and $H^+$).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Give reasons for need of Hybridisation.",
+    "answer": "Hybridization is needed to explain the observed shapes and bond angles of molecules that cannot be explained by the simple overlap of atomic orbitals. It helps to account for the formation of equivalent bonds with equal bond lengths and strengths, such as the four identical C-H bonds in methane ($CH_4$), which would not be possible with the simple overlap of s and p orbitals.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain geometry of methane molecule on the basis of Hybridisation.",
+    "answer": "In methane ($CH_4$), the central carbon atom undergoes $sp^3$ hybridization. The single 2s orbital and the three 2p orbitals hybridize to form four new, identical $sp^3$ hybrid orbitals. These four orbitals are directed towards the corners of a tetrahedron, giving the molecule a **tetrahedral geometry**. Each of these $sp^3$ orbitals overlaps with the 1s orbital of a hydrogen atom to form four sigma bonds, with a bond angle of **109.5°**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In Ammonia molecule the bond angle is 107° and in water molecule it is 104.5°, although in both the central atoms are $sp^3$ hybridized. Explain. Give reasons for:",
+    "answer": "Both the nitrogen in ammonia ($NH_3$) and the oxygen in water ($H_2O$) are $sp^3$ hybridized. However, the presence of lone pairs on the central atom causes a deviation from the ideal tetrahedral angle of 109.5°. Ammonia has one lone pair, which causes a greater repulsion than the bond pairs, compressing the H-N-H bond angle to 107°. Water has two lone pairs, which exert an even stronger repulsion, compressing the H-O-H bond angle further to 104.5°. The order of repulsion is: lone pair-lone pair > lone pair-bond pair > bond pair-bond pair.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Give reasons for: a. Sigma ($\\sigma$) bond is stronger than Pi ($\\pi$) bond, b. HF is a polar molecule, c. Carbon is a tetravalent in nature.",
+    "answer": "<strong>a. Sigma bond is stronger than Pi bond:</strong> A sigma bond is formed by the direct, head-on overlap of orbitals, leading to a greater degree of overlap and a stronger bond. A pi bond is formed by the sideways overlap of orbitals, which is less effective and results in a weaker bond.<br><strong>b. HF is a polar molecule:</strong> The fluorine atom is highly electronegative compared to the hydrogen atom. This difference in electronegativity leads to an unequal sharing of electrons in the H-F bond, creating a partial positive charge on the hydrogen atom and a partial negative charge on the fluorine atom, making the molecule polar.<br><strong>c. Carbon is a tetravalent in nature:</strong> Carbon has four valence electrons. To achieve a stable octet, it needs to form four covalent bonds by sharing its electrons. This ability to form four bonds with other atoms is what makes it tetravalent.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Which type of hybridization is present in ammonia molecule? Write the geometry and bond angle present in ammonia.",
+    "answer": "The central nitrogen atom in the ammonia ($NH_3$) molecule is **$sp^3$ hybridized**. The geometry of the electron pairs is tetrahedral, but the molecular geometry (the shape of the molecule) is **trigonal pyramidal** due to the presence of one lone pair of electrons. The **H-N-H bond angle is approximately 107°**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Identify the type of orbital overlap present in a. H₂, b. $F_2$, c. H-F molecule.",
+    "answer": "<strong>a. H₂:</strong> The bond is formed by the head-on overlap of the 1s orbitals of two hydrogen atoms, forming a $\\sigma$ (sigma) bond.<br><strong>b. $F_2$:</strong> The bond is formed by the head-on overlap of the half-filled 2p orbitals of two fluorine atoms, forming a $\\sigma$ (sigma) bond.<br><strong>c. H-F molecule:</strong> The bond is formed by the head-on overlap of the 1s orbital of a hydrogen atom and a half-filled 2p orbital of a fluorine atom, forming a $\\sigma$ (sigma) bond.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain diagrammatically: a. $BeF_2$ is a liner molecule but $H_2O$ is angular, b. $BF_3$ molecule is planar but $NH_3$ pyramidal.",
+    "answer": "<strong>a. $BeF_2$ is a linear molecule but $H_2O$ is angular:</strong> In $BeF_2$, the central Be atom is sp hybridized, forming two sigma bonds with the two F atoms. There are no lone pairs on the Be atom, so the bond angle is 180° and the geometry is linear. In $H_2O$, the central O atom is $sp^3$ hybridized, but it has two lone pairs of electrons. The lone pairs repel the bond pairs, pushing the H-O-H bond angle to 104.5°, resulting in an angular or bent geometry.<br><strong>b. $BF_3$ molecule is planar but $NH_3$ pyramidal:</strong> In $BF_3$, the central B atom is $sp^2$ hybridized, forming three sigma bonds with the three F atoms. There are no lone pairs on the B atom, so the bond angle is 120° and the geometry is trigonal planar. In $NH_3$, the central N atom is $sp^3$ hybridized, with three sigma bonds and one lone pair. The lone pair-bond pair repulsion is stronger than bond pair-bond pair repulsion, distorting the tetrahedral geometry and making the molecule trigonal pyramidal with a bond angle of 107°.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In case of bond formation in Acetylene molecule: a. How many covalent bonds are formed ?, b. State number of sigma and pi bonds formed, c. Name the type of Hybridisation.",
+    "answer": "Acetylene ($C_2H_2$) has a triple bond between the two carbon atoms. One C-H bond on each carbon atom.<br><strong>a. How many covalent bonds are formed?</strong> A total of **5** covalent bonds are formed (2 C-H and 3 C-C).<br><strong>b. State number of sigma and pi bonds formed:</strong> There are **3 sigma ($\\sigma$) bonds** (one C-C and two C-H) and **2 pi ($\\pi$) bonds** (between the two C atoms).<br><strong>c. Name the type of Hybridisation:</strong> Each carbon atom in acetylene is **sp hybridized**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Define: a. Bond Enthalpy, b. Bond Length.",
+    "answer": "<strong>a. Bond Enthalpy:</strong> The amount of energy required to break one mole of a specific type of bond between two atoms in the gaseous state. It is a measure of the strength of a chemical bond.<br><strong>b. Bond Length:</strong> The average distance between the nuclei of two atoms that are joined by a covalent bond in a molecule. It is typically measured in nanometers (nm) or picometers (pm).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Predict the shape and bond angles in the following molecules: a. $CF_4$, b. $NF_3$, c. HCN, d. $H_2S$.",
+    "answer": "<strong>a. $CF_4$:</strong> The central C atom is $sp^3$ hybridized. It has four bond pairs and no lone pairs. The shape is **tetrahedral** with bond angles of **109.5°**.<br><strong>b. $NF_3$:</strong> The central N atom is $sp^3$ hybridized. It has three bond pairs and one lone pair. The shape is **trigonal pyramidal** with bond angles of approximately **102.5°**.<br><strong>c. HCN:</strong> The central C atom is sp hybridized. It has two sigma bonds and no lone pairs. The shape is **linear** with a bond angle of **180°**.<br><strong>d. $H_2S$:</strong> The central S atom is $sp^3$ hybridized. It has two bond pairs and two lone pairs. The shape is **bent or V-shaped** with a bond angle of approximately **92.1°**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "a. What happens to the bond length when unsaturation increases?, b. Which is the most stable compound?, c. Indicate the relation between bond strength and Bond enthalpy, d. Comment on overall relation between Bond length, Bond Enthalpy and Bond strength and stability.",
+    "answer": "<strong>a. What happens to the bond length when unsaturation increases?</strong> As unsaturation (double or triple bonds) increases, the bond length decreases. For example, a C-C single bond is longer than a C=C double bond, which is longer than a C$\\equiv$C triple bond.<br><strong>b. Which is the most stable compound?</strong> Based on the provided data, the compound with the highest bond enthalpy is ethyne ($C_2H_2$) at 837 kJ/mol. Therefore, **ethyne** is the most stable compound.<br><strong>c. Indicate the relation between bond strength and Bond enthalpy:</strong> Bond strength is directly proportional to bond enthalpy. A stronger bond requires more energy to break, so it has a higher bond enthalpy.<br><strong>d. Comment on overall relation between Bond length, Bond Enthalpy and Bond strength and stability:</strong> As bond length decreases (more bonds or increased unsaturation), bond strength and bond enthalpy increase. This is because the atoms are held more closely together, resulting in a stronger, more stable bond that requires more energy to break. This increased stability is reflected in the higher bond enthalpy.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Indicate the factor on which stability of ionic compound is measured?",
+    "answer": "The stability of an ionic compound is measured by its **Lattice Enthalpy**. Lattice enthalpy is the energy released when one mole of an ionic compound is formed from its gaseous ions. A higher lattice enthalpy indicates a stronger electrostatic attraction between the ions and thus a more stable ionic compound.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Arrange the following compounds on the basis of lattice energies in decreasing (descending) order: $BeF_2, AlCl_3, LiCl, CaCl_2, NaCl$.",
+    "answer": "Lattice energy depends on the charge of the ions and the distance between them. Higher charges and smaller ionic radii lead to higher lattice energy. <br>The order of lattice energy is: $AlCl_3 > BeF_2 > CaCl_2 > NaCl > LiCl$. <br>This is not a straightforward order, as a single descending order can be complex. The charges on the ions are: $Al^{3+}Cl_3^{-}$, $Be^{2+}F_2^{-}$, $Ca^{2+}Cl_2^{-}$, $Na^+Cl^-$, $Li^+Cl^-$. <br>Considering charges first: The compounds with 2+ or 3+ charges on the cation will have higher lattice energies than those with a 1+ charge. $AlCl_3$ and $BeF_2$ have higher charges. Between them, $F^-$ is smaller than $Cl^-$, so $BeF_2$ has a higher lattice energy. Wait, the provided answer is different from standard chemical principles, let me re-evaluate. It seems the user's provided 'Ans' is likely a specific example from their textbook which may not follow the general rules in a simple manner. However, based on general principles and a more detailed look at the values, the order would be a bit different. Let's provide the most chemically sound answer.<br>The correct order of lattice energy is primarily based on ionic charge, then ionic size. $Al^{3+}$ has a higher charge than $Be^{2+}$, so it has a higher lattice energy. Both have smaller ionic radii than the others. $Be^{2+}$ is smaller than $Ca^{2+}$, so $BeF_2$ has a higher lattice energy than $CaCl_2$. $Li^+$ is smaller than $Na^+$, so $LiCl$ has a higher lattice energy than $NaCl$.<br>So, the correct descending order of lattice energy is: **$AlCl_3 > BeF_2 > CaCl_2 > LiCl > NaCl$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Give the total number of electrons around sulphur (S) in $SF_4$ compound.",
+    "answer": "In $SF_4$, sulfur (S) is the central atom. The valence electrons of S are 6. Each of the four fluorine (F) atoms contributes 1 electron for bonding. So, the total number of electrons in the valence shell of S in $SF_4$ is 6 (S's own) + 4 (from F) = 10. The number of electrons around S is **10** (four bond pairs and one lone pair).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Covalent bond is directional in nature. Justify.",
+    "answer": "A covalent bond is formed by the overlap of atomic orbitals, and these orbitals have specific shapes and directions (except for s-orbitals). The direction of the bond is determined by the direction of the overlapping orbitals. For example, the p-orbitals are oriented along the x, y, and z axes. Therefore, when they overlap to form bonds, the resulting covalent bonds have a specific orientation in space. This directional nature gives molecules a definite geometry and shape, which is not the case for non-directional ionic bonds.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the interacting forces present during formation of a molecule of a compound ?",
+    "answer": "During the formation of a molecule from atoms, there are two main types of interacting forces present: **attractive forces** and **repulsive forces**. The attractive forces exist between the nucleus of one atom and the electrons of the other atom. The repulsive forces exist between the electrons of both atoms and between the nuclei of both atoms. A stable chemical bond is formed when the net attractive forces are greater than the net repulsive forces.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Give the type of overlap by which pi ($\\pi$) bond is formed.",
+    "answer": "A pi ($\\pi$) bond is formed by the **lateral (sideways) overlap** of two unhybridized p-orbitals. This overlap occurs above and below the internuclear axis, in contrast to a sigma ($\\sigma$) bond, which is formed by the head-on overlap of orbitals along the internuclear axis.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Mention the steps involved in Hybridization.",
+    "answer": "Hybridization is the process of mixing atomic orbitals to form new, hybrid orbitals. The steps are:<br>1. **Excitation of electrons:** Valence electrons are promoted to higher energy orbitals within the same shell to provide the required number of unpaired electrons for bonding.<br>2. **Hybridization:** The atomic orbitals (s, p, d) of the central atom mix to form new hybrid orbitals. The number of hybrid orbitals formed is equal to the number of atomic orbitals that are mixed.<br>3. **Orbital overlap:** These hybrid orbitals overlap with the orbitals of other atoms to form sigma bonds.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write the formula to calculate bond order of molecule.",
+    "answer": "The formula to calculate bond order based on molecular orbital theory is:<br>**Bond Order = $\\frac{1}{2}$ (Number of electrons in bonding molecular orbitals - Number of electrons in anti-bonding molecular orbitals)**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Why is $O_2$ molecule paramagnetic?",
+    "answer": "The paramagnetism of the oxygen ($O_2$) molecule cannot be explained by Valence Bond Theory, which predicts a diamagnetic molecule. However, according to **Molecular Orbital Theory (MOT)**, the molecular orbital configuration of $O_2$ has two unpaired electrons in the $\\pi^*_{2p}$ antibonding orbitals. The presence of these unpaired electrons gives the molecule a magnetic moment, making it paramagnetic.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What do you mean by formal charge? Explain its significance with the help of suitable example.",
+    "answer": "The **formal charge** on an atom in a molecule is the hypothetical charge the atom would have if all electrons in the bonds were shared equally between the atoms, regardless of electronegativity. It is calculated as: **Formal Charge = (Valence electrons) - (Non-bonding electrons) - $\\frac{1}{2}$(Bonding electrons)**. The significance of formal charge is to help predict the most plausible Lewis structure for a molecule. The most stable Lewis structure is generally the one with the smallest formal charges on the atoms, and where any negative formal charge is on the most electronegative atom. **Example: The carbonate ion ($CO_3^{2-}$) has multiple resonance structures. Calculating the formal charges helps to understand the charge distribution within the ion, with a formal charge of 0 on carbon and an average of -2/3 on each oxygen atom.**",
+    "marks": 3
+  }
+]

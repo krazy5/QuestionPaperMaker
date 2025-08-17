@@ -14,6 +14,8 @@ use App\Http\Controllers\Admin\InstituteController;
 use App\Http\Controllers\Institute\PaperController;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\Admin\PaperBlueprintController;
+use App\Http\Controllers\Institute\PaperBlueprintController as InstituteBlueprintController; // The Institute one with an alias
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -98,11 +100,19 @@ Route::middleware(['auth', 'role:institute'])->prefix('institute')->name('instit
 
 
     // ADD THESE TWO NEW ROUTES FOR INSTANT SAVING
-    Route::post('/papers/{paper}/questions/{question}/attach', [PaperController::class, 'attachQuestion'])->name('papers.questions.attach');
-    Route::post('/papers/{paper}/questions/{question}/detach', [PaperController::class, 'detachQuestion'])->name('papers.questions.detach');
+   // TO (in web.php):
+Route::post('/papers/{paper}/questions/attach', [PaperController::class, 'attachQuestion'])->name('papers.questions.attach');
+Route::post('/papers/{paper}/questions/detach', [PaperController::class, 'detachQuestion'])->name('papers.questions.detach');
      
+    Route::resource('blueprints', InstituteBlueprintController::class);
+Route::resource('papers', PaperController::class);
     Route::get('/papers/{paper}/fulfill-blueprint', [PaperController::class, 'fulfillBlueprint'])->name('papers.fulfill_blueprint');
 Route::post('/papers/{paper}/auto-fill', [PaperController::class, 'autoFillBlueprint'])->name('papers.auto_fill');
+
+ Route::post('/blueprints/{blueprint}/sections', [InstituteBlueprintController::class, 'storeSection'])->name('blueprints.sections.store');
+    Route::post('/blueprints/sections/{section}/rules', [InstituteBlueprintController::class, 'storeRule'])->name('blueprints.sections.rules.store');
+// ✅ ADD THIS NEW ROUTE
+    Route::post('/papers/create-from-blueprint/{blueprint}', [PaperController::class, 'createFromBlueprint'])->name('papers.createFromBlueprint');
 
 });
 

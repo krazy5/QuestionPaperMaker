@@ -158,5 +158,228 @@
     "text": "Obtain an expression for maximum safety speed with which a vehicle can be safely driven along a curved banked road. (Board 2018)",
     "answer": "The maximum safety speed on a banked road is given by the formula $v_{max} = \\sqrt{rg(\\frac{\\mu_s + \\tan\\theta}{1 - \\mu_s\\tan\\theta})}$, where r is the radius, g is acceleration due to gravity, $\\mu_s$ is the coefficient of static friction, and $\\theta$ is the angle of banking.",
     "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Q) When seen from below, the blades of a ceiling fan are seen to be revolving anticlockwise and their speed is decreasing. Select correct statement about the directions of its angular velocity and angular acceleration.",
+    "options": [
+      "A) Angular velocity upwards, angular acceleration downwards.",
+      "B) Angular velocity downwards, angular acceleration upwards.",
+      "C) Both, angular velocity and angular acceleration, upwards.",
+      "D) Both, angular velocity and angular acceleration, downwards."
+    ],
+    "correct_answer": "A) Angular velocity upwards, angular acceleration downwards.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) A particle of mass 1 kg, tied to a 1.2 m long string is whirled to perform vertical circular motion, under gravity. Minimum speed of a particle is $5 \\sqrt{5}$ m/s. Consider following statements. <br> P) Maximum speed must be $5\\sqrt{5}$ m/s. <br> Q) Difference between maximum and minimum tensions along the string is 60 N. Select correct option.",
+    "options": [
+      "A) Only the statement P is correct.",
+      "B) Only the statement Q is correct.",
+      "C) Both the statements are correct.",
+      "D) Both the statements are incorrect."
+    ],
+    "correct_answer": "D) Both the statements are incorrect.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) Select correct statement about the formula (expression) of moment of inertia (M.I.) in terms of mass M of the object and some of its distance parameter/s, such as R, L, etc.",
+    "options": [
+      "A) Different objects must have different expressions for their M.I.",
+      "B) When rotating about their central axis, a hollow right circular cone and a disc have the same expression for the M.I.",
+      "C) Expression for the M.I. for a parallelepiped rotating about the transverse axis passing through its centre includes its depth.",
+      "D) Expression for M.I. of a rod and that of a plane sheet is the same about a transverse axis."
+    ],
+    "correct_answer": "C) Expression for the M.I. for a parallelepiped rotating about the transverse axis passing through its centre includes its depth.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) In a certain unit, the radius of gyration of a uniform disc about its central and transverse axis is $\\sqrt{2.5}$. Its radius of gyration about a tangent in its plane (in the same unit) must be",
+    "options": [
+      "A) $\\sqrt{5}$",
+      "B) 2.5",
+      "C) $2\\sqrt{2.5}$",
+      "D) $\\sqrt{12.5}$"
+    ],
+    "correct_answer": "D) $\\sqrt{12.5}$",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) Consider following cases: <br> P) A planet revolving in an elliptical orbit. <br> Q) A planet revolving in a circular orbit. <br> Principle of conservation of angular momentum comes in force in which of these?",
+    "options": [
+      "A) Only P is correct.",
+      "B) Only Q is correct.",
+      "C) Both P and Q are correct.",
+      "D) Both P and Q are incorrect."
+    ],
+    "correct_answer": "C) Both P and Q are correct.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) What can you infer if a uniform ring and a uniform disc have the same radius of gyration?",
+    "options": [
+      "A) Only for (P)",
+      "B) Only for (Q)",
+      "C) For both, (P) and (Q)",
+      "D) Neither for (P), nor for (Q)"
+    ],
+    "correct_answer": "A) Only for (P)",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) A thin walled hollow cylinder is rolling down an incline, without slipping. At any instant, the ratio 'Rotational K.E. : Translational K.E.' Total K.E.' is",
+    "options": [
+      "A) 1:1:2",
+      "B) 1:2:3",
+      "C) 1:1:1",
+      "D) 2:1:3"
+    ],
+    "correct_answer": "B) 1:2:3",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Q) Why are curved roads banked?",
+    "answer": "Curved roads are banked to provide the necessary **centripetal force** for vehicles to turn without skidding. The horizontal component of the normal force, along with the frictional force, provides this force. Banking allows vehicles to take a turn at a higher speed and reduces the dependency on friction.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Do we need a banked road for a two-wheeler? Explain.",
+    "answer": "No, a banked road is not strictly necessary for a two-wheeler, as they can achieve the same effect by **leaning into the turn**. The normal force on a leaning two-wheeler is tilted, and its horizontal component provides the necessary centripetal force for the turn.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) On what factors does the frequency of a conical pendulum depend? Is it independent of some factors?",
+    "answer": "The frequency of a conical pendulum depends on the **length of the string, the angle it makes with the vertical, and the acceleration due to gravity**. It is independent of the mass of the bob. The formula for frequency is given by $f = \\frac{1}{2\\pi}\\sqrt{\\frac{g}{L\\cos\\theta}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Why is it useful to define radius of gyration?",
+    "answer": "The **radius of gyration ($k$)** is a measure of how the mass of a rigid body is distributed around a given axis of rotation. It simplifies the calculation of the moment of inertia, as $I=Mk^2$. It is useful because it allows us to analyze the rotational motion of a complex object as if its entire mass were concentrated at a single point, a distance $k$ from the axis.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) A uniform disc and a hollow right circular cone have the same formula for their M.I., when rotating about their central axes. Why is it so? <br>While driving along an unbanked circular road, a two-wheeler rider has to lean with the vertical. Why is it so? With what angle the rider has to lean? Derive the relevant expression. Why such a leaning is not necessary for a four wheeler?",
+    "answer": "A uniform disc and a hollow right circular cone have different mass distributions. The moment of inertia of a uniform disc about an axis passing through its center and perpendicular to its plane is $I = \\frac{1}{2}MR^2$. The moment of inertia of a hollow right circular cone about its central axis is $I = \\frac{1}{2}MR^2$. While the shape and mass distribution are different, the expressions for their moment of inertia happen to be the same because of a cancellation effect in the integration to find the moment of inertia for the cone. <br><br>When a two-wheeler rider takes an unbanked circular turn, they must lean inwards to generate the necessary **centripetal force**. This force is provided by the horizontal component of the normal reaction force. By leaning, the rider shifts their center of gravity, which creates a torque that helps maintain balance while turning. <br><br>The angle of leaning, $\\theta$, is determined by the balance of forces and torques. The centripetal force required is $F_c = \\frac{mv^2}{r}$, and this force is provided by the horizontal component of the normal force, $N\\sin\\theta$. The vertical component, $N\\cos\\theta$, balances the weight of the rider, $mg$. So, $N\\sin\\theta = \\frac{mv^2}{r}$ and $N\\cos\\theta = mg$. Dividing these two equations gives $\\tan\\theta = \\frac{v^2}{rg}$. This is the relevant expression for the leaning angle. <br><br>A four-wheeler does not need to lean because its four wheels and wider base provide a more stable support. The necessary centripetal force is provided by the frictional force between the tires and the road. Leaning would actually be detrimental to the vehicle's stability.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Using the energy conservation, derive the expressions for the minimum speeds at different locations along a vertical circular motion controlled by gravity. Is zero speed possible at the uppermost point? Under what condition/s? Also prove that the difference between the extreme tensions (or normal forces) depends only upon the weight of the object.",
+    "answer": "Let's consider a particle of mass $m$ moving in a vertical circle of radius $r$. Let the speed at the lowest point be $v_L$ and at the highest point be $v_H$. We take the lowest point as the reference for potential energy ($PE=0$).<br>By **conservation of energy**, the total energy (Kinetic Energy + Potential Energy) is constant. So, $KE_L + PE_L = KE_H + PE_H$.<br>$\\frac{1}{2}mv_L^2 + 0 = \\frac{1}{2}mv_H^2 + mg(2r)$. This gives $v_L^2 = v_H^2 + 4gr$.<br>At the highest point, for the particle to complete the circle, the tension $T_H$ and gravity $mg$ must provide the necessary centripetal force. So, $T_H + mg = \\frac{mv_H^2}{r}$. The minimum speed at the highest point occurs when $T_H=0$, so $mg = \\frac{mv_{H(min)}^2}{r} \\implies v_{H(min)} = \\sqrt{gr}$. <br>The minimum speed at the lowest point is then found by substituting $v_{H(min)}$ into the energy equation: $v_{L(min)}^2 = (\\sqrt{gr})^2 + 4gr = 5gr \\implies v_{L(min)} = \\sqrt{5gr}$.<br>Zero speed is **not possible** at the uppermost point for the particle to complete the circle, because the minimum speed required is $\\sqrt{gr}$. The only way for the speed to be zero is if the object is tied to a rigid rod instead of a string. In that case, the rod can push the object downwards, and a zero speed is possible at the top. <br>Now, let's prove the difference between tensions. <br>At the lowest point, the tension $T_L$ and gravity are in opposite directions. So, $T_L - mg = \\frac{mv_L^2}{r} \\implies T_L = mg + \\frac{mv_L^2}{r}$. <br>At the highest point, we have $T_H + mg = \\frac{mv_H^2}{r} \\implies T_H = \\frac{mv_H^2}{r} - mg$. <br>The difference in tensions is $T_L - T_H = (mg + \\frac{mv_L^2}{r}) - (\\frac{mv_H^2}{r} - mg) = 2mg + \\frac{m}{r}(v_L^2-v_H^2)$. <br>From the conservation of energy, $v_L^2 - v_H^2 = 4gr$. Substituting this in: $T_L - T_H = 2mg + \\frac{m}{r}(4gr) = 2mg + 4mg = 6mg$. <br>This result, **$6mg$**, depends only on the mass of the object and the acceleration due to gravity, which is the object's weight. Therefore, the difference between the extreme tensions depends only on the weight of the object.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Discuss the necessity of radius of gyration. Define it. On what factors does it depend and it does not depend? Can you locate some similarity between the centre of mass and radius of gyration?",
+    "answer": "The **necessity of the radius of gyration** is to simplify calculations involving the moment of inertia. Instead of integrating over the entire mass distribution of an object, we can treat the object's mass as a point mass, located at a specific distance from the axis of rotation, and use the simple formula $I=Mk^2$. This is particularly useful in mechanics for comparing the rotational inertias of different objects. <br><br>**Definition**: The radius of gyration ($k$) of a body about a given axis is the perpendicular distance from the axis of rotation to an imaginary point where the entire mass of the body is assumed to be concentrated so that it has the same moment of inertia as the original body. The moment of inertia is given by $I = Mk^2$, where $M$ is the total mass of the body. <br><br>The radius of gyration **depends on**: <br>1. The **axis of rotation**: Changing the axis of rotation changes the value of $k$. <br>2. The **distribution of mass**: A more concentrated mass distribution closer to the axis of rotation will have a smaller $k$. <br><br>The radius of gyration **does not depend on**: <br>1. The **total mass** of the body, as it is a measure of mass distribution relative to the axis, not the total mass itself. <br>2. The **angular velocity** of the body. <br><br>A **similarity between the centre of mass and the radius of gyration** is that both concepts describe a single point or distance that represents a key property of an object's mass distribution. The center of mass is a single point that represents the average position of the object's mass for translational motion, while the radius of gyration is a single distance that represents how the mass is distributed for rotational motion.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) State the conditions under which the theorems of parallel axes and perpendicular axes are applicable. State the respective mathematical expressions.",
+    "answer": "The **Theorem of Parallel Axes** and the **Theorem of Perpendicular Axes** are fundamental principles for calculating moments of inertia. <br><br>The **Theorem of Parallel Axes** is applicable to **any rigid body** (2D or 3D). It relates the moment of inertia of a body about an axis to its moment of inertia about a parallel axis passing through the body's center of mass. <br>Mathematical Expression: $I = I_{CM} + Md^2$, where $I$ is the moment of inertia about the desired axis, $I_{CM}$ is the moment of inertia about a parallel axis through the center of mass, $M$ is the total mass of the body, and $d$ is the perpendicular distance between the two parallel axes. <br><br>The **Theorem of Perpendicular Axes** is applicable only to **lamina bodies** (planar, two-dimensional objects) that are flat and thin. It relates the moment of inertia of the lamina about an axis perpendicular to its plane to the moments of inertia about two mutually perpendicular axes lying in the plane of the lamina. <br>Mathematical Expression: $I_z = I_x + I_y$, where $I_z$ is the moment of inertia about the axis perpendicular to the plane, and $I_x$ and $I_y$ are the moments of inertia about the two perpendicular axes lying in the plane of the lamina.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Derive an expression that relates angular momentum with the angular velocity of a rigid body.",
+    "answer": "The **angular momentum ($L$)** of a rigid body is the rotational equivalent of linear momentum. It is defined as the sum of the angular momenta of all the particles of the body. The angular momentum of a particle is given by $\\vec{L_i} = \\vec{r_i} \\times \\vec{p_i}$. The total angular momentum is $\\vec{L} = \\sum \\vec{L_i}$. <br>For a rigid body rotating with a constant angular velocity $\\vec{\\omega}$ about a fixed axis, the linear velocity of a particle at a distance $r_i$ from the axis is $v_i = r_i \\omega$. The linear momentum of the particle is $p_i = m_i v_i = m_i r_i \\omega$. <br>The angular momentum of a single particle is $L_i = r_i p_i = m_i r_i^2 \\omega$. <br>The total angular momentum of the body is the sum of the angular momenta of all its particles: <br>$$ L = \\sum_{i} L_i = \\sum_{i} m_i r_i^2 \\omega = (\\sum_{i} m_i r_i^2)\\omega $$<br>The term in the parentheses, $\\sum_{i} m_i r_i^2$, is the **moment of inertia** ($I$) of the rigid body about the axis of rotation. <br>Thus, the expression that relates angular momentum with angular velocity is: <br>$$ L = I\\omega $$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Obtain an expression relating the torque with angular acceleration for a rigid body.",
+    "answer": "The **torque ($\\vec{\\tau}$)** is the rotational equivalent of force. For a rigid body rotating about a fixed axis with angular acceleration $\\vec{\\alpha}$, the net torque is the sum of the torques acting on all the individual particles of the body. The force on a particle of mass $m_i$ at a distance $r_i$ from the axis is $F_i = m_i a_i = m_i r_i \\alpha$. The torque on this particle is $\\tau_i = r_i F_i = r_i (m_i r_i \\alpha) = m_i r_i^2 \\alpha$. <br>The net torque on the rigid body is the sum of the torques on all the particles: <br>$$ \\tau_{net} = \\sum_{i} \\tau_i = \\sum_{i} m_i r_i^2 \\alpha = (\\sum_{i} m_i r_i^2)\\alpha $$<br>The term in the parentheses, $\\sum_{i} m_i r_i^2$, is the **moment of inertia** ($I$) of the rigid body about the axis of rotation. <br>Thus, the expression relating torque with angular acceleration is: <br>$$ \\tau = I\\alpha $$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) State and explain the principle of conservation of angular momentum. Use a suitable illustration. Do we use it in our daily life? When?",
+    "answer": "The **Principle of Conservation of Angular Momentum** states that if the net external torque acting on a system is zero, the total angular momentum of the system remains constant. Mathematically, if $\\tau_{ext}=0$, then $\\frac{dL}{dt}=0$, which implies $L_{initial} = L_{final}$. This means that the product of the moment of inertia and the angular velocity, $I\\omega$, remains constant. If the moment of inertia changes, the angular velocity must change to keep the product constant. <br><br>**Illustration**: A figure skater spinning on ice provides a classic example. When the skater starts the spin with arms and legs extended, their moment of inertia ($I$) is large. As they pull their arms and legs in towards their body, their mass is concentrated closer to the axis of rotation, which decreases their moment of inertia. To conserve angular momentum ($I\\omega$), their angular velocity ($\\omega$) must increase, causing them to spin faster. <br><br>While we may not consciously 'use' this principle in our daily lives, it governs many common actions. For example, a diver in mid-air can control their rotational speed by changing their body shape. By tucking their body into a compact shape, they reduce their moment of inertia and increase their spin rate, which allows them to perform multiple somersaults before straightening out to enter the water with minimal splash. In this case, the external torque due to gravity is negligible.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Discuss the interlink between translational, rotational and total kinetic energies of a rigid object that rolls without slipping.",
+    "answer": "For a rigid object that **rolls without slipping**, its motion is a combination of two distinct types of motion: translational and rotational. <br>1. **Translational Kinetic Energy ($KE_T$)**: This is the energy associated with the motion of the object's center of mass. It is given by the formula $KE_T = \\frac{1}{2}Mv_{cm}^2$, where $M$ is the total mass and $v_{cm}$ is the speed of the center of mass. <br>2. **Rotational Kinetic Energy ($KE_R$)**: This is the energy associated with the rotation of the object about its center of mass. It is given by the formula $KE_R = \\frac{1}{2}I_{cm}\\omega^2$, where $I_{cm}$ is the moment of inertia about the axis passing through the center of mass, and $\\omega$ is the angular velocity. <br><br>The condition of rolling without slipping provides a crucial link between these two energies. It implies that the linear speed of the center of mass is directly proportional to the angular velocity, specifically $v_{cm} = R\\omega$, where $R$ is the radius of the object. <br><br>The **Total Kinetic Energy ($KE_{Total}$)** of the rolling object is the sum of its translational and rotational kinetic energies. <br>$$ KE_{Total} = KE_T + KE_R = \\frac{1}{2}Mv_{cm}^2 + \\frac{1}{2}I_{cm}\\omega^2 $$<br>This equation shows that the total kinetic energy is not just due to the motion of the center of mass, but also includes the energy of the body's internal rotation. For example, for a solid cylinder rolling without slipping, $I_{cm} = \\frac{1}{2}MR^2$, and since $v_{cm} = R\\omega$, the total kinetic energy is $KE_{Total} = \\frac{1}{2}Mv_{cm}^2 + \\frac{1}{2}(\\frac{1}{2}MR^2)(\\frac{v_{cm}}{R})^2 = \\frac{1}{2}Mv_{cm}^2 + \\frac{1}{4}Mv_{cm}^2 = \\frac{3}{4}Mv_{cm}^2$. The total energy is partitioned between the two forms of kinetic energy.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A rigid object is rolling down an inclined plane. Derive expressions for the acceleration along the track and the speed after falling through a certain vertical distance.",
+    "answer": "Consider a rigid object of mass $M$ and radius $R$ rolling down an inclined plane with angle $\\theta$. The forces acting on the object are: <br>1. Gravity ($Mg$) acting downwards. <br>2. Normal force ($N$) acting perpendicular to the incline. <br>3. Frictional force ($f_s$) acting up the incline, which causes the rotation. <br>The component of gravity parallel to the incline is $Mg\\sin\\theta$, and the perpendicular component is $Mg\\cos\\theta$. <br><br>**Acceleration along the track** <br>The net force along the incline is $F_{net} = Mg\\sin\\theta - f_s$. By Newton's second law for translational motion, $F_{net} = Ma$. So, <br>$$ Ma = Mg\\sin\\theta - f_s \\quad (1) $$<br>The net torque about the center of mass is provided by the frictional force: $\\tau = f_s R$. By Newton's second law for rotational motion, $\\tau = I\\alpha$. So, <br>$$ f_s R = I\\alpha \\quad (2) $$<br>For rolling without slipping, the linear acceleration is related to the angular acceleration by $a = R\\alpha$, so $\\alpha = a/R$. Substituting this into equation (2): $f_s R = I(a/R) \\implies f_s = Ia/R^2$. <br>Now, substitute the expression for $f_s$ into equation (1): <br>$$ Ma = Mg\\sin\\theta - \\frac{Ia}{R^2} \\implies Ma + \\frac{Ia}{R^2} = Mg\\sin\\theta \\implies a(M+\\frac{I}{R^2}) = Mg\\sin\\theta $$<br>The acceleration is: <br>$$ a = \\frac{Mg\\sin\\theta}{M+\\frac{I}{R^2}} = \\frac{g\\sin\\theta}{1+\\frac{I}{MR^2}} $$<br><br>**Speed after falling through a vertical distance $h$** <br>We can use the principle of conservation of energy. The potential energy lost by the object is converted into translational and rotational kinetic energy. Let the speed at the bottom of the incline be $v$. <br>Potential energy lost = $PE_{initial} - PE_{final} = Mgh$. <br>Total kinetic energy gained = $KE_{Total} = KE_T + KE_R = \\frac{1}{2}Mv^2 + \\frac{1}{2}I\\omega^2$. <br>From conservation of energy: <br>$$ Mgh = \\frac{1}{2}Mv^2 + \\frac{1}{2}I\\omega^2 $$<br>For rolling without slipping, $v=R\\omega$, so $\\omega=v/R$. <br>$$ Mgh = \\frac{1}{2}Mv^2 + \\frac{1}{2}I(\\frac{v}{R})^2 = \\frac{1}{2}Mv^2 + \\frac{1}{2}\\frac{I}{R^2}v^2 = \\frac{1}{2}v^2(M+\\frac{I}{R^2}) $$<br>The speed at the bottom is: <br>$$ v = \\sqrt{\\frac{2Mgh}{M+\\frac{I}{R^2}}} = \\sqrt{\\frac{2gh}{1+\\frac{I}{MR^2}}} $$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Somehow, an ant is stuck to the rim of a bicycle wheel of diameter 1 m. While the bicycle is on a central stand, the wheel is set into rotation and it attains the frequency of 2 rev/s in 10 seconds, with uniform angular acceleration. Calculate (i) Number of revolutions completed by the ant in these 10 seconds. (ii) Time taken by it for first complete revolution and the last complete revolution.",
+    "answer": "Given: Diameter $D = 1$ m, so radius $R = 0.5$ m. Initial angular frequency $f_0=0$ rev/s. Final angular frequency $f=2$ rev/s. Time $t=10$ s. <br><br>First, let's find the angular acceleration $\\alpha$. <br>We know that $\\omega = \\omega_0 + \\alpha t$. In terms of frequency, $2\\pi f = 2\\pi f_0 + \\alpha t$. <br>Since the initial frequency is 0, $2\\pi(2) = 0 + \\alpha(10) \\implies \\alpha = \\frac{4\\pi}{10} = \\frac{2\\pi}{5}$ rad/s$^2$. <br><br>i) **Number of revolutions completed** <br>The total angular displacement is $\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$. <br>$\\theta = 0 + \\frac{1}{2}(\\frac{2\\pi}{5})(10)^2 = \\frac{\\pi}{5}(100) = 20\\pi$ radians. <br>The number of revolutions is $n = \\frac{\\theta}{2\\pi} = \\frac{20\\pi}{2\\pi} = 10$ revolutions. <br><br>ii) **Time for first and last complete revolutions** <br>The time taken for the $n$-th revolution can be found by finding the time for $n$ revolutions and the time for $n-1$ revolutions and taking the difference. $t_n - t_{n-1}$. <br>The angular displacement is related to time by $\\theta = \\frac{1}{2}\\alpha t^2$. We need to find the time for one revolution ($\theta=2\\pi$) and the time for nine revolutions ($\theta=18\\pi$). <br>For the first revolution ($\theta = 2\\pi$): $2\\pi = \\frac{1}{2}(\\frac{2\\pi}{5})t_1^2 \\implies 2\\pi = \\frac{\\pi}{5}t_1^2 \\implies t_1^2 = 10 \\implies t_1 = \\sqrt{10}$ s $\\approx 3.162$ s. <br>For the last (10th) revolution, we can find the time for 10 revolutions (which is 10s) and the time for 9 revolutions. <br>Time for 9 revolutions ($\theta = 18\\pi$): $18\\pi = \\frac{\\pi}{5}t_9^2 \\implies t_9^2 = 90 \\implies t_9 = \\sqrt{90} = 3\\sqrt{10}$ s $\\approx 9.487$ s. <br>Time for the last complete revolution = $t_{10}-t_9 = 10 - 3\\sqrt{10}$ s $\\approx 10 - 9.487 = 0.513$ s.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Coefficient of static friction between a coin and a gramophone disc is 0.5. Radius of the disc is 8 cm. Initially the centre of the coin is $\\pi$ cm away from the centre of the disc. At what minimum frequency will it start slipping from minimum frequency will it start slipping from",
+    "answer": "This appears to be an incomplete question. The user has provided an image with an incomplete sentence, \"At what minimum frequency will it start slipping from minimum frequency will it start slipping from\". The prompt is missing a key piece of information needed to complete the calculation. However, I can determine the minimum frequency at which a coin at a distance $r$ from the center of the disc will start to slip. <br><br>Given: Coefficient of static friction $\\mu_s = 0.5$. Radius of the disc $R = 8$ cm. Distance of the coin from the center $r = \\pi$ cm. <br><br>For the coin to remain on the rotating disc, the centripetal force required must be provided by the force of static friction. The maximum static friction force is $f_{s,max} = \\mu_s N = \\mu_s mg$. The centripetal force required is $F_c = m \\omega^2 r = m(2\\pi f)^2 r$. <br>Slipping occurs when the required centripetal force exceeds the maximum static friction force, so $m(2\\pi f)^2 r > \\mu_s mg$. <br>The minimum frequency at which slipping starts is when $m(2\\pi f)^2 r = \\mu_s mg$. <br>$(2\\pi f_{min})^2 r = \\mu_s g \\implies 4\\pi^2 f_{min}^2 r = \\mu_s g \\implies f_{min}^2 = \\frac{\\mu_s g}{4\\pi^2 r}$. <br>Using $g \\approx 10$ m/s$^2 = 1000$ cm/s$^2$, and the given values: <br>$f_{min}^2 = \\frac{0.5 \\cdot 1000}{4\\pi^2 \\cdot \\pi} = \\frac{500}{4\\pi^3} = \\frac{125}{\\pi^3}$. <br>$f_{min} = \\sqrt{\\frac{125}{\\pi^3}}$ Hz. <br>The prompt is missing the context for the phrase 'minimum frequency will it start slipping from'. If the question is about the minimum frequency for slipping at the given location, the answer is as above. If the question is about the frequency for slipping at some other location, or if the question is simply incomplete, I cannot proceed further without clarification.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The road in the question 14 above is constructed as per the requirements. The coefficient of static friction between the tyres of a vehicle on this road is 0.8, will there be any lower speed limit? By how much can the upper speed limit exceed in this case?",
+    "answer": "This problem refers to a previous, missing question (Q14) about a banked road. We can infer the banking angle from the provided answer to Q14. The answer to Q14 states a banking angle of $\\theta = 78.69^\\circ$, and a height of $9.8$ m for a 10 m wide track. This angle is extremely high and likely a typo; typically, banking angles are much smaller. Let's assume the question is a generic one about banked roads with friction. <br><br>The general expression for the maximum and minimum speeds on a banked road with friction are: <br> $v_{max} = \\sqrt{rg \\frac{\\tan\\theta + \\mu_s}{1 - \\mu_s \\tan\\theta}}$ <br> $v_{min} = \\sqrt{rg \\frac{\\tan\\theta - \\mu_s}{1 + \\mu_s \\tan\\theta}}$ <br><br>A lower speed limit exists if the expression under the square root for $v_{min}$ is positive, which requires $\\tan\\theta > \\mu_s$. From the previous question, the banking angle is given as $\\theta = 78.69^\\circ$. The tangent of this angle is $\\tan(78.69^\\circ) \\approx 5$. Since $\\tan\\theta > \\mu_s$ (5 > 0.8), a lower speed limit **will exist**. <br><br>To find the upper speed limit, we need the radius of curvature $r$, which is not explicitly given. The problem states 'curvature of 72 m', which we can interpret as the radius $r=72$ m. Using this, the upper speed limit is: <br> $v_{max} = \\sqrt{72 \\cdot 10 \\frac{5+0.8}{1-0.8\\cdot 5}} = \\sqrt{720 \\frac{5.8}{1-4}} = \\sqrt{720 \\frac{5.8}{-3}}$. Since the value under the square root is negative, this suggests an error in the original problem's premise, specifically the banking angle. The angle cannot be so high that $\\mu_s\\tan\\theta > 1$. Let's assume the provided answer for Q14 is a typo and a more realistic angle was intended. If we assume a more standard banking angle where $1-\\mu_s\\tan\\theta > 0$, the upper speed limit can be calculated using the formula above. The extent to which it exceeds the minimum speed limit would be $v_{max} - v_{min}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) During a stunt, a cyclist (considered to be a particle) is undertaking horizontal circles inside a cylindrical wall of radius 6.05 m. If the necessary friction coefficient is 0.5, how much minimum speed should the stunt artist maintain? Mass of the artist is 50 kg. If she/he increases the speed by 20%, how much will the force of friction be?",
+    "answer": "Given: Radius of cylindrical wall $r = 6.05$ m, coefficient of static friction $\\mu_s = 0.5$, mass of artist $m = 50$ kg. <br><br>For the cyclist to not slip down the wall, the upward frictional force must be at least equal to the cyclist's weight. The centripetal force is provided by the normal force from the wall. <br>The forces acting on the cyclist are: <br>1. Normal force ($N$) from the wall, directed towards the center. This provides the centripetal force: $N = \\frac{mv^2}{r}$. <br>2. Frictional force ($f_s$) directed upwards, balancing the weight ($mg$): $f_s = mg$. <br>The maximum static friction is $f_{s,max} = \\mu_s N$. For the cyclist to be safe, $f_{s,max} \\ge mg$. <br>Substituting the expression for $N$: $\\mu_s \\frac{mv^2}{r} \\ge mg \\implies \\mu_s \\frac{v^2}{r} \\ge g \\implies v^2 \\ge \\frac{gr}{\\mu_s}$. <br>The minimum speed is $v_{min} = \\sqrt{\\frac{gr}{\\mu_s}} = \\sqrt{\\frac{10 \\cdot 6.05}{0.5}} = \\sqrt{10 \\cdot 12.1} = \\sqrt{121} = 11$ m/s. <br><br>Now, if the artist increases their speed by 20%, the new speed is $v' = 1.2 v_{min} = 1.2(11) = 13.2$ m/s. <br>The required normal force increases: $N' = \\frac{m(v')^2}{r} = \\frac{50(13.2)^2}{6.05} = \\frac{50(174.24)}{6.05} = \\frac{8712}{6.05} = 1440$ N. <br>The force of static friction required to balance the weight remains the same: $f_s = mg = 50(10) = 500$ N. <br>The maximum possible static friction is now $f_{s,max}' = \\mu_s N' = 0.5(1440) = 720$ N. <br>Since the required friction force ($500$ N) is less than the maximum possible friction force ($720$ N), the cyclist will not slip. The force of friction will be **500 N**, just enough to balance the weight.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A pendulum consisting of a massless string of length 20 cm and a tiny bob of mass 100 g is set up as a conical pendulum. Its bob now performs 75 rpm. Calculate kinetic energy and increase in the gravitational potential energy of the bob. (Use $\\pi^2 = 10$).",
+    "answer": "Given: Length of string $L = 20$ cm $= 0.2$ m, mass of bob $m = 100$ g $= 0.1$ kg, angular speed $f = 75$ rpm. <br><br>First, let's convert the frequency to standard units: <br>$\\omega = 2\\pi f = 2\\pi (\\frac{75}{60}) = 2\\pi (\\frac{5}{4}) = \\frac{5\\pi}{2}$ rad/s. <br><br>**Kinetic Energy** <br>The linear speed of the bob is $v = \\omega r$, where $r$ is the radius of the circular path. For a conical pendulum, the radius is $r = L\\sin\\theta$. We need to find $\\theta$. <br>The horizontal component of the tension provides the centripetal force: $T\\sin\\theta = m\\omega^2r = m\\omega^2(L\\sin\\theta) \\implies T = m\\omega^2L$. <br>The vertical component of the tension balances the weight: $T\\cos\\theta = mg$. <br>From the second equation, $\\cos\\theta = \\frac{mg}{T} = \\frac{mg}{m\\omega^2L} = \\frac{g}{\\omega^2L} = \\frac{10}{(\\frac{5\\pi}{2})^2(0.2)} = \\frac{10}{\\frac{25\\pi^2}{4}(0.2)} = \\frac{10}{\\frac{25(10)}{4}(0.2)} = \\frac{10}{\\frac{250}{4}(0.2)} = \\frac{10}{62.5(0.2)} = \\frac{10}{12.5} = 0.8$. <br>The radius is $r = L\\sin\\theta = 0.2\\sqrt{1-(0.8)^2} = 0.2\\sqrt{1-0.64} = 0.2\\sqrt{0.36} = 0.2(0.6) = 0.12$ m. <br>The linear speed is $v = \\omega r = (\\frac{5\\pi}{2})(0.12) = 0.3\\pi$ m/s. <br>Kinetic Energy $KE = \\frac{1}{2}mv^2 = \\frac{1}{2}(0.1)(0.3\\pi)^2 = 0.05(0.09\\pi^2) = 0.05(0.09)(10) = 0.05(0.9) = 0.045$ J. <br><br>**Increase in Gravitational Potential Energy** <br>The increase in potential energy is $\\Delta PE = mg\\Delta h = mg(L-h)$, where $h$ is the vertical height of the bob. <br>$h = L\\cos\\theta = 0.2(0.8) = 0.16$ m. <br>$\\Delta PE = mg(L-h) = 0.1(10)(0.2-0.16) = 1(0.04) = 0.04$ J. <br><br>The kinetic energy is **0.045 J** and the increase in gravitational potential energy is **0.04 J**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A motorcyclist (as a particle) is undergoing vertical circles inside a sphere of death. The speed of the motorcycle varies between 6 m/s and 10 m/s. Calculate diameter of the sphere of death. How much minimum values are possible for these two speeds?",
+    "answer": "Given: Maximum speed $v_{max} = 10$ m/s, minimum speed $v_{min} = 6$ m/s. <br><br>For a vertical circular motion under gravity, the difference between the square of the maximum and minimum speeds is given by $v_{max}^2 - v_{min}^2 = 4gr$, where $r$ is the radius of the circle. <br>$(10)^2 - (6)^2 = 4(10)r \\implies 100-36 = 40r \\implies 64 = 40r \\implies r = \\frac{64}{40} = \\frac{8}{5} = 1.6$ m. <br>The diameter of the sphere of death is $D = 2r = 2(1.6) = 3.2$ m. <br><br>The minimum possible values for the two speeds are the speeds required to just complete the vertical circle. This occurs when the speed at the top is the absolute minimum, $v_{H,min} = \\sqrt{gr}$. In this case, the minimum speed given in the problem, $v_{min}=6$, is the speed at the highest point of the vertical circle. The maximum speed given, $v_{max}=10$, is the speed at the lowest point. The minimum possible value for the minimum speed is $v_{H,min} = \\sqrt{gr} = \\sqrt{10(1.6)} = \\sqrt{16} = 4$ m/s. <br>The minimum possible value for the maximum speed is $v_{L,min} = \\sqrt{5gr} = \\sqrt{5(16)} = \\sqrt{80} \\approx 8.94$ m/s. <br><br>The diameter of the sphere of death is **3.2 m**. The minimum possible speeds are **4 m/s** and **8.94 m/s** for the highest and lowest points respectively.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A metallic ring of mass 1 kg has moment of inertia 1 kg m$^2$ when rotating about one of its diameters. It is molten and remoulded into a thin uniform disc of the same radius. How much will its moment of inertia be, when rotated about its own axis?",
+    "answer": "Given: Mass of ring $M = 1$ kg. Moment of inertia of ring about a diameter is $I_{ring,dia} = 1$ kg m$^2$. <br>The moment of inertia of a ring about its diameter is $I_{ring,dia} = \\frac{1}{2}MR^2$. <br>So, $1 = \\frac{1}{2}(1)R^2 \\implies R^2 = 2$. <br>The ring is remoulded into a thin uniform disc of the same radius, so the mass and radius of the disc are also $M=1$ kg and $R=\\sqrt{2}$ m. <br>The moment of inertia of a disc about its own axis (passing through its center and perpendicular to its plane) is $I_{disc} = \\frac{1}{2}MR^2$. <br>Since the mass and radius are the same as the original ring, the moment of inertia of the disc will be: <br>$I_{disc} = \\frac{1}{2}(1)(\\sqrt{2})^2 = \\frac{1}{2}(2) = 1$ kg m$^2$. <br>The moment of inertia of the remoulded disc is **1 kg m$^2$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A big dumb-bell is prepared by using a uniform rod of mass 60 g and length 20 cm. Two identical solid spheres of mass 50 g and radius 10 cm each are at the two ends of the rod. Calculate moment of inertia of the dumb-bell when rotated about an axis passing through its centre and perpendicular to the length.",
+    "answer": "Given: <br>Rod: Mass $M_{rod} = 60$ g $= 0.06$ kg, Length $L = 20$ cm $= 0.2$ m. <br>Spheres: Mass $M_{sphere} = 50$ g $= 0.05$ kg, Radius $R = 10$ cm $= 0.1$ m. <br>The dumb-bell is rotating about an axis passing through its center and perpendicular to its length. The total moment of inertia is the sum of the moments of inertia of the rod and the two spheres. <br>1. **Moment of Inertia of the Rod**: The axis passes through its center and is perpendicular to its length. <br> $I_{rod} = \\frac{1}{12}M_{rod}L^2 = \\frac{1}{12}(0.06)(0.2)^2 = 0.005(0.04) = 0.0002$ kg m$^2$. <br>2. **Moment of Inertia of the Spheres**: We must use the parallel axis theorem for each sphere, as the axis of rotation is parallel to the sphere's own axis and passes through the center of the dumb-bell. The distance from the center of the dumb-bell to the center of each sphere is $d = \\frac{L}{2} = \\frac{0.2}{2} = 0.1$ m. The moment of inertia of a solid sphere about its own axis is $I_{sphere,cm} = \\frac{2}{5}M_{sphere}R^2$. <br>By the parallel axis theorem, the moment of inertia of one sphere about the axis of rotation is: <br> $I_{sphere,axis} = I_{sphere,cm} + M_{sphere}d^2 = \\frac{2}{5}M_{sphere}R^2 + M_{sphere}d^2 = \\frac{2}{5}(0.05)(0.1)^2 + (0.05)(0.1)^2 = 0.02(0.01) + 0.05(0.01) = 0.0002 + 0.0005 = 0.0007$ kg m$^2$. <br>Since there are two identical spheres, the total moment of inertia from the spheres is $2 \\times I_{sphere,axis} = 2(0.0007) = 0.0014$ kg m$^2$. <br>3. **Total Moment of Inertia**: <br> $I_{total} = I_{rod} + 2I_{sphere,axis} = 0.0002 + 0.0014 = 0.0016$ kg m$^2$. <br>The moment of inertia of the dumb-bell is **$0.0016$ kg m$^2$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A flywheel used to prepare earthenware pots is set into rotation at 100 rpm. It is in the form of a disc of mass 10 kg and radius 0.4 m. A lump of clay (to be taken equivalent to a particle) of mass 1.6 kg falls on it and adheres to it at a certain distance $x$ from the centre. Calculate $x$ if the wheel now rotates at 80 rpm. (Use $1/\\sqrt{8} \\approx 0.35$ m).",
+    "answer": "Given: Initial angular speed $\\omega_1 = 100$ rpm, mass of disc $M_{disc} = 10$ kg, radius of disc $R = 0.4$ m, mass of clay $M_{clay} = 1.6$ kg, final angular speed $\\omega_2 = 80$ rpm. <br><br>This problem involves the **conservation of angular momentum**, as there is no external torque. <br>Initial angular momentum ($L_1$) = Moment of inertia of disc ($I_{disc}$) $\\times$ initial angular speed ($\\omega_1$). <br>The moment of inertia of a disc about its axis is $I_{disc} = \\frac{1}{2}M_{disc}R^2 = \\frac{1}{2}(10)(0.4)^2 = 5(0.16) = 0.8$ kg m$^2$. <br>$L_1 = I_{disc}\\omega_1 = 0.8(100) = 80$ kg m$^2$/min. <br><br>Final angular momentum ($L_2$) = (Moment of inertia of disc + Moment of inertia of clay) $\\times$ final angular speed ($\\omega_2$). <br>The clay is treated as a particle at a distance $x$ from the center, so its moment of inertia is $I_{clay} = M_{clay}x^2 = 1.6x^2$. <br>$L_2 = (I_{disc} + I_{clay})\\omega_2 = (0.8 + 1.6x^2)80$. <br><br>By conservation of angular momentum, $L_1=L_2$: <br>$80 = (0.8+1.6x^2)80 \\implies 1 = 0.8+1.6x^2 \\implies 0.2 = 1.6x^2 \\implies x^2 = \\frac{0.2}{1.6} = \\frac{2}{16} = \\frac{1}{8}$. <br>$x = \\sqrt{\\frac{1}{8}} = \\frac{1}{2\\sqrt{2}} = \\frac{\\sqrt{2}}{4}$. <br>Using the given approximation $1/\\sqrt{8} \\approx 0.35$: <br>$x \\approx 0.35$ m. <br>The distance $x$ is approximately **0.35 m** from the center.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Starting from rest, an object rolls down along an incline that rises by 3 in every 5 along it. The object gains a speed of $\\sqrt{10}$ m/s as it travels a distance of 5/3 m along the incline. What can be the possible shape/s of the object?",
+    "answer": "Given: An incline that rises by 3 for every 5 along it, so $\\sin\\theta = 3/5$. The object starts from rest, so its initial velocity is zero. The final speed is $v = \\sqrt{10}$ m/s after travelling a distance $s = 5/3$ m along the incline. <br><br>We can use the principle of **conservation of energy**. The potential energy lost is converted into kinetic energy (both translational and rotational). <br>The vertical height dropped is $h = s\\sin\\theta = (5/3)(3/5) = 1$ m. <br>Potential energy lost: $PE = Mgh = M(10)(1) = 10M$. <br>Total kinetic energy gained: $KE = \\frac{1}{2}Mv^2 + \\frac{1}{2}I\\omega^2$. <br>For rolling without slipping, we have $v = R\\omega$, so $\\omega = v/R$. Also, we can write the moment of inertia as $I = kMR^2$, where $k$ is a constant that depends on the shape of the object. <br>Substituting these in: $KE = \\frac{1}{2}Mv^2 + \\frac{1}{2}(kMR^2)(\\frac{v}{R})^2 = \\frac{1}{2}Mv^2 + \\frac{1}{2}kMv^2 = \\frac{1}{2}Mv^2(1+k)$. <br><br>From conservation of energy, $PE=KE$: <br>$10M = \\frac{1}{2}Mv^2(1+k) \\implies 10 = \\frac{1}{2}(10)(1+k) \\implies 10 = 5(1+k) \\implies 2 = 1+k \\implies k=1$. <br>The value of $k$ is the constant in the moment of inertia formula $I = kMR^2$. For a solid cylinder or a disc, $I = \\frac{1}{2}MR^2$, so $k=1/2$. For a solid sphere, $I = \\frac{2}{5}MR^2$, so $k=2/5$. For a hollow cylinder or a ring, $I = MR^2$, so $k=1$. <br>Since the calculated value of $k$ is 1, the possible shape of the object is a **hollow cylinder or a ring**.",
+    "marks": 4
   }
 ]
+

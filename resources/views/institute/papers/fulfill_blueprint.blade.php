@@ -215,15 +215,34 @@
             closeModalBtn.addEventListener('click', closeModal);
             modalDoneBtn.addEventListener('click', closeModal);
             modalQuestionList.addEventListener('change', function(e) {
-                if (e.target.classList.contains('modal-checkbox')) {
-                    const questionId = e.target.value;
-                    const isChecked = e.target.checked;
-                    const attachUrl = "{{ route('institute.papers.questions.attach', [$paper, ':questionId']) }}".replace(':questionId', questionId);
-                    const detachUrl = "{{ route('institute.papers.questions.detach', [$paper, ':questionId']) }}".replace(':questionId', questionId);
-                    const url = isChecked ? attachUrl : detachUrl;
-                    fetch(url, { method: 'POST', headers: { 'X-CSRF-TOKEN': csrfToken, 'Accept': 'application/json' }});
-                }
-            });
+                    if (e.target.classList.contains('modal-checkbox')) {
+                        const questionId = e.target.value;
+                        const isChecked = e.target.checked;
+
+                        // Use the new, simplified routes
+                        const attachUrl = "{{ route('institute.papers.questions.attach', $paper) }}"; 
+                        const detachUrl = "{{ route('institute.papers.questions.detach', $paper) }}";
+
+                        const url = isChecked ? attachUrl : detachUrl;
+
+                        // Create a payload with the data our controller needs
+                        const payload = {
+                            question_id: questionId,
+                            rule_id: currentRuleId // Send the active rule ID
+                        };
+
+                        // Send the request with the payload in the body
+                        fetch(url, {
+                            method: 'POST',
+                            headers: {
+                                'X-CSRF-TOKEN': csrfToken,
+                                'Accept': 'application/json',
+                                'Content-Type': 'application/json' // This header is important!
+                            },
+                            body: JSON.stringify(payload)
+                        }).catch(error => console.error('Error attaching/detaching question:', error));
+                    }
+                });
 
             updateAllRuleCounts();
         });

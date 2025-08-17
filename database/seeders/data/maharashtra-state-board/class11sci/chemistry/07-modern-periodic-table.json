@@ -1,0 +1,242 @@
+[
+  {
+    "type": "mcq",
+    "text": "Consider the elements B, Al, Mg and K predict the correct order of metallic character :",
+    "options": [
+      "B > Al > Mg > K",
+      "Al > Mg > B > K",
+      "Mg > Al > K > B",
+      "K > Mg > Al > B"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In modern periodic table, the period number indicates the :",
+    "options": [
+      "atomic number",
+      "atomic mass",
+      "principal quantum number",
+      "azimuthal quantum number"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The lanthanides are placed in the periodic table at",
+    "options": [
+      "a left hand side",
+      "right hand side",
+      "middle",
+      "bottom"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the valence shell electronic configuration is $ns^2np^5$, the element will belong to",
+    "options": [
+      "alkali metals",
+      "halogens",
+      "alkaline earth metals",
+      "actinides"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In which group of elements of the modern periodic table are halogen placed?",
+    "options": [
+      "17",
+      "0",
+      "14",
+      "2"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the atomic number represent the p-block elements?",
+    "options": [
+      "7, 15",
+      "3, 12",
+      "6, 14",
+      "9, 17"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following pairs is NOT isoelectronic?",
+    "options": [
+      "$Na^+$ and Ne",
+      "$Mg^{2+}$ and Ne",
+      "$Al^{3+}$ and $B^{3+}$",
+      "$P^{3-}$ and $N^{3-}$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following pair of elements has similar properties?",
+    "options": [
+      "13, 31",
+      "11, 20",
+      "12, 10",
+      "21, 33"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "The elements Li, B, C, Be and N have the electronegativities 1.0, 2.0, 1.5 and 3.0, respectively on the Pauling scale.",
+    "answer": "The given electronegativity values do not correspond to the correct elements. The Pauling electronegativity values for the listed elements are: Li = 0.98, Be = 1.57, B = 2.04, C = 2.55, N = 3.04. The question seems to have a typo or incorrect information. Assuming the question intended to list the elements in order of increasing electronegativity based on the given values, the order would be Li (1.0), Be (1.5), B (2.0), N (3.0), and C (2.5). The actual values show a general increase across the period.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "The atomic radii of Cl, I and Br are 99, 133 and 114 pm, respectively. Justify the order.",
+    "answer": "The atomic radii of halogens increase as we go down the group due to the addition of a new shell, which increases the distance of the valence electrons from the nucleus and enhances the shielding effect. The correct order of atomic radii is F < Cl < Br < I. The provided data is in the correct order for Cl (99 pm), Br (114 pm), and I (133 pm).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The ionic radii of $F^-$ and $Na^+$ are 133 and 98 pm, respectively. Explain.",
+    "answer": "$Na^+$ and $F^-$ are isoelectronic species, both having 10 electrons. However, $Na^+$ has a nuclear charge of +11, while $F^-$ has a nuclear charge of +9. The higher nuclear charge in $Na^+$ exerts a stronger pull on its 10 electrons, contracting the electron cloud and resulting in a smaller ionic radius (98 pm). Conversely, the lower nuclear charge in $F^-$ results in a larger ionic radius (133 pm).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Al is a metal, Si is a metalloid and P is a nonmetal. Justify based on their positions in the periodic table.",
+    "answer": "Based on their positions in the periodic table, Aluminum (Al) is in Group 13, Silicon (Si) is in Group 14, and Phosphorus (P) is in Group 15. Al is located on the left side of the periodic table, below the metal-nonmetal boundary (the metalloid staircase), so it exhibits metallic properties. Si is located on the staircase itself, so it has properties of both metals and nonmetals, making it a metalloid. P is located on the right side of the staircase, exhibiting nonmetallic properties.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Cu forms coloured salts while Zn forms colourless salts. Explain.",
+    "answer": "Copper (Cu) forms coloured salts because its ions, like $Cu^{2+}$ ($[Ar]3d^9$), have partially filled d-orbitals. Electrons can be excited from a lower energy d-orbital to a higher energy d-orbital by absorbing energy from the visible light spectrum. The transmitted light, which is the complementary color, is what we see. Zinc (Zn), on the other hand, forms colorless salts because its ions, like $Zn^{2+}$ ($[Ar]3d^{10}$), have completely filled d-orbitals. There are no vacant d-orbitals for d-d electronic transitions to occur, so it does not absorb visible light.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why the second ionization enthalpy is greater than the first ionization enthalpy?",
+    "answer": "The second ionization enthalpy is always greater than the first ionization enthalpy because after the first electron is removed, the resulting ion has a net positive charge. This increased positive charge exerts a stronger electrostatic pull on the remaining electrons, holding them more tightly and requiring more energy to remove the next electron. This effect is more pronounced if the second electron is being removed from a more stable, noble gas configuration.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why the elements belonging to the same group do have similar chemical properties?",
+    "answer": "Elements in the same group have similar chemical properties because they have the same number of valence electrons and, thus, a similar valence shell electronic configuration. This is the primary factor that determines how an atom will react, as chemical reactions largely involve the interactions of these outermost electrons.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain : electronegativity and electron gain enthalpy. Which of the two can be measured experimentally?",
+    "answer": "**Electronegativity** is a measure of an atom's ability to attract a shared pair of electrons in a chemical bond. It is a relative property and has no units. **Electron gain enthalpy** is the energy change that occurs when an electron is added to a neutral gaseous atom to form a gaseous anion. It is a measurable quantity. Therefore, **electron gain enthalpy can be measured experimentally**, but electronegativity is a calculated value.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the valence electrons? For s-block and p-block elements show that number of valence electrons is equal to its group number.",
+    "answer": "The **valence electrons** are the electrons in the outermost shell of an atom. For s-block elements (Groups 1 and 2), the valence electrons are in the outermost s-orbital, so their group number is equal to the number of s-electrons. For p-block elements (Groups 13-18), the valence electrons are in both the outermost s- and p-orbitals. The group number is equal to the number of s-electrons plus the number of p-electrons plus 10 (to account for the d-block elements).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the atomic size vary in a group and across a period? Explain with suitable example.",
+    "answer": "The **atomic size** generally **increases down a group** due to the addition of new electron shells, which increases the distance of the valence electrons from the nucleus and increases electron shielding. It generally **decreases across a period** due to the increase in effective nuclear charge, which pulls the valence electrons closer to the nucleus. **Example:** In Group 1, Li < Na < K. In Period 2, Li > Be > B > C.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The electronic configuration of some elements are given below: a. $1s^2$, b. $1s^22s^2$, c. $2s^22p^6$. In which group and period of the periodic table are they placed?",
+    "answer": "<strong>a. $1s^2$:</strong> This is Helium (He). It is in **Group 18** and **Period 1**.<br><strong>b. $1s^22s^2$:</strong> This is Beryllium (Be). It is in **Group 2** and **Period 2**.<br><strong>c. $1s^22s^22p^6$:</strong> This is Neon (Ne). It is in **Group 18** and **Period 2**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "For each of the following pairs, indicate which of the two species is of large size: a. $Fe^{2+}$ or $Fe^{3+}$, b. $Mg^{2+}$ or $Ca^{2+}$.",
+    "answer": "<strong>a. $Fe^{2+}$ or $Fe^{3+}$:</strong> $Fe^{2+}$ is larger. For a given element, as the positive charge increases (more electrons are removed), the ionic radius decreases due to a greater effective nuclear charge pulling on fewer electrons.<br><strong>b. $Mg^{2+}$ or $Ca^{2+}$:</strong> $Ca^{2+}$ is larger. In the same group, ionic size increases down the group because of the addition of a new electron shell.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Select the smaller ion form each of the following pairs: a. $K^+$, $Li^+$, b. $N^{3-}$, $F^-$.",
+    "answer": "<strong>a. $K^+$ or $Li^+$:</strong> $Li^+$ is the smaller ion. Both are in Group 1, and ionic size increases down the group.<br><strong>b. $N^{3-}$ or $F^-$:</strong> $F^-$ is the smaller ion. Both are isoelectronic with 10 electrons. However, $F^-$ has a higher nuclear charge (+9) compared to $N^{3-}$ (+7), which pulls the electrons closer to the nucleus.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write the outer electronic configuration of the following using orbital notation method. Justify. a. Ge (belongs to period 4 and group 14), b. Po (belongs to period 6 and group 16), c. Cu (belongs to period 4 and group 11).",
+    "answer": "<strong>a. Ge (Germanium):</strong> Period 4, Group 14. Its outer electronic configuration is **$4s^24p^2$**. It is justified because it is in the 4th period, so the highest 'n' value is 4, and it is in Group 14 (p-block), which means it has 2 electrons in the p-orbital.<br><strong>b. Po (Polonium):</strong> Period 6, Group 16. Its outer electronic configuration is **$6s^26p^4$**. It is justified because it is in the 6th period, and Group 16 (p-block) means it has 4 electrons in the p-orbital.<br><strong>c. Cu (Copper):</strong> Period 4, Group 11. Its outer electronic configuration is **$4s^13d^{10}$**. It is justified as an exception to the Aufbau principle due to the extra stability of a completely filled d-orbital. The expected configuration would be $4s^23d^9$, but one electron from the 4s orbital moves to the 3d orbital to achieve the more stable $3d^{10}$ configuration.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "La belongs to group 3 while Hg belongs to group 12 and both belong to period 6 of the periodic table. Write down the general outer electronic configuration of the ten elements from La to Hg together using orbital notation method.",
+    "answer": "The elements from Lanthanum (La, Z=57) to Mercury (Hg, Z=80) include the Lanthanides, which fill the 4f subshell. The question asks for the ten elements from La to Hg, but La to Hg is a range of 23 elements. It is likely referring to the d-block elements in period 6, which are 10 elements. Lanthanum (La) is in group 3, and the elements from Lutetium (Lu, Z=71) to Mercury (Hg, Z=80) have the general outer electronic configuration: **$5d^{10}6s^2$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Ionization enthalpy of Li is 520 kJ $mol^{-1}$ while that of F is 1681 kJ $mol^{-1}$. Explain.",
+    "answer": "Ionization enthalpy is the energy required to remove an electron from a neutral gaseous atom. Lithium (Li) is an alkali metal (Group 1) and has only one valence electron in its outermost shell ($2s^1$). Removing this single electron results in a stable noble gas configuration (He). This is a relatively easy process, hence its low ionization enthalpy of 520 kJ/mol. Fluorine (F) is a halogen (Group 17) and has a nearly complete valence shell ($2s^22p^5$). Removing an electron from F is very difficult because it has a high effective nuclear charge and a strong tendency to gain an electron to achieve a stable noble gas configuration. Therefore, it has a very high ionization enthalpy of 1681 kJ/mol.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the screening effect with a suitable example.",
+    "answer": "The **screening effect (or shielding effect)** is the reduction in the effective nuclear charge on a valence electron due to the repulsion from the inner-shell electrons. The inner electrons essentially 'screen' the valence electrons from the full attractive force of the nucleus. This effect causes the atomic radius to increase down a group and affects other periodic properties like ionization enthalpy and electronegativity. **Example:** In a lithium atom ($1s^22s^1$), the two 1s electrons shield the single 2s valence electron from the +3 nuclear charge. As a result, the 2s electron experiences a much smaller effective nuclear charge, making it easier to remove.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Using a diagram, answer: a. Which atom should have smaller ionization enthalpy, oxygen or sulfur?, b. The lithium forms +1 ions while beryllium forms +2 ions?",
+    "answer": "<strong>a. Which atom should have smaller ionization enthalpy, oxygen or sulfur?</strong><br>Sulfur (S) should have a smaller ionization enthalpy than oxygen (O). This is because both elements are in the same group (Group 16), and ionization enthalpy generally decreases down a group due to increased atomic size and screening effect. The valence electrons in sulfur are further from the nucleus than in oxygen, so they are easier to remove.<br><strong>b. The lithium forms +1 ions while beryllium forms +2 ions?</strong><br>Lithium (Li), an alkali metal in Group 1, has one valence electron ($2s^1$). It readily loses this single electron to form a stable $Li^+$ ion with a noble gas configuration. Beryllium (Be), an alkaline earth metal in Group 2, has two valence electrons ($2s^2$). It loses both electrons to form a stable $Be^{2+}$ ion, also with a noble gas configuration. It is difficult to remove only one electron from Be because the resulting $Be^+$ ion is unstable.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Define : a. Ionic radius, b. Electronegativity.",
+    "answer": "<strong>a. Ionic radius:</strong> The ionic radius is the distance from the center of an ion's nucleus to its outermost electron. It is a measure of the size of an ion. For a cation, the ionic radius is smaller than the atomic radius of the parent atom, and for an anion, it is larger. **b. Electronegativity:</strong> Electronegativity is a measure of the tendency of an atom to attract a shared pair of electrons to itself when it is chemically combined with another atom. It is a qualitative measure and is not an energy value.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Compare chemical properties of metals and non metals.",
+    "answer": "<strong>Metals</strong> generally have low ionization energies and electronegativity. They tend to lose electrons to form positive ions (cations), which is why they are called electropositive elements. Their oxides are typically basic. <strong>Non-metals</strong> generally have high ionization energies and electronegativity. They tend to gain electrons to form negative ions (anions) or share electrons to form covalent bonds. Their oxides are typically acidic.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Define Ionisation enthalpy. Name the factors on which ionisation enthalpy depends? How does it vary down the group and across a period?",
+    "answer": "<strong>Ionization enthalpy ($IE$)</strong> is the energy required to remove the most loosely bound electron from an isolated gaseous atom to form a gaseous cation. It is a measure of the atom's ability to hold onto its electrons.<br><strong>Factors affecting Ionization Enthalpy:</strong><br>1. **Atomic size:** Smaller atomic size leads to higher IE.<br>2. **Effective nuclear charge:** Higher effective nuclear charge leads to higher IE.<br>3. **Shielding effect:** Higher shielding leads to lower IE.<br>4. **Stability of orbitals:** Half-filled or fully-filled orbitals are more stable and have higher IE.<br><strong>Variations in the Periodic Table:</strong><br>- **Down a group:** Ionization enthalpy generally **decreases** because atomic size increases, and the shielding effect increases, making it easier to remove the outermost electron.<br>- **Across a period:** Ionization enthalpy generally **increases** because atomic size decreases, and the effective nuclear charge increases, making it harder to remove an electron.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Give reasons: a. Alkali metals have low ionization enthalpies, b. Inert gases have exceptionally high ionization enthalpies, c. Fluorine has less electron affinity than chlorine.",
+    "answer": "<strong>a. Alkali metals have low ionization enthalpies:</strong> Alkali metals (Group 1) have a single electron in their outermost shell, which is loosely held by the nucleus. Removing this electron gives them a stable noble gas configuration. This is why it requires very little energy to remove this electron.<br><strong>b. Inert gases have exceptionally high ionization enthalpies:</strong> Inert gases (Group 18) have a completely filled outermost electron shell, which is a very stable configuration. Removing an electron from this stable configuration requires a very large amount of energy.<br><strong>c. Fluorine has less electron affinity than chlorine:</strong> This is an exception to the general trend. Fluorine has a smaller atomic size, and its valence electrons are in the 2p subshell. When a new electron is added, it experiences a high degree of electron-electron repulsion within the small 2p orbitals, reducing the energy released. Chlorine's larger 3p orbitals have more space, so the added electron experiences less repulsion and a higher electron affinity.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Noble gases possess relatively large atomic size. Explain.",
+    "answer": "Noble gases possess relatively large atomic size due to the lack of bonding. For noble gases, we measure their atomic radius using the **van der Waals radius**, which is half the distance between the nuclei of two non-bonded atoms in adjacent molecules. For other elements, we typically measure the covalent radius, which is half the distance between two bonded atoms. The van der Waals radius is always larger than the covalent radius. Therefore, noble gases appear to have larger atomic radii than their neighboring halogens in the same period.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Consider the oxides $Li_2O, CO_2, B_2O_3$: a. Which oxide would you expect to be the most basic?, b. Which oxide would be the most acidic?, c. Give the formula of an amphoteric oxide.",
+    "answer": "Based on the periodic trends, the basic nature of oxides increases down a group and decreases across a period, while the acidic nature increases across a period.<br><strong>a. Which oxide would you expect to be the most basic?</strong> Lithium is an alkali metal, so its oxide, **$Li_2O$**, will be the most basic.<br><strong>b. Which oxide would be the most acidic?</strong> Carbon is a non-metal, so its oxide, **$CO_2$**, will be the most acidic.<br><strong>c. Give the formula of an amphoteric oxide:</strong> An amphoteric oxide can react with both acids and bases. A common example is **$Al_2O_3$** (Aluminum oxide).",
+    "marks": 3
+  }
+]

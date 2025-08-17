@@ -1,0 +1,68 @@
+[
+    {
+      "type": "mcq",
+      "text": "Which of the following is NOT a feature of animals?",
+      "options": ["Multicellular", "Heterotrophic", "Cell wall made of cellulose", "Eukaryotic"],
+      "correct_answer": "C",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Cnidarians are characterized by the presence of:",
+      "options": ["Notochord", "Nematocysts", "Segmented body", "Jointed appendages"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In which phylum is the body segmented both externally and internally?",
+      "options": ["Mollusca", "Annelida", "Arthropoda", "Echinodermata"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which of the following is a characteristic of all chordates?",
+      "options": ["Vertebral column", "Notochord", "Lungs", "Bilateral symmetry"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Sponges belong to the phylum:",
+      "options": ["Porifera", "Coelenterata", "Echinodermata", "Platyhelminthes"],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "State any two differences between vertebrates and invertebrates.",
+      "answer": "<strong>Vertebrates:</strong> Have backbone, complex nervous system.<br><strong>Invertebrates:</strong> No backbone, simpler body structure.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Give one example each of diploblastic and triploblastic animals.",
+      "answer": "<strong>Diploblastic:</strong> Hydra (<em>Phylum Cnidaria</em>).<br><strong>Triploblastic:</strong> Earthworm (<em>Phylum Annelida</em>).",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Name the three germ layers in triploblastic animals.",
+      "answer": "Ectoderm, Mesoderm, Endoderm.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Describe the major phyla of invertebrates with one characteristic and one example each.",
+      "answer": "1. <strong>Porifera:</strong> Pores all over body (e.g., Spongilla).<br>2. <strong>Cnidaria:</strong> Nematocysts for defense (e.g., Hydra).<br>3. <strong>Platyhelminthes:</strong> Flat, unsegmented body (e.g., Planaria).<br>4. <strong>Nematoda:</strong> Round, unsegmented body (e.g., Ascaris).<br>5. <strong>Annelida:</strong> Segmented body (e.g., Earthworm).<br>6. <strong>Arthropoda:</strong> Jointed legs (e.g., Butterfly).<br>7. <strong>Mollusca:</strong> Soft body, shell (e.g., Octopus).<br>8. <strong>Echinodermata:</strong> Radial symmetry in adults (e.g., Starfish).",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Explain the general characteristics of phylum Chordata.",
+      "answer": "1. Presence of notochord at some stage.<br>2. Dorsal, hollow nerve cord.<br>3. Pharyngeal gill slits at some stage.<br>4. Post-anal tail.<br>5. Bilateral symmetry and triploblastic.",
+      "marks": 3
+    }
+]
+

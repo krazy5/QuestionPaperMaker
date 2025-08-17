@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following electromagnetic waves has the highest frequency?",
+    "options": [
+      "Radio waves",
+      "Microwaves",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  }
+]

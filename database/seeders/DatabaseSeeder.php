@@ -16,9 +16,10 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 // Add your new seeders to the call array
         $this->call([
-            BoardSeeder::class,
-            ClassSeeder::class,
+            //BoardSeeder::class,
+            //ClassSeeder::class,
             MaharashtraBoardSeeder::class,
+            DemoDataSeeder::class,
         ]);
         
     }

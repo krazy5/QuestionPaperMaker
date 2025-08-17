@@ -1,0 +1,290 @@
+[
+  {
+    "type": "mcq",
+    "text": "A sample of pure water, whatever the source always contains __________ by mass of oxygen and 11.1 % by mass of hydrogen.",
+    "options": [
+      "88.9",
+      "18",
+      "80",
+      "16"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds can NOT demonstrate the law of multiple proportions?",
+    "options": [
+      "NO, NO₂",
+      "CO, CO₂",
+      "H₂O, H₂O₂",
+      "Na₂S, NaF"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following temperature will read the same value on Celsius and Fahrenheit scales.",
+    "options": [
+      "-40°",
+      "+40°",
+      "-20°",
+      "-80°"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "SI unit of the quantity electric current is",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Candela",
+      "Newton"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the reaction N₂ + 3H₂ → 2NH₃, the ratio by volume of N₂, H₂ and NH₃ is 1 : 3 : 2 This illustrates the law of",
+    "options": [
+      "definite proportion",
+      "reciprocal proportion",
+      "multiple proportion",
+      "gaseous volumes"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has maximum number of molecules?",
+    "options": [
+      "7 g N₂",
+      "2 g H₂",
+      "8 g O₂",
+      "20 g NO₂"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "How many g of H₂O are present in 0.25 mol of it ?",
+    "options": [
+      "4.5",
+      "18",
+      "0.25",
+      "5.4"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of molecules in 22.4 cm³ of nitrogen gas at STP is",
+    "options": [
+      "6.022 x 10²³",
+      "6.022 x 10²²",
+      "22.4 x 10²⁰",
+      "22.4 x 10²³"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has the largest number of atoms?",
+    "options": [
+      "1g Au (s)",
+      "1g Na (s)",
+      "1g Li (s)",
+      "1g Cl₂ (g)"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State and explain Avogadro's law.",
+    "answer": "<strong>Avogadro's Law:</strong><br>It states that equal volumes of all gases, at the same temperature and pressure, contain an equal number of molecules.<br><strong>Explanation:</strong> This means that if you have a 1-liter container of oxygen and a 1-liter container of nitrogen at the same temperature and pressure, both containers hold the exact same number of molecules.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Point out the difference between 12 g of carbon and 12 u of carbon",
+    "answer": "<strong>12 g of carbon</strong> refers to the mass of one mole of carbon atoms. This is a macroscopic quantity. <strong>12 u of carbon</strong> refers to the average mass of a single carbon atom. This is an atomic-level quantity. One mole of carbon atoms has a mass of 12 g, which contains Avogadro's number ($6.022 \\times 10^{23}$) of atoms. A single carbon atom has a mass of approximately 12 u, where 1 u (atomic mass unit) is approximately $1.6605 \\times 10^{-24}$ g.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How many grams does an atom of hydrogen weigh?",
+    "answer": "The mass of one atom of hydrogen can be calculated by dividing its molar mass by Avogadro's number. The molar mass of hydrogen is approximately 1.008 g/mol. Avogadro's number is $6.022 \\times 10^{23}$ atoms/mol. <br>Mass of one atom = $\\frac{1.008 \\text{ g/mol}}{6.022 \\times 10^{23} \\text{ atoms/mol}} \\approx 1.67 \\times 10^{-24}$ g/atom.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by molar volume of a gas ?",
+    "answer": "<strong>Molar volume of a gas</strong> is the volume occupied by one mole of that gas at a specific temperature and pressure. For an ideal gas at Standard Temperature and Pressure (STP), the molar volume is approximately 22.4 liters.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State the law of multiple proportions.",
+    "answer": "<strong>Law of multiple proportions:</strong><br>When two elements combine to form more than one compound, the masses of one element that combine with a fixed mass of the other element are in a ratio of small whole numbers.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State and explain the law of conservation of mass.",
+    "answer": "<strong>Law of conservation of mass:</strong><br>It states that mass in an isolated system is neither created nor destroyed by chemical reactions or physical transformations. The mass of the products in a chemical reaction must equal the mass of the reactants.<br><strong>Explanation:</strong> This means that atoms are rearranged, not created or destroyed. For example, when methane ($CH_4$) burns, the mass of the methane and oxygen ($O_2$) reactants is exactly equal to the mass of the carbon dioxide ($CO_2$) and water ($H_2O$) products.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the molecular mass of the following in u. a. $NH_3$, b. $CH_3COOH$, c. $C_6H_5OH$",
+    "answer": "<strong>a. $NH_3$ (Ammonia):</strong><br>Molecular mass = $(1 \\times \\text{atomic mass of N}) + (3 \\times \\text{atomic mass of H})$<br>Molecular mass = $(1 \\times 14.007 \\text{ u}) + (3 \\times 1.008 \\text{ u}) = 14.007 + 3.024 = 17.031$ u.<br><strong>b. $CH_3COOH$ (Acetic acid):</strong><br>Molecular mass = $(2 \\times \\text{atomic mass of C}) + (4 \\times \\text{atomic mass of H}) + (2 \\times \\text{atomic mass of O})$<br>Molecular mass = $(2 \\times 12.011 \\text{ u}) + (4 \\times 1.008 \\text{ u}) + (2 \\times 15.999 \\text{ u}) = 24.022 + 4.032 + 31.998 = 60.052$ u.<br><strong>c. $C_6H_5OH$ (Phenol):</strong><br>Molecular mass = $(6 \\times \\text{atomic mass of C}) + (6 \\times \\text{atomic mass of H}) + (1 \\times \\text{atomic mass of O})$<br>Molecular mass = $(6 \\times 12.011 \\text{ u}) + (6 \\times 1.008 \\text{ u}) + (1 \\times 15.999 \\text{ u}) = 72.066 + 6.048 + 15.999 = 94.113$ u.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "How many particles are present in 1 mole of a substance?",
+    "answer": "One mole of any substance contains Avogadro's number of particles (atoms, molecules, ions, etc.). Avogadro's number is approximately $6.022 \\times 10^{23}$. Thus, 1 mole of a substance contains $6.022 \\times 10^{23}$ particles.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the SI unit of amount of a substance?",
+    "answer": "The SI unit for the amount of a substance is the <strong>mole</strong> (mol).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Give one example of each: a. Homogeneous mixture, b. Heterogeneous mixture, c. Element, d. Compound",
+    "answer": "<strong>a. Homogeneous mixture:</strong> Saltwater, air, or a sugar solution. <br><strong>b. Heterogeneous mixture:</strong> Sand and water, oil and water, or a salad.<br><strong>c. Element:</strong> Oxygen ($O_2$), gold ($Au$), or carbon ($C$).<br><strong>d. Compound:</strong> Water ($H_2O$), carbon dioxide ($CO_2$), or table salt ($NaCl$).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is the ratio of molecules in 1 mole of $NH_3$ and 1 mole of $HNO_3$?",
+    "answer": "The ratio of molecules is 1:1. This is because, according to Avogadro's number, one mole of any substance contains the same number of molecules, which is $6.022 \\times 10^{23}$. Therefore, 1 mole of $NH_3$ and 1 mole of $HNO_3$ both contain the same number of molecules.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate number of moles of hydrogen in 0.448 litre of hydrogen gas at STP.",
+    "answer": "The number of moles of a gas at STP can be calculated using the formula: $n = \\frac{\\text{Volume at STP (L)}}{\\text{Molar volume at STP (L/mol)}}$.<br>Given: Volume of hydrogen gas = 0.448 L.<br>Molar volume at STP = 22.4 L/mol.<br>Number of moles = $\\frac{0.448 \\text{ L}}{22.4 \\text{ L/mol}} = 0.02$ moles.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is the mass of 18 atoms of hydrogen.",
+    "answer": "The molar mass of hydrogen is approximately 1.008 g/mol, and Avogadro's number is $6.022 \\times 10^{23}$ atoms/mol. <br>Mass of one hydrogen atom = $\\frac{\\text{Molar mass}}{\\text{Avogadro's number}} = \\frac{1.008 \\text{ g}}{6.022 \\times 10^{23} \\text{ atoms}} \\approx 1.674 \\times 10^{-24}$ g/atom.<br>Mass of 18 atoms = $18 \\times 1.674 \\times 10^{-24} \\text{ g} \\approx 3.013 \\times 10^{-23}$ g.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the number of atoms in each of the following: a. 254 g of iodine (I), b. 254 g of iodine ($I_2$). (Given : Atomic mass of I = 127 u).",
+    "answer": "<strong>a. 254 g of iodine (I) atoms:</strong><br>Molar mass of I = 127 g/mol. <br>Moles of I = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{254 \\text{ g}}{127 \\text{ g/mol}} = 2$ moles.<br>Number of atoms = Moles $\\times$ Avogadro's number = $2 \\times 6.022 \\times 10^{23} = 1.2044 \\times 10^{24}$ atoms.<br><strong>b. 254 g of iodine ($I_2$) molecules:</strong><br>Molar mass of $I_2$ = $2 \\times 127 = 254$ g/mol.<br>Moles of $I_2$ = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{254 \\text{ g}}{254 \\text{ g/mol}} = 1$ mole.<br>Number of molecules = Moles $\\times$ Avogadro's number = $1 \\times 6.022 \\times 10^{23} = 6.022 \\times 10^{23}$ molecules.<br>Number of atoms = Number of molecules $\\times$ 2 (since there are 2 atoms per molecule) = $6.022 \\times 10^{23} \\times 2 = 1.2044 \\times 10^{24}$ atoms.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A student used a carbon pencil to write his homework. The mass of this was found to be 5 mg. With the help of this calculate the number of moles of carbon in his homework writing.",
+    "answer": "Given mass of carbon = 5 mg = $5 \\times 10^{-3}$ g.<br>Molar mass of carbon (C) = 12 g/mol.<br>Number of moles (n) = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{5 \\times 10^{-3} \\text{ g}}{12 \\text{ g/mol}} \\approx 4.167 \\times 10^{-4}$ moles.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The number of carbon atoms in 12 mg of his homework writing.",
+    "answer": "From the previous calculation, the number of moles of carbon is $4.167 \\times 10^{-4}$ moles.<br>Number of atoms = Number of moles $\\times$ Avogadro's number.<br>Number of atoms = $(4.167 \\times 10^{-4} \\text{ mol}) \\times (6.022 \\times 10^{23} \\text{ atoms/mol}) \\approx 2.509 \\times 10^{20}$ atoms.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Arjun purchased 250 g of glucose ($C_6H_{12}O_6$) for Rs 40. Find the cost of glucose per mole.",
+    "answer": "<strong>Step 1:</strong> Calculate the molar mass of glucose ($C_6H_{12}O_6$).<br>Molar Mass = $(6 \\times 12) + (12 \\times 1) + (6 \\times 16) = 72 + 12 + 96 = 180$ g/mol.<br><strong>Step 2:</strong> Calculate the number of moles in 250 g of glucose.<br>Moles = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{250 \\text{ g}}{180 \\text{ g/mol}} \\approx 1.389$ moles.<br><strong>Step 3:</strong> Calculate the cost per mole.<br>Cost per mole = $\\frac{\\text{Total Cost}}{\\text{Number of Moles}} = \\frac{40 \\text{ Rs}}{1.389 \\text{ moles}} \\approx 28.8$ Rs/mole.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The natural isotopic abundance of $^{10}$B is 19.60% and $^{11}$B is 80.40%. The exact isotopic masses are 10.13 and 11.009 respectively. Calculate the average atomic mass of boron.",
+    "answer": "Average Atomic Mass = $(\\text{Mass of Isotope 1} \\times \\text{Fractional Abundance 1}) + (\\text{Mass of Isotope 2} \\times \\text{Fractional Abundance 2})$.<br>Fractional abundance of $^{10}$B = 19.60% = 0.1960.<br>Fractional abundance of $^{11}$B = 80.40% = 0.8040.<br>Average Atomic Mass = $(10.13 \\times 0.1960) + (11.009 \\times 0.8040)$.<br>Average Atomic Mass = $1.98548 + 8.851236 \\approx 10.8367$ u.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Convert the following degree Celsius temperature to degree Fahrenheit. a. 40 °C, b. 30 °C",
+    "answer": "The formula to convert Celsius to Fahrenheit is: $F = (C \\times \\frac{9}{5}) + 32$.<br><strong>a. For 40 °C:</strong><br>$F = (40 \\times \\frac{9}{5}) + 32 = (8 \\times 9) + 32 = 72 + 32 = 104$ °F.<br><strong>b. For 30 °C:</strong><br>$F = (30 \\times \\frac{9}{5}) + 32 = (6 \\times 9) + 32 = 54 + 32 = 86$ °F.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the number of moles and molecules of acetic acid present in 22 g of it.",
+    "answer": "<strong>Step 1:</strong> Calculate the molar mass of acetic acid ($CH_3COOH$).<br>Molar Mass = $(2 \\times 12.01) + (4 \\times 1.01) + (2 \\times 16.00) = 24.02 + 4.04 + 32.00 = 60.06$ g/mol.<br><strong>Step 2:</strong> Calculate the number of moles.<br>Moles = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{22 \\text{ g}}{60.06 \\text{ g/mol}} \\approx 0.366$ moles.<br><strong>Step 3:</strong> Calculate the number of molecules.<br>Molecules = Moles $\\times$ Avogadro's number = $0.366 \\times 6.022 \\times 10^{23} \\approx 2.204 \\times 10^{23}$ molecules.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "24 g of carbon reacts with some oxygen to make 88 grams of carbon dioxide. Find out how much oxygen must have been used.",
+    "answer": "According to the Law of Conservation of Mass, the total mass of reactants equals the total mass of products. <br>Mass of Reactants = Mass of Carbon + Mass of Oxygen.<br>Mass of Products = Mass of Carbon Dioxide.<br>24 g + Mass of Oxygen = 88 g.<br>Mass of Oxygen = 88 g - 24 g = 64 g.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate number of atoms in each of the following: a. 0.4 mole of nitrogen, b. 1.6 g of sulfur. (Average atomic mass : N = 14 u, S = 32 u)",
+    "answer": "<strong>a. 0.4 mole of nitrogen (N):</strong><br>Number of atoms = Moles $\\times$ Avogadro's number.<br>Number of atoms = $0.4 \\times 6.022 \\times 10^{23} = 2.4088 \\times 10^{23}$ atoms.<br><strong>b. 1.6 g of sulfur (S):</strong><br>Molar mass of S = 32 g/mol.<br>Moles of S = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{1.6 \\text{ g}}{32 \\text{ g/mol}} = 0.05$ moles.<br>Number of atoms = Moles $\\times$ Avogadro's number.<br>Number of atoms = $0.05 \\times 6.022 \\times 10^{23} = 3.011 \\times 10^{22}$ atoms.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Calculate the number of moles of magnesium oxide, MgO in i. 80 g and ii. 10 g of the compound. (Average atomic masses of Mg= 24 and O= 16)",
+    "answer": "<strong>Step 1:</strong> Calculate the molar mass of MgO.<br>Molar mass of MgO = 24 (Mg) + 16 (O) = 40 g/mol.<br><strong>i. For 80 g of MgO:</strong><br>Number of moles = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{80 \\text{ g}}{40 \\text{ g/mol}} = 2$ moles.<br><strong>ii. For 10 g of MgO:</strong><br>Number of moles = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{10 \\text{ g}}{40 \\text{ g/mol}} = 0.25$ moles.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is volume of carbon dioxide, $CO_2$ occupying by i. 5 moles and ii. 0.5 mole of $CO_2$ gas measured at STP.",
+    "answer": "At STP, 1 mole of any gas occupies 22.4 L.<br><strong>i. For 5 moles of $CO_2$:</strong><br>Volume = $5 \\text{ moles} \\times 22.4 \\text{ L/mol} = 112$ L.<br><strong>ii. For 0.5 mole of $CO_2$:</strong><br>Volume = $0.5 \\text{ moles} \\times 22.4 \\text{ L/mol} = 11.2$ L.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Calculate the mass of potassium chlorate required to liberate 6.72 dm³ of oxygen at STP. Molar mass of $KClO_3$ is 122.5 g mol⁻¹.",
+    "answer": "The balanced chemical equation for the decomposition of potassium chlorate is:<br>$2KClO_3 \\rightarrow 2KCl + 3O_2$.<br>From the equation, 2 moles of $KClO_3$ produce 3 moles of $O_2$.<br>Given volume of $O_2$ = 6.72 $dm^3$ (L) at STP.<br>Moles of $O_2$ liberated = $\\frac{\\text{Volume at STP}}{\\text{Molar volume at STP}} = \\frac{6.72 \\text{ L}}{22.4 \\text{ L/mol}} = 0.3$ moles.<br>Using the mole ratio from the balanced equation:<br>Moles of $KClO_3$ = $0.3 \\text{ moles of } O_2 \\times \\frac{2 \\text{ moles of } KClO_3}{3 \\text{ moles of } O_2} = 0.2$ moles.<br>Mass of $KClO_3$ = Moles $\\times$ Molar mass = $0.2 \\text{ mol} \\times 122.5 \\text{ g/mol} = 24.5$ g.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Calculate the number of atoms of hydrogen present in 5.6 g of urea, $(NH_2)_2CO$. Also calculate the number of atoms of N, C and O.",
+    "answer": "<strong>Step 1:</strong> Calculate the molar mass of urea $(NH_2)_2CO$.<br>Molar mass = $(2 \\times 14) + (4 \\times 1) + 12 + 16 = 28 + 4 + 12 + 16 = 60$ g/mol.<br><strong>Step 2:</strong> Calculate the number of moles of urea.<br>Moles = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{5.6 \\text{ g}}{60 \\text{ g/mol}} \\approx 0.0933$ moles.<br><strong>Step 3:</strong> Calculate the number of molecules of urea.<br>Molecules = Moles $\\times$ Avogadro's number = $0.0933 \\times 6.022 \\times 10^{23} \\approx 5.618 \\times 10^{22}$ molecules.<br><strong>Step 4:</strong> Calculate the number of atoms of each element.<br>Number of H atoms = Number of molecules $\\times 4 = 5.618 \\times 10^{22} \\times 4 = 2.247 \\times 10^{23}$ atoms.<br>Number of N atoms = Number of molecules $\\times 2 = 5.618 \\times 10^{22} \\times 2 = 1.123 \\times 10^{23}$ atoms.<br>Number of C atoms = Number of molecules $\\times 1 = 5.618 \\times 10^{22} \\times 1 = 5.618 \\times 10^{22}$ atoms.<br>Number of O atoms = Number of molecules $\\times 1 = 5.618 \\times 10^{22} \\times 1 = 5.618 \\times 10^{22}$ atoms.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Calculate the number of moles of sulfur dioxide produced by burning 16 g of sulfur in excess of oxygen in contact process. (Average atomic mass : S = 32 u, O = 16 u)",
+    "answer": "The reaction for the formation of sulfur dioxide is: $S + O_2 \\rightarrow SO_2$.<br>From the balanced equation, 1 mole of S produces 1 mole of $SO_2$.<br>Given mass of sulfur (S) = 16 g.<br>Molar mass of sulfur (S) = 32 g/mol.<br>Number of moles of S = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{16 \\text{ g}}{32 \\text{ g/mol}} = 0.5$ moles.<br>Since the mole ratio of S to $SO_2$ is 1:1, 0.5 moles of S will produce 0.5 moles of $SO_2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A 2.0 g of a metal burnt in oxygen gave 3.2 g of its oxide, 1.42 g of the same metal heated in steam gave 2.27 of its oxide. Which law is verified by these data?",
+    "answer": "This problem illustrates the <strong>Law of Constant Composition (or Law of Definite Proportions)</strong>. This law states that a given chemical compound always contains its component elements in a fixed ratio by mass. <br>In the first experiment:<br>Mass of metal = 2.0 g<br>Mass of oxide = 3.2 g<br>Mass of oxygen = 3.2 g - 2.0 g = 1.2 g<br>Ratio of metal to oxygen = $\\frac{2.0 \\text{ g}}{1.2 \\text{ g}} \\approx 1.67$.<br>In the second experiment:<br>Mass of metal = 1.42 g<br>Mass of oxide = 2.27 g<br>Mass of oxygen = 2.27 g - 1.42 g = 0.85 g<br>Ratio of metal to oxygen = $\\frac{1.42 \\text{ g}}{0.85 \\text{ g}} \\approx 1.67$.<br>Since the ratio of the masses of the metal and oxygen is constant in both experiments, the data verifies the Law of Constant Composition.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In two moles of acetaldehyde ($CH_3CHO$), calculate the following: a. Number of moles of carbon, b. Number of moles of hydrogen, c. Number of moles of oxygen, d. Number of molecules of acetaldehyde",
+    "answer": "The chemical formula for acetaldehyde is $CH_3CHO$, which can be simplified to $C_2H_4O$.<br>In one mole of acetaldehyde, there are: 2 moles of Carbon atoms, 4 moles of Hydrogen atoms, and 1 mole of Oxygen atoms.<br>Since we have 2 moles of acetaldehyde:<br><strong>a. Number of moles of carbon:</strong> $2 \\text{ moles of } C_2H_4O \\times \\frac{2 \\text{ moles of C}}{1 \\text{ mole of } C_2H_4O} = 4$ moles of Carbon.<br><strong>b. Number of moles of hydrogen:</strong> $2 \\text{ moles of } C_2H_4O \\times \\frac{4 \\text{ moles of H}}{1 \\text{ mole of } C_2H_4O} = 8$ moles of Hydrogen.<br><strong>c. Number of moles of oxygen:</strong> $2 \\text{ moles of } C_2H_4O \\times \\frac{1 \\text{ mole of O}}{1 \\text{ mole of } C_2H_4O} = 2$ moles of Oxygen.<br><strong>d. Number of molecules of acetaldehyde:</strong><br>Number of molecules = Moles of acetaldehyde $\\times$ Avogadro's number = $2 \\times 6.022 \\times 10^{23} = 1.2044 \\times 10^{24}$ molecules.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "a. The need of the term average atomic mass, b. Molar mass, c. Mole concept, d. Formula mass with an example, e. Molar volume of gas, f. Types of matter (on the basis of chemical composition).",
+    "answer": "<strong>a. The need for the term average atomic mass:</strong> The average atomic mass is needed because most elements exist as a mixture of two or more isotopes. Each isotope has a different mass, so the average atomic mass is a weighted average of the masses of these isotopes, taking into account their natural abundance. It is the value used for calculations in chemistry.<br><strong>b. Molar mass:</strong> Molar mass is the mass in grams of one mole of a substance. It is numerically equal to the average atomic or molecular mass, but expressed in grams per mole (g/mol). For example, the molar mass of water ($H_2O$) is approximately 18 g/mol.<br><strong>c. Mole concept:</strong> The mole is the SI unit for the amount of a substance. The mole concept is a way of counting atoms or molecules by weighing them. One mole of any substance contains Avogadro's number ($6.022 \\times 10^{23}$) of particles. It is the bridge between the macroscopic world (grams) and the microscopic world (atoms and molecules).<br><strong>d. Formula mass with an example:</strong> Formula mass is the sum of the atomic masses of all atoms in a formula unit of an ionic compound. It is used for ionic compounds because they do not exist as discrete molecules. Example: The formula mass of sodium chloride (NaCl) is the sum of the atomic mass of Na (23 u) and Cl (35.5 u), which is 58.5 u.<br><strong>e. Molar volume of gas:</strong> Molar volume is the volume occupied by one mole of any gas at a specific temperature and pressure. At Standard Temperature and Pressure (STP), the molar volume of an ideal gas is approximately 22.4 liters.<br><strong>f. Types of matter (on the basis of chemical composition):</strong> Matter can be classified into two main categories: pure substances and mixtures. <strong>Pure substances</strong> have a fixed composition and can be either <strong>elements</strong> (e.g., gold, oxygen) or <strong>compounds</strong> (e.g., water, salt). <strong>Mixtures</strong> have a variable composition and can be either <strong>homogeneous</strong> (uniform, e.g., saltwater, air) or <strong>heterogeneous</strong> (non-uniform, e.g., sand and water, salad).",
+    "marks": 5
+  }
+]

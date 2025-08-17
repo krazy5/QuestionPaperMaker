@@ -1,0 +1,113 @@
+[
+  {
+    "type": "mcq",
+    "text": "The value of $\\cos(15^\\circ)$ is:",
+    "options": [
+      "$\\frac{\\sqrt{3}+1}{2\\sqrt{2}}$",
+      "$\\frac{\\sqrt{3}-1}{2\\sqrt{2}}$",
+      "$\\frac{\\sqrt{2}+1}{2\\sqrt{3}}$",
+      "$\\frac{\\sqrt{2}-1}{2\\sqrt{3}}$"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $\\tan(-945^\\circ)$ is:",
+    "options": [
+      "-1",
+      "1",
+      "$\\sqrt{3}$",
+      "$1/\\sqrt{3}$"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $\\sin A = \\frac{4}{5}$ and $\\cos B = \\frac{5}{13}$, where $0 < A, B < \\frac{\\pi}{2}$, the value of $\\cos(A-B)$ is:",
+    "options": ["$56/65$", "$63/65$", "$33/65$", "$16/65$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $\\frac{\\tan 69^\\circ + \\tan 66^\\circ}{1 - \\tan 69^\\circ \\tan 66^\\circ}$ is:",
+    "options": ["1", "-1", "0", "undefined"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $\\cos(2\\pi - x)$ is equal to:",
+    "options": ["$-\\cos x$", "$\\cos x$", "$\\sin x$", "$-\\sin x$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the trigonometric functions of angle $-120^\\circ$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: $-120^\\circ$ lies in the 3rd quadrant. We can write it as $-120^\\circ = -180^\\circ + 60^\\circ$.<br>Step 2: $\\sin(-120^\\circ) = -\\sin(120^\\circ) = -\\sin(180-60) = -\\sin(60^\\circ) = -\\frac{\\sqrt{3}}{2}$.<br>Step 3: $\\cos(-120^\\circ) = \\cos(120^\\circ) = \\cos(180-60) = -\\cos(60^\\circ) = -\\frac{1}{2}$.<br>Step 4: $\\tan(-120^\\circ) = -\\tan(120^\\circ) = -(-\\tan(60^\\circ)) = \\sqrt{3}$.<br>Step 5: The reciprocals are $\\csc(-120^\\circ) = -\\frac{2}{\\sqrt{3}}$, $\\sec(-120^\\circ) = -2$, $\\cot(-120^\\circ) = \\frac{1}{\\sqrt{3}}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "If $\\cos\\theta = 12/13$ and $0 < \\theta < \\pi/2$, find the value of $\\sin^2\\theta - \\cos^2\\theta$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: We are given $\\cos\\theta = 12/13$.<br>Step 2: Find $\\sin\\theta$ using the identity $\\sin^2\\theta + \\cos^2\\theta = 1$.<br>$\\sin^2\\theta = 1 - (12/13)^2 = 1 - 144/169 = 25/169$.<br>Since $\\theta$ is in the first quadrant, $\\sin\\theta = \\sqrt{25/169} = 5/13$.<br>Step 3: Calculate the required expression: $\\sin^2\\theta - \\cos^2\\theta = (5/13)^2 - (12/13)^2 = \\frac{25-144}{169} = -\\frac{119}{169}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the value of $\\sin(420^\\circ)$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Express $420^\\circ$ in terms of a multiple of $360^\\circ$.<br>$420^\\circ = 360^\\circ + 60^\\circ$.<br>Step 2: Use the periodicity of the sine function: $\\sin(360^\\circ + \\theta) = \\sin\\theta$.<br>$\\sin(420^\\circ) = \\sin(60^\\circ)$.<br>Step 3: The value of $\\sin(60^\\circ)$ is $\\frac{\\sqrt{3}}{2}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If $\\tan A = 5/6$ and $\\tan B = 1/11$, find the value of $A+B$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Use the formula for $\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$.<br>Step 2: Substitute the given values: $\\tan(A+B) = \\frac{5/6 + 1/11}{1 - (5/6)(1/11)}$.<br>Step 3: Simplify the numerator and denominator: $\\frac{(55+6)/66}{(66-5)/66} = \\frac{61/66}{61/66} = 1$.<br>Step 4: Since $\\tan(A+B)=1$, we have $A+B = \\pi/4$ or $45^\\circ$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the value of $2\\sin(15^\\circ)\\cos(15^\\circ)$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Use the double angle identity $2\\sin\\theta\\cos\\theta = \\sin(2\\theta)$.<br>Step 2: Here, $\\theta = 15^\\circ$. So, $2\\sin(15^\\circ)\\cos(15^\\circ) = \\sin(2 \\times 15^\\circ) = \\sin(30^\\circ)$.<br>Step 3: The value of $\\sin(30^\\circ)$ is $\\frac{1}{2}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Prove that $\\sqrt{\\frac{1-\\sin x}{1+\\sin x}} = \\sec x - \\tan x$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Start with the LHS. Multiply the numerator and denominator inside the square root by $(1-\\sin x)$.<br>LHS = $\\sqrt{\\frac{(1-\\sin x)(1-\\sin x)}{(1+\\sin x)(1-\\sin x)}} = \\sqrt{\\frac{(1-\\sin x)^2}{1-\\sin^2 x}}$.<br>Step 2: Use the identity $1-\\sin^2 x = \\cos^2 x$.<br>LHS = $\\sqrt{\\frac{(1-\\sin x)^2}{\\cos^2 x}} = \\frac{1-\\sin x}{\\cos x}$.<br>Step 3: Split the fraction: $\\frac{1}{\\cos x} - \\frac{\\sin x}{\\cos x}$.<br>Step 4: This simplifies to $\\sec x - \\tan x$, which is the RHS.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Eliminate $\\theta$ from the equations: $x = a \\cos^3\\theta$, $y = b \\sin^3\\theta$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Rearrange the given equations to isolate the trigonometric functions.<br>From $x = a \\cos^3\\theta$, we get $\\cos^3\\theta = x/a \\implies \\cos\\theta = (x/a)^{1/3}$.<br>From $y = b \\sin^3\\theta$, we get $\\sin^3\\theta = y/b \\implies \\sin\\theta = (y/b)^{1/3}$.<br>Step 2: Use the fundamental trigonometric identity $\\cos^2\\theta + \\sin^2\\theta = 1$.<br>Step 3: Substitute the expressions from Step 1 into the identity:<br>$[(x/a)^{1/3}]^2 + [(y/b)^{1/3}]^2 = 1$.<br>Step 4: Simplify the expression: $(x/a)^{2/3} + (y/b)^{2/3} = 1$.<br>This is the required equation with $\\theta$ eliminated.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Prove that $\\frac{\\sin(x-y)}{\\cos x \\cos y} + \\frac{\\sin(y-z)}{\\cos y \\cos z} + \\frac{\\sin(z-x)}{\\cos z \\cos x} = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Expand each term using the $\\sin(A-B)$ formula.<br>$\\frac{\\sin x \\cos y - \\cos x \\sin y}{\\cos x \\cos y} + \\frac{\\sin y \\cos z - \\cos y \\sin z}{\\cos y \\cos z} + \\frac{\\sin z \\cos x - \\cos z \\sin x}{\\cos z \\cos x}$.<br>Step 2: Split each fraction into two parts.<br>$(\\tan x - \\tan y) + (\\tan y - \\tan z) + (\\tan z - \\tan x)$.<br>Step 3: Combine like terms. All terms cancel out.<br>$\\tan x - \\tan x + \\tan y - \\tan y + \\tan z - \\tan z = 0$.<br>Hence, proved.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the value of $\\tan(585^\\circ)$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Express $585^\\circ$ in terms of multiples of $360^\\circ$.<br>$585^\\circ = 360^\\circ + 225^\\circ$.<br>Step 2: Use periodicity: $\\tan(585^\\circ) = \\tan(225^\\circ)$.<br>Step 3: Express $225^\\circ$ as $180^\\circ + 45^\\circ$.<br>$\\tan(225^\\circ) = \\tan(180^\\circ + 45^\\circ)$.<br>Step 4: Since the angle is in the 3rd quadrant, tan is positive. $\\tan(180^\\circ+\\theta) = \\tan\\theta$.<br>$\\tan(45^\\circ) = 1$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Prove that $\\cos(\\frac{\\pi}{4} - x) \\cos(\\frac{\\pi}{4} - y) - \\sin(\\frac{\\pi}{4} - x) \\sin(\\frac{\\pi}{4} - y) = \\sin(x+y)$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Recognize the form of the LHS. It matches the identity $\\cos A \\cos B - \\sin A \\sin B = \\cos(A+B)$.<br>Step 2: Let $A = \\frac{\\pi}{4} - x$ and $B = \\frac{\\pi}{4} - y$.<br>Step 3: Apply the identity: LHS = $\\cos((\\frac{\\pi}{4} - x) + (\\frac{\\pi}{4} - y))$.<br>Step 4: Simplify the angle: $\\cos(\\frac{\\pi}{2} - (x+y))$.<br>Step 5: Use the co-function identity $\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta$.<br>LHS = $\\sin(x+y)$, which is the RHS.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If $\\tan\\theta = 1/2$, find the value of $\\frac{2\\sin\\theta + 3\\cos\\theta}{4\\cos\\theta + 3\\sin\\theta}$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Divide the numerator and the denominator by $\\cos\\theta$.<br>The expression becomes $\\frac{2(\\sin\\theta/\\cos\\theta) + 3(\\cos\\theta/\\cos\\theta)}{4(\\cos\\theta/\\cos\\theta) + 3(\\sin\\theta/\\cos\\theta)}$.<br>Step 2: Simplify using $\\tan\\theta = \\sin\\theta/\\cos\\theta$.<br>$\\frac{2\\tan\\theta + 3}{4 + 3\\tan\\theta}$.<br>Step 3: Substitute the given value $\\tan\\theta = 1/2$.<br>$\\frac{2(1/2) + 3}{4 + 3(1/2)} = \\frac{1+3}{4+3/2} = \\frac{4}{11/2}$.<br>Step 4: Simplify the complex fraction: $4 \\times \\frac{2}{11} = \\frac{8}{11}$.",
+    "marks": 3
+  }
+]

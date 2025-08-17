@@ -1,0 +1,28 @@
+[
+  {
+    "type": "mcq",
+    "text": "The total number of bones in the adult human skeleton is...",
+    "options": ["206", "300", "270", "120"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The longest and strongest bone in the human body is the...",
+    "options": ["Humerus", "Tibia", "Femur", "Fibula"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a joint?",
+    "answer": "A joint is a point of articulation between two or more bones. It allows for movement and provides mechanical support.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the sliding filament theory of muscle contraction.",
+    "answer": "<strong>Sliding Filament Theory:</strong><br>This theory explains how muscles contract. The key steps are:<br>1. <strong>Signal:</strong> A nerve impulse arrives at the neuromuscular junction, causing the release of acetylcholine.<br>2. <strong>Calcium Release:</strong> This triggers the release of calcium ions (Ca2+) from the sarcoplasmic reticulum.<br>3. <strong>Active Sites Exposed:</strong> Calcium ions bind to troponin, causing a change in the shape of the tropomyosin molecule, which exposes the active sites on the actin filaments.<br>4. <strong>Cross-Bridge Formation:</strong> The energized myosin heads bind to the active sites on actin, forming cross-bridges.<br>5. <strong>Power Stroke:</strong> The myosin heads pivot, pulling the actin filaments towards the center of the sarcomere. This is the 'power stroke'. ATP is used to detach and re-energize the myosin heads.<br>6. <strong>Contraction:</strong> As the actin filaments slide over the myosin filaments, the sarcomere shortens, and the muscle contracts.",
+    "marks": 5
+  }
+]

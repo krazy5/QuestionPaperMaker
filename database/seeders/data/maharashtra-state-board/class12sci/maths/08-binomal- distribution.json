@@ -1,0 +1,260 @@
+[
+  {
+    "type": "long",
+    "text": "Q) A die is thrown 6 times. If 'getting an odd number' is a success, find the probability of (i) 5 successes (ii) at least 5 successes (iii) at most 5 successes.",
+    "answer": "This is a **binomial distribution** problem with $n=6$ trials. The probability of success (getting an odd number) is $p = 3/6 = 1/2$. The probability of failure is $q = 1-p = 1/2$. The formula for the probability of $k$ successes in $n$ trials is $P(X=k) = \\binom{n}{k}p^k q^{n-k}$.<br>i) The probability of 5 successes is $P(X=5) = \\binom{6}{5}(\\frac{1}{2})^5(\\frac{1}{2})^1 = 6\\cdot\\frac{1}{32}\\cdot\\frac{1}{2} = \\frac{6}{64} = \\frac{3}{32}$.<br>ii) The probability of at least 5 successes is $P(X \\ge 5) = P(X=5)+P(X=6)$.<br>$P(X=6) = \\binom{6}{6}(\\frac{1}{2})^6(\\frac{1}{2})^0 = 1\\cdot\\frac{1}{64}\\cdot 1 = \\frac{1}{64}$.<br>$P(X \\ge 5) = \\frac{6}{64} + \\frac{1}{64} = \\frac{7}{64}$.<br>iii) The probability of at most 5 successes is $P(X \\le 5) = 1-P(X > 5) = 1-P(X=6)$.<br>$P(X \\le 5) = 1 - \\frac{1}{64} = \\frac{63}{64}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A pair of dice is thrown 4 times. If getting a doublet is considered a success, find the probability of two successes.",
+    "answer": "The probability of getting a doublet (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) is $p = 6/36 = 1/6$. The number of trials is $n=4$. We want to find the probability of two successes, which is a binomial distribution problem with $k=2$. The probability of failure is $q = 1-p = 5/6$.<br>$P(X=2) = \\binom{4}{2}(\\frac{1}{6})^2(\\frac{5}{6})^{4-2} = 6\\cdot\\frac{1}{36}\\cdot(\\frac{5}{6})^2 = \\frac{6}{36}\\cdot\\frac{25}{36} = \\frac{1}{6}\\cdot\\frac{25}{36} = \\frac{25}{216}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) There are 5% defective items in a large bulk of items. What is the probability that a sample of 10 items will include not more than one defective item?",
+    "answer": "This is a **binomial distribution** problem with $n=10$ trials. The probability of a defective item (success) is $p = 5\\% = 0.05$. The probability of a non-defective item (failure) is $q = 1-p = 0.95$. We want to find the probability of not more than one defective item, which is $P(X \\le 1) = P(X=0)+P(X=1)$.<br>$P(X=0) = \\binom{10}{0}(0.05)^0(0.95)^{10} = 1\\cdot 1\\cdot (0.95)^{10} \\approx 0.5987$.<br>$P(X=1) = \\binom{10}{1}(0.05)^1(0.95)^9 = 10\\cdot 0.05\\cdot (0.95)^9 \\approx 10\\cdot 0.05\\cdot 0.6302 = 0.3151$.<br>$P(X \\le 1) = 0.5987 + 0.3151 = 0.9138$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Five cards are drawn successively with replacement from a well-shuffled deck of 52 cards, find the probability that (i) all the five cards are spades (ii) only 3 cards are spades (iii) none is a spade.",
+    "answer": "This is a **binomial distribution** problem with $n=5$ trials. The probability of a spade (success) is $p = 13/52 = 1/4$. The probability of a non-spade (failure) is $q = 1-p = 3/4$.<br>i) The probability that all five cards are spades is $P(X=5) = \\binom{5}{5}(\\frac{1}{4})^5(\\frac{3}{4})^0 = 1\\cdot\\frac{1}{1024}\\cdot 1 = \\frac{1}{1024}$.<br>ii) The probability that only 3 cards are spades is $P(X=3) = \\binom{5}{3}(\\frac{1}{4})^3(\\frac{3}{4})^2 = 10\\cdot\\frac{1}{64}\\cdot\\frac{9}{16} = \\frac{90}{1024} = \\frac{45}{512}$.<br>iii) The probability that none is a spade is $P(X=0) = \\binom{5}{0}(\\frac{1}{4})^0(\\frac{3}{4})^5 = 1\\cdot 1\\cdot\\frac{243}{1024} = \\frac{243}{1024}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The probability that a bulb produced by a factory will fuse after 150 days of use is 0.05. Find the probability that out of 5 such bulbs (i) none (ii) not more than one (iii) more than one (iv) at least one will fuse after 150 days of use.",
+    "answer": "This is a **binomial distribution** problem with $n=5$ trials. The probability of a bulb fusing (success) is $p = 0.05$. The probability of a bulb not fusing (failure) is $q = 1-p = 0.95$. Let $X$ be the number of bulbs that fuse.<br>i) The probability that none will fuse is $P(X=0) = \\binom{5}{0}(0.05)^0(0.95)^5 = 1\\cdot 1\\cdot (0.95)^5 \\approx 0.7738$.<br>ii) The probability that not more than one will fuse is $P(X \\le 1) = P(X=0)+P(X=1)$.<br>$P(X=1) = \\binom{5}{1}(0.05)^1(0.95)^4 = 5\\cdot 0.05\\cdot (0.95)^4 \\approx 0.25\\cdot 0.8145 \\approx 0.2036$.<br>$P(X \\le 1) = 0.7738 + 0.2036 = 0.9774$.<br>iii) The probability that more than one will fuse is $P(X > 1) = 1 - P(X \\le 1) = 1 - (P(X=0)+P(X=1))$.<br>$P(X > 1) = 1 - 0.9774 = 0.0226$.<br>iv) The probability that at least one will fuse is $P(X \\ge 1) = 1 - P(X=0) = 1-0.7738 = 0.2262$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A bag consists of 10 balls each marked with one of the digits 0 to 9. If four balls are drawn successively with replacement from the bag, what is the probability that none is marked with the digit 0?",
+    "answer": "This is a **binomial distribution** problem with $n=4$ trials. The probability of drawing a ball marked with the digit 0 is $p = 1/10 = 0.1$. The probability of not drawing a ball marked with 0 is $q = 1-p = 0.9$. We want to find the probability that none of the four balls is marked with 0, which is $P(X=0)$.<br>$P(X=0) = \\binom{4}{0}(0.1)^0(0.9)^4 = 1\\cdot 1\\cdot (0.9)^4 = 0.6561$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) On a multiple choice examination with three possible answers for each of the five questions, what is the probability that a candidate would get four or more correct answers just by guessing?",
+    "answer": "This is a **binomial distribution** problem with $n=5$ questions. The probability of getting a correct answer by guessing is $p = 1/3$. The probability of getting an incorrect answer is $q = 1-p = 2/3$. We want to find the probability of getting four or more correct answers, which is $P(X \\ge 4) = P(X=4)+P(X=5)$.<br>$P(X=4) = \\binom{5}{4}(\\frac{1}{3})^4(\\frac{2}{3})^1 = 5\\cdot\\frac{1}{81}\\cdot\\frac{2}{3} = \\frac{10}{243}$.<br>$P(X=5) = \\binom{5}{5}(\\frac{1}{3})^5(\\frac{2}{3})^0 = 1\\cdot\\frac{1}{243}\\cdot 1 = \\frac{1}{243}$.<br>$P(X \\ge 4) = \\frac{10}{243} + \\frac{1}{243} = \\frac{11}{243}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A person buys a lottery ticket in 50 lotteries, in each of which his chance of winning a prize is 1/100. Find the probability that he will win a prize (i) at least once (ii) exactly once (iii) at least twice.",
+    "answer": "This is a **binomial distribution** problem with $n=50$ lotteries. The probability of winning a prize is $p = 1/100 = 0.01$. The probability of not winning is $q = 1-p = 0.99$.<br>i) The probability of winning at least once is $P(X \\ge 1) = 1-P(X=0)$.<br>$P(X=0) = \\binom{50}{0}(0.01)^0(0.99)^{50} = 1\\cdot 1\\cdot (0.99)^{50} \\approx 0.605$.<br>$P(X \\ge 1) = 1 - 0.605 = 0.395$.<br>ii) The probability of winning exactly once is $P(X=1) = \\binom{50}{1}(0.01)^1(0.99)^{49} = 50\\cdot 0.01\\cdot (0.99)^{49} = 0.5\\cdot (0.99)^{49} \\approx 0.5 \\cdot 0.611 = 0.3055$.<br>iii) The probability of winning at least twice is $P(X \\ge 2) = 1 - P(X=0) - P(X=1)$.<br>$P(X \\ge 2) = 1 - 0.605 - 0.3055 = 0.0895$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) In a box of floppy discs it is known that 95% will work. A sample of three of the discs is selected at random. Find the probability that (i) none (ii) 1 (iii) 2 (iv) all 3 of the sample will work.",
+    "answer": "This is a **binomial distribution** problem with $n=3$ trials. The probability that a disc will work (success) is $p = 95\\% = 0.95$. The probability that a disc will not work (failure) is $q = 1-p = 0.05$. Let $X$ be the number of discs that will work.<br>i) The probability that none will work is $P(X=0) = \\binom{3}{0}(0.95)^0(0.05)^3 = 1\\cdot 1\\cdot 0.000125 = 0.000125$.<br>ii) The probability that 1 will work is $P(X=1) = \\binom{3}{1}(0.95)^1(0.05)^2 = 3\\cdot 0.95\\cdot 0.0025 = 0.007125$.<br>iii) The probability that 2 will work is $P(X=2) = \\binom{3}{2}(0.95)^2(0.05)^1 = 3\\cdot 0.9025\\cdot 0.05 = 0.135375$.<br>iv) The probability that all 3 will work is $P(X=3) = \\binom{3}{3}(0.95)^3(0.05)^0 = 1\\cdot 0.857375\\cdot 1 = 0.857375$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the probability of throwing at most 2 sixes in 6 throws of a single die.",
+    "answer": "This is a **binomial distribution** problem with $n=6$ trials. The probability of getting a six (success) is $p = 1/6$. The probability of not getting a six (failure) is $q = 1-p = 5/6$. We want to find the probability of throwing at most 2 sixes, which is $P(X \\le 2) = P(X=0)+P(X=1)+P(X=2)$.<br>$P(X=0) = \\binom{6}{0}(\\frac{1}{6})^0(\\frac{5}{6})^6 = 1\\cdot 1\\cdot (\\frac{5}{6})^6 = \\frac{15625}{46656} \\approx 0.3349$.<br>$P(X=1) = \\binom{6}{1}(\\frac{1}{6})^1(\\frac{5}{6})^5 = 6\\cdot\\frac{1}{6}\\cdot(\\frac{5}{6})^5 = (\\frac{5}{6})^5 = \\frac{3125}{7776} \\approx 0.4019$.<br>$P(X=2) = \\binom{6}{2}(\\frac{1}{6})^2(\\frac{5}{6})^4 = 15\\cdot\\frac{1}{36}\\cdot\\frac{625}{1296} = \\frac{15\\cdot 625}{36\\cdot 1296} = \\frac{9375}{46656} \\approx 0.2009$.<br>$P(X \\le 2) = \\frac{15625}{46656} + \\frac{3125}{7776} + \\frac{9375}{46656} = \\frac{15625+18750+9375}{46656} = \\frac{43750}{46656} = \\frac{21875}{23328} \\approx 0.9378$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) It is known that 10% of certain articles manufactured are defective. What is the probability that in a random sample of 12 such articles, 9 are defective?",
+    "answer": "This is a **binomial distribution** problem with $n=12$ trials. The probability of an article being defective (success) is $p = 10\\% = 0.1$. The probability of an article being non-defective is $q = 1-p = 0.9$. We want to find the probability that 9 are defective, which is $P(X=9)$.<br>$P(X=9) = \\binom{12}{9}(0.1)^9(0.9)^{12-9} = \\frac{12\\cdot 11\\cdot 10}{3\\cdot 2\\cdot 1}(0.1)^9(0.9)^3 = 220(0.1)^9(0.9)^3 = 220(0.000000001)(0.729) \\approx 1.6038 \\times 10^{-7}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Given that $X \\sim B(n, p)$, where $B(n, p)$ is a binomial distribution, solve the following parts:<br>i) If $n=10$ and $p=0.4$, find $E(X)$ and $Var(X)$.<br>ii) If $p=0.6$ and $E(X)=6$, find $n$ and $Var(X)$.<br>iii) If $n=25$, $E(X)=10$, find $p$ and $SD(X)$.<br>iv) If $n=10$, $E(X)=8$, find $Var(X)$.",
+    "answer": "For a binomial distribution $X \\sim B(n,p)$, the mean (expected value) is $E(X) = np$, and the variance is $Var(X) = np(1-p)$. The standard deviation is $SD(X) = \\sqrt{Var(X)}$.<br><br>i) Given $n=10$ and $p=0.4$.<br>$E(X) = np = 10(0.4) = 4$.<br>$Var(X) = np(1-p) = 10(0.4)(1-0.4) = 10(0.4)(0.6) = 2.4$.<br><br>ii) Given $p=0.6$ and $E(X)=6$.<br>To find $n$: $E(X) = np \\implies 6 = n(0.6) \\implies n = \\frac{6}{0.6} = 10$.<br>To find $Var(X)$: $Var(X) = np(1-p) = 10(0.6)(1-0.6) = 10(0.6)(0.4) = 2.4$.<br><br>iii) Given $n=25$ and $E(X)=10$.<br>To find $p$: $E(X) = np \\implies 10 = 25p \\implies p = \\frac{10}{25} = 0.4$.<br>To find $SD(X)$: First find the variance. $Var(X) = np(1-p) = 25(0.4)(1-0.4) = 25(0.4)(0.6) = 6$.<br>$SD(X) = \\sqrt{Var(X)} = \\sqrt{6} \\approx 2.449$.<br><br>iv) Given $n=10$ and $E(X)=8$.<br>To find $p$: $E(X) = np \\implies 8 = 10p \\implies p = 0.8$.<br>To find $Var(X)$: $Var(X) = np(1-p) = 10(0.8)(1-0.8) = 10(0.8)(0.2) = 1.6$.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Q) A die is thrown 100 times. If getting an even number is considered a success, then the standard deviation of the number of successes is",
+    "options": [
+      "A) $\\sqrt{50}$",
+      "B) 5",
+      "C) 25",
+      "D) 10"
+    ],
+    "correct_answer": "B) 5",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The mean and the variance of a binomial distribution are 4 and 2 respectively. Then the probability of 2 successes is",
+    "options": [
+      "A) 128/256",
+      "B) 219/256",
+      "C) 37/256",
+      "D) 28/256"
+    ],
+    "correct_answer": "D) 28/256",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) For a binomial distribution, $n=5$. If $P(X=4) = P(X=3)$ then $p = \\dots$",
+    "options": [
+      "A) 1/3",
+      "B) 3/4",
+      "C) 1",
+      "D) 2/3"
+    ],
+    "correct_answer": "B) 3/4",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) In a binomial distribution, $n=4$. If $2P(X=3) = 3P(X=2)$ then $p = \\dots$",
+    "options": [
+      "A) 4/13",
+      "B) 5/13",
+      "C) 9/13",
+      "D) 6/13"
+    ],
+    "correct_answer": "C) 9/13",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) If $X \\sim B(4,p)$ and $P(X=0) = \\frac{16}{81}$, then $P(X=4) = \\dots$",
+    "options": [
+      "A) 1/16",
+      "B) 1/81",
+      "C) 1/27",
+      "D) 1/8"
+    ],
+    "correct_answer": "B) 1/81",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The probability of a shooter hitting a target is 3/4. How many minimum number of times must he fire so that the probability of hitting the target at least once is more than 0.99?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct_answer": "C) 4",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) If the mean and variance of a binomial distribution are 18 and 12 respectively, then $n = \\dots$",
+    "options": [
+      "A) 36",
+      "B) 54",
+      "C) 18",
+      "D) 27"
+    ],
+    "correct_answer": "B) 54",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Q) Let $X \\sim B(10, 0.2)$. Find (i) $P(X=1)$ (ii) $P(X \\ge 1)$ (iii) $P(X \\le 8)$.",
+    "answer": "This is a binomial distribution problem with $n=10$ and $p=0.2$. The probability of failure is $q = 1-p = 0.8$. The formula for the probability of $k$ successes is $P(X=k) = \\binom{n}{k}p^k q^{n-k}$. <br> i) $P(X=1) = \\binom{10}{1}(0.2)^1(0.8)^9 = 10(0.2)(0.8)^9 = 2(0.8)^9 \\approx 0.2684$. <br> ii) $P(X \\ge 1) = 1-P(X=0) = 1 - \\binom{10}{0}(0.2)^0(0.8)^{10} = 1 - 1(1)(0.8)^{10} = 1 - (0.8)^{10} \\approx 1 - 0.1074 = 0.8926$. <br> iii) $P(X \\le 8) = 1-P(X>8) = 1 - (P(X=9)+P(X=10))$. <br> $P(X=9) = \\binom{10}{9}(0.2)^9(0.8)^1 = 10(0.2)^9(0.8) = 8(0.2)^9 \\approx 4.096 \\times 10^{-6}$. <br> $P(X=10) = \\binom{10}{10}(0.2)^{10}(0.8)^0 = 1(0.2)^{10}(1) = (0.2)^{10} \\approx 1.024 \\times 10^{-7}$. <br> $P(X \\le 8) = 1 - (4.096 \\times 10^{-6} + 1.024 \\times 10^{-7}) \\approx 1 - 4.2 \\times 10^{-6} \\approx 0.9999958$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) If $X \\sim B(n,p)$ <br> i) If $n=10$, $E(X)=5$, find $p$ and $Var(X)$. <br> ii) If $E(X)=5$ and $Var(X)=2.5$, find $n$ and $p$.",
+    "answer": "For a binomial distribution, $E(X)=np$ and $Var(X)=np(1-p)$. <br> i) Given $n=10$ and $E(X)=5$. <br> $E(X)=np \\implies 5 = 10p \\implies p=0.5$. <br> $Var(X)=np(1-p) = 10(0.5)(1-0.5) = 10(0.5)(0.5) = 2.5$. <br> ii) Given $E(X)=5$ and $Var(X)=2.5$. <br> $E(X)=np \\implies 5=np$. <br> $Var(X)=np(1-p) = 2.5$. <br> Substitute $np=5$ into the variance equation: $5(1-p) = 2.5 \\implies 1-p = 0.5 \\implies p=0.5$. <br> Now find $n$: $5=n(0.5) \\implies n = 10$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) If a fair coin is tossed 10 times find the probability that it shows heads (i) 5 times (ii) in the first four tosses and tail in last six tosses.",
+    "answer": "This is a binomial distribution problem with $n=10$ and $p=1/2$. <br> i) The probability of showing heads 5 times is $P(X=5) = \\binom{10}{5}(\\frac{1}{2})^5(\\frac{1}{2})^{10-5} = \\binom{10}{5}(\\frac{1}{2})^{10}$. <br> $\\binom{10}{5} = \\frac{10\\cdot 9\\cdot 8\\cdot 7\\cdot 6}{5\\cdot 4\\cdot 3\\cdot 2\\cdot 1} = 2\\cdot 9\\cdot 2\\cdot 7 = 252$. <br> So, $P(X=5) = 252(\\frac{1}{1024}) = \\frac{252}{1024} = \\frac{63}{256}$. <br> ii) The probability of showing heads in the first four tosses and tails in the last six tosses is a specific sequence of events. Since the tosses are independent, the probability is the product of the individual probabilities. <br> $P(HHHH TTTTTT) = P(H)^4 P(T)^6 = (\\frac{1}{2})^4 (\\frac{1}{2})^6 = (\\frac{1}{2})^{10} = \\frac{1}{1024}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Probability that bomb will hit target is 0.8. Find the probability that out of 10 bombs dropped exactly 2 will miss the target.",
+    "answer": "This is a **binomial distribution** problem with $n=10$ trials. The probability of a bomb hitting the target is $p_{hit} = 0.8$, so the probability of missing the target is $p_{miss} = 1-0.8 = 0.2$. We want to find the probability that exactly 2 bombs miss the target, which is $P(X=2)$, where $X$ is the number of misses. <br> $P(X=2) = \\binom{10}{2}(0.2)^2(0.8)^{10-2} = \\frac{10\\cdot 9}{2\\cdot 1}(0.2)^2(0.8)^8 = 45(0.04)(0.8)^8 = 1.8(0.8)^8 \\approx 1.8(0.1678) \\approx 0.3020$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The probability that a mountain-bike rider travelling along a certain track will have a tyre burst is 0.05. Find the probability that among 17 riders: (i) exactly one has a burst tyre (ii) at most three have a burst tyre (iii) two or more have burst tyres.",
+    "answer": "This is a **binomial distribution** problem with $n=17$ riders. The probability of a tyre burst (success) is $p = 0.05$. The probability of no burst (failure) is $q = 1-p = 0.95$. Let $X$ be the number of riders with a burst tyre. <br> i) The probability that exactly one has a burst tyre is $P(X=1) = \\binom{17}{1}(0.05)^1(0.95)^{16} = 17(0.05)(0.95)^{16} = 0.85(0.95)^{16} \\approx 0.85(0.4401) \\approx 0.3741$. <br> ii) The probability that at most three have a burst tyre is $P(X \\le 3) = P(X=0)+P(X=1)+P(X=2)+P(X=3)$. <br> $P(X=0) = \\binom{17}{0}(0.05)^0(0.95)^{17} = (0.95)^{17} \\approx 0.4181$. <br> $P(X=1) \\approx 0.3741$. <br> $P(X=2) = \\binom{17}{2}(0.05)^2(0.95)^{15} = \\frac{17\\cdot 16}{2}(0.0025)(0.95)^{15} = 136(0.0025)(0.95)^{15} = 0.34(0.4633) \\approx 0.1575$. <br> $P(X=3) = \\binom{17}{3}(0.05)^3(0.95)^{14} = \\frac{17\\cdot 16\\cdot 15}{3\\cdot 2\\cdot 1}(0.000125)(0.95)^{14} = 680(0.000125)(0.95)^{14} = 0.085(0.4877) \\approx 0.0415$. <br> $P(X \\le 3) \\approx 0.4181+0.3741+0.1575+0.0415 = 0.9912$. <br> iii) The probability that two or more have burst tyres is $P(X \\ge 2) = 1-P(X < 2) = 1-(P(X=0)+P(X=1))$. <br> $P(X \\ge 2) \\approx 1 - (0.4181+0.3741) = 1 - 0.7922 = 0.2078$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Probability that a lamp in a classroom will burn out will be 0-3. Six lamps are fitted in the classroom. If it is known that the classroom is unusable if the number of lamps burning in it is less than four, find the probability that classroom can not used at random occasion.",
+    "answer": "This is a **binomial distribution** problem with $n=6$ lamps. The probability of a lamp burning out (success) is $p = 0.3$. The probability of a lamp not burning out (failure) is $q = 1-p = 0.7$. Let $X$ be the number of lamps that have not burned out. The classroom is unusable if the number of lamps burning is less than four, which means the number of lamps not burned out is 0, 1, 2, or 3. So, we want to find $P(X < 4) = P(X=0)+P(X=1)+P(X=2)+P(X=3)$. <br> $P(X=0) = \\binom{6}{0}(0.7)^0(0.3)^6 = (0.3)^6 \\approx 0.000729$. <br> $P(X=1) = \\binom{6}{1}(0.7)^1(0.3)^5 = 6(0.7)(0.00243) = 0.010206$. <br> $P(X=2) = \\binom{6}{2}(0.7)^2(0.3)^4 = 15(0.49)(0.0081) = 0.059535$. <br> $P(X=3) = \\binom{6}{3}(0.7)^3(0.3)^3 = 20(0.343)(0.027) = 0.18522$. <br> $P(X < 4) \\approx 0.000729+0.010206+0.059535+0.18522 = 0.25569$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Lot of 100 items contains 10 defective items. Five items are selected at random from the lot and sent to the retail store. What is the probability that the store will receive at most one defective item?",
+    "answer": "This is a **hypergeometric distribution** problem, as the items are selected **without replacement**. Total items $N=100$. Number of defective items $K=10$. Number of non-defective items $N-K=90$. Sample size is $n=5$. We want to find the probability of at most one defective item, which is $P(X \\le 1) = P(X=0)+P(X=1)$. <br> The formula is $P(X=k) = \\frac{\\binom{K}{k}\\binom{N-K}{n-k}}{\\binom{N}{n}}$. <br> $P(X=0) = \\frac{\\binom{10}{0}\\binom{90}{5}}{\\binom{100}{5}} = \\frac{1\\cdot \\frac{90\\cdot 89\\cdot 88\\cdot 87\\cdot 86}{5\\cdot 4\\cdot 3\\cdot 2\\cdot 1}}{\\frac{100\\cdot 99\\cdot 98\\cdot 97\\cdot 96}{5\\cdot 4\\cdot 3\\cdot 2\\cdot 1}} = \\frac{90\\cdot 89\\cdot 88\\cdot 87\\cdot 86}{100\\cdot 99\\cdot 98\\cdot 97\\cdot 96} \\approx 0.5838$. <br> $P(X=1) = \\frac{\\binom{10}{1}\\binom{90}{4}}{\\binom{100}{5}} = \\frac{10\\cdot \\frac{90\\cdot 89\\cdot 88\\cdot 87}{4\\cdot 3\\cdot 2\\cdot 1}}{\\frac{100\\cdot 99\\cdot 98\\cdot 97\\cdot 96}{5\\cdot 4\\cdot 3\\cdot 2\\cdot 1}} = \\frac{10\\cdot 5\\cdot 90\\cdot 89\\cdot 88\\cdot 87}{100\\cdot 99\\cdot 98\\cdot 97\\cdot 96} \\approx 0.3394$. <br> $P(X \\le 1) = 0.5838+0.3394 = 0.9232$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A large chain retailer purchases certain kind of electric device from manufacturer. The manufacturer indicates that the defective rate of the device is 3%. The inspector of the retailer picks 20 items from a shipment. What is the probability that the store will receive at most one defective item?",
+    "answer": "This is a **binomial distribution** problem, assuming the shipment is large enough that we can approximate it as sampling with replacement. The number of items inspected is $n=20$. The probability of a defective device (success) is $p = 3\\% = 0.03$. The probability of a non-defective device (failure) is $q = 1-p = 0.97$. We want to find the probability of at most one defective item, which is $P(X \\le 1) = P(X=0)+P(X=1)$. <br> $P(X=0) = \\binom{20}{0}(0.03)^0(0.97)^{20} = (0.97)^{20} \\approx 0.5438$. <br> $P(X=1) = \\binom{20}{1}(0.03)^1(0.97)^{19} = 20(0.03)(0.97)^{19} = 0.6(0.97)^{19} \\approx 0.6(0.5601) \\approx 0.3361$. <br> $P(X \\le 1) \\approx 0.5438+0.3361 = 0.8799$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The probability that the certain kind of component will survive a check test is 0-6. Find the probability that exactly 2 of the next 4 components tested survive.",
+    "answer": "This is a **binomial distribution** problem with $n=4$ components. The probability of a component surviving the test (success) is $p = 0.6$. The probability of not surviving (failure) is $q = 1-p = 0.4$. We want to find the probability that exactly 2 components survive, which is $P(X=2)$. <br> $P(X=2) = \\binom{4}{2}(0.6)^2(0.4)^{4-2} = 6(0.36)(0.16) = 6(0.0576) = 0.3456$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) An examination consists of 10 multiple-choice questions, in each of which a candidate has to deduce which one of five suggested answers is correct. A completely unprepared student guesses each answer completely randomly. What is the probability that this student gets 8 or more questions correct? Draw the appropriate moral!",
+    "answer": "This is a **binomial distribution** problem with $n=10$ questions. The probability of guessing a correct answer is $p = 1/5 = 0.2$. The probability of guessing an incorrect answer is $q = 1-p = 0.8$. We want to find the probability that the student gets 8 or more questions correct, which is $P(X \\ge 8) = P(X=8)+P(X=9)+P(X=10)$. <br> $P(X=8) = \\binom{10}{8}(0.2)^8(0.8)^2 = 45(0.2)^8(0.8)^2 = 45(2.56\\times 10^{-6})(0.64) \\approx 7.37 \\times 10^{-5}$. <br> $P(X=9) = \\binom{10}{9}(0.2)^9(0.8)^1 = 10(0.2)^9(0.8) = 8(0.2)^9 = 8(5.12\\times 10^{-7}) \\approx 4.10 \\times 10^{-6}$. <br> $P(X=10) = \\binom{10}{10}(0.2)^{10}(0.8)^0 = (0.2)^{10} = 1.024\\times 10^{-7}$. <br> $P(X \\ge 8) = 7.37 \\times 10^{-5} + 4.10 \\times 10^{-6} + 1.024 \\times 10^{-7} \\approx 7.79 \\times 10^{-5}$. <br> **Moral:** The probability of getting a high score just by guessing is extremely low. The moral is that one should study rather than rely on chance to succeed in an examination.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) The probability that a machine will produce all bolts in a production run within specification is 0.998. A sample of 8 machines is taken at random. Calculate the probability that (i) all 8 machines (ii) 7 or 8 machines (iii) at least 6 machines will produce all bolts within specification.",
+    "answer": "This is a **binomial distribution** problem with $n=8$ machines. The probability of a machine producing bolts within specification (success) is $p = 0.998$. The probability of failure is $q = 1-p = 0.002$. Let $X$ be the number of machines that produce all bolts within specification. <br> i) The probability that all 8 machines will produce all bolts within specification is $P(X=8) = \\binom{8}{8}(0.998)^8(0.002)^0 = (0.998)^8 \\approx 0.9840$. <br> ii) The probability that 7 or 8 machines will produce all bolts within specification is $P(X=7)+P(X=8)$. <br> $P(X=7) = \\binom{8}{7}(0.998)^7(0.002)^1 = 8(0.998)^7(0.002) \\approx 8(0.9856)(0.002) \\approx 0.0158$. <br> $P(X=7)+P(X=8) \\approx 0.0158+0.9840 = 0.9998$. <br> iii) The probability that at least 6 machines will produce all bolts within specification is $P(X \\ge 6) = P(X=6)+P(X=7)+P(X=8)$. <br> $P(X=6) = \\binom{8}{6}(0.998)^6(0.002)^2 = 28(0.998)^6(0.000004) \\approx 28(0.9880)(0.000004) \\approx 0.00011$. <br> $P(X \\ge 6) \\approx 0.00011+0.0158+0.9840 = 0.99991$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) The probability that a machine develops a fault within the first 3 years of use is 0.003. If 40 machines are selected at random, calculate the probability that 38 or more will not develop any faults within the first 3 years of use.",
+    "answer": "This is a **binomial distribution** problem with $n=40$ machines. The probability that a machine develops a fault (failure) is $p_{fault} = 0.003$. The probability that a machine does not develop a fault (success) is $p_{no-fault} = 1-0.003 = 0.997$. Let $X$ be the number of machines that do not develop a fault. We want to find the probability that 38 or more machines will not develop a fault, which is $P(X \\ge 38) = P(X=38)+P(X=39)+P(X=40)$. <br> $P(X=38) = \\binom{40}{38}(0.997)^{38}(0.003)^2 = \\frac{40\\cdot 39}{2}(0.997)^{38}(0.003)^2 = 780(0.997)^{38}(9\\times 10^{-6}) \\approx 780(0.8906)(9\\times 10^{-6}) \\approx 0.0062$. <br> $P(X=39) = \\binom{40}{39}(0.997)^{39}(0.003)^1 = 40(0.997)^{39}(0.003) = 0.12(0.997)^{39} \\approx 0.12(0.8933) \\approx 0.1072$. <br> $P(X=40) = \\binom{40}{40}(0.997)^{40}(0.003)^0 = (0.997)^{40} \\approx 0.8960$. <br> $P(X \\ge 38) = 0.0062+0.1072+0.8960 = 1.0000-0.0006 \\approx 0.9984$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A computer installation has 10 terminals. Independently, the probability that any one terminal will require attention during a week is 0-1. Find the probabilities that (i) 0 (ii) 1 (iii) 2 (iv) 3 or more, terminals will require attention during the next week.",
+    "answer": "This is a **binomial distribution** problem with $n=10$ terminals. The probability that a terminal will require attention (success) is $p = 0.1$. The probability of not requiring attention (failure) is $q = 1-p = 0.9$. Let $X$ be the number of terminals that require attention. <br> i) $P(X=0) = \\binom{10}{0}(0.1)^0(0.9)^{10} = (0.9)^{10} \\approx 0.3487$. <br> ii) $P(X=1) = \\binom{10}{1}(0.1)^1(0.9)^9 = 10(0.1)(0.9)^9 = (0.9)^9 \\approx 0.3874$. <br> iii) $P(X=2) = \\binom{10}{2}(0.1)^2(0.9)^8 = 45(0.01)(0.9)^8 = 0.45(0.9)^8 \\approx 0.45(0.4305) \\approx 0.1937$. <br> iv) The probability that 3 or more terminals will require attention is $P(X \\ge 3) = 1-P(X<3) = 1-(P(X=0)+P(X=1)+P(X=2))$. <br> $P(X \\ge 3) = 1-(0.3487+0.3874+0.1937) = 1-0.9298 = 0.0702$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) In a large school, 80% of the pupils like mathematics. A visitor to the school asks each of 4 pupils, chosen at random, whether they like mathematics. <br> i) Calculate the probabilities of obtaining an answer yes from 0, 1, 2, 3, 4 of the pupils <br> ii) Find the probability that the visitor obtains the answer yes from at least 2 pupils: <br> (a) when the number of pupils questioned remains at 4 <br> (b) when the number of pupils questioned is increased to 8.",
+    "answer": "This is a **binomial distribution** problem with the probability of success (liking math) $p=0.8$ and the probability of failure $q=1-p=0.2$. <br> i) For $n=4$ pupils, the probabilities of obtaining a 'yes' answer (success) for $k=0, 1, 2, 3, 4$ pupils are: <br> $P(X=0) = \\binom{4}{0}(0.8)^0(0.2)^4 = 1 \\cdot 1 \\cdot 0.0016 = 0.0016$ <br> $P(X=1) = \\binom{4}{1}(0.8)^1(0.2)^3 = 4 \\cdot 0.8 \\cdot 0.008 = 0.0256$ <br> $P(X=2) = \\binom{4}{2}(0.8)^2(0.2)^2 = 6 \\cdot 0.64 \\cdot 0.04 = 0.1536$ <br> $P(X=3) = \\binom{4}{3}(0.8)^3(0.2)^1 = 4 \\cdot 0.512 \\cdot 0.2 = 0.4096$ <br> $P(X=4) = \\binom{4}{4}(0.8)^4(0.2)^0 = 1 \\cdot 0.4096 \\cdot 1 = 0.4096$ <br> <br> ii) (a) When $n=4$, the probability of getting a 'yes' from at least 2 pupils is $P(X \\ge 2) = P(X=2)+P(X=3)+P(X=4) = 0.1536+0.4096+0.4096 = 0.9728$. <br> (b) When $n=8$, we want to find $P(X \\ge 2)$. It's easier to find the complement, $1-P(X<2) = 1-(P(X=0)+P(X=1))$. <br> $P(X=0) = \\binom{8}{0}(0.8)^0(0.2)^8 = 1\\cdot 1\\cdot 0.00000256 = 2.56\\times 10^{-6}$. <br> $P(X=1) = \\binom{8}{1}(0.8)^1(0.2)^7 = 8\\cdot 0.8 \\cdot 0.0000128 = 8\\cdot 1.024\\times 10^{-5} = 8.192\\times 10^{-5}$. <br> $P(X \\ge 2) = 1-(2.56\\times 10^{-6} + 8.192\\times 10^{-5}) \\approx 1 - 8.448\\times 10^{-5} \\approx 0.9999$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) It is observed that, it rains on 12 days out of 30 days. Find the probability that <br> i) it rains exactly 3 days of week. <br> ii) it will rain on at least 2 days of given week.",
+    "answer": "The probability of raining on any given day is $p = 12/30 = 0.4$. The probability of not raining is $q = 1-p = 0.6$. The number of days in a week is $n=7$. This is a **binomial distribution** problem. <br> i) The probability that it rains exactly 3 days of the week is $P(X=3) = \\binom{7}{3}(0.4)^3(0.6)^{7-3} = 35(0.064)(0.1296) \\approx 0.2903$. <br> ii) The probability that it will rain on at least 2 days of the given week is $P(X \\ge 2) = 1 - P(X < 2) = 1-(P(X=0)+P(X=1))$. <br> $P(X=0) = \\binom{7}{0}(0.4)^0(0.6)^7 = 1\\cdot 1\\cdot (0.6)^7 \\approx 0.02799$. <br> $P(X=1) = \\binom{7}{1}(0.4)^1(0.6)^6 = 7(0.4)(0.6)^6 = 2.8(0.046656) \\approx 0.1306$. <br> $P(X \\ge 2) = 1-(0.02799+0.1306) = 1-0.15859 \\approx 0.8414$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) If probability of success in a single trial is 0-01. How many trials are required in order to have probability greater than 0-5 of getting at least one success?",
+    "answer": "This is a **binomial distribution** problem. The probability of success in a single trial is $p=0.01$. The probability of failure is $q=1-p=0.99$. We want to find the minimum number of trials, $n$, such that $P(X \\ge 1) > 0.5$. <br> The probability of at least one success is $P(X \\ge 1) = 1-P(X=0)$. <br> $P(X=0) = \\binom{n}{0}(0.01)^0(0.99)^n = (0.99)^n$. <br> We need to solve $1-(0.99)^n > 0.5 \\implies 0.5 > (0.99)^n$. <br> Taking the logarithm of both sides: $\\log(0.5) > n\\log(0.99)$. <br> Since $\\log(0.99)$ is negative, we must reverse the inequality sign when we divide by it: $n > \\frac{\\log(0.5)}{\\log(0.99)} \\approx \\frac{-0.6931}{-0.0043} \\approx 161.19$. <br> Since $n$ must be an integer, the minimum number of trials required is **162**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) In binomial distribution with five Bernoulli's trials, probability of one and two success are 0.4096 and 0.2048 respectively. Find probability of success.",
+    "answer": "This is a **binomial distribution** problem with $n=5$. Let $p$ be the probability of success and $q=1-p$ be the probability of failure. We are given: <br> $P(X=1) = \\binom{5}{1}p^1q^{5-1} = 5pq^4 = 0.4096$ <br> $P(X=2) = \\binom{5}{2}p^2q^{5-2} = 10p^2q^3 = 0.2048$ <br> To find $p$, we can divide the second equation by the first: <br> $\\frac{10p^2q^3}{5pq^4} = \\frac{0.2048}{0.4096} = 0.5 \\implies \\frac{2p}{q} = 0.5 \\implies 2p = 0.5q$. <br> Since $q=1-p$, we can substitute this in: $2p = 0.5(1-p) \\implies 2p = 0.5 - 0.5p \\implies 2.5p = 0.5 \\implies p = \\frac{0.5}{2.5} = \\frac{5}{25} = 0.2$. <br> The probability of success is **0.2**.",
+    "marks": 3
+  }
+]

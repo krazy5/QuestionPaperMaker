@@ -1,0 +1,196 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which one is the quadratic equation?",
+    "options": ["$\\frac{5}{x} - 3 = x^2$", "$x(x+5)=2$", "$n-1=2n$", "$\\frac{1}{x^2}(x+2)=x$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Out of the following equations which one is not a quadratic equation?",
+    "options": ["$x^2+4x=11+x^2$", "$x^2=4x$", "$5x^2=90$", "$2x-x^2=x^2+5$"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The roots of $x^2+kx+k=0$ are real and equal, find k.",
+    "options": ["0", "4", "0 or 4", "2"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For $\\sqrt{2}x^2 - 5x + \\sqrt{2} = 0$, find the value of the discriminant.",
+    "options": ["-5", "17", "$\\sqrt{2}$", "$2\\sqrt{2}-5$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following quadratic equations has roots 3, 5?",
+    "options": ["$x^2-15x+8=0$", "$x^2-8x+15=0$", "$x^2+3x+5=0$", "$x^2+8x-15=0$"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Out of the following equations, find the equation having the sum of its roots as -5.",
+    "options": ["$3x^2-15x+3=0$", "$x^2-5x+3=0$", "$x^2+3x-5=0$", "$3x^2+15x+3=0$"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For $\\sqrt{5}m^2 - \\sqrt{5}m + \\sqrt{5} = 0$, which of the following statement is true?",
+    "options": ["Real and unequal roots", "Real and equal roots", "Roots are not real", "Three roots"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "One of the roots of equation $x^2+mx-5=0$ is 2; find m.",
+    "options": ["-2", "-1/2", "1/2", "2"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Find the value of the discriminant for the equation $2y^2 - y + 2 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Compare the equation with the standard form $ay^2+by+c=0$.<br>We get $a=2, b=-1, c=2$.<br>Step 2: The discriminant is given by the formula $\\Delta = b^2 - 4ac$.<br>Step 3: Substitute the values: $\\Delta = (-1)^2 - 4(2)(2)$.<br>Step 4: Calculate the result: $\\Delta = 1 - 16 = -15$.<br><strong>Final Answer:</strong> The value of the discriminant is -15.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "One of the roots of the quadratic equation $2x^2+kx-2=0$ is -2, find k.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Since -2 is a root of the equation, it must satisfy the equation.<br>Step 2: Substitute $x=-2$ into the equation: $2(-2)^2 + k(-2) - 2 = 0$.<br>Step 3: Simplify the equation: $2(4) - 2k - 2 = 0$.<br>$8 - 2k - 2 = 0$.<br>$6 - 2k = 0$.<br>Step 4: Solve for k: $2k = 6 \\implies k = 3$.<br><strong>Final Answer:</strong> The value of k is 3.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Two roots of a quadratic equation are given as 10 and -10. Frame the equation.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the roots be $\\alpha = 10$ and $\\beta = -10$.<br>Step 2: Find the sum of the roots: $\\alpha + \\beta = 10 + (-10) = 0$.<br>Step 3: Find the product of the roots: $\\alpha \\beta = (10)(-10) = -100$.<br>Step 4: The quadratic equation is given by the formula $x^2 - (\\alpha+\\beta)x + \\alpha\\beta = 0$.<br>Step 5: Substitute the values: $x^2 - (0)x + (-100) = 0$.<br><strong>Final Answer:</strong> The equation is $x^2 - 100 = 0$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Determine the nature of the roots for the quadratic equation $3x^2 - 5x + 7 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Compare with $ax^2+bx+c=0$ to get $a=3, b=-5, c=7$.<br>Step 2: Calculate the discriminant: $\\Delta = b^2 - 4ac = (-5)^2 - 4(3)(7)$.<br>Step 3: Simplify: $\\Delta = 25 - 84 = -59$.<br>Step 4: Since $\\Delta < 0$, the roots of the equation are not real.<br><strong>Final Answer:</strong> The roots are not real.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Solve the quadratic equation: $\\frac{1}{x+5} = \\frac{1}{x^2}$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Cross-multiply to get $x^2 = x+5$.<br>Step 2: Rearrange into standard form: $x^2 - x - 5 = 0$.<br>Step 3: Use the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$. Here $a=1, b=-1, c=-5$.<br>Step 4: Substitute the values: $x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(1)(-5)}}{2(1)}$.<br>Step 5: Simplify: $x = \\frac{1 \\pm \\sqrt{1+20}}{2} = \\frac{1 \\pm \\sqrt{21}}{2}$.<br><strong>Final Answer:</strong> The roots are $x = \\frac{1 + \\sqrt{21}}{2}$ and $x = \\frac{1 - \\sqrt{21}}{2}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find m if $(m-12)x^2 + 2(m-12)x + 2 = 0$ has real and equal roots.",
+    "answer": "<strong>Solution:</strong><br>Step 1: For real and equal roots, the discriminant $\\Delta = 0$.<br>Step 2: Here, $a = m-12$, $b = 2(m-12)$, $c=2$.<br>Step 3: Set up the discriminant equation: $[2(m-12)]^2 - 4(m-12)(2) = 0$.<br>Step 4: Simplify: $4(m-12)^2 - 8(m-12) = 0$.<br>Step 5: Factor out $4(m-12)$: $4(m-12)[(m-12) - 2] = 0$.<br>$4(m-12)(m-14) = 0$.<br>Step 6: This gives two possible solutions: $m-12=0 \\implies m=12$, or $m-14=0 \\implies m=14$.<br>Step 7: If $m=12$, the coefficient of $x^2$ becomes 0, so it's not a quadratic equation. Therefore, we discard this solution.<br><strong>Final Answer:</strong> $m=14$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The sum of two roots of a quadratic equation is 5 and the sum of their cubes is 35. Find the equation.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the roots be $\\alpha$ and $\\beta$. We are given $\\alpha+\\beta=5$ and $\\alpha^3+\\beta^3=35$.<br>Step 2: Use the identity $\\alpha^3+\\beta^3 = (\\alpha+\\beta)(\\alpha^2-\\alpha\\beta+\\beta^2) = (\\alpha+\\beta)[(\\alpha+\\beta)^2 - 3\\alpha\\beta]$.<br>Step 3: Substitute the known values: $35 = (5)[(5)^2 - 3\\alpha\\beta]$.<br>$7 = 25 - 3\\alpha\\beta$.<br>$3\\alpha\\beta = 18 \\implies \\alpha\\beta = 6$.<br>Step 4: The required equation is $x^2 - (\\alpha+\\beta)x + \\alpha\\beta = 0$.<br><strong>Final Answer:</strong> $x^2 - 5x + 6 = 0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Mukund possesses Rs 50 more than what Sagar possesses. The product of the amount they have is 15,000. Find the amount each one has.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the amount Sagar has be Rs $x$. Then Mukund has Rs $(x+50)$.<br>Step 2: The product of their amounts is $x(x+50) = 15000$.<br>Step 3: Expand the equation: $x^2 + 50x - 15000 = 0$.<br>Step 4: Factorize the quadratic equation: $(x+150)(x-100) = 0$.<br>Step 5: The possible values for x are -150 or 100. Since the amount cannot be negative, we take $x=100$.<br>Step 6: Sagar has Rs 100, and Mukund has $100+50 = Rs 150$.<br><strong>Final Answer:</strong> Sagar has Rs 100 and Mukund has Rs 150.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The difference between squares of two numbers is 120. The square of the smaller number is twice the greater number. Find the numbers.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the greater number be x and the smaller number be y. The equations are $x^2-y^2=120$ and $y^2=2x$.<br>Step 2: Substitute the second equation into the first: $x^2 - 2x = 120$.<br>Step 3: Rearrange into a quadratic equation: $x^2 - 2x - 120 = 0$.<br>Step 4: Factorize the equation: $(x-12)(x+10) = 0$.<br>Step 5: The possible values for x are 12 or -10. If $x=-10$, then $y^2=-20$, which is not possible for a real number. So, we take $x=12$.<br>Step 6: Find y: $y^2 = 2(12) = 24$, so $y = \\pm\\sqrt{24} = \\pm2\\sqrt{6}$.<br><strong>Final Answer:</strong> The numbers are 12 and $2\\sqrt{6}$, or 12 and $-2\\sqrt{6}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A tank fills completely in 2 hours if both the taps are open. If only one of the taps is open at a given time, the smaller tap takes 3 hours more than the larger one to fill the tank. How much time does each tap take to fill the tank completely?",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the larger tap take x hours to fill the tank. The smaller tap takes $(x+3)$ hours.<br>Step 2: In one hour, the larger tap fills $1/x$ of the tank, and the smaller tap fills $1/(x+3)$ of the tank.<br>Step 3: Together, in one hour, they fill $1/2$ of the tank. So, $\\frac{1}{x} + \\frac{1}{x+3} = \\frac{1}{2}$.<br>Step 4: Solve the equation: $\\frac{x+3+x}{x(x+3)} = \\frac{1}{2} \\implies 2(2x+3) = x^2+3x$.<br>$4x+6 = x^2+3x \\implies x^2-x-6=0$.<br>Step 5: Factorize: $(x-3)(x+2)=0$. Since time cannot be negative, $x=3$.<br>Step 6: The larger tap takes 3 hours, and the smaller tap takes $3+3=6$ hours.<br><strong>Final Answer:</strong> The larger tap takes 3 hours and the smaller tap takes 6 hours.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Activity: Fill in the gaps and complete.<br>If the sum of roots is -7 and the product of roots is 5, what is the quadratic equation?",
+    "answer": "<strong>Solution:</strong><br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><td style='padding: 8px;'>Sum of roots = -7</td><td style='padding: 8px;'>$\\rightarrow$</td><td style='padding: 8px;'>Quadratic equation<br><b>$x^2 - (\\text{sum of roots})x + (\\text{product of roots}) = 0$</b><br><b>$x^2 - (-7)x + 5 = 0$</b><br><b>$x^2+7x+5=0$</b></td><td style='padding: 8px;'>$\\leftarrow$</td><td style='padding: 8px;'>Product of roots = 5</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Activity: If $\\alpha, \\beta$ are roots of the quadratic equation $2x^2-4x-3=0$, find the values of $\\alpha+\\beta$ and $\\alpha \\times \\beta$.",
+    "answer": "<strong>Solution:</strong><br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><td rowspan-='2' style='padding: 8px;'>$2x^2-4x-3=0$</td><td style='padding: 8px;'>$\\rightarrow$</td><td style='padding: 8px;'>$\\alpha+\\beta = -\\frac{b}{a} = -\\frac{-4}{2} = \\mathbf{2}$</td></tr><tr><td style='padding: 8px;'>$\\rightarrow$</td><td style='padding: 8px;'>$\\alpha \\times \\beta = \\frac{c}{a} = \\mathbf{-\\frac{3}{2}}$</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find the value of the discriminant for the equation $x^2 + 7x - 1 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Compare with $ax^2+bx+c=0$ to get $a=1, b=7, c=-1$.<br>Step 2: Discriminant $\\Delta = b^2 - 4ac$.<br>Step 3: $\\Delta = (7)^2 - 4(1)(-1) = 49 + 4 = 53$.<br><strong>Final Answer:</strong> The discriminant is 53.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Determine the nature of the roots of the quadratic equation $x^2 - 4x + 4 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Compare with $ax^2+bx+c=0$ to get $a=1, b=-4, c=4$.<br>Step 2: Calculate the discriminant: $\\Delta = b^2 - 4ac = (-4)^2 - 4(1)(4)$.<br>Step 3: Simplify: $\\Delta = 16 - 16 = 0$.<br>Step 4: Since $\\Delta = 0$, the roots of the equation are real and equal.<br><strong>Final Answer:</strong> The roots are real and equal.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Form the quadratic equation from the roots 0 and 4.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the roots be $\\alpha = 0$ and $\\beta = 4$.<br>Step 2: Sum of roots: $\\alpha + \\beta = 0 + 4 = 4$.<br>Step 3: Product of roots: $\\alpha \\beta = 0 \\times 4 = 0$.<br>Step 4: The equation is $x^2 - (\\alpha+\\beta)x + \\alpha\\beta = 0$.<br><strong>Final Answer:</strong> $x^2 - 4x = 0$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Sum of the roots of a quadratic equation is double their product. Find k if the equation is $x^2 - 4kx + k + 3 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: For the equation, $a=1, b=-4k, c=k+3$.<br>Step 2: Sum of roots $\\alpha+\\beta = -b/a = 4k$.<br>Step 3: Product of roots $\\alpha\\beta = c/a = k+3$.<br>Step 4: Given condition: Sum = 2 * Product, so $4k = 2(k+3)$.<br>Step 5: Solve for k: $4k = 2k+6 \\implies 2k=6 \\implies k=3$.<br><strong>Final Answer:</strong> k = 3.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "If $\\alpha, \\beta$ are roots of $y^2 - 2y - 7 = 0$, find the value of $\\alpha^2 + \\beta^2$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: From the equation, $\\alpha+\\beta = -(-2)/1 = 2$ and $\\alpha\\beta = -7/1 = -7$.<br>Step 2: Use the identity $\\alpha^2+\\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta$.<br>Step 3: Substitute the values: $\\alpha^2+\\beta^2 = (2)^2 - 2(-7)$.<br>Step 4: Calculate: $4 + 14 = 18$.<br><strong>Final Answer:</strong> $\\alpha^2+\\beta^2 = 18$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The roots of each of the following quadratic equations are real and equal, find k. $3y^2 + ky + 12 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: For real and equal roots, the discriminant $\\Delta = 0$.<br>Step 2: Here, $a=3, b=k, c=12$.<br>Step 3: $b^2-4ac = k^2 - 4(3)(12) = 0$.<br>Step 4: $k^2 - 144 = 0 \\implies k^2 = 144$.<br><strong>Final Answer:</strong> $k = \\pm 12$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the following quadratic equation by factorisation: $x^2 - 15x + 54 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Find two numbers that multiply to 54 and add to -15. The numbers are -9 and -6.<br>Step 2: Split the middle term: $x^2 - 9x - 6x + 54 = 0$.<br>Step 3: Factor by grouping: $x(x-9) - 6(x-9) = 0$.<br>Step 4: $(x-6)(x-9)=0$.<br><strong>Final Answer:</strong> $x=6$ or $x=9$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Solve the following quadratic equation by completing the square method: $x^2 + x - 20 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Move the constant term to the right side: $x^2+x=20$.<br>Step 2: Take half of the coefficient of x, square it, and add to both sides. $(\\frac{1}{2})^2 = \\frac{1}{4}$.<br>$x^2+x+\\frac{1}{4} = 20+\\frac{1}{4}$.<br>Step 3: Factor the left side as a perfect square: $(x+\\frac{1}{2})^2 = \\frac{81}{4}$.<br>Step 4: Take the square root of both sides: $x+\\frac{1}{2} = \\pm\\frac{9}{2}$.<br>Step 5: Solve for x: $x = -\\frac{1}{2} \\pm \\frac{9}{2}$.<br><strong>Final Answer:</strong> $x=4$ or $x=-5$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the following quadratic equation by completing the square method: $m^2 - 5m = -3$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The constant is already on the right side.<br>Step 2: Take half of the coefficient of m, square it, and add to both sides. $(-\\frac{5}{2})^2 = \\frac{25}{4}$.<br>$m^2 - 5m + \\frac{25}{4} = -3 + \\frac{25}{4}$.<br>Step 3: Factor the left side: $(m-\\frac{5}{2})^2 = \\frac{-12+25}{4} = \\frac{13}{4}$.<br>Step 4: Take the square root of both sides: $m-\\frac{5}{2} = \\pm\\frac{\\sqrt{13}}{2}$.<br>Step 5: Solve for m: $m = \\frac{5 \\pm \\sqrt{13}}{2}$.<br><strong>Final Answer:</strong> $m = \\frac{5 + \\sqrt{13}}{2}$ or $m = \\frac{5 - \\sqrt{13}}{2}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the following quadratic equation by factorisation: $2y^2 + 27y + 13 = 0$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Find two numbers that multiply to $2 \\times 13 = 26$ and add to 27. The numbers are 26 and 1.<br>Step 2: Split the middle term: $2y^2 + 26y + y + 13 = 0$.<br>Step 3: Factor by grouping: $2y(y+13) + 1(y+13) = 0$.<br>Step 4: $(2y+1)(y+13)=0$.<br><strong>Final Answer:</strong> $y=-1/2$ or $y=-13$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Activity: To solve the quadratic equation $\\sqrt{2}x^2+7x+5\\sqrt{2}=0$ by factorisation, complete the following activity.",
+    "answer": "<strong>Solution:</strong><br>$\\sqrt{2}x^2+7x+5\\sqrt{2}=0$<br>$\\sqrt{2}x^2 + \\mathbf{5x} + \\mathbf{2x} + 5\\sqrt{2} = 0$<br>$x(\\mathbf{\\sqrt{2}x+5}) + \\sqrt{2}(\\mathbf{\\sqrt{2}x+5}) = 0$<br>$(\\mathbf{x+\\sqrt{2}})(\\mathbf{\\sqrt{2}x+5}) = 0$<br>$x+\\sqrt{2}=0$ or $\\sqrt{2}x+5=0$<br>$x = \\mathbf{-\\sqrt{2}}$ or $x = \\mathbf{-\\frac{5}{\\sqrt{2}}}$<br>$\\therefore \\mathbf{-\\sqrt{2}}$ and $\\mathbf{-\\frac{5}{\\sqrt{2}}}$ are the roots of the equation.",
+    "marks": 3
+  }
+]

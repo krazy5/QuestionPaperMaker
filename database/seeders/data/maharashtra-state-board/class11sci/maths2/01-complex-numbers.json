@@ -1,0 +1,50 @@
+[
+  {
+    "type": "mcq",
+    "text": "If $i = \\sqrt{-1}$, then the value of $i^{23}$ is:",
+    "options": [
+      "i",
+      "-i",
+      "1",
+      "-1"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conjugate of the complex number $2 - 3i$ is:",
+    "options": [
+      "2 + 3i",
+      "-2 - 3i",
+      "-2 + 3i",
+      "3 - 2i"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write the conjugate of the complex number $3+i$.",
+    "answer": "<strong>Solution:</strong><br>To find the conjugate of a complex number, we change the sign of the imaginary part.<br>The conjugate of $3+i$ is $3-i$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Express the complex number $(1+2i)(-2+i)$ in the form $a+ib$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Expand the product using distributive property.<br>$(1+2i)(-2+i) = 1(-2+i) + 2i(-2+i)$.<br>Step 2: Simplify: $-2 + i - 4i + 2i^2$.<br>Step 3: Since $i^2 = -1$, the expression becomes $-2 - 3i + 2(-1) = -2 - 3i - 2$.<br>Step 4: Combine the real parts: $-4 - 3i$.<br><strong>Final Answer:</strong> The number is $-4 - 3i$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find the square root of the complex number $6+8i$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the square root be $x+iy$. So, $(x+iy)^2 = 6+8i$.<br>Step 2: Expand the left side: $x^2 - y^2 + 2xyi = 6+8i$.<br>Step 3: Equate the real and imaginary parts:<br>(i) $x^2 - y^2 = 6$<br>(ii) $2xy = 8 \\implies xy=4$.<br>Step 4: Use the identity $(x^2+y^2)^2 = (x^2-y^2)^2 + (2xy)^2$.<br>$(x^2+y^2)^2 = (6)^2 + (8)^2 = 36+64=100$.<br>Step 5: So, $x^2+y^2 = 10$ (since it must be positive). (iii)<br>Step 6: Add equations (i) and (iii): $2x^2 = 16 \\implies x^2=8 \\implies x = \\pm 2\\sqrt{2}$.<br>Step 7: Subtract equation (i) from (iii): $2y^2 = 4 \\implies y^2=2 \\implies y = \\pm \\sqrt{2}$.<br>Step 8: Since $xy=4$ (positive), x and y must have the same sign.<br><strong>Final Answer:</strong> The square roots are $2\\sqrt{2} + i\\sqrt{2}$ and $-2\\sqrt{2} - i\\sqrt{2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the value of $1 + i^2 + i^4 + i^6 + ... + i^{20}$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: We know the powers of i repeat in a cycle of 4: $i^2=-1, i^4=1, i^6=-1$, etc.<br>Step 2: The given series is $1 + (-1) + (1) + (-1) + ...$. The powers are all even.<br>Step 3: The terms are of the form $i^{2n}$. The series goes from $n=0$ to $n=10$. There are 11 terms in total.<br>Step 4: The series is $1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1$.<br>Step 5: We have five pairs of $(1-1)$ which sum to 0, and a final $+1$.<br>$(1-1) + (1-1) + (1-1) + (1-1) + (1-1) + 1 = 0+0+0+0+0+1 = 1$.<br><strong>Final Answer:</strong> The value is 1.",
+    "marks": 3
+  }
+]

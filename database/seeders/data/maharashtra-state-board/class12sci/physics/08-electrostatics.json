@@ -62,5 +62,180 @@
     "text": "Derive an expression for the electric field intensity due to an infinitely long straight charged wire. (Board 2023)",
     "answer": "Using Gauss's law, we consider a cylindrical Gaussian surface of radius r and length L coaxial with the wire. The electric flux through the surface is $\\Phi = E \\times (2\\pi rL)$. The charge enclosed is $q = \\lambda L$, where $\\lambda$ is the linear charge density. According to Gauss's law, $E \\times (2\\pi rL) = \\frac{\\lambda L}{\\epsilon_0}$. This gives the expression for the electric field: $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$.",
     "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In SI units, the differential equation of an S.H.M. is $\\frac{d^2x}{dt^2} = -36x$. Find its frequency and period.",
+    "answer": "f = 0.9548 Hz, T = 1.047 s",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A needle of a sewing machine moves along a path of amplitude 4 cm with frequency 5 Hz. Find its acceleration $\\frac{1}{30}$ s after it has crossed the mean position.",
+    "answer": "34.2 m/s²",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Potential energy of a particle performing linear S.H.M is $0.1\\pi^2x^2$ joule. If mass of the particle is 20 g, find the frequency of S.H.M.",
+    "answer": "1.581 Hz",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The total energy of a body of mass 2 kg performing S.H.M. is 40 J. Find its speed while crossing the centre of the path.",
+    "answer": "6.324 m/s",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A simple pendulum performs S.H.M of period 4 seconds. How much time after crossing the mean position, will the displacement of the bob be one third of its amplitude.",
+    "answer": "0.2163 s",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A simple pendulum of length 100 cm performs S.H.M. Find the restoring force acting on its bob of mass 50 g when the displacement from the mean position is 3 cm.",
+    "answer": "$1.48 \\times 10^{-2} \\text{ N}$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the change in length of a second's pendulum, if the acceleration due to gravity at the place changes from 9.75 m/s² to 9.80 m/s².",
+    "answer": "Decreases by 5.07 mm",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "At what distance from the mean position is the kinetic energy of a particle performing S.H.M. of amplitude 8 cm, three times its potential energy?",
+    "answer": "4 cm",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A particle performing linear S.H.M. of period $2\\pi$ seconds about the mean position O is observed to have a speed of $b\\sqrt{3}$ m/s, when at a distance $b$ (metre) from O. If the particle is moving away from O at that instant, find the time required by the particle, to travel a further distance $b$.",
+    "answer": "$\\pi/3$ s",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The period of oscillation of a body of mass $m_1$ suspended from a light spring is $T$. When a body of mass $m_2$ is tied to the first body and the system is made to oscillate, the period is $2T$. Compare the masses $m_1$ and $m_2$.",
+    "answer": "$m_1/m_2 = 1/3$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The displacement of an oscillating particle is given by $x = a\\sin\\omega t + b\\cos\\omega t$ where a, b and $\\omega$ are constants. Prove that the particle performs a linear S.H.M. with amplitude $A = \\sqrt{a^2 + b^2}$.",
+    "answer": "To prove the motion is S.H.M., we show acceleration is proportional to displacement: $v = \\frac{dx}{dt} = a\\omega\\cos\\omega t - b\\omega\\sin\\omega t$. $a_{accel} = \\frac{d^2x}{dt^2} = -a\\omega^2\\sin\\omega t - b\\omega^2\\cos\\omega t = -\\omega^2(a\\sin\\omega t + b\\cos\\omega t) = -\\omega^2x$. Since acceleration is proportional to $-x$, the motion is S.H.M. The amplitude is given by $A = \\sqrt{a^2 + b^2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Two parallel S.H.M.s represented by $x_1 = 5\\sin(4\\pi t + \\pi/3)$ cm and $x_2 = 3\\sin(4\\pi t + \\pi/4)$ cm are superposed on a particle. Determine the amplitude and epoch of the resultant S.H.M.",
+    "answer": "Amplitude = 7.936 cm, Epoch (initial phase) = 54° 23'",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A 20 cm wide thin circular disc of mass 200 g is suspended to a rigid support from a thin metallic string. By holding the rim of the disc, the string is twisted through 60° and released. It now performs angular oscillations of period 1 second. Calculate the maximum restoring torque generated in the string under undamped conditions. ($\\pi^2 \\approx 31$)",
+    "answer": "0.04133 N m",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the number of oscillations performed per minute by a magnet is vibrating in the plane of a uniform field of $1.6 \\times 10^{-5}$ Wb/m². The magnet has moment of inertia $3 \\times 10^{-6}$ kg m² and magnetic moment 3 Am².",
+    "answer": "38.19 osc/min",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A wooden block of mass m is kept on a piston that can perform vertical vibrations. We don't want the block to leave contact with the piston. How much maximum frequency is possible if the amplitude of vibrations is restricted to 25 cm? In this case, how much is the energy per unit mass of the block? ($g \\approx \\pi^2 \\approx 10$ m/s²)",
+    "answer": "$n_{max} = 1$ Hz, E/m = 1.25 J/kg",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "A parallel plate capacitor is charged and then isolated. The effect of increasing the plate separation on charge, potential, capacitance respectively are",
+    "options": [
+      "Constant, decreases, decreases",
+      "Constant, increases, decreases",
+      "Constant, decreases, increases",
+      "Constant, increases, decreases"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A slab of material of dielectric constant k has the same area A as the plates of a parallel plate capacitor and has thickness (3/4d), where d is the separation of the plates. The change in capacitance when the slab is inserted between the plates is",
+    "options": [
+      "$C = \\frac{A \\epsilon_0}{d} (\\frac{k+3}{4k})$",
+      "$C = \\frac{A \\epsilon_0}{d} (\\frac{2k}{k+3})$",
+      "$C = \\frac{A \\epsilon_0}{d} (\\frac{k+3}{2k})$",
+      "$C = \\frac{A \\epsilon_0}{d} (\\frac{4k}{k+3})$"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Energy stored in a capacitor and dissipated during charging a capacitor bear a ratio.",
+    "options": ["1:1", "1:2", "2:1", "1:3"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Charge +q and -q are placed at points A and B respectively which are distance 2L apart. C is the mid point of A and B. The work done in moving a charge +Q along the semicircle CRD as shown in the figure below is",
+    "options": [
+      "$\\frac{-qQ}{6\\pi\\epsilon_0 L}$",
+      "$\\frac{qQ}{2\\pi\\epsilon_0 L}$",
+      "$\\frac{-qQ}{4\\pi\\epsilon_0 L}$",
+      "$\\frac{qQ}{4\\pi\\epsilon_0 L}$"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A parallel plate capacitor has circular plates of radius 8 cm and plate separation 1mm. What will be the charge on the plates if a potential difference of 100 V is applied?",
+    "options": [
+      "$1.78 \\times 10^{-6} C$",
+      "$1.78 \\times 10^{-8} C$",
+      "$4.3 \\times 10^{-4} C$",
+      "$2 \\times 10^{-9} C$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "A charge q is moved from a point A above a dipole of dipole moment p to a point B below the dipole in equatorial plane without acceleration. Find the work done in this process.",
+    "answer": "The potential at every point on the equatorial plane of a dipole is zero. Since both points A and B lie on the equatorial plane, the potential difference between them is zero. Work done, $W = q \\Delta V = q(V_B - V_A) = q(0-0) = 0$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If the difference between the radii of the two spheres of a spherical capacitor is increased, state whether the capacitance will increase or decrease.",
+    "answer": "The capacitance will decrease. The capacitance of a spherical capacitor is $C = 4\\pi\\epsilon_0 \\frac{r_1 r_2}{r_2 - r_1}$. Increasing the difference between the radii ($r_2 - r_1$) increases the denominator, thus decreasing the overall capacitance.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A metal plate is introduced between the plates of a charged parallel plate capacitor. What is its effect on the capacitance of the capacitor?",
+    "answer": "The capacitance increases. Introducing a conducting (metal) plate of thickness 't' reduces the effective separation between the plates to (d-t), which increases the capacitance according to $C' = \\frac{\\epsilon_0 A}{d-t}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The safest way to protect yourself from lightning is to be inside a car. Justify.",
+    "answer": "This is due to electrostatic shielding. A car's metal body acts as a Faraday cage. The electric charge from the lightning strike resides on the outer surface of the car, causing the net electric field inside the car to be zero. This protects the occupants inside from the external electric field.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A spherical shell of radius b with charge Q is expanded to a radius a. Find the work done by the electrical forces in the process.",
+    "answer": "Work done by electrical forces is the negative of the change in potential energy, $W = -(U_{final} - U_{initial})$. The potential energy of a charged spherical shell is $U = \\frac{Q^2}{8\\pi\\epsilon_0 R}$. Initial energy (radius b) is $U_i = \\frac{Q^2}{8\\pi\\epsilon_0 b}$. Final energy (radius a) is $U_f = \\frac{Q^2}{8\\pi\\epsilon_0 a}$. Therefore, $W = -(\\frac{Q^2}{8\\pi\\epsilon_0 a} - \\frac{Q^2}{8\\pi\\epsilon_0 b}) = \\frac{Q^2}{8\\pi\\epsilon_0}(\\frac{1}{b} - \\frac{1}{a})$.",
+    "marks": 3
   }
 ]

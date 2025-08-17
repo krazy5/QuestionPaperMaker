@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mcq",
+    "text": "Ohm's law is valid for...",
+    "options": [
+      "all conductors",
+      "semiconductors",
+      "insulators",
+      "metallic conductors at constant temperature"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is resistivity? State its SI unit.",
+    "answer": "<strong>Resistivity:</strong><br>Resistivity is a fundamental property of a material that measures how strongly it resists electric current. It is the resistance of a conductor of that material having unit length and unit area of cross-section. Its SI unit is Ohm-meter ($\\Omega$·m).",
+    "marks": 2
+  }
+]

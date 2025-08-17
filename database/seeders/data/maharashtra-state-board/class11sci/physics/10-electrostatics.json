@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mcq",
+    "text": "The work done in moving a unit positive charge from one point to another in an electric field is a measure of...",
+    "options": [
+      "Electric current",
+      "Electric potential difference",
+      "Electric field intensity",
+      "Electric flux"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define electric potential.",
+    "answer": "<strong>Electric Potential:</strong><br>Electric potential at a point in an electric field is defined as the work done in moving a unit positive charge from infinity to that point against the electrostatic forces.",
+    "marks": 2
+  }
+]

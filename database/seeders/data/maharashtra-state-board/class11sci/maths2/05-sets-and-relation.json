@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mcq",
+    "text": "If $A = \\{1, 2\\}$ and $B = \\{a, b\\}$, then $A \\times B$ is:",
+    "options": [
+      "$\\{(1,a), (2,b)\\}$",
+      "$\\{(a,1), (b,2)\\}$",
+      "$\\{(1,a), (1,b), (2,a), (2,b)\\}$",
+      "$\\{(1,2), (a,b)\\}$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "If $A = \\{1, 2, 3\\}$ and $B = \\{3, 4, 5\\}$, find $A \\cup B$ and $A \\cap B$.",
+    "answer": "<strong>Solution:</strong><br>$A \\cup B$ (Union) is the set of all elements in either A or B.<br>$A \\cup B = \\{1, 2, 3, 4, 5\\}$.<br>$A \\cap B$ (Intersection) is the set of elements common to both A and B.<br>$A \\cap B = \\{3\\}$.",
+    "marks": 2
+  }
+]

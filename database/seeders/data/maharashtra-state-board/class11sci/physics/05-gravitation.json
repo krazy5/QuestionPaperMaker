@@ -1,0 +1,44 @@
+[
+  {
+    "type": "mcq",
+    "text": "The value of acceleration due to gravity is maximum at the...",
+    "options": [
+      "equator of the Earth",
+      "poles of the Earth",
+      "center of the Earth",
+      "same at all places"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The escape velocity of a projectile from the Earth is approximately...",
+    "options": [
+      "7 km/s",
+      "11.2 km/s",
+      "1.12 km/s",
+      "9.8 km/s"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State Kepler's law of orbits.",
+    "answer": "<strong>Kepler's Law of Orbits:</strong><br>This law states that all planets move in elliptical orbits around the Sun, with the Sun situated at one of the foci of the ellipse.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define binding energy of a satellite.",
+    "answer": "<strong>Binding Energy of a Satellite:</strong><br>The binding energy of a satellite is the minimum energy required to remove the satellite from its orbit around a planet and take it to an infinite distance away from the planet. It is the negative of the total energy of the satellite.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for the critical velocity of a satellite revolving around the Earth.",
+    "answer": "<strong>Solution:</strong><br>Step 1: For a satellite to revolve in a circular orbit, the necessary centripetal force is provided by the gravitational force between the satellite and the Earth.<br>Step 2: Centripetal Force = $\\frac{mv_c^2}{r}$, where $v_c$ is the critical velocity and r is the orbital radius.<br>Step 3: Gravitational Force = $\\frac{GMm}{r^2}$, where M is the mass of the Earth.<br>Step 4: Equate the two forces: $\\frac{mv_c^2}{r} = \\frac{GMm}{r^2}$.<br>Step 5: Cancel m and r from both sides: $v_c^2 = \\frac{GM}{r}$.<br><strong>Final Answer:</strong> The critical velocity is $v_c = \\sqrt{\\frac{GM}{r}}$.",
+    "marks": 4
+  }
+]

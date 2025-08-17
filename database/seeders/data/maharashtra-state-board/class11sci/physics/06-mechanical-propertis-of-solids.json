@@ -1,0 +1,293 @@
+[
+  {
+    "type": "mcq",
+    "text": "An object thrown from a moving bus is an example of",
+    "options": [
+      "Uniform circular motion",
+      "Rectilinear motion",
+      "Projectile motion",
+      "Motion in one dimension"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For a particle having a uniform circular motion, which of the following is constant?",
+    "options": [
+      "Speed",
+      "Acceleration",
+      "Velocity",
+      "Displacement"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bob of a conical pendulum under goes",
+    "options": [
+      "Rectilinear motion in horizontal plane",
+      "Uniform motion in a horizontal circle",
+      "Uniform motion in a vertical circle",
+      "Rectilinear motion in vertical circle"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For uniform acceleration in rectilinear motion which of the following is not correct?",
+    "options": [
+      "Velocity-time graph is linear",
+      "Acceleration is the slope of velocity time graph",
+      "The area under the velocity-time graph equals displacement",
+      "Velocity-time graph is nonlinear"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If three particles A, B and C are having velocities $\\vec{v}_A$, $\\vec{v}_B$ and $\\vec{v}_C$ which of the following formula gives the relative velocity of A with respect to B",
+    "options": [
+      "$\\vec{v}_A + \\vec{v}_B$",
+      "$\\vec{v}_A - \\vec{v}_B$",
+      "$\\vec{v}_A - \\vec{v}_C$",
+      "$\\vec{v}_C - \\vec{v}_A$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Change in dimensions is known as .....",
+    "options": [
+      "deformation",
+      "formation",
+      "contraction",
+      "strain"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The point on stress-strain curve at which strain begins to increase even without increase in stress is called....",
+    "options": [
+      "elastic point",
+      "yield point",
+      "breaking point",
+      "neck point"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Strain energy of a stretched wire is 15$\\times 10^3$ J and strain energy per unit volume of the same wire and some cross section is 6$\\times 10^{-3}$ J/$m^3$. Its volume will be....",
+    "options": [
+      "6 $m^3$",
+      "3 $m^3$",
+      "6 $m^3$",
+      "3 $m^3$"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "..... is the property of a material which enables it to resist plastic deformaution.",
+    "options": [
+      "elasticity",
+      "plasticity",
+      "hardness",
+      "ductility"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ability of a material to resist fracturing when a force is applied to it, is called...",
+    "options": [
+      "toughness",
+      "hardness",
+      "ductility",
+      "plasticity"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An object is falling freely under the gravitational force. Its velocity after travelling a distance h is v. If v depends upon gravitational acceleration g and distance, prove with dimensional analysis that $v = k\\sqrt{gh}$ where k is a constant. (This question is from image_20d857.jpg and image_20d892.png)",
+    "options": [
+      "The question is a proof, not a multiple choice question. It cannot be answered in this format. "
+    ],
+    "correct_answer": null,
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A mass 2m moving with some speed is directly approaching another mass m moving with double speed. After some time, they collide with coefficient of restitution 0.5. Ratio of their respective speeds after collision is",
+    "options": [
+      "2/3",
+      "3/2",
+      "1/2",
+      "3/1"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A uniform rod of mass 2m is held horizontal by two sturdy, practically inextensible vertical strings tied at its ends. A boy of mass 3m hangs himself at one third length of the rod. Ratio of the tension in the string close to the boy to that in the other string is",
+    "options": [
+      "2/3",
+      "4/3",
+      "1/5",
+      "1"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For a particle having a uniform circular motion, which of the following is constant?",
+    "options": [
+      "Speed",
+      "Acceleration",
+      "Velocity",
+      "Displacement"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "At a given instant three point masses m, 2m and 3m are equidistant from each other. Consider only the gravitational forces between them. Select correct statement/s for this instance only:",
+    "options": [
+      "Mass m experiences maximum force.",
+      "Mass 2m experiences maximum force.",
+      "Mass 3m experiences maximum force.",
+      "All masses experience force of same magnitude."
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Consider following pair of forces of equal magnitude and opposite directions: (P) Gravitational forces exerted on each other by two point masses separated by a distance. (Q) Couple of forces used to rotate a water tap. (R) Gravitational force and normal force experienced by an object kept on a table. For which of these pair/pairs the two forces do NOT cancel each other's translational effect?",
+    "options": [
+      "Only P",
+      "Only P and Q",
+      "Only R",
+      "Only Q and R"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Consider following forces: (w) Force due to tension along a string, (x) Normal force given by a surface, (y) Force due to air resistance and (z) Buoyant force or upthrust given by a fluid. Which of these are electromagnetic forces?",
+    "options": [
+      "Only w, y and z",
+      "Only w, x and z",
+      "Only x, y and z",
+      "All of these"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bob of a conical pendulum under goes",
+    "options": [
+      "Rectilinear motion in horizontal plane",
+      "Uniform motion in a horizontal circle",
+      "Uniform motion in a vertical circle",
+      "Rectilinear motion in vertical circle"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For uniform acceleration in rectilinear motion which of the following is not correct?",
+    "options": [
+      "Velocity-time graph is linear",
+      "Acceleration is the slope of velocity time graph",
+      "The area under the velocity-time graph equals displacement",
+      "Velocity-time graph is nonlinear"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "An object is falling freely under the gravitational force. Its velocity after travelling a distance h is v. If v depends upon gravitational acceleration g and distance, prove with dimensional analysis that $v = k\\sqrt{gh}$ where k is a constant.",
+    "answer": "Let velocity $v$ depend on gravitational acceleration $g$ and distance $h$. We can write $v = k g^a h^b$. The dimensions are: $[v] = [LT^{-1}]$, $[g] = [LT^{-2}]$, and $[h] = [L]$. By equating dimensions, we get $[LT^{-1}] = [LT^{-2}]^a [L]^b = [L^{a+b} T^{-2a}]$. Comparing the powers of L and T, we get $a+b=1$ and $-2a=-1$, which gives $a=1/2$ and $b=1/2$. Thus, we have $v = k g^{1/2} h^{1/2} = k\\sqrt{gh}$. This proves the relationship using dimensional analysis.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A car moving along a straight road with a speed of 120 km/hr, is brought to rest by applying brakes. The car covers a distance of 100 m before it stops. Calculate (i) the average retardation of the car (ii) time taken by the car to come to rest.",
+    "answer": "Given initial velocity ($u$) = 120 km/hr = $120 \\times \\frac{1000}{3600}$ m/s = 33.33 m/s. Final velocity ($v$) = 0 m/s. Distance (s) = 100 m.<br>(i) Average retardation (a) can be calculated using the equation $v^2 = u^2 + 2as$.<br>$0^2 = (33.33)^2 + 2a(100) \\Rightarrow 0 = 1111.11 + 200a \\Rightarrow a = \\frac{-1111.11}{200} = -5.56 m/s^2$. The average retardation is **$5.56 m/s^2$**.<br>(ii) Time taken (t) can be calculated using the equation $v = u + at$.<br>$0 = 33.33 + (-5.56)t \\Rightarrow t = \\frac{33.33}{5.56} \\approx 6$ s. The time taken is **6 s**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A car travels at a speed of 50 km/hr for 30 minutes, at 30 km/hr for next 15 minutes and then 70 km/hr for next 45 minutes. What is the average speed of the car?",
+    "answer": "Average speed is given by total distance divided by total time.<br>For the first part of the journey: Distance ($d_1$) = speed $\\times$ time = 50 km/hr $\\times$ 0.5 hr = 25 km.<br>For the second part: Distance ($d_2$) = speed $\\times$ time = 30 km/hr $\\times$ 0.25 hr = 7.5 km.<br>For the third part: Distance ($d_3$) = speed $\\times$ time = 70 km/hr $\\times$ 0.75 hr = 52.5 km.<br>Total distance = $d_1 + d_2 + d_3 = 25 + 7.5 + 52.5 = 85$ km.<br>Total time = 30 + 15 + 45 = 90 minutes = 1.5 hours.<br>Average speed = $\\frac{\\text{Total distance}}{\\text{Total time}} = \\frac{85 \\text{ km}}{1.5 \\text{ hr}} \\approx 56.67$ km/hr. The average speed of the car is approximately **56.67 km/hr**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A particle is projected with speed $v_o$ at angle $\\theta$ to the horizontal on an inclined surface making an angle $\\phi$ ($\\phi < \\theta$) to the horizontal. Find the range of the projectile along the inclined surface.",
+    "answer": "Let the angle of projection be $\\alpha = \\theta - \\phi$. The acceleration due to gravity along the inclined surface is $g' = g\\cos\\phi$, and the component perpendicular to the surface is $g'' = g\\sin\\phi$. The range (R) of the projectile along the inclined surface is given by the formula: **$R = \\frac{2v_o^2\\sin(\\theta-\\phi)\\cos\\theta}{g\\cos^2\\phi}$**. This is a derivation-based problem and requires advanced kinematics.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A car moves in a circle at the constant speed of 50 m/s and completes one revolution in 40 s. Determine the magnitude of acceleration of the car.",
+    "answer": "Given speed (v) = 50 m/s. Time for one revolution (T) = 40 s.<br>The radius of the circular path is given by $2\\pi r = vT \\Rightarrow r = \\frac{vT}{2\\pi} = \\frac{50 \\times 40}{2\\pi} = \\frac{1000}{\\pi} \\approx 318.3$ m.<br>The centripetal acceleration (a) is given by $a = \\frac{v^2}{r} = \\frac{50^2}{318.3} = \\frac{2500}{318.3} \\approx 7.85$ m/s$^2$. The magnitude of acceleration is approximately **7.85 $m/s^2$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A particle moves in a circle with constant speed of 15 m/s. The radius of the circle is 2 m. Determine the centripetal acceleration of the particle.",
+    "answer": "Given speed (v) = 15 m/s. Radius (r) = 2 m.<br>The formula for centripetal acceleration (a) is $a = \\frac{v^2}{r}$.<br>$a = \\frac{(15)^2}{2} = \\frac{225}{2} = 112.5$ m/s$^2$. The centripetal acceleration of the particle is **112.5 $m/s^2$**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A projectile is thrown at an angle of 30° to the horizontal. What should be the range of initial velocity (u) so that its range will be between 40m and 50m? Assume g = 10 $m/s^2$.",
+    "answer": "The formula for the range (R) of a projectile is $R = \\frac{u^2\\sin(2\\theta)}{g}$. Given $\\theta = 30^\\circ$ and $g = 10 m/s^2$. We have $R_{min}$ = 40 m and $R_{max}$ = 50 m.<br>For $R_{min} = 40$ m: $40 = \\frac{u_{min}^2\\sin(2\\times30)}{10} = \\frac{u_{min}^2\\sin(60)}{10} = \\frac{u_{min}^2(0.866)}{10} \\Rightarrow u_{min}^2 = \\frac{400}{0.866} \\approx 461.89 \\Rightarrow u_{min} = \\sqrt{461.89} \\approx 21.49$ m/s.<br>For $R_{max} = 50$ m: $50 = \\frac{u_{max}^2\\sin(60)}{10} \\Rightarrow u_{max}^2 = \\frac{500}{0.866} \\approx 577.36 \\Rightarrow u_{max} = \\sqrt{577.36} \\approx 24.03$ m/s.<br>The range of initial velocity is **21.49 m/s $\\leq$ u $\\leq$ 24.03 m/s**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive an expression for strain energy per unit volume of the material of a wire.",
+    "answer": "Strain energy is the potential energy stored in a body when it is deformed by an external force. For a wire stretched by a force F, the work done (W) is stored as strain energy. The work done is given by the area under the force-extension graph, which is $W = \\frac{1}{2} F \\times \\Delta L$, where $\\Delta L$ is the extension.<br>Strain energy per unit volume = $\\frac{W}{V} = \\frac{\\frac{1}{2} F \\times \\Delta L}{A \\times L}$, where A is the cross-sectional area and L is the original length. Rearranging, we get: $\\frac{1}{2} \\frac{F}{A} \\times \\frac{\\Delta L}{L}$.<br>Since Stress = $\\frac{F}{A}$ and Strain = $\\frac{\\Delta L}{L}$, the strain energy per unit volume = **$\\frac{1}{2} \\times \\text{Stress} \\times \\text{Strain}$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is the strain in a cable of original length 50m whose length increases by 2.5cm when a load is lifted?",
+    "answer": "Given original length (L) = 50 m. Change in length ($\\Delta L$) = 2.5 cm = 0.025 m.<br>Strain is defined as the ratio of change in length to the original length: Strain = $\\frac{\\Delta L}{L}$.<br>Strain = $\\frac{0.025 \\text{ m}}{50 \\text{ m}} = 0.0005$. The strain in the cable is **0.0005** (or $5 \\times 10^{-4}$).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A composite wire is prepared by joining a tungsten wire and steel wire end to end. Both the wires are of the same length and the same area of cross section. If this composite wire is suspended to a rigid support and a force is applied to its free end, it gets extended by 3.25mm. Calculate the increase in length of tungsten wire and steel wire separately.",
+    "answer": "Given: Total extension = $\\Delta L_{total} = 3.25$ mm. $L_{steel} = L_W$, $A_{steel} = A_W$. Force (F) is the same for both. Given Young's modulus for steel ($Y_{steel}$) = $2 \\times 10^{11} N/m^2$ and for tungsten ($Y_{tungsten}$) = $3.4 \\times 10^{11} N/m^2$. The change in length for each wire is given by $\\Delta L = \\frac{FL}{YA}$.<br>$\\Delta L_{total} = \\Delta L_{steel} + \\Delta L_W = \\frac{FL}{Y_{steel}A} + \\frac{FL}{Y_W A} = \\frac{FL}{A}(\\frac{1}{Y_{steel}} + \\frac{1}{Y_W})$.<br>$\\frac{\\Delta L_{steel}}{\\Delta L_W} = \\frac{Y_W}{Y_{steel}} = \\frac{3.4 \\times 10^{11}}{2 \\times 10^{11}} = 1.7$.<br>So, $\\Delta L_{steel} = 1.7 \\Delta L_W$. We have $\\Delta L_{steel} + \\Delta L_W = 3.25$ mm. $1.7 \\Delta L_W + \\Delta L_W = 2.7 \\Delta L_W = 3.25$ mm. $\\Delta L_W = \\frac{3.25}{2.7} \\approx 1.204$ mm.<br>$\\Delta L_{steel} = 3.25 - 1.204 = 2.046$ mm. The increase in length for tungsten is approximately **1.20 mm** and for steel is approximately **2.05 mm**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The length, breadth and thickness of a rectangular sheet of metal are 4.234 m, 1.005 m, and 2.01 cm respectively. Give the area and volume of the sheet to correct significant figures. (This question is from image_20d857.jpg and image_20d892.png)",
+    "answer": "Given length (l) = 4.234 m (4 sig figs), breadth (b) = 1.005 m (4 sig figs), and thickness (t) = 2.01 cm = 0.0201 m (3 sig figs).<br>Area = $l \\times b = 4.234 \\text{ m} \\times 1.005 \\text{ m} = 4.25517 \\text{ }m^2$. The answer should be rounded to 4 significant figures, so the area is **$4.255 m^2$**.<br>Volume = $l \\times b \\times t = 4.234 \\text{ m} \\times 1.005 \\text{ m} \\times 0.0201 \\text{ m} = 0.0855289 \\text{ }m^3$. The answer should be rounded to 3 significant figures, so the volume is **$0.0855 m^3$**.",
+    "marks": 3
+  }
+]

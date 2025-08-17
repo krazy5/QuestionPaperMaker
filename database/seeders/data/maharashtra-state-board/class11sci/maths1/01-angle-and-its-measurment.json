@@ -1,0 +1,62 @@
+[
+  {
+    "type": "mcq",
+    "text": "The angle subtended at the centre of a circle of radius 3 cm by an arc of length 1 cm is:",
+    "options": [
+      "$\\frac{1}{3}$ radian",
+      "$3$ radians",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A horse is tied to a post by a rope. If the horse moves along a circular path always keeping the rope tight and describes 88 meters when it has traced out $72^\\circ$ at the centre, the length of the rope is:",
+    "options": [
+      "70 m",
+      "55 m",
+      "40 m",
+      "35 m"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Determine which of the following pairs of angles are coterminal: $210^\\circ, -150^\\circ$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Two angles are coterminal if their difference is an integral multiple of $360^\\circ$.<br>Step 2: Calculate the difference: $210^\\circ - (-150^\\circ) = 210^\\circ + 150^\\circ = 360^\\circ$.<br>Step 3: Since the difference is $360^\\circ$, which is $1 \\times 360^\\circ$, the angles are coterminal.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Convert the angle $70^\\circ$ into radian measure.",
+    "answer": "<strong>Solution:</strong><br>Step 1: We know that $180^\\circ = \\pi$ radians.<br>Step 2: Therefore, $1^\\circ = \\frac{\\pi}{180}$ radians.<br>Step 3: To convert $70^\\circ$ to radians, multiply by $\\frac{\\pi}{180}$: $70 \\times \\frac{\\pi}{180}$.<br>Step 4: Simplify the fraction: $\\frac{7\\pi}{18}$ radians.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The measures of the angles of a triangle are in the ratio 3:7:8. Find their measures in degree and radian.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the angles be $3k, 7k, 8k$. The sum of angles in a triangle is $180^\\circ$.<br>Step 2: $3k + 7k + 8k = 180^\\circ \\implies 18k = 180^\\circ \\implies k = 10^\\circ$.<br>Step 3: The angles in degrees are $30^\\circ, 70^\\circ, 80^\\circ$.<br>Step 4: Convert to radians: $30^\\circ = \\frac{\\pi}{6}$, $70^\\circ = \\frac{7\\pi}{18}$, $80^\\circ = \\frac{4\\pi}{9}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The difference between two acute angles of a right-angled triangle is $\\frac{2\\pi}{5}$ radians. Express the angles in degrees.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Let the two acute angles be x and y. In a right-angled triangle, $x+y=90^\\circ$.<br>Step 2: Convert the given difference to degrees: $\\frac{2\\pi}{5} \\text{ radians} = \\frac{2}{5} \\times 180^\\circ = 72^\\circ$. So, $x-y=72^\\circ$.<br>Step 3: We have a system of two linear equations:<br>$x+y=90$<br>$x-y=72$<br>Step 4: Add the two equations: $2x = 162^\\circ \\implies x = 81^\\circ$.<br>Step 5: Substitute x back into the first equation: $81^\\circ + y = 90^\\circ \\implies y = 9^\\circ$.<br><strong>Final Answer:</strong> The angles are $81^\\circ$ and $9^\\circ$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the length of an arc of a circle which subtends an angle of $108^\\circ$ at the centre, if the radius of the circle is 15 cm.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The formula for arc length is $s = r\\theta$, where $\\theta$ must be in radians.<br>Step 2: Convert the angle to radians: $\\theta = 108^\\circ = 108 \\times \\frac{\\pi}{180} = \\frac{3\\pi}{5}$ radians.<br>Step 3: The radius is given as $r = 15$ cm.<br>Step 4: Calculate the arc length: $s = 15 \\times \\frac{3\\pi}{5} = 9\\pi$ cm.<br><strong>Final Answer:</strong> The length of the arc is $9\\pi$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A pendulum of length 14 cm oscillates through an angle of $18^\\circ$. Find the length of its path.",
+    "answer": "<strong>Solution:</strong><br>Step 1: The path of the pendulum bob is an arc of a circle. The length of the pendulum is the radius, $r=14$ cm.<br>Step 2: The angle of oscillation is $\\theta = 18^\\circ$. Convert this to radians: $18 \\times \\frac{\\pi}{180} = \\frac{\\pi}{10}$ radians.<br>Step 3: The length of the path is the arc length, $s = r\\theta$.<br>Step 4: Calculate the length: $s = 14 \\times \\frac{\\pi}{10} = 1.4\\pi$ cm.<br><strong>Final Answer:</strong> The length of the path is $1.4\\pi$ cm.",
+    "marks": 3
+  }
+]

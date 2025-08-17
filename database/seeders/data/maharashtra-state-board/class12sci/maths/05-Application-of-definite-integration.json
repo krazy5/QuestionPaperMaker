@@ -1,0 +1,410 @@
+[
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curves, X-axis and the given lines: <br> i) $y = 2x$, $x = 0$, $x = 5$",
+    "answer": "The area is given by the integral $\\int_{0}^{5} 2x dx = [x^2]_{0}^{5} = 5^2 - 0^2 = 25$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curves, X-axis and the given lines: <br> ii) $x = 2y$, $y = 0$, $y = 4$",
+    "answer": "The area is given by the integral $\\int_{0}^{4} 2y dy = [y^2]_{0}^{4} = 4^2 - 0^2 = 16$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curves, X-axis and the given lines: <br> iii) $x = 0$, $x = 5$, $y = 0$, $y = 4$",
+    "answer": "The region is a rectangle bounded by $x=0$, $x=5$, $y=0$, and $y=4$. The area is length times width, so Area = $(5-0) \\times (4-0) = 5 \\times 4 = 20$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curves, X-axis and the given lines: <br> iv) $y = \\sin x$, $x = 0$, $x = \\frac{\\pi}{2}$",
+    "answer": "The area is given by the integral $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -(\\cos(\\pi/2) - \\cos(0)) = -(0 - 1) = 1$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curves, X-axis and the given lines: <br> v) $xy = 2$, $x = 1$, $x = 4$",
+    "answer": "The area is given by the integral $\\int_{1}^{4} \\frac{2}{x} dx = [2\\ln|x|]_{1}^{4} = 2\\ln(4) - 2\\ln(1) = 2\\ln(4) - 0 = 2\\ln(4)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curves, X-axis and the given lines: <br> vi) $y^{2} = x$, $x = 0$, $x = 4$",
+    "answer": "The area is given by the integral $\\int_{0}^{4} \\sqrt{x} dx = \\int_{0}^{4} x^{1/2} dx = [\\frac{2}{3}x^{3/2}]_{0}^{4} = \\frac{2}{3}(4^{3/2} - 0) = \\frac{2}{3}(8) = \\frac{16}{3}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curves, X-axis and the given lines: <br> vii) $y^{2} = 16x$ and $x = 0$, $x = 4$",
+    "answer": "The area is given by the integral $\\int_{0}^{4} 4\\sqrt{x} dx = [4 \\cdot \\frac{2}{3}x^{3/2}]_{0}^{4} = [\\frac{8}{3}x^{3/2}]_{0}^{4} = \\frac{8}{3}(4^{3/2} - 0) = \\frac{8}{3}(8) = \\frac{64}{3}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the parabola: <br> i) $y^{2} = 16x$ and its latus rectum.",
+    "answer": "The parabola is $y^2 = 4(4)x$, so $a=4$. The latus rectum is the line $x=a$, which is $x=4$. The area is symmetric about the x-axis, so we can find the area from $y=0$ to $y=4x$ and multiply by 2. The area is $2\\int_{0}^{4} 4\\sqrt{x} dx = 2[\\frac{8}{3}x^{3/2}]_{0}^{4} = 2(\\frac{8}{3} \\cdot 8) = \\frac{128}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the parabola: <br> ii) $y = 4 - x^2$ and the X-axis.",
+    "answer": "The curve intersects the X-axis when $y=0$, so $4-x^2=0$, which gives $x = \\pm 2$. The area is given by the integral $\\int_{-2}^{2} (4-x^2) dx = [4x - \\frac{x^3}{3}]_{-2}^{2} = (8 - \\frac{8}{3}) - (-8 + \\frac{8}{3}) = 16 - \\frac{16}{3} = \\frac{32}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region included between: <br> i) $y^2 = 2x$, line $y = 2x$",
+    "answer": "The curves intersect when $(2x)^2 = 2x \\implies 4x^2 = 2x \\implies 2x^2 - x = 0 \\implies x(2x-1) = 0$. So, $x=0$ and $x=1/2$. The area is given by the integral $\\int_{0}^{1/2} (\\sqrt{2x} - 2x) dx = [\\sqrt{2}\\frac{2}{3}x^{3/2} - x^2]_{0}^{1/2} = \\sqrt{2}\\frac{2}{3}(\\frac{1}{2})^{3/2} - (\\frac{1}{2})^2 = \\frac{2\\sqrt{2}}{3} \\frac{1}{2\\sqrt{2}} - \\frac{1}{4} = \\frac{1}{3} - \\frac{1}{4} = \\frac{1}{12}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region included between: <br> ii) $y^2 = 4x$, line $y = x$",
+    "answer": "The curves intersect when $x^2 = 4x \\implies x^2 - 4x = 0 \\implies x(x-4) = 0$. So, $x=0$ and $x=4$. The area is given by the integral $\\int_{0}^{4} (\\sqrt{4x} - x) dx = \\int_{0}^{4} (2\\sqrt{x} - x) dx = [2\\frac{2}{3}x^{3/2} - \\frac{x^2}{2}]_{0}^{4} = (\\frac{4}{3}(4)^{3/2} - \\frac{4^2}{2}) - (0) = \\frac{4}{3}(8) - \\frac{16}{2} = \\frac{32}{3} - 8 = \\frac{32-24}{3} = \\frac{8}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region included between: <br> iii) $y = x^2$ and the line $y = 4x$",
+    "answer": "The curves intersect when $x^2 = 4x \\implies x^2 - 4x = 0 \\implies x(x-4) = 0$. So, $x=0$ and $x=4$. The area is given by the integral $\\int_{0}^{4} (4x - x^2) dx = [2x^2 - \\frac{x^3}{3}]_{0}^{4} = (2(4)^2 - \\frac{4^3}{3}) - (0) = 32 - \\frac{64}{3} = \\frac{96-64}{3} = \\frac{32}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region included between: <br> iv) $y^2 = 4ax$ and the line $y = x$",
+    "answer": "The curves intersect when $x^2 = 4ax \\implies x^2 - 4ax = 0 \\implies x(x - 4a) = 0$. So, $x=0$ and $x=4a$. The area is given by the integral $\\int_{0}^{4a} (\\sqrt{4ax} - x) dx = \\int_{0}^{4a} (2\\sqrt{a}\\sqrt{x} - x) dx = [2\\sqrt{a}\\frac{2}{3}x^{3/2} - \\frac{x^2}{2}]_{0}^{4a} = (\\frac{4\\sqrt{a}}{3}(4a)^{3/2} - \\frac{(4a)^2}{2}) = \\frac{4\\sqrt{a}}{3}(8a\\sqrt{a}) - \\frac{16a^2}{2} = \\frac{32a^2}{3} - 8a^2 = \\frac{32a^2-24a^2}{3} = \\frac{8a^2}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region included between: <br> v) $y = x^2 + 3$ and the line $y = x + 3$",
+    "answer": "The curves intersect when $x^2 + 3 = x + 3 \\implies x^2 - x = 0 \\implies x(x-1) = 0$. So, $x=0$ and $x=1$. The area is given by the integral $\\int_{0}^{1} ((x+3) - (x^2+3)) dx = \\int_{0}^{1} (x - x^2) dx = [\\frac{x^2}{2} - \\frac{x^3}{3}]_{0}^{1} = (\\frac{1}{2} - \\frac{1}{3}) - (0) = \\frac{3-2}{6} = \\frac{1}{6}$.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by the region $1 \\le x \\le 5$ and $2 \\le y \\le 5$ is given by",
+    "options": [
+      "A) 12 sq. units",
+      "B) 8 sq. units",
+      "C) 25 sq. units",
+      "D) 32 sq. units"
+    ],
+    "correct_answer": "A) 12 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the region enclosed by the curve $y = \\frac{1}{x}$, and the lines $x=e$, $x=e^2$ is given by",
+    "options": [
+      "A) 1 sq. unit",
+      "B) 1/2 sq. unit",
+      "C) 3/2 sq. units",
+      "D) 5/2 sq. units"
+    ],
+    "correct_answer": "A) 1 sq. unit",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by the curve $y = x^3$, the X-axis and the lines $x = -2$ and $x = 1$ is",
+    "options": [
+      "A) -9 sq. units",
+      "B) -15/4 sq. units",
+      "C) 15/4 sq. units",
+      "D) 17/4 sq. units"
+    ],
+    "correct_answer": "D) 17/4 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area enclosed between the parabola $y^2 = 4x$ and line $y = 2x$ is",
+    "options": [
+      "A) 2/3 sq. units",
+      "B) 1/3 sq. units",
+      "C) 1/4 sq. units",
+      "D) 3/4 sq. units"
+    ],
+    "correct_answer": "B) 1/3 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the region bounded between the line $x=4$ and the parabola $y^2=16x$ is",
+    "options": [
+      "A) 128/3 sq. units",
+      "B) 108/3 sq. units",
+      "C) 118/3 sq. units",
+      "D) 218/3 sq. units"
+    ],
+    "correct_answer": "A) 128/3 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the region bounded by $y = \\cos x$, Y-axis and the lines $x = 0$, $x = 2\\pi$ is",
+    "options": [
+      "A) 1 sq. unit",
+      "B) 2 sq. units",
+      "C) 3 sq. units",
+      "D) 4 sq. units"
+    ],
+    "correct_answer": "D) 4 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by the parabola $y^2 = 8x$ the X-axis and the latus rectum is",
+    "options": [
+      "A) 31/3 sq. units",
+      "B) 32/3 sq. units",
+      "C) 32\\sqrt{3}/3 sq. units",
+      "D) 16/3 sq. units"
+    ],
+    "correct_answer": "B) 32/3 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area under the curve $y = 2\\sqrt{x}$, enclosed between the lines $x = 0$ and $x = 1$ is",
+    "options": [
+      "A) 4 sq. units",
+      "B) 3/4 sq. units",
+      "C) 2/3 sq. units",
+      "D) 4/3 sq. units"
+    ],
+    "correct_answer": "D) 4/3 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the circle $x^2 + y^2 = 25$ in first quadrant is",
+    "options": [
+      "A) 25\\pi/3 sq. units",
+      "B) 5\\pi sq. units",
+      "C) 5 sq. units",
+      "D) 3 sq. units"
+    ],
+    "correct_answer": "B) 5\\pi sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the region bounded by the ellipse $x^2/a^2 + y^2/b^2 = 1$ is",
+    "options": [
+      "A) ab sq. units",
+      "B) \\pi ab sq. units",
+      "C) \\pi/ab sq. units",
+      "D) \\pi a^2 sq. units"
+    ],
+    "correct_answer": "B) \\pi ab sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by the parabola $y^2 = x$ and the line $2y = x$ is",
+    "options": [
+      "A) 4/3 sq. units",
+      "B) 1 sq. units",
+      "C) 2/3 sq. units",
+      "D) 1/3 sq. units"
+    ],
+    "correct_answer": "D) 1/3 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area enclosed between the curve $y = \\cos 3x$, $0 \\le x \\le \\pi/6$ and the X-axis is",
+    "options": [
+      "A) 1/2 sq. units",
+      "B) 1 sq. units",
+      "C) 2/3 sq. units",
+      "D) 1/3 sq. units"
+    ],
+    "correct_answer": "D) 1/3 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by $y = \\sqrt{x}$ and line $x = 2y + 3$, X-axis in first quadrant is",
+    "options": [
+      "A) 2\\sqrt{3} sq. units",
+      "B) 9 sq. units",
+      "C) 34/3 sq. units",
+      "D) 18 sq. units"
+    ],
+    "correct_answer": "D) 18 sq. units",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by the ellipse $x^2/a^2 + y^2/b^2 = 1$ and the line $x/a + y/b = 1$ is",
+    "options": [
+      "A) $\\pi ab - 2ab$",
+      "B) $\\pi ab/4 - ab/2$",
+      "C) $\\pi ab - ab$",
+      "D) $\\pi ab$"
+    ],
+    "correct_answer": "B) $\\pi ab/4 - ab/2$",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by the parabola $y = x^2$ and the line $y = x$ is",
+    "options": [
+      "A) 1/2",
+      "B) 1/3",
+      "C) 1/6",
+      "D) 1/12"
+    ],
+    "correct_answer": "C) 1/6",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area enclosed between the two parabolas $y^2 = 4x$ and $y = x^2$ is",
+    "options": [
+      "A) 8/3",
+      "B) 32/3",
+      "C) 16/3",
+      "D) 4/3"
+    ],
+    "correct_answer": "C) 16/3",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area bounded by the curve $y = \\tan x$, X-axis and the line $x = \\pi/4$ is",
+    "options": [
+      "A) 1 - log 2",
+      "B) log 2",
+      "C) 2 log 2",
+      "D) 3 - log 2"
+    ],
+    "correct_answer": "B) log 2",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the region bounded by $x^2 = 16y$, $y = 1$, $y = 4$ and $x = 0$ in the first quadrant, is",
+    "options": [
+      "A) 7/3",
+      "B) 8/3",
+      "C) 64/3",
+      "D) 56/3"
+    ],
+    "correct_answer": "D) 56/3",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the region included between the parabolas $y^2 = 4ax$ and $x^2 = 4ay$, ($a > 0$) is given by",
+    "options": [
+      "A) 16a^2/3",
+      "B) 8a^2/3",
+      "C) 4a^2/3",
+      "D) 32a^2/3"
+    ],
+    "correct_answer": "A) 16a^2/3",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The area of the region included between the line $x+y=1$ and the circle $x^2+y^2=1$ is",
+    "options": [
+      "A) $\\pi/2 - 1$",
+      "B) $\\pi - 2$",
+      "C) $\\pi/4 - 1/2$",
+      "D) $\\pi - 1/2$"
+    ],
+    "correct_answer": "C) $\\pi/4 - 1/2$",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curve, the X-axis and the given lines: <br> i) $0 \\le x \\le 5$, $0 \\le y \\le 2$",
+    "answer": "The region is a rectangle bounded by the lines $x=0$, $x=5$, $y=0$, and $y=2$. The area is length times width, so Area = $(5-0) \\times (2-0) = 5 \\times 2 = 10$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curve, the X-axis and the given lines: <br> ii) $y = \\sin x$, $x = 0$, $x = \\pi$",
+    "answer": "The area is given by the integral $\\int_{0}^{\\pi} \\sin x dx = [-\\cos x]_{0}^{\\pi} = -(\\cos(\\pi) - \\cos(0)) = -(-1 - 1) = 2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the following curve, the X-axis and the given lines: <br> iii) $y = \\sin x$, $x = 0$, $x = \\pi/2$",
+    "answer": "The area is given by the integral $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -(\\cos(\\pi/2) - \\cos(0)) = -(0 - 1) = 1$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the circle $x^2 + y^2 = 9$, using integration.",
+    "answer": "The circle has a radius of 3. We can find the area of the first quadrant and multiply it by 4. The area is $4\\int_{0}^{3} \\sqrt{9-x^2} dx = 4[\\frac{x}{2}\\sqrt{9-x^2} + \\frac{9}{2}\\sin^{-1}(\\frac{x}{3})]_{0}^{3} = 4[\\frac{3}{2}\\sqrt{9-9} + \\frac{9}{2}\\sin^{-1}(\\frac{3}{3}) - 0] = 4(\\frac{9}{2}\\sin^{-1}(1)) = 4(\\frac{9}{2}\\frac{\\pi}{2}) = 9\\pi$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the ellipse $x^2/25 + y^2/16 = 1$ using integration.",
+    "answer": "The ellipse has semi-major axis $a=5$ and semi-minor axis $b=4$. The total area is $\\pi ab = \\pi(5)(4) = 20\\pi$. Using integration, we can find the area of the first quadrant and multiply by 4. $y = \\frac{4}{5}\\sqrt{25-x^2}$. Area = $4\\int_{0}^{5} \\frac{4}{5}\\sqrt{25-x^2} dx = \\frac{16}{5} [\\frac{x}{2}\\sqrt{25-x^2} + \\frac{25}{2}\\sin^{-1}(\\frac{x}{5})]_{0}^{5} = \\frac{16}{5} (0 + \\frac{25}{2}\\frac{\\pi}{2}) = \\frac{16}{5} \\frac{25\\pi}{4} = 20\\pi$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region lying between the parabolas. <br> i) $y^2 = 4x$ and $x^2 = 4y$",
+    "answer": "The parabolas intersect when $(\\frac{x^2}{4})^2 = 4x \\implies \\frac{x^4}{16} = 4x \\implies x^4 = 64x \\implies x(x^3 - 64) = 0$. So, $x=0$ and $x=4$. The area is $\\int_{0}^{4} (\\sqrt{4x} - \\frac{x^2}{4}) dx = \\int_{0}^{4} (2\\sqrt{x} - \\frac{x^2}{4}) dx = [\\frac{4}{3}x^{3/2} - \\frac{x^3}{12}]_{0}^{4} = \\frac{4}{3}(4)^{3/2} - \\frac{4^3}{12} = \\frac{4}{3}(8) - \\frac{64}{12} = \\frac{32}{3} - \\frac{16}{3} = \\frac{16}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region lying between the parabolas. <br> ii) $4y^2 = 9x$ and $3x^2 = 16y$",
+    "answer": "From the first equation, $y^2 = \\frac{9}{4}x \\implies y = \\frac{3}{2}\\sqrt{x}$. From the second equation, $y = \\frac{3}{16}x^2$. They intersect when $(\\frac{3}{16}x^2)^2 = \\frac{9}{4}x \\implies \\frac{9}{256}x^4 = \\frac{9}{4}x \\implies x^4 = 64x \\implies x(x^3 - 64) = 0$. So, $x=0$ and $x=4$. The area is $\\int_{0}^{4} (\\frac{3}{2}\\sqrt{x} - \\frac{3}{16}x^2) dx = [x^{3/2} - \\frac{x^3}{16}]_{0}^{4} = (4^{3/2} - \\frac{4^3}{16}) = (8 - 4) = 4$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region lying between the parabolas. <br> iii) $y^2 = x$ and $x^2 = y$",
+    "answer": "The parabolas intersect when $(x^2)^2 = x \\implies x^4 = x \\implies x^4 - x = 0 \\implies x(x^3 - 1) = 0$. So, $x=0$ and $x=1$. The area is $\\int_{0}^{1} (\\sqrt{x} - x^2) dx = [\\frac{2}{3}x^{3/2} - \\frac{x^3}{3}]_{0}^{1} = (\\frac{2}{3} - \\frac{1}{3}) = \\frac{1}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region in first quadrant bounded by the circle $x^2 + y^2 = 4$ and the x axis and the line $x = y\\sqrt{3}$.",
+    "answer": "The line $x = y\\sqrt{3}$ can be written as $y = x/\\sqrt{3}$, which has an angle of $30^\\circ$ with the X-axis. The circle has a radius of 2. The area is a sector of the circle with angle $30^\\circ$ in the first quadrant, so the area is $\\frac{1}{2}r^2\\theta = \\frac{1}{2}(2)^2(\\frac{\\pi}{6}) = \\frac{4}{2}\\frac{\\pi}{6} = \\frac{\\pi}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the parabola $y^2 = x$ and the line $y = x$ in the first quadrant.",
+    "answer": "The curves intersect when $y^2 = y \\implies y(y-1)=0$. So, $y=0$ and $y=1$. The area is $\\int_{0}^{1} (y - y^2) dy = [\\frac{y^2}{2} - \\frac{y^3}{3}]_{0}^{1} = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area enclosed between the circle $x^2 + y^2 = 1$ and the line $x + y = 1$, lying in the first quadrant.",
+    "answer": "The line intersects the axes at (1,0) and (0,1). The area of the quarter circle is $\\frac{1}{4}\\pi(1)^2 = \\frac{\\pi}{4}$. The area of the triangle formed by the line and the axes is $\\frac{1}{2} \\times 1 \\times 1 = \\frac{1}{2}$. The area between the circle and the line is the area of the quarter circle minus the area of the triangle, so Area = $\\frac{\\pi}{4} - \\frac{1}{2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the curve $(y-1)^2 = 4(x-1)$ and the line $y = (x-1)$.",
+    "answer": "This parabola has its vertex at (1,1). Let's shift the axes by setting $X=x-1$ and $Y=y-1$. The equations become $Y^2 = 4X$ and $Y=X$. The intersection points are at $Y=0$ and $Y=4$. The area between these curves is $\\int_{0}^{4} (Y - \\frac{Y^2}{4}) dY = [\\frac{Y^2}{2} - \\frac{Y^3}{12}]_{0}^{4} = \\frac{16}{2} - \\frac{64}{12} = 8 - \\frac{16}{3} = \\frac{24-16}{3} = \\frac{8}{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the straight line $2y = 5x + 7$, X-axis and $x = 2$, $x = 5$.",
+    "answer": "The area is given by the integral $\\int_{2}^{5} (\\frac{5x+7}{2}) dx = \\frac{1}{2}[\\frac{5x^2}{2} + 7x]_{2}^{5} = \\frac{1}{2}[(\\frac{5(25)}{2} + 7(5)) - (\\frac{5(4)}{2} + 7(2))] = \\frac{1}{2}[(\\frac{125}{2} + 35) - (10 + 14)] = \\frac{1}{2}[\\frac{125+70}{2} - 24] = \\frac{1}{2}[\\frac{195}{2} - 24] = \\frac{1}{2}[\\frac{195-48}{2}] = \\frac{147}{4}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the area of the region bounded by the curve $y^2 = 4x$, Y-axis and the lines $y=1$, $y=4$.",
+    "answer": "The area is given by the integral with respect to y, $\\int_{1}^{4} x dy$. Since $y^2 = 4x$, we have $x = y^2/4$. So, the area is $\\int_{1}^{4} \\frac{y^2}{4} dy = [\\frac{y^3}{12}]_{1}^{4} = \\frac{4^3}{12} - \\frac{1^3}{12} = \\frac{64-1}{12} = \\frac{63}{12} = \\frac{21}{4}$.",
+    "marks": 4
+  }
+]

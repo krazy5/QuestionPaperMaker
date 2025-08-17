@@ -1,0 +1,67 @@
+[
+    {
+      "type": "mcq",
+      "text": "The outermost protective layer in the plant body is called:",
+      "options": ["Cortex", "Epidermis", "Endodermis", "Pericycle"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which tissue is responsible for the transport of water in plants?",
+      "options": ["Phloem", "Xylem", "Parenchyma", "Collenchyma"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Guard cells are associated with:",
+      "options": ["Lenticels", "Stomata", "Cuticle", "Root hairs"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which of the following is a meristematic tissue?",
+      "options": ["Xylem", "Cork cambium", "Sclerenchyma", "Phloem"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "The Casparian strip is found in the:",
+      "options": ["Cortex", "Pericycle", "Epidermis", "Endodermis"],
+      "correct_answer": "D",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "State one difference between monocot and dicot roots.",
+      "answer": "Monocot roots: Polyarch xylem; Dicot roots: Tetrarch xylem.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "What is the function of phloem?",
+      "answer": "Transports food (mainly sucrose) from leaves to other parts of the plant.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Name the components of xylem.",
+      "answer": "Tracheids, Vessels, Xylem parenchyma, Xylem fibers.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Describe the structure of dicot stem in detail.",
+      "answer": "1. <strong>Epidermis:</strong> Single-layered, protective.<br>2. <strong>Cortex:</strong> Collenchyma (support) and Parenchyma.<br>3. <strong>Endodermis:</strong> With Casparian strips.<br>4. <strong>Pericycle:</strong> Gives rise to lateral roots.<br>5. <strong>Vascular bundles:</strong> Collateral, open, arranged in a ring.<br>6. <strong>Pith:</strong> Central parenchymatous tissue.",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Explain the differences between primary growth and secondary growth in plants.",
+      "answer": "Primary growth: Increase in length, occurs due to apical meristems, seen in all plants.<br>Secondary growth: Increase in girth, occurs due to lateral meristems (vascular cambium, cork cambium), common in dicots and gymnosperms.",
+      "marks": 3
+    }
+]

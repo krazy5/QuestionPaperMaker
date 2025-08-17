@@ -1,0 +1,29 @@
+[
+  {
+    "type": "mcq",
+    "text": "The functional unit of the kidney is the...",
+    "options": ["Neuron", "Nephron", "Medulla", "Cortex"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of urine formation involves...",
+    "options": ["Ultrafiltration", "Selective reabsorption", "Tubular secretion", "All of the above"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is osmoregulation?",
+    "answer": "<strong>Osmoregulation:</strong><br>Osmoregulation is the process by which an organism maintains the constant osmotic concentration of its body fluids by regulating the water and salt balance.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the structure of a nephron with a neat, labelled diagram.",
+    "image": "nephron-structure-diagram.png",
+    "answer": "<strong>Structure of a Nephron:</strong><br>A nephron is the structural and functional unit of the kidney. It consists of two main parts:<br>1. <strong>Malpighian Body (Renal Corpuscle):</strong> This includes:<br>   - <strong>Glomerulus:</strong> A network of blood capillaries.<br>   - <strong>Bowman's Capsule:</strong> A cup-shaped structure that encloses the glomerulus.<br>2. <strong>Renal Tubule:</strong> A long, coiled tubule which is differentiated into three parts:<br>   - <strong>Proximal Convoluted Tubule (PCT)</strong><br>   - <strong>Loop of Henle</strong> (with a descending and an ascending limb)<br>   - <strong>Distal Convoluted Tubule (DCT)</strong><br>The DCT opens into a collecting duct.",
+    "marks": 5
+  }
+]

@@ -16,8 +16,16 @@ class PaperBlueprint extends Model
         'name',
         'board_id',
         'class_id',
+        'subject_id',
+        'total_marks', 
+        'institute_id',      // ✅ Add this line
+        'selected_chapters',
     ];
 
+    protected $casts = [
+        'total_marks' => 'integer', // ✅ Add this line
+        'selected_chapters' => 'array', 
+    ];
     /**
      * Get the sections for this blueprint.
      */
@@ -29,16 +37,24 @@ class PaperBlueprint extends Model
     /**
      * Get the board that this blueprint belongs to.
      */
-    public function board(): BelongsTo
+    public function subject()
     {
-        return $this->belongsTo(Board::class);
+        return $this->belongsTo(Subject::class);
     }
 
     /**
      * Get the class that this blueprint belongs to.
      */
-    public function academicClass(): BelongsTo
+    public function academicClass()
     {
         return $this->belongsTo(AcademicClassModel::class, 'class_id');
+    }
+
+    /**
+     * Get the board that this blueprint belongs to.
+     */
+    public function board()
+    {
+        return $this->belongsTo(Board::class);
     }
 }

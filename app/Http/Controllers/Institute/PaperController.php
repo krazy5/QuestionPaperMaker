@@ -50,7 +50,10 @@ class PaperController extends Controller
         ]);
         $validated['institute_id'] = auth()->id();
         $paper = Paper::create($validated);
-        $blueprint = PaperBlueprint::where('board_id', $paper->board_id)->where('class_id', $paper->class_id)->first();
+        $blueprint = PaperBlueprint::where('board_id', $paper->board_id)
+                                    ->where('class_id', $paper->class_id)
+                                    ->where('subject_id', $paper->subject_id)
+                                    ->first();
         if ($blueprint) {
             return redirect()->route('institute.papers.fulfill_blueprint', $paper);
         }
@@ -131,6 +134,7 @@ class PaperController extends Controller
         $blueprint = PaperBlueprint::with('sections.rules')
                                     ->where('board_id', $paper->board_id)
                                     ->where('class_id', $paper->class_id)
+                                    ->where('subject_id', $paper->subject_id)
                                     ->firstOrFail();
         
         // Fetch chapters for the filter
@@ -144,8 +148,12 @@ class PaperController extends Controller
     {
         if ($paper->institute_id !== auth()->id()) abort(403);
 
-        $blueprint = PaperBlueprint::with('sections.rules')->where('board_id', $paper->board_id)->where('class_id', $paper->class_id)->firstOrFail();
-        
+        $blueprint = PaperBlueprint::with('sections.rules')
+                           ->where('board_id', $paper->board_id)
+                           ->where('class_id', $paper->class_id)
+                           ->where('subject_id', $paper->subject_id) // ✅ ADD THIS LINE
+                           ->firstOrFail();
+
         $allQuestionsToAttach = [];
 
         foreach ($blueprint->sections as $section) {
@@ -179,8 +187,11 @@ class PaperController extends Controller
 
         $stats = [];
         $paper->load('questions'); // Eager load questions with pivot data
-        $blueprint = PaperBlueprint::with('sections.rules')->where('board_id', $paper->board_id)->where('class_id', $paper->class_id)->firstOrFail();
-
+        $blueprint = PaperBlueprint::with('sections.rules')
+                           ->where('board_id', $paper->board_id)
+                           ->where('class_id', $paper->class_id)
+                           ->where('subject_id', $paper->subject_id) // ✅ ADD THIS LINE
+                           ->firstOrFail();
         foreach ($blueprint->sections as $section) {
             foreach ($section->rules as $rule) {
                 // Filter the loaded questions to count how many match this rule's criteria
@@ -220,19 +231,46 @@ class PaperController extends Controller
         ]);
     }
     
-    public function attachQuestion(Request $request, Paper $paper, Question $question)
-    {
-        if ($paper->institute_id !== auth()->id()) abort(403);
-        $paper->questions()->syncWithoutDetaching([$question->id => ['marks' => $question->marks]]);
-        return response()->json(['status' => 'success']);
-    }
+    // In PaperController.php
 
-    public function detachQuestion(Request $request, Paper $paper, Question $question)
-    {
-        if ($paper->institute_id !== auth()->id()) abort(403);
-        $paper->questions()->detach($question->id);
-        return response()->json(['status' => 'success']);
-    }
+        public function attachQuestion(Request $request, Paper $paper)
+        {
+            if ($paper->institute_id !== auth()->id()) {
+                return response()->json(['error' => 'Unauthorized'], 403);
+            }
+
+            $validated = $request->validate([
+                'question_id' => 'required|exists:questions,id',
+                'rule_id'     => 'required|exists:section_rules,id'
+            ]);
+
+            $question = Question::find($validated['question_id']);
+
+            // Attach the question with its marks AND the rule ID in the pivot table
+            $paper->questions()->syncWithoutDetaching([
+                $validated['question_id'] => [
+                    'marks' => $question->marks,
+                    'section_rule_id' => $validated['rule_id']
+                ]
+            ]);
+
+            return response()->json(['status' => 'success']);
+        }
+
+        public function detachQuestion(Request $request, Paper $paper)
+        {
+            if ($paper->institute_id !== auth()->id()) {
+                return response()->json(['error' => 'Unauthorized'], 403);
+            }
+
+            $validated = $request->validate([
+                'question_id' => 'required|exists:questions,id'
+            ]);
+
+            $paper->questions()->detach($validated['question_id']);
+
+            return response()->json(['status' => 'success']);
+        }
 
         // --- THIS IS THE UPDATED EDIT METHOD ---
         public function edit(Paper $paper)
@@ -296,4 +334,61 @@ class PaperController extends Controller
 
         return view('institute.papers.preview_answers', compact('paper', 'blueprint'));
     }
+
+
+    public function createFromBlueprint(Request $request, PaperBlueprint $blueprint)
+    {
+        // 1. Security Check: Ensure the institute owns the blueprint
+        if ($blueprint->institute_id !== auth()->id()) {
+            abort(403);
+        }
+
+         $request->validate([
+                'exam_date' => 'required|date',
+            ]);
+        // 2. Create a new Paper instance with details from the blueprint
+            $newPaper = Paper::create([
+            'title' => $blueprint->name, // Title can be simpler now
+            'institute_id' => auth()->id(),
+            'board_id' => $blueprint->board_id,
+            'class_id' => $blueprint->class_id,
+            'subject_id' => $blueprint->subject_id,
+            'total_marks' => $blueprint->total_marks,
+            'time_allowed' => '3 Hours',
+            'exam_date' => $request->input('exam_date'), // ✅ Use the date from the form
+        ]);
+
+        // 3. Auto-fill the paper with questions based on the blueprint rules
+        $allQuestionsToAttach = [];
+        foreach ($blueprint->sections as $section) {
+            foreach ($section->rules as $rule) {
+                $query = Question::where('board_id', $newPaper->board_id)
+                                    ->where('class_id', $newPaper->class_id)
+                                    ->where('subject_id', $newPaper->subject_id)
+                                    ->where('question_type', $rule->question_type)
+                                    ->where('marks', $rule->marks_per_question)
+                                    ->where(fn($q) => $q->where('approved', true)->orWhere('institute_id', auth()->id()));
+
+                // Apply chapter filter if the blueprint has one
+                if (!empty($blueprint->selected_chapters)) {
+                    $query->whereIn('chapter_id', $blueprint->selected_chapters);
+                }
+
+                $questions = $query->inRandomOrder()
+                                ->limit($rule->number_of_questions_to_select)
+                                ->get();
+
+                foreach ($questions as $question) {
+                    $allQuestionsToAttach[$question->id] = ['marks' => $question->marks];
+                }
+            }
+        }
+        $newPaper->questions()->sync($allQuestionsToAttach);
+
+        // 4. Redirect to the preview page of the newly created paper
+        return redirect()->route('institute.papers.preview', $newPaper)
+                        ->with('success', 'Paper created and auto-filled successfully!');
+    }
+
+
 }

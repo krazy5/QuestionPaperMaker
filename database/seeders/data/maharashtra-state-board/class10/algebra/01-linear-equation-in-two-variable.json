@@ -1,0 +1,109 @@
+[
+  {
+    "type": "mcq",
+    "text": "To draw a graph of $4x + 5y = 19$, find y when x = 1.",
+    "options": ["4", "3", "2", "-3"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For simultaneous equations in variables x and y, if $D_x = 49$, $D_y = -63$, and $D = 7$, then what is x?",
+    "options": ["7", "-7", "1/7", "-1/7"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Find the value of the determinant: $\\begin{vmatrix} 5 & 3 \\\\ -7 & -4 \\end{vmatrix}$",
+    "options": ["-1", "-41", "41", "1"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "To solve $x + y = 3$ and $3x - 2y - 4 = 0$ by determinant method, find D.",
+    "options": ["5", "1", "-5", "-1"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $ax + by = c$ and $mx + ny = d$ and $an \\neq bm$, then these simultaneous equations have...",
+    "options": ["Only one common solution.", "No solution.", "Infinite number of solutions.", "Only two solutions."],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the following table to draw the graph of $2x - 6y = 3$.",
+    "answer": "<strong>Solution:</strong><br><strong>(1) When x = -5:</strong><br>$2(-5) - 6y = 3$<br>$-10 - 6y = 3$<br>$-6y = 13 \\implies y = -13/6 \\approx -2.17$<br><br><strong>(2) When y = 0:</strong><br>$2x - 6(0) = 3$<br>$2x = 3 \\implies x = 3/2 = 1.5$<br><br><strong>Completed Table:</strong><br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><td style='padding: 5px;'>x</td><td style='padding: 5px;'>-5</td><td style='padding: 5px;'><b>1.5</b></td></tr><tr><td style='padding: 5px;'>y</td><td style='padding: 5px;'><b>-2.17</b></td><td style='padding: 5px;'>0</td></tr><tr><td style='padding: 5px;'>(x, y)</td><td style='padding: 5px;'>(-5, -2.17)</td><td style='padding: 5px;'>(1.5, 0)</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $2x + 3y = 12$; $x - y = 1$.",
+    "answer": "Step 1: For $2x+3y=12$, find points. If x=0, y=4. If y=0, x=6. Points are (0,4) and (6,0).<br>Step 2: For $x-y=1$, find points. If x=0, y=-1. If y=0, x=1. Points are (0,-1) and (1,0).<br>Step 3: Plot these points on a graph and draw the lines.<br>Step 4: The two lines intersect at the point (3, 2).<br>Solution: $x=3, y=2$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Find the value of the determinant: $\\begin{vmatrix} 4 & 3 \\\\ 7 & 2 \\end{vmatrix}$",
+    "answer": "Value = $(4)(2) - (3)(7) = 8 - 21 = -13$.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the value of the determinant: $\\begin{vmatrix} 5 & -2 \\\\ -3 & 1 \\end{vmatrix}$",
+    "answer": "Value = $(5)(1) - (-2)(-3) = 5 - 6 = -1$.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Solve the following equations by Cramer's method: $6x - 3y = -10$; $3x + 5y - 8 = 0$.",
+    "answer": "Step 1: Write equations in standard form: $6x-3y=-10$, $3x+5y=8$.<br>Step 2: Calculate D: $D = \\begin{vmatrix} 6 & -3 \\\\ 3 & 5 \\end{vmatrix} = 30 - (-9) = 39$.<br>Step 3: Calculate Dx: $D_x = \\begin{vmatrix} -10 & -3 \\\\ 8 & 5 \\end{vmatrix} = -50 - (-24) = -26$.<br>Step 4: Calculate Dy: $D_y = \\begin{vmatrix} 6 & -10 \\\\ 3 & 8 \\end{vmatrix} = 48 - (-30) = 78$.<br>Step 5: Find x and y: $x = D_x/D = -26/39 = -2/3$. $y = D_y/D = 78/39 = 2$.<br>Solution: $x = -2/3, y = 2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations: $\\frac{2}{x} + \\frac{2}{3y} = \\frac{1}{6}$; $\\frac{3}{x} + \\frac{2}{y} = 0$.",
+    "answer": "Step 1: Let $m = 1/x$ and $n = 1/y$. The equations become $2m + \\frac{2}{3}n = \\frac{1}{6}$ and $3m+2n=0$.<br>Step 2: Multiply the first equation by 6 to clear fractions: $12m+4n=1$.<br>Step 3: From the second equation, $n = -3m/2$.<br>Step 4: Substitute n into the modified first equation: $12m + 4(-3m/2) = 1 \\implies 12m - 6m = 1 \\implies 6m=1 \\implies m=1/6$.<br>Step 5: Find n: $n = -3(1/6)/2 = -1/4$.<br>Step 6: Find x and y: $x = 1/m = 6$. $y = 1/n = -4$.<br>Solution: $x=6, y=-4$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A two digit number and the number with digits interchanged add up to 143. In the given number the digit in unit's place is 3 more than the digit in the ten's place. Find the original number.",
+    "answer": "Step 1: Let the digit in the unit's place be x and in the ten's place be y. The original number is $10y+x$.<br>Step 2: The number with digits interchanged is $10x+y$.<br>Step 3: From the first condition: $(10y+x) + (10x+y) = 143 \\implies 11x+11y=143 \\implies x+y=13$ (Eq. I).<br>Step 4: From the second condition: $x = y+3 \\implies x-y=3$ (Eq. II).<br>Step 5: Add Eq. I and Eq. II: $2x = 16 \\implies x=8$.<br>Step 6: Substitute x in Eq. I: $8+y=13 \\implies y=5$.<br>Step 7: The original number is $10y+x = 10(5)+8 = 58$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Kantabai bought $1\\frac{1}{2}$ kg tea and 5 kg sugar from a shop. She paid Rs 50 as return fare for rickshaw. Total expense was Rs 700. Then she realised that by ordering online the goods can be bought with free home delivery at the same price. So next month she placed the order online for 2 kg tea and 7 kg sugar. She paid Rs 880 for that. Find the rate of sugar and tea per kg.",
+    "answer": "Step 1: Let the rate of tea be Rs x per kg and sugar be Rs y per kg.<br>Step 2: From the first condition, the cost of goods is $700 - 50 = 650$. The equation is $1.5x + 5y = 650$.<br>Step 3: From the second condition, the equation is $2x + 7y = 880$.<br>Step 4: We have two simultaneous equations. Multiply the first by 2: $3x+10y=1300$. Multiply the second by 1.5: $3x+10.5y=1320$.<br>Step 5: Subtract the new first equation from the new second: $0.5y = 20 \\implies y=40$.<br>Step 6: Substitute y in $2x+7y=880$: $2x + 7(40) = 880 \\implies 2x+280=880 \\implies 2x=600 \\implies x=300$.<br>Step 7: The rate of tea is Rs. 300 per kg and the rate of sugar is Rs. 40 per kg.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "To find the number of notes that Anushka had, complete the following activity. Suppose that Anushka had x notes of Rs 10 and y notes of Rs 50 each. Anushka got Rs 2500/- from Anand. If Anand would have given her the amount by interchanging number of notes, Anushka would have received Rs 500 less than the previous amount.",
+    "answer": "<strong>Activity Completion:</strong><br>Step 1: Form the first equation from the initial amount.<br>Anushka got Rs 2500/- from Anand as denominations mentioned above.<br>Equation I: $10x + 50y = 2500$.<br><br>Step 2: Form the second equation from the interchanged amount.<br>If Anand would have given her the amount by interchanging the number of notes, Anushka would have received Rs 500 less than the previous amount.<br>New amount = $2500 - 500 = 2000$.<br>Equation II: $50x + 10y = 2000$.<br><br>Step 3: Solve the equations.<br>Divide Eq. I by 10: $x+5y=250$.<br>Divide Eq. II by 10: $5x+y=200$.<br>From the first new equation, $x=250-5y$. Substitute this into the second: $5(250-5y)+y=200 \\implies 1250-25y+y=200 \\implies 1050=24y \\implies y=43.75$. Since the number of notes must be an integer, there might be a typo in the problem statement. Assuming the logic is what's being tested, we proceed.<br>Let's assume the problem meant Rs 100 notes instead of Rs 10. Then $100x+50y=2500 \\implies 2x+y=50$. And $50x+100y=2000 \\implies x+2y=40$. Solving these gives $x=20, y=10$.<br>The No. of notes: 20 notes of Rs 100 and 10 notes of Rs 50.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Sum of the present ages of Manish and Savita is 31. Manish's age 3 years ago was 4 times the age of Savita. Find their present ages.",
+    "answer": "Step 1: Let the present age of Manish be x and Savita be y.<br>Step 2: From the first condition: $x+y=31$ (Eq. I).<br>Step 3: 3 years ago, Manish's age was $(x-3)$ and Savita's age was $(y-3)$.<br>Step 4: From the second condition: $(x-3) = 4(y-3) \\implies x-3 = 4y-12 \\implies x-4y = -9$ (Eq. II).<br>Step 5: Subtract Eq. II from Eq. I: $(x+y) - (x-4y) = 31 - (-9) \\implies 5y=40 \\implies y=8$.<br>Step 6: Substitute y in Eq. I: $x+8=31 \\implies x=23$.<br>Step 7: Manish's present age is 23 years and Savita's is 8 years.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In a factory the ratio of salary of skilled and unskilled workers is 5:3. Total salary of one day of both of them is Rs 720. Find daily wages of skilled and unskilled workers.",
+    "answer": "Step 1: Let the daily wage of a skilled worker be Rs x and an unskilled worker be Rs y.<br>Step 2: From the ratio: $x/y = 5/3 \\implies 3x=5y \\implies 3x-5y=0$ (Eq. I).<br>Step 3: From the total salary: $x+y=720$ (Eq. II).<br>Step 4: Multiply Eq. II by 5: $5x+5y=3600$.<br>Step 5: Add this to Eq. I: $(3x-5y) + (5x+5y) = 0+3600 \\implies 8x=3600 \\implies x=450$.<br>Step 6: Substitute x in Eq. II: $450+y=720 \\implies y=270$.<br>Step 7: The daily wage of a skilled worker is Rs. 450 and an unskilled worker is Rs. 270.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Places A and B are 30 km apart and they are on a straight road. Hamid travels from A to B on bike. At the same time Joseph starts from B on bike, travels towards A. They meet each other after 20 minutes. If Joseph would have started from B at the same time but in the opposite direction (instead of towards A), Hamid would have caught him after 3 hours. Find the speed of Hamid and Joseph.",
+    "answer": "Step 1: Let the speed of Hamid be x km/hr and Joseph be y km/hr.<br>Step 2: Case 1 (Travelling towards each other): Relative speed = $(x+y)$. Time = 20 min = 1/3 hr. Distance = 30 km. Equation: $(x+y) \\times (1/3) = 30 \\implies x+y=90$ (Eq. I).<br>Step 3: Case 2 (Travelling in the same direction): Relative speed = $(x-y)$ (assuming x>y). Time = 3 hr. Distance = 30 km. Equation: $(x-y) \\times 3 = 30 \\implies x-y=10$ (Eq. II).<br>Step 4: Add Eq. I and Eq. II: $2x=100 \\implies x=50$.<br>Step 5: Substitute x in Eq. I: $50+y=90 \\implies y=40$.<br>Step 6: The speed of Hamid is 50 km/hr and Joseph is 40 km/hr.",
+    "marks": 4
+  }
+]

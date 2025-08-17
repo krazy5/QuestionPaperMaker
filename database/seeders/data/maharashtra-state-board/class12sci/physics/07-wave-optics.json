@@ -74,5 +74,160 @@
     "text": "Describe the Fraunhofer diffraction pattern due to a single slit. (Board 2018)",
     "answer": "The Fraunhofer diffraction pattern due to a single slit consists of a central bright maximum, which is twice as wide as the other secondary maxima. On either side of the central maximum, there are alternating dark and bright bands (secondary minima and maxima) of decreasing intensity. The condition for minima is $a \\sin\\theta = n\\lambda$, and for maxima is $a \\sin\\theta = (2n+1)\\lambda/2$.",
     "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In SI units, the differential equation of an S.H.M. is $\\frac{d^2x}{dt^2} = -36x$. Find its frequency and period.",
+    "answer": "f = 0.9548 Hz, T = 1.047 s",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A needle of a sewing machine moves along a path of amplitude 4 cm with frequency 5 Hz. Find its acceleration $\\frac{1}{30}$ s after it has crossed the mean position.",
+    "answer": "34.2 m/s²",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Potential energy of a particle performing linear S.H.M is $0.1\\pi^2x^2$ joule. If mass of the particle is 20 g, find the frequency of S.H.M.",
+    "answer": "1.581 Hz",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The total energy of a body of mass 2 kg performing S.H.M. is 40 J. Find its speed while crossing the centre of the path.",
+    "answer": "6.324 m/s",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A simple pendulum performs S.H.M of period 4 seconds. How much time after crossing the mean position, will the displacement of the bob be one third of its amplitude.",
+    "answer": "0.2163 s",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A simple pendulum of length 100 cm performs S.H.M. Find the restoring force acting on its bob of mass 50 g when the displacement from the mean position is 3 cm.",
+    "answer": "$1.48 \\times 10^{-2} \\text{ N}$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the change in length of a second's pendulum, if the acceleration due to gravity at the place changes from 9.75 m/s² to 9.80 m/s².",
+    "answer": "Decreases by 5.07 mm",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "At what distance from the mean position is the kinetic energy of a particle performing S.H.M. of amplitude 8 cm, three times its potential energy?",
+    "answer": "4 cm",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A particle performing linear S.H.M. of period $2\\pi$ seconds about the mean position O is observed to have a speed of $b\\sqrt{3}$ m/s, when at a distance $b$ (metre) from O. If the particle is moving away from O at that instant, find the time required by the particle, to travel a further distance $b$.",
+    "answer": "$\\pi/3$ s",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The period of oscillation of a body of mass $m_1$ suspended from a light spring is $T$. When a body of mass $m_2$ is tied to the first body and the system is made to oscillate, the period is $2T$. Compare the masses $m_1$ and $m_2$.",
+    "answer": "$m_1/m_2 = 1/3$",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The displacement of an oscillating particle is given by $x = a\\sin\\omega t + b\\cos\\omega t$ where a, b and $\\omega$ are constants. Prove that the particle performs a linear S.H.M. with amplitude $A = \\sqrt{a^2 + b^2}$.",
+    "answer": "To prove the motion is S.H.M., we show acceleration is proportional to displacement: $v = \\frac{dx}{dt} = a\\omega\\cos\\omega t - b\\omega\\sin\\omega t$. $a_{accel} = \\frac{d^2x}{dt^2} = -a\\omega^2\\sin\\omega t - b\\omega^2\\cos\\omega t = -\\omega^2(a\\sin\\omega t + b\\cos\\omega t) = -\\omega^2x$. Since acceleration is proportional to $-x$, the motion is S.H.M. The amplitude is given by $A = \\sqrt{a^2 + b^2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Two parallel S.H.M.s represented by $x_1 = 5\\sin(4\\pi t + \\pi/3)$ cm and $x_2 = 3\\sin(4\\pi t + \\pi/4)$ cm are superposed on a particle. Determine the amplitude and epoch of the resultant S.H.M.",
+    "answer": "Amplitude = 7.936 cm, Epoch (initial phase) = 54° 23'",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A 20 cm wide thin circular disc of mass 200 g is suspended to a rigid support from a thin metallic string. By holding the rim of the disc, the string is twisted through 60° and released. It now performs angular oscillations of period 1 second. Calculate the maximum restoring torque generated in the string under undamped conditions. ($\\pi^2 \\approx 31$)",
+    "answer": "0.04133 N m",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the number of oscillations performed per minute by a magnet is vibrating in the plane of a uniform field of $1.6 \\times 10^{-5}$ Wb/m². The magnet has moment of inertia $3 \\times 10^{-6}$ kg m² and magnetic moment 3 Am².",
+    "answer": "38.19 osc/min",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A wooden block of mass m is kept on a piston that can perform vertical vibrations. We don't want the block to leave contact with the piston. How much maximum frequency is possible if the amplitude of vibrations is restricted to 25 cm? In this case, how much is the energy per unit mass of the block? ($g \\approx \\pi^2 \\approx 10$ m/s²)",
+    "answer": "$n_{max} = 1$ Hz, E/m = 1.25 J/kg",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following phenomenon proves that light is a transverse wave?",
+    "options": ["reflection", "interference", "polarization", "diffraction"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which property of light does not change when it travels from one medium to another?",
+    "options": ["velocity", "wavelength", "amplitude", "frequency"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When unpolarized light is passed through a polarizer, its intensity",
+    "options": ["increases", "decreases", "remains unchanged", "depends on the orientation of the polarizer"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In Young's double slit experiment, the two coherent sources have different intensities. If the ratio of maximum intensity to the minimum intensity in the interference pattern produced is 25:1. What was the ratio of intensities of the two sources?",
+    "options": ["5:1", "25:1", "3:2", "9:4"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In Young's double slit experiment, a thin uniform sheet of glass is kept in front of the two slits, parallel to the screen having the slits. The resulting interference pattern will satisfy",
+    "options": ["The interference pattern will remain unchanged", "The fringe width will decrease", "The fringe width will increase", "The fringes will shift."],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are primary and secondary sources of light?",
+    "answer": "Primary sources of light are objects that generate their own light, like the Sun, stars, and light bulbs. Secondary sources are objects that do not produce their own light but become visible by reflecting light from primary sources, like the Moon, planets, and most everyday objects.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a wavefront? How is it related to rays of light? What is the shape of the wavefront at a point far away from the source of light?",
+    "answer": "A wavefront is the locus of all points in a medium that are in the same phase of vibration. Rays of light are lines drawn perpendicular to the wavefront, indicating the direction of wave propagation. At a very large distance from a point source, the wavefront is a plane wavefront.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In Young's double slit experiment what will we observe on the screen when white light is incident on the slits but one slit is covered with a red filter and the other with a violet filter? Give reasons for your answer.",
+    "answer": "No interference pattern will be observed. The screen will show a central region where red and violet light overlap, appearing magenta, with red light on one side and violet on the other. This is because interference requires the superposing waves to be coherent, meaning they must have the same frequency. Red light and violet light have different frequencies, so they are incoherent and cannot produce a sustained interference pattern.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Derive the laws of refraction of light using Huygens' principle.",
+    "answer": "Consider a plane wavefront AB incident on a refracting surface XY separating two media. By the time point B on the wavefront reaches B' on the surface, point A has traveled a distance AA' in the second medium. The time taken is $t = BB'/v_1 = AA'/v_2$. From the geometry of the triangles, $\\sin(i) = BB'/AB'$ and $\\sin(r) = AA'/AB'$. The ratio $\\frac{\\sin(i)}{\\sin(r)} = \\frac{BB'}{AA'} = \\frac{v_1 t}{v_2 t} = \\frac{v_1}{v_2}$. This ratio is the refractive index, $n_{21}$, which is Snell's Law. Since the incident wavefront, refracted wavefront, and the surface are all in the plane of the diagram, the incident ray, refracted ray, and the normal all lie in the same plane. This proves both laws of refraction.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "White light consists of wavelengths from 400 nm to 700 nm. What will be the wavelength range seen when white light is passed through glass of refractive index 1.55?",
+    "answer": "The frequency of light does not change when it enters a new medium, but its wavelength does. The wavelength in the medium is given by $\\lambda_{medium} = \\lambda_{air} / n$. For the minimum wavelength: $\\lambda_{min} = 400 \\text{ nm} / 1.55 \\approx 258.1$ nm. For the maximum wavelength: $\\lambda_{max} = 700 \\text{ nm} / 1.55 \\approx 451.6$ nm. The new wavelength range is 258.1 nm - 451.6 nm.",
+    "marks": 3
   }
 ]

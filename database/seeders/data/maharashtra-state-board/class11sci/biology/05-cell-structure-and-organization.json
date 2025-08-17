@@ -1,0 +1,68 @@
+ [
+    {
+      "type": "mcq",
+      "text": "Which of the following is a modified stem for food storage?",
+      "options": ["Onion bulb", "Carrot root", "Ginger rhizome", "Both A and C"],
+      "correct_answer": "D",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "The arrangement of leaves on the stem is called:",
+      "options": ["Venation", "Phyllotaxy", "Placentation", "Inflorescence"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which type of root modification is found in maize?",
+      "options": ["Prop roots", "Pneumatophores", "Stilt roots", "Haustorial roots"],
+      "correct_answer": "C",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "The main function of the thalamus in a flower is:",
+      "options": ["Photosynthesis", "Support and protection", "Production of gametes", "Storage of food"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In which type of placentation are ovules attached to the central axis without septa?",
+      "options": ["Marginal", "Axile", "Parietal", "Free central"],
+      "correct_answer": "D",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "Define phyllotaxy and name its three types.",
+      "answer": "Arrangement of leaves on the stem or branch. Types: Alternate, Opposite, Whorled.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Give one example each of prop roots and pneumatophores.",
+      "answer": "Prop roots – Banyan tree; Pneumatophores – Mangroves.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "What is venation? Name its types.",
+      "answer": "Arrangement of veins and veinlets in a leaf. Types: Reticulate, Parallel.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Describe the modifications of stem with suitable examples.",
+      "answer": "1. <strong>Storage stems:</strong> e.g., Potato tuber, Ginger rhizome.<br>2. <strong>Climbing stems:</strong> Tendrils in pea.<br>3. <strong>Photosynthetic stems:</strong> Opuntia cladodes.<br>4. <strong>Protective stems:</strong> Thorns in Bougainvillea.<br>5. <strong>Runner/Stolon:</strong> Grass runners.",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Explain the types of placentation with examples.",
+      "answer": "1. <strong>Marginal:</strong> Ovules along the margin (Pea).<br>2. <strong>Axile:</strong> Ovules on central axis with septa (Lemon).<br>3. <strong>Parietal:</strong> Ovules on outer wall (Mustard).<br>4. <strong>Free central:</strong> Ovules on central axis without septa (Dianthus).<br>5. <strong>Basal:</strong> Single ovule at base (Sunflower).",
+      "marks": 3
+    }
+]
+

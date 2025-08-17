@@ -1,0 +1,362 @@
+[
+  {
+    "type": "mcq",
+    "text": "The branch of chemistry which deals with study of separation, identification, and quantitative determination of the composition of different substances is called as .............",
+    "options": [
+      "Physical chemistry",
+      "Inorganic chemistry",
+      "Organic chemistry",
+      "Analytical chemistry"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which one of the following property of matter is Not quantitative in nature?",
+    "options": [
+      "Mass",
+      "Length",
+      "Colour",
+      "Volume"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "SI unit of mass is .............",
+    "options": [
+      "kg",
+      "mol",
+      "pound",
+      "m³"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of significant figures in $1.50 \\times 10^4$ g is .............",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In Avogadro's constant $6.022 \\times 10^{23} mol^{-1}$, the number of significant figures is .............",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "By decomposition of 25 g of $CaCO_3$, the amount of CaO produced will be .............",
+    "options": [
+      "2.8 g",
+      "8.4 g",
+      "14.0 g",
+      "28.0 g"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "How many grams of water will be produced by complete combustion of 12 g of methane gas",
+    "options": [
+      "16",
+      "27",
+      "36",
+      "56"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two elements A (At. mass 75) and B (At. mass 16) combine to give a compound having 75.8 % of A. The formula of the compound is",
+    "options": [
+      "AB",
+      "A₂B",
+      "AB₂",
+      "A₂B₃"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hydrocarbon contains 79.87 % carbon and 20.13 % of hydrogen. What is its empirical formula?",
+    "options": [
+      "$CH$",
+      "$CH_2$",
+      "$CH_3$",
+      "$C_2H_3$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "How many grams of oxygen will be required to react completely with 27 g of Al? (Atomic mass : Al = 27, O = 16)",
+    "options": [
+      "8",
+      "16",
+      "24",
+      "32"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In $CuSO_4.5H_2O$ the percentage of water is ............. (Cu = 63.5, S = 32, O = 16, H = 1)",
+    "options": [
+      "10 %",
+      "36 %",
+      "60 %",
+      "72 %"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When two properties of a system are mathematically related to each other, the relation can be deduced by",
+    "options": [
+      "Working out mean deviation",
+      "Plotting a graph",
+      "Calculating relative error",
+      "all the above three"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define Least count",
+    "answer": "The **least count** of a measuring instrument is the smallest value that can be measured accurately by it. For example, a standard meter stick might have a least count of 1 millimeter (or 0.1 centimeter).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What do you mean by significant figures? State the rules for deciding significant figures.",
+    "answer": "<strong>Significant figures</strong> are the meaningful digits in a measured or calculated quantity, including all digits known with certainty plus one estimated digit. <br><strong>Rules for Significant Figures:</strong><br>1. All non-zero digits are significant. (e.g., 285 cm has 3 sig figs).<br>2. Zeros between two non-zero digits are significant. (e.g., 101 m has 3 sig figs).<br>3. Leading zeros (zeros before non-zero digits) are not significant. (e.g., 0.05 L has 1 sig fig).<br>4. Trailing zeros (zeros at the end) are significant only if the number contains a decimal point. (e.g., 100 has 1 sig fig, while 100. has 3 sig figs).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between accuracy and precision.",
+    "answer": "<strong>Accuracy</strong> refers to how close a measured value is to the true or accepted value. <strong>Precision</strong> refers to how close a series of measurements are to one another. A measurement can be precise without being accurate, and vice versa. An accurate measurement is close to the correct value, while a precise measurement gives consistent results.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the terms percentage composition, empirical formula and molecular formula.",
+    "answer": "<strong>Percentage Composition:</strong> The percentage by mass of each element present in a compound. It helps determine the relative amounts of each element in a given compound.<br><strong>Empirical Formula:</strong> The simplest whole-number ratio of atoms of each element present in a compound. It is determined from the percentage composition.<br><strong>Molecular Formula:</strong> The exact number of atoms of each element in a molecule of a compound. It is a whole-number multiple of the empirical formula. For example, the empirical formula of hydrogen peroxide is HO, while its molecular formula is $H_2O_2$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is a limiting reagent? Explain.",
+    "answer": "A **limiting reagent** (or limiting reactant) is the reactant in a chemical reaction that is completely consumed and determines the maximum amount of product that can be formed. Once the limiting reagent is used up, the reaction stops. The other reactants are in excess.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What do you mean by SI units ? What is the SI unit of mass?",
+    "answer": "<strong>SI units</strong> are the internationally standardized system of units for physical quantities, adopted by the General Conference on Weights and Measures. The **SI unit of mass** is the **kilogram (kg)**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the following terms: (a) Mole fraction, (b) Molarity, (c) Molality.",
+    "answer": "<strong>(a) Mole fraction ($x$):</strong> The ratio of the number of moles of one component to the total number of moles of all components in a solution.<br><strong>(b) Molarity (M):</strong> The number of moles of solute dissolved per litre of solution.<br><strong>(c) Molality (m):</strong> The number of moles of solute dissolved per kilogram of solvent.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define: Stoichiometry",
+    "answer": "<strong>Stoichiometry</strong> is the branch of chemistry that deals with the quantitative relationships between the amounts of reactants and products in a chemical reaction. It is based on the law of conservation of mass and the law of definite proportions.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Why there is a need of rounding off figures during calculation?",
+    "answer": "Rounding off figures is necessary to ensure that the final result of a calculation reflects the appropriate level of precision based on the significant figures of the initial measurements. The final answer should not have more significant figures than the least precise measurement used in the calculation, as this would imply a false level of accuracy.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why does molarity of a solution depend upon temperature?",
+    "answer": "Molarity depends on temperature because it is defined in terms of the volume of the solution. As temperature changes, the volume of the solution expands or contracts, which in turn changes the molarity. Molality, which is defined in terms of the mass of the solvent, does not change with temperature.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Define Analytical chemistry. Why is accurate measurement crucial in science?",
+    "answer": "<strong>Analytical chemistry</strong> is the branch of chemistry concerned with the identification, separation, and quantitative analysis of chemical substances. It involves using instruments and methods to determine the composition of materials.<br><strong>Accurate measurement is crucial in science</strong> because it forms the foundation of reliable scientific data and conclusions. Inaccurate measurements can lead to incorrect interpretations, flawed experiments, and unsafe practices, especially in fields like medicine, engineering, and manufacturing. The precision and accuracy of measurements ensure the reproducibility of experiments and the validity of scientific theories.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "How many significant figures are in each of the following quantities? a. 45.26 ft, b. 0.109 in, c. 0.00025 kg, d. $2.3659 \\times 10^5$ cm, e. 52.0 $cm^3$, f. 0.00020 kg",
+    "answer": "<strong>a. 45.26 ft:</strong> All non-zero digits are significant. There are **4** significant figures.<br><strong>b. 0.109 in:</strong> The leading zero is not significant, but the zero between non-zero digits is. There are **3** significant figures.<br><strong>c. 0.00025 kg:</strong> The leading zeros are not significant. There are **2** significant figures.<br><strong>d. $2.3659 \\times 10^5$ cm:</strong> In scientific notation, all digits before the power of ten are significant. There are **5** significant figures.<br><strong>e. 52.0 $cm^3$:</strong> The trailing zero is significant because there is a decimal point. There are **3** significant figures.<br><strong>f. 0.00020 kg:</strong> The leading zeros are not significant, but the trailing zero is because it comes after a non-zero digit and a decimal point (implicit). There are **2** significant figures.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Round off each of the following quantities to two significant figures: a. 25.55 mL, b. 0.00254 m, c. $1.491 \\times 10^2$ mg, d. 199 g",
+    "answer": "<strong>a. 25.55 mL:</strong> The first two digits are 2 and 5. The next digit is 5, so we round up. Answer: **26 mL**.<br><strong>b. 0.00254 m:</strong> The first two significant digits are 2 and 5. The next digit is 4, so we do not round up. Answer: **0.0025 m**.<br><strong>c. $1.491 \\times 10^2$ mg:</strong> The first two significant digits are 1 and 4. The next digit is 9, so we round up. Answer: **$1.5 \\times 10^2$ mg**.<br><strong>d. 199 g:</strong> The first two digits are 1 and 9. The next digit is 9, so we round up. This changes the 9 to 10, which means the 1 is also rounded up. Answer: **200 g**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Round off each of the following quantities to three significant figures: a. 1.43 $cm^3$, b. $4.58 \\times 10^2$ cm, c. 643 $cm^3$, d. 0.039 m, e. $6.398 \\times 10^4$ km, f. 0.0179 g, g. 79.000 m, h. 42.150, i. 649.85, j. 23.642.000 mm, k. 0.0041962 kg",
+    "answer": "<strong>a. 1.43 $cm^3$:</strong> The number already has 3 significant figures. **1.43 $cm^3$**.<br><strong>b. $4.58 \\times 10^2$ cm:</strong> The number already has 3 significant figures. **$4.58 \\times 10^2$ cm**.<br><strong>c. 643 $cm^3$:</strong> The number already has 3 significant figures. **643 $cm^3$**.<br><strong>d. 0.039 m:</strong> The first three significant digits are 3, 9, and the next (implied) is 0. So we add a zero. **0.0390 m**.<br><strong>e. $6.398 \\times 10^4$ km:</strong> The fourth digit is 8, so we round up the third digit. **$6.40 \\times 10^4$ km**.<br><strong>f. 0.0179 g:</strong> The first three significant digits are 1, 7, and 9. The number is already rounded to 3 sig figs. **0.0179 g**.<br><strong>g. 79.000 m:</strong> The first three significant figures are 7, 9, and 0. The next digit is 0, so we don't round up. **79.0 m**.<br><strong>h. 42.150:</strong> The fourth digit is 5, and the fifth is 0. We round to the nearest even number, so the third digit remains 1. **42.2**.<br><strong>i. 649.85:</strong> The fourth digit is 8, so we round up the third digit. **650.** (or $6.50 \\times 10^2$).<br><strong>j. 23.642.000 mm:</strong> The number is rounded to 3 significant figures, which are 2, 3, and 6. The fourth digit is 4, so we don't round up. **$2.36 \\times 10^7$ mm**.<br><strong>k. 0.0041962 kg:</strong> The fourth digit is 6, so we round up the third digit. **0.00420 kg**.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Express the following sum to appropriate number of significant figures: a. $2.3 \\times 10^3 \\text{ mL} + 4.22 \\times 10^4 \\text{ mL} + 9.04 \\times 10^5 \\text{ mL} + 8.71 \\times 10^5 \\text{ mL}$. b. 319.5 g + 20460 g - 0.0639 g - 45.642 g - 4.173 g",
+    "answer": "<strong>a. Sum of $2.3 \\times 10^3 \\text{ mL} + 4.22 \\times 10^4 \\text{ mL} + 9.04 \\times 10^5 \\text{ mL} + 8.71 \\times 10^5 \\text{ mL}$:</strong><br>To perform addition/subtraction, we must first express all numbers with the same power of ten and align the decimal points. Let's use $10^5$ as the common power.<br>$0.023 \\times 10^5 + 0.422 \\times 10^5 + 9.04 \\times 10^5 + 8.71 \\times 10^5$<br>Sum = $(0.023 + 0.422 + 9.04 + 8.71) \\times 10^5 = 18.195 \\times 10^5$<br>The least precise number is $9.04 \\times 10^5$ and $8.71 \\times 10^5$, both with 2 decimal places. The answer must be rounded to 2 decimal places.<br>Rounded sum = $18.20 \\times 10^5 \\text{ mL}$ or $1.820 \\times 10^6$ mL.<br><strong>b. Sum of 319.5 g + 20460 g - 0.0639 g - 45.642 g - 4.173 g:</strong><br>The least precise number is 20460, which has no decimal places. The result must be rounded to the nearest whole number. The second least precise number is 319.5, with one decimal place.<br>Sum = 319.5 + 20460 - 0.0639 - 45.642 - 4.173 = 20729.6211 g.<br>Rounding to zero decimal places (the least precise place value from the input values):<br>The answer is **20730 g**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Express the following quantities in exponential terms. a. 0.0003498, b. 235.4678, c. 7000.0, d. 1569.00",
+    "answer": "<strong>a. 0.0003498:</strong> Move the decimal point 4 places to the right. **$3.498 \\times 10^{-4}$**.<br><strong>b. 235.4678:</strong> Move the decimal point 2 places to the left. **$2.354678 \\times 10^2$**.<br><strong>c. 7000.0:</strong> Move the decimal point 3 places to the left. **$7.0000 \\times 10^3$**.<br><strong>d. 1569.00:</strong> Move the decimal point 3 places to the left. **$1.56900 \\times 10^3$**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Give the number of significant figures in each of the following: a. $1.230 \\times 10^4$, b. 0.002030, c. $1.23 \\times 10^{-4}$, d. $1.89 \\times 10^4$",
+    "answer": "<strong>a. $1.230 \\times 10^4$:</strong> In scientific notation, all digits before the power of ten are significant, including the trailing zero. There are **4** significant figures.<br><strong>b. 0.002030:</strong> The leading zeros are not significant. The zero between 2 and 3 is significant, and the trailing zero is also significant because of the decimal point. There are **4** significant figures.<br><strong>c. $1.23 \\times 10^{-4}$:</strong> All digits are non-zero and therefore significant. There are **3** significant figures.<br><strong>d. $1.89 \\times 10^4$:</strong> All digits are non-zero and therefore significant. There are **3** significant figures.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Express the quantities in above (B) with or without exponents as the case may be.",
+    "answer": "This question seems to refer to part 'B' of the previous question, which asks for the number of significant figures, not a list of quantities to express. Assuming it refers to the numbers from part 'B' of question 4, here are the quantities in their standard form:<br><strong>a. $1.230 \\times 10^4$:</strong> **12300**<br><strong>b. 0.002030:</strong> **0.002030**<br><strong>c. $1.23 \\times 10^{-4}$:</strong> **0.000123**<br><strong>d. $1.89 \\times 10^4$:</strong> **18900**",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find out the molar masses of the following compounds: a. Copper sulphate crystal ($CuSO_4.5H_2O$), b. Sodium carbonate, decahydrate ($Na_2CO_3.10H_2O$).",
+    "answer": "<strong>a. Molar mass of Copper sulphate crystal ($CuSO_4.5H_2O$):</strong><br>Atomic masses: Cu = 63.5, S = 32, O = 16, H = 1.<br>Molar mass = [Molar mass of $CuSO_4$] + [5 $\\times$ Molar mass of $H_2O$]<br>Molar mass = [63.5 + 32 + (4 $\\times$ 16)] + [5 $\\times$ (2 $\\times$ 1 + 16)]<br>Molar mass = [63.5 + 32 + 64] + [5 $\\times$ 18]<br>Molar mass = 159.5 + 90 = **249.5 g/mol**.<br><strong>b. Molar mass of Sodium carbonate, decahydrate ($Na_2CO_3.10H_2O$):</strong><br>Atomic masses: Na = 23, C = 12, O = 16, H = 1.<br>Molar mass = [Molar mass of $Na_2CO_3$] + [10 $\\times$ Molar mass of $H_2O$]<br>Molar mass = [(2 $\\times$ 23) + 12 + (3 $\\times$ 16)] + [10 $\\times$ (2 $\\times$ 1 + 16)]<br>Molar mass = [46 + 12 + 48] + [10 $\\times$ 18]<br>Molar mass = 106 + 180 = **286 g/mol**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Mohr's salt [FeSO₄(NH₄)₂SO₄.6H₂O]. Calculate the molar mass of the compound. (At. mass : Cu = 63.5; S= 32; O = 16; H= 1; Na = 23; C = 12; Fe = 56; N = 14)",
+    "answer": "Molar mass of Mohr's salt ($FeSO_4(NH_4)_2SO_4.6H_2O$):<br>Atomic masses: Fe=56, S=32, O=16, N=14, H=1.<br>Molar mass = (1 $\\times$ Fe) + (2 $\\times$ S) + (8 $\\times$ O) + (2 $\\times$ N) + (8 $\\times$ H) + (6 $\\times$ H$_2$O)<br>Molar mass = 56 + (2 $\\times$ 32) + (8 $\\times$ 16) + (2 $\\times$ 14) + (8 $\\times$ 1) + 6(2 $\\times$ 1 + 16)<br>Molar mass = 56 + 64 + 128 + 28 + 8 + 6(18)<br>Molar mass = 284 + 108 = **392 g/mol**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Work out the percentage composition of constituents elements in the following compounds: a. Lead phosphate ($Pb_3(PO_4)_2$), b. Potassium dichromate ($K_2Cr_2O_7$), c. Macrocosmic salt — Sodium ammonium hydrogen phosphate, tetrahydrate ($NaNH_4HPO_4.4H_2O$). (At. mass: Pb = 207; P = 31; O = 16; K = 39; Cr = 52; Na = 23; N = 14)",
+    "answer": "<strong>a. Lead phosphate ($Pb_3(PO_4)_2$):</strong><br>Molar mass = $3(207) + 2(31) + 8(16) = 621 + 62 + 128 = 811$ g/mol.<br>%Pb = $(621/811) \\times 100 \\approx 76.57\\%$.<br>%P = $(62/811) \\times 100 \\approx 7.64\\%$.<br>%O = $(128/811) \\times 100 \\approx 15.78\\%$.<br><strong>b. Potassium dichromate ($K_2Cr_2O_7$):</strong><br>Molar mass = $2(39) + 2(52) + 7(16) = 78 + 104 + 112 = 294$ g/mol.<br>%K = $(78/294) \\times 100 \\approx 26.53\\%$.<br>%Cr = $(104/294) \\times 100 \\approx 35.37\\%$.<br>%O = $(112/294) \\times 100 \\approx 38.10\\%$.<br><strong>c. Sodium ammonium hydrogen phosphate, tetrahydrate ($NaNH_4HPO_4.4H_2O$):</strong><br>Molar mass = $23 + 14 + 5(1) + 31 + 4(16) + 4(18) = 23 + 14 + 5 + 31 + 64 + 72 = 209$ g/mol.<br>%Na = $(23/209) \\times 100 \\approx 11.00\\%$.<br>%N = $(14/209) \\times 100 \\approx 6.70\\%$.<br>%H = $(5 + 8)/209 \\times 100 = (13/209) \\times 100 \\approx 6.22\\%$.<br>%P = $(31/209) \\times 100 \\approx 14.83\\%$.<br>%O = $(4+4) \\times 16 / 209 \\times 100 = 8(16)/209 \\times 100 = (128/209) \\times 100 \\approx 61.24\\%$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Find the percentage composition of constituent green vitriol crystals ($FeSO_4.7H_2O$). Also find out the mass of iron and the water of crystallisation in 4.54 kg of the crystals. (At. mass : Fe = 56; S= 32; O = 16)",
+    "answer": "<strong>Step 1:</strong> Calculate the molar mass of $FeSO_4.7H_2O$.<br>Molar Mass = [Fe + S + 4O] + 7[2H + O]<br>Molar Mass = [56 + 32 + 4(16)] + 7[2(1) + 16]<br>Molar Mass = [56 + 32 + 64] + 7(18) = 152 + 126 = 278 g/mol.<br><strong>Step 2:</strong> Calculate the percentage composition of each element.<br>%Fe = $(56/278) \\times 100 \\approx 20.14\\%$.<br>%S = $(32/278) \\times 100 \\approx 11.51\\%$.<br>%O = $(4 \\times 16 + 7 \\times 16)/278 \\times 100 = (176/278) \\times 100 \\approx 63.31\\%$.<br>%H = $(7 \\times 2 \\times 1)/278 \\times 100 = (14/278) \\times 100 \\approx 5.04\\%$.<br>%Water ($7H_2O$) = $(126/278) \\times 100 \\approx 45.32\\%$.<br><strong>Step 3:</strong> Calculate the mass of iron and water in 4.54 kg of the crystals.<br>Mass of iron = $4.54 \\text{ kg} \\times 0.2014 \\approx 0.915$ kg.<br>Mass of water = $4.54 \\text{ kg} \\times 0.4532 \\approx 2.058$ kg.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The red colour of blood is due to a compound called “haemoglobin”. It contains 0.333% of iron. Four atoms of iron are present in one molecule of haemoglobin. What is its molecular weight? (At. mass: Fe 55.84)",
+    "answer": "Let the molecular weight of hemoglobin be M.<br>Given: Hemoglobin contains 0.333% of iron.<br>Mass of iron in one molecule of hemoglobin = $4 \\times 55.84 = 223.36$ u.<br>Percentage of iron = $\\frac{\\text{Mass of iron}}{\\text{Molecular weight}} \\times 100$.<br>$0.333 = \\frac{223.36}{\\text{M}} \\times 100$.<br>$M = \\frac{223.36 \\times 100}{0.333} \\approx 67075$ u.<br>The molecular weight of haemoglobin is approximately 67075 u.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A substance, on analysis, gave the following percent composition: Na = 43.4 %, C = 11.3 % and O = 45.3 %. Calculate the empirical formula. (At. mass Na = 23 u, C = 12 u, O = 16 u).",
+    "answer": "<strong>Step 1:</strong> Convert percentage to grams (assuming 100g sample).<br>Mass of Na = 43.4 g<br>Mass of C = 11.3 g<br>Mass of O = 45.3 g<br><strong>Step 2:</strong> Convert mass to moles.<br>Moles of Na = $\\frac{43.4 \\text{ g}}{23 \\text{ g/mol}} = 1.887$ mol.<br>Moles of C = $\\frac{11.3 \\text{ g}}{12 \\text{ g/mol}} = 0.941$ mol.<br>Moles of O = $\\frac{45.3 \\text{ g}}{16 \\text{ g/mol}} = 2.831$ mol.<br><strong>Step 3:</strong> Find the simplest mole ratio by dividing by the smallest number of moles (0.941).<br>Ratio for Na = $\\frac{1.887}{0.941} \\approx 2$.<br>Ratio for C = $\\frac{0.941}{0.941} = 1$.<br>Ratio for O = $\\frac{2.831}{0.941} \\approx 3$.<br>The empirical formula is **$Na_2CO_3$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Assuming the atomic weight of a metal M to be 56, find the empirical formula of its oxide containing 70.0% of M.",
+    "answer": "Let the mass of the oxide be 100 g.<br>Mass of metal M = 70.0 g.<br>Mass of oxygen (O) = 100 - 70.0 = 30.0 g.<br>Moles of M = $\\frac{70.0 \\text{ g}}{56 \\text{ g/mol}} = 1.25$ mol.<br>Moles of O = $\\frac{30.0 \\text{ g}}{16 \\text{ g/mol}} = 1.875$ mol.<br>Mole ratio: Divide by the smallest number of moles (1.25).<br>Ratio for M = $\\frac{1.25}{1.25} = 1$.<br>Ratio for O = $\\frac{1.875}{1.25} = 1.5$.<br>To get a whole number ratio, multiply by 2: M = 2, O = 3.<br>The empirical formula is **$M_2O_3$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "1.00 g of a hydrated salt contains 0.2014 g of iron, 0.1153 g of sulfur, 0.2301 g of oxygen and 0.4532 g of water of crystallisation. Find the empirical formula. (At. wt. : Fe = 56; S= 32; O = 16)",
+    "answer": "Given masses:<br>Fe = 0.2014 g<br>S = 0.1153 g<br>O = 0.2301 g<br>$H_2O$ = 0.4532 g<br><strong>Step 1:</strong> Calculate moles of each component.<br>Moles of Fe = $\\frac{0.2014 \\text{ g}}{56 \\text{ g/mol}} = 0.003596$ mol.<br>Moles of S = $\\frac{0.1153 \\text{ g}}{32 \\text{ g/mol}} = 0.003597$ mol.<br>Moles of O = $\\frac{0.2301 \\text{ g}}{16 \\text{ g/mol}} = 0.01438$ mol.<br>Moles of $H_2O$ = $\\frac{0.4532 \\text{ g}}{18 \\text{ g/mol}} = 0.02518$ mol.<br><strong>Step 2:</strong> Find the simplest mole ratio by dividing by the smallest number of moles (0.003596).<br>Ratio for Fe = $\\frac{0.003596}{0.003596} = 1$.<br>Ratio for S = $\\frac{0.003597}{0.003596} \\approx 1$.<br>Ratio for O = $\\frac{0.01438}{0.003596} \\approx 4$.<br>Ratio for $H_2O$ = $\\frac{0.02518}{0.003596} \\approx 7$.<br>The empirical formula is **$FeSO_4.7H_2O$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "An organic compound containing carbon, hydrogen and nitrogen contains 20 % carbon, 6.7 % hydrogen and 46.67 % nitrogen. Its molecular mass was found to be 60. Find the molecular formula of the compound. (Ans: $CH_2N_2O$)",
+    "answer": "<strong>Step 1:</strong> Find the mass percentage of oxygen.<br>%O = $100 - (20 + 6.7 + 46.67) = 26.63\\%$.<br><strong>Step 2:</strong> Convert percentages to moles (assuming 100g sample).<br>Moles of C = $\\frac{20}{12} = 1.667$ mol.<br>Moles of H = $\\frac{6.7}{1} = 6.7$ mol.<br>Moles of N = $\\frac{46.67}{14} = 3.333$ mol.<br>Moles of O = $\\frac{26.63}{16} = 1.664$ mol.<br><strong>Step 3:</strong> Find the simplest mole ratio by dividing by the smallest number of moles (approx 1.66).<br>Ratio for C = $\\frac{1.667}{1.66} \\approx 1$.<br>Ratio for H = $\\frac{6.7}{1.66} \\approx 4$.<br>Ratio for N = $\\frac{3.333}{1.66} \\approx 2$.<br>Ratio for O = $\\frac{1.664}{1.66} \\approx 1$.<br>The empirical formula is $CH_4N_2O$.<br><strong>Step 4:</strong> Find the molecular formula.<br>Empirical formula mass = $12 + 4(1) + 2(14) + 16 = 12 + 4 + 28 + 16 = 60$ u.<br>The molecular mass is given as 60. Since the empirical formula mass equals the molecular mass, the molecular formula is the same as the empirical formula. The molecular formula is **$CH_4N_2O$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A compound on analysis gave the following percentage composition: mass : H = 9.09; O = 36.36; C = 54.55. Mol mass of compound is 88. Find its molecular formula. (Ans: $C_4H_8O_2$)",
+    "answer": "<strong>Step 1:</strong> Convert percentages to moles.<br>Moles of C = $\\frac{54.55}{12} = 4.546$ mol.<br>Moles of H = $\\frac{9.09}{1} = 9.09$ mol.<br>Moles of O = $\\frac{36.36}{16} = 2.272$ mol.<br><strong>Step 2:</strong> Find the simplest mole ratio by dividing by the smallest number of moles (2.272).<br>Ratio for C = $\\frac{4.546}{2.272} \\approx 2$.<br>Ratio for H = $\\frac{9.09}{2.272} \\approx 4$.<br>Ratio for O = $\\frac{2.272}{2.272} = 1$.<br>The empirical formula is $C_2H_4O$.<br><strong>Step 3:</strong> Find the molecular formula.<br>Empirical formula mass = $2(12) + 4(1) + 16 = 24 + 4 + 16 = 44$ u.<br>Molecular mass is given as 88 u.<br>Factor = $\\frac{\\text{Molecular mass}}{\\text{Empirical formula mass}} = \\frac{88}{44} = 2$.<br>Molecular formula = (Empirical formula) $\\times$ Factor = $(C_2H_4O)_2 = C_4H_8O_2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Carbohydrates are compounds containing only carbon, hydrogen and oxygen. When heated in the absence of air, these compounds decompose to form carbon and water. If 310 g of a carbohydrate leave a residue of 124 g of carbon on heating in absence of air, what is the empirical formula of the carbohydrate?",
+    "answer": "Given:<br>Mass of carbohydrate = 310 g.<br>Mass of carbon (residue) = 124 g.<br>According to the reaction, the rest of the mass is water. So, Mass of water = 310 g - 124 g = 186 g.<br>We can find the moles of carbon and water.<br>Moles of Carbon = $\\frac{124 \\text{ g}}{12 \\text{ g/mol}} = 10.33$ mol.<br>Moles of Water ($H_2O$) = $\\frac{186 \\text{ g}}{18 \\text{ g/mol}} = 10.33$ mol.<br>Since the mole ratio of C to $H_2O$ is 1:1, the empirical formula can be written as $C(H_2O)$. The empirical formula is **$CH_2O$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write each of the following in exponential notation: a. 3.672.199, b. 0.000098, c. 0.00461, d. 198.75",
+    "answer": "<strong>a. 3.672.199:</strong> $3.672199 \\times 10^3$<br><strong>b. 0.000098:</strong> $9.8 \\times 10^{-5}$<br><strong>c. 0.00461:</strong> $4.61 \\times 10^{-3}$<br><strong>d. 198.75:</strong> $1.9875 \\times 10^2$",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write each of the following numbers in ordinary decimal form: a. $3.49 \\times 10^{-4}$, b. $3.75 \\times 10^4$, c. $5.16 \\times 10^4$, d. $43.71 \\times 10^{-4}$, e. $0.011 \\times 10^2$, f. $14.3 \\times 10^{-2}$, g. $0.00477 \\times 10^2$, h. $5.00858585$",
+    "answer": "<strong>a. $3.49 \\times 10^{-4}$:</strong> 0.000349<br><strong>b. $3.75 \\times 10^4$:</strong> 37500<br><strong>c. $5.16 \\times 10^4$:</strong> 51600<br><strong>d. $43.71 \\times 10^{-4}$:</strong> 0.004371<br><strong>e. $0.011 \\times 10^2$:</strong> 1.1<br><strong>f. $14.3 \\times 10^{-2}$:</strong> 0.143<br><strong>g. $0.00477 \\times 10^2$:</strong> 0.477<br><strong>h. $5.00858585$:</strong> 5.00858585 (already in ordinary form)",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Perform each of the following calculations. Round off your answers to two digits: a. $\\frac{1}{3.40 \\times 10^{24}}$, b. $\\frac{33}{9.00 \\times 10^{-4}}$, c. $\\frac{1.4 \\times 10^9}{(2.77 \\times 10^3) (3.76 \\times 10^5)}$",
+    "answer": "<strong>a. $\\frac{1}{3.40 \\times 10^{24}}$:</strong><br>Calculation: $1 / 3.40 \\times 10^{-24} \\approx 0.2941 \\times 10^{-24} = 2.941 \\times 10^{-25}$.<br>Rounding to two significant figures: **$2.9 \\times 10^{-25}$**.<br><strong>b. $\\frac{33}{9.00 \\times 10^{-4}}$:</strong><br>Calculation: $33 / 9.00 \\times 10^4 \\approx 3.667 \\times 10^4$.<br>Rounding to two significant figures: **$3.7 \\times 10^4$**.<br><strong>c. $\\frac{(2.77 \\times 10^3) (3.76 \\times 10^5)}{1.4 \\times 10^9}$ (Assuming the user's fraction is inverted based on the answer block):</strong><br>Numerator: $2.77 \\times 3.76 \\times 10^{3+5} = 10.4252 \\times 10^8$.<br>Denominator: $1.4 \\times 10^9$.<br>Result: $\\frac{10.4252 \\times 10^8}{1.4 \\times 10^9} = \\frac{10.4252}{1.4} \\times 10^{8-9} \\approx 7.4466 \\times 10^{-1}$.<br>Rounding to two significant figures: **$7.4 \\times 10^{-1}$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Perform each of the following calculations. Round off your answers to three digits: a. (3.26 104) (1.54 106), b. (8.39 107) (4.53 109), c. $\\frac{8.94 \\times 10^6}{4.35 \\times 10^4}$, d. $\\frac{(9.28 \\times 10^2) (9.9 \\times 10^7)}{(511) (2.98 \\times 10^4)}$",
+    "answer": "<strong>a. $(3.26 \\times 10^4)(1.54 \\times 10^6)$:</strong><br>Calculation: $3.26 \\times 1.54 \\times 10^{4+6} = 5.0204 \\times 10^{10}$.<br>Rounding to three significant figures: **$5.02 \\times 10^{10}$**.<br><strong>b. $(8.39 \\times 10^7)(4.53 \\times 10^9)$:</strong><br>Calculation: $8.39 \\times 4.53 \\times 10^{7+9} = 38.0067 \\times 10^{16} = 3.80067 \\times 10^{17}$.<br>Rounding to three significant figures: **$3.80 \\times 10^{17}$**.<br><strong>c. $\\frac{8.94 \\times 10^6}{4.35 \\times 10^4}$:</strong><br>Calculation: $\\frac{8.94}{4.35} \\times 10^{6-4} \\approx 2.055 \\times 10^2$.<br>Rounding to three significant figures: **$2.06 \\times 10^2$**.<br><strong>d. $\\frac{(9.28 \\times 10^2) (9.9 \\times 10^7)}{(511) (2.98 \\times 10^4)}$:</strong><br>Numerator: $9.28 \\times 9.9 \\times 10^{2+7} = 91.872 \\times 10^9$.<br>Denominator: $511 \\times 2.98 \\times 10^4 = 1522.78 \\times 10^4$.<br>Calculation: $\\frac{91.872 \\times 10^9}{1522.78 \\times 10^4} = \\frac{91.872}{1522.78} \\times 10^{9-4} \\approx 0.06033 \\times 10^5 = 6.033 \\times 10^3$.<br>Rounding to three significant figures: **$6.03 \\times 10^3$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Perform the following operations: a. $3.971 \\times 10^4 + 1.98 \\times 10^2$, b. $1.05 \\times 10^4 - 9.7 \\times 10^3$, c. $4.11 \\times 10^3 + 8.1 \\times 10^3$, d. $2.12 \\times 10^5 - 3.5 \\times 10^4$",
+    "answer": "<strong>a. $3.971 \\times 10^4 + 1.98 \\times 10^2$:</strong><br>Express both in the same power of 10: $3.971 \\times 10^4 + 0.0198 \\times 10^4$.<br>Sum = $(3.971 + 0.0198) \\times 10^4 = 3.9908 \\times 10^4$.<br>The least precise number is $3.971 \\times 10^4$ (3 decimal places). Rounded to 3 decimal places: **$3.991 \\times 10^4$**.<br><strong>b. $1.05 \\times 10^4 - 9.7 \\times 10^3$:</strong><br>Express both in the same power of 10: $1.05 \\times 10^4 - 0.97 \\times 10^4$.<br>Difference = $(1.05 - 0.97) \\times 10^4 = 0.08 \\times 10^4 = 8 \\times 10^2$.<br>The least precise number is $1.05 \\times 10^4$ (2 decimal places). Rounded to 2 decimal places: **$0.08 \\times 10^4$** or **$8.0 \\times 10^2$**.<br><strong>c. $4.11 \\times 10^3 + 8.1 \\times 10^3$:</strong><br>Sum = $(4.11 + 8.1) \\times 10^3 = 12.21 \\times 10^3$.<br>The least precise number is $8.1 \\times 10^3$ (1 decimal place). Rounded to 1 decimal place: **$12.2 \\times 10^3$**.<br><strong>d. $2.12 \\times 10^5 - 3.5 \\times 10^4$:</strong><br>Express both in the same power of 10: $2.12 \\times 10^5 - 0.35 \\times 10^5$.<br>Difference = $(2.12 - 0.35) \\times 10^5 = 1.77 \\times 10^5$.<br>The least precise number is $2.12 \\times 10^5$ (2 decimal places). Rounded to 2 decimal places: **$1.77 \\times 10^5$**.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A 1.000 mL sample of acetone, a common solvent used as a paint remover, was placed in a small bottle whose mass was known to be 38.0015 g. The following values were obtained when the acetone-filled bottle was weighed: 38.7798 g, 38.7795 g and 38.7801 g. How would you characterise the precision and accuracy of these measurements if the actual mass of the acetone was 0.7791 g?",
+    "answer": "<strong>Accuracy and Precision Analysis:</strong><br><strong>1. Calculate the mass of acetone from each measurement:</strong><br>Measurement 1: $38.7798 \\text{ g} - 38.0015 \\text{ g} = 0.7783$ g.<br>Measurement 2: $38.7795 \\text{ g} - 38.0015 \\text{ g} = 0.7780$ g.<br>Measurement 3: $38.7801 \\text{ g} - 38.0015 \\text{ g} = 0.7786$ g.<br><strong>2. Characterize Precision:</strong><br>The measured values (0.7783 g, 0.7780 g, 0.7786 g) are very close to each other. The difference between the highest and lowest value is only $0.0006$ g. Therefore, the measurements are highly **precise**.<br><strong>3. Characterize Accuracy:</strong><br>The actual mass of acetone is given as 0.7791 g. Let's find the average of the measurements:<br>Average mass = $\\frac{0.7783 + 0.7780 + 0.7786}{3} = 0.7783$ g.<br>The average measured value (0.7783 g) is very close to the actual value (0.7791 g). The percentage error is small: $\\frac{|0.7791 - 0.7783|}{0.7791} \\times 100 \\approx 0.10\\%$. Therefore, the measurements are also **accurate**.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Your laboratory partner was given the task of measuring the length of a box (approx 5 in) as accurately as possible, using a metre stick graduated in millimeters. He supplied you with the following measurements: 12.65 cm, 12.6 cm, 12.65 cm, 12.655 cm, 126.55 mm, 12 cm. a. State which of the measurements you would accept, giving the reason. b. Give your reason for rejecting each of the others.",
+    "answer": "<strong>a. State which of the measurements you would accept, giving the reason:</strong><br>The acceptable measurements are <strong>12.65 cm, 12.65 cm, and 126.55 mm</strong>. The reason is that these measurements reflect the precision of the measuring instrument, which is a meter stick graduated in millimeters. This means the measurement should be recorded to the nearest 0.1 mm or 0.01 cm, which is what these values do. 126.55 mm is equivalent to 12.655 cm, so it also has a reasonable number of significant figures for this kind of measurement.<br><strong>b. Give your reason for rejecting each of the others:</strong><br><ul><li><strong>12.6 cm:</strong> This measurement is not precise enough; it has fewer significant figures than what the instrument allows (it should be read to the hundredth of a cm).</li><li><strong>12.655 cm:</strong> This measurement implies a greater precision than the instrument can provide. A meter stick marked in millimeters allows for an estimation to the tenth of a millimeter, but not the hundredth.</li><li><strong>12 cm:</strong> This measurement is too imprecise. It rounds to the nearest centimeter, losing significant information about the true length.</li><li>The value <strong>12.6 cm</strong> is also rejected for similar reasons to 12 cm, as it loses precision. The measurements **12.65 cm** and **126.55 mm** are the most appropriate representations of the precision of the tool. The value **12.655 cm** is also a bit too precise for a standard meter stick, although it is closer than the others. The best-fitting measurement is **12.65 cm** or its equivalent.</li></ul>",
+    "marks": 4
+  }
+]

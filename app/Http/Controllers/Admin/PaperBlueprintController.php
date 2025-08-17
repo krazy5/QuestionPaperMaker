@@ -32,6 +32,8 @@ class PaperBlueprintController extends Controller
             'name' => 'required|string|max:255',
             'board_id' => 'required|exists:boards,id',
             'class_id' => 'required|exists:academic_class_models,id',
+             'subject_id' => 'required|exists:subjects,id',
+             'total_marks' => 'required|integer|min:1',
         ]);
         $blueprint = PaperBlueprint::create($validated);
         return redirect()->route('admin.blueprints.show', $blueprint)

@@ -1,0 +1,132 @@
+[
+  {
+    "type": "mcq",
+    "text": "The unit of viscosity is",
+    "options": [
+      "dynes",
+      "newton",
+      "gram",
+      "poise"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is true for 2 moles of an ideal gas?",
+    "options": [
+      "PV = nRT",
+      "PV = RT",
+      "PV = 2RT",
+      "PV = T"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Intermolecular forces in liquid are -",
+    "options": [
+      "greater than gases",
+      "less than solids",
+      "both a and b",
+      "greater than solids"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Interactive forces are ............ in ideal gas.",
+    "options": [
+      "nil",
+      "small",
+      "large",
+      "same as that of real gases"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "At constant temperature the pressure of 22.4 $dm^3$ volume of an ideal gas was increased from 105 kPa to 210 kPa, New volume could be-",
+    "options": [
+      "44.8 $dm^3$",
+      "11.2 $dm^3$",
+      "22.4 $dm^3$",
+      "5.6 $dm^3$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If density of a gas is measured at constant temperature and pressure then which of the following statement is correct?",
+    "options": [
+      "Density is directly proportional to molar mass of the gas.",
+      "Greater the density greater is the molar mass of the gas.",
+      "If density, temperature and pressure is given ideal gas equation can be used to find molar mass.",
+      "All the above statements are correct."
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the above reactions are in accordance with the priciple of stoichiometry?",
+    "options": [
+      "a",
+      "b"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Name the term used for mixing of different gases by random molecular motion and ferquent collision.",
+    "answer": "The term used for the mixing of different gases by random molecular motion and frequent collision is **diffusion**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "The pressure that each individual gas would exert if it were alone in the container, what do we call it as?",
+    "answer": "This is known as the **partial pressure** of a gas, as defined by Dalton's Law of Partial Pressures.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "When a gas is heated the particles move more quickly. What is the change in volume of a heated gas if the pressure is kept constant?",
+    "answer": "When a gas is heated at constant pressure, the volume of the gas increases. This is described by **Charles's Law**, which states that for a fixed amount of gas at constant pressure, the volume is directly proportional to its absolute temperature.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "A bubble of methane gas rises from the bottom of the North sea. What will happen to the size of the bubble as it rises to the surface?",
+    "answer": "As the bubble of methane gas rises from the bottom of the North Sea to the surface, the pressure surrounding the bubble decreases. According to **Boyle's Law**, at constant temperature, the volume of a gas is inversely proportional to its pressure. Therefore, the size of the bubble will **increase** as it rises to the surface.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Convert the following temperatures from degree celsius to kelvin. a. -15° C, b. 25° C, c. -197° C, d. 273° C.",
+    "answer": "To convert Celsius to Kelvin, the formula is: K = °C + 273.15.<br>a. $-15^\\circ$ C = -15 + 273.15 = **258.15 K**.<br>b. $25^\\circ$ C = 25 + 273.15 = **298.15 K**.<br>c. $-197^\\circ$ C = -197 + 273.15 = **76.15 K**.<br>d. $273^\\circ$ C = 273 + 273.15 = **546.15 K**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Convert the following pressure values into Pascals. a. 10 atmosphere, b. 1 kPa, c. 107000 $N/m^2$, d. 1 atmosphere.",
+    "answer": "a. 1 atmosphere = 101325 Pa. So, 10 atmosphere = $10 \\times 101325 = 1013250$ Pa or **$1.01325 \\times 10^6$ Pa**.<br>b. 1 kPa = 1000 Pa. So, 1 kPa = **1000 Pa**.<br>c. $1 N/m^2 = 1 Pa$. So, 107000 $N/m^2$ = **107000 Pa**.<br>d. 1 atmosphere = **101325 Pa**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Convert: a. exactly 1.5 atm to pascals, b. 89 kPa to newton per square metre ($N/m^2$), c. 101.325 kPa to bar, d. -100° C to kelvin, e. 0.124 torr to standard atmosphere.",
+    "answer": "a. 1 atm = 101325 Pa. So, 1.5 atm = $1.5 \\times 101325 = 151987.5$ Pa.<br>b. $1 N/m^2 = 1 Pa$. 1 kPa = 1000 Pa. So, 89 kPa = $89 \\times 1000 = 89000$ Pa = **$89000 N/m^2$**.<br>c. 1 bar = 100 kPa. 101.325 kPa = $\\frac{101.325}{100}$ bar = **1.01325 bar**.<br>d. $K = ^\\circ C + 273.15$. So, -100° C = -100 + 273.15 = **173.15 K**.<br>e. 1 atm = 760 torr. So, 0.124 torr = $\\frac{0.124}{760} \\times 1$ atm $\\approx$ **$1.632 \\times 10^{-4}$ atm**.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Hot air balloons float in air becouse of the low density of the air inside the balloon. Explain this with the help of an appropriate gas law.",
+    "answer": "Hot air balloons float because the air inside the balloon has a lower density than the cooler air outside. This is explained by **Charles's Law**, which states that at constant pressure, the volume of a gas is directly proportional to its absolute temperature. When the air inside the balloon is heated, its temperature increases, causing its volume to expand. Since the mass of the air remains constant, this increase in volume leads to a decrease in its density ($\\text{Density} = \\frac{\\text{Mass}}{\\text{Volume}}$). The balloon, filled with less dense hot air, experiences a buoyant force from the surrounding cooler, denser air, which lifts the balloon.",
+    "marks": 2
+  }
+]

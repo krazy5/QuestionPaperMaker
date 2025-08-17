@@ -92,5 +92,263 @@
     "text": "Derive the relation between the two molar specific heats of a gas ($C_p - C_v = R$). (Board 2015)",
     "answer": "This is Mayer's relation. The proof involves considering one mole of an ideal gas heated at constant volume and then at constant pressure, applying the first law of thermodynamics to both cases, and equating the change in internal energy which depends only on temperature.",
     "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Q) A gas in a closed container is heated with 10J of energy, causing the lid of the container to rise 2m with 3N of force. What is the total change in the internal energy of the system?",
+    "options": [
+      "A) 10J",
+      "B) 4J",
+      "C) -10J",
+      "D) -4J"
+    ],
+    "correct_answer": "B) 4J",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) Which of the following is an example of the first law of thermodynamics?",
+    "options": [
+      "A) The specific heat of an object explains how easily it changes temperatures.",
+      "B) While melting, an ice cube remains at the same temperature.",
+      "C) When a refrigerator is unplugged, everything inside of it returns to room temperature after some time.",
+      "D) After falling down the hill, a ball's kinetic energy plus heat energy equals the initial potential energy."
+    ],
+    "correct_answer": "D) After falling down the hill, a ball's kinetic energy plus heat energy equals the initial potential energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) Efficiency of a Carnot engine is large when",
+    "options": [
+      "A) $T_H$ is large",
+      "B) $T_H$ is low",
+      "C) $T_H - T_C$ is large",
+      "D) $T_H - T_C$ is small"
+    ],
+    "correct_answer": "C) $T_H - T_C$ is large",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) The second law of thermodynamics deals with transfer of:",
+    "options": [
+      "A) work done",
+      "B) energy",
+      "C) momentum",
+      "D) mass"
+    ],
+    "correct_answer": "B) energy",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Q) During refrigeration cycle, heat is rejected by the refrigerant in the:",
+    "options": [
+      "A) condenser",
+      "B) cold chamber",
+      "C) evaporator",
+      "D) hot chamber"
+    ],
+    "correct_answer": "A) condenser",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Q) A gas contained in a cylinder surrounded by a thick layer of insulating material is quickly compressed. <br>a) Has there been a transfer of heat? <br>b) Has work been done?",
+    "answer": "a) Since the cylinder is surrounded by a thick insulating layer and the process is quick, there is **no transfer of heat**. This is an example of an **adiabatic process** where $Q=0$. <br>b) Yes, work has been done on the gas. The compression of the gas by an external force requires work to be done on the system, which is a key characteristic of an adiabatic process where work is done.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Give an example of some familiar process in which no heat is added or removed form a system, but the temperature of the system changes.",
+    "answer": "A common example is the **sudden bursting of a bicycle tyre**. When the air inside the tyre expands rapidly into the atmosphere, it does so adiabatically. No heat has time to be exchanged with the surroundings, but the gas does work by pushing the surrounding air. This work is done at the expense of the gas's internal energy, causing its temperature to decrease, and the air feels cool. The opposite happens when a gas is rapidly compressed, for example, when filling a tyre, where the air heats up.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Give an example of some familiar process in which heat is added to an object, without changing its temperature.",
+    "answer": "A common example of this is the **melting of ice**. When heat is added to ice at its melting point ($0^\\circ C$), the temperature of the ice does not increase. Instead, the added heat energy, known as the latent heat of fusion, is used to change the phase of the water from solid (ice) to liquid (water). The temperature remains constant at $0^\\circ C$ until all the ice has melted.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) What sets the limits on efficiency of a heat engine?",
+    "answer": "The limits on the efficiency of a heat engine are set by the **Second Law of Thermodynamics** and the **temperatures of the hot and cold reservoirs** it operates between. According to Carnot's theorem, the maximum possible efficiency of any heat engine operating between a hot reservoir at temperature $T_H$ and a cold reservoir at temperature $T_C$ is given by the Carnot efficiency: $\\eta_{Carnot} = 1 - \\frac{T_C}{T_H}$. No real heat engine can ever be more efficient than a Carnot engine operating between the same two temperatures.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) Why should a Carnot cycle have two isothermal two adiabatic processes?",
+    "answer": "A Carnot cycle is a theoretical thermodynamic cycle that provides the maximum possible efficiency for a heat engine. It consists of two isothermal processes (constant temperature) and two adiabatic processes (no heat transfer) to ensure that the heat transfer only occurs at the highest and lowest temperatures of the cycle. <br>The two isothermal processes allow heat to be absorbed from the hot reservoir at a constant temperature ($T_H$) and rejected to the cold reservoir at a constant temperature ($T_C$). <br>The two adiabatic processes allow the temperature of the working substance to change from $T_H$ to $T_C$ and back to $T_H$ without any heat being lost or gained from the system, which is crucial for maximizing the efficiency of the cycle.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Q) A mixture of hydrogen and oxygen is enclosed in a rigid insulating cylinder. It is ignited by a spark. The temperature and the pressure both increase considerably. Assume that the energy supplied by the spark is negligible, what conclusions may be drawn by application of the first law of thermodynamics?",
+    "answer": "The first law of thermodynamics states that the change in internal energy of a system ($\\Delta U$) is equal to the heat added to the system ($Q$) minus the work done by the system ($W$), i.e., $\\Delta U = Q - W$. <br>In this case: <br>1. **The cylinder is rigid**, so there is no change in volume. Therefore, the work done by the gas is zero ($W = 0$). <br>2. **The cylinder is insulating**, so no heat is transferred into or out of the system. Therefore, $Q = 0$. <br>Applying the first law: $\\Delta U = Q - W = 0 - 0 = 0$. <br>The conclusion is that the total change in the internal energy of the system is **zero**. While the chemical energy of the hydrogen and oxygen is converted into the thermal energy of the water molecules, the total internal energy of the system remains constant, assuming the energy from the spark is negligible. The increase in temperature and pressure is a result of the redistribution of this energy within the system.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A resistor held in running water carries electric current. Treat the resistor as the system (a) Does heat flow into the resistor? (b) Is there a flow of heat into the water? (c) Is any work done? (d) Assuming the state of resistance to remain unchanged, apply the first law of thermodynamics to this process.",
+    "answer": "a) No, heat does not flow into the resistor. The electric current is doing work on the resistor, and this work is converted into internal energy, which increases the resistor's temperature. The heat transfer is from the resistor to the water. <br>b) Yes, there is a flow of heat from the resistor into the water. <br>c) Yes, work is done on the resistor by the electric current. This work is what generates the heat. <br>d) The first law of thermodynamics is $\\Delta U = Q - W$. Here, the system is the resistor. The state of the resistance remains unchanged, which implies the temperature of the resistor is constant, so its internal energy does not change ($\\Delta U = 0$). Work is being done on the resistor by the current, so $W$ is negative. Heat is flowing out of the resistor into the water, so $Q$ is negative. The first law becomes: <br>$$ 0 = Q - W \\implies Q = W $$<br>The heat flowing out of the resistor is equal to the work done on the resistor by the current.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A mixture of fuel and oxygen is burned in a constant-volume chamber surrounded by a water bath. It was noticed that the temperature of water is increased during the process. Treating the mixture of fuel and oxygen as the system, (a) Has heat been transferred? (b) Has work been done? (c) What is the sign of $\\Delta U$?",
+    "answer": "a) Yes, heat has been transferred. The temperature of the surrounding water bath increases, which indicates that heat has been transferred from the system (the mixture of fuel and oxygen) to the surroundings (the water bath). <br>b) No, work has not been done. The process occurs in a constant-volume chamber, so there is no change in volume. Work done by a system in a thermodynamic process is defined as $W = P\\Delta V$. Since $\\Delta V = 0$, the work done is zero. <br>c) The first law of thermodynamics is $\\Delta U = Q - W$. In this case, $W=0$. Heat is transferred out of the system, so $Q$ is negative. Therefore, $\\Delta U$ is also **negative**. This means the internal energy of the system has decreased, which is consistent with the chemical energy of the fuel being converted into heat.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Draw a p-V diagram and explain the concept of positive and negative work. Give one example each.",
+    "answer": "A p-V diagram plots the pressure ($p$) of a system against its volume ($V$). The work done by a system in a thermodynamic process is represented by the area under the curve on a p-V diagram. <br> <br>**Positive work** is done by the system when it expands. In a p-V diagram, this corresponds to the area under the curve when the volume increases (moving from left to right). For example, a gas in a cylinder expanding and pushing a piston outwards does positive work on the piston. <br><br>**Negative work** is done on the system when it is compressed. In a p-V diagram, this corresponds to the area under the curve when the volume decreases (moving from right to left). For example, pushing a piston inwards to compress a gas does negative work on the gas.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A solar cooker and a pressure cooker both are used to cook food. Treating them as thermodynamic systems, discuss the similarities and differences between them.",
+    "answer": "**Solar Cooker:** <br>The solar cooker is an open system that absorbs heat from the sun. The food and the cooker itself are heated, but there is no pressure build-up. The process of cooking is generally slow, and it is a non-isolated system that exchanges heat with the surroundings. <br><br>**Pressure Cooker:** <br>The pressure cooker is a closed system that is heated from an external source (e.g., a stove). As the water inside boils, steam is trapped, leading to a significant increase in pressure. This high pressure raises the boiling point of the water, allowing the food to be cooked at a higher temperature, which significantly speeds up the cooking process. <br><br>**Similarities:** <br>1. Both systems are used to transfer thermal energy to food to cook it. <br>2. Both utilize a heat source to increase the temperature of the food. <br><br>**Differences:** <br>1. **Heat Source**: A solar cooker uses solar radiation as a heat source, while a pressure cooker uses an external heat source like a flame or electricity. <br>2. **Pressure**: A pressure cooker operates at high pressure, which is its defining characteristic for faster cooking. A solar cooker operates at atmospheric pressure. <br>3. **Speed of Cooking**: A pressure cooker is designed for fast cooking due to high temperature and pressure. A solar cooker is generally a slow cooking method. <br>4. **Thermodynamic Process**: A pressure cooker operates as a closed, constant-volume system after it reaches the desired pressure, where the cooking is primarily a process of constant volume. A solar cooker operates as an open system with heat transfer and volume changes.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A gas contained in a cylinder fitted with a frictionless piston expands against a constant external pressure of 1 atm from a volume of 5 litres to a volume of 10 litres. In doing so it absorbs 400 J of thermal energy from its surroundings. Determine the change in internal energy of system.",
+    "answer": "This problem uses the **First Law of Thermodynamics**, which states that the change in internal energy ($\\Delta U$) is equal to the heat absorbed by the system ($Q$) minus the work done by the system ($W$). The formula is $\\Delta U = Q - W$. <br>Given: <br>Heat absorbed by the system $Q = +400$ J (positive because it's absorbed). <br>Work done by the system is $W = P\\Delta V$, where $P$ is the external pressure and $\\Delta V$ is the change in volume. <br>Pressure $P = 1$ atm $= 1.013 \\times 10^5 \\text{ N/m}^2$. <br>Initial volume $V_1 = 5$ litres $= 5 \\times 10^{-3} \\text{ m}^3$. <br>Final volume $V_2 = 10$ litres $= 10 \\times 10^{-3} \\text{ m}^3$. <br>Change in volume $\\Delta V = V_2 - V_1 = 10 \\times 10^{-3} - 5 \\times 10^{-3} = 5 \\times 10^{-3} \\text{ m}^3$. <br>Work done $W = (1.013 \\times 10^5)(5 \\times 10^{-3}) = 5.065 \\times 10^2 = 506.5$ J. <br>Change in internal energy $\\Delta U = Q - W = 400 - 506.5 = -106.5$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A system releases 130 kJ of heat while 109 kJ of work is done on the system. Calculate the change in internal energy.",
+    "answer": "This problem uses the **First Law of Thermodynamics**, $\\Delta U = Q - W$. <br>Given: <br>Heat released by the system is $Q = -130$ kJ (negative because it's released). <br>Work done on the system is $W = -109$ kJ (negative because it's done on the system). <br>Change in internal energy $\\Delta U = Q - W = (-130) - (-109) = -130 + 109 = -21$ kJ.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Efficiency of a Carnot cycle is 75%. If temperature of the hot reservoir is $727^\\circ C$, calculate the temperature of the cold reservoir.",
+    "answer": "The efficiency of a Carnot cycle is given by the formula $\\eta = 1 - \\frac{T_C}{T_H}$, where $T_C$ and $T_H$ are the absolute temperatures of the cold and hot reservoirs, respectively. <br>Given: <br>Efficiency $\\eta = 75\\% = 0.75$. <br>Temperature of the hot reservoir $T_H = 727^\\circ C = 727+273 = 1000$ K. <br>We need to find $T_C$. Rearranging the formula: <br>$0.75 = 1 - \\frac{T_C}{1000} \\implies \\frac{T_C}{1000} = 1-0.75 = 0.25$. <br>$T_C = 0.25 \\times 1000 = 250$ K. <br>In Celsius, $T_C = 250 - 273 = -23^\\circ C$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A Carnot refrigerator operates between 250 K and 300 K. Calculate its coefficient of performance.",
+    "answer": "The coefficient of performance (COP) of a Carnot refrigerator is given by the formula $COP = \\frac{T_C}{T_H - T_C}$, where $T_C$ and $T_H$ are the absolute temperatures of the cold and hot reservoirs, respectively. <br>Given: <br>Cold reservoir temperature $T_C = 250$ K. <br>Hot reservoir temperature $T_H = 300$ K. <br>The coefficient of performance is: <br>$COP = \\frac{250}{300-250} = \\frac{250}{50} = 5$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) An ideal gas is taken through an isothermal process. If it does 2000 J of work on its environment, how much heat is added to it?",
+    "answer": "This problem uses the **First Law of Thermodynamics**, $\\Delta U = Q - W$. For an **isothermal process**, the temperature of the ideal gas remains constant. Since the internal energy of an ideal gas depends only on its temperature, the change in internal energy is zero, so $\\Delta U = 0$. <br>Given: <br>Work done on the environment by the gas is $W = 2000$ J (positive because it's done by the system). <br>Applying the first law: <br>$0 = Q - W \\implies Q = W = 2000$ J. <br>The heat added to the gas is **2000 J**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) An ideal monatomic gas is adiabatically compressed so that its final temperature is twice its initial temperature. What is the ratio of the final pressure to its initial pressure?",
+    "answer": "For an **adiabatic process** involving an ideal gas, we have the relation $P^{1-\\gamma}T^\\gamma = \\text{constant}$ or $T_1 P_1^{(1-\\gamma)/\\gamma} = T_2 P_2^{(1-\\gamma)/\\gamma}$. Rearranging for pressure: $P^{1-1/\\gamma} = T^{1/\\gamma}$. Let's use the relation between temperature and volume, $TV^{\\gamma-1} = \\text{constant}$, and the ideal gas law, $PV=nRT$. <br>The adiabatic relation can also be written as $P_1^{1-\\gamma}T_1^\\gamma = P_2^{1-\\gamma}T_2^\\gamma$. <br>The ratio of pressures is $\\frac{P_2}{P_1} = (\\frac{T_2}{T_1})^{\\gamma/(\\gamma-1)}$. <br>For a monatomic gas, the adiabatic index is $\\gamma = 5/3$. <br>Given that the final temperature is twice the initial temperature, so $T_2 = 2T_1$. <br>The ratio of the pressures is: <br>$$\\frac{P_2}{P_1} = (\\frac{2T_1}{T_1})^{(5/3)/(5/3-1)} = (2)^{(5/3)/(2/3)} = (2)^{5/2} = 2^2 \\cdot \\sqrt{2} = 4\\sqrt{2} \\approx 5.656$$<br>The ratio of the final pressure to the initial pressure is **$4\\sqrt{2}$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A hypothetical thermodynamic cycle is shown in the figure. Calculate the work done in 25 cycles. The p-V diagram shows a cycle where the points are (2,1) to (4,1) to (4,6) to (2,6) to (2,1), with pressure in $10^5$ Pa and volume in $10^{-3}$ m$^3$.",
+    "answer": "The work done in one cycle is the area enclosed by the loop on a p-V diagram. The given cycle is a rectangle. <br>The work done is $W_{cycle} = \\text{Area} = (P_{max} - P_{min})\\times(V_{max} - V_{min})$. <br>Given: <br>Maximum pressure $P_{max} = 6 \\times 10^5$ Pa. <br>Minimum pressure $P_{min} = 1 \\times 10^5$ Pa. <br>Maximum volume $V_{max} = 4 \\times 10^{-3}$ m$^3$. <br>Minimum volume $V_{min} = 2 \\times 10^{-3}$ m$^3$. <br>Work done in one cycle is: <br>$W_{cycle} = (6 \\times 10^5 - 1 \\times 10^5)(4 \\times 10^{-3} - 2 \\times 10^{-3}) = (5 \\times 10^5)(2 \\times 10^{-3}) = 10 \\times 10^2 = 1000$ J. <br>The total work done in 25 cycles is $W_{total} = 25 \\times W_{cycle} = 25 \\times 1000 = 25000$ J $= 2.5 \\times 10^4$ J. <br>The answer provided in the image is $7.855 \\times 10^4$ J, which does not match. Let's re-examine the given diagram and values. It seems the diagram is not drawn to scale or the provided answer is for a different problem.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) The figure shows a hypothetical heat engine cycle with a V-T diagram. Draw the p-V diagram and p-T diagram of the system.",
+    "answer": "The given cycle is a rectangle on a V-T diagram. <br>Path a $\\to$ b: Volume increases linearly with temperature. The relationship is $V \\propto T$. From the ideal gas law, $PV=nRT$, this implies that **pressure is constant** ($P=nR/V$, if $V/T$ is constant, then $P$ must be constant). This is an **isobaric expansion**. <br>Path b $\\to$ c: Temperature is constant. This is an **isothermal compression** with a decrease in volume. From $PV=nRT$, as $V$ decreases at constant $T$, $P$ increases. <br>Path c $\\to$ d: Volume decreases linearly with temperature. This is an **isobaric compression** at a constant, lower pressure. <br>Path d $\\to$ a: Temperature is constant. This is an **isothermal expansion** with an increase in volume. From $PV=nRT$, as $V$ increases at constant $T$, $P$ decreases. <br> <br> **p-V diagram**: <br>a $\\to$ b: Isobaric expansion (horizontal line from $V_a$ to $V_b$). <br>b $\\to$ c: Isothermal compression (curved line from $V_b$ to $V_c$ with increasing pressure). <br>c $\\to$ d: Isobaric compression (horizontal line from $V_c$ to $V_d$). <br>d $\\to$ a: Isothermal expansion (curved line from $V_d$ to $V_a$ with increasing pressure). <br> <br> <br> **p-T diagram**: <br>a $\\to$ b: Isobaric expansion (vertical line from $T_a$ to $T_b$). <br>b $\\to$ c: Isothermal compression (horizontal line from $P_b$ to $P_c$ with decreasing temperature). <br>c $\\to$ d: Isobaric compression (vertical line from $T_c$ to $T_d$). <br>d $\\to$ a: Isothermal expansion (horizontal line from $P_d$ to $P_a$ with increasing temperature). <br>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A system is taken to its final state from initial state in hypothetical paths as shown figure. Calculate the work done in each case. The p-V diagram shows a cycle from A to B to C to D and back to A. The coordinates are A(2, 6), B(4, 6), C(4, 2), D(2, 2) with pressure in $10^5$ Pa and volume in $10^{-3}$ m$^3$.",
+    "answer": "The work done in a thermodynamic process is the area under the curve on a p-V diagram. Since the work is done by the system when volume increases and on the system when volume decreases, the sign of the work matters. <br>Given: <br>A(2, 6) $\to$ B(4, 6): Volume increases, so work is positive. <br>B(4, 6) $\to$ C(4, 2): Volume is constant, so work is zero. <br>C(4, 2) $\to$ D(2, 2): Volume decreases, so work is negative. <br>D(2, 2) $\to$ A(2, 6): Volume is constant, so work is zero. <br> <br> **Work done from A to B**: This is an isobaric expansion. <br>$W_{AB} = P_{AB}\\Delta V_{AB} = (6 \\times 10^5 \\text{ Pa})(4 \\times 10^{-3} - 2 \\times 10^{-3} \\text{ m}^3) = (6 \\times 10^5)(2 \\times 10^{-3}) = 1200$ J $= 1.2 \\times 10^3$ J. <br> <br> **Work done from B to C**: This is an isochoric process. The work done is zero. <br>$W_{BC} = 0$. <br> <br> **Work done from C to D**: This is an isobaric compression. <br>$W_{CD} = P_{CD}\\Delta V_{CD} = (2 \\times 10^5 \\text{ Pa})(2 \\times 10^{-3} - 4 \\times 10^{-3} \\text{ m}^3) = (2 \\times 10^5)(-2 \\times 10^{-3}) = -400$ J $= -0.4 \\times 10^3$ J. <br> <br> **Work done from D to A**: This is an isochoric process. The work done is zero. <br>$W_{DA} = 0$. <br> <br>The total work done in the cycle is $W_{total} = W_{AB} + W_{BC} + W_{CD} + W_{DA} = 1200 + 0 - 400 + 0 = 800$ J $= 0.8 \\times 10^3$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) Find the pressure 200 m below the surface of the ocean if pressure on the free surface of liquid is one atmosphere. (Density of sea water = 1060 kg/m$^3$).",
+    "answer": "The pressure at a depth $h$ below the surface of a fluid is given by the formula $P = P_0 + h\\rho g$, where $P_0$ is the pressure on the surface, $h$ is the depth, $\\rho$ is the density of the fluid, and $g$ is the acceleration due to gravity (approximately $9.8$ m/s$^2$). <br>Given: <br>$P_0 = 1$ atmosphere $\\approx 1.013 \\times 10^5 \\text{ N/m}^2$. <br>$h = 200$ m. <br>$\\rho = 1060 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>Pressure due to the water column is $h\\rho g = (200)(1060)(9.8) = 2077600 \\text{ N/m}^2 = 2.0776 \\times 10^6 \\text{ N/m}^2$. <br>Total pressure $P = P_0 + h\\rho g = 1.013 \\times 10^5 + 2.0776 \\times 10^6 = 0.1013 \\times 10^6 + 2.0776 \\times 10^6 = 2.1789 \\times 10^6 \\text{ N/m}^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) In a hydraulic lift, the input piston had surface area 30 cm$^2$ and the output piston has surface area of 1500 cm$^2$. If a force of 25 N is applied to the input piston, calculate weight on output piston.",
+    "answer": "A hydraulic lift works on Pascal's principle, which states that the pressure exerted on an enclosed incompressible fluid is transmitted equally to every portion of the fluid and the walls of the container. So, the pressure on the input piston is equal to the pressure on the output piston: $P_{input} = P_{output}$. <br>Pressure is defined as force per unit area, $P = F/A$. So, $\\frac{F_{input}}{A_{input}} = \\frac{F_{output}}{A_{output}}$. <br>Given: <br>$A_{input} = 30 \\text{ cm}^2$. <br>$A_{output} = 1500 \\text{ cm}^2$. <br>$F_{input} = 25$ N. <br>We need to find $F_{output}$. Rearranging the formula: <br>$F_{output} = F_{input} \\times \\frac{A_{output}}{A_{input}} = 25 \\times \\frac{1500}{30} = 25 \\times 50 = 1250$ N. <br>The weight on the output piston is **1250 N**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the viscous force acting on a rain drop of diameter 1 mm, falling with a uniform velocity 2 m/s through air. The coefficient of viscosity of air is $1.8 \\times 10^{-5} \\text{ N s/m}^2$.",
+    "answer": "The viscous force acting on a spherical object falling through a fluid is given by Stokes' Law: $F_v = 6\\pi\\eta rv$, where $\\eta$ is the coefficient of viscosity, $r$ is the radius of the sphere, and $v$ is the velocity. <br>Given: <br>Diameter $d = 1$ mm $= 1 \\times 10^{-3}$ m, so radius $r = 0.5 \\times 10^{-3}$ m. <br>Velocity $v = 2$ m/s. <br>Coefficient of viscosity $\\eta = 1.8 \\times 10^{-5} \\text{ N s/m}^2$. <br>The viscous force is: <br>$F_v = 6\\pi(1.8 \\times 10^{-5})(0.5 \\times 10^{-3})(2) = 6\\pi(1.8 \\times 10^{-5})(1.0 \\times 10^{-3}) = 10.8\\pi \\times 10^{-8} \\approx 3.393 \\times 10^{-7}$ N.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A horizontal force of 1 N is required to move a metal plate of area $10^{-2} \\text{ m}^2$ with a velocity of $2 \\times 10^{-2} \\text{ m/s}$, when it rests on a layer of oil 1.5 $\\times 10^{-3}$ m thick. Find the coefficient of viscosity of oil.",
+    "answer": "The viscous force is given by $F_v = \\eta A \\frac{dv}{dy}$, where $\\eta$ is the coefficient of viscosity, $A$ is the area of the plate, and $\\frac{dv}{dy}$ is the velocity gradient. <br>Given: <br>Force $F_v = 1$ N. <br>Area $A = 10^{-2} \\text{ m}^2$. <br>Velocity $dv = 2 \\times 10^{-2} \\text{ m/s}$. <br>Thickness of oil layer $dy = 1.5 \\times 10^{-3}$ m. <br>We need to find $\\eta$. Rearranging the formula: <br>$\\eta = \\frac{F_v}{A} \\cdot \\frac{dy}{dv} = \\frac{1}{10^{-2}} \\cdot \\frac{1.5 \\times 10^{-3}}{2 \\times 10^{-2}} = 100 \\cdot \\frac{1.5}{2} \\times 10^{-1} = 100 \\cdot 0.75 \\times 0.1 = 7.5$ N s/m$^2$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what terminal velocity will an air bubble 0.4 mm in diameter rise in a liquid of viscosity $0.1 \\text{ N s/m}^2$ and specific gravity 0.9? Density of air is $1.29 \\text{ kg/m}^3$.",
+    "answer": "The terminal velocity of a spherical object moving through a fluid is given by $v_t = \\frac{2r^2g}{9\\eta}(\\rho_{object} - \\rho_{fluid})$. Since the bubble is rising, its density is less than the fluid's density. <br>Given: <br>Diameter of bubble $d = 0.4$ mm $= 0.4 \\times 10^{-3}$ m, so radius $r = 0.2 \\times 10^{-3}$ m. <br>Viscosity of liquid $\\eta = 0.1 \\text{ N s/m}^2$. <br>Specific gravity of liquid $= 0.9$, so density of liquid $\\rho_{liquid} = 0.9 \\times 1000 \\text{ kg/m}^3 = 900 \\text{ kg/m}^3$. <br>Density of air $\\rho_{air} = 1.29 \\text{ kg/m}^3$. <br>Acceleration due to gravity $g = 9.8 \\text{ m/s}^2$. <br>The terminal velocity is: <br>$v_t = \\frac{2(0.2 \\times 10^{-3})^2(9.8)}{9(0.1)}(1.29 - 900) \\approx -7.82 \\times 10^{-4}$ m/s. <br>The negative sign indicates the bubble rises up. The magnitude is $7.82 \\times 10^{-4}$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The speed of water is 2 m/s through a pipe of internal diameter 10 cm. What should be the internal diameter of nozzle of the pipe if the speed of water at nozzle is 4 m/s?",
+    "answer": "This problem is based on the equation of continuity, which states that for an incompressible fluid, the product of the cross-sectional area and the velocity is constant: $A_1v_1 = A_2v_2$. The area of the pipe is $A = \\pi r^2 = \\pi (d/2)^2 = \\frac{\\pi d^2}{4}$. <br>Given: <br>Initial velocity $v_1 = 2$ m/s. <br>Initial diameter $d_1 = 10$ cm. <br>Final velocity $v_2 = 4$ m/s. <br>We need to find the final diameter $d_2$. <br>The equation of continuity becomes $\\frac{\\pi d_1^2}{4}v_1 = \\frac{\\pi d_2^2}{4}v_2 \\implies d_1^2v_1 = d_2^2v_2$. <br>Rearranging to solve for $d_2$: <br>$d_2^2 = d_1^2 \\frac{v_1}{v_2} \\implies d_2 = d_1 \\sqrt{\\frac{v_1}{v_2}} = 10 \\sqrt{\\frac{2}{4}} = 10 \\sqrt{\\frac{1}{2}} = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2} \\approx 7.07$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) With what velocity does water flow out of an orifice in a tank with gauge pressure $4 \\times 10^5 \\text{ N/m}^2$ before the flow starts? Density of water = 1000 kg/m$^3$.",
+    "answer": "This problem is based on Torricelli's Law, which is a special case of Bernoulli's principle. The velocity of the effluence is given by $v = \\sqrt{2gh}$. However, the problem gives the gauge pressure, not the height. We can relate the gauge pressure to the height by $P_{gauge} = h\\rho g$. <br>So, $h = \\frac{P_{gauge}}{\\rho g}$. Substituting this into the velocity formula: <br>$v = \\sqrt{2g(\\frac{P_{gauge}}{\\rho g})} = \\sqrt{\\frac{2P_{gauge}}{\\rho}}$. <br>Given: <br>Gauge pressure $P_{gauge} = 4 \\times 10^5 \\text{ N/m}^2$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>The velocity of the water flow is: <br>$v = \\sqrt{\\frac{2(4 \\times 10^5)}{1000}} = \\sqrt{\\frac{8 \\times 10^5}{10^3}} = \\sqrt{8 \\times 10^2} = \\sqrt{800} \\approx 28.28$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) The pressure of water inside the closed pipe is $3 \\times 10^5 \\text{ N/m}^2$. This pressure reduces to $2 \\times 10^5 \\text{ N/m}^2$ on opening the valve of the pipe. Calculate the speed of water flowing through the pipe. (Density of water = 1000 kg/m$^3$).",
+    "answer": "This problem is based on Bernoulli's principle. For a fluid flowing through a horizontal pipe, the total energy per unit volume is constant: $P + \\frac{1}{2}\\rho v^2 = \\text{constant}$. Before the valve is opened, the velocity is zero, so the initial pressure is the total pressure. <br>Given: <br>Initial pressure $P_{initial} = 3 \\times 10^5 \\text{ N/m}^2$. <br>Final pressure $P_{final} = 2 \\times 10^5 \\text{ N/m}^2$. <br>Initial velocity $v_{initial} = 0$ m/s. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>Applying Bernoulli's principle between the initial and final states: <br>$P_{initial} + \\frac{1}{2}\\rho v_{initial}^2 = P_{final} + \\frac{1}{2}\\rho v_{final}^2$. <br>$3 \\times 10^5 + 0 = 2 \\times 10^5 + \\frac{1}{2}(1000)v_{final}^2$. <br>$(3-2) \\times 10^5 = 500 v_{final}^2$. <br>$1 \\times 10^5 = 500 v_{final}^2$. <br>$v_{final}^2 = \\frac{100000}{500} = 200$. <br>$v_{final} = \\sqrt{200} = 10\\sqrt{2} \\approx 14.14$ m/s.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Calculate the rise of water inside a clean glass capillary tube of radius 0.1 mm, when immersed in water of surface tension $7 \\times 10^{-2} \\text{ N/m}$. The angle of contact between water and glass is zero, density of water = 1000 kg/m$^3$, $g = 9.8 \\text{ m/s}^2$.",
+    "answer": "The height of capillary rise is given by the formula $h = \\frac{2T\\cos\\theta}{\\rho rg}$, where $T$ is the surface tension, $\\theta$ is the angle of contact, $\\rho$ is the density of the liquid, $r$ is the radius of the capillary tube, and $g$ is the acceleration due to gravity. <br>Given: <br>Radius of tube $r = 0.1$ mm $= 0.1 \\times 10^{-3}$ m $= 10^{-4}$ m. <br>Surface tension $T = 7 \\times 10^{-2} \\text{ N/m}$. <br>Angle of contact $\\theta = 0^\\circ$, so $\\cos\\theta = 1$. <br>Density of water $\\rho = 1000 \\text{ kg/m}^3$. <br>$g = 9.8 \\text{ m/s}^2$. <br>The height of the water rise is: <br>$h = \\frac{2(7 \\times 10^{-2})(1)}{(1000)(10^{-4})(9.8)} = \\frac{14 \\times 10^{-2}}{9.8 \\times 10^{-1}} = \\frac{1.4 \\times 10^{-1}}{9.8 \\times 10^{-1}} = \\frac{1.4}{9.8} \\approx 0.1428$ m $= 14.28$ cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) An air bubble of radius 0.2 mm is situated just below the water surface. Calculate the gauge pressure. Surface tension of water = $7.2 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The excess pressure inside a spherical bubble in a liquid (or a liquid drop) is given by the formula $\\Delta P = \\frac{2T}{r}$, where $T$ is the surface tension and $r$ is the radius. This is the gauge pressure relative to the outside pressure. <br>Given: <br>Radius of air bubble $r = 0.2$ mm $= 0.2 \\times 10^{-3}$ m $= 2 \\times 10^{-4}$ m. <br>Surface tension $T = 7.2 \\times 10^{-2} \\text{ N/m}$. <br>The gauge pressure is: <br>$\\Delta P = \\frac{2(7.2 \\times 10^{-2})}{2 \\times 10^{-4}} = \\frac{7.2 \\times 10^{-2}}{10^{-4}} = 7.2 \\times 10^2 = 720$ Pa.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) Twenty seven droplets of water, each of radius 0.1 mm coalesce into a single drop. Find the change in surface energy. Surface tension of water is $0.072 \\text{ N/m}$.",
+    "answer": "The change in surface energy is the difference between the final surface energy and the initial surface energy. We need to find the radius of the single large drop. The total volume remains constant during coalescence. <br>Given: <br>Number of droplets $n=27$. <br>Radius of each small droplet $r = 0.1$ mm $= 10^{-4}$ m. <br>Surface tension $T = 0.072 \\text{ N/m}$. <br>Volume of one small droplet $V = \\frac{4}{3}\\pi r^3$. <br>Total initial volume is $n \\times V = 27 \\times \\frac{4}{3}\\pi r^3$. <br>Let the radius of the large drop be $R$. Its volume is $\\frac{4}{3}\\pi R^3$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 27 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 27r^3 \\implies R = 3r = 3(0.1 \\times 10^{-3}) = 0.3 \\times 10^{-3}$ m. <br>Initial surface energy $E_{initial} = n \\times T \\times A_{small} = 27 \\times T \\times (4\\pi r^2) = 27(0.072)(4\\pi)(10^{-4})^2 \\approx 2.44 \\times 10^{-7}$ J. <br>Final surface energy $E_{final} = T \\times A_{large} = T(4\\pi R^2) = 0.072(4\\pi)(3 \\times 10^{-4})^2 \\approx 8.14 \\times 10^{-8}$ J. <br>Change in surface energy $\\Delta E = E_{final} - E_{initial} \\approx 8.14 \\times 10^{-8} - 2.44 \\times 10^{-7} = -1.628 \\times 10^{-7}$ J. <br>The magnitude of the change is $1.628 \\times 10^{-7}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) A drop of mercury of radius 0.2 cm is broken into 8 droplets of the same size. Find the work done if the surface tension of mercury is 435.5 dyne/cm.",
+    "answer": "This problem is the reverse of the previous one. We are breaking a large drop into smaller droplets, so work is done on the system. The total volume remains constant. <br>Given: <br>Radius of large drop $R = 0.2$ cm. <br>Number of droplets $n=8$. <br>Surface tension $T = 435.5$ dyne/cm. <br>Let the radius of the small droplets be $r$. Equating the volumes: <br>$\\frac{4}{3}\\pi R^3 = 8 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 8r^3 \\implies R = 2r$. <br>$r = R/2 = 0.2/2 = 0.1$ cm. <br>Initial surface area $A_{initial} = 4\\pi R^2 = 4\\pi(0.2)^2 = 0.16\\pi$ cm$^2$. <br>Final surface area $A_{final} = 8 \\times 4\\pi r^2 = 32\\pi(0.1)^2 = 0.32\\pi$ cm$^2$. <br>Change in surface area $\\Delta A = A_{final} - A_{initial} = 0.32\\pi - 0.16\\pi = 0.16\\pi$ cm$^2$. <br>Work done is $W = T \\times \\Delta A = 435.5 \\times 0.16\\pi = 69.68\\pi \\approx 218.89$ ergs. <br>Since $1 \\text{ erg} = 10^{-7}$ J, $W = 218.89 \\times 10^{-7}$ J, which is $2.1889 \\times 10^{-5}$ J.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Q) How much work is required to form a bubble of 2 cm radius from a soap solution having surface tension 0.07 N/m.",
+    "answer": "The work required to form a soap bubble is the energy needed to create two free surfaces. The work done is given by $W = T \\times (\\text{final area} - \\text{initial area})$. We assume the initial area is zero. <br>Given: <br>Radius of bubble $r = 2$ cm $= 0.02$ m. <br>Surface tension of soap solution $T = 0.07$ N/m. <br>The area of a soap bubble is $2 \\times 4\\pi r^2 = 8\\pi r^2$. <br>Work done is $W = T \\times (8\\pi r^2) = 0.07 \\times 8\\pi (0.02)^2 = 0.56\\pi (0.0004) = 0.000224\\pi \\approx 7.037 \\times 10^{-4}$ J.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Q) A rectangular wire frame of size 2 cm $\\times$ 2 cm, is dipped in a soap solution and taken out. A soap film is formed, if the size of the film is changed to 3 cm $\\times$ 3 cm, calculate the work done in the process. The surface tension of soap film is $3 \\times 10^{-2} \\text{ N/m}$.",
+    "answer": "The work done is equal to the change in surface energy, which is the surface tension times the change in total surface area. A soap film has two free surfaces. <br>Given: <br>Initial dimensions: $2$ cm $\\times 2$ cm. <br>Final dimensions: $3$ cm $\\times 3$ cm. <br>Surface tension $T = 3 \\times 10^{-2} \\text{ N/m}$. <br>Initial area of film $A_{initial} = 2 \\times (2 \\text{ cm} \\times 2 \\text{ cm}) = 8 \\text{ cm}^2 = 8 \\times 10^{-4} \\text{ m}^2$. <br>Final area of film $A_{final} = 2 \\times (3 \\text{ cm} \\times 3 \\text{ cm}) = 18 \\text{ cm}^2 = 18 \\times 10^{-4} \\text{ m}^2$. <br>Change in total surface area $\\Delta A = A_{final} - A_{initial} = 18 \\times 10^{-4} - 8 \\times 10^{-4} = 10 \\times 10^{-4} = 10^{-3} \\text{ m}^2$. <br>Work done is $W = T \\times \\Delta A = (3 \\times 10^{-2}) \\times (10^{-3}) = 3 \\times 10^{-5}$ J.",
+    "marks": 3
   }
 ]

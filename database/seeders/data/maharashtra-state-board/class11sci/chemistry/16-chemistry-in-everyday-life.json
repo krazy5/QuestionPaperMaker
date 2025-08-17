@@ -1,0 +1,234 @@
+[
+  {
+    "type": "mcq",
+    "text": "Oxidative Rancidity is ........ reaction",
+    "options": [
+      "addition",
+      "substitution",
+      "free radical",
+      "combination"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Saponification is carried out by ........",
+    "options": [
+      "oxidation",
+      "alkaline hydrolysis",
+      "polymerisation",
+      "free radical formation"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Aspirin is chemically named as ........",
+    "options": [
+      "Salicylic acid",
+      "acetyl salicylic acid",
+      "chloroxylenol",
+      "thymol"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Find odd one out from the following",
+    "options": [
+      "dettol",
+      "chloroxylenol",
+      "paracetamol",
+      "trichlorophenol"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Arsenic based antibiotic is",
+    "options": [
+      "Azodye",
+      "prontosil",
+      "salvarsan",
+      "sulphapyridine"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The chemical used to slow down the browning action of cut fruit is",
+    "options": [
+      "$SO_3$",
+      "$SO_2$",
+      "$H_2SO_4$",
+      "$Na_2CO_3$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The chemical is responsible for the rancid flavour of fats is",
+    "options": [
+      "Butyric acid",
+      "Glycerol",
+      "Protein",
+      "Saturated fat"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Health benefits are obtained by consumption of",
+    "options": [
+      "Saturated fats",
+      "trans fats",
+      "mono unsaturated fats",
+      "all of these"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Anionic detergents",
+    "options": [
+      "Non-ionic detergents",
+      "anionic detergents",
+      "soap"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Cationic detergents",
+    "options": [
+      "Non-ionic detergents",
+      "cationic detergents",
+      "soap"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What do you understand by antioxidant?",
+    "answer": "An **antioxidant** is a substance that can prevent or slow down damage to cells caused by free radicals, which are unstable molecules that the body produces as a reaction to environmental and other pressures. Antioxidants are commonly used as food additives to prevent fats and oils from becoming rancid.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Name the painkiller obtained from acetylation of salicylic acid.",
+    "answer": "The painkiller obtained from the acetylation of salicylic acid is **Aspirin**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Name the class of drug often colled as painkiller.",
+    "answer": "The class of drugs often called as painkillers are **Analgesics**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Who discovered penicillin?",
+    "answer": "Penicillin was discovered by **Alexander Fleming**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of chloroxylenol and salvarsan.",
+    "answer": "<strong>Chloroxylenol:</strong> A benzene ring with a hydroxyl (-OH) group, a methyl ($CH_3$) group, and a chlorine (Cl) atom. <strong>Salvarsan:</strong> An arsenic-based compound with two benzene rings connected by an arsenic-arsenic double bond, with hydroxyl and amino groups attached to the rings.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Draw the structure of BHT.",
+    "answer": "BHT (Butylated hydroxytoluene) is a substituted phenol. Its structure consists of a phenol ring with a methyl group and two tert-butyl groups.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the tincture of iodine?",
+    "answer": "Tincture of iodine is a solution of **iodine in alcohol and water**. It is a potent antiseptic used for sterilizing skin before surgery and for treating wounds.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Write a chemical equation for saponification.",
+    "answer": "Saponification is the alkaline hydrolysis of an ester or a fat. The general equation is: **Fat or Oil + $NaOH$ $\\rightarrow$ Soap (Sodium salt of fatty acid) + Glycerol**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two examples of the following: a. Analgesics, b. Antiseptics, c. Antibiotics, d. Disinfectant.",
+    "answer": "a. **Analgesics:** Aspirin, Ibuprofen, Paracetamol.<br>b. **Antiseptics:** Dettol (Chloroxylenol), Tincture of Iodine, Boric acid.<br>c. **Antibiotics:** Penicillin, Chloramphenicol, Salvarsan.<br>d. **Disinfectant:** Phenol (1.0% solution), Chlorine.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write two names drug which reduce body pain.",
+    "answer": "Two drugs that reduce body pain are **Aspirin** and **Paracetamol**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain with examples: a. Antiseptics, b. Disinfectant, c. Cationic detergents, d. Anionic detergents.",
+    "answer": "a. **Antiseptics:** Chemical substances that are applied to living tissues to prevent the growth of microorganisms. **Example:** Dettol, Boric acid.<br>b. **Disinfectant:** Chemical substances used to kill microorganisms on non-living objects. **Example:** 1% Phenol solution, Chlorine.<br>c. **Cationic detergents:** Detergents that are quarternary ammonium salts with a long hydrocarbon chain. The cationic part is the active part. **Example:** Cetyltrimethylammonium bromide.<br>d. **Anionic detergents:** Detergents that are sodium salts of sulfonated long-chain alcohols or hydrocarbons. The anionic part is the active part. **Example:** Sodium dodecylbenzenesulfonate.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Explain: a. Cooking makes food easy to digest, b. On cutting some fruits and vegetable turn brown, c. Vitamin E is added to packed edible oil, d. Browning of cut apple can be prolonged by applying lemon juice, e. A diluted solution (4.8% w/v) of 2,4,6-trichlorophenol is employed as antiseptic, f. Turmeric powder can be used as antiseptic.",
+    "answer": "a. **Cooking makes food easy to digest:** Heat from cooking breaks down complex food molecules like proteins and carbohydrates into simpler, more easily digestible forms. It also softens the food, making it easier for enzymes to act on.<br>b. **Browning of fruits and vegetables:** This occurs due to an enzymatic reaction called oxidative browning. The enzyme polyphenol oxidase, when exposed to oxygen from the air, oxidizes phenolic compounds in the fruit or vegetable, leading to the formation of brown pigments.<br>c. **Vitamin E is added to packed edible oil:** Vitamin E is a natural antioxidant. It is added to packed edible oils to prevent oxidative rancidity, which is the breakdown of fats by oxygen, leading to unpleasant smells and tastes.<br>d. **Browning of cut apple can be prolonged by applying lemon juice:** Lemon juice contains citric acid and ascorbic acid (Vitamin C), both of which are antioxidants. These acids inhibit the browning enzyme (polyphenol oxidase) and also act as a reducing agent to prevent the oxidation of phenolic compounds.<br>e. **Diluted solution of 2,4,6-trichlorophenol as antiseptic:** 2,4,6-trichlorophenol is a strong disinfectant. In very low concentrations (diluted), it is safe to be used on living tissues as an antiseptic to kill microorganisms without causing harm.<br>f. **Turmeric powder can be used as antiseptic:** Turmeric contains a compound called curcumin, which has natural antibacterial, antifungal, and antiseptic properties. It is traditionally used to heal wounds and cuts.",
+    "marks": 6
+  },
+  {
+    "type": "short",
+    "text": "Identify the functional grops in the following molecule: Aspirin.",
+    "answer": "Aspirin (acetylsalicylic acid) has two main functional groups: a **carboxylic acid group (-COOH)** and an **ester group (-COO$CH_3$)**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Give two differences between the following: a. Disinfectant and antiseptic, b. Soop and synthetic detergent, c. Saturated and unsaturated fats, d. Rice flour and cooked rice.",
+    "answer": "a. **Disinfectant vs. Antiseptic:** Disinfectants are used on inanimate objects to kill microorganisms (e.g., phenol). Antiseptics are used on living tissues to prevent the growth of microorganisms (e.g., Dettol).<br>b. **Soap vs. Synthetic detergent:** Soaps are sodium or potassium salts of long-chain fatty acids. They don't work well in hard water. Synthetic detergents are salts of sulfonic acids. They work well in both soft and hard water.<br>c. **Saturated vs. Unsaturated fats:** Saturated fats have single bonds between carbon atoms. They are typically solid at room temperature. Unsaturated fats have one or more double bonds. They are typically liquid at room temperature and are considered healthier.<br>d. **Rice flour vs. Cooked rice:** Rice flour is a finely ground powder of raw rice. It is a complex carbohydrate. Cooked rice is prepared by boiling rice flour in water. Cooking gelatinizes the starch, making it easier to digest.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain mechanism of cleansing action of soap with flow chart.",
+    "answer": "The cleansing action of soap is based on the formation of micelles. Soap molecules have a long hydrocarbon chain (hydrophobic tail) and a polar head (hydrophilic head). The mechanism is:<br>1. When soap is added to water, it forms a micelle. The hydrophobic tails of the soap anions point inward, and the hydrophilic heads face outward towards the water.<br>2. When a greasy stain comes in contact with the soap solution, the hydrophobic tails of the soap anions get embedded in the grease drop, while the hydrophilic heads remain outside in the water.<br>3. The grease drop is encapsulated by the soap anions, forming a spherical cluster called a micelle.<br>4. The negative charges on the hydrophilic heads of the micelle repel each other, preventing the grease drops from coalescing. The micelle is washed away with the water, removing the dirt and grease. ",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is meant by broad spectrum antibiotic and narrow spectrum antibiotics?",
+    "answer": "A **broad-spectrum antibiotic** is an antibiotic that is effective against a wide range of bacteria, including both Gram-positive and Gram-negative bacteria. It is useful when the infecting organism is not known. **Example:** Chloramphenicol. A **narrow-spectrum antibiotic** is an antibiotic that is effective against a limited or specific range of bacteria. It is used when the infecting organism is identified. **Example:** Penicillin G.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write the molecular formula and name of Glycerin.",
+    "answer": "Glycerin (or glycerol) is a simple polyol compound. The molecular formula is **$C_3H_8O_3$**. The name is **propane-1,2,3-triol**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Draw the structure of Glycerin.",
+    "answer": "The structure of Glycerin (propane-1,2,3-triol) is a three-carbon chain with a hydroxyl (-OH) group on each carbon atom. ",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write molecular formula of Butylated hydroxy toluene.",
+    "answer": "Butylated hydroxytoluene (BHT) is an organic compound that is a derivative of phenol. Its molecular formula is **$C_{15}H_{24}O$**.",
+    "marks": 1
+  }
+]

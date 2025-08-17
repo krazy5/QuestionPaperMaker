@@ -1,0 +1,178 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is not an allotrope of carbon?",
+    "options": [
+      "bucky ball",
+      "diamond",
+      "graphite",
+      "emerald"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "is inorganic graphite",
+    "options": [
+      "borax",
+      "diborane",
+      "carbon nitride",
+      "colemanite"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Haber's process is used for preparation of ..............",
+    "options": [
+      "$HNO_3$",
+      "$NH_3$",
+      "$NH_2CONH_2$",
+      "$NH_4OH$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Thallium shows different oxidation state because .............",
+    "options": [
+      "of inert pair effect",
+      "it is inner transition element",
+      "it is metal",
+      "of its high electronegativity"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following shows most prominent inert pair effect?",
+    "options": [
+      "C",
+      "Si",
+      "Ge",
+      "Pb"
+    ],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The acidic nature of oxides of group 13 increases down the graph.",
+    "options": [
+      "A",
+      "B"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The tendency for catenation is much higher for C than for Si.",
+    "options": [
+      "A",
+      "B"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Identify the group 14 element that best fits each of the following description. a. Non metallic element, b. Form the most acidic oxide, c. They prefer +2 oxidation state, d. Forms strong $\\pi$ bonds.",
+    "answer": "a. The non-metallic element in Group 14 is **Carbon (C)**.<br>b. The most acidic oxide is formed by **Carbon (C)** ($CO_2$).<br>c. The element that prefers the +2 oxidation state is **Lead (Pb)** due to the inert pair effect.<br>d. The element that forms strong $\\pi$ bonds is **Carbon (C)**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give the formula of a compound in which carbon exhibit an oxidation state of a. +4, b. +2, c. -4.",
+    "answer": "a. Carbon's oxidation state is +4 in **$CO_2$**.<br>b. Carbon's oxidation state is +2 in **CO**.<br>c. Carbon's oxidation state is -4 in **$CH_4$**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the trend of the following in group 13 elements: a. atomic radii, b. ionization enthalpy, c. electron affinity.",
+    "answer": "a. **Atomic radii:** Generally increases down the group from Al to Ga due to the presence of d-orbitals, and then increases. The trend is $B < Al \\approx Ga < In < Tl$.<br>b. **Ionization enthalpy:** The trend is irregular due to the poor shielding effect of d- and f-electrons. It is not a smooth decrease. The order is $B > Tl > Ga > Al > In$.<br>c. **Electron affinity:** Generally decreases down the group. However, there are irregularities, for example, the electron affinity of Aluminum (Al) is greater than that of Boron (B).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is hybridization of Al in $AlCl_3$?",
+    "answer": "The hybridization of Aluminum (Al) in $AlCl_3$ is **$sp^2$**. It forms three sigma bonds with three chlorine atoms, resulting in a trigonal planar geometry.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Name a molecule having banana bond?",
+    "answer": "A molecule having banana bonds (or three-center two-electron bonds) is **Diborane ($B_2H_6$)**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are silicones? Where are they used?",
+    "answer": "Silicones are a class of polymers that contain silicon-oxygen-silicon backbones with organic groups attached to the silicon atoms. They are used as lubricants, sealants, adhesives, and in medical implants due to their thermal stability and water-repellent properties.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the trend in oxidation state of elements from nitrogen to bismuth.",
+    "answer": "The general oxidation state for Group 15 elements is +5. However, due to the **inert pair effect**, the stability of the +3 oxidation state increases down the group, while the stability of the +5 oxidation state decreases. Nitrogen and phosphorus prefer +5, while arsenic and antimony show both +3 and +5 states. Bismuth prefers the +3 oxidation state.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give the best test that is used to detect borate radical is qualitative analysis.",
+    "answer": "The best test to detect a borate radical is the **flame test** (borax bead test). When a borax bead is heated in a flame with a borate sample, it produces a characteristic green-edged flame due to the formation of ethyl borate.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain structure and bonding of diborane.",
+    "answer": "The structure of diborane ($B_2H_6$) consists of two boron atoms and six hydrogen atoms. Four of the hydrogen atoms are terminal and form normal B-H covalent bonds. The remaining two hydrogen atoms are bridging and form two unique bonds known as **banana bonds** or three-center two-electron bonds. In these bonds, a single electron pair holds three atoms (B-H-B) together.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Ammonia is a good complexing agent. Explain.",
+    "answer": "Ammonia ($NH_3$) is a good complexing agent because the nitrogen atom has a **lone pair of electrons** that it can donate to a central metal ion to form a coordinate bond. This ability to act as a Lewis base makes it an effective ligand for forming complex ions.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give the reactions supporting basic nature of ammonia.",
+    "answer": "Ammonia acts as a Lewis base by accepting a proton or donating its lone pair of electrons. It reacts with water to form ammonium hydroxide: **$NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-$**. It also reacts with acids like HCl to form a salt: **$NH_3 + HCl \\rightarrow NH_4Cl$**. The presence of the hydroxide ion in the first reaction and the ability to accept a proton show its basic nature.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Shravani was performing inorganic qualitative analysis of a salt. To an aqueous solution of that salt, she added silver nitrate. When a white precipitate was formed. On adding ammonium hydroxide to this, she obtained a clear solution. Comment on her observations and write the chemical reactions involved.",
+    "answer": "Shravani's observations indicate the presence of a **chloride ion ($Cl^-$)** in the salt. The white precipitate formed with silver nitrate is silver chloride (AgCl), which is a characteristic test for chloride ions. Silver chloride is soluble in ammonium hydroxide due to the formation of a complex ion, which is why the solution became clear. The reactions are: **$AgNO_3 + NaCl \\rightarrow AgCl\\downarrow (white) + NaNO_3$** and **$AgCl + 2NH_4OH \\rightarrow [Ag(NH_3)_2]Cl + 2H_2O$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Draw the structure of the following: a. Orthophosphoric acid, b. Resonance structure of nitric acid.",
+    "answer": "a. **Orthophosphoric acid ($H_3PO_4$):** A central phosphorus atom is double-bonded to one oxygen atom, single-bonded to three other oxygen atoms, and each of those three oxygen atoms is single-bonded to a hydrogen atom. <br>b. **Resonance structure of nitric acid ($HNO_3$):** The structure has one N=O double bond, one N-O single bond, and one N-OH single bond. The resonance structures show the delocalization of the double bond between the two oxygen atoms that are not bonded to hydrogen. ",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find out the difference between a. Diamond and Graphite, b. White phosphorus and Red phosphorus.",
+    "answer": "<strong>a. Diamond and Graphite:</strong><br>- **Diamond:** Is a rigid, 3D lattice where each carbon atom is $sp^3$ hybridized and bonded to four other carbon atoms. It is a very hard, non-conductor of electricity. <br>- **Graphite:** Is a layered structure where each carbon atom is $sp^2$ hybridized and bonded to three other carbon atoms in a hexagonal plane. It is soft, a good conductor of electricity, and the layers can slide over each other. <br><strong>b. White phosphorus and Red phosphorus:</strong><br>- **White phosphorus:** Is a tetrahedral $P_4$ molecule. It is a soft, waxy solid that is highly reactive, phosphorescent, and toxic. It is soluble in carbon disulfide.<br>- **Red phosphorus:** Is a polymeric chain structure. It is less reactive, non-toxic, and insoluble in carbon disulfide. It is formed by heating white phosphorus in an inert atmosphere.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A compound is prepared from the mineral colemanite by boiling it with a solution of sodium carbonate. It is white crystalline solid and used for inorganic qualitative analysis. a. Name the compound produced, b. Write the reaction that explains its formation.",
+    "answer": "a. The compound produced is **Sodium tetraborate ($Na_2B_4O_7.10H_2O$)**, commonly known as Borax. It is used in qualitative analysis as a borax bead test.<br>b. The reaction is: **$Ca_2B_6O_{11} + 2Na_2CO_3 \\rightarrow 2CaCO_3\\downarrow + Na_2B_4O_7 + 2NaBO_2$**.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Give reasons: a. $Ga^{3+}$ salts are better reducing agent while $Tl^{3+}$ salts are better oxidising agent, b. $PbCl_4$ is less stable than $PbCl_2$.",
+    "answer": "a. **Reducing vs. Oxidizing agents:** Due to the inert pair effect in Group 13, the stability of the +1 oxidation state increases down the group, while the stability of the +3 oxidation state decreases. $Ga^{3+}$ is relatively stable, so it's not a strong oxidizing agent and doesn't want to get reduced. The provided statement seems to have a typo, as $Tl^{3+}$ is a stronger oxidizing agent. The correct statement should be that $Ga^{3+}$ is less stable than $Al^{3+}$, and $Tl^{3+}$ is a strong oxidizing agent. The statement as written is likely incorrect.<br>b. **$PbCl_4$ vs. $PbCl_2$ stability:** In Group 14, the stability of the +2 oxidation state increases down the group due to the inert pair effect, while the +4 state becomes less stable. Lead (Pb) is at the bottom of the group, so its +2 oxidation state is more stable than its +4 oxidation state. Therefore, $PbCl_4$ readily accepts two electrons to become $PbCl_2$, making $PbCl_4$ less stable.",
+    "marks": 3
+  }
+]

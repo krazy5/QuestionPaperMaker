@@ -1,0 +1,68 @@
+ [
+    {
+      "type": "mcq",
+      "text": "Who proposed the cell theory along with Matthias Schleiden?",
+      "options": ["Robert Hooke", "Theodor Schwann", "Rudolf Virchow", "Anton van Leeuwenhoek"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which cell organelle is known as the 'powerhouse of the cell'?",
+      "options": ["Nucleus", "Chloroplast", "Mitochondria", "Golgi apparatus"],
+      "correct_answer": "C",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Prokaryotic cells lack:",
+      "options": ["Ribosomes", "Plasma membrane", "Nucleus", "Cytoplasm"],
+      "correct_answer": "C",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In plant cells, the cell wall is mainly composed of:",
+      "options": ["Pectin", "Chitin", "Cellulose", "Glycogen"],
+      "correct_answer": "C",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which of the following is a double-membrane-bound organelle?",
+      "options": ["Mitochondria", "Ribosome", "Lysosome", "Peroxisome"],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "State the cell theory in brief.",
+      "answer": "All living organisms are made of cells; the cell is the basic unit of life; cells arise from pre-existing cells.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "What is the function of ribosomes?",
+      "answer": "Protein synthesis.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Give two examples of prokaryotic organisms.",
+      "answer": "Escherichia coli, Nostoc.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Describe the structure and functions of the nucleus.",
+      "answer": "Structure: Double membrane-bound organelle with nuclear envelope, nucleoplasm, chromatin, and nucleolus.<br>Functions: Stores genetic material (DNA), controls cell activities, regulates protein synthesis, cell division.",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Differentiate between prokaryotic and eukaryotic cells.",
+      "answer": "Prokaryotic: No true nucleus, circular DNA, small ribosomes (70S), no membrane-bound organelles.<br>Eukaryotic: True nucleus, linear DNA with histones, large ribosomes (80S), membrane-bound organelles present.",
+      "marks": 3
+    }
+  ]
+

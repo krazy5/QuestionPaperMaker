@@ -1,0 +1,746 @@
+[
+  {
+    "type": "long",
+    "text": "Find the equations of the tangent and normal to the curve $y=x^2+2e^x+2$ at the point $(0,4)$.",
+    "answer": "Given the curve $y=x^2+2e^x+2$. First, find the derivative to get the slope of the tangent: $\\frac{dy}{dx} = 2x+2e^x$. At the point $(0,4)$, the slope of the tangent is $m_{tangent} = 2(0)+2e^0 = 2$. The equation of the tangent is $y-4=2(x-0)$, which simplifies to $2x-y+4=0$. The slope of the normal is the negative reciprocal of the tangent's slope, $m_{normal} = -\\frac{1}{2}$. The equation of the normal is $y-4=-\\frac{1}{2}(x-0)$, which simplifies to $x+2y-8=0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the equations of the tangent and normal to the curve $x^3+y^3-9xy=0$ at the point $(2,4)$.",
+    "answer": "Given the curve $x^3+y^3-9xy=0$. Differentiating implicitly w.r.t. x gives $3x^2+3y^2\\frac{dy}{dx}-9(y+x\\frac{dy}{dx})=0$. Rearranging to solve for $\\frac{dy}{dx}$ yields $\\frac{dy}{dx} = \\frac{3y-x^2}{y^2-3x}$. At the point $(2,4)$, the slope of the tangent is $m_{tangent} = \\frac{3(4)-2^2}{4^2-3(2)} = \\frac{8}{10} = \\frac{4}{5}$. The tangent equation is $y-4=\\frac{4}{5}(x-2)$, or $4x-5y+12=0$. The slope of the normal is $m_{normal}=-\\frac{5}{4}$. The normal equation is $y-4=-\\frac{5}{4}(x-2)$, or $5x+4y-26=0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the equations of the tangent and normal to the curve $x^2-\\sqrt{3}xy+2y^2=5$ at the point $(\\sqrt{3}, 2)$.",
+    "answer": "For the curve $x^2-\\sqrt{3}xy+2y^2=5$, we differentiate implicitly: $2x - \\sqrt{3}(y+x\\frac{dy}{dx}) + 4y\\frac{dy}{dx} = 0$. This gives $\\frac{dy}{dx} = \\frac{\\sqrt{3}y-2x}{4y-\\sqrt{3}x}$. At $(\\sqrt{3}, 2)$, the slope is $m_{tangent} = \\frac{\\sqrt{3}(2)-2(\\sqrt{3})}{4(2)-\\sqrt{3}(\\sqrt{3})} = \\frac{0}{5}=0$. The tangent is a horizontal line, so its equation is $y=2$. The normal is a vertical line, and its equation is $x=\\sqrt{3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the equations of the tangent and normal to the curve $2xy+\\pi \\sin(y)=2\\pi$ at the point $(1, \\frac{\\pi}{2})$.",
+    "answer": "Given $2xy+\\pi \\sin(y)=2\\pi$. Differentiating implicitly: $2(y+x\\frac{dy}{dx})+\\pi \\cos(y)\\frac{dy}{dx}=0$. So, $\\frac{dy}{dx} = \\frac{-2y}{2x+\\pi \\cos(y)}$. At $(1, \\frac{\\pi}{2})$, $m_{tangent}=\\frac{-2(\\pi/2)}{2(1)+\\pi \\cos(\\pi/2)} = \\frac{-\\pi}{2}$. The tangent equation is $y-\\frac{\\pi}{2}=-\\frac{\\pi}{2}(x-1)$, or $\\pi x+2y-2\\pi=0$. The normal's slope is $m_{normal}=\\frac{2}{\\pi}$. The normal equation is $y-\\frac{\\pi}{2}=\\frac{2}{\\pi}(x-1)$, or $4x-2\\pi y+\\pi^2-4=0$.",
+    "marks": 4
+  },
+    {
+    "type": "long",
+    "text": "Find the equations of the tangent and normal to the curve $x \\sin(2y) = y \\cos(2x)$ at $(\\frac{\\pi}{4}, \\frac{\\pi}{2})$.",
+    "answer": "Differentiating $x \\sin(2y) = y \\cos(2x)$ implicitly gives $\\sin(2y) + 2x\\cos(2y)\\frac{dy}{dx} = \\cos(2x)\\frac{dy}{dx} - 2y\\sin(2x)$. Solving for the derivative, $\\frac{dy}{dx} = \\frac{\\sin(2y)+2y\\sin(2x)}{\\cos(2x)-2x\\cos(2y)}$. At $(\\frac{\\pi}{4}, \\frac{\\pi}{2})$, $m_{tangent} = \\frac{\\sin(\\pi)+2(\\pi/2)\\sin(\\pi/2)}{\\cos(\\pi/2)-2(\\pi/4)\\cos(\\pi)} = \\frac{0+\\pi(1)}{0-(\\pi/2)(-1)} = 2$. The tangent equation is $y-\\frac{\\pi}{2} = 2(x-\\frac{\\pi}{4})$, which is $2x-y=0$. The normal slope is $-\\frac{1}{2}$. The normal equation is $y-\\frac{\\pi}{2}=-\\frac{1}{2}(x-\\frac{\\pi}{4})$, or $4x+8y-5\\pi=0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the equations of the tangent and normal to the curve $x=\\sin\\theta$ and $y=\\cos(2\\theta)$ at $\\theta = \\frac{\\pi}{6}$.",
+    "answer": "For the parametric curve $x=\\sin\\theta, y=\\cos(2\\theta)$, we find the derivatives $\\frac{dx}{d\\theta}=\\cos\\theta$ and $\\frac{dy}{d\\theta}=-2\\sin(2\\theta)$. The slope of the tangent is $\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta} = \\frac{-2\\sin(2\\theta)}{\\cos\\theta}$. At $\\theta=\\frac{\\pi}{6}$, the point is $(x,y) = (\\sin(\\frac{\\pi}{6}), \\cos(\\frac{\\pi}{3})) = (\\frac{1}{2}, \\frac{1}{2})$. The slope is $m_{tangent} = \\frac{-2\\sin(\\pi/3)}{\\cos(\\pi/6)} = -2$. The tangent equation is $y-\\frac{1}{2}=-2(x-\\frac{1}{2})$, or $4x+2y-3=0$. The normal slope is $\\frac{1}{2}$. The normal equation is $y-\\frac{1}{2}=\\frac{1}{2}(x-\\frac{1}{2})$, or $2x-4y+1=0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the equations of the tangent and normal to the curve $x=\\sqrt{t}, y=t-\\frac{1}{\\sqrt{t}}$ at $t=4$.",
+    "answer": "Given $x=\\sqrt{t}$ and $y=t-t^{-1/2}$. At $t=4$, the point is $(2, 4-\\frac{1}{2}) = (2, \\frac{7}{2})$. The derivatives are $\\frac{dx}{dt}=\\frac{1}{2\\sqrt{t}}$ and $\\frac{dy}{dt}=1+\\frac{1}{2}t^{-3/2}$. The slope is $\\frac{dy}{dx} = \\frac{1+\\frac{1}{2t\\sqrt{t}}}{1/(2\\sqrt{t})}$. At $t=4$, $m_{tangent} = \\frac{1+1/16}{1/4} = \\frac{17}{4}$. The tangent equation is $y-\\frac{7}{2}=\\frac{17}{4}(x-2)$, or $17x-4y-20=0$. The normal slope is $-\\frac{4}{17}$. The normal equation is $y-\\frac{7}{2}=-\\frac{4}{17}(x-2)$, or $8x+34y-135=0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the point on the curve $y=\\sqrt{x-3}$ where the tangent is perpendicular to the line $6x+3y-5=0$.",
+    "answer": "The line $6x+3y-5=0$ can be written as $y=-2x+\\frac{5}{3}$, so its slope is $-2$. The slope of a perpendicular tangent must be $m_{tangent} = -\\frac{1}{-2} = \\frac{1}{2}$. The derivative of the curve is $\\frac{dy}{dx} = \\frac{1}{2\\sqrt{x-3}}$. Setting the derivative equal to the required slope gives $\\frac{1}{2\\sqrt{x-3}} = \\frac{1}{2}$, which implies $\\sqrt{x-3}=1$. Squaring both sides gives $x-3=1$, so $x=4$. The corresponding y-coordinate is $y=\\sqrt{4-3}=1$. The point is $(4,1)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the points on the curve $y=x^3-2x^2-x$ where the tangents are parallel to the line $3x-y+1=0$.",
+    "answer": "The line $3x-y+1=0$ has a slope of $3$. We need to find points on the curve where the tangent has a slope of $3$. The derivative of the curve is $\\frac{dy}{dx}=3x^2-4x-1$. Setting $\\frac{dy}{dx}=3$ gives $3x^2-4x-1=3$, or $3x^2-4x-4=0$. Solving this quadratic equation gives $x=2$ or $x=-\\frac{2}{3}$. For $x=2$, $y=2^3-2(2^2)-2=-2$. For $x=-\\frac{2}{3}$, $y=(-\\frac{2}{3})^3-2(-\\frac{2}{3})^2-(-\\frac{2}{3}) = -\\frac{14}{27}$. The points are $(2, -2)$ and $(-\\frac{2}{3}, -\\frac{14}{27})$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the equations of the tangents to the curve $x^2+y^2-2x-4y+1=0$ which are parallel to the X-axis.",
+    "answer": "A tangent parallel to the X-axis has a slope of $0$. Differentiating the curve's equation implicitly gives $2x+2y\\frac{dy}{dx}-2-4\\frac{dy}{dx}=0$. Solving for the derivative, $\\frac{dy}{dx}=\\frac{2-2x}{2y-4}=\\frac{1-x}{y-2}$. Setting $\\frac{dy}{dx}=0$ implies $1-x=0$, so $x=1$. Substituting $x=1$ into the curve's equation gives $1+y^2-2-4y+1=0$, which simplifies to $y^2-4y=0$, so $y(y-4)=0$. The points of tangency are $(1,0)$ and $(1,4)$. The equations of the horizontal tangents are therefore $y=0$ and $y=4$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the equations of the normals to the curve $3x^2-y^2=8$, which are parallel to the line $x+3y=4$.",
+    "answer": "The line $x+3y=4$ has a slope of $-\\frac{1}{3}$. Since the normal is parallel to this line, the slope of the normal is $m_{normal}=-\\frac{1}{3}$. The slope of the tangent is the negative reciprocal, $m_{tangent}=3$. Differentiating the curve $3x^2-y^2=8$ gives $6x-2y\\frac{dy}{dx}=0$, so $\\frac{dy}{dx}=\\frac{3x}{y}$. Setting the tangent slope to 3 gives $\\frac{3x}{y}=3$, which means $x=y$. Substituting $x=y$ into the curve's equation gives $3x^2-x^2=8$, so $2x^2=8$, $x=\\pm 2$. The points are $(2,2)$ and $(-2,-2)$. The normal at $(2,2)$ is $y-2=-\\frac{1}{3}(x-2)$, or $x+3y-8=0$. The normal at $(-2,-2)$ is $y+2=-\\frac{1}{3}(x+2)$, or $x+3y+8=0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If the line $y = 4x-5$ touches the curve $y^2=ax^3+b$ at the point $(2,3)$, find $a$ and $b$.",
+    "answer": "Since the point $(2,3)$ is on the curve, it must satisfy the equation: $3^2=a(2^3)+b$, which simplifies to $9=8a+b$. The slope of the line $y=4x-5$ is $4$. This must be equal to the derivative of the curve at $(2,3)$. Differentiating $y^2=ax^3+b$ gives $2y\\frac{dy}{dx}=3ax^2$, so $\\frac{dy}{dx}=\\frac{3ax^2}{2y}$. At $(2,3)$, the slope is $\\frac{3a(2^2)}{2(3)}=2a$. Setting the slopes equal: $2a=4$, so $a=2$. Substituting $a=2$ into the first equation gives $9=8(2)+b$, so $b=-7$. Thus, $a=2$ and $b=-7$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A particle moves along the curve $6y=x^3+2$. Find the points on the curve at which the y-coordinate is changing 8 times as fast as the x-coordinate.",
+    "answer": "We are given the condition $\\frac{dy}{dt} = 8\\frac{dx}{dt}$. By the chain rule, $\\frac{dy}{dt} = \\frac{dy}{dx} \\cdot \\frac{dx}{dt}$, which implies $\\frac{dy}{dx}=8$. Differentiating the curve's equation $6y=x^3+2$ with respect to $x$ gives $6\\frac{dy}{dx}=3x^2$, so $\\frac{dy}{dx}=\\frac{x^2}{2}$. Setting this equal to 8 gives $\\frac{x^2}{2}=8$, or $x^2=16$, so $x=\\pm 4$. For $x=4$, $6y=4^3+2=66$, so $y=11$. The point is $(4,11)$. For $x=-4$, $6y=(-4)^3+2=-62$, so $y=-\\frac{31}{3}$. The point is $(-4, -\\frac{31}{3})$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A spherical soap bubble is expanding so that its radius is increasing at the rate of $0.02$ cm/sec. At what rate is the surface area increasing, when its radius is $5$ cm?",
+    "answer": "Let $r$ be the radius and $A$ be the surface area. We are given $\\frac{dr}{dt}=0.02$ cm/sec and we need to find $\\frac{dA}{dt}$ when $r=5$ cm. The surface area of a sphere is $A=4\\pi r^2$. Differentiating with respect to time $t$, we get $\\frac{dA}{dt}=8\\pi r \\frac{dr}{dt}$. Substituting the given values: $\\frac{dA}{dt} = 8\\pi(5)(0.02) = 0.8\\pi$ cm$^2$/sec.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The surface area of a spherical balloon is increasing at the rate of $2$ cm²/sec. At what rate is the volume of the balloon increasing when the radius of the balloon is $6$ cm?",
+    "answer": "Let $A$ be the surface area, $V$ be the volume, and $r$ be the radius. We are given $\\frac{dA}{dt}=2$ cm$^2$/sec and need to find $\\frac{dV}{dt}$ when $r=6$ cm. The formulas are $A=4\\pi r^2$ and $V=\\frac{4}{3}\\pi r^3$. From the area formula, $\\frac{dA}{dt}=8\\pi r \\frac{dr}{dt}$. Substituting known values: $2=8\\pi(6)\\frac{dr}{dt}$, which gives $\\frac{dr}{dt}=\\frac{1}{24\\pi}$ cm/sec. From the volume formula, $\\frac{dV}{dt}=4\\pi r^2 \\frac{dr}{dt}$. Substituting values: $\\frac{dV}{dt}=4\\pi(6^2)(\\frac{1}{24\\pi}) = \\frac{144\\pi}{24\\pi}=6$ cm$^3$/sec.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If each side of an equilateral triangle increases at the rate of $\\sqrt{2}$ cm/sec, find the rate of increase of its area when its side of length is $3$ cm.",
+    "answer": "Let $s$ be the side length and $A$ be the area. We are given $\\frac{ds}{dt}=\\sqrt{2}$ cm/sec and need to find $\\frac{dA}{dt}$ when $s=3$ cm. The area of an equilateral triangle is $A=\\frac{\\sqrt{3}}{4}s^2$. Differentiating with respect to time $t$: $\\frac{dA}{dt} = \\frac{\\sqrt{3}}{4}(2s)\\frac{ds}{dt} = \\frac{\\sqrt{3}}{2}s\\frac{ds}{dt}$. Substituting the given values: $\\frac{dA}{dt} = \\frac{\\sqrt{3}}{2}(3)(\\sqrt{2}) = \\frac{3\\sqrt{6}}{2}$ cm$^2$/sec.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The volume of a sphere increases at the rate of $20$ cm³/sec. Find the rate of change of its surface area when its radius is $5$ cm.",
+    "answer": "Let $V$ be volume, $A$ be surface area, and $r$ be radius. We have $\\frac{dV}{dt}=20$ cm$^3$/sec and need $\\frac{dA}{dt}$ when $r=5$ cm. The formulas are $V=\\frac{4}{3}\\pi r^3$ and $A=4\\pi r^2$. From volume, $\\frac{dV}{dt}=4\\pi r^2 \\frac{dr}{dt}$. So, $20=4\\pi(5^2)\\frac{dr}{dt}$, which gives $\\frac{dr}{dt}=\\frac{20}{100\\pi}=\\frac{1}{5\\pi}$ cm/sec. For area, $\\frac{dA}{dt}=8\\pi r \\frac{dr}{dt}$. Substituting values: $\\frac{dA}{dt} = 8\\pi(5)(\\frac{1}{5\\pi})=8$ cm$^2$/sec.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The edge of a cube is decreasing at the rate of $0.6$ cm/sec. Find the rate at which its volume is decreasing when the edge of the cube is $2$ cm.",
+    "answer": "Let $x$ be the edge length and $V$ be the volume. We are given $\\frac{dx}{dt}=-0.6$ cm/sec (decreasing) and need to find $\\frac{dV}{dt}$ when $x=2$ cm. The volume of a cube is $V=x^3$. Differentiating with respect to time $t$: $\\frac{dV}{dt} = 3x^2 \\frac{dx}{dt}$. Substituting the values: $\\frac{dV}{dt} = 3(2^2)(-0.6) = 12(-0.6) = -7.2$ cm$^3$/sec. The volume is decreasing at a rate of $7.2$ cm$^3$/sec.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A man of height 2 meters walks at a uniform speed of 6 km/hr away from a lamp post of 6 meters high. Find the rate at which the length of the shadow is increasing.",
+    "answer": "Let $x$ be the man's distance from the post and $y$ be the length of his shadow. The lamp post height is $L=6$ m, and the man's height is $H=2$ m. By similar triangles, $\\frac{y}{H} = \\frac{x+y}{L}$, so $\\frac{y}{2}=\\frac{x+y}{6}$. This simplifies to $6y=2x+2y$, or $4y=2x$, which means $y=\\frac{1}{2}x$. Differentiating with respect to time, $\\frac{dy}{dt} = \\frac{1}{2}\\frac{dx}{dt}$. Given $\\frac{dx}{dt}=6$ km/hr, we get $\\frac{dy}{dt}=\\frac{1}{2}(6)=3$ km/hr.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A man of height 1.5 meters walks toward a lamp post of height 4.5 meters, at the rate of $(\\frac{3}{4})$ meter/sec. Find the rate at which (i) his shadow is shortening, (ii) the tip of the shadow is moving.",
+    "answer": "Let $x$ be the man's distance from the post and $y$ be the length of his shadow. Lamp height $L=4.5$ m, man's height $H=1.5$ m. We are given $\\frac{dx}{dt}=-\\frac{3}{4}$ m/s. By similar triangles, $\\frac{y}{1.5}=\\frac{x+y}{4.5}$, which simplifies to $3y=x+y$, or $x=2y$. (i) Differentiating w.r.t time: $\\frac{dx}{dt}=2\\frac{dy}{dt}$. So, $\\frac{dy}{dt}=\\frac{1}{2}\\frac{dx}{dt}=\\frac{1}{2}(-\\frac{3}{4})=-\\frac{3}{8}$ m/s. The shadow shortens at a rate of $\\frac{3}{8}$ m/s. (ii) The position of the tip of the shadow from the post is $z=x+y$. $\\frac{dz}{dt}=\\frac{dx}{dt}+\\frac{dy}{dt} = -\\frac{3}{4} - \\frac{3}{8} = -\\frac{9}{8}$ m/s. The tip moves towards the post at a rate of $\\frac{9}{8}$ m/s.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A ladder 10 meters long is leaning against a vertical wall. If the bottom of the ladder is pulled horizontally away from the wall at the rate of 1.2 meters per second, find how fast the top of the ladder is sliding down the wall when the bottom is 6 meters away from the wall.",
+    "answer": "Let $x$ be the distance of the bottom of the ladder from the wall and $y$ be the height of the top. The ladder's length is constant, so $x^2+y^2=10^2$. We are given $\\frac{dx}{dt}=1.2$ m/s and need to find $\\frac{dy}{dt}$ when $x=6$ m. When $x=6$, $y=\\sqrt{10^2-6^2}=8$ m. Differentiating the equation with respect to time $t$ gives $2x\\frac{dx}{dt}+2y\\frac{dy}{dt}=0$. Substituting values: $2(6)(1.2)+2(8)\\frac{dy}{dt}=0$, which gives $14.4+16\\frac{dy}{dt}=0$. Thus, $\\frac{dy}{dt}=-\\frac{14.4}{16}=-0.9$ m/s. The top is sliding down at a rate of $0.9$ m/s.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If water is poured into an inverted hollow cone whose semi-vertical angle is $30^\\circ$, so that its depth (measured along the axis) increases at the rate of 1 cm/sec, find the rate at which the volume of water is increasing when the depth is 2 cm.",
+    "answer": "Let $V$ be volume, $h$ be depth, and $r$ be radius. The semi-vertical angle is $\\alpha=30^\\circ$. We have $\\tan(30^\\circ)=\\frac{r}{h}$, so $r=\\frac{h}{\\sqrt{3}}$. The volume of a cone is $V=\\frac{1}{3}\\pi r^2 h$. Substituting $r$: $V=\\frac{1}{3}\\pi (\\frac{h}{\\sqrt{3}})^2 h = \\frac{\\pi h^3}{9}$. We are given $\\frac{dh}{dt}=1$ cm/sec and need $\\frac{dV}{dt}$ when $h=2$ cm. Differentiating volume w.r.t time: $\\frac{dV}{dt}=\\frac{\\pi}{9}(3h^2)\\frac{dh}{dt} = \\frac{\\pi h^2}{3}\\frac{dh}{dt}$. Substituting values: $\\frac{dV}{dt}=\\frac{\\pi(2^2)}{3}(1) = \\frac{4\\pi}{3}$ cm$^3$/sec.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\sqrt{8.95}$.",
+    "answer": "Let $f(x)=\\sqrt{x}$. We can write $8.95 = 9 - 0.05$. So let $a=9$ and $h=-0.05$. The approximation formula is $f(a+h) \\approx f(a) + hf'(a)$. We have $f(a)=f(9)=\\sqrt{9}=3$. The derivative is $f'(x)=\\frac{1}{2\\sqrt{x}}$, so $f'(a)=f'(9)=\\frac{1}{2\\sqrt{9}}=\\frac{1}{6}$. Therefore, $\\sqrt{8.95} \\approx 3 + (-0.05)(\\frac{1}{6}) = 3 - \\frac{0.05}{6} = 3 - 0.00833... \\approx 2.99167$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\sqrt[3]{28}$.",
+    "answer": "Let $f(x)=\\sqrt[3]{x}$. We can write $28 = 27 + 1$. So let $a=27$ and $h=1$. The approximation formula is $f(a+h) \\approx f(a) + hf'(a)$. We have $f(a)=f(27)=\\sqrt[3]{27}=3$. The derivative is $f'(x)=\\frac{1}{3}x^{-2/3}$, so $f'(a)=f'(27)=\\frac{1}{3(27)^{2/3}}=\\frac{1}{3(9)}=\\frac{1}{27}$. Therefore, $\\sqrt[3]{28} \\approx 3 + (1)(\\frac{1}{27}) = 3 + 0.0370... \\approx 3.037$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\sqrt[5]{31.98}$.",
+    "answer": "Let $f(x)=\\sqrt[5]{x}$. We write $31.98 = 32 - 0.02$. Let $a=32, h=-0.02$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=f(32)=2$. The derivative is $f'(x)=\\frac{1}{5}x^{-4/5}$, so $f'(a)=f'(32)=\\frac{1}{5(32)^{4/5}}=\\frac{1}{5(16)}=\\frac{1}{80}$. Therefore, $\\sqrt[5]{31.98} \\approx 2 + (-0.02)(\\frac{1}{80}) = 2 - 0.00025 = 1.99975$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $(3.97)^4$.",
+    "answer": "Let $f(x)=x^4$. We write $3.97 = 4 - 0.03$. Let $a=4, h=-0.03$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=f(4)=4^4=256$. The derivative is $f'(x)=4x^3$, so $f'(a)=f'(4)=4(4^3)=256$. Therefore, $(3.97)^4 \\approx 256 + (-0.03)(256) = 256 - 7.68 = 248.32$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $(4.01)^3$.",
+    "answer": "Let $f(x)=x^3$. We write $4.01 = 4 + 0.01$. Let $a=4, h=0.01$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=f(4)=4^3=64$. The derivative is $f'(x)=3x^2$, so $f'(a)=f'(4)=3(4^2)=48$. Therefore, $(4.01)^3 \\approx 64 + (0.01)(48) = 64 + 0.48 = 64.48$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\sin(61^\\circ)$ given that $1^\\circ = 0.0174^c$ and $\\sqrt{3}=1.732$.",
+    "answer": "Let $f(x)=\\sin(x)$. We write $61^\\circ = 60^\\circ + 1^\\circ$. Let $a=60^\\circ=\\frac{\\pi}{3}$ and $h=1^\\circ=0.0174^c$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\sin(60^\\circ)=\\frac{\\sqrt{3}}{2} \\approx \\frac{1.732}{2}=0.866$. The derivative is $f'(x)=\\cos(x)$, so $f'(a)=\\cos(60^\\circ)=\\frac{1}{2}=0.5$. Therefore, $\\sin(61^\\circ) \\approx 0.866 + (0.0174)(0.5) = 0.866 + 0.0087 = 0.8747$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\sin(29^\\circ 30')$ given that $1^\\circ = 0.0175^c$ and $\\sqrt{3}=1.732$.",
+    "answer": "Let $f(x)=\\sin(x)$. We write $29^\\circ 30' = 30^\\circ - 30'$. Let $a=30^\\circ=\\frac{\\pi}{6}$ and $h=-30' = -0.5^\\circ = -0.5 \\times 0.0175^c = -0.00875^c$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\sin(30^\\circ)=0.5$. The derivative is $f'(x)=\\cos(x)$, so $f'(a)=\\cos(30^\\circ)=\\frac{\\sqrt{3}}{2} \\approx 0.866$. Therefore, $\\sin(29^\\circ 30') \\approx 0.5 + (-0.00875)(0.866) = 0.5 - 0.0075775 \\approx 0.4924$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\cos(60^\\circ 30')$ given that $1^\\circ = 0.0175^c$ and $\\sqrt{3}=1.732$.",
+    "answer": "Let $f(x)=\\cos(x)$. We write $60^\\circ 30' = 60^\\circ + 30'$. Let $a=60^\\circ=\\frac{\\pi}{3}$ and $h=30' = 0.5^\\circ = 0.5 \\times 0.0175^c = 0.00875^c$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\cos(60^\\circ)=0.5$. The derivative is $f'(x)=-\\sin(x)$, so $f'(a)=-\\sin(60^\\circ)=-\\frac{\\sqrt{3}}{2} \\approx -0.866$. Therefore, $\\cos(60^\\circ 30') \\approx 0.5 + (0.00875)(-0.866) = 0.5 - 0.0075775 \\approx 0.4924$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\tan(45^\\circ 40')$ given that $1^\\circ = 0.0175^c$.",
+    "answer": "Let $f(x)=\\tan(x)$. We write $45^\\circ 40' = 45^\\circ + 40'$. Let $a=45^\\circ=\\frac{\\pi}{4}$ and $h=40' = (\\frac{40}{60})^\\circ = (\\frac{2}{3})^\\circ = \\frac{2}{3} \\times 0.0175^c \\approx 0.01167^c$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\tan(45^\\circ)=1$. The derivative is $f'(x)=\\sec^2(x)$, so $f'(a)=\\sec^2(45^\\circ)=(\\sqrt{2})^2=2$. Therefore, $\\tan(45^\\circ 40') \\approx 1 + (0.01167)(2) = 1 + 0.02334 = 1.02334$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\tan^{-1}(0.999)$.",
+    "answer": "Let $f(x)=\\tan^{-1}(x)$. We write $0.999 = 1 - 0.001$. Let $a=1, h=-0.001$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\tan^{-1}(1)=\\frac{\\pi}{4}$. The derivative is $f'(x)=\\frac{1}{1+x^2}$, so $f'(a)=\\frac{1}{1+1^2}=\\frac{1}{2}=0.5$. Therefore, $\\tan^{-1}(0.999) \\approx \\frac{\\pi}{4} + (-0.001)(0.5) = \\frac{\\pi}{4} - 0.0005$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\cot^{-1}(0.999)$.",
+    "answer": "Let $f(x)=\\cot^{-1}(x)$. We write $0.999 = 1 - 0.001$. Let $a=1, h=-0.001$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\cot^{-1}(1)=\\frac{\\pi}{4}$. The derivative is $f'(x)=-\\frac{1}{1+x^2}$, so $f'(a)=-\\frac{1}{1+1^2}=-\\frac{1}{2}=-0.5$. Therefore, $\\cot^{-1}(0.999) \\approx \\frac{\\pi}{4} + (-0.001)(-0.5) = \\frac{\\pi}{4} + 0.0005$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\tan^{-1}(1.001)$.",
+    "answer": "Let $f(x)=\\tan^{-1}(x)$. We write $1.001 = 1 + 0.001$. Let $a=1, h=0.001$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\tan^{-1}(1)=\\frac{\\pi}{4}$. The derivative is $f'(x)=\\frac{1}{1+x^2}$, so $f'(a)=\\frac{1}{1+1^2}=\\frac{1}{2}=0.5$. Therefore, $\\tan^{-1}(1.001) \\approx \\frac{\\pi}{4} + (0.001)(0.5) = \\frac{\\pi}{4} + 0.0005$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $e^{0.995}$.",
+    "answer": "Let $f(x)=e^x$. We write $0.995 = 1 - 0.005$. Let $a=1, h=-0.005$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=e^1=e$. The derivative is $f'(x)=e^x$, so $f'(a)=e^1=e$. Therefore, $e^{0.995} \\approx e + (-0.005)(e) = e(1-0.005) = 0.995e$. Assuming $e \\approx 2.718$, the value is approximately $0.995 \\times 2.718 \\approx 2.70441$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $e^{2.1}$ given that $e^2 = 7.389$.",
+    "answer": "Let $f(x)=e^x$. We write $2.1 = 2 + 0.1$. Let $a=2, h=0.1$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=e^2=7.389$. The derivative is $f'(x)=e^x$, so $f'(a)=e^2=7.389$. Therefore, $e^{2.1} \\approx 7.389 + (0.1)(7.389) = 7.389 + 0.7389 = 8.1279$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $3^{2.01}$ given that $\\log_e 3 = 1.0986$.",
+    "answer": "Let $f(x)=3^x$. We write $2.01 = 2 + 0.01$. Let $a=2, h=0.01$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=3^2=9$. The derivative is $f'(x)=3^x \\log_e 3$, so $f'(a)=3^2 \\log_e 3 = 9(1.0986) = 9.8874$. Therefore, $3^{2.01} \\approx 9 + (0.01)(9.8874) = 9 + 0.098874 = 9.098874$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\log_e(101)$ given that $\\log_e 10 = 2.3026$.",
+    "answer": "Let $f(x)=\\log_e(x)$. We write $101 = 100 + 1$. Let $a=100, h=1$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\log_e(100) = 2\\log_e(10) = 2(2.3026)=4.6052$. The derivative is $f'(x)=\\frac{1}{x}$, so $f'(a)=\\frac{1}{100}=0.01$. Therefore, $\\log_e(101) \\approx 4.6052 + (1)(0.01) = 4.6152$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\log_e(9.01)$ given that $\\log_e 3 = 1.0986$.",
+    "answer": "Let $f(x)=\\log_e(x)$. We write $9.01 = 9 + 0.01$. Let $a=9, h=0.01$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\log_e(9) = 2\\log_e(3) = 2(1.0986)=2.1972$. The derivative is $f'(x)=\\frac{1}{x}$, so $f'(a)=\\frac{1}{9}$. Therefore, $\\log_e(9.01) \\approx 2.1972 + (0.01)(\\frac{1}{9}) \\approx 2.1972 + 0.0011 = 2.1983$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\log_{10}(1016)$ given that $\\log_{10} e = 0.4343$.",
+    "answer": "Let $f(x)=\\log_{10}(x)$. We write $1016 = 1000 + 16$. Let $a=1000, h=16$. Using $f(a+h) \\approx f(a) + hf'(a)$, we have $f(a)=\\log_{10}(1000)=3$. The derivative is $f'(x)=\\frac{d}{dx}(\\frac{\\ln x}{\\ln 10}) = \\frac{1}{x \\ln 10} = \\frac{\\log_{10} e}{x}$. So $f'(a)=\\frac{0.4343}{1000}=0.0004343$. Therefore, $\\log_{10}(1016) \\approx 3 + (16)(0.0004343) = 3 + 0.0069488 \\approx 3.0069$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $f(x)=x^3-3x+5$ at $x=1.99$.",
+    "answer": "We use the approximation $f(a+h) \\approx f(a) + hf'(a)$. Let $a=2$ and $h = 1.99 - 2 = -0.01$. First, calculate $f(a)=f(2)=2^3-3(2)+5 = 8-6+5=7$. Next, find the derivative: $f'(x)=3x^2-3$. Evaluate the derivative at $a=2$: $f'(2)=3(2^2)-3=9$. Now, substitute these values into the approximation formula: $f(1.99) \\approx f(2) + (-0.01)f'(2) = 7 - 0.01(9) = 7 - 0.09 = 6.91$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $f(x)=x^3+5x^2-7x+10$ at $x=1.12$.",
+    "answer": "We use the approximation $f(a+h) \\approx f(a) + hf'(a)$. Let $a=1$ and $h = 1.12 - 1 = 0.12$. First, calculate $f(a)=f(1)=1^3+5(1)^2-7(1)+10 = 1+5-7+10=9$. Next, find the derivative: $f'(x)=3x^2+10x-7$. Evaluate the derivative at $a=1$: $f'(1)=3(1)^2+10(1)-7=6$. Now, substitute these values into the approximation formula: $f(1.12) \\approx f(1) + (0.12)f'(1) = 9 + 0.12(6) = 9 + 0.72 = 9.72$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Check the validity of the Rolle's theorem for the function $f(x) = x^2 - 4x + 3$, $x \\in [1, 3]$.",
+    "answer": "To check the validity of Rolle's theorem, we verify three conditions. (i) **Continuity**: Since $f(x)$ is a polynomial function, it is continuous on the closed interval $[1, 3]$. (ii) **Differentiability**: The derivative is $f'(x) = 2x - 4$, which exists for all $x$ in the open interval $(1, 3)$. (iii) **Equality at endpoints**: We check the value of the function at the endpoints: $f(1) = 1^2 - 4(1) + 3 = 0$ and $f(3) = 3^2 - 4(3) + 3 = 9 - 12 + 3 = 0$. Since $f(1)=f(3)$, this condition is met. As all three conditions are satisfied, Rolle's theorem is valid for the function on the given interval.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Check the validity of the Rolle's theorem for the function $f(x) = e^{-x} \\sin x$, $x \\in [0, \\pi]$.",
+    "answer": "We check the three conditions for Rolle's theorem. (i) **Continuity**: The function $f(x)$ is a product of an exponential function ($e^{-x}$) and a trigonometric function ($\\sin x$), both of which are continuous for all real numbers. Therefore, $f(x)$ is continuous on $[0, \\pi]$. (ii) **Differentiability**: The derivative $f'(x) = e^{-x}(\\cos x - \\sin x)$ exists for all $x$ in $(0, \\pi)$. (iii) **Equality at endpoints**: $f(0) = e^{-0}\\sin(0) = 0$ and $f(\\pi) = e^{-\\pi}\\sin(\\pi) = 0$. Since $f(0)=f(\\pi)$, the condition holds. All conditions are satisfied, so Rolle's theorem is valid.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Check the validity of the Rolle's theorem for the function $f(x) = 2x^2 - 5x + 3$, $x \\in [1, 3]$.",
+    "answer": "(i) **Continuity**: As a polynomial, $f(x)$ is continuous on $[1, 3]$. (ii) **Differentiability**: The derivative $f'(x) = 4x - 5$ exists on $(1, 3)$. (iii) **Equality at endpoints**: $f(1) = 2(1)^2 - 5(1) + 3 = 0$. $f(3) = 2(3)^2 - 5(3) + 3 = 18 - 15 + 3 = 6$. Since $f(1) \\neq f(3)$, the third condition of Rolle's theorem is not satisfied. Therefore, Rolle's theorem is not valid for this function on the given interval.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Check the validity of the Rolle's theorem for the function $f(x) = \\sin x - \\cos x + 3$, $x \\in [0, 2\\pi]$.",
+    "answer": "(i) **Continuity**: The functions $\\sin x$ and $\\cos x$ are continuous everywhere, so $f(x)$ is continuous on $[0, 2\\pi]$. (ii) **Differentiability**: The derivative $f'(x) = \\cos x + \\sin x$ exists on $(0, 2\\pi)$. (iii) **Equality at endpoints**: $f(0) = \\sin 0 - \\cos 0 + 3 = -1 + 3 = 2$. $f(2\\pi) = \\sin(2\\pi) - \\cos(2\\pi) + 3 = -1 + 3 = 2$. Since $f(0) = f(2\\pi)$, the condition holds. All conditions are satisfied, so Rolle's theorem is valid.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Check the validity of the Rolle's theorem for the function $f(x) = \\begin{cases} x^2 & \\text{if } 0 \\le x \\le 2 \\\\ 6-x & \\text{if } 2 < x \\le 6 \\end{cases}$ on the interval $[0, 6]$.",
+    "answer": "Let's check the conditions for Rolle's theorem. The interval is $[0,6]$. (i) **Continuity**: We must check continuity at $x=2$. $\\lim_{x \\to 2^-} f(x) = \\lim_{x \\to 2^-} x^2 = 4$. $\\lim_{x \\to 2^+} f(x) = \\lim_{x \\to 2^+} (6-x) = 4$. Also, $f(2)=2^2=4$. Since the left-hand limit, right-hand limit, and function value are equal, the function is continuous at $x=2$ and hence on $[0, 6]$. (ii) **Differentiability**: We check differentiability at $x=2$. The left-hand derivative is $f'(x) = 2x$, so LHD at $x=2$ is $2(2)=4$. The right-hand derivative is $f'(x)=-1$, so RHD at $x=2$ is $-1$. Since LHD $\\neq$ RHD, the function is not differentiable at $x=2$, which is in the open interval $(0, 6)$. Therefore, Rolle's theorem is not valid.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Check the validity of the Rolle's theorem for the function $f(x) = x^{2/3}$, $x \\in [-1, 1]$.",
+    "answer": "We check the conditions. (i) **Continuity**: The function $f(x) = (x^2)^{1/3}$ is continuous for all real numbers, so it is continuous on $[-1, 1]$. (ii) **Differentiability**: The derivative is $f'(x) = \\frac{2}{3}x^{-1/3} = \\frac{2}{3\\sqrt[3]{x}}$. This derivative is not defined at $x=0$, which lies within the open interval $(-1, 1)$. Since the function is not differentiable in the entire open interval, Rolle's theorem is not valid. (iii) **Equality at endpoints**: $f(-1) = (-1)^{2/3} = 1$ and $f(1) = 1^{2/3} = 1$. So $f(-1)=f(1)$. Although this condition holds, the differentiability condition fails.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Given an interval $[a,b]$ that satisfies the hypothesis of Rolle's theorem for the function $f(x) = x^4 + x^2 - 2$. It is known that $a=-1$. Find the value of $b$.",
+    "answer": "For Rolle's theorem to apply, one of the conditions is that $f(a)=f(b)$. We are given $a=-1$. Let's calculate $f(a)$: $f(-1) = (-1)^4 + (-1)^2 - 2 = 1 + 1 - 2 = 0$. Now we need to find a value $b \\neq a$ such that $f(b)=0$. We set up the equation: $b^4 + b^2 - 2 = 0$. Let $y=b^2$. The equation becomes a quadratic: $y^2+y-2=0$. Factoring this gives $(y+2)(y-1)=0$, so $y=-2$ or $y=1$. Substituting back $b^2=y$, we have $b^2=-2$ (which has no real solutions) or $b^2=1$. From $b^2=1$, we get $b=\\pm 1$. Since $a=-1$ and the interval must have $a \\neq b$, the value of $b$ is $1$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify Rolle's theorem for the function $f(x) = \\sin x + \\cos x + 7$, $x \\in [0, 2\\pi]$.",
+    "answer": "1. **Continuity**: $f(x)$ is continuous on $[0, 2\\pi]$ as $\\sin x$ and $\\cos x$ are continuous. 2. **Differentiability**: $f'(x) = \\cos x - \\sin x$, which exists on $(0, 2\\pi)$. 3. **Endpoints**: $f(0) = \\sin 0 + \\cos 0 + 7 = 8$. $f(2\\pi) = \\sin(2\\pi) + \\cos(2\\pi) + 7 = 8$. So, $f(0)=f(2\\pi)$. All conditions are satisfied. By Rolle's theorem, there exists at least one $c \\in (0, 2\\pi)$ such that $f'(c)=0$. We set $f'(c) = \\cos c - \\sin c = 0$, which gives $\\tan c = 1$. The solutions for $c$ in $(0, 2\\pi)$ are $c=\\frac{\\pi}{4}$ and $c=\\frac{5\\pi}{4}$. Hence, Rolle's theorem is verified.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify Rolle's theorem for the function $f(x) = \\sin(\\frac{x}{2})$, $x \\in [0, 2\\pi]$.",
+    "answer": "1. **Continuity**: $f(x)$ is continuous on $[0, 2\\pi]$. 2. **Differentiability**: $f'(x) = \\frac{1}{2}\\cos(\\frac{x}{2})$ exists on $(0, 2\\pi)$. 3. **Endpoints**: $f(0) = \\sin(0) = 0$. $f(2\\pi) = \\sin(\\pi) = 0$. So, $f(0)=f(2\\pi)$. All conditions are satisfied. We set $f'(c)=0$: $\\frac{1}{2}\\cos(\\frac{c}{2})=0 \\implies \\cos(\\frac{c}{2})=0$. This implies $\\frac{c}{2}=\\frac{\\pi}{2}$, so $c=\\pi$. Since $c=\\pi \\in (0, 2\\pi)$, Rolle's theorem is verified.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify Rolle's theorem for the function $f(x) = x^2 - 5x + 9$, $x \\in [1, 4]$.",
+    "answer": "1. **Continuity**: $f(x)$ is a polynomial and is continuous on $[1, 4]$. 2. **Differentiability**: $f'(x) = 2x - 5$ exists on $(1, 4)$. 3. **Endpoints**: $f(1) = 1-5+9=5$. $f(4) = 16-20+9=5$. So, $f(1)=f(4)$. All conditions are satisfied. We set $f'(c)=0$: $2c-5=0$, which gives $c=\\frac{5}{2}=2.5$. Since $c=2.5 \\in (1, 4)$, Rolle's theorem is verified.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "If Rolle's theorem holds for the function $f(x) = x^3+px^2+qx+5$, $x \\in [1, 3]$ with $c = 2+\\frac{1}{\\sqrt{3}}$, find the values of $p$ and $q$.",
+    "answer": "Since Rolle's theorem holds, two conditions must be met: $f(1)=f(3)$ and $f'(c)=0$.<br>From $f(1)=f(3)$: $1^3+p(1)^2+q(1)+5 = 3^3+p(3)^2+q(3)+5 \\implies 1+p+q+5 = 27+9p+3q+5 \\implies 8p+2q = -26 \\implies 4p+q=-13$ (Eq. 1).<br>Next, we find the derivative: $f'(x)=3x^2+2px+q$. Since $f'(c)=0$, we have $3c^2+2pc+q=0$. We are given $c=2+\\frac{1}{\\sqrt{3}}$. Let's substitute this into the derivative equation. $3(2+\\frac{1}{\\sqrt{3}})^2 + 2p(2+\\frac{1}{\\sqrt{3}}) + q = 0$. $3(4+\\frac{4}{\\sqrt{3}}+\\frac{1}{3}) + 4p + \\frac{2p}{\\sqrt{3}} + q = 0 \\implies 12+4\\sqrt{3}+1 + 4p + \\frac{2p}{\\sqrt{3}} + q = 0 \\implies 13+4\\sqrt{3}+4p+\\frac{2p}{\\sqrt{3}}+q=0$. From Eq. 1, $q=-13-4p$. Substituting this: $13+4\\sqrt{3}+4p+\\frac{2p}{\\sqrt{3}}+(-13-4p)=0 \\implies 4\\sqrt{3}+\\frac{2p}{\\sqrt{3}}=0 \\implies 2p=-4\\sqrt{3}(\\sqrt{3})=-12 \\implies p=-6$. Now find $q$: $q=-13-4(-6)=-13+24=11$. Thus, $p=-6$ and $q=11$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If Rolle's theorem holds for the function $f(x) = (x-2) \\log x$, $x \\in [1, 2]$, show that the equation $x\\log x = 2-x$ is satisfied by at least one value of $x$ in $(1, 2)$.",
+    "answer": "First, we verify the conditions of Rolle's theorem for $f(x)=(x-2)\\log x$ on $[1, 2]$. The function is continuous on $[1, 2]$ and differentiable on $(1, 2)$. We check the endpoints: $f(1)=(1-2)\\log 1 = -1(0)=0$ and $f(2)=(2-2)\\log 2 = 0(\\log 2)=0$. Since $f(1)=f(2)$, Rolle's theorem applies. This guarantees that there exists at least one value $c \\in (1, 2)$ such that $f'(c)=0$. Let's find the derivative using the product rule: $f'(x) = (1)(\\log x) + (x-2)(\\frac{1}{x}) = \\log x + 1 - \\frac{2}{x}$. Setting $f'(c)=0$ gives $\\log c + 1 - \\frac{2}{c} = 0$. Multiplying by $c$ gives $c \\log c + c - 2 = 0$, which can be rearranged to $c \\log c = 2-c$. This shows that the equation $x \\log x = 2-x$ is satisfied for $x=c$, and we know such a $c$ exists in the interval $(1, 2)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The function $f(x) = (x+3)e^{-x/2}$ satisfies all the conditions of Rolle's theorem on $[-3, 0]$. Find the value of $c$ such that $f'(c)=0$.",
+    "answer": "Since the function satisfies Rolle's theorem, there exists a $c \\in (-3, 0)$ where $f'(c)=0$. We first find the derivative of $f(x)$ using the product rule: $f'(x) = \\frac{d}{dx}(x+3) \\cdot e^{-x/2} + (x+3) \\cdot \\frac{d}{dx}(e^{-x/2}) = (1)e^{-x/2} + (x+3)e^{-x/2}(-\\frac{1}{2})$. We can factor out $e^{-x/2}$: $f'(x) = e^{-x/2}(1 - \\frac{x+3}{2}) = e^{-x/2}(\\frac{2 - (x+3)}{2}) = e^{-x/2}(\\frac{-x-1}{2})$. Now, we set $f'(c)=0$: $e^{-c/2}(\\frac{-c-1}{2})=0$. Since $e^{-c/2}$ is always positive, we must have $\\frac{-c-1}{2}=0$, which implies $-c-1=0$, so $c=-1$. The value $c=-1$ lies in the open interval $(-3, 0)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify Lagrange's mean value theorem for the function $f(x)=\\log x$ on $[1,e]$.",
+    "answer": "1. **Conditions**: The logarithmic function $f(x)=\\log x$ is continuous on $[1,e]$ and differentiable on $(1,e)$. So, Lagrange's MVT applies. 2. **Find c**: According to MVT, there exists a $c \\in (1,e)$ such that $f'(c) = \\frac{f(e)-f(1)}{e-1}$. We have $f(e)=\\log e=1$ and $f(1)=\\log 1=0$. The slope of the secant line is $\\frac{1-0}{e-1}=\\frac{1}{e-1}$. The derivative is $f'(x)=\\frac{1}{x}$. We set $f'(c)=\\frac{1}{c}=\\frac{1}{e-1}$, which gives $c=e-1$. Since $e \\approx 2.718$, $c \\approx 1.718$, which lies in the interval $(1,e)$. Hence, the theorem is verified.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify Lagrange's mean value theorem for the function $f(x) = (x-1)(x-2)(x-3)$ on $[0, 4]$.",
+    "answer": "1. **Conditions**: Expanding the function gives $f(x)=x^3-6x^2+11x-6$. As a polynomial, it's continuous on $[0,4]$ and differentiable on $(0,4)$. 2. **Find c**: We need $c \\in (0,4)$ such that $f'(c) = \\frac{f(4)-f(0)}{4-0}$. We calculate $f(4)=(4-1)(4-2)(4-3)=6$ and $f(0)=(-1)(-2)(-3)=-6$. The slope is $\\frac{6-(-6)}{4}=3$. The derivative is $f'(x)=3x^2-12x+11$. We set $f'(c)=3$: $3c^2-12c+11=3 \\implies 3c^2-12c+8=0$. Using the quadratic formula, $c = \\frac{12 \\pm \\sqrt{144-96}}{6} = \\frac{12 \\pm \\sqrt{48}}{6} = 2 \\pm \\frac{2\\sqrt{3}}{3}$. Both values, $c_1 \\approx 3.15$ and $c_2 \\approx 0.85$, lie in the interval $(0,4)$. The theorem is verified.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Verify Lagrange's mean value theorem for the function $f(x)=x^2-3x-1$, $x \\in [-\\frac{11}{7}, \\frac{13}{7}]$.",
+    "answer": "1. **Conditions**: The function is a polynomial, hence continuous on $[-\\frac{11}{7}, \\frac{13}{7}]$ and differentiable on $(-\\frac{11}{7}, \\frac{13}{7})$. 2. **Find c**: We need $c$ such that $f'(c) = \\frac{f(b)-f(a)}{b-a}$. $a=-\\frac{11}{7}, b=\\frac{13}{7}$. $f(a) = (-\\frac{11}{7})^2-3(-\\frac{11}{7})-1 = \\frac{303}{49}$. $f(b)=(\\frac{13}{7})^2-3(\\frac{13}{7})-1 = -\\frac{153}{49}$. The slope is $\\frac{-153/49 - 303/49}{13/7 - (-11/7)} = \\frac{-456/49}{24/7} = -\\frac{19}{7}$. The derivative is $f'(x)=2x-3$. We set $2c-3=-\\frac{19}{7} \\implies 2c = 3-\\frac{19}{7}=\\frac{2}{7} \\implies c=\\frac{1}{7}$. Since $c=\\frac{1}{7}$ is in the interval $(-\\frac{11}{7}, \\frac{13}{7})$, the theorem is verified.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Verify Lagrange's mean value theorem for the function $f(x)=2x-x^2$, $x \\in [0, 1]$.",
+    "answer": "1. **Conditions**: As a polynomial, $f(x)$ is continuous on $[0,1]$ and differentiable on $(0,1)$. 2. **Find c**: We need $c$ such that $f'(c) = \\frac{f(1)-f(0)}{1-0}$. We have $f(1)=2-1=1$ and $f(0)=0$. The slope is $\\frac{1-0}{1}=1$. The derivative is $f'(x)=2-2x$. We set $f'(c)=1$: $2-2c=1 \\implies 2c=1 \\implies c=\\frac{1}{2}$. Since $c=\\frac{1}{2}$ lies in $(0,1)$, the theorem is verified.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify Lagrange's mean value theorem for the function $f(x)=\\frac{x-1}{x-3}$ on $[4, 5]$.",
+    "answer": "1. **Conditions**: The function $f(x)$ is rational. Its only point of discontinuity is $x=3$, which is not in the interval $[4,5]$. Thus, $f(x)$ is continuous on $[4,5]$ and differentiable on $(4,5)$. 2. **Find c**: We need $c$ such that $f'(c) = \\frac{f(5)-f(4)}{5-4}$. We have $f(5)=\\frac{4}{2}=2$ and $f(4)=\\frac{3}{1}=3$. The slope is $\\frac{2-3}{1}=-1$. The derivative is $f'(x)=\\frac{-2}{(x-3)^2}$. We set $f'(c)=-1$: $\\frac{-2}{(c-3)^2}=-1 \\implies (c-3)^2=2 \\implies c-3=\\pm\\sqrt{2}$. This gives $c=3+\\sqrt{2}$ and $c=3-\\sqrt{2}$. We check which value lies in $(4,5)$. $c=3+\\sqrt{2} \\approx 4.414$ is in $(4,5)$, while $c=3-\\sqrt{2} \\approx 1.586$ is not. Thus, the theorem is verified with $c=3+\\sqrt{2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Test whether the function $f(x) = x^3 - 6x^2 + 12x - 16$, $x \\in \\mathbb{R}$ is increasing or decreasing.",
+    "answer": "To determine if the function is increasing or decreasing, we find its derivative: $f'(x) = 3x^2 - 12x + 12$. We can factor this as $f'(x) = 3(x^2 - 4x + 4) = 3(x-2)^2$. Since the square of any real number is non-negative, $(x-2)^2 \\ge 0$ for all $x \\in \\mathbb{R}$. Therefore, $f'(x) \\ge 0$ for all $x \\in \\mathbb{R}$. A function is increasing if its derivative is non-negative. Thus, the function is increasing for all $x \\in \\mathbb{R}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Test whether the function $f(x) = 2 - 3x + 3x^2 - x^3$, $x \\in \\mathbb{R}$ is increasing or decreasing.",
+    "answer": "The derivative of the function is $f'(x) = -3 + 6x - 3x^2$. Factoring out $-3$, we get $f'(x) = -3(x^2 - 2x + 1) = -3(x-1)^2$. The term $(x-1)^2$ is always non-negative (i.e., $\\ge 0$) for any real number $x$. Therefore, $f'(x) = -3(x-1)^2$ is always non-positive (i.e., $\\le 0$). Since $f'(x) \\le 0$ for all $x \\in \\mathbb{R}$, the function is decreasing for all $x \\in \\mathbb{R}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Test whether the function $f(x) = x - \\frac{1}{x}$, $x \\in \\mathbb{R}, x \\neq 0$ is increasing or decreasing.",
+    "answer": "We find the derivative of the function: $f'(x) = \\frac{d}{dx}(x - x^{-1}) = 1 - (-1)x^{-2} = 1 + \\frac{1}{x^2}$. For any real number $x \\neq 0$, $x^2$ is positive. Therefore, $\\frac{1}{x^2}$ is also positive. This means $f'(x) = 1 + (\\text{a positive number}) > 1$ for all $x$ in the domain. Since $f'(x) > 0$ for all $x \\in \\mathbb{R}, x \\neq 0$, the function is strictly increasing on its domain, which consists of the intervals $(-\\infty, 0)$ and $(0, \\infty)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the values of $x$ for which the function $f(x) = 2x^3 - 3x^2 - 12x + 6$ is strictly increasing.",
+    "answer": "A function is strictly increasing when its derivative is positive, i.e., $f'(x) > 0$. First, find the derivative: $f'(x) = 6x^2 - 6x - 12 = 6(x^2 - x - 2)$. We set the derivative greater than zero: $6(x^2 - x - 2) > 0 \\implies x^2 - x - 2 > 0$. Factoring the quadratic gives $(x-2)(x+1) > 0$. The critical points are $x=2$ and $x=-1$. Analyzing the sign of the quadratic, the expression is positive when $x$ is outside the roots. Therefore, the function is strictly increasing for $x \\in (-\\infty, -1) \\cup (2, \\infty)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the values of $x$ for which the function $f(x) = 2x^3 - 3x^2 - 12x + 6$ is strictly decreasing.",
+    "answer": "A function is strictly decreasing when its derivative is negative, i.e., $f'(x) < 0$. The derivative is $f'(x) = 6x^2 - 6x - 12 = 6(x^2 - x - 2) = 6(x-2)(x+1)$. We set the derivative less than zero: $6(x-2)(x+1) < 0$. The critical points are $x=2$ and $x=-1$. The product of the factors is negative when $x$ is between the roots. Therefore, the function is strictly decreasing for $x \\in (-1, 2)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the values of $x$ for which the function $f(x) = x^3 + 3x - 3x^2 + 7$ is strictly increasing.",
+    "answer": "First, let's write the function in standard order: $f(x) = x^3 - 3x^2 + 3x + 7$. The derivative is $f'(x) = 3x^2 - 6x + 3 = 3(x^2 - 2x + 1) = 3(x-1)^2$. For the function to be strictly increasing, we require $f'(x) > 0$. Since $f'(x)=3(x-1)^2$, this value is always greater than or equal to 0. It is equal to 0 only at $x=1$. For all other values of $x$, $f'(x) > 0$. Thus, the function is strictly increasing for all $x \\in \\mathbb{R} \\setminus \\{1\\}$, i.e., $(-\\infty, 1) \\cup (1, \\infty)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the values of $x$ for which the function $f(x) = x^3 - 6x^2 - 36x + 7$ is strictly decreasing.",
+    "answer": "To find where the function is strictly decreasing, we need to find where $f'(x) < 0$. The derivative is $f'(x) = 3x^2 - 12x - 36 = 3(x^2 - 4x - 12)$. We set the derivative to be less than zero: $3(x^2 - 4x - 12) < 0 \\implies x^2 - 4x - 12 < 0$. Factoring the quadratic gives $(x-6)(x+2) < 0$. The critical points are $x=6$ and $x=-2$. The quadratic is negative between its roots. Therefore, the function is strictly decreasing for $x \\in (-2, 6)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the values of $x$ for which the function $f(x) = x^3 - 12x^2 + 36x + 17$ is (a) increasing (b) decreasing.",
+    "answer": "First, we find the derivative: $f'(x) = 3x^2 - 24x + 36 = 3(x^2 - 8x + 12)$. Factoring the quadratic gives $f'(x) = 3(x-2)(x-6)$. The critical points are $x=2$ and $x=6$.<br>(a) For the function to be **increasing**, we need $f'(x) \\ge 0$. The inequality $3(x-2)(x-6) \\ge 0$ holds when $x$ is outside the roots or at the roots. Thus, $f(x)$ is increasing on $(-\\infty, 2] \\cup [6, \\infty)$.<br>(b) For the function to be **decreasing**, we need $f'(x) \\le 0$. The inequality $3(x-2)(x-6) \\le 0$ holds when $x$ is between the roots or at the roots. Thus, $f(x)$ is decreasing on $[2, 6]$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the values of $x$ for which $f(x) = 2x^3 - 15x^2 - 144x - 7$ is (a) strictly increasing (b) strictly decreasing.",
+    "answer": "The derivative of the function is $f'(x) = 6x^2 - 30x - 144 = 6(x^2 - 5x - 24)$. Factoring gives $f'(x) = 6(x-8)(x+3)$. The critical points are $x=-3$ and $x=8$.<br>(a) For the function to be **strictly increasing**, $f'(x)>0$. The inequality $6(x-8)(x+3)>0$ is true when $x<-3$ or $x>8$. So, $f$ is strictly increasing on $(-\\infty, -3) \\cup (8, \\infty)$.<br>(b) For the function to be **strictly decreasing**, $f'(x)<0$. The inequality $6(x-8)(x+3)<0$ is true when $-3<x<8$. So, $f$ is strictly decreasing on $(-3, 8)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the values of $x$ for which $f(x) = \\frac{x}{x^2+1}$ is (a) strictly increasing (b) strictly decreasing.",
+    "answer": "We use the quotient rule to find the derivative: $f'(x) = \\frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2} = \\frac{x^2+1-2x^2}{(x^2+1)^2} = \\frac{1-x^2}{(x^2+1)^2}$. Since the denominator is always positive, the sign of $f'(x)$ is determined by the sign of the numerator, $1-x^2$.<br>(a) For **strictly increasing**, we need $f'(x)>0$, which means $1-x^2 > 0 \\implies 1 > x^2 \\implies -1 < x < 1$. So, the function is strictly increasing on $(-1, 1)$.<br>(b) For **strictly decreasing**, we need $f'(x)<0$, which means $1-x^2 < 0 \\implies 1 < x^2 \\implies x < -1$ or $x > 1$. So, the function is strictly decreasing on $(-\\infty, -1) \\cup (1, \\infty)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Show that $f(x) = 3x + \\frac{1}{3x}$ is increasing in $[\\frac{1}{3}, 1]$ and decreasing in $[\\frac{1}{9}, \\frac{1}{3}]$.",
+    "answer": "First, find the derivative of $f(x) = 3x + \\frac{1}{3}x^{-1}$: $f'(x) = 3 - \\frac{1}{3}x^{-2} = 3 - \\frac{1}{3x^2} = \\frac{9x^2-1}{3x^2}$. The sign of $f'(x)$ depends on the numerator $9x^2-1$. We set $9x^2-1=0$ to find critical points: $x^2=\\frac{1}{9} \\implies x=\\pm\\frac{1}{3}$. Since the domain involves positive $x$, we consider $x=\\frac{1}{3}$.<br>For the interval $[\\frac{1}{3}, 1]$: Take any test point, e.g., $x=0.5$. $f'(0.5) = \\frac{9(0.5)^2-1}{3(0.5)^2} = \\frac{2.25-1}{0.75} > 0$. Since $f'(x) > 0$ for $x > 1/3$, the function is increasing on $[\\frac{1}{3}, 1]$.<br>For the interval $[\\frac{1}{9}, \\frac{1}{3}]$: Take a test point, e.g., $x=0.2$. $f'(0.2) = \\frac{9(0.2)^2-1}{3(0.2)^2} = \\frac{0.36-1}{0.12} < 0$. Since $f'(x) < 0$ for $0 < x < 1/3$, the function is decreasing on $[\\frac{1}{9}, \\frac{1}{3}]$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Show that $f(x) = x - \\cos x$ is increasing for all $x$.",
+    "answer": "To show the function is always increasing, we need to show that its derivative is always positive. The derivative is $f'(x) = 1 - (-\\sin x) = 1 + \\sin x$. We know that the range of the sine function is $-1 \\le \\sin x \\le 1$. Therefore, the range of $f'(x)$ is $1 + (-1) \\le 1 + \\sin x \\le 1 + 1$, which simplifies to $0 \\le f'(x) \\le 2$. Since $f'(x) \\ge 0$ for all real numbers $x$, the function $f(x) = x - \\cos x$ is increasing for all $x$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the maximum and minimum of the function $y = 5x^3 + 2x^2 - 3x$.",
+    "answer": "To find local extrema, we find the derivative: $y' = 15x^2 + 4x - 3$. We set $y'=0$ to find critical points: $15x^2+4x-3=0$. Using the quadratic formula, $x = \\frac{-4 \\pm \\sqrt{16-4(15)(-3)}}{30} = \\frac{-4 \\pm \\sqrt{196}}{30} = \\frac{-4 \\pm 14}{30}$. The critical points are $x_1 = \\frac{10}{30} = \\frac{1}{3}$ and $x_2 = \\frac{-18}{30} = -\\frac{3}{5}$.<br>We use the second derivative test: $y'' = 30x+4$.<br>At $x=\\frac{1}{3}$, $y''(\\frac{1}{3}) = 30(\\frac{1}{3})+4 = 14 > 0$, so there is a local minimum. The minimum value is $y(\\frac{1}{3}) = 5(\\frac{1}{27})+2(\\frac{1}{9})-3(\\frac{1}{3}) = -\\frac{22}{27}$.<br>At $x=-\\frac{3}{5}$, $y''(-\\frac{3}{5}) = 30(-\\frac{3}{5})+4 = -18+4=-14 < 0$, so there is a local maximum. The maximum value is $y(-\\frac{3}{5}) = 5(-\\frac{27}{125})+2(\\frac{9}{25})-3(-\\frac{3}{5}) = \\frac{27}{25}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the maximum and minimum of the function $y = 2x^3 - 21x^2 + 36x - 20$.",
+    "answer": "To find local maxima and minima, we use the first and second derivative tests. First, find the derivative: $y' = 6x^2 - 42x + 36$. Set $y'=0$ to find critical points: $6(x^2 - 7x + 6) = 0 \\implies 6(x-1)(x-6)=0$. The critical points are $x=1$ and $x=6$.<br>Next, find the second derivative: $y'' = 12x - 42$.<br>At $x=1$, $y''(1) = 12(1) - 42 = -30 < 0$. This indicates a local maximum. The maximum value is $y(1) = 2(1)^3 - 21(1)^2 + 36(1) - 20 = -3$.<br>At $x=6$, $y''(6) = 12(6) - 42 = 30 > 0$. This indicates a local minimum. The minimum value is $y(6) = 2(6)^3 - 21(6)^2 + 36(6) - 20 = -128$.<br>The function has a local maximum value of -3 at x=1 and a local minimum value of -128 at x=6.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the maximum and minimum of the function $y = x^3 - 9x^2 + 24x$.",
+    "answer": "Find the derivative: $y' = 3x^2 - 18x + 24 = 3(x^2 - 6x + 8)$. Set $y'=0$: $3(x-2)(x-4)=0$. Critical points are $x=2, 4$.<br>Find the second derivative: $y'' = 6x-18$.<br>At $x=2$, $y''(2) = 6(2)-18 = -6 < 0$, indicating a local maximum. Max value: $y(2) = 2^3-9(2^2)+24(2) = 8-36+48=20$.<br>At $x=4$, $y''(4) = 6(4)-18 = 6 > 0$, indicating a local minimum. Min value: $y(4) = 4^3-9(4^2)+24(4) = 64-144+96=16$.<br>Local maximum is 20 at $x=2$, local minimum is 16 at $x=4$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the maximum and minimum of the function $f(x) = x^2 + \\frac{16}{x^2}$.",
+    "answer": "The derivative is $f'(x) = 2x - 32x^{-3} = 2x - \\frac{32}{x^3} = \\frac{2x^4-32}{x^3}$. Set $f'(x)=0$: $2x^4-32=0 \\implies x^4=16 \\implies x=\\pm 2$.<br>The second derivative is $f''(x) = 2 + 96x^{-4} = 2 + \\frac{96}{x^4}$.<br>At $x=2$, $f''(2) = 2+\\frac{96}{16} > 0$, indicating a local minimum. Min value: $f(2)=2^2+\\frac{16}{2^2}=4+4=8$.<br>At $x=-2$, $f''(-2) = 2+\\frac{96}{16} > 0$, indicating a local minimum. Min value: $f(-2)=(-2)^2+\\frac{16}{(-2)^2}=4+4=8$.<br>The function has a minimum value of 8 at $x=2$ and $x=-2$. There is no maximum value.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the maximum and minimum of the function $f(x) = x \\log x$.",
+    "answer": "The domain of the function is $x>0$. The derivative is $f'(x) = 1\\cdot\\log x + x\\cdot\\frac{1}{x} = \\log x + 1$. Set $f'(x)=0$: $\\log x + 1 = 0 \\implies \\log x = -1 \\implies x=e^{-1}=\\frac{1}{e}$.<br>The second derivative is $f''(x) = \\frac{1}{x}$. At $x=1/e$, $f''(1/e)=e > 0$, which indicates a minimum.<br>The minimum value is $f(1/e) = (\\frac{1}{e})\\log(\\frac{1}{e}) = (\\frac{1}{e})(-1) = -\\frac{1}{e}$. The function has no maximum value as it increases indefinitely for $x>1/e$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the maximum and minimum of the function $f(x) = \\frac{\\log x}{x}$.",
+    "answer": "The domain is $x>0$. Using the quotient rule, $f'(x) = \\frac{x(1/x) - (\\log x)(1)}{x^2} = \\frac{1-\\log x}{x^2}$. Set $f'(x)=0$: $\\frac{1-\\log x}{x^2}=0 \\implies 1-\\log x=0 \\implies \\log x=1 \\implies x=e$.<br>We check the sign of $f'(x)$. For $0<x<e$, $1-\\log x > 0$, so $f$ is increasing. For $x>e$, $1-\\log x < 0$, so $f$ is decreasing. This confirms a maximum at $x=e$.<br>The maximum value is $f(e)=\\frac{\\log e}{e}=\\frac{1}{e}$. There is no minimum value as $f(x) \\to -\\infty$ as $x \\to 0^+$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Divide the number 30 in to two parts such that their product is maximum.",
+    "answer": "Let the two parts be $x$ and $30-x$. Their product is $P(x) = x(30-x) = 30x - x^2$. To maximize the product, we find the derivative and set it to zero: $P'(x) = 30-2x$. Setting $P'(x)=0$ gives $30-2x=0$, so $x=15$. The second derivative is $P''(x)=-2$, which is negative, confirming a maximum. The two parts are $15$ and $30-15=15$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Divide the number 20 in to two parts such that sum of their squares is minimum.",
+    "answer": "Let the parts be $x$ and $20-x$. The sum of their squares is $S(x) = x^2 + (20-x)^2 = x^2 + 400 - 40x + x^2 = 2x^2 - 40x + 400$. To minimize this sum, we find the derivative: $S'(x) = 4x-40$. Setting $S'(x)=0$ gives $4x-40=0$, so $x=10$. The second derivative $S''(x)=4$ is positive, confirming a minimum. The two parts are $10$ and $20-10=10$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A wire of length 36 meters is bent in the form of a rectangle. Find its dimensions if the area of the rectangle is maximum.",
+    "answer": "Let the length and width of the rectangle be $l$ and $w$. The perimeter is $2(l+w)=36$, so $l+w=18$, which means $l=18-w$. The area is $A=lw$. Substituting for $l$, we get $A(w) = (18-w)w = 18w - w^2$. To maximize the area, we differentiate: $A'(w) = 18-2w$. Setting $A'(w)=0$ gives $18-2w=0$, so $w=9$. Then $l=18-9=9$. The second derivative $A''(w)=-2$ is negative, confirming a maximum. The dimensions for maximum area are $9$ m by $9$ m (a square).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A ball is thrown in the air. Its height at any time t is given by $h = 3 + 14t - 5t^2$. Find the maximum height it can reach.",
+    "answer": "The height is given by the function $h(t) = 3 + 14t - 5t^2$. To find the maximum height, we need to find the vertex of this downward-opening parabola. We find the derivative with respect to time $t$ and set it to zero: $h'(t) = 14 - 10t$. Setting $h'(t)=0$ gives $14-10t=0$, so $t=1.4$ seconds. The second derivative $h''(t)=-10$ is negative, confirming a maximum. The maximum height is found by substituting $t=1.4$ into the height function: $h(1.4) = 3 + 14(1.4) - 5(1.4)^2 = 3 + 19.6 - 5(1.96) = 3 + 19.6 - 9.8 = 12.8$. The maximum height is 12.8 units.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the largest size of a rectangle that can be inscribed in a semi circle of radius 1 unit. So that two vertices lie on the diameter.",
+    "answer": "Let the semicircle be defined by $x^2+y^2=1$ for $y \\ge 0$. Let the vertices of the rectangle be $(x,0), (-x,0), (x,y), (-x,y)$. The width of the rectangle is $2x$ and the height is $y$. The Area $A = 2xy$. Since $(x,y)$ is on the semicircle, $y=\\sqrt{1-x^2}$. So, $A(x) = 2x\\sqrt{1-x^2}$. To maximize $A$, it is easier to maximize $A^2$. Let $S(x) = A(x)^2 = 4x^2(1-x^2) = 4x^2 - 4x^4$. Differentiating $S(x)$: $S'(x) = 8x - 16x^3 = 8x(1-2x^2)$. Setting $S'(x)=0$ gives $x=0$ or $1-2x^2=0 \\implies x^2=1/2 \\implies x=1/\\sqrt{2}$. The maximum occurs at $x=1/\\sqrt{2}$. The corresponding height is $y = \\sqrt{1-(1/\\sqrt{2})^2} = \\sqrt{1/2} = 1/\\sqrt{2}$. The largest area (size) is $A = 2xy = 2(\\frac{1}{\\sqrt{2}})(\\frac{1}{\\sqrt{2}}) = 1$ square unit.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "An open cylindrical tank whose base is a circle is to be constructed of metal sheet so as to contain a volume of $\\pi a^3$ cu.cm of water. Find the dimensions so that sheet required is minimum.",
+    "answer": "Let the radius of the cylinder be $r$ and the height be $h$. The volume is $V=\\pi r^2 h = \\pi a^3$, so $h=\\frac{a^3}{r^2}$. The surface area of the metal sheet (open top) is $S = \\pi r^2 + 2\\pi rh$. Substituting $h$: $S(r) = \\pi r^2 + 2\\pi r(\\frac{a^3}{r^2}) = \\pi r^2 + \\frac{2\\pi a^3}{r}$. To minimize the sheet, we differentiate $S$ and set it to zero: $S'(r) = 2\\pi r - \\frac{2\\pi a^3}{r^2}$. Setting $S'(r)=0$ gives $2\\pi r = \\frac{2\\pi a^3}{r^2} \\implies r^3=a^3 \\implies r=a$. The second derivative $S''(r) = 2\\pi + \\frac{4\\pi a^3}{r^3}$ is positive, confirming a minimum. The dimensions are radius $r=a$ and height $h=\\frac{a^3}{a^2}=a$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "The perimeter of a triangle is 10 cm. If one of the side is 4 cm. What are the other two sides of the triangle for its maximum area?",
+    "answer": "Let the sides of the triangle be $4, a, b$. The perimeter is $4+a+b=10$, so $b=6-a$. For a triangle to exist, the sum of any two sides must be greater than the third side. This leads to $a>1$ and $a<5$. The area of the triangle can be found using Heron's formula. The semi-perimeter is $s=10/2=5$. The area is $A = \\sqrt{s(s-4)(s-a)(s-b)} = \\sqrt{5(1)(5-a)(5-(6-a))} = \\sqrt{5(5-a)(a-1)} = \\sqrt{5(-a^2+6a-5)}$. To maximize $A$, we maximize $A^2$. Let $f(a)=-a^2+6a-5$. $f'(a)=-2a+6$. Setting $f'(a)=0$ gives $a=3$. This value is in the domain $(1,5)$. The second derivative $f''(a)=-2<0$, confirming a maximum. The other two sides are $a=3$ cm and $b=6-3=3$ cm. The triangle is an isosceles triangle with sides 4, 3, 3.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "A box with a square base is to have an open top. The surface area of the box is 192 sq.cm. What should be its dimensions in order that the volume is largest?",
+    "answer": "Let the side of the square base be $x$ cm and the height be $h$ cm. The surface area of the open-top box is given by the area of the base plus the area of the four sides: $A = x^2 + 4xh$. We are given $A=192$, so $x^2 + 4xh = 192$. We can express $h$ in terms of $x$: $h = \\frac{192-x^2}{4x}$.<br>The volume of the box is $V = x^2h$. Substituting the expression for $h$: $V(x) = x^2(\\frac{192-x^2}{4x}) = \\frac{1}{4}(192x - x^3)$. To find the maximum volume, we differentiate $V$ with respect to $x$ and set the derivative to zero: $V'(x) = \\frac{1}{4}(192 - 3x^2)$. Setting $V'(x)=0$ gives $192 - 3x^2 = 0 \\implies 3x^2 = 192 \\implies x^2 = 64 \\implies x=8$ (since length must be positive).<br>To confirm this is a maximum, we check the second derivative: $V''(x) = \\frac{1}{4}(-6x) = -\\frac{3}{2}x$. At $x=8$, $V''(8) = -12 < 0$, which confirms a maximum.<br>The optimal dimensions are a base side of $x=8$ cm and a height of $h = \\frac{192-64}{32} = 4$ cm.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "The profit function $P(x)$ of a firm, selling x items per day is given by $P(x)=(150-x)x-1625$. Find the number of items the firm should manufacture to get maximum profit. Find the maximum profit.",
+    "answer": "The profit function is $P(x) = 150x - x^2 - 1625$. To find the number of items for maximum profit, we find the derivative and set it to zero: $P'(x) = 150 - 2x$. Setting $P'(x)=0$ gives $150-2x=0$, so $x=75$. The second derivative is $P''(x)=-2$, which is negative, confirming a maximum. The number of items to manufacture is 75. The maximum profit is $P(75) = (150-75)(75) - 1625 = 75 \\times 75 - 1625 = 5625 - 1625 = 4000$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find two numbers whose sum is 15 and when the square of one multiplied by the cube of the other is maximum.",
+    "answer": "Let the two numbers be $x$ and $y$. We have $x+y=15$, so $y=15-x$. We want to maximize the function $P = x^2y^3 = x^2(15-x)^3$. Differentiating using the product rule: $P'(x) = 2x(15-x)^3 + x^2(3(15-x)^2(-1)) = x(15-x)^2[2(15-x) - 3x] = x(15-x)^2[30-2x-3x] = x(15-x)^2(30-5x)$. Setting $P'(x)=0$ gives critical points at $x=0, x=15, x=6$. The maximum will occur at $x=6$. (At $x=0$ and $x=15$, the product is 0). The two numbers are $x=6$ and $y=15-6=9$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Show that among rectangles of given area, the square has the least perimeter.",
+    "answer": "Let the rectangle have length $l$, width $w$, and a constant area $A$. So, $lw=A$, which means $w=A/l$. The perimeter is $P = 2(l+w)$. Substituting for $w$: $P(l) = 2(l + A/l)$. To find the minimum perimeter, we differentiate with respect to $l$: $P'(l) = 2(1 - A/l^2)$. Setting $P'(l)=0$ gives $1 - A/l^2 = 0 \\implies l^2=A \\implies l=\\sqrt{A}$. The second derivative is $P''(l) = 2(2A/l^3) = 4A/l^3$, which is positive, confirming a minimum. When $l=\\sqrt{A}$, the width is $w=A/l = A/\\sqrt{A} = \\sqrt{A}$. Since $l=w$, the rectangle with the least perimeter for a given area is a square.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Show that the height of a closed right circular cylinder of a given volume and least surface area is equal to its diameter.",
+    "answer": "Let the cylinder have radius $r$, height $h$, and a constant volume $V$. $V=\\pi r^2 h$, so $h = V/(\\pi r^2)$. The surface area is $S = 2\\pi r^2 + 2\\pi rh$. Substituting for $h$: $S(r) = 2\\pi r^2 + 2\\pi r(V/(\\pi r^2)) = 2\\pi r^2 + 2V/r$. To find the minimum surface area, we differentiate: $S'(r) = 4\\pi r - 2V/r^2$. Setting $S'(r)=0$ gives $4\\pi r = 2V/r^2 \\implies 4\\pi r^3 = 2V$. Substituting $V=\\pi r^2 h$: $4\\pi r^3 = 2(\\pi r^2 h) \\implies 2r=h$. The height is equal to the diameter. The second derivative is positive, confirming a minimum.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Find the volume of the largest cylinder that can be inscribed in a sphere of radius 'r' cm.",
+    "answer": "Let the sphere have radius $r$. Let the inscribed cylinder have radius $R$ and height $H$. A cross-section reveals a right-angled triangle with sides $R$, $H/2$, and hypotenuse $r$. By the Pythagorean theorem, $R^2 + (H/2)^2 = r^2$. The volume of the cylinder is $V=\\pi R^2 H$. We express $V$ as a function of $H$: $V(H) = \\pi(r^2 - H^2/4)H = \\pi(r^2H - H^3/4)$. To maximize the volume, we find the derivative with respect to $H$ and set it to zero: $V'(H) = \\pi(r^2 - 3H^2/4)$. Setting $V'(H)=0$ gives $r^2 = 3H^2/4$, so $H = \\frac{2r}{\\sqrt{3}}$. The second derivative $V''(H) = -\\frac{3\\pi H}{2}$ is negative, confirming a maximum. We find the corresponding radius squared: $R^2 = r^2 - \\frac{1}{4}H^2 = r^2 - \\frac{r^2}{3} = \\frac{2r^2}{3}$. The maximum volume is $V = \\pi R^2 H = \\pi (\\frac{2r^2}{3})(\\frac{2r}{\\sqrt{3}}) = \\frac{4\\pi r^3}{3\\sqrt{3}}$ cubic cm.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Show that $y=\\log(1+x)-\\frac{2x}{2+x}, x>-1$ is an increasing functions of its domain.",
+    "answer": "To show the function is increasing, we must show that its derivative $y'$ is non-negative for $x>-1$. Let's find the derivative: $y' = \\frac{1}{1+x} - \\frac{(2+x)(2) - (2x)(1)}{(2+x)^2} = \\frac{1}{1+x} - \\frac{4+2x-2x}{(2+x)^2} = \\frac{1}{1+x} - \\frac{4}{(2+x)^2}$. To combine the terms, we find a common denominator: $y' = \\frac{(2+x)^2 - 4(1+x)}{(1+x)(2+x)^2} = \\frac{4+4x+x^2 - 4 - 4x}{(1+x)(2+x)^2} = \\frac{x^2}{(1+x)(2+x)^2}$. For $x>-1$, the term $1+x$ is positive. The terms $x^2$ and $(2+x)^2$ are non-negative. Therefore, for all $x>-1$, $y' \\ge 0$. This shows that the function is increasing on its domain.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Prove that $y=\\frac{4\\sin\\theta}{2+\\cos\\theta}-\\theta$ is an increasing function of $\\theta$ in $[0, \\pi/2]$.",
+    "answer": "We need to show that $\\frac{dy}{d\\theta} \\ge 0$ for $\\theta \\in [0, \\pi/2]$. Using the quotient rule for the first term: $\\frac{dy}{d\\theta} = \\frac{(2+\\cos\\theta)(4\\cos\\theta) - (4\\sin\\theta)(-\\sin\\theta)}{(2+\\cos\\theta)^2} - 1 = \\frac{8\\cos\\theta+4\\cos^2\\theta+4\\sin^2\\theta}{(2+\\cos\\theta)^2} - 1 = \\frac{8\\cos\\theta+4}{(2+\\cos\\theta)^2} - 1$. Finding a common denominator: $\\frac{dy}{d\\theta} = \\frac{8\\cos\\theta+4 - (2+\\cos\\theta)^2}{(2+\\cos\\theta)^2} = \\frac{8\\cos\\theta+4 - (4+4\\cos\\theta+\\cos^2\\theta)}{(2+\\cos\\theta)^2} = \\frac{4\\cos\\theta - \\cos^2\\theta}{(2+\\cos\\theta)^2} = \\frac{\\cos\\theta(4-\\cos\\theta)}{(2+\\cos\\theta)^2}$. In the interval $[0, \\pi/2]$, $\\cos\\theta \\ge 0$. Also, since $-1 \\le \\cos\\theta \\le 1$, the term $(4-\\cos\\theta)$ is always positive. The denominator $(2+\\cos\\theta)^2$ is also always positive. Thus, $\\frac{dy}{d\\theta} \\ge 0$ for $\\theta \\in [0, \\pi/2]$, which proves the function is increasing.",
+    "marks": 5
+  },
+  {
+    "type": "short",
+    "text": "If the function $f(x) = ax^3 + bx^2 + 11x - 6$ satisfies conditions of Rolle's theorem in $[1, 3]$ and $f'(2 + \\frac{1}{\\sqrt{3}}) = 0$, then values of $a$ and $b$ are respectively.\n(A) $1, -6$\n(B) $-2, 1$\n(C) $-1, -6$\n(D) $-1, 6$",
+    "answer": "Since Rolle's theorem is satisfied, we have two conditions: $f(1) = f(3)$ and $f'(c) = 0$ for $c = 2 + \\frac{1}{\\sqrt{3}}$.\n1. From $f(1)=f(3)$:\n$a(1)^3+b(1)^2+11(1)-6 = a(3)^3+b(3)^2+11(3)-6$\n$a+b+5 = 27a+9b+27$\n$26a+8b = -22 \\implies 13a+4b = -11$ (Eq. 1)\n2. The derivative is $f'(x) = 3ax^2+2bx+11$. We are given $f'(c)=0$ where $c$ is a root of $f'(x)=0$. For a quadratic $Ax^2+Bx+C=0$, the sum of roots is $-B/A$ and product is $C/A$. Let the roots be $c_1$ and $c_2$. The sum of roots of $3ax^2+2bx+11=0$ is $c_1+c_2 = -2b/3a$. The product is $c_1c_2 = 11/3a$. From question 4 in exercise 2.3, we found for $x^3+px^2+qx+5$, the derivative was a quadratic whose roots could be found. It is a known property that for a cubic polynomial on $[a,b]$, the $c$ from Rolle's theorem is related to the midpoint. A simpler method is needed. Let's solve the system of equations. For $b=-6a$, let's check $13a+4(-6a)=-11 \\implies -11a=-11 \\implies a=1$. So $a=1, b=-6$ is a candidate. Let's substitute these into $f'(x)=0$: $3x^2 - 12x + 11 = 0$. The roots are $x = \\frac{12 \\pm \\sqrt{144 - 4(3)(11)}}{6} = \\frac{12 \\pm \\sqrt{12}}{6} = 2 \\pm \\frac{2\\sqrt{3}}{6} = 2 \\pm \\frac{1}{\\sqrt{3}}$. One of these roots is $2 + \\frac{1}{\\sqrt{3}}$, which matches the given condition. Thus, $a=1$ and $b=-6$. **Correct option is (A).**",
+    "marks": 5
+  },
+  {
+    "type": "short",
+    "text": "If $f(x) = \\frac{x^2 - 1}{x^2 + 1}$, for every real $x$, then the minimum value of $f$ is -\n(A) 1\n(B) 0\n(C) -1\n(D) 2",
+    "answer": "To find the minimum value, we first find the derivative of the function using the quotient rule: $f'(x) = \\frac{(x^2+1)(2x) - (x^2-1)(2x)}{(x^2+1)^2} = \\frac{2x^3+2x-2x^3+2x}{(x^2+1)^2} = \\frac{4x}{(x^2+1)^2}$. To find critical points, we set $f'(x) = 0$, which gives $4x=0$, so $x=0$. To determine if this is a minimum, we can check the sign of the derivative around $x=0$. For $x<0$, $f'(x)<0$ (function is decreasing). For $x>0$, $f'(x)>0$ (function is increasing). This change from decreasing to increasing confirms that $x=0$ is a point of local minimum. The minimum value is $f(0) = \\frac{0^2-1}{0^2+1} = -1$. **Correct option is (C).**",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "A ladder 5 m in length is resting against vertical wall. The bottom of the ladder is pulled along the ground away from the wall at the rate of 1.5 m/sec. The length of the higher point of ladder when the foot of the ladder is 4.0 m away from the wall decreases at the rate of\n(A) 1\n(B) 2\n(C) 2.5\n(D) 3",
+    "answer": "Let $x$ be the distance of the foot of the ladder from the wall and $y$ be the height of the top of the ladder. By the Pythagorean theorem, $x^2 + y^2 = 5^2 = 25$. We are given $\\frac{dx}{dt} = 1.5$ m/s. We need to find $\\frac{dy}{dt}$ when $x=4$ m. First, find $y$ when $x=4$: $4^2+y^2=25 \\implies 16+y^2=25 \\implies y^2=9 \\implies y=3$ m. Now, we differentiate the Pythagorean equation with respect to time $t$: $2x\\frac{dx}{dt} + 2y\\frac{dy}{dt} = 0$. Substituting the known values: $2(4)(1.5) + 2(3)\\frac{dy}{dt} = 0 \\implies 12 + 6\\frac{dy}{dt} = 0 \\implies 6\\frac{dy}{dt} = -12 \\implies \\frac{dy}{dt} = -2$ m/s. The negative sign indicates a decrease. The rate of decrease is 2 m/s. **Correct option is (B).**",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Let $f(x)$ and $g(x)$ be differentiable for $0 < x < 1$ such that $f(0)=0, g(0)=0, f(1)=6$. Let there exist a real number $c$ in $(0, 1)$ such that $f'(c) = 2g'(c)$, then the value of $g(1)$ must be\n(A) 1\n(B) 3\n(C) 2.5\n(D) -1",
+    "answer": "This problem can be solved using Cauchy's Mean Value Theorem, which states that if two functions $f(x)$ and $g(x)$ are continuous on $[a, b]$ and differentiable on $(a, b)$, then there exists some $c \\in (a, b)$ such that $\\frac{f(b)-f(a)}{g(b)-g(a)} = \\frac{f'(c)}{g'(c)}$. Here, $a=0$ and $b=1$. We are given $f(0)=0, g(0)=0, f(1)=6$, and the condition $f'(c)=2g'(c)$, which means $\\frac{f'(c)}{g'(c)}=2$. Applying Cauchy's MVT: $\\frac{f(1)-f(0)}{g(1)-g(0)} = \\frac{f'(c)}{g'(c)}$. Substituting the given values: $\\frac{6-0}{g(1)-0} = 2$. This simplifies to $\\frac{6}{g(1)} = 2$, which gives $g(1) = 3$. **Correct option is (B).**",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "If $f(x) = x^3 - 6x^2 + 9x + 18$, then $f(x)$ is strictly decreasing in -\n(A) $(-\\infty, 1)$\n(B) $[3, \\infty)$\n(C) $(-\\infty, 1] \\cup [3, \\infty)$\n(D) $(1, 3)$",
+    "answer": "A function is strictly decreasing where its derivative is negative ($f'(x) < 0$). First, we find the derivative: $f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3)$. We set the derivative to be less than zero: $3(x^2 - 4x + 3) < 0$. Factoring the quadratic gives $3(x-1)(x-3) < 0$. The critical points are $x=1$ and $x=3$. The quadratic expression is negative between its roots. Therefore, the function is strictly decreasing in the interval $(1, 3)$. **Correct option is (D).**",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "If $x=-1$ and $x=2$ are the extreme points of $y = \\alpha \\log x + \\beta x^2 + x$ then\n(A) $\\alpha = -6, \\beta = -\\frac{1}{2}$\n(B) $\\alpha = -6, \\beta = \\frac{1}{2}$\n(C) $\\alpha = 2, \\beta = -1$\n(D) $\\alpha = 2, \\beta = -\\frac{1}{2}$",
+    "answer": "The term $\\log x$ is typically defined for $x>0$, so $x=-1$ cannot be an extreme point. Assuming the function is $y = \\alpha \\log|x| + \\beta x^2 + x$ so that it is defined at $x=-1$. Extreme points are where the derivative is zero. The derivative is $y' = \\frac{\\alpha}{x} + 2\\beta x + 1$. We set $y'=0$ at the given points:\nAt $x=-1$: $y'(-1) = \\frac{\\alpha}{-1} + 2\\beta(-1) + 1 = 0 \\implies -\\alpha - 2\\beta + 1 = 0 \\implies \\alpha + 2\\beta = 1$ (Eq. 1).\nAt $x=2$: $y'(2) = \\frac{\\alpha}{2} + 2\\beta(2) + 1 = 0 \\implies \\frac{\\alpha}{2} + 4\\beta + 1 = 0 \\implies \\alpha + 8\\beta = -2$ (Eq. 2).\nNow we solve the system of linear equations. Subtracting Eq. 1 from Eq. 2: $(\\alpha + 8\\beta) - (\\alpha + 2\\beta) = -2 - 1 \\implies 6\\beta = -3 \\implies \\beta = -\\frac{1}{2}$. Substitute $\\beta = -1/2$ into Eq. 1: $\\alpha + 2(-\\frac{1}{2}) = 1 \\implies \\alpha - 1 = 1 \\implies \\alpha = 2$. So, $\\alpha=2$ and $\\beta=-1/2$. **Correct option is (D).**",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "The normal to the curve $x^2 + 2xy - 3y^2 = 0$ at $(1, 1)$\n(A) Meets the curve again in second quadrant.\n(B) Does not meet the curve again.\n(C) Meets the curve again in third quadrant.\n(D) Meets the curve again in fourth quadrant.",
+    "answer": "First, find the slope of the tangent by implicit differentiation: $2x + 2y + 2x\\frac{dy}{dx} - 6y\\frac{dy}{dx} = 0$. At $(1,1)$, this becomes $2+2+2\\frac{dy}{dx}-6\\frac{dy}{dx}=0 \\implies 4 - 4\\frac{dy}{dx}=0 \\implies \\frac{dy}{dx}=1$. The slope of the tangent is $m_T=1$. The slope of the normal is $m_N = -1/m_T = -1$. The equation of the normal at $(1,1)$ is $y-1=-1(x-1)$, which simplifies to $x+y=2$. To find where the normal meets the curve again, substitute $y=2-x$ into the curve's equation: $x^2 + 2x(2-x) - 3(2-x)^2 = 0 \\implies x^2 + 4x - 2x^2 - 3(4-4x+x^2)=0 \\implies -x^2+4x-12+12x-3x^2=0 \\implies -4x^2+16x-12=0 \\implies x^2-4x+3=0 \\implies (x-1)(x-3)=0$. The intersection points have x-coordinates $x=1$ (the original point) and $x=3$. For $x=3$, the y-coordinate from the normal line equation is $y=2-3=-1$. The other point of intersection is $(3,-1)$, which lies in the fourth quadrant. **Correct option is (D).**",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "The equation of the tangent to the curve $y=1-e^{x/2}$ at the point of intersection with Y-axis is\n(A) $x+2y=0$\n(B) $2x+y=0$\n(C) $x-y=2$\n(D) $x+y=2$",
+    "answer": "The curve intersects the Y-axis when $x=0$. At $x=0$, $y=1-e^{0/2} = 1-1=0$. So the point of tangency is $(0,0)$. To find the slope of the tangent, we find the derivative: $\\frac{dy}{dx} = -e^{x/2} \\cdot \\frac{1}{2} = -\\frac{1}{2}e^{x/2}$. The slope at $x=0$ is $m = -\\frac{1}{2}e^0 = -\\frac{1}{2}$. The equation of the tangent line at $(0,0)$ is given by $y-y_1 = m(x-x_1)$, which is $y-0 = -\\frac{1}{2}(x-0)$. This simplifies to $y = -\\frac{x}{2}$, or $2y = -x$, or $x+2y=0$. **Correct option is (A).**",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "If the tangent at $(1, 1)$ on $y^2 = x(2-x)^2$ meets the curve again at P then P is\n(A) $(4, 4)$\n(B) $(-1, 2)$\n(C) $(3, 6)$\n(D) $(\\frac{9}{4}, \\frac{3}{8})$",
+    "answer": "First, find the slope of the tangent at $(1,1)$. We differentiate $y^2 = x(2-x)^2$ implicitly: $2y\\frac{dy}{dx} = (1)(2-x)^2 + x(2(2-x)(-1)) = (2-x)^2 - 2x(2-x) = (2-x)(2-x-2x) = (2-x)(2-3x)$. At $(1,1)$, $2(1)\\frac{dy}{dx} = (2-1)(2-3) = (1)(-1)=-1$. So, the slope is $m = -1/2$. The equation of the tangent is $y-1=-\\frac{1}{2}(x-1)$, which simplifies to $x+2y=3$. To find the other intersection point, we solve the system of equations. From the tangent line, $x=3-2y$. Substitute into the curve's equation: $y^2 = (3-2y)(2-(3-2y))^2 = (3-2y)(2y-1)^2$. This expands to $8y^3 - 19y^2 + 14y - 3 = 0$. Since the line is tangent at $y=1$, $(y-1)^2$ must be a factor. By polynomial division, we find $(y-1)^2(8y-3)=0$. The roots are $y=1$ (double root) and $y=3/8$. The new point P has $y=3/8$. Its x-coordinate is $x=3-2(3/8) = 3-3/4 = 9/4$. So P is $(\\frac{9}{4}, \\frac{3}{8})$. **Correct option is (D).**",
+    "marks": 5
+  },
+  {
+    "type": "short",
+    "text": "The approximate value of $\\tan(44^\\circ 30')$ given that $1^\\circ = 0.0175$.\n(A) 0.8952\n(B) 0.9528\n(C) 0.9285\n(D) 0.9825",
+    "answer": "We use linear approximation: $f(a+h) \\approx f(a) + h f'(a)$. Let $f(x) = \\tan x$. We want to find $\\tan(44.5^\\circ)$. Let's choose a nearby angle for which we know the tangent, $a=45^\\circ$. Then the change is $h = 44.5^\\circ - 45^\\circ = -0.5^\\circ$. We must convert $h$ to radians: $h = -0.5 \\times 1^\\circ = -0.5 \\times 0.0175 = -0.00875$ radians. We know $f(a)=\\tan(45^\\circ)=1$. The derivative is $f'(x)=\\sec^2x$. At $a=45^\\circ$, $f'(a)=\\sec^2(45^\\circ)=(\\sqrt{2})^2=2$. Now we apply the formula: $\\tan(44.5^\\circ) \\approx 1 + (-0.00875)(2) = 1 - 0.0175 = 0.9825$. **Correct option is (D).**",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "If the curves $ax^2 + by^2 = 1$ and $a'x^2 + b'y^2 = 1$ intersect orthogonally, then prove that $\\frac{1}{a} - \\frac{1}{b} = \\frac{1}{a'} - \\frac{1}{b'}$.",
+    "answer": "Orthogonal intersection means the tangents at the point of intersection $(x_0, y_0)$ are perpendicular, so their slopes $m_1$ and $m_2$ satisfy $m_1m_2=-1$.<br>For the first curve $ax^2+by^2=1$, differentiating gives $2ax+2by\\frac{dy}{dx}=0$, so the slope is $m_1 = \\frac{dy}{dx}|_{(x_0,y_0)} = -\\frac{ax_0}{by_0}$.<br>For the second curve $a'x^2+b'y^2=1$, the slope is $m_2 = -\\frac{a'x_0}{b'y_0}$.<br>The condition $m_1m_2=-1$ gives $(-\\frac{ax_0}{by_0})(-\\frac{a'x_0}{b'y_0}) = -1 \\implies \\frac{aa'x_0^2}{bb'y_0^2}=-1$. (1)<br>Since $(x_0, y_0)$ is on both curves, we can subtract the curve equations: $(ax_0^2+by_0^2) - (a'x_0^2+b'y_0^2) = 1-1=0 \\implies (a-a')x_0^2 = -(b-b')y_0^2$.<br>From this, $\\frac{x_0^2}{y_0^2} = -\\frac{b-b'}{a-a'}$.<br>Substitute this into (1): $\\frac{aa'}{bb'}(-\\frac{b-b'}{a-a'}) = -1 \\implies aa'(b-b')=bb'(a-a') \\implies aa'b-aa'b'=bb'a-bb'a'$.<br>Dividing by $aa'bb'$ gives $\\frac{1}{b'} - \\frac{1}{b} = \\frac{1}{a'} - \\frac{1}{a}$. Rearranging gives $\\frac{1}{a} - \\frac{1}{b} = \\frac{1}{a'} - \\frac{1}{b'}$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Determine the area of the triangle formed by the tangent to the graph of the function $y=3-x^2$ drawn at the point $(1, 2)$ and the coordinate axes.",
+    "answer": "First, we find the equation of the tangent line. The derivative of the function is $y' = -2x$. At the point $(1,2)$, the slope of the tangent is $m = y'(1) = -2(1) = -2$. Using the point-slope form, the equation of the tangent is $y-2 = -2(x-1)$, which simplifies to $2x+y=4$.<br>Next, we find the intercepts of this line with the coordinate axes. For the x-intercept, set $y=0$: $2x=4 \\implies x=2$. The point is $(2,0)$. For the y-intercept, set $x=0$: $y=4$. The point is $(0,4)$.<br>The triangle is formed by the vertices $(0,0)$, $(2,0)$, and $(0,4)$. This is a right-angled triangle with base 2 and height 4. The area is $\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 2 \\times 4 = 4$ square units.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the equation of the tangent and normal to the curve $y^3 - x^2 - 6xy = 0$ at the point M(1, 2).",
+    "answer": "There appears to be an error in the problem statement. To find the tangent and normal at a point, the point must lie on the curve. Let's check if the point M(1, 2) is on the curve $y^3 - x^2 - 6xy = 0$. Substituting $x=1$ and $y=2$ into the equation gives $2^3 - 1^2 - 6(1)(2) = 8 - 1 - 12 = -5$. Since $-5 \\neq 0$, the point M(1, 2) is not on the given curve. Therefore, the tangent and normal at this point for this curve cannot be determined as stated.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A water tank in the form of an inverted cone is being emptied at the rate of 2 cubic feet per second. The height of the cone is 8 feet and the radius is 4 feet. Find the rate of change of the water level when the depth is 6 feet.",
+    "answer": "Let $V$ be the volume, $h$ be the depth, and $r$ be the radius of the water at any time $t$. We are given $\\frac{dV}{dt}=-2$ ft³/s. The cone's dimensions are total height $H=8$ ft and total radius $R=4$ ft. By similar triangles, the ratio of radius to height is constant: $\\frac{r}{h} = \\frac{R}{H} = \\frac{4}{8} = \\frac{1}{2}$, so $r=\\frac{h}{2}$.<br>The volume of water in the cone is $V = \\frac{1}{3}\\pi r^2 h$. Substituting $r$: $V = \\frac{1}{3}\\pi (\\frac{h}{2})^2 h = \\frac{\\pi h^3}{12}$.<br>Differentiating with respect to time: $\\frac{dV}{dt} = \\frac{\\pi}{12}(3h^2)\\frac{dh}{dt} = \\frac{\\pi h^2}{4}\\frac{dh}{dt}$. We need to find $\\frac{dh}{dt}$ when $h=6$ ft. Substituting the known values: $-2 = \\frac{\\pi (6)^2}{4}\\frac{dh}{dt} \\implies -2 = 9\\pi \\frac{dh}{dt} \\implies \\frac{dh}{dt} = -\\frac{2}{9\\pi}$ ft/s. The water level is decreasing at a rate of $\\frac{2}{9\\pi}$ ft/s.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find all points on the ellipse $9x^2 + 16y^2 = 400$, at which the y-coordinate is decreasing and the x-coordinate is increasing at the same rate.",
+    "answer": "Let the rate be $k>0$. We are given that the x-coordinate is increasing at rate $k$, so $\\frac{dx}{dt}=k$. The y-coordinate is decreasing at rate $k$, so $\\frac{dy}{dt}=-k$. The slope $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{-k}{k} = -1$.<br>Now we find the derivative of the ellipse's equation implicitly: $18x + 32y\\frac{dy}{dx} = 0 \\implies \\frac{dy}{dx} = -\\frac{18x}{32y} = -\\frac{9x}{16y}$.<br>Setting the derivative equal to -1: $-\\frac{9x}{16y} = -1 \\implies 9x=16y \\implies x=\\frac{16y}{9}$.<br>Substitute this into the ellipse equation: $9(\\frac{16y}{9})^2 + 16y^2 = 400 \\implies 9\\frac{256y^2}{81} + 16y^2 = 400 \\implies \\frac{256y^2}{9} + \\frac{144y^2}{9} = 400 \\implies \\frac{400y^2}{9} = 400 \\implies y^2=9 \\implies y=\\pm 3$.<br>If $y=3$, $x=\\frac{16(3)}{9} = \\frac{16}{3}$. Point: $(\\frac{16}{3}, 3)$.<br>If $y=-3$, $x=\\frac{16(-3)}{9} = -\\frac{16}{3}$. Point: $(-\\frac{16}{3}, -3)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Verify Rolle's theorem for the function $f(x) = \\frac{2}{e^x + e^{-x}}$ on $[-1, 1]$.",
+    "answer": "To verify Rolle's theorem, we check three conditions:<br>1. **Continuity**: The denominator $e^x + e^{-x}$ is always positive and never zero, so the function is continuous for all real numbers, including the interval $[-1, 1]$.<br>2. **Differentiability**: The function is differentiable for all real numbers. Its derivative is $f'(x) = \\frac{-2(e^x - e^{-x})}{(e^x+e^{-x})^2}$.<br>3. **Equality at endpoints**: $f(-1) = \\frac{2}{e^{-1}+e^1}$ and $f(1) = \\frac{2}{e^1+e^{-1}}$. Clearly, $f(-1)=f(1)$.<br>Since all conditions are met, there must exist a $c \\in (-1, 1)$ such that $f'(c)=0$. We set the derivative to zero: $\\frac{-2(e^c - e^{-c})}{(e^c+e^{-c})^2}=0$. This implies the numerator must be zero: $e^c - e^{-c} = 0 \\implies e^c = e^{-c} \\implies e^{2c}=1$. Taking the natural logarithm gives $2c=0$, so $c=0$. Since $c=0$ is in the interval $(-1, 1)$, Rolle's theorem is verified.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The position of a particle is given by the function $s(t) = 2t^2 + 3t - 4$. Find the time $t=c$ in the interval $0 \\le t \\le 4$ when the instantaneous velocity of the particle equals to its average velocity in this interval.",
+    "answer": "This is an application of the Mean Value Theorem. The average velocity over $[0, 4]$ is $v_{avg} = \\frac{s(4)-s(0)}{4-0}$.<br>$s(4) = 2(4^2)+3(4)-4 = 32+12-4 = 40$.<br>$s(0) = 2(0)^2+3(0)-4 = -4$.<br>$v_{avg} = \\frac{40 - (-4)}{4} = \\frac{44}{4} = 11$.<br>The instantaneous velocity is the derivative of the position function: $v(t) = s'(t) = 4t+3$. We need to find the time $c$ where the instantaneous velocity equals the average velocity: $s'(c) = 11 \\implies 4c+3=11 \\implies 4c=8 \\implies c=2$. The time is $t=2$, which is in the interval $[0, 4]$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of the function $f(x) = \\sqrt{x^2+3x}$ at $x=1.02$.",
+    "answer": "We use linear approximation, $f(a+h) \\approx f(a) + hf'(a)$. Let $a=1$ and $h=0.02$.<br>$f(a) = f(1) = \\sqrt{1^2+3(1)} = \\sqrt{4}=2$.<br>The derivative is $f'(x) = \\frac{1}{2\\sqrt{x^2+3x}} \\cdot (2x+3) = \\frac{2x+3}{2\\sqrt{x^2+3x}}$.<br>At $a=1$, $f'(1) = \\frac{2(1)+3}{2\\sqrt{1^2+3(1)}} = \\frac{5}{4}$.<br>The approximate value is $f(1.02) \\approx f(1) + (0.02)f'(1) = 2 + (0.02)(\\frac{5}{4}) = 2 + 0.025 = 2.025$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the approximate value of $\\cos^{-1}(0.51)$ given $\\pi=3.1416, \\frac{2}{\\sqrt{3}}=1.1547$.",
+    "answer": "Let $f(x)=\\cos^{-1}(x)$. We use linear approximation $f(a+h) \\approx f(a) + hf'(a)$. Let $a=0.5 = 1/2$ and $h=0.01$.<br>$f(a)=f(0.5)=\\cos^{-1}(0.5)=\\frac{\\pi}{3} \\approx \\frac{3.1416}{3} = 1.0472$.<br>The derivative is $f'(x) = -\\frac{1}{\\sqrt{1-x^2}}$.<br>At $a=0.5$, $f'(0.5) = -\\frac{1}{\\sqrt{1-(0.5)^2}} = -\\frac{1}{\\sqrt{0.75}} = -\\frac{1}{\\sqrt{3}/2} = -\\frac{2}{\\sqrt{3}} \\approx -1.1547$.<br>The approximate value is $f(0.51) \\approx 1.0472 + (0.01)(-1.1547) = 1.0472 - 0.011547 = 1.035653$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the intervals on which the function $y=x^x, (x>0)$ is increasing and decreasing.",
+    "answer": "To find the intervals of increase and decrease, we analyze the sign of the derivative. We use logarithmic differentiation. Let $y=x^x$. Then $\\log y = x \\log x$. Differentiating implicitly: $\\frac{1}{y}\\frac{dy}{dx} = (1)\\log x + x(\\frac{1}{x}) = \\log x + 1$. So, $\\frac{dy}{dx} = y(\\log x+1) = x^x(\\log x+1)$.<br>Since $x>0$, the term $x^x$ is always positive. The sign of the derivative is determined by the term $(\\log x + 1)$.<br>Increasing: $\\frac{dy}{dx}>0 \\implies \\log x+1>0 \\implies \\log x > -1 \\implies x > e^{-1}$. The function is increasing on $(\\frac{1}{e}, \\infty)$.<br>Decreasing: $\\frac{dy}{dx}<0 \\implies \\log x+1<0 \\implies \\log x < -1 \\implies 0 < x < e^{-1}$. The function is decreasing on $(0, \\frac{1}{e})$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the intervals on which the function $f(x) = \\frac{x}{\\log x}$ is increasing and decreasing.",
+    "answer": "The domain of the function is $x>0$ and $x \\neq 1$. Using the quotient rule, the derivative is $f'(x) = \\frac{(\\log x)(1) - x(1/x)}{(\\log x)^2} = \\frac{\\log x - 1}{(\\log x)^2}$. The denominator is always positive for $x$ in the domain. Thus, the sign of $f'(x)$ is determined by the numerator, $\\log x - 1$.<br>Increasing: $f'(x)>0 \\implies \\log x - 1 > 0 \\implies \\log x > 1 \\implies x > e$. The function is increasing on $(e, \\infty)$.<br>Decreasing: $f'(x)<0 \\implies \\log x - 1 < 0 \\implies \\log x < 1 \\implies x < e$. Considering the domain, the function is decreasing on $(0, 1) \\cup (1, e)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "An open box with a square base is to be made out of a given quantity of sheet of area $a^2$. Show the maximum volume of the box is $\\frac{a^3}{6\\sqrt{3}}$.",
+    "answer": "Let the side of the square base be $x$ and the height be $h$. The surface area is $A = x^2+4xh=a^2$. From this, $h=\\frac{a^2-x^2}{4x}$. The volume is $V = x^2h = x^2(\\frac{a^2-x^2}{4x}) = \\frac{1}{4}(a^2x-x^3)$. To maximize the volume, we find the derivative and set it to zero: $\\frac{dV}{dx} = \\frac{1}{4}(a^2-3x^2)$. Setting $\\frac{dV}{dx}=0$ gives $a^2-3x^2=0 \\implies x^2=\\frac{a^2}{3} \\implies x=\\frac{a}{\\sqrt{3}}$. The second derivative $\\frac{d^2V}{dx^2} = -\\frac{3}{2}x$ is negative, confirming a maximum. The maximum volume is obtained by substituting this $x$ back into the volume equation: $V_{max} = \\frac{1}{4}(a^2(\\frac{a}{\\sqrt{3}}) - (\\frac{a}{\\sqrt{3}})^3) = \\frac{1}{4}(\\frac{a^3}{\\sqrt{3}} - \\frac{a^3}{3\\sqrt{3}}) = \\frac{1}{4}(\\frac{2a^3}{3\\sqrt{3}}) = \\frac{a^3}{6\\sqrt{3}}$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Show that of all rectangles inscribed in a given circle, the square has the maximum area.",
+    "answer": "Let the circle have radius $R$, so its equation is $x^2+y^2=R^2$. Let a rectangle be inscribed with vertices at $(\\pm x, \\pm y)$. The side lengths of the rectangle are $2x$ and $2y$. The area is $A=4xy$. From the circle's equation, $y=\\sqrt{R^2-x^2}$. So, $A(x) = 4x\\sqrt{R^2-x^2}$. To simplify, we maximize the square of the area, $S=A^2=16x^2(R^2-x^2) = 16(R^2x^2-x^4)$. Differentiating with respect to $x$: $\\frac{dS}{dx} = 16(2R^2x-4x^3)=32x(R^2-2x^2)$. Setting the derivative to zero gives $x=0$ (minimum area) or $R^2-2x^2=0 \\implies x^2=\\frac{R^2}{2} \\implies x=\\frac{R}{\\sqrt{2}}$. The corresponding y-value is $y=\\sqrt{R^2 - x^2} = \\sqrt{R^2 - \\frac{R^2}{2}} = \\frac{R}{\\sqrt{2}}$. Since the sides $2x$ and $2y$ are equal ($2x = 2y = R\\sqrt{2}$), the rectangle is a square.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Show that a closed right circular cylinder of given surface area has maximum volume if its height equals the diameter of its base.",
+    "answer": "Let the cylinder have radius $r$, height $h$, and a constant surface area $S$. The surface area is $S = 2\\pi r^2 + 2\\pi rh$. From this, we can express $h$: $h = \\frac{S-2\\pi r^2}{2\\pi r}$. The volume is $V = \\pi r^2 h$. Substituting $h$: $V(r) = \\pi r^2 (\\frac{S-2\\pi r^2}{2\\pi r}) = \\frac{r(S-2\\pi r^2)}{2} = \\frac{Sr - 2\\pi r^3}{2}$. To maximize volume, we differentiate and set to zero: $\\frac{dV}{dr} = \\frac{S-6\\pi r^2}{2}$. Setting $\\frac{dV}{dr}=0$ gives $S-6\\pi r^2=0 \\implies S=6\\pi r^2$. Now substitute this back into the area formula: $6\\pi r^2 = 2\\pi r^2 + 2\\pi rh \\implies 4\\pi r^2 = 2\\pi rh \\implies 2r = h$. Thus, the volume is maximum when the height is equal to the diameter of the base.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "A window is in the form of a rectangle surmounted by a semi-circle. If the perimeter is 30 m, find the dimensions so that the greatest possible amount of light may be admitted.",
+    "answer": "Let the rectangle have height $h$ and width $2r$, so the semicircle on top has radius $r$. The area (light) is $A = 2rh + \\frac{1}{2}\\pi r^2$. The perimeter is $P = h + 2r + h + \\pi r = 2h+2r+\\pi r = 30$. From the perimeter equation, $2h = 30-2r-\\pi r$. Substitute this into the area equation: $A = r(2h) + \\frac{1}{2}\\pi r^2 = r(30-2r-\\pi r) + \\frac{1}{2}\\pi r^2 = 30r - 2r^2 - \\frac{1}{2}\\pi r^2$. To maximize the area, we differentiate: $\\frac{dA}{dr} = 30 - 4r - \\pi r$. Setting $\\frac{dA}{dr}=0$ gives $30=r(4+\\pi)$, so $r=\\frac{30}{4+\\pi}$. The width of the rectangle is $2r=\\frac{60}{4+\\pi}$ m. The height is $h = \\frac{30-r(2+\\pi)}{2} = 15 - r(1+\\pi/2) = 15 - \\frac{30(2+\\pi)}{2(4+\\pi)} = \\frac{30}{4+\\pi}$ m.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Show that the height of a right circular cylinder of greatest volume that can be inscribed in a right circular cone is one-third of that of the cone.",
+    "answer": "Let the cone have height $H$ and radius $R$. Let the inscribed cylinder have height $h$ and radius $r$. By similar triangles (using a cross-section), we have the relation $\\frac{H-h}{r} = \\frac{H}{R}$, which gives $h = H(1 - \\frac{r}{R})$. The volume of the cylinder is $V = \\pi r^2 h$. Substituting for $h$: $V(r) = \\pi r^2 H(1-\\frac{r}{R}) = \\pi H (r^2 - \\frac{r^3}{R})$. To maximize the volume, we differentiate with respect to $r$: $\\frac{dV}{dr} = \\pi H (2r - \\frac{3r^2}{R})$. Setting $\\frac{dV}{dr}=0$ gives $2r = \\frac{3r^2}{R}$, which for $r \\neq 0$ gives $r=\\frac{2R}{3}$. The corresponding height of the cylinder is $h=H(1 - \\frac{2R/3}{R}) = H(1-\\frac{2}{3}) = \\frac{H}{3}$. Thus, the cylinder has maximum volume when its height is one-third the height of the cone.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "A wire of length $l$ is cut in to two parts. One part is bent into a circle and the other into a square. Show that the sum of the areas of the circle and the square is least, if the radius of the circle is half the side of the square.",
+    "answer": "Let the length of the wire be $l$. Let the part for the circle be $x$ and for the square be $l-x$.<br>For the circle, circumference $C=x=2\\pi r$, so radius $r=\\frac{x}{2\\pi}$. Area is $A_{circle} = \\pi r^2 = \\frac{x^2}{4\\pi}$.<br>For the square, perimeter $P=l-x=4s$, so side $s=\\frac{l-x}{4}$. Area is $A_{square}=s^2 = \\frac{(l-x)^2}{16}$.<br>The total area is $A(x) = \\frac{x^2}{4\\pi} + \\frac{(l-x)^2}{16}$. To find the minimum area, we differentiate with respect to $x$: $A'(x) = \\frac{2x}{4\\pi} - \\frac{2(l-x)}{16} = \\frac{x}{2\\pi} - \\frac{l-x}{8}$. Setting $A'(x)=0$: $\\frac{x}{2\\pi} = \\frac{l-x}{8}$. This is the condition for minimum area. We need to show this condition is equivalent to $r=s/2$.<br>From our definitions, $r=\\frac{x}{2\\pi}$ and $s=\\frac{l-x}{4}$. The condition $r=s/2$ becomes $\\frac{x}{2\\pi} = \\frac{(l-x)/4}{2} = \\frac{l-x}{8}$. This is exactly the same condition we derived from setting the derivative to zero. Thus, the sum of the areas is least when the radius of the circle is half the side of the square.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "A rectangular Sheet of paper of fixed perimeter with the sides having their length in the ratio 8 : 15 converted in to an open rectangular box by folding after removing the squares of equal area from all corners. If the total area of the removed squares is 100, the resulting box has maximum volume. Find the lengths of the rectangular sheet of paper.",
+    "answer": "Let the side of each removed square be $x$. The total area of four such squares is $4x^2=100$, which gives $x^2=25$, so $x=5$.<br>Let the lengths of the rectangular sheet be $L=15k$ and $W=8k$ for some constant $k$. After cutting the squares and folding, the dimensions of the open box are:<br>Length: $L_{box} = 15k-2x = 15k-10$<br>Width: $W_{box} = 8k-2x = 8k-10$<br>Height: $H_{box} = x = 5$<br>The volume of the box is $V = (15k-10)(8k-10)(5)$.<br>The problem states that the volume is maximum for the given cut-out size. This means if we consider the volume as a function of the cut-out size, say $z$, $V(z) = (15k-2z)(8k-2z)z$, its derivative must be zero at $z=5$.<br>$V(z) = (120k^2 - 46kz + 4z^2)z = 4z^3 - 46kz^2 + 120k^2z$.<br>$\\frac{dV}{dz} = 12z^2 - 92kz + 120k^2$.<br>Setting the derivative to zero at $z=5$: $12(5)^2 - 92k(5) + 120k^2 = 0 \\implies 300 - 460k + 120k^2 = 0$.<br>Dividing by 20, we get the quadratic equation: $6k^2 - 23k + 15 = 0$.<br>Solving for $k$: $k = \\frac{23 \\pm \\sqrt{23^2 - 4(6)(15)}}{12} = \\frac{23 \\pm \\sqrt{169}}{12} = \\frac{23 \\pm 13}{12}$.<br>This gives two possible values for $k$: $k = \\frac{36}{12}=3$ or $k=\\frac{10}{12}=\\frac{5}{6}$.<br>For the box to have positive dimensions, we need $8k-10>0$, which means $k > 1.25$. Only $k=3$ satisfies this condition.<br>Therefore, the lengths of the sheet are $L=15(3)=45$ and $W=8(3)=24$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Show that the altitude of the right circular cone of maximum volume that can be inscribed in a sphere of radius $r$ is $\\frac{4r}{3}$.",
+    "answer": "Let the sphere have radius $r$. Let the inscribed cone have height $h$ and base radius $R$. Let the center of the sphere be the origin. The apex of the cone can be at $(0, r)$ and its base on a plane $y=r-h$. The relationship between the cone's dimensions and the sphere's radius is given by the Pythagorean theorem on a cross-sectional triangle: $R^2 + (h-r)^2 = r^2$. Note that the distance from the center to the base of the cone is $|r-h|$.<br>$R^2 = r^2 - (h-r)^2 = r^2 - (h^2 - 2hr + r^2) = 2hr - h^2$.<br>The volume of the cone is $V = \\frac{1}{3}\\pi R^2 h$. Substituting $R^2$:<br>$V(h) = \\frac{1}{3}\\pi (2hr - h^2)h = \\frac{\\pi}{3}(2rh^2 - h^3)$.<br>To find the maximum volume, we differentiate with respect to $h$ and set it to zero:<br>$\\frac{dV}{dh} = \\frac{\\pi}{3}(4rh - 3h^2) = \\frac{\\pi h}{3}(4r - 3h)$.<br>Setting $\\frac{dV}{dh}=0$ (for $h\\neq 0$) gives $4r-3h=0$, so $h=\\frac{4r}{3}$.<br>To confirm this is a maximum, the second derivative is $\\frac{d^2V}{dh^2} = \\frac{\\pi}{3}(4r-6h)$. At $h=\\frac{4r}{3}$, this is $\\frac{\\pi}{3}(4r-8r) = -\\frac{4\\pi r}{3} < 0$, which confirms a maximum. Thus, the altitude for maximum volume is $\\frac{4r}{3}$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Show that the height of the cylinder of maximum volume that can be inscribed in a sphere of radius R is $\\frac{2R}{\\sqrt{3}}$. Also find the maximum volume.",
+    "answer": "Let the sphere have radius $R$. Let the inscribed cylinder have radius $r$ and height $h$. A cross-section shows a right-angled triangle with hypotenuse $R$ and legs $r$ and $h/2$. By Pythagorean theorem, $r^2 + (h/2)^2 = R^2$, so $r^2 = R^2 - h^2/4$.<br>The volume of the cylinder is $V = \\pi r^2 h$. Substituting $r^2$ to express volume as a function of height $h$:<br>$V(h) = \\pi(R^2 - h^2/4)h = \\pi(R^2h - h^3/4)$.<br>To find the maximum volume, we differentiate with respect to $h$ and set to zero:<br>$\\frac{dV}{dh} = \\pi(R^2 - 3h^2/4)$.<br>Setting $\\frac{dV}{dh}=0$ gives $R^2 = 3h^2/4$, which leads to $h^2 = \\frac{4R^2}{3}$, so $h=\\frac{2R}{\\sqrt{3}}$.<br>The second derivative is $\\frac{d^2V}{dh^2} = -\\frac{3\\pi h}{2}$, which is negative, confirming a maximum.<br>To find the maximum volume, we first find the corresponding radius squared: $r^2 = R^2 - \\frac{1}{4}(\\frac{4R^2}{3}) = R^2 - \\frac{R^2}{3} = \\frac{2R^2}{3}$.<br>The maximum volume is $V_{max} = \\pi r^2 h = \\pi (\\frac{2R^2}{3})(\\frac{2R}{\\sqrt{3}}) = \\frac{4\\pi R^3}{3\\sqrt{3}}$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Find the maximum and minimum values of the function $f(x) = \\cos^2 x + \\sin x$.",
+    "answer": "We can rewrite the function in terms of a single trigonometric function using the identity $\\cos^2 x = 1-\\sin^2 x$.<br>$f(x) = (1-\\sin^2 x) + \\sin x = -\\sin^2 x + \\sin x + 1$.<br>Let $t = \\sin x$. Since the range of $\\sin x$ is $[-1, 1]$, we need to find the absolute maximum and minimum of the quadratic function $g(t) = -t^2+t+1$ on the interval $t \\in [-1, 1]$.<br>This is a downward-opening parabola. The maximum will be at its vertex. The t-coordinate of the vertex is $t = -\\frac{b}{2a} = -\\frac{1}{2(-1)} = \\frac{1}{2}$. Since $1/2$ is in the interval $[-1, 1]$, the maximum value of the function occurs here.<br>Maximum value: $g(1/2) = -(1/2)^2 + (1/2) + 1 = -1/4 + 1/2 + 1 = \\frac{5}{4}$.<br>The minimum value must occur at one of the endpoints of the interval $[-1, 1]$.<br>At $t=-1$: $g(-1) = -(-1)^2 + (-1) + 1 = -1-1+1 = -1$.<br>At $t=1$: $g(1) = -(1)^2 + 1 + 1 = -1+1+1 = 1$.<br>Comparing the values, the minimum value is -1.<br>Thus, the maximum value of $f(x)$ is $\\frac{5}{4}$ and the minimum value is $-1$.",
+    "marks": 4
+  }
+]

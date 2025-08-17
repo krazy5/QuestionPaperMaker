@@ -1,0 +1,28 @@
+[
+  {
+    "type": "mcq",
+    "text": "The breakdown of glucose into pyruvic acid is called...",
+    "options": ["Krebs cycle", "Glycolysis", "Electron transport chain", "Fermentation"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which process occurs in the cytoplasm?",
+    "options": ["Glycolysis", "Krebs cycle", "Oxidative phosphorylation", "All of the above"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the net gain of ATP during glycolysis?",
+    "answer": "The net gain of ATP during glycolysis is **2 ATP** molecules. (4 ATP are produced, but 2 ATP are consumed in the initial steps).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the Krebs cycle.",
+    "answer": "<strong>Krebs Cycle (Citric Acid Cycle):</strong><br>The Krebs cycle is the central metabolic pathway in aerobic respiration. It occurs in the matrix of the mitochondria.<br><strong>Steps:</strong><br>1. <strong>Acetyl-CoA Entry:</strong> Pyruvic acid from glycolysis is converted into Acetyl-CoA, which enters the cycle.<br>2. <strong>Condensation:</strong> Acetyl-CoA (2C) combines with Oxaloacetic acid (4C) to form Citric acid (6C).<br>3. <strong>Series of Reactions:</strong> Through a series of enzyme-catalyzed reactions, the citric acid is systematically broken down, releasing carbon dioxide.<br>4. <strong>Energy Production:</strong> In the process, energy is captured in the form of ATP, NADH, and FADH2.<br>5. <strong>Regeneration:</strong> Oxaloacetic acid is regenerated at the end of the cycle to accept another molecule of Acetyl-CoA.<br><strong>Net Products per Glucose Molecule (2 turns of the cycle):</strong> 2 ATP, 6 NADH, 2 FADH2, and 4 CO2.",
+    "marks": 5
+  }
+]

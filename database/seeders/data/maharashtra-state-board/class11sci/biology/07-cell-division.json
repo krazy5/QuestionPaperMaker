@@ -1,0 +1,68 @@
+ [
+    {
+      "type": "mcq",
+      "text": "Which type of epithelial tissue forms the lining of the kidney tubules?",
+      "options": ["Squamous epithelium", "Cuboidal epithelium", "Columnar epithelium", "Ciliated epithelium"],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which connective tissue stores fat?",
+      "options": ["Adipose tissue", "Areolar tissue", "Cartilage", "Bone"],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which type of muscle is involuntary and non-striated?",
+      "options": ["Cardiac muscle", "Skeletal muscle", "Smooth muscle", "None of these"],
+      "correct_answer": "C",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "The basic functional unit of nervous tissue is:",
+      "options": ["Neuron", "Axon", "Dendrite", "Glial cell"],
+      "correct_answer": "A",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which blood cells are responsible for immunity?",
+      "options": ["RBC", "Platelets", "Neutrophils", "Lymphocytes"],
+      "correct_answer": "D",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "Name the four basic types of animal tissues.",
+      "answer": "Epithelial, Connective, Muscular, Nervous.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "State one function of cardiac muscle.",
+      "answer": "Contracts rhythmically to pump blood throughout the body.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Give two examples of connective tissue.",
+      "answer": "Bone, Cartilage.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Describe the structure and function of epithelial tissue with types.",
+      "answer": "Epithelial tissue covers body surfaces and lines cavities. Cells are tightly packed with minimal intercellular space.<br>Types:<br>1. Squamous – Thin, allows diffusion.<br>2. Cuboidal – Cube-shaped, secretion and absorption.<br>3. Columnar – Tall, absorption and secretion.<br>4. Ciliated – Moves particles or fluids.<br>5. Glandular – Secretion.",
+      "marks": 5
+    },
+    {
+      "type": "long",
+      "text": "Explain the structure and functions of areolar connective tissue.",
+      "answer": "Structure: Loose arrangement of fibers and cells (fibroblasts, macrophages, mast cells) in a semi-fluid matrix.<br>Functions: Binds skin to underlying structures, acts as a packing tissue, provides flexibility, supports blood vessels and nerves.",
+      "marks": 3
+    }
+  ]
+

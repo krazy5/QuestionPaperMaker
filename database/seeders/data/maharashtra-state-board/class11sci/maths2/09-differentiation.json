@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mcq",
+    "text": "The derivative of $x^5$ with respect to x is:",
+    "options": [
+      "$5x^4$",
+      "$4x^5$",
+      "$5x^5$",
+      "$x^4$"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the derivative of $y = \\sin x + \\cos x$.",
+    "answer": "<strong>Solution:</strong><br>Step 1: Differentiate term by term.<br>$\\frac{d}{dx}(\\sin x) = \\cos x$.<br>$\\frac{d}{dx}(\\cos x) = -\\sin x$.<br>Step 2: Combine the results: $\\frac{dy}{dx} = \\cos x - \\sin x$.",
+    "marks": 2
+  }
+]

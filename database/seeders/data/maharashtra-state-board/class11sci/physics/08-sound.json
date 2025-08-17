@@ -1,0 +1,26 @@
+[
+  {
+    "type": "mcq",
+    "text": "Sound waves in air are...",
+    "options": [
+      "Transverse waves",
+      "Longitudinal waves",
+      "Electromagnetic waves",
+      "Non-mechanical waves"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the Doppler effect?",
+    "answer": "<strong>Doppler Effect:</strong><br>The Doppler effect is the apparent change in the frequency of a wave in relation to an observer who is moving relative to the wave source. It is commonly heard when a vehicle sounding a siren approaches, passes, and recedes from an observer.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A train is moving at a speed of 30 m/s towards a stationary observer. If the frequency of the whistle is 500 Hz, what is the apparent frequency heard by the observer? (Speed of sound in air = 330 m/s)",
+    "answer": "<strong>Solution:</strong><br>Step 1: Use the Doppler effect formula for a source moving towards a stationary observer: $n' = n (\\frac{v}{v-v_s})$.<br>Step 2: Given: actual frequency $n=500$ Hz, speed of sound $v=330$ m/s, speed of source $v_s=30$ m/s.<br>Step 3: Substitute the values: $n' = 500 (\\frac{330}{330-30}) = 500 (\\frac{330}{300})$.<br>Step 4: Calculate the apparent frequency: $n' = 500 \\times 1.1 = 550$ Hz.<br><strong>Final Answer:</strong> The apparent frequency heard by the observer is 550 Hz.",
+    "marks": 3
+  }
+]
