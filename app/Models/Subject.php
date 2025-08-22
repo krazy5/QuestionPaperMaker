@@ -4,21 +4,24 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Subject extends Model
 {
     use HasFactory;
+
     protected $fillable = ['name', 'class_id'];
 
     /**
-     * Get the class that this subject belongs to.
+     * The attributes that should be cast to native types.
+     *
+     * @var array
      */
-    public function academicClass(): BelongsTo
-    {
-        return $this->belongsTo(AcademicClassModel::class, 'class_id');
-    }
+    protected $casts = [
+        'class_id' => 'array', // It's good practice to add this cast
+    ];
+
+    // The academicClass() relationship has been removed because class_id is a JSON column.
 
     /**
      * Get the chapters for this subject.
@@ -27,4 +30,12 @@ class Subject extends Model
     {
         return $this->hasMany(Chapter::class);
     }
+    public function academicClass()
+    {
+        // adjust 'class_id' if your FK is named differently
+        return $this->belongsTo(AcademicClassModel::class, 'class_id');
+    }
+
+
+    
 }

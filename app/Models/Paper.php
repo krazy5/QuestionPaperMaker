@@ -22,6 +22,7 @@ class Paper extends Model
         'board_id',
         'class_id',
         'subject_id',
+        'paper_blueprint_id',
         'title',
         'instructions',
         'total_marks',
@@ -70,10 +71,21 @@ class Paper extends Model
      * The questions that belong to the paper.
      * This is a many-to-many relationship through the 'paper_questions' pivot table.
      */
-    public function questions(): BelongsToMany
+    public function questions()
     {
-        // We must specify the pivot table and the extra columns it holds.
-        return $this->belongsToMany(Question::class, 'paper_questions')
-                    ->withPivot('marks', 'sort_order');
+        return $this->belongsToMany(
+            \App\Models\Question::class,
+            'paper_question',    // pivot table
+            'paper_id',          // this model's key on pivot
+            'question_id'        // related model's key on pivot
+        )->withPivot(['marks','section_rule_id','sort_order'])
+        ->withTimestamps();
     }
+
+
+    // In Paper.php
+        public function blueprint()
+        {
+            return $this->belongsTo(PaperBlueprint::class, 'paper_blueprint_id');
+        }
 }

@@ -24,6 +24,6 @@ class SectionRule extends Model
      */
     public function blueprintSection(): BelongsTo
     {
-        return $this->belongsTo(BlueprintSection::class);
+       return $this->belongsTo(BlueprintSection::class, 'blueprint_section_id');
     }
 }

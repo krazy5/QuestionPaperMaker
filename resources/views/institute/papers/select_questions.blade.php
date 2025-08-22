@@ -19,6 +19,10 @@
     <div id="marks-counter" class="fixed bottom-5 right-5 z-50 bg-gray-800 text-white py-3 px-5 rounded-lg shadow-lg text-lg">
         Selected Marks: <span id="selected-marks-count" class="font-bold">{{ $currentMarks }}</span> / {{ $paper->total_marks }}
     </div>
+    <div id="toast"
+        class="fixed bottom-24 right-5 z-50 bg-gray-900 text-white text-sm px-4 py-2 rounded-md shadow-lg hidden">
+    </div>
+
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white shadow-sm sm:rounded-lg">
@@ -56,7 +60,18 @@
                     <div class="w-full md:w-3/4">
                         <div class="flex justify-between items-center mb-4">
                             <h3 class="text-lg font-medium">Available Questions</h3>
-                            <a href="{{ route('institute.dashboard') }}" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700">Finish & Go to Dashboard</a>
+                            <div class="flex items-center gap-2">
+        {{-- Quick check after selecting --}}
+        <a href="{{ route('institute.papers.preview', $paper) }}"
+           class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
+           Preview Paper
+        </a>
+
+        <a href="{{ route('institute.dashboard') }}"
+           class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700">
+           Go to Dashboard
+        </a>
+    </div>
                         </div>
                         
                         <div id="question-list-wrapper" class="space-y-4 min-h-[60vh]">
@@ -107,49 +122,98 @@
 
   
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const checkboxes = document.querySelectorAll('.question-checkbox');
-            const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
-            const selectedMarksSpan = document.getElementById('selected-marks-count');
+   <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const checkboxes = document.querySelectorAll('.question-checkbox');
+        const csrfToken = (document.querySelector('meta[name="csrf-token"]') || {}).content || '';
+        const selectedMarksSpan = document.getElementById('selected-marks-count');
+        const totalAllowed = {{ (int) $paper->total_marks }};
+        const attachUrl = "{{ route('institute.papers.questions.attach', $paper) }}";
+        const detachUrl = "{{ route('institute.papers.questions.detach', $paper) }}";
 
-            checkboxes.forEach(checkbox => {
-                checkbox.addEventListener('change', function() {
-                    const questionId = this.value;
-                    const isChecked = this.checked;
-                    const marks = parseInt(this.getAttribute('data-marks'), 10);
-                    
-                    const attachUrl = "{{ route('institute.papers.questions.attach', [$paper, ':questionId']) }}".replace(':questionId', questionId);
-                    const detachUrl = "{{ route('institute.papers.questions.detach', [$paper, ':questionId']) }}".replace(':questionId', questionId);
-                    const url = isChecked ? attachUrl : detachUrl;
+        // (Optional) auto-submit when any type filter changes
+        const filterForm = document.getElementById('filter-form');
+        document.querySelectorAll('.type-filter-checkbox').forEach(cb => {
+            cb.addEventListener('change', () => filterForm.submit());
+        });
 
-                    // Update the counter immediately for a responsive feel
-                    let currentTotal = parseInt(selectedMarksSpan.textContent, 10);
-                    selectedMarksSpan.textContent = isChecked ? currentTotal + marks : currentTotal - marks;
+        function showToast(msg) {
+            const el = document.getElementById('toast');
+            if (!el) { alert(msg); return; }
+            el.textContent = msg;
+            el.classList.remove('hidden');
+            setTimeout(() => el.classList.add('hidden'), 1800);
+        }
 
-                    fetch(url, {
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', async function () {
+            const questionId = this.value;
+            const isChecked = this.checked;
+            const marks = parseInt(this.getAttribute('data-marks'), 10) || 0;
+
+            const before = parseInt(selectedMarksSpan.textContent, 10) || 0;
+            const next = isChecked ? (before + marks) : (before - marks);
+
+            // Client-side cap to avoid a roundtrip if exceeding
+            if (isChecked && next > totalAllowed) {
+                this.checked = false;
+                showToast('Total marks limit reached');
+                return;
+            }
+
+            // optimistic UI
+            selectedMarksSpan.textContent = String(next);
+            this.disabled = true;
+            this.classList.add('opacity-60', 'cursor-not-allowed');
+
+            try {
+                    const res = await fetch(isChecked ? attachUrl : detachUrl, {
                         method: 'POST',
                         headers: {
-                            'X-CSRF-TOKEN': csrfToken,
-                            'Content-Type': 'application/json',
-                            'Accept': 'application/json'
+                        'X-CSRF-TOKEN': csrfToken,
+                        'X-Requested-With': 'XMLHttpRequest',
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json',
                         },
-                    })
-                    .then(response => {
-                        if (!response.ok) {
-                            // If the server fails, revert the change
-                            selectedMarksSpan.textContent = currentTotal;
-                            this.checked = !isChecked;
-                            alert('An error occurred. Please try again.');
-                        }
-                    })
-                    .catch(() => {
-                        selectedMarksSpan.textContent = currentTotal;
-                        this.checked = !isChecked;
-                        alert('A network error occurred. Please try again.');
+                        body: JSON.stringify({ question_id: questionId }),
                     });
-                });
+
+                    let data = null;
+                    try { data = await res.json(); } catch (_) {}
+
+                    if (!res.ok) {
+                        let msg = 'An error occurred. Please try again.';
+                        if (res.status === 422 && data && data.error) {
+                        msg = data.error;
+                        if (typeof data.current === 'number') {
+                            selectedMarksSpan.textContent = String(data.current);
+                        } else {
+                            selectedMarksSpan.textContent = String(before);
+                        }
+                        } else {
+                        selectedMarksSpan.textContent = String(before);
+                        }
+                        this.checked = !isChecked;
+                        showToast(msg);
+                    } else {
+                        // Success: if API returned current, trust it
+                        if (data && typeof data.current === 'number') {
+                        selectedMarksSpan.textContent = String(data.current);
+                        }
+                    }
+                    } catch (e) {
+                    selectedMarksSpan.textContent = String(before);
+                    this.checked = !isChecked;
+                    showToast('Network error. Please try again.');
+                    } finally {
+                    this.disabled = false;
+                    this.classList.remove('opacity-60', 'cursor-not-allowed');
+                    }
+
             });
         });
-    </script>
+        });
+        </script>
+
+
 </x-app-layout>

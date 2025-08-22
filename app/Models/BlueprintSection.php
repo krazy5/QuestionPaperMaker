@@ -24,7 +24,7 @@ class BlueprintSection extends Model
      */
     public function paperBlueprint(): BelongsTo
     {
-        return $this->belongsTo(PaperBlueprint::class);
+         return $this->belongsTo(PaperBlueprint::class, 'paper_blueprint_id');
     }
 
     /**
@@ -32,6 +32,6 @@ class BlueprintSection extends Model
      */
     public function rules(): HasMany
     {
-        return $this->hasMany(SectionRule::class);
+        return $this->hasMany(SectionRule::class, 'blueprint_section_id');
     }
 }

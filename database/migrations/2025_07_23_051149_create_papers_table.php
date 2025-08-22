@@ -16,9 +16,11 @@ return new class extends Migration
             $table->foreignId('institute_id')->constrained('users')->onDelete('cascade');
 
             $table->foreignId('board_id')->constrained()->onDelete('cascade');
-            // CORRECT
-$table->foreignId('class_id')->constrained('academic_class_models')->onDelete('cascade');
+            $table->foreignId('class_id')->constrained('academic_class_models')->onDelete('cascade');
             $table->foreignId('subject_id')->constrained()->onDelete('cascade');
+
+            // ✅ ADD THIS LINE
+            $table->foreignId('paper_blueprint_id')->nullable()->constrained('paper_blueprints')->onDelete('set null');
 
             $table->string('title');
             $table->text('instructions')->nullable();
@@ -30,7 +32,6 @@ $table->foreignId('class_id')->constrained('academic_class_models')->onDelete('c
             $table->timestamps();
         });
     }
-
 
     /**
      * Reverse the migrations.

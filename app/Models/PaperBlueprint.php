@@ -2,6 +2,8 @@
 // File: app/Models/PaperBlueprint.php
 
 namespace App\Models;
+use App\Models\Chapter;
+
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -10,7 +12,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class PaperBlueprint extends Model
 {
+    
     use HasFactory;
+    protected array $_selectedChaptersCache = []; // add this property to the class
 
     protected $fillable = [
         'name',
@@ -57,4 +61,32 @@ class PaperBlueprint extends Model
     {
         return $this->belongsTo(Board::class);
     }
+
+            // In PaperBlueprint.php
+        public function papers()
+        {
+            return $this->hasMany(Paper::class, 'paper_blueprint_id');
+        }
+
+
+        // Returns a Collection<Chapter> for the stored IDs (handles empty/null safely)
+            public function selectedChapterModels()
+            {
+                $ids = $this->selected_chapters ?? [];
+                if (empty($ids)) return collect();
+
+                // Memoize per request so repeated calls don’t re-hit the DB
+                $cacheKey = implode(',', $ids);
+                if (!isset($this->_selectedChaptersCache[$cacheKey])) {
+                    $this->_selectedChaptersCache[$cacheKey] = Chapter::whereIn('id', $ids)->get();
+                }
+
+                return $this->_selectedChaptersCache[$cacheKey];
+            }
+
+            public function getSelectedChapterNamesAttribute(): string
+            {
+                return $this->selectedChapterModels()->pluck('name')->implode(', ');
+            }
+
 }
