@@ -1,69 +1,117 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-100 leading-tight">
             {{ __('Institute Dashboard') }}
         </h2>
     </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
+    <div class="py-6 sm:py-10">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
 
-                    {{-- Success Message from other actions --}}
-                    @if (session('success'))
-                        <div class="mb-4 p-4 bg-green-100 text-green-700 rounded">
-                            {{ session('success') }}
-                        </div>
-                    @endif
+            {{-- Flash: success --}}
+            @if (session('success'))
+                <div class="p-4 rounded-lg bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 border border-green-200 dark:border-green-800">
+                    {{ session('success') }}
+                </div>
+            @endif
 
-                    {{-- NEW: Subscription Status Display --}}
-                    @if($activeSubscription)
-                        {{-- User IS subscribed --}}
-                        <div class="mb-6 p-4 bg-blue-100 text-blue-800 border-l-4 border-blue-500 rounded">
-                            <p><strong>Current Plan:</strong> {{ $activeSubscription->plan_name }}</p>
-                            <p><strong>Status:</strong> Active until {{ \Carbon\Carbon::parse($activeSubscription->ends_at)->format('F j, Y') }}</p>
-                        </div>
-                    @else
-                        {{-- User IS NOT subscribed --}}
-                        <div class="mb-6 p-4 bg-yellow-100 text-yellow-800 border-l-4 border-yellow-500 rounded">
-                            <h4 class="font-bold">No Active Subscription</h4>
-                            <p>Please choose a plan to unlock all features, including creating new papers.</p>
-                            <a href="{{ route('subscription.pricing') }}" class="mt-2 inline-block font-semibold text-yellow-900 hover:underline">
-                                View Pricing Plans &rarr;
+            {{-- Subscription panel --}}
+            @if($activeSubscription)
+                @php
+                    $start = \Carbon\Carbon::parse($activeSubscription->starts_at);
+                    $end   = \Carbon\Carbon::parse($activeSubscription->ends_at);
+                    $now   = now();
+                    $total = max(1, $start->diffInDays($end));
+                    $used  = min($total, $start->diffInDays($now));
+                    $pct   = min(100, round(($used / $total) * 100));
+                    $daysLeft = max(0, $now->isBefore($end) ? $now->diffInDays($end) : 0);
+                @endphp
+                <div class="bg-white dark:bg-gray-900/60 backdrop-blur shadow-sm sm:rounded-xl ring-1 ring-gray-200 dark:ring-gray-700">
+                    <div class="p-6 text-gray-900 dark:text-gray-100">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+                            <div>
+                                <h3 class="text-lg font-semibold">Current Plan: {{ $activeSubscription->plan_name }}</h3>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">
+                                    Active until <span class="font-medium">{{ $end->format('F j, Y') }}</span>
+                                    &middot; <span class="font-medium">{{ (int) $daysLeft }} days</span> remaining
+                                </p>
+                            </div>
+                            <a href="{{ route('subscription.pricing') }}"
+                               class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 shadow-sm">
+                                Manage Subscription
                             </a>
                         </div>
-                    @endif
 
+                        {{-- Progress --}}
+                        <div class="mt-4">
+                            <div class="h-2 w-full bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
+                                <div class="h-2 bg-blue-600 dark:bg-blue-500" style="width: {{ $pct }}%"></div>
+                            </div>
+                            <div class="mt-2 text-xs text-gray-600 dark:text-gray-400">
+                                {{ $start->format('d M') }} – {{ $end->format('d M') }} ({{ $pct }}% elapsed)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @else
+                <div class="bg-white dark:bg-gray-900/60 backdrop-blur shadow-sm sm:rounded-xl ring-1 ring-yellow-300/50 dark:ring-yellow-700/50">
+                    <div class="p-6">
+                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                            <div>
+                                <h3 class="text-lg font-semibold text-yellow-900 dark:text-yellow-200">No Active Subscription</h3>
+                                <p class="text-sm text-yellow-800 dark:text-yellow-300/90">
+                                    Choose a plan to unlock all features, including creating new papers.
+                                </p>
+                            </div>
+                            <a href="{{ route('subscription.pricing') }}"
+                               class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-yellow-500 text-white hover:bg-yellow-600 shadow-sm">
+                                View Pricing Plans →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            @endif
 
-                    {{-- Header with Create Button --}}
-                    <div class="flex justify-between items-center mb-4">
-                        <h3 class="text-lg font-medium text-gray-900">My Papers</h3>
+            {{-- Toolbar: title + actions --}}
+            <div class="bg-white dark:bg-gray-900/60 backdrop-blur shadow-sm sm:rounded-xl ring-1 ring-gray-200 dark:ring-gray-700">
+                <div class="p-4 sm:p-6">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                         <div>
-                            <a href="{{ route('institute.questions.index') }}" class="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 mr-2">My Questions</a>
-                            
-                            {{-- Conditionally enable/disable the button --}}
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">My Papers</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Create, manage, and preview your exam papers.</p>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-2">
+                            <a href="{{ route('institute.questions.index') }}"
+                               class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                My Questions
+                            </a>
+                            {{-- <a href="{{ route('institute.blueprints.index') }}"
+                               class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                Browse Blueprints
+                            </a> --}}
+
                             @if($activeSubscription)
-                                <a href="{{ route('institute.papers.create') }}" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">+ Create New Paper</a>
+                                <a href="{{ route('institute.papers.create') }}"
+                                   class="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 shadow-sm">
+                                    + Create New Paper
+                                </a>
                             @else
-                                <button class="px-4 py-2 bg-blue-300 text-white rounded cursor-not-allowed" disabled title="Subscription required">+ Create New Paper</button>
+                                <button class="px-4 py-2 rounded-lg bg-blue-300/70 text-white cursor-not-allowed" disabled title="Subscription required">
+                                    + Create New Paper
+                                </button>
                             @endif
                         </div>
                     </div>
-                    
-                    {{-- Papers Table --}}
-                    {{-- Papers Table --}}
-                    <div class="overflow-x-auto">
-                        <livewire:institute.papers-table />
-                    </div>
-
-                    {{-- Pagination Links --}}
-                    {{-- <div class="mt-4">
-                        {{ $papers->links() }}
-                    </div> --}}
-
                 </div>
             </div>
+
+            {{-- Papers table (Livewire) --}}
+            <div class="bg-white dark:bg-gray-900/60 backdrop-blur shadow-sm sm:rounded-xl ring-1 ring-gray-200 dark:ring-gray-700">
+                <div class="p-4 sm:p-6 text-gray-900 dark:text-gray-100">
+                    <livewire:institute.papers-table />
+                </div>
+            </div>
+
         </div>
     </div>
 </x-app-layout>

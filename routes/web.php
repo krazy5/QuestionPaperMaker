@@ -74,11 +74,15 @@ Route::middleware(['auth', 'role:admin'])
         Route::resource('questions', AdminQuestionController::class);
 
         // Institutes & subscriptions (admin-side)
-        Route::resource('institutes', InstituteController::class)->only(['index', 'show']);
-        Route::post('/institutes/{institute}/subscriptions', [InstituteController::class, 'storeSubscription'])
-            ->name('institutes.subscriptions.store');
-        Route::post('/subscriptions/{subscription}/cancel', [InstituteController::class, 'cancelSubscription'])
-            ->name('institutes.subscriptions.cancel');
+        // Institutes & subscriptions (admin-side)
+            Route::resource('institutes', InstituteController::class)
+                ->only(['index', 'show', 'create', 'store']);
+
+            Route::post('/institutes/{institute}/subscriptions', [InstituteController::class, 'storeSubscription'])
+                ->name('institutes.subscriptions.store');
+            Route::post('/subscriptions/{subscription}/cancel', [InstituteController::class, 'cancelSubscription'])
+                ->name('institutes.subscriptions.cancel');
+
 
         // Admin: Blueprints
         Route::resource('blueprints', AdminBlueprintController::class);

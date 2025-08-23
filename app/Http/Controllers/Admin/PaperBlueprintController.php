@@ -13,11 +13,63 @@ use App\Models\SectionRule;
 class PaperBlueprintController extends Controller
 {
     // ... index, create, store, show, storeSection, storeRule methods ...
-    public function index()
-    {
-        $blueprints = PaperBlueprint::with('board', 'academicClass')->latest()->paginate(15);
-        return view('admin.blueprints.index', compact('blueprints'));
+    public function index(Request $request)
+{
+    // Per page (safe list)
+    $perPage = (int) $request->input('per_page', 15);
+    if (!in_array($perPage, [10, 15, 25, 50, 100], true)) {
+        $perPage = 15;
     }
+
+    // Sort (safe list)
+    $sort = $request->input('sort', 'newest');
+    if (!in_array($sort, ['newest', 'name_asc', 'name_desc'], true)) {
+        $sort = 'newest';
+    }
+
+    $search    = trim((string) $request->input('search', ''));
+    $boardId   = $request->input('board_id');
+    $classId   = $request->input('class_id');
+    $subjectId = $request->input('subject_id');
+
+    $query = \App\Models\PaperBlueprint::query()
+        ->with(['board', 'academicClass', 'subject']);
+
+    if ($search !== '') {
+        $query->where(function ($q) use ($search) {
+            $q->where('name', 'like', "%{$search}%")
+              ->orWhereHas('board', fn($qb) => $qb->where('name', 'like', "%{$search}%"))
+              ->orWhereHas('academicClass', fn($qc) => $qc->where('name', 'like', "%{$search}%"))
+              ->orWhereHas('subject', fn($qs) => $qs->where('name', 'like', "%{$search}%"));
+        });
+    }
+
+    if (!empty($boardId))   $query->where('board_id', $boardId);
+    if (!empty($classId))   $query->where('class_id', $classId);
+    if (!empty($subjectId)) $query->where('subject_id', $subjectId);
+
+    switch ($sort) {
+        case 'name_asc':  $query->orderBy('name', 'asc');  break;
+        case 'name_desc': $query->orderBy('name', 'desc'); break;
+        default:          $query->latest();                break;
+    }
+
+    $blueprints = $query->paginate($perPage)->withQueryString();
+
+    // Filter lists
+    $boards = \App\Models\Board::orderBy('name')->get(['id', 'name']);
+    $classes = \App\Models\AcademicClassModel::orderBy('name')->get(['id', 'name']);
+
+    // Subjects list depends on selected class; keep small default to avoid huge dropdown
+    if (!empty($classId)) {
+        $subjectsForFilter = \App\Models\Subject::where('class_id', $classId)->orderBy('name')->get(['id','name','class_id']);
+    } else {
+        $subjectsForFilter = \App\Models\Subject::orderBy('name')->limit(50)->get(['id','name','class_id']);
+    }
+
+    return view('admin.blueprints.index', compact('blueprints', 'boards', 'classes', 'subjectsForFilter'));
+}
+
 
     public function create()
     {
