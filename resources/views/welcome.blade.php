@@ -50,21 +50,41 @@
 
     <main>
         <section class="relative h-screen flex items-center justify-center text-center overflow-hidden">
-            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/hero-1.jpg');"></div>
-            <div class="absolute inset-0 bg-black/70"></div>
-            
-            <div class="relative z-10 px-4" x-data>
-                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">
-                    The Future of Exam Creation is Here.
-                </h1>
-                <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                    Our AI intelligently drafts, formats, and generates complete, blueprint-accurate question papers in seconds. Save time, eliminate errors, and focus on what truly matters.
-                </p>
-                <a href="{{ route('register') }}" class="px-8 py-4 text-lg font-semibold text-white bg-indigo-600 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform transform hover:scale-105">
-                    Create Your First Paper with AI
-                </a>
-            </div>
-        </section>
+    <div x-data="{ activeSlide: 1, totalSlides: 3 }" x-init="setInterval(() => { activeSlide = (activeSlide % totalSlides) + 1 }, 5000)" class="absolute inset-0">
+        <div x-show="activeSlide === 1" 
+             x-transition:enter="transition-opacity ease-in-out duration-1000" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+             x-transition:leave="transition-opacity ease-in-out duration-1000" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+             class="absolute inset-0 bg-cover bg-center" 
+             style="background-image: url('/images/hero-1.jpg');">
+        </div>
+        <div x-show="activeSlide === 2"
+             x-transition:enter="transition-opacity ease-in-out duration-1000" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+             x-transition:leave="transition-opacity ease-in-out duration-1000" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+             class="absolute inset-0 bg-cover bg-center" 
+             style="background-image: url('/images/hero-2.jpg');">
+        </div>
+        <div x-show="activeSlide === 3"
+             x-transition:enter="transition-opacity ease-in-out duration-1000" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+             x-transition:leave="transition-opacity ease-in-out duration-1000" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+             class="absolute inset-0 bg-cover bg-center" 
+             style="background-image: url('/images/hero-3.jpg');">
+        </div>
+    </div>
+
+    <div class="absolute inset-0 bg-black/70"></div>
+    
+    <div class="relative z-10 px-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">
+            The Future of Exam Creation is Here.
+        </h1>
+        <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            Our AI intelligently drafts, formats, and generates complete, blueprint-accurate question papers in seconds. Save time, eliminate errors, and focus on what truly matters.
+        </p>
+        <a href="{{ route('register') }}" class="px-8 py-4 text-lg font-semibold text-white bg-indigo-600 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform transform hover:scale-105">
+            Create Your First Paper with AI
+        </a>
+    </div>
+</section>
 
         <section id="how-it-works" class="py-20 bg-white dark:bg-gray-800">
             <div class="container mx-auto px-6 text-center">
