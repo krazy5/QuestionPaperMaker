@@ -19,6 +19,10 @@
                         <x-nav-link :href="route('admin.blueprints.index')" :active="request()->routeIs('admin.blueprints.*')">
                             {{ __('Manage Blueprints') }}
                         </x-nav-link>
+                        <x-nav-link :href="route('admin.contact_requests.index')" :active="request()->routeIs('admin.contact_requests.*')">
+                            {{ __('Contact Requests') }}
+                        </x-nav-link>
+
                     @endif
 
                     {{-- Institute-only --}}
@@ -106,6 +110,10 @@
                 <x-responsive-nav-link :href="route('admin.blueprints.index')" :active="request()->routeIs('admin.blueprints.*')">
                     {{ __('Manage Blueprints') }}
                 </x-responsive-nav-link>
+                <x-nav-link :href="route('admin.contact_requests.index')" :active="request()->routeIs('admin.contact_requests.*')">
+                {{ __('Contact Requests') }}
+            </x-nav-link>
+
             @endif
 
             {{-- Institute-only --}}

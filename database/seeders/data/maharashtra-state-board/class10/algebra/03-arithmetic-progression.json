@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is an arithmetic progression (AP)? [SSC 2017]",
+    "options": ["2, 4, 6, 8, ...", "2, 4, 8, 16, ...", "1, 4, 9, 16, ...", "1, 3, 6, 10, ..."],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the AP 7, 13, 19, 25, ..., the common difference is: [SSC 2018]",
+    "options": ["6", "7", "5", "12"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 10th term of AP 5, 9, 13, ... is: [SSC 2016]",
+    "options": ["41", "45", "49", "53"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of these is the nth term formula of an AP? [SSC 2021]",
+    "options": ["Tn = a + nd", "Tn = a + (n-1)d", "Tn = (a + l)/2", "Tn = 2a + (n-1)d"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the first term of an AP is 2 and the common difference is 3, the 20th term is: [SSC 2019]",
+    "options": ["59", "60", "61", "62"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 15th term of AP 10, 7, 4, ... is: [Predicted 2025]",
+    "options": ["-29", "-32", "-33", "-35"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which AP has common difference -2? [SSC 2018]",
+    "options": ["10, 8, 6, 4, ...", "2, 4, 6, 8, ...", "3, 6, 12, ...", "1, 4, 9, 16, ..."],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sum of first n terms of AP is given by: [SSC 2016]",
+    "options": ["Sn = n/2[2a + (n-1)d]", "Sn = (a + l)n/2", "Both A and B", "None"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the 5th term of an AP is 20 and common difference is 3, the first term is: [SSC 2017]",
+    "options": ["8", "10", "6", "12"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Find the common difference if T1 = 4 and T5 = 20. [Predicted 2025]",
+    "options": ["2", "4", "6", "8"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT an AP? [SSC 2022]",
+    "options": ["1, 4, 7, 10, ...", "2, 4, 8, 16, ...", "5, 10, 15, 20, ...", "100, 97, 94, 91, ..."],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 25th term of AP 3, 7, 11, ... is: [SSC 2020]",
+    "options": ["95", "99", "101", "103"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sum of first 10 natural numbers is: [SSC 2016]",
+    "options": ["50", "55", "60", "45"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If a = 7, d = -3, find T8. [Predicted 2025]",
+    "options": ["-14", "-13", "-15", "-12"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which term of AP 5, 11, 17, ... is 119? [SSC 2021]",
+    "options": ["18th", "19th", "20th", "21st"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "In AP, the difference between any two consecutive terms is constant. [SSC 2016]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The sequence 2, 4, 8, 16 is an AP. [SSC 2017]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The nth term of an AP is linear in n. [SSC 2018]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If the first term is 10 and common difference is 0, then all terms are equal. [SSC 2019]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The sum of first n terms of an AP can be negative. [Predicted 2025]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Common difference can be zero. [SSC 2020]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The sum of an AP can never be zero. [SSC 2016]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If Tn = 7n - 3, then it represents an AP. [Predicted 2025]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The common difference of AP 20, 17, 14, 11,... is -2. [SSC 2018]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Every AP has a finite number of terms. [SSC 2022]",
+    "answer": "False",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Find the 12th term of AP 2, 5, 8, ... [SSC 2019]",
+    "answer": "a = 2, d = 3. Tn = a + (n-1)d. T12 = 2 + 11×3 = 2 + 33 = 35.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If Tn = 3n + 2, find T10. [SSC 2017]",
+    "answer": "T10 = 3(10) + 2 = 30 + 2 = 32.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Which term of AP 7, 13, 19, ... is 139? [SSC 2018]",
+    "answer": "a = 7, d = 6. Tn = 7 + (n-1)6 = 139 ⇒ 6(n-1) = 132 ⇒ n-1 = 22 ⇒ n = 23. So 23rd term.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the sum of first 15 terms of AP 10, 7, 4, ... [SSC 2016]",
+    "answer": "a = 10, d = -3. Sn = n/2 [2a + (n-1)d] = 15/2 [20 + 14(-3)] = 15/2 [20 - 42] = 15/2 × -22 = -165.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the 25th term of AP where a = 5, d = -2. [SSC 2020]",
+    "answer": "T25 = a + (n-1)d = 5 + 24(-2) = 5 - 48 = -43.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The 3rd term of an AP is 8 and 7th term is 20. Find a and d. [SSC 2021]",
+    "answer": "T3 = a + 2d = 8; T7 = a + 6d = 20. Subtract: 4d = 12 ⇒ d = 3. Then a + 2(3) = 8 ⇒ a = 2.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If a = 2, d = 5, find S20. [SSC 2017]",
+    "answer": "Sn = n/2 [2a + (n-1)d] = 20/2 [4 + 19×5] = 10 [4 + 95] = 10×99 = 990.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the AP whose 1st term is 3 and 4th term is 12. [SSC 2016]",
+    "answer": "a = 3, T4 = a + 3d = 12 ⇒ 3 + 3d = 12 ⇒ d = 3. So AP: 3, 6, 9, 12, ...",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the sum of first 30 natural numbers. [SSC 2018]",
+    "answer": "a = 1, d = 1, n = 30. Sn = 30/2 [2(1) + 29(1)] = 15 [2 + 29] = 15×31 = 465.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How many terms are needed in AP 5, 9, 13, ... to make sum 260? [SSC 2019]",
+    "answer": "a = 5, d = 4. Sn = n/2 [2a + (n-1)d] = 260. n/2 [10 + (n-1)4] = 260 ⇒ n(4n+6)/2 = 260 ⇒ 2n^2 + 3n - 260 = 0 ⇒ n = 10.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the common difference if T1 = 8, T12 = 44. [Predicted 2025]",
+    "answer": "T12 = a + 11d ⇒ 44 = 8 + 11d ⇒ 11d = 36 ⇒ d = 36/11.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Which term of AP 20, 18, 16, ... is zero? [SSC 2022]",
+    "answer": "a=20, d=-2. Tn=20+(n-1)(-2)=0 ⇒ 20-2n+2=0 ⇒ 22-2n=0 ⇒ n=11.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If nth term of AP is 3n+4, find the common difference. [Predicted 2025]",
+    "answer": "Tn = 3n+4 ⇒ Tn+1 - Tn = [3(n+1)+4] - (3n+4) = 3. So d=3.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find sum of AP: 9, 17, 25,... up to 20 terms. [SSC 2021]",
+    "answer": "a=9, d=8. S20 = 20/2 [2(9)+(19)(8)] = 10 [18+152]=10×170=1700.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The 8th term of an AP is 50 more than the 4th term. Find d. [Predicted 2025]",
+    "answer": "T8 - T4 = (a+7d)-(a+3d)=4d=50 ⇒ d=12.5.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "The 11th term of an AP is 38 and the 16th term is 63. Find the AP. [SSC 2016]",
+    "answer": "T11 = a+10d=38, T16=a+15d=63. Subtract: 5d=25 ⇒ d=5. Then a+10(5)=38 ⇒ a= -12. AP: -12,-7,-2,3,...",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The 5th term of an AP is 23 and the 12th term is 37. Find a and d. [SSC 2019]",
+    "answer": "T5=a+4d=23, T12=a+11d=37. Subtract: 7d=14 ⇒ d=2. Then a+8=23 ⇒ a=15.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "How many terms are there in AP 3, 7, 11, ..., 407? [SSC 2018]",
+    "answer": "Tn=a+(n-1)d=407 ⇒ 3+(n-1)4=407 ⇒ (n-1)4=404 ⇒ n-1=101 ⇒ n=102. So 102 terms.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The sum of first 7 terms of an AP is 140 and the 7th term is 30. Find a and d. [SSC 2020]",
+    "answer": "Sn=7/2[2a+6d]=140 ⇒ 2a+6d=40. Also T7=a+6d=30. Subtract: (a+6d)-(2a+6d)=30-40 ⇒ -a=-10 ⇒ a=10. Then a+6d=30 ⇒ 10+6d=30 ⇒ d=20/6=10/3.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In an AP, 20th term is 10 more than the 10th term. Find d. [Predicted 2025]",
+    "answer": "T20-T10=(a+19d)-(a+9d)=10d=10 ⇒ d=1.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The sum of first n odd numbers is n^2. Verify using AP method. [SSC 2021]",
+    "answer": "Odd numbers form AP: 1,3,5,... with a=1,d=2. Sn=n/2[2a+(n-1)d]=n/2[2+2n-2]=n/2[2n]=n^2. Verified.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Ramesh saves Rs.50 in first week, Rs.60 in second week, Rs.70 in third week, and so on. Find his savings in 20 weeks and total saving. [SSC 2017]",
+    "answer": "AP with a=50,d=10. T20=a+19d=50+190=240. S20=20/2[2×50+19×10]=10[100+190]=10×290=2900. Savings=Rs.240 in 20th week, total=Rs.2900.",
+    "marks": 4
+  }
+]

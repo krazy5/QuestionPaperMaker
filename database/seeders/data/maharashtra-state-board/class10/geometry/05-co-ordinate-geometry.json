@@ -1,0 +1,320 @@
+[
+  {
+    "type": "mcq",
+    "text": "Distance between A(0, 0) and B(3, 4) is:",
+    "options": ["5", "7", "1", "√7"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Midpoint of A(x1, y1) and B(x2, y2) is:",
+    "options": ["(x1 + x2, y1 + y2)", "((x1 + x2)/2, (y1 + y2)/2)", "((x1 − x2)/2, (y1 − y2)/2)", "(x1x2, y1y2)"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Point dividing AB (A(x1, y1), B(x2, y2)) internally in the ratio m:n is:",
+    "options": ["((mx1 + nx2)/(m + n), (my1 + ny2)/(m + n))", "((mx2 + nx1)/(m + n), (my2 + ny1)/(m + n))", "((x1 + x2)/2, (y1 + y2)/2)", "((mx2 − nx1)/(m − n), (my2 − ny1)/(m − n))"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Area of △ABC with A(x1, y1), B(x2, y2), C(x3, y3) is:",
+    "options": ["|x1 + x2 + x3|/2", "½|x1(y2 − y3) + x2(y3 − y1) + x3(y1 − y2)|", "|y1 − y2| + |y2 − y3| + |y3 − y1|", "x1y1 + x2y2 + x3y3"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Distance of P(−6, 8) from origin is:",
+    "options": ["10", "14", "√52", "2"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Distance between A(1, 2) and B(5, 2) is:",
+    "options": ["2", "3", "4", "√8"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If a point divides AB in ratio 2:1 internally, it is nearer to:",
+    "options": ["A", "B", "Midpoint of AB", "Cannot be determined"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Vertices of a triangle are (0,0), (a,0), (0,b). Its area is:",
+    "options": ["ab", "ab/2", "(a + b)/2", "a^2 + b^2"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If x-coordinates are equal (x = c), then distance between (c, y1) and (c, y2) is:",
+    "options": ["|y2 − y1|", "√(y2 − y1)", "|c − y1|", "|c − y2|"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Quadrant of point (−3, 4) is:",
+    "options": ["I", "II", "III", "IV"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Midpoint of (2, 3) and (8, 9) is:",
+    "options": ["(5, 6)", "(3, 4)", "(10, 12)", "(6, 12)"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which test confirms collinearity of three points?",
+    "options": ["Equal x-coordinates", "Equal y-coordinates", "Zero area by coordinate formula", "Sum of distances equals 0"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A plot has corner-coordinates in metres. To find its triangular sub-plot area quickly you use:",
+    "options": ["Midpoint formula", "Distance formula", "Section formula", "Coordinate area formula"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] The location halfway between two towns at A(x1, y1) and B(x2, y2) is given by:",
+    "options": ["((x1 + x2)/2, (y1 + y2)/2)", "(x1 + x2, y1 + y2)", "((x1 − x2)/2, (y1 − y2)/2)", "((x1x2)/2, (y1y2)/2)"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "External division point of AB in ratio m:n is:",
+    "options": ["((mx2 + nx1)/(m + n), ...)", "((mx2 − nx1)/(m − n), (my2 − ny1)/(m − n))", "((x1 + x2)/2, ...)", "((nx2 + mx1)/(m + n), ...)"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "Midpoint of (x1, y1) and (x2, y2) is ((x1 + x2)/2, (y1 + y2)/2).",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Distance between (x1, y1) and (x2, y2) equals |x2 − x1| + |y2 − y1|.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If area by coordinate formula is 0, the points are collinear.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Point (0, y) lies on the x-axis.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Distance of a point from origin is always non-negative.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Internal section formula uses denominator (m − n).",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "For A(2, 3), B(2, −5), the midpoint has x-coordinate 2.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Points (1, 2), (3, 4), (5, 5) are collinear.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The absolute area value is same irrespective of vertex order in the coordinate formula.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Centroid of △ABC is ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3).",
+    "answer": "True",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Find distance between A(2, 3) and B(7, 11).",
+    "answer": "Step 1: Use d = √[(x2 − x1)^2 + (y2 − y1)^2].\nStep 2: d = √[(7 − 2)^2 + (11 − 3)^2] = √[5^2 + 8^2] = √(25 + 64) = √89.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find midpoint of (−4, 5) and (10, −3).",
+    "answer": "Step 1: M = ((−4 + 10)/2, (5 + (−3))/2) = (6/2, 2/2) = (3, 1).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find point dividing A(−2, 4) and B(8, −2) internally in ratio 3:2.",
+    "answer": "Step 1: P = ((3·8 + 2·(−2))/(3 + 2), (3·(−2) + 2·4)/(3 + 2)).\nStep 2: P = ((24 − 4)/5, (−6 + 8)/5) = (20/5, 2/5) = (4, 0.4).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find point dividing A(−2, 4) and B(8, −2) externally in ratio 3:2.",
+    "answer": "Step 1: P = ((3·8 − 2·(−2))/(3 − 2), (3·(−2) − 2·4)/(3 − 2)).\nStep 2: P = ((24 + 4)/1, (−6 − 8)/1) = (28, −14).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Check collinearity of (1, 1), (2, 3), (3, 5) using area.",
+    "answer": "Step 1: Area = ½|x1(y2 − y3) + x2(y3 − y1) + x3(y1 − y2)|.\nStep 2: = ½|1(3 − 5) + 2(5 − 1) + 3(1 − 3)| = ½|(−2) + 8 + (−6)| = 0 ⇒ collinear.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find area of △ with vertices (0, 0), (6, 0), (0, 4).",
+    "answer": "Step 1: Right triangle ⇒ area = ½·base·height = ½·6·4 = 12.\n(Verification by formula gives same 12.)",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find k so that (2, 3), (k, 7), (6, 15) are collinear.",
+    "answer": "Step 1: Use equal slope idea: (7 − 3)/(k − 2) = (15 − 7)/(6 − k) ⇒ 4/(k − 2) = 8/(6 − k).\nStep 2: Cross-multiply: 4(6 − k) = 8(k − 2) ⇒ 24 − 4k = 8k − 16 ⇒ 40 = 12k ⇒ k = 10/3.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] Find a point on x-axis equidistant from A(4, 3) and B(−2, −1).",
+    "answer": "Step 1: On x-axis, P(x, 0). Set PA^2 = PB^2.\nStep 2: (x − 4)^2 + (0 − 3)^2 = (x + 2)^2 + (0 + 1)^2.\nStep 3: x^2 − 8x + 16 + 9 = x^2 + 4x + 4 + 1 ⇒ −8x + 25 = 4x + 5 ⇒ −12x = −20 ⇒ x = 5/3.\nStep 4: P = (5/3, 0).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find centroid of △ with vertices (1, 2), (−1, 4), (5, −2).",
+    "answer": "Step 1: G = ((1 + (−1) + 5)/3, (2 + 4 + (−2))/3) = (5/3, 4/3).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find distance between A(2, −3) and B(−5, −3).",
+    "answer": "Step 1: Same y ⇒ d = |2 − (−5)| = 7.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "P divides A(−6, 2), B(3, −7) internally in ratio 1:2. Find P.",
+    "answer": "Step 1: P = ((1·3 + 2·(−6))/3, (1·(−7) + 2·2)/3) = ((3 − 12)/3, (−7 + 4)/3) = (−9/3, −3/3) = (−3, −1).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find area of △ with vertices (−1, 3), (2, −1), (4, 5).",
+    "answer": "Step 1: Area = ½|−1(−1 − 5) + 2(5 − 3) + 4(3 − (−1))|.\nStep 2: = ½|−1(−6) + 2·2 + 4·4| = ½|6 + 4 + 16| = ½·26 = 13 sq. units.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find k if distance between (k, 3) and (−2, −1) is 10.",
+    "answer": "Step 1: (k + 2)^2 + (3 − (−1))^2 = 10^2 ⇒ (k + 2)^2 + 4^2 = 100.\nStep 2: (k + 2)^2 = 84 ⇒ k + 2 = ±2√21 ⇒ k = −2 ± 2√21.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Show △ with A(1, 2), B(4, 6), C(7, 10) is isosceles and find equal sides.",
+    "answer": "Step 1: AB = √[(4 − 1)^2 + (6 − 2)^2] = √(9 + 16) = 5.\nStep 2: BC = √[(7 − 4)^2 + (10 − 6)^2] = √(9 + 16) = 5.\nStep 3: CA = √[(7 − 1)^2 + (10 − 2)^2] = √(36 + 64) = 10 ⇒ AB = BC ⇒ isosceles.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find point P dividing A(1, 1) and B(4, 7) internally in ratio 2:3.",
+    "answer": "Step 1: P = ((2·4 + 3·1)/5, (2·7 + 3·1)/5) = (11/5, 17/5) = (2.2, 3.4).",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "Find area of △ with vertices A(−2, 3), B(4, −1), C(6, 5).",
+    "answer": "Step 1: Area = ½|x1(y2 − y3) + x2(y3 − y1) + x3(y1 − y2)|.\nStep 2: = ½|−2(−1 − 5) + 4(5 − 3) + 6(3 − (−1))|.\nStep 3: = ½|−2(−6) + 4(2) + 6(4)| = ½|12 + 8 + 24| = ½·44 = 22 sq. units.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find P dividing A(−4, 2) and B(5, −7) internally in ratio 4:5. Then find AP and PB to verify the ratio.",
+    "answer": "Step 1: P = ((4·5 + 5·(−4))/9, (4·(−7) + 5·2)/9) = ((20 − 20)/9, (−28 + 10)/9) = (0, −18/9) = (0, −2).\nStep 2: AP = √[(0 + 4)^2 + (−2 − 2)^2] = √(16 + 16) = √32 = 4√2.\nStep 3: PB = √[(5 − 0)^2 + (−7 + 2)^2] = √(25 + 25) = √50 = 5√2.\nStep 4: AP:PB = 4√2 : 5√2 = 4:5 (verified).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find k if area of △ with vertices (k, 0), (0, 4), (−3, 7) is 15 sq. units.",
+    "answer": "Step 1: Area = ½|k(4 − 7) + 0(7 − 0) + (−3)(0 − 4)|.\nStep 2: = ½|k(−3) + 0 + (−3)(−4)| = ½|−3k + 12|.\nStep 3: Set ½|−3k + 12| = 15 ⇒ |−3k + 12| = 30.\nStep 4: Cases: −3k + 12 = 30 ⇒ k = −6; or −3k + 12 = −30 ⇒ k = 14.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "For △A(1, 4), B(7, −2), C(−5, 2): find centroid G and show it divides median AM (to BC) in 2:1.",
+    "answer": "Step 1: Midpoint of BC: M = ((7 + (−5))/2, (−2 + 2)/2) = (1, 0).\nStep 2: Centroid G = ((1 + 7 + (−5))/3, (4 + (−2) + 2)/3) = (1, 4/3).\nStep 3: Median AM: A(1, 4) to M(1, 0) ⇒ vertical segment.\nStep 4: Distances along y: AG = 4 − 4/3 = 8/3; GM = 4/3 − 0 = 4/3 ⇒ AG:GM = 8/3 : 4/3 = 2:1.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Show that points (−1, −2), (3, 2), (7, 6) are collinear and find the ratio in which the middle point divides the segment joining the other two.",
+    "answer": "Step 1: Slope AB = (2 − (−2))/(3 − (−1)) = 4/4 = 1.\nStep 2: Slope BC = (6 − 2)/(7 − 3) = 4/4 = 1 ⇒ equal ⇒ collinear.\nStep 3: Vector AC = (7 − (−1), 6 − (−2)) = (8, 8).\nStep 4: Vector from A to B = (3 − (−1), 2 − (−2)) = (4, 4) ⇒ AB:BC = 1:1 ⇒ B is midpoint.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the ratio m:n if point P has x-coordinate 2 and P divides A(−2, 3) and B(4, −1) internally in m:n. Also find y-coordinate of P.",
+    "answer": "Step 1: x_P = (m·4 + n·(−2))/(m + n) = 2 ⇒ 4m − 2n = 2(m + n) ⇒ 4m − 2n = 2m + 2n ⇒ 2m = 4n ⇒ m:n = 2:1.\nStep 2: y_P = (m·(−1) + n·3)/(m + n) = (2·(−1) + 1·3)/3 = (−2 + 3)/3 = 1/3.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "For △ with A(0, 0), B(6, 0), C(0, 8): find length of median from A and the centroid.",
+    "answer": "Step 1: Midpoint of BC: M = ((6 + 0)/2, (0 + 8)/2) = (3, 4).\nStep 2: Median AM length = √[(3 − 0)^2 + (4 − 0)^2] = √(9 + 16) = 5.\nStep 3: Centroid G = ((0 + 6 + 0)/3, (0 + 0 + 8)/3) = (2, 8/3).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A quadrilateral plot has corners (0, 0), (4, 0), (5, 3), (1, 3) in metres. Find its area.",
+    "answer": "Method (split into two triangles):\nStep 1: Area(△1) with (0,0), (4,0), (5,3): = ½|0(0 − 3) + 4(3 − 0) + 5(0 − 0)| = ½·12 = 6.\nStep 2: Area(△2) with (0,0), (5,3), (1,3): = ½|0(3 − 3) + 5(3 − 0) + 1(0 − 3)| = ½|0 + 15 − 3| = 6.\nStep 3: Total area = 6 + 6 = 12 square metres.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the ratio in which P(1, 2) divides the segment joining A(−2, −1) and B(4, 5) internally.",
+    "answer": "Step 1: Let AP:PB = m:n; then P = ((m·4 + n·(−2))/(m + n), (m·5 + n·(−1))/(m + n)).\nStep 2: From x: 1(m + n) = 4m − 2n ⇒ m + n = 4m − 2n ⇒ 3m = 3n ⇒ m = n.\nStep 3: From y: 2(m + n) = 5m − n ⇒ 2m + 2n = 5m − n ⇒ 3n = 3m ⇒ m = n (consistent).\nStep 4: Hence m:n = 1:1 (P is midpoint).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A triangular park has corners A(2, 1), B(8, 3), C(−4, 5) in km on a local grid. Find its area and the centroid location for a light pole.",
+    "answer": "Step 1: Area = ½|2(3 − 5) + 8(5 − 1) + (−4)(1 − 3)|.\nStep 2: = ½|2(−2) + 8(4) + (−4)(−2)| = ½|−4 + 32 + 8| = ½·36 = 18 sq. km.\nStep 3: Centroid G = ((2 + 8 + (−4))/3, (1 + 3 + 5)/3) = (6/3, 9/3) = (2, 3) km.",
+    "marks": 4
+  }
+]

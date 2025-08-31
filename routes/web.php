@@ -20,7 +20,9 @@ use App\Http\Controllers\Institute\PaperBlueprintController as InstituteBlueprin
 
 // Subscriptions
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\ContactRequestController;
 
+use App\Http\Controllers\Admin\ContactRequestController as AdminContactRequestController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -54,6 +56,16 @@ Route::middleware('auth')->group(function () {
     Route::get('/pricing', [SubscriptionController::class, 'index'])->name('subscription.pricing');
     Route::post('/subscribe', [SubscriptionController::class, 'subscribe'])->name('subscription.subscribe');
     Route::post('/subscription/{subscription}/cancel', [SubscriptionController::class, 'cancel'])->name('subscription.cancel');
+
+
+    Route::get('/pricing/contact/{plan}', [ContactRequestController::class, 'create'])
+    ->name('pricing.contact.create');
+
+    Route::post('/pricing/contact', [ContactRequestController::class, 'store'])
+    ->name('pricing.contact.store');
+
+
+    
 });
 
 /*
@@ -92,6 +104,13 @@ Route::middleware(['auth', 'role:admin'])
             ->name('blueprints.sections.rules.store');
         Route::delete('/blueprints/rules/{rule}', [AdminBlueprintController::class, 'destroyRule'])
             ->name('blueprints.rules.destroy');
+
+             Route::get('/contact-requests', [AdminContactRequestController::class, 'index'])
+            ->name('contact_requests.index');
+        Route::get('/contact-requests/{contactRequest}', [AdminContactRequestController::class, 'show'])
+            ->name('contact_requests.show');
+        Route::patch('/contact-requests/{contactRequest}', [AdminContactRequestController::class, 'update'])
+            ->name('contact_requests.update');
     });
 
 /*

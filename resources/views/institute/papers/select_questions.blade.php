@@ -18,6 +18,10 @@
         <span id="selected-marks-count" class="font-bold">{{ $currentMarks }}</span>
         / {{ $paper->total_marks }}
         <div class="mt-2 h-1.5 w-full rounded-full bg-gray-700 overflow-hidden">
+            {{-- ✨ CALCULATE INITIAL WIDTH SERVER-SIDE --}}
+                @php
+                    $progressPercentage = $paper->total_marks > 0 ? ($currentMarks / $paper->total_marks) * 100 : 0;
+                @endphp
             <div id="marks-progress" class="h-1.5 bg-indigo-500" style="width: 0%"></div>
         </div>
     </div>
@@ -104,7 +108,7 @@
                                                 No results
                                             @endif
                                             <span class="mx-2">•</span>
-                                            Selected questions: <span id="selected-questions-count" class="font-medium">0</span>
+                                            Selected questions: <span id="selected-questions-count" class="font-medium">{{ $selectedQuestionCount }}</span> {{-- ✨ CHANGED --}}
                                         </p>
                                     </div>
                                     <div class="flex items-center gap-2">
@@ -136,11 +140,13 @@
                                                     {!! $question->question_text !!}
                                                 </div>
 
+                                                {{-- File: institute/papers/select_questions.blade.php --}}
+
                                                 @if($question->question_type === 'mcq')
-                                                    @php $optionsArray = json_decode($question->options, true); @endphp
-                                                    @if(is_array($optionsArray))
+                                                    {{-- Use the 'options' attribute directly, assuming it's cast to an array in the Question model --}}
+                                                    @if(is_array($question->options))
                                                         <div class="mt-3 pl-4 text-sm text-gray-700 dark:text-gray-300 space-y-1">
-                                                            @foreach($optionsArray as $index => $option)
+                                                            @foreach($question->options as $index => $option)
                                                                 <div class="flex">
                                                                     <span class="font-semibold mr-2">{{ chr(65 + $index) }})</span>
                                                                     <span class="prose prose-sm max-w-none dark:prose-invert">{!! $option !!}</span>
@@ -181,14 +187,16 @@
     {{-- Attach/Detach + UI logic (IDs and endpoints preserved) --}}
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        const checkboxes = document.querySelectorAll('.question-checkbox');
-        const csrfToken = (document.querySelector('meta[name="csrf-token"]') || {}).content || '';
-        const selectedMarksSpan = document.getElementById('selected-marks-count');
-        const selectedQuestionsSpan = document.getElementById('selected-questions-count');
-        const progress = document.getElementById('marks-progress');
+         const csrfToken = document.querySelector('meta[name="csrf-token"]')?.content || '';
         const totalAllowed = {{ (int) $paper->total_marks }};
         const attachUrl = "{{ route('institute.papers.questions.attach', $paper) }}";
         const detachUrl = "{{ route('institute.papers.questions.detach', $paper) }}";
+        
+        // UI Elements
+        const selectedMarksSpan = document.getElementById('selected-marks-count');
+        const selectedQuestionsSpan = document.getElementById('selected-questions-count');
+        const progress = document.getElementById('marks-progress');
+        const checkboxes = document.querySelectorAll('.question-checkbox');
 
         // Auto-submit when any type filter changes
         const filterForm = document.getElementById('filter-form');
@@ -214,73 +222,78 @@
           if (progress) progress.style.width = pct + '%';
         }
 
+         // ✨ NEW: A single function to update all UI parts based on server data
+            function updateUI(marks, questionCount) {
+                selectedMarksSpan.textContent = String(marks);
+                selectedQuestionsSpan.textContent = String(questionCount);
+                
+                const pct = totalAllowed > 0 ? Math.min(100, (marks / totalAllowed) * 100) : 0;
+                if (progress) progress.style.width = pct + '%';
+            }
+
         // Initialize counts/progress on load
-        updateCountsFromDOM();
+        //updateCountsFromDOM();
 
         checkboxes.forEach(checkbox => {
-          checkbox.addEventListener('change', async function () {
-            const questionId = this.value;
+        checkbox.addEventListener('change', async function () {
             const isChecked = this.checked;
+            const questionId = this.value;
             const marks = parseInt(this.getAttribute('data-marks'), 10) || 0;
 
-            const beforeMarks = parseInt(selectedMarksSpan.textContent, 10) || 0;
-            const nextMarks = isChecked ? (beforeMarks + marks) : (beforeMarks - marks);
-
-            // Client-side cap to avoid a roundtrip if exceeding
-            if (isChecked && nextMarks > totalAllowed) {
-              this.checked = false;
-              showToast('Total marks limit reached');
-              return;
-            }
-
-            // Optimistic UI
-            selectedMarksSpan.textContent = String(nextMarks);
-            this.disabled = true;
-            this.classList.add('opacity-60', 'cursor-not-allowed');
-            updateCountsFromDOM();
-
-            try {
-              const res = await fetch(isChecked ? attachUrl : detachUrl, {
-                method: 'POST',
-                headers: {
-                  'X-CSRF-TOKEN': csrfToken,
-                  'X-Requested-With': 'XMLHttpRequest',
-                  'Accept': 'application/json',
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ question_id: questionId }),
-              });
-
-              let data = null;
-              try { data = await res.json(); } catch (_) {}
-
-              if (!res.ok) {
-                let msg = 'An error occurred. Please try again.';
-                if (res.status === 422 && data && data.error) {
-                  msg = data.error;
-                  if (typeof data.current === 'number') {
-                    selectedMarksSpan.textContent = String(data.current);
-                  } else {
-                    selectedMarksSpan.textContent = String(beforeMarks);
-                  }
-                } else {
-                  selectedMarksSpan.textContent = String(beforeMarks);
+            // ✨ --- CLIENT-SIDE PRE-CHECK --- ✨
+            if (isChecked) {
+                const currentMarks = parseInt(selectedMarksSpan.textContent, 10) || 0;
+                if (currentMarks + marks > totalAllowed) {
+                    this.checked = false; // Immediately revert the checkbox
+                    showToast('Total marks limit reached!');
+                    return; // Stop the function here
                 }
-                this.checked = !isChecked;
-                showToast(msg);
-              }
+            }
+            // ✨ --- END OF PRE-CHECK --- ✨
+
+            this.disabled = true;
+            this.closest('.question-item').classList.add('opacity-60', 'cursor-not-allowed');
+            
+            try {
+                const res = await fetch(isChecked ? attachUrl : detachUrl, {
+                    method: 'POST',
+                    headers: {
+                        'X-CSRF-TOKEN': csrfToken,
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question_id: questionId }),
+                });
+
+                const data = await res.json();
+
+                if (!res.ok) {
+                    this.checked = !isChecked; 
+                    // Use the error message from our new server-side validation
+                    showToast(data.error || 'An error occurred.'); 
+                    // Sync UI if server provides the current marks
+                    if (typeof data.current === 'number') {
+                         const currentQuestionCount = parseInt(selectedQuestionsSpan.textContent) || 0;
+                         updateUI(data.current, currentQuestionCount);
+                    }
+                } else {
+                    const newTotalMarks = data.current;
+                    const newQuestionCount = isChecked 
+                        ? parseInt(selectedQuestionsSpan.textContent) + 1
+                        : parseInt(selectedQuestionsSpan.textContent) - 1;
+                    
+                    updateUI(newTotalMarks, newQuestionCount);
+                }
 
             } catch (e) {
-              selectedMarksSpan.textContent = String(beforeMarks);
-              this.checked = !isChecked;
-              showToast('Network error. Please try again.');
+                this.checked = !isChecked;
+                showToast('Network error. Please check your connection.');
             } finally {
-              this.disabled = false;
-              this.classList.remove('opacity-60', 'cursor-not-allowed');
-              updateCountsFromDOM();
+                this.disabled = false;
+                this.closest('.question-item').classList.remove('opacity-60', 'cursor-not-allowed');
             }
-          });
         });
-      });
-    </script>
+    });
+});
+</script>
 </x-app-layout>

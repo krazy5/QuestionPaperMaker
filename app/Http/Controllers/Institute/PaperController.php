@@ -13,7 +13,7 @@ use App\Models\Chapter;
 use App\Models\PaperBlueprint;
 use App\Models\SectionRule;
 use Illuminate\Support\Facades\DB;
-
+use App\Models\ManualSubscription; // 👈
 
 
 class PaperController extends Controller
@@ -24,8 +24,9 @@ class PaperController extends Controller
     public function index()
     {
         $user = auth()->user();
-        $activeSubscription = $user->subscriptions()->where('status', 'active')->where('ends_at', '>', now())->latest('starts_at')->first();
-        
+        $activeSubscription = $user->activeManualSubscription();
+
+
         // ✅ CORRECTED THIS LINE
         $papers = Paper::where('institute_id', $user->id)
             ->with(['subject', 'academicClass'])
@@ -455,6 +456,8 @@ class PaperController extends Controller
             $query->whereIn('question_type', $request->types);
         }
         $questions = $query->latest()->paginate(10)->withQueryString();
+        // ✨ Load all existing questions once to be efficient
+            $existingQuestions = $paper->questions()->get();
 
         return view('institute.papers.select_questions', [
             'paper' => $paper,
@@ -464,6 +467,7 @@ class PaperController extends Controller
             'currentChapter' => $request->chapter ?? 'all',
             'currentTypes' => $request->types ?? [],
             'currentMarks' => $paper->questions->sum(fn ($q) => (int) $q->pivot->marks),
+            'selectedQuestionCount' => $existingQuestions->count(), // ✨ ADD THIS
         ]);
     }
 
@@ -488,53 +492,80 @@ class PaperController extends Controller
     // }
     
     public function attachQuestion(Paper $paper, Request $request)
-    {
-        $data = $request->validate([
-            'question_id' => 'required|integer|exists:questions,id',
-            // Make rule_id optional; present only in fulfill (rule) flow
-            'rule_id'     => 'nullable|integer|exists:section_rules,id',
-        ]);
+{
+    // 1. Initial setup (common to both modes)
+    $data = $request->validate([
+        'question_id' => 'required|integer|exists:questions,id',
+        'rule_id'     => 'nullable|integer|exists:section_rules,id',
+    ]);
+    $question = Question::findOrFail($data['question_id']);
 
-        // ===== Rule mode (fulfill page) =====
-        if ($request->filled('rule_id')) {
-            $rule = SectionRule::findOrFail($data['rule_id']);
+    // 2. Branch logic based on whether a rule_id is present
+    
+    // ===== CASE 1: Rule-based attachment (from "Fulfill Blueprint" page) =====
+    if ($request->filled('rule_id')) {
+        $rule = SectionRule::findOrFail($data['rule_id']);
 
-            // Exists for this exact rule?
-            $existsForRule = $paper->questions()
-                ->where('questions.id', $data['question_id'])
-                ->wherePivot('section_rule_id', $rule->id)
-                ->exists();
+        // Check if the question is already attached for this specific rule
+        $existsForRule = $paper->questions()
+            ->where('questions.id', $data['question_id'])
+            ->wherePivot('section_rule_id', $rule->id)
+            ->exists();
 
-            if ($existsForRule) {
-                $paper->questions()->updateExistingPivot($data['question_id'], [
-                    'marks'           => (int) $rule->marks_per_question,
-                    'section_rule_id' => $rule->id,
-                    'updated_at'      => now(),
-                ]);
-            } else {
-                $paper->questions()->attach($data['question_id'], [
-                    'marks'           => (int) $rule->marks_per_question,
-                    'section_rule_id' => $rule->id,
-                    'sort_order'      => ($paper->questions()->count() + 1),
-                    'created_at'      => now(),
-                    'updated_at'      => now(),
-                ]);
+        // ✨ VALIDATION: Only check the limit if we are adding a NEW question
+        if (!$existsForRule) {
+            $currentMarks = $this->currentSelectedMarks($paper);
+            $marksToAdd = (int) $rule->marks_per_question;
+            if (($currentMarks + $marksToAdd) > $paper->total_marks) {
+                return response()->json([
+                    'error'   => 'Adding this question exceeds the total marks limit.',
+                    'current' => $currentMarks
+                ], 422);
             }
-
-            $this->recalcTotalMarks($paper);
-            return response()->json(['ok' => true]);
         }
 
-        // ===== Free-form mode (select-questions page) =====
-        // Here we *don’t* have a rule_id. We attach with section_rule_id = null and marks from the question.
-        $question = Question::findOrFail($data['question_id']);
+        // Attach or update the pivot table entry
+        if ($existsForRule) {
+            $paper->questions()->updateExistingPivot($data['question_id'], [
+                'marks'           => (int) $rule->marks_per_question,
+                'section_rule_id' => $rule->id,
+                'updated_at'      => now(),
+            ]);
+        } else {
+            $paper->questions()->attach($data['question_id'], [
+                'marks'           => (int) $rule->marks_per_question,
+                'section_rule_id' => $rule->id,
+                'sort_order'      => ($paper->questions()->count() + 1),
+                'created_at'      => now(),
+                'updated_at'      => now(),
+            ]);
+        }
 
-        // If a row already exists (maybe from rule flow), do nothing (keep existing assignment).
-        // If you prefer to force it into "free-form" (null rule), you’d have to decide how to handle conflicts.
+        // Return a consistent, successful response with the updated total
+        $finalMarks = $this->currentSelectedMarks($paper);
+        return response()->json(['ok' => true, 'current' => $finalMarks]);
+    } 
+    
+    // ===== CASE 2: Free-form attachment (from "Select Questions" page) =====
+    else {
+        // Check if the question already exists on the paper
         $existsAny = $paper->questions()
             ->where('questions.id', $data['question_id'])
             ->exists();
 
+        // ✨ VALIDATION: Only check the limit if we are adding a NEW question
+        if (!$existsAny) {
+            $currentMarks = $this->currentSelectedMarks($paper);
+            $marksToAdd = (int) $question->marks;
+            if (($currentMarks + $marksToAdd) > $paper->total_marks) {
+                return response()->json([
+                    'error'   => 'Adding this question exceeds the total marks limit.',
+                    'current' => $currentMarks
+                ], 422);
+            }
+        }
+
+        // Attach if it doesn't exist
         if (!$existsAny) {
             $paper->questions()->attach($data['question_id'], [
                 'marks'           => (int) $question->marks,
@@ -545,9 +576,11 @@ class PaperController extends Controller
             ]);
         }
 
+        // Return a consistent, successful response
         $current = $this->currentSelectedMarks($paper);
         return response()->json(['ok' => true, 'current' => $current]);
     }
+}
 
 
 

@@ -17,23 +17,43 @@
 
             {{-- Subscription panel --}}
             @if($activeSubscription)
+
                 @php
-                    $start = \Carbon\Carbon::parse($activeSubscription->starts_at);
-                    $end   = \Carbon\Carbon::parse($activeSubscription->ends_at);
-                    $now   = now();
-                    $total = max(1, $start->diffInDays($end));
-                    $used  = min($total, $start->diffInDays($now));
-                    $pct   = min(100, round(($used / $total) * 100));
-                    $daysLeft = max(0, $now->isBefore($end) ? $now->diffInDays($end) : 0);
+                    // Get the application's configured timezone for consistent calculations
+                    $appTimezone = config('app.timezone');
+
+                    // Parse start and end times *with* the correct timezone
+                    $start = \Carbon\Carbon::parse($activeSubscription->starts_at, $appTimezone);
+                    $end   = \Carbon\Carbon::parse($activeSubscription->ends_at, $appTimezone);
+                    $now   = now($appTimezone);
+
+                    // --- Time Remaining Calculation (Corrected Logic) ---
+                    $remaining = max(0, $end->timestamp - $now->timestamp);
+
+                    $daysLeft    = floor($remaining / 86400);
+                    $hoursLeft   = floor(($remaining % 86400) / 3600);
+                    $minutesLeft = floor(($remaining % 3600) / 60);
+
+                    // --- Progress Bar Calculation ---
+                    $totalSeconds = max(1, $end->timestamp - $start->timestamp);
+                    $usedSeconds  = max(0, min($totalSeconds, $now->timestamp - $start->timestamp));
+                    $pct          = round(($usedSeconds / $totalSeconds) * 100, 2);
                 @endphp
+
                 <div class="bg-white dark:bg-gray-900/60 backdrop-blur shadow-sm sm:rounded-xl ring-1 ring-gray-200 dark:ring-gray-700">
                     <div class="p-6 text-gray-900 dark:text-gray-100">
                         <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
                             <div>
                                 <h3 class="text-lg font-semibold">Current Plan: {{ $activeSubscription->plan_name }}</h3>
                                 <p class="text-sm text-gray-600 dark:text-gray-400">
-                                    Active until <span class="font-medium">{{ $end->format('F j, Y') }}</span>
-                                    &middot; <span class="font-medium">{{ (int) $daysLeft }} days</span> remaining
+                                    Active until <span class="font-medium">{{ $end->format('F j, Y g:i A') }}</span>
+                                    &middot;
+                                    <span class="font-medium">
+                                        {{ $daysLeft }} {{ Str::plural('day', $daysLeft) }},
+                                        {{ $hoursLeft }} {{ Str::plural('hour', $hoursLeft) }},
+                                        {{ $minutesLeft }} {{ Str::plural('minute', $minutesLeft) }}
+                                    </span>
+                                    remaining
                                 </p>
                             </div>
                             <a href="{{ route('subscription.pricing') }}"
@@ -48,7 +68,7 @@
                                 <div class="h-2 bg-blue-600 dark:bg-blue-500" style="width: {{ $pct }}%"></div>
                             </div>
                             <div class="mt-2 text-xs text-gray-600 dark:text-gray-400">
-                                {{ $start->format('d M') }} – {{ $end->format('d M') }} ({{ $pct }}% elapsed)
+                                {{ $start->format('d M g:i A') }} – {{ $end->format('d M g:i A') }} ({{ $pct }}% elapsed)
                             </div>
                         </div>
                     </div>
@@ -85,11 +105,6 @@
                                class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700">
                                 My Questions
                             </a>
-                            {{-- <a href="{{ route('institute.blueprints.index') }}"
-                               class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700">
-                                Browse Blueprints
-                            </a> --}}
-
                             @if($activeSubscription)
                                 <a href="{{ route('institute.papers.create') }}"
                                    class="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 shadow-sm">

@@ -26,7 +26,9 @@
                 <section class="p-6 sm:p-8">
                     <header class="mb-4">
                         <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Add New Subscription</h2>
-                        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Manually activate a plan for this institute. Use for offline payments or special offers.</p>
+                        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                            Manually activate a plan for this institute. Use for offline payments or special offers.
+                        </p>
                     </header>
 
                     @if ($errors->any())
@@ -45,21 +47,33 @@
                             <div>
                                 <label for="plan_name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Plan</label>
                                 <select id="plan_name" name="plan_name" class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
-                                    <option @selected(old('plan_name')==='Basic')>Basic</option>
-                                    <option @selected(old('plan_name')==='Professional')>Professional</option>
+                                    <option value="Basic" @selected(old('plan_name')==='Basic')>Basic</option>
+                                    <option value="Professional" @selected(old('plan_name')==='Professional')>Professional</option>
+                                    <option value="Enterprise" @selected(old('plan_name')==='Enterprise')>Enterprise</option>
                                 </select>
                             </div>
                             <div>
-                                <label for="starts_at" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Start Date</label>
-                                <input type="date" id="starts_at" name="starts_at" value="{{ old('starts_at', now()->format('Y-m-d')) }}" class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
+                                <label for="starts_at" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Start Date &amp; Time</label>
+                                <input type="datetime-local"
+                                       id="starts_at"
+                                       name="starts_at"
+                                       value="{{ old('starts_at', now()->format('Y-m-d\TH:i')) }}"
+                                       class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
                             </div>
                             <div>
-                                <label for="ends_at" class="block text-sm font-medium text-gray-700 dark:text-gray-300">End Date</label>
-                                <input type="date" id="ends_at" name="ends_at" value="{{ old('ends_at', now()->addMonth()->format('Y-m-d')) }}" class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
+                                <label for="ends_at" class="block text-sm font-medium text-gray-700 dark:text-gray-300">End Date &amp; Time</label>
+                                <input type="datetime-local"
+                                       id="ends_at"
+                                       name="ends_at"
+                                       value="{{ old('ends_at', now()->addMonth()->format('Y-m-d\TH:i')) }}"
+                                       class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
                             </div>
                         </div>
-                        <div class="flex items-center gap-2">
-                            <button type="submit" class="inline-flex items-center px-5 py-2.5 rounded-lg bg-blue-600 dark:bg-blue-500 text-white hover:bg-blue-700 dark:hover:bg-blue-600 shadow-sm">Activate Plan</button>
+                        <div class="flex justify-end">
+                            <button type="submit"
+                                    class="inline-flex items-center px-4 py-2 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+                                Activate Plan
+                            </button>
                         </div>
                     </form>
                 </section>
@@ -75,12 +89,20 @@
                     <!-- Mobile cards -->
                     <ul class="sm:hidden space-y-3">
                         @forelse ($subscriptions as $subscription)
-                            @php $active = $subscription->status === 'active' && \Carbon\Carbon::parse($subscription->ends_at)->isFuture(); @endphp
+                            @php
+                                $active = $subscription->status === 'active'
+                                    && \Carbon\Carbon::parse($subscription->starts_at)->lte(now())
+                                    && \Carbon\Carbon::parse($subscription->ends_at)->isFuture();
+                            @endphp
                             <li class="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-4">
                                 <div class="flex items-start justify-between gap-3">
                                     <div>
                                         <div class="font-medium">{{ $subscription->plan_name }}</div>
-                                        <div class="mt-1 text-xs text-gray-500 dark:text-gray-400">{{ \Carbon\Carbon::parse($subscription->starts_at)->format('d M, Y') }} → {{ \Carbon\Carbon::parse($subscription->ends_at)->format('d M, Y') }}</div>
+                                        <div class="mt-1 text-xs text-gray-500 dark:text-gray-400">
+                                            {{ \Carbon\Carbon::parse($subscription->starts_at)->format('d M, Y h:i A') }}
+                                            &rarr;
+                                            {{ \Carbon\Carbon::parse($subscription->ends_at)->format('d M, Y h:i A') }}
+                                        </div>
                                     </div>
                                     <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs {{ $active ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-200' : 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200' }}">
                                         {{ ucfirst($subscription->status) }}
@@ -90,7 +112,9 @@
                                     <div class="mt-3 text-right">
                                         <form method="POST" action="{{ route('admin.institutes.subscriptions.cancel', $subscription) }}">
                                             @csrf
-                                            <button type="submit" onclick="return confirm('Are you sure you want to cancel this subscription?')" class="text-sm text-red-600 hover:underline">Cancel</button>
+                                            <button type="submit" onclick="return confirm('Are you sure you want to cancel this subscription?')" class="text-sm text-red-600 hover:underline">
+                                                Cancel
+                                            </button>
                                         </form>
                                     </div>
                                 @endif
@@ -107,14 +131,18 @@
                                 <tr>
                                     <th class="px-6 py-3 text-left text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider">Plan</th>
                                     <th class="px-6 py-3 text-left text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider">Status</th>
-                                    <th class="px-6 py-3 text-left text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider">Start Date</th>
-                                    <th class="px-6 py-3 text-left text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider">End Date</th>
+                                    <th class="px-6 py-3 text-left text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider">Start Date &amp; Time</th>
+                                    <th class="px-6 py-3 text-left text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider">End Date &amp; Time</th>
                                     <th class="px-6 py-3 text-right text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider">Actions</th>
                                 </tr>
                             </thead>
                             <tbody class="divide-y divide-gray-200 dark:divide-gray-800">
                                 @forelse ($subscriptions as $subscription)
-                                    @php $active = $subscription->status === 'active' && \Carbon\Carbon::parse($subscription->ends_at)->isFuture(); @endphp
+                                    @php
+                                        $active = $subscription->status === 'active'
+                                            && \Carbon\Carbon::parse($subscription->starts_at)->lte(now())
+                                            && \Carbon\Carbon::parse($subscription->ends_at)->isFuture();
+                                    @endphp
                                     <tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50">
                                         <td class="px-6 py-4 whitespace-nowrap">{{ $subscription->plan_name }}</td>
                                         <td class="px-6 py-4 whitespace-nowrap">
@@ -122,8 +150,12 @@
                                                 {{ ucfirst($subscription->status) }}
                                             </span>
                                         </td>
-                                        <td class="px-6 py-4 whitespace-nowrap">{{ \Carbon\Carbon::parse($subscription->starts_at)->format('d M, Y') }}</td>
-                                        <td class="px-6 py-4 whitespace-nowrap">{{ \Carbon\Carbon::parse($subscription->ends_at)->format('d M, Y') }}</td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            {{ \Carbon\Carbon::parse($subscription->starts_at)->format('d M, Y h:i A') }}
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            {{ \Carbon\Carbon::parse($subscription->ends_at)->format('d M, Y h:i A') }}
+                                        </td>
                                         <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                             @if($active)
                                                 <form method="POST" action="{{ route('admin.institutes.subscriptions.cancel', $subscription) }}">

@@ -1,0 +1,323 @@
+[
+  {
+    "type": "mcq",
+    "text": "If ∠A = ∠P and ∠B = ∠Q, then △ABC and △PQR are:",
+    "options": ["Congruent", "Similar", "Neither similar nor congruent", "Right triangles"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two similar triangles have a side ratio 3:5. The ratio of their areas is:",
+    "options": ["3:5", "5:3", "9:25", "15:25"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In △ABC, DE ∥ BC with D on AB and E on AC. If AD:DB = 1:2, then AE:EC equals:",
+    "options": ["1:1", "1:2", "2:1", "1:3"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If △ABC ~ △PQR and AB = 6 cm, PQ = 9 cm, then the linear scale factor (ABC to PQR) is:",
+    "options": ["2:3", "3:2", "4:3", "1:3"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two similar triangles have perimeters 24 cm and 36 cm. A 8 cm side in the smaller corresponds to ____ cm in the larger.",
+    "options": ["10", "11", "12", "14"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a right triangle, the altitude from the right angle to the hypotenuse creates two smaller triangles that are:",
+    "options": ["Not related", "Isosceles", "Similar to each other and to the original", "Congruent only to each other"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If two sides are in the same ratio in two triangles and the included angle is equal, then the triangles are:",
+    "options": ["Similar", "Congruent", "Right triangles", "Isosceles"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A model is built to scale 1:50. If the model's height is 7 cm, the actual height is:",
+    "options": ["0.35 m", "3.5 m", "35 m", "0.07 m"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "In similar triangles, corresponding medians are in the same ratio as the corresponding sides.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If two triangles have proportional sides, they must be congruent.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "For two similar triangles, the ratio of areas equals the ratio of perimeters.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "All equilateral triangles are similar to each other.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If DE ∥ BC in △ABC, then △ADE and △ABC are similar.",
+    "answer": "True",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Given ∠A = ∠P and ∠C = ∠R, show △ABC ~ △PQR. If AB = 6 cm and PQ = 9 cm, find BC:QR.",
+    "answer": "Step 1: Two pairs of equal angles ⇒ corresponding angles are equal.\nStep 2: Hence triangles are similar; order A↔P, B↔Q, C↔R.\nStep 3: Corresponding side ratios are equal: AB/PQ = BC/QR.\nStep 4: AB/PQ = 6/9 = 2/3 ⇒ BC/QR = 2/3.\nAnswer: BC:QR = 2:3.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In △ABC, DE ∥ BC. If AD = 4 cm and DB = 8 cm, find AE:EC.",
+    "answer": "Step 1: DE ∥ BC gives equal ratios on both sides.\nStep 2: AD/DB = AE/EC = 4/8 = 1/2.\nAnswer: AE:EC = 1:2.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "△ABC ~ △DEF. AB = 5 cm corresponds to DE = 15 cm; AC = 7 cm corresponds to DF = ?. Find DF.",
+    "answer": "Step 1: Ratio of similarity = DE/AB = 15/5 = 3.\nStep 2: DF corresponds to AC ⇒ DF = 3 × AC = 3 × 7 = 21 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Two similar triangles have side ratio 5:7. If the area of the smaller triangle is 80 cm², find the area of the larger.",
+    "answer": "Step 1: Area ratio = (5:7)² = 25:49.\nStep 2: Let larger area = A. 80/A = 25/49 ⇒ A = 80×49/25 = 4×49 = 196 cm².",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A 1 m stick casts a 0.8 m shadow at the same time a tower casts a 12 m shadow. Find the tower's height.",
+    "answer": "Step 1: Equal sun angle ⇒ height:shadow constant.\nStep 2: 1/0.8 = h/12 ⇒ h = 12 × (1/0.8) = 15 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A map scale is 1:25,000. If two towns are 6 cm apart on the map, find the actual distance in km.",
+    "answer": "Step 1: 6 cm × 25,000 = 150,000 cm.\nStep 2: 150,000 cm = 1,500 m = 1.5 km.\nAnswer: 1.5 km.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Right △ABC has ∠A = 90°. Altitude AH to hypotenuse BC. If AB = 6 cm, AC = 8 cm, find AH.",
+    "answer": "Step 1: BC = √(AB² + AC²) = √(36 + 64) = 10 cm.\nStep 2: In right triangle, altitude to hypotenuse satisfies AH = (AB × AC)/BC.\nStep 3: AH = (6×8)/10 = 48/10 = 4.8 cm.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "In △ABC, DE ∥ BC with D on AB and E on AC. Prove △ADE ~ △ABC and find (i) AD:AB if AD = 3 cm and AB = 9 cm, (ii) area(△ADE):area(△ABC).",
+    "answer": "Step 1: ∠A is common. With DE ∥ BC, ∠ADE equals ∠ABC and ∠AED equals ∠ACB (matching angles).\nStep 2: Hence triangles are similar in order A↔A, D↔B, E↔C.\nStep 3: Corresponding sides are proportional: AD/AB = AE/AC = DE/BC.\n(i) AD:AB = 3:9 = 1:3.\n(ii) Area ratio equals square of side ratio: (AD/AB)² = (1/3)² = 1:9.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Two triangles are similar. AB = 9 cm corresponds to DE = 12 cm. (a) Find the ratio of their perimeters. (b) If the smaller perimeter is 45 cm, find the larger perimeter.",
+    "answer": "Step 1: Linear scale k = DE/AB = 12/9 = 4/3.\n(a) Perimeter ratio equals linear ratio ⇒ 3:4 (small:large) or 4:3 (large:small). Using small:large = 3:4.\n(b) Larger perimeter = 45 × (4/3) = 60 cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "△ABC ~ △PQR. AB = 8 cm, AC = 6 cm, BC = 10 cm. The scale factor from ABC to PQR is 1.5. Find PQ, PR, QR and the ratio of areas.",
+    "answer": "Step 1: Multiply corresponding sides by 1.5.\nPQ (↔ AB) = 1.5 × 8 = 12 cm.\nPR (↔ AC) = 1.5 × 6 = 9 cm.\nQR (↔ BC) = 1.5 × 10 = 15 cm.\nStep 2: Area ratio = (1.5)² = 2.25 = 9:4 (large:small) or 4:9 (small:large).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A 20 m tower casts a 15 m shadow. At the same time, a tree casts a 9 m shadow. Find the height of the tree.",
+    "answer": "Step 1: Height:shadow is constant.\nStep 2: 20/15 = h/9 ⇒ h = 9 × (20/15) = 9 × (4/3) = 12 m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Two poles of heights 6 m and x m cast shadows of 4 m and 6 m respectively at the same time. Find x.",
+    "answer": "Step 1: Height:shadow ratios equal.\nStep 2: 6/4 = x/6 ⇒ x = 6 × (6/4) = 9 m.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "In similar triangles, the ratio of corresponding altitudes equals the ratio of:",
+    "options": ["Perimeters", "Areas", "Corresponding sides", "Angle bisectors only"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If two similar triangles have side ratio 2:5, then the ratio of their perimeters is:",
+    "options": ["4:25", "2:5", "5:2", "Square of 2:5"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the ratio of areas of two similar triangles is 9:16, then the ratio of corresponding sides is:",
+    "options": ["9:16", "3:4", "16:9", "4:3"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For △ABC ~ △DEF, which statement is correct?",
+    "options": ["AB/DE = AC/DF", "AB/DF = AC/DE", "AB = DE = AC", "Areas are equal"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In △ABC, a line DE is drawn ∥ BC meeting AB at D and AC at E. Then:",
+    "options": ["△ADE ~ △ABC", "△ADE ≅ △ABC", "DE = BC always", "∠ADE = ∠BAC is impossible"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A plan uses scale 1:100. A road measures 2.5 cm on the plan. Actual length is:",
+    "options": ["2.5 m", "25 m", "0.25 m", "250 m"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If three pairs of corresponding sides of two triangles are proportional, then the triangles are similar by:",
+    "options": ["AA", "SAS", "SSS", "RHS"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "If two triangles have all corresponding angles equal, they are congruent.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In similar triangles, the ratio of medians equals the ratio of corresponding sides.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If two triangles have equal areas, they must be congruent.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Corresponding angle bisectors of similar triangles are in the same ratio as corresponding sides.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In similar triangles, the ratio of inradii equals the ratio of corresponding sides.",
+    "answer": "True",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "△ABC ~ △PQR. AB = 7 cm, AC = 10 cm, and PQ = 14 cm. Find PR.",
+    "answer": "Step 1: Linear scale k = PQ/AB = 14/7 = 2.\nStep 2: PR corresponds to AC.\nStep 3: PR = k × AC = 2 × 10 = 20 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Two similar triangles have areas 45 cm² and 80 cm². Find the ratio of corresponding sides (smaller:larger).",
+    "answer": "Step 1: Side ratio = √(area ratio) = √(45/80) = √(9/16) = 3/4.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In △ABC, DE ∥ BC. If AD = 2.5 cm and AB = 4 cm, find AE/AC and area(△ADE):area(△ABC).",
+    "answer": "Step 1: AD/AB = AE/AC = 2.5/4 = 5/8.\nStep 2: Area ratio equals square of linear ratio ⇒ (5/8)² = 25/64.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "AB/DE = AC/DF = BC/EF. AB = 6 cm, DE = 9 cm; AC = 8 cm, DF = 12 cm; EF = 15 cm. Find BC.",
+    "answer": "Step 1: Common linear ratio = AB/DE = 6/9 = 2/3.\nStep 2: BC/EF = 2/3 ⇒ BC = (2/3) × 15 = 10 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Right △ABC with ∠C = 90°. AC = 9 cm, BC = 12 cm. Let CH be altitude to hypotenuse AB. Find AH, BH, and CH.",
+    "answer": "Step 1: AB = √(9² + 12²) = 15 cm.\nStep 2: AH = AC²/AB = 81/15 = 5.4 cm; BH = BC²/AB = 144/15 = 9.6 cm.\nStep 3: CH = (AC × BC)/AB = (9×12)/15 = 108/15 = 7.2 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A map has scale 1:4000. Two points are 3.5 cm apart on the map. Find the actual distance in metres.",
+    "answer": "Step 1: 3.5 cm × 4000 = 14,000 cm.\nStep 2: 14,000 cm = 140 m.\nAnswer: 140 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Two similar triangles have perimeters 30 cm and 45 cm. A 12 cm side in the smaller corresponds to what in the larger?",
+    "answer": "Step 1: Linear ratio = 30:45 = 2:3.\nStep 2: Larger corresponding side = 12 × (3/2) = 18 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "△ABC ~ △PQR. AB = 5 cm, PQ = 8 cm, and perimeter(ABC) = 30 cm. Find perimeter(PQR).",
+    "answer": "Step 1: Linear ratio k = PQ/AB = 8/5.\nStep 2: Perimeter scales by k ⇒ 30 × (8/5) = 48 cm.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "In △ABC, D is on AB and E is on AC such that DE ∥ BC. Given AD = 3 cm, DB = 6 cm, and AC = 12 cm. Prove △ADE ~ △ABC and find AE, EC, and area(△ADE):area(△ABC).",
+    "answer": "Step 1: ∠A is common; DE ∥ BC gives corresponding angle pairs equal.\nStep 2: Hence △ADE and △ABC are similar.\nStep 3: AD/AB = AE/AC = DE/BC. AB = AD + DB = 3 + 6 = 9.\nStep 4: AD/AB = 3/9 = 1/3 ⇒ AE/AC = 1/3 ⇒ AE = (1/3)×12 = 4 cm.\nStep 5: EC = AC − AE = 12 − 4 = 8 cm.\nStep 6: Area ratio = (AD/AB)² = (1/3)² = 1:9.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Two buildings stand on level ground. Building A is 20 m high and casts an 8 m shadow. Building B casts a 5.6 m shadow at the same time. Find the height of B.",
+    "answer": "Step 1: Equal sun angle ⇒ height:shadow constant.\nStep 2: 20/8 = h/5.6 ⇒ h = 5.6 × (20/8) = 5.6 × 2.5 = 14 m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In △ABC, DE ∥ BC with D on AB and E on AC. If AD:DB = 2:1 and AB = 12 cm, AC = 15 cm, find AD, DB, AE, and EC.",
+    "answer": "Step 1: AD:DB = 2:1 ⇒ AD = (2/3)AB = (2/3)×12 = 8 cm; DB = (1/3)AB = 4 cm.\nStep 2: Linear ratios on both sides are equal ⇒ AE/AC = AD/AB = 2/3.\nStep 3: AE = (2/3)×15 = 10 cm; EC = AC − AE = 15 − 10 = 5 cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A model of a tower is built to scale 1:200. The model’s height is 18 cm. (a) Find the actual height. (b) If a triangular window on the model has area 12 cm², find the actual window area.",
+    "answer": "Step 1: Linear scale 1:200 ⇒ actual height = 18 × 200 = 3600 cm = 36 m.\nStep 2: Area scales with square of linear scale ⇒ factor = 200² = 40,000.\nStep 3: Actual window area = 12 × 40,000 = 480,000 cm² = 48 m².",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In right △ABC with ∠C = 90°, CH is altitude to hypotenuse AB. If AC = 9 cm and BC = 12 cm, prove △ACH ~ △ABC and △BCH ~ △ABC (by angle matching) and then compute AH, BH, CH.",
+    "answer": "Step 1: ∠A common in △ACH and △ABC; both have a right angle at C; so angle-by-angle matching shows similarity order.\nStep 2: Likewise for △BCH and △ABC using angle matching at B and right angles at C.\nStep 3: Compute AB = √(9² + 12²) = 15 cm.\nStep 4: Use right-triangle altitude relations from similarity:\nAH = AC²/AB = 81/15 = 5.4 cm; BH = BC²/AB = 144/15 = 9.6 cm; CH = (AC·BC)/AB = 108/15 = 7.2 cm.",
+    "marks": 4
+  }
+]

@@ -56,7 +56,7 @@ class MaharashtraBoardSeeder extends Seeder
         }
         
         $this->command->info('Smart seeder completed successfully!');
-    }
+    }       
 
     private function formatName(string $slug): string
     {
@@ -64,33 +64,44 @@ class MaharashtraBoardSeeder extends Seeder
     }
 
     private function createQuestion(array $qData, $board, $class, $subject, $chapter): void
-    {
-        $details = [
-            'board_id' => $board->id,
-            'class_id' => $class->id,
-            'subject_id' => $subject->id,
-            'chapter_id' => $chapter->id,
-            'question_text' => $qData['text'],
-            'marks' => $qData['marks'],
-            'question_type' => $qData['type'],
-            'difficulty' => $qData['difficulty'] ?? 'medium',
-            'source' => 'admin',
-            'approved' => true,
-        ];
+        {
+            // normalize options to array
+            $options = $qData['options'] ?? null;
+            if (is_string($options)) {
+                $maybe = json_decode($options, true);
+                if (json_last_error() === JSON_ERROR_NONE && is_array($maybe)) {
+                    $options = $maybe; // was JSON string -> array
+                } else {
+                    // last-resort: turn a quoted list into array
+                    $options = array_filter(array_map('trim', explode('","', trim($options, "[]\""))));
+                }
+            }
+            if (!is_array($options)) {
+                $options = []; // ensure array
+            }
 
-        switch ($qData['type']) {
-            case 'mcq':
-                $details['options'] = json_encode($qData['options']);
-                $details['correct_answer'] = $qData['correct_answer'];
-                break;
-            case 'true_false':
-                $details['correct_answer'] = $qData['answer'];
-                break;
-            default:
-                $details['answer_text'] = $qData['answer'];
-                break;
+            $details = [
+                'board_id'      => $board->id,
+                'class_id'      => $class->id,
+                'subject_id'    => $subject->id,
+                'chapter_id'    => $chapter->id,
+                'question_text' => $qData['text'],
+                'marks'         => $qData['marks'],
+                'question_type' => $qData['type'],
+                'difficulty'    => $qData['difficulty'] ?? 'medium',
+                'source'        => 'admin',
+                'approved'      => true,
+                'options'       => $options,                 // 👈 store array (Model cast handles JSON)
+                'correct_answer'=> $qData['correct_answer'] ?? null,
+            ];
+
+            if ($qData['type'] === 'true_false') {
+                $details['correct_answer'] = $qData['answer'] ?? null;
+            } elseif (!in_array($qData['type'], ['mcq','true_false'], true)) {
+                $details['answer_text'] = $qData['answer'] ?? null;
+            }
+
+            Question::create($details);
         }
-        
-        Question::create($details);
-    }
+
 }

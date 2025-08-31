@@ -71,7 +71,7 @@
         @if ($blueprint && $paper->questions->isNotEmpty())
             @foreach ($blueprint->sections as $section)
                 <div class="mb-8 @if(!$loop->first) pt-4 @endif">
-                    <h2 class="text-lg font-bold text-center mt-6 mb-4">{{ $section->name }}</h2>
+                    <h2 class="text-lg font-bold text-center mt-2 mb-2">{{ $section->name }}</h2>
                     @if($section->instructions)
                         <div class="mb-4 italic"><p><em>{{ $section->instructions }}</em></p></div>
                     @endif
@@ -93,7 +93,7 @@
                             </div>
 
                             @foreach ($ruleQuestions->take($displayCount) as $question)
-                                <div class="mb-4">
+                                <div class="mb-2">
                                     <div class="flex justify-between items-start font-bold mb-1">
                                         <div class="flex-grow pr-4">Q.{{ $qNo++ }}) {!! $question->question_text !!}</div>
                                         <div class="flex-shrink-0">[{{ $question->pivot->marks }}]</div>
@@ -108,11 +108,12 @@
                                     @if($question->question_type === 'mcq')
                                         @php $optionsArray = is_array($question->options) ? $question->options : json_decode($question->options, true); @endphp
                                         @if(is_array($optionsArray))
-                                            <div class="ml-8 mt-1">
-                                                @foreach($optionsArray as $optionIndex => $option)
-                                                    <p class="my-1">({{ chr(65 + $optionIndex) }}) {!! $option !!}</p>
-                                                @endforeach
-                                            </div>
+                                            {{-- AFTER --}}
+                                                <div class="ml-8 mt-1">
+                                                    @foreach($optionsArray as $optionIndex => $option)
+                                                        <span class="mr-6">({{ chr(65 + $optionIndex) }}) {!! $option !!}</span>
+                                                    @endforeach
+                                                </div>
                                         @endif
                                     @endif
                                 </div>
@@ -128,7 +129,7 @@
                 <h2 class="text-lg font-bold text-center mt-6 mb-4">Questions</h2>
 
                 @foreach ($paper->questions as $question)
-                    <div class="mb-4">
+                    <div class="mb-2">
                         <div class="flex justify-between items-start font-bold mb-1">
                             <div class="flex-grow pr-4">Q.{{ $qNo++ }}) {!! $question->question_text !!}</div>
                             <div class="flex-shrink-0">[{{ $question->pivot->marks }}]</div>

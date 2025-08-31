@@ -1,64 +1,323 @@
 [
   {
-    "type": "long",
-    "text": "The following table shows the number of students and the time they utilized daily for their studies. Find the mean time spent by students for their studies by direct method.\n\nTime (hrs.): 0–2, 2–4, 4–6, 6–8, 8–10\n\nNo. of students: 7, 18, 12, 10, 3",
-    "marks": 4,
-    "answer": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tr><th>Class (hrs)</th><th>Frequency $f$</th><th>Midpoint $x$</th><th>$f\\times x$</th></tr>\n  <tr><td>0--2</td><td align=\"right\">7</td><td align=\"right\">1</td><td align=\"right\">7</td></tr>\n  <tr><td>2--4</td><td align=\"right\">18</td><td align=\"right\">3</td><td align=\"right\">54</td></tr>\n  <tr><td>4--6</td><td align=\"right\">12</td><td align=\"right\">5</td><td align=\"right\">60</td></tr>\n  <tr><td>6--8</td><td align=\"right\">10</td><td align=\"right\">7</td><td align=\"right\">70</td></tr>\n  <tr><td>8--10</td><td align=\"right\">3</td><td align=\"right\">9</td><td align=\"right\">27</td></tr>\n  <tr><th>Total</th><th align=\"right\">50</th><th></th><th align=\"right\">218</th></tr>\n</table>\n\n<p>Compute the mean by the direct formula:</p>\n\n<p>\\[\\bar{x}=\\frac{\\sum f x}{\\sum f}=\\frac{218}{50}=4.36\\ \\text{hours}\\]</p>\n\n<p><b>Answer:</b> $\\boxed{4.36\\ \\text{hours}}$.</p>"
+    "type": "mcq",
+    "text": "Which measure of central tendency is least affected by extreme values?",
+    "options": ["Mean", "Median", "Mode", "All are equally affected"],
+    "correct_answer": "B",
+    "marks": 1
   },
   {
-    "type": "long",
-    "text": "In the following table, the toll paid by drivers and the number of vehicles is shown. Find the mean of the toll by 'assumed mean' method.\n\nToll (Rupees): 300–400, 400–500, 500–600, 600–700, 700–800\n\nNo. of vehicles: 80, 110, 120, 70, 40",
-    "marks": 4,
-    "answer": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tr><th>Class (Rupees)</th><th>Frequency $f$</th><th>Midpoint $x$</th><th>($x-A$)/$h$ = $u$</th><th>$f\\,u$</th></tr>\n  <tr><td>300--400</td><td align=\"right\">80</td><td align=\"right\">350</td><td align=\"right\">(350-550)/100 = -2</td><td align=\"right\">-160</td></tr>\n  <tr><td>400--500</td><td align=\"right\">110</td><td align=\"right\">450</td><td align=\"right\">-1</td><td align=\"right\">-110</td></tr>\n  <tr><td>500--600</td><td align=\"right\">120</td><td align=\"right\">550</td><td align=\"right\">0</td><td align=\"right\">0</td></tr>\n  <tr><td>600--700</td><td align=\"right\">70</td><td align=\"right\">650</td><td align=\"right\">1</td><td align=\"right\">70</td></tr>\n  <tr><td>700--800</td><td align=\"right\">40</td><td align=\"right\">750</td><td align=\"right\">2</td><td align=\"right\">80</td></tr>\n  <tr><th>Total</th><th align=\"right\">420</th><th></th><th></th><th align=\"right\">-120</th></tr>\n</table>\n\n<p>Choose assumed mean $A=550$ and class width $h=100$. Using step (assumed mean) method:</p>\n\n<p>\\[\\bar{x}=A + h\\cdot\\frac{\\sum f u}{\\sum f}=550 + 100\\cdot\\frac{-120}{420}\\]</p>\n\n<p>\\[\\bar{x}=550 - \\frac{12000}{420}=550-28.571428\\ldots=521.428571\\ \\text{Rupees}\\]</p>\n\n<p><b>Answer:</b> $\\boxed{521.428571\\ \\text{Rupees}\\approx 521.43\\ \\text{Rupees}}$.</p>"
+    "type": "mcq",
+    "text": "The class mark (midpoint) of the class 10–20 is:",
+    "options": ["10", "15", "20", "30"],
+    "correct_answer": "B",
+    "marks": 1
   },
   {
-    "type": "long",
-    "text": "A milk centre sold milk to 50 customers. The table below gives the number of customers and the milk they purchased. Find the mean of the milk sold by direct method.\n\nMilk Sold (Litre): 1–2, 2–3, 3–4, 4–5, 5–6\n\nNo. of Customers: 17, 13, 10, 7, 3",
-    "marks": 4,
-    "answer": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tr><th>Class (L)</th><th>Frequency $f$</th><th>Midpoint $x$</th><th>$f\\times x$</th></tr>\n  <tr><td>1--2</td><td align=\"right\">17</td><td align=\"right\">1.5</td><td align=\"right\">25.5</td></tr>\n  <tr><td>2--3</td><td align=\"right\">13</td><td align=\"right\">2.5</td><td align=\"right\">32.5</td></tr>\n  <tr><td>3--4</td><td align=\"right\">10</td><td align=\"right\">3.5</td><td align=\"right\">35.0</td></tr>\n  <tr><td>4--5</td><td align=\"right\">7</td><td align=\"right\">4.5</td><td align=\"right\">31.5</td></tr>\n  <tr><td>5--6</td><td align=\"right\">3</td><td align=\"right\">5.5</td><td align=\"right\">16.5</td></tr>\n  <tr><th>Total</th><th align=\"right\">50</th><th></th><th align=\"right\">141.0</th></tr>\n</table>\n\n<p>Direct mean:</p>\n\n<p>\\[\\bar{x}=\\frac{\\sum f x}{\\sum f}=\\frac{141}{50}=2.82\\ \\text{litres}\\]</p>\n\n<p><b>Answer:</b> $\\boxed{2.82\\ \\text{L}}$.</p>"
+    "type": "mcq",
+    "text": "In exclusive-type class intervals like 0–10, 10–20, 20–30, the upper limit is:",
+    "options": ["Included", "Excluded", "Sometimes included", "Always included if frequency is zero"],
+    "correct_answer": "B",
+    "marks": 1
   },
   {
-    "type": "long",
-    "text": "A frequency distribution table for the production of oranges of some farm owners is given below. Find the mean production of oranges by 'assumed mean' method.\n\nProduction (Thousand rupees): 25–30, 30–35, 35–40, 40–45, 45–50\n\nNo. of farm owners: 20, 25, 15, 10, 10",
-    "marks": 4,
-    "answer": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tr><th>Class (Thousand rupees)</th><th>Frequency $f$</th><th>Midpoint $x$</th><th>($x-A$)/$h$ = $u$</th><th>$f\\,u$</th></tr>\n  <tr><td>25--30</td><td align=\"right\">20</td><td align=\"right\">27.5</td><td align=\"right\">(27.5-37.5)/5 = -2</td><td align=\"right\">-40</td></tr>\n  <tr><td>30--35</td><td align=\"right\">25</td><td align=\"right\">32.5</td><td align=\"right\">-1</td><td align=\"right\">-25</td></tr>\n  <tr><td>35--40</td><td align=\"right\">15</td><td align=\"right\">37.5</td><td align=\"right\">0</td><td align=\"right\">0</td></tr>\n  <tr><td>40--45</td><td align=\"right\">10</td><td align=\"right\">42.5</td><td align=\"right\">1</td><td align=\"right\">10</td></tr>\n  <tr><td>45--50</td><td align=\"right\">10</td><td align=\"right\">47.5</td><td align=\"right\">2</td><td align=\"right\">20</td></tr>\n  <tr><th>Total</th><th align=\"right\">80</th><th></th><th></th><th align=\"right\">-35</th></tr>\n</table>\n\n<p>Take $A=37.5$ (thousand rupees) and class width $h=5$. Then:</p>\n\n<p>\\[\\bar{x}=A + h\\cdot\\frac{\\sum f u}{\\sum f}=37.5 + 5\\cdot\\frac{-35}{80}\\]</p>\n\n<p>\\[\\bar{x}=37.5 - \\frac{175}{80}=37.5 - 2.1875 = 35.3125\\ \\text{(thousand rupees)}\\]</p>\n\n<p><b>Answer:</b> $\\boxed{35.3125\\ \\text{thousand rupees}}$.</p>"
+    "type": "mcq",
+    "text": "In a histogram, the bars for adjacent classes are:",
+    "options": ["Separated by gaps", "Touching each other", "Drawn as lines only", "Always of unequal widths"],
+    "correct_answer": "B",
+    "marks": 1
   },
   {
-    "type": "long",
-    "text": "A frequency distribution of funds collected by 120 workers in a company for the drought affected people are given in the following table. Find the mean of the funds by 'step deviation' method.\n\nFund (Rupees): 0–500, 500–1000, 1000–1500, 1500–2000, 2000–2500\n\nNo. of workers: 35, 28, 32, 15, 10",
-    "marks": 4,
-    "answer": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tr><th>Class (Rupees)</th><th>Frequency $f$</th><th>Midpoint $x$</th><th>$u=(x-A)/h$</th><th>$f\\,u$</th></tr>\n  <tr><td>0--500</td><td align=\"right\">35</td><td align=\"right\">250</td><td align=\"right\">(250-1250)/500 = -2</td><td align=\"right\">-70</td></tr>\n  <tr><td>500--1000</td><td align=\"right\">28</td><td align=\"right\">750</td><td align=\"right\">-1</td><td align=\"right\">-28</td></tr>\n  <tr><td>1000--1500</td><td align=\"right\">32</td><td align=\"right\">1250</td><td align=\"right\">0</td><td align=\"right\">0</td></tr>\n  <tr><td>1500--2000</td><td align=\"right\">15</td><td align=\"right\">1750</td><td align=\"right\">1</td><td align=\"right\">15</td></tr>\n  <tr><td>2000--2500</td><td align=\"right\">10</td><td align=\"right\">2250</td><td align=\"right\">2</td><td align=\"right\">20</td></tr>\n  <tr><th>Total</th><th align=\"right\">120</th><th></th><th></th><th align=\"right\">-63</th></tr>\n</table>\n\n<p>Choose $A=1250$ and $h=500$. Using step-deviation:</p>\n\n<p>\\[\\bar{x}=A + h\\cdot\\frac{\\sum f u}{\\sum f}=1250 + 500\\cdot\\frac{-63}{120}\\]</p>\n\n<p>\\[\\bar{x}=1250 - \\frac{31500}{120}=1250 - 262.5 = 987.5\\ \\text{Rupees}\\]</p>\n\n<p><b>Answer:</b> $\\boxed{987.5\\ \\text{Rupees}}$.</p>"
+    "type": "mcq",
+    "text": "The point of intersection of the 'less than' and 'more than' ogives gives:",
+    "options": ["Mean", "Median", "Mode", "Range"],
+    "correct_answer": "B",
+    "marks": 1
   },
   {
-    "type": "long",
-    "text": "The following table gives the information of frequency distribution of weekly wages of 150 workers of a company. Find the mean of the weekly wages by 'step deviation' method.\n\nWeekly wages (Rupees): 1000–2000, 2000–3000, 3000–4000, 4000–5000\n\nNo. of workers: 25, 45, 50, 30",
-    "marks": 4,
-    "answer": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\">\n  <tr><th>Class (Rupees)</th><th>Frequency $f$</th><th>Midpoint $x$</th><th>$u=(x-A)/h$</th><th>$f\\,u$</th></tr>\n  <tr><td>1000--2000</td><td align=\"right\">25</td><td align=\"right\">1500</td><td align=\"right\">(1500-3500)/1000 = -2</td><td align=\"right\">-50</td></tr>\n  <tr><td>2000--3000</td><td align=\"right\">45</td><td align=\"right\">2500</td><td align=\"right\">-1</td><td align=\"right\">-45</td></tr>\n  <tr><td>3000--4000</td><td align=\"right\">50</td><td align=\"right\">3500</td><td align=\"right\">0</td><td align=\"right\">0</td></tr>\n  <tr><td>4000--5000</td><td align=\"right\">30</td><td align=\"right\">4500</td><td align=\"right\">1</td><td align=\"right\">30</td></tr>\n  <tr><th>Total</th><th align=\"right\">150</th><th></th><th></th><th align=\"right\">-65</th></tr>\n</table>\n\n<p>Take $A=3500$ and $h=1000$. Then:</p>\n\n<p>\\[\\bar{x}=A + h\\cdot\\frac{\\sum f u}{\\sum f}=3500 + 1000\\cdot\\frac{-65}{150}\\]</p>\n\n<p>\\[\\bar{x}=3500 - \\frac{65000}{150}=3500 - 433.333\\ldots = 3066.666\\ldots\\ \\text{Rupees}\\]</p>\n\n<p><b>Answer:</b> $\\boxed{3066.67\\ \\text{Rupees (approx.)}}$.</p>"
-  },
-  
-  {
-    "type": "long",
-    "text": "The following table shows classification of number of workers and the number of hours they work in a software company. Find the median of the number of hours they work.<br><br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><tr><td><b>Daily No. of hours</b></td><td>8-10</td><td>10-12</td><td>12-14</td><td>14-16</td></tr><tr><td><b>Number of workers</b></td><td>150</td><td>500</td><td>300</td><td>50</td></tr></table>",
-    "answer": "To find the median, we first prepare a cumulative frequency table:<br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><thead><tr><th>Class (Hours)</th><th>Frequency (f)</th><th>Cumulative Frequency (cf)</th></tr></thead><tbody><tr><td>8-10</td><td>150</td><td>150</td></tr><tr><td>10-12</td><td>500</td><td>650</td></tr><tr><td>12-14</td><td>300</td><td>950</td></tr><tr><td>14-16</td><td>50</td><td>1000</td></tr></tbody></table><b>Step 1:</b> Total frequency $N = 1000$. So, $\\frac{N}{2} = 500$.<br><b>Step 2:</b> The cumulative frequency just greater than 500 is 650. The corresponding class is the median class, which is 10-12.<br><b>Step 3:</b> From the median class, we have:<br>Lower limit $L=10$<br>Frequency $f=500$<br>Cumulative frequency of the preceding class $cf=150$<br>Class width $h=2$<br><b>Step 4:</b> Using the median formula: Median = $L + [\\frac{\\frac{N}{2} - cf}{f}] \\times h$<br>Median = $10 + [\\frac{500 - 150}{500}] \\times 2 = 10 + \\frac{350}{500} \\times 2 = 10 + 0.7 \\times 2 = 10 + 1.4 = 11.4$.<br><b>Answer:</b> The median number of hours they work is 11.4 hours.",
-    "marks": 4
+    "type": "mcq",
+    "text": "For grouped data, the total number of observations N equals:",
+    "options": ["Sum of class marks", "Sum of all class limits", "Sum of all frequencies", "Product of midpoints"],
+    "correct_answer": "C",
+    "marks": 1
   },
   {
-    "type": "long",
-    "text": "The frequency distribution table shows the number of mango trees in a grove and their yield of mangoes. Find the median of data.<br><br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><tr><td><b>No. of Mangoes</b></td><td>50-100</td><td>100-150</td><td>150-200</td><td>200-250</td><td>250-300</td></tr><tr><td><b>No. of trees</b></td><td>33</td><td>30</td><td>90</td><td>80</td><td>17</td></tr></table>",
-    "answer": "To find the median, we prepare the cumulative frequency table:<br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><thead><tr><th>Class (Mangoes)</th><th>Frequency (f)</th><th>Cumulative Frequency (cf)</th></tr></thead><tbody><tr><td>50-100</td><td>33</td><td>33</td></tr><tr><td>100-150</td><td>30</td><td>63</td></tr><tr><td>150-200</td><td>90</td><td>153</td></tr><tr><td>200-250</td><td>80</td><td>233</td></tr><tr><td>250-300</td><td>17</td><td>250</td></tr></tbody></table><b>Step 1:</b> Total frequency $N = 250$. So, $\\frac{N}{2} = 125$.<br><b>Step 2:</b> The cumulative frequency just greater than 125 is 153. The corresponding class is the median class, which is 150-200.<br><b>Step 3:</b> From the median class, we have:<br>Lower limit $L=150$<br>Frequency $f=90$<br>Cumulative frequency of the preceding class $cf=63$<br>Class width $h=50$<br><b>Step 4:</b> Using the median formula: Median = $L + [\\frac{\\frac{N}{2} - cf}{f}] \\times h$<br>Median = $150 + [\\frac{125 - 63}{90}] \\times 50 = 150 + \\frac{62}{90} \\times 50 = 150 + \\frac{310}{9} \\approx 150 + 34.44 = 184.44$.<br><b>Answer:</b> The median of the data is approximately 184.44 mangoes.",
-    "marks": 4
+    "type": "mcq",
+    "text": "If class width is 5 and the class is 15–20, the class mark is:",
+    "options": ["16", "17.5", "18", "20"],
+    "correct_answer": "B",
+    "marks": 1
   },
   {
-    "type": "long",
-    "text": "The following table shows the classification of number of vehicles and their speeds on Mumbai-Pune express way. Find the median of the data.<br><br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><tr><td><b>Average Speed (Km/hr)</b></td><td>60-64</td><td>64-69</td><td>70-74</td><td>75-79</td><td>79-84</td><td>84-89</td></tr><tr><td><b>No. of vehicles</b></td><td>10</td><td>34</td><td>55</td><td>85</td><td>10</td><td>6</td></tr></table>",
-    "answer": "To find the median, we prepare the cumulative frequency table. The classes are continuous.<br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><thead><tr><th>Class (Speed)</th><th>Frequency (f)</th><th>Cumulative Frequency (cf)</th></tr></thead><tbody><tr><td>60-64</td><td>10</td><td>10</td></tr><tr><td>64-69</td><td>34</td><td>44</td></tr><tr><td>70-74</td><td>55</td><td>99</td></tr><tr><td>75-79</td><td>85</td><td>184</td></tr><tr><td>79-84</td><td>10</td><td>194</td></tr><tr><td>84-89</td><td>6</td><td>200</td></tr></tbody></table><b>Step 1:</b> Total frequency $N = 200$. So, $\\frac{N}{2} = 100$.<br><b>Step 2:</b> The cumulative frequency just greater than 100 is 184. The corresponding class is the median class, which is 75-79.<br><b>Step 3:</b> From the median class, we have:<br>Lower limit $L=75$<br>Frequency $f=85$<br>Cumulative frequency of the preceding class $cf=99$<br>Class width $h=79-75=4$<br><b>Step 4:</b> Using the median formula: Median = $L + [\\frac{\\frac{N}{2} - cf}{f}] \\times h$<br>Median = $75 + [\\frac{100 - 99}{85}] \\times 4 = 75 + \\frac{1}{85} \\times 4 = 75 + \\frac{4}{85} \\approx 75 + 0.047 = 75.047$.<br><b>Answer:</b> The median speed is approximately 75.05 km/hr.",
-    "marks": 4
+    "type": "mcq",
+    "text": "Cumulative frequency of a class is:",
+    "options": ["Frequency of that class only", "Sum of frequencies up to and including that class", "Sum of all class marks", "Difference of successive frequencies"],
+    "correct_answer": "B",
+    "marks": 1
   },
-  {
-    "type": "long",
-    "text": "The production of electric bulbs in different factories is shown in the following table. Find the median of the productions.<br><br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><tr><td><b>No. of bulbs produced (Thousands)</b></td><td>30-40</td><td>40-50</td><td>50-60</td><td>60-70</td><td>70-80</td><td>80-90</td><td>90-100</td></tr><tr><td><b>No. of factories</b></td><td>12</td><td>35</td><td>20</td><td>15</td><td>8</td><td>7</td><td>8</td></tr></table>",
-    "answer": "To find the median, we prepare the cumulative frequency table:<br><table border='1' style='border-collapse: collapse; width: 100%; text-align: center;'><thead><tr><th>Class (Bulbs in Thousands)</th><th>Frequency (f)</th><th>Cumulative Frequency (cf)</th></tr></thead><tbody><tr><td>30-40</td><td>12</td><td>12</td></tr><tr><td>40-50</td><td>35</td><td>47</td></tr><tr><td>50-60</td><td>20</td><td>67</td></tr><tr><td>60-70</td><td>15</td><td>82</td></tr><tr><td>70-80</td><td>8</td><td>90</td></tr><tr><td>80-90</td><td>7</td><td>97</td></tr><tr><td>90-100</td><td>8</td><td>105</td></tr></tbody></table><b>Step 1:</b> Total frequency $N = 105$. So, $\\frac{N}{2} = 52.5$.<br><b>Step 2:</b> The cumulative frequency just greater than 52.5 is 67. The corresponding class is the median class, which is 50-60.<br><b>Step 3:</b> From the median class, we have:<br>Lower limit $L=50$<br>Frequency $f=20$<br>Cumulative frequency of the preceding class $cf=47$<br>Class width $h=10$<br><b>Step 4:</b> Using the median formula: Median = $L + [\\frac{\\frac{N}{2} - cf}{f}] \\times h$<br>Median = $50 + [\\frac{52.5 - 47}{20}] \\times 10 = 50 + \\frac{5.5}{20} \\times 10 = 50 + \\frac{5.5}{2} = 50 + 2.75 = 52.75$.<br><b>Answer:</b> The median of the production is 52.75 thousand bulbs.",
-    "marks": 4
-  }
 
+  {
+    "type": "true_false",
+    "text": "In inclusive type, consecutive classes have overlapping limits.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In exclusive type, the upper class limit is excluded from the class.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Mode is the most frequently occurring value.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The arithmetic mean of 2, 3, 7 is 4.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "An ogive is a bar graph of frequencies.",
+    "answer": "False",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Make a frequency table (with tally) for the data: 2, 5, 5, 6, 7, 2, 2, 4, 5, 6.",
+    "answer": "Step 1: List distinct values in ascending order: 2, 4, 5, 6, 7.\nStep 2: Tally and count.\nValue | Tally     | Frequency\n2     | |||       | 3\n4     | |         | 1\n5     | |||       | 3\n6     | ||        | 2\n7     | |         | 1\nTotal N = 3+1+3+2+1 = 10.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the mean of 8, 12, 15, 9, 6.",
+    "answer": "Sum = 8+12+15+9+6 = 50. Count n = 5. Mean = 50/5 = 10.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Complete the cumulative frequency (cf) column.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     3,     5,      7,      5",
+    "answer": "Compute cf by running totals.\nClass  f  cf\n0–10   3  3\n10–20  5  3+5 = 8\n20–30  7  8+7 = 15\n30–40  5  15+5 = 20\nTotal N = 20.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Identify the modal class for the table.\nClass: 10–20, 20–30, 30–40, 40–50\nf:     6,      9,      14,     11",
+    "answer": "Modal class is the class with highest frequency. Max f = 14 at class 30–40. So modal class = 30–40.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the class marks (midpoints) for classes 0–10, 10–20, 20–30.",
+    "answer": "Class mark = (lower + upper)/2.\n0–10: (0+10)/2 = 5\n10–20: (10+20)/2 = 15\n20–30: (20+30)/2 = 25.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the median class for the table and justify.\nClass: 10–20, 20–30, 30–40\nf:     4,       7,      5",
+    "answer": "Compute N and cf.\nClass  f  cf\n10–20  4  4\n20–30  7  11\n30–40  5  16\nN = 16, N/2 = 8. The class where cf ≥ 8 first is 20–30. So median class = 20–30.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Compute the mean (grouped data, direct method).\nClass: 0–10, 10–20, 20–30\nf:     2,     3,      5",
+    "answer": "Step 1: Midpoints x: 5, 15, 25.\nStep 2: fx: 2×5=10, 3×15=45, 5×25=125.\nSum f = 2+3+5 = 10, Sum fx = 10+45+125 = 180.\nMean = (Σfx)/(Σf) = 180/10 = 18.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "Find the mean by the assumed mean method.\nClass: 10–20, 20–30, 30–40, 40–50\nf:     5,      8,      12,     5",
+    "answer": "Step 1: Midpoints x: 15, 25, 35, 45. Choose assumed mean a = 35; class width h = 10.\nStep 2: d = (x − a)/h: for x=15 ⇒ d=-2; 25 ⇒ -1; 35 ⇒ 0; 45 ⇒ 1.\nStep 3: Compute f·d: 5(-2)=-10; 8(-1)=-8; 12(0)=0; 5(1)=5. Σf=30; Σ(fd)=-13.\nStep 4: Mean = a + h·[Σ(fd)/Σf] = 35 + 10( -13/30 ) = 35 − 4.333... = 30.667 (approx).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the median for the grouped data.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     5,     9,      12,     8",
+    "answer": "Step 1: Compute cf.\nClass  f  cf\n0–10   5   5\n10–20  9   14\n20–30  12  26\n30–40  8   34\nN = 34, N/2 = 17.\nStep 2: Median class: first cf ≥ 17 is 20–30.\nParameters: L=20, h=10, f=12, cf_prev=14.\nStep 3: Median = L + [(N/2 − cf_prev)/f] × h = 20 + [(17−14)/12]×10 = 20 + (3/12)×10 = 20 + 2.5 = 22.5.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the mode using the grouped-data formula.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     6,     7,      15,     9",
+    "answer": "Modal class = 20–30 (highest f=15).\nLet f1=15, f0=7 (preceding), f2=9 (succeeding), L=20, h=10.\nMode = L + [(f1 − f0)/(2f1 − f0 − f2)] × h\n= 20 + [(15−7)/(30 − 7 − 9)] × 10\n= 20 + [8/14] × 10 = 20 + 5.714 ≈ 25.714.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The mean of the distribution is 19. Find the missing frequency x.\nClass: 0–10, 10–20, 20–30\nf:     5,     x,      15",
+    "answer": "Midpoints x̄: 5, 15, 25.\nΣf = 5 + x + 15 = x + 20.\nΣfx = 5×5 + x×15 + 15×25 = 25 + 15x + 375 = 400 + 15x.\nMean = (Σfx)/(Σf) = 19 ⇒ (400 + 15x)/(x + 20) = 19.\nSolve: 400 + 15x = 19x + 380 ⇒ 20 = 4x ⇒ x = 5.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "From the 'less than' cumulative frequencies below, find the median.\nLess than 10: 6; Less than 20: 15; Less than 30: 27; Less than 40: 34.",
+    "answer": "Step 1: Convert to class frequencies by difference.\nClasses: 0–10, 10–20, 20–30, 30–40.\nLess-than cf: 6, 15, 27, 34 ⇒ f: 6, (15−6)=9, (27−15)=12, (34−27)=7.\nStep 2: N=34, N/2=17. cf: 6, 15, 27, 34 ⇒ median class = 20–30 (first cf ≥ 17).\nL=20, h=10, f=12, cf_prev=15.\nMedian = 20 + [(17−15)/12]×10 = 20 + (2/12)×10 = 20 + 1.667 = 21.667.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "For ungrouped data, mean is computed as:",
+    "options": ["Sum of values / number of values", "Middle value", "Most frequent value", "Largest value"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Class width for 25–35 is:",
+    "options": ["5", "10", "15", "Cannot be found"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "'Less than' ogive generally:",
+    "options": ["Slopes upward", "Slopes downward", "Is horizontal", "Is vertical"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Modal class is the class with:",
+    "options": ["Smallest width", "Largest midpoint", "Highest frequency", "Lowest frequency"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Assumed-mean method is useful when:",
+    "options": ["All classes have width 1", "Frequencies are all equal", "Class midpoints are large/awkward numbers", "Only ungrouped data is given"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If all observations are increased by 5, the mean:",
+    "options": ["Decreases by 5", "Increases by 5", "Doubles", "Halves"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For classes 0–10, 10–20, 20–30 with f = 4, 6, 10, N equals:",
+    "options": ["10", "14", "16", "20"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "For any ungrouped dataset, the sum of deviations from the mean is zero.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In a histogram, all rectangles must have equal widths if class widths are equal.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "'More than' ogive is typically decreasing.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Median always equals mean for every dataset.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If a distribution is symmetric, mean = median = mode.",
+    "answer": "True",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Compute the mean (grouped, direct method).\nClass: 0–5, 5–10, 10–15, 15–20\nf:     3,    7,     5,      5",
+    "answer": "Midpoints x: 2.5, 7.5, 12.5, 17.5.\nfx: 3×2.5=7.5; 7×7.5=52.5; 5×12.5=62.5; 5×17.5=87.5.\nΣf=20; Σfx=210. Mean = 210/20 = 10.5.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the median of 7, 4, 9, 6, 3.",
+    "answer": "Arrange: 3, 4, 6, 7, 9. Middle value = 6. Median = 6.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the mode of 4, 2, 4, 3, 5, 4, 2.",
+    "answer": "Frequencies: 4→3 times; 2→2; 3→1; 5→1. Mode = 4 (most frequent).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Complete the frequency table and N.\nClass: 20–30, 30–40, 40–50, 50–60\nf:     6,      8,      5,      1",
+    "answer": "Just add f to get N.\nClass  f\n20–30  6\n30–40  8\n40–50  5\n50–60  1\nN = 6+8+5+1 = 20.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Form the cumulative frequency (less than type).\nClass: 0–10, 10–20, 20–30, 30–40\nf:     4,     9,      11,     6",
+    "answer": "Less-than cf: 4, 4+9=13, 13+11=24, 24+6=30.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Convert inclusive to exclusive classes: 1–10, 11–20, 21–30 (assume integer data).",
+    "answer": "For integer data, exclusive form can be kept as 1–11, 11–21, 21–31 (or 0.5–10.5, 10.5–20.5, 20.5–30.5 using continuity).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find class width and class mark of 30–45.",
+    "answer": "Width = 45 − 30 = 15. Class mark = (30 + 45)/2 = 37.5.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Mean by step-deviation (quick):\nClass: 10–20, 20–30, 30–40\nf:     2,      5,      3",
+    "answer": "Midpoints x: 15, 25, 35. Take a=25, h=10.\nd=(x−a)/h: -1, 0, 1.\nfd: 2(-1)=-2; 5(0)=0; 3(1)=3 ⇒ Σfd=1; Σf=10.\nMean = a + h(Σfd/Σf) = 25 + 10(1/10) = 26.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "Find mean and median (grouped).\nClass: 0–10, 10–20, 20–30, 30–40\nf:     5,     7,      10,     8",
+    "answer": "Mean (direct): x: 5,15,25,35; fx: 25,105,250,280; Σfx=660; Σf=30 ⇒ Mean=660/30=22.\nMedian: cf: 5,12,22,30; N=30; N/2=15. Median class=20–30.\nMedian = L + [(N/2 − cf_prev)/f]×h = 20 + [(15−12)/10]×10 = 20 + 3 = 23.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Verify the empirical relation Mode ≈ 3Median − 2Mean for the data.\nClass: 10–20, 20–30, 30–40, 40–50\nf:     4,      9,      12,     5",
+    "answer": "Mean: x:15,25,35,45; fx:60,225,420,225; Σfx=930; Σf=30 ⇒ Mean=31.\nMedian: cf:4,13,25,30; N/2=15 ⇒ median class=30–40.\nMedian = 30 + [(15−13)/12]×10 = 30 + (2/12)×10 = 31.667.\nMode (grouped): Modal class=30–40; f1=12, f0=9, f2=5, L=30, h=10.\nMode = 30 + [(12−9)/(2·12 − 9 − 5)]×10 = 30 + (3/10)×10 = 33.\nCheck: 3Median − 2Mean = 3(31.667) − 2(31) = 95.001 − 62 = 33.001 ≈ 33 (close).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find missing frequencies a and b if N=40 and mean = 22.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     6,      a,      b,      8",
+    "answer": "Σf = 6 + a + b + 8 = 14 + a + b = 40 ⇒ a + b = 26. (1)\nMidpoints x: 5,15,25,35.\nΣfx = 6·5 + a·15 + b·25 + 8·35 = 30 + 15a + 25b + 280 = 310 + 15a + 25b.\nMean = 22 ⇒ (310 + 15a + 25b)/40 = 22 ⇒ 310 + 15a + 25b = 880 ⇒ 15a + 25b = 570.\nDivide by 5: 3a + 5b = 114. (2)\nFrom (1): a = 26 − b. Substitute: 3(26 − b) + 5b = 114 ⇒ 78 − 3b + 5b = 114 ⇒ 2b = 36 ⇒ b = 18 ⇒ a = 8.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Combined mean of two groups: Group A (n1=18) has mean 24; Group B (n2=22) has mean 28. Find combined mean.",
+    "answer": "Combined mean = (n1·x̄1 + n2·x̄2)/(n1+n2) = (18·24 + 22·28)/40 = (432 + 616)/40 = 1048/40 = 26.2.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the mode (grouped) using formula.\nClass: 5–15, 15–25, 25–35, 35–45\nf:     5,      11,     17,     9",
+    "answer": "Modal class = 25–35 (highest f=17). L=25, h=10, f1=17, f0=11, f2=9.\nMode = L + [(f1 − f0)/(2f1 − f0 − f2)]×h = 25 + [(17−11)/(34−11−9)]×10 = 25 + (6/14)×10 = 25 + 4.286 ≈ 29.286.",
+    "marks": 3
+  }
 ]

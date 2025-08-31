@@ -1,296 +1,292 @@
 [
-  {
-    "type": "short",
-    "text": "Derive the relationship between relative lowering of vapour pressure and molar mass of non-volatile solute. (March 2013, 2017)",
-    "answer": "According to Raoult's law for a solution with a non-volatile solute, the relative lowering of vapour pressure ($\\frac{\\Delta P}{P_1^0}$) is equal to the mole fraction of the solute ($x_2$). \n$\\frac{P_1^0 - P_1}{P_1^0} = x_2$. \nWhere $P_1^0$ is the vapour pressure of the pure solvent and $P_1$ is the vapour pressure of the solution. Mole fraction $x_2 = \\frac{n_2}{n_1 + n_2}$. For dilute solutions, $n_2 \\ll n_1$, so $n_1 + n_2 \\approx n_1$. \nTherefore, $\\frac{P_1^0 - P_1}{P_1^0} \\approx \\frac{n_2}{n_1}$. \nIf $W_2$ mass of solute (molar mass $M_2$) is dissolved in $W_1$ mass of solvent (molar mass $M_1$), then $n_2 = \\frac{W_2}{M_2}$ and $n_1 = \\frac{W_1}{M_1}$.\nSubstituting these values gives: $\\frac{P_1^0 - P_1}{P_1^0} = \\frac{W_2 M_1}{M_2 W_1}$. This equation relates the relative lowering of vapour pressure to the molar mass of the solute ($M_2$).",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define osmosis. (March 2013)",
-    "answer": "Osmosis is the spontaneous net flow of solvent molecules from a region of pure solvent or dilute solution to a more concentrated solution through a semi-permeable membrane.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "What is boiling point? (March 2013)",
-    "answer": "The boiling point of a liquid is the temperature at which its vapour pressure becomes equal to the external pressure, typically the atmospheric pressure. At this temperature, the liquid converts into vapour.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "State Henry's law. How does solubility of a gas in water varies with the temperature? (Oct. 2013; July 2017)",
-    "answer": "Henry's Law states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the pressure of the gas above the solution. Mathematically, $S \\propto P$ or $S = K_H P$, where S is the solubility, P is the partial pressure of the gas, and $K_H$ is Henry's law constant.\nThe solubility of most gases in water decreases as the temperature increases.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define 'isotonic solution'. (March 2009, Oct. 2013)",
-    "answer": "Isotonic solutions are two or more solutions that have the same osmotic pressure at a given temperature. When separated by a semi-permeable membrane, there is no net flow of solvent between them.",
-    "marks": 1
-  },
-  {
-    "type": "long",
-    "text": "Calculate the amount of CaCl₂ (van't Hoff factor, i = 2.47) dissolved in 2.5 L solution so that its osmotic pressure at 300K is 0.75 atmosphere. [Given: Molar mass of CaCl₂ is 111 g mol⁻¹, R = 0.082 L atm K⁻¹ mol⁻¹.] (March 2014)",
-    "answer": "Given: $i = 2.47$, $V = 2.5$ L, $T = 300$ K, $\\pi = 0.75$ atm, $M_2 = 111$ g mol⁻¹, $R = 0.082$ L atm K⁻¹ mol⁻¹. The formula for osmotic pressure is $\\pi = i \\frac{n_2}{V} RT = i \\frac{W_2}{M_2 V} RT$. \nRearranging to find the mass ($W_2$): \n$W_2 = \\frac{\\pi M_2 V}{i R T} = \\frac{0.75 \\text{ atm} \\times 111 \\text{ g mol}^{-1} \\times 2.5 \\text{ L}}{2.47 \\times 0.082 \\text{ L atm K}^{-1} \\text{ mol}^{-1} \\times 300 \\text{ K}} = \\frac{208.125}{60.762} \\approx 3.425$ g. The amount of CaCl₂ is 3.425 g.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Explain, why do aquatic animals prefer to stay at lower level of water during summer? (March 2014)",
-    "answer": "The solubility of gases, including dissolved oxygen which is essential for aquatic life, decreases as the temperature of water increases. During summer, the surface water is warmer, containing less dissolved oxygen. Deeper water remains cooler and has a higher concentration of dissolved oxygen, making it a more suitable habitat for aquatic animals.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "A solution containing 0.73 g of camphor (molar mass 152 g mol⁻¹) in 36.8 g of acetone (boiling point 56.3°C) boils at 56.55°C. A solution of 0.564 g of unknown compound in the same weight of acetone boils at 56.46°C. Calculate the molar mass of the unknown compound. (Oct. 2014)",
-    "answer": "For camphor: $W_2 = 0.73$ g, $M_2 = 152$ g mol⁻¹, $W_1 = 36.8$ g. $\\Delta T_b = 56.55 - 56.3 = 0.25$ °C. \nUsing $\\Delta T_b = K_b \\frac{1000 W_2}{M_2 W_1}$, we find $K_b$: \n$K_b = \\frac{\\Delta T_b M_2 W_1}{1000 W_2} = \\frac{0.25 \\times 152 \\times 36.8}{1000 \\times 0.73} \\approx 1.915$ K kg mol⁻¹. \nFor unknown compound: $W_2' = 0.564$ g, $W_1 = 36.8$ g. $\\Delta T_b' = 56.46 - 56.3 = 0.16$ °C. \nNow, calculate molar mass ($M_2'$) of the unknown: \n$M_2' = \\frac{1000 W_2' K_b}{\\Delta T_b' W_1} = \\frac{1000 \\times 0.564 \\times 1.915}{0.16 \\times 36.8} \\approx 183.5$ g mol⁻¹.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Define: Cryoscopic constant. (Oct. 2014, July 2018)",
-    "answer": "Cryoscopic constant ($K_f$) is defined as the depression in freezing point produced when one mole of a non-volatile, non-electrolyte solute is dissolved in 1 kg (or 1000 g) of the solvent. Its unit is K kg mol⁻¹.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Define van't Hoff factor. How is it related to the degree of dissociation? (Oct. 2014)",
-    "answer": "The van't Hoff factor (i) is the ratio of the observed colligative property to the calculated colligative property (assuming no association or dissociation). $i = \\frac{\\text{Observed colligative property}}{\\text{Calculated colligative property}}$. \nFor a solute that dissociates, the relationship with the degree of dissociation ($\\alpha$) is given by: $\\alpha = \\frac{i - 1}{n - 1}$, where 'n' is the number of ions formed from one formula unit of the solute.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Derive van't Hoff general solution equation. (March 2015, 2019; July 2017)",
-    "answer": "The ideal gas equation is $PV = nRT$. Van't Hoff observed an analogy between gases and dilute solutions. For a dilute solution, the pressure (P) can be replaced by osmotic pressure ($\\pi$) and the volume (V) is the volume of the solution. Thus, the equation becomes $\\pi V = nRT$. This can be rearranged to $\\pi = \\frac{n}{V}RT = CRT$, where C is the molar concentration. This is the van't Hoff equation for ideal (non-electrolyte) solutions.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "1.0 x 10⁻³ kg of urea when dissolved in 0.0985 kg of a solvent, decreases freezing point of the solvent by 0.211 K. 1.6 x 10⁻³ kg of another non-electrolyte solute when dissolved in 0.086 kg of the same solvent depresses the freezing point by 0.34 K. Calculate the molar mass of the another solute. [Given: Molar mass of urea = 60] (March 2015)",
-    "answer": "For urea: $W_2 = 1.0 \\times 10^{-3}$ kg, $W_1 = 0.0985$ kg, $\\Delta T_f = 0.211$ K, $M_2 = 60$ g mol⁻¹ = 0.060 kg mol⁻¹. \nFrom $\\Delta T_f = K_f \\frac{W_2}{M_2 W_1}$, we find $K_f$: \n$K_f = \\frac{\\Delta T_f M_2 W_1}{W_2} = \\frac{0.211 \\times 0.060 \\times 0.0985}{1.0 \\times 10^{-3}} \\approx 1.246$ K kg mol⁻¹. \nFor the unknown solute: $W_2' = 1.6 \\times 10^{-3}$ kg, $W_1' = 0.086$ kg, $\\Delta T_f' = 0.34$ K. \nCalculate its molar mass ($M_2'$): \n$M_2' = \\frac{K_f W_2'}{\\Delta T_f' W_1'} = \\frac{1.246 \\times 1.6 \\times 10^{-3}}{0.34 \\times 0.086} \\approx 0.06828$ kg mol⁻¹ = 68.28 g mol⁻¹.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Define ebullioscopic constant. Write its unit. (Oct 2015)",
-    "answer": "Ebullioscopic constant ($K_b$) is defined as the elevation in boiling point observed when one mole of a non-volatile, non-electrolyte solute is dissolved in 1 kg of the solvent. Its unit is K kg mol⁻¹ or °C kg mol⁻¹.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "What is the effect of temperature on solubility of gas in a liquid? (Oct 2015)",
-    "answer": "The solubility of most gases in liquids is an exothermic process. According to Le Chatelier's principle, increasing the temperature will shift the equilibrium in the endothermic (reverse) direction, which leads to a decrease in the solubility of the gas.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define boiling point. Write the formula to determine molar mass of a solute using freezing point depression method. (March 2016)",
-    "answer": "The boiling point is the temperature at which the vapour pressure of a liquid equals the external pressure. \nThe formula to determine molar mass ($M_2$) from freezing point depression ($\\Delta T_f$) is: \n$M_2 = \\frac{1000 \\times K_f \\times W_2}{\\Delta T_f \\times W_1}$, where $K_f$ is the cryoscopic constant, $W_2$ is the mass of the solute, and $W_1$ is the mass of the solvent.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "The vapour pressure of pure benzene is 640 mm of Hg. 2.175 x 10⁻³ kg of non-volatile solute is added to 39 gram of benzene, the vapour pressure of solution is 600 mm of Hg. Calculate molar mass of solute. [C = 12, H = 1]. (March 2016)",
-    "answer": "Given: $P_1^0 = 640$ mm Hg, $P_1 = 600$ mm Hg. $W_2 = 2.175 \\times 10^{-3}$ kg = 2.175 g. $W_1 = 39$ g. Molar mass of benzene ($C_6H_6$), $M_1 = (6 \\times 12) + (6 \\times 1) = 78$ g mol⁻¹. \nUsing Raoult's Law: $\\frac{P_1^0 - P_1}{P_1^0} = \\frac{W_2 M_1}{M_2 W_1}$. \n$\\frac{640 - 600}{640} = \\frac{2.175 \\text{ g} \\times 78 \\text{ g mol}^{-1}}{M_2 \\times 39 \\text{ g}}$. \n$\\frac{40}{640} = \\frac{169.65}{39 M_2}$. \n$0.0625 = \\frac{4.35}{M_2}$. \n$M_2 = \\frac{4.35}{0.0625} = 69.6$ g mol⁻¹.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Why is molality of a solution independent of temperature? (March 2016)",
-    "answer": "Molality (m) is defined as the number of moles of solute per kilogram of solvent ($m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}}$). Since both mass of solute and mass of solvent are independent of temperature changes, molality is also independent of temperature.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Define: (a) Osmosis (b) Freezing point. (March 2016)",
-    "answer": "(a) Osmosis: The net spontaneous flow of solvent molecules from a dilute solution to a concentrated solution through a semi-permeable membrane. \n(b) Freezing point: The temperature at which the liquid and solid phases of a substance are in equilibrium, meaning they have the same vapour pressure.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "3.795 g of sulphur is dissolved in 100 g of CS₂. This solution boils at 319.81 K. What is the molecular formula of sulphur in solution? The boiling point of CS₂ is 319.45 K. [Given that Kₑ for CS₂ = 2.42 K kg mol⁻¹ and atomic mass of S = 32.] (July 2016)",
-    "answer": "Given: $W_2 = 3.795$ g, $W_1 = 100$ g. Boiling point of solution = 319.81 K, Boiling point of pure $CS_2$ = 319.45 K. $\\Delta T_b = 319.81 - 319.45 = 0.36$ K. $K_b = 2.42$ K kg mol⁻¹. \nFirst, find the molar mass ($M_2$) of sulphur in the solution: \n$M_2 = \\frac{1000 \\times K_b \\times W_2}{\\Delta T_b \\times W_1} = \\frac{1000 \\times 2.42 \\times 3.795}{0.36 \\times 100} \\approx 254.9$ g mol⁻¹. \nLet the molecular formula of sulphur be $S_x$. \nMolar mass = $x \\times$ Atomic mass of S. \n$254.9 = x \\times 32$. \n$x = \\frac{254.9}{32} \\approx 7.96 \\approx 8$. \nTherefore, the molecular formula of sulphur is $S_8$.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "State Henry's law. (July 2016)",
-    "answer": "Henry's Law states that the solubility of a gas in a liquid at a constant temperature is directly proportional to the partial pressure of the gas above the surface of the liquid.",
-    "marks": 1
-  },
-  {
-    "type": "long",
-    "text": "A solution of a substance having mass 1.8 x 10⁻³ kg has the osmotic pressure of 0.52 atm at 280K. Calculate the molar mass of the substance used. [Volume = 1 dm³, R = 8.314 JK⁻¹ mol⁻¹] (March 2017)",
-    "answer": "Given: $W_2 = 1.8 \\times 10^{-3}$ kg = 1.8 g. $\\pi = 0.52$ atm. $T = 280$ K. $V = 1$ dm³ = 1 L. \nWe need to convert R to L atm K⁻¹ mol⁻¹ or convert $\\pi$ to Pascals. Let's use R = 0.0821 L atm K⁻¹ mol⁻¹. \nUsing the van't Hoff equation $\\pi V = n_2 RT = \\frac{W_2}{M_2} RT$. \n$M_2 = \\frac{W_2 RT}{\\pi V} = \\frac{1.8 \\text{ g} \\times 0.0821 \\text{ L atm K}^{-1} \\text{ mol}^{-1} \\times 280 \\text{ K}}{0.52 \\text{ atm} \\times 1 \\text{ L}} = \\frac{41.38}{0.52} \\approx 79.58$ g mol⁻¹. (The answer in the book, 79.49, is very close).",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "The boiling point of benzene is 353.23 K. When 1.80 gram of non-volatile solute was dissolved in 90 gram of benzene. The boiling point is raised to 354.11 K. Calculate the molar mass of solute. [Kₑ for benzene = 2.53 K mol⁻¹] (March 2017)",
-    "answer": "Given: Boiling point of pure benzene ($T_b^0$) = 353.23 K. Boiling point of solution ($T_b$) = 354.11 K. \nElevation in boiling point, $\\Delta T_b = T_b - T_b^0 = 354.11 - 353.23 = 0.88$ K. \nMass of solute ($W_2$) = 1.80 g. Mass of solvent (benzene, $W_1$) = 90 g. $K_b = 2.53$ K kg mol⁻¹. \nMolar mass ($M_2$) = $\\frac{1000 \\times K_b \\times W_2}{\\Delta T_b \\times W_1} = \\frac{1000 \\times 2.53 \\times 1.80}{0.88 \\times 90} = \\frac{4554}{79.2} \\approx 57.5$ g mol⁻¹.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define: (a) Molality (b) Osmotic pressure. (July 2017)",
-    "answer": "(a) Molality (m): It is defined as the number of moles of solute dissolved in one kilogram (1 kg) of the solvent. \n(b) Osmotic pressure ($\\pi$): It is the excess external pressure that must be applied to a solution to prevent the passage of solvent into it through a semi-permeable membrane.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "An organic substance (M = 169 gram mol⁻¹) is dissolved in 2000 cm³ of water. Its osmotic pressure at 12°C was found to be 0.54 atm. If R = 0.0821 L atm. K⁻¹ mol⁻¹, calculate the mass of the solute. (July 2017)",
-    "answer": "Given: $M_2 = 169$ g mol⁻¹, $V = 2000$ cm³ = 2 L, $T = 12$ °C = 285 K, $\\pi = 0.54$ atm, $R = 0.0821$ L atm K⁻¹ mol⁻¹. \nFrom $\\pi V = \\frac{W_2}{M_2} RT$, we find the mass $W_2$. \n$W_2 = \\frac{\\pi V M_2}{RT} = \\frac{0.54 \\text{ atm} \\times 2 \\text{ L} \\times 169 \\text{ g mol}^{-1}}{0.0821 \\text{ L atm K}^{-1} \\text{ mol}^{-1} \\times 285 \\text{ K}} = \\frac{182.52}{23.3985} \\approx 7.796$ g.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Derive the relation between elevation of boiling point and molar mass of solute. (March 2018)",
-    "answer": "The elevation in boiling point, $\\Delta T_b$, is directly proportional to the molality (m) of the solution: $\\Delta T_b \\propto m$, or $\\Delta T_b = K_b m$. \nMolality $m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}} = \\frac{n_2}{W_1 \\text{ (in kg)}}$. \nIf mass of solute is $W_2$ and molar mass is $M_2$, then $n_2 = W_2/M_2$. \nIf $W_1$ is in grams, $m = \\frac{W_2/M_2}{W_1/1000} = \\frac{1000 W_2}{M_2 W_1}$. \nSubstituting this into the first equation gives: $\\Delta T_b = K_b \\frac{1000 W_2}{M_2 W_1}$. This relates the elevation of boiling point to the molar mass of the solute.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define: (a) Semipermeable membrane (b) State Henry's law. (March 2018)",
-    "answer": "(a) Semipermeable membrane: A membrane that allows the passage of small solvent molecules like water but blocks the passage of larger solute molecules or ions. \n(b) Henry's law: This law states that at a constant temperature, the mass or solubility of a gas dissolved in a given volume of liquid is directly proportional to the pressure of the gas in equilibrium with the liquid.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "2.22 gram of urea was dissolved in 300 grams of water. Calculate the number of moles of urea and molality of the urea solution. (Given: Molar mass of urea = 60 gram mol⁻¹) (March 2019)",
-    "answer": "Given: Mass of urea ($W_2$) = 2.22 g, Mass of water ($W_1$) = 300 g = 0.3 kg, Molar mass of urea ($M_2$) = 60 g mol⁻¹. \n1. Number of moles of urea ($n_2$): \n$n_2 = \\frac{W_2}{M_2} = \\frac{2.22 \\text{ g}}{60 \\text{ g mol}^{-1}} = 0.037$ mol. \n2. Molality of the solution (m): \n$m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}} = \\frac{0.037 \\text{ mol}}{0.3 \\text{ kg}} = 0.1233$ mol kg⁻¹ (or 0.1233 m).",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Derive van't Hoff general solution equation for 'n' moles of solute. (July 2018; March 2019)",
-    "answer": "Van't Hoff observed an analogy between the behavior of solutes in dilute solutions and gases. For an ideal gas, the pressure is given by $P = \\frac{nRT}{V}$. Van't Hoff proposed that for a dilute solution, the osmotic pressure ($\\pi$) is analogous to gas pressure. Therefore, by replacing P with $\\pi$, we get the van't Hoff equation for a solution containing 'n' moles of solute in a volume V: $\\pi = \\frac{nRT}{V}$, which is commonly written as $\\pi V = nRT$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "What is the freezing point of a solution? The freezing point of pure benzene is 278.4 K. Calculate the freezing point of the solution when 2.0 gram of a solute having molecular weight 100 gram is added to 100 gram of benzene. [Kₑ for benzene = 5.12 kg mol⁻¹] (July 2018)",
-    "answer": "Freezing point is the temperature at which the solid and liquid phases of a substance coexist in equilibrium, having the same vapour pressure. \nGiven: $T_f^0 = 278.4$ K, $W_2 = 2.0$ g, $M_2 = 100$ g mol⁻¹, $W_1 = 100$ g, $K_f = 5.12$ K kg mol⁻¹ (Note: Kₑ is a typo for Kբ). \nFirst, calculate the depression in freezing point, $\\Delta T_f$: \n$\\Delta T_f = \\frac{1000 \\times K_f \\times W_2}{M_2 \\times W_1} = \\frac{1000 \\times 5.12 \\times 2.0}{100 \\times 100} = \\frac{10240}{10000} = 1.024$ K. \nNow, find the freezing point of the solution ($T_f$): \n$T_f = T_f^0 - \\Delta T_f = 278.4 - 1.024 = 277.376$ K.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Define the following terms: (i) Isotonic solution (ii) Hypertonic solution (iii) Hypotonic solution. (March 2019)",
-    "answer": "(i) Isotonic solution: A solution having the same osmotic pressure as another solution at the same temperature. \n(ii) Hypertonic solution: A solution having a higher osmotic pressure compared to another solution. \n(iii) Hypotonic solution: A solution having a lower osmotic pressure compared to another solution.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Define osmotic pressure. Write mathematical expression between cryoscopic constant and molar mass of solute. (March 2019)",
-    "answer": "Osmotic pressure is the minimum excess pressure that needs to be applied to a solution to prevent the inward flow of its pure solvent across a semipermeable membrane. \nThe mathematical expression relating cryoscopic constant ($K_f$) and molar mass of solute ($M_2$) is: \n$M_2 = \\frac{1000 \\times K_f \\times W_2}{\\Delta T_f \\times W_1}$",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define e - a - i. (July 2019)",
-    "answer": "This appears to be a misprint in the question paper. It's likely an incomplete or garbled question. Without further clarification, a specific definition cannot be provided. It may have intended to ask for definitions of colligative properties like Ebullioscopy, Cryoscopy, and Osmosis.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Define the following: (i) Molality (ii) Mole fraction. (July 2019)",
-    "answer": "(i) Molality (m): The number of moles of a solute dissolved per kilogram (kg) of the solvent. \n(ii) Mole fraction (x): The ratio of the number of moles of a particular component (solute or solvent) to the total number of moles of all components in the solution.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "What is the concentration of dissolved oxygen at 50°C under pressure of one atmosphere if partial pressure of oxygen at 50°C is 0.14 atm. [Henry's law constant for oxygen = 1.3 x 10⁻³ mol dm⁻³ atm⁻¹] (March 2020)",
-    "answer": "Given: Partial pressure of oxygen, $P_{O_2} = 0.14$ atm. Henry's law constant, $K_H = 1.3 \\times 10^{-3}$ mol dm⁻³ atm⁻¹. \nAccording to Henry's law, Solubility (S) = $K_H \\times P$. \n$S = (1.3 \\times 10^{-3} \\text{ mol dm}^{-3} \\text{ atm}^{-1}) \\times 0.14 \\text{ atm} = 1.82 \\times 10^{-4}$ mol dm⁻³. \nThe concentration of dissolved oxygen is $1.82 \\times 10^{-4}$ mol dm⁻³.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Define: (a) Molality (b) Osmotic pressure. (March 2020)",
-    "answer": "(a) Molality (m): It is defined as the number of moles of solute per kilogram of the solvent. Its unit is mol/kg or m. \n(b) Osmotic pressure ($\\pi$): It is the hydrostatic pressure built up on a solution when it is separated from its solvent by a semipermeable membrane, or the external pressure required to stop osmosis.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Derive the mathematical expression between molar mass of a non-volatile solute and elevation of boiling point. State and explain van't Hoff-Avogadro's law. (March 2020)",
-    "answer": "Derivation: The elevation in boiling point $\\Delta T_b$ is proportional to molality $m$: $\\Delta T_b = K_b m$. Molality $m = \\frac{\\text{moles of solute}}{\\text{mass of solvent (kg)}} = \\frac{W_2/M_2}{W_1/1000}$. Substituting this gives $\\Delta T_b = K_b \\frac{1000 W_2}{M_2 W_1}$, which is the required expression. \nVan't Hoff-Avogadro's Law: This law states that equal volumes of all ideal (dilute) solutions, at the same temperature and osmotic pressure, contain an equal number of solute molecules. This is analogous to Avogadro's law for gases.",
-    "marks": 4
-  },
-  {
-    "type": "short",
-    "text": "Define: 'Cryoscopic constant'. Derive the relation between elevation of boiling point and molar mass of solute. (Sept. 2021)",
-    "answer": "Cryoscopic constant ($K_f$) is the depression in freezing point produced when 1 mole of a non-volatile solute is dissolved in 1 kg of solvent. \nDerivation: Elevation of boiling point ($\\Delta T_b$) is proportional to molality (m): $\\Delta T_b = K_b m$. Since $m = \\frac{1000 W_2}{M_2 W_1}$, we can substitute to get the relation: $\\Delta T_b = K_b \\frac{1000 W_2}{M_2 W_1}$, where $M_2$ is the molar mass of the solute.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "What is the molar mass of a solute if a solution prepared by dissolving 0.822 g of it in 0.3 dm³ of water has an osmotic pressure of 0.196 atm. at 298 K? (Sept. 2021)",
-    "answer": "Given: $W_2 = 0.822$ g, $V = 0.3$ dm³ = 0.3 L, $\\pi = 0.196$ atm, $T = 298$ K. Use $R = 0.0821$ L atm K⁻¹ mol⁻¹. \nUsing the van't Hoff equation $\\pi V = n_2 RT = \\frac{W_2}{M_2} RT$: \n$M_2 = \\frac{W_2 RT}{\\pi V} = \\frac{0.822 \\text{ g} \\times 0.0821 \\text{ L atm K}^{-1} \\text{ mol}^{-1} \\times 298 \\text{ K}}{0.196 \\text{ atm} \\times 0.3 \\text{ L}} = \\frac{20.10}{0.0588} \\approx 341.9$ g mol⁻¹.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define an expression to calculate molar mass of non volatile solute by osmotic pressure measurement. (March 2022)",
-    "answer": "The osmotic pressure ($\\pi$) of a dilute solution is given by the van't Hoff equation: $\\pi = CRT$, where C is the molar concentration and T is the absolute temperature. \nConcentration $C = \\frac{n_2}{V}$, where $n_2$ is moles of solute and V is the volume of the solution in liters. \nMoles of solute $n_2 = \\frac{W_2}{M_2}$, where $W_2$ is the mass of solute and $M_2$ is its molar mass. \nSubstituting these into the equation: $\\pi = \\frac{W_2/M_2}{V} RT = \\frac{W_2 RT}{M_2 V}$. \nRearranging to solve for the molar mass ($M_2$) gives the final expression: $M_2 = \\frac{W_2 RT}{\\pi V}$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Henry's law constant for CH₃Br is 0.159 mol dm⁻³ bar⁻¹ at 25°C. What is solubility of CH₃Br in water at same temperature and partial pressure of 0.164 bar? (March 2022)",
-    "answer": "Given: Henry's law constant, $K_H = 0.159$ mol dm⁻³ bar⁻¹. Partial pressure, $P = 0.164$ bar. \nAccording to Henry's Law, Solubility (S) = $K_H \\times P$. \n$S = (0.159 \\text{ mol dm}^{-3} \\text{ bar}^{-1}) \\times 0.164 \\text{ bar} = 0.026064$ mol dm⁻³. \nThe solubility of CH₃Br is 0.026 mol dm⁻³.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define the following terms: (i) Isotonic solution (ii) Osmosis. (July 2022)",
-    "answer": "(i) Isotonic solutions: These are two or more solutions that exert the same osmotic pressure at a given temperature. \n(ii) Osmosis: The net spontaneous flow of solvent molecules through a semi-permeable membrane from a region of lower solute concentration (or pure solvent) to a region of higher solute concentration.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "5% aqueous solution of cane sugar has freezing point of 271 K. Calculate freezing point of 5% glucose solution. [Molar mass of cane sugar = 342 g mol⁻¹, glucose = 180 g mol⁻¹] (July 2022)",
-    "answer": "For cane sugar (solute 1): 5% solution means 5 g sugar in 95 g water. $W_{s1} = 5$ g, $W_{w} = 95$ g, $M_{s1} = 342$ g mol⁻¹. Freezing point of pure water ($T_f^0$) = 273.15 K. Freezing point of solution ($T_f$) = 271 K. \n$\\Delta T_{f1} = T_f^0 - T_f = 273.15 - 271 = 2.15$ K. \nUsing the relation $\\frac{\\Delta T_{f1}}{\\Delta T_{f2}} = \\frac{m_1}{m_2} = \\frac{W_{s1}/M_{s1}}{W_{s2}/M_{s2}}$ (since solvent mass is same). \n$W_{s1} = W_{s2} = 5$ g. So, $\\frac{\\Delta T_{f1}}{\\Delta T_{f2}} = \\frac{M_{s2}}{M_{s1}}$. \n$\\frac{2.15}{\\Delta T_{f2}} = \\frac{180}{342}$. \n$\\Delta T_{f2} = 2.15 \\times \\frac{342}{180} = 4.085$ K. \nFreezing point of glucose solution = $T_f^0 - \\Delta T_{f2} = 273.15 - 4.085 = 269.065$ K. (The given answer of 269.2K is very close).",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "The normal boiling point of ethyl acetate is 77.06 °C. A solution of 50 g of non-volatile solute in 150 g of ethyl acetate boils at 84.27 °C. Evaluate the molar mass of solute if Kₑ for ethyl acetate is 2.77 K kg mol⁻¹. (July 2022)",
-    "answer": "Given: $T_b^0 = 77.06$ °C, $T_b = 84.27$ °C. Mass of solute ($W_2$) = 50 g. Mass of solvent ($W_1$) = 150 g. $K_b = 2.77$ K kg mol⁻¹ (Note: K and °C are interchangeable for temperature differences). \nElevation in boiling point, $\\Delta T_b = T_b - T_b^0 = 84.27 - 77.06 = 7.21$ °C = 7.21 K. \nMolar mass ($M_2$) = $\\frac{1000 \\times K_b \\times W_2}{\\Delta T_b \\times W_1} = \\frac{1000 \\times 2.77 \\times 50}{7.21 \\times 150} = \\frac{138500}{1081.5} \\approx 128.06$ g mol⁻¹.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write the SI unit of cryoscopic constant. (March 2023)",
-    "answer": "The SI unit of the cryoscopic constant ($K_f$) is Kelvin kilogram per mole, or K kg mol⁻¹.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Define osmosis. How will you determine molar mass of non-volatile solute by elevation of boiling point. (March 2023)",
-    "answer": "Osmosis is the net spontaneous movement of solvent molecules across a semipermeable membrane from a region of high solvent concentration (dilute solution) to a region of low solvent concentration (concentrated solution). \nMolar mass ($M_2$) can be determined from the elevation of boiling point ($\\Delta T_b$) using the formula: \n$M_2 = \\frac{1000 \\times K_b \\times W_2}{\\Delta T_b \\times W_1}$, where $K_b$ is the ebullioscopic constant, $W_2$ is the mass of the solute, and $W_1$ is the mass of the solvent.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Calculate the mole fraction of solute, if the vapour pressure of pure benzene at certain temperature is 640 mmHg and vapour pressure of solution of a solute in benzene is 600 mmHg. (March 2023)",
-    "answer": "Given: Vapour pressure of pure solvent (benzene), $P_1^0 = 640$ mmHg. Vapour pressure of solution, $P_1 = 600$ mmHg. \nAccording to Raoult's law, the relative lowering of vapour pressure is equal to the mole fraction of the solute ($x_2$). \n$x_2 = \\frac{P_1^0 - P_1}{P_1^0} = \\frac{640 - 600}{640} = \\frac{40}{640} = \\frac{1}{16} = 0.0625$. \nThe mole fraction of the solute is 0.0625.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "The normal boiling point of ethyl acetate is 77.06 °C. A solution of 50 g of a non-volatile solute in 150 g of ethyl acetate boils at 84.27 °C. Evaluate the molar mass of solute if Kₑ for ethyl acetate is 2.77 °C kg mol⁻¹. (July 2023)",
-    "answer": "Given: $T_b^0 = 77.06$ °C, $T_b = 84.27$ °C. Mass of solute ($W_2$) = 50 g. Mass of solvent ($W_1$) = 150 g. $K_b = 2.77$ °C kg mol⁻¹. \nElevation in boiling point, $\\Delta T_b = T_b - T_b^0 = 84.27 - 77.06 = 7.21$ °C. \nMolar mass ($M_2$) = $\\frac{1000 \\times K_b \\times W_2}{\\Delta T_b \\times W_1} = \\frac{1000 \\times 2.77 \\times 50}{7.21 \\times 150} = \\frac{138500}{1081.5} \\approx 128.06$ g mol⁻¹. The molar mass is 128 g mol⁻¹.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define: Ebullioscopic constant. Derive the relation between freezing point depression and molar mass of solute. (July 2023)",
-    "answer": "Ebullioscopic constant ($K_b$) is the elevation in the boiling point when one mole of a non-volatile solute is dissolved in 1 kg of a solvent. \nDerivation: The depression in freezing point ($\\Delta T_f$) is proportional to the molality (m) of the solution: $\\Delta T_f = K_f \\times m$. Molality is given by $m = \\frac{1000 \\times W_2}{M_2 \\times W_1}$. Substituting this gives the relation: $\\Delta T_f = \\frac{1000 \\times K_f \\times W_2}{M_2 \\times W_1}$. This equation can be rearranged to find the molar mass $M_2$.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Write the condition of reverse osmosis. (March 2024)",
-    "answer": "Reverse osmosis occurs when the pressure applied on the solution side of a semipermeable membrane is greater than the osmotic pressure of the solution. This forces solvent molecules to move from the concentrated solution to the pure solvent or dilute solution side, against the natural direction of osmosis.",
-    "marks": 1
-  }
+    {
+        "type": "mcq",
+        "text": "Which of the following is a colligative property?",
+        "options": ["Surface tension", "Viscosity", "Osmotic pressure", "Refractive index"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The unit of molality is:",
+        "options": ["mol L⁻¹", "mol kg⁻¹", "mol⁻¹ L", "mol⁻¹ kg"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Henry's law constant, $K_H$, is a measure of:",
+        "options": ["the temperature of the gas", "the volume of the gas", "the solubility of a gas in a liquid", "the pressure of the gas"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "For an ideal solution, the enthalpy of mixing, $\\Delta_{mix}H$, is:",
+        "options": ["positive", "negative", "zero", "either positive or negative"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The van't Hoff factor ($i$) for a dilute aqueous solution of $K_2SO_4$ assuming complete dissociation is:",
+        "options": ["1", "2", "3", "4"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Which concentration unit is independent of temperature?",
+        "options": ["Molarity", "Molality", "Normality", "Formality"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Two solutions having the same osmotic pressure at a given temperature are called:",
+        "options": ["Isotonic solutions", "Hypertonic solutions", "Hypotonic solutions", "Ideal solutions"],
+        "correct_answer": "A",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The unit of the ebullioscopic constant ($K_b$) is:",
+        "options": ["K kg mol⁻¹", "K mol kg⁻¹", "kg mol K⁻¹", "mol kg K⁻¹"],
+        "correct_answer": "A",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The phenomenon of reverse osmosis is used in:",
+        "options": ["purification of water", "concentration of juices", "desalination of seawater", "all of the above"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "According to Raoult's law, the relative lowering of vapour pressure for a solution is equal to:",
+        "options": ["mole fraction of solvent", "mole fraction of solute", "molality of the solution", "molarity of the solution"],
+        "correct_answer": "B",
+        "marks": 2
+    },
+    {
+        "type": "mcq",
+        "text": "[HSC 2024] A minimum-boiling azeotrope shows:",
+        "options": ["negative deviation from Raoult's law", "positive deviation from Raoult's law", "ideal behaviour", "no vapour pressure"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Which pair shows a marked negative deviation from Raoult's law?",
+        "options": ["Acetone + Carbon disulfide", "Ethanol + Cyclohexane", "Chloroform + Acetone", "Benzene + Toluene"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "For very dilute solutions, the mole fraction of the solute is approximately proportional to its:",
+        "options": ["molality", "molarity", "normality", "ppm"],
+        "correct_answer": "A",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "For electrolytes, abnormal colligative properties are explained by:",
+        "options": ["activity coefficient", "van't Hoff factor", "Henry's constant", "refractive index"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Which of the following 0.1 m aqueous solutions is expected to have the highest boiling point?",
+        "options": ["0.1 m glucose", "0.1 m sucrose", "0.1 m NaCl", "0.1 m urea"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "[HSC 2021] The depression in freezing point is proportional to:",
+        "options": ["mole fraction of solvent", "molarity", "molality", "density of solution"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "A solution of a non-volatile solute in a volatile solvent exhibits:",
+        "options": ["an increase in vapour pressure", "a decrease in vapour pressure", "no change in vapour pressure", "a vapour pressure of zero"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "If $\\alpha$ is the degree of dissociation of $Na_2SO_4$, the van't Hoff factor $i$ is:",
+        "options": ["$1+\\alpha$", "$1+2\\alpha$", "$1+3\\alpha$", "$1+\\alpha/2$"],
+        "correct_answer": "B",
+        "marks": 2
+    },
+    {
+        "type": "mcq",
+        "text": "For a binary ideal solution of volatile components A and B, the total vapour pressure equals:",
+        "options": ["$P_A^0 x_A + P_B^0 x_B$", "$P_A^0 + P_B^0$", "$P_A^0 x_B + P_B^0 x_A$", "$P_A^0/P_B^0$"],
+        "correct_answer": "A",
+        "marks": 2
+    },
+    {
+        "type": "mcq",
+        "text": "[HSC 2020] The SI unit of osmotic pressure is:",
+        "options": ["Pa", "atm", "K", "J mol⁻¹"],
+        "correct_answer": "A",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "Molarity is the number of moles of solute dissolved in 1 kg of the solvent.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "The solubility of gases in liquids generally increases with an increase in temperature.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "An ideal solution obeys Raoult's law over the entire range of concentration.",
+        "answer": "True",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "Depression in freezing point is directly proportional to the molality of the solution.",
+        "answer": "True",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "The van't Hoff factor for a solute that associates in solution is always greater than 1.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "[HSC 2019] Molality changes with temperature.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "A positive deviation from Raoult's law implies that A–B interactions are weaker than A–A and B–B interactions.",
+        "answer": "True",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "Osmotic pressure is a colligative property.",
+        "answer": "True",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "Adding a non-volatile solute to a solvent always lowers its boiling point.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "[HSC 2018] Azeotropes can be separated into pure components by simple distillation.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "short",
+        "text": "Define an ideal solution.",
+        "answer": "An ideal solution is one that obeys Raoult's law at all concentrations and temperatures. Key characteristics are that the enthalpy of mixing ($\\Delta_{mix}H$) and volume of mixing ($\\Delta_{mix}V$) are both zero.",
+        "marks": 1
+    },
+    {
+        "type": "short",
+        "text": "State Henry's Law.",
+        "answer": "Henry's law states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas over the solution. Mathematically, $S = K_H P$.",
+        "marks": 1
+    },
+    {
+        "type": "short",
+        "text": "What are colligative properties? Name the four main colligative properties.",
+        "answer": "Colligative properties are properties of solutions that depend only on the number of solute particles, not on their chemical nature. They are: 1. Relative lowering of vapour pressure, 2. Elevation of boiling point, 3. Depression of freezing point, and 4. Osmotic pressure.",
+        "marks": 2
+    },
+    {
+        "type": "short",
+        "text": "Calculate the molality of a solution containing 20.7 g of $K_2CO_3$ in 500 mL of water (density = 1 g/mL). (Molar mass of $K_2CO_3 = 138$ g/mol)",
+        "answer": "Moles of solute = $20.7 / 138 = 0.15$ mol. Mass of solvent = 500 g = 0.5 kg. Molality, $m = \\frac{0.15 \\text{ mol}}{0.5 \\text{ kg}} = 0.30$ mol kg⁻¹.",
+        "marks": 2
+    },
+    {
+        "type": "short",
+        "text": "Why do scuba divers use air diluted with helium?",
+        "answer": "Helium has a very low solubility in blood compared to nitrogen. This helps prevent 'the bends,' a painful condition caused by nitrogen bubbles forming in the blood when a diver ascends too quickly.",
+        "marks": 2
+    },
+    {
+        "type": "short",
+        "text": "Define the van't Hoff factor ($i$). What is its value for the complete dissociation of $MgCl_2$?",
+        "answer": "The van't Hoff factor ($i$) is the ratio of the observed colligative property to the theoretical colligative property for a non-electrolyte. For complete dissociation, $MgCl_2 \\rightarrow Mg^{2+} + 2Cl^{-}$, producing 3 ions, so $i=3$.",
+        "marks": 2
+    },
+    {
+        "type": "short",
+        "text": "[HSC 2023] Define azeotrope. Give one example each of a minimum- and maximum-boiling azeotrope.",
+        "answer": "An azeotrope is a liquid mixture with a constant boiling point and composition that distills without change. Example of minimum-boiling: ethanol–water. Example of maximum-boiling: nitric acid–water.",
+        "marks": 2
+    },
+    {
+        "type": "short",
+        "text": "Write the relationship between the relative lowering of vapour pressure and the mole fraction of a non-volatile solute.",
+        "answer": "The relative lowering of vapour pressure is equal to the mole fraction of the solute: $\\frac{P^0 - P}{P^0} = x_{solute}$.",
+        "marks": 1
+    },
+    {
+        "type": "short",
+        "text": "State any two characteristics of an ideal solution.",
+        "answer": "1. Obeys Raoult's law at all compositions. 2. The enthalpy of mixing ($\\Delta_{mix}H$) is zero, and the volume of mixing ($\\Delta_{mix}V$) is zero.",
+        "marks": 1
+    },
+    {
+        "type": "short",
+        "text": "[HSC 2022] Name the law that relates the partial pressure of a gas to its mole fraction in a solution of volatile liquids.",
+        "answer": "Raoult's Law, which states that for a volatile component 'A', its partial pressure is $p_A = P_A^0 x_A$.",
+        "marks": 1
+    },
+    {
+        "type": "long",
+        "text": "State and explain Raoult's law for a solution containing a non-volatile solute. Derive the expression for the relative lowering of vapour pressure.",
+        "answer": "Raoult's law states that the vapour pressure of a solution containing a non-volatile solute ($P$) is equal to the vapour pressure of the pure solvent ($P^0$) multiplied by its mole fraction ($x_{solvent}$). So, $P = P^0 x_{solvent}$.<br>The lowering of vapour pressure is $\\Delta P = P^0 - P = P^0 - P^0 x_{solvent} = P^0(1 - x_{solvent})$.<br>Since $x_{solute} + x_{solvent} = 1$, we have $1 - x_{solvent} = x_{solute}$.<br>Therefore, $\\Delta P = P^0 x_{solute}$. The relative lowering is $\\frac{\\Delta P}{P^0} = x_{solute}$.",
+        "marks": 3
+    },
+    {
+        "type": "long",
+        "text": "A solution is prepared by dissolving 3.94 g of benzoic acid ($C_6H_5COOH$) in 49 g of benzene. The freezing point of the solution is lowered by 1.62 K. If $K_f$ for benzene is 4.9 K kg mol⁻¹, what is the molar mass of benzoic acid? What does this suggest about its state in benzene?",
+        "answer": "Using the formula $\\Delta T_f = K_f \\times m = K_f \\times \\frac{W_{solute}}{M_{solute} \\times W_{solvent, kg}}$.<br>$1.62 = 4.9 \\times \\frac{3.94}{M_{solute} \\times 0.049}$.<br>$M_{solute} = \\frac{4.9 \\times 3.94}{1.62 \\times 0.049} \\approx 244$ g mol⁻¹.<br>The normal molar mass of benzoic acid is 122 g mol⁻¹. Since the observed molar mass is approximately double, it suggests that benzoic acid molecules associate to form dimers in benzene.",
+        "marks": 4
+    },
+    {
+        "type": "long",
+        "text": "Define osmosis and osmotic pressure. Explain why a raw mango placed in a concentrated salt solution shrivels.",
+        "answer": "<b>Osmosis</b> is the spontaneous flow of solvent molecules from a dilute solution to a concentrated solution through a semipermeable membrane. <b>Osmotic pressure</b> ($\\pi$) is the external pressure required to stop this flow.<br>A raw mango's cells contain a dilute solution. When placed in concentrated salt water (a hypertonic solution), water moves from the mango's cells into the salt solution via osmosis, causing the mango to lose water and shrivel.",
+        "marks": 3
+    },
+    {
+        "type": "long",
+        "text": "Calculate the boiling point of a 1 M aqueous solution of sucrose, given that its density is 1.15 g mL⁻¹. ($K_b$ for water = 0.512 K kg mol⁻¹)",
+        "answer": "1 M solution = 1 mole of sucrose in 1 L of solution.<br>Mass of solution = $1000 \\text{ mL} \\times 1.15 \\text{ g/mL} = 1150$ g.<br>Mass of solute (sucrose) = $1 \\text{ mol} \\times 342 \\text{ g/mol} = 342$ g.<br>Mass of solvent (water) = $1150 - 342 = 808$ g = 0.808 kg.<br>Molality, $m = \\frac{1 \\text{ mol}}{0.808 \\text{ kg}} \\approx 1.238$ m.<br>$\\Delta T_b = K_b m = 0.512 \\times 1.238 \\approx 0.634$ K.<br>Boiling point of solution = $100^{\\circ}\\text{C} + 0.634^{\\circ}\\text{C} = 100.634^{\\circ}\\text{C}$.",
+        "marks": 4
+    },
+    {
+        "type": "long",
+        "text": "[HSC 2019] Explain reverse osmosis (RO) with a neat labelled diagram and mention one application.",
+        "answer": "Reverse osmosis is a process where solvent molecules are forced to move from a concentrated solution to a dilute solution through a semipermeable membrane by applying a pressure greater than the osmotic pressure.  This setup typically shows a piston applying high pressure to a saltwater chamber, forcing fresh water through a membrane into another chamber.<br><b>Application:</b> Desalination of seawater to produce drinking water.",
+        "marks": 3
+    }
 ]

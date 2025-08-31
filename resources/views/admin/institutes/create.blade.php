@@ -50,6 +50,42 @@
                             @error('email') <p class="mt-1 text-sm text-red-600">{{ $message }}</p> @enderror
                         </div>
 
+                        {{-- === ADDED SECTION: SUBSCRIPTION DETAILS === --}}
+                        <div class="pt-6 border-t border-gray-200 dark:border-gray-700">
+                            <h3 class="text-base font-semibold leading-6 text-gray-900 dark:text-gray-100">
+                                Initial Subscription (Optional)
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                                You can assign a manual subscription plan to this institute upon creation. Leave the plan name blank to skip.
+                            </p>
+                            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="plan_name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Plan Name</label>
+                                    <select id="plan_name" name="plan_name" class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
+                                        <option value="">-- No Subscription --</option>
+                                        <option value="Basic" @if(old('plan_name') == 'Basic') selected @endif>Basic</option>
+                                        <option value="Professional" @if(old('plan_name') == 'Professional') selected @endif>Professional</option>
+                                        <option value="Enterprise" @if(old('plan_name') == 'Enterprise') selected @endif>Enterprise</option>
+                                    </select>
+                                    @error('plan_name') <p class="mt-1 text-sm text-red-600">{{ $message }}</p> @enderror
+                                </div>
+                                <div>
+                                    {{-- Empty div for grid alignment --}}
+                                </div>
+                                <div>
+                                    <label for="starts_at" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Starts At</label>
+                                    <input type="datetime-local" id="starts_at" name="starts_at" value="{{ old('starts_at') }}" class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
+                                    @error('starts_at') <p class="mt-1 text-sm text-red-600">{{ $message }}</p> @enderror
+                                </div>
+                                <div>
+                                    <label for="ends_at" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Ends At</label>
+                                    <input type="datetime-local" id="ends_at" name="ends_at" value="{{ old('ends_at') }}" class="mt-2 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-blue-500 focus:border-blue-500">
+                                    @error('ends_at') <p class="mt-1 text-sm text-red-600">{{ $message }}</p> @enderror
+                                </div>
+                            </div>
+                        </div>
+                        {{-- === END OF ADDED SECTION === --}}
+
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
                                 <label for="password" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Password</label>
@@ -64,7 +100,7 @@
                             </div>
                         </div>
 
-                        <div class="flex items-center justify-end gap-3">
+                        <div class="flex items-center justify-end gap-3 pt-6 border-t border-gray-200 dark:border-gray-700">
                             <a href="{{ route('admin.institutes.index') }}" class="px-4 py-2 rounded-lg text-gray-600 dark:text-gray-300 hover:underline">Cancel</a>
                             <button type="submit" class="px-5 py-2.5 rounded-lg bg-blue-600 dark:bg-blue-500 text-white hover:bg-blue-700 dark:hover:bg-blue-600 shadow-sm">Create Account</button>
                         </div>

@@ -24,9 +24,13 @@ class Question extends Model
      * (custom accessors below will handle JSON safely).
      */
     protected $casts = [
-        'approved' => 'boolean',
-        // 'class_id' => 'array',
-        // 'subject_id' => 'array',
+        'approved'   => 'boolean',
+        'options'    => 'array',   // JSON column in DB
+        'marks'      => 'integer',
+        'board_id'   => 'integer',
+        'class_id'   => 'integer',   // <-- int, not array
+        'subject_id' => 'integer',   // <-- int, not array
+        'chapter_id' => 'integer',
     ];
 
     /* ---------- helpers ---------- */
@@ -63,22 +67,22 @@ class Question extends Model
     }
 
     // class_id as JSON array
-    protected function classId(): Attribute
-    {
-        return Attribute::make(
-            get: fn ($value) => self::normalizeToArray($value),
-            set: fn ($value) => json_encode(self::normalizeToArray($value))
-        );
-    }
+    // protected function classId(): Attribute
+    // {
+    //     return Attribute::make(
+    //         get: fn ($value) => self::normalizeToArray($value),
+    //         set: fn ($value) => json_encode(self::normalizeToArray($value))
+    //     );
+    // }
 
-    // subject_id as JSON array
-    protected function subjectId(): Attribute
-    {
-        return Attribute::make(
-            get: fn ($value) => self::normalizeToArray($value),
-            set: fn ($value) => json_encode(self::normalizeToArray($value))
-        );
-    }
+    // // subject_id as JSON array
+    // protected function subjectId(): Attribute
+    // {
+    //     return Attribute::make(
+    //         get: fn ($value) => self::normalizeToArray($value),
+    //         set: fn ($value) => json_encode(self::normalizeToArray($value))
+    //     );
+    // }
 
     /* ---------- relationships ---------- */
 

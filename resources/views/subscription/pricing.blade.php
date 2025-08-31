@@ -40,7 +40,7 @@
                              @if($activeSubscription && $activeSubscription->plan_name == 'Basic')
                                 <button class="w-full mt-8 py-3 px-6 bg-gray-300 text-gray-500 rounded-md font-semibold cursor-not-allowed" disabled>Current Plan</button>
                             @else
-                                <form action="{{ route('subscription.subscribe') }}" method="POST" class="mt-8">
+                                <form action="{{ route('pricing.contact.create','Basic') }}" method="get" class="mt-8">
                                     @csrf
                                     <input type="hidden" name="plan" value="Basic">
                                     <button type="submit" class="w-full py-3 px-6 bg-gray-500 text-white rounded-md font-semibold">Choose Plan</button>
@@ -60,11 +60,11 @@
                             @if($activeSubscription && $activeSubscription->plan_name == 'Professional')
                                 <button class="w-full mt-8 py-3 px-6 bg-gray-300 text-gray-500 rounded-md font-semibold cursor-not-allowed" disabled>Current Plan</button>
                             @else
-                                <form action="{{ route('subscription.subscribe') }}" method="POST" class="mt-8">
+                                <form action="{{ route('pricing.contact.create','Professional') }}" method="get" class="mt-8">
                                     @csrf
                                     <input type="hidden" name="plan" value="Professional">
                                     <button type="submit" class="w-full py-3 px-6 bg-blue-500 text-white rounded-md font-semibold">
-                                        @if($activeSubscription && $activeSubscription->plan_name == 'Basic')
+                                        @if($activeSubscription && $activeSubscription->plan_name == 'Professional')
                                             Upgrade to Professional
                                         @else
                                             Choose Plan
@@ -83,7 +83,21 @@
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Custom Branding</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Dedicated Support</li>
                             </ul>
-                            <a href="#" class="w-full mt-8 py-3 px-6 bg-gray-500 text-white rounded-md font-semibold text-center">Contact Sales</a>
+                            @if($activeSubscription && $activeSubscription->plan_name == 'Enterprise')
+                                <button class="w-full mt-8 py-3 px-6 bg-gray-300 text-gray-500 rounded-md font-semibold cursor-not-allowed" disabled>Current Plan</button>
+                            @else
+                                <form action="{{ route('pricing.contact.create','Enterprise') }}" method="get" class="mt-8">
+                                    @csrf
+                                    <input type="hidden" name="plan" value="Enterprice">
+                                    <button type="submit" class="w-full py-3 px-6 bg-blue-500 text-white rounded-md font-semibold">
+                                        @if($activeSubscription && $activeSubscription->plan_name == 'Enterprise')
+                                            Upgrade to Custom Enterprice
+                                        @else
+                                            Choose Plan
+                                        @endif
+                                    </button>
+                                </form>
+                            @endif
                         </div>
 
                     </div>

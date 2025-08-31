@@ -1,0 +1,314 @@
+[
+  {
+    "type": "mcq",
+    "text": "Length of arc of a circle of radius r and central angle θ (in degrees) is:",
+    "options": ["πrθ/180", "(θ/360)·2πr", "(θ/180)·πr^2", "2πrθ"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Area of a sector (radius r, angle θ in degrees) equals:",
+    "options": ["(θ/360)·πr^2", "(θ/180)·2πr", "πrθ", "πr^2θ"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For r = 7 cm and θ = 90°, the arc length is:",
+    "options": ["7π cm", "14π cm", "7π/2 cm", "π/2 cm"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For r = 14 cm and θ = 60°, the sector area is:",
+    "options": ["49π/3 cm²", "98π/3 cm²", "196π/3 cm²", "14π cm²"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Curved surface area (CSA) of a right circular cylinder is:",
+    "options": ["πr^2h", "2πr(h + r)", "2πrh", "πr(h + r)"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Total surface area (TSA) of a cylinder (including both bases) is:",
+    "options": ["2πrh", "2πr(h + r)", "πr^2h", "πr(h + r)"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Volume of a cylinder (radius r, height h):",
+    "options": ["πr^2h", "(1/3)πr^2h", "2πrh", "4πr^2"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "CSA of a cone (radius r, slant height l):",
+    "options": ["πrl", "πr(l + r)", "(1/3)πr^2l", "2πrl"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Volume of a cone (radius r, height h):",
+    "options": ["πr^2h", "(1/2)πr^2h", "(1/3)πr^2h", "2πr(h + r)"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Surface area of a sphere of radius r is:",
+    "options": ["2πr^2", "3πr^2", "4πr^2", "πr^2"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Volume of a sphere of radius r is:",
+    "options": ["(4/3)πr^3", "2πr^3", "πr^3", "(3/4)πr^3"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For a cone of radius r and height h, the slant height l equals:",
+    "options": ["r + h", "√(r^2 + h^2)", "h − r", "rh"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "CSA of a frustum of a cone with radii R and r, slant height s:",
+    "options": ["π(R^2 − r^2)", "π(R + r)s", "(1/3)π(R^2 + Rr + r^2)", "2π(R + r)h"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Volume of a frustum (radii R, r and height h) is:",
+    "options": ["πRh", "(1/3)πh(R^2 + Rr + r^2)", "(1/2)πh(R^2 − r^2)", "πr^2h"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A cylindrical can has r = 3 cm and h = 10 cm. Area of the label (curved surface) is:",
+    "options": ["30π cm²", "60π cm²", "90π cm²", "120π cm²"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "Perimeter of a sector (radius r, angle θ) = 2r + (θ/360)·2πr.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "TSA of a hemisphere is 3πr^2.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "TSA of a cone equals πrl.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "For fixed r, arc length is directly proportional to θ (in degrees or radians).",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Volume of a frustum is always the difference of volumes of two cones having the same height.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "For convex polyhedra, Euler’s relation V − E + F = 2 holds.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Curved surface area of a cylinder equals (perimeter of base) × height.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If θ is in radians, arc length L = rθ.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Area of a segment = area of corresponding sector + area of triangle formed by the radii and chord.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If slant height of a cone is doubled (radius fixed), its CSA doubles.",
+    "answer": "True",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Find the arc length for r = 7 cm, θ = 90°.",
+    "answer": "Step 1: L = (θ/360)·2πr = (90/360)·2π·7.\nStep 2: L = (1/4)·14π = 7π/2 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find area of sector for r = 14 cm, θ = 60°.",
+    "answer": "Step 1: A = (θ/360)·πr^2 = (60/360)·π·14^2.\nStep 2: A = (1/6)·π·196 = 98π/3 cm².",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find perimeter of a sector with r = 10 cm, θ = 120°.",
+    "answer": "Step 1: Arc length L = (120/360)·2π·10 = (1/3)·20π = 20π/3.\nStep 2: Perimeter = 2r + L = 20 + 20π/3 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find CSA, TSA and Volume of a cylinder with r = 7 cm, h = 10 cm.",
+    "answer": "Step 1: CSA = 2πrh = 2π·7·10 = 140π cm².\nStep 2: TSA = 2πr(h + r) = 2π·7·(10 + 7) = 238π cm².\nStep 3: V = πr^2h = π·49·10 = 490π cm³.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A cone has r = 7 cm and l = 25 cm. Find its CSA and TSA.",
+    "answer": "Step 1: CSA = πrl = π·7·25 = 175π cm².\nStep 2: TSA = πr(l + r) = π·7·(25 + 7) = 224π cm².",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A right cone has r = 7 cm and h = 24 cm. Find its volume.",
+    "answer": "Step 1: V = (1/3)πr^2h = (1/3)π·49·24.\nStep 2: V = 392π cm³.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find TSA of a hemisphere of radius 7 cm.",
+    "answer": "Step 1: TSA(hemisphere) = 3πr^2.\nStep 2: = 3π·49 = 147π cm².",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "For a circle of r = 14 cm and θ = 60°, find area of the minor segment.",
+    "answer": "Step 1: Sector area = (60/360)·π·14^2 = 98π/3.\nStep 2: Triangle area = (1/2)r^2·sin 60° = (1/2)·196·(√3/2) = 49√3.\nStep 3: Segment area = (98π/3 − 49√3) cm².",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A drum (open at top) has r = 0.35 m and h = 0.9 m. Find metal sheet area needed.",
+    "answer": "Step 1: Open top ⇒ Area = CSA + base = 2πrh + πr^2.\nStep 2: = 2π·0.35·0.9 + π·0.35^2 = 0.63π + 0.1225π = 0.7525π m².",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A bucket is a frustum with R = 14 cm, r = 7 cm, h = 24 cm. Find its capacity (volume).",
+    "answer": "Step 1: V = (1/3)πh(R^2 + Rr + r^2).\nStep 2: = (1/3)π·24·(196 + 98 + 49) = 8π·343 = 2744π cm³.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] Find fencing length for a sector with r = 10 m, θ = 150°.",
+    "answer": "Step 1: Arc length L = (150/360)·2π·10 = (5/12)·20π = 25π/3 m.\nStep 2: Perimeter = 2r + L = 20 + 25π/3 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find arc length when r = 21 cm and θ = 120°.",
+    "answer": "Step 1: L = (120/360)·2π·21 = (1/3)·42π = 14π cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A solid metal sphere of radius 6 cm is melted to form small spheres of radius 3 cm. How many?",
+    "answer": "Step 1: V_big = (4/3)π·6^3 = (4/3)π·216 = 288π.\nStep 2: V_small = (4/3)π·3^3 = (4/3)π·27 = 36π.\nStep 3: Number = 288π / 36π = 8.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find radius r of a sphere if its surface area is 616 cm².",
+    "answer": "Step 1: 4πr^2 = 616 ⇒ r^2 = 616/(4π) = 154/π.\nStep 2: Using π = 22/7: r^2 = 154/(22/7) = 154·7/22 = 49 ⇒ r = 7 cm.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "[Application] An ice-cream has a hemispherical top (radius 3.5 cm) on a right cone (same radius 3.5 cm, height 12 cm). Find total volume.",
+    "answer": "Step 1: V_hemisphere = (2/3)πr^3 = (2/3)π·(3.5)^3 = (2/3)π·42.875 = (85.75/3)π cm³.\nStep 2: V_cone = (1/3)πr^2h = (1/3)π·(3.5)^2·12 = (1/3)π·12.25·12 = 49π cm³.\nStep 3: V_total = [(85.75/3) + 49]π = (85.75 + 147)/3 · π = (232.75/3)π ≈ 77.5833π ≈ 243.8 cm³.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "[Application] A water tank has a cylindrical part (inner r = 2 m, h = 3 m) surmounted by a hemisphere (same r). Find interior plaster area (ignore base).",
+    "answer": "Step 1: Cylinder CSA = 2πrh = 2π·2·3 = 12π m².\nStep 2: Hemisphere CSA = 2πr^2 = 2π·4 = 8π m².\nStep 3: Total interior area = 12π + 8π = 20π ≈ 62.83 m².",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find area of the minor segment when r = 10 cm and θ = 120°.",
+    "answer": "Step 1: Sector area = (120/360)·π·10^2 = (1/3)·100π = 100π/3.\nStep 2: Triangle area = (1/2)r^2·sin 120° = 50·(√3/2) = 25√3.\nStep 3: Segment area = 100π/3 − 25√3 cm².",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A frustum has R = 10 cm, r = 6 cm, slant height s = 8 cm and vertical height h = 6 cm. Find (i) CSA (ii) TSA (iii) Volume.",
+    "answer": "Step 1: CSA = π(R + r)s = π(10 + 6)·8 = 128π cm².\nStep 2: Top+bottom areas = πR^2 + πr^2 = π(100 + 36) = 136π ⇒ TSA = 128π + 136π = 264π cm².\nStep 3: V = (1/3)πh(R^2 + Rr + r^2) = (1/3)π·6·(100 + 60 + 36) = 2π·196 = 392π cm³.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "[Application] A metal cylinder (r = 6 cm, h = 10 cm) is melted into solid cones (r = 3 cm, h = 4 cm). How many cones are formed?",
+    "answer": "Step 1: V_cylinder = πr^2h = π·36·10 = 360π cm³.\nStep 2: V_cone = (1/3)πr^2h = (1/3)π·9·4 = 12π cm³.\nStep 3: Number = 360π / 12π = 30 cones.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Verify Euler’s relation V − E + F = 2 for a cube. Then state V − E + F for a triangular prism.",
+    "answer": "Step 1: Cube: V = 8, E = 12, F = 6 ⇒ V − E + F = 8 − 12 + 6 = 2 (verified).\nStep 2: Triangular prism: V = 6, E = 9, F = 5 ⇒ 6 − 9 + 5 = 2 (also equals 2).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A road turn is a circular arc of radius 50 m making 45°. Find arc length and the area of the sector to be resurfaced.",
+    "answer": "Step 1: Arc length L = (45/360)·2π·50 = (1/8)·100π = 12.5π m.\nStep 2: Sector area A = (45/360)·π·50^2 = (1/8)·π·2500 = 312.5π m².",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] An open cylindrical can (no lid) has r = 7 cm, h = 24 cm. Find sheet area and cost at ₹80 per m².",
+    "answer": "Step 1: Area (cm²) = CSA + base = 2πrh + πr^2 = 2π·7·24 + π·49 = 336π + 49π = 385π cm².\nStep 2: In m²: 385π × 10^{-4} m² ≈ 0.0385π ≈ 0.121 m².\nStep 3: Cost = 0.121 × 80 ≈ ₹9.68 (approx).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A chord subtends 60° at the center of a circle of radius 14 cm. Find (i) chord length (ii) area of the minor segment.",
+    "answer": "Step 1: Chord length c = 2r·sin(θ/2) = 2·14·sin30° = 28·(1/2) = 14 cm.\nStep 2: Sector area = (60/360)·π·14^2 = 98π/3.\nStep 3: Triangle area = (1/2)r^2·sin60° = 98·(√3/2) = 49√3.\nStep 4: Segment area = 98π/3 − 49√3 cm².",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "[Application] A solid is made by placing a hemisphere of radius 7 cm on a cylinder of same radius and height 10 cm. Find the total surface area (outer).",
+    "answer": "Step 1: TSA = Cylinder CSA + Hemisphere CSA + cylinder base (bottom).\nStep 2: Cylinder CSA = 2πrh = 2π·7·10 = 140π cm².\nStep 3: Hemisphere CSA = 2πr^2 = 2π·49 = 98π cm².\nStep 4: Bottom area = πr^2 = 49π cm².\nStep 5: Total = (140 + 98 + 49)π = 287π cm².",
+    "marks": 4
+  }
+]

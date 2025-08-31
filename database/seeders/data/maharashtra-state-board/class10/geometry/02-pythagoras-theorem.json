@@ -1,0 +1,348 @@
+[
+  {
+    "type": "mcq",
+    "text": "In a right triangle, the square of the hypotenuse equals:",
+    "options": ["Sum of squares of base and height", "Difference of squares of base and height", "Product of base and height", "Twice the base"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A right triangle has sides 9 cm and 12 cm. The hypotenuse is:",
+    "options": ["13 cm", "14 cm", "15 cm", "16 cm"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If △ABC has AB = 6, AC = 8, BC = 10, which angle is right?",
+    "options": ["∠A", "∠B", "∠C", "None"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A ladder 5 m long reaches a wall at height 4 m. Distance of ladder base from wall is:",
+    "options": ["2 m", "3 m", "4 m", "5 m"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The diagonals of a rectangle are related to its sides by:",
+    "options": ["Pythagoras theorem", "Sine rule", "Cosine rule", "None"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "In △ABC, if AB² = AC² + BC², then ∠C = 90°.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Every triangle satisfies the Pythagoras theorem.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "[Application] The height of a building can be calculated using shadows and Pythagoras theorem.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If △ABC is right-angled at B, then AC² = AB² + BC².",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Converse of Pythagoras theorem is not used to prove a triangle is right-angled.",
+    "answer": "False",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Verify Pythagoras theorem for sides 5, 12, 13.",
+    "answer": "Step 1: Hypotenuse = 13. Check 13² = 169.\nStep 2: Other sides 5 and 12: 5² + 12² = 25 + 144 = 169.\nStep 3: LHS = RHS, verified.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In a right triangle, base = 15 cm, hypotenuse = 25 cm. Find height.",
+    "answer": "Step 1: h² = 25² − 15² = 625 − 225 = 400.\nStep 2: h = √400 = 20 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Check whether triangle with sides 7, 24, 25 is right-angled.",
+    "answer": "Step 1: Largest side = 25 ⇒ hypotenuse.\nStep 2: Check 25² = 625. Other sides: 7² + 24² = 49 + 576 = 625.\nStep 3: Equal ⇒ right-angled.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A man walks 3 km north, then 4 km east. Find his distance from the start.",
+    "answer": "Step 1: Forms right triangle with sides 3 and 4.\nStep 2: Distance = √(3²+4²) = √(9+16) = √25 = 5 km.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A square has side 10 cm. Find length of its diagonal.",
+    "answer": "Step 1: Diagonal² = side² + side² = 100 + 100 = 200.\nStep 2: Diagonal = √200 = 10√2 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find missing side if base = 8, height = 15, hypotenuse = ?",
+    "answer": "Step 1: h² = 8² + 15² = 64 + 225 = 289.\nStep 2: h = √289 = 17.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A flagpole is 12 m high. A rope from the top to the ground is 13 m. Find the distance of the rope base from the pole.",
+    "answer": "Step 1: Base² = 13² − 12² = 169 − 144 = 25.\nStep 2: Base = √25 = 5 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find hypotenuse if base = 9, height = 40.",
+    "answer": "Step 1: h² = 9² + 40² = 81 + 1600 = 1681.\nStep 2: h = √1681 = 41.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A triangle has sides 8, 15, 17. Verify if it is right-angled.",
+    "answer": "Step 1: Largest = 17 ⇒ hypotenuse.\nStep 2: 17² = 289, 8²+15² = 64+225 = 289.\nStep 3: Equal ⇒ Right-angled.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A ladder 10 m long rests against wall. Foot is 6 m from wall. Find height it reaches.",
+    "answer": "Step 1: Height² = 10² − 6² = 100 − 36 = 64.\nStep 2: Height = √64 = 8 m.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "Prove Pythagoras theorem for a right triangle with base b, height h, hypotenuse c, using areas of squares on sides.",
+    "answer": "Step 1: Construct a square of side (b+h) with 4 right triangles inside.\nStep 2: Area of big square = (b+h)².\nStep 3: It equals sum of 4(½·b·h) + c².\nStep 4: Expand: b² + 2bh + h² = 2bh + c².\nStep 5: Simplify ⇒ b² + h² = c².",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "[Application] A 15 m long ladder is placed against wall. It reaches 9 m high. Find the distance of ladder base from wall.",
+    "answer": "Step 1: Base² = 15² − 9² = 225 − 81 = 144.\nStep 2: Base = √144 = 12 m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In △ABC, verify if it is right-angled when AB=10, BC=24, AC=26.",
+    "answer": "Step 1: Largest side = 26 ⇒ hypotenuse.\nStep 2: Check 26² = 676. Other sides: 10² + 24² = 100 + 576 = 676.\nStep 3: Equal ⇒ triangle is right-angled at B.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A 20 m deep well has diameter 14 m. A rope from edge of well to bottom at opposite edge is needed. Find its length.",
+    "answer": "Step 1: Rope is hypotenuse of right triangle with depth = 20 m and diameter = 14 m.\nStep 2: Hypotenuse² = 20² + 14² = 400 + 196 = 596.\nStep 3: Hypotenuse = √596 ≈ 24.4 m.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "[Application] A man goes 5 km east, then 12 km north. Find distance from start and angle with east.",
+    "answer": "Step 1: Distance = √(5²+12²) = √(25+144) = √169 = 13 km.\nStep 2: tan θ = 12/5 ⇒ θ ≈ 67.4°.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A rectangular field is 60 m by 80 m. Its diagonal is:",
+    "options": ["90 m", "100 m", "110 m", "120 m"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If △ABC is right-angled at C with AC=9, BC=12, then AB is:",
+    "options": ["14 cm", "15 cm", "16 cm", "17 cm"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Sides of a right triangle are in ratio 3:4:5. Hypotenuse is always:",
+    "options": ["3k", "4k", "5k", "7k"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A wire of length 25 m is tied from top of a pole 24 m high to the ground. The distance of wire base from pole is:",
+    "options": ["5 m", "7 m", "10 m", "15 m"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The diagonal of a square of side 7 cm is:",
+    "options": ["7√2", "14", "49", "7"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "[Application] In a rectangle, diagonal is found using Pythagoras theorem.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If a triangle has sides 6, 8, 9, it is right-angled.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "[Application] Distance between opposite corners of a square field is its diagonal.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In right △ABC, if AB=AC+BC, it satisfies Pythagoras theorem.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Converse of Pythagoras theorem helps in identifying right-angled triangles.",
+    "answer": "True",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Check if triangle with sides 10, 24, 26 is right-angled.",
+    "answer": "Step 1: Largest = 26 ⇒ hypotenuse.\nStep 2: 26²=676; 10²+24²=100+576=676.\nStep 3: Equal ⇒ right-angled.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A hall is 9 m long, 12 m wide. Find diagonal length.",
+    "answer": "Step 1: Diagonal²=9²+12²=81+144=225.\nStep 2: Diagonal=√225=15 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A car travels 8 km east, then 15 km north. Find straight-line distance.",
+    "answer": "Step 1: Distance²=8²+15²=64+225=289.\nStep 2: Distance=√289=17 km.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find missing side in right triangle if hypotenuse=25, one side=24.",
+    "answer": "Step 1: Other side²=25²−24²=625−576=49.\nStep 2: Side=√49=7.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A 13 m ladder is placed against wall at distance 5 m from wall. Find height reached.",
+    "answer": "Step 1: Height²=13²−5²=169−25=144.\nStep 2: Height=√144=12 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Check whether sides 9, 40, 41 form a right triangle.",
+    "answer": "Step 1: Largest=41 ⇒ hypotenuse.\nStep 2: 41²=1681; 9²+40²=81+1600=1681.\nStep 3: Equal ⇒ right triangle.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A 20 m long ladder reaches top of building 16 m high. Find distance of base from building.",
+    "answer": "Step 1: Base²=20²−16²=400−256=144.\nStep 2: Base=√144=12 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find hypotenuse if perpendicular=11, base=60.",
+    "answer": "Step 1: Hyp²=11²+60²=121+3600=3721.\nStep 2: Hyp=√3721=61.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A TV screen has length 60 cm, breadth 80 cm. Find diagonal.",
+    "answer": "Step 1: Diagonal²=60²+80²=3600+6400=10000.\nStep 2: Diagonal=√10000=100 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A rectangular playground has length 90 m, breadth 120 m. Find shortest distance across field.",
+    "answer": "Step 1: Diagonal²=90²+120²=8100+14400=22500.\nStep 2: Diagonal=√22500=150 m.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "In △PQR with ∠Q=90°, PQ=12, QR=5. Find PR and verify Pythagoras theorem.",
+    "answer": "Step 1: Hypotenuse PR²=12²+5²=144+25=169.\nStep 2: PR=√169=13.\nStep 3: LHS=PR²=169; RHS=PQ²+QR²=144+25=169.\nStep 4: Verified.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A wire of 50 m is tied from top of 48 m pole to ground. Find distance of base of pole from wire end.",
+    "answer": "Step 1: Distance²=50²−48²=2500−2304=196.\nStep 2: Distance=√196=14 m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Sides of a triangle are 5, 12, 13. Prove it is right triangle using Pythagoras theorem.",
+    "answer": "Step 1: Largest=13 ⇒ hypotenuse.\nStep 2: 13²=169; 5²+12²=25+144=169.\nStep 3: Equal ⇒ right triangle.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A kite string is 25 m long, tied at ground, makes vertical height of 24 m. Find horizontal distance of kite from boy.",
+    "answer": "Step 1: Horizontal²=25²−24²=625−576=49.\nStep 2: Horizontal=√49=7 m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A man goes 9 km east, then 40 km north. Find straight-line distance from start.",
+    "answer": "Step 1: Distance²=9²+40²=81+1600=1681.\nStep 2: Distance=√1681=41 km.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In △XYZ, prove relation XY²= XZ²+YZ² when ∠Z=90° using Pythagoras theorem.",
+    "answer": "Step 1: In right triangle, hypotenuse²= sum of squares of other sides.\nStep 2: XY is hypotenuse, XZ and YZ are other sides.\nStep 3: Hence XY²=XZ²+YZ².",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A ship sails 12 km east then 16 km north. Find its shortest distance from starting point.",
+    "answer": "Step 1: Distance²=12²+16²=144+256=400.\nStep 2: Distance=√400=20 km.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "In △DEF, verify if DE=15, EF=20, DF=25 forms right triangle.",
+    "answer": "Step 1: Largest=25 ⇒ hypotenuse.\nStep 2: 25²=625; 15²+20²=225+400=625.\nStep 3: Equal ⇒ right triangle.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A path is 300 m long and 400 m wide in a park. Find length of diagonal path.",
+    "answer": "Step 1: Diagonal²=300²+400²=90000+160000=250000.\nStep 2: Diagonal=√250000=500 m.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "[Application] A rectangular hall is 36 m long, 15 m wide. Find length of diagonal.",
+    "answer": "Step 1: Diagonal²=36²+15²=1296+225=1521.\nStep 2: Diagonal=√1521=39 m.",
+    "marks": 3
+  }
+]

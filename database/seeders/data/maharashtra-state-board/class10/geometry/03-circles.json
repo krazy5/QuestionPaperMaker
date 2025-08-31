@@ -1,0 +1,318 @@
+[
+  {
+    "type": "mcq",
+    "text": "Given: tangent PT touches circle at P, O is center. Which statement is true?",
+    "options": ["OP is tangent", "OP ⟂ PT", "OP ∥ PT", "OP bisects PT"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If tangent length from external point is 12 cm and circle radius is 5 cm, then distance from point to center is:",
+    "options": ["10 cm", "12 cm", "13 cm", "14 cm"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A wheel has radius 35 cm. Its rim touches road at point P. The line OP (O=centre) with ground at P makes:",
+    "options": ["0°", "30°", "60°", "90°"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a circle, number of tangents from a point on the circle is:",
+    "options": ["0", "1", "2", "Infinite"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "From external point, maximum number of tangents to circle are:",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "A radius drawn to the point of contact of tangent is always perpendicular to tangent.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If two tangents are drawn from external point, their lengths are equal.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "A line drawn from circle center always cuts the circle in two points.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "[Application] Length of tangent can be found using Pythagoras theorem in right triangle formed by radius, tangent, and line from external point to center.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "From a point inside a circle, exactly two tangents can be drawn.",
+    "answer": "False",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Given: tangent PT touches circle at P. O is center. Show OP ⟂ PT.",
+    "answer": "Step 1: Join OP. Suppose OP not perpendicular.\nStep 2: Draw radius OQ ⟂ PT at Q. Then Q is point of contact.\nStep 3: But tangent touches circle at only one point. Contradiction.\nStep 4: Hence OP ⟂ PT.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Circle with center O, radius 5 cm. A tangent PT is drawn from external point T. If OT = 13 cm, find PT.",
+    "answer": "Step 1: △OPT is right triangle with OP=5, OT=13.\nStep 2: PT²=OT²−OP²=169−25=144.\nStep 3: PT=√144=12 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Circle radius 7 cm. Tangent PT touches at P. OP=7, OT=25. Find PT.",
+    "answer": "Step 1: △OPT right angle at P.\nStep 2: PT²=OT²−OP²=625−49=576.\nStep 3: PT=√576=24 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A bicycle wheel radius 21 cm touches ground at point P. Find angle between tangent at P and radius OP.",
+    "answer": "Step 1: Tangent at point of contact is perpendicular to radius.\nStep 2: ∠(OP, tangent)=90°.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "From point A outside circle with center O, two tangents AP, AQ are drawn. If OA=13 cm, radius=5 cm, find length of AP and AQ.",
+    "answer": "Step 1: △OAP is right with OP=5, OA=13.\nStep 2: AP²=13²−5²=169−25=144.\nStep 3: AP=√144=12. AQ=12 (equal).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A park has circular path radius 20 m. A man stands 29 m from center. Find length of tangent from him to path.",
+    "answer": "Step 1: △OAP right with OA=29, OP=20.\nStep 2: AP²=29²−20²=841−400=441.\nStep 3: AP=√441=21 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Two tangents from external point are 15 cm each. Distance of point from circle center is 17 cm. Find radius.",
+    "answer": "Step 1: △OPT right with OT=17, PT=15.\nStep 2: OP²=OT²−PT²=289−225=64.\nStep 3: OP=√64=8 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Given: tangent PQ touches circle at P, radius OP=7. Distance OQ=25. Find PQ.",
+    "answer": "Step 1: △OPQ right.\nStep 2: PQ²=OQ²−OP²=625−49=576.\nStep 3: PQ=√576=24 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A car tyre radius 14 cm. A nail at outer point lies 50 cm from centre. Find tangent length.",
+    "answer": "Step 1: △OPT right, OT=50, OP=14.\nStep 2: PT²=50²−14²=2500−196=2304.\nStep 3: PT=√2304=48 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "From a point 10 cm away from circle centre radius 6 cm, find length of tangent.",
+    "answer": "Step 1: △OPT right with OT=10, OP=6.\nStep 2: PT²=10²−6²=100−36=64.\nStep 3: PT=√64=8 cm.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "Prove tangents drawn from an external point to a circle are equal in length.",
+    "answer": "Step 1: Let O be circle center, A external point. Draw tangents AP, AQ touching at P, Q.\nStep 2: Join OP, OQ, OA.\nStep 3: △OPA and △OQA are right triangles with common hypotenuse OA.\nStep 4: OP=OQ (radii), OA common, ∠OPA=∠OQA=90°.\nStep 5: By congruence, AP=AQ. Hence lengths are equal.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Circle center O, tangent PT touches at P. Radius OP=5, OT=13. Find PT and prove △OPT right-angled at P.",
+    "answer": "Step 1: △OPT has OP=5, OT=13.\nStep 2: PT²=OT²−OP²=169−25=144.\nStep 3: PT=12.\nStep 4: Since OP²+PT²=5²+12²=25+144=169=OT², △OPT is right at P.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A tower stands outside a circular pond radius 20 m. Distance of tower base from pond center is 29 m. Find length of tangents from tower base to pond.",
+    "answer": "Step 1: △OPT right with OT=29, OP=20.\nStep 2: PT²=29²−20²=841−400=441.\nStep 3: PT=√441=21 m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] Two friends stand on opposite sides of a circular ground of radius 35 m. A tangent path is drawn from one to other. Find its length.",
+    "answer": "Step 1: External point distance=2r=70 from center.\nStep 2: Tangent length = √(OA²−r²)=√(70²−35²).\nStep 3: =√(4900−1225)=√3675≈60.62 m.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "From point 25 cm from circle center radius 7 cm, draw two tangents. Find tangent length and prove △OPT is right-angled.",
+    "answer": "Step 1: △OPT right, OT=25, OP=7.\nStep 2: PT²=25²−7²=625−49=576.\nStep 3: PT=24 cm.\nStep 4: Since OP²+PT²=7²+24²=49+576=625=OT², right-angled at P.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "From external point T, tangents TP and TQ are drawn to circle with center O. If OT = 25 cm, OP = 24 cm, then PT is:",
+    "options": ["6 cm", "7 cm", "9 cm", "15 cm"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Number of common tangents to two intersecting circles is:",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A wheel radius 14 cm has axle point 50 cm from ground. The tangent length from axle to wheel is:",
+    "options": ["48 cm", "49 cm", "50 cm", "51 cm"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In △OAP, O is circle center, P is point of contact of tangent AP. Then ∠OPA =",
+    "options": ["0°", "45°", "60°", "90°"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If two tangents are drawn from external point, they are:",
+    "options": ["Always unequal", "Always equal", "Sometimes equal", "Never equal"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "Length of tangents from external point depends on distance of point from circle center.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "A circle can have more than two parallel tangents.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "[Application] The tangent at a point on wheel’s rim is perpendicular to radius at that point.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If radius = 0, tangent cannot be drawn.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Common tangent touches both circles at two points each.",
+    "answer": "False",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Circle center O, radius 9. From point T, OT=15. Find tangent length PT.",
+    "answer": "Step 1: △OPT right at P.\nStep 2: PT² = OT² − OP² = 225 − 81 = 144.\nStep 3: PT = √144 = 12 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If two tangents from external point are 10 cm each and distance of point from center = 26 cm, find circle radius.",
+    "answer": "Step 1: △OPT right with OT=26, PT=10.\nStep 2: OP²=OT²−PT²=676−100=576.\nStep 3: OP=√576=24 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A lamp post stands 20 m from circular park boundary radius 15 m. Find tangent length from lamp post to park.",
+    "answer": "Step 1: △OPT right, OT=20, OP=15.\nStep 2: PT²=400−225=175.\nStep 3: PT=√175≈13.23 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "From external point T, tangents TA and TB drawn to circle radius 5. If TA=12 cm, find distance OT.",
+    "answer": "Step 1: △OTA right at A.\nStep 2: OT²=OA²+AT²=25+144=169.\nStep 3: OT=√169=13 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Circle center O, tangent PQ at P. OP=7 cm, OQ=25 cm. Find PQ.",
+    "answer": "Step 1: △OPQ right at P.\nStep 2: PQ²=25²−7²=625−49=576.\nStep 3: PQ=24 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A circular garden radius 10 m. From a point 26 m from center, find tangent length.",
+    "answer": "Step 1: △OPT right with OT=26, OP=10.\nStep 2: PT²=676−100=576.\nStep 3: PT=24 m.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Circle radius 8. Point T distance 17 from center. Find tangent length.",
+    "answer": "Step 1: △OPT right.\nStep 2: PT²=17²−8²=289−64=225.\nStep 3: PT=15.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Circle radius 10 cm, tangent length from point is 24 cm. Find distance of point from center.",
+    "answer": "Step 1: OT²=OP²+PT²=100+576=676.\nStep 2: OT=√676=26 cm.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "[Application] A clock has minute hand length 14 cm. Find distance between tip of hand and center when it is at 12 o’clock (tangent case).",
+    "answer": "Step 1: Radius=14 cm.\nStep 2: Tangent length=0 (point of contact at tip).\nStep 3: Distance = radius = 14 cm, perpendicular to tangent.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Circle radius 6. External point distance 10. Find tangent length.",
+    "answer": "Step 1: PT²=OT²−OP²=100−36=64.\nStep 2: PT=8 cm.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "From point outside circle, two tangents are drawn. Prove they are equal in length using congruence of triangles.",
+    "answer": "Step 1: Draw circle center O, external point T, tangents TP, TQ.\nStep 2: Join OP, OQ, OT.\nStep 3: △OPT and △OQT: OP=OQ (radii), OT common, ∠OPT=∠OQT=90°.\nStep 4: Triangles congruent ⇒ TP=TQ.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Prove radius drawn to point of contact of tangent is perpendicular to tangent.",
+    "answer": "Step 1: Suppose OP not perpendicular to tangent PT.\nStep 2: Draw OQ ⟂ PT at Q. Then Q must be point of contact.\nStep 3: But tangent touches circle at one point only. Contradiction.\nStep 4: Hence OP ⟂ PT.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A road is circular arc of radius 70 m. From a lamp-post 74 m away from center, a tangent is drawn to road. Find tangent length.",
+    "answer": "Step 1: △OPT right with OT=74, OP=70.\nStep 2: PT²=74²−70²=5476−4900=576.\nStep 3: PT=24 m.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Two concentric circles with radii 7 and 25. Find length of tangent from smaller to larger circle.",
+    "answer": "Step 1: Difference of squares formula: tangent²=25²−7²=625−49=576.\nStep 2: Tangent=24 cm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "[Application] A circular park has radius 15 m. A person outside park is 25 m from center. Find length of path along tangent from person to park boundary.",
+    "answer": "Step 1: △OPT right with OT=25, OP=15.\nStep 2: PT²=625−225=400.\nStep 3: PT=20 m.",
+    "marks": 3
+  }
+]

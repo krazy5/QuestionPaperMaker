@@ -1,0 +1,320 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which statement best defines Principal (P) in interest calculations? [SSC 2018]",
+    "options": ["Total amount repaid at the end", "Original sum of money invested or borrowed", "Profit earned per year", "Interest rate per month"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Simple Interest (SI) for time t years at rate r% p.a. on principal P is: [SSC 2016]",
+    "options": ["SI = P r t / 100", "SI = P (1 + r)^t", "SI = P r / t", "SI = (P + r + t)/100"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For the same P, r and t, which is generally larger (except when t = 1 year)? [SSC 2019]",
+    "options": ["Simple Interest", "Compound Interest", "Both equal", "Cannot be compared"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If GST rate is 18% for an intra-state sale, the tax split on the invoice is: [SSC 2021]",
+    "options": ["IGST 18%", "CGST 18%, SGST 0%", "CGST 9%, SGST 9%", "SGST 18%"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Market Value (MV) of a share is the price: [Predicted 2025]",
+    "options": ["Printed on share certificate", "At which share is currently traded in market", "At which company issues new shares only", "Equal to face value always"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Dividend received on 150 shares of face value Rs 10 at 12% is: [SSC 2017]",
+    "options": ["Rs 150", "Rs 180", "Rs 120", "Rs 200"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A list price is Rs 5,000 with 10% discount and 18% GST (intra-state). The tax calculated is on: [SSC 2020]",
+    "options": ["List price", "Discount amount", "Discounted price", "Any of the above"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If Rs 8,000 is invested at 10% p.a. compounded annually, the amount after 2 years is: [SSC 2016]",
+    "options": ["Rs 8,800", "Rs 9,600", "Rs 9,680", "Rs 9,680.00"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a recurring deposit (RD), interest is calculated assuming each monthly installment remains deposited on average for: [SSC 2018]",
+    "options": ["n months", "(n+1) months", "n/2 months", "(n-1)/2 months"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which instrument usually offers fixed returns and is insured up to a limit? [Predicted 2025]",
+    "options": ["Equity shares", "Public Provident Fund", "Fixed deposit in scheduled bank", "Mutual fund equity scheme"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Household budgeting mainly helps to: [SSC 2019]",
+    "options": ["Increase expenses", "Track and plan income vs. expenses", "Avoid savings", "Calculate GST"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Depreciation by reducing balance at 10% p.a. for 2 years on Rs 10,000 leaves value: [SSC 2017]",
+    "options": ["Rs 8,000", "Rs 9,000", "Rs 8,100", "Rs 7,900"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Income Tax in exam problems should be computed using: [Predicted 2025]",
+    "options": ["Current year govt slabs only", "The slab rates provided in the question", "Any old slab", "Flat 10%"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If selling price is Rs 2,124 including 18% GST, then price before GST is: [SSC 2022]",
+    "options": ["Rs 1,800", "Rs 1,920", "Rs 2,000", "Rs 2,100"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Higher compounding frequency (same nominal rate) generally results in: [Predicted 2025]",
+    "options": ["Lower effective annual yield", "Same yield", "Higher effective annual yield", "Zero effect"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "For intra-state supply, GST is levied as CGST + SGST. [SSC 2021]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Dividend % is calculated on market value of a share. [SSC 2016]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Under simple interest, interest earned each year is constant. [SSC 2017]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "A budget must list only fixed expenses, not variable ones. [Predicted 2025]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Depreciation reduces the book value of an asset over time. [SSC 2018]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In RD, the maturity value equals total deposits only. [SSC 2019]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "If discount increases, the GST collected on the item decreases (rate unchanged). [Predicted 2025]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Income tax word problems must use slab rates given in the question, not external tables. [SSC 2020]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Compound interest for 2 years at rate r on P equals P r^2 / 100. [Predicted 2025]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Face value and market value of a share are always equal. [SSC 2016]",
+    "answer": "False",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Find the simple interest and amount on Rs 8,000 at 6% p.a. for 9 months. [SSC 2018]",
+    "answer": "Time t = 9/12 = 0.75 years. SI = P r t /100 = 8000 × 6 × 0.75 /100 = 8000 × 4.5 /100 = Rs 360. Amount = 8000 + 360 = Rs 8,360.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the compound interest and amount on Rs 5,000 at 10% p.a. compounded annually for 2 years. [SSC 2016]",
+    "answer": "Amount A = P (1 + r/100)^t = 5000 (1.10)^2 = 5000 × 1.21 = Rs 6,050. CI = A − P = 6,050 − 5,000 = Rs 1,050.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Rs 12,000 at 8% p.a. compounded half-yearly for 1 year. Find CI. [SSC 2019]",
+    "answer": "Half-year rate = 8%/2 = 4%; periods = 2. A = 12000 (1.04)^2 = 12000 × 1.0816 = Rs 12,979.20. CI = 12,979.20 − 12,000 = Rs 979.20.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "An item has list price Rs 15,000. Discount 10%. GST 18% (intra-state). Find invoice total and CGST/SGST. [SSC 2022]",
+    "answer": "Discounted price = 15000 × 0.90 = Rs 13,500. GST 18% on 13,500 = 2,430 ⇒ CGST 1,215 and SGST 1,215. Invoice total = 13,500 + 2,430 = Rs 15,930.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find dividend received on 200 shares of face value Rs 10 at 12%. [SSC 2017]",
+    "answer": "Dividend = (No. of shares) × (Face value) × (Dividend %) = 200 × 10 × 12% = 200 × 1.2 = Rs 240.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Cost price Rs 800, selling price Rs 920. Find profit % to nearest 0.1%. [SSC 2016]",
+    "answer": "Profit = 920 − 800 = Rs 120. Profit % = (120/800) × 100 = 15%.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A machine of Rs 50,000 depreciates at 10% p.a. on reducing balance. Find its value after 2 years. [SSC 2020]",
+    "answer": "Year 1 value = 50000 × 0.90 = 45,000. Year 2 value = 45,000 × 0.90 = Rs 40,500. (Total depreciation = 9,500).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "RD: Deposit Rs 1,000 per month for 12 months at 6% p.a. Find maturity value (use RD interest formula). [Predicted 2025]",
+    "answer": "Interest = P × n(n+1)/2 × (r/(12×100)) = 1000 × 12×13/2 × (6/1200) = 1000 × 78 × 0.005 = Rs 390. Maturity = 1000×12 + 390 = Rs 12,390.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Using slabs (assume for the question): 0–2.5L: 0%, 2.5–5L: 5%, 5–10L: 20% (ignore cess/rebate). Find tax on taxable income Rs 4,80,000. [SSC 2021]",
+    "answer": "0–2.5L: 0. Next 2.5L to 4.8L ⇒ 2.3L at 5% = Rs 11,500. Total tax = Rs 11,500.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Monthly income Rs 40,000. Fixed expenses Rs 22,000; variable expenses Rs 12,500. Find monthly savings. [Predicted 2025]",
+    "answer": "Total expenses = 22,000 + 12,500 = Rs 34,500. Savings = 40,000 − 34,500 = Rs 5,500.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A trader buys goods for Rs 50,000 + 18% GST and sells at Rs 70,800 (including 18% GST). Compute GST payable using input tax credit. [SSC 2019]",
+    "answer": "Output GST = 70,800 − (70,800/1.18) = 70,800 − 60,000 = Rs 10,800. Input GST = 50,000 × 18% = Rs 9,000. GST payable = 10,800 − 9,000 = Rs 1,800.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "An item’s MRP is Rs 2,500. Successive discounts 12% and 5%. Find final price. [Predicted 2025]",
+    "answer": "After 12%: 2500 × 0.88 = Rs 2,200. After 5%: 2,200 × 0.95 = Rs 2,090. Final price = Rs 2,090.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find rate r% if SI on Rs 15,000 for 2 years is Rs 3,600. [SSC 2018]",
+    "answer": "SI = P r t /100 ⇒ 3600 = 15000 × r × 2 /100 ⇒ r = 3600×100 / (15000×2) = 12%.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "On Rs 20,000 at 8% p.a. for 2 years, find difference (CI − SI). [SSC 2017]",
+    "answer": "SI = 20000 × 8 × 2 /100 = Rs 3,200. CI: A = 20000(1.08)^2 = 20000 × 1.1664 = Rs 23,328 ⇒ CI = 3,328. Difference = 3,328 − 3,200 = Rs 128.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find CI on Rs 10,000 at 12% p.a. compounded quarterly for 1 year. [Predicted 2025]",
+    "answer": "Quarterly rate = 12%/4 = 3%. Periods = 4. A = 10000 (1.03)^4 = 10000 × 1.12550881 ≈ Rs 11,255.09. CI ≈ 1,255.09.",
+    "marks": 2
+  },
+
+  {
+    "type": "long",
+    "text": "Prepare a monthly budget: Income Rs 45,000. Expenses: Rent 12,000; Food 8,500; Transport 2,500; School fees 3,500; Utilities 2,000; Misc 3,800; Savings target 20% of income. Find actual savings and compare with target. [SSC 2020]",
+    "answer": "Target savings = 20% of 45,000 = Rs 9,000.\nSum of listed expenses = 12,000 + 8,500 + 2,500 + 3,500 + 2,000 + 3,800 = Rs 32,300.\nActual savings = Income − Expenses = 45,000 − 32,300 = Rs 12,700.\nComparison: Actual (12,700) − Target (9,000) = Rs 3,700 more than target.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "GST invoice (intra-state): List price Rs 36,000, trade discount 15%, packing charges Rs 600, GST 18%. Find (i) taxable value, (ii) CGST and SGST, (iii) invoice total. [SSC 2021]",
+    "answer": "Discounted price = 36,000 × 0.85 = Rs 30,600.\nAdd packing (taxable) = 30,600 + 600 = Rs 31,200 (taxable value).\nGST @ 18% = 31,200 × 18% = 5,616 ⇒ CGST 2,808 and SGST 2,808.\nInvoice total = 31,200 + 5,616 = Rs 36,816.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Shares & Dividend: Bought 100 shares at market value Rs 120 each; face value Rs 10; company declares 15% dividend. Find (i) total dividend, (ii) yield on investment (percentage). [SSC 2019]",
+    "answer": "Dividend is on face value: per share = 15% of 10 = Rs 1.5.\nTotal dividend = 100 × 1.5 = Rs 150.\nInvestment = 100 × 120 = Rs 12,000.\nYield % = (Dividend / Investment) × 100 = (150 / 12,000) × 100 = 1.25%.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Compound Interest (half-yearly): P = Rs 25,000 at 8% p.a., compounded half-yearly for 2 years. Find amount and CI. [SSC 2018]",
+    "answer": "Half-year rate = 8%/2 = 4%. Number of periods = 2 years × 2 = 4.\nA = 25,000 (1.04)^4 = 25,000 × 1.16985856 = Rs 29,246.46 (approx).\nCI = 29,246.46 − 25,000 = Rs 4,246.46 (approx).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Recurring Deposit: Deposit Rs 2,000 per month for 24 months at 7.5% p.a. Find maturity value (use RD interest formula). [Predicted 2025]",
+    "answer": "Interest on RD = P × n(n+1)/2 × r/(12×100).\nHere P = 2000, n = 24 ⇒ n(n+1)/2 = 24×25/2 = 300.\nr/(12×100) = 7.5/1200 = 0.00625.\nInterest = 2000 × 300 × 0.00625 = Rs 3,750.\nMaturity = Total deposits + Interest = 2000×24 + 3,750 = 48,000 + 3,750 = Rs 51,750.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Income Tax (assume slabs in question): 0–2.5L: 0%, 2.5–5L: 5%, 5–10L: 20% (ignore cess/rebate). Salary income Rs 6,60,000. Standard deduction Rs 50,000. No other deductions. Compute tax. [Predicted 2025]",
+    "answer": "Taxable income = 6,60,000 − 50,000 = Rs 6,10,000.\n0–2.5L: tax = 0.\n2.5–5L: 2,50,000 at 5% = Rs 12,500.\n5–6.1L: 1,10,000 at 20% = Rs 22,000.\nTotal tax = 12,500 + 22,000 = Rs 34,500.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Depreciation (reducing balance): Value of car Rs 7,00,000. Depreciates at 15% p.a. Find value after 3 years. [SSC 2017]",
+    "answer": "Year 1: 7,00,000 × 0.85 = Rs 5,95,000.\nYear 2: 5,95,000 × 0.85 = Rs 5,05,750.\nYear 3: 5,05,750 × 0.85 = Rs 4,29,887.50.\nValue after 3 years ≈ Rs 4,29,887.50.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Institution buys 80 calculators (list Rs 400 each), discount 10%, GST 12% (intra-state). Find total amount payable. [SSC 2022]",
+    "answer": "Discounted price per unit = 400 × 0.90 = Rs 360.\nTaxable value for 80 = 360 × 80 = Rs 28,800.\nGST 12% = 3,456 ⇒ CGST 1,728 and SGST 1,728.\nInvoice total = 28,800 + 3,456 = Rs 32,256.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "EMI (approximate): Loan Rs 3,00,000 at 10% p.a. for 36 months. Monthly rate r = 0.10/12. Use EMI = P r (1+r)^n / ((1+r)^n − 1). Compute EMI (rounded to nearest rupee). [Predicted 2025]",
+    "answer": "Monthly r = 0.10/12 ≈ 0.008333.\n(1+r)^36 ≈ (1.008333)^36 ≈ 1.3487 (approx).\nEMI = 300000 × 0.008333 × 1.3487 / (1.3487 − 1)\n= 300000 × 0.011239 / 0.3487 ≈ 300000 × 0.032239 ≈ Rs 9,672 (approx).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Financial plan mix: A person saves Rs 10,000 every month. He invests Rs 6,000 per month in RD at 6% p.a. for 12 months and puts Rs 48,000 lump-sum in FD at 7% p.a. (compounded annually) at the start of the year. Find total value after 1 year. [Predicted 2025]",
+    "answer": "RD part: P = 6,000, n = 12, r = 6%.\nInterest_RD = 6000 × (12×13/2) × (6/1200) = 6000 × 78 × 0.005 = Rs 2,340.\nMaturity_RD = 6000×12 + 2340 = 72,000 + 2,340 = Rs 74,340.\nFD part: A_FD = 48,000 × (1 + 0.07) = Rs 51,360.\nTotal after 1 year = 74,340 + 51,360 = Rs 1,25,700.",
+    "marks": 4
+  }
+]

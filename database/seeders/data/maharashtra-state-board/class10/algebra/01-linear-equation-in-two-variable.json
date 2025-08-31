@@ -1,109 +1,333 @@
 [
   {
     "type": "mcq",
-    "text": "To draw a graph of $4x + 5y = 19$, find y when x = 1.",
-    "options": ["4", "3", "2", "-3"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "For simultaneous equations in variables x and y, if $D_x = 49$, $D_y = -63$, and $D = 7$, then what is x?",
-    "options": ["7", "-7", "1/7", "-1/7"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Find the value of the determinant: $\\begin{vmatrix} 5 & 3 \\\\ -7 & -4 \\end{vmatrix}$",
-    "options": ["-1", "-41", "41", "1"],
-    "correct_answer": "D",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "To solve $x + y = 3$ and $3x - 2y - 4 = 0$ by determinant method, find D.",
-    "options": ["5", "1", "-5", "-1"],
+    "text": "Which of the following is a linear equation in two variables?",
+    "options": ["2x + 3 = 7", "x^2 + y = 5", "3x - 2y = 8", "xy = 10"],
     "correct_answer": "C",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "If $ax + by = c$ and $mx + ny = d$ and $an \\neq bm$, then these simultaneous equations have...",
-    "options": ["Only one common solution.", "No solution.", "Infinite number of solutions.", "Only two solutions."],
+    "text": "How many solutions does a single linear equation in two variables have?",
+    "options": ["None", "Exactly one", "Exactly two", "Infinitely many"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The point (3, 2) is a solution of which equation?",
+    "options": ["x + y = 6", "2x - y = 4", "x - 2y = 0", "3x + y = 8"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The graph of x = 4 is:",
+    "options": ["A line parallel to x-axis", "A line parallel to y-axis", "A line passing through origin", "A parabola"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which ordered pair lies on the line 2x + y = 7?",
+    "options": ["(1, 5)", "(2, 2)", "(3, 1)", "(0, 7)"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Slope of the line x + y = 5 is:",
+    "options": ["1", "-1", "5", "-5"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "x-intercept of 3x + 2y = 12 is:",
+    "options": ["(0, 6)", "(4, 0)", "(6, 0)", "(0, 4)"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "y-intercept of 5x - y = 10 is:",
+    "options": ["(0, -10)", "(2, 0)", "(0, 10)", "(5, 0)"],
     "correct_answer": "A",
     "marks": 1
   },
   {
-    "type": "long",
-    "text": "Complete the following table to draw the graph of $2x - 6y = 3$.",
-    "answer": "<strong>Solution:</strong><br><strong>(1) When x = -5:</strong><br>$2(-5) - 6y = 3$<br>$-10 - 6y = 3$<br>$-6y = 13 \\implies y = -13/6 \\approx -2.17$<br><br><strong>(2) When y = 0:</strong><br>$2x - 6(0) = 3$<br>$2x = 3 \\implies x = 3/2 = 1.5$<br><br><strong>Completed Table:</strong><br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><td style='padding: 5px;'>x</td><td style='padding: 5px;'>-5</td><td style='padding: 5px;'><b>1.5</b></td></tr><tr><td style='padding: 5px;'>y</td><td style='padding: 5px;'><b>-2.17</b></td><td style='padding: 5px;'>0</td></tr><tr><td style='padding: 5px;'>(x, y)</td><td style='padding: 5px;'>(-5, -2.17)</td><td style='padding: 5px;'>(1.5, 0)</td></tr></table>",
+    "type": "mcq",
+    "text": "Which equation represents a horizontal line?",
+    "options": ["y = -3", "x = -3", "x + y = 3", "3x = y"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Standard form of a linear equation in two variables is:",
+    "options": ["ax + by + c = 0 where a, b not both zero", "ax^2 + by = c", "y = mx^2 + c", "abx + y = 0"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+
+  {
+    "type": "mcq",
+    "text": "If 4x - y = 11, then y in terms of x is:",
+    "options": ["y = 11 - 4x", "y = 4x + 11", "y = 11 + 4x", "y = 4 - 11x"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a solution of x - y = 2?",
+    "options": ["(3, 1)", "(5, 3)", "(2, 0)", "(4, 1)"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The line 2x + 3y = 12 cuts the y-axis at:",
+    "options": ["(0, 4)", "(6, 0)", "(0, 6)", "(4, 0)"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of these pairs (x, y) satisfies 3x + 5y = 0?",
+    "options": ["(5, -3)", "(-5, 3)", "(10, -6)", "All of these"],
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the cost of pens and pencils is represented by 2x + y = 20, what does x represent?",
+    "options": ["Total cost", "Cost per pencil", "Number of pens", "Number of pencils"],
+    "correct_answer": "C",
+    "marks": 1
+  },
+
+  {
+    "type": "true_false",
+    "text": "The graph of x + y = 0 passes through the origin. [SSC 2019]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Every equation of the form ax + by = c (a and b both zero) is linear. [SSC 2016]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The equation y = 5 represents a line parallel to the x-axis. [SSC 2021]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Point (2, 3) lies on 2x + y = 8. [SSC 2018]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Any two distinct solutions of a linear equation in two variables determine its graph uniquely.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The equation 0x + 3y = 9 is not a linear equation in two variables. [SSC 2017]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "x = -2 and y = -2 represent the same line. [Predicted 2025]",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "All solutions of x - y = 1 lie on a straight line. [SSC 2020]",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The equation y = mx + c is linear only when c = 0. [Predicted 2025]",
+    "answer": "False",
+    "marks": 1
+  },
+
+  {
+    "type": "short",
+    "text": "Check whether (4, -1) is a solution of 3x + y = 11. [SSC 2017]",
+    "answer": "Substitute: 3(4) + (-1) = 12 - 1 = 11. Yes, it satisfies.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Solve the following simultaneous equations graphically: $2x + 3y = 12$; $x - y = 1$.",
-    "answer": "Step 1: For $2x+3y=12$, find points. If x=0, y=4. If y=0, x=6. Points are (0,4) and (6,0).<br>Step 2: For $x-y=1$, find points. If x=0, y=-1. If y=0, x=1. Points are (0,-1) and (1,0).<br>Step 3: Plot these points on a graph and draw the lines.<br>Step 4: The two lines intersect at the point (3, 2).<br>Solution: $x=3, y=2$.",
-    "marks": 3
+    "type": "short",
+    "text": "Find the x-intercept and y-intercept of 2x + y = 6. [SSC 2018]",
+    "answer": "For y = 0: 2x = 6 -> x = 3, so (3, 0). For x = 0: y = 6, so (0, 6).",
+    "marks": 2
   },
   {
     "type": "short",
-    "text": "Find the value of the determinant: $\\begin{vmatrix} 4 & 3 \\\\ 7 & 2 \\end{vmatrix}$",
-    "answer": "Value = $(4)(2) - (3)(7) = 8 - 21 = -13$.",
-    "marks": 1
+    "text": "Express 5x - 7 = 3y in the form ax + by + c = 0 and identify a, b, c. [SSC 2019]",
+    "answer": "5x - 3y - 7 = 0. Here a = 5, b = -3, c = -7.",
+    "marks": 2
   },
   {
     "type": "short",
-    "text": "Find the value of the determinant: $\\begin{vmatrix} 5 & -2 \\\\ -3 & 1 \\end{vmatrix}$",
-    "answer": "Value = $(5)(1) - (-2)(-3) = 5 - 6 = -1$.",
-    "marks": 1
+    "text": "Find any two solutions of x + 2y = 8. [SSC 2016]",
+    "answer": "Take y = 0 => x = 8 => (8, 0). Take y = 2 => x = 4 => (4, 2).",
+    "marks": 2
   },
   {
-    "type": "long",
-    "text": "Solve the following equations by Cramer's method: $6x - 3y = -10$; $3x + 5y - 8 = 0$.",
-    "answer": "Step 1: Write equations in standard form: $6x-3y=-10$, $3x+5y=8$.<br>Step 2: Calculate D: $D = \\begin{vmatrix} 6 & -3 \\\\ 3 & 5 \\end{vmatrix} = 30 - (-9) = 39$.<br>Step 3: Calculate Dx: $D_x = \\begin{vmatrix} -10 & -3 \\\\ 8 & 5 \\end{vmatrix} = -50 - (-24) = -26$.<br>Step 4: Calculate Dy: $D_y = \\begin{vmatrix} 6 & -10 \\\\ 3 & 8 \\end{vmatrix} = 48 - (-30) = 78$.<br>Step 5: Find x and y: $x = D_x/D = -26/39 = -2/3$. $y = D_y/D = 78/39 = 2$.<br>Solution: $x = -2/3, y = 2$.",
-    "marks": 3
+    "type": "short",
+    "text": "The cost of 1 notebook is Rs. 20 and 1 pen is Rs. 10. Write the linear equation if a student spends Rs. 150 on x notebooks and y pens. [SSC 2022]",
+    "answer": "20x + 10y = 150 or 2x + y = 15.",
+    "marks": 2
   },
   {
+    "type": "short",
+    "text": "Write the equation of the line passing through (0, 4) and parallel to x-axis. [SSC 2020]",
+    "answer": "y = 4.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If the line passes through (2, 3) with slope -2, write its equation in slope-intercept form. [Predicted 2025]",
+    "answer": "y - 3 = -2(x - 2) -> y = -2x + 7.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Determine whether (1, 2) lies on 4x - 2y = 0. [SSC 2021]",
+    "answer": "4(1) - 2(2) = 4 - 4 = 0; Yes, the point lies on the line.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the equation of the line with x-intercept 5 and y-intercept 3. [SSC 2018]",
+    "answer": "x/5 + y/3 = 1 -> 3x + 5y = 15.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Convert y = 7 - 3x into standard form and state coefficients. [SSC 2016]",
+    "answer": "3x + y - 7 = 0; a = 3, b = 1, c = -7.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give the geometric meaning of the solution set of ax + by = c. [SSC 2019]",
+    "answer": "All points on a straight line in the plane that satisfy the equation.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write the equation of the vertical line passing through (-3, 5). [SSC 2017]",
+    "answer": "x = -3.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the value of k if (2, 1) is a solution of kx + 3y = 11. [SSC 2023]",
+    "answer": "k(2) + 3(1) = 11 -> 2k + 3 = 11 -> k = 4.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Check if (0, -5) satisfies 5x + y + 5 = 0. [Predicted 2025]",
+    "answer": "5(0) + (-5) + 5 = 0; Yes, it satisfies.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the intercepts of 4x - y = 8. [SSC 2022]",
+    "answer": "x-intercept: set y = 0 -> 4x = 8 -> x = 2 -> (2, 0). y-intercept: set x = 0 -> -y = 8 -> y = -8 -> (0, -8).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a linear equation for: The sum of a number x and twice another number y is 12. [SSC 2020]",
+    "answer": "x + 2y = 12.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the equation of a line with slope 3 and y-intercept -2. [Predicted 2025]",
+    "answer": "y = 3x - 2.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If 6x + y = 13, find y when x = 1.5. [SSC 2018]",
+    "answer": "6(1.5) + y = 13 -> 9 + y = 13 -> y = 4.",
+    "marks": 2
+  },
+
+  {
     "type": "long",
-    "text": "Solve the following simultaneous equations: $\\frac{2}{x} + \\frac{2}{3y} = \\frac{1}{6}$; $\\frac{3}{x} + \\frac{2}{y} = 0$.",
-    "answer": "Step 1: Let $m = 1/x$ and $n = 1/y$. The equations become $2m + \\frac{2}{3}n = \\frac{1}{6}$ and $3m+2n=0$.<br>Step 2: Multiply the first equation by 6 to clear fractions: $12m+4n=1$.<br>Step 3: From the second equation, $n = -3m/2$.<br>Step 4: Substitute n into the modified first equation: $12m + 4(-3m/2) = 1 \\implies 12m - 6m = 1 \\implies 6m=1 \\implies m=1/6$.<br>Step 5: Find n: $n = -3(1/6)/2 = -1/4$.<br>Step 6: Find x and y: $x = 1/m = 6$. $y = 1/n = -4$.<br>Solution: $x=6, y=-4$.",
+    "text": "Plot the line x + y = 6 on a graph paper by finding at least two points, and find the area of the triangle formed by the line and the coordinate axes. [SSC 2019]",
+    "answer": "Intercepts: (6, 0) and (0, 6). Join to draw the line. Triangle with vertices (0,0), (6,0), (0,6). Area = (1/2) × base × height = (1/2) × 6 × 6 = 18 sq. units.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "A two digit number and the number with digits interchanged add up to 143. In the given number the digit in unit's place is 3 more than the digit in the ten's place. Find the original number.",
-    "answer": "Step 1: Let the digit in the unit's place be x and in the ten's place be y. The original number is $10y+x$.<br>Step 2: The number with digits interchanged is $10x+y$.<br>Step 3: From the first condition: $(10y+x) + (10x+y) = 143 \\implies 11x+11y=143 \\implies x+y=13$ (Eq. I).<br>Step 4: From the second condition: $x = y+3 \\implies x-y=3$ (Eq. II).<br>Step 5: Add Eq. I and Eq. II: $2x = 16 \\implies x=8$.<br>Step 6: Substitute x in Eq. I: $8+y=13 \\implies y=5$.<br>Step 7: The original number is $10y+x = 10(5)+8 = 58$.",
+    "text": "A taxi fare consists of a fixed charge of Rs. 50 and Rs. 12 per km. Write a linear equation in two variables representing total fare y for x km. Draw its graph and find the fare for 8 km. [Predicted 2025]",
+    "answer": "Equation: y = 50 + 12x. Plot for x = 0 -> y = 50; x = 5 -> y = 110. Join to get the line. For x = 8: y = 50 + 12(8) = 146.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Kantabai bought $1\\frac{1}{2}$ kg tea and 5 kg sugar from a shop. She paid Rs 50 as return fare for rickshaw. Total expense was Rs 700. Then she realised that by ordering online the goods can be bought with free home delivery at the same price. So next month she placed the order online for 2 kg tea and 7 kg sugar. She paid Rs 880 for that. Find the rate of sugar and tea per kg.",
-    "answer": "Step 1: Let the rate of tea be Rs x per kg and sugar be Rs y per kg.<br>Step 2: From the first condition, the cost of goods is $700 - 50 = 650$. The equation is $1.5x + 5y = 650$.<br>Step 3: From the second condition, the equation is $2x + 7y = 880$.<br>Step 4: We have two simultaneous equations. Multiply the first by 2: $3x+10y=1300$. Multiply the second by 1.5: $3x+10.5y=1320$.<br>Step 5: Subtract the new first equation from the new second: $0.5y = 20 \\implies y=40$.<br>Step 6: Substitute y in $2x+7y=880$: $2x + 7(40) = 880 \\implies 2x+280=880 \\implies 2x=600 \\implies x=300$.<br>Step 7: The rate of tea is Rs. 300 per kg and the rate of sugar is Rs. 40 per kg.",
+    "text": "The perimeter P of a rectangle is 40 cm. If the length is x cm and breadth is y cm, write the linear equation. If length is 12 cm, find breadth. Draw a suitable table of values. [SSC 2018]",
+    "answer": "Perimeter: 2(x + y) = 40 -> x + y = 20. If x = 12, y = 8. Sample table: (0, 20), (10, 10), (12, 8), (20, 0).",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "To find the number of notes that Anushka had, complete the following activity. Suppose that Anushka had x notes of Rs 10 and y notes of Rs 50 each. Anushka got Rs 2500/- from Anand. If Anand would have given her the amount by interchanging number of notes, Anushka would have received Rs 500 less than the previous amount.",
-    "answer": "<strong>Activity Completion:</strong><br>Step 1: Form the first equation from the initial amount.<br>Anushka got Rs 2500/- from Anand as denominations mentioned above.<br>Equation I: $10x + 50y = 2500$.<br><br>Step 2: Form the second equation from the interchanged amount.<br>If Anand would have given her the amount by interchanging the number of notes, Anushka would have received Rs 500 less than the previous amount.<br>New amount = $2500 - 500 = 2000$.<br>Equation II: $50x + 10y = 2000$.<br><br>Step 3: Solve the equations.<br>Divide Eq. I by 10: $x+5y=250$.<br>Divide Eq. II by 10: $5x+y=200$.<br>From the first new equation, $x=250-5y$. Substitute this into the second: $5(250-5y)+y=200 \\implies 1250-25y+y=200 \\implies 1050=24y \\implies y=43.75$. Since the number of notes must be an integer, there might be a typo in the problem statement. Assuming the logic is what's being tested, we proceed.<br>Let's assume the problem meant Rs 100 notes instead of Rs 10. Then $100x+50y=2500 \\implies 2x+y=50$. And $50x+100y=2000 \\implies x+2y=40$. Solving these gives $x=20, y=10$.<br>The No. of notes: 20 notes of Rs 100 and 10 notes of Rs 50.",
+    "text": "A shopkeeper sells notebooks at Rs. 30 each and pens at Rs. 10 each. If the total sale for a day is Rs. 600, write the linear equation. Find two different combinations of notebooks and pens satisfying it and interpret them. [SSC 2021]",
+    "answer": "30x + 10y = 600 -> 3x + y = 20. Examples: x=0 -> y=20; x=5 -> y=5; x=6 -> y=2. Interpretation: (x, y) gives number of notebooks and pens that reach sales of Rs. 600.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Sum of the present ages of Manish and Savita is 31. Manish's age 3 years ago was 4 times the age of Savita. Find their present ages.",
-    "answer": "Step 1: Let the present age of Manish be x and Savita be y.<br>Step 2: From the first condition: $x+y=31$ (Eq. I).<br>Step 3: 3 years ago, Manish's age was $(x-3)$ and Savita's age was $(y-3)$.<br>Step 4: From the second condition: $(x-3) = 4(y-3) \\implies x-3 = 4y-12 \\implies x-4y = -9$ (Eq. II).<br>Step 5: Subtract Eq. II from Eq. I: $(x+y) - (x-4y) = 31 - (-9) \\implies 5y=40 \\implies y=8$.<br>Step 6: Substitute y in Eq. I: $x+8=31 \\implies x=23$.<br>Step 7: Manish's present age is 23 years and Savita's is 8 years.",
-    "marks": 3
+    "text": "From the graph of a line passing through (0, 4) and (4, 0), write its equation and find the intercepts. Also find the area of triangle formed with the axes. [SSC 2017]",
+    "answer": "Intercept form: x/4 + y/4 = 1 -> x + y = 4. Intercepts: (4, 0), (0, 4). Area = (1/2) × 4 × 4 = 8 sq. units.",
+    "marks": 4
   },
   {
     "type": "long",
-    "text": "In a factory the ratio of salary of skilled and unskilled workers is 5:3. Total salary of one day of both of them is Rs 720. Find daily wages of skilled and unskilled workers.",
-    "answer": "Step 1: Let the daily wage of a skilled worker be Rs x and an unskilled worker be Rs y.<br>Step 2: From the ratio: $x/y = 5/3 \\implies 3x=5y \\implies 3x-5y=0$ (Eq. I).<br>Step 3: From the total salary: $x+y=720$ (Eq. II).<br>Step 4: Multiply Eq. II by 5: $5x+5y=3600$.<br>Step 5: Add this to Eq. I: $(3x-5y) + (5x+5y) = 0+3600 \\implies 8x=3600 \\implies x=450$.<br>Step 6: Substitute x in Eq. II: $450+y=720 \\implies y=270$.<br>Step 7: The daily wage of a skilled worker is Rs. 450 and an unskilled worker is Rs. 270.",
-    "marks": 3
+    "text": "A mobile plan has a monthly rental of Rs. 199 and Rs. 1.5 per SMS. Write the linear equation relating monthly cost y and number of SMS x. Draw the graph and estimate cost for 120 SMS. [Predicted 2025]",
+    "answer": "y = 199 + 1.5x. Points: (0, 199), (100, 349). For x = 120: y = 199 + 1.5(120) = 379.",
+    "marks": 4
   },
   {
     "type": "long",
-    "text": "Places A and B are 30 km apart and they are on a straight road. Hamid travels from A to B on bike. At the same time Joseph starts from B on bike, travels towards A. They meet each other after 20 minutes. If Joseph would have started from B at the same time but in the opposite direction (instead of towards A), Hamid would have caught him after 3 hours. Find the speed of Hamid and Joseph.",
-    "answer": "Step 1: Let the speed of Hamid be x km/hr and Joseph be y km/hr.<br>Step 2: Case 1 (Travelling towards each other): Relative speed = $(x+y)$. Time = 20 min = 1/3 hr. Distance = 30 km. Equation: $(x+y) \\times (1/3) = 30 \\implies x+y=90$ (Eq. I).<br>Step 3: Case 2 (Travelling in the same direction): Relative speed = $(x-y)$ (assuming x>y). Time = 3 hr. Distance = 30 km. Equation: $(x-y) \\times 3 = 30 \\implies x-y=10$ (Eq. II).<br>Step 4: Add Eq. I and Eq. II: $2x=100 \\implies x=50$.<br>Step 5: Substitute x in Eq. I: $50+y=90 \\implies y=40$.<br>Step 6: The speed of Hamid is 50 km/hr and Joseph is 40 km/hr.",
+    "text": "Two numbers x and y add up to 30. Write a linear equation, prepare a value table for at least four pairs, and show that all such solutions lie on a straight line. [SSC 2020]",
+    "answer": "x + y = 30. Sample pairs: (0,30), (10,20), (20,10), (30,0). Plot points—they are collinear, forming the line x + y = 30.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The total revenue R (in Rs.) from selling x units of a product at Rs. 75 each and y units at Rs. 50 each is Rs. 2000. Write the linear equation. Find two solutions and interpret. [SSC 2022]",
+    "answer": "75x + 50y = 2000 -> divide by 25: 3x + 2y = 80. Solutions: x=0->y=40; x=20->y=20. Interpretation: feasible sales mixes for revenue 2000.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Draw the graph of 2x + y = 8 using any two points. Find coordinates where it meets the axes, and compute area of the triangle formed with the axes. [SSC 2016]",
+    "answer": "Intercepts: (4,0) and (0,8). Pick (0,8) and (4,0) to draw. Area = (1/2) × 4 × 8 = 16 sq. units.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "For a school funfair, entry ticket for adults is Rs. 50 and for children is Rs. 20. If total collection is Rs. 2000, write a linear equation and obtain three distinct solutions. Explain the meaning of each solution. [Predicted 2025]",
+    "answer": "50x + 20y = 2000 -> 5x + 2y = 200. Solutions: (0,100), (20,50), (40,0). Meaning: (x,y) is (adults, children) combinations reaching Rs. 2000.",
     "marks": 4
   }
 ]

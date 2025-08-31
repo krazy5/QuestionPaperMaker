@@ -1,374 +1,482 @@
 [
-  {
-    "type": "short",
-    "text": "Prove that ΔH = ΔU + ΔnRT. What is the condition under which ΔU = ΔH? (March 2013)",
-    "answer": "Proof: By definition, enthalpy $H = U + PV$. The change in enthalpy is $\\Delta H = \\Delta U + \\Delta(PV)$. \nFor a process at constant pressure, this becomes $\\Delta H = \\Delta U + P\\Delta V$. \nLet $V_1$ and $V_2$ be initial and final volumes for $n_1$ and $n_2$ moles of gas respectively. \n$\\Delta H = \\Delta U + P(V_2 - V_1) = \\Delta U + PV_2 - PV_1$. \nAssuming ideal gas behavior, $PV_1 = n_1RT$ and $PV_2 = n_2RT$. \nSubstituting these gives: $\\Delta H = \\Delta U + n_2RT - n_1RT = \\Delta U + (n_2 - n_1)RT$. \nTherefore, $\\Delta H = \\Delta U + \\Delta n_{gas}RT$. \n\nConditions under which $\\Delta U = \\Delta H$: \n1.  When the change in the number of moles of gas is zero ($\\Delta n_{gas} = 0$). \n2.  When the reaction involves only solids, liquids, or solutions, where the change in volume ($\\Delta V$) is negligible. \n3.  When the reaction is carried out in a closed container (constant volume, $\\Delta V = 0$).",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "300 mol of perfect gas occupies 13L at 320 K. Calculate the work done in joules when the gas expands- (a) isothermally against a constant external pressure of 0.20 atm. (b) isothermal and reversible process. (c) into vacuum until the volume of gas is increased by 3L. [R = 8.314 J mol⁻¹ K⁻¹] (March 2013)",
-    "answer": "This question appears to have conflicting/missing data. For (a) and (b), the final volume is not specified. The '3L' increase in (c) may apply to all parts. Let's assume the volume increases *by* 3L (from 13L to 16L, so $\\Delta V = 3L$). \n(a) **Irreversible expansion:** Work done against constant external pressure is $W = -P_{ext}\\Delta V$. \n$W = -0.20 \\text{ atm} \\times 3 \\text{ L} = -0.6$ L atm. Converting to Joules (1 L atm = 101.325 J): $W = -0.6 \\times 101.325 = -60.795$ J. (This matches the book's answer). \n(b) **Isothermal reversible expansion:** $W_{rev} = -2.303 nRT \\log_{10}(V_2/V_1)$. The number of moles 'n=300' seems excessively large for the volume. There may be a typo. Using n=300: $W = -2.303 \\times 300 \\times 8.314 \\times 320 \\times \\log_{10}(16/13) \\approx -1.83 \\times 10^6 \\times 0.09 = -165485$ J = -165.5 kJ. (The book's answer magnitude is 1000 times smaller, suggesting n=0.3 mol was intended). \n(c) **Expansion into vacuum:** Expansion into a vacuum means the external pressure ($P_{ext}$) is zero. Therefore, work done $W = -P_{ext}\\Delta V = -0 \\times 3 \\text{ L} = 0$ J.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Explain with reason sign conventions of $\\Delta S$ in the following reactions: (i) $N_{2(g)} + 3H_{2(g)} \\rightarrow 2NH_{3(g)}$ (ii) $CO_{2(g)} \\rightarrow CO_{2(s)}$ (March 2013)",
-    "answer": "Entropy (S) is a measure of randomness or disorder. \n(i) $N_{2(g)} + 3H_{2(g)} \\rightarrow 2NH_{3(g)}$: Here, 4 moles of gaseous reactants form 2 moles of gaseous product. The number of moles of gas decreases ($\\Delta n_{gas} = 2 - 4 = -2$). A decrease in the number of gas particles leads to a decrease in randomness. Therefore, the change in entropy, $\\Delta S$, is **negative**. \n(ii) $CO_{2(g)} \\rightarrow CO_{2(s)}$: This is a phase change from gas to solid (deposition). The gaseous state is highly disordered, while the solid state is highly ordered. This transition leads to a significant decrease in randomness. Therefore, the change in entropy, $\\Delta S$, is **negative**.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate $\\Delta H^\\circ$ for the following reaction: $2H_3BO_{3(aq)} \\rightarrow B_2O_{3(s)} + 3H_2O_{(l)}$ Given that: (a) $H_3BO_{3(aq)} \\rightarrow HBO_{2(aq)} + H_2O_{(l)}, \\Delta H^\\circ_1 = -0.02$ kJ (b) $H_2B_4O_{7(s)} + H_2O_{(l)} \\rightarrow 4HBO_{2(aq)}, \\Delta H^\\circ_2 = -11.58$ kJ (c) $H_2B_4O_{7(s)} \\rightarrow 2B_2O_{3(s)} + H_2O_{(l)}, \\Delta H^\\circ_3 = 17.3$ kJ (Oct. 2013)",
-    "answer": "Target reaction: $2H_3BO_{3(aq)} \\rightarrow B_2O_{3(s)} + 3H_2O_{(l)}$ \nWe use Hess's Law. Let's manipulate the given equations: \n1.  Multiply Eq. (a) by 2: $2H_3BO_{3(aq)} \\rightarrow 2HBO_{2(aq)} + 2H_2O_{(l)}$; $\\Delta H = 2 \\times (-0.02) = -0.04$ kJ. \n2.  Reverse and divide Eq. (b) by 2: $2HBO_{2(aq)} \\rightarrow \\frac{1}{2}H_2B_4O_{7(s)} + \\frac{1}{2}H_2O_{(l)}$; $\\Delta H = -\\frac{1}{2}(-11.58) = +5.79$ kJ. \n3.  Divide Eq. (c) by 2: $\\frac{1}{2}H_2B_4O_{7(s)} \\rightarrow B_2O_{3(s)} + \\frac{1}{2}H_2O_{(l)}$; $\\Delta H = \\frac{1}{2}(17.3) = +8.65$ kJ. \nNow, add the three manipulated equations. The intermediates $2HBO_2$ and $\\frac{1}{2}H_2B_4O_7$ cancel out. \nThe net reaction is: $2H_3BO_{3(aq)} \\rightarrow B_2O_{3(s)} + (2 + \\frac{1}{2} + \\frac{1}{2})H_2O_{(l)} = B_2O_{3(s)} + 3H_2O_{(l)}$. \nThe total enthalpy change is the sum of the individual changes: \n$\\Delta H^\\circ = (-0.04) + (5.79) + (8.65) = +14.40$ kJ.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "What are the conditions for spontaneous and non-spontaneous reactions in terms of free energy change? Define free energy. (Oct. 2013)",
-    "answer": "Conditions for spontaneity in terms of Gibbs free energy change ($\\Delta G$) at constant temperature and pressure: \n-   If $\\Delta G < 0$ (negative), the reaction is **spontaneous**. \n-   If $\\Delta G > 0$ (positive), the reaction is **non-spontaneous**. \n-   If $\\Delta G = 0$, the reaction is at **equilibrium**. \n\n**Free Energy (Gibbs Free Energy, G):** It is a thermodynamic potential that represents the maximum amount of reversible, non-expansion work that can be extracted from a closed system at constant temperature and pressure. It is defined by the equation $G = H - TS$, where H is enthalpy, T is absolute temperature, and S is entropy.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Derive the relation ΔH - ΔU = ΔnRT. (Oct. 2013)",
-    "answer": "The relationship starts with the definition of enthalpy, $H = U + PV$. The change in enthalpy for a process is $\\Delta H = \\Delta U + \\Delta(PV)$. \nFor a reaction at constant temperature and pressure involving gases, $\\Delta(PV) = P\\Delta V$. \nLet $n_1$ and $n_2$ be the moles of gaseous reactants and products, respectively. \nUsing the ideal gas law, $PV_1 = n_1RT$ and $PV_2 = n_2RT$. \n$P\\Delta V = P(V_2 - V_1) = n_2RT - n_1RT = (n_2 - n_1)RT$. \nLet $\\Delta n_{gas} = n_2 - n_1$. \nSo, $P\\Delta V = \\Delta n_{gas}RT$. \nSubstituting this back into the enthalpy equation gives $\\Delta H = \\Delta U + \\Delta n_{gas}RT$. \nRearranging gives the desired relation: $\\Delta H - \\Delta U = \\Delta n_{gas}RT$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "One mole of a gas expands by 3L against a constant pressure of 3 atmosphere. Calculate the work done in: (a) L. atmosphere (b) Joules (c) Calories. (March 2014)",
-    "answer": "Given: $n=1$ mole, $\\Delta V = 3$ L, $P_{ext} = 3$ atm. \nWork done during expansion against a constant external pressure is given by $W = -P_{ext}\\Delta V$. \n(a) **Work in L.atm:** \n$W = -(3 \\text{ atm}) \\times (3 \\text{ L}) = -9$ L.atm. (The negative sign indicates work is done by the system). \n\n(b) **Work in Joules:** \nUsing the conversion factor 1 L.atm = 101.325 J. \n$W = -9 \\text{ L.atm} \\times 101.325 \\frac{\\text{J}}{\\text{L.atm}} = -911.925$ J. \n\n(c) **Work in Calories:** \nUsing the conversion factor 1 cal = 4.184 J. \n$W = -911.925 \\text{ J} \\div 4.184 \\frac{\\text{J}}{\\text{cal}} \\approx -217.98$ cal.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Derive the relation between ΔG⁰ and equilibrium constant (K) for the reaction aA + bB <=> cC + dD. (March 2014)",
-    "answer": "The van't Hoff reaction isotherm relates the Gibbs free energy change under non-standard conditions ($\\Delta G$) to the standard free energy change ($\\Delta G^\\circ$): \n$\\Delta G = \\Delta G^\\circ + RT\\ln Q$ \nwhere R is the gas constant, T is the temperature, and Q is the reaction quotient. For the reaction aA + bB <=> cC + dD, the reaction quotient is $Q = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$. \nAt equilibrium, two conditions are met: \n1.  The net free energy change is zero, so $\\Delta G = 0$. \n2.  The reaction quotient becomes equal to the equilibrium constant, $Q = K$. \nSubstituting these conditions into the isotherm equation: \n$0 = \\Delta G^\\circ + RT\\ln K$. \nRearranging this equation gives the final relationship: \n$\\Delta G^\\circ = -RT\\ln K$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "What is the value of $\\Delta S_{surr}$ for the following reaction at 298K? $6CO_{2(g)} + 6H_2O_{(l)} \\rightarrow C_6H_{12}O_{6(s)} + 6O_{2(g)}$. Given that, $\\Delta G^\\circ = +2879$ kJ mol⁻¹, $\\Delta S^\\circ_{sys} = -210$ J K⁻¹ mol⁻¹. (Oct. 2014)",
-    "answer": "The entropy change of the surroundings ($\\Delta S_{surr}$) is related to the enthalpy change of the system ($\\Delta H_{sys}$) by the formula: $\\Delta S_{surr} = -\\frac{\\Delta H_{sys}}{T}$. \nFirst, we need to find $\\Delta H^\\circ_{sys}$ using the Gibbs-Helmholtz equation: $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$. \nGiven: $\\Delta G^\\circ = +2879$ kJ/mol = $2879000$ J/mol. $\\Delta S^\\circ_{sys} = -210$ J K⁻¹/mol. $T = 298$ K. \nRearranging to solve for $\\Delta H^\\circ_{sys}$: \n$\\Delta H^\\circ_{sys} = \\Delta G^\\circ + T\\Delta S^\\circ_{sys} = 2879000 + (298 \\times -210) = 2879000 - 62580 = 2816420$ J/mol. \nNow, calculate $\\Delta S_{surr}$: \n$\\Delta S_{surr} = -\\frac{2816420 \\text{ J/mol}}{298 \\text{ K}} = -9451.07$ J K⁻¹/mol = $-9.451$ kJ K⁻¹/mol.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "State and explain Hess's law of constant heat summation. (Oct. 2014; July 2018; March 2020)",
-    "answer": "**Hess's Law of Constant Heat Summation states** that the total enthalpy change for a chemical reaction is the same, regardless of whether the reaction is completed in one step or in multiple steps. \n**Explanation:** Enthalpy is a state function, meaning its value depends only on the initial and final states of the system, not on the path taken between them. Therefore, if a reaction can be expressed as an algebraic sum of several other reactions, the overall enthalpy change is the algebraic sum of the enthalpy changes of those individual reactions.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Derive the equation: W = -PₑₓΔV. (March 2015)",
-    "answer": "This equation represents the pressure-volume (PV) work done. By definition, work is the product of force (F) and displacement (d): $W = F \\times d$. \nIn a cylinder with a piston of cross-sectional area A, the force exerted by an external pressure $P_{ext}$ is $F = P_{ext} \\times A$. \nIf the piston moves a distance d, the work done on the gas is $W = (P_{ext} \\times A) \\times d$. \nThe product of area and displacement ($A \\times d$) is the change in volume, $\\Delta V$. \nSo, $W = P_{ext} \\Delta V$. \nBy IUPAC convention, work done *on* the system is positive. If the gas is compressed, $\\Delta V = V_{final} - V_{initial}$ is negative, but work is done on the system (positive). If the gas expands, $\\Delta V$ is positive, but work is done by the system (negative). To match this convention, a negative sign is introduced: $W = -P_{ext}\\Delta V$.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define the following terms: (a) Enthalpy of fusion (b) Enthalpy of atomization. (March 2015)",
-    "answer": "(a) **Enthalpy of fusion ($\\Delta_{fus}H$)**: The enthalpy change that occurs when one mole of a solid substance is converted into its liquid state at its melting point and under constant pressure. \n(b) **Enthalpy of atomization ($\\Delta_{a}H$)**: The enthalpy change that accompanies the process of breaking all the bonds in one mole of a substance to produce its constituent atoms in the gaseous phase.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Determine whether the reactions with the following ΔH and ΔS values are spontaneous or non-spontaneous. State whether the reactions are exothermic or endothermic. (a) ΔH = -110 kJ, ΔS = +40 JK⁻¹ at 400 K (b) ΔH = +40 kJ, ΔS = -120 JK⁻¹ at 250 K. (March 2015)",
-    "answer": "We use the Gibbs-Helmholtz equation $\\Delta G = \\Delta H - T\\Delta S$. \n(a) $\\Delta H = -110$ kJ (negative, so **exothermic**). $\\Delta S = +40$ JK⁻¹ = 0.040 kJ K⁻¹. T = 400 K. \n$\\Delta G = -110 - (400 \\times 0.040) = -110 - 16 = -126$ kJ. \nSince $\\Delta G$ is negative, the reaction is **spontaneous**. \n\n(b) $\\Delta H = +40$ kJ (positive, so **endothermic**). $\\Delta S = -120$ JK⁻¹ = -0.120 kJ K⁻¹. T = 250 K. \n$\\Delta G = +40 - (250 \\times -0.120) = +40 - (-30) = +40 + 30 = +70$ kJ. \nSince $\\Delta G$ is positive, the reaction is **non-spontaneous**.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write one statement of first law of thermodynamics and its mathematical expression. (March 2015)",
-    "answer": "**Statement:** The first law of thermodynamics, also known as the Law of Conservation of Energy, states that energy can neither be created nor destroyed, but can only be transformed from one form to another. Alternatively, the change in internal energy of a closed system is equal to the heat supplied to the system minus the work done by the system. \n**Mathematical expression:** $\\Delta U = q + W$, where $\\Delta U$ is the change in internal energy, q is the heat supplied to the system, and W is the work done on the system.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Derive an expression for maximum work in isothermal reversible expansion of two moles of an ideal gas. (Oct. 2015)",
-    "answer": "Maximum work ($W_{max}$) is obtained in an isothermal reversible process. The work done in a small reversible volume change $dV$ is $dW_{max} = -PdV$. To find the total work for an expansion from volume $V_1$ to $V_2$, we integrate: \n$W_{max} = -\\int_{V_1}^{V_2} P dV$. \nFor 'n' moles of an ideal gas, the ideal gas law is $PV = nRT$, so $P = nRT/V$. \n$W_{max} = -\\int_{V_1}^{V_2} \\frac{nRT}{V} dV = -nRT \\int_{V_1}^{V_2} \\frac{1}{V} dV$. \n$W_{max} = -nRT [\\ln V]_{V_1}^{V_2} = -nRT (\\ln V_2 - \\ln V_1) = -nRT \\ln(\\frac{V_2}{V_1})$. \nConverting to base-10 logarithm: $W_{max} = -2.303 nRT \\log_{10}(\\frac{V_2}{V_1})$. \nFor two moles of gas (n=2), the expression is: $W_{max} = -2.303 \\times 2 \\times RT \\log_{10}(\\frac{V_2}{V_1})$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "The equilibrium constant Kₚ for the reaction $H_{2(g)} + I_{2(g)} \\rightleftharpoons 2HI_{(g)}$ is 130 at 510 K. Calculate $\\Delta G^\\circ$ for the following reaction at the same temperature: $2HI_{(g)} \\rightleftharpoons H_{2(g)} + I_{2(g)}$. [Given: R = 8.314 JK⁻¹ mol⁻¹.] (Oct. 2015)",
-    "answer": "The first reaction is $H_{2(g)} + I_{2(g)} \\rightleftharpoons 2HI_{(g)}$, with $K_p = 130$. \nThe target reaction, $2HI_{(g)} \\rightleftharpoons H_{2(g)} + I_{2(g)}$, is the reverse of the first reaction. \nThe equilibrium constant for the target reaction, let's call it $K_p'$, is the reciprocal of the original $K_p$. \n$K_p' = \\frac{1}{K_p} = \\frac{1}{130}$. \nNow, we calculate the standard Gibbs free energy change, $\\Delta G^\\circ$, using the formula $\\Delta G^\\circ = -RT\\ln K$. \n$\\Delta G^\\circ = -(8.314 \\text{ J K}^{-1} \\text{mol}^{-1})(510 \\text{ K}) \\ln(\\frac{1}{130})$. \n$\\Delta G^\\circ = -4240.14 \\times (\\ln(1) - \\ln(130)) = -4240.14 \\times (0 - 4.8675) = +20641.5$ J mol⁻¹. \n$\\Delta G^\\circ = +20.64$ kJ mol⁻¹. (The book answer 20490 J is very close).",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "State: (a) Second law of thermodynamics in terms of entropy (b) Third law of thermodynamics. (Oct. 2015)",
-    "answer": "(a) **Second law of thermodynamics:** In any spontaneous process, the total entropy of the universe (system plus surroundings) always increases. ($\\{\\Delta S_{universe} > 0\\}$). \n(b) **Third law of thermodynamics:** The entropy of a perfect, pure crystalline solid is zero at the absolute zero of temperature (0 Kelvin).",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write mathematical equations of first law of thermodynamics for the following processes: (a) Adiabatic process (b) Isochoric process. (March 2016)",
-    "answer": "The first law of thermodynamics is $\\Delta U = q + W$. \n(a) **Adiabatic process:** A process where there is no heat exchange with the surroundings, so $q = 0$. The equation becomes $\\Delta U = W$. \n(b) **Isochoric process:** A process that occurs at constant volume, so $\\Delta V = 0$. Since pressure-volume work is $W = -P_{ext}\\Delta V$, no PV-work is done, so $W = 0$. The equation becomes $\\Delta U = q_V$ (where $q_V$ is heat at constant volume).",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define Enthalpy of sublimation. How is it related to enthalpy of fusion and enthalpy of vaporization? (March 2016)",
-    "answer": "**Enthalpy of sublimation ($\\Delta_{sub}H$)**: It is the enthalpy change required to convert one mole of a solid directly into its gaseous state at a constant temperature and pressure. \n**Relationship**: According to Hess's law, sublimation (solid to gas) can be viewed as a two-step process: melting/fusion (solid to liquid) followed by vaporization (liquid to gas). Therefore, the enthalpy of sublimation is the sum of the enthalpy of fusion and the enthalpy of vaporization at the same temperature. \n$\\Delta_{sub}H = \\Delta_{fus}H + \\Delta_{vap}H$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate C - Cl bond enthalpy from following reaction: $CH_{3}Cl_{(g)} + Cl_{2(g)} \\rightarrow CH_2Cl_{2(g)} + HCl_{(g)}$; $\\Delta H^\\circ = -104$ kJ. If C - H, Cl - Cl and H - Cl bond enthalpies are 414, 243 and 431 kJ.mol⁻¹ respectively. (March 2016)",
-    "answer": "The reaction enthalpy is calculated as: \n$\\Delta H^\\circ = \\sum (\\text{Bond enthalpies of reactants}) - \\sum (\\text{Bond enthalpies of products})$. \n**Bonds broken (Reactants):** \n- In $CH_3Cl$, one C-H bond is broken. \n- In $Cl_2$, one Cl-Cl bond is broken. \n**Bonds formed (Products):** \n- In forming $CH_2Cl_2$ from $CH_3Cl$, one C-Cl bond is formed. \n- In forming $HCl$, one H-Cl bond is formed. \n(Note: We only consider the bonds that are broken and formed in the transformation). \n$\\Delta H^\\circ = [BE(C-H) + BE(Cl-Cl)] - [BE(C-Cl) + BE(H-Cl)]$. \n$-104 = [414 + 243] - [BE(C-Cl) + 431]$. \n$-104 = 657 - BE(C-Cl) - 431$. \n$-104 = 226 - BE(C-Cl)$. \n$BE(C-Cl) = 226 + 104 = 330$ kJ mol⁻¹.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Explain the relationship between Gibb's standard energy change of the reaction and equilibrium constant. (July 2016)",
-    "answer": "The relationship between the standard Gibbs free energy change ($\\Delta G^\\circ$) and the equilibrium constant (K) for a reaction is given by the equation: \n$\\Delta G^\\circ = -RT\\ln K$  or  $\\Delta G^\\circ = -2.303 RT\\log_{10} K$. \nHere, R is the ideal gas constant and T is the absolute temperature. This equation shows: \n- If $K > 1$, $\\ln K$ is positive, making $\\Delta G^\\circ$ negative (spontaneous reaction under standard conditions). \n- If $K < 1$, $\\ln K$ is negative, making $\\Delta G^\\circ$ positive (non-spontaneous reaction under standard conditions). \n- If $K = 1$, $\\ln K$ is zero, making $\\Delta G^\\circ$ zero (reaction is at equilibrium under standard conditions).",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the standard enthalpy of the reaction, $2C_{2}H_{6(g)} + 7O_{2(g)} \\rightarrow 4CO_{2(g)} + 6H_2O_{(l)}$ from the following $\\Delta H^\\circ$ values: \n(a) $C_2H_6 + \\frac{7}{2}O_2 \\rightarrow 2CO_2 + 3H_2O, \\Delta H^\\circ = -1560$ kJ \n(b) $H_2 + \\frac{1}{2}O_2 \\rightarrow H_2O, \\Delta H^\\circ = -285.8$ kJ \n(c) $C_{(graphite)} + O_2 \\rightarrow CO_2, \\Delta H^\\circ = -393.5$ kJ. (July 2016)",
-    "answer": "The target reaction is: $2C_{2}H_{6(g)} + 7O_{2(g)} \\rightarrow 4CO_{2(g)} + 6H_2O_{(l)}$. \nThe given reaction (a) is: $C_2H_6 + \\frac{7}{2}O_2 \\rightarrow 2CO_2 + 3H_2O$, with $\\Delta H^\\circ = -1560$ kJ. \nBy observing the stoichiometry, the target reaction is exactly twice reaction (a). Therefore, according to Hess's law, the enthalpy change for the target reaction will be twice the enthalpy change of reaction (a). \n$\\Delta H^\\circ_{target} = 2 \\times \\Delta H^\\circ_{(a)} = 2 \\times (-1560 \\text{ kJ}) = -3120$ kJ. \nThe data in (b) and (c) are not required for this specific question. (Note: The book's answer of -84.4 kJ is likely the enthalpy of formation of ethane, $\\Delta_f H^\\circ(C_2H_6)$, which can be calculated from the data but is not what the question asks).",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Define 'enthalpy'. (March 2017)",
-    "answer": "Enthalpy (H) is a thermodynamic state function of a system, defined as the sum of its internal energy (U) and the product of its pressure (P) and volume (V). Mathematically, it is expressed as $H = U + PV$. The change in enthalpy ($\\Delta H$) is equivalent to the heat absorbed or released by a system during a process at constant pressure.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "What will happen to the internal energy if work is done by the system? (March 2017)",
-    "answer": "According to the first law of thermodynamics, $\\Delta U = q + W$. If work is done *by* the system, the sign of W is negative. Therefore, the internal energy ($\\Delta U$) of the system will decrease, assuming no heat is added to the system ($q \\leq 0$). If sufficient heat is added, the internal energy could still increase, but the act of doing work itself causes a decrease in internal energy.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate $\\Delta H^\\circ$ for the reaction between ethene and water to form ethyl alcohol from the following data: $\\Delta_c H^\\circ(C_2H_4) = -1368$ kJ, $\\Delta_c H^\\circ(C_2H_5OH) = -1410$ kJ. Does the calculated $\\Delta H^\\circ$ represent the enthalpy of formation of liquid ethanol? (March 2017)",
-    "answer": "The target reaction is the hydration of ethene: $C_2H_{4(g)} + H_2O_{(l)} \\rightarrow C_2H_5OH_{(l)}$. \nWe can calculate the reaction enthalpy from standard enthalpies of combustion ($\\Delta_c H^\\circ$) using the formula: \n$\\Delta H^\\circ_{reaction} = \\sum \\Delta_c H^\\circ_{reactants} - \\sum \\Delta_c H^\\circ_{products}$. \nThe enthalpy of combustion of water is zero as it is already a product of combustion. \n$\\Delta H^\\circ = [\\Delta_c H^\\circ(C_2H_4) + \\Delta_c H^\\circ(H_2O)] - [\\Delta_c H^\\circ(C_2H_5OH)]$. \n$\\Delta H^\\circ = [-1368 + 0] - [-1410] = -1368 + 1410 = +42$ kJ. (Note: The provided answer of -42 kJ would result if the formula was products-reactants, which is incorrect for combustion enthalpies). \n\n**Does this represent the enthalpy of formation of liquid ethanol?** \n**No**. The standard enthalpy of formation ($\\Delta_f H^\\circ$) is the enthalpy change when one mole of a compound is formed from its constituent **elements** in their standard states (i.e., $2C_{(s)} + 3H_{2(g)} + \\frac{1}{2}O_{2(g)} \\rightarrow C_2H_5OH_{(l)}$). The given reaction starts from compounds ($C_2H_4$ and $H_2O$), not elements.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Derive an expression for maximum work. (March 2017)",
-    "answer": "Maximum work ($W_{max}$) is obtained during an isothermal, reversible expansion of an ideal gas. The incremental work done ($dW$) in a reversible expansion is $dW = -P_{gas}dV$. \nTo find the total work for expansion from an initial volume $V_1$ to a final volume $V_2$, we integrate: \n$W_{max} = -\\int_{V_1}^{V_2} P dV$. \nFor 'n' moles of an ideal gas, $P = nRT/V$. \n$W_{max} = -\\int_{V_1}^{V_2} \\frac{nRT}{V} dV = -nRT \\int_{V_1}^{V_2} \\frac{1}{V} dV$. \n$W_{max} = -nRT [\\ln V]_{V_1}^{V_2} = -nRT (\\ln V_2 - \\ln V_1)$. \nThis gives the expression: $W_{max} = -nRT \\ln(\\frac{V_2}{V_1})$. In base-10 log, it is $W_{max} = -2.303 nRT \\log_{10}(\\frac{V_2}{V_1})$.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write the mathematical expression of the first law of thermodynamics for the following processes. (a) Isothermal (b) Adiabatic (c) Isochoric (d) Isobaric. (July 2017)",
-    "answer": "First Law: $\\Delta U = q + W$. \n(a) **Isothermal process:** Temperature is constant. For an ideal gas, internal energy is a function of temperature only, so $\\Delta U = 0$. The law becomes $0 = q + W$, or $q = -W$. \n(b) **Adiabatic process:** No heat is exchanged with the surroundings, so $q = 0$. The law becomes $\\Delta U = W$. \n(c) **Isochoric process:** Volume is constant, so $\\Delta V = 0$. Work $W = -P_{ext}\\Delta V = 0$. The law becomes $\\Delta U = q_V$. \n(d) **Isobaric process:** Pressure is constant. The law is $\\Delta U = q_p + W$. As $W = -P\\Delta V$ and $q_p = \\Delta H$, the law can be written as $\\Delta U = \\Delta H - P\\Delta V$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the standard enthalpy of combustion of $CH_3COOH_{(l)}$ from the following data: $\\Delta_f H^\\circ (CO_2) = -393.3$ kJ mol⁻¹, $\\Delta_f H^\\circ (H_2O) = -285.8$ kJ mol⁻¹, $\\Delta_f H^\\circ (CH_3COOH) = -483.2$ kJ mol⁻¹. (July 2017)",
-    "answer": "The balanced combustion reaction for acetic acid ($CH_3COOH$) is: \n$CH_3COOH_{(l)} + 2O_{2(g)} \\rightarrow 2CO_{2(g)} + 2H_2O_{(l)}$. \nThe standard enthalpy of a reaction (combustion in this case) is calculated from standard enthalpies of formation ($\\Delta_f H^\\circ$) using the formula: \n$\\Delta H^\\circ_{reaction} = \\sum \\Delta_f H^\\circ_{products} - \\sum \\Delta_f H^\\circ_{reactants}$. \n$\\Delta_c H^\\circ(CH_3COOH) = [2 \\times \\Delta_f H^\\circ(CO_2) + 2 \\times \\Delta_f H^\\circ(H_2O)] - [1 \\times \\Delta_f H^\\circ(CH_3COOH) + 2 \\times \\Delta_f H^\\circ(O_2)]$. \nThe enthalpy of formation of an element in its standard state ($O_{2(g)}$) is zero. \n$\\Delta_c H^\\circ = [2 \\times (-393.3) + 2 \\times (-285.8)] - [-483.2 + 0]$. \n$\\Delta_c H^\\circ = [-786.6 - 571.6] - [-483.2] = -1358.2 + 483.2 = -875.0$ kJ mol⁻¹.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Distinguish between isothermal process and adiabatic process. (July 2018)",
-    "answer": "| Feature             | Isothermal Process                                | Adiabatic Process                                 |\n|---------------------|---------------------------------------------------|---------------------------------------------------|\n| **Temperature** | Remains constant ($\\Delta T = 0$).                 | Changes ($\\Delta T \\neq 0$).                     |\n| **Heat Exchange** | Heat is exchanged with surroundings ($q \\neq 0$).  | No heat is exchanged with surroundings ($q = 0$). |\n| **Internal Energy** | For an ideal gas, $\\Delta U = 0$.                | $\\Delta U = W$ (Change in energy equals work done).|\n| **System Boundary** | The system is enclosed in diathermic walls.       | The system is enclosed in adiabatic (insulated) walls.|",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "State third law of thermodynamics. Give its two uses. (March 2018)",
-    "answer": "**Third Law of Thermodynamics:** The entropy of a pure, perfectly crystalline substance at absolute zero (0 K) is zero. \n**Two Uses:** \n1.  **Calculation of Absolute Entropies:** It provides a fundamental reference point (S=0 at T=0K) that allows for the calculation of the absolute entropy of a substance at any other temperature. \n2.  **Predicting Reaction Spontaneity:** The absolute entropies can be used to calculate the standard entropy change ($\\Delta S^\\circ$) for chemical reactions, which is a key component in calculating the Gibbs free energy change ($\\Delta G^\\circ$) to determine the feasibility of a reaction.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the internal energy at 298K for the formation of one mole of ammonia, if the enthalpy change at constant pressure is -42.0 kJ mol⁻¹. [Given: R = 8.314 JK⁻¹ mol⁻¹] (March 2018)",
-    "answer": "The reaction for the formation of one mole of ammonia from its elements is: \n$\\frac{1}{2}N_{2(g)} + \\frac{3}{2}H_{2(g)} \\rightarrow NH_{3(g)}$. \nGiven: $\\Delta H = -42.0$ kJ/mol = -42000 J/mol, $T = 298$ K, $R = 8.314$ J K⁻¹ mol⁻¹. \nWe use the relation $\\Delta H = \\Delta U + \\Delta n_{gas}RT$. \nFirst, calculate the change in the number of moles of gas, $\\Delta n_{gas}$: \n$\\Delta n_{gas} = (\\text{moles of gaseous products}) - (\\text{moles of gaseous reactants}) = 1 - (\\frac{1}{2} + \\frac{3}{2}) = 1 - 2 = -1$. \nNow, rearrange the formula to calculate $\\Delta U$: \n$\\Delta U = \\Delta H - \\Delta n_{gas}RT = -42000 - (-1 \\times 8.314 \\times 298)$. \n$\\Delta U = -42000 - (-2477.57) = -42000 + 2477.57 = -39522.43$ J/mol. \n$\\Delta U \\approx -39.52$ kJ mol⁻¹.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define: [A] Enthalpy of atomization [B] Enthalpy of vaporization. (July 2018)",
-    "answer": "[A] **Enthalpy of atomization ($\\Delta_{a}H$)**: The enthalpy change that occurs when one mole of a substance is completely broken down into its constituent atoms in the gaseous state under standard conditions. \n[B] **Enthalpy of vaporization ($\\Delta_{vap}H$)**: The enthalpy change required to convert one mole of a liquid into its gaseous state at its boiling point and under constant pressure.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "5 moles of helium expand isothermally and reversibly from a pressure 40 x 10⁻⁵ Nm⁻² to 4 x 10⁻⁵ Nm⁻² at 300 K. Calculate the work done, change in internal energy and heat absorbed during the expansion. [R = 8.314 JK⁻¹ mol⁻¹]. (July 2018)",
-    "answer": "Given: n = 5 mol, $P_1 = 40 \\times 10^{-5}$ Pa, $P_2 = 4 \\times 10^{-5}$ Pa, T = 300 K. \n1. **Work Done ($W_{max}$):** For an isothermal reversible expansion, $W = -2.303 nRT \\log_{10}(\\frac{P_1}{P_2})$. \n$W = -2.303 \\times 5 \\times 8.314 \\times 300 \\times \\log_{10}(\\frac{40 \\times 10^{-5}}{4 \\times 10^{-5}})$. \n$W = -28720 \\times \\log_{10}(10) = -28720 \\times 1 = -28720$ J = -28.72 kJ. \n2. **Change in Internal Energy ($\\Delta U$):** The process is isothermal. For an ideal gas (like Helium), the internal energy depends only on temperature. Since temperature is constant, the change in internal energy is zero. $\\Delta U = 0$. \n3. **Heat Absorbed (q):** From the first law of thermodynamics, $\\Delta U = q + W$. \nSince $\\Delta U = 0$, then $q = -W$. \n$q = -(-28720 \\text{ J}) = +28720$ J = +28.72 kJ.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Write the features of reversible process. (July 2020)",
-    "answer": "Features of a reversible process include: \n1.  The driving force is only infinitesimally greater than the opposing force. \n2.  The process can be reversed at any stage by an infinitesimal change in conditions. \n3.  It proceeds infinitely slowly and is a theoretical ideal. \n4.  The system remains in thermodynamic equilibrium with its surroundings throughout the process. \n5.  The maximum amount of work is obtained from the system during a reversible expansion.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write the conditions for maximum work done by the system. (July 2020)",
-    "answer": "The conditions required for a system to perform the maximum amount of work on its surroundings are that the process must be carried out **reversibly** and **isothermally**. Reversibility ensures that the process occurs through a series of equilibrium states, extracting the most work at each infinitesimal step.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the work done in the following reaction at 50°C. State whether work is done on the system or by the system. $SO_{2(g)} + O_{2(g)} \\rightarrow SO_{3(g)}$ (March 2019)",
-    "answer": "The reaction must be balanced first: $2SO_{2(g)} + O_{2(g)} \\rightarrow 2SO_{3(g)}$. \nWork done is calculated by $W = -\\Delta n_{gas}RT$. \nTemperature $T = 50 + 273.15 = 323.15$ K. \nChange in moles of gas, $\\Delta n_{gas} = n_{products} - n_{reactants} = 2 - (2+1) = -1$. \n$W = -(-1 \\text{ mol}) \\times (8.314 \\text{ J K}^{-1} \\text{ mol}^{-1}) \\times (323.15 \\text{ K}) = +2686.3$ J = +2.686 kJ. \n(Note: The book's answer of +1.343 kJ corresponds to the reaction $SO_2 + \\frac{1}{2}O_2 \\rightarrow SO_3$, for which $\\Delta n_{gas}=-0.5$). \nSince the sign of W is **positive**, work is done **on the system** by the surroundings.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "The standard enthalpy of combustion of formaldehyde $\\Delta_c H^\\circ = -571$ kJ. How much heat will be evolved in the formation of 22 g of $CO_2$? (July 2019)",
-    "answer": "The balanced combustion reaction for formaldehyde ($HCHO$) is: \n$HCHO_{(g)} + O_{2(g)} \\rightarrow CO_{2(g)} + H_2O_{(l)}$, with $\\Delta_c H^\\circ = -571$ kJ. \nThis stoichiometry shows that for every 1 mole of $CO_2$ formed, 571 kJ of heat is evolved. \nMolar mass of $CO_2 = 12.01 + 2(16.00) = 44.01$ g/mol. \nSo, the formation of 44.01 g of $CO_2$ evolves 571 kJ of heat. \nTo find the heat evolved for 22 g of $CO_2$: \nHeat evolved = $\\frac{571 \\text{ kJ}}{44.01 \\text{ g}} \\times 22 \\text{ g} \\approx 285.4$ kJ. \nApproximately 285.5 kJ of heat will be evolved.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "How much heat will be evolved in the conversion of carbon into carbon dioxide can not perform the work. Give reason. (July 2019)",
-    "answer": "This question is likely asking why no work is done in the reaction $C_{(s)} + O_{2(g)} \\rightarrow CO_{2(g)}$. \nReason: Pressure-volume work is given by $W = -P\\Delta V$ or $W = -\\Delta n_{gas}RT$. \nIn this reaction, 1 mole of solid carbon reacts with 1 mole of gaseous oxygen to produce 1 mole of gaseous carbon dioxide. The change in the number of moles of gas is: \n$\\Delta n_{gas} = (\\text{moles of gas products}) - (\\text{moles of gas reactants}) = 1 - 1 = 0$. \nSince $\\Delta n_{gas} = 0$, the work done is $W=0$. Therefore, the reaction does not perform any pressure-volume work. The heat evolved ($\\Delta H$) is equal to the change in internal energy ($\\Delta U$).",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Define the term enthalpy. Classify the following properties into intensive and extensive properties: (i) Pressure (ii) Density (iii) Work (iv) Heat. (July 2019)",
-    "answer": "**Enthalpy (H)** is a thermodynamic state function defined as the sum of a system's internal energy (U) and the product of its pressure (P) and volume (V): $H = U + PV$. \n**Classification:** \n-   **Intensive properties** do not depend on the amount of matter. \n-   **Extensive properties** depend on the amount of matter. \n(i) Pressure: **Intensive** \n(ii) Density: **Intensive** \n(iii) Work: **Extensive** \n(iv) Heat (or Heat Capacity): **Extensive**",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Calculate the work done by the following chemical reaction: $2NH_4NO_{2(s)} \\rightarrow 2N_{2(g)} + O_{2(g)} + 4H_2O_{(g)}$. State whether the work is done on the system or by the system. (July 2019)",
-    "answer": "The question seems to have a typo in the reactant ($2NH_3NO_2$) and the products ($O_2$ is not formed). Assuming the standard decomposition of Ammonium Nitrite: $NH_4NO_{2(s)} \\rightarrow N_{2(g)} + 2H_2O_{(g)}$. Let's use this. \nTo calculate work, a temperature must be assumed. Let's assume standard temperature T = 298 K. \nWork done, $W = -\\Delta n_{gas}RT$. \nFor $NH_4NO_2(s) \\rightarrow N_2(g) + 2H_2O(g)$, $\\Delta n_{gas} = (1+2) - 0 = 3$. \n$W = -3 \\times 8.314 \\times 298 = -7432.7$ J = -7.43 kJ. \n(Using the reaction as written in the question gives $\\Delta n_{gas} = (2+1+4)-0 = 7$. $W = -7 \\times 8.314 \\times 298 = -17.34$ kJ, close to the book's -18.62 kJ which is obtained at T=320K). \nSince W is **negative**, work is done **by the system** on the surroundings.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "For the reaction: $N_{2}O_{4(g)} \\rightleftharpoons 2NO_{2(g)}$, $\\Delta H^\\circ = +57.24$ kJ, $\\Delta S^\\circ = 175.8$ JK⁻¹. At what temperature the reaction will be spontaneous? (July 2019)",
-    "answer": "A reaction becomes spontaneous when the Gibbs free energy change, $\\Delta G$, is negative. The crossover temperature, where the reaction changes from non-spontaneous to spontaneous, is the equilibrium temperature ($T_{eq}$) where $\\Delta G = 0$. \nUsing the Gibbs-Helmholtz equation: $\\Delta G = \\Delta H - T\\Delta S$. \nSetting $\\Delta G = 0$: $0 = \\Delta H - T_{eq}\\Delta S$, which gives $T_{eq} = \\frac{\\Delta H}{\\Delta S}$. \nGiven: $\\Delta H^\\circ = 57.24$ kJ = 57240 J. $\\Delta S^\\circ = 175.8$ J K⁻¹. \n$T_{eq} = \\frac{57240 \\text{ J}}{175.8 \\text{ J K}^{-1}} \\approx 325.6$ K. \nSince both $\\Delta H$ and $\\Delta S$ are positive, the $-T\\Delta S$ term will overcome the positive $\\Delta H$ term at high temperatures. Therefore, the reaction will be spontaneous at temperatures **above 325.6 K**.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define: (a) Reversible process (b) Standard enthalpy of combustion. (March 2020)",
-    "answer": "(a) **Reversible process:** A theoretical process that occurs infinitely slowly through a series of equilibrium states, such that its direction can be reversed by an infinitesimal change in an opposing force. The driving force is only infinitesimally greater than the opposing force. \n(b) **Standard enthalpy of combustion ($\\Delta_c H^\\circ$)**: The enthalpy change that occurs when one mole of a substance in its standard state is completely burned in an excess of pure oxygen under standard conditions (usually 298 K and 1 bar pressure).",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the enthalpy change for the reaction: $N_{2}H_{4(g)} + H_{2(g)} \\rightarrow 2NH_{3(g)}$. The bond enthalpies are: [Given Bond N-H, H-H, N≡N, N-N and their enthalpies in kJ mol⁻¹ 389, 435, 945, 159 respectively] (March 2020)",
-    "answer": "The enthalpy change of a reaction based on bond enthalpies is: \n$\\Delta H = \\sum (\\text{Bond enthalpies of reactants}) - \\sum (\\text{Bond enthalpies of products})$. \n**Reactants:** Hydrazine ($N_2H_4$) has 1 (N-N) single bond and 4 (N-H) bonds. Hydrogen ($H_2$) has 1 (H-H) bond. \n**Products:** Ammonia ($NH_3$) has 3 (N-H) bonds. There are 2 moles of ammonia, so a total of $2 \\times 3 = 6$ (N-H) bonds are formed. \n$\\Delta H = [BE(N-N) + 4 \\times BE(N-H) + BE(H-H)] - [6 \\times BE(N-H)]$. \n$\\Delta H = [159 + 4 \\times 389 + 435] - [6 \\times 389]$. \n$\\Delta H = [159 + 1556 + 435] - [2334] = 2150 - 2334 = -184$ kJ. \n(Note: The N≡N bond energy is not needed. The provided answer of -83 kJ is incorrect based on the given data).",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "In a particular reaction, 2 kJ of heat is released by the system and 6 kJ of work is done on the system. Calculate $\\Delta U$ & $\\Delta H$. (Sept. 2021)",
-    "answer": "Given: Heat is released *by* the system, so $q = -2$ kJ. Work is done *on* the system, so $W = +6$ kJ. \n1. **Calculate $\\Delta U$ (Change in Internal Energy):** \nUsing the first law of thermodynamics, $\\Delta U = q + W$. \n$\\Delta U = (-2 \\text{ kJ}) + (+6 \\text{ kJ}) = +4$ kJ. \n\n2. **Calculate $\\Delta H$ (Change in Enthalpy):** \nThe relationship is $\\Delta H = \\Delta U + \\Delta(PV)$. To calculate $\\Delta H$, information about the change in pressure and volume, or the change in moles of gas ($\\{\\Delta n_{gas}\\}$) and temperature, is required. Since this information is not provided, **$\\Delta H$ cannot be calculated from the given data.**",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define: (i) Intensive property (ii) Enthalpy of sublimation. (Sept. 2021)",
-    "answer": "(i) **Intensive property:** A property of a system that is independent of the amount of substance present. Its value does not change if the system is subdivided. Examples include temperature, pressure, and density. \n(ii) **Enthalpy of sublimation ($\\Delta_{sub}H$)**: The enthalpy change that accompanies the conversion of one mole of a solid substance directly into its gaseous state at a constant temperature and pressure.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "2 moles of an ideal gas are expanded isothermally and reversibly from 20L to 30L at 300K. Calculate the work done. (R = 8.314 JK⁻¹ mol⁻¹). (Sept. 2021)",
-    "answer": "Given: n = 2 mol, $V_1 = 20$ L, $V_2 = 30$ L, T = 300 K, R = 8.314 J K⁻¹ mol⁻¹. \nFor an isothermal reversible expansion, the work done ($W_{max}$) is calculated as: \n$W_{max} = -2.303 nRT \\log_{10}(\\frac{V_2}{V_1})$. \n$W_{max} = -2.303 \\times 2 \\times 8.314 \\times 300 \\times \\log_{10}(\\frac{30}{20})$. \n$W_{max} = -11488.28 \\times \\log_{10}(1.5) = -11488.28 \\times 0.1761 \\approx -2023.08$ J. \n$W_{max} = -2.023$ kJ.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "One mole of an ideal gas is expanded isothermally and reversibly form 10 L to 15 L at 300 K. Calculate the work done in the process. (March 2022)",
-    "answer": "Given: n = 1 mol, $V_1 = 10$ L, $V_2 = 15$ L, T = 300 K. Use R = 8.314 J K⁻¹ mol⁻¹. \nFor an isothermal reversible expansion, work done is given by: \n$W = -2.303 nRT \\log_{10}(V_2/V_1)$. \n$W = -2.303 \\times 1 \\times 8.314 \\times 300 \\times \\log_{10}(15/10)$. \n$W = -5744.14 \\times \\log_{10}(1.5) = -5744.14 \\times 0.1761 \\approx -1011.5$ J.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the standard enthalpy of formation of CH₃OH from the following data: \n(i) $CH_3OH_{(l)} + \\frac{3}{2}O_{2(g)} \\rightarrow CO_{2(g)} + 2H_2O_{(l)}$ ; $\\Delta H^\\circ = -726$ kJ mol⁻¹ \n(ii) $C_{(s)} + O_{2(g)} \\rightarrow CO_{2(g)}$ ; $\\Delta H^\\circ = -393$ kJ mol⁻¹ \n(iii) $H_{2(g)} + \\frac{1}{2}O_{2(g)} \\rightarrow H_2O_{(l)}$ ; $\\Delta H^\\circ = -286$ kJ mol⁻¹ (March 2022)",
-    "answer": "The target reaction for the standard enthalpy of formation of methanol ($CH_3OH$) is: \n$C_{(s)} + 2H_{2(g)} + \\frac{1}{2}O_{2(g)} \\rightarrow CH_3OH_{(l)}$. \nWe use Hess's Law to combine the given reactions: \n1.  **Keep reaction (ii) as is:** $C_{(s)} + O_{2(g)} \\rightarrow CO_{2(g)}$; $\\Delta H = -393$ kJ. \n2.  **Multiply reaction (iii) by 2:** $2H_{2(g)} + O_{2(g)} \\rightarrow 2H_2O_{(l)}$; $\\Delta H = 2 \\times (-286) = -572$ kJ. \n3.  **Reverse reaction (i):** $CO_{2(g)} + 2H_2O_{(l)} \\rightarrow CH_3OH_{(l)} + \\frac{3}{2}O_{2(g)}$; $\\Delta H = +726$ kJ. \nNow, add the three modified reactions and cancel common species: \n$C_{(s)} + 2H_{2(g)} + 2O_{2(g)} + CO_{2(g)} + 2H_2O_{(l)} \\rightarrow CH_3OH_{(l)} + \\frac{3}{2}O_{2(g)} + CO_{2(g)} + 2H_2O_{(l)}$. \nNet reaction: $C_{(s)} + 2H_{2(g)} + \\frac{1}{2}O_{2(g)} \\rightarrow CH_3OH_{(l)}$. \nSumming the enthalpies: $\\Delta_f H^\\circ = (-393) + (-572) + (+726) = -965 + 726 = -239$ kJ mol⁻¹.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Write the mathematical equation for the first law of thermodynamics for (i) Isothermal process (ii) Adiabatic process. (March 2022)",
-    "answer": "(i) **Isothermal process:** The temperature is constant, so for an ideal gas, the change in internal energy $\\Delta U = 0$. The first law, $\\Delta U = q + W$, becomes $0 = q + W$, or $q = -W$. \n(ii) **Adiabatic process:** There is no exchange of heat with the surroundings, so $q = 0$. The first law, $\\Delta U = q + W$, becomes $\\Delta U = W$.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Define the relationship between $\\Delta H$ and $\\Delta U$ for gas phase reaction. (July 2022)",
-    "answer": "The relationship between the change in enthalpy ($\\Delta H$) and the change in internal energy ($\\Delta U$) for a reaction involving gases at constant temperature is given by the equation: \n$\\Delta H = \\Delta U + \\Delta n_{gas}RT$. \nWhere $\\Delta n_{gas}$ is the change in the number of moles of gaseous components (moles of gaseous products minus moles of gaseous reactants), R is the ideal gas constant, and T is the absolute temperature.",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Write the correct condition of spontaneity in the terms of Gibb's energy. (March 2023)",
-    "answer": "For a process at constant temperature and pressure, the condition for spontaneity in terms of Gibbs free energy change ($\\Delta G$) is: \n- If $\\Delta G$ is negative ($\\Delta G < 0$), the process is **spontaneous**. \n- If $\\Delta G$ is positive ($\\Delta G > 0$), the process is **non-spontaneous**. \n- If $\\Delta G$ is zero ($\\Delta G = 0$), the system is at **equilibrium**.",
-    "marks": 1
-  },
-  {
-    "type": "long",
-    "text": "Define extensive property. Calculate the work done during the expansion of 2 moles of an ideal gas from 10 dm³ to 20 dm³ at 298 K in vacuum. (March 2023)",
-    "answer": "**Extensive property:** A property of a system that is dependent on the amount of matter or size of the system. Examples include mass, volume, internal energy, enthalpy, and heat capacity. \n\n**Calculation of work done:** \nExpansion of a gas in a vacuum is called free expansion. In a vacuum, the external pressure ($P_{ext}$) is zero. \nThe formula for work done is $W = -P_{ext}\\Delta V$. \nSince $P_{ext} = 0$, the work done is $W = -0 \\times (20 - 10) \\text{ dm}^3 = 0$. \nNo work is done during free expansion.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "2000 J mole of an ideal gas expanded isothermally and reversibly from 20 L to 30 L at 300 K. Calculate the work done in the process. (R = 8.314 JK⁻¹ mol⁻¹) (March 2023)",
-    "answer": "The initial phrase '2000 J mole' appears to be a typo for '2 moles'. Assuming n = 2 moles: \nGiven: n = 2 mol, $V_1 = 20$ L, $V_2 = 30$ L, T = 300 K, R = 8.314 J K⁻¹ mol⁻¹. \nFor an isothermal reversible expansion, the work done is: \n$W = -2.303 nRT \\log_{10}(\\frac{V_2}{V_1}) = -2.303 \\times 2 \\times 8.314 \\times 300 \\times \\log_{10}(\\frac{30}{20})$. \n$W = -11488.28 \\times \\log_{10}(1.5) = -11488.28 \\times 0.1761 \\approx -2023.08$ J.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Derive relationship between $\\Delta H$ and $\\Delta U$ and gaseous reaction. (March 2023)",
-    "answer": "The relationship starts from the definition of enthalpy, $H = U + PV$. For a change in state at constant pressure, $\\Delta H = \\Delta U + P\\Delta V$. \nLet $n_1$ be the moles of gaseous reactants and $n_2$ be the moles of gaseous products. According to the ideal gas law, $PV_1 = n_1RT$ and $PV_2 = n_2RT$. \nThe term $P\\Delta V = P(V_2 - V_1) = n_2RT - n_1RT = (n_2 - n_1)RT$. \nLetting $\\Delta n_{gas} = (n_2 - n_1)$, we get $P\\Delta V = \\Delta n_{gas}RT$. \nSubstituting this back into the enthalpy equation gives the final relationship for a gaseous reaction: \n$\\Delta H = \\Delta U + \\Delta n_{gas}RT$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Three moles of an ideal gas are expanded isothermally from 15 dm³ to 20 dm³ at constant external pressure of 1.2 bar. Estimate the amount of work in Joules. (July 2023)",
-    "answer": "Given: n = 3 mol, $V_1 = 15$ dm³, $V_2 = 20$ dm³, $P_{ext} = 1.2$ bar. \nThis is an irreversible isothermal expansion against a constant external pressure. \nThe work done is calculated as $W = -P_{ext}\\Delta V = -P_{ext}(V_2 - V_1)$. \n$W = -1.2 \\text{ bar} \\times (20 - 15) \\text{ dm}^3 = -1.2 \\times 5 = -6$ bar dm³. \nUsing the conversion factor 1 bar dm³ = 100 J: \n$W = -6 \\text{ bar dm}^3 \\times 100 \\frac{\\text{J}}{\\text{bar dm}^3} = -600$ J.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the standard enthalpy of the reaction: $SiO_{2(s)} + 3C_{(graphite)} \\rightarrow SiC_{(s)} + 2CO_{(g)}$ from the following reactions: \n(i) $Si_{(s)} + O_{2(g)} \\rightarrow SiO_{2(s)}$, $\\Delta H^\\circ = -911$ kJ \n(ii) $2C_{(graphite)} + O_{2(g)} \\rightarrow 2CO_{(g)}$, $\\Delta H^\\circ = -221$ kJ \n(iii) $Si_{(s)} + C_{(graphite)} \\rightarrow SiC_{(s)}$, $\\Delta H^\\circ = -65.3$ kJ (July 2023)",
-    "answer": "Target reaction: $SiO_{2(s)} + 3C_{(graphite)} \\rightarrow SiC_{(s)} + 2CO_{(g)}$. \nWe use Hess's Law to combine the given reactions: \n1.  **Reverse reaction (i):** To get $SiO_2$ as a reactant. \n    $SiO_{2(s)} \\rightarrow Si_{(s)} + O_{2(g)}$; $\\Delta H^\\circ = +911$ kJ. \n2.  **Keep reaction (ii) as is:** To get $2CO$ as a product. \n    $2C_{(graphite)} + O_{2(g)} \\rightarrow 2CO_{(g)}$; $\\Delta H^\\circ = -221$ kJ. \n3.  **Keep reaction (iii) as is:** To get $SiC$ as a product. \n    $Si_{(s)} + C_{(graphite)} \\rightarrow SiC_{(s)}$; $\\Delta H^\\circ = -65.3$ kJ. \nNow, add the three manipulated equations and cancel common species ($Si_{(s)}$ and $O_{2(g)}$ on both sides): \n$SiO_{2(s)} + 2C_{(graphite)} + C_{(graphite)} \\rightarrow SiC_{(s)} + 2CO_{(g)}$. \nThis simplifies to the target reaction. Sum the enthalpies: \n$\\Delta H^\\circ_{reaction} = (+911) + (-221) + (-65.3) = 911 - 286.3 = +624.7$ kJ.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Write any two statements of first law of thermodynamics. (July 2023)",
-    "answer": "1. **Law of Conservation of Energy:** Energy can neither be created nor destroyed, it can only be converted from one form to another. \n2. **Internal Energy Statement:** The change in the internal energy of a closed system is equal to the amount of heat supplied to the system plus the amount of work done on the system. ($\\Delta U = q + W$).",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "For a certain reaction $\\Delta H^\\circ$ is -224 kJ and $\\Delta S^\\circ$ is -153 JK⁻¹. At what temperature the change over from spontaneous to non-spontaneous will occur? (July 2023)",
-    "answer": "The changeover from spontaneous to non-spontaneous occurs at the equilibrium temperature ($T_{eq}$), where the Gibbs free energy change, $\\Delta G$, is zero. \nUsing the Gibbs equation, $\\Delta G = \\Delta H - T\\Delta S$. \nAt equilibrium, $0 = \\Delta H - T_{eq}\\Delta S$, which rearranges to $T_{eq} = \\frac{\\Delta H}{\\Delta S}$. \nGiven: $\\Delta H^\\circ = -224$ kJ = -224000 J. $\\Delta S^\\circ = -153$ J K⁻¹. \n$T_{eq} = \\frac{-224000 \\text{ J}}{-153 \\text{ J K}^{-1}} \\approx 1464.05$ K. \nSince both $\\Delta H$ and $\\Delta S$ are negative, the reaction is spontaneous at low temperatures (where the favorable exothermic $\\Delta H$ term dominates) and becomes non-spontaneous at high temperatures. Therefore, the reaction is spontaneous **below 1464 K** and the changeover occurs at this temperature.",
-    "marks": 4
-  },
-  {
-    "type": "short",
-    "text": "Write the sign convention of work done during expansion and compression of gas. (March 2024)",
-    "answer": "According to the IUPAC sign convention for thermodynamics: \n- **Expansion:** When a gas expands, it performs work on the surroundings. The system loses energy, so the work done (W) is considered **negative** ($W < 0$). \n- **Compression:** When a gas is compressed, work is done on the system by the surroundings. The system gains energy, so the work done (W) is considered **positive** ($W > 0$).",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Derive and expression for maximum work obtainable during isothermal reversible expansion of gas from initial volume ($V_i$) to final volume ($V_f$). (March 2024)",
-    "answer": "Maximum work ($W_{max}$) is obtained during a reversible, isothermal expansion. The work done for an infinitesimal volume change $dV$ is $dW = -P_{ext}dV$. In a reversible process, the external pressure $P_{ext}$ is equal to the internal pressure $P$ of the gas. \n$W_{max} = -\\int_{V_i}^{V_f} P dV$. \nFor 'n' moles of an ideal gas, the ideal gas law states $P = \\frac{nRT}{V}$. \nSubstituting this into the integral: $W_{max} = -\\int_{V_i}^{V_f} \\frac{nRT}{V} dV$. \nSince n, R, and T (isothermal) are constant: $W_{max} = -nRT \\int_{V_i}^{V_f} \\frac{1}{V} dV$. \n$W_{max} = -nRT [\\ln V]_{V_i}^{V_f} = -nRT(\\ln V_f - \\ln V_i)$. \nThis gives the final expression: $W_{max} = -nRT \\ln(\\frac{V_f}{V_i})$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Calculate the standard enthalpy of combustion of methane, if the standard enthalpy of formation of methane, carbon dioxide and water are -74.8, -393.5 and -285.8 kJ mol⁻¹ respectively. (March 2024)",
-    "answer": "The balanced combustion reaction for methane ($CH_4$) is: \n$CH_{4(g)} + 2O_{2(g)} \\rightarrow CO_{2(g)} + 2H_2O_{(l)}$. \nWe are given standard enthalpies of formation ($\\Delta_f H^\\circ$). \n$\\{\\Delta_f H^\\circ(CH_4) = -74.8 \\text{ kJ/mol}\\}$ \n$\\{\\Delta_f H^\\circ(CO_2) = -393.5 \\text{ kJ/mol}\\}$ \n$\\{\\Delta_f H^\\circ(H_2O) = -285.8 \\text{ kJ/mol}\\}$ \nThe standard enthalpy of combustion ($\\Delta_c H^\\circ$) is calculated as: \n$\\Delta_c H^\\circ = \\sum \\Delta_f H^\\circ_{products} - \\sum \\Delta_f H^\\circ_{reactants}$. \n$\\Delta_c H^\\circ = [\\Delta_f H^\\circ(CO_2) + 2 \\times \\Delta_f H^\\circ(H_2O)] - [\\Delta_f H^\\circ(CH_4) + 2 \\times \\Delta_f H^\\circ(O_2)]$. \nThe standard enthalpy of formation of an element in its standard state ($O_2$) is 0. \n$\\Delta_c H^\\circ = [(-393.5) + 2 \\times (-285.8)] - [(-74.8) + 0]$. \n$\\Delta_c H^\\circ = [-393.5 - 571.6] - [-74.8] = -965.1 + 74.8 = -890.3$ kJ mol⁻¹.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "Define: (i) Extensive properties (ii) Isobaric and Adiabatic processes. (March 2024)",
-    "answer": "(i) **Extensive Properties:** These are properties of a thermodynamic system that depend on the amount of matter in the system. Their value is directly proportional to the mass or size of the system. Examples include volume, mass, internal energy, and enthalpy. \n(ii) **Isobaric Process:** A thermodynamic process that occurs at constant pressure ($\\Delta P = 0$). **Adiabatic Process:** A thermodynamic process in which there is no heat transfer into or out of the system ($q = 0$).",
-    "marks": 2
-  }
-]
+    {
+      "type": "mcq",
+      "text": "In Maxwell relations, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "First law of thermodynamics: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Hess' law, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Heat capacity, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Bond enthalpy, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Maxwell relations: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Kirchhoff's law: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Internal energy (U): choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Entropy (S), which statement is correct?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In First law of thermodynamics, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Heat capacity, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Second law of thermodynamics: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "First law of thermodynamics: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Heat capacity: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Maxwell relations: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Second law of thermodynamics?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Heat capacity?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Third law of thermodynamics?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy of formation, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy of formation, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Bond enthalpy?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Spontaneity?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy (H), which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Enthalpy of formation?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Internal energy (U), which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Entropy (S), which statement is correct?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Spontaneity?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Third law of thermodynamics?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy of formation, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Bond enthalpy?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Oct 2018]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2022]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2023]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Mar 2019]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Feb 2023]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Mar 2020]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Mar 2019]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Oct 2020]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2024]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2020]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "short",
+      "text": "Define entropy and state the second law of thermodynamics in terms of entropy. (2 marks)",
+      "answer": "Entropy (S) is a measure of disorder; for any spontaneous process, total entropy of the universe increases: ΔS_univ > 0.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Define entropy and state the second law of thermodynamics in terms of entropy. (2 marks)",
+      "answer": "Entropy (S) is a measure of disorder; for any spontaneous process, total entropy of the universe increases: ΔS_univ > 0.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Define entropy and state the second law of thermodynamics in terms of entropy. (2 marks)",
+      "answer": "Entropy (S) is a measure of disorder; for any spontaneous process, total entropy of the universe increases: ΔS_univ > 0.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Define entropy and state the second law of thermodynamics in terms of entropy. (2 marks)",
+      "answer": "Entropy (S) is a measure of disorder; for any spontaneous process, total entropy of the universe increases: ΔS_univ > 0.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Define entropy and state the second law of thermodynamics in terms of entropy. (2 marks)",
+      "answer": "Entropy (S) is a measure of disorder; for any spontaneous process, total entropy of the universe increases: ΔS_univ > 0.",
+      "marks": 2
+    },
+    {
+      "type": "short",
+      "text": "Define entropy and state the second law of thermodynamics in terms of entropy. (2 marks)",
+      "answer": "Entropy (S) is a measure of disorder; for any spontaneous process, total entropy of the universe increases: ΔS_univ > 0.",
+      "marks": 2
+    },
+    {
+      "type": "long",
+      "text": "Derive the relation ΔG = ΔH - TΔS and state its significance for spontaneity. [Mar 2023]",
+      "answer": "From the combined first and second laws, for processes at constant T,P, maximum non-expansion work is ΔG; ΔG = ΔH − TΔS; ΔG<0 indicates spontaneity, ΔG=0 equilibrium.",
+      "marks": 4
+    },
+    {
+      "type": "long",
+      "text": "Derive the relation ΔG = ΔH - TΔS and state its significance for spontaneity.",
+      "answer": "From the combined first and second laws, for processes at constant T,P, maximum non-expansion work is ΔG; ΔG = ΔH − TΔS; ΔG<0 indicates spontaneity, ΔG=0 equilibrium.",
+      "marks": 4
+    },
+    {
+      "type": "long",
+      "text": "Derive the relation ΔG = ΔH - TΔS and state its significance for spontaneity. [Feb 2022]",
+      "answer": "From the combined first and second laws, for processes at constant T,P, maximum non-expansion work is ΔG; ΔG = ΔH − TΔS; ΔG<0 indicates spontaneity, ΔG=0 equilibrium.",
+      "marks": 4
+    },
+    {
+      "type": "long",
+      "text": "Derive the relation ΔG = ΔH - TΔS and state its significance for spontaneity.",
+      "answer": "From the combined first and second laws, for processes at constant T,P, maximum non-expansion work is ΔG; ΔG = ΔH − TΔS; ΔG<0 indicates spontaneity, ΔG=0 equilibrium.",
+      "marks": 4
+    }
+  ]
