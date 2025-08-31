@@ -1,0 +1,77 @@
+{
+    "group_name": "HSC Science Maths Blueprints",
+    "board_name": "Maharashtra State Board",
+    "class_name": "Class12sci",
+    "applies_to_subjects": ["Maths"],
+    "patterns": [
+        {
+            "total_marks": 22,
+            "name_template": "HSC {subject_name} Pattern - {total_marks}",
+            "sections": [
+                {
+                    "name": "Section A (Objective)",
+                    "instructions": "All questions compulsory.",
+                    "rules": [
+                        { "question_type": "mcq", "marks_per_question": 1, "number_of_questions_to_select": 4, "total_questions_to_display": 4 }
+                    ]
+                },
+                {
+                    "name": "Section B (Short Answer)",
+                    "instructions": "Attempt any 5 out of 7.",
+                    "rules": [
+                        { "question_type": "short", "marks_per_question": 2, "number_of_questions_to_select": 5, "total_questions_to_display": 7 }
+                    ]
+                },
+                {
+                    "name": "Section C (Long Answer)",
+                    "instructions": "Attempt any 2 out of 6.",
+                    "rules": [
+                        { "question_type": "long", "marks_per_question": 3, "number_of_questions_to_select":2, "total_questions_to_display": 5 }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_marks": 80,
+            "name_template": "HSC {subject_name} Pattern - {total_marks}",
+            "sections": [
+                 {
+                    "name": "Section A (Objective)",
+                    "instructions": "All questions compulsory.",
+                    "rules": [
+                        { "question_type": "mcq", "marks_per_question": 1, "number_of_questions_to_select": 10, "total_questions_to_display": 10 },
+                        { "question_type": "fill_blank", "marks_per_question": 1, "number_of_questions_to_select": 6, "total_questions_to_display": 8 }
+                    ]
+                },
+                {
+                    "name": "Section B (Short Answer)",
+                    "instructions": "Attempt any 7 out of 9.",
+                    "rules": [
+                        { "question_type": "short", "marks_per_question": 2, "number_of_questions_to_select": 7, "total_questions_to_display": 9 }
+                    ]
+                },
+                {
+                    "name": "Section C (Long Answer I)",
+                    "instructions": "Attempt any 6 out of 8.",
+                    "rules": [
+                        { "question_type": "long", "marks_per_question": 3, "number_of_questions_to_select": 6, "total_questions_to_display": 8 }
+                    ]
+                },
+                {
+                    "name": "Section D (Long Answer II)",
+                    "instructions": "Attempt any 4 out of 6.",
+                    "rules": [
+                        { "question_type": "long", "marks_per_question": 4, "number_of_questions_to_select": 4, "total_questions_to_display": 6 }
+                    ]
+                },
+                {
+                    "name": "Section E (Applied/Numericals)",
+                    "instructions": "Attempt any 2 out of 4.",
+                    "rules": [
+                        { "question_type": "numerical", "marks_per_question": 8, "number_of_questions_to_select": 2, "total_questions_to_display": 4 }
+                    ]
+                }
+            ]
+        }
+    ]
+}
