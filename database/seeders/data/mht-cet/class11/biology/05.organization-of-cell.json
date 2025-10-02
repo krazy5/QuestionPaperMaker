@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following cell organelles is responsible for forming the mitotic spindle in animal cells?",
+    "options": [
+      "(a) Ribosomes",
+      "(b) Golgi apparatus",
+      "(c) Centrosomes",
+      "(d) Lysosomes"
+    ],
+    "correct_answer": "c",
+    "answer": "Centrosomes are the primary microtubule-organizing centers in animal cells. They duplicate during cell division and migrate to opposite poles to organize the mitotic spindle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of the nucleolus is the synthesis of:",
+    "options": [
+      "(a) Proteins",
+      "(b) Lipids",
+      "(c) DNA",
+      "(d) Ribosomes"
+    ],
+    "correct_answer": "d",
+    "answer": "The nucleolus is a dense structure within the nucleus. It is the site of ribosomal RNA (rRNA) synthesis and the assembly of ribosomal subunits.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following structures is absent in a prokaryotic cell?",
+    "options": [
+      "(a) Cell wall",
+      "(b) Ribosomes",
+      "(c) Mitochondria",
+      "(d) Plasma membrane"
+    ],
+    "correct_answer": "c",
+    "answer": "Prokaryotic cells lack membrane-bound organelles such as mitochondria, endoplasmic reticulum, and Golgi apparatus. They do, however, possess ribosomes, a cell wall, and a plasma membrane.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fluid mosaic model of the cell membrane describes the arrangement of:",
+    "options": [
+      "(a) A rigid protein layer",
+      "(b) A bilayer of phospholipids with proteins embedded in it",
+      "(c) A single layer of proteins",
+      "(d) A rigid carbohydrate layer"
+    ],
+    "correct_answer": "b",
+    "answer": "The fluid mosaic model, proposed by Singer and Nicolson, depicts the cell membrane as a fluid structure composed of a phospholipid bilayer with various proteins and carbohydrates embedded within or attached to it.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is known as the 'powerhouse' of the cell?",
+    "options": [
+      "(a) Lysosome",
+      "(b) Nucleus",
+      "(c) Mitochondria",
+      "(d) Vacuole"
+    ],
+    "correct_answer": "c",
+    "answer": "Mitochondria are the sites of cellular respiration, where ATP is synthesized. This process generates the majority of the cell's energy, earning mitochondria the nickname 'powerhouse of the cell'.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A plant cell differs from an animal cell mainly in the presence of:",
+    "options": [
+      "(a) Ribosomes and mitochondria",
+      "(b) Cell membrane and nucleus",
+      "(c) Cell wall and chloroplasts",
+      "(d) Cytoplasm and endoplasmic reticulum"
+    ],
+    "correct_answer": "c",
+    "answer": "Plant cells possess a rigid cell wall outside the plasma membrane and chloroplasts for photosynthesis. These structures are typically absent in animal cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of the smooth endoplasmic reticulum (SER) is:",
+    "options": [
+      "(a) Protein synthesis",
+      "(b) Lipid synthesis",
+      "(c) Ribosome formation",
+      "(d) DNA replication"
+    ],
+    "correct_answer": "b",
+    "answer": "The smooth endoplasmic reticulum is involved in the synthesis of lipids, steroids, and phospholipids. It also plays a role in detoxification and calcium storage.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is responsible for packaging and modifying proteins for secretion?",
+    "options": [
+      "(a) Mitochondria",
+      "(b) Lysosomes",
+      "(c) Golgi apparatus",
+      "(d) Nucleus"
+    ],
+    "correct_answer": "c",
+    "answer": "The Golgi apparatus, or Golgi complex, receives proteins and lipids from the ER, modifies and sorts them, and packages them into vesicles for transport to various destinations, including secretion from the cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which organelle is known as the 'suicidal bag' of the cell due to its hydrolytic enzymes?",
+    "options": [
+      "(a) Lysosome",
+      "(b) Ribosome",
+      "(c) Peroxisome",
+      "(d) Vacuole"
+    ],
+    "correct_answer": "a",
+    "answer": "Lysosomes are membrane-bound sacs containing powerful hydrolytic enzymes. They are responsible for digesting cellular waste and pathogens. If a cell is damaged, these enzymes can be released to break down the cell itself, hence the nickname.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a cell engulfing a solid particle is known as:",
+    "options": [
+      "(a) Pinocytosis",
+      "(b) Exocytosis",
+      "(c) Phagocytosis",
+      "(d) Osmosis"
+    ],
+    "correct_answer": "c",
+    "answer": "Phagocytosis, literally 'cell eating', is a form of endocytosis where the cell membrane engulfs a solid particle, forming a phagosome. Pinocytosis, 'cell drinking', is the engulfing of liquid droplets.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The outer boundary of a plant cell that is not present in an animal cell is:",
+    "options": [
+      "(a) Plasma membrane",
+      "(b) Cell wall",
+      "(c) Cytoplasm",
+      "(d) Nucleus"
+    ],
+    "correct_answer": "b",
+    "answer": "The cell wall is a rigid layer found outside the plasma membrane of plant cells, fungi, algae, and bacteria. It provides structural support and protection. Animal cells lack a cell wall.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following cell organelles contains its own DNA and ribosomes?",
+    "options": [
+      "(a) Endoplasmic reticulum",
+      "(b) Golgi apparatus",
+      "(c) Lysosomes",
+      "(d) Mitochondria"
+    ],
+    "correct_answer": "d",
+    "answer": "Mitochondria have their own circular DNA and ribosomes, allowing them to synthesize some of their own proteins. This suggests that mitochondria may have originated from ancient prokaryotic cells (endosymbiotic theory).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of movement of water molecules across a semipermeable membrane is called:",
+    "options": [
+      "(a) Diffusion",
+      "(b) Active transport",
+      "(c) Osmosis",
+      "(d) Facilitated diffusion"
+    ],
+    "correct_answer": "c",
+    "answer": "Osmosis is the specific term for the diffusion of water across a selectively permeable membrane from an area of high water potential to an area of low water potential.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the largest cell organelle?",
+    "options": [
+      "(a) Mitochondria",
+      "(b) Nucleus",
+      "(c) Chloroplast",
+      "(d) Endoplasmic reticulum"
+    ],
+    "correct_answer": "b",
+    "answer": "In a typical eukaryotic cell, the nucleus is the largest and most prominent organelle. It contains the cell's genetic material and controls its activities.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of the cell wall in fungi is:",
+    "options": [
+      "(a) Cellulose",
+      "(b) Chitin",
+      "(c) Pectin",
+      "(d) Lignin"
+    ],
+    "correct_answer": "b",
+    "answer": "While plant cell walls are made of cellulose, the cell walls of fungi are primarily composed of chitin, a polymer of N-acetylglucosamine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which cell organelle is responsible for detoxifying drugs and poisons?",
+    "options": [
+      "(a) Rough endoplasmic reticulum",
+      "(b) Smooth endoplasmic reticulum",
+      "(c) Ribosomes",
+      "(d) Peroxisomes"
+    ],
+    "correct_answer": "b",
+    "answer": "The smooth endoplasmic reticulum is rich in enzymes that catalyze the detoxification of lipid-soluble drugs and poisons in the liver and other tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a cell losing water and shrinking in a hypertonic solution is called:",
+    "options": [
+      "(a) Turgor",
+      "(b) Plasmolysis",
+      "(c) Cytolysis",
+      "(d) Hemolysis"
+    ],
+    "correct_answer": "b",
+    "answer": "Plasmolysis is the process where a cell, particularly a plant cell, loses water through osmosis and the plasma membrane pulls away from the cell wall. In animal cells, the equivalent process is crenation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a unicellular organism that is a eukaryote?",
+    "options": [
+      "(a) Bacteria",
+      "(b) Yeast",
+      "(c) Cyanobacteria",
+      "(d) Mycoplasma"
+    ],
+    "correct_answer": "b",
+    "answer": "Yeast is a type of fungus that is a single-celled eukaryote. Bacteria, cyanobacteria, and mycoplasma are all prokaryotes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pores in the nuclear envelope are a channel for the transport of:",
+    "options": [
+      "(a) Proteins and RNA",
+      "(b) DNA and RNA",
+      "(c) Lipids and proteins",
+      "(d) Carbohydrates and lipids"
+    ],
+    "correct_answer": "a",
+    "answer": "The nuclear pores regulate the transport of molecules between the nucleus and the cytoplasm. Proteins that are needed in the nucleus are imported, while RNA molecules and ribosomal subunits are exported.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory that explains the origin of mitochondria and chloroplasts is:",
+    "options": [
+      "(a) The cell theory",
+      "(b) The endosymbiotic theory",
+      "(c) The modern synthesis",
+      "(d) The theory of spontaneous generation"
+    ],
+    "correct_answer": "b",
+    "answer": "The endosymbiotic theory proposes that mitochondria and chloroplasts originated as free-living prokaryotic cells that were engulfed by a larger host cell and formed a symbiotic relationship.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a function of the rough endoplasmic reticulum (RER)?",
+    "options": [
+      "(a) Lipid synthesis",
+      "(b) Protein synthesis and modification",
+      "(c) Detoxification",
+      "(d) ATP synthesis"
+    ],
+    "correct_answer": "b",
+    "answer": "The rough endoplasmic reticulum is studded with ribosomes, making it the primary site for the synthesis and initial folding of proteins that are destined for secretion, insertion into membranes, or delivery to certain organelles.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The region in a prokaryotic cell that contains the genetic material is called the:",
+    "options": [
+      "(a) Nucleus",
+      "(b) Nucleolus",
+      "(c) Plasmid",
+      "(d) Nucleoid"
+    ],
+    "correct_answer": "d",
+    "answer": "The nucleoid is an irregularly shaped region within a prokaryotic cell that contains all or most of the genetic material. Unlike a nucleus, it is not enclosed by a membrane.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary role of the cell membrane is to:",
+    "options": [
+      "(a) Provide structural support",
+      "(b) Control the flow of substances in and out of the cell",
+      "(c) Store water and nutrients",
+      "(d) Synthesize nucleic acids"
+    ],
+    "correct_answer": "b",
+    "answer": "The cell membrane is a selectively permeable barrier that regulates what enters and exits the cell, maintaining a stable internal environment.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of all eukaryotic cells?",
+    "options": [
+      "(a) The presence of a cell wall",
+      "(b) The presence of a nucleus",
+      "(c) The ability to perform photosynthesis",
+      "(d) All of the above"
+    ],
+    "correct_answer": "b",
+    "answer": "A key defining feature of eukaryotic cells is the presence of a membrane-bound nucleus that houses the cell's genetic material. The other options are not universal to all eukaryotic cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ribosomes that are free in the cytoplasm are primarily responsible for synthesizing:",
+    "options": [
+      "(a) Proteins for export",
+      "(b) Proteins that function in the cytoplasm",
+      "(c) Proteins for the cell membrane",
+      "(d) Ribosomal RNA"
+    ],
+    "correct_answer": "b",
+    "answer": "Free ribosomes synthesize proteins that will function in the cytoplasm itself, while ribosomes attached to the endoplasmic reticulum synthesize proteins for secretion or other organelles.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The structure in plant cells that is responsible for maintaining turgor pressure and storing waste is the:",
+    "options": [
+      "(a) Vacuole",
+      "(b) Cytoskeleton",
+      "(c) Lysosome",
+      "(d) Nucleus"
+    ],
+    "correct_answer": "a",
+    "answer": "The large central vacuole in a plant cell plays a vital role in maintaining turgor pressure by regulating the amount of water and solutes. It also stores waste products and nutrients.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements about prokaryotic cells is correct?",
+    "options": [
+      "(a) They have a well-defined nucleus.",
+      "(b) They are generally larger than eukaryotic cells.",
+      "(c) They reproduce by binary fission.",
+      "(d) They have complex membrane-bound organelles."
+    ],
+    "correct_answer": "c",
+    "answer": "Prokaryotic cells lack a nucleus and are typically smaller than eukaryotic cells. They reproduce asexually through a process called binary fission.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a component of the endomembrane system?",
+    "options": [
+      "(a) Endoplasmic reticulum",
+      "(b) Golgi apparatus",
+      "(c) Lysosomes",
+      "(d) Mitochondria"
+    ],
+    "correct_answer": "d",
+    "answer": "The endomembrane system is a group of membranes and organelles that work together to modify, package, and transport lipids and proteins. It includes the ER, Golgi, and lysosomes, but not mitochondria or chloroplasts.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of transportation of substances against their concentration gradient, requiring energy, is called:",
+    "options": [
+      "(a) Passive diffusion",
+      "(b) Facilitated diffusion",
+      "(c) Active transport",
+      "(d) Osmosis"
+    ],
+    "correct_answer": "c",
+    "answer": "Active transport uses cellular energy (ATP) to move molecules and ions across a cell membrane against their concentration gradient, from a region of lower concentration to a region of higher concentration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of the cell wall in bacteria is a polymer of sugars and amino acids called:",
+    "options": [
+      "(a) Cellulose",
+      "(b) Chitin",
+      "(c) Peptidoglycan",
+      "(d) Pectin"
+    ],
+    "correct_answer": "c",
+    "answer": "The cell wall of bacteria is primarily made of peptidoglycan, which provides structural support and protection.",
+    "marks": 1
+  }
+]

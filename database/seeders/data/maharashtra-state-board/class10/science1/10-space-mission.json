@@ -1,0 +1,152 @@
+[
+  {
+    "type": "short",
+    "text": "Define a space mission.",
+    "answer": "A space mission is any journey or exploration of outer space conducted by a satellite, a spacecraft, or a human. It is undertaken for purposes such as scientific research, communication, or military applications.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the purpose of an artificial satellite?",
+    "answer": "Artificial satellites are objects placed into orbit around the Earth or other celestial bodies. Their purpose is to perform various functions such as communication, weather forecasting, navigation, and scientific research.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the two main types of space missions? Explain each one. (Practice Set 10.1)",
+    "answer": "The two main types of space missions are:\n\n1.  **Planetary Exploration:** These missions involve sending spacecraft to study planets, their moons, and other celestial bodies in our solar system. The purpose is to gather scientific data and expand our understanding of the universe.\n\n2.  **Space-based Observatories:** These missions involve placing telescopes and other scientific instruments in space to observe celestial objects. By avoiding the distortions caused by Earth's atmosphere, these observatories can capture much clearer images and data.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is escape velocity?",
+    "answer": "Escape velocity is the minimum initial velocity required for an object to escape the gravitational influence of a planet or other celestial body. The escape velocity for Earth is approximately $11.2$ km/s.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the significance of the Chandrayaan mission.",
+    "answer": "The Chandrayaan mission was a series of lunar exploration missions by India. The first mission, Chandrayaan-1, was significant because it confirmed the presence of water molecules on the Moon's surface. The subsequent missions, including Chandrayaan-2 and Chandrayaan-3, aimed to further study the Moon's geology, mineralogy, and exosphere, demonstrating India's growing capabilities in space technology.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is a satellite launch vehicle?",
+    "answer": "A satellite launch vehicle is a rocket that is used to place an artificial satellite into orbit. It provides the necessary thrust and velocity to overcome Earth's gravity and place the satellite into its desired orbit.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first Indian satellite, Aryabhata, was launched in... (Problem Set 10)",
+    "options": ["1975", "1980", "1969", "1995"],
+    "correct_answer": "A",
+    "answer": "The first Indian satellite, Aryabhata, was launched on April 19, 1975, from the former Soviet Union. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the three main types of orbits? Describe each. (Practice Set 10.2)",
+    "answer": "The three main types of orbits are:\n\n1.  **Low Earth Orbit (LEO):** Satellites in LEO orbit at altitudes from $180$ km to $2000$ km. They are used for purposes like scientific research, Earth observation, and remote sensing.\n\n2.  **Medium Earth Orbit (MEO):** Satellites in MEO orbit at altitudes from $2000$ km to $35780$ km. They are mainly used for navigation systems like GPS, Glonass, and Galileo.\n\n3.  **High Earth Orbit (HEO):** Satellites in HEO orbit at altitudes above $35780$ km. The most common type is the geostationary orbit, which is used for communication and weather forecasting.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is a geostationary satellite? (PYQ: March 2022)",
+    "answer": "A geostationary satellite is a satellite that orbits the Earth at an altitude of approximately $35780$ km and has the same orbital period as the Earth's rotation. As a result, it appears to remain stationary relative to a point on the Earth's surface.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The primary function of a communication satellite is to... (Problem Set 10)",
+    "options": ["Study weather patterns", "Transmit signals for TV, radio, and mobile phones", "Provide navigation services", "Observe the stars and galaxies"],
+    "correct_answer": "B",
+    "answer": "Communication satellites are used to transmit and receive signals for various telecommunication services, including TV, radio, and mobile phones. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of orbital velocity. What happens if the velocity of a satellite is less than or greater than its orbital velocity?",
+    "answer": "Orbital velocity is the precise horizontal velocity required for a satellite to stay in a stable orbit around a celestial body. It is the velocity at which the gravitational force of the body is perfectly balanced by the centripetal force required to keep the satellite in its orbit.\n\n* **If the velocity is less than orbital velocity**, the satellite will be pulled in by gravity and fall to Earth in a spiral path.\n* **If the velocity is greater than orbital velocity**, the satellite will fly off into space along a parabolic or hyperbolic path.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the function of a navigation satellite? Give an example.",
+    "answer": "Navigation satellites help determine the location of a person or object on Earth. They transmit signals that are received by GPS devices to calculate the exact position. An example is the Indian Regional Navigation Satellite System (IRNSS) or NavIC.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The escape velocity for Earth is approximately... (Problem Set 10)",
+    "options": ["$5.2$ km/s", "$7.9$ km/s", "$9.8$ km/s", "$11.2$ km/s"],
+    "correct_answer": "D",
+    "answer": "The escape velocity for Earth is approximately $11.2$ km/s. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of space debris. Why is it a concern? (Practice Set 10.3)",
+    "answer": "Space debris, also known as space junk, refers to human-made objects in Earth orbit that no longer serve a useful purpose. This includes old satellites, discarded rocket parts, and fragments from collisions or explosions.\n\n### **Why it is a concern**\n* **Collision Risk:** The debris travels at extremely high speeds and can collide with active satellites or spacecraft, causing catastrophic damage.\n* **Kessler Syndrome:** This is a theoretical scenario where the density of objects in LEO is so high that one collision could trigger a chain reaction of more collisions, rendering space unusable for future missions. \n* **Cost and Safety:** The need to track and avoid space debris increases the cost and complexity of space missions and poses a significant threat to astronauts.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the full form of ISRO?",
+    "answer": "The full form of ISRO is the **Indian Space Research Organisation**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which country was the first to send a human to space? (Problem Set 10)",
+    "options": ["USA", "Russia", "China", "India"],
+    "correct_answer": "B",
+    "answer": "The Soviet Union (now Russia) was the first country to send a human to space, with Yuri Gagarin's mission in 1961. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Describe the functions of different types of artificial satellites. (PYQ: March 2019)",
+    "answer": "Artificial satellites have various functions, categorized as follows:\n\n1.  **Weather Satellites:** These satellites monitor the weather and climate of the Earth. They provide data used to predict weather patterns, track storms, and issue warnings.\n2.  **Communication Satellites:** Used for telecommunication purposes, such as relaying TV and radio signals, mobile phone communication, and internet connectivity.\n3.  **Navigation Satellites:** These satellites, like those used in the GPS network, help to determine the location of a person or object on Earth's surface.\n4.  **Scientific Satellites:** Used to conduct scientific research from space, such as studying Earth's atmosphere, magnetic field, or celestial objects.\n5.  **Earth Observation Satellites:** Also known as remote sensing satellites, they are used to monitor Earth's resources, environment, and land use for applications like agriculture, forestry, and urban planning.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between a rocket and a satellite?",
+    "answer": "A **rocket** is a launch vehicle that provides the thrust to lift a payload into space. A **satellite** is the payload that is placed into orbit by the rocket, and it performs a specific function once in space.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "What is the name of the Indian navigation satellite system? (Problem Set 10)",
+    "options": ["GPS", "Glonass", "Galileo", "NavIC"],
+    "correct_answer": "D",
+    "answer": "The Indian Regional Navigation Satellite System (IRNSS) is also known as NavIC. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Why is a launch vehicle necessary for a space mission? Explain the working principle of a launch vehicle. (Practice Set 10.4)",
+    "answer": "### **Necessity of a Launch Vehicle**\nA launch vehicle is necessary to overcome Earth's gravitational pull and to provide the satellite with the precise velocity needed to enter its desired orbit. Without a launch vehicle, the satellite would simply fall back to Earth.\n\n### **Working Principle**\nLaunch vehicles work on Newton's third law of motion, which states that for every action, there is an equal and opposite reaction. The hot gases produced by the burning of fuel are expelled at a very high velocity from the nozzle of the rocket (action). This creates a reactive force (reaction) in the opposite direction, which pushes the rocket forward and upwards. As the rocket ascends, its different stages fire in succession and are discarded, reducing the rocket's weight and increasing its efficiency.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is a polar satellite?",
+    "answer": "A polar satellite is a satellite that orbits the Earth from pole to pole. It passes over both the North and South Poles during each orbit, and its orbit is perpendicular to the equatorial plane. They are used for Earth observation and weather forecasting.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "What is the name of the first satellite launched by India? (Problem Set 10)",
+    "options": ["Bhaskara", "Rohini", "Aryabhata", "Chandrayaan"],
+    "correct_answer": "C",
+    "answer": "Aryabhata was the first satellite launched by India in 1975. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the role of ISRO in India's space missions?",
+    "answer": "ISRO (Indian Space Research Organisation) is India's national space agency. Its main roles include:\n\n1.  **Developing Launch Vehicles:** ISRO designs and develops launch vehicles like the Polar Satellite Launch Vehicle (PSLV) and the Geosynchronous Satellite Launch Vehicle (GSLV).\n2.  **Building and Launching Satellites:** ISRO builds and launches various types of satellites for communication, Earth observation, navigation, and scientific research.\n3.  **Conducting Planetary Exploration:** ISRO has successfully undertaken missions like Chandrayaan (Moon) and Mangalyaan (Mars), placing India among a select group of countries with such capabilities.\n4.  **Promoting Space Education:** ISRO also plays a role in promoting scientific and technical education in India through its various outreach programs.",
+    "marks": 3
+  }
+]

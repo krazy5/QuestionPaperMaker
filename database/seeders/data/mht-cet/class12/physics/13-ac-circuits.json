@@ -1,0 +1,184 @@
+[
+  {
+    "type": "mcq",
+    "text": "The inductive reactance of a coil is directly proportional to: (MHT CET 2025)",
+    "options": [
+      "(a) frequency",
+      "(b) resistance",
+      "(c) current",
+      "(d) voltage"
+    ],
+    "correct_answer": "a",
+    "answer": "The inductive reactance ($X_L$) of a coil is given by the formula:<br>$X_L = \\omega L = 2\\pi f L$<br>where $\\omega$ is the angular frequency, $f$ is the frequency of the AC source, and $L$ is the self-inductance of the coil. From this formula, we can see that the inductive reactance is directly proportional to the frequency.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a series LCR circuit, the phase difference between the voltage and current is zero. The circuit is at: (MHT CET 2024)",
+    "options": [
+      "(a) resonance",
+      "(b) high frequency",
+      "(c) low frequency",
+      "(d) infinite impedance"
+    ],
+    "correct_answer": "a",
+    "answer": "In a series LCR circuit, the phase difference between voltage and current is given by $\\tan\\phi = \\frac{X_L - X_C}{R}$. At <b>resonance</b>, the inductive reactance ($X_L$) is equal to the capacitive reactance ($X_C$), so $X_L - X_C = 0$. This means $\\tan\\phi = 0$, and thus the phase difference $\\phi = 0$.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The average power consumed in an AC circuit is given by: (MHT CET 2023)",
+    "options": [
+      "(a) $V_{rms} I_{rms} \\cos\\phi$",
+      "(b) $V_{rms} I_{rms} \\sin\\phi$",
+      "(c) $V_{rms} I_{rms} \\tan\\phi$",
+      "(d) $V_{rms} I_{rms}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The average power ($P_{avg}$) consumed in an AC circuit is given by the formula $P_{avg} = V_{rms} I_{rms} \\cos\\phi$, where $V_{rms}$ and $I_{rms}$ are the root mean square values of voltage and current, and $\\cos\\phi$ is the power factor.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The capacitive reactance of a capacitor is: (MHT CET 2022)",
+    "options": [
+      "(a) proportional to frequency",
+      "(b) inversely proportional to frequency",
+      "(c) independent of frequency",
+      "(d) proportional to the square of frequency"
+    ],
+    "correct_answer": "b",
+    "answer": "The capacitive reactance ($X_C$) of a capacitor is given by the formula:<br>$X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}$<br>where $\\omega$ is the angular frequency, $f$ is the frequency of the AC source, and $C$ is the capacitance. This formula shows that the capacitive reactance is inversely proportional to the frequency.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The impedance of a series LCR circuit is minimum at: (MHT CET 2021)",
+    "options": [
+      "(a) high frequency",
+      "(b) low frequency",
+      "(c) resonance",
+      "(d) maximum voltage"
+    ],
+    "correct_answer": "c",
+    "answer": "The impedance (Z) of a series LCR circuit is given by $Z = \\sqrt{R^2 + (X_L - X_C)^2}$. The impedance is minimum when the term $(X_L - X_C)$ is zero, which happens at <b>resonance</b> when $X_L = X_C$. At this point, the impedance is equal to the resistance R, which is its minimum possible value.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phase difference between voltage and current in a purely inductive circuit is: (MHT CET 2020)",
+    "options": [
+      "(a) $0^\\circ$",
+      "(b) $45^\\circ$",
+      "(c) $90^\\circ$",
+      "(d) $180^\\circ$"
+    ],
+    "correct_answer": "c",
+    "answer": "In a purely inductive AC circuit, the current lags the voltage by a phase angle of $90^\\circ$ or $\\pi/2$ radians. This is due to the back e.m.f. produced by the inductor.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a step-up transformer, the number of turns in the primary coil is: (MHT CET 2019)",
+    "options": [
+      "(a) less than the number of turns in the secondary coil",
+      "(b) greater than the number of turns in the secondary coil",
+      "(c) equal to the number of turns in the secondary coil",
+      "(d) half of the number of turns in the secondary coil"
+    ],
+    "correct_answer": "a",
+    "answer": "A step-up transformer increases the voltage. According to the transformer equation, $\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$, where $V_s$ and $V_p$ are the secondary and primary voltages, and $N_s$ and $N_p$ are the number of turns. For $V_s > V_p$, it must be that $N_s > N_p$. Therefore, the number of turns in the primary coil is less than that in the secondary coil.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of impedance is: (MHT CET 2018)",
+    "options": [
+      "(a) Henry",
+      "(b) Farad",
+      "(c) Ohm",
+      "(d) Weber"
+    ],
+    "correct_answer": "c",
+    "answer": "Impedance (Z) is the total opposition to the flow of alternating current. It is the complex sum of resistance and reactance. Like resistance and reactance, its SI unit is the <b>Ohm</b> ($\\Omega$).<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The power factor of a purely resistive circuit is: (MHT CET 2017)",
+    "options": [
+      "(a) 0",
+      "(b) 0.5",
+      "(c) 1",
+      "(d) infinity"
+    ],
+    "correct_answer": "c",
+    "answer": "The power factor is given by $\\cos\\phi$, where $\\phi$ is the phase difference between voltage and current. In a purely resistive circuit, the voltage and current are in phase, so $\\phi = 0^\\circ$. Since $\\cos(0^\\circ) = 1$, the power factor is 1.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The r.m.s. value of an alternating current is: (MHT CET 2016)",
+    "options": [
+      "(a) $I_0/\\sqrt{2}$",
+      "(b) $I_0/2$",
+      "(c) $I_0\\sqrt{2}$",
+      "(d) $I_0$"
+    ],
+    "correct_answer": "a",
+    "answer": "The r.m.s. (root mean square) value of an alternating current is defined as the value of the direct current that would produce the same heating effect in a given resistor. The relation between the r.m.s. value ($I_{rms}$) and the peak value ($I_0$) is $I_{rms} = \\frac{I_0}{\\sqrt{2}}$.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a series LCR circuit, if the frequency is greater than the resonant frequency, the circuit is: (MHT CET 2015)",
+    "options": [
+      "(a) capacitive",
+      "(b) inductive",
+      "(c) resistive",
+      "(d) resonant"
+    ],
+    "correct_answer": "b",
+    "answer": "In a series LCR circuit, the resonant frequency is given by $f_r = \\frac{1}{2\\pi\\sqrt{LC}}$. If the applied frequency ($f$) is greater than the resonant frequency ($f_r$), the inductive reactance ($X_L = 2\\pi f L$) will be greater than the capacitive reactance ($X_C = 1/(2\\pi f C)$). When $X_L > X_C$, the circuit is predominantly inductive.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The quality factor (Q-factor) of a series resonant LCR circuit is given by: (MHT CET 2014)",
+    "options": [
+      "(a) $1/R\\sqrt{L/C}$",
+      "(b) $1/R\\sqrt{C/L}$",
+      "(c) $R\\sqrt{L/C}$",
+      "(d) $R\\sqrt{C/L}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The quality factor (Q-factor) of a series resonant LCR circuit is a dimensionless parameter that describes how underdamped an oscillator or resonator is. It is given by the formula $Q = \\frac{\\omega_0 L}{R} = \\frac{1}{\\omega_0 C R}$. Substituting $\\omega_0 = 1/\\sqrt{LC}$ gives $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A transformer is used to: (MHT CET 2013)",
+    "options": [
+      "(a) convert AC to DC",
+      "(b) convert DC to AC",
+      "(c) change the value of AC voltage",
+      "(d) change the value of DC voltage"
+    ],
+    "correct_answer": "c",
+    "answer": "A transformer is a passive electrical device that transfers electrical energy from one electrical circuit to one or more other circuits. A changing current in the primary coil creates a changing magnetic field that induces a changing voltage in the secondary coil. This principle allows it to step up or step down the value of an AC voltage.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The instantaneous current in an AC circuit is given by $I = 4\\sin(\\omega t + \\pi/6)$ A. The peak value of the current is: (MHT CET 2012)",
+    "options": [
+      "(a) 2 A",
+      "(b) 4 A",
+      "(c) 8 A",
+      "(d) 16 A"
+    ],
+    "correct_answer": "b",
+    "answer": "The instantaneous current in an AC circuit is given by the general equation $I = I_0 \\sin(\\omega t + \\phi)$, where $I_0$ is the peak value of the current. Comparing the given equation $I = 4\\sin(\\omega t + \\pi/6)$ with the general form, we can see that the peak value of the current is $I_0 = 4$ A.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  }
+]

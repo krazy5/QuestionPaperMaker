@@ -1,0 +1,398 @@
+[
+    {
+        "type": "mcq",
+        "text": "According to Arrhenius theory, an acid is a substance that:",
+        "options": ["donates a proton.", "accepts an electron pair.", "produces $H^+$ ions in aqueous solution.", "produces $OH^-$ ions in aqueous solution."],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The conjugate base of the hydronium ion, $H_3O^+$, is:",
+        "options": ["$OH^-$", "$H_2O$", "$H_2$", "$O^{2-}$"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Which of the following is a Lewis acid but not a Brønsted-Lowry acid?",
+        "options": ["$HCl$", "$NH_3$", "$BF_3$", "$H_2O$"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The ionic product of water, $K_w$, at 298 K is:",
+        "options": ["$1.0 \\times 10^{-7}$", "$1.0 \\times 10^{14}$", "$1.0 \\times 10^{-14}$", "$7.0$"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The pH of a 0.001 M NaOH solution is: [HSC 2022]",
+        "options": ["3", "11", "14", "1"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Ostwald's dilution law is applicable to:",
+        "options": ["strong electrolytes only", "non-electrolytes", "weak electrolytes only", "all electrolytes"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "An aqueous solution of ammonium chloride ($NH_4Cl$) is:",
+        "options": ["acidic", "basic", "neutral", "amphoteric"],
+        "correct_answer": "A",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Which of the following mixtures acts as an acidic buffer? [HSC 2023]",
+        "options": ["$HCl + NaCl$", "$CH_3COOH + CH_3COONa$", "$NH_4OH + NH_4Cl$", "$NaOH + NaCl$"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The Henderson-Hasselbalch equation for an acidic buffer is:",
+        "options": ["$pH = pK_a + \\log_{10}(\\frac{[Acid]}{[Salt]})$", "$pOH = pK_b + \\log_{10}(\\frac{[Salt]}{[Base]})$", "$pH = pK_a + \\log_{10}(\\frac{[Salt]}{[Acid]})$", "$pH = pK_w - pOH$"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The solubility product, $K_{sp}$, of $AgCl$ is given by the expression:",
+        "options": ["$[Ag^+][Cl^-]$", "$\\frac{[Ag^+][Cl^-]}{[AgCl]}$", "$[Ag^+] + [Cl^-]$", "$[AgCl]$"],
+        "correct_answer": "A",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "If the solubility of $CaF_2$ is 'S' mol L⁻¹, its solubility product ($K_{sp}$) is:",
+        "options": ["$S^2$", "$2S^3$", "$4S^2$", "$4S^3$"],
+        "correct_answer": "D",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The solubility of $AgCl$ in a 0.1 M solution of $NaCl$ will be:",
+        "options": ["greater than its solubility in pure water.", "less than its solubility in pure water.", "the same as its solubility in pure water.", "zero."],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "What is the degree of dissociation ($\\alpha$) of a 0.01 M solution of acetic acid ($CH_3COOH$) if its $K_a = 1.8 \\times 10^{-5}$?",
+        "options": ["0.42", "0.018", "0.042", "0.18"],
+        "correct_answer": "C",
+        "marks": 2
+    },
+    {
+        "type": "mcq",
+        "text": "The pH of blood is maintained primarily by which buffer system?",
+        "options": ["Acetic acid / Acetate", "Ammonia / Ammonium", "Carbonic acid / Bicarbonate", "Phosphate buffer system"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "A salt derived from a weak acid and a weak base will have a pH that depends on: [HSC 2020]",
+        "options": ["only $K_a$ of the acid.", "only $K_b$ of the base.", "both $K_a$ and $K_b$.", "neither $K_a$ nor $K_b$."],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The relationship between $K_a$ and $K_b$ for a conjugate acid-base pair is:",
+        "options": ["$K_a + K_b = K_w$", "$K_a / K_b = K_w$", "$K_a \\times K_b = K_w$", "$K_a = K_b$"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "Buffer capacity is maximum when:",
+        "options": ["$pH = pK_a$", "$[Salt] > [Acid]$", "$[Acid] > [Salt]$", "$pH = 7$"],
+        "correct_answer": "A",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "An aqueous solution of sodium acetate ($CH_3COONa$) is basic because of the hydrolysis of which ion? [HSC 2024]",
+        "options": ["$Na^+$", "$CH_3COO^-$", "Both $Na^+$ and $CH_3COO^-$", "Neither ion hydrolyzes"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The common ion effect is an application of:",
+        "options": ["Henry's Law", "Le Chatelier's Principle", "Raoult's Law", "Ostwald's Dilution Law"],
+        "correct_answer": "B",
+        "marks": 1
+    },
+    {
+        "type": "mcq",
+        "text": "The dissociation constant of a weak base is $1.0 \\times 10^{-6}$. What is the pKb of the base?",
+        "options": ["-6", "10", "6", "14"],
+        "correct_answer": "C",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "All Brønsted-Lowry bases are also Lewis bases.",
+        "answer": "True",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "The pH of a neutral solution is always 7.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "A solution of potassium chloride (KCl) is neutral.",
+        "answer": "True",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "The Henderson-Hasselbalch equation is only valid for strong acid solutions.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "If the ionic product (Q) is less than the solubility product ($K_{sp}$), a precipitate will form.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "The autoprotolysis of water is an endothermic process. [HSC 2019]",
+        "answer": "True",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "Adding a catalyst changes the value of an equilibrium constant like $K_a$ or $K_w$.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "A solution of sodium carbonate ($Na_2CO_3$) is acidic due to hydrolysis.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "Buffer solutions have a constant pH.",
+        "answer": "False",
+        "marks": 1
+    },
+    {
+        "type": "true_false",
+        "text": "The conjugate acid of $H_2O$ is $H_3O^+$.",
+        "answer": "True",
+        "marks": 1
+    },
+    
+  {
+    "type": "mcq",
+    "text": "The $\\text{pH}$ of a 0.01 M $HCl$ solution is: (MHT CET 2022)",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 12"
+    ],
+    "correct_answer": "b",
+    "answer": "$HCl$ is a strong acid that completely dissociates in solution.<br>$HCl \\longrightarrow H^+ + Cl^-$<br>The concentration of $H^+$ ions is equal to the concentration of the acid, so $[H^+] = 0.01 \\text{ M} = 10^{-2} \\text{ M}$.<br>The $\\text{pH}$ is given by the formula $\\text{pH} = -\\log_{10}[H^+]$.<br>$\\text{pH} = -\\log_{10}(10^{-2}) = -(-2) = 2$.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conjugate base of $NH_3$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $NH_4^+$",
+      "(b) $NH_2^-$",
+      "(c) $H^+$",
+      "(d) $H_2O$"
+    ],
+    "correct_answer": "b",
+    "answer": "According to the Brønsted-Lowry theory, a conjugate base is formed when an acid donates a proton ($H^+$). Conversely, a conjugate base is a substance that has one less proton than its conjugate acid.<br>The acid-base pair is related by the transfer of a proton ($H^+$).<br>$NH_3$ acts as a weak acid in this case and donates a proton to form its conjugate base.<br>$NH_3 \\longrightarrow H^+ + NH_2^-$<br>Therefore, the conjugate base of $NH_3$ is $NH_2^-$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solubility of $CaF_2$ in water is 's' mol/L. Its solubility product ($K_{sp}$) is: (MHT CET 2020)",
+    "options": [
+      "(a) $s^2$",
+      "(b) $s^3$",
+      "(c) $4s^3$",
+      "(d) $s^4$"
+    ],
+    "correct_answer": "c",
+    "answer": "The dissociation of $CaF_2$ in water is as follows:<br>$CaF_2 (s) \\rightleftharpoons Ca^{2+} (aq) + 2F^- (aq)$<br>If the solubility of $CaF_2$ is 's' mol/L, then the concentration of $Ca^{2+}$ is 's' mol/L and the concentration of $F^-$ is '2s' mol/L.<br>The solubility product ($K_{sp}$) is given by the expression:<br>$K_{sp} = [Ca^{2+}][F^-]^2 = (s)(2s)^2 = (s)(4s^2) = 4s^3$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The $\\text{pOH}$ of a 0.001 M $NaOH$ solution is: (MHT CET 2019)",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 11"
+    ],
+    "correct_answer": "c",
+    "answer": "$NaOH$ is a strong base that completely dissociates in solution.<br>$NaOH \\longrightarrow Na^+ + OH^-$<br>The concentration of $OH^-$ ions is equal to the concentration of the base, so $[OH^-] = 0.001 \\text{ M} = 10^{-3} \\text{ M}$.<br>The $\\text{pOH}$ is given by the formula $\\text{pOH} = -\\log_{10}[OH^-]$.<br>$\\text{pOH} = -\\log_{10}(10^{-3}) = -(-3) = 3$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A buffer solution is a mixture of: (MHT CET 2018)",
+    "options": [
+      "(a) Strong acid and strong base",
+      "(b) Weak acid and its conjugate base",
+      "(c) Strong acid and its conjugate base",
+      "(d) Strong base and its conjugate acid"
+    ],
+    "correct_answer": "b",
+    "answer": "A **buffer solution** is an aqueous solution that resists changes in $\\text{pH}$ upon the addition of a small amount of acid or base. An acidic buffer is typically made from a **weak acid and its salt with a strong base** (which provides the conjugate base). A basic buffer is made from a weak base and its salt with a strong acid.<br>Therefore, a mixture of a weak acid and its conjugate base forms a buffer solution.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The degree of dissociation of a weak electrolyte is given by: (MHT CET 2017)",
+    "options": [
+      "(a) $\\alpha = \\sqrt{\\frac{K_a}{C}}$",
+      "(b) $\\alpha = \\frac{K_a}{C}$",
+      "(c) $\\alpha = \\sqrt{K_a C}$",
+      "(d) $\\alpha = K_a C$"
+    ],
+    "correct_answer": "a",
+    "answer": "For a weak acid, the dissociation is given by $HA \\rightleftharpoons H^+ + A^-$.<br>The acid dissociation constant is $K_a = \\frac{[H^+][A^-]}{[HA]}$.<br>Let the initial concentration of the acid be C and the degree of dissociation be $\\alpha$.<br>At equilibrium, $[H^+] = C\\alpha$, $[A^-] = C\\alpha$, and $[HA] = C(1-\\alpha)$.<br>Since the acid is weak, $\\alpha$ is very small, so $(1-\\alpha) \\approx 1$.<br>$K_a = \\frac{(C\\alpha)(C\\alpha)}{C} = C\\alpha^2$<br>$\\alpha^2 = \\frac{K_a}{C} \\implies \\alpha = \\sqrt{\\frac{K_a}{C}}$<br>This is known as **Ostwald's dilution law** for a weak acid.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The common ion effect is a consequence of: (MHT CET 2016)",
+    "options": [
+      "(a) Henry's law",
+      "(b) Le Chatelier's principle",
+      "(c) Raoult's law",
+      "(d) Ostwald's dilution law"
+    ],
+    "correct_answer": "b",
+    "answer": "The **common ion effect** is the decrease in the solubility of an ionic compound due to the addition of a soluble compound that contains one of the same ions as the ionic compound. This effect is a direct application of **Le Chatelier's principle**, which states that a system at equilibrium will shift to counteract a stress. The stress in this case is the increased concentration of a common ion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The $\\text{pH}$ of a neutral solution at $25^{\\circ}C$ is: (MHT CET 2015)",
+    "options": [
+      "(a) 0",
+      "(b) 7",
+      "(c) 14",
+      "(d) 10"
+    ],
+    "correct_answer": "b",
+    "answer": "In a neutral solution at $25^{\\circ}C$, the concentration of $H^+$ ions is equal to the concentration of $OH^-$ ions. The ionic product of water ($K_w$) is $1.0 \\times 10^{-14}$ at this temperature.<br>$[H^+][OH^-] = 10^{-14}$.<br>Since $[H^+] = [OH^-]$, we have $[H^+]^2 = 10^{-14}$, so $[H^+] = 10^{-7}$ M.<br>$\\text{pH} = -\\log_{10}[H^+] = -\\log_{10}(10^{-7}) = 7$.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solubility product of $AgCl$ is $1.0 \\times 10^{-10}$ at $25^{\\circ}C$. The solubility of $AgCl$ in 0.1 M $NaCl$ solution is: (MHT CET 2014)",
+    "options": [
+      "(a) $1.0 \\times 10^{-10}$ M",
+      "(b) $1.0 \\times 10^{-9}$ M",
+      "(c) $1.0 \\times 10^{-11}$ M",
+      "(d) $1.0 \\times 10^{-5}$ M"
+    ],
+    "correct_answer": "b",
+    "answer": "The dissociation of $AgCl$ is: $AgCl \\rightleftharpoons Ag^+ + Cl^-$.<br>The solubility product is $K_{sp} = [Ag^+][Cl^-] = 1.0 \\times 10^{-10}$.<br>The added $NaCl$ is a strong electrolyte, and it provides a common ion, $Cl^-$. The concentration of $Cl^-$ from $NaCl$ is 0.1 M.<br>We can assume that the concentration of $Cl^-$ from $AgCl$ is negligible compared to that from $NaCl$.<br>Let the solubility of $AgCl$ in 0.1 M $NaCl$ be 's'. Then $[Ag^+] = s$ and the total $[Cl^-] \\approx 0.1$ M.<br>$K_{sp} = [Ag^+][Cl^-] = (s)(0.1) = 1.0 \\times 10^{-10}$.<br>$s = \\frac{1.0 \\times 10^{-10}}{0.1} = 1.0 \\times 10^{-9}$ M.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The $\\text{pOH}$ of a solution is 10. The concentration of $H^+$ ions is: (MHT CET 2013)",
+    "options": [
+      "(a) $10^{-10}$ M",
+      "(b) $10^{-4}$ M",
+      "(c) $10^{-7}$ M",
+      "(d) $10^{-14}$ M"
+    ],
+    "correct_answer": "b",
+    "answer": "We know that $\\text{pH} + \\text{pOH} = 14$ at $25^{\\circ}C$.<br>Given $\\text{pOH} = 10$.<br>$\\text{pH} = 14 - \\text{pOH} = 14 - 10 = 4$.<br>The concentration of $H^+$ ions is given by $[H^+] = 10^{-\\text{pH}}$.<br>$[H^+] = 10^{-4}$ M.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The $\\text{pH}$ of a buffer solution can be calculated using the: (MHT CET 2012)",
+    "options": [
+      "(a) Raoult's law",
+      "(b) Henderson-Hasselbalch equation",
+      "(c) Nernst equation",
+      "(d) Faraday's laws"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Henderson-Hasselbalch equation** is used to calculate the $\\text{pH}$ of a buffer solution. For an acidic buffer, the formula is:<br>$\\text{pH} = \\text{p}K_a + \\log_{10} \\frac{\\text{[Salt]}}{\\text{[Acid]}}$<br>For a basic buffer, the formula is:<br>$\\text{pOH} = \\text{p}K_b + \\log_{10} \\frac{\\text{[Salt]}}{\\text{[Base]}}$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A weak acid has a dissociation constant of $1.0 \\times 10^{-5}$. The degree of dissociation of 0.1 M solution is: (MHT CET 2011)",
+    "options": [
+      "(a) $1.0 \\times 10^{-2}$",
+      "(b) $1.0 \\times 10^{-3}$",
+      "(c) $1.0 \\times 10^{-4}$",
+      "(d) $1.0 \\times 10^{-5}$"
+    ],
+    "correct_answer": "a",
+    "answer": "We can use Ostwald's dilution law for a weak acid: $\\alpha = \\sqrt{\\frac{K_a}{C}}$<br>Given values: $K_a = 1.0 \\times 10^{-5}$, $C = 0.1 \\text{ M} = 10^{-1} \\text{ M}$.<br>$\\alpha = \\sqrt{\\frac{1.0 \\times 10^{-5}}{10^{-1}}} = \\sqrt{1.0 \\times 10^{-4}} = 1.0 \\times 10^{-2}$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the concentrations of the hydrogen ions and hydroxide ions in an aqueous solution is constant. This is known as the: (MHT CET 2010)",
+    "options": [
+      "(a) Ionic product of water",
+      "(b) Solubility product",
+      "(c) Common ion effect",
+      "(d) Law of mass action"
+    ],
+    "correct_answer": "a",
+    "answer": "The product of the molar concentrations of hydrogen ions ($H^+$) and hydroxide ions ($OH^-$) in water at a given temperature is constant. This constant is called the **ionic product of water** ($K_w$).<br>$K_w = [H^+][OH^-]$<br>At $25^{\\circ}C$, the value is $1.0 \\times 10^{-14}$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conjugate acid of $H_2PO_4^-$ is: (MHT CET 2009)",
+    "options": [
+      "(a) $HPO_4^{2-}$",
+      "(b) $H_3PO_4$",
+      "(c) $PO_4^{3-}$",
+      "(d) $H_3O^+$"
+    ],
+    "correct_answer": "b",
+    "answer": "A **conjugate acid** is formed when a base accepts a proton ($H^+$). In this case, $H_2PO_4^-$ acts as a base and accepts a proton.<br>$H_2PO_4^- + H^+ \\longrightarrow H_3PO_4$<br>Therefore, the conjugate acid of $H_2PO_4^-$ is $H_3PO_4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The $\\text{pH}$ of a 0.05 M $H_2SO_4$ solution is: (MHT CET 2008)",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 11"
+    ],
+    "correct_answer": "a",
+    "answer": "$H_2SO_4$ is a strong acid and for dilute solutions, it can be considered to completely dissociate into two $H^+$ ions.<br>$H_2SO_4 \\longrightarrow 2H^+ + SO_4^{2-}$<br>The concentration of $H^+$ ions will be twice the concentration of the acid.<br>$[H^+] = 2 \\times [H_2SO_4] = 2 \\times 0.05 \\text{ M} = 0.1 \\text{ M} = 10^{-1} \\text{ M}$.<br>$\\text{pH} = -\\log_{10}[H^+] = -\\log_{10}(10^{-1}) = 1$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  }
+]

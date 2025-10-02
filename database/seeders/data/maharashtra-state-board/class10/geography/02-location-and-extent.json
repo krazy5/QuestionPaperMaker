@@ -1,0 +1,96 @@
+[
+  {
+    "type": "short",
+    "text": "What are the major parallels of latitude and meridians of longitude that pass through India?",
+    "answer": "The major parallels of latitude and meridians of longitude that pass through India are the **Tropic of Cancer** ($23.5° N$) and the **Indian Standard Time (IST) meridian** ($82.5° E$).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the capital of Brazil?",
+    "answer": "The capital of Brazil is **Brasília**. ",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the location and extent of India. (Practice Set 2.1)",
+    "answer": "India is located in the **Northern and Eastern Hemispheres** of the Earth. It is situated in the southern part of the Asian continent. Its mainland extends from approximately $8°4' N$ to $37°6' N$ latitude and from $68°7' E$ to $97°25' E$ longitude.\n\nIndia is a peninsula surrounded by the Arabian Sea to the west, the Bay of Bengal to the east, and the Indian Ocean to the south.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the location and extent of Brazil. (Practice Set 2.1)",
+    "answer": "Brazil is located in the **Northern, Southern, and Western Hemispheres**. It is primarily situated in the Southern Hemisphere and the Western Hemisphere. Its mainland extends from approximately $5°15' N$ to $33°45' S$ latitude and from $34°45' W$ to $73°48' W$ longitude.\n\nBrazil is surrounded by the Atlantic Ocean to the east and shares its borders with many countries in the South American continent.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Which two oceans border Brazil?",
+    "answer": "Brazil is bordered by the **Atlantic Ocean** on its eastern coast. It does not touch any other ocean.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between the location of India and Brazil.",
+    "answer": "### **Location of India**\n* **Hemisphere:** Located in the Northern and Eastern Hemispheres.\n* **Continent:** Part of the Asian continent.\n* **Water Bodies:** Surrounded by the Arabian Sea, Bay of Bengal, and Indian Ocean.\n* **Extremes:** The southern-most point of the Indian Union is Indira Point ($6°45' N$) in the Nicobar Islands.\n\n### **Location of Brazil**\n* **Hemisphere:** Located in the Northern, Southern, and Western Hemispheres.\n* **Continent:** Part of the South American continent.\n* **Water Bodies:** Surrounded by the Atlantic Ocean to the east.\n* **Extremes:** Its northern-most part is in the Northern Hemisphere.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Which tropic passes through the middle of India?",
+    "options": ["Equator", "Tropic of Capricorn", "Tropic of Cancer", "Prime Meridian"],
+    "correct_answer": "C",
+    "answer": "The **Tropic of Cancer** ($23.5° N$) passes through the central part of India. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the full name of Brazil?",
+    "answer": "The full name of Brazil is the **Federative Republic of Brazil**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the historical background of India. (PYQ: March 2020)",
+    "answer": "India was a colony of the British for a long period, from the 18th century to 1947. After gaining independence, India faced a lot of challenges like famines and wars. However, in the post-independence period, India became a major developing country and is considered a global market.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the historical background of Brazil. (PYQ: March 2022)",
+    "answer": "Brazil was a colony of the Portuguese for more than three centuries. It gained independence in 1822 and became a federal republic in 1889. From the 1930s to the 1980s, Brazil was under a populist military government. In the last two decades, it has overcome global financial challenges and is on the path to becoming a major developing country.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the southern-most point of India?",
+    "answer": "The southern-most point of the Indian Union is **Indira Point** in the Great Nicobar Island.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not a neighboring country of Brazil?",
+    "options": ["Argentina", "Chile", "Colombia", "Venezuela"],
+    "correct_answer": "B",
+    "answer": "Brazil shares a border with almost every country in South America except Ecuador and Chile. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Describe the coastline of India. (Practice Set 2.2)",
+    "answer": "India's coastline is approximately $7500$ km long. It is a peninsula with the Arabian Sea on the west and the Bay of Bengal on the east. The coastline is marked by beautiful beaches, large deltas, and significant ports. It has a varied coastline with different types of coastal landforms.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Which parallel of latitude passes through the northern part of Brazil?",
+    "answer": "The **Equator** passes through the northern part of Brazil.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the significance of the Prime Meridian and the Equator for determining location?",
+    "answer": "### **Prime Meridian ($0°$ longitude)**\n* It is used as the reference point for measuring longitude, which is a key coordinate for determining the east-west location of a place.\n* It divides the Earth into the Eastern and Western Hemispheres.\n\n### **Equator ($0°$ latitude)**\n* It is the reference line for measuring latitude, which is a key coordinate for determining the north-south location of a place.\n* It divides the Earth into the Northern and Southern Hemispheres.",
+    "marks": 4
+  }
+]

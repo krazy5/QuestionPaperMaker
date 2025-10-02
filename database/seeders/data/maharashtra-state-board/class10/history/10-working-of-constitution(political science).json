@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The voting age for men and women in India was lowered from 21 to 18 years by the _______ Constitutional Amendment.",
+    "options": [
+      "42nd",
+      "44th",
+      "61st",
+      "73rd"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The 61st Amendment Act of 1989 lowered the voting age for elections to the Lok Sabha and state legislative assemblies from 21 years to 18 years. This gave more young people the opportunity to participate in the political process. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The essence of democracy is _______.",
+    "options": [
+      "a strong central government",
+      "decentralization of power",
+      "rule by a single party",
+      "limited voting rights"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Decentralization of power is a core principle of democracy. It ensures that power is distributed among different levels of government and is not concentrated in the hands of a few, which prevents misuse of power and increases citizen participation. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Right to Information (RTI) was enacted in the year _______.",
+    "options": [
+      "2000",
+      "2002",
+      "2005",
+      "2009"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Right to Information Act was passed by the Parliament of India in 2005. It is a landmark legislation that empowers citizens to access information from government bodies, promoting transparency and accountability. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 73rd and 74th Constitutional Amendments are significant because they granted constitutional status to _______.",
+    "options": [
+      "the Election Commission",
+      "the Supreme Court",
+      "local self-governing institutions",
+      "the policy of reservation"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> These amendments, passed in 1992, gave constitutional recognition and more powers to the rural (Panchayati Raj) and urban (Nagarpalika) local self-governing bodies, which was a major step towards decentralization of power. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The policy of reservation of seats for weaker sections of society is an example of _______.",
+    "options": [
+      "economic reform",
+      "social justice",
+      "political centralisation",
+      "foreign policy"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The policy of reservation is a key instrument for establishing social justice and equality. It aims to provide opportunities in education and employment to communities that have been historically deprived and marginalized. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The judiciary in India has protected the _______ by declaring that it is a basic feature of the Constitution.",
+    "options": [
+      "power of the Prime Minister",
+      "supremacy of the Parliament",
+      "role of political parties",
+      "principle of democracy"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The Supreme Court has interpreted that democracy is part of the 'basic structure' or 'basic framework' of the Constitution. This means that even the Parliament cannot make any amendments that would damage this fundamental principle. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following acts was passed to prevent injustice against certain marginalized communities?",
+    "options": [
+      "Right to Information Act",
+      "Prevention of Atrocities Act",
+      "Right to Education Act",
+      "Dowry Prohibition Act"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act was enacted to prevent crimes and atrocities against members of these communities and to enable them to live with dignity and self-esteem. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What percentage of seats are reserved for women in local self-governing institutions in Maharashtra?",
+    "options": [
+      "25%",
+      "33%",
+      "50%",
+      "40%"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The 73rd and 74th amendments reserved 33% of seats for women. Maharashtra has gone a step further and increased this reservation to 50% in its local bodies to enhance women's participation in politics. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is meant by the 'basic framework of the Constitution'?",
+    "answer": "The 'basic framework' or 'basic structure' of the Constitution refers to its fundamental principles and core values that cannot be altered or destroyed by the Parliament through amendments. The judiciary has the power to strike down any amendment that violates this basic framework. Examples include democracy, secularism, and federalism.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What do you understand by 'political maturity'?",
+    "answer": "Political maturity in a democracy means that the people can exercise their right to vote judiciously. It is achieved when voters make informed decisions based on the merits of candidates and parties, leading to the successful functioning of democracy. Regular and fair elections are a key indicator of this maturity.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What were the effects of reducing the voting age from 21 to 18?",
+    "answer": "Reducing the voting age gave the young generation in India an opportunity to participate in the political process. This made Indian democracy the largest in the world in terms of the number of voters and encouraged the political representation of the aspirations of the youth.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. 73rd Amendment - Reservation for women<br>2. Right to Information - Transparency in administration<br>3. Prevention of Atrocities Act - Protection for minorities<br>4. 61st Amendment - Lowering voting age",
+    "answer": "<b>Wrong Pair:</b> Prevention of Atrocities Act - Protection for minorities<br><b>Corrected Pair:</b> Prevention of Atrocities Act - Protection for Scheduled Castes and Scheduled Tribes",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Right to Vote, Right to Information, Reservation Policy, Decentralization of Power.",
+    "answer": "This is subjective.<br><b>Answer 1: Reservation Policy.</b><br><b>Reason:</b> Right to Vote, Right to Information, and Decentralization of Power are principles that apply universally to all citizens to strengthen democracy. The Reservation Policy is a specific measure for social justice targeted at certain communities.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: RTI Act, 2005 : Transparency :: 73rd Amendment : _______.",
+    "answer": "<b>Decentralization of power / Women's Representation.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Scheduled Castes : Reservation Policy :: Women : _______.",
+    "answer": "<b>Representation in local bodies / Dowry Prohibition Act.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is meant by establishing social justice?",
+    "answer": "Establishing social justice means removing social conditions which are responsible for injustice and ensuring that all individuals have equal opportunities for development, without any discrimination based on caste, creed, religion, language, or gender. It involves taking positive steps to uplift deprived sections of society.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What steps has the government taken for the welfare of minorities?",
+    "answer": "The Indian government has adopted several policies for the protection and welfare of minorities. The government has implemented various schemes to provide them with opportunities for education and employment. The Indian constitution also prohibits discrimination against minorities based on caste, religion, race, language, or region.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the Right to Information (RTI)?",
+    "answer": "The Right to Information (RTI) is a fundamental right of Indian citizens, enacted in 2005. It empowers people to access information held by government authorities. This right promotes transparency in the working of the government, increases accountability, and is a key feature of good governance.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is decentralisation of power? Explain its importance in a democracy.",
+    "answer": "Decentralisation of power means distributing political power and responsibilities among different levels of government, rather than concentrating it at the central level. In India, this is achieved through the three-tier system of central government, state government, and local self-governing institutions (Panchayats and Municipalities).<br><br><b>Importance in Democracy:</b><br>1. <b>Prevents Dictatorship:</b> It prevents the misuse of power by a single authority and reduces the risk of authoritarian rule.<br>2. <b>Increases Citizen Participation:</b> Local self-governments provide opportunities for common people to participate in governance and decision-making processes that affect their daily lives.<br>3. <b>Good Governance:</b> It makes the administration more efficient and responsive to the needs of the local people.<br>4. <b>Strengthens Democracy:</b> It is the true essence of democracy as it ensures that power rests with the people at the grassroots level.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the policy of reservation of seats.",
+    "answer": "The policy of reservation of seats is one of the most significant provisions in the Indian Constitution aimed at establishing social justice and equality.<br>1. <b>Purpose:</b> Its main purpose is to provide opportunities in education and government jobs to those sections of society, like the Scheduled Castes (SCs) and Scheduled Tribes (STs), who were historically deprived of these opportunities due to the caste system.<br>2. <b>Affirmative Action:</b> It is a form of affirmative action designed to uplift marginalized communities and bring them into the mainstream of society.<br>3. <b>Other Backward Classes (OBCs):</b> Later, the provision of reservation was also extended to the Other Backward Classes (OBCs).<br>4. <b>Social Inclusion:</b> This policy is not just about jobs, but it is a tool for social inclusion, ensuring that all sections of society are represented in the nation's progress.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of the judiciary in protecting the Constitution.",
+    "answer": "The judiciary in India has played a very important role in strengthening democracy and protecting the sanctity of the Constitution.<br>1. <b>Guardian of the Constitution:</b> The judiciary, especially the Supreme Court, is considered the guardian of the Constitution.<br>2. <b>Concept of Basic Framework:</b> The judiciary has taken a firm stand that the Parliament, while amending the constitution, cannot alter its 'basic structure' or 'basic framework'. This includes fundamental principles like democracy, secularism, federalism, and the rule of law.<br>3. <b>Protecting Citizens' Rights:</b> Through its judgments, the judiciary has protected the fundamental rights of citizens and has expanded their scope over time.<br>4. <b>Judicial Review:</b> It has the power of judicial review, which means it can declare any law passed by the legislature as unconstitutional if it violates the provisions of the Constitution.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe the significant judicial decisions that have helped in the empowerment of women.",
+    "answer": "The judiciary in post-independence India has given several important verdicts that have helped in the empowerment of women.<br>1. <b>Right to Alimony:</b> The courts have upheld the right of a divorced woman to receive alimony from her former husband to live a dignified life.<br>2. <b>Equal Remuneration:</b> The judiciary has supported the principle of equal pay for equal work for both men and women.<br>3. <b>Right to Property:</b> A landmark judgment gave women an equal share in their father's ancestral property, which was a major step towards economic empowerment.<br>4. <b>Protection from Domestic Violence and Harassment:</b> The courts have given verdicts that provide protection to women from domestic violence and sexual harassment at the workplace.<br>These decisions have helped in creating a more favourable environment for women and protecting their freedom and dignity.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "How has the Indian democracy been successful in establishing social justice and equality?",
+    "answer": "Social justice and equality are the cornerstones of the Indian Constitution, and several steps have been taken to achieve these goals.<br>1. <b>Abolition of Untouchability:</b> The Constitution abolished the practice of untouchability and made it a punishable offense.<br>2. <b>Policy of Reservation:</b> To provide equal opportunities, a policy of reservation of seats in education and government services was adopted for Scheduled Castes, Scheduled Tribes, and later, for Other Backward Classes.<br>3. <b>Prevention of Atrocities Act:</b> To protect the dignity and rights of marginalized communities, the 'Prevention of Atrocities Act' was passed, which has stringent provisions for punishing crimes against SCs and STs.<br>4. <b>Provisions for Minorities:</b> The government has adopted several schemes to provide opportunities for education and employment to minorities, and the Constitution protects their right to practice their religion and culture.<br>5. <b>Laws for Women:</b> Several laws, like the Dowry Prohibition Act and provisions for representation in local governments, have been made to empower women and end discrimination against them.",
+    "marks": 4
+  }
+]
+

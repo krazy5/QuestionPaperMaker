@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The correct sequence of taxonomic categories is:",
+    "options": [
+      "(a) Species $\\rightarrow$ genus $\\rightarrow$ order $\\rightarrow$ phylum",
+      "(b) Species $\\rightarrow$ order $\\rightarrow$ genus$\\rightarrow$ kingdom",
+      "(c) Genus $\\rightarrow$ species $\\rightarrow$ order $\\rightarrow$ kingdom",
+      "(d) None of these"
+    ],
+    "correct_answer": "a",
+    "answer": "The taxonomic hierarchy is the arrangement of various categories in a successive order, starting from the lowest rank (species) to the highest (kingdom). The correct order is: Species $\\rightarrow$ Genus $\\rightarrow$ Family $\\rightarrow$ Order $\\rightarrow$ Class $\\rightarrow$ Phylum/Division $\\rightarrow$ Kingdom.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following categories has real existence?",
+    "options": [
+      "(a) Species",
+      "(b) Genus",
+      "(c) Kingdom",
+      "(d) Phylum"
+    ],
+    "correct_answer": "a",
+    "answer": "A species is a group of organisms that can interbreed and produce fertile offspring. It is considered the lowest and most fundamental taxonomic rank and is the only one with real existence in nature.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The scientific name of wheat is Triticum aestivum. Which part of the name represents the genus?",
+    "options": [
+      "(a) Triticum",
+      "(b) aestivum",
+      "(c) Both Triticum and aestivum",
+      "(d) Neither Triticum nor aestivum"
+    ],
+    "correct_answer": "a",
+    "answer": "In binomial nomenclature, the first part of a scientific name is the genus, and the second part is the specific epithet. Thus, 'Triticum' represents the genus of wheat.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The common characteristics between tomato and potato will be maximum at the level of their:",
+    "options": [
+      "(a) Family",
+      "(b) Genus",
+      "(c) Division",
+      "(d) Order"
+    ],
+    "correct_answer": "a",
+    "answer": "Tomato and potato belong to the same family, Solanaceae. Since the family is a lower taxonomic rank than division or order, they share a greater number of common characteristics at the family level. They belong to different genera.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "ICBN stands for:",
+    "options": [
+      "(a) Indian Congress of Biological Names",
+      "(b) International Code of Botanical Nomenclature",
+      "(c) International Congress of Biological Names",
+      "(d) Indian Code of Botanical Nomenclature"
+    ],
+    "correct_answer": "b",
+    "answer": "ICBN is the abbreviation for the International Code of Botanical Nomenclature. It is a set of rules and recommendations dealing with the formal botanical names that are given to plants, fungi, and a few other groups of organisms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Binomial nomenclature was introduced by:",
+    "options": [
+      "(a) Carolus Linnaeus",
+      "(b) Ernst Mayr",
+      "(c) Robert Hooke",
+      "(d) Aristotle"
+    ],
+    "correct_answer": "a",
+    "answer": "Carolus Linnaeus, a Swedish botanist, zoologist, and physician, is credited with formalizing binomial nomenclature, the modern system of naming organisms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The classification of living organisms into five kingdoms was proposed by:",
+    "options": [
+      "(a) Carolus Linnaeus",
+      "(b) R. H. Whittaker",
+      "(c) Ernst Haeckel",
+      "(d) John Ray"
+    ],
+    "correct_answer": "b",
+    "answer": "The five-kingdom classification (Monera, Protista, Fungi, Plantae, and Animalia) was proposed by Robert H. Whittaker in 1969.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The most significant criterion used for the classification of organisms in the five-kingdom system is:",
+    "options": [
+      "(a) Mode of nutrition",
+      "(b) Cell structure",
+      "(c) Body organization",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "The five-kingdom classification system, proposed by R. H. Whittaker, is based on several criteria, including cell structure, body organization, mode of nutrition, and phylogenetic relationships. All of these factors were considered for this classification.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a taxonomic hierarchy, a family is a group of related:",
+    "options": [
+      "(a) Species",
+      "(b) Genera",
+      "(c) Orders",
+      "(d) Classes"
+    ],
+    "correct_answer": "b",
+    "answer": "A family is a taxonomic group that consists of one or more related genera. It sits above the genus and below the order in the taxonomic hierarchy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a characteristic of the Kingdom Monera?",
+    "options": [
+      "(a) Unicellular organisms",
+      "(b) Prokaryotic cell type",
+      "(c) Presence of a nucleus",
+      "(d) Absence of membrane-bound organelles"
+    ],
+    "correct_answer": "c",
+    "answer": "The Kingdom Monera consists of unicellular prokaryotic organisms, such as bacteria. Prokaryotic cells are characterized by the absence of a well-defined nucleus and membrane-bound organelles.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'species' was coined by:",
+    "options": [
+      "(a) Carolus Linnaeus",
+      "(b) John Ray",
+      "(c) Ernst Mayr",
+      "(d) Aristotle"
+    ],
+    "correct_answer": "b",
+    "answer": "The term 'species' was first used by John Ray, a British naturalist, in his work 'Historia Plantarum' to refer to a group of interbreeding organisms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the biological name of mango?",
+    "options": [
+      "(a) Mangifera indica",
+      "(b) Solanum tuberosum",
+      "(c) Homo sapiens",
+      "(d) Panthera leo"
+    ],
+    "correct_answer": "a",
+    "answer": "The biological name for mango is *Mangifera indica*. According to binomial nomenclature, the genus name (Mangifera) is capitalized, and the species name (indica) is in lowercase. Both are italicized.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A taxon is defined as a:",
+    "options": [
+      "(a) Group of related species",
+      "(b) Group of related families",
+      "(c) Taxonomic group of any rank",
+      "(d) None of the above"
+    ],
+    "correct_answer": "c",
+    "answer": "A taxon is a taxonomic group of any rank, such as a species, genus, family, or class. For example, 'Mammalia' is a taxon at the class level.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main criterion for a species is:",
+    "options": [
+      "(a) Feeding on the same food",
+      "(b) Sharing the same habitat",
+      "(c) Interbreeding and producing fertile offspring",
+      "(d) Similar morphological features"
+    ],
+    "correct_answer": "c",
+    "answer": "The most widely accepted criterion for defining a species is the ability of organisms to interbreed naturally and produce fertile offspring. This is known as the biological species concept.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the taxonomic hierarchy, the category that comes between family and class is:",
+    "options": [
+      "(a) Genus",
+      "(b) Order",
+      "(c) Phylum",
+      "(d) Kingdom"
+    ],
+    "correct_answer": "b",
+    "answer": "The correct sequence in the taxonomic hierarchy is: Kingdom $\\rightarrow$ Phylum $\\rightarrow$ Class $\\rightarrow$ Order $\\rightarrow$ Family $\\rightarrow$ Genus $\\rightarrow$ Species. Therefore, 'order' is the category that comes between family and class.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The scientific name of an organism is derived from its:",
+    "options": [
+      "(a) Family and species",
+      "(b) Genus and species",
+      "(c) Class and order",
+      "(d) Phylum and genus"
+    ],
+    "correct_answer": "b",
+    "answer": "According to the system of binomial nomenclature, the scientific name of an organism consists of two parts: the genus name and the species name (specific epithet).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of all living organisms?",
+    "options": [
+      "(a) Growth",
+      "(b) Reproduction",
+      "(c) Metabolism",
+      "(d) Consciousness"
+    ],
+    "correct_answer": "c",
+    "answer": "Metabolism, the sum of all chemical reactions that occur in an organism, is a defining characteristic of all living organisms. While growth and reproduction are also common features, they are not exclusive to living things (e.g., a crystal can grow). Consciousness is only found in complex organisms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Kingdom Protista includes:",
+    "options": [
+      "(a) Unicellular prokaryotes",
+      "(b) Multicellular eukaryotes",
+      "(c) Unicellular eukaryotes",
+      "(d) All prokaryotes"
+    ],
+    "correct_answer": "c",
+    "answer": "The Kingdom Protista is a diverse group of eukaryotic organisms. They are mostly unicellular but can also be colonial or filamentous. Examples include amoeba, Euglena, and Paramecium.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The study of the evolutionary history of organisms is known as:",
+    "options": [
+      "(a) Paleontology",
+      "(b) Phylogeny",
+      "(c) Taxonomy",
+      "(d) Morphology"
+    ],
+    "correct_answer": "b",
+    "answer": "Phylogeny is the study of the evolutionary relationships between organisms. Paleontology is the study of fossils, taxonomy is the science of classifying organisms, and morphology is the study of the form and structure of organisms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the five-kingdom classification, which kingdom contains organisms that are eukaryotic, multicellular, and autotrophic?",
+    "options": [
+      "(a) Monera",
+      "(b) Protista",
+      "(c) Fungi",
+      "(d) Plantae"
+    ],
+    "correct_answer": "d",
+    "answer": "The Kingdom Plantae consists of organisms that are eukaryotic, multicellular, and primarily autotrophic (capable of producing their own food through photosynthesis).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The scientific discipline that deals with the naming, description, and classification of organisms is called:",
+    "options": [
+      "(a) Ecology",
+      "(b) Anatomy",
+      "(c) Taxonomy",
+      "(d) Physiology"
+    ],
+    "correct_answer": "c",
+    "answer": "Taxonomy is the science of naming, describing, and classifying organisms. It involves a systematic approach to arranging organisms into a hierarchical system of categories.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the most inclusive (highest) taxonomic category?",
+    "options": [
+      "(a) Family",
+      "(b) Class",
+      "(c) Phylum",
+      "(d) Order"
+    ],
+    "correct_answer": "c",
+    "answer": "In the taxonomic hierarchy, the order of categories from highest to lowest is Kingdom, Phylum, Class, Order, Family, Genus, and Species. Therefore, phylum is the most inclusive category among the given options.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which kingdom includes organisms that are eukaryotic, heterotrophic, and have cell walls made of chitin?",
+    "options": [
+      "(a) Monera",
+      "(b) Protista",
+      "(c) Fungi",
+      "(d) Animalia"
+    ],
+    "correct_answer": "c",
+    "answer": "The Kingdom Fungi consists of eukaryotic, heterotrophic organisms that have a cell wall primarily composed of chitin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The basic unit of classification is:",
+    "options": [
+      "(a) Genus",
+      "(b) Species",
+      "(c) Family",
+      "(d) Class"
+    ],
+    "correct_answer": "b",
+    "answer": "The species is the most fundamental and basic unit of classification in the taxonomic hierarchy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the hierarchy of classification, a class is a group of related:",
+    "options": [
+      "(a) Orders",
+      "(b) Families",
+      "(c) Genera",
+      "(d) Species"
+    ],
+    "correct_answer": "a",
+    "answer": "A class is a taxonomic group that consists of one or more related orders.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a key feature of the Kingdom Animalia?",
+    "options": [
+      "(a) Autotrophic nutrition",
+      "(b) Presence of cell walls",
+      "(c) Multicellular and eukaryotic",
+      "(d) All of the above"
+    ],
+    "correct_answer": "c",
+    "answer": "The Kingdom Animalia consists of multicellular, eukaryotic organisms that are heterotrophic. They do not have cell walls, unlike plants and fungi.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'taxonomy' was first coined by:",
+    "options": [
+      "(a) Carolus Linnaeus",
+      "(b) de Candolle",
+      "(c) Aristotle",
+      "(d) Theophrastus"
+    ],
+    "correct_answer": "b",
+    "answer": "The term 'taxonomy' was coined by the Swiss botanist Augustin Pyramus de Candolle in 1813.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main aim of taxonomy is to:",
+    "options": [
+      "(a) Describe and name all living organisms",
+      "(b) Classify organisms based on their evolutionary history",
+      "(c) Study the anatomy and physiology of organisms",
+      "(d) Identify and classify organisms based on shared characteristics"
+    ],
+    "correct_answer": "d",
+    "answer": "The main goal of taxonomy is to identify, name, and classify organisms based on their shared characteristics and evolutionary relationships.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The concept of 'biological species' was given by:",
+    "options": [
+      "(a) Carolus Linnaeus",
+      "(b) Ernst Mayr",
+      "(c) R. H. Whittaker",
+      "(d) John Ray"
+    ],
+    "correct_answer": "b",
+    "answer": "The biological species concept, which defines a species as a group of interbreeding natural populations that are reproductively isolated from other such groups, was proposed by the evolutionary biologist Ernst Mayr.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not a part of the five-kingdom classification?",
+    "options": [
+      "(a) Plantae",
+      "(b) Fungi",
+      "(c) Archaea",
+      "(d) Animalia"
+    ],
+    "correct_answer": "c",
+    "answer": "The five kingdoms in the Whittaker system are Monera, Protista, Fungi, Plantae, and Animalia. Archaea and Bacteria were later recognized as two separate domains within the Kingdom Monera, leading to a three-domain system of classification. However, 'Archaea' is not one of the original five kingdoms.",
+    "marks": 1
+  }
+]

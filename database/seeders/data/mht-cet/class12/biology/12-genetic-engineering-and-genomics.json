@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The enzyme used to cut DNA at specific sites in genetic engineering is:",
+    "options": [
+      "(a) DNA ligase",
+      "(b) Restriction endonuclease",
+      "(c) DNA polymerase",
+      "(d) Helicase"
+    ],
+    "correct_answer": "b",
+    "answer": "**Restriction endonuclease** is a molecular scissor that recognizes and cuts DNA at specific palindromic sequences. They are essential tools in genetic engineering for creating recombinant DNA.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of joining two DNA fragments is catalyzed by the enzyme:",
+    "options": [
+      "(a) DNA ligase",
+      "(b) Restriction endonuclease",
+      "(c) DNA polymerase",
+      "(d) Primase"
+    ],
+    "correct_answer": "a",
+    "answer": "**DNA ligase** acts as a molecular glue, forming phosphodiester bonds to join DNA fragments. This enzyme is crucial for creating recombinant DNA molecules.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A small circular DNA molecule in bacteria that can replicate independently is called a:",
+    "options": [
+      "(a) Cosmid",
+      "(b) Phage",
+      "(c) Plasmid",
+      "(d) Chromosome"
+    ],
+    "correct_answer": "c",
+    "answer": "A **plasmid** is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids are frequently used as vectors in genetic engineering to introduce foreign DNA into bacteria.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bacterium often used as a vector for cloning genes in plants is:",
+    "options": [
+      "(a) *E. coli*",
+      "(b) *Bacillus subtilis*",
+      "(c) *Agrobacterium tumefaciens*",
+      "(d) *Saccharomyces cerevisiae*"
+    ],
+    "correct_answer": "c",
+    "answer": "***Agrobacterium tumefaciens*** is a natural genetic engineer that can transfer a portion of its plasmid (Ti plasmid) into plant cells, making it a valuable tool for creating transgenic plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of amplifying a specific DNA sequence *in vitro* is known as:",
+    "options": [
+      "(a) Gene cloning",
+      "(b) DNA sequencing",
+      "(c) Polymerase Chain Reaction (PCR)",
+      "(d) Gel electrophoresis"
+    ],
+    "correct_answer": "c",
+    "answer": "**Polymerase Chain Reaction (PCR)** is a technique used in molecular biology to amplify a single copy or a few copies of a piece of DNA across several orders of magnitude, generating thousands to millions of copies of a particular DNA sequence.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme used in PCR that can withstand high temperatures is:",
+    "options": [
+      "(a) DNA ligase",
+      "(b) Primase",
+      "(c) Taq polymerase",
+      "(d) Helicase"
+    ],
+    "correct_answer": "c",
+    "answer": "**Taq polymerase** is a heat-stable DNA polymerase isolated from the bacterium *Thermus aquaticus*. Its ability to function at high temperatures is critical for the PCR process, which involves repeated cycles of heating.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'genomics' refers to the study of:",
+    "options": [
+      "(a) A single gene",
+      "(b) The entire set of genes of an organism",
+      "(c) Proteins in an organism",
+      "(d) The function of a single gene"
+    ],
+    "correct_answer": "b",
+    "answer": "**Genomics** is the study of the entire set of genes, their interactions, and their functions in an organism. It involves sequencing, mapping, and analyzing genomes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A gene whose expression can be monitored to determine if a foreign gene has been successfully inserted into a host cell is called a:",
+    "options": [
+      "(a) Reporter gene",
+      "(b) Promoter gene",
+      "(c) Regulator gene",
+      "(d) Operator gene"
+    ],
+    "correct_answer": "a",
+    "answer": "A **reporter gene** is a gene that is fused to a gene of interest and allows for the easy detection of successful gene transfer. For example, a gene for antibiotic resistance can be used as a reporter gene.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of separating DNA fragments of different sizes is called:",
+    "options": [
+      "(a) PCR",
+      "(b) Gene cloning",
+      "(c) Gel electrophoresis",
+      "(d) DNA sequencing"
+    ],
+    "correct_answer": "c",
+    "answer": "**Gel electrophoresis** is a laboratory technique used to separate DNA fragments based on their size and electrical charge. It is a fundamental technique used in genetic engineering and genomics.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a key step in the process of genetic engineering?",
+    "options": [
+      "(a) Denaturation of DNA",
+      "(b) Transformation of host cells",
+      "(c) Translation of mRNA",
+      "(d) Transcription of DNA"
+    ],
+    "correct_answer": "b",
+    "answer": "**Transformation** is the process of introducing a recombinant DNA molecule into a host cell. This is a crucial step in genetic engineering to produce a desired protein or trait.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'recombinant DNA' refers to:",
+    "options": [
+      "(a) DNA from two different organisms",
+      "(b) DNA that has been mutated",
+      "(c) DNA that has been replicated",
+      "(d) DNA that has been transcribed"
+    ],
+    "correct_answer": "a",
+    "answer": "**Recombinant DNA** is a DNA molecule formed by combining DNA from two different organisms. It is a central concept in genetic engineering.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a desirable characteristic of a cloning vector?",
+    "options": [
+      "(a) It should be very large in size.",
+      "(b) It should have a single recognition site for many restriction enzymes.",
+      "(c) It should have an origin of replication.",
+      "(d) It should not contain a selectable marker."
+    ],
+    "correct_answer": "c",
+    "answer": "A cloning vector must have an **origin of replication** so that it can be replicated in the host cell, allowing the foreign gene to be amplified.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of introducing a foreign gene into a host cell is called:",
+    "options": [
+      "(a) Ligation",
+      "(b) Transformation",
+      "(c) Transfection",
+      "(d) Both (b) and (c)"
+    ],
+    "correct_answer": "d",
+    "answer": "**Transformation** is the process of introducing foreign DNA into bacterial cells, while **transfection** is the process of introducing foreign DNA into eukaryotic cells. Both terms describe the same fundamental process.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Bt' in Bt-cotton stands for:",
+    "options": [
+      "(a) Bacillus thuringiensis",
+      "(b) B-type",
+      "(c) Biological toxin",
+      "(d) Biotechnology"
+    ],
+    "correct_answer": "a",
+    "answer": "Bt-cotton is a genetically modified cotton plant that produces a protein toxin from the bacterium ***Bacillus thuringiensis***. This toxin is effective against certain insect pests, making the plant resistant to them.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first human hormone produced using recombinant DNA technology was:",
+    "options": [
+      "(a) Adrenaline",
+      "(b) Thyroxine",
+      "(c) Insulin",
+      "(d) Estrogen"
+    ],
+    "correct_answer": "c",
+    "answer": "Human **insulin** was the first human hormone to be produced using recombinant DNA technology. This revolutionary advancement made it possible to produce large quantities of insulin for the treatment of diabetes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique used to identify a specific DNA sequence using a single-stranded nucleic acid probe is:",
+    "options": [
+      "(a) Western blotting",
+      "(b) Southern blotting",
+      "(c) Northern blotting",
+      "(d) ELISA"
+    ],
+    "correct_answer": "b",
+    "answer": "**Southern blotting** is a technique used to detect a specific DNA sequence in a DNA sample. It involves using a DNA probe that is complementary to the target sequence.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of genetic modification that involves the insertion of a gene into an organism to give it a new trait is:",
+    "options": [
+      "(a) Gene cloning",
+      "(b) Genetic engineering",
+      "(c) Hybridization",
+      "(d) Selective breeding"
+    ],
+    "correct_answer": "b",
+    "answer": "**Genetic engineering** is the direct manipulation of an organism's genes using biotechnology. It involves the insertion of new genes to give the organism a new trait.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first transgenic animal to be produced was:",
+    "options": [
+      "(a) Dolly the sheep",
+      "(b) Herman the bull",
+      "(c) GloFish",
+      "(d) A mouse"
+    ],
+    "correct_answer": "d",
+    "answer": "The first successful transgenic animal was a **mouse**, which was engineered to carry a foreign gene. This marked a significant milestone in genetic engineering research.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique used to silence a specific gene in an organism is:",
+    "options": [
+      "(a) RNA interference (RNAi)",
+      "(b) Gene therapy",
+      "(c) Gene cloning",
+      "(d) PCR"
+    ],
+    "correct_answer": "a",
+    "answer": "**RNA interference (RNAi)** is a biological process in which RNA molecules inhibit gene expression or translation by neutralizing targeted mRNA molecules. This is a powerful tool for gene silencing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Ti plasmid is obtained from:",
+    "options": [
+      "(a) *E. coli*",
+      "(b) *Agrobacterium tumefaciens*",
+      "(c) *Bacillus subtilis*",
+      "(d) *Saccharomyces cerevisiae*"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Ti plasmid** (Tumour-inducing plasmid) is found in the bacterium ***Agrobacterium tumefaciens*** and is used to genetically engineer plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of creating a genetically identical copy of a whole organism is called:",
+    "options": [
+      "(a) Cloning",
+      "(b) Genetic engineering",
+      "(c) Recombinant DNA technology",
+      "(d) Gene therapy"
+    ],
+    "correct_answer": "a",
+    "answer": "**Cloning** is the process of creating genetically identical individuals. Dolly the sheep was a famous example of a cloned animal.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A gene that confers resistance to an antibiotic and is used in a cloning vector is called a:",
+    "options": [
+      "(a) Reporter gene",
+      "(b) Selectable marker",
+      "(c) Promoter gene",
+      "(d) Operator gene"
+    ],
+    "correct_answer": "b",
+    "answer": "A **selectable marker** is a gene introduced into a cell that confers a trait suitable for artificial selection. For example, an antibiotic resistance gene allows for the selection of transformed cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Human Genome Project aimed to:",
+    "options": [
+      "(a) Clone a human being",
+      "(b) Identify all the genes in the human genome",
+      "(c) Cure all human diseases",
+      "(d) Create a transgenic human"
+    ],
+    "correct_answer": "b",
+    "answer": "The Human Genome Project was an international research effort to determine the sequence of the entire human genome, which included **identifying all the genes** in the human DNA.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a physical method of introducing foreign DNA into host cells?",
+    "options": [
+      "(a) Microinjection",
+      "(b) Disarmed pathogen vector",
+      "(c) Chemical transformation",
+      "(d) Electroporation"
+    ],
+    "correct_answer": "a",
+    "answer": "**Microinjection** is a physical method where foreign DNA is directly injected into the nucleus of a host cell using a fine micropipette.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique of using a virus to deliver a gene into a cell is known as:",
+    "options": [
+      "(a) Electroporation",
+      "(b) Gene therapy",
+      "(c) Transfection",
+      "(d) Cloning"
+    ],
+    "correct_answer": "b",
+    "answer": "**Gene therapy** is a therapeutic technique that involves the use of a virus (vector) to deliver a functional gene into a patient's cells to correct a genetic defect.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of creating a plant from a single cell or a small piece of tissue is:",
+    "options": [
+      "(a) Micropropagation",
+      "(b) Tissue culture",
+      "(c) Somatic hybridization",
+      "(d) Gene cloning"
+    ],
+    "correct_answer": "b",
+    "answer": "**Tissue culture** is the technique of growing cells, tissues, or organs in an artificially prepared nutrient medium under sterile conditions. It is a fundamental technique in plant biotechnology.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The plasmid used to create a genetically modified crop is often called a:",
+    "options": [
+      "(a) Vector",
+      "(b) Probe",
+      "(c) Primer",
+      "(d) Marker"
+    ],
+    "correct_answer": "a",
+    "answer": "A **vector** is a DNA molecule used as a vehicle to artificially carry foreign genetic material into another cell, where it can be replicated and expressed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main goal of the Human Genome Project was to:",
+    "options": [
+      "(a) Cure cancer",
+      "(b) Sequence the entire human genome",
+      "(c) Clone a human being",
+      "(d) Identify the function of all genes"
+    ],
+    "correct_answer": "b",
+    "answer": "The Human Genome Project was a massive international research effort with the primary goal of determining the entire sequence of base pairs that make up human DNA, known as the **human genome**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of using microorganisms to remove pollutants from the environment is called:",
+    "options": [
+      "(a) Bio-fortification",
+      "(b) Bio-leaching",
+      "(c) Bio-remediation",
+      "(d) Bio-mining"
+    ],
+    "correct_answer": "c",
+    "answer": "**Bio-remediation** is a process that uses microorganisms to degrade and detoxify pollutants and contaminants in the environment. It's an important application of biotechnology for environmental cleanup.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first genetically engineered food crop was:",
+    "options": [
+      "(a) Golden Rice",
+      "(b) Flavr Savr tomato",
+      "(c) Bt-caotton",
+      "(d) Roundup Ready soybeans"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Flavr Savr tomato** was the first commercially grown genetically engineered food crop. It was designed to have a longer shelf life and better flavor by delaying the ripening process.",
+    "marks": 1
+  }
+]

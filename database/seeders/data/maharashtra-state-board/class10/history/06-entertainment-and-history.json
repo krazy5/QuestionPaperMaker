@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The person known as the 'Father of Indian Cinema' is _______.",
+    "options": [
+      "Satyajit Ray",
+      "Dadasaheb Torne",
+      "Dadasaheb Phalke",
+      "Annasaheb Kirloskar"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Dadasaheb Phalke is honored as the 'Father of Indian Cinema' for producing the first full-length Indian feature film, 'Raja Harishchandra', in 1913. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first full-length Indian movie, ‘Raja Harishchandra’, was released in the year _______.",
+    "options": [
+      "1912",
+      "1913",
+      "1925",
+      "1931"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Dadasaheb Phalke's silent film 'Raja Harishchandra' was a milestone in Indian cinema, and it was released in 1913. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The traditional folk theatre form ‘Dashavatara’ is from the _______ region of Maharashtra.",
+    "options": [
+      "Vidarbha",
+      "Marathwada",
+      "Khandesh",
+      "Konkan"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Dashavatara is a rich tradition of folk theatre, especially popular in the Konkan and Goa regions. It presents stories of the ten incarnations of Vishnu. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The compositions of Saint Eknath are a prime example of the folk tradition of _______.",
+    "options": [
+      "Lalit",
+      "Tamasha",
+      "Bharud",
+      "Kirtan"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Bharud is a metaphorical song that has spiritual and ethical lessons. The Bharuds composed by Saint Eknath are very popular in Maharashtra for their dramatic quality. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first Marathi talkie (film with sound) was _______.",
+    "options": [
+      "Pundalik",
+      "Raja Harishchandra",
+      "Alam Ara",
+      "Ayodhyecha Raja"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> 'Ayodhyecha Raja', produced by Prabhat Company in 1932, was the first talkie film made in the Marathi language. 'Alam Ara' was the first Hindi talkie. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ancient Indian sport of ‘Chaturanga’ is a precursor to the modern game of _______.",
+    "options": [
+      "Ludo",
+      "Snakes and Ladders",
+      "Chess",
+      "Polo"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Chaturanga, which was played in ancient India, is considered to be the ancestor of modern chess. The game later travelled to Persia and then to Europe. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Vishnudas Bhave is known as the father of _______.",
+    "options": [
+      "Marathi Cinema",
+      "Marathi Theatre",
+      "Sangeet Natak",
+      "Marathi Journalism"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Vishnudas Bhave staged the first Marathi play, 'Sita Svayamvar', in 1843, which marked the beginning of modern Marathi theatre. Hence, he is known as its father. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The movie based on the struggle of the Phogat sisters and their father is _______.",
+    "options": [
+      "Lagaan",
+      "Mary Kom",
+      "Dangal",
+      "Bhaag Milkha Bhaag"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The film 'Dangal' is a biographical sports drama based on the life of Mahavir Singh Phogat, who trained his daughters Geeta Phogat and Babita Kumari to become India's first world-class female wrestlers. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the two main types of Kirtan in Maharashtra?",
+    "answer": "The two types of Kirtan are:<br>1. <b>Naradiya Kirtan:</b> This involves a single performer (Haridas) narrating a main story, interspersed with devotional songs.<br>2. <b>Varkari Kirtan:</b> This is performed in a group, with chorus singers providing accompaniment to the main Kirtankar. It involves collective participation and dancing.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why do people need entertainment?",
+    "answer": "People need entertainment for several reasons:<br>1. To get a break from the monotony and stress of daily work and life.<br>2. For recreation and refreshment, which helps in improving efficiency at work.<br>3. To nurture one's mind and to feel happy and relaxed.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is 'Tamasha'?",
+    "answer": "Tamasha is a prominent folk theatre form of Maharashtra, which evolved in the 18th century. It has two main parts: 'Vag', which is a drama with dialogues, and the music part, which includes popular genres like Lavani.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Sangeet Sharada - Annasaheb Kirloskar<br>2. Sita Svayamvar - Vishnudas Bhave<br>3. Keechak-Vadh - Krishnaji Prabhakar Khadilkar<br>4. Ayodhyecha Raja - Dadasaheb Phalke",
+    "answer": "<b>Wrong Pair:</b> Ayodhyecha Raja - Dadasaheb Phalke<br><b>Corrected Pair:</b> Ayodhyecha Raja - Prabhat Company (or Raja Harishchandra - Dadasaheb Phalke)",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Indoor Games, Outdoor Games, Video Games, Folk Games.",
+    "answer": "This can have multiple answers.<br><b>Answer 1: Video Games.</b><br><b>Reason:</b> Indoor, Outdoor, and Folk games are traditional categories. Video games are a modern, electronic form of entertainment.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Kathakali : Kerala :: Lavani : _______.",
+    "answer": "<b>Maharashtra.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Silent Film : Raja Harishchandra :: Talkie Film : _______.",
+    "answer": "<b>Alam Ara / Ayodhyecha Raja.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a 'Powada'?",
+    "answer": "A Powada is a dramatic narrative poetry form from Maharashtra that is sung in an exciting style. It is used to narrate great deeds of heroic men and women. The Powada composed by Adnyandas on the killing of Afzal Khan by Chhatrapati Shivaji Maharaj is a well-known example.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why are historical films and serials popular?",
+    "answer": "Historical films and serials are popular because they bring the past to life. They help in creating interest in history among people by recreating past events, characters, and environments. Serials like 'Bharat Ek Khoj' and films on historical figures play a significant role in making history engaging and accessible.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the importance of sports in our lives?",
+    "answer": "Sports are very important for physical and mental well-being.<br>1. They provide good exercise and help us to stay physically fit.<br>2. Playing games helps to build qualities like perseverance, sportsmanship, and cooperation.<br>3. They are a great form of recreation and help in relieving stress.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write a note on Marathi Theatre.",
+    "answer": "The history of Marathi theatre is quite rich.<br>1. <b>Early Roots:</b> The 17th-century ruler of Tanjore, Serfoji Raje Bhonsale, encouraged art and wrote several plays.<br>2. <b>Beginning of Modern Theatre:</b> In 1843, Vishnudas Bhave staged the play 'Sita Svayamvar', which is considered the first public performance of a Marathi play. This marked the beginning of modern Marathi theatre.<br>3. <b>Sangeet Natak (Musical Plays):</b> A very popular genre called 'Sangeet Natak' was pioneered by Annasaheb Kirloskar with his musical 'Shakuntal' in 1880. These plays combined prose dialogues with musical songs.<br>4. <b>Social Plays:</b> Marathi theatre also became a medium for social reform. Plays by Krishnaji Prabhakar Khadilkar and others commented on social issues and British rule.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the need for entertainment.",
+    "answer": "Entertainment is a fundamental human need that plays a vital role in maintaining a healthy and balanced life.<br>1. <b>Recreation and Refreshment:</b> A good quality of entertainment helps to relieve the stress and monotony of our daily work routine. It refreshes the mind and makes us feel happy.<br>2. <b>Improved Efficiency:</b> By providing a mental break, entertainment can recharge us, which in turn helps to increase our efficiency and productivity when we return to work.<br>3. <b>Nurturing Mind and Personality:</b> Engaging in hobbies and entertainment helps in the development of our personality. It allows us to explore our creativity and talents.<br>4. <b>Physical and Mental Health:</b> Many forms of entertainment, like sports, contribute to our physical fitness, while others, like music and art, are beneficial for mental peace.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is the relationship between history and films?",
+    "answer": "Films and history are closely related. Films are a powerful audio-visual medium that can bring history to life.<br>1. <b>Depiction of History:</b> Many films are based on historical themes, characters, and events. They recreate the past atmosphere, costumes, and lifestyle, making history visually engaging for the audience.<br>2. <b>Historical Sources:</b> Films themselves become historical documents over time. They reflect the social values, technology, and perspectives of the period in which they were made.<br>3. <b>Creating Awareness:</b> Historical films can create wide-scale awareness and interest in history. For example, biopics on historical figures or films on freedom struggles educate the masses about their past.<br>4. <b>Need for Accuracy:</b> While making historical films, it is a challenge to maintain historical accuracy in the depiction of characters, events, and the overall environment.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write about the history of sports in India.",
+    "answer": "India has a rich and ancient history of sports.<br>1. <b>Ancient Period:</b> Many games, both indoor and outdoor, have their origins in ancient India. Indoor games like 'Chaturanga' (chess) and games played with dice are mentioned in epics like the Mahabharata. Outdoor sports like wrestling, archery, and horse chariot races were also popular.<br>2. <b>Medieval Period:</b> Sports continued to be an important part of life. There is historical evidence of various wrestling competitions and other traditional sports.<br>3. <b>Modern Period:</b> During the British era, western sports like cricket became very popular in India. Major Khyatanarayana is credited for popularizing outdoor games in Gujarat.<br>4. <b>Sports Literature:</b> Recently, there has been a growing interest in the history of sports, leading to encyclopedias on sports, biographies of sportspersons, and movies based on sports.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the various folk theatre traditions of Maharashtra.",
+    "answer": "Maharashtra has a rich heritage of folk theatre traditions that have been a vital source of entertainment and social commentary.<br>1. <b>Dashavatara:</b> A popular tradition in the Konkan region, these plays are based on the ten incarnations of Vishnu. The performance begins by breaking a clay pot of curd (dahi handi) and invoking Lord Ganesha.<br>2. <b>Kirtan:</b> A devotional performance tradition that involves storytelling, acting, and singing bhajans. It was popularized by saints like Namdev and has two types: Naradiya and Varkari.<br>3. <b>Lalit:</b> An old form of entertainment, part of religious festivals, especially related to the worship of Goddess Narayani. It involves dramatic presentation with a strong element of humour and social messages.<br>4. <b>Bharud:</b> These are metaphorical songs with spiritual and ethical teachings, made popular by Saint Eknath. Their dramatic quality makes them engaging.<br>5. <b>Tamasha:</b> An 18th-century folk art form that includes Lavani songs and a dramatic skit called 'Vag'. It was a major source of entertainment for Maratha soldiers.",
+    "marks": 4
+  }
+]
+

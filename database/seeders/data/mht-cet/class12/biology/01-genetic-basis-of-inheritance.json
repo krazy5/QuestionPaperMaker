@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Who is considered the 'Father of Genetics'?",
+    "options": [
+      "(a) T. H. Morgan",
+      "(b) Gregor Mendel",
+      "(c) Hugo de Vries",
+      "(d) Walter Sutton"
+    ],
+    "correct_answer": "b",
+    "answer": "Gregor Mendel is known as the Father of Genetics for his pioneering work on pea plants, which established the fundamental principles of inheritance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cross between a heterozygous tall plant (Tt) and a dwarf plant (tt) is an example of a:",
+    "options": [
+      "(a) Monohybrid cross",
+      "(b) Dihybrid cross",
+      "(c) Test cross",
+      "(d) Back cross"
+    ],
+    "correct_answer": "c",
+    "answer": "A test cross is a cross between an individual with an unknown genotype and a recessive parent. It is used to determine if the unknown individual is homozygous or heterozygous dominant. In this case, crossing a heterozygous tall plant (Tt) with a recessive dwarf plant (tt) is a classic example.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a monohybrid cross, the ratio of the phenotypic traits in the $F_2$ generation is:",
+    "options": [
+      "(a) $3:1$",
+      "(b) $1:2:1$",
+      "(c) $9:3:3:1$",
+      "(d) $1:1$"
+    ],
+    "correct_answer": "a",
+    "answer": "In a monohybrid cross, such as a cross between a homozygous dominant and a homozygous recessive parent, the $F_1$ generation is all heterozygous. The selfing of the $F_1$ generation produces an $F_2$ generation with a phenotypic ratio of 3 dominant traits to 1 recessive trait.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The percentage of offspring that retain the parental genotypes in the $F_2$ generation of a Mendelian monohybrid cross is:",
+    "options": [
+      "(a) $100\\%$",
+      "(b) $25\\%$",
+      "(c) $50\\%$",
+      "(d) $75\\%$"
+    ],
+    "correct_answer": "c",
+    "answer": "In a monohybrid cross between a homozygous dominant (TT) and a homozygous recessive (tt) parent, the $F_1$ generation is all heterozygous (Tt). In the $F_2$ generation, the genotypic ratio is $1:2:1$ (TT:Tt:tt). The parental genotypes are TT and tt, which make up $25\\% + 25\\% = 50\\%$ of the $F_2$ generation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The inheritance of flower color in snapdragons, where the $F_1$ generation shows a blend of parental traits, is an example of:",
+    "options": [
+      "(a) Complete dominance",
+      "(b) Incomplete dominance",
+      "(c) Codominance",
+      "(d) Multiple allelism"
+    ],
+    "correct_answer": "b",
+    "answer": "Incomplete dominance is a type of inheritance where the heterozygous phenotype is a blend of the two homozygous phenotypes. In snapdragons, a cross between red and white flowers produces pink flowers in the $F_1$ generation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'gene' was coined by:",
+    "options": [
+      "(a) Gregor Mendel",
+      "(b) W. Johannsen",
+      "(c) T. H. Morgan",
+      "(d) G. D. Beadle"
+    ],
+    "correct_answer": "b",
+    "answer": "The Danish botanist Wilhelm Johannsen coined the term 'gene' in 1909 to describe the fundamental unit of heredity. Mendel's work used the term 'factor' for these units.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A cross between a red flower plant (RR) and a white flower plant (WW) produces offspring with both red and white patches. This is an example of:",
+    "options": [
+      "(a) Incomplete dominance",
+      "(b) Codominance",
+      "(c) Complete dominance",
+      "(d) Epistasis"
+    ],
+    "correct_answer": "b",
+    "answer": "Codominance is a type of inheritance in which both alleles for a gene are fully expressed in the phenotype of the heterozygote. This results in offspring with a phenotype that is neither dominant nor recessive, but rather a combination of both.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The law of segregation states that:",
+    "options": [
+      "(a) Alleles for a trait are not segregated during gamete formation.",
+      "(b) Alleles for a trait segregate during gamete formation.",
+      "(c) Different traits are inherited independently of each other.",
+      "(d) A dominant allele masks the effect of a recessive allele."
+    ],
+    "correct_answer": "b",
+    "answer": "Mendel's Law of Segregation states that during the formation of gametes, the two alleles for a trait segregate, or separate, so that each gamete carries only one allele.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A dihybrid cross involves studying the inheritance of how many pairs of contrasting traits?",
+    "options": [
+      "(a) One",
+      "(b) Two",
+      "(c) Three",
+      "(d) Four"
+    ],
+    "correct_answer": "b",
+    "answer": "A dihybrid cross is a breeding experiment between two organisms that are identically hybridized for two separate traits. For example, a cross involving seed shape (round or wrinkled) and seed color (yellow or green).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a recessive trait in pea plants?",
+    "options": [
+      "(a) Axial flower position",
+      "(b) Green pod color",
+      "(c) Round seed shape",
+      "(d) Tall plant height"
+    ],
+    "correct_answer": "b",
+    "answer": "In Mendel's experiments, green pod color was a recessive trait, while yellow pod color was dominant. Axial flower position, round seed shape, and tall plant height are all dominant traits.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon where a single gene can have multiple phenotypic effects is called:",
+    "options": [
+      "(a) Pleiotropy",
+      "(b) Polygenic inheritance",
+      "(c) Epistasis",
+      "(d) Linkage"
+    ],
+    "correct_answer": "a",
+    "answer": "Pleiotropy occurs when one gene influences two or more seemingly unrelated phenotypic traits. For example, the gene that affects a person's eye color may also influence their hair color and skin pigmentation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the $ABO$ blood group system, the alleles for blood group A ($I^A$) and blood group B ($I^B$) are examples of:",
+    "options": [
+      "(a) Incomplete dominance",
+      "(b) Codominance",
+      "(c) Complete dominance",
+      "(d) Pleiotropy"
+    ],
+    "correct_answer": "b",
+    "answer": "In the $ABO$ blood group system, both alleles for blood groups A and B are expressed when present together in a heterozygote. This leads to the AB blood type, which is an example of codominance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of crossing over is essential for:",
+    "options": [
+      "(a) Asexual reproduction",
+      "(b) Vegetative propagation",
+      "(c) Genetic recombination",
+      "(d) Fertilization"
+    ],
+    "correct_answer": "c",
+    "answer": "Crossing over is the process where homologous chromosomes exchange genetic material during meiosis. This leads to genetic recombination, creating new combinations of alleles and increasing genetic diversity.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A monohybrid cross involves a single pair of:",
+    "options": [
+      "(a) Gametes",
+      "(b) Chromosomes",
+      "(c) Contrasting characters",
+      "(d) Genes"
+    ],
+    "correct_answer": "c",
+    "answer": "A monohybrid cross studies the inheritance of a single pair of contrasting characters, such as flower color (e.g., purple vs. white) or plant height (tall vs. dwarf).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The genotypic ratio of the $F_2$ generation in a monohybrid cross is:",
+    "options": [
+      "(a) $3:1$",
+      "(b) $1:2:1$",
+      "(c) $9:3:3:1$",
+      "(d) $1:1$"
+    ],
+    "correct_answer": "b",
+    "answer": "For a monohybrid cross, the genotypes of the $F_2$ generation are typically 25% homozygous dominant, 50% heterozygous, and 25% homozygous recessive. This gives a genotypic ratio of 1:2:1.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a dihybrid cross, the phenotypic ratio in the $F_2$ generation is:",
+    "options": [
+      "(a) $3:1$",
+      "(b) $1:2:1$",
+      "(c) $9:3:3:1$",
+      "(d) $1:1$"
+    ],
+    "correct_answer": "c",
+    "answer": "The phenotypic ratio of 9:3:3:1 is a classic result of a dihybrid cross. It represents the ratio of the four possible combinations of the two traits being studied.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ability of a gene to regulate another gene's expression is called:",
+    "options": [
+      "(a) Pleiotropy",
+      "(b) Codominance",
+      "(c) Epistasis",
+      "(d) Linkage"
+    ],
+    "correct_answer": "c",
+    "answer": "Epistasis is a phenomenon where the expression of one gene is affected by another gene. This can result in a modified phenotypic ratio, often different from the expected dihybrid cross ratio.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The law of independent assortment is applicable to:",
+    "options": [
+      "(a) Genes located on the same chromosome",
+      "(b) Linked genes",
+      "(c) Genes located on different chromosomes",
+      "(d) All genes"
+    ],
+    "correct_answer": "c",
+    "answer": "Mendel's Law of Independent Assortment states that alleles for different traits are inherited independently of each other. This is true for genes located on different chromosomes or very far apart on the same chromosome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of linked genes?",
+    "options": [
+      "(a) They assort independently.",
+      "(b) They are located on the same chromosome.",
+      "(c) They are always separated by crossing over.",
+      "(d) They have different loci on different chromosomes."
+    ],
+    "correct_answer": "b",
+    "answer": "Linked genes are those that are located close together on the same chromosome. They tend to be inherited together, and their assortment is not independent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The genotype of a human female is:",
+    "options": [
+      "(a) XY",
+      "(b) XX",
+      "(c) XO",
+      "(d) YO"
+    ],
+    "correct_answer": "b",
+    "answer": "In humans, females have two X chromosomes (XX), while males have one X and one Y chromosome (XY).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of an organism having more than two sets of chromosomes is called:",
+    "options": [
+      "(a) Euploidy",
+      "(b) Aneuploidy",
+      "(c) Polyploidy",
+      "(d) Haploidy"
+    ],
+    "correct_answer": "c",
+    "answer": "Polyploidy is the condition of having three or more sets of chromosomes. It is common in plants and plays an important role in speciation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following human diseases is an example of a chromosomal disorder?",
+    "options": [
+      "(a) Hemophilia",
+      "(b) Sickle-cell anemia",
+      "(c) Down's syndrome",
+      "(d) Color blindness"
+    ],
+    "correct_answer": "c",
+    "answer": "Down's syndrome is a genetic disorder caused by the presence of all or part of a third copy of chromosome 21 (trisomy 21). Hemophilia and color blindness are gene-linked disorders, and sickle-cell anemia is a single-gene disorder.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The physical location of a gene on a chromosome is called its:",
+    "options": [
+      "(a) Locus",
+      "(b) Allele",
+      "(c) Trait",
+      "(d) Genotype"
+    ],
+    "correct_answer": "a",
+    "answer": "The locus is the specific, fixed position on a chromosome where a particular gene or genetic marker is located.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'genotype' refers to:",
+    "options": [
+      "(a) The physical appearance of an organism",
+      "(b) The genetic makeup of an organism",
+      "(c) The location of a gene on a chromosome",
+      "(d) The dominant allele of a gene"
+    ],
+    "correct_answer": "b",
+    "answer": "The genotype is the set of genes that an organism possesses, while the phenotype is the observable physical or biochemical characteristics of that organism.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of an allele masking the expression of another allele in a heterozygote is called:",
+    "options": [
+      "(a) Incomplete dominance",
+      "(b) Codominance",
+      "(c) Dominance",
+      "(d) Epistasis"
+    ],
+    "correct_answer": "c",
+    "answer": "Dominance is the phenomenon where a dominant allele completely masks the expression of a recessive allele in a heterozygote, so the phenotype is the same as that of the homozygous dominant individual.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The two alleles for a gene are located on:",
+    "options": [
+      "(a) Two different chromosomes",
+      "(b) The same chromosome",
+      "(c) Homologous chromosomes",
+      "(d) Sister chromatids"
+    ],
+    "correct_answer": "c",
+    "answer": "An allele is a variant form of a gene. The two alleles for a gene are located at the same locus on homologous chromosomes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sex of a human offspring is determined by:",
+    "options": [
+      "(a) The mother",
+      "(b) The father",
+      "(c) Both mother and father equally",
+      "(d) The environment"
+    ],
+    "correct_answer": "b",
+    "answer": "The father's sperm carries either an X or a Y chromosome. If an X-bearing sperm fertilizes the egg, the offspring is female (XX). If a Y-bearing sperm fertilizes the egg, the offspring is male (XY).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The total number of chromosomes in a human somatic cell is:",
+    "options": [
+      "(a) 23",
+      "(b) 46",
+      "(c) 44",
+      "(d) 22"
+    ],
+    "correct_answer": "b",
+    "answer": "Human somatic cells are diploid ($2n$) and contain 46 chromosomes, which consist of 22 pairs of autosomes and one pair of sex chromosomes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements is true for a pure tall pea plant?",
+    "options": [
+      "(a) Its genotype is Tt",
+      "(b) Its phenotype is tall",
+      "(c) It is homozygous",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "A pure tall pea plant has a homozygous genotype (TT), which results in a tall phenotype. Therefore, all the given statements are true for a pure tall pea plant.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The inheritance of the human skin color is an example of:",
+    "options": [
+      "(a) Monohybrid cross",
+      "(b) Incomplete dominance",
+      "(c) Polygenic inheritance",
+      "(d) Multiple allelism"
+    ],
+    "correct_answer": "c",
+    "answer": "Polygenic inheritance is a form of non-Mendelian inheritance where a trait is controlled by more than one gene. Human skin color is controlled by at least three pairs of genes, resulting in a wide range of phenotypes.",
+    "marks": 1
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "type": "long",
+    "text": "State the laws of refraction of light. (Practice Set 6.1)",
+    "answer": "There are two main laws of refraction:\n\n1.  **The first law of refraction:** The incident ray, the refracted ray, and the normal to the surface at the point of incidence, all lie in the same plane.\n2.  **The second law of refraction (Snell's Law):** For a given pair of media and for light of a given color, the ratio of the sine of the angle of incidence ($i$) to the sine of the angle of refraction ($r$) is a constant. This constant is called the refractive index of the second medium with respect to the first. Mathematically, it is expressed as $\\frac{\\sin i}{\\sin r} = n_2$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the refractive index of a medium?",
+    "answer": "The refractive index of a medium is a measure of how much the speed of light is reduced in that medium compared to its speed in a vacuum. It is a dimensionless quantity.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the difference between absolute refractive index and relative refractive index. (Practice Set 6.2)",
+    "answer": "### **Absolute Refractive Index**\n* **Definition:** The absolute refractive index of a medium is the ratio of the speed of light in a vacuum ($c$) to its speed in that medium ($v$). It is denoted by $n$. The formula is $n = \\frac{c}{v}$.\n* **Reference Medium:** The reference medium is always a vacuum or air.\n* **Value:** It is always greater than or equal to 1. For a vacuum, $n=1$.\n\n### **Relative Refractive Index**\n* **Definition:** The relative refractive index of a medium 2 with respect to a medium 1 is the ratio of the speed of light in medium 1 ($v_1$) to its speed in medium 2 ($v_2$). It is denoted by $n_{21}$. The formula is $n_{21} = \\frac{v_1}{v_2}$.\n* **Reference Medium:** The reference medium can be any medium, not necessarily a vacuum or air.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "If the speed of light in a medium is $2 \\times 10^8$ m/s, what is its absolute refractive index?",
+    "answer": "The speed of light in a vacuum is $c = 3 \\times 10^8$ m/s. The speed of light in the medium is $v = 2 \\times 10^8$ m/s. The absolute refractive index, $n = \\frac{c}{v} = \\frac{3 \\times 10^8}{2 \\times 10^8} = 1.5$.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The refractive index of glass with respect to air is 1.5. What is the refractive index of air with respect to glass? (Problem Set 6)",
+    "options": ["1.5", "$\\frac{1}{1.5}$", "0.5", "2.0"],
+    "correct_answer": "B",
+    "answer": "The refractive index of medium 1 with respect to medium 2 is the reciprocal of the refractive index of medium 2 with respect to medium 1. Therefore, $n_{air, glass} = \\frac{1}{n_{glass, air}} = \\frac{1}{1.5}$. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the phenomenon of dispersion of light. (Practice Set 6.3)",
+    "answer": "Dispersion of light is the phenomenon of splitting of white light into its constituent colors when it passes through a transparent medium, such as a prism. White light is a mixture of seven colors: Violet, Indigo, Blue, Green, Yellow, Orange, and Red (VIBGYOR).\n\nThe dispersion occurs because the refractive index of a medium is different for different colors of light. The speed of different colors of light is slightly different in a medium. Red light has the longest wavelength and is refracted the least, while violet light has the shortest wavelength and is refracted the most. As a result, the different colors travel at slightly different speeds and bend at different angles, causing the white light to split into a spectrum.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Why does a pencil appear bent when partially immersed in water?",
+    "answer": "The pencil appears bent due to the refraction of light. Light rays coming from the part of the pencil inside the water travel from a denser medium (water) to a rarer medium (air). As they emerge into the air, they bend away from the normal, making the submerged part of the pencil appear raised and bent when viewed from outside.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "A concave lens has a focal length of -20 cm. What is its power? (Problem Set 6)",
+    "options": ["-5 D", "5 D", "-0.05 D", "0.05 D"],
+    "correct_answer": "A",
+    "answer": "The power of a lens is given by the formula $P = \\frac{1}{f}$, where $f$ is the focal length in meters. Here, $f = -20$ cm = $-0.20$ m. So, $P = \\frac{1}{-0.20} = -5$ D (Diopters). The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A light ray enters from air into diamond with an angle of incidence of $45^{\\circ}$. The refractive index of diamond is 2.42. What is the angle of refraction? (Given: $\\sin 45^{\\circ} = 0.7071$).",
+    "answer": "Using Snell's Law, $n_{21} = \\frac{\\sin i}{\\sin r}$.\n\n**Given:**\n* Angle of incidence, $i = 45^{\\circ}$\n* Refractive index of diamond, $n_{diamond} = 2.42$\n* Refractive index of air, $n_{air} \\approx 1$\n\n**Calculation:**\n$n_{diamond, air} = \\frac{\\sin i}{\\sin r}$\n$2.42 = \\frac{\\sin 45^{\\circ}}{\\sin r}$\n$2.42 = \\frac{0.7071}{\\sin r}$\n$\\sin r = \\frac{0.7071}{2.42} \\approx 0.2922$\n$r = \\sin^{-1}(0.2922) \\approx 17^{\\circ}$\n\n**Answer:** The angle of refraction is approximately $17^{\\circ}$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the focal length of a convex lens?",
+    "answer": "The focal length of a convex lens is the distance between the optical center and the principal focus. It is the point on the principal axis where light rays parallel to the principal axis converge after refraction through the lens. It is considered positive.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the terms principal axis, principal focus, and optical center of a lens. (Practice Set 6.4)",
+    "answer": "### **Principal Axis**\nThe principal axis is an imaginary straight line passing through the two centers of curvature and the optical center of a lens.\n\n### **Principal Focus ($F$)**\nFor a convex lens, it is the point on the principal axis where a beam of light rays parallel to the principal axis converges after refraction through the lens. For a concave lens, it is the point on the principal axis from which a beam of light rays, parallel to the principal axis, appears to diverge after refraction through the lens.\n\n### **Optical Center ($O$)**\nThe optical center is a point on the principal axis of a lens such that a ray of light passing through this point goes undeviated.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the power of a lens?",
+    "answer": "The power of a lens is a measure of its ability to converge or diverge light rays. It is defined as the reciprocal of the focal length of the lens in meters. The unit of power is Diopter (D).",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a diverging lens? (Problem Set 6)",
+    "options": ["Convex lens", "Concave lens", "Plano-convex lens", "Converging lens"],
+    "correct_answer": "B",
+    "answer": "A concave lens is a diverging lens because it causes parallel rays of light to diverge after passing through it. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A concave lens has a focal length of 15 cm. At what distance should the object be placed from the lens so that it forms an image at 10 cm from the lens? Also, find the magnification produced by the lens.",
+    "answer": "Using the lens formula, $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$.\n\n**Given:**\n* Focal length of concave lens, $f = -15$ cm (negative for concave lens)\n* Image distance, $v = -10$ cm (image is virtual and forms on the same side as the object)\n* Object distance, $u = ?$\n\n**Calculations:**\n$\\frac{1}{-15} = \\frac{1}{-10} - \\frac{1}{u}$\n$\\frac{1}{u} = \\frac{1}{-10} - \\frac{1}{-15} = \\frac{1}{15} - \\frac{1}{10}$\n$\\frac{1}{u} = \\frac{2-3}{30} = \\frac{-1}{30}$\n$u = -30$ cm\n\n**Magnification:**\n$m = \\frac{v}{u} = \\frac{-10}{-30} = \\frac{1}{3} = 0.33$\n\n**Answer:** The object should be placed at 30 cm from the lens. The magnification is 0.33.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Why do stars twinkle at night?",
+    "answer": "Stars appear to twinkle due to atmospheric refraction of starlight. The light from a distant star travels through different layers of the Earth's atmosphere, which have continuously changing refractive indices. This causes the light to bend irregularly, making the star appear to twinkle.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "A ray of light traveling from a denser medium to a rarer medium... (Problem Set 6)",
+    "options": ["Bends away from the normal", "Bends towards the normal", "Goes undeviated", "None of the above"],
+    "correct_answer": "A",
+    "answer": "When a ray of light travels from a denser medium (e.g., water) to a rarer medium (e.g., air), its speed increases, and it bends away from the normal. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat ray diagram to show the formation of an image by a convex lens when the object is placed at $2F_1$. (Practice Set 6.5)",
+    "answer": "### **Ray Diagram**\n**Position of Object:** At $2F_1$\n\n1.  Draw a ray from the top of the object parallel to the principal axis. After refraction, it passes through the principal focus $F_2$.\n2.  Draw a second ray from the top of the object passing through the optical center. This ray goes undeviated.\n3.  The two rays intersect at a point, which is the top of the image. The image is formed at $2F_2$. \n\n**Characteristics of the image:**\n* **Position:** At $2F_2$\n* **Nature:** Real and inverted\n* **Size:** Same size as the object",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the critical angle?",
+    "answer": "The critical angle is the angle of incidence in a denser medium for which the angle of refraction in the rarer medium is $90^{\\circ}$. If the angle of incidence is greater than the critical angle, the light ray undergoes total internal reflection.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The power of a convex lens is... (Problem Set 6)",
+    "options": ["Positive", "Negative", "Zero", "Can be positive or negative"],
+    "correct_answer": "A",
+    "answer": "A convex lens is a converging lens and has a real focal point. Its focal length is always positive, so its power is also positive. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "An object of height 4 cm is placed at a distance of 20 cm from a convex lens of focal length 12 cm. Find the position, nature, and size of the image. (Practice Set 6.6)",
+    "answer": "Using the lens formula, $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$.\n\n**Given:**\n* Object height, $h_o = 4$ cm\n* Object distance, $u = -20$ cm (negative sign according to sign convention)\n* Focal length of convex lens, $f = +12$ cm\n\n**Calculations:**\n**1. Position of the image ($v$):**\n$\\frac{1}{12} = \\frac{1}{v} - \\frac{1}{-20}$\n$\\frac{1}{v} = \\frac{1}{12} - \\frac{1}{20} = \\frac{5-3}{60} = \\frac{2}{60} = \\frac{1}{30}$\n$v = 30$ cm\n\nThe image is formed at a distance of 30 cm on the other side of the lens.\n\n**2. Nature of the image:**\nSince $v$ is positive, the image is **real and inverted**.\n\n**3. Size of the image ($h_i$):**\nUsing the magnification formula, $m = \\frac{h_i}{h_o} = \\frac{v}{u}$\n$\\frac{h_i}{4} = \\frac{30}{-20} = -1.5$\n$h_i = -1.5 \\times 4 = -6$ cm\n\n**Answer:** The image is formed at 30 cm, is real and inverted, and its height is 6 cm.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Why do mirages form in hot deserts?",
+    "answer": "Mirages are formed due to total internal reflection. In hot deserts, the air near the ground is hotter and hence rarer than the cooler air at higher altitudes. Light rays from a distant object travel from a denser layer to a rarer layer, continuously bending away from the normal. When the angle of incidence exceeds the critical angle, total internal reflection occurs, creating an inverted image that looks like a reflection in a pool of water.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The speed of light in a vacuum is approximately... (Problem Set 6)",
+    "options": ["$3 \\times 10^5$ km/s", "$3 \\times 10^8$ m/s", "$3 \\times 10^8$ km/s", "$3 \\times 10^5$ m/s"],
+    "correct_answer": "B",
+    "answer": "The speed of light in a vacuum is approximately $3 \\times 10^8$ m/s or $3 \\times 10^5$ km/s. The correct option is **B**.",
+    "marks": 1
+  }
+]

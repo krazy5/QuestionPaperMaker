@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The book ‘Rajatarangini’, a history of Kashmir, was written by _______.",
+    "options": [
+      "Banabhatta",
+      "Kalhana",
+      "Al-Biruni",
+      "Hasan Nizami"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Kalhana, a 12th-century author, wrote 'Rajatarangini'. It is often cited as the first history book of India in the modern sense, as Kalhana critically examined his sources like inscriptions and ancient texts. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "‘Bakhars’ are a type of historical narrative that originated in _______.",
+    "options": [
+      "Rajasthan",
+      "Bengal",
+      "Maharashtra",
+      "Punjab"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Bakhars are historical chronicles, written in prose, that were important in Marathi literature. They contain eulogies of heroes, stories of historic events, and descriptions of battles. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first Director General of the Archaeological Survey of India was _______.",
+    "options": [
+      "Alexander Cunningham",
+      "John Marshall",
+      "James Mill",
+      "Mountstuart Elphinstone"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Alexander Cunningham was a British army engineer who later took an interest in the history and archaeology of India. He was appointed as the first Director General of the Archaeological Survey of India in 1861. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The book ‘The History of British India’ written by _______ reflects a colonial perspective.",
+    "options": [
+      "James Mill",
+      "James Grant Duff",
+      "Colonel Todd",
+      "William Wilson Hunter"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> James Mill's book, published in 1817, was the first systematic history of British India written by a British historian. It is known for its clear prejudice and its objective of justifying British rule in India. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The book, ‘Who Were the Shudras’, was written by _______.",
+    "options": [
+      "Mahatma Phule",
+      "V. K. Rajwade",
+      "Dr. Babasaheb Ambedkar",
+      "Pandita Ramabai"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Dr. Babasaheb Ambedkar wrote extensively on the caste system in India. In his book 'Who Were the Shudras', he explained the origin of the lower castes, a theme central to subaltern historiography. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The National Archives of India is situated in _______.",
+    "options": [
+      "Kolkata",
+      "Mumbai",
+      "Chennai",
+      "Delhi"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The National Archives of India, which is the custodian of the non-current records of the Government of India, is located in New Delhi. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Historiography which focuses on the history of the bottommost ranks of people in society is known as _______ historiography.",
+    "options": [
+      "Nationalist",
+      "Colonial",
+      "Subaltern",
+      "Marxist"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Subaltern history as a school of thought originated with the idea that history should be written starting from the common people, or the 'bottommost ranks' of society. It gives a voice to marginalized communities. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The translation of the Sanskrit text of ‘Hitopadesh’ was published by _______.",
+    "options": [
+      "James Mill",
+      "Friedrich Max Muller",
+      "Alexander Cunningham",
+      "William Jones"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Friedrich Max Muller, a German scholar, had a deep interest in Sanskrit literature. He translated the 'Hitopadesh' and also edited the 50-volume 'The Sacred Books of the East'. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is Colonial Historiography?",
+    "answer": "Colonial historiography refers to the historical writing produced during the British colonial period, mainly by British officials and Christian missionaries. It is often characterized by a prejudiced view of Indian history and culture, with the underlying objective of justifying British colonial rule.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is Nationalist Historiography?",
+    "answer": "Nationalist historiography refers to the writings of Indian historians who were trained in the British educational system and wrote in response to the prejudices of colonial historiography. They sought to restore pride in India's past and highlight its achievements, often using history as a tool to awaken self-esteem and contribute to the freedom struggle.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Who was the first Indian historian to challenge the colonial, prejudiced view of Indian history?",
+    "answer": "Vishnushastri Chiplunkar, a nationalist writer from Maharashtra, was one of the first Indian historians to criticize the prejudiced history of ancient India written by British officers.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one: (PYQ: March 2020)<br>1. Who Were the Shudras - Dr. Babasaheb Ambedkar<br>2. Stri-Purush Tulana - Pandita Ramabai<br>3. The Indian War of Independence, 1857 - V. D. Savarkar<br>4. Grant Duff - History of the Marathas",
+    "answer": "<b>Wrong Pair:</b> Stri-Purush Tulana - Pandita Ramabai<br><b>Corrected Pair:</b> Stri-Purush Tulana - Tarabai Shinde",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Al-Biruni, Hasan Nizami, Banabhatta, Ziauddin Barani.",
+    "answer": "<b>Banabhatta.</b><br><b>Reason:</b> Al-Biruni, Hasan Nizami, and Ziauddin Barani were historians in the courts of Sultans during the medieval period. Banabhatta was a poet and writer in the court of King Harsha during the ancient period.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: The History of British India : James Mill :: The History of India : _______.",
+    "answer": "<b>Mountstuart Elphinstone.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Marxist History : Damodar Kosambi :: Subaltern History : _______.",
+    "answer": "<b>Ranajit Guha / Dr. Babasaheb Ambedkar.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are 'Bakhars'?",
+    "answer": "'Bakhar' is an important type of historical document from medieval times, especially in Maharashtra. They are chronicles that contain eulogies of heroes, descriptions of historical events and battles, and biographies of kings like Shivaji Maharaj. They help in understanding the prevailing views on history at that time.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is Subaltern Historiography?",
+    "answer": "Subaltern historiography is an approach to history that focuses on the lives and perspectives of the common, marginalized, and oppressed people (the 'subalterns') who are often ignored in traditional historical accounts. Dr. B. R. Ambedkar and Ranajit Guha were important figures in developing this school of thought in India.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What was the main criticism against James Mill's writing on Indian history?",
+    "answer": "The main criticism against James Mill's book, 'The History of British India', was its clear prejudice and derogatory view of various aspects of Indian culture and history. His writing lacked an objective perspective and was aimed at justifying British colonial rule by portraying Indian civilization as inferior.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the contribution of V. K. Rajwade to historiography.",
+    "answer": "Vishwanath Kashinath Rajwade was a prominent historian who made significant contributions to Maratha historiography.<br>1. <b>Extensive Research:</b> He traveled extensively to villages in Maharashtra to collect authentic historical documents and sources.<br>2. <b>Compilation of Sources:</b> He is well-known for writing the 22-volume 'Marathyanchya Itihasachi Sadhane' (Sources of Maratha History), a monumental compilation of original documents.<br>3. <b>Emphasis on Primary Sources:</b> Rajwade strongly emphasized that history should be based only on authentic, primary documentary sources.<br>4. <b>Comprehensive View:</b> He believed that history should be all-inclusive, encompassing not just political events but all aspects of the past society. He had a holistic view of history.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is Marxist Historiography?",
+    "answer": "Marxist historiography is an approach to history writing that is based on the ideas of Karl Marx. In the Indian context, it focuses on the economic aspects of history.<br>1. <b>Focus on Means of Production:</b> It is primarily concerned with the 'means of production' (how goods are produced) and the social relationships that result from it.<br>2. <b>Class Struggle:</b> It analyzes historical events and social transitions in terms of class struggle and the exploitation of the working class.<br>3. <b>Role of Common People:</b> Marxist historians have studied the impact of economic policies on the common people and their role in historical events.<br>Prominent Indian Marxist historians include Damodar Dharmanand Kosambi and Comrade Shripad Amrit Dange.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the historiography in the ancient period of India.",
+    "answer": "In ancient India, the writing of history was not in the modern form, but historical consciousness was present.<br>1. <b>Oral Traditions:</b> Initially, historical events and heroic deeds of ancestors were preserved through oral recitations in the form of epic poems like the Ramayana and Mahabharata, and Puranas.<br>2. <b>Inscriptions:</b> Inscriptions on rocks, pillars, and copper plates from the 3rd century B.C.E. (during Emperor Ashoka's reign) are important historical sources. They provide information about the deeds of kings and historical events.<br>3. <b>Biographies:</b> Writing biographies of kings and dynastic histories became important. A key example is the 'Harshacharit', a biography of King Harsha written by his court poet Banabhatta in the 7th century C.E.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the features of Feminist Historiography.",
+    "answer": "Feminist historiography emerged from the idea that history has been written primarily from a male-dominated perspective, largely ignoring the role and contribution of women.<br><b>Features:</b><br>1. <b>Re-thinking History:</b> Its main feature is to restructure and re-think history from the perspective of women.<br>2. <b>Inclusion of Women:</b> It emphasizes the inclusion of women in historical narratives, highlighting their roles in social, political, and cultural life.<br>3. <b>Focus on Women's Issues:</b> It brought historical research to focus on areas related to women's lives, such as their employment, their role in institutions, family life, etc.<br>Tarabai Shinde's book 'Stri-Purush Tulana' is acknowledged as one of the first feminist books in India.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write about the contributions of Indian historians to Nationalist Historiography.",
+    "answer": "Nationalist historiography in India developed in response to the biased writings of British colonial historians. Indian historians aimed to counter the colonial narrative and build national pride.<br>1. <b>Countering Colonial Views:</b> Historians like Vishnushastri Chiplunkar and Mahadev Govind Ranade criticized the prejudices of British historians and highlighted the achievements of Indian dynasties.<br>2. <b>Focus on Golden Age:</b> They tried to seek the 'golden era' of Indian history, often highlighting the glories of ancient India to inspire a sense of national self-esteem.<br>3. <b>The 1857 Uprising:</b> V. D. Savarkar's book, 'The Indian War of Independence, 1857', was a significant work that portrayed the 1857 revolt as the first war for Indian independence, giving a nationalistic perspective to the event.<br>4. <b>Regional Histories:</b> Nationalist historians also wrote regional histories, providing a momentum to the nationalist historiography in different parts of the country.",
+    "marks": 4
+  }
+]
+

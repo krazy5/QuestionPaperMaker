@@ -1,0 +1,618 @@
+[
+    {
+      "type": "mcq",
+      "text": "In Maxwell relations, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "First law of thermodynamics: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Hess' law, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Heat capacity, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Bond enthalpy, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Maxwell relations: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Kirchhoff's law: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Internal energy (U): choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Entropy (S), which statement is correct?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In First law of thermodynamics, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Heat capacity, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Second law of thermodynamics: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "First law of thermodynamics: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Heat capacity: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Maxwell relations: choose the correct relation.",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Second law of thermodynamics?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Heat capacity?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Third law of thermodynamics?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy of formation, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy of formation, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Bond enthalpy?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Spontaneity?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy (H), which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Enthalpy of formation?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Internal energy (U), which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Entropy (S), which statement is correct?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Spontaneity?",
+      "options": [
+        "Spontaneous processes always exothermic.",
+        "$\\Delta S_{univ}>0$ for spontaneous change.",
+        "$\\Delta G>0$ at constant T,P for spontaneity.",
+        "Equilibrium when $\\Delta H=0$."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Third law of thermodynamics?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "In Enthalpy of formation, which statement is correct?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "mcq",
+      "text": "Which quantity is a state function related to Bond enthalpy?",
+      "options": [
+        "$\\Delta H$ is path dependent.",
+        "$\\Delta U$ is a state function.",
+        "Work done in a cyclic process is zero.",
+        "Entropy of the universe decreases for spontaneous change."
+      ],
+      "correct_answer": "B",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Oct 2018]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2022]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2023]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Mar 2019]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Feb 2023]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Mar 2020]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Mar 2019]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [Oct 2020]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2024]",
+      "answer": "True",
+      "marks": 1
+    },
+    {
+      "type": "true_false",
+      "text": "Gibbs free energy at constant T and P decreases for a spontaneous process. [July 2020]",
+      "answer": "True",
+      "marks": 1
+    },
+    
+  {
+    "type": "mcq",
+    "text": "For a reversible process, the change in entropy of the universe is: (MHT CET 2022)",
+    "options": [
+      "(a) Positive",
+      "(b) Negative",
+      "(c) Zero",
+      "(d) Infinite"
+    ],
+    "correct_answer": "c",
+    "answer": "According to the **Second Law of Thermodynamics**, for a reversible process, the entropy change of the system is equal in magnitude and opposite in sign to the entropy change of the surroundings. Therefore, the total entropy change of the universe (system + surroundings) is zero.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The change in internal energy ($\\\\Delta U$) for an isolated system is: (MHT CET 2021)",
+    "options": [
+      "(a) Positive",
+      "(b) Negative",
+      "(c) Zero",
+      "(d) Depends on the process"
+    ],
+    "correct_answer": "c",
+    "answer": "An **isolated system** is a system that cannot exchange energy or matter with its surroundings. According to the **First Law of Thermodynamics**, $\\Delta U = q + w$, where q is heat and w is work. Since there is no exchange of heat or work in an isolated system, the change in internal energy is zero.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For an endothermic reaction to be spontaneous, which of the following conditions must be met? (MHT CET 2020)",
+    "options": [
+      "(a) $\\Delta H > 0, \\Delta S > 0, \\text{ and } T\\Delta S > \\Delta H$",
+      "(b) $\\Delta H < 0, \\Delta S > 0, \\text{ and } T\\Delta S > \\Delta H$",
+      "(c) $\\Delta H > 0, \\Delta S < 0, \\text{ and } T\\Delta S > \\Delta H$",
+      "(d) $\\Delta H < 0, \\Delta S < 0, \\text{ and } T\\Delta S < \\Delta H$"
+    ],
+    "correct_answer": "a",
+    "answer": "For a reaction to be spontaneous, the Gibbs free energy change ($\\\\Delta G$) must be negative. The Gibbs free energy equation is $\\Delta G = \\Delta H - T\\Delta S$.<br>For an **endothermic reaction**, $\\Delta H > 0$. For $\\Delta G$ to be negative, the term $T\\Delta S$ must be positive and greater in magnitude than $\\Delta H$. This requires that $\\Delta S > 0$ and $T\\Delta S > \\Delta H$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The relationship between standard Gibbs free energy change ($\\\\Delta G^{\\circ}$) and equilibrium constant ($K_{eq}$) is: (MHT CET 2019)",
+    "options": [
+      "(a) $\\Delta G^{\\circ} = -RT\\ln K_{eq}$",
+      "(b) $\\Delta G^{\\circ} = RT\\ln K_{eq}$",
+      "(c) $\\Delta G^{\\circ} = -nFE^{\\circ}_{cell}$",
+      "(d) $\\Delta G^{\\circ} = \\Delta H^{\\circ} - T\\Delta S^{\\circ}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The relationship between standard Gibbs free energy change ($\\\\Delta G^{\\circ}$) and the equilibrium constant ($K_{eq}$) for a chemical reaction is given by the equation: $\\Delta G^{\\circ} = -RT\\ln K_{eq}$.<br>Here, R is the universal gas constant and T is the temperature in Kelvin. This equation links the thermodynamics of a reaction to its equilibrium position.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The change in entropy is defined as: (MHT CET 2018)",
+    "options": [
+      "(a) $\\Delta S = \\frac{q_{rev}}{T}$",
+      "(b) $\\Delta S = \\frac{q_{irr}}{T}$",
+      "(c) $\\Delta S = \\frac{q_{total}}{T}$",
+      "(d) $\\Delta S = -\\frac{q_{rev}}{T}$"
+    ],
+    "correct_answer": "a",
+    "answer": "**Entropy** (S) is a measure of the randomness or disorder of a system. The change in entropy ($\\\\Delta S$) is defined as the heat absorbed in a reversible process ($q_{rev}$) divided by the absolute temperature (T) at which the absorption occurs. The formula is $\\Delta S = \\frac{q_{rev}}{T}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enthalpy of formation of a compound is the enthalpy change when: (MHT CET 2017)",
+    "options": [
+      "(a) One mole of the compound is formed from its elements in their standard states.",
+      "(b) One gram of the compound is formed from its elements.",
+      "(c) One mole of the compound is formed from its ions.",
+      "(d) The compound is decomposed into its elements."
+    ],
+    "correct_answer": "a",
+    "answer": "**Standard enthalpy of formation** ($\\\\Delta H_f^{\\circ}$) is the enthalpy change that occurs when **one mole of a compound is formed from its constituent elements in their most stable standard states** at a specified temperature and pressure.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Work done in an isothermal reversible expansion of an ideal gas is given by: (MHT CET 2016)",
+    "options": [
+      "(a) $W = -nRT\\ln(\\frac{V_2}{V_1})$",
+      "(b) $W = -nRT\\ln(\\frac{V_1}{V_2})$",
+      "(c) $W = -P_{ext}\\Delta V$",
+      "(d) $W = nC_v\\Delta T$"
+    ],
+    "correct_answer": "a",
+    "answer": "For an **isothermal reversible expansion** of an ideal gas, the temperature remains constant. The work done by the system on the surroundings is given by the integral of pressure with respect to volume. The formula is: $W = -nRT\\ln(\\frac{V_{final}}{V_{initial}}) = -nRT\\ln(\\frac{V_2}{V_1})$. The negative sign indicates that work is done by the system.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The heat of neutralization of a strong acid and a strong base is always constant, and its value is: (MHT CET 2015)",
+    "options": [
+      "(a) -57.1 kJ/mol",
+      "(b) -42.8 kJ/mol",
+      "(c) -13.7 kJ/mol",
+      "(d) -23.1 kJ/mol"
+    ],
+    "correct_answer": "a",
+    "answer": "The heat of neutralization of a strong acid with a strong base is a constant value of **-57.1 kJ/mol**. This is because the reaction is essentially the same in all cases: the combination of $H^+$ ions from the acid and $OH^-$ ions from the base to form water ($H_2O$). The other ions (spectator ions) do not participate in the reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enthalpy of formation of a compound is zero when it is in its: (MHT CET 2014)",
+    "options": [
+      "(a) Gaseous state",
+      "(b) Solid state",
+      "(c) Standard state",
+      "(d) Aqueous solution"
+    ],
+    "correct_answer": "c",
+    "answer": "By definition, the **standard enthalpy of formation** ($\\\\Delta H_f^{\\circ}$) of an element in its most stable **standard state** is taken as zero. For example, the standard enthalpy of formation of $O_2(g)$ is zero, but that of $O_3(g)$ is not.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Hess's law of constant heat summation is a direct consequence of the law of: (MHT CET 2013)",
+    "options": [
+      "(a) Conservation of mass",
+      "(b) Conservation of energy",
+      "(c) Conservation of momentum",
+      "(d) Conservation of volume"
+    ],
+    "correct_answer": "b",
+    "answer": "**Hess's Law** states that the total enthalpy change for a chemical reaction is the same, regardless of the pathway taken from the initial to the final state. This is a direct consequence of the **First Law of Thermodynamics**, which is the **law of conservation of energy**. Enthalpy is a state function, meaning its change depends only on the initial and final states, not the path.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not a state function? (MHT CET 2012)",
+    "options": [
+      "(a) Enthalpy",
+      "(b) Entropy",
+      "(c) Gibbs free energy",
+      "(d) Work"
+    ],
+    "correct_answer": "d",
+    "answer": "A **state function** is a property whose value does not depend on the path taken to reach that specific state. Examples include internal energy, enthalpy, entropy, and Gibbs free energy. **Work** and heat are not state functions; their values depend on the path of the process.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The standard enthalpy of formation of $C_2H_6(g)$ is -84.6 kJ/mol. The standard enthalpy of formation of C and $H_2$ are: (MHT CET 2011)",
+    "options": [
+      "(a) 0, 0",
+      "(b) -84.6, 0",
+      "(c) 0, -84.6",
+      "(d) 84.6, 84.6"
+    ],
+    "correct_answer": "a",
+    "answer": "The standard enthalpy of formation of an element in its most stable standard state is defined as zero. The standard states for carbon and hydrogen are solid graphite and gaseous $H_2$, respectively. Therefore, their standard enthalpies of formation are both zero.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a reaction, if the entropy change is positive and the enthalpy change is negative, the reaction will be: (MHT CET 2010)",
+    "options": [
+      "(a) Always spontaneous",
+      "(b) Never spontaneous",
+      "(c) Spontaneous at high temperature",
+      "(d) Spontaneous at low temperature"
+    ],
+    "correct_answer": "a",
+    "answer": "The spontaneity of a reaction is determined by the Gibbs free energy change: $\\Delta G = \\Delta H - T\\Delta S$.<br>If $\\Delta S$ is positive and $\\Delta H$ is negative, then the term $-T\\Delta S$ will be negative. The value of $\\Delta G$ will be the sum of two negative numbers, making it negative regardless of the temperature. A negative $\\Delta G$ indicates a spontaneous reaction. Therefore, the reaction will be always spontaneous.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The heat of combustion of methane is -890 kJ/mol. The heat of combustion of one gram of methane will be: (MHT CET 2009)",
+    "options": [
+      "(a) -55.6 kJ",
+      "(b) -89.0 kJ",
+      "(c) -890 kJ",
+      "(d) -1780 kJ"
+    ],
+    "correct_answer": "a",
+    "answer": "The molar mass of methane ($CH_4$) is $12.01 + 4(1.008) \\approx 16$ g/mol.<br>The heat of combustion is -890 kJ for one mole, which is 16 g.<br>Heat of combustion per gram = $\\frac{\\text{Heat of combustion per mole}}{\\text{Molar mass}} = \\frac{-890 \\text{ kJ}}{16 \\text{ g/mol}} \\approx -55.6$ kJ/g.<br>The heat of combustion of one gram of methane is -55.6 kJ.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For a reaction, $\\Delta G = 0$. The reaction is: (MHT CET 2008)",
+    "options": [
+      "(a) Spontaneous",
+      "(b) Non-spontaneous",
+      "(c) At equilibrium",
+      "(d) Reversible"
+    ],
+    "correct_answer": "c",
+    "answer": "The Gibbs free energy change ($\\\\Delta G$) is the key indicator of reaction spontaneity.<br>- If $\\Delta G < 0$, the reaction is spontaneous.<br>- If $\\Delta G > 0$, the reaction is non-spontaneous.<br>- If $\\Delta G = 0$, the reaction is **at equilibrium**.",
+    "marks": 1
+  }
+]

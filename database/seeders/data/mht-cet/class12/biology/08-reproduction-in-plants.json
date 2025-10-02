@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The development of a fruit without fertilization is called:",
+    "options": [
+      "(a) Parthenocarpy",
+      "(b) Apomixis",
+      "(c) Amphimixis",
+      "(d) Parthenogenesis"
+    ],
+    "correct_answer": "a",
+    "answer": "Parthenocarpy is the process of fruit formation without fertilization, resulting in **seedless fruits** like bananas.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fusion of one male gamete with the egg cell and the other with the secondary nucleus is known as:",
+    "options": [
+      "(a) Syngamy",
+      "(b) Triple fusion",
+      "(c) Double fertilization",
+      "(d) Embryo sac formation"
+    ],
+    "correct_answer": "c",
+    "answer": "Double fertilization is a unique event in flowering plants where one male gamete fuses with the egg cell (syngamy) and the other fuses with the central cell (triple fusion), forming a zygote and primary endosperm nucleus, respectively.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The outer layer of the pollen grain is called:",
+    "options": [
+      "(a) Intine",
+      "(b) Tapetum",
+      "(c) Exine",
+      "(d) Pollen sac"
+    ],
+    "correct_answer": "c",
+    "answer": "The pollen grain has a two-layered wall. The outer layer, made of sporopollenin, is called the **exine**, while the inner layer is the intine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The nutritive tissue of the anther wall is the:",
+    "options": [
+      "(a) Endothecium",
+      "(b) Epidermis",
+      "(c) Tapetum",
+      "(d) Middle layers"
+    ],
+    "correct_answer": "c",
+    "answer": "The **tapetum** is the innermost layer of the microsporangium wall that provides nourishment to the developing pollen grains.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Pollination by wind is known as:",
+    "options": [
+      "(a) Entomophily",
+      "(b) Anemophily",
+      "(c) Hydrophily",
+      "(d) Ornithophily"
+    ],
+    "correct_answer": "b",
+    "answer": "Anemophily is the process of **pollination by wind**. Flowers pollinated by wind are typically small, inconspicuous, and lack fragrance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The development of a seed from an unfertilized ovule is called:",
+    "options": [
+      "(a) Apomixis",
+      "(b) Parthenocarpy",
+      "(c) Fertilization",
+      "(d) Pollination"
+    ],
+    "correct_answer": "a",
+    "answer": "Apomixis is a form of asexual reproduction where a seed develops from an unfertilized ovule. It mimics sexual reproduction but does not involve the fusion of gametes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The male gametophyte of a flowering plant is represented by the:",
+    "options": [
+      "(a) Embryo sac",
+      "(b) Pollen grain",
+      "(c) Stamen",
+      "(d) Zygote"
+    ],
+    "correct_answer": "b",
+    "answer": "In flowering plants, the pollen grain is a haploid structure that contains the male gametes and is considered the **male gametophyte**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The stalk that attaches the ovule to the placenta is called:",
+    "options": [
+      "(a) Hilum",
+      "(b) Micropyle",
+      "(c) Funicle",
+      "(d) Chalaza"
+    ],
+    "correct_answer": "c",
+    "answer": "The **funicle** is the stalk that attaches the ovule to the placenta. The point of attachment of the funicle to the ovule is called the hilum.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where the anther and stigma mature at different times to prevent self-pollination is:",
+    "options": [
+      "(a) Herkogamy",
+      "(b) Dichogamy",
+      "(c) Heterostyly",
+      "(d) Cleistogamy"
+    ],
+    "correct_answer": "b",
+    "answer": "Dichogamy is a mechanism to promote cross-pollination. It involves the male (anther) and female (stigma) reproductive organs of a flower maturing at different times.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of nuclei in a mature angiosperm embryo sac is:",
+    "options": [
+      "(a) 6",
+      "(b) 7",
+      "(c) 8",
+      "(d) 9"
+    ],
+    "correct_answer": "c",
+    "answer": "A mature angiosperm embryo sac contains **eight nuclei** and seven cells: one egg cell, two synergids, three antipodal cells, and one central cell with two polar nuclei.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The male gametes are formed from the:",
+    "options": [
+      "(a) Vegetative cell",
+      "(b) Generative cell",
+      "(c) Pollen sac",
+      "(d) Microspore mother cell"
+    ],
+    "correct_answer": "b",
+    "answer": "In the pollen grain, the **generative cell** divides to form two male gametes, while the vegetative cell forms the pollen tube.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The endosperm is a product of:",
+    "options": [
+      "(a) Syngamy",
+      "(b) Triple fusion",
+      "(c) Both syngamy and triple fusion",
+      "(d) Apomixis"
+    ],
+    "correct_answer": "b",
+    "answer": "The endosperm is formed by the fusion of one male gamete with the two polar nuclei in the central cell, a process known as **triple fusion**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a result of double fertilization?",
+    "options": [
+      "(a) Zygote and antipodals",
+      "(b) Zygote and synergids",
+      "(c) Zygote and endosperm",
+      "(d) Endosperm and pollen tube"
+    ],
+    "correct_answer": "c",
+    "answer": "Double fertilization is the process where one male gamete fuses with the egg cell to form a **zygote** and another fuses with the central cell to form the **endosperm**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of formation of microspores from a pollen mother cell is called:",
+    "options": [
+      "(a) Microsporogenesis",
+      "(b) Megasporogenesis",
+      "(c) Embryogenesis",
+      "(d) Fertilization"
+    ],
+    "correct_answer": "a",
+    "answer": "Microsporogenesis is the process of formation of microspores (pollen grains) from a pollen mother cell through meiosis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of transfer of pollen grains to the stigma of the same flower is called:",
+    "options": [
+      "(a) Allogamy",
+      "(b) Xenogamy",
+      "(c) Autogamy",
+      "(d) Geitonogamy"
+    ],
+    "correct_answer": "c",
+    "answer": "Autogamy is a type of self-pollination where the pollen from the anther of a flower is transferred to the stigma of the same flower.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The development of a fruit from the ovary is a result of:",
+    "options": [
+      "(a) Fertilization",
+      "(b) Pollination",
+      "(c) Both fertilization and pollination",
+      "(d) Only pollination"
+    ],
+    "correct_answer": "c",
+    "answer": "The development of a fruit from the ovary is triggered by hormonal changes that occur after both **pollination and fertilization**. Pollination stimulates the growth of the ovary, and fertilization initiates the development of the seeds.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The structure that develops into the seed after fertilization is the:",
+    "options": [
+      "(a) Ovary",
+      "(b) Ovule",
+      "(c) Micropyle",
+      "(d) Hilum"
+    ],
+    "correct_answer": "b",
+    "answer": "After fertilization, the **ovule** develops into the seed, and the ovary develops into the fruit.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The function of the filiform apparatus in the embryo sac is to:",
+    "options": [
+      "(a) Attract the pollen tube",
+      "(b) Nourish the egg cell",
+      "(c) Form the zygote",
+      "(d) Degenerate after fertilization"
+    ],
+    "correct_answer": "a",
+    "answer": "The filiform apparatus, present on the synergids, guides the **pollen tube** into the embryo sac. It is a cluster of finger-like projections that helps in attracting the pollen tube.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The female gametophyte of a flowering plant is represented by the:",
+    "options": [
+      "(a) Ovule",
+      "(b) Embryo sac",
+      "(c) Pistil",
+      "(d) Ovary"
+    ],
+    "correct_answer": "b",
+    "answer": "The embryo sac is the female gametophyte, which is a haploid structure that develops inside the ovule and contains the egg cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The entry of the pollen tube into the ovule through the integuments is called:",
+    "options": [
+      "(a) Porogamy",
+      "(b) Chalazogamy",
+      "(c) Mesogamy",
+      "(d) Syngamy"
+    ],
+    "correct_answer": "c",
+    "answer": "Mesogamy is the process where the pollen tube enters the ovule by piercing the **integuments**, rather than through the micropyle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A chasmogamous flower is a flower that:",
+    "options": [
+      "(a) Never opens and remains closed",
+      "(b) Opens to expose its reproductive organs",
+      "(c) Is always self-pollinated",
+      "(d) Is always cross-pollinated"
+    ],
+    "correct_answer": "b",
+    "answer": "Chasmogamous flowers are flowers that open at maturity, exposing their anthers and stigmas to allow for cross-pollination. This is in contrast to cleistogamous flowers, which remain closed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of pollination that occurs between two flowers on the same plant is called:",
+    "options": [
+      "(a) Autogamy",
+      "(b) Xenogamy",
+      "(c) Geitonogamy",
+      "(d) Allogamy"
+    ],
+    "correct_answer": "c",
+    "answer": "Geitonogamy is the transfer of pollen grains from the anther of one flower to the stigma of another flower on the **same plant**. It is genetically similar to autogamy but functionally similar to cross-pollination.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fusion of male and female gametes to form a diploid zygote is called:",
+    "options": [
+      "(a) Syngamy",
+      "(b) Triple fusion",
+      "(c) Apomixis",
+      "(d) Parthenogenesis"
+    ],
+    "correct_answer": "a",
+    "answer": "**Syngamy** is the fusion of a male gamete with the egg cell, resulting in the formation of a diploid zygote.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The innermost layer of the ovule, which encloses the embryo sac, is the:",
+    "options": [
+      "(a) Integument",
+      "(b) Nucellus",
+      "(c) Chalaza",
+      "(d) Micropyle"
+    ],
+    "correct_answer": "b",
+    "answer": "The **nucellus** is the central mass of parenchymatous tissue in the ovule, which provides nourishment to the developing embryo sac.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The embryo sac is derived from the:",
+    "options": [
+      "(a) Microspore",
+      "(b) Megaspore",
+      "(c) Pollen grain",
+      "(d) Anther"
+    ],
+    "correct_answer": "b",
+    "answer": "The embryo sac, which is the female gametophyte, develops from a single **megaspore** through a process called megagametogenesis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pollen tube enters the ovule through the chalazal end. This is known as:",
+    "options": [
+      "(a) Porogamy",
+      "(b) Chalazogamy",
+      "(c) Mesogamy",
+      "(d) Syngamy"
+    ],
+    "correct_answer": "b",
+    "answer": "Chalazogamy is the process where the pollen tube enters the ovule through the **chalazal end**, which is the base of the ovule.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ploidy level of the endosperm in a fertilized angiosperm embryo sac is:",
+    "options": [
+      "(a) Haploid",
+      "(b) Diploid",
+      "(c) Triploid",
+      "(d) Tetraploid"
+    ],
+    "correct_answer": "c",
+    "answer": "The endosperm is a **triploid** tissue (3n) that forms after triple fusion, which involves the fusion of a male gamete (n) with the two polar nuclei (n+n) of the central cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The outermost layer of the seed coat is the:",
+    "options": [
+      "(a) Tegmen",
+      "(b) Testa",
+      "(c) Micropyle",
+      "(d) Hilum"
+    ],
+    "correct_answer": "b",
+    "answer": "The **testa** is the outer, hard layer of the seed coat that develops from the outer integument of the ovule. The inner layer is the tegmen.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a plant reproducing from its vegetative parts, like a stem, is a type of:",
+    "options": [
+      "(a) Sexual reproduction",
+      "(b) Asexual reproduction",
+      "(c) Fertilization",
+      "(d) Pollination"
+    ],
+    "correct_answer": "b",
+    "answer": "Reproduction from vegetative parts like stems, leaves, or roots is a form of **asexual reproduction**, as it does not involve the fusion of gametes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fruit develops from the:",
+    "options": [
+      "(a) Ovary",
+      "(b) Ovule",
+      "(c) Zygote",
+      "(d) Seed"
+    ],
+    "correct_answer": "a",
+    "answer": "After fertilization, the **ovary** matures and develops into the fruit, which encloses the seeds.",
+    "marks": 1
+  }
+]

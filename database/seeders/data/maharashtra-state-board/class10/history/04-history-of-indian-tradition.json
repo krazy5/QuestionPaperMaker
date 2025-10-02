@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The Kailas temple at Ellora is a monolithic sculpture carved out of a single _______.",
+    "options": [
+      "marble block",
+      "sandstone cliff",
+      "rock",
+      "granite stone"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The magnificent Kailas temple is the world's largest monolithic sculpture, meaning it was carved from a single, massive rock on a mountainside. It is a marvel of rock-cut architecture. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Gandhara school of art shows a strong influence of _______ art.",
+    "options": [
+      "Persian",
+      "Greek",
+      "Egyptian",
+      "Chinese"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Gandhara school of art, which flourished in the north-western region of India, is known for its blend of Indian themes and Greco-Roman artistic styles. This Greek influence is a defining characteristic. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Chhatrapati Shivaji Maharaj Railway Terminus in Mumbai is a prime example of _______ style of architecture.",
+    "options": [
+      "Maratha",
+      "Mughal",
+      "Dravidian",
+      "Indo-Gothic"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Built during the British period, this building is a masterpiece of the Indo-Gothic style, which blends elements of Victorian Gothic architecture with traditional Indian architectural styles. It is a UNESCO World Heritage Site. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The tradition of _______ is an important part of the folk arts in Maharashtra.",
+    "options": [
+      "Kathakali",
+      "Odissi",
+      "Lavani",
+      "Bharatanatyam"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Lavani is a popular folk performance style of Maharashtra, known for its powerful rhythm and dramatic storytelling. The other three are classical dance forms from different regions. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The tradition of ‘Chitrakathi’ is a form of storytelling with the help of ______.",
+    "options": [
+      "puppets",
+      "pictures",
+      "masks",
+      "music"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Chitrakathi tradition, found in Pinguli near Kudal, involves narrating stories from epics like Ramayana and Mahabharata using a series of pictures painted on paper. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Nagara style of temple architecture is prevalent in _______.",
+    "options": [
+      "South India",
+      "North India",
+      "East India",
+      "West India"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Nagara style, characterized by its tall, beehive-shaped tower called the 'Shikhara', is the dominant style of temple architecture in North India. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The rock paintings at Bhimbetka in Madhya Pradesh belong to the _______ period.",
+    "options": [
+      "Neolithic",
+      "Chalcolithic",
+      "Iron Age",
+      "Stone Age"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The rock shelters of Bhimbetka contain some of the earliest known rock paintings in the Indian subcontinent, dating back to the prehistoric Stone Age. They are a UNESCO World Heritage site. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The two main branches of Indian classical music are Hindustani music and _______ music.",
+    "options": [
+      "Folk",
+      "Western",
+      "Carnatic",
+      "Sufi"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Indian classical music is primarily divided into two traditions: the Hindustani style, which is prevalent in North India, and the Carnatic style, which is prevalent in South India. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is art?",
+    "answer": "Art is a method of expressing human emotions, imagination, and creativity. It is a medium through which the artist communicates his or her experience. The power of this expression is the most important aspect of art.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the Hemadpanti style of architecture?",
+    "answer": "Hemadpanti is a style of temple architecture that flourished in Maharashtra, named after the prime minister Hemadpant. Its key feature is the use of finely finished stones that are fixed without any mortar, using the technique of tenon and mortise joints.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between Folk Art and Classical Art?",
+    "answer": "<b>Folk Art</b> is a tradition that has been continued from the prehistoric period. It is a spontaneous expression of the collective experience of a community, and is not bound by strict rules.<br><b>Classical Art</b> is presented within an established framework of consistent rules. It requires a long period of training to master.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Madhubani Painting - Bihar<br>2. Warli Painting - Maharashtra<br>3. Pattachitra - Rajasthan<br>4. Kalamkari - Andhra Pradesh",
+    "answer": "<b>Wrong Pair:</b> Pattachitra - Rajasthan<br><b>Corrected Pair:</b> Pattachitra - Odisha",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Lavani, Kirtan, Bharud, Bharatanatyam.",
+    "answer": "<b>Bharatanatyam.</b><br><b>Reason:</b> Lavani, Kirtan, and Bharud are forms of folk performing arts from Maharashtra. Bharatanatyam is a classical dance form from Tamil Nadu.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Temple Architecture in North India : Nagara :: Temple Architecture in South India : _______.",
+    "answer": "<b>Dravida.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Visual Art : Painting :: Performing Art : _______.",
+    "answer": "<b>Dance / Music / Theatre.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the two main types of art traditions?",
+    "answer": "The two main types of art traditions are:<br>1. <b>Visual Arts (Drik Kala):</b> These are art forms that are primarily visual in nature, such as drawing, painting, and sculpture.<br>2. <b>Performing Arts (Lalit or Aangik Kala):</b> These are art forms where the artist's own body, face, and presence are used as a medium, such as music, dance, and theatre.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the 'Maratha style of painting'?",
+    "answer": "The Maratha style of painting was a form of miniature painting that developed in the later Maratha period. It was influenced by both Rajput and European styles. The style is visible in the form of murals in the old 'wadas' in places like Wai and Satara, and also in manuscripts and glass paintings.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is the preservation of art and history important?",
+    "answer": "It is important to preserve our art and history because it is a part of our rich cultural heritage. Art traditions provide us with an identity and help us understand our history and culture. Preserving them is essential for passing on this legacy to future generations.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the characteristics of the Gandhara school of art.",
+    "answer": "The Gandhara school of art flourished in the 2nd century B.C.E. in the Gandhara region (present-day Afghanistan).<br>1. <b>Greco-Roman Influence:</b> The most prominent characteristic is the strong influence of Greek and Roman art styles on the iconography. The depiction of Gautam Buddha's images, for instance, resembles that of Greek gods.<br>2. <b>Realism:</b> The sculptures are known for their realistic depiction of human anatomy, with detailed features and drapery.<br>3. <b>Subject Matter:</b> While the style was foreign, the themes and subjects were primarily Indian, mostly related to the life of Gautam Buddha and Buddhism.<br>4. <b>Material Used:</b> Early Gandhara art used bluish-grey schist stone.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the development of temple architecture in India.",
+    "answer": "Temple architecture in India began to develop around the 4th century C.E. during the Gupta period. <br>1. <b>Early Stage:</b> Initially, the temples had a simple structure with just a sanctum sanctorum (Garbhagriha) and a porch.<br>2. <b>Development of Styles:</b> By the 8th century C.E., two prominent styles of temple architecture had fully developed.<br>   - <b>Nagara Style:</b> Prevalent in North India, its main feature is a tall, beehive-shaped tower called the 'Shikhara' over the Garbhagriha. Example: Khajuraho temples.<br>   - <b>Dravida Style:</b> Prevalent in South India, it is characterized by a pyramid-shaped tower consisting of multiple stories, called the 'Vimana', and a large entrance gateway called the 'Gopuram'. Example: Brihadeshvara temple.<br>3. <b>Hybrid Styles:</b> A blend of these two styles, known as the 'Vesara' style, also developed in some regions.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the professional opportunities available in the field of arts?",
+    "answer": "The field of arts offers several professional opportunities:<br>1. <b>Art Historian/Researcher:</b> An expert who can do critical research in the field of art history.<br>2. <b>Journalism:</b> Writing reviews about art exhibitions and contributing articles on art to newspapers and magazines.<br>3. <b>Museums and Archives:</b> Working as a curator to manage and organize exhibitions, or as a conservator for the chemical treatment and preservation of artifacts.<br>4. <b>Archaeology:</b> Working in the excavation and conservation of ancient monuments and artifacts.<br>5. <b>Art Market:</b> Working as an expert to assess the value and authenticity of art objects.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the folk traditions of performing arts in Maharashtra.",
+    "answer": "Maharashtra has a rich and diverse tradition of folk performing arts.<br>1. <b>Koli Dance:</b> This is a vibrant dance form of the Koli (fishermen) community, reflecting their life and connection with the sea.<br>2. <b>Dashavatara:</b> A traditional theatre form from the Konkan region, which presents stories of the ten incarnations of Lord Vishnu. The performance begins by invoking Lord Ganesha.<br>3. <b>Kirtan:</b> A form of devotional performance started by Naradmuni. In Maharashtra, it was popularized by saints like Namdev. It involves storytelling, singing devotional songs, and dancing.<br>4. <b>Lavani:</b> A popular genre of music and dance, known for its powerful rhythm. It is presented in a dramatic style and has been an important medium for entertaining soldiers and the masses.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the Indian tradition of miniature paintings.",
+    "answer": "Miniature paintings are small-sized paintings, usually done on perishable materials like cloth or paper. This tradition developed under the influence of the Persian style.<br>1. <b>Early Period:</b> The earlier Pala style from Bengal is considered a precursor to the miniature style.<br>2. <b>Mughal Style:</b> During the Mughal era, a distinct style of miniature painting evolved under Emperor Akbar. It was a blend of Indian and Persian styles, focusing on court scenes, battles, and hunting scenes from the 'Akbarnama'.<br>3. <b>Rajput Style:</b> The Rajput miniature style developed in Rajasthan and Punjab. It was influenced by the Mughal style but focused more on mythological themes, especially stories of Krishna from the Puranas.<br>4. <b>Deccan Style:</b> A distinct style of miniature painting also developed in the Deccan under the patronage of the Deccan Sultanates.",
+    "marks": 4
+  }
+]
+

@@ -1,0 +1,79 @@
+{
+    "group_name": "SSC Blueprints",
+    "board_name": "Maharashtra State Board",
+    "class_name": "Class10",
+    "applies_to_subjects": ["Algebra","Geometry"],
+    "patterns": [
+        {
+            "total_marks": 20,
+            "name_template": "SCC {subject_name} Pattern - {total_marks}",
+            "sections": [
+                {
+                    "name": "Section A (Objective)",
+                    "instructions": "All questions compulsory.",
+                    "rules": [
+                        { "question_type": "mcq", "marks_per_question": 1, "number_of_questions_to_select": 4, "total_questions_to_display": 4 }
+                    ]
+                },
+                {
+                    "name": "Section B (Short Answer)",
+                    "instructions": "Attempt any 5 out of 7.",
+                    "rules": [
+                        { "question_type": "short", "marks_per_question": 2, "number_of_questions_to_select": 5, "total_questions_to_display": 7 }
+                    ]
+                },
+                {
+                    "name": "Section C (Long Answer)",
+                    "instructions": "Attempt any 2 out of 6.",
+                    "rules": [
+                        { "question_type": "long", "marks_per_question": 3, "number_of_questions_to_select":2, "total_questions_to_display": 5 }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_marks": 40,
+            "name_template": "SSC {subject_name} Pattern - {total_marks}",
+            "sections": [
+                 {
+                    "name": "A (Objective)",
+                    "instructions": "All questions compulsory.",
+                    "rules": [
+                        { "question_type": "mcq", "marks_per_question": 1, "number_of_questions_to_select":4, "total_questions_to_display": 4 },
+                        { "question_type": "short", "marks_per_question": 1, "number_of_questions_to_select": 4, "total_questions_to_display": 4 }
+                    ]
+                },
+                {
+                    "name": "Section B (Short Answer)",
+                    "instructions": "",
+                    "rules": [
+                        { "question_type": "short", "marks_per_question": 2, "number_of_questions_to_select": 2, "total_questions_to_display": 3 },
+                        { "question_type": "short", "marks_per_question": 2, "number_of_questions_to_select": 4, "total_questions_to_display": 5} 
+                    ]
+                },
+                {
+                    "name": "Section C (Long Answer I)",
+                    "instructions": "activity.",
+                    "rules": [
+                        { "question_type": "long", "marks_per_question": 3, "number_of_questions_to_select": 1, "total_questions_to_display": 2 },
+                        { "question_type": "long", "marks_per_question": 3, "number_of_questions_to_select": 2, "total_questions_to_display": 4 }
+                    ]
+                },
+                {
+                    "name": "Section D (Long Answer II)",
+                    "instructions": "Attempt any 2 out of 3.",
+                    "rules": [
+                        { "question_type": "long", "marks_per_question": 4, "number_of_questions_to_select": 2, "total_questions_to_display": 3 }
+                    ]
+                },
+                {
+                    "name": "Section E (Long Answer II)",
+                    "instructions": "Attempt any 1 out of 2.",
+                    "rules": [
+                        { "question_type": "long", "marks_per_question": 3, "number_of_questions_to_select": 1, "total_questions_to_display": 2 }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,386 +1,453 @@
 [
   {
     "type": "long",
-    "text": "Q) Let $X$ represent the difference between number of heads and number of tails obtained when a coin is tossed 6 times. What are possible values of $X$?",
-    "answer": "Let $h$ be the number of heads and $t$ be the number of tails. We are given $h+t=6$ and $X=|h-t|$. Since $h$ can be any integer from 0 to 6, let's find the corresponding values of $X$.<br>If $h=0$, $t=6$, $X=|0-6|=6$<br>If $h=1$, $t=5$, $X=|1-5|=4$<br>If $h=2$, $t=4$, $X=|2-4|=2$<br>If $h=3$, $t=3$, $X=|3-3|=0$<br>If $h=4$, $t=2$, $X=|4-2|=2$<br>If $h=5$, $t=1$, $X=|5-1|=4$<br>If $h=6$, $t=0$, $X=|6-0|=6$<br>The possible values of $X$ are **0, 2, 4, 6**.",
+    "text": "Let $X$ represent the difference between the number of heads and the number of tails obtained when a coin is tossed 6 times. What are the possible values of $X$?",
+    "answer": "Let $h$ be the number of heads and $t$ be the number of tails. We are given $h+t=6$ and $X=|h-t|$. Since $h$ can be any integer from 0 to 6, let's find the corresponding values of $X$.<br>If $h=0, t=6 \\implies X=|0-6|=6$<br>If $h=1, t=5 \\implies X=|1-5|=4$<br>If $h=2, t=4 \\implies X=|2-4|=2$<br>If $h=3, t=3 \\implies X=|3-3|=0$<br>If $h=4, t=2 \\implies X=|4-2|=2$<br>If $h=5, t=1 \\implies X=|5-1|=4$<br>If $h=6, t=0 \\implies X=|6-0|=6$<br>The possible values of $X$ are **{0, 2, 4, 6}**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) An urn contains 5 red and 2 black balls. Two balls are drawn at random. $X$ denotes number of black balls drawn. What are possible values of $X$?",
-    "answer": "There are a total of $5+2=7$ balls. We are drawing 2 balls at random. Let $X$ be the number of black balls drawn. Since there are only 2 black balls, we can draw 0, 1, or 2 black balls. <br>To draw 0 black balls, we must draw 2 red balls. This is possible. <br>To draw 1 black ball, we must draw 1 red and 1 black. This is possible. <br>To draw 2 black balls, we must draw 2 black balls. This is possible. <br>The possible values of $X$ are **0, 1, 2**.",
+    "text": "An urn contains 5 red and 2 black balls. Two balls are drawn at random. $X$ denotes the number of black balls drawn. What are the possible values of $X$?",
+    "answer": "There are a total of $5+2=7$ balls. We are drawing 2 balls at random. Let $X$ be the number of black balls drawn. Since there are only 2 black balls in the urn, the number of black balls we can draw in a sample of 2 can be 0, 1, or 2. <br>Case 1: 0 black balls (2 red balls are drawn). This is possible.<br>Case 2: 1 black ball (1 red and 1 black ball are drawn). This is possible.<br>Case 3: 2 black balls (2 black balls are drawn). This is possible.<br>The possible values of $X$ are **{0, 1, 2}**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) State which of the following are not the probability mass function of a random variable. Give reasons for your answer.<br>i) $X=0, P(X)=0.4; X=1, P(X)=0.4; X=2, P(X)=0.2$<br>ii) $X=0, P(X)=0.1; X=1, P(X)=0.5; X=2, P(X)=-0.2; X=3, P(X)=0.3; X=4, P(X)=0.2$<br>iii) $X=0, P(X)=0.1; X=1, P(X)=0.6; X=2, P(X)=0.3$<br>iv) $Z=3, P(Z)=0.3; Z=2, P(Z)=0.2; Z=1, P(Z)=0.4; Z=0, P(Z)=0.05$<br>v) $Y=-1, P(Y)=0.6; Y=0, P(Y)=0.1; Y=1, P(Y)=0.2$<br>vi) $X=0, P(X)=0.3; X=-1, P(X)=0.4; X=-2, P(X)=0.3$",
-    "answer": "A function is a **probability mass function (PMF)** if it satisfies two conditions: <br>1. All probabilities are non-negative, i.e., $P(X=x_i) \\ge 0$ for all $x_i$. <br>2. The sum of all probabilities is equal to 1, i.e., $\\sum_{i} P(X=x_i) = 1$. <br><br>Let's check each case:<br>i) $P(X)$ values are 0.4, 0.4, 0.2 (all $\\ge 0$). Sum = $0.4+0.4+0.2=1$. This **is a PMF**.<br>ii) $P(X=-0.2)$ is negative. This **is not a PMF** because probabilities cannot be negative.<br>iii) $P(X)$ values are 0.1, 0.6, 0.3 (all $\\ge 0$). Sum = $0.1+0.6+0.3=1$. This **is a PMF**.<br>iv) $P(Z)$ values are 0.3, 0.2, 0.4, 0.05 (all $\\ge 0$). Sum = $0.3+0.2+0.4+0.05 = 0.95 \\ne 1$. This **is not a PMF** because the sum of probabilities is not 1.<br>v) $P(Y)$ values are 0.6, 0.1, 0.2 (all $\\ge 0$). Sum = $0.6+0.1+0.2 = 0.9 \\ne 1$. This **is not a PMF** because the sum of probabilities is not 1.<br>vi) $P(X)$ values are 0.3, 0.4, 0.3 (all $\\ge 0$). Sum = $0.3+0.4+0.3=1$. This **is a PMF**.",
+    "text": "State which of the following are not the probability mass function of a random variable. Give reasons for your answer.<br>i) $P(X=0)=0.4, P(X=1)=0.4, P(X=2)=0.2$<br>ii) $P(X=0)=0.1, P(X=1)=0.5, P(X=2)=-0.2, P(X=3)=0.3, P(X=4)=0.2$<br>iii) $P(X=0)=0.1, P(X=1)=0.6, P(X=2)=0.3$<br>iv) $P(Z=3)=0.3, P(Z=2)=0.2, P(Z=1)=0.4, P(Z=0)=0.05$<br>v) $P(Y=-1)=0.6, P(Y=0)=0.1, P(Y=1)=0.2$<br>vi) $P(X=0)=0.3, P(X=-1)=0.4, P(X=-2)=0.3$",
+    "answer": "A function is a **probability mass function (PMF)** if it satisfies two conditions: <br>1. $P(X=x_i) \\geq 0$ for all $x_i$. <br>2. $\\sum P(X=x_i) = 1$. <br><br>i) All probabilities are $\\geq 0$. Sum = $0.4+0.4+0.2=1$. This **is a PMF**.<br>ii) $P(X=2)=-0.2$ is negative. This **is not a PMF**.<br>iii) All probabilities are $\\geq 0$. Sum = $0.1+0.6+0.3=1$. This **is a PMF**.<br>iv) All probabilities are $\\geq 0$. Sum = $0.3+0.2+0.4+0.05 = 0.95 \\neq 1$. This **is not a PMF**.<br>v) All probabilities are $\\geq 0$. Sum = $0.6+0.1+0.2 = 0.9 \\neq 1$. This **is not a PMF**.<br>vi) All probabilities are $\\geq 0$. Sum = $0.3+0.4+0.3=1$. This **is a PMF**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Find the probability distribution of of (i) number of heads in two tosses of a coin. (ii) Number of tails in the simultaneous tosses of three coins. (iii) Number of heads in four tosses of a coin.",
-    "answer": "i) Two tosses of a coin: The possible outcomes are HH, HT, TH, TT. Let $X$ be the number of heads. The possible values of $X$ are 0, 1, 2. <br>$P(X=0) = P(TT) = 1/4$<br>$P(X=1) = P(HT, TH) = 2/4 = 1/2$<br>$P(X=2) = P(HH) = 1/4$<br>The probability distribution is: <br>| $X$ | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|<br>| $P(X)$ | 1/4 | 1/2 | 1/4 |<br><br>ii) Three tosses of a coin: The possible outcomes are HHH, HHT, HTH, THH, HTT, THT, TTH, TTT. Let $Y$ be the number of tails. The possible values of $Y$ are 0, 1, 2, 3.<br>$P(Y=0) = P(HHH) = 1/8$<br>$P(Y=1) = P(HHT, HTH, THH) = 3/8$<br>$P(Y=2) = P(HTT, THT, TTH) = 3/8$<br>$P(Y=3) = P(TTT) = 1/8$<br>The probability distribution is: <br>| $Y$ | 0 | 1 | 2 | 3 |<br>|:---|:---:|:---:|:---:|:---:|<br>| $P(Y)$ | 1/8 | 3/8 | 3/8 | 1/8 |<br><br>iii) Four tosses of a coin: Let $Z$ be the number of heads. The possible values of $Z$ are 0, 1, 2, 3, 4. The number of outcomes is $2^4=16$.<br>$P(Z=0) = \\binom{4}{0}/16 = 1/16$<br>$P(Z=1) = \\binom{4}{1}/16 = 4/16 = 1/4$<br>$P(Z=2) = \\binom{4}{2}/16 = 6/16 = 3/8$<br>$P(Z=3) = \\binom{4}{3}/16 = 4/16 = 1/4$<br>$P(Z=4) = \\binom{4}{4}/16 = 1/16$<br>The probability distribution is: <br>| $Z$ | 0 | 1 | 2 | 3 | 4 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(Z)$ | 1/16 | 4/16 | 6/16 | 4/16 | 1/16 |",
+    "text": "Find the probability distribution of (i) number of heads in two tosses of a coin. (ii) Number of tails in the simultaneous tosses of three coins. (iii) Number of heads in four tosses of a coin. (HSC Textbook)",
+    "answer": "i) Two tosses of a coin (Sample space: {HH, HT, TH, TT}). Let $X$ be the number of heads. The possible values of $X$ are 0, 1, 2. <br>$P(X=0) = P(TT) = 1/4$<br>$P(X=1) = P({HT, TH}) = 2/4 = 1/2$<br>$P(X=2) = P(HH) = 1/4$<br>| $X$ | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|<br>| $P(X)$ | 1/4 | 1/2 | 1/4 |<br><br>ii) Three tosses of a coin (8 outcomes). Let $Y$ be the number of tails. The possible values of $Y$ are 0, 1, 2, 3.<br>$P(Y=0)=1/8, P(Y=1)=3/8, P(Y=2)=3/8, P(Y=3)=1/8$<br>| $Y$ | 0 | 1 | 2 | 3 |<br>|:---|:---:|:---:|:---:|:---:|<br>| $P(Y)$ | 1/8 | 3/8 | 3/8 | 1/8 |<br><br>iii) Four tosses of a coin (16 outcomes). Let $Z$ be the number of heads. The possible values of $Z$ are 0, 1, 2, 3, 4.<br>$P(Z=k) = \\frac{\\binom{4}{k}}{16}$.<br>| $Z$ | 0 | 1 | 2 | 3 | 4 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(Z)$ | 1/16 | 4/16 | 6/16 | 4/16 | 1/16 |",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Find the probability distribution of the number of successes in two tosses of a die, where a success is defined as number greater than 4 appears on at least one die.",
-    "answer": "Let $S$ be the event of a success, where a success is a number greater than 4 (i.e., 5 or 6). The probability of a success on a single toss is $p = 2/6 = 1/3$. The probability of failure is $q = 1-p = 2/3$. We are tossing a die twice. Let $X$ be the number of successes. The possible values of $X$ are 0, 1, 2.<br>$P(X=0) = P(\\text{Failure, Failure}) = q \\cdot q = (2/3)^2 = 4/9$<br>$P(X=1) = P(\\text{Success, Failure or Failure, Success}) = pq+qp = 2pq = 2(1/3)(2/3) = 4/9$<br>$P(X=2) = P(\\text{Success, Success}) = p \\cdot p = (1/3)^2 = 1/9$<br>The probability distribution is: <br>| $X$ | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|<br>| $P(X)$ | 4/9 | 4/9 | 1/9 |",
+    "text": "Find the probability distribution of the number of successes in two tosses of a die, where a success is defined as a number greater than 4 appearing on a toss.",
+    "answer": "Let $S$ be the event of a success, where a success is a number greater than 4 (i.e., 5 or 6). The probability of a success on a single toss is $p = 2/6 = 1/3$. The probability of failure is $q = 1-p = 2/3$. We are tossing a die twice. Let $X$ be the number of successes. The possible values of $X$ are 0, 1, 2. This follows a binomial distribution with $n=2, p=1/3$.<br>$P(X=0) = \\binom{2}{0}(1/3)^0(2/3)^2 = 4/9$<br>$P(X=1) = \\binom{2}{1}(1/3)^1(2/3)^1 = 2(1/3)(2/3) = 4/9$<br>$P(X=2) = \\binom{2}{2}(1/3)^2(2/3)^0 = 1/9$<br>The probability distribution is: <br>| $X$ | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|<br>| $P(X)$ | 4/9 | 4/9 | 1/9 |",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) From a lot of 30 bulbs which include 6 defectives, a sample of 4 bulbs is drawn at random with replacement. Find the probability distribution of the number of defective bulbs.",
-    "answer": "Let $X$ be the number of defective bulbs drawn in a sample of 4. This is a binomial distribution problem, as we are drawing with replacement. The total number of bulbs is 30, and the number of defective bulbs is 6. The probability of drawing a defective bulb is $p = 6/30 = 1/5$. The probability of drawing a non-defective bulb is $q = 1 - p = 4/5$. The number of trials is $n=4$. The possible values of $X$ are 0, 1, 2, 3, 4.<br>The probability mass function for a binomial distribution is $P(X=k) = \\binom{n}{k}p^k q^{n-k}$.<br>$P(X=0) = \\binom{4}{0}(1/5)^0(4/5)^4 = 1 \\cdot 1 \\cdot 256/625 = 256/625$<br>$P(X=1) = \\binom{4}{1}(1/5)^1(4/5)^3 = 4 \\cdot 1/5 \\cdot 64/125 = 256/625$<br>$P(X=2) = \\binom{4}{2}(1/5)^2(4/5)^2 = 6 \\cdot 1/25 \\cdot 16/25 = 96/625$<br>$P(X=3) = \\binom{4}{3}(1/5)^3(4/5)^1 = 4 \\cdot 1/125 \\cdot 4/5 = 16/625$<br>$P(X=4) = \\binom{4}{4}(1/5)^4(4/5)^0 = 1 \\cdot 1/625 \\cdot 1 = 1/625$<br>The probability distribution is: <br>| $X$ | 0 | 1 | 2 | 3 | 4 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 256/625 | 256/625 | 96/625 | 16/625 | 1/625 |",
+    "text": "From a lot of 30 bulbs which include 6 defectives, a sample of 4 bulbs is drawn at random with replacement. Find the probability distribution of the number of defective bulbs.",
+    "answer": "Let $X$ be the number of defective bulbs drawn in a sample of 4. This is a binomial distribution, as we are drawing with replacement. The probability of drawing a defective bulb is $p = 6/30 = 1/5$. The probability of drawing a non-defective bulb is $q = 1 - p = 4/5$. The number of trials is $n=4$.<br>The probability mass function is $P(X=k) = \\binom{4}{k}(1/5)^k (4/5)^{4-k}$.<br>$P(X=0) = \\binom{4}{0}(4/5)^4 = 256/625$<br>$P(X=1) = \\binom{4}{1}(1/5)(4/5)^3 = 256/625$<br>$P(X=2) = \\binom{4}{2}(1/5)^2(4/5)^2 = 96/625$<br>$P(X=3) = \\binom{4}{3}(1/5)^3(4/5) = 16/625$<br>$P(X=4) = \\binom{4}{4}(1/5)^4 = 1/625$<br>The probability distribution is: <br>| $X$ | 0 | 1 | 2 | 3 | 4 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 256/625 | 256/625 | 96/625 | 16/625 | 1/625 |",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) A coin is biased so that the head is 3 times as likely to occur as tail. If the coin is tossed twice, find the probability distribution of number of tails.",
-    "answer": "Let $P(H)$ be the probability of getting a head and $P(T)$ be the probability of getting a tail. We are given $P(H) = 3P(T)$. Since $P(H)+P(T)=1$, we have $3P(T)+P(T)=1 \\implies 4P(T)=1 \\implies P(T)=1/4$. Thus, $P(H)=3/4$. The coin is tossed twice. Let $X$ be the number of tails. The possible values of $X$ are 0, 1, 2.<br>$P(X=0) = P(HH) = P(H)P(H) = (3/4)^2 = 9/16$<br>$P(X=1) = P(HT, TH) = P(H)P(T)+P(T)P(H) = 2P(H)P(T) = 2(3/4)(1/4) = 6/16 = 3/8$<br>$P(X=2) = P(TT) = P(T)P(T) = (1/4)^2 = 1/16$<br>The probability distribution is: <br>| $X$ | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|<br>| $P(X)$ | 9/16 | 6/16 | 1/16 |",
+    "text": "A coin is biased so that the head is 3 times as likely to occur as tail. If the coin is tossed twice, find the probability distribution of number of tails.",
+    "answer": "Let $P(H)$ be the probability of a head and $P(T)$ be the probability of a tail. Given $P(H) = 3P(T)$. Since $P(H)+P(T)=1$, we have $4P(T)=1 \\implies P(T)=1/4$. Thus, $P(H)=3/4$. Let $X$ be the number of tails in two tosses. Possible values of $X$ are 0, 1, 2.<br>$P(X=0) = P(HH) = (3/4)^2 = 9/16$<br>$P(X=1) = P(HT) + P(TH) = 2(3/4)(1/4) = 6/16$<br>$P(X=2) = P(TT) = (1/4)^2 = 1/16$<br>The probability distribution is: <br>| $X$ | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|<br>| $P(X)$ | 9/16 | 6/16 | 1/16 |",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) A random variable $X$ has the following probability distribution: <br>| $X$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 0 | $k$ | $2k$ | $2k$ | $3k$ | $k^2$ | $2k^2$ | $7k^2+k$ |<br>Determine: (i) $k$ (ii) $P(X < 3)$ (iii) $P(X > 4)$",
-    "answer": "i) The sum of all probabilities must be 1. <br>$0+k+2k+2k+3k+k^2+2k^2+7k^2+k = 1$<br>$9k+10k^2 = 1 \\implies 10k^2+9k-1 = 0$<br>This is a quadratic equation. We can solve it by factoring: $(10k-1)(k+1)=0$. <br>The possible values for $k$ are $1/10$ or $-1$. Since probabilities must be non-negative, $k$ cannot be $-1$. Thus, $k = 1/10$.<br><br>ii) $P(X < 3) = P(X=0) + P(X=1) + P(X=2) = 0+k+2k = 3k$. <br>Substituting $k=1/10$: $P(X < 3) = 3(1/10) = 3/10$.<br><br>iii) $P(X > 4) = P(X=5) + P(X=6) + P(X=7) = k^2+2k^2+7k^2+k = 10k^2+k$. <br>Substituting $k=1/10$: $P(X > 4) = 10(1/10)^2+1/10 = 10(1/100)+1/10 = 10/100+1/10 = 1/10+1/10 = 2/10 = 1/5$.",
+    "text": "A random variable $X$ has the following probability distribution: <br>| $X$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 0 | $k$ | $2k$ | $2k$ | $3k$ | $k^2$ | $2k^2$ | $7k^2+k$ |<br>Determine: (i) $k$ (ii) $P(X < 3)$ (iii) $P(X > 4)$. (March 2017)",
+    "answer": "i) The sum of all probabilities must be 1. <br>$k+2k+2k+3k+k^2+2k^2+7k^2+k = 1$<br>$10k^2+9k = 1 \\implies 10k^2+9k-1 = 0$<br>Factoring gives $(10k-1)(k+1)=0$. Since probabilities must be non-negative, $k>0$. Thus, $k = 1/10$.<br><br>ii) $P(X < 3) = P(X=0) + P(X=1) + P(X=2) = 0+k+2k = 3k$. <br>Substituting $k=1/10$: $P(X < 3) = 3(1/10) = 3/10$.<br><br>iii) $P(X > 4) = P(X=5) + P(X=6) + P(X=7) = k^2+2k^2+7k^2+k = 10k^2+k$. <br>Substituting $k=1/10$: $P(X > 4) = 10(1/10)^2+1/10 = 10/100+1/10 = 1/10+1/10 = 2/10 = 1/5$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Find expected value and variance of $X$ for the following p.m.f.<br>| $X$ | -2 | -1 | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 0.2 | 0.3 | 0.1 | 0.15 | 0.25 |",
-    "answer": "The expected value (mean) $E(X) = \\sum x_i P(x_i)$.<br>$E(X) = (-2)(0.2) + (-1)(0.3) + (0)(0.1) + (1)(0.15) + (2)(0.25) = -0.4 - 0.3 + 0 + 0.15 + 0.5 = -0.05$.<br>The variance $Var(X) = E(X^2) - [E(X)]^2$. First, let's find $E(X^2) = \\sum x_i^2 P(x_i)$.<br>$E(X^2) = (-2)^2(0.2) + (-1)^2(0.3) + (0)^2(0.1) + (1)^2(0.15) + (2)^2(0.25) = (4)(0.2) + (1)(0.3) + (0)(0.1) + (1)(0.15) + (4)(0.25) = 0.8 + 0.3 + 0 + 0.15 + 1 = 2.25$.<br>Now, we can find the variance:<br>$Var(X) = 2.25 - (-0.05)^2 = 2.25 - 0.0025 = 2.2475$.<br>Expected value: **-0.05**<br>Variance: **2.2475**",
+    "text": "Find expected value and variance of $X$ for the following p.m.f.<br>| $X$ | -2 | -1 | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 0.2 | 0.3 | 0.1 | 0.15 | 0.25 |",
+    "answer": "The expected value $E(X) = \\sum x_i P(x_i)$.<br>$E(X) = (-2)(0.2) + (-1)(0.3) + (0)(0.1) + (1)(0.15) + (2)(0.25) = -0.4 - 0.3 + 0 + 0.15 + 0.5 = -0.05$.<br>The variance $Var(X) = E(X^2) - [E(X)]^2$.<br>$E(X^2) = (-2)^2(0.2) + (-1)^2(0.3) + (0)^2(0.1) + (1)^2(0.15) + (2)^2(0.25) = 0.8 + 0.3 + 0 + 0.15 + 1 = 2.25$.<br>$Var(X) = 2.25 - (-0.05)^2 = 2.25 - 0.0025 = 2.2475$.<br>Expected value: **-0.05**<br>Variance: **2.2475**",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Find expected value and variance of $X$, where $X$ is the number obtained on the uppermost face when a fair die is thrown.",
-    "answer": "Let $X$ be the random variable representing the number on the uppermost face of a fair die. The possible values of $X$ are {1, 2, 3, 4, 5, 6}, and the probability of each outcome is $P(X) = 1/6$.<br><br>**Expected Value (Mean)**<br>$E(X) = \\sum x_i P(x_i) = 1(\\frac{1}{6}) + 2(\\frac{1}{6}) + 3(\\frac{1}{6}) + 4(\\frac{1}{6}) + 5(\\frac{1}{6}) + 6(\\frac{1}{6}) = \\frac{1+2+3+4+5+6}{6} = \\frac{21}{6} = 3.5$.<br><br>**Variance**<br>$Var(X) = E(X^2) - [E(X)]^2$. First, find $E(X^2) = \\sum x_i^2 P(x_i)$.<br>$E(X^2) = 1^2(\\frac{1}{6}) + 2^2(\\frac{1}{6}) + 3^2(\\frac{1}{6}) + 4^2(\\frac{1}{6}) + 5^2(\\frac{1}{6}) + 6^2(\\frac{1}{6}) = \\frac{1+4+9+16+25+36}{6} = \\frac{91}{6}$.<br>$Var(X) = \\frac{91}{6} - (3.5)^2 = \\frac{91}{6} - (\\frac{7}{2})^2 = \\frac{91}{6} - \\frac{49}{4} = \\frac{182-147}{12} = \\frac{35}{12} \\approx 2.917$.<br><br>The expected value is **3.5** and the variance is **35/12**.",
+    "text": "Find expected value and variance of $X$, where $X$ is the number obtained on the uppermost face when a fair die is thrown.",
+    "answer": "The possible values of $X$ are {1, 2, 3, 4, 5, 6}, each with probability $P(X) = 1/6$.<br>$E(X) = \\sum x_i P(x_i) = \\frac{1+2+3+4+5+6}{6} = \\frac{21}{6} = 3.5$.<br>$E(X^2) = \\sum x_i^2 P(x_i) = \\frac{1^2+2^2+3^2+4^2+5^2+6^2}{6} = \\frac{1+4+9+16+25+36}{6} = \\frac{91}{6}$.<br>$Var(X) = E(X^2) - [E(X)]^2 = \\frac{91}{6} - (3.5)^2 = \\frac{91}{6} - \\frac{49}{4} = \\frac{182-147}{12} = \\frac{35}{12}$.<br>Expected value is **3.5** and the variance is **35/12**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Find the mean number of heads in three tosses of a fair coin.",
-    "answer": "Let $X$ be the number of heads in three tosses of a fair coin. This is a binomial distribution with $n=3$ and $p=1/2$. The possible outcomes for $X$ are 0, 1, 2, 3.<br>The mean of a binomial distribution is given by $E(X) = np$.<br>$E(X) = 3 \\cdot \\frac{1}{2} = 1.5$.<br>The mean number of heads is **1.5**.",
+    "text": "Find the mean number of heads in three tosses of a fair coin.",
+    "answer": "Let $X$ be the number of heads in three tosses. This is a binomial distribution with $n=3$ and $p=1/2$. The mean of a binomial distribution is $E(X) = np$.<br>$E(X) = 3 \\times (1/2) = 1.5$.<br>The mean number of heads is **1.5**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Two dice are thrown simultaneously. If $X$ denotes the number of sixes, find the expectation of $X$.",
-    "answer": "Let $X$ be the number of sixes when two dice are thrown simultaneously. This is a binomial distribution with $n=2$. The probability of getting a six on a single die is $p=1/6$. The mean (expectation) of a binomial distribution is $E(X) = np$.<br>$E(X) = 2 \\cdot \\frac{1}{6} = \\frac{2}{6} = \\frac{1}{3}$.<br>The expectation of $X$ is **1/3**.",
+    "text": "Two dice are thrown simultaneously. If $X$ denotes the number of sixes, find the expectation of $X$.",
+    "answer": "Let $X$ be the number of sixes when two dice are thrown. This is a binomial distribution with $n=2$ and probability of success (getting a six) $p=1/6$.<br>The expectation (mean) of a binomial distribution is $E(X) = np$.<br>$E(X) = 2 \\times (1/6) = 1/3$.<br>The expectation of $X$ is **1/3**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Two numbers are selected at random (without replacement) from the first six positive integers. Let $X$ denote the larger of the two numbers obtained. Find $E(X)$.",
-    "answer": "The first six positive integers are {1, 2, 3, 4, 5, 6}. We are selecting two numbers without replacement. The total number of ways to do this is $\\binom{6}{2} = \\frac{6 \\cdot 5}{2} = 15$. Let $X$ be the larger of the two numbers. The possible values of $X$ are 2, 3, 4, 5, 6.<br><br>Let's find the probability for each value of $X$:<br>$P(X=2)$: The pair is (1,2). Probability = $1/15$<br>$P(X=3)$: The pairs are (1,3), (2,3). Probability = $2/15$<br>$P(X=4)$: The pairs are (1,4), (2,4), (3,4). Probability = $3/15$<br>$P(X=5)$: The pairs are (1,5), (2,5), (3,5), (4,5). Probability = $4/15$<br>$P(X=6)$: The pairs are (1,6), (2,6), (3,6), (4,6), (5,6). Probability = $5/15$<br><br>The expected value is $E(X) = \\sum x_i P(x_i)$.<br>$E(X) = 2(\\frac{1}{15}) + 3(\\frac{2}{15}) + 4(\\frac{3}{15}) + 5(\\frac{4}{15}) + 6(\\frac{5}{15}) = \\frac{2+6+12+20+30}{15} = \\frac{70}{15} = \\frac{14}{3}$.<br><br>The expected value of $X$ is **14/3**.",
+    "text": "Two numbers are selected at random (without replacement) from the first six positive integers. Let $X$ denote the larger of the two numbers obtained. Find $E(X)$.",
+    "answer": "The total number of ways to choose 2 numbers from {1, 2, 3, 4, 5, 6} is $\\binom{6}{2} = 15$.<br>The possible values for $X$ (the larger number) are 2, 3, 4, 5, 6.<br>$P(X=k) = \\frac{k-1}{15}$.<br>$P(X=2) = 1/15$<br>$P(X=3) = 2/15$<br>$P(X=4) = 3/15$<br>$P(X=5) = 4/15$<br>$P(X=6) = 5/15$<br>$E(X) = \\sum x_i P(x_i) = 2(\\frac{1}{15}) + 3(\\frac{2}{15}) + 4(\\frac{3}{15}) + 5(\\frac{4}{15}) + 6(\\frac{5}{15}) = \\frac{2+6+12+20+30}{15} = \\frac{70}{15} = \\frac{14}{3}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Let $X$ denote the sum of the numbers obtained when two fair dice are rolled. Find the standard deviation of $X$.",
-    "answer": "Let $X$ be the sum of the numbers on two fair dice. The possible values of $X$ are 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. There are 36 possible outcomes. <br>The probability distribution is: <br>| $X$ | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 1/36 | 2/36 | 3/36 | 4/36 | 5/36 | 6/36 | 5/36 | 4/36 | 3/36 | 2/36 | 1/36 |<br>The mean (expected value) is $E(X) = \\sum x_i P(x_i) = \\frac{1}{36}[2(1)+3(2)+4(3)+5(4)+6(5)+7(6)+8(5)+9(4)+10(3)+11(2)+12(1)] = \\frac{1}{36}[2+6+12+20+30+42+40+36+30+22+12] = \\frac{252}{36} = 7$.<br><br>The variance is $Var(X) = E(X^2) - [E(X)]^2$.<br>$E(X^2) = \\sum x_i^2 P(x_i) = \\frac{1}{36}[4(1)+9(2)+16(3)+25(4)+36(5)+49(6)+64(5)+81(4)+100(3)+121(2)+144(1)] = \\frac{1}{36}[4+18+48+100+180+294+320+324+300+242+144] = \\frac{2072}{36} = \\frac{518}{9} \\approx 57.556$.<br>$Var(X) = \\frac{518}{9} - 7^2 = \\frac{518}{9} - 49 = \\frac{518 - 441}{9} = \\frac{77}{9} \\approx 8.556$.<br><br>The standard deviation is $\\sigma_X = \\sqrt{Var(X)} = \\sqrt{\\frac{77}{9}} = \\frac{\\sqrt{77}}{3} \\approx 2.924$.<br>The standard deviation of $X$ is **$\\frac{\\sqrt{77}}{3}$**.",
+    "text": "Let $X$ denote the sum of the numbers obtained when two fair dice are rolled. Find the standard deviation of $X$.",
+    "answer": "Let $X$ be the sum of numbers on two dice. The mean is $E(X) = 7$.<br>$E(X^2) = \\sum x_i^2 P(x_i) = \\frac{1}{36}[4(1)+9(2)+16(3)+25(4)+36(5)+49(6)+64(5)+81(4)+100(3)+121(2)+144(1)] = \\frac{1974}{36} = \\frac{329}{6}$.<br>$Var(X) = E(X^2) - [E(X)]^2 = \\frac{329}{6} - 7^2 = \\frac{329}{6} - 49 = \\frac{329-294}{6} = \\frac{35}{6}$.<br>Standard deviation is $\\sigma_X = \\sqrt{Var(X)} = \\sqrt{\\frac{35}{6}} \\approx 2.415$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) A class has 15 students whose ages are 14, 17, 15, 14, 21, 17, 19, 20, 16, 18, 20, 17, 16, 19 and 20 years. One student is selected in such a manner that each has the same chance of being chosen and the age $X$ of the selected student is recorded. What is the probability distribution of the random variable $X$? Find mean, variance and standard deviation of $X$.",
-    "answer": "First, let's list the distinct ages and their frequencies:<br>14: 2 students<br>15: 1 student<br>16: 2 students<br>17: 3 students<br>18: 1 student<br>19: 2 students<br>20: 3 students<br>21: 1 student<br>Total students: $2+1+2+3+1+2+3+1 = 15$.<br><br>**Probability Distribution**<br>The probability for each age (value of $X$) is the frequency divided by the total number of students (15).<br>| $X=x_i$ | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x_i)$ | 2/15 | 1/15 | 2/15 | 3/15 | 1/15 | 2/15 | 3/15 | 1/15 |<br><br>**Mean**<br>$E(X) = \\sum x_i P(x_i) = 14(\\frac{2}{15}) + 15(\\frac{1}{15}) + 16(\\frac{2}{15}) + 17(\\frac{3}{15}) + 18(\\frac{1}{15}) + 19(\\frac{2}{15}) + 20(\\frac{3}{15}) + 21(\\frac{1}{15})$<br>$E(X) = \\frac{1}{15}(28+15+32+51+18+38+60+21) = \\frac{263}{15} \\approx 17.53$.<br><br>**Variance**<br>$Var(X) = E(X^2) - [E(X)]^2$. First, find $E(X^2) = \\sum x_i^2 P(x_i)$.<br>$E(X^2) = 14^2(\\frac{2}{15}) + 15^2(\\frac{1}{15}) + 16^2(\\frac{2}{15}) + 17^2(\\frac{3}{15}) + 18^2(\\frac{1}{15}) + 19^2(\\frac{2}{15}) + 20^2(\\frac{3}{15}) + 21^2(\\frac{1}{15})$<br>$E(X^2) = \\frac{1}{15}[196(2)+225(1)+256(2)+289(3)+324(1)+361(2)+400(3)+441(1)]$<br>$E(X^2) = \\frac{1}{15}[392+225+512+867+324+722+1200+441] = \\frac{4683}{15} = 312.2$.<br>$Var(X) = 312.2 - (\\frac{263}{15})^2 = 312.2 - (17.53...)^2 \\approx 312.2 - 307.41 \\approx 4.79$.<br>Let's use fractions for accuracy: $Var(X) = \\frac{4683}{15} - (\\frac{263}{15})^2 = \\frac{4683 \\cdot 15 - 263^2}{15^2} = \\frac{70245 - 69169}{225} = \\frac{1076}{225} \\approx 4.782$.<br><br>**Standard Deviation**<br>$\\sigma_X = \\sqrt{Var(X)} = \\sqrt{\\frac{1076}{225}} = \\frac{\\sqrt{1076}}{15} \\approx 2.186$.<br><br>Mean: **263/15**<br>Variance: **1076/225**<br>Standard Deviation: **$\\frac{\\sqrt{1076}}{15}$**",
+    "text": "A class has 15 students whose ages are 14, 17, 15, 14, 21, 17, 19, 20, 16, 18, 20, 17, 16, 19 and 20 years. One student is selected at random, and their age $X$ is recorded. Find the probability distribution of $X$, its mean, variance and standard deviation.",
+    "answer": "The probability distribution is based on the frequency of each age.<br>| Age (X) | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| P(X) | 2/15 | 1/15 | 2/15 | 3/15 | 1/15 | 2/15 | 3/15 | 1/15 |<br>Mean $E(X) = \\sum x_i P(x_i) = \\frac{1}{15}(14(2)+15(1)+...+21(1)) = \\frac{263}{15} \\approx 17.53$.<br>$E(X^2) = \\frac{1}{15}(14^2(2)+...+21^2(1)) = \\frac{4683}{15} = 312.2$.<br>$Var(X) = 312.2 - (263/15)^2 = \\frac{1076}{225} \\approx 4.78$.<br>Standard Deviation $\\sigma_X = \\sqrt{Var(X)} = \\frac{\\sqrt{1076}}{15} \\approx 2.19$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) In a meeting, 70% of the members favour and 30% oppose a certain proposal. A member is selected at random and we take $X=0$ if he opposed, and $X=1$ if he is in favour. Find $E(X)$ and $Var(X)$.",
-    "answer": "Let $X$ be the random variable. We are given the following probability distribution:<br>$P(X=0) = 0.30$ (opposed)<br>$P(X=1) = 0.70$ (in favour)<br><br>**Expected Value (Mean)**<br>$E(X) = \\sum x_i P(x_i) = (0)(0.30) + (1)(0.70) = 0.70$.<br><br>**Variance**<br>$Var(X) = E(X^2) - [E(X)]^2$. First, find $E(X^2) = \\sum x_i^2 P(x_i)$.<br>$E(X^2) = (0)^2(0.30) + (1)^2(0.70) = 0+0.70 = 0.70$.<br>$Var(X) = 0.70 - (0.70)^2 = 0.70 - 0.49 = 0.21$.<br>The expected value is **0.70** and the variance is **0.21**.",
+    "text": "In a meeting, 70% of the members favour and 30% oppose a certain proposal. A member is selected at random and we take $X=0$ if he opposed, and $X=1$ if he is in favour. Find $E(X)$ and $Var(X)$.",
+    "answer": "The probability distribution is $P(X=0) = 0.30$ and $P(X=1) = 0.70$.<br>Expected Value $E(X) = (0)(0.30) + (1)(0.70) = 0.7$.<br>$E(X^2) = (0)^2(0.30) + (1)^2(0.70) = 0.7$.<br>Variance $Var(X) = E(X^2) - [E(X)]^2 = 0.7 - (0.7)^2 = 0.7 - 0.49 = 0.21$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Verify which of the following is p.d.f. of r.v. $X$: <br> i) $f(x) = \\sin x$, for $0 \\le x \\le \\frac{\\pi}{2}$ <br> ii) $f(x) = x$, for $0 \\le x \\le 1$ and $= 2-x$ for $1 < x < 2$ <br> iii) $f(x) = 2$, for $0 \\le x \\le 1$",
-    "answer": "A function is a **probability density function (p.d.f.)** if it satisfies two conditions: <br> 1. $f(x) \\ge 0$ for all $x$. <br> 2. $\\int_{-\\infty}^{\\infty} f(x) dx = 1$. <br> <br> Let's check each case: <br> i) $f(x) = \\sin x$, for $0 \\le x \\le \\frac{\\pi}{2}$. <br> The value of $\\sin x$ is non-negative on the given interval, so condition 1 is met. <br> $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -(\\cos(\\pi/2) - \\cos(0)) = -(0-1) = 1$. <br> Condition 2 is also met. Thus, this **is a p.d.f.**. <br> <br> ii) $f(x) = x$, for $0 \\le x \\le 1$ and $= 2-x$ for $1 < x < 2$. <br> $f(x)$ is non-negative on both intervals, so condition 1 is met. <br> $\\int_{0}^{2} f(x) dx = \\int_{0}^{1} x dx + \\int_{1}^{2} (2-x) dx = [\\frac{x^2}{2}]_{0}^{1} + [2x - \\frac{x^2}{2}]_{1}^{2} = (\\frac{1}{2}-0) + ((4-2) - (2-\\frac{1}{2})) = \\frac{1}{2} + 2 - \\frac{3}{2} = 2-1 = 1$. <br> Condition 2 is also met. Thus, this **is a p.d.f.**. <br> <br> iii) $f(x) = 2$, for $0 \\le x \\le 1$. <br> $f(x)$ is non-negative, so condition 1 is met. <br> $\\int_{0}^{1} 2 dx = [2x]_{0}^{1} = 2(1)-2(0) = 2$. <br> Since the integral is not equal to 1, condition 2 is not met. Thus, this **is not a p.d.f.**. ",
+    "text": "Verify if $f(x) = \\sin x$, for $0 \\leq x \\leq \\frac{\\pi}{2}$ is a p.d.f. of a random variable $X$.",
+    "answer": "1. For $x \\in [0, \\pi/2]$, $\\sin x \\geq 0$. Condition is met.<br>2. $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -(\\cos(\\pi/2) - \\cos(0)) = -(0-1) = 1$. Condition is met.<br>Thus, this **is a p.d.f.**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) The following is the p.d.f. of r.v. $X$: $f(x) = \\frac{x}{8}$, for $0 < x < 4$ and $= 0$ otherwise. Find (a) $P(x<1.5)$ (b) $P(1<x<2)$ (c) $P(x>2)$.",
-    "answer": "a) $P(x < 1.5) = \\int_{0}^{1.5} \\frac{x}{8} dx = [\\frac{x^2}{16}]_{0}^{1.5} = \\frac{(1.5)^2}{16} - 0 = \\frac{2.25}{16} = \\frac{9}{64}$. <br> b) $P(1 < x < 2) = \\int_{1}^{2} \\frac{x}{8} dx = [\\frac{x^2}{16}]_{1}^{2} = \\frac{2^2}{16} - \\frac{1^2}{16} = \\frac{4-1}{16} = \\frac{3}{16}$. <br> c) $P(x > 2) = \\int_{2}^{4} \\frac{x}{8} dx = [\\frac{x^2}{16}]_{2}^{4} = \\frac{4^2}{16} - \\frac{2^2}{16} = \\frac{16-4}{16} = \\frac{12}{16} = \\frac{3}{4}$. ",
+    "text": "Verify if $f(x) = x$, for $0 \\leq x \\leq 1$ and $f(x) = 2-x$ for $1 < x < 2$ is a p.d.f. of a random variable $X$.",
+    "answer": "1. $f(x) \\geq 0$ for all $x$ in the domain. Condition is met.<br>2. $\\int_{0}^{2} f(x) dx = \\int_{0}^{1} x dx + \\int_{1}^{2} (2-x) dx = [\\frac{x^2}{2}]_{0}^{1} + [2x - \\frac{x^2}{2}]_{1}^{2} = \\frac{1}{2} + ((4-2) - (2-\\frac{1}{2})) = \\frac{1}{2} + 2 - \\frac{3}{2} = 1$.<br>Thus, this **is a p.d.f.**.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) It is known that error in measurement of reaction temperature (in $0^\\circ C$) in a certain experiment is continuous r.v. given by $f(x) = \\frac{x^2}{3}$, for $-1 < x < 2$ and $= 0$ otherwise. <br> i) Verify whether $f(x)$ is p.d.f. of r.v. $X$. <br> ii) Find $P(0 < x \\le 1)$. <br> iii) Find probability that $X$ is negative.",
-    "answer": "i) To verify if $f(x)$ is a p.d.f., we check the two conditions. <br> 1. $f(x) = \\frac{x^2}{3} \\ge 0$ for all $x$ in the interval $(-1, 2)$. This condition is met. <br> 2. We check if the integral is 1: <br> $\\int_{-1}^{2} \\frac{x^2}{3} dx = \\frac{1}{3} [\\frac{x^3}{3}]_{-1}^{2} = \\frac{1}{9} (2^3 - (-1)^3) = \\frac{1}{9} (8 - (-1)) = \\frac{9}{9} = 1$. <br> Since both conditions are met, $f(x)$ **is a p.d.f.**. <br> <br> ii) $P(0 < x \\le 1) = \\int_{0}^{1} \\frac{x^2}{3} dx = \\frac{1}{3} [\\frac{x^3}{3}]_{0}^{1} = \\frac{1}{9}(1^3 - 0^3) = \\frac{1}{9}$. <br> <br> iii) The probability that $X$ is negative is the integral of $f(x)$ over the negative part of its domain. <br> $P(x < 0) = \\int_{-1}^{0} \\frac{x^2}{3} dx = \\frac{1}{3} [\\frac{x^3}{3}]_{-1}^{0} = \\frac{1}{9}(0^3 - (-1)^3) = \\frac{1}{9}(0 - (-1)) = \\frac{1}{9}$. ",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Find $k$ if the following function represent p.d.f. of r.v. $X$. <br> i) $f(x) = kx$, for $0 < x < 2$ and $= 0$ otherwise. Also find $P(\\frac{1}{4} < x < \\frac{3}{2})$. <br> ii) $f(x) = kx (1-x)$, for $0 < x < 1$ and $= 0$ otherwise. Also find $P(\\frac{1}{4} < x < \\frac{1}{2})$ and $P(x < \\frac{1}{2})$.",
-    "answer": "i) For $f(x)$ to be a p.d.f., its total integral must be 1. <br> $\\int_{0}^{2} kx dx = 1 \\implies k[\\frac{x^2}{2}]_{0}^{2} = 1 \\implies k(\\frac{2^2}{2}-0) = 1 \\implies k(2) = 1 \\implies k = \\frac{1}{2}$. <br> Now, we find $P(\\frac{1}{4} < x < \\frac{3}{2})$. <br> $P(\\frac{1}{4} < x < \\frac{3}{2}) = \\int_{1/4}^{3/2} \\frac{1}{2}x dx = \\frac{1}{2}[\\frac{x^2}{2}]_{1/4}^{3/2} = \\frac{1}{4}[(\\frac{3}{2})^2 - (\\frac{1}{4})^2] = \\frac{1}{4}[\\frac{9}{4} - \\frac{1}{16}] = \\frac{1}{4}[\\frac{36-1}{16}] = \\frac{35}{64}$. <br> <br> ii) For $f(x)$ to be a p.d.f., its total integral must be 1. <br> $\\int_{0}^{1} kx(1-x) dx = 1 \\implies k\\int_{0}^{1}(x-x^2) dx = 1 \\implies k[\\frac{x^2}{2} - \\frac{x^3}{3}]_{0}^{1} = 1 \\implies k((\\frac{1}{2}-\\frac{1}{3})-0) = 1 \\implies k(\\frac{3-2}{6}) = 1 \\implies k(\\frac{1}{6})=1 \\implies k=6$. <br> Now, we find the probabilities. <br> $P(\\frac{1}{4} < x < \\frac{1}{2}) = \\int_{1/4}^{1/2} 6(x-x^2) dx = 6[\\frac{x^2}{2}-\\frac{x^3}{3}]_{1/4}^{1/2} = 6[(\\frac{(1/2)^2}{2}-\\frac{(1/2)^3}{3}) - (\\frac{(1/4)^2}{2}-\\frac{(1/4)^3}{3})] = 6[(\\frac{1/4}{2}-\\frac{1/8}{3}) - (\\frac{1/16}{2}-\\frac{1/64}{3})] = 6[(\\frac{1}{8}-\\frac{1}{24}) - (\\frac{1}{32}-\\frac{1}{192})] = 6[(\\frac{3-1}{24}) - (\\frac{6-1}{192})] = 6[\\frac{2}{24} - \\frac{5}{192}] = 6[\\frac{1}{12}-\\frac{5}{192}] = 6[\\frac{16-5}{192}] = 6\\frac{11}{192} = \\frac{11}{32}$. <br> <br> $P(x < \\frac{1}{2}) = \\int_{0}^{1/2} 6(x-x^2) dx = 6[\\frac{x^2}{2}-\\frac{x^3}{3}]_{0}^{1/2} = 6[(\\frac{(1/2)^2}{2}-\\frac{(1/2)^3}{3}) - 0] = 6(\\frac{1}{8}-\\frac{1}{24}) = 6(\\frac{3-1}{24}) = 6(\\frac{2}{24}) = 6(\\frac{1}{12}) = \\frac{1}{2}$. ",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Let $X$ be amount of time for which a book is taken out of library by randomly selected student and suppose $X$ has p.d.f. $f(x) = 0.5x$, for $0 \\le x \\le 2$ and $= 0$ otherwise. Calculate: (i) $P(X \\le 1)$ (ii) $P(0.5 \\le X \\le 1.5)$ (iii) $P(X \\ge 1.5)$.",
-    "answer": "i) $P(X \\le 1) = \\int_{0}^{1} 0.5x dx = [0.5\\frac{x^2}{2}]_{0}^{1} = [0.25x^2]_{0}^{1} = 0.25(1)^2 - 0 = 0.25$. <br> ii) $P(0.5 \\le X \\le 1.5) = \\int_{0.5}^{1.5} 0.5x dx = [0.25x^2]_{0.5}^{1.5} = 0.25((1.5)^2 - (0.5)^2) = 0.25(2.25-0.25) = 0.25(2) = 0.5$. <br> iii) $P(X \\ge 1.5) = \\int_{1.5}^{2} 0.5x dx = [0.25x^2]_{1.5}^{2} = 0.25(2^2 - (1.5)^2) = 0.25(4-2.25) = 0.25(1.75) = 0.4375$. ",
+    "text": "The p.d.f. of a r.v. $X$ is $f(x) = \\frac{x}{8}$, for $0 < x < 4$ and $0$ otherwise. Find (a) $P(x<1.5)$ (b) $P(1<x<2)$ (c) $P(x>2)$.",
+    "answer": "a) $P(x < 1.5) = \\int_{0}^{1.5} \\frac{x}{8} dx = [\\frac{x^2}{16}]_{0}^{1.5} = \\frac{2.25}{16} = \\frac{9}{64}$. <br> b) $P(1 < x < 2) = \\int_{1}^{2} \\frac{x}{8} dx = [\\frac{x^2}{16}]_{1}^{2} = \\frac{4-1}{16} = \\frac{3}{16}$. <br> c) $P(x > 2) = \\int_{2}^{4} \\frac{x}{8} dx = [\\frac{x^2}{16}]_{2}^{4} = \\frac{16-4}{16} = \\frac{12}{16} = \\frac{3}{4}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Suppose that $X$ is waiting time in minutes for a bus and its p.d.f. is given by $f(x) = \\frac{x}{5}$, for $0 \\le x \\le 5$ and $= 0$ otherwise. Find the probability that <br> i) waiting time is between 1 and 3 <br> ii) waiting time is more than 4 minutes.",
-    "answer": "i) The probability that the waiting time is between 1 and 3 minutes is given by the integral of the p.d.f. from 1 to 3. <br> $P(1 < X < 3) = \\int_{1}^{3} \\frac{x}{5} dx = [\\frac{x^2}{10}]_{1}^{3} = \\frac{3^2}{10} - \\frac{1^2}{10} = \\frac{9-1}{10} = \\frac{8}{10} = 0.8$. <br> <br> ii) The probability that the waiting time is more than 4 minutes is given by the integral of the p.d.f. from 4 to 5. <br> $P(X > 4) = \\int_{4}^{5} \\frac{x}{5} dx = [\\frac{x^2}{10}]_{4}^{5} = \\frac{5^2}{10} - \\frac{4^2}{10} = \\frac{25-16}{10} = \\frac{9}{10} = 0.9$. ",
+    "text": "The error in measurement of reaction temperature (in Celsius) in an experiment is a continuous r.v. with p.d.f. $f(x) = \\frac{x^2}{3}$, for $-1 < x < 2$ and $0$ otherwise. Verify if it is a p.d.f. and find $P(0 < x \\leq 1)$.",
+    "answer": "1. Verification: $f(x) = \\frac{x^2}{3} \\geq 0$ for all $x$. Also, $\\int_{-1}^{2} \\frac{x^2}{3} dx = \\frac{1}{3} [\\frac{x^3}{3}]_{-1}^{2} = \\frac{1}{9}(8 - (-1)) = 1$. So, it **is a p.d.f.**.<br>2. $P(0 < x \\leq 1) = \\int_{0}^{1} \\frac{x^2}{3} dx = \\frac{1}{3} [\\frac{x^3}{3}]_{0}^{1} = \\frac{1}{9}(1 - 0) = \\frac{1}{9}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find $k$ if $f(x) = kx$, for $0 < x < 2$ and $0$ otherwise, is a p.d.f. Also find $P(\\frac{1}{4} < x < \\frac{3}{2})$.",
+    "answer": "For $f(x)$ to be a p.d.f., $\\int_{0}^{2} kx dx = 1 \\implies k[\\frac{x^2}{2}]_{0}^{2} = 1 \\implies k(2) = 1 \\implies k = 1/2$.<br>$P(\\frac{1}{4} < x < \\frac{3}{2}) = \\int_{1/4}^{3/2} \\frac{x}{2} dx = [\\frac{x^2}{4}]_{1/4}^{3/2} = \\frac{1}{4}[(\\frac{9}{4}) - (\\frac{1}{16})] = \\frac{1}{4}(\\frac{35}{16}) = \\frac{35}{64}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find $k$ if $f(x) = kx (1-x)$, for $0 < x < 1$ and $0$ otherwise, is a p.d.f. Also find $P(x < 1/2)$.",
+    "answer": "For $f(x)$ to be a p.d.f., $\\int_{0}^{1} kx(1-x) dx = 1 \\implies k[\\frac{x^2}{2} - \\frac{x^3}{3}]_{0}^{1} = 1 \\implies k(\\frac{1}{6})=1 \\implies k=6$.<br>$P(x < 1/2) = \\int_{0}^{1/2} 6(x-x^2) dx = 6[\\frac{x^2}{2}-\\frac{x^3}{3}]_{0}^{1/2} = 6(\\frac{1}{8}-\\frac{1}{24}) = 6(\\frac{2}{24}) = 1/2$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Let $X$ be the waiting time in minutes for a bus with p.d.f. $f(x) = \\frac{1}{5}$ for $0 \\leq x \\leq 5$ and $0$ otherwise. Find the probability that waiting time is between 1 and 3 minutes. (HSC Textbook)",
+    "answer": "The p.d.f seems to be for a uniform distribution. Assuming $f(x) = 1/5$ to make the total probability 1.<br>$P(1 < X < 3) = \\int_{1}^{3} \\frac{1}{5} dx = [\\frac{x}{5}]_{1}^{3} = \\frac{3}{5} - \\frac{1}{5} = \\frac{2}{5} = 0.4$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Suppose error involved in making a certain measurement is continuous r.v. $X$ with p.d.f. $f(x) = k(4-x^2)$, for $-2 \\le x \\le 2$ and $= 0$ otherwise. Compute: (i) $P(x>0)$ (ii) $P(-1<x<1)$ (iii) $P(-0.5 < x \\text{ or } x > 0.5)$.",
-    "answer": "First, we must find the value of the constant $k$ by using the property that the total integral of a p.d.f. is 1. <br> $\\int_{-2}^{2} k(4-x^2) dx = 1 \\implies k[4x - \\frac{x^3}{3}]_{-2}^{2} = 1 \\implies k[(8-\\frac{8}{3}) - (-8+\\frac{8}{3})] = 1 \\implies k[16-\\frac{16}{3}] = 1 \\implies k[\\frac{48-16}{3}] = 1 \\implies k(\\frac{32}{3}) = 1 \\implies k=\\frac{3}{32}$. <br> So, the p.d.f. is $f(x) = \\frac{3}{32}(4-x^2)$. <br> <br> i) $P(x > 0) = \\int_{0}^{2} \\frac{3}{32}(4-x^2) dx = \\frac{3}{32}[4x-\\frac{x^3}{3}]_{0}^{2} = \\frac{3}{32}[(8-\\frac{8}{3})-(0)] = \\frac{3}{32}(\\frac{16}{3}) = \\frac{1}{2}$. <br> <br> ii) $P(-1 < x < 1) = \\int_{-1}^{1} \\frac{3}{32}(4-x^2) dx = \\frac{3}{32}[4x-\\frac{x^3}{3}]_{-1}^{1} = \\frac{3}{32}[(4-\\frac{1}{3}) - (-4+\\frac{1}{3})] = \\frac{3}{32}[8-\\frac{2}{3}] = \\frac{3}{32}(\\frac{22}{3}) = \\frac{22}{32} = \\frac{11}{16}$. <br> <br> iii) $P(-0.5 < x \\text{ or } x > 0.5)$ can be written as $1 - P(-0.5 \\le x \\le 0.5)$. <br> $P(-0.5 \\le x \\le 0.5) = \\int_{-0.5}^{0.5} \\frac{3}{32}(4-x^2) dx = \\frac{3}{32}[4x-\\frac{x^3}{3}]_{-0.5}^{0.5} = \\frac{3}{32}[(2-\\frac{1}{24}) - (-2+\\frac{1}{24})] = \\frac{3}{32}[4-\\frac{2}{24}] = \\frac{3}{32}[4-\\frac{1}{12}] = \\frac{3}{32}(\\frac{47}{12}) = \\frac{47}{128}$. <br> So, $P(-0.5 < x \\text{ or } x > 0.5) = 1 - \\frac{47}{128} = \\frac{81}{128}$.",
+    "text": "The p.d.f. of a r.v. is $f(x) = \\frac{3}{32}(4-x^2)$, for $-2 \\le x \\le 2$ and $0$ otherwise. Find $P(-1<x<1)$.",
+    "answer": "$P(-1 < x < 1) = \\int_{-1}^{1} \\frac{3}{32}(4-x^2) dx = \\frac{3}{32}[4x-\\frac{x^3}{3}]_{-1}^{1} = \\frac{3}{32}[(4-\\frac{1}{3}) - (-4+\\frac{1}{3})] = \\frac{3}{32}(8-\\frac{2}{3}) = \\frac{3}{32}(\\frac{22}{3}) = \\frac{11}{16}$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The following is the p.d.f. of continuous r.v. $f(x) = \\frac{x}{8}$, for $0 < x < 4$ and $= 0$ otherwise. (i) Find expression for c.d.f of $X$. (ii) Find $F(x)$ at $x=0.5$, $1.7$ and $5$.",
-    "answer": "i) The **cumulative distribution function (c.d.f.)** $F(x)$ is the integral of the p.d.f. $f(t)$ from $-\\infty$ to $x$. <br> For $x < 0$, $F(x) = \\int_{-\\infty}^{x} 0 dt = 0$. <br> For $0 \\le x \\le 4$, $F(x) = \\int_{0}^{x} \\frac{t}{8} dt = [\\frac{t^2}{16}]_{0}^{x} = \\frac{x^2}{16}$. <br> For $x > 4$, $F(x) = \\int_{0}^{4} \\frac{t}{8} dt = [\\frac{t^2}{16}]_{0}^{4} = \\frac{16}{16} = 1$. <br> The expression for the c.d.f. is: <br> $$ F(x) = \\begin{cases} 0 & x < 0 \\\\ \\frac{x^2}{16} & 0 \\le x \\le 4 \\\\ 1 & x > 4 \\end{cases} $$ <br> ii) To find the value of $F(x)$ at specific points, we use the expression derived in part (i). <br> $F(0.5) = \\frac{(0.5)^2}{16} = \\frac{0.25}{16} = \\frac{1}{64} = 0.015625$. <br> $F(1.7) = \\frac{(1.7)^2}{16} = \\frac{2.89}{16} = 0.180625$. <br> $F(5) = 1$, since $5 > 4$.",
+    "text": "The p.d.f. of a continuous r.v. $X$ is $f(x) = \\frac{x}{8}$ for $0 < x < 4$ and $0$ otherwise. Find the expression for its c.d.f.",
+    "answer": "The c.d.f. is $F(x) = \\int_{-\\infty}^{x} f(t) dt$.<br>For $x < 0, F(x) = 0$.<br>For $0 \\le x \\le 4, F(x) = \\int_{0}^{x} \\frac{t}{8} dt = [\\frac{t^2}{16}]_{0}^{x} = \\frac{x^2}{16}$.<br>For $x > 4, F(x) = 1$.<br>The c.d.f. is: $ F(x) = \\begin{cases} 0 & x < 0 \\\\ \\frac{x^2}{16} & 0 \\le x \\le 4 \\\\ 1 & x > 4 \\end{cases} $",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Given the p.d.f. of a continuous r.v. $X$, $f(x) = \\frac{x^2}{3}$, for $-1 < x < 2$ and $= 0$ otherwise. Determine c.d.f. of $X$ hence find $P(x < 1)$, $P(x < -2)$, $P(X > 0)$, $P(1 < x < 2)$.",
-    "answer": "First, we find the **cumulative distribution function (c.d.f.)** $F(x)$. <br> For $x < -1$, $F(x) = 0$. <br> For $-1 \\le x < 2$, $F(x) = \\int_{-1}^{x} \\frac{t^2}{3} dt = \\frac{1}{3}[\\frac{t^3}{3}]_{-1}^{x} = \\frac{1}{9}(x^3 - (-1)^3) = \\frac{x^3+1}{9}$. <br> For $x \\ge 2$, $F(x) = \\int_{-1}^{2} \\frac{t^2}{3} dt = 1$. <br> The c.d.f. is: <br> $$ F(x) = \\begin{cases} 0 & x < -1 \\\\ \\frac{x^3+1}{9} & -1 \\le x < 2 \\\\ 1 & x \\ge 2 \\end{cases} $$ <br> Now, we can use the c.d.f. or integrate the p.d.f. to find the probabilities. <br> $P(x < 1) = F(1) = \\frac{1^3+1}{9} = \\frac{2}{9}$. <br> $P(x < -2) = F(-2) = 0$, since $-2 < -1$. <br> $P(X > 0) = 1 - P(X \\le 0) = 1 - F(0) = 1 - \\frac{0^3+1}{9} = 1 - \\frac{1}{9} = \\frac{8}{9}$. <br> $P(1 < x < 2) = F(2) - F(1) = 1 - \\frac{2}{9} = \\frac{7}{9}$.",
+    "text": "Given the p.d.f. $f(x) = \\frac{x^2}{3}$ for $-1 < x < 2$ and $0$ otherwise. Find its c.d.f. and hence find $P(x < 1)$ and $P(X > 0)$.",
+    "answer": "c.d.f. $F(x)$: For $-1 \\le x < 2, F(x) = \\int_{-1}^{x} \\frac{t^2}{3} dt = \\frac{x^3+1}{9}$. Otherwise $F(x)=0$ for $x<-1$ and $F(x)=1$ for $x \\ge 2$.<br>$P(x < 1) = F(1) = \\frac{1^3+1}{9} = \\frac{2}{9}$.<br>$P(X > 0) = 1 - F(0) = 1 - \\frac{0^3+1}{9} = 1 - \\frac{1}{9} = \\frac{8}{9}$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) If a r.v. $X$ has p.d.f. $f(x) = \\frac{c}{x}$, for $1 < x < 3$, $c > 0$. Find $c$, $E(X)$ and $Var(X)$.",
-    "answer": "First, we find the constant $c$ by using the property that the total integral of a p.d.f. is 1. <br> $\\int_{1}^{3} \\frac{c}{x} dx = 1 \\implies c[\\log|x|]_{1}^{3} = 1 \\implies c(\\log 3 - \\log 1) = 1 \\implies c\\log 3 = 1 \\implies c = \\frac{1}{\\log 3}$. <br> <br> **Expected Value (Mean)** <br> $E(X) = \\int_{1}^{3} xf(x) dx = \\int_{1}^{3} x(\\frac{c}{x}) dx = \\int_{1}^{3} c dx = [cx]_{1}^{3} = c(3-1) = 2c = \\frac{2}{\\log 3}$. <br> <br> **Variance** <br> $Var(X) = E(X^2) - [E(X)]^2$. First, we find $E(X^2) = \\int_{1}^{3} x^2f(x) dx$. <br> $E(X^2) = \\int_{1}^{3} x^2(\\frac{c}{x}) dx = \\int_{1}^{3} cx dx = c[\\frac{x^2}{2}]_{1}^{3} = c(\\frac{3^2}{2} - \\frac{1^2}{2}) = c(\\frac{9-1}{2}) = c(4) = 4c = \\frac{4}{\\log 3}$. <br> $Var(X) = E(X^2) - [E(X)]^2 = \\frac{4}{\\log 3} - (\\frac{2}{\\log 3})^2 = \\frac{4}{\\log 3} - \\frac{4}{(\\log 3)^2} = \\frac{4\\log 3 - 4}{(\\log 3)^2} = \\frac{4(\\log 3 - 1)}{(\\log 3)^2}$. <br> <br> The value of $c$ is **$\\frac{1}{\\log 3}$**, the expected value is **$\\frac{2}{\\log 3}$** and the variance is **$\\frac{4(\\log 3 - 1)}{(\\log 3)^2}$**.",
+    "text": "If a r.v. $X$ has p.d.f. $f(x) = \\frac{c}{x}$, for $1 < x < 3$, where $c > 0$. Find $c$, $E(X)$ and $Var(X)$.",
+    "answer": "First, find $c$: $\\int_{1}^{3} \\frac{c}{x} dx = 1 \\implies c[\\ln|x|]_{1}^{3} = 1 \\implies c\\ln 3 = 1 \\implies c = 1/\\ln 3$.<br>$E(X) = \\int_{1}^{3} xf(x) dx = \\int_{1}^{3} c dx = 2c = 2/\\ln 3$.<br>$E(X^2) = \\int_{1}^{3} x^2f(x) dx = \\int_{1}^{3} cx dx = c[\\frac{x^2}{2}]_1^3 = 4c = 4/\\ln 3$.<br>$Var(X) = E(X^2) - [E(X)]^2 = \\frac{4}{\\ln 3} - (\\frac{2}{\\ln 3})^2 = \\frac{4\\ln 3 - 4}{(\\ln 3)^2}$.",
     "marks": 4
   },
   {
     "type": "mcq",
-    "text": "Q) P.d.f. of a c.r.v $X$ is $f(x)=6x(1-x)$, for $0 \\le x \\le 1$ and $=0$, otherwise. If $P(X < a) = P(X > a)$, then $a=$",
-    "options": [
-      "A) 1",
-      "B) 1/2",
-      "C) 1/3",
-      "D) 1/4"
-    ],
-    "correct_answer": "B) 1/2",
+    "text": "P.d.f. of a c.r.v $X$ is $f(x)=6x(1-x)$, for $0 \\le x \\le 1$ and $0$ otherwise. If $P(X < a) = P(X > a)$, then $a=$",
+    "options": ["1", "1/2", "1/3", "1/4"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If the p.d.f of a c.r.v. $X$ is $f(x)=3(1-2x^2)$, for $0 < x < 1$ and $=0$, otherwise (elsewhere) then the c.d.f of $X$ is $F(x) = $",
-    "options": [
-      "A) $2x-3x^2$",
-      "B) $3x-4x^3$",
-      "C) $3x-2x^3$",
-      "D) $2x^3-3x$"
-    ],
-    "correct_answer": "C) $3x-2x^3$",
+    "text": "If the p.d.f of a c.r.v. $X$ is $f(x)=3(1-2x^2)$, for $0 < x < 1$ and $0$ otherwise, then the c.d.f of $X$ is $F(x) = $",
+    "options": ["$2x-3x^2$", "$3x-4x^3$", "$3x-2x^3$", "$2x^3-3x$"],
+    "correct_answer": "C",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If the p.d.f of a c.r.v. $X$ is $f(x) = \\frac{x^2}{18}$, for $-3 < x < 3$ and $=0$, otherwise then $P(||X|<1) =$",
-    "options": [
-      "A) 1/27",
-      "B) 1/28",
-      "C) 1/29",
-      "D) 1/26"
-    ],
-    "correct_answer": "A) 1/27",
+    "text": "If the p.d.f of a c.r.v. $X$ is $f(x) = \\frac{x^2}{18}$, for $-3 < x < 3$ and $0$ otherwise, then $P(|X|<1) =$",
+    "options": ["1/27", "1/28", "1/29", "1/26"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If a d.r.v. $X$ takes values $0, 1, 2, 3, \\dots$ which probability $P(X=x) = k(+1)\\cdot 5^{-x}$, where $k$ is a constant, then $P(X=0)=0$",
-    "options": [
-      "A) 7/25",
-      "B) 16/25",
-      "C) 18/25",
-      "D) 19/25"
-    ],
-    "correct_answer": "B) 16/25",
+    "text": "If a d.r.v. $X$ has p.m.f. $P(X=x) = k(x+1)5^{-x}$ for $x=0, 1, 2, ...$, then $P(X=0)=$",
+    "options": ["7/25", "16/25", "18/25", "19/25"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If p.m.f. of a d.r.v $X$ is $P(X=x) = \\frac{e^{-x}}{x!}$, for $x=0, 1, 2, 3, 4, 5$ and $=0$, otherwise if $P(X\\ge 2)$ and $P(X\\ge 3)$, then $E(X)=$",
-    "options": [
-      "A) $a < b$",
-      "B) $a > b$",
-      "C) $a=b$",
-      "D) $a+b$"
-    ],
-    "correct_answer": "D) $a+b$",
+    "text": "Let X be a r.v. with p.m.f. $P(X=x) = kx$ for $x=1,2,3$ and 0 otherwise. What is $E(X)$?",
+    "options": ["7/3", "5/3", "1", "2"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If p.m.f. of a d.r.v. $X$ is $P(X=x) = \\frac{x}{n(n+1)}$ for $x=1, 2, 3, \\dots, n$ and $=0$ otherwise then $E(X)=$",
-    "options": [
-      "A) $\\frac{n}{3}+\\frac{1}{2}$",
-      "B) $\\frac{n+1}{3}+\\frac{1}{6}$",
-      "C) $\\frac{n}{3}+\\frac{1}{2}$",
-      "D) $\\frac{n}{1}+\\frac{1}{3}$"
-    ],
-    "correct_answer": "A) $\\frac{n}{3}+\\frac{1}{2}$",
+    "text": "If p.m.f. of a d.r.v. $X$ is $P(X=x) = \\frac{2x}{n(n+1)}$ for $x=1, 2, ..., n$ and $0$ otherwise then $E(X)=$",
+    "options": ["$\\frac{n+1}{2}$", "$\\frac{2n+1}{3}$", "$\\frac{n(n+1)}{2}$", "$\\frac{2n+1}{6}$"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If p.m.f. of a d.r.v. $X$ is $P(x) = \\frac{c}{x}$, for $x=1, 2, 3$ and $=0$ otherwise (elsewhere) then $E(X) =$",
-    "options": [
-      "A) 343/297",
-      "B) 294/294",
-      "C) 297/294",
-      "D) 297/294"
-    ],
-    "correct_answer": "C) 297/294",
+    "text": "For a Binomial distribution, if $n=5$ and $p=0.4$, then the variance is:",
+    "options": ["1.2", "2", "0.8", "1"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If the d.r.v. $X$ has the following probability distribution: <br>| $X$ | -2 | -1 | 0 | 1 | 2 | 3 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | 0.1 | $k$ | 0.2 | $2k$ | 0.3 | $k$ |<br>then $P(X=-1) =$",
-    "options": [
-      "A) 1/10",
-      "B) 2/10",
-      "C) 3/10",
-      "D) 4/10"
-    ],
-    "correct_answer": "B) 2/10",
+    "text": "If the d.r.v. $X$ has the following probability distribution: <br>| $X$ | -2 | -1 | 0 | 1 | 2 | 3 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | 0.1 | $k$ | 0.2 | $2k$ | 0.3 | $k$ |<br>then $k=$",
+    "options": ["0.1", "0.2", "0.3", "0.4"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If the d.r.v. $X$ has the following probability distribution: <br>| $X$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | $k$ | $2k$ | $2k$ | $3k$ | $k^2$ | $2k^2$ | $7k^2+k$ |<br>then $k=$",
-    "options": [
-      "A) 1/7",
-      "B) 1/8",
-      "C) 1/9",
-      "D) 1/10"
-    ],
-    "correct_answer": "D) 1/10",
+    "text": "If the d.r.v. $X$ has the probability distribution: <br>| $X$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | $k$ | $2k$ | $2k$ | $3k$ | $k^2$ | $2k^2$ | $7k^2+k$ |<br>then $P(X<3)=$",
+    "options": ["1/10", "2/10", "3/10", "4/10"],
+    "correct_answer": "C",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If the d.r.v. $X$ has the following probability distribution: <br>| $X$ | -2 | -1 | 0 | 1 | 2 | 3 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | 0.1 | $k$ | 0.2 | $2k$ | 0.3 | $k$ |<br>then $P(X=-1) =$",
-    "options": [
-      "A) 1/10",
-      "B) 2/10",
-      "C) 3/10",
-      "D) 4/10"
-    ],
-    "correct_answer": "B) 2/10",
+    "text": "A fair die is thrown once. Let X be the score. The variance of X is:",
+    "options": ["3.5", "2.91", "35/6", "35/12"],
+    "correct_answer": "D",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If the d.r.v. $X$ has the following probability distribution: <br>| $X$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | $k$ | $2k$ | $2k$ | $3k$ | $k^2$ | $2k^2$ | $7k^2+k$ |<br>then $k=$",
-    "options": [
-      "A) 1/7",
-      "B) 1/8",
-      "C) 1/9",
-      "D) 1/10"
-    ],
-    "correct_answer": "D) 1/10",
+    "text": "For a binomial distribution B(n,p), the mean is 6 and the variance is 2. The value of n is:",
+    "options": ["6", "9", "12", "18"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) Find expected value and variance of $X$ for the following p.m.f.<br>| $X$ | -2 | -1 | 0 | 1 | 2 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 0.3 | 0.4 | 0.2 | 0.15 | 0.25 |<br> (A) 0.85 (B) -0.85 (C) 0.15 (D) -0.15",
-    "options": [
-      "A) 0.85",
-      "B) -0.85",
-      "C) 0.15",
-      "D) -0.15"
-    ],
-    "correct_answer": "A) 0.85",
+    "text": "If p.m.f. of a d.r.v. $X$ is $P(x) = c/x^3$, for $x=1, 2, 3$ and $0$ otherwise, then $E(X) =$",
+    "options": ["343/297", "294/251", "251/294", "294/343"],
+    "correct_answer": "B",
     "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the corner points of the feasible solution are (0, 10), (2, 2) and (4, 0) then the point of minimum $z = 3x + 2y$ is:",
+    "options": ["(2, 2)", "(0, 10)", "(4, 0)", "(3, 4)"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The random variable X ~ B(n, p). If the values of mean and variance of X are 18 and 12 respectively, then the value of n is:",
+    "options": ["36", "54", "18", "27"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If X ~ B(n, p) with n=10, p=0.4, then E(X) and Var(X) are:",
+    "options": ["4, 2.4", "4, 1.6", "5, 2.5", "5, 1.5"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Identify the random variable as either discrete or continuous: The number of unemployed graduates in a town of population 1 lakh.",
+    "answer": "The number of unemployed graduates is a **discrete** random variable because it represents a countable number. The range is {0, 1, 2, ..., 100000}.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Identify the random variable as either discrete or continuous: The gain of weight of a person on a high protein diet in a week.",
+    "answer": "The gain of weight is a **continuous** random variable, as weight can take any real value within a certain range.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The probability distribution of a discrete r.v. $X$ is given below. Find the value of $k$.<br>| $X=x$ | 1 | 2 | 3 | 4 | 5 | 6 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | $k$ | $2k$ | $3k$ | $4k$ | $5k$ | $6k$ |",
+    "answer": "The sum of all probabilities must be 1. <br> $k+2k+3k+4k+5k+6k = 1 \\implies 21k = 1 \\implies k = 1/21$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The following is the probability distribution of r.v. $X$. Find $P(X \\text{ is odd})$.<br>| $X=x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | 0.05 | 0.1 | 0.15 | 0.20 | 0.25 | 0.15 | 0.1 |",
+    "answer": "$P(X \\text{ is odd}) = P(X=-3) + P(X=-1) + P(X=1) + P(X=3) = 0.05+0.15+0.25+0.1 = 0.55$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "The p.m.f. of a r.v. $X$ is $P(X=x) = \\frac{\\binom{5}{x}}{32}$ for $x=0,1,2,3,4,5$. Show that $P(X \\le 2) = P(X \\ge 3)$.",
+    "answer": "$P(X \\le 2) = P(0)+P(1)+P(2) = \\frac{\\binom{5}{0}+\\binom{5}{1}+\\binom{5}{2}}{32} = \\frac{1+5+10}{32} = \\frac{16}{32} = 1/2$.<br>$P(X \\ge 3) = P(3)+P(4)+P(5) = \\frac{\\binom{5}{3}+\\binom{5}{4}+\\binom{5}{5}}{32} = \\frac{10+5+1}{32} = \\frac{16}{32} = 1/2$.<br>Hence, they are equal.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In the p.m.f of r.v. $X$, find $a$.<br>| $X$ | 1 | 2 | 3 | 4 | 5 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 1/20 | 3/20 | $a$ | $2a$ | 1/20 |",
+    "answer": "The sum of probabilities is 1. <br>$\\frac{1}{20} + \\frac{3}{20} + a + 2a + \\frac{1}{20} = 1 \\implies \\frac{5}{20} + 3a = 1 \\implies 3a = 3/4 \\implies a = 1/4$.",
+    "marks": 2
   },
   {
     "type": "long",
-    "text": "Q) Identify the random variable as either discrete or continuous in each of the following. Write down the range of it.<br> i) An economist is interested the number of unemployed graduate in the town of population 1 lakh.<br> ii) Amount of syrup prescribed by physician.<br> iii) The person on the high protein diet is interested gain of weight in a week.<br> iv) 20 white rats are available for an experiment. Twelve rats are male. Scientist randomly selects 5 rats number of female rats selected on a specific day.<br> v) A highway safety group is interested in studying the speed (km/hrs) of a car at a check point.",
-    "answer": "i) The number of unemployed graduates is a **discrete** random variable because it can be counted (e.g., 0, 1, 2, ...). The range would be integers from 0 to 1,00,000. <br> ii) The amount of syrup is a **continuous** random variable because it can take any value within a given range (e.g., 5.1 ml, 5.11 ml, etc.). The range would be a continuous interval of real numbers, such as $[0, \\infty)$. <br> iii) The gain of weight is a **continuous** random variable, as it can take any value within a range (e.g., 1.5 kg, 1.55 kg, etc.). The range would be a continuous interval of real numbers. <br> iv) The number of female rats selected is a **discrete** random variable, as it is a count (e.g., 0, 1, 2, ...). There are 20 total rats, 12 male, and 8 female. The scientist selects 5 rats. The number of female rats can be 0, 1, 2, 3, 4, or 5. The range is {0, 1, 2, 3, 4, 5}. <br> v) The speed of a car is a **continuous** random variable because it can take any value within a certain range (e.g., 60.5 km/hr). The range would be a continuous interval of non-negative real numbers, such as $[0, \\infty)$.",
+    "text": "A fair coin is tossed 4 times. Let $X$ denote the number of heads obtained. Find the probability distribution and p.m.f. of $X$.",
+    "answer": "This is a binomial distribution with $n=4, p=1/2$. The p.m.f. is $P(X=k) = \\frac{\\binom{4}{k}}{16}$ for $k=0,1,2,3,4$.<br>| $X$ | 0 | 1 | 2 | 3 | 4 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 1/16 | 4/16 | 6/16 | 4/16 | 1/16 |",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) The probability distribution of discrete r.v. $X$ is as follows<br>| $X=x$ | 1 | 2 | 3 | 4 | 5 | 6 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | $k$ | $2k$ | $3k$ | $4k$ | $5k$ | $6k$ |<br> i) Determine the value of $k$. <br> ii) Find $P(X \\le 4)$, $P(2 < X < 4)$, $P(X \\ge 3)$.",
-    "answer": "i) The sum of all probabilities must be 1. <br> $k+2k+3k+4k+5k+6k = 1 \\implies 21k = 1 \\implies k = \\frac{1}{21}$. <br> <br> ii) $P(X \\le 4) = P(X=1) + P(X=2) + P(X=3) + P(X=4) = k+2k+3k+4k = 10k$. <br> Substituting $k=1/21$: $P(X \\le 4) = 10(\\frac{1}{21}) = \\frac{10}{21}$. <br> $P(2 < X < 4) = P(X=3) = 3k = 3(\\frac{1}{21}) = \\frac{3}{21} = \\frac{1}{7}$. <br> $P(X \\ge 3) = P(X=3) + P(X=4) + P(X=5) + P(X=6) = 3k+4k+5k+6k = 18k$. <br> Substituting $k=1/21$: $P(X \\ge 3) = 18(\\frac{1}{21}) = \\frac{18}{21} = \\frac{6}{7}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) The following probability distribution of r.v. $X$<br>| $X=x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X=x)$ | 0.05 | 0.1 | 0.15 | 0.20 | 0.25 | 0.15 | 0.1 |<br>Find the probability that <br> i) $X$ is positive. <br> ii) $X$ is non negative. <br> iii) $X$ is odd. <br> iv) $X$ is even.",
-    "answer": "i) $P(X \\text{ is positive}) = P(X=1) + P(X=2) + P(X=3) = 0.25+0.15+0.1 = 0.50$. <br> ii) $P(X \\text{ is non negative}) = P(X=0) + P(X=1) + P(X=2) + P(X=3) = 0.20+0.25+0.15+0.1 = 0.70$. <br> iii) $P(X \\text{ is odd}) = P(X=-3) + P(X=-1) + P(X=1) + P(X=3) = 0.05+0.15+0.25+0.1 = 0.55$. <br> iv) $P(X \\text{ is even}) = P(X=-2) + P(X=0) + P(X=2) = 0.1+0.2+0.15 = 0.45$. <br> Note that $P(X \\text{ is odd}) + P(X \\text{ is even}) = 0.55+0.45 = 1$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) The p.m.f. of a r.v. $X$ is given by $P(X=x) = \\frac{\\binom{5}{x}}{2^5}$, for $x=0, 1, 2, 3, 4, 5$ and $=0$ otherwise. Then show that $P(X \\le 2) = P(X \\ge 3)$.",
-    "answer": "The sum of all probabilities is $\\sum_{x=0}^{5} \\frac{\\binom{5}{x}}{2^5} = \\frac{1}{2^5} \\sum_{x=0}^{5} \\binom{5}{x} = \\frac{1}{2^5}(2^5) = 1$. The p.m.f. is valid. <br> $P(X \\le 2) = P(X=0)+P(X=1)+P(X=2) = \\frac{\\binom{5}{0}}{2^5} + \\frac{\\binom{5}{1}}{2^5} + \\frac{\\binom{5}{2}}{2^5} = \\frac{1+5+10}{32} = \\frac{16}{32} = \\frac{1}{2}$. <br> $P(X \\ge 3) = P(X=3)+P(X=4)+P(X=5) = \\frac{\\binom{5}{3}}{2^5} + \\frac{\\binom{5}{4}}{2^5} + \\frac{\\binom{5}{5}}{2^5} = \\frac{10+5+1}{32} = \\frac{16}{32} = \\frac{1}{2}$. <br> Since $P(X \\le 2) = \\frac{1}{2}$ and $P(X \\ge 3) = \\frac{1}{2}$, we have shown that $P(X \\le 2) = P(X \\ge 3)$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) In the p.m.f of r.v. $X$ <br>| $X$ | 1 | 2 | 3 | 4 | 5 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 1/20 | 3/20 | $a$ | $2a$ | 1/20 |<br>Find $a$ and obtain c.d.f. of $X$.",
-    "answer": "First, we find the value of $a$ by setting the sum of all probabilities to 1. <br> $\\frac{1}{20} + \\frac{3}{20} + a + 2a + \\frac{1}{20} = 1 \\implies \\frac{5}{20} + 3a = 1 \\implies \\frac{1}{4} + 3a = 1 \\implies 3a = \\frac{3}{4} \\implies a = \\frac{1}{4}$. <br> The probabilities are: <br>| $X$ | 1 | 2 | 3 | 4 | 5 |<br>|:---|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 1/20 | 3/20 | 5/20 | 10/20 | 1/20 |<br>The **cumulative distribution function (c.d.f.)** is defined as $F(x) = P(X \\le x)$. <br> $F(x) = 0$ for $x < 1$. <br> $F(1) = 1/20$. <br> $F(2) = 1/20 + 3/20 = 4/20 = 1/5$. <br> $F(3) = 4/20 + 5/20 = 9/20$. <br> $F(4) = 9/20 + 10/20 = 19/20$. <br> $F(5) = 19/20 + 1/20 = 1$. <br> The c.d.f. is: <br> $$ F(x) = \\begin{cases} 0 & x < 1 \\\\ 1/20 & 1 \\le x < 2 \\\\ 4/20 & 2 \\le x < 3 \\\\ 9/20 & 3 \\le x < 4 \\\\ 19/20 & 4 \\le x < 5 \\\\ 1 & x \\ge 5 \\end{cases} $$",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) A fair coin is tossed 4 times. Let $X$ denotes the number of heads obtained write down the probability distribution of $X$. Also find the formula for p.m.f. of $X$.",
-    "answer": "Let $X$ be the number of heads obtained when a fair coin is tossed 4 times. This is a binomial distribution with $n=4$ and $p=1/2$. The possible values of $X$ are 0, 1, 2, 3, 4. The total number of outcomes is $2^4 = 16$. <br> **Probability Distribution** <br> $P(X=0) = \\binom{4}{0}(1/2)^0(1/2)^4 = 1/16$. <br> $P(X=1) = \\binom{4}{1}(1/2)^1(1/2)^3 = 4/16 = 1/4$. <br> $P(X=2) = \\binom{4}{2}(1/2)^2(1/2)^2 = 6/16 = 3/8$. <br> $P(X=3) = \\binom{4}{3}(1/2)^3(1/2)^1 = 4/16 = 1/4$. <br> $P(X=4) = \\binom{4}{4}(1/2)^4(1/2)^0 = 1/16$. <br> The probability distribution is: <br> | $X$ | 0 | 1 | 2 | 3 | 4 | <br> |:---|:---:|:---:|:---:|:---:|:---:| <br> | $P(X)$ | 1/16 | 4/16 | 6/16 | 4/16 | 1/16 | <br> <br> **Formula for p.m.f. of $X$** <br> The formula for a binomial distribution is $P(X=k) = \\binom{n}{k}p^k(1-p)^{n-k}$. <br> In this case, $n=4$ and $p=1/2$. So, the formula is: <br> $P(X=k) = \\binom{4}{k}(\\frac{1}{2})^k(1-\\frac{1}{2})^{4-k} = \\binom{4}{k}(\\frac{1}{2})^k(\\frac{1}{2})^{4-k} = \\binom{4}{k}(\\frac{1}{2})^4 = \\frac{\\binom{4}{k}}{16}$. ",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the probability distribution of the number of successes in two tosses of a die, where a success is defined as (i) number greater than 4 (ii) six appears on at least one die.",
-    "answer": "This question appears to have a slight ambiguity, possibly combining two parts or rephrasing a single condition. A common interpretation is to find the probability distribution for two different definitions of 'success' in two tosses of a die. <br> <br> **Case 1: Success is a number greater than 4 (i.e., 5 or 6).** <br> The probability of a success on a single toss is $p = 2/6 = 1/3$. The number of trials is $n=2$. Let $X$ be the number of successes. The possible values of $X$ are 0, 1, 2. This is a binomial distribution. <br> $P(X=0) = \\binom{2}{0}(\\frac{1}{3})^0(\\frac{2}{3})^2 = 4/9$. <br> $P(X=1) = \\binom{2}{1}(\\frac{1}{3})^1(\\frac{2}{3})^1 = 4/9$. <br> $P(X=2) = \\binom{2}{2}(\\frac{1}{3})^2(\\frac{2}{3})^0 = 1/9$. <br> The probability distribution is: <br> | $X$ | 0 | 1 | 2 | <br> |:---|:---:|:---:|:---:|<br>| $P(X)$ | 4/9 | 4/9 | 1/9 | <br> <br> **Case 2: Success is a six appears on at least one die.** <br> This is equivalent to finding the probability of the complement event, which is that no sixes appear. The probability of not getting a six on one die is $5/6$. The probability of no sixes in two tosses is $(5/6)(5/6) = 25/36$. So the probability of at least one six is $1 - 25/36 = 11/36$. This is the probability of success for this definition. The question asks for the probability distribution of the number of successes. Let $Y$ be the number of times a success (at least one six) occurs in two tosses of a die. This is not a standard binomial distribution. The question seems to be a combination of two problems. A more likely interpretation is to find the probability distribution of the number of 'sixes' (0, 1, or 2) in two throws, which we have solved in a previous problem. Let's assume the question is intended to be 'Find the probability distribution of the number of successes where a success is defined as number greater than 4' and a second, separate part 'if a six appears on at least one die...'. The first part is solved above. The second part is a single event, not a distribution.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) A random variable $X$ has the following probability distribution: <br>| $X$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 0 | $k$ | $2k$ | $2k$ | $3k$ | $k^2$ | $2k^2$ | $7k^2+k$ |<br>Determine (i) $k$ (ii) $P(X > 6)$ (iii) $P(0 < X < 3)$.",
-    "answer": "i) The sum of all probabilities must be 1. <br> $0+k+2k+2k+3k+k^2+2k^2+7k^2+k = 1 \\implies 9k+10k^2 = 1 \\implies 10k^2+9k-1 = 0$. <br> Factoring the quadratic equation gives $(10k-1)(k+1)=0$. Since probabilities must be non-negative, we take the positive root, so $k=1/10$. <br> <br> ii) $P(X>6) = P(X=7) = 7k^2+k = 7(\\frac{1}{10})^2 + \\frac{1}{10} = \\frac{7}{100} + \\frac{10}{100} = \\frac{17}{100} = 0.17$. <br> <br> iii) $P(0 < X < 3) = P(X=1)+P(X=2) = k+2k = 3k = 3(\\frac{1}{10}) = \\frac{3}{10} = 0.3$.",
+    "text": "Given the c.d.f. of a r.v. $X$:<br>| $X$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $F(X)$ | 0.1 | 0.3 | 0.5 | 0.65 | 0.75 | 0.85 | 0.9 | 1 |<br>Find the p.m.f. of $X$ and $P(-1 \\le X \\le 2)$.",
+    "answer": "The p.m.f. is found by taking differences: $P(X=x) = F(x)-F(x_{prev})$.<br>| $X$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 |<br>| $P(X)$ | 0.1 | 0.2 | 0.2 | 0.15 | 0.1 | 0.1 | 0.05 | 0.1 |<br>$P(-1 \\le X \\le 2) = P(-1)+P(0)+P(1)+P(2) = 0.2+0.15+0.1+0.1 = 0.55$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The following is the c.d.f. of r.v. $X$: <br>| $X$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 |<br>|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $F(X)$ | 0.1 | 0.3 | 0.5 | 0.65 | 0.75 | 0.85 | 0.9 | 1 |<br>Find p.m.f. of $X$. (i) $P(-1 \\le X \\le 2)$ (ii) $P(X \\le 3/ X > 0)$.",
-    "answer": "The probability mass function (p.m.f.) is found by taking the difference between consecutive values of the c.d.f. $P(X=x) = F(x)-F(x_{prev})$. <br> $P(X=-3) = F(-3) = 0.1$. <br> $P(X=-2) = F(-2)-F(-3) = 0.3-0.1 = 0.2$. <br> $P(X=-1) = F(-1)-F(-2) = 0.5-0.3 = 0.2$. <br> $P(X=0) = F(0)-F(-1) = 0.65-0.5 = 0.15$. <br> $P(X=1) = F(1)-F(0) = 0.75-0.65 = 0.1$. <br> $P(X=2) = F(2)-F(1) = 0.85-0.75 = 0.1$. <br> $P(X=3) = F(3)-F(2) = 0.9-0.85 = 0.05$. <br> $P(X=4) = F(4)-F(3) = 1-0.9 = 0.1$. <br> The p.m.f. is: <br> | $X$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | <br> |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|<br>| $P(X)$ | 0.1 | 0.2 | 0.2 | 0.15 | 0.1 | 0.1 | 0.05 | 0.1 |<br> <br> i) $P(-1 \\le X \\le 2) = P(X=-1)+P(X=0)+P(X=1)+P(X=2) = 0.2+0.15+0.1+0.1 = 0.55$. <br> ii) $P(X \\le 3 | X > 0) = \\frac{P(0 < X \\le 3)}{P(X>0)}$. <br> $P(0 < X \\le 3) = P(X=1)+P(X=2)+P(X=3) = 0.1+0.1+0.05 = 0.25$. <br> $P(X>0) = P(X=1)+P(X=2)+P(X=3)+P(X=4) = 0.1+0.1+0.05+0.1 = 0.35$. <br> $P(X \\le 3 | X > 0) = \\frac{0.25}{0.35} = \\frac{25}{35} = \\frac{5}{7}$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the expected value, variance and standard deviation of r.v. $X$ whose p.m.f. are given below. <br> i) $X=x$: 1, 2, 3; $P(X=x)$: 1/5, 2/5, 2/5 <br> ii) $X=x$: -1, 0, 1; $P(X=x)$: 1/5, 2/5, 2/5 <br> iii) $X=x$: 1, 2, 3...n; $P(X=x)$: 1/n, 1/n, 1/n... <br> iv) $X=x$: 0, 1, 2, 3, 4, 5; $P(X=x)$: 1/32, 5/32, 10/32, 10/32, 5/32, 1/32",
-    "answer": "i) $X=x$: 1, 2, 3; $P(X=x)$: 1/5, 2/5, 2/5 <br> $E(X) = 1(1/5)+2(2/5)+3(2/5) = (1+4+6)/5 = 11/5 = 2.2$. <br> $E(X^2) = 1^2(1/5)+2^2(2/5)+3^2(2/5) = (1+8+18)/5 = 27/5 = 5.4$. <br> $Var(X) = 27/5 - (11/5)^2 = 27/5 - 121/25 = (135-121)/25 = 14/25 = 0.56$. <br> $\\sigma_X = \\sqrt{14/25} = \\sqrt{14}/5 \\approx 0.748$. <br> <br> ii) $X=x$: -1, 0, 1; $P(X=x)$: 1/5, 2/5, 2/5 <br> $E(X) = (-1)(1/5)+0(2/5)+1(2/5) = (-1+0+2)/5 = 1/5 = 0.2$. <br> $E(X^2) = (-1)^2(1/5)+0^2(2/5)+1^2(2/5) = (1+0+2)/5 = 3/5 = 0.6$. <br> $Var(X) = 3/5 - (1/5)^2 = 3/5 - 1/25 = (15-1)/25 = 14/25 = 0.56$. <br> $\\sigma_X = \\sqrt{14/25} = \\sqrt{14}/5 \\approx 0.748$. <br> <br> iii) $X=x$: 1, 2, 3...n; $P(X=x)$: 1/n, 1/n, 1/n... <br> $E(X) = \\sum_{x=1}^{n} x(\\frac{1}{n}) = \\frac{1}{n}\\sum_{x=1}^{n} x = \\frac{1}{n}(\\frac{n(n+1)}{2}) = \\frac{n+1}{2}$. <br> $E(X^2) = \\sum_{x=1}^{n} x^2(\\frac{1}{n}) = \\frac{1}{n}\\sum_{x=1}^{n} x^2 = \\frac{1}{n}(\\frac{n(n+1)(2n+1)}{6}) = \\frac{(n+1)(2n+1)}{6}$. <br> $Var(X) = E(X^2) - [E(X)]^2 = \\frac{(n+1)(2n+1)}{6} - (\\frac{n+1}{2})^2 = \\frac{(n+1)(2n+1)}{6} - \\frac{(n+1)^2}{4} = (n+1) [\\frac{2n+1}{6} - \\frac{n+1}{4}] = (n+1)[\\frac{2(2n+1)-3(n+1)}{12}] = (n+1)[\\frac{4n+2-3n-3}{12}] = \\frac{(n+1)(n-1)}{12} = \\frac{n^2-1}{12}$. <br> $\\sigma_X = \\sqrt{\\frac{n^2-1}{12}}$. <br> <br> iv) $X=x$: 0, 1, 2, 3, 4, 5; $P(X=x)$: 1/32, 5/32, 10/32, 10/32, 5/32, 1/32 <br> $E(X) = 0(1/32)+1(5/32)+2(10/32)+3(10/32)+4(5/32)+5(1/32) = (0+5+20+30+20+5)/32 = 80/32 = 2.5$. <br> $E(X^2) = 0^2(1/32)+1^2(5/32)+2^2(10/32)+3^2(10/32)+4^2(5/32)+5^2(1/32) = (0+5+40+90+80+25)/32 = 240/32 = 7.5$. <br> $Var(X) = 7.5 - (2.5)^2 = 7.5 - 6.25 = 1.25$. <br> $\\sigma_X = \\sqrt{1.25} \\approx 1.118$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) A player tosses two coins he wins ₹ 10 if 2 heads appears, ₹ 5 if 1 head appears and ₹ 2 if no head appears. Find the expected winning amount and variance of winning amount.",
-    "answer": "Let $X$ be the number of heads in two tosses of a fair coin. The possible values are 0, 1, 2. The probabilities are $P(X=0)=1/4$, $P(X=1)=2/4=1/2$, $P(X=2)=1/4$. Let $W$ be the winning amount. The value of $W$ depends on $X$: $W(X=0)=2$, $W(X=1)=5$, $W(X=2)=10$. The probability distribution of $W$ is: <br> | $W$ | 2 | 5 | 10 |<br>|:---|:---:|:---:|:---:|<br>| $P(W)$ | 1/4 | 1/2 | 1/4 |<br> **Expected Winning Amount** <br> $E(W) = \\sum w_i P(w_i) = 2(\\frac{1}{4}) + 5(\\frac{1}{2}) + 10(\\frac{1}{4}) = \\frac{2+10+10}{4} = \\frac{22}{4} = \\frac{11}{2} = 5.5$. <br> **Variance of Winning Amount** <br> $Var(W) = E(W^2) - [E(W)]^2$. First, we find $E(W^2) = \\sum w_i^2 P(w_i)$. <br> $E(W^2) = 2^2(\\frac{1}{4}) + 5^2(\\frac{1}{2}) + 10^2(\\frac{1}{4}) = 4(\\frac{1}{4}) + 25(\\frac{1}{2}) + 100(\\frac{1}{4}) = 1 + \\frac{25}{2} + 25 = 26 + 12.5 = 38.5$. <br> $Var(W) = 38.5 - (5.5)^2 = 38.5 - 30.25 = 8.25$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Let the p.m.f. of r.v. $X$ be $P(x) = \\frac{3-x}{10}$, for $x = -1, 0, 1, 2$ and $=0$, otherwise. Calculate $E(X)$ and $Var(X)$.",
-    "answer": "The probability distribution is: <br> | $X$ | -1 | 0 | 1 | 2 | <br> |:---|:---:|:---:|:---:|:---:|<br>| $P(X)$ | $\\frac{3-(-1)}{10} = \\frac{4}{10}$ | $\\frac{3-0}{10} = \\frac{3}{10}$ | $\\frac{3-1}{10} = \\frac{2}{10}$ | $\\frac{3-2}{10} = \\frac{1}{10}$ | <br> **Expected Value** <br> $E(X) = \\sum x_i P(x_i) = (-1)(\\frac{4}{10}) + 0(\\frac{3}{10}) + 1(\\frac{2}{10}) + 2(\\frac{1}{10}) = \\frac{-4+0+2+2}{10} = \\frac{0}{10} = 0$. <br> **Variance** <br> $Var(X) = E(X^2) - [E(X)]^2$. First, find $E(X^2) = \\sum x_i^2 P(x_i)$. <br> $E(X^2) = (-1)^2(\\frac{4}{10}) + 0^2(\\frac{3}{10}) + 1^2(\\frac{2}{10}) + 2^2(\\frac{1}{10}) = 1(\\frac{4}{10}) + 0 + 1(\\frac{2}{10}) + 4(\\frac{1}{10}) = \\frac{4+2+4}{10} = \\frac{10}{10}=1$. <br> $Var(X) = 1 - (0)^2 = 1$.",
+    "text": "Let the p.m.f. of r.v. $X$ be $P(x) = \\frac{3-x}{10}$, for $x = -1, 0, 1, 2$ and $0$ otherwise. Calculate $E(X)$ and $Var(X)$. (HSC Textbook)",
+    "answer": "The probability distribution is: P(-1)=4/10, P(0)=3/10, P(1)=2/10, P(2)=1/10.<br>$E(X) = -1(4/10) + 0(3/10) + 1(2/10) + 2(1/10) = (-4+2+2)/10 = 0$.<br>$E(X^2) = (-1)^2(4/10) + 0^2(3/10) + 1^2(2/10) + 2^2(1/10) = (4+2+4)/10 = 1$.<br>$Var(X) = E(X^2) - [E(X)]^2 = 1 - 0^2 = 1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Suppose error involved in making a certain measurement is continuous r.v. $X$ with p.d.f. $f(x) = k(4-x^2)$, for $-2 \\le x \\le 2$ and $= 0$ otherwise. Compute (i) $P(X > 0)$ (ii) $P(-1 < X < 1)$ (iii) $P(X < 0.5 \\text{ or } X > 0.5)$.",
-    "answer": "First, we must find the value of $k$ by setting the total integral of the p.d.f. to 1. <br> $\\int_{-2}^{2} k(4-x^2) dx = 1 \\implies k[4x - \\frac{x^3}{3}]_{-2}^{2} = 1 \\implies k[(8-\\frac{8}{3}) - (-8+\\frac{8}{3})] = 1 \\implies k[16-\\frac{16}{3}] = 1 \\implies k(\\frac{32}{3}) = 1 \\implies k = \\frac{3}{32}$. <br> The p.d.f. is $f(x) = \\frac{3}{32}(4-x^2)$. <br> <br> i) $P(X > 0) = \\int_{0}^{2} \\frac{3}{32}(4-x^2) dx = \\frac{3}{32}[4x-\\frac{x^3}{3}]_{0}^{2} = \\frac{3}{32}[(8-\\frac{8}{3})-0] = \\frac{3}{32}(\\frac{16}{3}) = \\frac{1}{2}$. <br> <br> ii) $P(-1 < X < 1) = \\int_{-1}^{1} \\frac{3}{32}(4-x^2) dx = \\frac{3}{32}[4x-\\frac{x^3}{3}]_{-1}^{1} = \\frac{3}{32}[(4-\\frac{1}{3}) - (-4+\\frac{1}{3})] = \\frac{3}{32}(8-\\frac{2}{3}) = \\frac{3}{32}(\\frac{22}{3}) = \\frac{22}{32} = \\frac{11}{16}$. <br> <br> iii) $P(X < 0.5 \\text{ or } X > 0.5) = 1 - P(-0.5 \\le X \\le 0.5) = 1 - \\int_{-0.5}^{0.5} \\frac{3}{32}(4-x^2) dx$. <br> $\\int_{-0.5}^{0.5} \\frac{3}{32}(4-x^2) dx = \\frac{3}{32}[4x-\\frac{x^3}{3}]_{-0.5}^{0.5} = \\frac{3}{32}[(2-\\frac{1/8}{3}) - (-2+\\frac{1/8}{3})] = \\frac{3}{32}[4-\\frac{1}{12}] = \\frac{3}{32}(\\frac{47}{12}) = \\frac{47}{128}$. <br> $P(X < 0.5 \\text{ or } X > 0.5) = 1 - \\frac{47}{128} = \\frac{81}{128}$.",
+    "text": "The p.d.f. of r.v. $X$ is $f(x) = \\frac{k}{\\sqrt{x}}$, for $0 < x < 4$ and $0$ otherwise. Determine $k$ and $P(X \\le 2)$.",
+    "answer": "First, find $k$: $\\int_{0}^{4} \\frac{k}{\\sqrt{x}} dx = 1 \\implies k[2\\sqrt{x}]_{0}^{4} = 1 \\implies k(4) = 1 \\implies k = 1/4$.<br>$P(X \\le 2) = \\int_0^2 \\frac{1}{4\\sqrt{x}} dx = \\frac{1}{4}[2\\sqrt{x}]_0^2 = \\frac{1}{2}\\sqrt{2} = \\frac{1}{\\sqrt{2}}$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "If $X \\sim B(n, p)$ and $E(X)=6$ and $Var(X)=4.2$, find $n$ and $p$. (March 2022)",
+    "answer": "For a binomial distribution, $E(X)=np=6$ and $Var(X)=npq=4.2$.<br>Dividing the two equations: $\\frac{npq}{np} = \\frac{4.2}{6} \\implies q=0.7$.<br>Since $p+q=1$, $p=1-0.7=0.3$.<br>Substituting $p$ back into the mean equation: $n(0.3)=6 \\implies n=6/0.3=20$.<br>So, $n=20$ and $p=0.3$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Let the p.d.f. of a random variable X be $f(x)=\\frac{3x^2}{8}$ for $0 \\le x \\le 2$ and 0 otherwise. Find $P(X \\le 1)$.",
+    "answer": "$P(X \\le 1) = \\int_0^1 \\frac{3x^2}{8} dx = \\frac{3}{8}[\\frac{x^3}{3}]_0^1 = \\frac{1}{8}(1^3-0^3) = 1/8$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "A die is thrown 6 times. If 'getting an odd number' is a success, find the probability of 5 successes. (March 2020)",
+    "answer": "This is a binomial distribution with $n=6$. The probability of success (getting an odd number {1,3,5}) is $p=3/6=1/2$. The probability of failure is $q=1/2$.<br>We want $P(X=5) = \\binom{6}{5}(1/2)^5(1/2)^{6-5} = 6(1/2)^6 = 6/64 = 3/32$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Given X ~ B(n, p). If n = 10 and p = 0.4, find E(X) and Var(X). (March 2019)",
+    "answer": "$E(X) = np = 10(0.4) = 4$.<br>$Var(X) = npq = 10(0.4)(1-0.4) = 10(0.4)(0.6) = 2.4$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "On an average, a box containing 10 articles is likely to have 2 defectives. If we consider a consignment of 100 boxes, how many of them are expected to have three defectives? (HSC Textbook)",
+    "answer": "The probability of an article being defective is $p=2/10=0.2$. Let X be the number of defective articles in a box of 10. X follows a binomial distribution with $n=10, p=0.2$.<br>The probability of a box having three defectives is $P(X=3) = \\binom{10}{3}(0.2)^3(0.8)^7 = 120(0.008)(0.2097152) \\approx 0.2013$.<br>For a consignment of 100 boxes, the expected number of boxes with three defectives is $100 \\times P(X=3) = 100 \\times 0.2013 \\approx 20.13$.<br>So, approximately 20 boxes are expected to have three defectives.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The p.d.f. of r.v. $X$ is given by $f(x) = \\frac{k}{\\sqrt{x}}$, for $0 < x < 4$ and $=0$, otherwise. Determine $k$. Determine c.d.f. of $X$ and hence $P(X \\le 2)$ and $P(X \\le 1)$.",
-    "answer": "First, we determine the value of the constant $k$ by setting the total integral of the p.d.f. to 1. <br> $\\int_{0}^{4} \\frac{k}{\\sqrt{x}} dx = 1 \\implies k[2\\sqrt{x}]_{0}^{4} = 1 \\implies k(2\\sqrt{4} - 2\\sqrt{0}) = 1 \\implies k(4) = 1 \\implies k = \\frac{1}{4}$. <br> The p.d.f. is $f(x) = \\frac{1}{4\\sqrt{x}}$ for $0 < x < 4$. <br> <br> **Cumulative Distribution Function (c.d.f.)** <br> The c.d.f. is $F(x) = \\int_{0}^{x} f(t) dt$. For $0 < x < 4$: <br> $F(x) = \\int_{0}^{x} \\frac{1}{4\\sqrt{t}} dt = \\frac{1}{4}[2\\sqrt{t}]_{0}^{x} = \\frac{1}{2}\\sqrt{x}$. <br> The full c.d.f. is: <br> $$ F(x) = \\begin{cases} 0 & x \\le 0 \\\\ \\frac{\\sqrt{x}}{2} & 0 < x < 4 \\\\ 1 & x \\ge 4 \\end{cases} $$ <br> <br> **Probabilities** <br> $P(X \\le 2) = F(2) = \\frac{\\sqrt{2}}{2} \\approx 0.707$. <br> $P(X \\le 1) = F(1) = \\frac{\\sqrt{1}}{2} = \\frac{1}{2} = 0.5$.",
+    "text": "The probability that a person who undergoes a kidney operation is successful is 0.7. Find the probability that out of 6 patients who undergo a similar operation, five patients recover.",
+    "answer": "This is a binomial distribution with $n=6$ trials (patients) and probability of success (recovery) $p=0.7$. The probability of failure is $q=0.3$.<br>We want to find the probability of exactly 5 successes, $P(X=5)$.<br>$P(X=5) = \\binom{6}{5}(0.7)^5(0.3)^{6-5} = 6(0.16807)(0.3) = 0.302526$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "A student is a member of 4 clubs. He has to appear for an examination in each of these 4 clubs. The probability that he passes is 0.8, 0.7, 0.6 and 0.5 respectively. Find the probability that he passes in at least one club's examination.",
+    "answer": "Let A, B, C, D be the events of passing the exams for the four clubs. P(A)=0.8, P(B)=0.7, P(C)=0.6, P(D)=0.5.<br>The probability of failing each exam is $P(A')=0.2, P(B')=0.3, P(C')=0.4, P(D')=0.5$.<br>The event 'passing in at least one exam' is the complement of 'failing in all exams'.<br>$P(\\text{failing all}) = P(A')P(B')P(C')P(D') = (0.2)(0.3)(0.4)(0.5) = 0.012$.<br>$P(\\text{at least one pass}) = 1 - P(\\text{failing all}) = 1 - 0.012 = 0.988$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Let $X$ be a random variable which assumes values $x_1, x_2, ..., x_n$ with probabilities $p_1, p_2, ..., p_n$. Prove that $Var(X) = E(X^2) - [E(X)]^2$.",
+    "answer": "By definition, $Var(X) = E[(X-E(X))^2]$. Let $\\mu = E(X)$.<br>$Var(X) = E[(X-\\mu)^2] = E[X^2 - 2X\\mu + \\mu^2]$.<br>Using the linearity of expectation, $E[aX+bY] = aE[X]+bE[Y]$:<br>$Var(X) = E(X^2) - E(2X\\mu) + E(\\mu^2)$.<br>Since $\\mu$ is a constant, $E(2X\\mu) = 2\\mu E(X) = 2\\mu^2$. Also, $E(\\mu^2) = \\mu^2$.<br>So, $Var(X) = E(X^2) - 2\\mu^2 + \\mu^2 = E(X^2) - \\mu^2 = E(X^2) - [E(X)]^2$. Hence proved.",
     "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "A die is rolled. If the outcome is an odd number, what is the probability that it is a prime number?",
+    "answer": "Let A be the event that the outcome is prime {2,3,5}. Let B be the event that the outcome is odd {1,3,5}.<br>We want to find $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$.<br>$A \\cap B$ is the event that the number is both odd and prime, which is {3,5}. So $P(A \\cap B)=2/6$.<br>$P(B)=3/6$.<br>$P(A|B) = \\frac{2/6}{3/6} = 2/3$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "For a Binomial distribution, the mean is 12 and the standard deviation is 2. Find the values of n and p.",
+    "answer": "Mean $np=12$. Variance $npq = (\\text{std dev})^2 = 2^2=4$.<br>Dividing the equations: $q = Var(X)/E(X) = 4/12 = 1/3$.<br>Then $p=1-q=1-1/3=2/3$.<br>Substituting back: $n(2/3)=12 \\implies n=18$.<br>So, $n=18$ and $p=2/3$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Given that X has a binomial distribution with parameters n=10 and p=0.6, find $P(X=3)$.",
+    "answer": "Using the binomial formula $P(X=k) = \\binom{n}{k}p^k q^{n-k}$ with $n=10, p=0.6, q=0.4, k=3$.<br>$P(X=3) = \\binom{10}{3}(0.6)^3(0.4)^7 = 120(0.216)(0.0016384) \\approx 0.0425$.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "For a random variable X, if $E(X)=5$ and $Var(X)=6$, then $E(X^2)$ is:",
+    "options": ["19", "31", "11", "25"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A random variable X has p.m.f. $P(x)=c/x$ for $x=1,2,4,8$. The value of c is:",
+    "options": ["8/15", "15/8", "1", "4/15"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Two cards are drawn successively with replacement from a well-shuffled deck of 52 cards. Find the probability distribution of the number of aces.",
+    "answer": "Let X be the number of aces. This is a binomial experiment with $n=2$. Probability of drawing an ace is $p=4/52=1/13$. $q=12/13$.<br>$P(X=0) = \\binom{2}{0}(1/13)^0(12/13)^2 = 144/169$.<br>$P(X=1) = \\binom{2}{1}(1/13)^1(12/13)^1 = 24/169$.<br>$P(X=2) = \\binom{2}{2}(1/13)^2(12/13)^0 = 1/169$.<br>| X | 0 | 1 | 2 |<br>|---|---|---|---|<br>| P(X) | 144/169 | 24/169 | 1/169 |",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Let $X$ be a random variable with p.d.f. $f(x) = \\frac{1}{2\\sqrt{3}}$ for $-\\sqrt{3} \\le x \\le \\sqrt{3}$ and 0 otherwise. Find $P(X<1)$.",
+    "answer": "$P(X<1) = \\int_{-\\sqrt{3}}^1 \\frac{1}{2\\sqrt{3}} dx = \\frac{1}{2\\sqrt{3}} [x]_{-\\sqrt{3}}^1 = \\frac{1}{2\\sqrt{3}}(1-(-\\sqrt{3})) = \\frac{1+\\sqrt{3}}{2\\sqrt{3}}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "If a fair coin is tossed 10 times, find the probability of getting exactly six heads. (July 2019)",
+    "answer": "This is a binomial distribution with $n=10, p=0.5$.<br>$P(X=6) = \\binom{10}{6}(0.5)^6(0.5)^4 = \\frac{10!}{6!4!}(0.5)^{10} = 210 \\times \\frac{1}{1024} = \\frac{105}{512}$.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "If $X \\sim B(100, 0.03)$, then $E(X)$ is:",
+    "options": ["3", "0.03", "30", "2.91"],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A p.d.f. of a r.v. X is given by $f(x) = 2x$ for $0 \\le x \\le 1$ and 0 otherwise. Find $P(1/3 < X < 1/2)$.",
+    "answer": "$P(1/3 < X < 1/2) = \\int_{1/3}^{1/2} 2x dx = [x^2]_{1/3}^{1/2} = (1/2)^2 - (1/3)^2 = 1/4 - 1/9 = 5/36$.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "For a p.d.f. $f(x)$ of a continuous random variable X, the value of $\\int_{-\\infty}^{\\infty} f(x)dx$ is always:",
+    "options": ["0", "1", "A positive number", "A negative number"],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Given $X \\sim B(n,p)$. If $p=0.6$ and $E(X)=6$, find $n$ and $Var(X)$. (July 2022)",
+    "answer": "$E(X)=np=6 \\implies n(0.6)=6 \\implies n=10$.<br>$q=1-p=0.4$.<br>$Var(X)=npq=10(0.6)(0.4)=2.4$.",
+    "marks": 2
   }
 ]

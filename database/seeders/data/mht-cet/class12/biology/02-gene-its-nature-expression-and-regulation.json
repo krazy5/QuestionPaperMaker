@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The structural genes in the lac operon of *E. coli* are switched off when:",
+    "options": [
+      "(a) Lactose is present and glucose is absent.",
+      "(b) Lactose is absent.",
+      "(c) Both lactose and glucose are present.",
+      "(d) Both lactose and glucose are absent."
+    ],
+    "correct_answer": "b",
+    "answer": "In the lac operon, the repressor protein binds to the operator in the absence of lactose, preventing RNA polymerase from transcribing the structural genes. This effectively switches the operon off.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The lac operon is an example of a(n):",
+    "options": [
+      "(a) Repressible operon",
+      "(b) Inducible operon",
+      "(c) Constitutive operon",
+      "(d) Attenuated operon"
+    ],
+    "correct_answer": "b",
+    "answer": "The lac operon is an inducible operon. Its expression is switched on in the presence of an inducer (lactose or allolactose), which binds to and inactivates the repressor protein.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which gene in the lac operon codes for the repressor protein?",
+    "options": [
+      "(a) i-gene",
+      "(b) z-gene",
+      "(c) y-gene",
+      "(d) a-gene"
+    ],
+    "correct_answer": "a",
+    "answer": "The i-gene (inhibitor gene) is the regulatory gene that codes for the repressor protein. This protein is responsible for controlling the transcription of the structural genes in the operon.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The segment of DNA that determines the amino acid sequence of a protein is known as a:",
+    "options": [
+      "(a) Promoter",
+      "(b) Operon",
+      "(c) Cistron",
+      "(d) Terminator"
+    ],
+    "correct_answer": "c",
+    "answer": "A cistron is a gene that codes for a specific polypeptide chain. It is the functional unit of a gene.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The concept of the 'operon' was proposed by:",
+    "options": [
+      "(a) Watson and Crick",
+      "(b) Hershey and Chase",
+      "(c) Jacob and Monod",
+      "(d) Meselson and Stahl"
+    ],
+    "correct_answer": "c",
+    "answer": "The operon model, which explains gene regulation in bacteria, was first proposed by Francois Jacob and Jacques Monod based on their studies of lactose metabolism in *E. coli*.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the lac operon, what is the function of the promoter gene?",
+    "options": [
+      "(a) It codes for the repressor protein.",
+      "(b) It is the binding site for RNA polymerase.",
+      "(c) It is the binding site for the repressor.",
+      "(d) It codes for enzymes."
+    ],
+    "correct_answer": "b",
+    "answer": "The promoter region of an operon is the DNA sequence where RNA polymerase binds to initiate the transcription of the structural genes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the function of the enzyme $\\beta$-galactosidase in the lac operon?",
+    "options": [
+      "(a) It transports lactose into the cell.",
+      "(b) It breaks down lactose into glucose and galactose.",
+      "(c) It acetylates galactosides.",
+      "(d) It regulates gene expression."
+    ],
+    "correct_answer": "b",
+    "answer": "The lac z-gene codes for the enzyme $\\beta$-galactosidase, which hydrolyzes lactose into its two constituent monosaccharides, glucose and galactose.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The regulation of gene expression in prokaryotes primarily takes place at the:",
+    "options": [
+      "(a) Transcriptional level",
+      "(b) Translational level",
+      "(c) Splicing level",
+      "(d) Replication level"
+    ],
+    "correct_answer": "a",
+    "answer": "In prokaryotes, gene expression is predominantly regulated at the transcriptional level. This is because transcription and translation occur simultaneously in the cytoplasm, allowing for a rapid response to environmental changes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When lactose is added to the culture of *E. coli*, a few of its molecules get into the cells with the help of:",
+    "options": [
+      "(a) Permease",
+      "(b) $\\beta$-galactosidase",
+      "(c) Transacetylase",
+      "(d) Repressor"
+    ],
+    "correct_answer": "a",
+    "answer": "The lac y-gene codes for the enzyme permease, which is a protein that allows a small amount of lactose to enter the cell even when the operon is repressed. This initial entry of lactose is necessary to induce the operon.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The function of a gene that synthesizes a repressor protein is:",
+    "options": [
+      "(a) Promoter gene",
+      "(b) Operator gene",
+      "(c) Structural gene",
+      "(d) Regulator gene"
+    ],
+    "correct_answer": "d",
+    "answer": "A regulator gene (i-gene) codes for a repressor protein that binds to the operator, controlling the expression of the structural genes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the operon system, the repressor protein can bind only to the:",
+    "options": [
+      "(a) Promoter",
+      "(b) Operator",
+      "(c) Structural gene",
+      "(d) Regulator gene"
+    ],
+    "correct_answer": "b",
+    "answer": "The repressor protein is a DNA-binding protein that binds to the operator region of the operon. This binding physically blocks the RNA polymerase from moving past the promoter, thus preventing transcription.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The regulation of gene expression is important for:",
+    "options": [
+      "(a) Growth and development",
+      "(b) Differentiation of cells",
+      "(c) Adaptation to the environment",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "Gene regulation allows cells to control when and how a gene's information is expressed. This is crucial for all the listed biological processes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In lac operon, the structural genes are regulated by a common:",
+    "options": [
+      "(a) Promoter and operator",
+      "(b) Repressor and inducer",
+      "(c) Promoter and terminator",
+      "(d) Repressor and corepressor"
+    ],
+    "correct_answer": "a",
+    "answer": "An operon is a cluster of genes that are regulated by a common promoter and operator. The promoter is the binding site for RNA polymerase, and the operator is the binding site for the repressor.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct sequence of genes in the lac operon is:",
+    "options": [
+      "(a) i-gene, promoter, operator, z-gene, y-gene, a-gene",
+      "(b) promoter, operator, i-gene, z-gene, y-gene, a-gene",
+      "(c) z-gene, y-gene, a-gene, promoter, operator, i-gene",
+      "(d) i-gene, z-gene, y-gene, a-gene, promoter, operator"
+    ],
+    "correct_answer": "a",
+    "answer": "The regulator gene (i-gene) is located upstream of the promoter. The promoter is followed by the operator, and then the three structural genes (z, y, and a) are arranged in tandem.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When lactose is not present, the repressor protein binds to the:",
+    "options": [
+      "(a) Promoter",
+      "(b) Operator",
+      "(c) Structural genes",
+      "(d) Terminator"
+    ],
+    "correct_answer": "b",
+    "answer": "In the absence of lactose, the active repressor protein binds to the operator region, preventing the transcription of the structural genes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of transcription in eukaryotes occurs in the:",
+    "options": [
+      "(a) Cytoplasm",
+      "(b) Nucleus",
+      "(c) Ribosome",
+      "(d) Golgi complex"
+    ],
+    "correct_answer": "b",
+    "answer": "In eukaryotic cells, transcription, the process of forming mRNA from a DNA template, takes place inside the nucleus. The mRNA then moves to the cytoplasm for translation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a nucleosome, how many histone molecules are present?",
+    "options": [
+      "(a) 6",
+      "(b) 8",
+      "(c) 4",
+      "(d) 2"
+    ],
+    "correct_answer": "b",
+    "answer": "A nucleosome is the basic unit of DNA packaging in eukaryotes. It consists of a segment of DNA wound around eight histone protein cores, known as a histone octamer.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The smallest unit of genetic material which can undergo mutation is a:",
+    "options": [
+      "(a) Cistron",
+      "(b) Recon",
+      "(c) Muton",
+      "(d) Gene"
+    ],
+    "correct_answer": "c",
+    "answer": "A muton is the smallest unit of a gene that, when altered, can lead to a mutation. It is typically a single nucleotide pair.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In eukaryotes, the regulation of gene expression cannot take place at the:",
+    "options": [
+      "(a) Transcriptional level",
+      "(b) Splicing level",
+      "(c) Replication level",
+      "(d) Translational level"
+    ],
+    "correct_answer": "c",
+    "answer": "Gene expression is regulated at various levels in eukaryotes, including transcription, processing (splicing), transport of mRNA, and translation. Replication is the process of making a copy of DNA and is not a level of gene expression regulation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the lac operon, the inducer is:",
+    "options": [
+      "(a) Lactose",
+      "(b) Allolactose",
+      "(c) Glucose",
+      "(d) Both (a) and (b)"
+    ],
+    "correct_answer": "d",
+    "answer": "Lactose is the primary inducer for the lac operon. However, a small amount of lactose is converted into allolactose, which is the actual molecule that binds to the repressor to inactivate it.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The regulation of the trp operon is an example of a:",
+    "options": [
+      "(a) Inducible operon",
+      "(b) Repressible operon",
+      "(c) Constitutive operon",
+      "(d) Attenuated operon"
+    ],
+    "correct_answer": "b",
+    "answer": "The trp operon is a repressible operon. It is turned on by default and is repressed or switched off when the end product, tryptophan, is present in the environment.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that unwinds the DNA double helix during transcription is:",
+    "options": [
+      "(a) DNA polymerase",
+      "(b) RNA polymerase",
+      "(c) Helicase",
+      "(d) Ligase"
+    ],
+    "correct_answer": "b",
+    "answer": "During transcription, RNA polymerase binds to the promoter and unwinds the DNA helix locally to expose the template strand for synthesizing an mRNA molecule.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The genetic code is degenerate, meaning:",
+    "options": [
+      "(a) One codon codes for more than one amino acid.",
+      "(b) More than one codon codes for the same amino acid.",
+      "(c) The code is universal.",
+      "(d) The code is non-overlapping."
+    ],
+    "correct_answer": "b",
+    "answer": "The degeneracy of the genetic code means that multiple codons can specify the same amino acid. For example, six different codons can code for the amino acid leucine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of forming a new gene from a segment of DNA is called:",
+    "options": [
+      "(a) Recombination",
+      "(b) Mutation",
+      "(c) Cistron formation",
+      "(d) Transcription"
+    ],
+    "correct_answer": "c",
+    "answer": "A cistron is a gene that codes for a polypeptide. The process of forming a cistron from a segment of DNA is part of gene expression.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The regulation of gene expression in prokaryotes is most often controlled at the level of:",
+    "options": [
+      "(a) Translation",
+      "(b) Transcription",
+      "(c) Post-translation",
+      "(d) Splicing"
+    ],
+    "correct_answer": "b",
+    "answer": "Gene regulation in prokaryotes is primarily at the transcriptional level. This allows the cell to quickly adapt to changes in nutrient availability.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of removing introns from the primary transcript in eukaryotes is called:",
+    "options": [
+      "(a) Transcription",
+      "(b) Translation",
+      "(c) Splicing",
+      "(d) Capping"
+    ],
+    "correct_answer": "c",
+    "answer": "Splicing is a key step in post-transcriptional modification in eukaryotes. It involves the removal of non-coding introns from the pre-mRNA to form the mature mRNA.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that adds a poly-A tail to the 3' end of a pre-mRNA molecule is:",
+    "options": [
+      "(a) DNA polymerase",
+      "(b) RNA polymerase",
+      "(c) Poly-A polymerase",
+      "(d) Ligase"
+    ],
+    "correct_answer": "c",
+    "answer": "Poly-A polymerase is the enzyme responsible for adding a poly-A tail to the 3' end of a eukaryotic pre-mRNA molecule. This tail helps in mRNA stability and export from the nucleus.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The amino acid sequence of a protein is determined by the sequence of:",
+    "options": [
+      "(a) DNA",
+      "(b) rRNA",
+      "(c) tRNA",
+      "(d) mRNA"
+    ],
+    "correct_answer": "d",
+    "answer": "During translation, the sequence of codons on the mRNA molecule is read by ribosomes. Each codon specifies a particular amino acid, thus determining the amino acid sequence of the protein.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The tRNA molecule has an anticodon loop that is complementary to the codon on the:",
+    "options": [
+      "(a) DNA",
+      "(b) rRNA",
+      "(c) mRNA",
+      "(d) Protein"
+    ],
+    "correct_answer": "c",
+    "answer": "The anticodon on a tRNA molecule is a three-nucleotide sequence that is complementary to a specific codon on an mRNA molecule. This allows the correct amino acid to be brought to the ribosome during translation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of copying genetic information from DNA to RNA is called:",
+    "options": [
+      "(a) Replication",
+      "(b) Translation",
+      "(c) Transcription",
+      "(d) Transduction"
+    ],
+    "correct_answer": "c",
+    "answer": "Transcription is the process by which the genetic information from a strand of DNA is copied into a new molecule of messenger RNA (mRNA).",
+    "marks": 1
+  }
+]

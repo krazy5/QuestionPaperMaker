@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "A _______ is a collective action of people to resolve a particular social issue.",
+    "options": [
+      "Political party",
+      "Government",
+      "Movement",
+      "Judiciary"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> A movement is an organised collective effort where people come together to pursue a common goal, often related to solving a specific social problem or bringing about a change. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Shetkari Sanghatana, a prominent farmers' movement, was led by _______.",
+    "options": [
+      "Mahatma Phule",
+      "Dr. Rajendrasinh Rana",
+      "Sharad Joshi",
+      "Medha Patkar"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Shetkari Sanghatana, started in Maharashtra, was a significant farmers' movement that demanded fair prices for agricultural products. It was led by the charismatic leader Sharad Joshi. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main demand of the tribal movements has been to _______.",
+    "options": [
+      "get higher wages",
+      "build more factories",
+      "accept their right over forests",
+      "get representation in the UN"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Tribal communities have a deep connection with forests. The primary demand of their movements has been to recognise their traditional rights to access and manage forest resources, which are crucial for their livelihood. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The _______ is known as the 'Waterman of India' for his work in water conservation.",
+    "options": [
+      "Dr. Rajendrasinh Rana",
+      "Sharad Joshi",
+      "Sunderlal Bahuguna",
+      "Anil Agarwal"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Dr. Rajendrasinh Rana has done pioneering work in Rajasthan, reviving rivers and building thousands of 'johads' (earthen check dams) for water conservation, earning him the title 'Waterman of India'. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following was a major issue taken up by the women's movement in India?",
+    "options": [
+      "Right to Information",
+      "Higher farm prices",
+      "Freedom from dowry and domestic violence",
+      "Right to form trade unions"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The women's movement in India has fought against various forms of discrimination and violence. Key issues have been the fight against the practice of dowry, domestic violence, and demanding equal status and dignity for women. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Consumer Protection Act was enacted in the year _______ to empower consumers.",
+    "options": [
+      "1980",
+      "1986",
+      "1992",
+      "2005"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Consumer Protection Act was a landmark legislation passed in 1986. It was a result of the consumer movement and it gave several rights to consumers, such as the right to safety and the right to be informed. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Chipko Movement' is an example of a/an _______ movement.",
+    "options": [
+      "farmers'",
+      "women's",
+      "workers'",
+      "environment"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The Chipko Movement, where people (especially women) hugged trees to prevent them from being cut down, was a famous movement in India aimed at protecting forests and conserving the environment. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the pre-independence period, the trade union movement was influenced by _______ ideology.",
+    "options": [
+      "Capitalist",
+      "Socialist",
+      "Anarchist",
+      "Liberal"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The workers' movement or trade union movement in India, especially in its early phase, was heavily influenced by socialist and Marxist ideas, which focused on the rights and exploitation of the working class. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a movement?",
+    "answer": "A movement is a form of collective social action. It is an organized effort by a large group of people to achieve a particular goal, typically a social or political one. It involves continuous and sustained action by the public.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why are movements important in a democracy?",
+    "answer": "Movements are very important in a democracy because they allow people to raise important public issues, put pressure on the government to address these problems, and participate in the democratic process. They act as a check on the government and help in making democracy more inclusive.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the main demands of the farmers' movement?",
+    "answer": "The main demands of the farmers' movement in India include getting the right price for agricultural products, protecting agriculture from the risks of the market, loan waivers for farmers, and the implementation of the recommendations of the Swaminathan Commission on agriculture.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Farmers' Movement - Sharad Joshi<br>2. Environment Movement - Sunderlal Bahuguna<br>3. Women's Movement - Medha Patkar<br>4. Water Conservation - Dr. Rajendrasinh Rana",
+    "answer": "<b>Wrong Pair:</b> Women's Movement - Medha Patkar<br><b>Corrected Pair:</b> Narmada Bachao Andolan - Medha Patkar (Medha Patkar is primarily associated with the environment movement, not just the women's movement).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Tribal Movement, Workers' Movement, Farmers' Movement, Political Party.",
+    "answer": "<b>Political Party.</b><br><b>Reason:</b> The first three are types of social/political movements. A political party is a formal organisation that contests elections to gain power.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Chipko Movement : Forest Conservation :: Narmada Bachao Andolan : _______.",
+    "answer": "<b>Rehabilitation of dam displaced people / Environment protection.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Consumer Protection Act : Consumers :: _______ : Tribals.",
+    "answer": "<b>Forest Rights Act.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the main objectives of the workers' movement?",
+    "answer": "The workers' or trade union movement in India has focused on issues related to the working class. The main objectives include securing better wages, improving working conditions in factories, addressing problems of contract labour, and fighting against economic policies that are harmful to workers' interests.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 'consumer rights'?",
+    "answer": "Consumer rights are the rights that a consumer has regarding the goods and services they purchase. The Consumer Protection Act of 1986 gave legal protection to these rights, which include the right to safety, the right to be informed about the quality of products, and the right to seek redressal against unfair trade practices like adulteration and black marketing.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the main characteristic of a movement?",
+    "answer": "The main characteristic of a movement is that it is a form of 'collective action'. It is not an individual activity but involves the active and continuous participation of a large number of people who are organised to achieve a common purpose.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the nature of the farmers' movement in post-independence India.",
+    "answer": "The farmers' movement in post-independence India has been very important and effective.<br>1. <b>Early Phase (Post-Green Revolution):</b> The Green Revolution aimed to increase agricultural production, but it did not benefit the poor farmers. This led to dissatisfaction and the beginning of the farmers' movement.<br>2. <b>Main Demands:</b> The core demands of the movement have been for appropriate prices for agricultural products, treating agriculture as an industry, and policies like loan relief and loan waiver.<br>3. <b>Prominent Organisations:</b> Important farmers' organisations include the 'Shetkari Sanghatana' led by Sharad Joshi in Maharashtra, and the 'Bharatiya Kisan Union'.<br>4. <b>Current Issues:</b> In recent times, the movement has become more active and is also addressing global issues like the impact of international trade policies on Indian farmers.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the women's movement in India.",
+    "answer": "The women's movement in India has fought for gender equality and the rights of women.<br>1. <b>Early Phase:</b> In the pre-independence period, progressive men initiated reforms like the abolition of Sati and child marriage.<br>2. <b>Post-Independence:</b> After independence, the movement became more organized and autonomous. Initially, the focus was on issues of freedom and equal status.<br>3. <b>Fight against Atrocities:</b> The movement has strongly campaigned against dowry, domestic violence, and sexual harassment. The analysis brought forth the understanding that the root of these problems lies in the patriarchal mentality.<br>4. <b>Empowerment:</b> In recent years, the movement has focused on the overall empowerment of women, demanding their equal representation in politics and other fields.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of movements in a democracy. How do they put pressure on the government?",
+    "answer": "Movements are the lifeblood of a democracy. They perform several crucial roles:<br>1. <b>Raising Public Issues:</b> Movements identify and bring important social and economic problems to the notice of the public and the government.<br>2. <b>Providing Information:</b> They provide essential information to the government about the ground reality of various issues, which helps in policy-making.<br>3. <b>Public Participation:</b> They increase the participation of common citizens in the democratic process beyond just voting.<br><br><b>Movements put pressure on the government through various methods:</b><br>They organize protests, rallies, and signature campaigns to show public support for their cause. They use the media to highlight their demands and also engage in discussions and negotiations with government representatives.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the environment movement in India.",
+    "answer": "The environment movement in India has become very active in addressing various environmental issues at both national and international levels.<br>1. <b>Objective:</b> The main objective of these movements is to protect biodiversity, conserve natural resources like water and forests, and prevent pollution.<br>2. <b>Chipko Movement:</b> One of the most famous environment movements was the Chipko movement in the Himalayas, where people hugged trees to stop deforestation.<br>3. <b>Narmada Bachao Andolan:</b> Led by Medha Patkar, this movement has been fighting for the rights of people displaced by large dams on the Narmada river and has raised important questions about the developmental model.<br>4. <b>Water Conservation:</b> Individuals like Dr. Rajendrasinh Rana have led movements for water conservation and river rejuvenation, showing the positive impact of community-led environmental action.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is the Consumer Movement? Explain its significance.",
+    "answer": "The consumer movement emerged in India in the 1980s as a response to various problems faced by consumers, such as adulteration of goods, high prices, and fraudulent weights and measures.<br><br><b>Significance:</b><br>1. <b>Empowerment of Consumers:</b> The movement made citizens aware of their rights as consumers.<br>2. <b>Consumer Protection Act, 1986:</b> The biggest success of the movement was the enactment of the Consumer Protection Act in 1986. This was a landmark law.<br>3. <b>Legal Rights:</b> This Act gave consumers several rights, including the right to safety, the right to information, and the right to choose.<br>4. <b>Redressal Mechanism:</b> It also established a three-tier system of consumer courts at the district, state, and national levels where consumers can file complaints and seek justice against unfair trade practices. This has made producers and service providers more accountable.",
+    "marks": 4
+  }
+]
+

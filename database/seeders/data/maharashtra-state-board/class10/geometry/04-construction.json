@@ -1,37 +1,42 @@
 [
   {
     "type": "mcq",
-    "text": "To divide a segment AB internally in the ratio m:n (m,n ∈ N), the first step is to: (Given: draw with ruler–compass only)",
+    "text": "To divide a segment AB internally in the ratio $m:n$ ($m,n \\in \\mathbb{N}$), the first step is to: (Given: draw with ruler–compass only)",
     "options": ["Draw a ray AX making an acute angle with AB", "Draw a perpendicular to AB at A", "Bisect AB repeatedly", "Draw a circle with center A passing through B"],
     "correct_answer": "A",
+    "answer": "<b>Explanation:</b> The standard method for dividing a line segment in a given ratio involves drawing an auxiliary ray at an acute angle to the segment. This allows for marking equal divisions easily. The correct option is <b>A</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "To construct △A'B'C' similar to △ABC with scale factor 3/5 (smaller triangle), from A you should mark:",
-    "options": ["5 equal points on AX and join A5B; draw through A3 ∥ A5B", "3 equal points on AX and join A3B; draw through A5 ∥ A3B", "5 equal points on AX and join A3B; draw through A5 ∥ A3B", "3 equal points on AX and join A5B; draw through A3 ∥ A5B"],
+    "text": "To construct $\\triangle A'B'C'$ similar to $\\triangle ABC$ with scale factor $3/5$ (a smaller triangle), the correct procedure is:",
+    "options": ["Mark 5 equal points on ray AX, join $A_5B$; draw a line through $A_3$ parallel to $A_5B$", "Mark 3 equal points on ray AX, join $A_3B$; draw a line through $A_5$ parallel to $A_3B$", "Mark 5 equal points on ray AX, join $A_3B$; draw a line through $A_5$ parallel to $A_3B$", "Mark 3 equal points on ray AX, join $A_5B$; draw a line through $A_3$ parallel to $A_5B$"],
     "correct_answer": "A",
+    "answer": "<b>Explanation:</b> For a reduction with scale factor $\\frac{m}{n}$ where $m < n$ (here $3/5$), you mark $n=5$ points. The last point ($A_5$) is joined to the vertex (B), and a parallel line is drawn through the $m$-th point ($A_3$). The correct option is <b>A</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "To construct △A'B'C' similar to △ABC with scale factor 5/3 (enlargement), from A you should mark:",
-    "options": ["3 equal points on AX, join A3B; draw through A5 ∥ A3B", "5 equal points on AX, join A5B; draw through A3 ∥ A5B", "5 equal points on AX, join A3B; draw through A5 ∥ A3B", "3 equal points on AX, join A5B; draw through A5 ∥ A3B"],
+    "text": "To construct $\\triangle A'B'C'$ similar to $\\triangle ABC$ with scale factor $5/3$ (an enlargement), the correct procedure is:",
+    "options": ["Mark 5 equal points on ray AX, join $A_3B$; draw a line through $A_5$ parallel to $A_3B$", "Mark 5 equal points on ray AX, join $A_5B$; draw a line through $A_3$ parallel to $A_5B$", "Mark 3 equal points on ray AX, join $A_5B$; draw a line through $A_3$ parallel to $A_5B$", "Mark 3 equal points on ray AX, join $A_3B$; draw a line through $A_5$ parallel to $A_3B$"],
     "correct_answer": "A",
+    "answer": "<b>Explanation:</b> For an enlargement with scale factor $\\frac{m}{n}$ where $m > n$ (here $5/3$), you mark $m=5$ points. The $n$-th point ($A_3$) is joined to the vertex (B), and a parallel line is drawn through the $m$-th point ($A_5$). The correct option is <b>A</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "For drawing tangents from external point T to a circle with center O, a standard auxiliary construction is:",
-    "options": ["Draw circle with center O and radius OT", "Draw circle having OT as diameter", "Bisect chord through O", "Draw any circle through T and O with radius 2r"],
+    "text": "For drawing tangents from an external point T to a circle with center O, a standard auxiliary construction is:",
+    "options": ["Draw a circle with center O and radius OT", "Draw a circle having OT as a diameter", "Bisect a chord passing through O", "Draw any circle through T and O with radius $2r$"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The key step is to find the points of tangency. These points lie on the intersection of the given circle and a new circle drawn with the segment OT as its diameter. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "To divide AB internally in ratio 4:3, how many equal divisions are marked on the ray from A?",
+    "text": "To divide AB internally in the ratio $4:3$, how many total equal divisions should be marked on the ray from A?",
     "options": ["3", "4", "7", "8"],
     "correct_answer": "C",
+    "answer": "<b>Explanation:</b> To divide a segment in the ratio $m:n$, you need to mark a total of $m+n$ equal divisions on the auxiliary ray. Here, $4+3=7$. The correct option is <b>C</b>.",
     "marks": 1
   },
   {
@@ -39,273 +44,101 @@
     "text": "The tangents drawn from an external point to a circle are:",
     "options": ["Unequal", "Always equal", "Sometimes equal", "Parallel"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> This is the Tangent Segment Theorem, which states that the lengths of the two tangent segments from an external point to a circle are always equal. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "In constructing a triangle similar to a given triangle using the ray method, the parallels are drawn through which point on the ray?",
-    "options": ["Through A only", "Through the m-th point when scale is m/n (m < n)", "Through the n-th point when scale is m/n (m < n)", "Through the midpoint of the ray segment"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "[Application] A site plan uses scale 1:200. A wall of actual length 6 m should be drawn as:",
-    "options": ["12 cm", "6 cm", "3 cm", "30 cm"],
+    "text": "[Application] A site plan uses scale $1:200$. A wall of actual length $6$ m should be drawn as:",
+    "options": ["$12$ cm", "$6$ cm", "$3$ cm", "$30$ cm"],
     "correct_answer": "C",
-    "marks": 1
-  },
-
-  {
-    "type": "true_false",
-    "text": "To divide a segment in ratio m:n, you first construct any acute-angled ray from one endpoint.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "For reduction (m/n < 1), you mark n equal parts and draw parallel through the m-th division.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "Tangents from an internal point of a circle can be drawn with ruler–compass.",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "[Application] A drawing with scale 1:50 is larger than actual object.",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "To draw tangents from T to the circle (center O), one constructs circle with diameter OT and joins T to intersection points with the given circle.",
-    "answer": "True",
-    "marks": 1
-  },
-
-  {
-    "type": "short",
-    "text": "Construct the internal division point P of segment AB (8 cm) in the ratio 5:3 (AP:PB = 5:3). Describe steps.",
-    "answer": "Step 1: Draw AB = 8 cm. From A, draw a ray AX making an acute angle with AB.\nStep 2: On AX, mark 8 equal points A1, A2, …, A8 using equal compass width.\nStep 3: Join A8 to B.\nStep 4: Through A5, draw a line ∥ A8B to meet AB at P (use parallel via corresponding angles with set-square/compass construction).\nStep 5: Then AP:PB = 5:3. Verify by measuring.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Construct △A'B'C' similar to △ABC with scale 3/5 (i.e., A'B'/AB = 3/5). Describe steps.",
-    "answer": "Step 1: Draw △ABC.\nStep 2: From A, draw ray AX making an acute angle with AB.\nStep 3: Mark 5 equal segments A1…A5 on AX.\nStep 4: Join A5 to B.\nStep 5: Through A3, draw A3B' ∥ A5B to cut AC at C'.\nStep 6: Through C', draw B'C' ∥ BC to meet AB at B'. Then △A'B'C' ≡ △AB'C' with A'≡A; scale = 3/5.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Construct △A'B'C' similar to △ABC with scale 5/3 (i.e., enlargement). Describe steps.",
-    "answer": "Step 1: Draw △ABC.\nStep 2: From A draw ray AX with an acute angle to AB.\nStep 3: Mark 5 equal segments A1…A5 on AX.\nStep 4: Join A3 to B.\nStep 5: Through A5, draw A5B' ∥ A3B to meet the line through A parallel to AB extended beyond B; obtain B'.\nStep 6: Through B' draw line ∥ BC to meet line through A ∥ AC at C'. Then △AB'C' is similar to △ABC with scale 5/3.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Construct tangents from external point T to a circle with center O. Give steps with diagram note: 'Given: circle (O, r); external point T'.",
-    "answer": "Step 1: Draw line OT.\nStep 2: Construct midpoint M of OT (perpendicular bisector of OT).\nStep 3: With center M and radius OM, draw a circle (circle with diameter OT).\nStep 4: Let this circle cut the given circle at P and Q.\nStep 5: Join TP and TQ. These are the required tangents from T.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] On a map, scale is 1:25,000. Construct a straight road segment of actual length 2 km as a line segment on paper. How long will you draw? Give steps.",
-    "answer": "Step 1: Convert 2 km to cm: 2 km = 200,000 cm.\nStep 2: Drawing length = Actual/Scale = 200,000 / 25,000 = 8 cm.\nStep 3: With ruler, draw a straight 8 cm segment to represent the road; label ends.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] A model uses scale 1:50. Represent an actual 3.5 m beam as a line on drawing. Give the drawing length and steps.",
-    "answer": "Step 1: Convert 3.5 m = 350 cm.\nStep 2: Drawing length = 350/50 = 7 cm.\nStep 3: Draw a 7 cm segment with ruler; label to scale 1:50.",
-    "marks": 2
-  },
-
-  {
-    "type": "long",
-    "text": "Divide AB internally and externally in the ratio 7:4 using a single auxiliary ray. Provide complete steps.",
-    "answer": "Internal division:\nStep 1: Draw AB. From A draw ray AX making an acute angle with AB.\nStep 2: Mark 11 equal points A1…A11 on AX.\nStep 3: Join A11 to B.\nStep 4: Through A7, draw a line ∥ A11B to meet AB at P. Then AP:PB = 7:4 (internal).\nExternal division:\nStep 5: Produce AB beyond B.\nStep 6: Through A4, draw a line ∥ A11B to meet the produced line beyond B at Q. Then AQ:QB = 7:4 (external).",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Construct a triangle similar to △ABC with scale factor 3/5 and write how to verify the scale on your figure.",
-    "answer": "Construction:\nStep 1: Draw △ABC.\nStep 2: From A, draw ray AX at an acute angle to AB; mark 5 equal divisions A1…A5.\nStep 3: Join A5 to B.\nStep 4: Through A3 draw A3B' ∥ A5B to meet AC at C'.\nStep 5: Through C' draw B'C' ∥ BC to meet AB at B'. Then △AB'C' ~ △ABC with scale 3/5.\nVerification:\nStep 6: Measure AB' and AB; confirm AB'/AB ≈ 3/5. Similarly check AC'/AC ≈ 3/5 and B'C'/BC ≈ 3/5.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "From a point T outside a given circle (center O), construct two tangents and justify that the lengths are equal.",
-    "answer": "Construction:\nStep 1: Draw OT and find midpoint M of OT.\nStep 2: With M as center and radius OM, draw circle with diameter OT.\nStep 3: Let it intersect the given circle at P and Q.\nStep 4: Join TP and TQ ⇒ tangents.\nJustification:\nStep 5: OP ⟂ TP and OQ ⟂ TQ (radius ⟂ tangent at point of contact).\nStep 6: In right triangles OPT and OQT, OT is common hypotenuse and OP=OQ (radii). Hence TP=TQ.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "[Application] A classroom (actual) is 9.0 m × 6.0 m. Draw its scaled rectangle on graph paper using scale 1:150, and list steps.",
-    "answer": "Step 1: Convert to cm: 9.0 m = 900 cm, 6.0 m = 600 cm.\nStep 2: Drawing lengths: 900/150 = 6 cm; 600/150 = 4 cm.\nStep 3: On paper, draw AB = 6 cm.\nStep 4: At A and B, draw perpendiculars; mark AD = 4 cm and BC = 4 cm.\nStep 5: Join DC to complete rectangle ABCD; label scale 1:150.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "[Application] A circular garden of radius 3 cm (in drawing) represents actual radius 6 m. From a gate point T (on plan) lying 10 cm from center O (on plan), construct tangents to the garden boundary. Write steps.",
-    "answer": "Step 1: On plan, draw circle (O, 3 cm).\nStep 2: Plot external point T so that OT = 10 cm.\nStep 3: Find midpoint M of OT; draw circle (M, OM).\nStep 4: Intersections with garden circle are P and Q.\nStep 5: Draw TP and TQ. These are tangents representing paths from gate to boundary.",
-    "marks": 4
-  },
-  {
-    "type": "mcq",
-    "text": "To divide AB externally in the ratio m:n (m > n), the construction uses parallels through which division on the ray?",
-    "options": ["Through the (m+n)-th point", "Through the n-th point", "Through the m-th point", "Through the midpoint only"],
-    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Actual length $= 6 \\text{ m} = 600 \\text{ cm}$. Drawing length $= \\frac{\\text{Actual Length}}{\\text{Scale Factor}} = \\frac{600}{200} = 3$ cm. The correct option is <b>C</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "To construct a tangent at a given point P on a circle (center O), first draw:",
-    "options": ["Chord through P", "Radius OP and a line ⟂ to OP at P", "Diameter through P", "Any secant through P"],
+    "options": ["A chord through P", "The radius OP and a line perpendicular to OP at P", "A diameter through P", "Any secant through P"],
     "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "For enlargement with scale m/n (m > n), you should mark how many equal parts on the ray from A?",
-    "options": ["m parts and draw parallel through the n-th point", "n parts and draw parallel through the m-th point", "m+n parts and draw parallel through m", "n parts and draw parallel through the midpoint"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "[Application] A plot is to be drawn at scale 1:500. An actual side of 35 m appears as:",
-    "options": ["3.5 cm", "7 cm", "35 cm", "0.7 cm"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "In tangent construction from T to circle (O, r), the circle with diameter OT intersects the given circle at:",
-    "options": ["Centers only", "Midpoints of chords", "Points of contact of required tangents", "Endpoints of diameter of given circle"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "To check correctness of a constructed similar triangle, you should compare:",
-    "options": ["Only one side", "Two sides and one angle", "Ratios of corresponding sides", "Area only"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "External division point Q lies on:",
-    "options": ["The segment AB", "Extension of AB beyond B (or A)", "Perpendicular bisector of AB", "A circle with center A"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-
-  {
-    "type": "true_false",
-    "text": "To construct a tangent at point P on the circle, draw the radius OP and a line perpendicular to OP at P.",
-    "answer": "True",
+    "answer": "<b>Explanation:</b> The tangent to a circle is perpendicular to the radius at the point of contact. The construction is based on creating this perpendicular line. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "In external division construction for ratio m:n, the parallel is drawn through the m-th division point.",
-    "answer": "False",
+    "text": "To divide a segment in ratio $m:n$, you first construct any acute-angled ray from one endpoint.",
+    "answer": "<b>True</b><br><b>Reason:</b> This is the standard first step in the geometric construction for dividing a line segment in a given ratio.",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "[Application] Scale 1:250 means 1 cm on drawing equals 2.5 m in reality.",
-    "answer": "True",
+    "text": "For reduction (scale factor $m/n < 1$), you mark $n$ equal parts on the ray and draw a parallel line through the $m$-th division.",
+    "answer": "<b>True</b><br><b>Reason:</b> For a reduction, the larger number ($n$) determines the total divisions, and the smaller number ($m$) determines the point for the parallel line.",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "All constructions of similar triangles start from vertex B.",
-    "answer": "False",
+    "text": "Tangents from an internal point of a circle can be drawn with a ruler–compass.",
+    "answer": "<b>False</b><br><b>Reason:</b> It is impossible to draw a tangent to a circle from a point lying inside it.",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "The circle with diameter OT is used to locate the points of tangency for tangents from T.",
-    "answer": "True",
+    "text": "[Application] A drawing with scale $1:50$ is larger than the actual object.",
+    "answer": "<b>False</b><br><b>Reason:</b> A scale of $1:50$ is a reduction scale, meaning the drawing is 50 times smaller than the actual object.",
     "marks": 1
   },
-
+  {
+    "type": "true_false",
+    "text": "To draw tangents from T to a circle (center O), one constructs a circle with diameter OT and joins T to the intersection points of the two circles.",
+    "answer": "<b>True</b><br><b>Reason:</b> This is the correct geometric procedure. The intersections lie on the circle with diameter OT because the angle in a semicircle is a right angle, satisfying the tangent-radius property.",
+    "marks": 1
+  },
   {
     "type": "short",
-    "text": "Construct the external division point Q of AB (7 cm) in ratio 3:2 (AQ:QB = 3:2) beyond B. Describe steps.",
-    "answer": "Step 1: Draw AB = 7 cm; extend AB beyond B.\nStep 2: From A, draw ray AX at an acute angle with AB.\nStep 3: Mark 5 equal points A1…A5 on AX.\nStep 4: Join A5 to B.\nStep 5: Through A3 draw a line ∥ A5B to meet extension of AB at Q (beyond B).\nStep 6: Then AQ:QB = 3:2 (external division).",
+    "text": "Construct the internal division point P of segment AB ($8$ cm) in the ratio $5:3$ ($AP:PB = 5:3$). Describe the steps.",
+    "answer": "<b>Steps of Construction:</b><br><b>1.</b> Draw the line segment $AB = 8$ cm.<br><b>2.</b> From A, draw a ray AX making an acute angle with AB.<br><b>3.</b> On AX, mark $5+3=8$ equal points $A_1, A_2, \\dots, A_8$ using a compass.<br><b>4.</b> Join point $A_8$ to B.<br><b>5.</b> Through the point $A_5$, draw a line parallel to $A_8B$ which intersects AB at point P.<br><b>6.</b> The point P is the required point which divides AB in the ratio $5:3$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Construct a tangent at a given point P on a circle with center O. Write steps.",
-    "answer": "Step 1: Draw radius OP.\nStep 2: At P, construct a line perpendicular to OP (using compass: take equal arcs on OP; draw arcs above/below; join through P).\nStep 3: The line through P ⟂ OP is the required tangent at P.",
+    "text": "Construct $\\triangle A'B'C'$ similar to $\\triangle ABC$ with scale factor $3/5$. Describe the steps.",
+    "answer": "<b>Steps of Construction:</b><br><b>1.</b> Draw the given $\\triangle ABC$.<br><b>2.</b> From vertex A, draw a ray AX making an acute angle with side AB.<br><b>3.</b> Mark 5 equal segments ($A_1, \\dots, A_5$) on ray AX.<br><b>4.</b> Join $A_5$ to B.<br><b>5.</b> From $A_3$, draw a line $A_3B' \\parallel A_5B$ to intersect AB at B'.<br><b>6.</b> From B', draw a line $B'C' \\parallel BC$ to intersect AC at C'.<br><b>7.</b> $\\triangle AB'C'$ is the required smaller triangle similar to $\\triangle ABC$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Construct △A'B'C' similar to △ABC with scale 4/7 (smaller). Steps only.",
-    "answer": "Step 1: Draw △ABC. From A draw ray AX with acute angle to AB.\nStep 2: Mark 7 equal points A1…A7 on AX.\nStep 3: Join A7B.\nStep 4: Through A4 draw A4B' ∥ A7B to meet AC at C'.\nStep 5: Through C' draw B'C' ∥ BC to meet AB at B'. Then △AB'C' is similar with scale 4/7.",
+    "text": "Construct $\\triangle A'B'C'$ similar to $\\triangle ABC$ with scale factor $5/3$ (enlargement). Describe the steps.",
+    "answer": "<b>Steps of Construction:</b><br><b>1.</b> Draw the given $\\triangle ABC$.<br><b>2.</b> Extend the sides AB and AC. From vertex A, draw a ray AX making an acute angle with side AB.<br><b>3.</b> Mark 5 equal segments ($A_1, \\dots, A_5$) on ray AX.<br><b>4.</b> Join $A_3$ to B.<br><b>5.</b> From $A_5$, draw a line $A_5B' \\parallel A_3B$ to intersect the extended line AB at B'.<br><b>6.</b> From B', draw a line $B'C' \\parallel BC$ to intersect the extended line AC at C'.<br><b>7.</b> $\\triangle AB'C'$ is the required larger triangle similar to $\\triangle ABC$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Construct △A'B'C' similar to △ABC with scale 7/4 (enlargement). Steps only.",
-    "answer": "Step 1: Draw △ABC. From A draw ray AX at acute angle to AB.\nStep 2: Mark 7 equal points A1…A7 on AX.\nStep 3: Join A4B.\nStep 4: Through A7 draw A7B' ∥ A4B to obtain B'.\nStep 5: Through B' draw line ∥ BC to meet line through A ∥ AC at C'. Then △AB'C' ~ △ABC with scale 7/4.",
+    "text": "Construct tangents from an external point T to a circle with center O. Give the steps.",
+    "answer": "<b>Steps of Construction:</b><br><b>1.</b> Join the center O and the external point T.<br><b>2.</b> Construct the perpendicular bisector of the line segment OT. Let the midpoint be M.<br><b>3.</b> With M as the center and OM (or MT) as the radius, draw a new circle.<br><b>4.</b> This new circle will intersect the given circle at two points, say P and Q.<br><b>5.</b> Join TP and TQ. These are the two required tangents from point T.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Construct tangents from T to a circle (O, r). Write how to identify points of contact after construction.",
-    "answer": "Step 1: Draw OT and find its midpoint M.\nStep 2: Draw circle with center M and radius OM.\nStep 3: Intersections with the given circle are P and Q.\nStep 4: Join TP, TQ as tangents.\nIdentification: P and Q are points of contact; verify OP ⟂ TP and OQ ⟂ TQ by constructing right angles at P and Q.",
+    "text": "[Application] On a map, the scale is $1:25,000$. Construct a straight road segment of actual length $2$ km. How long will you draw the line?",
+    "answer": "<b>Step 1: Convert units.</b><br>$2 \\text{ km} = 2 \\times 1000 \\text{ m} = 2 \\times 1000 \\times 100 \\text{ cm} = 200,000$ cm.<br><br><b>Step 2: Calculate drawing length.</b><br>Drawing length $= \\frac{\\text{Actual Length}}{\\text{Scale Factor}} = \\frac{200,000}{25,000} = 8$ cm.<br><br><b>You will draw a line segment of 8 cm.</b>",
     "marks": 2
   },
-  {
-    "type": "short",
-    "text": "[Application] On a blueprint scale 1:100, show a 12.5 m boundary line as a segment. Find drawing length and give steps.",
-    "answer": "Step 1: 12.5 m = 1250 cm.\nStep 2: Drawing length = 1250/100 = 12.5 cm.\nStep 3: Draw a straight 12.5 cm segment with ruler; label endpoints and scale.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] A circular water tank is shown with plan radius 2.4 cm (scale 1:200). From a valve point T at 8.0 cm from O on plan, draw access tangents. Steps.",
-    "answer": "Step 1: Plan circle (O, 2.4 cm) already drawn; plot T with OT = 8.0 cm.\nStep 2: Midpoint M of OT; draw circle (M, OM).\nStep 3: Intersections with tank circle give P, Q.\nStep 4: Draw TP, TQ as access tangents.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Divide AB internally in 2:5 using intercept method. Steps only.",
-    "answer": "Step 1: Draw AB. From A draw ray AX.\nStep 2: Mark 7 equal points A1…A7 on AX.\nStep 3: Join A7B.\nStep 4: Through A2 draw a line ∥ A7B to meet AB at P. Then AP:PB = 2:5.",
-    "marks": 2
-  },
-
   {
     "type": "long",
-    "text": "Construct a triangle similar to △PQR with scale factor 2/3 (smaller) taking P as the common vertex. Also explain how to check correctness.",
-    "answer": "Construction:\nStep 1: Draw △PQR.\nStep 2: From P draw ray PX at an acute angle to PR.\nStep 3: Mark 3 equal divisions P1,P2,P3 on PX.\nStep 4: Join P3R.\nStep 5: Through P2 draw a line ∥ P3R to meet PR at R'.\nStep 6: Through R' draw a line ∥ RQ to meet PQ at Q'. Then △PQ'R' ~ △PQR with scale 2/3 (taking vertex P common).\nCheck:\nStep 7: Measure ratios: PQ'/PQ ≈ PR'/PR ≈ Q'R'/QR ≈ 2/3.",
+    "text": "Divide a segment AB of $10$ cm internally in the ratio $4:7$ and externally in the ratio $7:4$. List the steps.",
+    "answer": "<b>Internal Division (4:7):</b><br><b>1.</b> Draw AB = 10 cm and a ray AX at an acute angle to AB.<br><b>2.</b> Mark $4+7=11$ equal points on AX.<br><b>3.</b> Join the 11th point ($A_{11}$) to B.<br><b>4.</b> From the 4th point ($A_4$), draw a line parallel to $A_{11}B$ to meet AB at P. P divides AB internally in the ratio $4:7$.<br><br><b>External Division (7:4):</b><br><b>1.</b> Extend the line segment AB.<br><b>2.</b> On the same ray AX, use the existing 11 points.<br><b>3.</b> The difference in ratio is $7-4=3$. Join the 3rd point ($A_3$) to B.<br><b>4.</b> From the 7th point ($A_7$), draw a line parallel to $A_3B$ to meet the extended line AB at Q. Q divides AB externally in the ratio $7:4$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Divide a given segment AB of 10 cm internally in the ratio 4:7 and externally in the same ratio using a single ray. List full steps.",
-    "answer": "Internal:\nStep 1: Draw AB = 10 cm; from A draw ray AX.\nStep 2: Mark 11 equal points A1…A11 on AX.\nStep 3: Join A11B.\nStep 4: Through A4 draw a line ∥ A11B to meet AB at P. Then AP:PB = 4:7.\nExternal:\nStep 5: Extend AB beyond B.\nStep 6: Through A7 draw line ∥ A11B to meet AB produced at Q (beyond B). Then AQ:QB = 4:7 (external).",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "[Application] On a site plan with scale 1:250, draw a driveway of actual length 32 m touching a circular lawn of plan radius 3.0 cm at exactly one point (tangent). Provide steps.",
-    "answer": "Step 1: Convert 32 m to drawing: 3200 cm / 250 = 12.8 cm. Decide driveway direction.\nStep 2: Draw circle (O, 3.0 cm) for lawn.\nStep 3: Choose external point T such that the driveway line through T will be 12.8 cm long.\nStep 4: Find midpoint M of OT; draw circle (M, OM).\nStep 5: Intersections with lawn circle give P and Q; choose the appropriate contact point (say P) in driveway direction.\nStep 6: Draw tangent TP and mark the 12.8 cm driveway segment along TP.",
+    "text": "Construct a triangle similar to $\\triangle ABC$ with a scale factor of $3/5$ and write how to verify the scale on your figure.",
+    "answer": "<b>Construction:</b><br><b>1.</b> Construct the given $\\triangle ABC$.<br><b>2.</b> Draw a ray AX from A, making an acute angle with AB.<br><b>3.</b> Mark 5 equal divisions on AX.<br><b>4.</b> Join the 5th point to B. Draw a parallel line from the 3rd point to intersect AB at B'.<br><b>5.</b> From B', draw a line parallel to BC to intersect AC at C'. $\\triangle AB'C'$ is the required triangle.<br><br><b>Verification:</b><br>To verify, measure the lengths of the corresponding sides of both triangles with a ruler. For example, measure AB and AB', BC and B'C', and AC and AC'. Then calculate the ratios $\\frac{AB'}{AB}$, $\\frac{B'C'}{BC}$, and $\\frac{AC'}{AC}$. All three ratios should be approximately equal to $3/5$ or $0.6$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "[Application] Prepare a scaled elevation beam of actual 7.5 m at 1:150 and show a tangential brace touching a circular column of plan radius 1.6 cm at a point. Steps.",
-    "answer": "Beam:\nStep 1: 7.5 m = 750 cm ⇒ drawing = 750/150 = 5 cm; draw 5 cm line segment.\nColumn tangent:\nStep 2: Draw column circle (O, 1.6 cm).\nStep 3: Pick external point T on beam line for brace endpoint.\nStep 4: Construct midpoint M of OT; draw circle (M, OM).\nStep 5: Intersection P with column circle gives contact point.\nStep 6: Draw brace TP as tangent from T to the column.",
+    "text": "[Application] A classroom (actual) is $9.0 \\text{ m} \\times 6.0 \\text{ m}$. Draw its scaled rectangle on graph paper using a scale of $1:150$, and list the steps.",
+    "answer": "<b>Step 1: Calculate drawing dimensions.</b><br>Actual Length $= 9.0 \\text{ m} = 900 \\text{ cm}$. Drawing Length $= \\frac{900}{150} = 6$ cm.<br>Actual Width $= 6.0 \\text{ m} = 600 \\text{ cm}$. Drawing Width $= \\frac{600}{150} = 4$ cm.<br><br><b>Step 2: Construction Steps.</b><br><b>a.</b> Draw a line segment AB of length 6 cm.<br><b>b.</b> At A and B, construct perpendicular lines.<br><b>c.</b> Mark a point D on the perpendicular from A such that AD = 4 cm.<br><b>d.</b> Mark a point C on the perpendicular from B such that BC = 4 cm.<br><b>e.</b> Join DC. The rectangle ABCD is the required scaled drawing.",
     "marks": 3
   }
 ]

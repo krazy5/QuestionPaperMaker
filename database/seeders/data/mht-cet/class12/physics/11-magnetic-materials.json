@@ -1,0 +1,171 @@
+[
+  {
+    "type": "mcq",
+    "text": "The susceptibility of a ferromagnetic material is: (MHT CET 2022)",
+    "options": [
+      "(a) negative and small",
+      "(b) positive and small",
+      "(c) negative and large",
+      "(d) positive and large"
+    ],
+    "correct_answer": "d",
+    "answer": "Ferromagnetic materials are strongly attracted to magnetic fields. Their magnetic susceptibility ($\\chi_m$) is a measure of how easily they can be magnetized by an external magnetic field. For these materials, the susceptibility is a large positive value, indicating a strong response to the magnetic field.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A magnetic material is placed in a non-uniform magnetic field. It moves from the stronger to the weaker part of the field. The material is: (MHT CET 2021)",
+    "options": [
+      "(a) diamagnetic",
+      "(b) paramagnetic",
+      "(c) ferromagnetic",
+      "(d) none of the above"
+    ],
+    "correct_answer": "a",
+    "answer": "Diamagnetic materials are weakly repelled by a magnetic field. When placed in a non-uniform magnetic field, they tend to move from a region of higher magnetic field strength to a region of lower magnetic field strength. Paramagnetic and ferromagnetic materials, on the other hand, are attracted to magnetic fields and would move from a weaker to a stronger part of the field.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic permeability of a paramagnetic material is: (MHT CET 2020)",
+    "options": [
+      "(a) less than unity",
+      "(b) equal to unity",
+      "(c) slightly greater than unity",
+      "(d) much greater than unity"
+    ],
+    "correct_answer": "c",
+    "answer": "The magnetic permeability ($\\mu$) of a material is related to its relative permeability ($\\mu_r$) by $\\mu = \\mu_r \\mu_0$. The relative permeability is given by $\\mu_r = 1 + \\chi_m$, where $\\chi_m$ is the magnetic susceptibility. For paramagnetic materials, the susceptibility is positive and small. Therefore, the relative permeability is slightly greater than 1, and the permeability of the material is slightly greater than that of free space ($\\mu_0$).<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The property of a magnetic material that shows a lag of magnetization behind the magnetizing field is called: (MHT CET 2019)",
+    "options": [
+      "(a) magnetic saturation",
+      "(b) retentivity",
+      "(c) coercivity",
+      "(d) hysteresis"
+    ],
+    "correct_answer": "d",
+    "answer": "Hysteresis is the phenomenon in which the magnetization of a ferromagnetic material lags behind the magnetizing field. This is due to the reluctance of the magnetic domains to return to their original state after the external field is removed or reversed. It is a defining characteristic of ferromagnetic materials and is represented by a hysteresis loop.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic moment of a magnet of length 'L' and pole strength 'm' is: (MHT CET 2018)",
+    "options": [
+      "(a) $m/L$",
+      "(b) $m \\times L$",
+      "(c) $L/m$",
+      "(d) $m L^2$"
+    ],
+    "correct_answer": "b",
+    "answer": "The magnetic moment (M) of a bar magnet is defined as the product of its pole strength 'm' and its magnetic length 'L'.<br>$M = m \\times L$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A magnetic material that has negative magnetic susceptibility is: (MHT CET 2017)",
+    "options": [
+      "(a) diamagnetic",
+      "(b) paramagnetic",
+      "(c) ferromagnetic",
+      "(d) all of the above"
+    ],
+    "correct_answer": "a",
+    "answer": "Magnetic susceptibility ($\\chi_m$) describes a material's magnetic response to an applied magnetic field. Diamagnetic materials are characterized by a small, negative susceptibility, meaning they are weakly repelled by the magnetic field.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic moment of an electron revolving in a circular orbit of radius 'r' is: (MHT CET 2016)",
+    "options": [
+      "(a) $\\frac{e r}{2m}$",
+      "(b) $\\frac{e v r}{2}$",
+      "(c) $\\frac{e v r}{2\\pi}$",
+      "(d) $e v r$"
+    ],
+    "correct_answer": "b",
+    "answer": "The magnetic moment ($\\mu_l$) of an electron revolving in an orbit is given by the product of the current (I) and the area of the orbit (A). The current is the charge 'e' divided by the time period 'T' of the revolution ($I = e/T$), and the time period is related to the velocity 'v' and radius 'r' by $T = 2\\pi r/v$. The area is $A = \\pi r^2$.<br>$\\mu_l = I A = \\frac{e}{T} (\\pi r^2) = \\frac{e}{2\\pi r/v} (\\pi r^2) = \\frac{e v r}{2}$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The intensity of magnetization 'I' is defined as: (MHT CET 2015)",
+    "options": [
+      "(a) magnetic moment per unit volume",
+      "(b) magnetic moment per unit length",
+      "(c) magnetic flux per unit area",
+      "(d) magnetic field per unit volume"
+    ],
+    "correct_answer": "a",
+    "answer": "The intensity of magnetization (I) is a measure of the magnetic state of a material. It is defined as the net magnetic moment developed per unit volume of the material when it is subjected to an external magnetizing field.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic field intensity 'H' at a point is related to the magnetic induction 'B' by the relation: (MHT CET 2014)",
+    "options": [
+      "(a) $B = \\mu_0 H$",
+      "(b) $H = \\mu_0 B$",
+      "(c) $B = H + I$",
+      "(d) $B = \\mu_0 (H + I)$"
+    ],
+    "correct_answer": "d",
+    "answer": "The magnetic induction 'B' (also called magnetic flux density) inside a material is the sum of the magnetic field due to the external magnetizing field 'H' and the magnetic field due to the magnetization 'I' of the material itself. The relation is given by:<br>$B = \\mu_0 (H + I)$<br>where $\\mu_0$ is the permeability of free space.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The relative permeability of a vacuum is: (MHT CET 2013)",
+    "options": [
+      "(a) 0",
+      "(b) 1",
+      "(c) > 1",
+      "(d) < 1"
+    ],
+    "correct_answer": "b",
+    "answer": "Relative permeability ($\\mu_r$) is the ratio of the permeability of a medium to the permeability of free space (vacuum), i.e., $\\mu_r = \\mu/\\mu_0$. Since the permeability of a vacuum is defined as $\\mu_0$, the ratio for a vacuum itself is exactly 1.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of magnetic field intensity 'H' is: (MHT CET 2012)",
+    "options": [
+      "(a) Ampere-meter",
+      "(b) Ampere/meter",
+      "(c) Weber/meter",
+      "(d) Tesla"
+    ],
+    "correct_answer": "b",
+    "answer": "Magnetic field intensity 'H' is defined as the magnetizing field. Its SI unit is <b>Ampere per meter</b> (A/m). It can also be expressed as Newton per Weber (N/Wb).<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of a B-H loop of a ferromagnetic material measures the: (MHT CET 2011)",
+    "options": [
+      "(a) retentivity",
+      "(b) coercivity",
+      "(c) energy loss per unit volume per cycle",
+      "(d) permeability"
+    ],
+    "correct_answer": "c",
+    "answer": "The area of the B-H hysteresis loop represents the <b>energy dissipated or lost per unit volume per cycle</b> of the magnetization process. This energy is dissipated as heat and is known as hysteresis loss.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic moment of an atom is due to: (MHT CET 2010)",
+    "options": [
+      "(a) the orbital motion of electrons",
+      "(b) the spin motion of electrons",
+      "(c) both (a) and (b)",
+      "(d) the magnetic field of the nucleus"
+    ],
+    "correct_answer": "c",
+    "answer": "The magnetic moment of an atom arises from two sources: the orbital motion of electrons around the nucleus and the intrinsic spin of the electrons themselves. The orbital motion of an electron is equivalent to a tiny current loop, and the spinning electron acts like a tiny magnet. Both contribute to the net magnetic moment.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  }
+]

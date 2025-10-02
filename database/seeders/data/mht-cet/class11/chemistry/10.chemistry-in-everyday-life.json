@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is an antiseptic?",
+    "options": [
+      "(a) Aspirin",
+      "(b) Penicillin",
+      "(c) Novalgin",
+      "(d) Tincture of Iodine"
+    ],
+    "correct_answer": "d",
+    "answer": "Tincture of iodine is an iodine solution used as an antiseptic to kill microorganisms on the skin. Aspirin and Novalgin are analgesics (painkillers), and Penicillin is an antibiotic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The major constituent of biogas is:",
+    "options": [
+      "(a) Butane and Propane",
+      "(b) Methane and Carbon dioxide",
+      "(c) Hydrogen and Oxygen",
+      "(d) Carbon monoxide and Carbon dioxide"
+    ],
+    "correct_answer": "b",
+    "answer": "Biogas is a mixture of gases produced by the breakdown of organic matter in the absence of oxygen. Its primary components are methane ($CH_4$) and carbon dioxide ($CO_2$).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a tranquilizer?",
+    "options": [
+      "(a) Cimetidine",
+      "(b) Novalgin",
+      "(c) Meprobamate",
+      "(d) Paracetamol"
+    ],
+    "correct_answer": "c",
+    "answer": "Tranquilizers are drugs used to treat mental illness, anxiety, and stress. Meprobamate, Valium, and Chlordiazepoxide are examples of tranquilizers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A drug that reduces fever is called:",
+    "options": [
+      "(a) Analgesic",
+      "(b) Antipyretic",
+      "(c) Antacid",
+      "(d) Antihistamine"
+    ],
+    "correct_answer": "b",
+    "answer": "An antipyretic is a substance that reduces fever by acting on the hypothalamus in the brain. Examples include aspirin and paracetamol. An analgesic relieves pain, an antacid neutralizes stomach acid, and an antihistamine treats allergies.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Tincture of Iodine is a powerful antiseptic. What does it contain?",
+    "options": [
+      "(a) $I_2$ in water",
+      "(b) $I_2$ in alcohol",
+      "(c) $I_2$ in water-alcohol mixture",
+      "(d) $I_2$ in a saturated $KI$ solution"
+    ],
+    "correct_answer": "c",
+    "answer": "Tincture of Iodine is a dilute solution of iodine ($I_2$) dissolved in ethanol (alcohol) or a water-alcohol mixture. It is commonly used as a topical antiseptic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a cationic detergent?",
+    "options": [
+      "(a) Sodium lauryl sulfate",
+      "(b) Cetyltrimethylammonium bromide",
+      "(c) Sodium stearate",
+      "(d) Sodium dodecylbenzenesulfonate"
+    ],
+    "correct_answer": "b",
+    "answer": "Cationic detergents are those where the hydrophilic part is a cation. Cetyltrimethylammonium bromide is a common example, where the large alkyl group is the hydrophobic part and the positively charged ammonium group is the hydrophilic part.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which chemical is added to soaps to provide antiseptic properties?",
+    "options": [
+      "(a) Bithional",
+      "(b) Glycerol",
+      "(c) Sodium stearate",
+      "(d) Potassium carbonate"
+    ],
+    "correct_answer": "a",
+    "answer": "Bithional is a commonly used antiseptic additive in soaps to reduce the odor and combat bacterial infections on the skin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of vinegar is:",
+    "options": [
+      "(a) Formic acid",
+      "(b) Citric acid",
+      "(c) Lactic acid",
+      "(d) Acetic acid"
+    ],
+    "correct_answer": "d",
+    "answer": "Vinegar is an aqueous solution of acetic acid ($CH_3COOH$), and it is its primary component after water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is used as an antacid?",
+    "options": [
+      "(a) Aspirin",
+      "(b) Phenelzine",
+      "(c) Cimetidine",
+      "(d) Penicillin"
+    ],
+    "correct_answer": "c",
+    "answer": "Antacids are used to neutralize excess stomach acid and relieve symptoms of hyperacidity. Cimetidine (Tagamet) is a drug that blocks histamine receptors, leading to decreased acid secretion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Soaps are sodium or potassium salts of:",
+    "options": [
+      "(a) Long-chain fatty acids",
+      "(b) Short-chain fatty acids",
+      "(c) Alcohols",
+      "(d) Carboxylic acids"
+    ],
+    "correct_answer": "a",
+    "answer": "Soaps are the sodium or potassium salts of long-chain fatty acids. They are produced by the saponification of fats and oils.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a food preservative?",
+    "options": [
+      "(a) Sodium benzoate",
+      "(b) Aspartame",
+      "(c) Alitame",
+      "(d) Sucralose"
+    ],
+    "correct_answer": "a",
+    "answer": "Food preservatives are substances added to food to prevent spoilage and inhibit the growth of microorganisms. Sodium benzoate is a common food preservative.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The formation of rust on iron is an example of:",
+    "options": [
+      "(a) A neutralization reaction",
+      "(b) A precipitation reaction",
+      "(c) A redox reaction",
+      "(d) A decomposition reaction"
+    ],
+    "correct_answer": "c",
+    "answer": "Rusting is the corrosion of iron, a process where iron is oxidized and oxygen is reduced in the presence of water and air. This is a classic example of a redox reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A narrow-spectrum antibiotic is effective against:",
+    "options": [
+      "(a) A wide range of bacteria",
+      "(b) Only Gram-positive or Gram-negative bacteria",
+      "(c) Viruses and bacteria",
+      "(d) Fungi and bacteria"
+    ],
+    "correct_answer": "b",
+    "answer": "Narrow-spectrum antibiotics are effective against a limited range of bacteria, such as either Gram-positive or Gram-negative bacteria. Penicillin G is an example of a narrow-spectrum antibiotic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The active ingredient in Dettol, a common antiseptic, is a mixture of:",
+    "options": [
+      "(a) Chloroxylenol and terpineol",
+      "(b) Bithional and iodine",
+      "(c) Aspirin and paracetamol",
+      "(d) Sodium stearate and glycerol"
+    ],
+    "correct_answer": "a",
+    "answer": "Dettol is a popular antiseptic and disinfectant whose active ingredients are chloroxylenol and terpineol. The two components work synergistically to kill germs.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a non-narcotic analgesic?",
+    "options": [
+      "(a) Morphine",
+      "(b) Heroin",
+      "(c) Aspirin",
+      "(d) Codeine"
+    ],
+    "correct_answer": "c",
+    "answer": "Non-narcotic analgesics, such as Aspirin and Paracetamol, relieve pain without causing addiction. Narcotic analgesics, like morphine and heroin, are addictive and are used for severe pain relief.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which type of soap is made by dissolving soap in ethanol and then evaporating the excess solvent?",
+    "options": [
+      "(a) Floating soap",
+      "(b) Transparent soap",
+      "(c) Shaving soap",
+      "(d) Laundry soap"
+    ],
+    "correct_answer": "b",
+    "answer": "To make transparent soap, a solution of soap is dissolved in ethanol, and then the excess solvent is evaporated. The transparency results from the soap's microcrystalline structure being disrupted by the ethanol.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a synthetic sweetening agent?",
+    "options": [
+      "(a) Sucrose",
+      "(b) Fructose",
+      "(c) Aspartame",
+      "(d) Glucose"
+    ],
+    "correct_answer": "c",
+    "answer": "Aspartame, saccharin, and sucralose are examples of synthetic sweeteners that are used as sugar substitutes in food and beverages.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which substance is used as a disinfectant but not an antiseptic?",
+    "options": [
+      "(a) Boric acid",
+      "(b) Tincture of iodine",
+      "(c) Chlorine",
+      "(d) Bithional"
+    ],
+    "correct_answer": "c",
+    "answer": "Disinfectants are chemical substances used to kill microorganisms on inanimate objects. Chlorine is a powerful disinfectant used for water purification but is generally not used as an antiseptic on living tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The antiseptic that is a purple-colored solution of iodine is:",
+    "options": [
+      "(a) Iodoform",
+      "(b) Tincture of iodine",
+      "(c) Bithional",
+      "(d) Dettol"
+    ],
+    "correct_answer": "b",
+    "answer": "Tincture of iodine is a violet/purple-colored solution of iodine in alcohol, widely used as an antiseptic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an antacid?",
+    "options": [
+      "(a) Ranitidine",
+      "(b) Ibuprofen",
+      "(c) Novalgin",
+      "(d) Penicillin"
+    ],
+    "correct_answer": "a",
+    "answer": "Ranitidine (Zantac) and Cimetidine are histamine antagonists that are used to prevent the stomach from producing excessive acid. They are a type of antacid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Aspirin is also known as:",
+    "options": [
+      "(a) Salicylic acid",
+      "(b) Acetylsalicylic acid",
+      "(c) Benzyl alcohol",
+      "(d) Phenol"
+    ],
+    "correct_answer": "b",
+    "answer": "Aspirin is the common name for acetylsalicylic acid. It is used as an analgesic, antipyretic, and anti-inflammatory drug.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The substance responsible for the sour taste of curd and sour milk is:",
+    "options": [
+      "(a) Citric acid",
+      "(b) Acetic acid",
+      "(c) Lactic acid",
+      "(d) Tartaric acid"
+    ],
+    "correct_answer": "c",
+    "answer": "Curd and sour milk contain lactic acid, which is produced by the fermentation of lactose by bacteria. This lactic acid is responsible for their sour taste.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is used in the preparation of transparent soap?",
+    "options": [
+      "(a) Glycerol",
+      "(b) Ethanol",
+      "(c) Potassium hydroxide",
+      "(d) Sodium chloride"
+    ],
+    "correct_answer": "b",
+    "answer": "Transparent soaps are made by dissolving the soap in ethanol and then evaporating the excess solvent. The presence of glycerol also contributes to the transparency.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a cationic detergent?",
+    "options": [
+      "(a) Sodium lauryl sulfate",
+      "(b) Sodium dodecylbenzenesulfonate",
+      "(c) Cetyltrimethylammonium bromide",
+      "(d) Sodium stearate"
+    ],
+    "correct_answer": "c",
+    "answer": "Cationic detergents are those where the hydrophilic part of the molecule is positively charged. Cetyltrimethylammonium bromide is a quaternary ammonium salt, making it a cationic detergent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Antiseptics and disinfectants are both classified as:",
+    "options": [
+      "(a) Analgesics",
+      "(b) Antipyretics",
+      "(c) Antimicrobials",
+      "(d) Antihistamines"
+    ],
+    "correct_answer": "c",
+    "answer": "Antiseptics and disinfectants are both antimicrobial agents because they are used to kill or inhibit the growth of microorganisms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a non-biodegradable detergent?",
+    "options": [
+      "(a) Sodium lauryl sulfate",
+      "(b) Sodium dodecylbenzenesulfonate with highly branched alkyl chains",
+      "(c) Sodium stearate",
+      "(d) Both (a) and (c)"
+    ],
+    "correct_answer": "b",
+    "answer": "Detergents with highly branched hydrocarbon chains are difficult for bacteria to break down, making them non-biodegradable. Linear-chain detergents are biodegradable.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Novocaine is an example of:",
+    "options": [
+      "(a) A tranquilizer",
+      "(b) A local anesthetic",
+      "(c) An antacid",
+      "(d) An antiseptic"
+    ],
+    "correct_answer": "b",
+    "answer": "Novocaine is a common local anesthetic used to numb a specific area of the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a narcotic analgesic?",
+    "options": [
+      "(a) Aspirin",
+      "(b) Paracetamol",
+      "(c) Morphine",
+      "(d) Ibuprofen"
+    ],
+    "correct_answer": "c",
+    "answer": "Narcotic analgesics are drugs that are used for severe pain relief and can be addictive. Morphine, heroin, and codeine are examples of narcotic analgesics.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is used in the treatment of hyperacidity?",
+    "options": [
+      "(a) Antibiotics",
+      "(b) Antacids",
+      "(c) Analgesics",
+      "(d) Antiseptics"
+    ],
+    "correct_answer": "b",
+    "answer": "Antacids are a class of drugs that neutralize stomach acid and are used to relieve symptoms of hyperacidity, such as heartburn and indigestion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an artificial sweetener?",
+    "options": [
+      "(a) Sucrose",
+      "(b) Glucose",
+      "(c) Saccharin",
+      "(d) Fructose"
+    ],
+    "correct_answer": "c",
+    "answer": "Saccharin is a synthetic sweetener that is many times sweeter than sucrose and is often used as a sugar substitute.",
+    "marks": 1
+  }
+]

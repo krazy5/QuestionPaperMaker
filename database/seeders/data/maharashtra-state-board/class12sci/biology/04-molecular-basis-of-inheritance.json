@@ -1,0 +1,156 @@
+[
+  {
+    "type": "mcq",
+    "text": "The unequivocal proof that DNA is the genetic material came from the experiments of _______.",
+    "options": ["Griffith", "Avery, MacLeod, and McCarty", "Hershey and Chase", "Watson and Crick"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The experiments conducted by Alfred Hershey and Martha Chase in 1952, using bacteriophages, provided conclusive evidence that DNA, and not protein, is the genetic material. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a DNA molecule, the two strands are _______.",
+    "options": ["Parallel and complementary", "Antiparallel and complementary", "Parallel and non-complementary", "Antiparallel and non-complementary"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The two polynucleotide chains of a DNA double helix are antiparallel, meaning they run in opposite directions (one in 5' → 3' and the other in 3' → 5'). They are also complementary, with Adenine (A) pairing with Thymine (T) and Guanine (G) pairing with Cytosine (C). The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of copying genetic information from one strand of the DNA into RNA is termed as _______.",
+    "options": ["Replication", "Transcription", "Translation", "Reverse Transcription"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Transcription is the synthesis of an RNA molecule from a DNA template. This is the first step in gene expression. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the Lac operon, the lactose acts as a/an _______.",
+    "options": ["Repressor", "Inducer", "Promoter", "Operator"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Lactose (or its metabolite allolactose) acts as an inducer. It binds to the repressor protein and inactivates it, allowing the transcription of the structural genes to proceed. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique of DNA fingerprinting was developed by _______.",
+    "options": ["Gregor Mendel", "James Watson", "Francis Crick", "Alec Jeffreys"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Sir Alec Jeffreys, a British geneticist, developed the techniques of DNA fingerprinting and DNA profiling in 1984. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme required for the synthesis of DNA from a DNA template is _______.",
+    "options": ["RNA Polymerase", "DNA Ligase", "DNA Polymerase", "Helicase"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> DNA-dependent DNA polymerase is the main enzyme that catalyzes the polymerization of deoxynucleotides to synthesize a new DNA strand using an existing DNA strand as a template during replication. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a termination codon for protein synthesis?",
+    "options": ["AUG", "GUG", "UAA", "CCC"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> UAA, UAG, and UGA are the three termination or 'stop' codons. They do not code for any amino acid and signal the termination of the polypeptide chain. AUG is the initiation codon. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of removal of introns and joining of exons in a defined order in a transcription unit is called _______.",
+    "options": ["Splicing", "Capping", "Tailing", "Termination"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Splicing is a post-transcriptional modification in eukaryotes where the non-coding sequences (introns) are removed from the primary transcript (hnRNA) and the coding sequences (exons) are joined together to form the mature mRNA. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The Central Dogma of molecular biology was proposed by Francis Crick.",
+    "answer": "<b>True</b><br><b>Reason:</b> Francis Crick proposed the Central Dogma, which states that genetic information flows from DNA → RNA → Protein.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Uracil is a nitrogenous base present in DNA.",
+    "answer": "<b>False</b><br><b>Reason:</b> Uracil (U) is a pyrimidine base that is present in RNA. In DNA, its place is taken by Thymine (T).",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Translation is the process of synthesis of RNA from a DNA template.",
+    "answer": "<b>False</b><br><b>Reason:</b> Translation is the process of synthesis of a polypeptide (protein) from the information coded in an mRNA molecule. The synthesis of RNA from DNA is called transcription.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The genetic code is ambiguous, meaning one codon can code for more than one amino acid.",
+    "answer": "<b>False</b><br><b>Reason:</b> The genetic code is unambiguous and specific. One codon codes for only one specific amino acid. However, the code is degenerate, meaning some amino acids are coded by more than one codon.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In DNA fingerprinting, VNTRs are used as a probe.",
+    "answer": "<b>True</b><br><b>Reason:</b> Variable Number of Tandem Repeats (VNTRs) are short, repeating DNA sequences that are unique to an individual. They are used as probes in the Southern blotting technique of DNA fingerprinting.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between DNA and RNA. (PYQ: March 2022)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>DNA (Deoxyribonucleic Acid)</th><th style='padding: 8px;'>RNA (Ribonucleic Acid)</th></tr><tr><td style='padding: 8px;'>It is a double-stranded molecule with a double helix structure.</td><td style='padding: 8px;'>It is generally a single-stranded molecule.</td></tr><tr><td style='padding: 8px;'>The pentose sugar is deoxyribose.</td><td style='padding: 8px;'>The pentose sugar is ribose.</td></tr><tr><td style='padding: 8px;'>The nitrogenous bases are Adenine, Guanine, Cytosine, and Thymine (T).</td><td style='padding: 8px;'>The nitrogenous bases are Adenine, Guanine, Cytosine, and Uracil (U).</td></tr><tr><td style='padding: 8px;'>It is the primary genetic material in most organisms.</td><td style='padding: 8px;'>It primarily functions in protein synthesis and as genetic material in some viruses.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by the 'Central Dogma' of molecular biology?",
+    "answer": "The Central Dogma, proposed by Francis Crick, describes the one-way flow of genetic information within a biological system. It states that genetic information flows from:<br><b>DNA → RNA → Protein</b><br>This means that DNA can be replicated to make more DNA, and DNA can be transcribed to make messenger RNA (mRNA). The information in the mRNA is then translated to synthesize a protein.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'codon' and 'anticodon'.",
+    "answer": "<b>Codon:</b> A codon is a sequence of three consecutive nucleotides in an mRNA molecule that specifies a particular amino acid during protein synthesis or signals the termination of translation.<br><br><b>Anticodon:</b> An anticodon is a sequence of three nucleotides on a transfer RNA (tRNA) molecule that is complementary to a corresponding codon on an mRNA molecule. It ensures that the correct amino acid is added to the growing polypeptide chain.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the three types of RNA and what are their functions?",
+    "answer": "The three main types of RNA are:<br>1. <b>Messenger RNA (mRNA):</b> It carries the genetic information transcribed from DNA in the form of codons, from the nucleus to the ribosomes, to act as a template for protein synthesis.<br>2. <b>Transfer RNA (tRNA):</b> It acts as an adapter molecule that reads the codons on the mRNA and transfers the corresponding specific amino acids to the ribosome during translation.<br>3. <b>Ribosomal RNA (rRNA):</b> It is a structural component of the ribosomes and also acts as a catalyst (ribozyme) for the formation of peptide bonds.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by semiconservative replication of DNA?",
+    "answer": "Semiconservative replication is the process by which a DNA molecule is duplicated. In this process, the two strands of the parent DNA double helix unwind and separate. Each separated strand then acts as a template for the synthesis of a new complementary strand. As a result, each of the two new DNA molecules consists of one old (parental) strand and one newly synthesized strand.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the double helix structure of DNA as proposed by Watson and Crick, with a neat, labelled diagram. (PYQ: March 2020)",
+    "answer": "<br><br>The double helix model of DNA was proposed by James Watson and Francis Crick in 1953. The salient features of this model are:<br><ul><li><b>Two Polynucleotide Chains:</b> DNA is made up of two polynucleotide chains, where the backbone is constituted by sugar-phosphate, and the bases project inside.</li><li><b>Antiparallel Polarity:</b> The two chains have antiparallel polarity. It means, if one chain has the polarity 5'→3', the other has 3'→5'.</li><li><b>Complementary Base Pairing:</b> The bases in the two strands are paired through hydrogen bonds. Adenine (A) always pairs with Thymine (T) with two hydrogen bonds, and Guanine (G) always pairs with Cytosine (C) with three hydrogen bonds.</li><li><b>Helical Structure:</b> The two chains are coiled in a right-handed fashion. The pitch of the helix is 3.4 nm and there are roughly 10 base pairs in each turn.</li><li><b>Uniform Distance:</b> The distance between the two strands of the helix is almost uniform.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of the Lac Operon model of gene regulation.",
+    "answer": "The Lac Operon is a model proposed by Francois Jacob and Jacques Monod to explain the regulation of gene expression in E. coli. It controls the metabolism of lactose.<br><br>The operon consists of:<br><ul><li><b>Regulator gene (i):</b> Codes for the repressor protein.</li><li><b>Promoter (p):</b> The site where RNA polymerase binds to initiate transcription.</li><li><b>Operator (o):</b> The site where the repressor protein binds.</li><li><b>Structural genes (z, y, a):</b> These genes code for the enzymes needed to metabolize lactose.</li></ul><b>Mechanism:</b><br>1. <b>In the absence of an inducer (Lactose):</b> The regulator gene produces a repressor protein. This repressor binds to the operator region and prevents the RNA polymerase from transcribing the structural genes. The operon is 'switched off'.<br>2. <b>In the presence of an inducer (Lactose):</b> Lactose acts as an inducer and binds to the repressor protein, causing a change in its shape. This inactivates the repressor, so it can no longer bind to the operator. The RNA polymerase is then free to transcribe the structural genes (z, y, a), producing the necessary enzymes to digest lactose. The operon is 'switched on'.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is DNA fingerprinting? Mention the steps involved in this technique. (PYQ: March 2022)",
+    "answer": "<b>DNA Fingerprinting</b> is a technique used to identify individuals at the genetic level by analyzing the unique patterns in their DNA. It is based on the principle that every individual has a unique sequence of Variable Number of Tandem Repeats (VNTRs).<br><br><b>The steps involved are:</b><br>1. <b>Isolation of DNA:</b> DNA is extracted from a biological sample (like blood, hair, or saliva).<br>2. <b>Digestion of DNA:</b> The isolated DNA is cut into fragments using restriction enzymes.<br>3. <b>Separation of DNA fragments:</b> The DNA fragments are separated according to their size by a technique called gel electrophoresis.<br>4. <b>Southern Blotting:</b> The separated DNA fragments are transferred from the gel to a synthetic membrane like a nitrocellulose sheet.<br>5. <b>Hybridization:</b> A radioactive DNA probe (containing specific VNTR sequences) is added to the membrane. The probe binds to its complementary DNA fragments.<br>6. <b>Autoradiography:</b> An X-ray film is placed on the membrane. The radioactive probe exposes the film, revealing a pattern of bands. This pattern of bands is the DNA fingerprint, which is unique to the individual.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the process of translation (protein synthesis).",
+    "answer": "Translation is the process by which the genetic information encoded in mRNA is used to synthesize a polypeptide chain (protein). It occurs in the ribosomes and involves three main steps:<br><br>1. <b>Initiation:</b> The small subunit of the ribosome binds to the mRNA at the start codon (AUG). The initiator tRNA, carrying the amino acid methionine, binds to the start codon. Then, the large subunit of the ribosome joins to form the complete initiation complex.<br><br>2. <b>Elongation:</b> The ribosome moves along the mRNA molecule, one codon at a time. For each codon, a specific tRNA with a complementary anticodon brings the corresponding amino acid to the ribosome. The ribosome catalyzes the formation of a peptide bond between the new amino acid and the growing polypeptide chain.<br><br>3. <b>Termination:</b> The process of elongation continues until the ribosome reaches a stop codon (UAA, UAG, or UGA) on the mRNA. Since there is no tRNA for the stop codons, a release factor binds to the ribosome. This causes the termination of translation. The completed polypeptide chain is released from the ribosome, and the ribosomal subunits dissociate from the mRNA.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the Human Genome Project (HGP).",
+    "answer": "The Human Genome Project (HGP) was a massive, international scientific research project with the primary goal of determining the sequence of the chemical base pairs which make up human DNA, and of identifying and mapping all of the genes of the human genome.<br><br><b>Goals of HGP:</b><br><ul><li>To identify all the approximately 20,000-25,000 genes in human DNA.</li><li>To determine the sequences of the 3 billion chemical base pairs that make up human DNA.</li><li>To store this information in databases.</li><li>To improve tools for data analysis.</li><li>To address the ethical, legal, and social issues (ELSI) that may arise from the project.</li></ul><b>Significance:</b><br>Launched in 1990 and completed in 2003, the HGP has revolutionized the field of biology and medicine. It has provided a complete blueprint of the human genetic makeup, which is crucial for diagnosing, treating, and someday preventing thousands of genetic diseases. It has also given us deep insights into human evolution and biology.",
+    "marks": 3
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The primary sex organs in human males are the:",
+    "options": [
+      "(a) Prostate glands",
+      "(b) Testes",
+      "(c) Seminal vesicles",
+      "(d) Epididymis"
+    ],
+    "correct_answer": "b",
+    "answer": "The **testes** are the primary sex organs in males. They produce sperm and testosterone.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Fertilization in humans takes place in the:",
+    "options": [
+      "(a) Uterus",
+      "(b) Vagina",
+      "(c) Fallopian tube",
+      "(d) Ovary"
+    ],
+    "correct_answer": "c",
+    "answer": "Fertilization, the fusion of a sperm and an egg, typically occurs in the **fallopian tube** (oviduct).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of formation of sperms is known as:",
+    "options": [
+      "(a) Oogenesis",
+      "(b) Spermatogenesis",
+      "(c) Gestation",
+      "(d) Parturition"
+    ],
+    "correct_answer": "b",
+    "answer": "**Spermatogenesis** is the process of producing mature sperm cells. This process occurs in the testes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone responsible for the growth of secondary sexual characteristics in males is:",
+    "options": [
+      "(a) Estrogen",
+      "(b) Progesterone",
+      "(c) Testosterone",
+      "(d) Luteinizing hormone (LH)"
+    ],
+    "correct_answer": "c",
+    "answer": "**Testosterone** is the primary male sex hormone. It is responsible for the development of male secondary sexual characteristics and the production of sperm.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the uterus where the embryo implants is the:",
+    "options": [
+      "(a) Perimetrium",
+      "(b) Myometrium",
+      "(c) Endometrium",
+      "(d) Cervix"
+    ],
+    "correct_answer": "c",
+    "answer": "The **endometrium** is the inner lining of the uterus. It is the site of implantation of the fertilized egg.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of giving birth to a baby is called:",
+    "options": [
+      "(a) Gestation",
+      "(b) Implantation",
+      "(c) Parturition",
+      "(d) Lactation"
+    ],
+    "correct_answer": "c",
+    "answer": "**Parturition** is the medical term for childbirth. It is the process by which a baby is born.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The female reproductive organ where the egg is produced is the:",
+    "options": [
+      "(a) Uterus",
+      "(b) Vagina",
+      "(c) Ovary",
+      "(d) Fallopian tube"
+    ],
+    "correct_answer": "c",
+    "answer": "The **ovaries** are the primary female reproductive organs. They produce eggs (ova) and the female hormones estrogen and progesterone.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The menstrual cycle is regulated by hormones from the:",
+    "options": [
+      "(a) Pituitary and adrenal glands",
+      "(b) Ovaries and pituitary gland",
+      "(c) Ovaries and thyroid gland",
+      "(d) Pituitary and thyroid glands"
+    ],
+    "correct_answer": "b",
+    "answer": "The menstrual cycle is a complex process controlled by the interaction of hormones from the **ovaries** and the **pituitary gland**, including FSH, LH, estrogen, and progesterone.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone responsible for the development of mammary glands and milk production is:",
+    "options": [
+      "(a) Oxytocin",
+      "(b) Prolactin",
+      "(c) Estrogen",
+      "(d) Progesterone"
+    ],
+    "correct_answer": "b",
+    "answer": "**Prolactin** is a hormone released by the pituitary gland that stimulates milk production in the mammary glands.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The embryonic stage that consists of a solid ball of cells is the:",
+    "options": [
+      "(a) Blastocyst",
+      "(b) Gastrula",
+      "(c) Zygote",
+      "(d) Morula"
+    ],
+    "correct_answer": "d",
+    "answer": "The **morula** is an early-stage embryo consisting of a solid ball of cells resulting from the division of a fertilized ovum.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that causes the rupture of the ovarian follicle and the release of the ovum is:",
+    "options": [
+      "(a) FSH",
+      "(b) LH",
+      "(c) Estrogen",
+      "(d) Progesterone"
+    ],
+    "correct_answer": "b",
+    "answer": "A surge in **luteinizing hormone (LH)** from the pituitary gland triggers ovulation, which is the release of the mature egg from the ovarian follicle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The diploid cell formed by the fusion of a sperm and an egg is the:",
+    "options": [
+      "(a) Gamete",
+      "(b) Zygote",
+      "(c) Embryo",
+      "(d) Fetus"
+    ],
+    "correct_answer": "b",
+    "answer": "A **zygote** is a diploid cell that results from the fusion of a haploid sperm and a haploid egg during fertilization. It is the first cell of a new organism.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The membrane that encloses the embryo and forms a fluid-filled sac is the:",
+    "options": [
+      "(a) Amnion",
+      "(b) Chorion",
+      "(c) Allantois",
+      "(d) Yolk sac"
+    ],
+    "correct_answer": "a",
+    "answer": "The **amnion** is a membrane that forms a fluid-filled sac, the amniotic sac, which encloses and protects the embryo during development.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of shedding the uterine lining is called:",
+    "options": [
+      "(a) Ovulation",
+      "(b) Menstruation",
+      "(c) Fertilization",
+      "(d) Implantation"
+    ],
+    "correct_answer": "b",
+    "answer": "**Menstruation** is the monthly shedding of the uterine lining (endometrium) when pregnancy does not occur.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The structure that connects the fetus to the uterine wall is the:",
+    "options": [
+      "(a) Umbilical cord",
+      "(b) Placenta",
+      "(c) Amnion",
+      "(d) Chorion"
+    ],
+    "correct_answer": "b",
+    "answer": "The **placenta** is an organ that develops in the uterus during pregnancy. It provides oxygen and nutrients to the fetus and removes waste products from the fetus's blood.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The female hormone that maintains pregnancy is:",
+    "options": [
+      "(a) Estrogen",
+      "(b) Progesterone",
+      "(c) Oxytocin",
+      "(d) Prolactin"
+    ],
+    "correct_answer": "b",
+    "answer": "**Progesterone** is essential for maintaining a healthy pregnancy. It thickens the uterine lining and prevents uterine contractions, helping to sustain the pregnancy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The haploid cells produced during gamete formation are:",
+    "options": [
+      "(a) Diploid cells",
+      "(b) Somatic cells",
+      "(c) Gametes",
+      "(d) Zygotes"
+    ],
+    "correct_answer": "c",
+    "answer": "**Gametes** (sperm and eggs) are haploid cells, meaning they contain half the number of chromosomes of a somatic cell. When they fuse during fertilization, they form a diploid zygote.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The male reproductive system includes all of the following EXCEPT:",
+    "options": [
+      "(a) Testes",
+      "(b) Ovary",
+      "(c) Epididymis",
+      "(d) Vas deferens"
+    ],
+    "correct_answer": "b",
+    "answer": "The **ovary** is a primary reproductive organ in females. The other options are all parts of the male reproductive system.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of release of an egg from the ovary is called:",
+    "options": [
+      "(a) Menstruation",
+      "(b) Ovulation",
+      "(c) Fertilization",
+      "(d) Gestation"
+    ],
+    "correct_answer": "b",
+    "answer": "**Ovulation** is the release of a mature egg from the ovary. It is a key event in the menstrual cycle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The surgical procedure for male contraception is:",
+    "options": [
+      "(a) Tubectomy",
+      "(b) Vasectomy",
+      "(c) Hysterectomy",
+      "(d) Ovariectomy"
+    ],
+    "correct_answer": "b",
+    "answer": "**Vasectomy** is a surgical procedure for male sterilization or permanent contraception. It involves cutting or sealing the vas deferens to prevent sperm from entering the ejaculatory duct.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that causes the milk ejection from the mammary glands is:",
+    "options": [
+      "(a) Prolactin",
+      "(b) Oxytocin",
+      "(c) Estrogen",
+      "(d) Progesterone"
+    ],
+    "correct_answer": "b",
+    "answer": "**Oxytocin** is a hormone that stimulates the contraction of mammary glands, leading to the ejection of milk. It is also known as the 'love hormone' for its role in bonding.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The outer protective layer of the ovum is called the:",
+    "options": [
+      "(a) Zona pellucida",
+      "(b) Corona radiata",
+      "(c) Vitelline membrane",
+      "(d) Granulosa cells"
+    ],
+    "correct_answer": "a",
+    "answer": "The **zona pellucida** is a thick, transparent, and protective outer layer that surrounds the mammalian egg cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The stage of the embryo that gets implanted in the uterus is the:",
+    "options": [
+      "(a) Zygote",
+      "(b) Morula",
+      "(c) Blastocyst",
+      "(d) Gastrula"
+    ],
+    "correct_answer": "c",
+    "answer": "The **blastocyst** is the hollow ball of cells that implants itself into the uterine lining (endometrium) approximately 6-7 days after fertilization.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The gestation period in humans is approximately:",
+    "options": [
+      "(a) 240 days",
+      "(b) 280 days",
+      "(c) 300 days",
+      "(d) 320 days"
+    ],
+    "correct_answer": "b",
+    "answer": "The average duration of human gestation is approximately **280 days** (40 weeks) from the first day of the last menstrual period.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The female hormone that inhibits uterine contractions during pregnancy is:",
+    "options": [
+      "(a) Oxytocin",
+      "(b) Prolactin",
+      "(c) Progesterone",
+      "(d) Relaxin"
+    ],
+    "correct_answer": "c",
+    "answer": "**Progesterone** plays a vital role in maintaining pregnancy by inhibiting uterine contractions, thus preventing premature birth.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The site of production of sperm in the testes is the:",
+    "options": [
+      "(a) Sertoli cells",
+      "(b) Interstitial cells",
+      "(c) Seminiferous tubules",
+      "(d) Epididymis"
+    ],
+    "correct_answer": "c",
+    "answer": "**Seminiferous tubules** are the site of spermatogenesis, the process of sperm production, within the testes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that stimulates the secretion of milk from the mammary glands is:",
+    "options": [
+      "(a) Oxytocin",
+      "(b) Prolactin",
+      "(c) Estrogen",
+      "(d) Progesterone"
+    ],
+    "correct_answer": "b",
+    "answer": "**Prolactin** is the hormone responsible for stimulating the production of milk in the mammary glands.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first milk produced by the mother after childbirth is called:",
+    "options": [
+      "(a) Colostrum",
+      "(b) Milk",
+      "(c) Casein",
+      "(d) Lactose"
+    ],
+    "correct_answer": "a",
+    "answer": "**Colostrum** is the first form of milk produced by the mammary glands immediately following delivery of the newborn. It is rich in antibodies and nutrients.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The surgical procedure for female contraception is:",
+    "options": [
+      "(a) Vasectomy",
+      "(b) Hysterectomy",
+      "(c) Ovariectomy",
+      "(d) Tubectomy"
+    ],
+    "correct_answer": "d",
+    "answer": "**Tubectomy** (or tubal ligation) is a surgical procedure for female sterilization. It involves blocking the fallopian tubes to prevent the egg from reaching the uterus.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The embryonic layer that forms the nervous system is the:",
+    "options": [
+      "(a) Endoderm",
+      "(b) Mesoderm",
+      "(c) Ectoderm",
+      "(d) Blastoderm"
+    ],
+    "correct_answer": "c",
+    "answer": "The **ectoderm** is the outermost of the three primary germ layers in the very early embryo. It gives rise to the nervous system, epidermis, and other related structures.",
+    "marks": 1
+  }
+]

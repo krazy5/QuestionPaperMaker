@@ -128,6 +128,11 @@ Route::middleware(['auth', 'role:institute'])
         // Institute questions module
         Route::resource('questions', InstituteQuestionController::class);
 
+
+        // Helper: classes for a board (AJAX)
+        Route::get('/get-classes-for-board/{boardId}', [PaperController::class, 'getClassesForBoard'])
+            ->name('classes.for.board');
+
         // Helper: subjects for a class (AJAX)
         Route::get('/get-subjects-for-class/{classId}', [PaperController::class, 'getSubjectsForClass'])
             ->name('subjects.for.class');

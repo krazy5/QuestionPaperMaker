@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The main function of the digestive system is to:",
+    "options": [
+      "(a) Absorb water from food",
+      "(b) Convert complex food molecules into simple ones",
+      "(c) Transport oxygen throughout the body",
+      "(d) Produce hormones for metabolism"
+    ],
+    "correct_answer": "b",
+    "answer": "The digestive system breaks down complex food substances into simple, absorbable forms. This process is essential for the body to utilize the nutrients from food for energy, growth, and repair.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the primary site of protein digestion?",
+    "options": [
+      "(a) Mouth",
+      "(b) Stomach",
+      "(c) Small intestine",
+      "(d) Large intestine"
+    ],
+    "correct_answer": "b",
+    "answer": "Protein digestion begins in the stomach with the enzyme pepsin. The acidic environment of the stomach helps in denaturing proteins, making them more accessible to enzymatic breakdown.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme responsible for the digestion of carbohydrates in the mouth is:",
+    "options": [
+      "(a) Pepsin",
+      "(b) Trypsin",
+      "(c) Salivary amylase",
+      "(d) Lipase"
+    ],
+    "correct_answer": "c",
+    "answer": "Salivary amylase, also known as ptyalin, is an enzyme present in saliva that initiates the digestion of starches into smaller carbohydrate molecules.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Villi are finger-like projections found in the wall of the small intestine. Their main function is to:",
+    "options": [
+      "(a) Increase the surface area for absorption",
+      "(b) Produce digestive enzymes",
+      "(c) Store undigested food",
+      "(d) Facilitate mechanical digestion"
+    ],
+    "correct_answer": "a",
+    "answer": "The villi and microvilli dramatically increase the surface area of the small intestine, which is crucial for maximizing the absorption of nutrients into the bloodstream.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Bile is produced by the liver and stored in the gallbladder. Its main function in digestion is:",
+    "options": [
+      "(a) Digesting proteins",
+      "(b) Breaking down carbohydrates",
+      "(c) Emulsifying fats",
+      "(d) Neutralizing stomach acid"
+    ],
+    "correct_answer": "c",
+    "answer": "Bile emulsifies large fat globules into smaller droplets. This increases the surface area for enzymes like lipase to act on the fats, making them easier to digest.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an essential amino acid?",
+    "options": [
+      "(a) Glycine",
+      "(b) Alanine",
+      "(c) Leucine",
+      "(d) Aspartic acid"
+    ],
+    "correct_answer": "c",
+    "answer": "Essential amino acids are those that the body cannot synthesize on its own and must be obtained from the diet. Leucine is one of the nine essential amino acids.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The digestion of fats is primarily carried out by the enzyme:",
+    "options": [
+      "(a) Amylase",
+      "(b) Pepsin",
+      "(c) Lipase",
+      "(d) Trypsin"
+    ],
+    "correct_answer": "c",
+    "answer": "Lipase is the enzyme responsible for breaking down fats (triglycerides) into fatty acids and glycerol. Pancreatic lipase is the most important lipase in human digestion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the main function of the large intestine?",
+    "options": [
+      "(a) Digestion of carbohydrates",
+      "(b) Absorption of nutrients",
+      "(c) Absorption of water and electrolytes",
+      "(d) Protein synthesis"
+    ],
+    "correct_answer": "c",
+    "answer": "The large intestine's main role is to absorb remaining water and electrolytes from indigestible food matter, forming feces for elimination.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a fat-soluble vitamin?",
+    "options": [
+      "(a) Vitamin C",
+      "(b) Vitamin B1",
+      "(c) Vitamin A",
+      "(d) Vitamin B12"
+    ],
+    "correct_answer": "c",
+    "answer": "Vitamins are classified as either water-soluble (B and C) or fat-soluble (A, D, E, and K). Vitamin A is a fat-soluble vitamin essential for vision and immune function.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The deficiency of which vitamin causes night blindness?",
+    "options": [
+      "(a) Vitamin B1",
+      "(b) Vitamin C",
+      "(c) Vitamin D",
+      "(d) Vitamin A"
+    ],
+    "correct_answer": "d",
+    "answer": "Vitamin A is crucial for the production of rhodopsin, a pigment in the retina that allows vision in low light. Its deficiency leads to night blindness.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme lactase breaks down lactose into:",
+    "options": [
+      "(a) Glucose and fructose",
+      "(b) Glucose and galactose",
+      "(c) Maltose and sucrose",
+      "(d) Fructose and sucrose"
+    ],
+    "correct_answer": "b",
+    "answer": "Lactase is a disaccharidase found in the small intestine that hydrolyzes the disaccharide lactose into its constituent monosaccharides, glucose and galactose.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a trace element in human nutrition?",
+    "options": [
+      "(a) Calcium",
+      "(b) Magnesium",
+      "(c) Sodium",
+      "(d) Iodine"
+    ],
+    "correct_answer": "d",
+    "answer": "Trace elements, also known as microminerals, are required in small amounts for proper bodily function. Iodine is a trace element essential for thyroid hormone production.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of taking in food by an organism is called:",
+    "options": [
+      "(a) Digestion",
+      "(b) Absorption",
+      "(c) Ingestion",
+      "(d) Assimilation"
+    ],
+    "correct_answer": "c",
+    "answer": "Ingestion is the process of taking food, drink, or another substance into the body by swallowing or absorbing it. It is the first step of the digestive process.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme pepsin is secreted in the stomach and is responsible for the digestion of:",
+    "options": [
+      "(a) Carbohydrates",
+      "(b) Lipids",
+      "(c) Proteins",
+      "(d) Nucleic acids"
+    ],
+    "correct_answer": "c",
+    "answer": "Pepsin is a protease enzyme that is secreted as pepsinogen and activated by hydrochloric acid in the stomach. Its primary role is to break down proteins into smaller polypeptides.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the correct order of the parts of the small intestine?",
+    "options": [
+      "(a) Jejunum, Duodenum, Ileum",
+      "(b) Duodenum, Jejunum, Ileum",
+      "(c) Ileum, Jejunum, Duodenum",
+      "(d) Duodenum, Ileum, Jejunum"
+    ],
+    "correct_answer": "b",
+    "answer": "The small intestine is divided into three parts: the duodenum (first part), the jejunum (middle part), and the ileum (last part).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The deficiency of vitamin D in children leads to a disease known as:",
+    "options": [
+      "(a) Scurvy",
+      "(b) Rickets",
+      "(c) Beriberi",
+      "(d) Kwashiorkor"
+    ],
+    "correct_answer": "b",
+    "answer": "Rickets is a disease that affects bone development in children, causing soft and weak bones. It is caused by a severe deficiency of vitamin D, which is essential for calcium absorption.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a water-soluble vitamin?",
+    "options": [
+      "(a) Vitamin A",
+      "(b) Vitamin D",
+      "(c) Vitamin E",
+      "(d) Vitamin C"
+    ],
+    "correct_answer": "d",
+    "answer": "Vitamin C, also known as ascorbic acid, is a water-soluble vitamin that the body cannot store and must be obtained from the diet regularly.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The final products of carbohydrate digestion are:",
+    "options": [
+      "(a) Fatty acids",
+      "(b) Amino acids",
+      "(c) Glucose",
+      "(d) Glycerol"
+    ],
+    "correct_answer": "c",
+    "answer": "Carbohydrates are digested into simple sugars, primarily glucose, which can be easily absorbed into the bloodstream and used for energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of hydrochloric acid in the stomach is to:",
+    "options": [
+      "(a) Emulsify fats",
+      "(b) Activate pepsinogen",
+      "(c) Diges carbohydrates",
+      "(d) Absorb water"
+    ],
+    "correct_answer": "b",
+    "answer": "Hydrochloric acid secreted by the stomach's parietal cells provides the acidic environment necessary to activate the proenzyme pepsinogen into its active form, pepsin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the main digestive gland in the human body?",
+    "options": [
+      "(a) Salivary glands",
+      "(b) Liver",
+      "(c) Pancreas",
+      "(d) All of these"
+    ],
+    "correct_answer": "d",
+    "answer": "All of these are major digestive glands. Salivary glands produce saliva, the liver produces bile, and the pancreas produces pancreatic juice, all of which are essential for digestion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a function of the liver?",
+    "options": [
+      "(a) Production of digestive enzymes",
+      "(b) Synthesis of bile",
+      "(c) Storage of urine",
+      "(d) Digestion of cellulose"
+    ],
+    "correct_answer": "b",
+    "answer": "The liver is a major metabolic organ that synthesizes bile, which is then stored in the gallbladder and secreted into the small intestine to aid in fat digestion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The end products of protein digestion are:",
+    "options": [
+      "(a) Glucose",
+      "(b) Fatty acids",
+      "(c) Amino acids",
+      "(d) Glycerol"
+    ],
+    "correct_answer": "c",
+    "answer": "Proteins are broken down into their basic building blocks, amino acids, by various protease enzymes like pepsin, trypsin, and chymotrypsin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that digests starch and is present in saliva is:",
+    "options": [
+      "(a) Amylase",
+      "(b) Lipase",
+      "(c) Sucrase",
+      "(d) Lactase"
+    ],
+    "correct_answer": "a",
+    "answer": "Salivary amylase is the specific enzyme in saliva that begins the digestion of starch. The term 'amylase' is a general name for enzymes that break down starch.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which part of the digestive system is responsible for the absorption of most digested food?",
+    "options": [
+      "(a) Stomach",
+      "(b) Duodenum",
+      "(c) Jejunum",
+      "(d) Ileum"
+    ],
+    "correct_answer": "c",
+    "answer": "While absorption begins in the duodenum, the majority of nutrient absorption, including amino acids, simple sugars, and fatty acids, occurs in the jejunum, the longest part of the small intestine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The accumulation of lactic acid in muscles causes:",
+    "options": [
+      "(a) Muscle growth",
+      "(b) Muscle fatigue",
+      "(c) Muscle contraction",
+      "(d) Muscle relaxation"
+    ],
+    "correct_answer": "b",
+    "answer": "During intense exercise, when oxygen supply is insufficient, muscle cells perform anaerobic respiration, producing lactic acid. The buildup of lactic acid can lead to muscle fatigue and a burning sensation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of gastric juice is:",
+    "options": [
+      "(a) Water and mucus",
+      "(b) Hydrochloric acid and pepsinogen",
+      "(c) Bile and lipase",
+      "(d) Salivary amylase and water"
+    ],
+    "correct_answer": "b",
+    "answer": "Gastric juice is a highly acidic fluid secreted by the stomach. Its main components are hydrochloric acid, which provides the acidic environment, and pepsinogen, the inactive form of pepsin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT an accessory digestive organ?",
+    "options": [
+      "(a) Liver",
+      "(b) Stomach",
+      "(c) Gallbladder",
+      "(d) Pancreas"
+    ],
+    "correct_answer": "b",
+    "answer": "Accessory digestive organs are those that assist in digestion but are not part of the main digestive tract. The liver, gallbladder, and pancreas are accessory organs. The stomach is a part of the alimentary canal.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of conversion of food into energy is known as:",
+    "options": [
+      "(a) Digestion",
+      "(b) Respiration",
+      "(c) Metabolism",
+      "(d) Anabolism"
+    ],
+    "correct_answer": "c",
+    "answer": "Metabolism is the set of chemical reactions that occur in living organisms to maintain life. It includes catabolism, the breakdown of food to release energy, and anabolism, the synthesis of components of cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The deficiency of vitamin C leads to a disease called:",
+    "options": [
+      "(a) Beriberi",
+      "(b) Scurvy",
+      "(c) Night blindness",
+      "(d) Rickets"
+    ],
+    "correct_answer": "b",
+    "answer": "Scurvy is a disease characterized by bleeding gums and poor wound healing. It is caused by a deficiency of vitamin C, which is essential for collagen synthesis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pancreatic juice contains enzymes for the digestion of:",
+    "options": [
+      "(a) Carbohydrates only",
+      "(b) Proteins and fats only",
+      "(c) Carbohydrates, proteins, and fats",
+      "(d) Proteins only"
+    ],
+    "correct_answer": "c",
+    "answer": "The pancreas produces a wide variety of digestive enzymes, including amylase for carbohydrates, trypsin and chymotrypsin for proteins, and lipase for fats, making it a key organ in the digestive process.",
+    "marks": 1
+  }
+]

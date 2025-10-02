@@ -1,0 +1,3850 @@
+[
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+4}$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{2})+C$",
+      "(c) $2\\tan^{-1}(\\frac{x}{2})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{x^2+4} = \\int \\frac{dx}{x^2+2^2} = \\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^x}{e^x+1} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\log|e^x+1|+C$",
+      "(b) $e^x+1+C$",
+      "(c) $\\frac{1}{(e^x+1)^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We use the substitution method. Let $t = e^x+1$. Then $dt = e^x dx$.\nThe integral becomes $\\int \\frac{dt}{t} = \\log|t|+C$.\nSubstituting back $t=e^x+1$, we get $\\log|e^x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(2x) dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\cos(2x)+C$",
+      "(b) $-\\cos(2x)+C$",
+      "(c) $\\frac{-\\cos(2x)}{2}+C$",
+      "(d) $\\frac{\\cos(2x)}{2}+C$"
+    ],
+    "correct_answer": "c",
+    "answer": "Using the standard formula $\\int \\sin(ax+b) dx = \\frac{-\\cos(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\sin(2x) dx = \\frac{-\\cos(2x)}{2}+C$.\n\n**Correct option is (c).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x \\cos(x^2) dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{1}{2}\\sin(x^2)+C$",
+      "(b) $\\sin(x^2)+C$",
+      "(c) $-\\frac{1}{2}\\sin(x^2)+C$",
+      "(d) $2\\sin(x^2)+C$"
+    ],
+    "correct_answer": "a",
+    "answer": "We use the substitution method. Let $t = x^2$. Then $dt = 2x dx$, which means $x dx = \\frac{dt}{2}$.\nThe integral becomes $\\int \\cos(t) \\frac{dt}{2} = \\frac{1}{2}\\int \\cos(t) dt = \\frac{1}{2}\\sin(t)+C$.\nSubstituting back $t=x^2$, we get $\\frac{1}{2}\\sin(x^2)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{2x^2}+C$",
+      "(d) $\\frac{1}{x^2}+C$"
+    ],
+    "correct_answer": "a",
+    "answer": "We use the substitution method. Let $t = \\log x$. Then $dt = \\frac{1}{x} dx$.\nThe integral becomes $\\int t dt = \\frac{t^2}{2}+C$.\nSubstituting back $t=\\log x$, we get $\\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+1)^2 dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{x^5}{5}+\\frac{2x^3}{3}+x+C$",
+      "(b) $(x^2+1)^3+C$",
+      "(c) $\\frac{x^5}{5}+x^3+x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We expand the integrand first: $(x^2+1)^2 = x^4+2x^2+1$.\nNow, integrate term by term: $\\int (x^4+2x^2+1) dx = \\int x^4 dx + 2\\int x^2 dx + \\int 1 dx$.\n$= \\frac{x^5}{5} + 2\\frac{x^3}{3} + x + C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(3x) dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{1}{3}\\tan(3x)+C$",
+      "(b) $3\\tan(3x)+C$",
+      "(c) $\\tan(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax+b) dx = \\frac{\\tan(ax+b)}{a}+C$.\nHere, $a=3$. So, $\\int \\sec^2(3x) dx = \\frac{\\tan(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x}$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $e^x+C$",
+      "(d) $1+C$"
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^4 dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $4x^3+C$",
+      "(b) $\\frac{x^5}{5}+C$",
+      "(c) $x^5+C$",
+      "(d) $4x^5+C$"
+    ],
+    "correct_answer": "b",
+    "answer": "Using the power rule for integration, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$ for $n \\ne -1$.\nHere, $n=4$. So, $\\int x^4 dx = \\frac{x^{4+1}}{4+1}+C = \\frac{x^5}{5}+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $e^{2x}+C$",
+      "(b) $\\frac{e^{2x}}{2}+C$",
+      "(c) $2e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Using the standard formula $\\int e^{ax+b} dx = \\frac{e^{ax+b}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(3x) dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{3}\\sin(3x)+C$",
+      "(b) $-\\frac{1}{3}\\sin(3x)+C$",
+      "(c) $3\\sin(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\nHere, $a=3$. So, $\\int \\cos(3x) dx = \\frac{\\sin(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2 x dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\tan x+C$",
+      "(b) $\\cot x+C$",
+      "(c) $\\sec x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula, as $\\frac{d}{dx}(\\tan x) = \\sec^2 x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+16}$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{4})+C$",
+      "(c) $\\frac{1}{4}\\log|x^2+16|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{x^2+16} = \\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x+1)^2 dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{(x+1)^3}{3}+C$",
+      "(b) $2(x+1)+C$",
+      "(c) $x^2+2x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule with a linear substitution. Let $t=x+1$, so $dt=dx$.\nThe integral becomes $\\int t^2 dt = \\frac{t^3}{3}+C = \\frac{(x+1)^3}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x \\sin(x^2) dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $-\\frac{1}{2}\\cos(x^2)+C$",
+      "(b) $\\frac{1}{2}\\cos(x^2)+C$",
+      "(c) $-\\cos(x^2)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\nThe integral becomes $\\int \\sin(t) \\frac{dt}{2} = \\frac{1}{2}\\int \\sin(t) dt = \\frac{1}{2}(-\\cos(t))+C = -\\frac{1}{2}\\cos(x^2)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-x^2}}$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\sin^{-1}x+C$",
+      "(b) $\\cos^{-1}x+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1}x+C$ or $-\\cos^{-1}x+C$. The option given is $\\sin^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{x} \\sin(e^x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\cos(e^x)+C$",
+      "(b) $-\\cos(e^x)+C$",
+      "(c) $e^x \\cos(e^x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Let $t=e^x$. Then $dt = e^x dx$.\nThe integral becomes $\\int \\sin(t) dt = -\\cos(t)+C = -\\cos(e^x)+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\tan x dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\log|\\sin x|+C$",
+      "(b) $\\log|\\sec x|+C$",
+      "(c) $\\log|\\cos x|+C$",
+      "(d) $\\sec^2 x+C$"
+    ],
+    "correct_answer": "b",
+    "answer": "We write $\\tan x = \\frac{\\sin x}{\\cos x}$. Let $t=\\cos x$, then $dt=-\\sin x dx$, so $\\sin x dx = -dt$.\n$\\int \\frac{\\sin x}{\\cos x} dx = \\int \\frac{-dt}{t} = -\\log|t|+C = -\\log|\\cos x|+C = \\log|\\cos x|^{-1}+C = \\log|\\sec x|+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x}}$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $2\\sqrt{x}+C$",
+      "(b) $\\frac{1}{2\\sqrt{x}}+C$",
+      "(c) $\\frac{1}{2}x^{3/2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{\\sqrt{x}} = x^{-1/2}$. Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\n$\\int x^{-1/2} dx = \\frac{x^{-1/2+1}}{-1/2+1}+C = \\frac{x^{1/2}}{1/2}+C = 2\\sqrt{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (ax+b)^n dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{(ax+b)^{n+1}}{n+1}+C$",
+      "(b) $\\frac{a(ax+b)^{n+1}}{n+1}+C$",
+      "(c) $\\frac{(ax+b)^{n+1}}{a(n+1)}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "c",
+    "answer": "Using the generalized power rule for integration. Let $t=ax+b$. Then $dt=a dx$, so $dx = \\frac{dt}{a}$.\n$\\int t^n \\frac{dt}{a} = \\frac{1}{a}\\int t^n dt = \\frac{1}{a}\\frac{t^{n+1}}{n+1}+C = \\frac{(ax+b)^{n+1}}{a(n+1)}+C$.\n\n**Correct option is (c).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec x \\tan x dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\sec x+C$",
+      "(b) $\\tan x+C$",
+      "(c) $\\sec x \\tan x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula, as $\\frac{d}{dx}(\\sec x) = \\sec x \\tan x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{1+x^2}$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\tan^{-1}x+C$",
+      "(b) $\\cot^{-1}x+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{1+x^2} = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+2x) dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+x^2+C$",
+      "(b) $2x+2+C$",
+      "(c) $x^3+x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We integrate term by term using the power rule.\n$\\int (x^2+2x) dx = \\int x^2 dx + \\int 2x dx = \\frac{x^3}{3}+2\\frac{x^2}{2}+C = \\frac{x^3}{3}+x^2+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+25} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{5})+C$",
+      "(c) $\\frac{1}{5}\\log|x^2+25|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{x^2+25} = \\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{2x}}{e^{2x}+1} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|e^{2x}+1|+C$",
+      "(b) $\\log|e^{2x}+1|+C$",
+      "(c) $\\frac{1}{2(e^{2x}+1)^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t = e^{2x}+1$. Then $dt = 2e^{2x} dx$, so $e^{2x} dx = \\frac{dt}{2}$.\n$\\int \\frac{e^{2x}}{e^{2x}+1} dx = \\int \\frac{dt}{2t} = \\frac{1}{2}\\log|t|+C = \\frac{1}{2}\\log|e^{2x}+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(4x) dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{1}{4}\\sin(4x)+C$",
+      "(b) $-\\frac{1}{4}\\sin(4x)+C$",
+      "(c) $4\\sin(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\nHere, $a=4$. So, $\\int \\cos(4x) dx = \\frac{\\sin(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x \\sin(x^2) dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $-\\frac{1}{2}\\cos(x^2)+C$",
+      "(b) $\\frac{1}{2}\\cos(x^2)+C$",
+      "(c) $-\\cos(x^2)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2$, then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int \\sin(t) \\frac{dt}{2} = \\frac{1}{2}\\int \\sin(t) dt = -\\frac{1}{2}\\cos(t)+C = -\\frac{1}{2}\\cos(x^2)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\tan x dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\log|\\sec x|+C$",
+      "(b) $\\log|\\cos x|+C$",
+      "(c) $\\log|\\sin x|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\tan x dx = \\log|\\sec x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2-1)^2 dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{x^5}{5}-\\frac{2x^3}{3}+x+C$",
+      "(b) $\\frac{x^5}{5}+\\frac{2x^3}{3}+x+C$",
+      "(c) $(x^2-1)^3+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Expand the integrand: $(x^2-1)^2 = x^4-2x^2+1$.\nIntegrate term by term: $\\int (x^4-2x^2+1) dx = \\frac{x^5}{5}-2\\frac{x^3}{3}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x} dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $\\frac{1}{x^2}+C$",
+      "(c) $1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x}}$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $2\\sqrt{x}+C$",
+      "(b) $\\frac{1}{2\\sqrt{x}}+C$",
+      "(c) $\\frac{1}{2}x^{3/2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{\\sqrt{x}} = x^{-1/2}$. Using the power rule, $\\int x^{-1/2} dx = \\frac{x^{1/2}}{1/2}+C = 2\\sqrt{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x) dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $2\\tan(2x)+C$",
+      "(b) $\\tan(2x)+C$",
+      "(c) $\\frac{1}{2}\\tan(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "c",
+    "answer": "Using the standard formula $\\int \\sec^2(ax+b) dx = \\frac{\\tan(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x) dx = \\frac{\\tan(2x)}{2}+C$.\n\n**Correct option is (c).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2-1}$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|\\frac{x-1}{x+1}|+C$",
+      "(b) $\\log|x^2-1|+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{x+1}{x-1}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2-a^2} = \\frac{1}{2a}\\log|\\frac{x-a}{x+a}|+C$.\nHere, $a=1$. So, $\\int \\frac{dx}{x^2-1} = \\frac{1}{2(1)}\\log|\\frac{x-1}{x+1}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^x}{e^x+2} dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\log|e^x+2|+C$",
+      "(b) $\\frac{1}{2}\\log|e^x+2|+C$",
+      "(c) $e^x+2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^x+2$. Then $dt=e^x dx$.\n$\\int \\frac{dt}{t} = \\log|t|+C = \\log|e^x+2|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2 x dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2 x = \\frac{1+\\cos(2x)}{2}$.\n$\\int \\frac{1+\\cos(2x)}{2} dx = \\frac{1}{2}\\int (1+\\cos(2x)) dx = \\frac{1}{2}(x+\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+1)^3 dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{x^7}{7}+\\frac{3x^5}{5}+x^3+x+C$",
+      "(b) $\\frac{x^7}{7}+\\frac{3x^5}{5}+x^3+x+C$",
+      "(c) $\\frac{x^7}{7}+\\frac{3x^5}{5}+3x^3+x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Expand the integrand: $(x^2+1)^3 = x^6+3x^4+3x^2+1$.\nIntegrate term by term: $\\int (x^6+3x^4+3x^2+1) dx = \\frac{x^7}{7}+3\\frac{x^5}{5}+3\\frac{x^3}{3}+x+C = \\frac{x^7}{7}+\\frac{3x^5}{5}+x^3+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+4}}$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+4}|+C$",
+      "(b) $\\sinh^{-1}(\\frac{x}{2})+C$",
+      "(c) $\\frac{1}{2}\\log|x+\\sqrt{x^2+4}|+C$",
+      "(d) Both (a) and (b)."
+    ],
+    "correct_answer": "d",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$ or $\\sinh^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\log|x+\\sqrt{x^2+4}|+C$ and $\\sinh^{-1}(\\frac{x}{2})+C$ are both correct.\n\n**Correct option is (d).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-1}}$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-1}|+C$",
+      "(b) $\\cosh^{-1}x+C$",
+      "(c) $\\frac{1}{2}\\log|x+\\sqrt{x^2-1}|+C$",
+      "(d) Both (a) and (b)."
+    ],
+    "correct_answer": "d",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$ or $\\cosh^{-1}(\\frac{x}{a})+C$.\nHere, $a=1$. So, $\\log|x+\\sqrt{x^2-1}|+C$ and $\\cosh^{-1}x+C$ are both correct.\n\n**Correct option is (d).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{4-x^2}}$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\sin^{-1}(\\frac{x}{2})+C$",
+      "(b) $\\frac{1}{2}\\sin^{-1}(\\frac{x}{2})+C$",
+      "(c) $\\sin^{-1}(x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\sin^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{\\sqrt{4-x^2}} = \\sin^{-1}(\\frac{x}{2})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\sin(2x)+C$",
+      "(b) $\\frac{\\sin(2x)}{2}+C$",
+      "(c) $2\\sin(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Using the standard formula $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x) dx = \\frac{\\sin(2x)}{2}+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2}$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{1}{x}+C$",
+      "(b) $-\\frac{1}{x}+C$",
+      "(c) $\\log|x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "We can write $\\frac{1}{x^2}=x^{-2}$. Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\n$\\int x^{-2} dx = \\frac{x^{-2+1}}{-2+1}+C = \\frac{x^{-1}}{-1}+C = -\\frac{1}{x}+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(x) dx$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\cos x+C$",
+      "(b) $-\\cos x+C$",
+      "(c) $\\sin x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "This is a standard integral formula. $\\int \\sin x dx = -\\cos x+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log(\\log x)}{x\\log x} dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{(\\log(\\log x))^2}{2}+C$",
+      "(b) $\\log|\\log(\\log x)|+C$",
+      "(c) $\\log(\\log x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t = \\log(\\log x)$. Then $dt = \\frac{1}{\\log x} \\cdot \\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log(\\log x))^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+9} dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{1}{3}\\tan^{-1}(\\frac{x}{3})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{3})+C$",
+      "(c) $3\\tan^{-1}(\\frac{x}{3})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=3$. So, $\\int \\frac{dx}{x^2+9} = \\frac{1}{3}\\tan^{-1}(\\frac{x}{3})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{3x}}{e^{3x}+1} dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\log|e^{3x}+1|+C$",
+      "(b) $\\frac{1}{3}\\log|e^{3x}+1|+C$",
+      "(c) $e^{3x}+1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Let $t=e^{3x}+1$. Then $dt=3e^{3x} dx$, so $e^{3x} dx = \\frac{dt}{3}$.\n$\\int \\frac{dt}{3t} = \\frac{1}{3}\\log|t|+C = \\frac{1}{3}\\log|e^{3x}+1|+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2 x dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2 x = \\frac{1+\\cos(2x)}{2}$.\n$\\int \\frac{1+\\cos(2x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+a^2} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$",
+      "(b) $\\log|x^2+a^2|+C$",
+      "(c) $\\tan^{-1}(\\frac{x}{a})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{9-x^2}}$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\sin^{-1}(\\frac{x}{3})+C$",
+      "(b) $\\frac{1}{3}\\sin^{-1}(\\frac{x}{3})+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\sin^{-1}(\\frac{x}{a})+C$.\nHere, $a=3$. So, $\\int \\frac{dx}{\\sqrt{9-x^2}} = \\sin^{-1}(\\frac{x}{3})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\sec^2 x}{1+\\tan x} dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\log|1+\\tan x|+C$",
+      "(b) $\\tan x+C$",
+      "(c) $\\frac{1}{1+\\tan x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=1+\\tan x$. Then $dt=\\sec^2 x dx$.\n$\\int \\frac{dt}{t} = \\log|t|+C = \\log|1+\\tan x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{x} \\cos(e^x) dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\sin(e^x)+C$",
+      "(b) $\\cos(e^x)+C$",
+      "(c) $e^x \\sin(e^x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^x$. Then $dt=e^x dx$.\n$\\int \\cos(t) dt = \\sin(t)+C = \\sin(e^x)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+4}$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{2})+C$",
+      "(c) $2\\tan^{-1}(\\frac{x}{2})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{x^2+4} = \\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^x}{1+e^x} dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\log(1+e^x)+C$",
+      "(b) $1+e^x+C$",
+      "(c) $\\frac{e^x}{1+e^x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=1+e^x$. Then $dt=e^x dx$.\n$\\int \\frac{dt}{t} = \\log|t|+C = \\log|1+e^x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(2x) dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{-\\cos(2x)}{2}+C$",
+      "(b) $\\frac{\\cos(2x)}{2}+C$",
+      "(c) $-\\cos(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sin(2x) dx = \\frac{-\\cos(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^5 dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $5x^4+C$",
+      "(b) $\\frac{x^6}{6}+C$",
+      "(c) $x^6+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=5$. So, $\\int x^5 dx = \\frac{x^6}{6}+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x} dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $\\frac{1}{x^2}+C$",
+      "(c) $1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+a^2}$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{a})+C$",
+      "(c) $\\log|x^2+a^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+1}}$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+1}|+C$",
+      "(b) $\\sinh^{-1}x+C$",
+      "(c) Both (a) and (b).",
+      "(d) None of these."
+    ],
+    "correct_answer": "c",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$ or $\\sinh^{-1}(\\frac{x}{a})+C$.\nHere, $a=1$. So, both options (a) and (b) are correct.\n\n**Correct option is (c).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin^2 x dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x-\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\sin^2 x = \\frac{1-\\cos(2x)}{2}$.\n$\\int \\frac{1-\\cos(2x)}{2} dx = \\frac{1}{2}\\int (1-\\cos(2x)) dx = \\frac{1}{2}(x-\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x}{x^2+1} dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\log|x^2+1|+C$",
+      "(b) $\\frac{1}{2}\\log|x^2+1|+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Let $t=x^2+1$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int \\frac{dt}{2t} = \\frac{1}{2}\\log|t|+C = \\frac{1}{2}\\log|x^2+1|+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(3x) dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $-\\frac{1}{3}\\cos(3x)+C$",
+      "(b) $\\frac{1}{3}\\cos(3x)+C$",
+      "(c) $\\cos(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sin(3x) dx = \\frac{-\\cos(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{4x} dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{e^{4x}}{4}+C$",
+      "(b) $4e^{4x}+C$",
+      "(c) $e^{4x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=4$. So, $\\int e^{4x} dx = \\frac{e^{4x}}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^2 dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+C$",
+      "(b) $2x+C$",
+      "(c) $3x^3+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=2$. So, $\\int x^2 dx = \\frac{x^3}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{\\sin(2x)}{2}+C$",
+      "(b) $\\sin(2x)+C$",
+      "(c) $2\\sin(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x) dx = \\frac{\\sin(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-a^2}}$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-a^2}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{a})+C$",
+      "(c) $\\tan^{-1}(\\frac{x}{a})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(5x) dx$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan(5x)+C$",
+      "(b) $5\\tan(5x)+C$",
+      "(c) $\\tan(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sec^2(5x) dx = \\frac{\\tan(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+1) dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+x+C$",
+      "(b) $2x+C$",
+      "(c) $x^3+x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Integrate term by term using the power rule.\n$\\int (x^2+1) dx = \\frac{x^3}{3}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(3x) dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $-\\frac{1}{3}\\cos(3x)+C$",
+      "(b) $\\frac{1}{3}\\cos(3x)+C$",
+      "(c) $-\\cos(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sin(3x) dx = \\frac{-\\cos(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{5x} dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $5e^{5x}+C$",
+      "(b) $\\frac{e^{5x}}{5}+C$",
+      "(c) $e^{5x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=5$. So, $\\int e^{5x} dx = \\frac{e^{5x}}{5}+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+49} dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{1}{7}\\tan^{-1}(\\frac{x}{7})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{7})+C$",
+      "(c) $\\frac{1}{7}\\log|x^2+49|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=7$. So, $\\int \\frac{dx}{x^2+49} = \\frac{1}{7}\\tan^{-1}(\\frac{x}{7})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+16} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{4})+C$",
+      "(c) $\\frac{1}{4}\\log|x^2+16|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{x^2+16} = \\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\sec^2 x}{\\tan x} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\log|\\tan x|+C$",
+      "(b) $\\tan x+C$",
+      "(c) $\\frac{1}{2}\\tan^2 x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\tan x$. Then $dt=\\sec^2 x dx$.\n$\\int \\frac{dt}{t} = \\log|t|+C = \\log|\\tan x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2 x dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2 x = \\frac{1+\\cos(2x)}{2}$.\n$\\int \\frac{1+\\cos(2x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-16}}$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-16}|+C$",
+      "(b) $\\frac{1}{8}\\log|\\frac{x-4}{x+4}|+C$",
+      "(c) $\\sin^{-1}(\\frac{x}{4})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{\\sqrt{x^2-16}} = \\log|x+\\sqrt{x^2-16}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x}$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $e^x+C$",
+      "(d) $1+C$"
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x+3} dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{e^{2x+3}}{2}+C$",
+      "(b) $2e^{2x+3}+C$",
+      "(c) $e^{2x+3}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax+b} dx = \\frac{e^{ax+b}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x+3} dx = \\frac{e^{2x+3}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2 x dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\tan x+C$",
+      "(b) $\\cot x+C$",
+      "(c) $\\sec x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\sec^2 x dx = \\tan x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(5x) dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $5\\sin(5x)+C$",
+      "(b) $\\frac{\\sin(5x)}{5}+C$",
+      "(c) $-\\frac{\\sin(5x)}{5}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\cos(5x) dx = \\frac{\\sin(5x)}{5}+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^3 dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{x^4}{4}+C$",
+      "(b) $3x^2+C$",
+      "(c) $\\frac{x^3}{3}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=3$. So, $\\int x^3 dx = \\frac{x^4}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+25}$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{5})+C$",
+      "(c) $\\frac{1}{5}\\log|x^2+25|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{x^2+25} = \\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x}{x^2+4} dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|x^2+4|+C$",
+      "(b) $\\log|x^2+4|+C$",
+      "(c) $\\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2+4$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int \\frac{dt}{2t} = \\frac{1}{2}\\log|t|+C = \\frac{1}{2}\\log|x^2+4|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-x^2}}$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\sin^{-1}x+C$",
+      "(b) $\\tan^{-1}x+C$",
+      "(c) $\\cos^{-1}x+C$",
+      "(d) Both (a) and (b)."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{x} \\cos(e^x) dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\sin(e^x)+C$",
+      "(b) $-\\sin(e^x)+C$",
+      "(c) $\\cos(e^x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^x$. Then $dt=e^x dx$.\n$\\int \\cos(t) dt = \\sin(t)+C = \\sin(e^x)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{\\sqrt{x}} dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $2\\sqrt{x}+C$",
+      "(b) $\\frac{1}{2\\sqrt{x}}+C$",
+      "(c) $\\frac{1}{2}x^{3/2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{\\sqrt{x}} = x^{-1/2}$. Using the power rule, $\\int x^{-1/2} dx = \\frac{x^{1/2}}{1/2}+C = 2\\sqrt{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(4x) dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $-\\frac{1}{4}\\cos(4x)+C$",
+      "(b) $\\frac{1}{4}\\cos(4x)+C$",
+      "(c) $-\\cos(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sin(4x) dx = \\frac{-\\cos(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(3x) dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{3}\\tan(3x)+C$",
+      "(b) $3\\tan(3x)+C$",
+      "(c) $\\tan(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sec^2(3x) dx = \\frac{\\tan(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+4x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+2x^2+C$",
+      "(b) $2x+4+C$",
+      "(c) $x^3+2x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Integrate term by term using the power rule.\n$\\int (x^2+4x) dx = \\frac{x^3}{3}+4\\frac{x^2}{2}+C = \\frac{x^3}{3}+2x^2+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(ax+b) dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{\\sin(ax+b)}{a}+C$",
+      "(b) $a\\sin(ax+b)+C$",
+      "(c) $-\\frac{\\sin(ax+b)}{a}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{2x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt = \\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{e^{2x}}{2}+C$",
+      "(b) $e^{2x}+C$",
+      "(c) $2e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+a^2}}$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+a^2}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{a})+C$",
+      "(c) $\\tan^{-1}(\\frac{x}{a})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2}$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $-\\frac{1}{x}+C$",
+      "(b) $\\frac{1}{x}+C$",
+      "(c) $\\log|x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{x^2}=x^{-2}$. Using the power rule, $\\int x^{-2} dx = \\frac{x^{-1}}{-1}+C = -\\frac{1}{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(x) dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $-\\cos x+C$",
+      "(b) $\\cos x+C$",
+      "(c) $\\sin x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\sin x dx = -\\cos x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2-1} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|\\frac{x-1}{x+1}|+C$",
+      "(b) $\\log|x^2-1|+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{x+1}{x-1}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2-a^2} = \\frac{1}{2a}\\log|\\frac{x-a}{x+a}|+C$.\nHere, $a=1$. So, $\\int \\frac{dx}{x^2-1} = \\frac{1}{2}\\log|\\frac{x-1}{x+1}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\sec^2 x}{\\sqrt{1+\\tan^2 x}} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\log|\\sec x+\\tan x|+C$",
+      "(b) $\\tan x+C$",
+      "(c) $\\sec x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We know that $1+\\tan^2 x = \\sec^2 x$, so $\\sqrt{1+\\tan^2 x} = |\\sec x|$. \nLet $t=\\tan x$, so $dt=\\sec^2 x dx$. The integral becomes $\\int \\frac{dt}{\\sqrt{1+t^2}} = \\log|t+\\sqrt{t^2+1}|+C$.\nSubstituting back, $\\log|\\tan x+\\sqrt{\\tan^2 x+1}|+C = \\log|\\tan x+\\sec x|+C = \\log|\\sec x+\\tan x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x}$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{3x}}{e^{3x}+2} dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{1}{3}\\log|e^{3x}+2|+C$",
+      "(b) $\\log|e^{3x}+2|+C$",
+      "(c) $e^{3x}+2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{3x}+2$. Then $dt=3e^{3x} dx$, so $e^{3x} dx = \\frac{dt}{3}$.\n$\\int \\frac{dt}{3t} = \\frac{1}{3}\\log|t|+C = \\frac{1}{3}\\log|e^{3x}+2|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(5x) dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $-\\frac{1}{5}\\cos(5x)+C$",
+      "(b) $\\frac{1}{5}\\cos(5x)+C$",
+      "(c) $-\\cos(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sin(5x) dx = \\frac{-\\cos(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x+a)^n dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{(x+a)^{n+1}}{n+1}+C$",
+      "(b) $\\frac{(x+a)^{n}}{n}+C$",
+      "(c) $(x+a)^{n+1}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule for a linear function, $\\int (ax+b)^n dx = \\frac{(ax+b)^{n+1}}{a(n+1)}+C$.\nHere, $a=1, b=a$. So, $\\int (x+a)^n dx = \\frac{(x+a)^{n+1}}{n+1}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+4}$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{2})+C$",
+      "(c) $\\frac{1}{2}\\log|x^2+4|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{x^2+4} = \\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+1}}$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+1}|+C$",
+      "(b) $\\sin^{-1}x+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$. Here $a=1$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^x}{e^x+1} dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\log|e^x+1|+C$",
+      "(b) $e^x+1+C$",
+      "(c) $\\frac{1}{(e^x+1)^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t = e^x+1$. Then $dt = e^x dx$. The integral is $\\int \\frac{dt}{t} = \\log|t|+C = \\log|e^x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-x^2}}$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\sin^{-1}x+C$",
+      "(b) $\\tan^{-1}x+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{x+1}{x-1}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x \\cos(x^2) dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{2}\\sin(x^2)+C$",
+      "(b) $\\sin(x^2)+C$",
+      "(c) $-\\frac{1}{2}\\sin(x^2)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int \\cos(t) \\frac{dt}{2} = \\frac{1}{2}\\sin(t)+C = \\frac{1}{2}\\sin(x^2)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(4x) dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan(4x)+C$",
+      "(b) $4\\tan(4x)+C$",
+      "(c) $\\tan(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sec^2(4x) dx = \\frac{\\tan(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x \\log x dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{x^2}{2}\\log x - \\frac{x^2}{4}+C$",
+      "(b) $\\frac{x^2}{2}\\log x - \\frac{x^2}{2}+C$",
+      "(c) $\\frac{x^2}{2}\\log x + \\frac{x^2}{4}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using integration by parts, $\\int u dv = uv - \\int v du$. \nLet $u=\\log x$ and $dv=x dx$. Then $du=\\frac{1}{x} dx$ and $v=\\frac{x^2}{2}$.\n$\\int x \\log x dx = (\\log x)\\frac{x^2}{2} - \\int \\frac{x^2}{2} \\frac{1}{x} dx = \\frac{x^2}{2}\\log x - \\frac{1}{2}\\int x dx$\n$= \\frac{x^2}{2}\\log x - \\frac{1}{2}\\frac{x^2}{2}+C = \\frac{x^2}{2}\\log x - \\frac{x^2}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt = \\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{3x} dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{e^{3x}}{3}+C$",
+      "(b) $3e^{3x}+C$",
+      "(c) $e^{3x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=3$. So, $\\int e^{3x} dx = \\frac{e^{3x}}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(5x) dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $-\\frac{1}{5}\\cos(5x)+C$",
+      "(b) $\\frac{1}{5}\\cos(5x)+C$",
+      "(c) $-\\cos(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sin(5x) dx = \\frac{-\\cos(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan(2x)+C$",
+      "(b) $2\\tan(2x)+C$",
+      "(c) $\\tan(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x) dx = \\frac{\\tan(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-16}}$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-16}|+C$",
+      "(b) $\\frac{1}{8}\\log|\\frac{x-4}{x+4}|+C$",
+      "(c) $\\sin^{-1}(\\frac{x}{4})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$. Here, $a=4$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+25}$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{5})+C$",
+      "(c) $5\\tan^{-1}(\\frac{x}{5})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{x^2+25} = \\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin^2 x dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x-\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\sin^2 x = \\frac{1-\\cos(2x)}{2}$.\n$\\int \\frac{1-\\cos(2x)}{2} dx = \\frac{1}{2}\\int (1-\\cos(2x)) dx = \\frac{1}{2}(x-\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-9x^2}}$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{1}{3}\\sin^{-1}(3x)+C$",
+      "(b) $\\sin^{-1}(3x)+C$",
+      "(c) $3\\sin^{-1}(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=3x$. Then $dt=3 dx$, so $dx = \\frac{dt}{3}$.\n$\\int \\frac{dt/3}{\\sqrt{1-t^2}} = \\frac{1}{3}\\int \\frac{dt}{\\sqrt{1-t^2}} = \\frac{1}{3}\\sin^{-1}(t)+C = \\frac{1}{3}\\sin^{-1}(3x)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{4x}}{e^{4x}+1} dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{1}{4}\\log|e^{4x}+1|+C$",
+      "(b) $\\log|e^{4x}+1|+C$",
+      "(c) $e^{4x}+1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{4x}+1$. Then $dt=4e^{4x} dx$, so $e^{4x} dx = \\frac{dt}{4}$.\n$\\int \\frac{dt}{4t} = \\frac{1}{4}\\log|t|+C = \\frac{1}{4}\\log|e^{4x}+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2(3x) dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(6x)}{12}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(6x)}{12}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(6x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2(3x) = \\frac{1+\\cos(6x)}{2}$.\n$\\int \\frac{1+\\cos(6x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(6x)}{6})+C = \\frac{x}{2}+\\frac{\\sin(6x)}{12}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{1-x^2} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|\\frac{1+x}{1-x}|+C$",
+      "(b) $\\log|1-x^2|+C$",
+      "(c) $\\tanh^{-1}x+C$",
+      "(d) Both (a) and (c)."
+    ],
+    "correct_answer": "d",
+    "answer": "Using the standard formula $\\int \\frac{dx}{a^2-x^2} = \\frac{1}{2a}\\log|\\frac{a+x}{a-x}|+C$.\nHere, $a=1$. So, $\\frac{1}{2}\\log|\\frac{1+x}{1-x}|+C$. Also, $\\int \\frac{dx}{1-x^2}=\\tanh^{-1}x+C$.\n\n**Correct option is (d).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1+x^2}}$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+1}|+C$",
+      "(b) $\\sin^{-1}x+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$. Here, $a=1$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{e^x}$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $-e^{-x}+C$",
+      "(b) $e^{-x}+C$",
+      "(c) $e^x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{e^x}=e^{-x}$.\n$\\int e^{-x} dx = \\frac{e^{-x}}{-1}+C = -e^{-x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x e^{x^2} dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{1}{2}e^{x^2}+C$",
+      "(b) $e^{x^2}+C$",
+      "(c) $2e^{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int e^t \\frac{dt}{2} = \\frac{1}{2}e^t+C = \\frac{1}{2}e^{x^2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(2x+3) dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $-\\frac{1}{2}\\cos(2x+3)+C$",
+      "(b) $\\frac{1}{2}\\cos(2x+3)+C$",
+      "(c) $-\\cos(2x+3)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax+b) dx = \\frac{-\\cos(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\sin(2x+3) dx = \\frac{-\\cos(2x+3)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x}$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+1}$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\tan^{-1}x+C$",
+      "(b) $\\frac{1}{2}\\tan^{-1}x+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+1} = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x) dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\frac{\\sin(2x)}{2}+C$",
+      "(b) $2\\sin(2x)+C$",
+      "(c) $-\\frac{\\sin(2x)}{2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x) dx = \\frac{\\sin(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{25-x^2}}$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\sin^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\frac{1}{5}\\sin^{-1}(\\frac{x}{5})+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\sin^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{\\sqrt{25-x^2}} = \\sin^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\tan^2 x dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\tan x-x+C$",
+      "(b) $\\tan x+x+C$",
+      "(c) $\\sec^2 x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We use the identity $\\tan^2 x = \\sec^2 x - 1$.\n$\\int (\\sec^2 x-1) dx = \\int \\sec^2 x dx - \\int 1 dx = \\tan x - x + C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+9}$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{3}\\tan^{-1}(\\frac{x}{3})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{3})+C$",
+      "(c) $3\\tan^{-1}(\\frac{x}{3})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=3$. So, $\\int \\frac{dx}{x^2+9} = \\frac{1}{3}\\tan^{-1}(\\frac{x}{3})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x+1) dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan(2x+1)+C$",
+      "(b) $2\\tan(2x+1)+C$",
+      "(c) $\\tan(2x+1)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax+b) dx = \\frac{\\tan(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x+1) dx = \\frac{\\tan(2x+1)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(3x) dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{1}{3}\\sin(3x)+C$",
+      "(b) $-\\frac{1}{3}\\sin(3x)+C$",
+      "(c) $3\\sin(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\cos(3x) dx = \\frac{\\sin(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{e^{2x}}{2}+C$",
+      "(b) $2e^{2x}+C$",
+      "(c) $e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2} dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $-\\frac{1}{x}+C$",
+      "(b) $\\frac{1}{x}+C$",
+      "(c) $\\log|x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{x^2}=x^{-2}$. Using the power rule, $\\int x^{-2} dx = \\frac{x^{-1}}{-1}+C = -\\frac{1}{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(ax+b) dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{\\sin(ax+b)}{a}+C$",
+      "(b) $a\\sin(ax+b)+C$",
+      "(c) $-\\frac{\\sin(ax+b)}{a}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^4 dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{x^5}{5}+C$",
+      "(b) $4x^3+C$",
+      "(c) $x^5+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^4 dx = \\frac{x^5}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(4x) dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $-\\frac{1}{4}\\cos(4x)+C$",
+      "(b) $\\frac{1}{4}\\cos(4x)+C$",
+      "(c) $-\\cos(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sin(4x) dx = \\frac{-\\cos(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{e^{2x}}{2}+C$",
+      "(b) $2e^{2x}+C$",
+      "(c) $e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+1}$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\tan^{-1}x+C$",
+      "(b) $\\cot^{-1}x+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+1} = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{2x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt=\\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x+1) dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{\\sin(2x+1)}{2}+C$",
+      "(b) $\\sin(2x+1)+C$",
+      "(c) $2\\sin(2x+1)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x+1) dx = \\frac{\\sin(2x+1)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+16}$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{4})+C$",
+      "(c) $4\\tan^{-1}(\\frac{x}{4})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{x^2+16} = \\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^3 dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{x^4}{4}+C$",
+      "(b) $3x^2+C$",
+      "(c) $4x^4+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=3$. So, $\\int x^3 dx = \\frac{x^4}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\sec^2 x}{1+\\tan^2 x} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\tan x+C$",
+      "(b) $x+C$",
+      "(c) $\\frac{1}{2}\\tan^2 x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Using the identity $1+\\tan^2 x=\\sec^2 x$. The integrand becomes $\\frac{\\sec^2 x}{\\sec^2 x}=1$.\n$\\int 1 dx = x+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-x^2}}$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\sin^{-1}x+C$",
+      "(b) $\\tan^{-1}x+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{1+x}{1-x}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{x} \\sin(e^x) dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $-\\cos(e^x)+C$",
+      "(b) $\\cos(e^x)+C$",
+      "(c) $e^x \\sin(e^x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^x$. Then $dt=e^x dx$.\n$\\int \\sin(t) dt = -\\cos(t)+C = -\\cos(e^x)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\tan x dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\log|\\sec x|+C$",
+      "(b) $\\log|\\cos x|+C$",
+      "(c) $\\log|\\sin x|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\tan x dx = \\log|\\sec x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+1)^2 dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{x^5}{5}+\\frac{2x^3}{3}+x+C$",
+      "(b) $\\frac{x^5}{5}+x^3+x+C$",
+      "(c) $\\frac{x^5}{5}+x^3+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Expand the integrand: $(x^2+1)^2 = x^4+2x^2+1$.\nIntegrate term by term: $\\int (x^4+2x^2+1) dx = \\frac{x^5}{5}+2\\frac{x^3}{3}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(3x) dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{1}{3}\\tan(3x)+C$",
+      "(b) $3\\tan(3x)+C$",
+      "(c) $\\tan(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sec^2(3x) dx = \\frac{\\tan(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^2 dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+C$",
+      "(b) $2x+C$",
+      "(c) $3x^3+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=2$. So, $\\int x^2 dx = \\frac{x^3}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x+1) dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{\\sin(2x+1)}{2}+C$",
+      "(b) $\\sin(2x+1)+C$",
+      "(c) $2\\sin(2x+1)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x+1) dx = \\frac{\\sin(2x+1)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^x}{e^x-1} dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\log|e^x-1|+C$",
+      "(b) $e^x-1+C$",
+      "(c) $\\frac{1}{e^x-1}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^x-1$. Then $dt=e^x dx$.\n$\\int \\frac{dt}{t} = \\log|t|+C = \\log|e^x-1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (ax+b)^n dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{(ax+b)^{n+1}}{a(n+1)}+C$",
+      "(b) $\\frac{(ax+b)^{n+1}}{n+1}+C$",
+      "(c) $a\\frac{(ax+b)^{n+1}}{n+1}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the generalized power rule for integration, $\\int (ax+b)^n dx = \\frac{(ax+b)^{n+1}}{a(n+1)}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x^2}{x^3+1} dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\log|x^3+1|+C$",
+      "(b) $\\frac{1}{3}\\log|x^3+1|+C$",
+      "(c) $\\frac{1}{2}\\log|x^3+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Let $t=x^3+1$. Then $dt=3x^2 dx$, so $x^2 dx = \\frac{dt}{3}$.\n$\\int \\frac{dt}{3t} = \\frac{1}{3}\\log|t|+C = \\frac{1}{3}\\log|x^3+1|+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x}$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2 x dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2 x = \\frac{1+\\cos(2x)}{2}$.\n$\\int \\frac{1+\\cos(2x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-x^2}}$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\sin^{-1}x+C$",
+      "(b) $\\cos^{-1}x+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\tan x dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\log|\\sec x|+C$",
+      "(b) $\\log|\\cos x|+C$",
+      "(c) $\\log|\\sin x|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\tan x dx = \\log|\\sec x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^2+1 dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+x+C$",
+      "(b) $2x+C$",
+      "(c) $x^3+x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Integrate term by term using the power rule.\n$\\int (x^2+1) dx = \\frac{x^3}{3}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{e^{2x}}{2}+C$",
+      "(b) $2e^{2x}+C$",
+      "(c) $e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(ax) dx$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{-\\cos(ax)}{a}+C$",
+      "(b) $\\frac{\\cos(ax)}{a}+C$",
+      "(c) $-\\cos(ax)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+25}$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{5})+C$",
+      "(c) $5\\tan^{-1}(\\frac{x}{5})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{x^2+25} = \\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^4 dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{x^5}{5}+C$",
+      "(b) $4x^3+C$",
+      "(c) $x^5+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^4 dx = \\frac{x^5}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{\\sqrt{x^2+1}}$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+1}|+C$",
+      "(b) $\\sinh^{-1}x+C$",
+      "(c) Both (a) and (b).",
+      "(d) None of these."
+    ],
+    "correct_answer": "c",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$ or $\\sinh^{-1}(\\frac{x}{a})+C$. Here $a=1$.\n\n**Correct option is (c).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt = \\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-x^2}}$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\sin^{-1}x+C$",
+      "(b) $\\cos^{-1}x+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) Both (a) and (b)."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{3x} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{e^{3x}}{3}+C$",
+      "(b) $3e^{3x}+C$",
+      "(c) $e^{3x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=3$. So, $\\int e^{3x} dx = \\frac{e^{3x}}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x+1) dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan(2x+1)+C$",
+      "(b) $2\\tan(2x+1)+C$",
+      "(c) $\\tan(2x+1)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax+b) dx = \\frac{\\tan(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x+1) dx = \\frac{\\tan(2x+1)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x) dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{\\sin(2x)}{2}+C$",
+      "(b) $2\\sin(2x)+C$",
+      "(c) $-\\frac{\\sin(2x)}{2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x) dx = \\frac{\\sin(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\sec^2 x}{\\tan x} dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\log|\\tan x|+C$",
+      "(b) $\\tan x+C$",
+      "(c) $\\frac{1}{2}\\tan^2 x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\tan x$. Then $dt=\\sec^2 x dx$.\n$\\int \\frac{dt}{t} = \\log|t|+C = \\log|\\tan x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{4x}}{e^{4x}+1} dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{1}{4}\\log|e^{4x}+1|+C$",
+      "(b) $\\log|e^{4x}+1|+C$",
+      "(c) $e^{4x}+1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{4x}+1$. Then $dt=4e^{4x} dx$, so $e^{4x} dx = \\frac{dt}{4}$.\n$\\int \\frac{dt}{4t} = \\frac{1}{4}\\log|t|+C = \\frac{1}{4}\\log|e^{4x}+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(2x) dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{-\\cos(2x)}{2}+C$",
+      "(b) $\\frac{\\cos(2x)}{2}+C$",
+      "(c) $-\\cos(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sin(2x) dx = \\frac{-\\cos(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x} dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2(x) dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2 x = \\frac{1+\\cos(2x)}{2}$.\n$\\int \\frac{1+\\cos(2x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{5x} dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{e^{5x}}{5}+C$",
+      "(b) $5e^{5x}+C$",
+      "(c) $e^{5x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=5$. So, $\\int e^{5x} dx = \\frac{e^{5x}}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x^2}{x^3+2} dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{3}\\log|x^3+2|+C$",
+      "(b) $\\log|x^3+2|+C$",
+      "(c) $\\frac{1}{2}\\log|x^3+2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^3+2$. Then $dt=3x^2 dx$, so $x^2 dx = \\frac{dt}{3}$.\n$\\int \\frac{dt}{3t} = \\frac{1}{3}\\log|t|+C = \\frac{1}{3}\\log|x^3+2|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(x) dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\tan x+C$",
+      "(b) $\\cot x+C$",
+      "(c) $\\sec x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\sec^2 x dx = \\tan x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+a^2}}$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+a^2}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{a})+C$",
+      "(c) $\\tan^{-1}(\\frac{x}{a})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(2x) dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{-\\cos(2x)}{2}+C$",
+      "(b) $\\frac{\\cos(2x)}{2}+C$",
+      "(c) $-\\cos(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sin(2x) dx = \\frac{-\\cos(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{5x}}{e^{5x}+1} dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{1}{5}\\log|e^{5x}+1|+C$",
+      "(b) $\\log|e^{5x}+1|+C$",
+      "(c) $e^{5x}+1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{5x}+1$. Then $dt=5e^{5x} dx$, so $e^{5x} dx = \\frac{dt}{5}$.\n$\\int \\frac{dt}{5t} = \\frac{1}{5}\\log|t|+C = \\frac{1}{5}\\log|e^{5x}+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+a^2}$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{a})+C$",
+      "(c) $\\log|x^2+a^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(3x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $-\\frac{1}{3}\\cos(3x)+C$",
+      "(b) $\\frac{1}{3}\\cos(3x)+C$",
+      "(c) $-\\cos(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sin(3x) dx = \\frac{-\\cos(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^2 dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+C$",
+      "(b) $2x+C$",
+      "(c) $x^3+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=2$. So, $\\int x^2 dx = \\frac{x^3}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{4x} dx$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{e^{4x}}{4}+C$",
+      "(b) $4e^{4x}+C$",
+      "(c) $e^{4x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=4$. So, $\\int e^{4x} dx = \\frac{e^{4x}}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2-1}$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|\\frac{x-1}{x+1}|+C$",
+      "(b) $\\log|x^2-1|+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{x+1}{x-1}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2-a^2} = \\frac{1}{2a}\\log|\\frac{x-a}{x+a}|+C$.\nHere, $a=1$. So, $\\int \\frac{dx}{x^2-1} = \\frac{1}{2}\\log|\\frac{x-1}{x+1}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec x \\tan x dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\sec x+C$",
+      "(b) $\\tan x+C$",
+      "(c) $\\sec x \\tan x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula, as $\\frac{d}{dx}(\\sec x) = \\sec x \\tan x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{5x}}{e^{5x}+2} dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{1}{5}\\log|e^{5x}+2|+C$",
+      "(b) $\\log|e^{5x}+2|+C$",
+      "(c) $e^{5x}+2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{5x}+2$. Then $dt=5e^{5x} dx$, so $e^{5x} dx = \\frac{dt}{5}$.\n$\\int \\frac{dt}{5t} = \\frac{1}{5}\\log|t|+C = \\frac{1}{5}\\log|e^{5x}+2|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2(4x) dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(8x)}{16}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(8x)}{16}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(8x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2(4x) = \\frac{1+\\cos(8x)}{2}$.\n$\\int \\frac{1+\\cos(8x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(8x)}{8})+C = \\frac{x}{2}+\\frac{\\sin(8x)}{16}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+36} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{6}\\tan^{-1}(\\frac{x}{6})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{6})+C$",
+      "(c) $6\\tan^{-1}(\\frac{x}{6})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=6$. So, $\\int \\frac{dx}{x^2+36} = \\frac{1}{6}\\tan^{-1}(\\frac{x}{6})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2(5x) dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(10x)}{20}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(10x)}{20}+C$",
+      "(c) $\\frac{x}{2}+\\frac{\\sin(5x)}{10}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2(5x) = \\frac{1+\\cos(10x)}{2}$.\n$\\int \\frac{1+\\cos(10x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(10x)}{10})+C = \\frac{x}{2}+\\frac{\\sin(10x)}{20}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{25-x^2}}$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\sin^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\frac{1}{5}\\sin^{-1}(\\frac{x}{5})+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\sin^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{\\sqrt{25-x^2}} = \\sin^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+2x-1) dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+x^2-x+C$",
+      "(b) $2x+2+C$",
+      "(c) $x^3+x^2-x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Integrate term by term using the power rule.\n$\\int (x^2+2x-1) dx = \\frac{x^3}{3}+2\\frac{x^2}{2}-x+C = \\frac{x^3}{3}+x^2-x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+1}$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\tan^{-1}x+C$",
+      "(b) $\\cot^{-1}x+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+1} = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{4-x^2}}$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\sin^{-1}(\\frac{x}{2})+C$",
+      "(b) $\\frac{1}{2}\\sin^{-1}(\\frac{x}{2})+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\sin^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{\\sqrt{4-x^2}} = \\sin^{-1}(\\frac{x}{2})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(5x) dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{\\sin(5x)}{5}+C$",
+      "(b) $-\\frac{\\sin(5x)}{5}+C$",
+      "(c) $5\\sin(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\cos(5x) dx = \\frac{\\sin(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{-x} dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $-e^{-x}+C$",
+      "(b) $e^{-x}+C$",
+      "(c) $-e^x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=-1$. So, $\\int e^{-x} dx = \\frac{e^{-x}}{-1}+C = -e^{-x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x^2}{x^3+1} dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{1}{3}\\log|x^3+1|+C$",
+      "(b) $\\log|x^3+1|+C$",
+      "(c) $\\frac{1}{2}\\log|x^3+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^3+1$. Then $dt=3x^2 dx$, so $x^2 dx = \\frac{dt}{3}$.\n$\\int \\frac{dt}{3t} = \\frac{1}{3}\\log|t|+C = \\frac{1}{3}\\log|x^3+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-1}}$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-1}|+C$",
+      "(b) $\\sin^{-1}x+C$",
+      "(c) $\\cosh^{-1}x+C$",
+      "(d) Both (a) and (c)."
+    ],
+    "correct_answer": "d",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$ or $\\cosh^{-1}(\\frac{x}{a})+C$.\nHere, $a=1$. So, both options (a) and (c) are correct.\n\n**Correct option is (d).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin^2(2x) dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$",
+      "(b) $\\frac{x}{2}+\\frac{\\sin(4x)}{8}+C$",
+      "(c) $\\frac{1}{2}(x-\\sin(4x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\sin^2(2x) = \\frac{1-\\cos(4x)}{2}$.\n$\\int \\frac{1-\\cos(4x)}{2} dx = \\frac{1}{2}(x-\\frac{\\sin(4x)}{4})+C = \\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2}$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $-\\frac{1}{x}+C$",
+      "(b) $\\frac{1}{x}+C$",
+      "(c) $\\log|x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{x^2}=x^{-2}$. Using the power rule, $\\int x^{-2} dx = \\frac{x^{-1}}{-1}+C = -\\frac{1}{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt=\\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(4x) dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan(4x)+C$",
+      "(b) $4\\tan(4x)+C$",
+      "(c) $\\tan(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sec^2(4x) dx = \\frac{\\tan(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{e^{2x}}{2}+C$",
+      "(b) $2e^{2x}+C$",
+      "(c) $e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(3x) dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{3}\\sin(3x)+C$",
+      "(b) $-\\frac{1}{3}\\sin(3x)+C$",
+      "(c) $\\sin(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\cos(3x) dx = \\frac{\\sin(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(2x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $-\\frac{1}{2}\\cos(2x)+C$",
+      "(b) $\\frac{1}{2}\\cos(2x)+C$",
+      "(c) $-\\cos(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sin(2x) dx = \\frac{-\\cos(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+1}$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\tan^{-1}x+C$",
+      "(b) $\\cot^{-1}x+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+1} = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x}}$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $2\\sqrt{x}+C$",
+      "(b) $\\frac{1}{2\\sqrt{x}}+C$",
+      "(c) $\\frac{1}{2}x^{3/2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{\\sqrt{x}} = x^{-1/2}$. Using the power rule, $\\int x^{-1/2} dx = \\frac{x^{1/2}}{1/2}+C = 2\\sqrt{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin^2(2x) dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$",
+      "(b) $\\frac{x}{2}+\\frac{\\sin(4x)}{8}+C$",
+      "(c) $\\frac{1}{2}(x-\\sin(4x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\sin^2(2x) = \\frac{1-\\cos(4x)}{2}$.\n$\\int \\frac{1-\\cos(4x)}{2} dx = \\frac{1}{2}(x-\\frac{\\sin(4x)}{4})+C = \\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2(3x) dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(6x)}{12}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(6x)}{12}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(6x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2(3x) = \\frac{1+\\cos(6x)}{2}$.\n$\\int \\frac{1+\\cos(6x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(6x)}{6})+C = \\frac{x}{2}+\\frac{\\sin(6x)}{12}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+25}$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{5})+C$",
+      "(c) $5\\tan^{-1}(\\frac{x}{5})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{x^2+25} = \\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{x} \\cos(e^x) dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\sin(e^x)+C$",
+      "(b) $-\\sin(e^x)+C$",
+      "(c) $\\cos(e^x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^x$. Then $dt=e^x dx$.\n$\\int \\cos(t) dt = \\sin(t)+C = \\sin(e^x)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+1}$ dx is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\tan^{-1}x+C$",
+      "(b) $\\cot^{-1}x+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+1} = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{2x}}{e^{2x}+1} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|e^{2x}+1|+C$",
+      "(b) $\\log|e^{2x}+1|+C$",
+      "(c) $\\frac{1}{2(e^{2x}+1)^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{2x}+1$. Then $dt=2e^{2x} dx$, so $e^{2x} dx = \\frac{dt}{2}$.\n$\\int \\frac{dt}{2t} = \\frac{1}{2}\\log|t|+C = \\frac{1}{2}\\log|e^{2x}+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(3x) dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $-\\frac{1}{3}\\cos(3x)+C$",
+      "(b) $\\frac{1}{3}\\cos(3x)+C$",
+      "(c) $\\cos(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sin(3x) dx = \\frac{-\\cos(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x}$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(4x) dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{1}{4}\\sin(4x)+C$",
+      "(b) $-\\frac{1}{4}\\sin(4x)+C$",
+      "(c) $4\\sin(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\cos(4x) dx = \\frac{\\sin(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x) dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan(2x)+C$",
+      "(b) $2\\tan(2x)+C$",
+      "(c) $\\tan(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x) dx = \\frac{\\tan(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-4}}$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-4}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{2})+C$",
+      "(c) $\\frac{1}{4}\\log|\\frac{x-2}{x+2}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$. Here, $a=2$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^2 dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+C$",
+      "(b) $2x+C$",
+      "(c) $3x^3+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=2$. So, $\\int x^2 dx = \\frac{x^3}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(3x) dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{1}{3}\\sin(3x)+C$",
+      "(b) $-\\frac{1}{3}\\sin(3x)+C$",
+      "(c) $\\sin(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\cos(3x) dx = \\frac{\\sin(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{3x+1} dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{e^{3x+1}}{3}+C$",
+      "(b) $3e^{3x+1}+C$",
+      "(c) $e^{3x+1}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax+b} dx = \\frac{e^{ax+b}}{a}+C$.\nHere, $a=3$. So, $\\int e^{3x+1} dx = \\frac{e^{3x+1}}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x^3}{x^4+1} dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{4}\\log|x^4+1|+C$",
+      "(b) $\\log|x^4+1|+C$",
+      "(c) $\\frac{1}{3}\\log|x^4+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^4+1$. Then $dt=4x^3 dx$, so $x^3 dx = \\frac{dt}{4}$.\n$\\int \\frac{dt}{4t} = \\frac{1}{4}\\log|t|+C = \\frac{1}{4}\\log|x^4+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+16}$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{4})+C$",
+      "(c) $4\\tan^{-1}(\\frac{x}{4})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{x^2+16} = \\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(4x) dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $-\\frac{1}{4}\\cos(4x)+C$",
+      "(b) $\\frac{1}{4}\\cos(4x)+C$",
+      "(c) $-\\cos(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sin(4x) dx = \\frac{-\\cos(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x) dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan(2x)+C$",
+      "(b) $2\\tan(2x)+C$",
+      "(c) $\\tan(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x) dx = \\frac{\\tan(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^5 dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{x^6}{6}+C$",
+      "(b) $5x^4+C$",
+      "(c) $x^6+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=5$. So, $\\int x^5 dx = \\frac{x^6}{6}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{-x} dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $-e^{-x}+C$",
+      "(b) $e^{-x}+C$",
+      "(c) $-e^x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=-1$. So, $\\int e^{-x} dx = \\frac{e^{-x}}{-1}+C = -e^{-x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\log x dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $x \\log x - x+C$",
+      "(b) $\\frac{(\\log x)^2}{2}+C$",
+      "(c) $x \\log x+x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using integration by parts, $\\int u dv = uv - \\int v du$. \nLet $u=\\log x$ and $dv=1 dx$. Then $du=\\frac{1}{x} dx$ and $v=x$.\n$\\int \\log x dx = x \\log x - \\int x \\frac{1}{x} dx = x \\log x - \\int 1 dx = x \\log x - x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+a^2}$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{a})+C$",
+      "(c) $\\log|x^2+a^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+16}}$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+16}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{4})+C$",
+      "(c) $\\frac{1}{4}\\log|x+\\sqrt{x^2+16}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$. Here, $a=4$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2(2x) dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(4x)}{8}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(4x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2(2x) = \\frac{1+\\cos(4x)}{2}$.\n$\\int \\frac{1+\\cos(4x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(4x)}{4})+C = \\frac{x}{2}+\\frac{\\sin(4x)}{8}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(5x) dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $-\\frac{1}{5}\\cos(5x)+C$",
+      "(b) $\\frac{1}{5}\\cos(5x)+C$",
+      "(c) $-\\cos(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sin(5x) dx = \\frac{-\\cos(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x+3} dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{e^{2x+3}}{2}+C$",
+      "(b) $2e^{2x+3}+C$",
+      "(c) $e^{2x+3}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax+b} dx = \\frac{e^{ax+b}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x+3} dx = \\frac{e^{2x+3}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x}$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\log|x|+C$",
+      "(b) $x+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{1}{x} dx = \\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2-4} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{1}{4}\\log|\\frac{x-2}{x+2}|+C$",
+      "(b) $\\log|x^2-4|+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{x-2}{x+2}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2-a^2} = \\frac{1}{2a}\\log|\\frac{x-a}{x+a}|+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{x^2-4} = \\frac{1}{2(2)}\\log|\\frac{x-2}{x+2}|+C = \\frac{1}{4}\\log|\\frac{x-2}{x+2}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\sin x}{1+\\cos x} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\log|1+\\cos x|+C$",
+      "(b) $-\\log|1+\\cos x|+C$",
+      "(c) $\\log|1+\\sin x|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "Let $t=1+\\cos x$. Then $dt=-\\sin x dx$, so $\\sin x dx = -dt$.\n$\\int \\frac{-dt}{t} = -\\log|t|+C = -\\log|1+\\cos x|+C$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x \\sin(x^2) dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $-\\frac{1}{2}\\cos(x^2)+C$",
+      "(b) $\\frac{1}{2}\\cos(x^2)+C$",
+      "(c) $-\\cos(x^2)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int \\sin(t) \\frac{dt}{2} = \\frac{1}{2}\\int \\sin(t) dt = -\\frac{1}{2}\\cos(t)+C = -\\frac{1}{2}\\cos(x^2)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{1-x^2}}$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\sin^{-1}x+C$",
+      "(b) $\\tan^{-1}x+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{1+x}{1-x}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x+3) dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{\\sin(2x+3)}{2}+C$",
+      "(b) $\\sin(2x+3)+C$",
+      "(c) $2\\sin(2x+3)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x+3) dx = \\frac{\\sin(2x+3)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2 x dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\tan x+C$",
+      "(b) $\\cot x+C$",
+      "(c) $\\sec x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\sec^2 x dx = \\tan x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{e^{2x}}{2}+C$",
+      "(b) $2e^{2x}+C$",
+      "(c) $e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2}$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $-\\frac{1}{x}+C$",
+      "(b) $\\frac{1}{x}+C$",
+      "(c) $\\log|x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{x^2}=x^{-2}$. Using the power rule, $\\int x^{-2} dx = \\frac{x^{-1}}{-1}+C = -\\frac{1}{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(3x) dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $-\\frac{1}{3}\\cos(3x)+C$",
+      "(b) $\\frac{1}{3}\\cos(3x)+C$",
+      "(c) $-\\cos(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sin(3x) dx = \\frac{-\\cos(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x^2+2) dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{x^3}{3}+2x+C$",
+      "(b) $2x+C$",
+      "(c) $x^3+2x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Integrate term by term using the power rule.\n$\\int (x^2+2) dx = \\frac{x^3}{3}+2x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(5x) dx$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan(5x)+C$",
+      "(b) $5\\tan(5x)+C$",
+      "(c) $\\tan(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sec^2(5x) dx = \\frac{\\tan(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{1-x^2}$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|\\frac{1+x}{1-x}|+C$",
+      "(b) $\\tan^{-1}x+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{a^2-x^2} = \\frac{1}{2a}\\log|\\frac{a+x}{a-x}|+C$.\nHere, $a=1$. So, $\\int \\frac{dx}{1-x^2} = \\frac{1}{2}\\log|\\frac{1+x}{1-x}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(5x) dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{\\sin(5x)}{5}+C$",
+      "(b) $-\\frac{\\sin(5x)}{5}+C$",
+      "(c) $5\\sin(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\cos(5x) dx = \\frac{\\sin(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^4 dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{x^5}{5}+C$",
+      "(b) $4x^3+C$",
+      "(c) $x^5+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^4 dx = \\frac{x^5}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+4}$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{2})+C$",
+      "(c) $2\\tan^{-1}(\\frac{x}{2})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{x^2+4} = \\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2(2x) dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(4x)}{8}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(4x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2(2x) = \\frac{1+\\cos(4x)}{2}$.\n$\\int \\frac{1+\\cos(4x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(4x)}{4})+C = \\frac{x}{2}+\\frac{\\sin(4x)}{8}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2-16}$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{1}{8}\\log|\\frac{x-4}{x+4}|+C$",
+      "(b) $\\log|x^2-16|+C$",
+      "(c) $\\frac{1}{4}\\log|\\frac{x-4}{x+4}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2-a^2} = \\frac{1}{2a}\\log|\\frac{x-a}{x+a}|+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{x^2-16} = \\frac{1}{2(4)}\\log|\\frac{x-4}{x+4}|+C = \\frac{1}{8}\\log|\\frac{x-4}{x+4}|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{3x} dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{e^{3x}}{3}+C$",
+      "(b) $3e^{3x}+C$",
+      "(c) $e^{3x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=3$. So, $\\int e^{3x} dx = \\frac{e^{3x}}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+9}}$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+9}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{3})+C$",
+      "(c) $\\tan^{-1}(\\frac{x}{3})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$. Here, $a=3$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x}{x^2+1} dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|x^2+1|+C$",
+      "(b) $\\log|x^2+1|+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2+1$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int \\frac{dt}{2t} = \\frac{1}{2}\\log|t|+C = \\frac{1}{2}\\log|x^2+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{4x}}{e^{4x}+1} dx$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{1}{4}\\log|e^{4x}+1|+C$",
+      "(b) $\\log|e^{4x}+1|+C$",
+      "(c) $e^{4x}+1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{4x}+1$. Then $dt=4e^{4x} dx$, so $e^{4x} dx = \\frac{dt}{4}$.\n$\\int \\frac{dt}{4t} = \\frac{1}{4}\\log|t|+C = \\frac{1}{4}\\log|e^{4x}+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(3x) dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $-\\frac{1}{3}\\cos(3x)+C$",
+      "(b) $\\frac{1}{3}\\cos(3x)+C$",
+      "(c) $-\\cos(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sin(3x) dx = \\frac{-\\cos(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x+1) dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan(2x+1)+C$",
+      "(b) $2\\tan(2x+1)+C$",
+      "(c) $\\tan(2x+1)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax+b) dx = \\frac{\\tan(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x+1) dx = \\frac{\\tan(2x+1)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{\\sqrt{9-x^2}} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\sin^{-1}(\\frac{x}{3})+C$",
+      "(b) $\\frac{1}{3}\\sin^{-1}(\\frac{x}{3})+C$",
+      "(c) $\\sin^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\sin^{-1}(\\frac{x}{a})+C$.\nHere, $a=3$. So, $\\int \\frac{dx}{\\sqrt{9-x^2}} = \\sin^{-1}(\\frac{x}{3})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{2x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt=\\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(4x) dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $-\\frac{1}{4}\\cos(4x)+C$",
+      "(b) $\\frac{1}{4}\\cos(4x)+C$",
+      "(c) $-\\cos(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sin(4x) dx = \\frac{-\\cos(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x+3} dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{e^{2x+3}}{2}+C$",
+      "(b) $2e^{2x+3}+C$",
+      "(c) $e^{2x+3}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax+b} dx = \\frac{e^{ax+b}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x+3} dx = \\frac{e^{2x+3}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(3x) dx$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{1}{3}\\tan(3x)+C$",
+      "(b) $3\\tan(3x)+C$",
+      "(c) $\\tan(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sec^2(3x) dx = \\frac{\\tan(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^5 dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{x^6}{6}+C$",
+      "(b) $5x^4+C$",
+      "(c) $x^6+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=5$. So, $\\int x^5 dx = \\frac{x^6}{6}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{1}{x^2+9} dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{1}{3}\\tan^{-1}(\\frac{x}{3})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{3})+C$",
+      "(c) $\\log|x^2+9|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=3$. So, $\\int \\frac{dx}{x^2+9} = \\frac{1}{3}\\tan^{-1}(\\frac{x}{3})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{x}{x^2+1} dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\frac{1}{2}\\log|x^2+1|+C$",
+      "(b) $\\log|x^2+1|+C$",
+      "(c) $\\tan^{-1}x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=x^2+1$. Then $dt=2x dx$, so $x dx = \\frac{dt}{2}$.\n$\\int \\frac{dt}{2t} = \\frac{1}{2}\\log|t|+C = \\frac{1}{2}\\log|x^2+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos^2 x dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x+\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\cos^2 x = \\frac{1+\\cos(2x)}{2}$.\n$\\int \\frac{1+\\cos(2x)}{2} dx = \\frac{1}{2}(x+\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{4x} dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{e^{4x}}{4}+C$",
+      "(b) $4e^{4x}+C$",
+      "(c) $e^{4x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=4$. So, $\\int e^{4x} dx = \\frac{e^{4x}}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-a^2}}$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-a^2}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{a})+C$",
+      "(c) $\\cosh^{-1}(\\frac{x}{a})+C$",
+      "(d) Both (a) and (c)."
+    ],
+    "correct_answer": "d",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$ or $\\cosh^{-1}(\\frac{x}{a})+C$.\n\n**Correct option is (d).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(5x) dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $-\\frac{1}{5}\\cos(5x)+C$",
+      "(b) $\\frac{1}{5}\\cos(5x)+C$",
+      "(c) $-\\cos(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sin(5x) dx = \\frac{-\\cos(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt=\\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x}}$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $2\\sqrt{x}+C$",
+      "(b) $\\frac{1}{2\\sqrt{x}}+C$",
+      "(c) $\\frac{1}{2}x^{3/2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "We can write $\\frac{1}{\\sqrt{x}} = x^{-1/2}$. Using the power rule, $\\int x^{-1/2} dx = \\frac{x^{1/2}}{1/2}+C = 2\\sqrt{x}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x+1) dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{\\sin(2x+1)}{2}+C$",
+      "(b) $\\sin(2x+1)+C$",
+      "(c) $2\\sin(2x+1)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x+1) dx = \\frac{\\sin(2x+1)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{x} \\cos(e^x) dx$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\sin(e^x)+C$",
+      "(b) $-\\sin(e^x)+C$",
+      "(c) $\\cos(e^x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^x$. Then $dt=e^x dx$.\n$\\int \\cos(t) dt = \\sin(t)+C = \\sin(e^x)+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin^2(3x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{x}{2}-\\frac{\\sin(6x)}{12}+C$",
+      "(b) $\\frac{x}{2}+\\frac{\\sin(6x)}{12}+C$",
+      "(c) $\\frac{1}{2}(x-\\sin(6x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\sin^2(3x) = \\frac{1-\\cos(6x)}{2}$.\n$\\int \\frac{1-\\cos(6x)}{2} dx = \\frac{1}{2}(x-\\frac{\\sin(6x)}{6})+C = \\frac{x}{2}-\\frac{\\sin(6x)}{12}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^3 dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{x^4}{4}+C$",
+      "(b) $3x^2+C$",
+      "(c) $x^4+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=3$. So, $\\int x^3 dx = \\frac{x^4}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{-2x} dx$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $-\\frac{e^{-2x}}{2}+C$",
+      "(b) $\\frac{e^{-2x}}{2}+C$",
+      "(c) $-2e^{-2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=-2$. So, $\\int e^{-2x} dx = \\frac{e^{-2x}}{-2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+16}$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{4})+C$",
+      "(c) $\\frac{1}{4}\\log|x^2+16|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{x^2+16} = \\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+16}}$ is equal to: (MHT CET 2003)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+16}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{4})+C$",
+      "(c) $\\tan^{-1}(\\frac{x}{4})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$. Here, $a=4$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(4x) dx$ is equal to: (MHT CET 2002)",
+    "options": [
+      "(a) $-\\frac{1}{4}\\cos(4x)+C$",
+      "(b) $\\frac{1}{4}\\cos(4x)+C$",
+      "(c) $-\\cos(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sin(4x) dx = \\frac{-\\cos(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(5x) dx$ is equal to: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan(5x)+C$",
+      "(b) $5\\tan(5x)+C$",
+      "(c) $\\tan(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sec^2(5x) dx = \\frac{\\tan(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{x}}{e^{x}+1} dx$ is equal to: (MHT CET 2018)",
+    "options": [
+      "(a) $\\log|e^x+1|+C$",
+      "(b) $e^x+1+C$",
+      "(c) $\\frac{1}{(e^x+1)^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t = e^x+1$. Then $dt = e^x dx$.\n$\\int \\frac{dt}{t} = \\log|t|+C = \\log|e^x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-1}}$ is equal to: (MHT CET 2019)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-1}|+C$",
+      "(b) $\\cosh^{-1}x+C$",
+      "(c) Both (a) and (b).",
+      "(d) None of these."
+    ],
+    "correct_answer": "c",
+    "answer": "Using the standard formula $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$ or $\\cosh^{-1}(\\frac{x}{a})+C$.\nHere, $a=1$. So, both options (a) and (b) are correct.\n\n**Correct option is (c).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin^2(2x) dx$ is equal to: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$",
+      "(b) $\\frac{x}{2}+\\frac{\\sin(4x)}{8}+C$",
+      "(c) $\\frac{1}{2}(x-\\sin(4x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\sin^2(2x) = \\frac{1-\\cos(4x)}{2}$.\n$\\int \\frac{1-\\cos(4x)}{2} dx = \\frac{1}{2}(x-\\frac{\\sin(4x)}{4})+C = \\frac{x}{2}-\\frac{\\sin(4x)}{8}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(4x) dx$ is equal to: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan(4x)+C$",
+      "(b) $4\\tan(4x)+C$",
+      "(c) $\\tan(4x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=4$. So, $\\int \\sec^2(4x) dx = \\frac{\\tan(4x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+16}$ is equal to: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{4})+C$",
+      "(c) $4\\tan^{-1}(\\frac{x}{4})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=4$. So, $\\int \\frac{dx}{x^2+16} = \\frac{1}{4}\\tan^{-1}(\\frac{x}{4})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{\\log x}{x} dx$ is equal to: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{(\\log x)^2}{2}+C$",
+      "(b) $\\log(\\log x)+C$",
+      "(c) $\\frac{1}{x^2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=\\log x$. Then $dt=\\frac{1}{x} dx$.\n$\\int t dt = \\frac{t^2}{2}+C = \\frac{(\\log x)^2}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(3x) dx$ is equal to: (MHT CET 2017)",
+    "options": [
+      "(a) $-\\frac{1}{3}\\cos(3x)+C$",
+      "(b) $\\frac{1}{3}\\cos(3x)+C$",
+      "(c) $-\\cos(3x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=3$. So, $\\int \\sin(3x) dx = \\frac{-\\cos(3x)}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{2x} dx$ is equal to: (MHT CET 2016)",
+    "options": [
+      "(a) $\\frac{e^{2x}}{2}+C$",
+      "(b) $2e^{2x}+C$",
+      "(c) $e^{2x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=2$. So, $\\int e^{2x} dx = \\frac{e^{2x}}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sec^2(2x) dx$ is equal to: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan(2x)+C$",
+      "(b) $2\\tan(2x)+C$",
+      "(c) $\\tan(2x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sec^2(ax) dx = \\frac{\\tan(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\sec^2(2x) dx = \\frac{\\tan(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int (x+1)^2 dx$ is equal to: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{(x+1)^3}{3}+C$",
+      "(b) $2(x+1)+C$",
+      "(c) $x^2+2x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule with a linear substitution. Let $t=x+1$, so $dt=dx$.\n$\\int t^2 dt = \\frac{t^3}{3}+C = \\frac{(x+1)^3}{3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+25}$ is equal to: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{5})+C$",
+      "(c) $5\\tan^{-1}(\\frac{x}{5})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=5$. So, $\\int \\frac{dx}{x^2+25} = \\frac{1}{5}\\tan^{-1}(\\frac{x}{5})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\cos(2x) dx$ is equal to: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{\\sin(2x)}{2}+C$",
+      "(b) $2\\sin(2x)+C$",
+      "(c) $-\\frac{\\sin(2x)}{2}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\cos(ax) dx = \\frac{\\sin(ax)}{a}+C$.\nHere, $a=2$. So, $\\int \\cos(2x) dx = \\frac{\\sin(2x)}{2}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2-4}}$ is equal to: (MHT CET 2011)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2-4}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{2})+C$",
+      "(c) $\\frac{1}{2}\\log|\\frac{x-2}{x+2}|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2-a^2}} = \\log|x+\\sqrt{x^2-a^2}|+C$. Here, $a=2$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin^2 x dx$ is equal to: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$",
+      "(b) $\\frac{x}{2}+\\frac{\\sin(2x)}{4}+C$",
+      "(c) $\\frac{1}{2}(x-\\sin(2x))+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the half-angle identity, $\\sin^2 x = \\frac{1-\\cos(2x)}{2}$.\n$\\int \\frac{1-\\cos(2x)}{2} dx = \\frac{1}{2}(x-\\frac{\\sin(2x)}{2})+C = \\frac{x}{2}-\\frac{\\sin(2x)}{4}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int e^{-3x} dx$ is equal to: (MHT CET 2009)",
+    "options": [
+      "(a) $-\\frac{e^{-3x}}{3}+C$",
+      "(b) $\\frac{e^{-3x}}{3}+C$",
+      "(c) $-3e^{-3x}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int e^{ax} dx = \\frac{e^{ax}}{a}+C$.\nHere, $a=-3$. So, $\\int e^{-3x} dx = \\frac{e^{-3x}}{-3}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{\\sqrt{x^2+25}}$ is equal to: (MHT CET 2008)",
+    "options": [
+      "(a) $\\log|x+\\sqrt{x^2+25}|+C$",
+      "(b) $\\sin^{-1}(\\frac{x}{5})+C$",
+      "(c) $\\tan^{-1}(\\frac{x}{5})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a standard integral formula. $\\int \\frac{dx}{\\sqrt{x^2+a^2}} = \\log|x+\\sqrt{x^2+a^2}|+C$. Here, $a=5$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\sin(5x) dx$ is equal to: (MHT CET 2007)",
+    "options": [
+      "(a) $-\\frac{1}{5}\\cos(5x)+C$",
+      "(b) $\\frac{1}{5}\\cos(5x)+C$",
+      "(c) $-\\cos(5x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\sin(ax) dx = \\frac{-\\cos(ax)}{a}+C$.\nHere, $a=5$. So, $\\int \\sin(5x) dx = \\frac{-\\cos(5x)}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int x^4 dx$ is equal to: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{x^5}{5}+C$",
+      "(b) $4x^3+C$",
+      "(c) $x^5+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}+C$.\nHere, $n=4$. So, $\\int x^4 dx = \\frac{x^5}{5}+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{dx}{x^2+4}$ is equal to: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$",
+      "(b) $\\tan^{-1}(\\frac{x}{2})+C$",
+      "(c) $2\\tan^{-1}(\\frac{x}{2})+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the standard formula $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})+C$.\nHere, $a=2$. So, $\\int \\frac{dx}{x^2+4} = \\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "$\\int \\frac{e^{3x}}{e^{3x}+1} dx$ is equal to: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{1}{3}\\log|e^{3x}+1|+C$",
+      "(b) $\\log|e^{3x}+1|+C$",
+      "(c) $e^{3x}+1+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let $t=e^{3x}+1$. Then $dt=3e^{3x} dx$, so $e^{3x} dx = \\frac{dt}{3}$.\n$\\int \\frac{dt}{3t} = \\frac{1}{3}\\log|t|+C = \\frac{1}{3}\\log|e^{3x}+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  }
+]

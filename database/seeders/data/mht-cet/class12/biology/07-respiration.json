@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The end product of glycolysis is:",
+    "options": [
+      "(a) Acetyl CoA",
+      "(b) Pyruvic acid",
+      "(c) Glucose-6-phosphate",
+      "(d) Fructose-1,6-bisphosphate"
+    ],
+    "correct_answer": "b",
+    "answer": "Glycolysis is the metabolic pathway that converts glucose into pyruvic acid, a three-carbon compound. This process occurs in the cytoplasm and is the first step of both aerobic and anaerobic respiration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Krebs cycle takes place in the:",
+    "options": [
+      "(a) Cytoplasm",
+      "(b) Outer mitochondrial membrane",
+      "(c) Mitochondrial matrix",
+      "(d) Thylakoid membrane"
+    ],
+    "correct_answer": "c",
+    "answer": "The Krebs cycle (also known as the citric acid cycle) is a series of chemical reactions that occur in the mitochondrial matrix. It is a key part of aerobic respiration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The total number of ATP molecules produced in anaerobic respiration from one glucose molecule is:",
+    "options": [
+      "(a) 2",
+      "(b) 4",
+      "(c) 8",
+      "(d) 38"
+    ],
+    "correct_answer": "a",
+    "answer": "Anaerobic respiration, or fermentation, is less efficient than aerobic respiration. From one molecule of glucose, only a net of 2 ATP molecules are produced during glycolysis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The final electron acceptor in the electron transport chain (ETS) of aerobic respiration is:",
+    "options": [
+      "(a) Oxygen",
+      "(b) ATP",
+      "(c) Water",
+      "(d) Carbon dioxide"
+    ],
+    "correct_answer": "a",
+    "answer": "Oxygen serves as the final electron acceptor in the electron transport chain. It combines with protons and electrons to form water, which is a key product of aerobic respiration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of phosphorylation that occurs in the mitochondria is called:",
+    "options": [
+      "(a) Photophosphorylation",
+      "(b) Substrate-level phosphorylation",
+      "(c) Oxidative phosphorylation",
+      "(d) Fermentation"
+    ],
+    "correct_answer": "c",
+    "answer": "Oxidative phosphorylation is the process by which ATP is formed as a result of the transfer of electrons from NADH or $FADH_2$ to oxygen by a series of electron carriers. This process occurs in the mitochondria.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced from one molecule of acetyl CoA in the Krebs cycle is:",
+    "options": [
+      "(a) 2",
+      "(b) 4",
+      "(c) 12",
+      "(d) 16"
+    ],
+    "correct_answer": "c",
+    "answer": "One molecule of acetyl CoA produces 3 NADH, 1 $FADH_2$, and 1 ATP (or GTP). Since 1 NADH produces 3 ATP and 1 $FADH_2$ produces 2 ATP, the total ATP from one acetyl CoA is $3 \\times 3 + 1 \\times 2 + 1 = 12$ ATP.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a mobile electron carrier in the electron transport chain?",
+    "options": [
+      "(a) Cytochrome-c oxidase",
+      "(b) Cytochrome-c",
+      "(c) NADH dehydrogenase",
+      "(d) FAD"
+    ],
+    "correct_answer": "b",
+    "answer": "Cytochrome-c is a small heme protein that functions as a mobile electron carrier in the electron transport chain. It transfers electrons between Complex III and Complex IV.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conversion of pyruvic acid to acetyl CoA is called:",
+    "options": [
+      "(a) Glycolysis",
+      "(b) Krebs cycle",
+      "(c) Link reaction",
+      "(d) Fermentation"
+    ],
+    "correct_answer": "c",
+    "answer": "The link reaction is the conversion of pyruvic acid, the end product of glycolysis, into acetyl CoA, which is the starting molecule for the Krebs cycle. This reaction occurs in the mitochondrial matrix.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of $CO_2$ molecules released during the complete oxidation of one glucose molecule in aerobic respiration is:",
+    "options": [
+      "(a) 2",
+      "(b) 4",
+      "(c) 6",
+      "(d) 8"
+    ],
+    "correct_answer": "c",
+    "answer": "The complete oxidation of one glucose molecule ($C_6H_{12}O_6$) produces 6 molecules of carbon dioxide ($CO_2$). Two are released in the link reaction, and four are released in the Krebs cycle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of respiration is a:",
+    "options": [
+      "(a) Catabolic process",
+      "(b) Anabolic process",
+      "(c) Both an anabolic and catabolic process",
+      "(d) None of the above"
+    ],
+    "correct_answer": "a",
+    "answer": "Respiration is a catabolic process, as it involves the breakdown of complex organic molecules (like glucose) into simpler molecules ($CO_2$ and $H_2O$) to release energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of fermentation in yeast produces:",
+    "options": [
+      "(a) Lactic acid",
+      "(b) Ethanol and $CO_2$",
+      "(c) Acetic acid",
+      "(d) Methane"
+    ],
+    "correct_answer": "b",
+    "answer": "In yeast, anaerobic respiration (fermentation) converts pyruvic acid into ethanol and carbon dioxide. This process is used in the production of alcoholic beverages.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The total number of NADH molecules produced from one glucose molecule in glycolysis is:",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "correct_answer": "b",
+    "answer": "During glycolysis, two molecules of NADH are produced from the oxidation of glucose. These NADH molecules can then be used in the electron transport chain to generate ATP.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced from one NADH molecule in the ETS is:",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "correct_answer": "c",
+    "answer": "One molecule of NADH that enters the electron transport chain is oxidized to produce 3 molecules of ATP through oxidative phosphorylation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced from one $FADH_2$ molecule in the ETS is:",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "correct_answer": "b",
+    "answer": "One molecule of $FADH_2$ that enters the electron transport chain is oxidized to produce 2 molecules of ATP through oxidative phosphorylation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzymes required for ETS are located on the:",
+    "options": [
+      "(a) Inner mitochondrial membrane",
+      "(b) Mitochondrial matrix",
+      "(c) Outer mitochondrial membrane",
+      "(d) Cytoplasm"
+    ],
+    "correct_answer": "a",
+    "answer": "The electron transport chain (ETS) is located on the inner mitochondrial membrane. The electron carriers and enzymes are embedded in this membrane to facilitate the process of oxidative phosphorylation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a common intermediate of carbohydrate and fatty acid catabolism?",
+    "options": [
+      "(a) Pyruvic acid",
+      "(b) Acetyl CoA",
+      "(c) Glucose-6-phosphate",
+      "(d) Oxaloacetic acid"
+    ],
+    "correct_answer": "b",
+    "answer": "Acetyl CoA is a common intermediate in the catabolism of both carbohydrates and fatty acids. It is formed from pyruvic acid during the link reaction and from fatty acids during beta-oxidation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced from one glucose molecule in aerobic respiration is:",
+    "options": [
+      "(a) 2",
+      "(b) 12",
+      "(c) 24",
+      "(d) 38"
+    ],
+    "correct_answer": "d",
+    "answer": "The total number of ATP molecules produced from the complete aerobic oxidation of one glucose molecule is 38. This includes 2 ATP from glycolysis, 2 ATP from the Krebs cycle, and 34 ATP from oxidative phosphorylation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The breakdown of glucose into pyruvic acid is:",
+    "options": [
+      "(a) Glycolysis",
+      "(b) Krebs cycle",
+      "(c) Link reaction",
+      "(d) Fermentation"
+    ],
+    "correct_answer": "a",
+    "answer": "Glycolysis is the process of breaking down a glucose molecule into two molecules of pyruvic acid. It is an anaerobic process that occurs in the cytoplasm of the cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxygen consumed during aerobic respiration is used in:",
+    "options": [
+      "(a) Glycolysis",
+      "(b) Krebs cycle",
+      "(c) Electron transport chain",
+      "(d) Fermentation"
+    ],
+    "correct_answer": "c",
+    "answer": "Oxygen acts as the final electron acceptor in the electron transport chain, which is the last stage of aerobic respiration. It is not directly used in glycolysis or the Krebs cycle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of anaerobic respiration in muscles produces:",
+    "options": [
+      "(a) Ethanol and $CO_2$",
+      "(b) Lactic acid",
+      "(c) Acetic acid",
+      "(d) Methane"
+    ],
+    "correct_answer": "b",
+    "answer": "During intense physical activity, muscle cells perform anaerobic respiration to produce energy. In this process, pyruvic acid is converted to lactic acid, which can cause muscle fatigue.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that catalyzes the conversion of pyruvic acid to acetyl CoA is:",
+    "options": [
+      "(a) Pyruvate kinase",
+      "(b) Pyruvate dehydrogenase",
+      "(c) Hexokinase",
+      "(d) Citrate synthase"
+    ],
+    "correct_answer": "b",
+    "answer": "Pyruvate dehydrogenase is a multi-enzyme complex that catalyzes the link reaction, converting pyruvic acid to acetyl CoA, with the release of $CO_2$ and NADH.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules gained in aerobic respiration is how many times more than that produced in anaerobic respiration?",
+    "options": [
+      "(a) 19",
+      "(b) 12",
+      "(c) 15",
+      "(d) 2"
+    ],
+    "correct_answer": "a",
+    "answer": "Aerobic respiration produces 38 ATP, while anaerobic respiration produces a net of 2 ATP. The ratio is $38/2 = 19$. So, aerobic respiration produces 19 times more ATP.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first member of the Krebs cycle is:",
+    "options": [
+      "(a) Acetyl CoA",
+      "(b) Pyruvic acid",
+      "(c) Oxaloacetic acid",
+      "(d) Citric acid"
+    ],
+    "correct_answer": "d",
+    "answer": "The Krebs cycle begins with the reaction of acetyl CoA with oxaloacetic acid to form citric acid. Thus, citric acid is the first member of the cycle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a redox reaction in respiration?",
+    "options": [
+      "(a) Glycolysis",
+      "(b) Krebs cycle",
+      "(c) Electron transport chain",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "All three stages of aerobic respiration—glycolysis, the Krebs cycle, and the electron transport chain—involve oxidation and reduction reactions. In glycolysis and the Krebs cycle, molecules are oxidized, and coenzymes like NAD+ and FAD are reduced. In the ETS, these coenzymes are oxidized, and the final electron acceptor, oxygen, is reduced.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced in glycolysis is a net gain of:",
+    "options": [
+      "(a) 2",
+      "(b) 4",
+      "(c) 6",
+      "(d) 8"
+    ],
+    "correct_answer": "a",
+    "answer": "During glycolysis, a total of 4 ATP molecules are produced. However, 2 ATP molecules are consumed in the initial steps, resulting in a net gain of 2 ATP molecules.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pathway of respiration that is common to both aerobic and anaerobic respiration is:",
+    "options": [
+      "(a) Krebs cycle",
+      "(b) Glycolysis",
+      "(c) Electron transport chain",
+      "(d) Fermentation"
+    ],
+    "correct_answer": "b",
+    "answer": "Glycolysis is a universal pathway in cellular respiration. It is the first step in the breakdown of glucose and occurs in the cytoplasm of all organisms, whether they perform aerobic or anaerobic respiration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The site of fermentation is:",
+    "options": [
+      "(a) Mitochondria",
+      "(b) Cytoplasm",
+      "(c) Chloroplast",
+      "(d) Nucleus"
+    ],
+    "correct_answer": "b",
+    "answer": "Fermentation, or anaerobic respiration, occurs in the cytoplasm of the cell. It does not require mitochondria or oxygen.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main respiratory substrate is:",
+    "options": [
+      "(a) Fats",
+      "(b) Proteins",
+      "(c) Carbohydrates",
+      "(d) Nucleic acids"
+    ],
+    "correct_answer": "c",
+    "answer": "Carbohydrates, particularly glucose, are the primary and most commonly used respiratory substrates. They are easily broken down to release energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced per oxygen molecule consumed in aerobic respiration is:",
+    "options": [
+      "(a) 6",
+      "(b) 3",
+      "(c) 4",
+      "(d) 5"
+    ],
+    "correct_answer": "b",
+    "answer": "For every molecule of oxygen consumed in aerobic respiration, 6 electrons are transferred, leading to the production of about 3 ATP molecules. The ratio of P/O (ATP molecules produced per atom of oxygen consumed) is approximately 3:1.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an amphibolic pathway?",
+    "options": [
+      "(a) Glycolysis",
+      "(b) Krebs cycle",
+      "(c) Electron transport chain",
+      "(d) Fermentation"
+    ],
+    "correct_answer": "b",
+    "answer": "The Krebs cycle is considered an amphibolic pathway because it is involved in both catabolic processes (breaking down organic molecules) and anabolic processes (synthesizing new molecules).",
+    "marks": 1
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The bacteria used in the production of curd from milk is:",
+    "options": [
+      "(a) *Saccharomyces cerevisiae*",
+      "(b) *Lactobacillus*",
+      "(c) *Penicillium notatum*",
+      "(d) *Acetobacter aceti*"
+    ],
+    "correct_answer": "b",
+    "answer": "*Lactobacillus* is a type of bacteria that ferments the lactose in milk into lactic acid, which causes the milk to curdle and form curd or yogurt.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of biogas is:",
+    "options": [
+      "(a) Propane",
+      "(b) Methane",
+      "(c) Carbon dioxide",
+      "(d) Hydrogen"
+    ],
+    "correct_answer": "b",
+    "answer": "Biogas is a mixture of gases produced by the breakdown of organic matter by anaerobic bacteria. The primary component of biogas is methane, which serves as a clean and efficient fuel.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an antibiotic produced by a fungus?",
+    "options": [
+      "(a) Streptomycin",
+      "(b) Tetracycline",
+      "(c) Penicillin",
+      "(d) Chloramphenicol"
+    ],
+    "correct_answer": "c",
+    "answer": "Penicillin is a well-known antibiotic that was discovered by Alexander Fleming. It is produced by the fungus *Penicillium notatum*.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of biological treatment of wastewater is known as:",
+    "options": [
+      "(a) Primary treatment",
+      "(b) Secondary treatment",
+      "(c) Tertiary treatment",
+      "(d) Advanced treatment"
+    ],
+    "correct_answer": "b",
+    "answer": "Secondary treatment of wastewater involves using aerobic microbes to digest the organic matter in the sewage. This significantly reduces the biochemical oxygen demand (BOD) of the water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The symbiotic nitrogen-fixing bacterium found in the root nodules of leguminous plants is:",
+    "options": [
+      "(a) *Azotobacter*",
+      "(b) *Rhizobium*",
+      "(c) *Nitrobacter*",
+      "(d) *Pseudomonas*"
+    ],
+    "correct_answer": "b",
+    "answer": "*Rhizobium* is a genus of soil bacteria that forms a symbiotic relationship with legumes. The bacteria infect the plant's roots, leading to the formation of root nodules where they fix atmospheric nitrogen into a usable form for the plant.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fermented beverage 'wine' is produced by the fermentation of fruit juices by:",
+    "options": [
+      "(a) Bacteria",
+      "(b) Yeast",
+      "(c) Fungi",
+      "(d) Algae"
+    ],
+    "correct_answer": "b",
+    "answer": "Yeast, specifically *Saccharomyces cerevisiae*, is used in the fermentation of fruit juices to produce wine. The yeast converts the sugars in the juice into ethanol and carbon dioxide.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The anabaena and nostoc are examples of:",
+    "options": [
+      "(a) Viruses",
+      "(b) Protozoa",
+      "(c) Fungi",
+      "(d) Cyanobacteria"
+    ],
+    "correct_answer": "d",
+    "answer": "Anabaena and Nostoc are genera of cyanobacteria (also known as blue-green algae). They are important for their ability to fix atmospheric nitrogen, contributing to soil fertility.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a biofertilizer?",
+    "options": [
+      "(a) Azotobacter",
+      "(b) Rhizobium",
+      "(c) Blue-green algae",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "Biofertilizers are microorganisms that enrich the nutrient quality of the soil. *Azotobacter* and *Rhizobium* are nitrogen-fixing bacteria, and blue-green algae (cyanobacteria) also fix nitrogen, making all of them useful as biofertilizers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technology of using microbes to remove pollutants from the environment is called:",
+    "options": [
+      "(a) Bioremediation",
+      "(b) Fermentation",
+      "(c) Biofortification",
+      "(d) Genetic engineering"
+    ],
+    "correct_answer": "a",
+    "answer": "Bioremediation is a waste management technique that involves the use of organisms, such as bacteria and fungi, to remove or neutralize pollutants from a contaminated site. It is a sustainable and eco-friendly method.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme used in detergents to remove oil stains is:",
+    "options": [
+      "(a) Protease",
+      "(b) Amylase",
+      "(c) Lipase",
+      "(d) Cellulase"
+    ],
+    "correct_answer": "c",
+    "answer": "Lipases are enzymes that break down fats and oils. They are commonly added to laundry detergents to help remove oil stains from clothes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a source of citric acid?",
+    "options": [
+      "(a) *Saccharomyces cerevisiae*",
+      "(b) *Lactobacillus*",
+      "(c) *Aspergillus niger*",
+      "(d) *Acetobacter aceti*"
+    ],
+    "correct_answer": "c",
+    "answer": "Citric acid is a common food additive and preservative. It is produced on an industrial scale through the fermentation of a sugary medium by the fungus *Aspergillus niger*.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The antibiotic chloramphenicol is produced by the microbe:",
+    "options": [
+      "(a) *Penicillium notatum*",
+      "(b) *Streptomyces venezuelae*",
+      "(c) *Saccharomyces cerevisiae*",
+      "(d) *Bacillus subtilis*"
+    ],
+    "correct_answer": "b",
+    "answer": "Chloramphenicol is a broad-spectrum antibiotic. It is produced by the bacterium *Streptomyces venezuelae*.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that is used to clarify bottled fruit juices is:",
+    "options": [
+      "(a) Amylase",
+      "(b) Cellulase",
+      "(c) Pectinase",
+      "(d) Lipase"
+    ],
+    "correct_answer": "c",
+    "answer": "Pectinase is an enzyme that breaks down pectin, a substance found in plant cell walls. Adding pectinase to fruit juices helps to clarify them by breaking down the pulp, making the juice clear and more attractive to consumers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of converting sugar into alcohol using yeast is known as:",
+    "options": [
+      "(a) Fermentation",
+      "(b) Respiration",
+      "(c) Photosynthesis",
+      "(d) Glycolysis"
+    ],
+    "correct_answer": "a",
+    "answer": "Fermentation is a metabolic process that produces chemical changes in organic substrates through the action of enzymes. In the production of alcoholic beverages, yeast ferments sugars into ethanol.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A biological pesticide is known as:",
+    "options": [
+      "(a) Biofortification",
+      "(b) Biofertilizer",
+      "(c) Biocontrol agent",
+      "(d) Bioremediation"
+    ],
+    "correct_answer": "c",
+    "answer": "Biocontrol agents are living organisms used to control pests and diseases. They are a natural alternative to chemical pesticides, such as using the bacterium *Bacillus thuringiensis* (Bt) to control insect pests.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bacterium used to produce acetic acid (vinegar) is:",
+    "options": [
+      "(a) *Lactobacillus*",
+      "(b) *Saccharomyces cerevisiae*",
+      "(c) *Acetobacter aceti*",
+      "(d) *Methanobacterium*"
+    ],
+    "correct_answer": "c",
+    "answer": "*Acetobacter aceti* is a bacterium that oxidizes ethanol into acetic acid, the main component of vinegar.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a soil microbe that can fix atmospheric nitrogen?",
+    "options": [
+      "(a) *Saccharomyces cerevisiae*",
+      "(b) *Aspergillus niger*",
+      "(c) *Azotobacter*",
+      "(d) *Penicillium notatum*"
+    ],
+    "correct_answer": "c",
+    "answer": "*Azotobacter* is a free-living, nitrogen-fixing bacterium found in the soil. It converts atmospheric nitrogen into ammonia, which can be utilized by plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of converting ammonia to nitrates by microbes is called:",
+    "options": [
+      "(a) Ammonification",
+      "(b) Denitrification",
+      "(c) Nitrification",
+      "(d) Nitrogen fixation"
+    ],
+    "correct_answer": "c",
+    "answer": "Nitrification is a two-step process in which ammonia is first oxidized to nitrites and then to nitrates by bacteria like *Nitrosomonas* and *Nitrobacter*. Plants can absorb nitrates from the soil.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The antibiotic streptomycin is produced by:",
+    "options": [
+      "(a) A fungus",
+      "(b) A bacterium",
+      "(c) A yeast",
+      "(d) An algae"
+    ],
+    "correct_answer": "b",
+    "answer": "Streptomycin is an antibiotic that is produced by the bacterium *Streptomyces griseus*.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is used as an immunosuppressive agent in organ transplant patients?",
+    "options": [
+      "(a) Cyclosporin A",
+      "(b) Statins",
+      "(c) Penicillin",
+      "(d) Streptokinase"
+    ],
+    "correct_answer": "a",
+    "answer": "Cyclosporin A is a powerful immunosuppressive drug that is produced by the fungus *Trichoderma polysporum*. It is used to prevent organ rejection in transplant patients.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme streptokinase, used as a 'clot buster' is produced by:",
+    "options": [
+      "(a) A bacterium",
+      "(b) A fungus",
+      "(c) A yeast",
+      "(d) An algae"
+    ],
+    "correct_answer": "a",
+    "answer": "Streptokinase is an enzyme that helps break down blood clots. It is produced by the bacterium *Streptococcus* and is used to treat patients who have suffered a myocardial infarction (heart attack).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is used in the production of swiss cheese?",
+    "options": [
+      "(a) *Saccharomyces cerevisiae*",
+      "(b) *Propionibacterium shermanii*",
+      "(c) *Aspergillus niger*",
+      "(d) *Lactobacillus*"
+    ],
+    "correct_answer": "b",
+    "answer": "The large holes in Swiss cheese are formed by the production of carbon dioxide by the bacterium *Propionibacterium shermanii*.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a single-cell protein source?",
+    "options": [
+      "(a) *Spirogyra*",
+      "(b) *Chlorella*",
+      "(c) *Lactobacillus*",
+      "(d) *Penicillium*"
+    ],
+    "correct_answer": "b",
+    "answer": "Single-cell protein (SCP) refers to the protein-rich biomass of unicellular organisms. *Chlorella* is a type of algae that is a popular source of SCP due to its high protein content and rapid growth rate.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that is used to remove a blood clot from the bloodstream is:",
+    "options": [
+      "(a) Lipase",
+      "(b) Protease",
+      "(c) Streptokinase",
+      "(d) Pectinase"
+    ],
+    "correct_answer": "c",
+    "answer": "Streptokinase is a 'clot buster' enzyme. It is used to dissolve blood clots that can cause heart attacks and strokes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technology of using microbes to remove pollutants from the environment is called:",
+    "options": [
+      "(a) Bioremediation",
+      "(b) Biocontrol",
+      "(c) Biofortification",
+      "(d) Fermentation"
+    ],
+    "correct_answer": "a",
+    "answer": "Bioremediation is the process of using microorganisms, such as bacteria and fungi, to break down and degrade pollutants in soil and water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a biocontrol agent?",
+    "options": [
+      "(a) *Bt* toxin",
+      "(b) Antibiotics",
+      "(c) Biofertilizers",
+      "(d) Algae"
+    ],
+    "correct_answer": "a",
+    "answer": "Bt toxin, produced by the bacterium *Bacillus thuringiensis*, is a biological pesticide used to control insect pests. It is a good example of a biocontrol agent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of converting atmospheric nitrogen into ammonia by microbes is called:",
+    "options": [
+      "(a) Nitrification",
+      "(b) Denitrification",
+      "(c) Nitrogen fixation",
+      "(d) Ammonification"
+    ],
+    "correct_answer": "c",
+    "answer": "Nitrogen fixation is a process by which atmospheric nitrogen ($N_2$) is converted into ammonia ($NH_3$). This is carried out by nitrogen-fixing bacteria like *Rhizobium*.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fungus used in the production of bread is:",
+    "options": [
+      "(a) *Penicillium notatum*",
+      "(b) *Saccharomyces cerevisiae*",
+      "(c) *Aspergillus niger*",
+      "(d) *Trichoderma polysporum*"
+    ],
+    "correct_answer": "b",
+    "answer": "*Saccharomyces cerevisiae*, commonly known as baker's yeast, is a fungus used in baking. The yeast ferments the sugars in the dough, producing carbon dioxide gas that causes the bread to rise.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a secondary treatment of sewage?",
+    "options": [
+      "(a) Screening and sedimentation",
+      "(b) Biological treatment",
+      "(c) Chemical treatment",
+      "(d) Disinfection"
+    ],
+    "correct_answer": "b",
+    "answer": "Secondary treatment is the biological process of wastewater treatment. It involves using microorganisms to break down the organic matter in the sewage, reducing its BOD.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technology of using a genetically engineered microbe to produce a desired product is:",
+    "options": [
+      "(a) Genetic engineering",
+      "(b) Bioprocessing",
+      "(c) Recombinant DNA technology",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "All of these terms are related to the use of genetically modified organisms for producing desired products. Genetic engineering is the technique of modifying the organism, and recombinant DNA technology is the tool used for this. Bioprocessing is the use of living cells or their components to obtain a desired product.",
+    "marks": 1
+  }
+]

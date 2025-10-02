@@ -1,0 +1,166 @@
+[
+  {
+    "type": "mcq",
+    "text": "The phenomenon where a single gene controls two or more different characters is called _______.",
+    "options": [
+      "Co-dominance",
+      "Incomplete dominance",
+      "Pleiotropy",
+      "Polygenic inheritance"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Pleiotropy is the condition in which a single gene has multiple effects on the phenotype of an organism. For example, the gene causing sickle-cell anemia also provides resistance to malaria. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a dihybrid cross, the phenotypic ratio of 9:3:3:1 is explained by the Law of _______.",
+    "options": [
+      "Dominance",
+      "Segregation",
+      "Independent Assortment",
+      "Purity of Gametes"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Law of Independent Assortment states that when two pairs of traits are combined in a hybrid, the segregation of one pair of characters is independent of the other pair of characters. This leads to the classic 9:3:3:1 phenotypic ratio. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A person with blood group AB has which of the following genotypes?",
+    "options": [
+      "I<sup>A</sup>I<sup>A</sup>",
+      "I<sup>B</sup>I<sup>B</sup>",
+      "I<sup>A</sup>I<sup>B</sup>",
+      "ii"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The ABO blood group system is an example of co-dominance. In the AB blood group, both alleles I<sup>A</sup> and I<sup>B</sup> are expressed equally, so the genotype must be I<sup>A</sup>I<sup>B</sup>. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Turner's syndrome is a chromosomal disorder caused by _______.",
+    "options": [
+      "Trisomy of 21st chromosome",
+      "Trisomy of sex chromosomes (XXY)",
+      "Monosomy of sex chromosome (XO)",
+      "Deletion of an autosome"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Turner's syndrome is a condition in females caused by the absence of one of the X chromosomes, resulting in a monosomic (2n-1) condition with a karyotype of 44 + XO. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of incomplete dominance?",
+    "options": [
+      "Flower colour in pea plant",
+      "Blood group in humans",
+      "Flower colour in Snapdragon (Mirabilis jalapa)",
+      "Seed shape in pea plant"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> In the Snapdragon plant, when a red-flowered plant (RR) is crossed with a white-flowered plant (rr), the F1 generation has pink flowers (Rr), an intermediate phenotype. This is a classic example of incomplete dominance. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Haemophilia is a/an _______ disease.",
+    "options": [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked dominant",
+      "X-linked recessive"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Haemophilia is a sex-linked genetic disorder in which the blood does not clot properly. It is caused by a recessive allele located on the X chromosome. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A cross between an F1 hybrid and its homozygous recessive parent is called a _______.",
+    "options": [
+      "Back cross",
+      "Test cross",
+      "Monohybrid cross",
+      "Dihybrid cross"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> A test cross is specifically designed to determine the genotype of an unknown dominant individual by crossing it with a homozygous recessive individual. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The genetic constitution of an organism is known as its _______.",
+    "options": [
+      "Phenotype",
+      "Genotype",
+      "Allele",
+      "Locus"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The genotype refers to the specific combination of alleles that an organism possesses for a particular gene. The phenotype is the observable physical expression of this genotype. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between genotype and phenotype.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Genotype</th><th style='padding: 8px;'>Phenotype</th></tr><tr><td style='padding: 8px;'>It is the genetic constitution of an organism for a particular character.</td><td style='padding: 8px;'>It is the external, observable appearance of an organism for a particular character.</td></tr><tr><td style='padding: 8px;'>It is represented by letters (e.g., TT, Tt, tt).</td><td style='padding: 8px;'>It is represented by descriptive words (e.g., Tall, Dwarf).</td></tr><tr><td style='padding: 8px;'>It is not directly visible.</td><td style='padding: 8px;'>It is directly visible.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a test cross? What is its significance?",
+    "answer": "A test cross is a genetic cross between a dominant-expressing individual (with an unknown genotype) and a homozygous recessive individual.<br><br><b>Significance:</b> The main significance of a test cross is to determine whether the dominant individual is homozygous (e.g., TT) or heterozygous (e.g., Tt). The phenotypic ratio of the offspring reveals the genotype of the parent.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the law of segregation with a suitable example.",
+    "answer": "<b>Law of Segregation (Law of Purity of Gametes):</b> This law states that the two alleles for a heritable character separate (segregate) from each other during gamete formation so that each gamete ends up with only one allele for that character.<br><br><b>Example:</b> In a heterozygous tall pea plant (Tt), during gamete formation, the alleles T and t segregate from each other. As a result, 50% of the gametes will carry the allele 'T' and the other 50% will carry the allele 't'.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is sex determination in human beings?",
+    "answer": "In human beings, sex is determined by the sex chromosomes. Females have two X chromosomes (XX) and are homogametic. Males have one X and one Y chromosome (XY) and are heterogametic. During fertilization, if a sperm carrying an X chromosome fertilizes the egg (which always carries an X chromosome), the resulting child will be a female (XX). If a sperm carrying a Y chromosome fertilizes the egg, the child will be a male (XY). Thus, the father is responsible for the sex of the child.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the symptoms of Down's syndrome? (PYQ: March 2022)",
+    "answer": "Down's syndrome is a chromosomal disorder caused by Trisomy 21. The symptoms include:<br><ul><li>Short stature with a small, round head.</li><li>Flat face and a flat nose.</li><li>Protruding tongue and a partially open mouth.</li><li>Short neck and broad, flat hands (simian crease).</li><li>Mental retardation and poor skeletal development.</li></ul>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain Mendel's Dihybrid cross with a suitable checkerboard (Punnett square).",
+    "answer": "A dihybrid cross is a cross between two individuals that differ in two pairs of contrasting characters.<br><br><b>Mendel's Cross:</b> Mendel crossed a pure pea plant having round, yellow seeds (RRYY) with a pure pea plant having wrinkled, green seeds (rryy).<br><b>F1 Generation:</b> All plants in the F1 generation were heterozygous with round, yellow seeds (RrYy).<br><b>F2 Generation (Selfing of F1):</b> When the F1 plants were self-pollinated, they produced four types of gametes (RY, Ry, rY, ry). The resulting F2 generation showed four different phenotypes in the ratio <b>9:3:3:1</b>.<br><br><b>Punnett Square for F2 Generation:</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Gametes</th><th>RY</th><th>Ry</th><th>rY</th><th>ry</th></tr><tr><th>RY</th><td>RRYY (Round, Yellow)</td><td>RRYy (Round, Yellow)</td><td>RrYY (Round, Yellow)</td><td>RrYy (Round, Yellow)</td></tr><tr><th>Ry</th><td>RRYy (Round, Yellow)</td><td>RRyy (Round, Green)</td><td>RrYy (Round, Yellow)</td><td>Rryy (Round, Green)</td></tr><tr><th>rY</th><td>RrYY (Round, Yellow)</td><td>RrYy (Round, Yellow)</td><td>rrYY (Wrinkled, Yellow)</td><td>rrYy (Wrinkled, Yellow)</td></tr><tr><th>ry</th><td>RrYy (Round, Yellow)</td><td>Rryy (Round, Green)</td><td>rrYy (Wrinkled, Yellow)</td><td>rryy (Wrinkled, Green)</td></tr></table><br><b>Phenotypic Ratio:</b> 9 (Round, Yellow) : 3 (Round, Green) : 3 (Wrinkled, Yellow) : 1 (Wrinkled, Green).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain incomplete dominance with the example of the Snapdragon flower. (PYQ: March 2020)",
+    "answer": "<b>Incomplete Dominance</b> is a phenomenon where neither of the two alleles for a character is completely dominant over the other. As a result, the heterozygous offspring shows an intermediate phenotype that is a blend of the two parental phenotypes.<br><br><b>Example in Snapdragon (Mirabilis jalapa):</b><br>1. <b>Parental Generation (P):</b> A cross is made between a pure red-flowered plant (genotype RR) and a pure white-flowered plant (genotype rr).<br>2. <b>F1 Generation:</b> The offspring produced are all heterozygous (Rr). In incomplete dominance, these plants do not have red flowers but have <b>pink flowers</b>, which is an intermediate phenotype between red and white.<br>3. <b>F2 Generation:</b> When the pink-flowered F1 plants (Rr) are self-pollinated, the F2 generation shows three phenotypes in the ratio <b>1:2:1</b>.<br><ul><li>1 Red (RR)</li><li>2 Pink (Rr)</li><li>1 White (rr)</li></ul>In this case, both the phenotypic ratio (1:2:1) and the genotypic ratio (1:2:1) are the same.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is co-dominance? Explain with the example of human blood groups.",
+    "answer": "<b>Co-dominance</b> is a phenomenon in which both alleles in a heterozygous pair are fully expressed in the phenotype. Neither allele is dominant or recessive, and the traits do not blend.<br><br><b>Example in Human ABO Blood Groups:</b><br>The ABO blood group system in humans is controlled by the gene 'I', which has three alleles: I<sup>A</sup>, I<sup>B</sup>, and i.<br><ul><li>Allele I<sup>A</sup> produces antigen A.</li><li>Allele I<sup>B</sup> produces antigen B.</li><li>Allele i does not produce any antigen.</li></ul>Alleles I<sup>A</sup> and I<sup>B</sup> are dominant over i, but they are <b>co-dominant</b> with respect to each other.<br>If a person has the genotype <b>I<sup>A</sup>I<sup>B</sup></b>, both alleles express themselves fully. Their red blood cells will have both antigen A and antigen B on their surface. As a result, their blood group is <b>AB</b>. This is a clear example of co-dominance, as both traits (A and B) are expressed simultaneously and independently.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe the chromosomal disorder Klinefelter's Syndrome.",
+    "answer": "<b>Klinefelter's Syndrome</b> is a genetic disorder that affects males. It is caused by the presence of an extra X chromosome in the cells, which is a result of non-disjunction of the X chromosomes during meiosis.<br><br><ul><li><b>Karyotype:</b> The chromosomal constitution of an individual with this syndrome is <b>44 + XXY</b>, resulting in a total of 47 chromosomes instead of the normal 46.</li><li><b>Symptoms:</b> The affected males are typically tall with long limbs. They are sterile as their testes are underdeveloped and do not produce sperm. They often show the development of some female characteristics, such as the development of breasts (gynaecomastia). Their voice is high-pitched, and they may have sparse body hair. They can also have learning disabilities.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain sex determination in honey bees.",
+    "answer": "Sex determination in honey bees is a unique process called the <b>haplo-diploid mechanism</b>.<br><br>1. <b>Females (Queen and Workers):</b> Females develop from fertilized eggs. The queen bee lays eggs, and if an egg is fertilized by a sperm from a male (drone), the resulting zygote is diploid ($2n = 32$ chromosomes). This diploid zygote develops into a female, which can become either a fertile queen or a sterile worker depending on the diet it receives during its larval stage.<br><br>2. <b>Males (Drones):</b> Males develop from unfertilized eggs through the process of parthenogenesis. Since the egg is unfertilized, the resulting male is haploid ($n = 16$ chromosomes).<br><br>Therefore, in honey bees, males do not have a father and cannot have sons, but they do have a grandfather and can have grandsons.",
+    "marks": 3
+  }
+]

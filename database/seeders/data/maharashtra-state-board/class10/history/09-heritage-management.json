@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The Asiatic Society of Bengal founded the _______, which is the first museum in India.",
+    "options": [
+      "National Museum, Delhi",
+      "Indian Museum, Kolkata",
+      "Government Museum, Chennai",
+      "Salar Jung Museum, Hyderabad"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Indian Museum in Kolkata, founded by the Asiatic Society in 1814 C.E., holds the distinction of being the first museum established in India. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The work of compiling the ‘Marathi Vishwakosh’ was started under the leadership of _______.",
+    "options": [
+      "Shridhar Venkatesh Ketkar",
+      "V. K. Rajwade",
+      "Lakshmanshastri Joshi",
+      "Mahadev Govind Ranade"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The work of creating the Marathi encyclopedia, 'Marathi Vishwakosh', was initiated by the Government of Maharashtra under the guidance of the first chief minister Yashwantrao Chavan, with Tarkateertha Lakshmanshastri Joshi as the chief editor. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The non-profit organization that works for the conservation and preservation of India's cultural and natural heritage is _______.",
+    "options": [
+      "UNESCO",
+      "ASI",
+      "INTACH",
+      "MTDC"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Indian National Trust for Art and Cultural Heritage (INTACH) is a non-governmental organization founded in 1984 that is actively involved in the preservation of heritage in India. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The National Film Archives of India, with its main office in _______, aims to preserve our cinematic heritage.",
+    "options": [
+      "Mumbai",
+      "Pune",
+      "Delhi",
+      "Kolkata"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The National Film Archives of India was established in 1964 with the purpose of tracing, acquiring, and preserving the heritage of Indian cinema. Its main office is located in Pune. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a famous encyclopedia of a specific subject?",
+    "options": [
+      "Encyclopaedia Britannica",
+      "Marathi Vishwakosh",
+      "Bharatiya Samskriti Kosh",
+      "Wikipedia"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> While Encyclopaedia Britannica and Wikipedia are general encyclopedias, the 'Bharatiya Samskriti Kosh' is a specialized encyclopedia focusing on the history of Indian culture. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Libraries are storehouses of _______.",
+    "options": [
+      "artefacts",
+      "sculptures",
+      "knowledge and information",
+      "films"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Libraries are institutions dedicated to collecting, preserving, and making accessible books and other sources of knowledge and information for the purpose of reading and research. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Saraswati Mahal Granthalaya in _______, Tamil Nadu is a world-renowned library.",
+    "options": [
+      "Chennai",
+      "Madurai",
+      "Thanjavur (Tanjore)",
+      "Coimbatore"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Saraswati Mahal library at Thanjavur was built during the Nayak dynasty and was later enriched by the Maratha ruler Serfoji Raje Bhonsale. It is known for its vast collection of rare books and manuscripts. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main purpose of an archive is to preserve _______.",
+    "options": [
+      "only published books",
+      "old films",
+      "historical documents in their original form",
+      "ancient sculptures"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The key function of an archive is to preserve and store old documents, official records, and other historical sources in their original sequence, ensuring that they are not altered and are available for historical research. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the main sources of history?",
+    "answer": "The main sources of history are broadly classified into four types:<br>1. <b>Material Sources:</b> Artefacts, structures, coins, sculptures, etc.<br>2. <b>Written Sources:</b> Manuscripts, books, government records, letters, etc.<br>3. <b>Oral Sources:</b> Folk songs, folk tales, interviews, etc.<br>4. <b>Audio-Visual Sources:</b> Photographs, films, recordings, etc.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is an Encyclopedia?",
+    "answer": "An encyclopedia is a comprehensive reference work that contains information on all branches of knowledge or treats a particular branch of knowledge in a systematic way. It is characterized by articles arranged alphabetically. Its main purpose is to make knowledge accessible to all.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the work of INTACH?",
+    "answer": "The Indian National Trust for Art and Cultural Heritage (INTACH) is a non-profit organization that works for the conservation and preservation of India's vast cultural and natural heritage. It is actively involved in creating awareness, restoring heritage sites, and providing expertise for heritage management projects.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. National Museum - Delhi<br>2. Indian Museum - Kolkata<br>3. Salar Jung Museum - Mumbai<br>4. Chhatrapati Shivaji Maharaj Vastu Sangrahalaya - Mumbai",
+    "answer": "<b>Wrong Pair:</b> Salar Jung Museum - Mumbai<br><b>Corrected Pair:</b> Salar Jung Museum - Hyderabad",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Archives, Libraries, Museums, Excavation Sites.",
+    "answer": "<b>Excavation Sites.</b><br><b>Reason:</b> Archives, Libraries, and Museums are institutions dedicated to the collection and preservation of historical sources. An excavation site is the place where sources are found.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Libraries : Books :: Archives : _______.",
+    "answer": "<b>Historical Documents / Records.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Marathi Vishwakosh : Lakshmanshastri Joshi :: Bharatiya Samskriti Kosh : _______.",
+    "answer": "<b>Mahadevshastri Joshi.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the necessary training requirements for the conservation of historical sources?",
+    "answer": "The conservation of historical sources requires specific skills. It is necessary to have knowledge of the chemical properties of materials like stone, metal, and paper, and the appropriate chemical treatments for cleaning and preserving them. Training is also needed in the required tools and equipment.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the four types of encyclopedias?",
+    "answer": "Encyclopedias can be of four types:<br>1. <b>Alphabetical:</b> Entries are arranged in alphabetical order.<br>2. <b>Thematic:</b> Entries are arranged according to a specific theme.<br>3. <b>Encyclopedic Dictionaries:</b> Which are comprehensive dictionaries.<br>4. <b>Indexes:</b> Which provide pointers to information.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is it important to preserve oral sources of history?",
+    "answer": "Oral sources like folk traditions, songs, and tales are a vital part of our intangible cultural heritage. They carry the collective memory and wisdom of a community. Preserving them is important because they can be lost forever if they are not passed on or documented. They provide valuable insights into the social and cultural life of the past.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of Libraries in heritage management.",
+    "answer": "Libraries are fundamental to the management and dissemination of our written heritage.<br>1. <b>Storehouses of Knowledge:</b> They are storehouses of knowledge and information, collecting and preserving books, manuscripts, periodicals, and other published materials.<br>2. <b>Research and Reference:</b> Libraries provide essential services for historical research. Many libraries have specialized sections for old and rare books and manuscripts.<br>3. <b>Technical Services:</b> They perform important technical tasks like cataloguing, indexing, and maintaining bibliographic records, which makes finding information easy for researchers.<br>4. <b>Conservation:</b> Modern libraries are also involved in the conservation of old books and are digitizing their collections to preserve them and make them more widely accessible.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Why is heritage management necessary?",
+    "answer": "Heritage management is essential for several reasons:<br>1. <b>Preservation for Posterity:</b> Our cultural and natural heritage is a precious asset inherited from our ancestors. It is our responsibility to conserve and preserve it in the best possible condition for the benefit of future generations.<br>2. <b>Source of Identity:</b> Heritage provides a sense of identity and continuity to a community and a nation. It tells us who we are and where we come from.<br>3. <b>Economic Benefits:</b> Well-managed heritage sites are a major attraction for tourists, which leads to economic growth and creates employment opportunities for local people.<br>4. <b>Preventing Vandalism:</b> Proper management and security are necessary to protect our heritage sites from neglect, decay, and vandalism.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the key differences between a library and an archive?",
+    "answer": "While both libraries and archives deal with historical information, they have key differences:<br>1. <b>Nature of Collection:</b> Libraries primarily collect published materials like books and periodicals. Archives, on the other hand, collect and preserve unpublished, original source materials like government records, official letters, and manuscripts.<br>2. <b>Arrangement:</b> Books in a library are catalogued individually and can be arranged by subject. Documents in an archive are preserved in their original order and sequence to maintain their context.<br>3. <b>Purpose:</b> The primary purpose of a library is to make knowledge accessible for reading and general reference. The primary purpose of an archive is to preserve evidence of past activities for historical and legal research.<br>4. <b>Access:</b> Access to libraries is generally open to the public, while access to archives is often restricted to researchers due to the fragile and unique nature of the materials.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on some famous museums in India.",
+    "answer": "India has a rich network of museums that preserve its cultural heritage.<br>1. <b>Indian Museum, Kolkata:</b> Founded in 1814 C.E., it is the first museum in India. It has three main departments: Arts, Archaeology, and Anthropology.<br>2. <b>National Museum, Delhi:</b> Established in 1949, it is the premier museum of the country. It is under the administration of the Government of India and houses a vast collection of artefacts covering all aspects of Indian history and art.<br>3. <b>Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, Mumbai:</b> Formerly the Prince of Wales Museum, it was established in 1904. It is housed in a magnificent Indo-Gothic style building and has a large collection of artefacts from the Harappan civilization and other historical periods.<br>4. <b>Salar Jung Museum, Hyderabad:</b> This museum is famous for its collection of artefacts from around the world, which were collected by a single person, Nawab Salar Jung III.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What are the professional opportunities linked to heritage management?",
+    "answer": "The field of heritage management, which includes museums, archives, and archaeology, offers a variety of professional opportunities. These fields require experts with specialized skills.<br>1. <b>Archaeologist:</b> Involved in the excavation and study of ancient sites.<br>2. <b>Archivist:</b> Manages and preserves historical documents in an archive.<br>3. <b>Curator:</b> Manages a museum's collection, organizes exhibitions, and conducts research.<br>4. <b>Conservator:</b> Specializes in the scientific preservation and restoration of artefacts and documents.<br>5. <b>Sociologist/Anthropologist:</b> Studies the social and cultural aspects of heritage.<br>6. <b>Legal Professionals:</b> Lawyers with knowledge of heritage laws are needed to manage legal issues related to heritage sites and artefacts.",
+    "marks": 4
+  }
+]
+

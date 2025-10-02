@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The disease caused by the bacterium *Salmonella typhi* is:",
+    "options": [
+      "(a) Malaria",
+      "(b) Typhoid",
+      "(c) Pneumonia",
+      "(d) Amoebiasis"
+    ],
+    "correct_answer": "b",
+    "answer": "**Typhoid** is a bacterial infection caused by *Salmonella typhi*, which is typically transmitted through contaminated food or water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The parasite that causes malaria is:",
+    "options": [
+      "(a) *Plasmodium*",
+      "(b) *Entamoeba histolytica*",
+      "(c) *Ascaris lumbricoides*",
+      "(d) *Wuchereria bancrofti*"
+    ],
+    "correct_answer": "a",
+    "answer": "**Malaria** is a mosquito-borne infectious disease caused by the parasite ***Plasmodium***. The parasite's life cycle involves both a mosquito and a vertebrate host.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The test used for the diagnosis of typhoid fever is:",
+    "options": [
+      "(a) ELISA test",
+      "(b) Widal test",
+      "(c) PCR",
+      "(d) Southern blotting"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Widal test** is a diagnostic test that detects the presence of specific antibodies in the blood, which are produced in response to a *Salmonella typhi* infection.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of immunity that is present at the time of birth is:",
+    "options": [
+      "(a) Acquired immunity",
+      "(b) Active immunity",
+      "(c) Innate immunity",
+      "(d) Passive immunity"
+    ],
+    "correct_answer": "c",
+    "answer": "**Innate immunity** is a non-specific type of immunity that is present from birth. It includes physical barriers like skin, as well as cellular and chemical responses that provide a first line of defense against pathogens.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cells that are responsible for the cell-mediated immune response are:",
+    "options": [
+      "(a) B-lymphocytes",
+      "(b) T-lymphocytes",
+      "(c) Macrophages",
+      "(d) Neutrophils"
+    ],
+    "correct_answer": "b",
+    "answer": "**T-lymphocytes**, or T cells, are a type of white blood cell that play a central role in the cell-mediated immune response. They recognize and kill infected cells and cancer cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The causative agent of AIDS is:",
+    "options": [
+      "(a) *Plasmodium vivax*",
+      "(b) Human Immunodeficiency Virus (HIV)",
+      "(c) *Vibrio cholerae*",
+      "(d) *Mycobacterium tuberculosis*"
+    ],
+    "correct_answer": "b",
+    "answer": "AIDS (**Acquired Immunodeficiency Syndrome**) is caused by the **Human Immunodeficiency Virus (HIV)**, which progressively attacks the immune system, making the body susceptible to opportunistic infections and cancers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a malignant tumor spreading to other parts of the body is called:",
+    "options": [
+      "(a) Necrosis",
+      "(b) Apoptosis",
+      "(c) Metastasis",
+      "(d) Carcinogenesis"
+    ],
+    "correct_answer": "c",
+    "answer": "**Metastasis** is the process by which cancer cells detach from the primary tumor and spread to other organs through the bloodstream or lymphatic system, forming new tumors.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A drug that reduces fever is known as a(n):",
+    "options": [
+      "(a) Analgesic",
+      "(b) Antibiotic",
+      "(c) Antipyretic",
+      "(d) Antiseptic"
+    ],
+    "correct_answer": "c",
+    "answer": "**Antipyretics** are drugs that reduce fever by acting on the hypothalamus in the brain to lower the body's set point temperature.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The drug used to treat anxiety and insomnia is a(n):",
+    "options": [
+      "(a) Analgesic",
+      "(b) Tranquilizer",
+      "(c) Antipyretic",
+      "(d) Antibiotic"
+    ],
+    "correct_answer": "b",
+    "answer": "**Tranquilizers** are a class of drugs used to treat anxiety, fear, tension, and mental unrest. They are also commonly used as sleeping pills.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a fungal disease?",
+    "options": [
+      "(a) Ringworm",
+      "(b) Typhoid",
+      "(c) Malaria",
+      "(d) Dengue"
+    ],
+    "correct_answer": "a",
+    "answer": "**Ringworm** is a common skin infection caused by a fungus. It is characterized by a red, itchy, circular rash.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process by which the immune system mistakenly attacks the body's own cells is called:",
+    "options": [
+      "(a) Allergy",
+      "(b) Autoimmunity",
+      "(c) Necrosis",
+      "(d) Inflammation"
+    ],
+    "correct_answer": "b",
+    "answer": "**Autoimmunity** is the condition where the immune system loses its ability to distinguish between its own cells and foreign cells, leading it to attack the body's own tissues. Rheumatoid arthritis and Myasthenia gravis are examples of autoimmune diseases.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The active ingredient in Dettol, an antiseptic, is a mixture of:",
+    "options": [
+      "(a) Chloroxylenol and terpineol",
+      "(b) Phenol and cresol",
+      "(c) Iodine and alcohol",
+      "(d) Boric acid and zinc oxide"
+    ],
+    "correct_answer": "a",
+    "answer": "**Dettol** is a popular antiseptic that contains a mixture of **chloroxylenol and terpineol**. Chloroxylenol is the main antimicrobial agent, and terpineol provides a pleasant scent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following diseases is transmitted by the bite of an infected sandfly?",
+    "options": [
+      "(a) Malaria",
+      "(b) Filariasis",
+      "(c) Kala-azar",
+      "(d) Typhoid"
+    ],
+    "correct_answer": "c",
+    "answer": "**Kala-azar**, or visceral leishmaniasis, is a parasitic disease caused by the protozoan *Leishmania donovani* and is transmitted by the bite of infected sandflies.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The vaccine for tuberculosis is:",
+    "options": [
+      "(a) BCG",
+      "(b) Polio vaccine",
+      "(c) DPT vaccine",
+      "(d) MMR vaccine"
+    ],
+    "correct_answer": "a",
+    "answer": "**BCG** (**Bacille Calmette-Guérin**) is a vaccine primarily used against **tuberculosis**. It is typically given to infants in countries with a high prevalence of TB.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The drug that is effective against a wide range of bacteria is called a:",
+    "options": [
+      "(a) Broad-spectrum antibiotic",
+      "(b) Narrow-spectrum antibiotic",
+      "(c) Antipyretic",
+      "(d) Analgesic"
+    ],
+    "correct_answer": "a",
+    "answer": "**Broad-spectrum antibiotics** are effective against a wide range of bacteria, including both Gram-positive and Gram-negative bacteria. Examples include ampicillin and tetracycline.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Cancer of the epithelial cells is called:",
+    "options": [
+      "(a) Sarcoma",
+      "(b) Carcinoma",
+      "(c) Leukemia",
+      "(d) Lymphoma"
+    ],
+    "correct_answer": "b",
+    "answer": "**Carcinoma** is a type of cancer that arises from the epithelial cells, which are the cells that line the internal and external surfaces of the body. It is the most common type of cancer.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The lymphatic tissue that constitutes about 50% of the lymphoid tissue in the human body is:",
+    "options": [
+      "(a) Spleen",
+      "(b) Tonsils",
+      "(c) MALT",
+      "(d) Thymus"
+    ],
+    "correct_answer": "c",
+    "answer": "**MALT** (**Mucosa-Associated Lymphoid Tissue**) is a component of the immune system that protects the body's mucosal surfaces from pathogens. It constitutes about 50% of the lymphoid tissue in the human body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary cause of the common cold is a:",
+    "options": [
+      "(a) Bacterium",
+      "(b) Virus",
+      "(c) Fungus",
+      "(d) Protozoan"
+    ],
+    "correct_answer": "b",
+    "answer": "The common cold is a viral infectious disease caused by a **virus**, most commonly a rhinovirus.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a congenital disease?",
+    "options": [
+      "(a) Malaria",
+      "(b) Cancer",
+      "(c) Haemophilia",
+      "(d) Typhoid"
+    ],
+    "correct_answer": "c",
+    "answer": "A congenital disease is a medical condition that is present at or before birth. **Haemophilia** is a genetic disorder that is often present at birth and affects the blood's ability to clot.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of an immune response directed against one's own body is called:",
+    "options": [
+      "(a) Allergy",
+      "(b) Graft rejection",
+      "(c) Active immunity",
+      "(d) Autoimmunity"
+    ],
+    "correct_answer": "d",
+    "answer": "**Autoimmunity** is the immune response of an organism against its own cells and tissues, often leading to a range of diseases.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The most common type of cancer, which originates from epithelial cells, is:",
+    "options": [
+      "(a) Sarcoma",
+      "(b) Leukemia",
+      "(c) Carcinoma",
+      "(d) Lymphoma"
+    ],
+    "correct_answer": "c",
+    "answer": "**Carcinoma** is a type of cancer that originates from the epithelial cells, which are cells that line the surfaces of the body. It is the most common form of cancer.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bacterium that causes pneumonia is:",
+    "options": [
+      "(a) *Salmonella typhi*",
+      "(b) *Streptococcus pneumoniae*",
+      "(c) *Vibrio cholerae*",
+      "(d) *Mycobacterium tuberculosis*"
+    ],
+    "correct_answer": "b",
+    "answer": "**Pneumonia** is an infection that inflames the air sacs in one or both lungs. The bacterium most commonly responsible for this is ***Streptococcus pneumoniae***.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The protein that acts as an antigen-binding site on an antibody molecule is located at the:",
+    "options": [
+      "(a) C-terminal region",
+      "(b) N-terminal region",
+      "(c) Hinge region",
+      "(d) Disulfide bond"
+    ],
+    "correct_answer": "b",
+    "answer": "The antigen-binding site, which is the region that recognizes and binds to an antigen, is located at the **N-terminal region** of the antibody molecule, formed by the variable regions of both the heavy and light chains.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A substance that reduces pain is called a(n):",
+    "options": [
+      "(a) Antipyretic",
+      "(b) Analgesic",
+      "(c) Antiseptic",
+      "(d) Antibiotic"
+    ],
+    "correct_answer": "b",
+    "answer": "An **analgesic** is a pain-relieving drug that is used to achieve analgesia, or relief from pain. Examples include aspirin and morphine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'addiction' refers to:",
+    "options": [
+      "(a) A physical and psychological dependence on a substance",
+      "(b) A mild dependence on a substance",
+      "(c) A preference for a particular food",
+      "(d) A mental disorder"
+    ],
+    "correct_answer": "a",
+    "answer": "**Addiction** is a state of psychological and physical dependence on a substance, characterized by a compulsive need to use it despite harmful consequences.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disease that has been completely eradicated by vaccination is:",
+    "options": [
+      "(a) Polio",
+      "(b) Tuberculosis",
+      "(c) Smallpox",
+      "(d) Tetanus"
+    ],
+    "correct_answer": "c",
+    "answer": "**Smallpox** is a viral disease that was globally eradicated in 1980 through a successful vaccination campaign led by the World Health Organization (WHO).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a viral disease?",
+    "options": [
+      "(a) Ringworm",
+      "(b) Filariasis",
+      "(c) Dengue",
+      "(d) Diphtheria"
+    ],
+    "correct_answer": "c",
+    "answer": "**Dengue** is a viral disease transmitted by mosquitoes. The other options are caused by a fungus (ringworm), a worm (filariasis), and a bacterium (diphtheria).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary lymphoid organ where B-lymphocytes and T-lymphocytes are produced is the:",
+    "options": [
+      "(a) Spleen",
+      "(b) Thymus",
+      "(c) Lymph nodes",
+      "(d) Bone marrow"
+    ],
+    "correct_answer": "d",
+    "answer": "Both B-lymphocytes and T-lymphocytes are produced in the **bone marrow**. T-lymphocytes then migrate to the thymus to mature.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The substance that is released by mast cells during an allergic reaction is:",
+    "options": [
+      "(a) Histamine",
+      "(b) Interferon",
+      "(c) Antibody",
+      "(d) Cytokine"
+    ],
+    "correct_answer": "a",
+    "answer": "During an allergic reaction, mast cells release chemical mediators, most notably **histamine**, which causes symptoms such as itching, swelling, and redness.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Cancer of the blood-forming tissues, such as bone marrow, is called:",
+    "options": [
+      "(a) Sarcoma",
+      "(b) Carcinoma",
+      "(c) Leukemia",
+      "(d) Lymphoma"
+    ],
+    "correct_answer": "c",
+    "answer": "**Leukemia** is a type of cancer that affects the blood and bone marrow, leading to an abnormal increase in the number of white blood cells.",
+    "marks": 1
+  }
+]

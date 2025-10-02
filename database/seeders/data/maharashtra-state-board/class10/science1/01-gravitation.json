@@ -1,0 +1,566 @@
+[
+  {
+    "type": "long",
+    "text": "State and explain Newton's Universal Law of Gravitation. (Practice Set 1.1)",
+    "answer": "### **Statement**\nEvery object in the Universe attracts every other object with a definite force. This force is directly proportional to the product of the masses of the two objects and is inversely proportional to the square of the distance between them.\n\n### **Explanation**\nLet's consider two objects with masses $M_1$ and $M_2$. The distance between their centers is $r$. The gravitational force of attraction between them, $F$, is given by the formula:\n\n$F \\propto M_1 M_2$ (Directly proportional to the product of masses)\n$F \\propto \\frac{1}{r^2}$ (Inversely proportional to the square of the distance)\n\nCombining these two proportionality relationships, we get:\n$F \\propto \\frac{M_1 M_2}{r^2}$\n\nTo remove the proportionality sign, a constant of proportionality, $G$, is introduced.\n$F = G \\frac{M_1 M_2}{r^2}$\n\nHere, **$G$ is the Universal Gravitational Constant**. Its value is constant throughout the universe, which is why Newton's law is called the universal law. The SI unit of $G$ is $N \\cdot m^2/kg^2$ and its value is $6.67 \\times 10^{-11} N \\cdot m^2/kg^2$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between mass and weight?",
+    "answer": "### **Mass**\n* **Definition:** The amount of matter present in an object.\n* **Nature:** It is a scalar quantity.\n* **Value:** Its value remains the same everywhere.\n* **Unit:** The SI unit is kg.\n\n### **Weight**\n* **Definition:** The force with which the Earth attracts the object.\n* **Nature:** It is a vector quantity, directed towards the center of the Earth.\n* **Value:** Its value changes from place to place due to the change in g.\n* **Unit:** The SI unit is N (Newton).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "An object of mass $5$ kg is thrown vertically upwards with an initial velocity of $10$ m/s. How high will it go? ($g = 10 \\ m/s^2$)",
+    "answer": "To solve this problem, we can use the third kinematic equation, with the final velocity being zero at the highest point.\n\n**Given:**\n* Initial velocity, $u = 10 \\ m/s$\n* Final velocity, $v = 0 \\ m/s$ (at the highest point)\n* Acceleration, $a = -g = -10 \\ m/s^2$ (negative because it's against gravity)\n* Displacement/Height, $s = h = ?$ (This is what we need to find)\n\n**Formula:**\n$v^2 = u^2 + 2as$\n\n**Calculations:**\n$0^2 = (10)^2 + 2(-10)h$\n$0 = 100 - 20h$\n$20h = 100$\n$h = \\frac{100}{20}$\n$h = 5 \\ m$\n\n**Answer:** The object will go up to a height of $5 \\ m$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of free fall. (Practice Set 1.2)",
+    "answer": "A body is said to be in **free fall** when it is moving under the influence of the force of gravity alone, with no other forces acting on it.\n\n* During free fall, the velocity of the object increases constantly. This happens because of the constant acceleration due to gravity, $g$.\n* The acceleration experienced by a freely falling object is constant and equal to $g$.\n* At the beginning of the fall, the initial velocity is often considered to be zero. As the object falls, its velocity increases, and it covers a greater distance in each successive time interval.\n* The equations of motion for an object in free fall are modified by replacing the acceleration $a$ with $g$. For example:\n    * $v = u + gt$\n    * $s = ut + \\frac{1}{2}gt^2$\n    * $v^2 = u^2 + 2gs$",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "The value of acceleration due to gravity (g) is highest at... (Problem Set 1)",
+    "options": ["The equator", "The poles", "The center of the Earth", "A great height from the surface"],
+    "correct_answer": "B",
+    "answer": "The value of g varies with the shape of the Earth. The Earth is not a perfect sphere; it is slightly flattened at the poles and bulges at the equator. This means the radius of the Earth is smallest at the poles and largest at the equator. Since $g$ is inversely proportional to the square of the distance from the center of the Earth ($g \\propto \\frac{1}{r^2}$), its value is highest where the radius is smallest, which is at the poles. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A person weighs $70$ N on Earth. What would be their weight on the Moon? (Given: Acceleration due to gravity on the Moon is one-sixth of that on Earth). (Practice Set 1.3)",
+    "answer": "### **Step 1: Understand the relationship between weight, mass, and acceleration due to gravity.**\nWeight is the force exerted on a body by gravity. The formula for weight is:\nWeight = Mass $\\times$ Acceleration due to gravity ($w = mg$)\n\n### **Step 2: Calculate the person's mass on Earth.**\nWeight on Earth ($w_E$) = $70$ N\nAcceleration due to gravity on Earth ($g_E$) = $9.8 \\ m/s^2$ (standard value)\n\nMass ($m$) = $w_E / g_E$\n$m = 70 / 9.8 \\approx 7.14$ kg\n\n### **Step 3: Calculate the acceleration due to gravity on the Moon.**\nGiven: $g_M = \\frac{1}{6} g_E$\n$g_M = \\frac{1}{6} \\times 9.8 \\approx 1.63 \\ m/s^2$\n\n### **Step 4: Calculate the person's weight on the Moon.**\nWeight on Moon ($w_M$) = Mass $\\times$ Acceleration due to gravity on Moon\n$w_M = m \\times g_M$\n$w_M = 7.14 \\times 1.63 \\approx 11.64$ N\n\nAlternatively, we can use the direct ratio:\n$w_M = w_E \\times \\frac{1}{6} = 70 \\times \\frac{1}{6} \\approx 11.67$ N.\n\n**Answer:** The person's weight on the Moon would be approximately $11.67$ N.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "The value of the universal gravitational constant, $G$, is... (Problem Set 1)",
+    "options": ["$9.8 \\ m/s^2$", "$6.67 \\times 10^{-11} \\ N \\cdot m^2/kg^2$", "$6.67 \\times 10^{11} \\ N \\cdot m^2/kg^2$", "$0$"],
+    "correct_answer": "B",
+    "answer": "The Universal Gravitational Constant, denoted by $G$, is a fundamental physical constant used in Newton's Law of Gravitation. Its value is approximately $6.67 \\times 10^{-11} N \\cdot m^2/kg^2$. This value is independent of the objects' masses or the distance between them. The value $9.8 \\ m/s^2$ is the acceleration due to gravity ($g$) on Earth's surface. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "State Kepler's three laws of planetary motion. (Practice Set 1.1)",
+    "answer": "### **Kepler's First Law (Law of Orbits)**\nThe orbit of a planet is an ellipse with the Sun at one of the foci.\n\n### **Kepler's Second Law (Law of Areas)**\nThe line joining the planet and the Sun sweeps equal areas in equal intervals of time. This means that a planet's speed is not constant; it moves faster when it is closer to the Sun and slower when it is farther away.\n\n### **Kepler's Third Law (Law of Periods)**\nThe square of the period of revolution of a planet around the Sun is directly proportional to the cube of the mean distance of the planet from the Sun.\n\nMathematically, this can be expressed as: $T^2 \\propto r^3$, or $\\frac{T^2}{r^3} = constant$, where $T$ is the period of revolution and $r$ is the mean distance from the Sun.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is escape velocity? Derive the formula for escape velocity. (Problem Set 1)",
+    "answer": "### **Definition of Escape Velocity**\nEscape velocity is the minimum initial velocity that must be given to an object to enable it to escape Earth's gravitational field and travel infinitely far away from it.\n\n### **Derivation**\nConsider an object of mass $m$ on the surface of the Earth, which has mass $M$ and radius $R$. The kinetic energy of the object is $KE = \\frac{1}{2}mv^2$. The potential energy of the object on the surface is $PE = -G \\frac{Mm}{R}$.\n\nTo escape Earth's gravity, the object must have a total energy of zero. This means the sum of its kinetic and potential energy must be zero at a theoretically infinite distance from Earth, where both KE and PE are zero. By the law of conservation of energy:\n\nInitial Energy = Final Energy\n\nInitial Energy = $KE + PE = \\frac{1}{2}mv_{esc}^2 - G \\frac{Mm}{R}$\nFinal Energy = $0$\n\n$\\frac{1}{2}mv_{esc}^2 - G \\frac{Mm}{R} = 0$\n\n$\\frac{1}{2}mv_{esc}^2 = G \\frac{Mm}{R}$\n\nWe can cancel the mass of the object, $m$, from both sides:\n\n$\\frac{1}{2}v_{esc}^2 = G \\frac{M}{R}$\n\n$v_{esc}^2 = \\frac{2GM}{R}$\n\n$v_{esc} = \\sqrt{\\frac{2GM}{R}}$\n\nThis is the formula for escape velocity. By substituting the standard values of $G$, $M$, and $R$ for Earth, we get the value of Earth's escape velocity, which is approximately $11.2 \\ km/s$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Explain the variation in the value of $g$ with respect to height. (PYQ: March 2020)",
+    "answer": "The value of acceleration due to gravity, $g$, decreases with an increase in height above the Earth's surface.\n\n* The formula for $g$ on the surface of the Earth is $g = \\frac{GM}{R^2}$, where $R$ is the radius of the Earth.\n\n* Consider an object at a height $h$ above the Earth's surface. The distance of the object from the center of the Earth is now $(R+h)$. The acceleration due to gravity at this height, let's call it $g_h$, will be:\n\n$g_h = \\frac{GM}{(R+h)^2}$\n\n* By comparing the two formulas, it is clear that since the denominator $(R+h)^2$ is greater than $R^2$, the value of $g_h$ will be less than the value of $g$ on the surface. The value of $g$ decreases as you move away from the Earth's center. For example, the value of $g$ on a mountain peak is slightly less than its value at the base of the mountain. ",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "The mass of the Earth is $6 \\times 10^{24}$ kg and the mass of the Moon is $7.4 \\times 10^{22}$ kg. The distance between the Earth and the Moon is $3.84 \\times 10^8$ m. Using Newton's law of gravitation, find the gravitational force of attraction between them. ($G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$)",
+    "answer": "**Given:**\n* Mass of Earth, $M_E = 6 \\times 10^{24}$ kg\n* Mass of Moon, $M_M = 7.4 \\times 10^{22}$ kg\n* Distance, $r = 3.84 \\times 10^8$ m\n* Gravitational constant, $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$\n\n**Formula:**\n$F = G \\frac{M_E M_M}{r^2}$\n\n**Calculation:**\n$F = (6.67 \\times 10^{-11}) \\frac{(6 \\times 10^{24})(7.4 \\times 10^{22})}{(3.84 \\times 10^8)^2}$\n$F = (6.67 \\times 10^{-11}) \\frac{44.4 \\times 10^{46}}{14.7456 \\times 10^{16}}$\n$F = (6.67 \\times 10^{-11}) \\times (3.01 \\times 10^{30})$\n$F = 20.08 \\times 10^{19}$ N\n$F = 2.01 \\times 10^{20}$ N\n\n**Answer:** The gravitational force of attraction between the Earth and the Moon is approximately $2.01 \\times 10^{20}$ N.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Define Centripetal Force.",
+    "answer": "A force that acts on an object moving in a circular path and is directed towards the center of the circle. This force is necessary to keep the object moving in a circular orbit.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the relation between the gravitational force and the centripetal force for a planet revolving around the sun?",
+    "answer": "For a planet revolving in a circular orbit around the Sun, the **gravitational force** of attraction between the Sun and the planet provides the necessary **centripetal force** to keep the planet in its orbit. Without this inward-acting force, the planet would move in a straight line tangent to its orbit, according to Newton's first law of motion.\n\n* **Gravitational Force** ($F_g$) = $G \\frac{M_S m_p}{r^2}$\n* **Centripetal Force** ($F_c$) = $\\frac{m_p v^2}{r}$\n\nSince $F_g = F_c$, we have: $G \\frac{M_S m_p}{r^2} = \\frac{m_p v^2}{r}$\nThis equality shows how the gravitational pull of the Sun is what keeps the planet in orbit. The planet is constantly 'falling' towards the Sun, but its tangential velocity keeps it from getting any closer, resulting in a stable orbit.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of weightlessness in space.",
+    "answer": "The feeling of weightlessness in space is not due to a complete absence of gravity, but rather because the astronauts and the spaceship are in a state of **continuous free fall** around the Earth. The gravitational force from Earth is still acting on them, providing the necessary centripetal force to keep them in orbit.\n\nSince both the astronaut and the spaceship are falling at the same rate, they don't press against each other. The normal reaction force that we feel on the ground, which gives us the sensation of weight, is absent. This lack of a supporting force creates the feeling of weightlessness. It is a sensation, not an actual state of zero gravity.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Why do the astronauts appear to float in a spaceship? (PYQ: March 2018)",
+    "answer": "Astronauts appear to float inside a spaceship because both the spaceship and the astronauts are in a state of continuous free fall under the influence of Earth's gravity. The gravitational force provides the necessary centripetal force for the circular motion, but since there is no opposing normal force, they experience the sensation of weightlessness.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The force of gravity on a body of mass m is proportional to... (Problem Set 1)",
+    "options": ["m", "1/m", "$m^2$", "$\\frac{1}{m^2}$"],
+    "correct_answer": "A",
+    "answer": "The force of gravity (or weight) on a body is given by the formula $F = W = mg$. This shows that the force is directly proportional to the mass of the object. Therefore, the force of gravity is proportional to $m$. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Calculate the force of gravitation between the Earth and the Sun. (Given: Mass of Earth = $6 \\times 10^{24}$ kg, Mass of Sun = $2 \\times 10^{30}$ kg, distance between them = $1.5 \\times 10^{11}$ m).",
+    "answer": "**Given:**\n* Mass of Earth, $M_E = 6 \\times 10^{24}$ kg\n* Mass of Sun, $M_S = 2 \\times 10^{30}$ kg\n* Distance, $r = 1.5 \\times 10^{11}$ m\n* Gravitational constant, $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$\n\n**Formula:**\n$F = G \\frac{M_E M_S}{r^2}$\n\n**Calculation:**\n$F = (6.67 \\times 10^{-11}) \\frac{(6 \\times 10^{24})(2 \\times 10^{30})}{(1.5 \\times 10^{11})^2}$\n$F = (6.67 \\times 10^{-11}) \\frac{12 \\times 10^{54}}{2.25 \\times 10^{22}}$\n$F = (6.67 \\times 10^{-11}) \\times (5.33 \\times 10^{32})$\n$F = 35.58 \\times 10^{21}$ N\n$F = 3.56 \\times 10^{22}$ N\n\n**Answer:** The gravitational force between the Earth and the Sun is approximately $3.56 \\times 10^{22}$ N.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is acceleration due to gravity ($g$)? State its SI unit.",
+    "answer": "Acceleration due to gravity is the acceleration produced in a body due to the gravitational force of the Earth. Its SI unit is $m/s^2$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain how the value of acceleration due to gravity changes with the shape of the Earth.",
+    "answer": "The Earth is not a perfect sphere; it is flattened at the poles and bulges at the equator. This means the radius of the Earth, $R$, is not constant.\n\n* **At the Poles:** The radius of the Earth is minimum. Since the value of $g$ is inversely proportional to the square of the radius ($g \\propto \\frac{1}{R^2}$), the value of $g$ is maximum at the poles.\n\n* **At the Equator:** The radius of the Earth is maximum. Therefore, the value of $g$ is minimum at the equator.\n\nThis variation in the Earth's radius causes the value of $g$ to be highest at the poles ($9.832 \\ m/s^2$) and lowest at the equator ($9.78 \\ m/s^2$).",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the value of $g$ at the center of the Earth?",
+    "answer": "The value of acceleration due to gravity, $g$, becomes zero at the center of the Earth. This is because the gravitational force exerted by all parts of the Earth on an object at its center would cancel each other out.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Derive the formula for acceleration due to gravity ($g$) in terms of mass and radius of the Earth.",
+    "answer": "According to Newton's second law, the force on an object of mass $m$ due to acceleration $g$ is $F = mg$. According to Newton's universal law of gravitation, the force between the Earth (mass $M$) and an object (mass $m$) on its surface is $F = G \\frac{Mm}{R^2}$, where $R$ is the radius of the Earth.\n\nSince both expressions represent the same force, we can equate them:\n\n$mg = G \\frac{Mm}{R^2}$\n\nBy cancelling the mass of the object, $m$, from both sides, we get the expression for $g$:\n\n$g = \\frac{GM}{R^2}$\n\nThis formula shows that the value of $g$ depends on the mass and radius of the Earth, but not on the mass of the object.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Distinguish between Uniform Circular Motion and Uniform Linear Motion.",
+    "answer": "### **Uniform Circular Motion**\n* **Path:** The object moves along a circular path.\n* **Velocity:** The velocity is not constant. While the speed is uniform, the direction of motion changes continuously, so the velocity vector changes. This means there is acceleration.\n* **Force:** A centripetal force is required and acts towards the center of the circle.\n* **Example:** A planet revolving around the Sun.\n\n### **Uniform Linear Motion**\n* **Path:** The object moves along a straight line.\n* **Velocity:** The velocity is constant (both speed and direction are uniform).\n* **Force:** No external force is required to maintain this motion, according to Newton's first law.\n* **Example:** A car moving at a constant speed on a straight road.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A stone is thrown vertically upwards and returns to the ground. Why does its velocity become zero at the highest point? What happens to its kinetic energy at that point?",
+    "answer": "When the stone is thrown upwards, it moves against the force of gravity. The constant downward acceleration due to gravity, $g$, continuously reduces the stone's upward velocity. Eventually, the upward velocity becomes zero at the highest point of its trajectory, and the stone momentarily stops.\n\nAt the highest point, since the velocity is zero, its **kinetic energy** ($KE = \\frac{1}{2}mv^2$) also becomes zero. According to the law of conservation of energy, all its initial kinetic energy has been converted into **gravitational potential energy** ($PE = mgh$). As the stone begins to fall back down, this potential energy is converted back into kinetic energy.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the SI unit of G? Write its value.",
+    "answer": "The SI unit of the Universal Gravitational Constant, G, is $N \\cdot m^2/kg^2$. Its value is $6.67 \\times 10^{-11} N \\cdot m^2/kg^2$.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The weight of an object on Earth is... (Problem Set 1)",
+    "options": ["equal to its mass", "less than its mass", "the force of gravity on it", "greater than its mass"],
+    "correct_answer": "C",
+    "answer": "Weight is defined as the force with which an object is attracted towards the center of the Earth. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the variation of the value of $g$ with respect to depth. (PYQ: July 2019)",
+    "answer": "The value of acceleration due to gravity, $g$, decreases as we go deeper below the Earth's surface. When an object is taken to a depth $d$ below the surface, the part of the Earth above it no longer contributes to the gravitational pull on the object.\n\n* As we go deeper, the mass of the Earth attracting the object decreases, and the distance from the center also decreases.\n* However, the effect of the decrease in mass is greater than the effect of the decrease in distance.\n* This leads to a net decrease in the value of $g$ as one goes deeper into the Earth. The value of $g$ becomes zero at the center of the Earth.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the formula for the escape velocity of an object from Earth?",
+    "answer": "The formula for escape velocity ($v_{esc}$) is $v_{esc} = \\sqrt{\\frac{2GM}{R}}$, where G is the universal gravitational constant, M is the mass of the Earth, and R is the radius of the Earth.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "An object of mass $m$ is falling from a height $h$. The potential energy of the object when it is at height $h$ is... (Problem Set 1)",
+    "options": ["$mg/h$", "$mgh$", "$m(gh)^2$", "$m/gh$"],
+    "correct_answer": "B",
+    "answer": "The gravitational potential energy of an object of mass $m$ at a height $h$ from the ground is given by the formula $PE = mgh$. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain why the acceleration due to gravity ($g$) is independent of the mass of the falling object. (PYQ: March 2017)",
+    "answer": "The acceleration due to gravity is the acceleration experienced by an object due to the Earth's gravitational force. The force of gravity on an object of mass $m$ on the Earth's surface is given by Newton's second law ($F = mg$) and also by the universal law of gravitation ($F = G\\frac{Mm}{R^2}$). \n\nBy equating these two expressions for force, we get:\n$mg = G\\frac{Mm}{R^2}$\n\nWe can cancel the term for the object's mass ($m$) from both sides of the equation:\n\n$g = G\\frac{M}{R^2}$\n\nThis final formula for $g$ depends only on the Universal Gravitational Constant ($G$), the mass of the Earth ($M$), and the radius of the Earth ($R$). It does not contain the mass of the falling object ($m$). Therefore, the acceleration due to gravity is independent of the mass of the falling object.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the value of gravitational potential energy at infinity?",
+    "answer": "The gravitational potential energy of an object is zero at an infinite distance from the Earth. The potential energy is always negative and increases as the object moves farther away from the Earth, approaching zero at infinity.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is the importance of Newton's universal law of gravitation?",
+    "answer": "Newton's universal law of gravitation explains several phenomena:\n\n1.  **Motion of planets:** It explains the motion of planets around the Sun and their elliptical orbits (Kepler's laws).\n2.  **Motion of the Moon:** It explains the motion of the Moon around the Earth.\n3.  **Tides:** It accounts for the tides in the ocean due to the gravitational force of the Moon and the Sun.\n4.  **Free Fall:** It explains why objects fall vertically downwards towards the Earth's surface.\n5.  **Gravitational binding:** It explains the existence of celestial bodies like planets, stars, and galaxies by holding them together.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "State the formula for kinetic energy and potential energy of a falling object.",
+    "answer": "* **Kinetic Energy (KE):** $KE = \\frac{1}{2}mv^2$\n* **Potential Energy (PE):** $PE = mgh$",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The weight of a body is highest at... (Problem Set 1)",
+    "options": ["equator", "poles", "center of Earth", "high altitude"],
+    "correct_answer": "B",
+    "answer": "Weight is calculated as $W = mg$. Since the value of $g$ is maximum at the poles, the weight of a body is also highest at the poles. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A stone is dropped from a height of $500$ m. What is the velocity of the stone after falling for $5$ seconds? ($g = 10 \\ m/s^2$)",
+    "answer": "**Given:**\n* Initial velocity, $u = 0 \\ m/s$ (since it is dropped)\n* Time, $t = 5$ s\n* Acceleration, $g = 10 \\ m/s^2$\n\n**Formula:**\nWe can use the first kinematic equation for free fall:\n$v = u + gt$\n\n**Calculation:**\n$v = 0 + (10)(5)$\n$v = 50 \\ m/s$\n\n**Answer:** The velocity of the stone after falling for 5 seconds is $50 \\ m/s$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on satellites and their orbits.",
+    "answer": "Satellites are objects, either natural or man-made, that orbit a planet. The Moon is a natural satellite of the Earth. Man-made satellites are launched into specific orbits to perform various tasks such as weather forecasting, communication, and scientific research.\n\n* **Low Earth Orbit (LEO):** For scientific research and communication. Altitude: 180 km to 2000 km.\n* **Medium Earth Orbit (MEO):** Used for navigation systems like GPS. Altitude: 2000 km to 35,780 km.\n* **Geostationary Orbit (GEO):** A satellite in this orbit appears stationary from Earth. Used for communication and weather satellites. Altitude: 35,786 km.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Give two examples of free fall.",
+    "answer": "1. A stone dropped from the top of a building.\n2. A feather falling in a vacuum chamber.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "If the value of $g$ is $9.8 \\ m/s^2$ on Earth, what is the value of $g$ on a planet that has double the mass and radius of Earth?",
+    "answer": "The value of $g$ on Earth is $g = \\frac{GM}{R^2}$. For the new planet, the mass is $2M$ and the radius is $2R$. The new acceleration, $g_{new}$, is:\n\n$g_{new} = \\frac{G(2M)}{(2R)^2} = \\frac{2GM}{4R^2} = \\frac{1}{2} \\frac{GM}{R^2} = \\frac{1}{2}g$\n\nSo, $g_{new} = \\frac{1}{2}(9.8) = 4.9 \\ m/s^2$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Distinguish between the Universal Gravitational Constant (G) and Acceleration due to gravity (g).",
+    "answer": "### **Universal Gravitational Constant (G)**\n* **Definition:** It is the constant of proportionality in Newton's universal law of gravitation.\n* **Value:** Its value is constant throughout the universe, independent of the masses or distance of the objects.\n* **SI Unit:** $N \\cdot m^2/kg^2$\n* **Nature:** It is a scalar constant.\n\n### **Acceleration due to gravity (g)**\n* **Definition:** It is the acceleration produced in a body due to the Earth's gravitational force.\n* **Value:** Its value is not constant and varies with location (height, depth, and shape of Earth).\n* **SI Unit:** $m/s^2$\n* **Nature:** It is a vector quantity, directed towards the center of the Earth.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A stone is thrown vertically upwards with a velocity of $40 \\ m/s$. After how much time will it return to the ground? ($g = 10 \\ m/s^2$)",
+    "answer": "This problem can be solved in two steps. First, find the time it takes to reach the highest point, and then double it for the total time.\n\n**Step 1: Time to reach the highest point**\n* Initial velocity, $u = 40 \\ m/s$\n* Final velocity at highest point, $v = 0 \\ m/s$\n* Acceleration, $a = -g = -10 \\ m/s^2$\n\n**Formula:**\n$v = u + at$\n$0 = 40 + (-10)t$\n$10t = 40$\n$t = 4$ seconds\n\n**Step 2: Total time of flight**\nThe time taken to go up is equal to the time taken to come down. \nTotal time = $2 \\times$ time to go up = $2 \\times 4 = 8$ seconds.\n\n**Answer:** The stone will return to the ground after 8 seconds.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A stone is dropped into a well of depth $20$ m. What is the time taken for the stone to reach the bottom of the well? ($g = 10 \\ m/s^2$)",
+    "answer": "**Given:**\n* Initial velocity, $u = 0 \\ m/s$\n* Distance/Depth, $s = h = 20$ m\n* Acceleration, $g = 10 \\ m/s^2$\n\n**Formula:**\nWe can use the second kinematic equation for free fall:\n$s = ut + \\frac{1}{2}gt^2$\n\n**Calculation:**\n$20 = (0)t + \\frac{1}{2}(10)t^2$\n$20 = 5t^2$\n$t^2 = \\frac{20}{5} = 4$\n$t = \\sqrt{4} = 2$ seconds\n\n**Answer:** The stone will take 2 seconds to reach the bottom of the well.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "State the Law of Orbits. (Kepler's First Law)",
+    "answer": "The orbit of a planet is an ellipse with the Sun at one of the foci.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A planet's period of revolution around the Sun is 8 years. What is its average distance from the Sun?",
+    "answer": "**Given:**\n* Period of revolution, $T = 8$ years\n\n**Formula:**\nAccording to Kepler's Third Law, $T^2 \\propto r^3$ or $\\frac{T^2}{r^3} = K$, where K is a constant.\nAssuming a planet at 1 AU distance has a period of 1 year, we can use the relationship $T_1^2 / r_1^3 = T_2^2 / r_2^3$.\n\nLet's assume Earth's orbit as a reference: $T_E = 1$ year and $r_E = 1$ AU (Astronomical Unit).\nFor the given planet: $T_p = 8$ years and $r_p = ?$\n\n**Calculation:**\n$\\frac{T_p^2}{r_p^3} = \\frac{T_E^2}{r_E^3}$\n$\\frac{8^2}{r_p^3} = \\frac{1^2}{1^3}$\n$64 = r_p^3$\n$r_p = \\sqrt[3]{64} = 4$ AU\n\n**Answer:** The planet's average distance from the Sun is 4 AU.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the relation between $g$ and $G$?",
+    "answer": "The relationship between acceleration due to gravity ($g$) and the universal gravitational constant ($G$) is given by the formula $g = \\frac{GM}{R^2}$, where $M$ is the mass of the planet and $R$ is its radius.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why is the value of g zero at the center of the Earth?",
+    "answer": "According to Newton's Universal Law of Gravitation, the gravitational force on an object is due to all the mass of the celestial body. If an object is placed at the center of the Earth, the mass of the Earth surrounding it is evenly distributed in all directions.\n\n* The gravitational forces from all the different parts of the Earth's mass will pull the object equally in all directions.\n* Due to this balanced and opposing pull, the net gravitational force on the object becomes zero.\n* Since acceleration due to gravity is directly related to this net force ($F = mg$), a net force of zero results in an acceleration of zero.\n\nTherefore, the value of g is zero at the center of the Earth.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Explain the concept of Gravitational Potential Energy.",
+    "answer": "Gravitational potential energy is the energy stored in an object due to its position in a gravitational field. When an object is moved away from the Earth's surface, work is done against gravity, and this work is stored as potential energy in the object.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The value of g decreases with... (Problem Set 1)",
+    "options": ["increasing height", "increasing depth", "increasing distance from poles", "All of the above"],
+    "correct_answer": "D",
+    "answer": "The value of g decreases with an increase in height above the Earth's surface, with an increase in depth below the Earth's surface, and as one moves from the poles towards the equator (increasing distance from the poles). The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "An object of mass $5$ kg is lifted to a height of $2$ m. What is the work done against gravity? ($g = 10 \\ m/s^2$)",
+    "answer": "The work done against gravity is equal to the gravitational potential energy gained by the object.\n\n* Formula: Work Done = $mgh$\n* Calculation: Work Done = $(5 \\ kg)(10 \\ m/s^2)(2 \\ m) = 100$ J\n\n**Answer:** The work done against gravity is $100$ J.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why do artificial satellites need to be launched with a high velocity?",
+    "answer": "Artificial satellites need to be launched with a high velocity to achieve a stable orbit. The two main reasons are:\n\n1.  **To Escape the Atmosphere:** The initial launch must overcome atmospheric drag, which requires significant speed.\n2.  **To Match Gravitational Pull:** Once out of the atmosphere, the satellite needs a high tangential velocity. This tangential velocity creates a centripetal force that exactly balances the gravitational force of the Earth. If the velocity is too low, the satellite will fall back to Earth. If the velocity is too high, it will escape Earth's gravity. A specific, high velocity is required to maintain a continuous, stable orbit around the Earth.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "State the Law of Areas. (Kepler's Second Law)",
+    "answer": "The line joining the planet and the Sun sweeps equal areas in equal intervals of time.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of weight is... (Problem Set 1)",
+    "options": ["kg", "g", "N", "m"],
+    "correct_answer": "C",
+    "answer": "Weight is a force, and the SI unit of force is the Newton (N). The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A ball is thrown vertically upwards with an initial velocity of $20 \\ m/s$. Calculate the maximum height it will reach. ($g = 10 \\ m/s^2$)",
+    "answer": "We will use the third kinematic equation of motion to find the maximum height.\n\n**Given:**\n* Initial velocity, $u = 20 \\ m/s$\n* Final velocity at max height, $v = 0 \\ m/s$\n* Acceleration, $a = -g = -10 \\ m/s^2$\n* Height, $s = h = ?$\n\n**Formula:**\n$v^2 = u^2 + 2as$\n\n**Calculation:**\n$0^2 = (20)^2 + 2(-10)h$\n$0 = 400 - 20h$\n$20h = 400$\n$h = \\frac{400}{20} = 20$ m\n\n**Answer:** The maximum height the ball will reach is $20$ m.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Why does a body in circular motion have accelerated motion even if its speed is constant?",
+    "answer": "A body in uniform circular motion has a constant speed but its velocity is not constant because the direction of motion is continuously changing. A change in velocity (either in magnitude or direction) results in acceleration. Therefore, even at a constant speed, the body is accelerating.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain why Newton's law of gravitation is called a 'Universal Law'.",
+    "answer": "Newton's law of gravitation is called a 'Universal Law' because it applies to all objects in the universe, regardless of their size, mass, or location. The universal constant, G, is a fixed value everywhere. This law describes the gravitational force between:\n\n* Two objects on Earth.\n* An object and the Earth.\n* Two planets or any celestial bodies.\n\nIt is a fundamental law of nature that governs the motion of planets, stars, and galaxies, making it universally applicable.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define Gravitational Force.",
+    "answer": "Gravitational force is the attractive force between any two objects with mass. It is a fundamental force of nature and is always attractive.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Derive the formula for acceleration due to gravity ($g$) in terms of density ($\rho$).",
+    "answer": "**Given:**\n* Formula for $g$: $g = \\frac{GM}{R^2}$\n* Density ($\rho$) is Mass/Volume, so $M = \\rho \\times V$\n* For a sphere (Earth), Volume $V = \\frac{4}{3}\\pi R^3$\n\n**Derivation:**\nSubstitute the expression for mass ($M$) into the formula for $g$:\n\n$g = \\frac{G(\\rho \\times V)}{R^2}$\n\nNow, substitute the formula for volume ($V$):\n\n$g = \\frac{G \\rho (\\frac{4}{3}\\pi R^3)}{R^2}$\n\n$g = G\\rho \\frac{4}{3}\\pi R$\n\nThis is the formula for $g$ in terms of density. It shows that $g$ is directly proportional to the radius of the Earth and its average density.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "A car is moving on a circular road with a speed of $10 \\ m/s$. What kind of force is required to keep it on the road?",
+    "answer": "A centripetal force is required to keep the car on the circular road. This force is provided by the friction between the tires and the road, directed towards the center of the circular path.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "A body is freely falling. What happens to its velocity and kinetic energy? (PYQ: March 2019)",
+    "options": ["Velocity increases, KE increases", "Velocity decreases, KE decreases", "Velocity increases, KE decreases", "Velocity decreases, KE increases"],
+    "correct_answer": "A",
+    "answer": "In free fall, the object is under the constant acceleration of gravity, so its velocity continuously increases. As kinetic energy is proportional to the square of velocity ($KE \\propto v^2$), its kinetic energy also increases. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "An object thrown vertically upwards reaches a height of 10 m. What was its initial velocity?",
+    "answer": "**Given:**\n* Height, $s = h = 10$ m\n* Final velocity at max height, $v = 0 \\ m/s$\n* Acceleration, $a = -g = -9.8 \\ m/s^2$\n* Initial velocity, $u = ?$\n\n**Formula:**\n$v^2 = u^2 + 2as$\n\n**Calculation:**\n$0^2 = u^2 + 2(-9.8)(10)$\n$0 = u^2 - 196$\n$u^2 = 196$\n$u = \\sqrt{196} = 14 \\ m/s$\n\n**Answer:** The initial velocity of the object was $14 \\ m/s$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the speed of a satellite in a circular orbit?",
+    "answer": "The speed of a satellite in a stable circular orbit is uniform. It does not change because the gravitational force is always perpendicular to the direction of its motion, so it changes the direction but not the magnitude of the velocity.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the importance of Gravitational Potential Energy.",
+    "answer": "Gravitational potential energy is a type of stored energy that an object possesses due to its position in a gravitational field. Its importance lies in the principle of conservation of energy. It explains how energy is converted between kinetic and potential forms in a system. For example, a falling object loses potential energy and gains kinetic energy, while an object thrown upwards loses kinetic energy and gains potential energy. It is a crucial concept for understanding the motion of objects in a gravitational field, including the launch of satellites and the flight of rockets.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "The period of revolution of a planet is T and its average distance from the Sun is r. Which of the following relations is correct? (Problem Set 1)",
+    "options": ["$T^2 \\propto r$", "$T \\propto r^3$", "$T^2 \\propto r^3$", "$T^3 \\propto r^2$"],
+    "correct_answer": "C",
+    "answer": "This is Kepler's Third Law of Planetary Motion, which states that the square of the period of revolution is directly proportional to the cube of the mean distance. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the gravitational force between two identical objects of mass $1$ kg placed $1$ m apart? ($G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$)",
+    "answer": "Using the formula $F = G \\frac{m_1 m_2}{r^2}$, we have:\n$F = (6.67 \\times 10^{-11}) \\frac{(1)(1)}{1^2}$\n$F = 6.67 \\times 10^{-11}$ N\n\n**Answer:** The gravitational force is $6.67 \\times 10^{-11}$ N.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Deduce the value of $g$ on the surface of the Moon. (Given: Mass of Moon = $7.4 \\times 10^{22}$ kg, Radius of Moon = $1.74 \\times 10^6$ m, $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$)",
+    "answer": "We use the formula for acceleration due to gravity on the surface of a celestial body:\n$g_{moon} = \\frac{GM_{moon}}{R_{moon}^2}$\n\n**Given:**\n* $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$\n* $M_{moon} = 7.4 \\times 10^{22}$ kg\n* $R_{moon} = 1.74 \\times 10^6$ m\n\n**Calculation:**\n$g_{moon} = \\frac{(6.67 \\times 10^{-11}) (7.4 \\times 10^{22})}{(1.74 \\times 10^6)^2}$\n$g_{moon} = \\frac{49.358 \\times 10^{11}}{3.0276 \\times 10^{12}}$\n$g_{moon} = 16.3 \\times 10^{-1} = 1.63 \\ m/s^2$\n\n**Answer:** The value of $g$ on the surface of the Moon is approximately $1.63 \\ m/s^2$.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "What is the gravitational force between two masses of $10$ kg and $20$ kg placed at a distance of $5$ m from each other? ($G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$)",
+    "options": ["$5.34 \\times 10^{-10}$ N", "$1.33 \\times 10^{-9}$ N", "$1.33 \\times 10^{-10}$ N", "$5.34 \\times 10^{-9}$ N"],
+    "correct_answer": "A",
+    "answer": "**Given:**\n* Mass 1, $m_1 = 10$ kg\n* Mass 2, $m_2 = 20$ kg\n* Distance, $r = 5$ m\n* Gravitational constant, $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$\n\n**Formula:**\n$F = G \\frac{m_1 m_2}{r^2}$\n\n**Calculation:**\n$F = (6.67 \\times 10^{-11}) \\frac{(10)(20)}{(5)^2}$\n$F = (6.67 \\times 10^{-11}) \\frac{200}{25}$\n$F = (6.67 \\times 10^{-11}) \\times 8$\n$F = 53.36 \\times 10^{-11}$ N\n$F = 5.336 \\times 10^{-10}$ N\n\n**Conclusion:** The value is approximately $5.34 \\times 10^{-10}$ N. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the relation between velocity and time for a body in free fall?",
+    "answer": "The velocity of a body in free fall increases linearly with time due to the constant acceleration due to gravity, g. The relation is given by the first kinematic equation of motion, modified for free fall:\n\n$v = u + gt$\n\nWhere:\n* $v$ is the final velocity\n* $u$ is the initial velocity\n* $g$ is the acceleration due to gravity\n* $t$ is the time elapsed",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "On which factors does the value of $g$ on a planet depend?",
+    "answer": "The value of $g$ on a planet depends on two main factors:\n1.  The mass of the planet (M).\n2.  The radius of the planet (R).",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The weight of a body at the center of the Earth is... (Problem Set 1)",
+    "options": ["maximum", "minimum", "zero", "same as on the surface"],
+    "correct_answer": "C",
+    "answer": "At the center of the Earth, the value of acceleration due to gravity ($g$) is zero. Since weight ($W = mg$), the weight of any body at the center of the Earth is also zero. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of 'Gravitational field'.",
+    "answer": "A gravitational field is the space around a mass (like a planet or star) within which another mass experiences a gravitational force. It is a vector field, meaning it has both magnitude and direction at every point in space.\n\n* The **magnitude** of the field at a point is the gravitational force per unit mass at that point, which is numerically equal to the acceleration due to gravity ($g$).\n* The **direction** of the field is always towards the center of the mass creating the field.\n\nAny object placed within this field will be pulled towards the center of the mass. The gravitational field is stronger closer to the mass and becomes weaker with increasing distance.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the force of attraction between two objects if the distance between them is made half?",
+    "answer": "According to the formula $F \\propto \\frac{1}{r^2}$, if the distance $r$ is halved to $r/2$, the new force ($F_{new}$) will be proportional to $\\frac{1}{(r/2)^2} = \\frac{1}{r^2/4} = \\frac{4}{r^2}$. Thus, the force becomes four times its original value.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between Mass and Inertia.",
+    "answer": "Mass and Inertia are related but distinct concepts. Mass is a measure of the quantity of matter in an object, while inertia is the tendency of an object to resist a change in its state of motion.\n\n### **Mass**\n* **Definition:** The amount of matter in an object.\n* **Property:** It is a fundamental property of matter.\n* **Value:** Its value remains the same everywhere in the universe.\n* **SI Unit:** kg.\n\n### **Inertia**\n* **Definition:** The measure of an object's resistance to change in its state of motion (either at rest or in uniform motion).\n* **Property:** It is a consequence of mass. Greater the mass, greater the inertia.\n* **Value:** It is directly proportional to mass.\n* **SI Unit:** No specific unit, it is measured in terms of mass.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "How does the value of $g$ change if the mass of the Earth is doubled and its radius is halved?",
+    "answer": "The value of $g$ on Earth is $g = \\frac{GM}{R^2}$. If the mass is doubled to $2M$ and the radius is halved to $R/2$, the new acceleration is:\n$g_{new} = \\frac{G(2M)}{(R/2)^2} = \\frac{2GM}{R^2/4} = 8 \\frac{GM}{R^2} = 8g$\n\n**Answer:** The value of $g$ will increase by 8 times.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "The mass and radius of Earth are $6 \\times 10^{24}$ kg and $6.4 \\times 10^6$ m respectively. Calculate the value of $g$ on the surface of the Earth. ($G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$)",
+    "answer": "**Given:**\n* Mass of Earth, $M = 6 \\times 10^{24}$ kg\n* Radius of Earth, $R = 6.4 \\times 10^6$ m\n* Gravitational constant, $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$\n\n**Formula:**\n$g = \\frac{GM}{R^2}$\n\n**Calculation:**\n$g = \\frac{(6.67 \\times 10^{-11}) (6 \\times 10^{24})}{(6.4 \\times 10^6)^2}$\n$g = \\frac{40.02 \\times 10^{13}}{40.96 \\times 10^{12}}$\n$g = 0.977 \\times 10^1 = 9.77 \\ m/s^2$\n\n**Answer:** The value of $g$ on the surface of the Earth is approximately $9.77 \\ m/s^2$.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "The weight of an object is... (Problem Set 1)",
+    "options": ["the same at all places", "independent of mass", "a vector quantity", "a scalar quantity"],
+    "correct_answer": "C",
+    "answer": "Weight is the force of gravity on an object and is directed towards the center of the Earth. Since it has both magnitude and direction, it is a vector quantity. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State two properties of a planet's orbit as described by Kepler's laws.",
+    "answer": "1. The orbit of a planet is an ellipse with the Sun at one of the foci.\n2. The line joining the planet and the Sun sweeps equal areas in equal intervals of time.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "An object weighs $10$ N on the surface of the Earth. What will be its weight on a planet whose mass is twice that of Earth and radius is three times that of Earth? (PYQ: March 2020)",
+    "answer": "We know that weight $W = mg = m \\frac{GM}{R^2}$.\nLet the mass and radius of Earth be $M_E$ and $R_E$ respectively. The weight on Earth is $W_E = m \\frac{GM_E}{R_E^2} = 10$ N.\n\nFor the new planet, the mass is $M_P = 2M_E$ and the radius is $R_P = 3R_E$. The weight on the new planet is:\n\n$W_P = m \\frac{GM_P}{R_P^2} = m \\frac{G(2M_E)}{(3R_E)^2} = m \\frac{2GM_E}{9R_E^2} = \\frac{2}{9} (m \\frac{GM_E}{R_E^2})$\n\n$W_P = \\frac{2}{9}W_E = \\frac{2}{9}(10) = \\frac{20}{9} \\approx 2.22$ N\n\n**Answer:** The weight of the object on the new planet will be approximately $2.22$ N.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "A stone is dropped from a height of $h$. What is its velocity just before hitting the ground?",
+    "answer": "Using the kinematic equation $v^2 = u^2 + 2as$. For a dropped object, initial velocity $u = 0$, and acceleration $a = g$. The distance is $s = h$. So:\n$v^2 = 0^2 + 2gh$\n$v = \\sqrt{2gh}$\n\n**Answer:** The velocity just before hitting the ground is $v = \\sqrt{2gh}$.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Who gave the three laws of planetary motion?",
+    "options": ["Newton", "Galileo", "Kepler", "Copernicus"],
+    "correct_answer": "C",
+    "answer": "Johannes Kepler gave the three laws of planetary motion based on the observations of his mentor, Tycho Brahe. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A satellite is orbiting the Earth at a height of $1000$ km. What is the value of $g$ at that height? (Given: Earth's mass = $6 \\times 10^{24}$ kg, Earth's radius = $6.4 \\times 10^6$ m, $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$)",
+    "answer": "**Given:**\n* Mass of Earth, $M = 6 \\times 10^{24}$ kg\n* Radius of Earth, $R = 6.4 \\times 10^6$ m\n* Height, $h = 1000 \\ km = 1 \\times 10^6$ m\n* $G = 6.67 \\times 10^{-11} N \\cdot m^2/kg^2$\n\n**Formula:**\n$g_h = \\frac{GM}{(R+h)^2}$\n\n**Calculation:**\n$R+h = 6.4 \\times 10^6 + 1 \\times 10^6 = 7.4 \\times 10^6$ m\n$g_h = \\frac{(6.67 \\times 10^{-11}) (6 \\times 10^{24})}{(7.4 \\times 10^6)^2}$\n$g_h = \\frac{40.02 \\times 10^{13}}{54.76 \\times 10^{12}}$\n$g_h = 0.73 \\times 10^1 = 7.3 \\ m/s^2$\n\n**Answer:** The value of $g$ at a height of 1000 km is approximately $7.3 \\ m/s^2$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the force of attraction between two objects if the distance between them is made half and the mass of one object is doubled?",
+    "answer": "The new force $F_{new} = G \\frac{(2m_1) m_2}{(r/2)^2} = G \\frac{2m_1 m_2}{r^2/4} = 8 G \\frac{m_1 m_2}{r^2}$. So the new force will be 8 times the original force.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "State the SI unit of gravitational force.",
+    "answer": "The SI unit of gravitational force is the Newton (N).",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A freely falling object takes $3$ seconds to reach the ground. What is its velocity on hitting the ground? ($g = 9.8 \\ m/s^2$)",
+    "answer": "**Given:**\n* Initial velocity, $u = 0 \\ m/s$ (since it's freely falling)\n* Time, $t = 3$ s\n* Acceleration, $g = 9.8 \\ m/s^2$\n\n**Formula:**\n$v = u + gt$\n\n**Calculation:**\n$v = 0 + (9.8)(3) = 29.4 \\ m/s$\n\n**Answer:** The velocity of the object on hitting the ground is $29.4 \\ m/s$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the value of $g$ at the surface of the Earth?",
+    "answer": "The average value of acceleration due to gravity on the surface of the Earth is approximately $9.8 \\ m/s^2$.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of 'potential energy' in gravitation.",
+    "answer": "Gravitational potential energy is the energy an object possesses because of its position relative to a gravitational field. It is defined as the work done in moving an object from a reference point to a specific point against the gravitational force.\n\n* On the Earth's surface, we take the potential energy as zero for convenience.\n* As an object moves away from the Earth's surface, work is done against gravity, and its potential energy increases. The potential energy at a height $h$ is given by $PE = mgh$.\n* For objects at a very large distance, the potential energy is considered negative, with a value of zero at infinity. The formula is $PE = - \\frac{GMm}{r}$. This means the potential energy is at its maximum (zero) at an infinite distance and decreases as the object moves closer to the Earth.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A stone is thrown vertically upwards with a velocity of $10 \\ m/s$. Calculate the time taken to reach the maximum height. ($g = 10 \\ m/s^2$)",
+    "answer": "**Given:**\n* Initial velocity, $u = 10 \\ m/s$\n* Final velocity at maximum height, $v = 0 \\ m/s$\n* Acceleration, $a = -g = -10 \\ m/s^2$\n\n**Formula:**\n$v = u + at$\n\n**Calculation:**\n$0 = 10 + (-10)t$\n$10t = 10$\n$t = 1$ second\n\n**Answer:** The time taken to reach the maximum height is 1 second.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "The mass of an object is... (Problem Set 1)",
+    "options": ["the same at all places", "dependent on gravity", "a vector quantity", "measured in Newtons"],
+    "correct_answer": "A",
+    "answer": "Mass is a fundamental property of an object and is the measure of the amount of matter it contains. It does not change with location, so it is the same at all places. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain why the gravitational force is negligible between two objects of small masses.",
+    "answer": "The gravitational force between two objects is given by the formula $F = G \\frac{m_1 m_2}{r^2}$. The value of the universal gravitational constant, G, is extremely small, approximately $6.67 \\times 10^{-11} N \\cdot m^2/kg^2$. For two objects with small masses (like two people), the product of their masses ($m_1m_2$) is also a small number. When this small product is multiplied by the extremely small value of G, the resulting gravitational force is so small that it is practically negligible and cannot be felt or measured in daily life. It is only significant for objects with very large masses, such as planets and stars.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the force of attraction between the Earth and the Sun?",
+    "answer": "The force of attraction is the gravitational force. This force provides the necessary centripetal force that keeps the Earth in a stable orbit around the Sun.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the relation between the weight of a body on Earth and its weight on the Moon?",
+    "answer": "The weight of a body is directly proportional to the acceleration due to gravity ($W = mg$). The value of $g$ on the Moon is about one-sixth of the value of $g$ on Earth. Therefore, the weight of an object on the Moon is one-sixth of its weight on Earth.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why do different objects fall at the same rate in a vacuum? (PYQ: March 2016)",
+    "answer": "In a vacuum, there is no air resistance. The only force acting on the objects is the gravitational force of the Earth. The acceleration due to gravity ($g$) is independent of the mass of the falling object.\n\n$g = \\frac{GM}{R^2}$\n\nThis formula shows that the acceleration is determined by the mass and radius of the Earth, not the mass of the falling object. Since all objects, regardless of their mass, experience the same acceleration in a vacuum, they fall at the same rate and reach the ground at the same time.",
+    "marks": 3
+  }
+]

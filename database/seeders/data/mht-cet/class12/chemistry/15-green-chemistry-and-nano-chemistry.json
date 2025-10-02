@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is a non-ionic detergent? (MHT CET 2022)",
+    "options": [
+      "(a) Sodium lauryl sulfate",
+      "(b) Cetyl trimethylammonium bromide",
+      "(c) Polyethylene glycol stearate",
+      "(d) Sodium stearate"
+    ],
+    "correct_answer": "c",
+    "answer": "Non-ionic detergents do not contain any ionic functional groups in their head. They are formed from the reaction of stearic acid with polyethylene glycol. **Polyethylene glycol stearate** is an example of a non-ionic detergent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a broad-spectrum antibiotic? (MHT CET 2021)",
+    "options": [
+      "(a) Penicillin",
+      "(b) Chloramphenicol",
+      "(c) Streptomycin",
+      "(d) Ciprofloxacin"
+    ],
+    "correct_answer": "b",
+    "answer": "Broad-spectrum antibiotics are effective against a wide range of gram-positive and gram-negative bacteria. **Chloramphenicol** is a well-known example of a broad-spectrum antibiotic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The chemical used to prevent food from spoilage is: (MHT CET 2020)",
+    "options": [
+      "(a) Food coloring",
+      "(b) Antioxidant",
+      "(c) Food preservative",
+      "(d) Sweetening agent"
+    ],
+    "correct_answer": "c",
+    "answer": "**Food preservatives** are chemicals added to food products to prevent their spoilage due to microbial growth or undesirable chemical changes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an artificial sweetening agent? (MHT CET 2019)",
+    "options": [
+      "(a) Glucose",
+      "(b) Sucrose",
+      "(c) Aspartame",
+      "(d) Fructose"
+    ],
+    "correct_answer": "c",
+    "answer": "**Aspartame** is an artificial sweetener that is approximately 200 times sweeter than sucrose. The other options are natural sugars.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a narcotic analgesic? (MHT CET 2018)",
+    "options": [
+      "(a) Aspirin",
+      "(b) Ibuprofen",
+      "(c) Morphine",
+      "(d) Paracetamol"
+    ],
+    "correct_answer": "c",
+    "answer": "Analgesics are drugs used to relieve pain. **Morphine** is a potent narcotic analgesic that is addictive and used for severe pain relief.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The principle of green chemistry is: (MHT CET 2017)",
+    "options": [
+      "(a) Use of toxic reagents",
+      "(b) Waste prevention",
+      "(c) Use of harsh solvents",
+      "(d) Use of non-renewable resources"
+    ],
+    "correct_answer": "b",
+    "answer": "**Waste prevention** is a core principle of green chemistry. The goal is to design chemical processes that minimize or eliminate the generation of hazardous substances, including waste.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an antiseptic? (MHT CET 2016)",
+    "options": [
+      "(a) Chloroxylenol",
+      "(b) Bithional",
+      "(c) Iodoform",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "An antiseptic is a substance that prevents the growth of disease-causing microorganisms. **Chloroxylenol** is the main ingredient in Dettol, **Bithional** is added to soaps to reduce body odor, and **Iodoform** is a well-known antiseptic. Therefore, all the given options are correct.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The compound used as a tranquilizer is: (MHT CET 2015)",
+    "options": [
+      "(a) Aspirin",
+      "(b) Penicillin",
+      "(c) Equanil",
+      "(d) Chloramphenicol"
+    ],
+    "correct_answer": "c",
+    "answer": "Tranquilizers are a class of drugs that are used to treat mental illness and to relieve stress and anxiety. **Equanil** is an example of a tranquilizer.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Saccharin is an artificial sweetening agent that is approximately how many times sweeter than sucrose? (MHT CET 2014)",
+    "options": [
+      "(a) 100",
+      "(b) 200",
+      "(c) 300",
+      "(d) 550"
+    ],
+    "correct_answer": "d",
+    "answer": "**Saccharin** is a very potent artificial sweetener. It is approximately **550 times** sweeter than sucrose.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a disinfectant? (MHT CET 2013)",
+    "options": [
+      "(a) 0.2% phenol solution",
+      "(b) 1% phenol solution",
+      "(c) Dettol",
+      "(d) Savlon"
+    ],
+    "correct_answer": "b",
+    "answer": "Disinfectants are chemicals that destroy microorganisms on inanimate objects. A **1% solution of phenol** is a known disinfectant, while a 0.2% solution of phenol acts as an antiseptic. Dettol and Savlon are antiseptics.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The drug used to reduce fever is called: (MHT CET 2012)",
+    "options": [
+      "(a) Antipyretic",
+      "(b) Analgesic",
+      "(c) Antibiotic",
+      "(d) Antacid"
+    ],
+    "correct_answer": "a",
+    "answer": "Drugs used to lower body temperature and reduce fever are called **antipyretics**. Examples include aspirin and paracetamol.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a narrow-spectrum antibiotic? (MHT CET 2011)",
+    "options": [
+      "(a) Penicillin",
+      "(b) Chloramphenicol",
+      "(c) Ampicillin",
+      "(d) Amoxicillin"
+    ],
+    "correct_answer": "a",
+    "answer": "Narrow-spectrum antibiotics are effective against a specific type of bacteria. **Penicillin** is primarily effective against gram-positive bacteria, making it a narrow-spectrum antibiotic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The compound used as a food preservative is: (MHT CET 2010)",
+    "options": [
+      "(a) Sodium benzoate",
+      "(b) Sucrose",
+      "(c) Aspartame",
+      "(d) Glucose"
+    ],
+    "correct_answer": "a",
+    "answer": "**Sodium benzoate** is a common food preservative used in acidic foods to prevent the growth of bacteria, yeasts, and molds.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a cationic detergent? (MHT CET 2009)",
+    "options": [
+      "(a) Sodium alkylbenzene sulfonate",
+      "(b) Cetyl trimethylammonium bromide",
+      "(c) Sodium stearate",
+      "(d) Sodium lauryl sulfate"
+    ],
+    "correct_answer": "b",
+    "answer": "Cationic detergents have a positively charged head group. **Cetyl trimethylammonium bromide** is a well-known example of a cationic detergent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an antacid? (MHT CET 2008)",
+    "options": [
+      "(a) Cimetidine",
+      "(b) Ranitidine",
+      "(c) Omeprazole",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "**Antacids** are substances that neutralize stomach acid and are used to treat heartburn. **Cimetidine**, **Ranitidine**, and **Omeprazole** are all examples of antacids.",
+    "marks": 1
+  }
+]

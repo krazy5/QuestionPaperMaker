@@ -1,0 +1,156 @@
+[
+  {
+    "type": "mcq",
+    "text": "The development of a whole plant from any plant part or explant in a test tube is called _______.",
+    "options": ["Hybridization", "Micropropagation", "Somaclonal variation", "Protoplast fusion"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Micropropagation is the technique of rapidly multiplying plant stock material to produce a large number of progeny plants, using modern plant tissue culture methods. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The capacity of a plant cell to grow and develop into a whole new plant is called _______.",
+    "options": ["Plasticity", "Totipotency", "Pleiotropy", "Mutation"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Totipotency is the inherent potential of a single plant cell to divide and differentiate to form a whole plant under suitable laboratory conditions. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a semi-dwarf variety of wheat that contributed to the Green Revolution?",
+    "options": ["Jaya", "Ratna", "Sonalika", "Pusa Sadabahar"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Sonalika and Kalyan Sona were high-yielding and disease-resistant semi-dwarf wheat varieties introduced in India in 1963, which played a crucial role in the Green Revolution. Jaya and Ratna are rice varieties. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The rearing of honey bees for the production of honey and beeswax is known as _______.",
+    "options": ["Sericulture", "Aquaculture", "Apiculture", "Pisciculture"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Apiculture, or beekeeping, is the maintenance of bee colonies, commonly in man-made hives, by humans. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "MOET (Multiple Ovulation Embryo Transfer) is a programme for _______.",
+    "options": ["Herd improvement", "Disease control", "Egg production", "Fish breeding"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> MOET is an advanced animal breeding technique used to increase the reproductive rate of elite female animals (like high-yielding cows) to improve the overall quality of the herd in a short time. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Pomato is a somatic hybrid produced by the fusion of protoplasts of _______.",
+    "options": ["Potato and Onion", "Potato and Tomato", "Tomato and Brinjal", "Tomato and Chilli"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Pomato is a somatic hybrid created through protoplast fusion of a potato plant and a tomato plant. While the plant was successfully grown, it did not have the desired characteristics for commercial production. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The breeding of unrelated animals, which may be between individuals of the same breed but having no common ancestors for 4-6 generations, is called _______.",
+    "options": ["Inbreeding", "Out-crossing", "Cross-breeding", "Interspecific hybridization"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Out-crossing is a form of out-breeding where superior males of one breed are mated with superior females of the same breed that have no common ancestry. It helps to overcome inbreeding depression. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Single-cell protein (SCP) refers to the edible biomass of _______.",
+    "options": ["Viruses", "Plants", "Microorganisms", "Animals"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> SCP is the production of protein-rich biomass from microorganisms like bacteria, yeast, algae, and fungi, which are grown on a large scale for use as human food or animal feed. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Biofortification is a method to decrease the nutritional value of crops.",
+    "answer": "<b>False</b><br><b>Reason:</b> Biofortification is the process of breeding crops with higher levels of vitamins, minerals, or more healthful proteins and fats to improve public health.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Inbreeding increases the homozygosity of a population.",
+    "answer": "<b>True</b><br><b>Reason:</b> Inbreeding involves mating of more closely related individuals. This increases the chances of both recessive and dominant alleles becoming homozygous.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In tissue culture, the explant must be sterilized to prevent microbial contamination.",
+    "answer": "<b>True</b><br><b>Reason:</b> The nutrient medium used in tissue culture can also support the growth of microbes. Therefore, the explant and all equipment must be sterilized to ensure contamination-free (aseptic) conditions.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Inland fisheries deal with the catching and rearing of fish in saline water bodies like seas and oceans.",
+    "answer": "<b>False</b><br><b>Reason:</b> Inland fisheries are concerned with the fishery aspects of freshwater bodies like rivers, lakes, and ponds. Marine fisheries deal with seas and oceans.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "A mule is an example of interspecific hybridization.",
+    "answer": "<b>True</b><br><b>Reason:</b> A mule is the offspring of a cross between two different but related species: a male donkey and a female horse.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define 'Animal Husbandry'.",
+    "answer": "<b>Animal Husbandry</b> is the agricultural practice of breeding and raising livestock like cows, buffaloes, sheep, and poultry. It deals with the scientific management of livestock, including their feeding, breeding, and disease control, for human benefit to get products like milk, meat, eggs, and wool.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is 'inbreeding depression'? How can it be overcome?",
+    "answer": "<b>Inbreeding Depression:</b> It is the reduction in fertility and productivity that often results from continuous inbreeding (mating of closely related individuals). This is due to the increase in homozygosity, which can bring harmful recessive alleles together.<br><br><b>How to overcome it:</b> Inbreeding depression can be overcome by a single out-cross, which is the mating of the affected animals with unrelated superior animals of the same breed. This helps to restore fertility and yield.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is Single-Cell Protein (SCP)? What is its main advantage?",
+    "answer": "<b>Single-Cell Protein (SCP)</b> refers to the edible, dried cells of microorganisms like algae (Spirulina), fungi, yeast, or bacteria, which are grown in large-scale cultures for use as a protein source in human food or animal feed.<br><br><b>Main Advantage:</b> The main advantage of SCP is its ability to produce a large quantity of protein-rich food in a very short time, using substrates like agricultural waste. This can help in reducing the problem of malnutrition.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the desirable traits for which plant breeding is done?",
+    "answer": "Plant breeding is done to develop improved crop varieties with the following desirable traits:<br><ul><li>Increased crop yield and improved quality.</li><li>Increased tolerance to environmental stresses (salinity, extreme temperatures, drought).</li><li>Resistance to pathogens (viruses, fungi, and bacteria).</li><li>Increased tolerance to insect pests.</li></ul>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'explant' and 'callus' in the context of tissue culture.",
+    "answer": "<b>Explant:</b> An explant is any part of a plant (like a cell, tissue, or organ) that is taken out and grown in a test tube, under sterile conditions, in a special nutrient medium.<br><br><b>Callus:</b> A callus is an unorganized, undifferentiated mass of parenchymatous cells that is produced when an explant is cultured on a nutrient medium. This callus can then be induced to differentiate into a whole plant.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the main steps involved in a plant breeding programme. (PYQ: March 2022)",
+    "answer": "A systematic plant breeding programme involves the following main steps:<br><br>1. <b>Collection of Variability:</b> The first step is to collect all the different wild varieties, species, and relatives of the cultivated species. The entire collection of plants/seeds having all the diverse alleles for all genes in a given crop is called its <b>germplasm collection</b>.<br><br>2. <b>Evaluation and Selection of Parents:</b> The collected germplasm is evaluated to identify plants with desirable combinations of characters. These selected plants are then used as parents for hybridization.<br><br>3. <b>Cross Hybridization among the Selected Parents:</b> The desirable characters are often combined from two different parents. This is done by cross-pollinating the two selected parent plants. This is a time-consuming process.<br><br>4. <b>Selection and Testing of Superior Recombinants:</b> The progeny of the cross are evaluated. Those plants that show the desired combination of characters are selected. This selection process is crucial and requires careful scientific evaluation of the progeny.<br><br>5. <b>Testing, Release, and Commercialization of New Cultivars:</b> The newly selected lines are evaluated for their yield and other agronomic traits of quality, disease resistance, etc. This is done by growing them in research fields and then in farmers' fields for at least three growing seasons. If the variety is found to be superior, it is released as a new cultivar.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is tissue culture? Explain the basic technique of micropropagation.",
+    "answer": "<b>Tissue Culture</b> is the in-vitro technique of maintaining and growing plant cells, tissues, or organs on an artificial, sterile nutrient medium under controlled laboratory conditions. It is based on the principle of totipotency of plant cells.<br><br><b>Micropropagation</b> is a method of tissue culture used to produce a large number of plants from a small piece of plant tissue (explant). The technique involves the following steps:<br>1. An <b>explant</b> (like a shoot tip or axillary bud) is taken from the desired parent plant.<br>2. The explant is <b>sterilized</b> to make it free from microbes.<br>3. The sterilized explant is placed on a nutrient medium containing growth regulators like auxins and cytokinins. This is called <b>inoculation</b>.<br>4. The cells of the explant divide and grow into an unorganized mass called a <b>callus</b>.<br>5. The callus is transferred to another medium with different hormones to induce the development of roots and shoots. This leads to the formation of tiny <b>plantlets</b>.<br>6. These plantlets are then transferred from the lab to the soil, a process called <b>hardening</b>, where they are gradually acclimatized to the external environment before being moved to the field.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the programme of MOET (Multiple Ovulation Embryo Transfer).",
+    "answer": "<b>MOET (Multiple Ovulation Embryo Transfer)</b> is an advanced animal breeding technology used for herd improvement, especially in cattle.<br><br>The steps involved are:<br>1. <b>Superovulation:</b> A cow of high genetic merit (a 'super cow') is administered hormones with FSH-like activity. This induces follicular maturation and causes 'superovulation', where the cow produces 6-8 eggs in one cycle instead of the normal one egg.<br><br>2. <b>Mating:</b> The cow is either mated with an elite bull or is artificially inseminated.<br><br>3. <b>Embryo Recovery:</b> The fertilized eggs (embryos) at the 8-32 cell stage are recovered non-surgically from the genetic mother.<br><br>4. <b>Embryo Transfer:</b> These recovered embryos are then transferred to the uteri of other 'surrogate' mothers, who carry the embryos to term.<br><br><b>Significance:</b> This technology allows for the production of a large number of high-quality offspring from a single elite cow in a very short period, thus helping to increase the herd size and improve its genetic quality rapidly.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on Apiculture (Beekeeping).",
+    "answer": "<b>Apiculture</b> or beekeeping is the science and art of rearing, caring for, and managing honey bees to obtain honey, beeswax, and other bee products. It is also important for crop pollination.<br><br><ul><li><b>Species:</b> The most common species of honey bee reared in India is <em>Apis indica</em>.</li><li><b>Requirements:</b> Beekeeping can be practiced in any area where there are sufficient bee pastures (flowering plants). It requires a low investment and is a profitable cottage industry.</li><li><b>Beehive:</b> Honey bees are kept in artificial wooden boxes called beehives. A beehive has a queen bee (the only fertile female), thousands of female worker bees, and a few hundred male drones.</li><li><b>Products:</b> The main products are <b>honey</b>, which is a food of high nutritive value, and <b>beeswax</b>, which is used in industries for preparing cosmetics, polishes, etc.</li><li><b>Pollination:</b> Honey bees are the most important pollinators of many of our crops like sunflower, mustard, and apple. Keeping beehives in crop fields during the flowering season increases pollination efficiency and improves the crop yield.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is 'pisciculture'? Explain its importance in enhancing food production.",
+    "answer": "<b>Pisciculture</b>, or fish farming, is the principal form of aquaculture. It involves the breeding, rearing, and transplantation of fish in artificial or natural waters for commercial purposes.<br><br><b>Importance in Enhancing Food Production:</b><br>The demand for fish and fish products is increasing, and the yield from natural capture fisheries is not sufficient to meet this demand. Pisciculture plays a vital role in bridging this gap.<br><ul><li><b>Increased Production:</b> Fish farming allows for the production of a large quantity of fish in a controlled environment, thus significantly increasing the total fish production. This is often referred to as the <b>Blue Revolution</b>.</li><li><b>Nutritional Security:</b> Fish is a highly nutritious food, rich in protein, vitamins, and minerals. Increased fish production helps in providing a protein-rich diet to a large part of the population, combating malnutrition.</li><li><b>Economic Benefits:</b> It provides income and employment to a large number of fishermen and farmers, especially in coastal areas.</li><li><b>Types:</b> It includes both <b>inland fisheries</b> (in freshwater bodies like ponds and rivers) and <b>marine fisheries</b> (in seas and oceans), covering a wide range of commercially important fish like Catla, Rohu, Sardines, and Mackerel.</li></ul>",
+    "marks": 3
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "type": "mcq",
+    "text": "It may be said that _______ was the founder of modern historiography.",
+    "options": [
+      "Voltaire",
+      "René Descartes",
+      "Leopold von Ranké",
+      "Karl Marx"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Voltaire is considered the founder of modern historiography because he opined that along with objective truth and chronology, considering social traditions, economy, and agriculture was also important in history writing. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The book ‘Discourse on the Method’ was written by _______.",
+    "options": [
+      "Voltaire",
+      "René Descartes",
+      "Michel Foucault",
+      "Karl Marx"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> René Descartes, a French philosopher, wrote the book 'Discourse on the Method', in which he insisted on the principle of verifying the reliability of historical documents by critically examining them. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ‘Annales School’ of historiography was started in _______.",
+    "options": [
+      "Germany",
+      "England",
+      "France",
+      "Italy"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> A new school of historiography known as the 'Annales School' arose in France in the twentieth century. It gave a new direction to history writing by recognizing that history is not just about political events and leaders but also about climate, local people, agriculture, etc. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "According to _______, history was not about abstract ideas but about living people.",
+    "options": [
+      "Leopold von Ranké",
+      "Voltaire",
+      "Georg Hegel",
+      "Karl Marx"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Karl Marx's theory stated that history is not about abstract ideas; it is about living people and the fundamental needs of people and the ownership of the means of production to meet those needs. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The book 'Archaeology of Knowledge' was written by the French historian _______.",
+    "options": [
+      "Michel Foucault",
+      "Simone de Beauvoir",
+      "Lucien Febvre",
+      "Voltaire"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Michel Foucault, in his book 'Archaeology of Knowledge', argued that the prevailing practice of arranging historical events in chronological order is not right and that explaining the transitions in history is more important. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The German philosopher who insisted that historical reality should be presented in a logical manner was _______.",
+    "options": [
+      "Karl Marx",
+      "Georg Wilhelm Friedrich Hegel",
+      "Leopold von Ranké",
+      "Immanuel Kant"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Georg Hegel was a German philosopher who proposed that the presentation of history should be logical and that the timeline of historical events was indicative of progress, a concept known as 'Dialectics'. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Feminist historiography emphasized the _______.",
+    "options": [
+      "history of wars and leaders",
+      "role of women in history",
+      "history of economic classes",
+      "chronology of political events"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Feminist historiography involves restructuring history from the perspective of women. It emphasized not only the inclusion of women in history but also the re-thinking of the male-dominated perspective of history. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The tradition of recording historical events can be traced back to _______ civilization.",
+    "options": [
+      "Greek",
+      "Roman",
+      "Egyptian",
+      "Sumer"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The earliest inscriptions, showing records of battles fought and deeds of kings, date back to the Sumer civilization in Mesopotamia. This marks the earliest tradition of recording historical events. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is Historiography?",
+    "answer": "Historiography is the writing of a critical historical narrative. A scholar who writes such a narrative is known as a historian. It involves critically examining historical sources and then writing the historical account.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What was the 'Annales School'?",
+    "answer": "The Annales School was a new school of historiography started by French historians in the 20th century. It gave a new direction to history writing by proposing that history is not just about political events, great leaders, and wars, but also about the climate, local people, agriculture, technology, and social divisions of the time.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What was René Descartes' rule for historical research?",
+    "answer": "The rule put forth by René Descartes was to 'never to accept anything for true till all grounds of doubt are excluded'. He insisted on critically examining historical documents to verify their reliability.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one: (PYQ: March 2019)<br>1. Georg Hegel - 'Reason in History'<br>2. Leopold von Ranké - 'The Theory and Practice of History'<br>3. Herodotus - 'The Histories'<br>4. Karl Marx - 'Discourse on the Method'",
+    "answer": "<b>Wrong Pair:</b> Karl Marx - 'Discourse on the Method'<br><b>Corrected Pair:</b> Karl Marx - 'Das Kapital' (or René Descartes - 'Discourse on the Method')",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Voltaire, Hegel, Marx, Foucault.",
+    "answer": "This can have multiple answers based on reasoning.<br><b>Answer 1: Voltaire.</b><br><b>Reason:</b> Hegel, Marx, and Foucault are known for their complex theoretical frameworks (Dialectics, Class Struggle, Archaeology of Knowledge), while Voltaire is known for a more narrative and social approach.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Founder of Modern Historiography : Voltaire :: Dialectics : _______.",
+    "answer": "<b>Georg Wilhelm Friedrich Hegel.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Archaeology of Knowledge : Michel Foucault :: Das Kapital : _______.",
+    "answer": "<b>Karl Marx.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is feminist historiography?",
+    "answer": "Feminist historiography means restructuring history from the perspective of women. It emphasizes the inclusion of women in history and re-evaluating historical events from a female viewpoint, challenging the traditionally male-dominated narrative. Simone de Beauvoir was a key figure in this movement.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the four characteristics of modern historiography?",
+    "answer": "The four main characteristics of modern historiography are:<br>1. Its method is based on scientific principles and begins with the formation of relevant questions.<br>2. These questions are anthropocentric, meaning they are about the deeds of human beings in the past.<br>3. Answers to these questions are supported by reliable evidence.<br>4. History presents a graph of mankind's journey with the help of past human deeds.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What was the perspective of Leopold von Ranké on history?",
+    "answer": "Leopold von Ranké, a 19th-century historian, put great emphasis on the critical method of historical research. He spoke about the importance of information gathered through original documents. He believed that all types of documents associated with a historical event need to be examined with the greatest care, and a historian should present the historical truth 'as it actually was'.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the 'historical research method'?",
+    "answer": "The historical research method is a systematic process used by historians to write history. It involves collecting historical information, critically examining the historical sources, understanding the context, and then writing a historical narrative. It is based on scientific principles and relies on evidence.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain Karl Marx’s ‘Class Theory’. (PYQ: March 2020)",
+    "answer": "Karl Marx, a 19th-century German thinker, proposed the theory of 'class struggle'.<br>1. According to Marx, history is not about abstract ideas but about living people and their relationships, which are shaped by the 'means of production' (e.g., land, factories).<br>2. He argued that society is divided into two main classes: the 'haves' (the class that owns the means of production) and the 'have-nots' (the working class that does not).<br>3. The 'haves' economically exploit the 'have-nots'.<br>4. This inequality leads to a constant conflict or 'class struggle' between these two classes, and Marx believed that this struggle is the driving force of human history. His famous book on this subject is 'Das Kapital'.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of 'Dialectics' as proposed by Georg Hegel.",
+    "answer": "Georg Hegel was a German philosopher who proposed that the meaning of any event can be understood in terms of two direct opposites. This method of analysis is known as 'Dialectics'.<br>1. According to him, human mind cannot understand the true nature of an event without understanding its opposite. For example, we cannot understand 'true' without 'false', or 'good' without 'bad'.<br>2. He proposed a process where a theory, called a 'thesis', is put forward.<br>3. Then, a counter-theory, called an 'antithesis', is proposed.<br>4. After a logical discussion of both, a new theory is synthesized that includes the gist of both the thesis and the antithesis. This new theory is called the 'synthesis'. This process of arriving at the truth continues, representing progress.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What were the main contributions of the Annales School to historiography?",
+    "answer": "The Annales School, which originated in France, brought a significant shift in history writing.<br>1. <b>Broadened the Scope of History:</b> It gave a new direction to historiography by arguing that history was not just about studying political events, wars, diplomacy, and biographies of great leaders.<br>2. <b>Included Social and Environmental Factors:</b> It recognized the importance of studying aspects like the climate, local people, agriculture, trade, technology, and means of communication in a particular historical period.<br>3. <b>Focus on the 'Common Man':</b> Instead of focusing only on rulers and elites, it brought the history of the common people and their daily lives to the forefront.<br>This approach made history writing more comprehensive and inclusive.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the steps involved in writing a historical narrative (historiography).",
+    "answer": "The writing of a historical narrative, or historiography, involves a series of critical steps:<br>1. <b>Collecting Sources:</b> The historian first collects historical sources relevant to the topic of study. These can be primary (original documents, artifacts) or secondary (books, articles).<br>2. <b>Critical Examination:</b> Each source is critically examined to check its authenticity and reliability. This involves checking the author, date, and potential biases of the source.<br>3. <b>Formulating Hypotheses:</b> Based on the initial study of the sources, the historian formulates hypotheses or relevant questions about the historical event.<br>4. <b>Writing the Narrative:</b> The historian then constructs a historical account. This narrative is a synthesis of the information gathered from the sources, framed to answer the questions formulated earlier. The historian must present the information in a logical and coherent manner, supported by evidence.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain Michel Foucault’s contribution to historiography.",
+    "answer": "Michel Foucault was a French historian of the 20th century who introduced a new concept in historiography.<br>1. <b>Archaeology of Knowledge:</b> In his book, 'Archaeology of Knowledge', Foucault argued against the practice of arranging history in a simple chronological order. He believed that this was not the right approach.<br>2. <b>Focus on Transitions:</b> He gave more importance to explaining the various transitions and changes in history. He felt that the ultimate aim of history was not to reach the ultimate historical truth, but to understand the changes that have occurred in the past.<br>3. <b>History of the Unexplained:</b> Foucault called his method the 'archaeology of knowledge'. He tried to explain aspects of history that were previously overlooked, such as the history of science, medicine, and prisons. This broadened the scope of what could be considered a valid subject for historical study.",
+    "marks": 4
+  }
+]
+

@@ -1,0 +1,184 @@
+[
+  {
+    "type": "mcq",
+    "text": "The transfer of energy from one trophic level to another is governed by the:",
+    "options": [
+      "Law of Conservation of Mass",
+      "Law of Dominance",
+      "Law of Independent Assortment",
+      "10% Law of energy transfer"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The 10% Law, proposed by Raymond Lindeman, states that only about 10% of the energy from one trophic level is passed on to the next. The remaining 90% is lost as heat. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following represents the correct sequence of a food chain?",
+    "options": [
+      "Producer $\\to$ Secondary consumer $\\to$ Primary consumer",
+      "Producer $\\to$ Primary consumer $\\to$ Secondary consumer",
+      "Secondary consumer $\\to$ Primary consumer $\\to$ Producer",
+      "Primary consumer $\\to$ Producer $\\to$ Secondary consumer"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> A food chain shows the flow of energy from one organism to another. Producers (plants) are eaten by primary consumers (herbivores), which are in turn eaten by secondary consumers (carnivores). The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An inverted pyramid of biomass can be observed in which type of ecosystem?",
+    "options": [
+      "Grassland ecosystem",
+      "Forest ecosystem",
+      "Aquatic ecosystem",
+      "Desert ecosystem"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> In some aquatic ecosystems, the pyramid of biomass can be inverted. The producers (phytoplankton) have a much smaller biomass than the primary consumers (zooplankton) at any given time. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary source of energy for all ecosystems on Earth (except for deep-sea hydrothermal vents) is:",
+    "options": [
+      "Chemical energy",
+      "Thermal energy",
+      "Solar energy",
+      "Geothermal energy"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The sun is the ultimate source of energy for most ecosystems. Producers (plants, algae) convert solar energy into chemical energy through photosynthesis, which is then transferred to other trophic levels. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Decomposers are placed at which trophic level?",
+    "options": [
+      "First trophic level",
+      "Second trophic level",
+      "Third trophic level",
+      "No specific trophic level"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Decomposers, such as bacteria and fungi, break down dead organic matter from all trophic levels. They do not have a specific trophic level in a food chain but play a vital role in nutrient cycling. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which ecological pyramid is always upright? (PYQ: March 2021)",
+    "options": [
+      "Pyramid of numbers",
+      "Pyramid of biomass",
+      "Pyramid of energy",
+      "None of the above"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The pyramid of energy is always upright because energy is lost at each successive trophic level in the form of heat, following the 10% law. Therefore, there is always more energy at a lower trophic level than at a higher one. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The interlinking of food chains in an ecosystem forms a:",
+    "options": [
+      "Biogeochemical cycle",
+      "Trophic level",
+      "Food web",
+      "Pyramid of biomass"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> In nature, organisms do not just consume one type of food. A food web represents the interconnected food chains in an ecosystem, showing the complex feeding relationships between different organisms. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Primary consumers are also known as:",
+    "options": [
+      "Carnivores",
+      "Herbivores",
+      "Producers",
+      "Decomposers"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Primary consumers feed directly on producers (plants). Organisms that feed on plants are called herbivores. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Energy flow in an ecosystem is always unidirectional.",
+    "answer": "<b>True</b><br><b>Reason:</b> Energy flows from the sun to producers and then to different levels of consumers. At each step, a large amount of energy is lost as heat, so the flow cannot be reversed.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "A food chain always starts with a decomposer.",
+    "answer": "<b>False</b><br><b>Reason:</b> A food chain always starts with a producer, which is an organism that produces its own food, typically through photosynthesis.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The pyramid of biomass is always upright.",
+    "answer": "<b>False</b><br><b>Reason:</b> In some aquatic ecosystems, the biomass of producers (phytoplankton) may be less than that of primary consumers (zooplankton), resulting in an inverted pyramid.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Bacteria and fungi are examples of decomposers.",
+    "answer": "<b>True</b><br><b>Reason:</b> Decomposers are organisms that break down dead organic matter and waste products, returning nutrients to the ecosystem. Bacteria and fungi are the most common decomposers.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Producers are the organisms that occupy the highest trophic level.",
+    "answer": "<b>False</b><br><b>Reason:</b> Producers (plants) occupy the lowest or first trophic level in a food chain, as they produce their own food.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Explain the role of producers in an ecosystem.",
+    "answer": "<b>Producers</b> are organisms, primarily green plants, algae, and some bacteria, that can produce their own food using energy from the sun through the process of photosynthesis. They form the base of all food chains and webs, converting light energy into chemical energy that is available to other organisms in the ecosystem.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the 10% law of energy transfer? (PYQ: March 2022)",
+    "answer": "The <b>10% law of energy transfer</b> states that during the transfer of energy from one trophic level to the next, only about 10% of the energy is transferred and stored as biomass. The remaining 90% is lost as heat and used for metabolic activities.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate between a food chain and a food web.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Food Chain</th><th style='padding: 8px;'>Food Web</th></tr><tr><td style='padding: 8px;'>It is a simple, linear sequence of organisms.</td><td style='padding: 8px;'>It is a complex network of interlinked food chains.</td></tr><tr><td style='padding: 8px;'>It shows a single path of energy flow.</td><td style='padding: 8px;'>It shows multiple, interconnected paths of energy flow.</td></tr><tr><td style='padding: 8px;'>It is a simplified representation of energy flow.</td><td style='padding: 8px;'>It is a more realistic and comprehensive representation of energy flow in an ecosystem.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the components of an ecosystem?",
+    "answer": "An ecosystem consists of two main components:<br><br>1. <b>Abiotic Components:</b> These are the non-living physical and chemical factors in the environment, such as sunlight, water, soil, temperature, air, and minerals.<br>2. <b>Biotic Components:</b> These are the living organisms in the ecosystem, including producers (plants), consumers (animals), and decomposers (bacteria and fungi).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define ecological pyramid and name its different types.",
+    "answer": "An <b>ecological pyramid</b> is a graphical representation of the relationship between different organisms at various trophic levels in an ecosystem.<br><br><b>Types of Ecological Pyramids:</b><br>1. Pyramid of Numbers<br>2. Pyramid of Biomass<br>3. Pyramid of Energy",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of an ecological pyramid with an example of an upright and an inverted pyramid.",
+    "answer": "An <b>ecological pyramid</b> is a graphical representation of the relationship between different trophic levels in an ecosystem. It can be a pyramid of numbers, biomass, or energy. The base of the pyramid represents producers, and the subsequent levels represent successive consumers.<br><br><b>Upright Pyramid of Biomass (e.g., Terrestrial Ecosystem):</b><br>In a terrestrial ecosystem, the biomass of producers (e.g., trees, grasses) is much larger than the biomass of primary consumers (e.g., deer, rabbits), which is in turn larger than the biomass of secondary consumers. The pyramid is broad at the base and narrows towards the top. <br><br><b>Inverted Pyramid of Biomass (e.g., Aquatic Ecosystem):</b><br>In some aquatic ecosystems, the pyramid of biomass can be inverted. The total biomass of the producers (phytoplankton) at any given time is much less than the biomass of the primary consumers (zooplankton) that feed on them. This is because the producers reproduce and are consumed very quickly. ",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the flow of energy in an ecosystem. Why is it unidirectional? (PYQ: March 2023)",
+    "answer": "The flow of energy in an ecosystem is a fundamental process that begins with the sun and moves through different trophic levels.<br><br><b>Energy Flow:</b><br>1. <b>Producers:</b> The journey begins with producers (autotrophs) that capture solar energy and convert it into chemical energy through photosynthesis. They form the base of the food chain.<br>2. <b>Consumers:</b> This stored energy is then transferred to primary consumers (herbivores) when they eat producers. From primary consumers, it is transferred to secondary consumers (carnivores) and then to tertiary consumers.<br>3. <b>10% Law:</b> According to the 10% law, only about 10% of the energy from one trophic level is passed to the next. The rest is lost as heat during metabolic processes.<br><br><b>Unidirectional Flow:</b><br>The flow of energy is considered <b>unidirectional</b> because:<br><ul><li>Energy is continuously lost as heat at each trophic level and cannot be reused by organisms at the previous level.</li><li>The energy captured by producers cannot be transferred back to the sun.</li><li>Energy transfer always proceeds from a lower trophic level to a higher one.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the roles of producers, consumers, and decomposers in maintaining the balance of an ecosystem.",
+    "answer": "The biotic components of an ecosystem play distinct and crucial roles in maintaining its balance and stability. These roles can be categorized into producers, consumers, and decomposers.<br><br><b>1. Producers:</b> As autotrophs, they are the foundation of the ecosystem. They produce organic food from inorganic substances using solar energy (photosynthesis). Without producers, there would be no energy to support any other life forms. They are also responsible for the oxygen in the atmosphere.<br><br><b>2. Consumers:</b> These are heterotrophs that depend on other organisms for food. They are further divided into:<br><ul><li><b>Primary Consumers (Herbivores):</b> They feed directly on producers. (e.g., deer, rabbits).</li><li><b>Secondary Consumers (Carnivores):</b> They feed on primary consumers. (e.g., lions, tigers).</li><li><b>Tertiary Consumers (Top Carnivores):</b> They feed on secondary consumers. (e.g., vultures, hawks).</li></ul>Consumers are essential for controlling the population of other organisms and ensuring the flow of energy through the trophic levels.<br><br><b>3. Decomposers:</b> These organisms, primarily bacteria and fungi, break down dead organic matter and waste products of all other organisms. This process releases nutrients back into the soil, making them available for producers. Without decomposers, nutrient cycling would stop, and the ecosystem would collapse due to a lack of essential elements.",
+    "marks": 3
+  }
+]

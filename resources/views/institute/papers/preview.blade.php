@@ -85,15 +85,15 @@
                         @if($ruleQuestions->isNotEmpty())
                             <div class="mb-3 font-semibold">
                                 @if($displayCount > $rule->number_of_questions_to_select)
-                                    Attempt any {{ $rule->number_of_questions_to_select }} of the following {{ $displayCount }} questions.
+                                   <em style="color:red;"> Q.Attempt any {{ $rule->number_of_questions_to_select }} of the following {{ $displayCount }} questions.</em>
                                 @else
-                                    Attempt all of the following {{ $displayCount }} questions.
+                                    <em style="color:red;">Q.Attempt all of the following {{ $displayCount }} questions.</em>
                                 @endif
                                 <span class="ml-2 text-xs text-gray-600">({{ strtoupper($rule->question_type) }}, {{ $rule->marks_per_question }} marks each)</span>
                             </div>
 
                             @foreach ($ruleQuestions->take($displayCount) as $question)
-                                <div class="mb-2">
+                                <div class="mb-2 ml-4">
                                     <div class="flex justify-between items-start font-bold mb-1">
                                         <div class="flex-grow pr-4">Q.{{ $qNo++ }}) {!! $question->question_text !!}</div>
                                         <div class="flex-shrink-0">[{{ $question->pivot->marks }}]</div>

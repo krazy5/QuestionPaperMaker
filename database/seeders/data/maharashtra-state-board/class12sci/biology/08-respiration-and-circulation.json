@@ -1,0 +1,156 @@
+[
+  {
+    "type": "mcq",
+    "text": "The process of glycolysis occurs in the _______ of the cell.",
+    "options": ["Mitochondrial matrix", "Cytoplasm", "Nucleus", "Inner mitochondrial membrane"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Glycolysis is the first step of cellular respiration, where a molecule of glucose is broken down into two molecules of pyruvic acid. This process is common to both aerobic and anaerobic respiration and takes place in the cytoplasm. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In aerobic respiration, the complete oxidation of one molecule of glucose yields a net gain of _______ ATP molecules.",
+    "options": ["2", "8", "30 or 32", "38"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The total theoretical yield is 38 ATP, but accounting for the energy spent in transporting molecules, the net yield from the complete oxidation of one glucose molecule is generally considered to be 30 or 32 ATP molecules depending on the shuttle system used. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pacemaker of the human heart is the _______.",
+    "options": ["AV node", "SA node", "Purkinje fibres", "Bundle of His"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Sino-atrial (SA) node, located in the wall of the right atrium, has the ability to generate the maximum number of action potentials and is responsible for initiating and maintaining the rhythmic contractile activity of the heart. Hence, it is called the pacemaker. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A person with blood group 'O' is called a universal donor because they have _______.",
+    "options": ["No antigens on RBCs", "No antibodies in plasma", "Both A and B antigens on RBCs", "Both anti-A and anti-B antibodies on RBCs"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> A person with blood group O has no A or B antigens on the surface of their red blood cells (RBCs). Therefore, their blood will not be agglutinated by the antibodies in the recipient's plasma, making them a universal donor. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Krebs cycle (Citric Acid Cycle) takes place in the _______.",
+    "options": ["Cytoplasm", "Outer mitochondrial membrane", "Mitochondrial matrix", "Perimitochondrial space"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> After glycolysis, pyruvic acid enters the mitochondrial matrix, where it is converted to acetyl-CoA. The Krebs cycle, which involves the further oxidation of acetyl-CoA, occurs entirely within the mitochondrial matrix. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Lubb' sound of the heartbeat is produced by the closure of the _______ valves.",
+    "options": ["Semilunar", "Tricuspid and bicuspid", "Eustachian", "Thebesian"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The first heart sound, 'Lubb', is produced at the beginning of ventricular systole due to the closure of the atrioventricular (AV) valves, which are the tricuspid and bicuspid (mitral) valves. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The exchange of gases between the alveoli and the blood capillaries occurs by _______.",
+    "options": ["Osmosis", "Active transport", "Simple diffusion", "Facilitated diffusion"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The exchange of oxygen and carbon dioxide across the respiratory membrane (alveolar and capillary walls) is a passive process that occurs by simple diffusion, driven by the difference in the partial pressures of these gases. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Angina pectoris is a condition characterized by _______.",
+    "options": ["High blood pressure", "Low blood pressure", "Acute chest pain", "Irregular heartbeat"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Angina pectoris is a symptom of coronary artery disease, characterized by acute chest pain that occurs when the heart muscle does not get enough oxygen-rich blood. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Anaerobic respiration produces more ATP than aerobic respiration.",
+    "answer": "<b>False</b><br><b>Reason:</b> Anaerobic respiration (fermentation) involves only partial breakdown of glucose and yields a net gain of only 2 ATP molecules. Aerobic respiration involves complete oxidation and yields about 30-32 ATP.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The pulmonary artery carries deoxygenated blood from the heart to the lungs.",
+    "answer": "<b>True</b><br><b>Reason:</b> This is the only artery in the human body that carries deoxygenated blood. It transports blood from the right ventricle to the lungs for oxygenation.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The diaphragm relaxes and moves upwards during inhalation.",
+    "answer": "<b>False</b><br><b>Reason:</b> During inhalation (breathing in), the diaphragm contracts and flattens (moves downwards), which increases the volume of the thoracic cavity.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "An ECG (Electrocardiogram) is a graphical representation of the electrical activity of the brain.",
+    "answer": "<b>False</b><br><b>Reason:</b> An ECG is a graphical representation of the electrical activity of the heart. The recording of the brain's electrical activity is called an EEG (Electroencephalogram).",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Rh-negative blood can be safely transfused to an Rh-positive person.",
+    "answer": "<b>True</b><br><b>Reason:</b> An Rh-negative person does not have the Rh antigen. Therefore, their blood will not trigger an immune response in an Rh-positive person (who is used to the antigen). However, the reverse is not true.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Arteries and Veins. (PYQ: March 2022)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Arteries</th><th style='padding: 8px;'>Veins</th></tr><tr><td style='padding: 8px;'>They carry blood away from the heart.</td><td style='padding: 8px;'>They carry blood towards the heart.</td></tr><tr><td style='padding: 8px;'>They generally carry oxygenated blood (except pulmonary artery).</td><td style='padding: 8px;'>They generally carry deoxygenated blood (except pulmonary veins).</td></tr><tr><td style='padding: 8px;'>They have thick, elastic, muscular walls as the blood flows under high pressure.</td><td style='padding: 8px;'>They have thin, less muscular walls as the blood flows under low pressure.</td></tr><tr><td style='padding: 8px;'>Valves are absent.</td><td style='padding: 8px;'>Valves are present to prevent the backflow of blood.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 'blood pressure'? What is the normal blood pressure value for a healthy adult?",
+    "answer": "<b>Blood Pressure</b> is the lateral pressure exerted by the flowing blood on the walls of the arteries.<br>It is expressed as two values:<br>1. <b>Systolic pressure:</b> The maximum pressure during the contraction of the ventricles.<br>2. <b>Diastolic pressure:</b> The minimum pressure during the relaxation of the ventricles.<br><br>The normal blood pressure for a healthy adult is <b>120/80 mm Hg</b> (120 mm Hg systolic and 80 mm Hg diastolic).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'cardiac cycle' and 'cardiac output'.",
+    "answer": "<b>Cardiac Cycle:</b> It refers to the sequence of events that occurs in the heart during a single heartbeat. It consists of one systole (contraction) and one diastole (relaxation) of the atria and ventricles. A normal cardiac cycle lasts for about 0.8 seconds.<br><br><b>Cardiac Output:</b> It is the volume of blood pumped out by each ventricle per minute. It is calculated as the product of the heart rate (number of beats per minute) and the stroke volume (volume of blood pumped by a ventricle in one beat).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the end products of anaerobic respiration in muscles and in yeast?",
+    "answer": "<b>In Muscles:</b> During strenuous exercise when oxygen is inadequate, muscle cells undergo anaerobic respiration. The end product is <b>Lactic Acid</b>, along with a small amount of energy.<br><br><b>In Yeast:</b> Yeast carries out anaerobic respiration in the absence of oxygen, a process also known as fermentation. The end products are <b>Ethanol</b> ($C_2H_5OH$) and <b>Carbon Dioxide</b> ($CO_2$), along with energy.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is the wall of the left ventricle thicker than the right ventricle?",
+    "answer": "The wall of the left ventricle is significantly thicker and more muscular than that of the right ventricle because it has to perform more work. The left ventricle has to pump oxygenated blood with great force to all parts of the body (systemic circulation), while the right ventricle only has to pump deoxygenated blood to the nearby lungs (pulmonary circulation).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat, labelled diagram of the human heart. (PYQ: March 2020)",
+    "answer": "[Image of a labelled diagram of the human heart]<br><br><b>Key labels should include:</b><br><ul><li>Right Atrium, Left Atrium</li><li>Right Ventricle, Left Ventricle</li><li>Superior and Inferior Vena Cava</li><li>Pulmonary Artery, Pulmonary Veins</li><li>Aorta</li><li>Tricuspid Valve, Bicuspid (Mitral) Valve</li><li>Semilunar Valves</li><li>Septum</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of glycolysis (EMP pathway).",
+    "answer": "Glycolysis is the process of breakdown of one molecule of glucose into two molecules of pyruvic acid. It occurs in the cytoplasm and is the first step of cellular respiration. It is a 10-step pathway.<br><br><b>The key events are:</b><br>1. <b>Activation of Glucose:</b> The glucose molecule is phosphorylated using two ATP molecules to form fructose-1,6-bisphosphate.<br>2. <b>Splitting:</b> This 6-carbon molecule is split into two 3-carbon molecules (PGAL).<br>3. <b>Oxidation and ATP formation:</b> The two molecules of PGAL are then oxidized through a series of steps to form two molecules of pyruvic acid. During this process, energy is released and trapped in the form of ATP and NADH.<br><br><b>Net gain from one glucose molecule in glycolysis:</b><br><ul><li>2 molecules of Pyruvic acid</li><li>2 molecules of ATP (4 are formed, but 2 are used up)</li><li>2 molecules of NADH</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the mechanism of breathing (inhalation and exhalation) in humans.",
+    "answer": "Breathing is the process of taking in oxygen and giving out carbon dioxide. It involves two steps:<br><br>1. <b>Inhalation (Inspiration):</b> This is an active process involving the contraction of respiratory muscles.<br><ul><li>The <b>diaphragm</b> contracts and flattens (moves down).</li><li>The external <b>intercostal muscles</b> contract, which lifts the ribs and sternum upwards and outwards.</li><li>These movements increase the volume of the thoracic cavity.</li><li>This causes the pressure inside the lungs to decrease below the atmospheric pressure, so air rushes into the lungs.</li></ul>2. <b>Exhalation (Expiration):</b> This is normally a passive process involving the relaxation of muscles.<br><ul><li>The diaphragm relaxes and returns to its dome shape (moves up).</li><li>The external intercostal muscles relax, causing the ribs and sternum to return to their original position.</li><li>These movements decrease the volume of the thoracic cavity.</li><li>This increases the pressure inside the lungs above the atmospheric pressure, so air is forced out of the lungs.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the ABO blood group system in humans.",
+    "answer": "The ABO blood group system is the most important blood type system in human blood transfusion. It was discovered by Karl Landsteiner. It is based on the presence or absence of two specific antigens (A and B) on the surface of red blood cells (RBCs) and two corresponding antibodies (anti-A and anti-B) in the blood plasma.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Blood Group</th><th style='padding: 8px;'>Antigen on RBC</th><th style='padding: 8px;'>Antibody in Plasma</th><th style='padding: 8px;'>Can Donate To</th><th style='padding: 8px;'>Can Receive From</th></tr><tr><td style='padding: 8px;'>A</td><td style='padding: 8px;'>A</td><td style='padding: 8px;'>Anti-B</td><td style='padding: 8px;'>A, AB</td><td style='padding: 8px;'>A, O</td></tr><tr><td style='padding: 8px;'>B</td><td style='padding: 8px;'>B</td><td style='padding: 8px;'>Anti-A</td><td style='padding: 8px;'>B, AB</td><td style='padding: 8px;'>B, O</td></tr><tr><td style='padding: 8px;'>AB</td><td style='padding: 8px;'>A and B</td><td style='padding: 8px;'>None</td><td style='padding: 8px;'>AB</td><td style='padding: 8px;'>A, B, AB, O (Universal Recipient)</td></tr><tr><td style='padding: 8px;'>O</td><td style='padding: 8px;'>None</td><td style='padding: 8px;'>Anti-A and Anti-B</td><td style='padding: 8px;'>A, B, AB, O (Universal Donor)</td><td style='padding: 8px;'>O</td></tr></table><br>This system is crucial for ensuring safe blood transfusions, as mismatching blood groups can lead to a severe immune reaction.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat, labelled diagram of the human respiratory system.",
+    "answer": "[Image of a labelled diagram of the human respiratory system]<br><br><b>Key labels should include:</b><br><ul><li>Nasal cavity</li><li>Pharynx</li><li>Larynx (Voice box)</li><li>Trachea (Windpipe)</li><li>Bronchi</li><li>Bronchioles</li><li>Alveoli</li><li>Lungs</li><li>Diaphragm</li></ul>",
+    "marks": 3
+  }
+]

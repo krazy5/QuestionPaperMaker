@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The force between two point charges separated by a distance 'd' in a medium with dielectric constant 'K' is: (MHT CET 2022)",
+    "options": [
+      "(a) $F_0$",
+      "(b) $F_0/K$",
+      "(c) $F_0/K^2$",
+      "(d) $K F_0$"
+    ],
+    "correct_answer": "b",
+    "answer": "The force between two point charges in a vacuum is given by Coulomb's law: $F_0 = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{d^2}$.<br>When the charges are placed in a medium with a dielectric constant 'K', the force is reduced by a factor of K. The force in the medium ($F$) is given by: $F = \\frac{1}{4\\pi\\epsilon} \\frac{q_1 q_2}{d^2}$, where $\\epsilon = K\\epsilon_0$.<br>$F = \\frac{1}{4\\pi K \\epsilon_0} \\frac{q_1 q_2}{d^2} = \\frac{1}{K} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{d^2} \\right) = \\frac{F_0}{K}$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The work done in moving a unit positive charge from one point to another in an equipotential surface is: (MHT CET 2021)",
+    "options": [
+      "(a) Positive",
+      "(b) Negative",
+      "(c) Zero",
+      "(d) Depends on the path"
+    ],
+    "correct_answer": "c",
+    "answer": "An **equipotential surface** is a surface where the electric potential is the same at every point. The work done (W) in moving a charge (q) from a point A to a point B is given by the formula $W = q(V_B - V_A)$.<br>Since the potential at every point on an equipotential surface is the same, $V_B = V_A$.<br>Therefore, the work done is $W = q(V_A - V_A) = q(0) = 0$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The capacity of a parallel plate capacitor is 'C'. If the distance between the plates is doubled and the area is halved, the new capacity will be: (MHT CET 2020)",
+    "options": [
+      "(a) C",
+      "(b) 2C",
+      "(c) C/2",
+      "(d) C/4"
+    ],
+    "correct_answer": "d",
+    "answer": "The capacitance of a parallel plate capacitor is given by the formula: $C = \\frac{\\epsilon_0 A}{d}$<br>This shows that capacitance is directly proportional to the area (A) and inversely proportional to the distance (d) between the plates.<br>$C \\propto \\frac{A}{d}$<br>Let the initial capacitance be $C_1 = C$ with area $A_1 = A$ and distance $d_1 = d$.<br>The new area is halved, $A_2 = A/2$.<br>The new distance is doubled, $d_2 = 2d$.<br>The new capacitance, $C_2$, is:<br>$C_2 = \\frac{\\epsilon_0 A_2}{d_2} = \\frac{\\epsilon_0 (A/2)}{2d} = \\frac{1}{4} \\frac{\\epsilon_0 A}{d} = \\frac{C}{4}$<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An electric dipole is placed in a uniform electric field. The net force on the dipole is: (MHT CET 2019)",
+    "options": [
+      "(a) Positive",
+      "(b) Negative",
+      "(c) Zero",
+      "(d) Depends on the orientation"
+    ],
+    "correct_answer": "c",
+    "answer": "An electric dipole consists of two equal and opposite charges (+q and -q) separated by a small distance. In a **uniform** electric field, the force on the positive charge is $F_+ = +qE$ and the force on the negative charge is $F_- = -qE$.<br>The net force on the dipole is the vector sum of these two forces: $F_{net} = F_+ + F_- = qE + (-qE) = 0$.<br>Therefore, the net force on the dipole in a uniform electric field is zero. However, the dipole may experience a torque, which causes it to align with the electric field.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electric potential at a point due to a point charge 'Q' is: (MHT CET 2018)",
+    "options": [
+      "(a) Proportional to Q",
+      "(b) Proportional to $1/Q$",
+      "(c) Proportional to distance 'r'",
+      "(d) Proportional to $1/r^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The electric potential (V) at a distance 'r' from a point charge 'Q' is given by the formula:<br>$V = \\frac{1}{4\\pi\\epsilon_0} \\frac{Q}{r}$<br>From this formula, we can see that the potential is directly proportional to the magnitude of the charge 'Q'. It is inversely proportional to the distance 'r', not the square of the distance.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy stored in a capacitor with capacitance 'C' and charge 'Q' is: (MHT CET 2017)",
+    "options": [
+      "(a) $CV$",
+      "(b) $QV$",
+      "(c) $\\frac{1}{2}CV^2$",
+      "(d) $Q/V$"
+    ],
+    "correct_answer": "c",
+    "answer": "The energy (U) stored in a capacitor is the work done in charging it. The standard formulas for energy stored in a capacitor are:<br>$U = \\frac{1}{2}QV = \\frac{1}{2}CV^2 = \\frac{Q^2}{2C}$<br>The option provided is $\\frac{1}{2}CV^2$, which is one of the correct forms.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of electric field is: (MHT CET 2016)",
+    "options": [
+      "(a) Joule/Coulomb",
+      "(b) Volt/meter",
+      "(c) Newton/meter",
+      "(d) Coulomb/Volt"
+    ],
+    "correct_answer": "b",
+    "answer": "The electric field (E) is defined as the force per unit charge, $E = \\frac{F}{q}$. So, its unit is Newton/Coulomb (N/C).<br>The electric field is also related to the potential difference (V) and distance (d) as $E = -\\frac{dV}{dx}$. So, its unit is Volt/meter (V/m).<br>Both N/C and V/m are valid SI units for the electric field. The provided options include Volt/meter.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A parallel plate capacitor is connected to a battery. The plates are now moved farther apart. The charge on the capacitor: (MHT CET 2015)",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains the same",
+      "(d) becomes zero"
+    ],
+    "correct_answer": "b",
+    "answer": "Since the capacitor remains connected to the battery, the potential difference (V) across it remains constant. The capacitance (C) of a parallel plate capacitor is given by $C = \\frac{\\epsilon_0 A}{d}$. When the plates are moved farther apart, the distance 'd' increases, which causes the capacitance 'C' to decrease.<br>The charge on the capacitor is given by $Q = CV$. Since V is constant and C decreases, the charge Q must also decrease.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electric field inside a hollow conducting sphere is: (MHT CET 2014)",
+    "options": [
+      "(a) Zero",
+      "(b) Uniform",
+      "(c) Variable",
+      "(d) Depends on the charge"
+    ],
+    "correct_answer": "a",
+    "answer": "According to **Gauss's law**, the electric field inside a hollow conducting sphere (or any hollow conductor) is zero, regardless of the charge on the sphere or the presence of an external electric field. This is because any excess charge on a conductor resides on its outer surface, and the charges redistribute themselves to cancel out the internal field.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electric potential at the center of a charged hollow conducting sphere is: (MHT CET 2013)",
+    "options": [
+      "(a) Zero",
+      "(b) Same as on the surface",
+      "(c) Half of that on the surface",
+      "(d) Double of that on the surface"
+    ],
+    "correct_answer": "b",
+    "answer": "For a charged hollow conducting sphere, the electric field inside is zero. This implies that no work is done in moving a charge from the surface to the center. Therefore, the electric potential is constant throughout the interior of the sphere and is equal to the potential on the surface.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the distance between two charges is doubled, the force between them will become: (MHT CET 2012)",
+    "options": [
+      "(a) Double",
+      "(b) Half",
+      "(c) One-fourth",
+      "(d) Four times"
+    ],
+    "correct_answer": "c",
+    "answer": "According to **Coulomb's Law**, the electrostatic force (F) between two charges is inversely proportional to the square of the distance (r) between them.<br>$F \\propto \\frac{1}{r^2}$<br>If the distance is doubled, $r' = 2r$. The new force ($F'$) will be:<br>$F' \\propto \\frac{1}{(2r)^2} = \\frac{1}{4r^2} = \\frac{1}{4}F$<br>So, the force will become one-fourth of its original value.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electric field due to an infinite plane sheet of charge is: (MHT CET 2011)",
+    "options": [
+      "(a) Proportional to distance",
+      "(b) Inversely proportional to distance",
+      "(c) Inversely proportional to square of distance",
+      "(d) Independent of distance"
+    ],
+    "correct_answer": "d",
+    "answer": "According to **Gauss's law**, the electric field (E) due to a uniformly charged infinite plane sheet with surface charge density '$\\sigma$' is given by the formula: $E = \\frac{\\sigma}{2\\epsilon_0}$.<br>This formula does not depend on the distance from the sheet. Therefore, the electric field is independent of the distance.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The potential energy of an electric dipole in a uniform electric field is minimum when the angle between the dipole moment and the electric field is: (MHT CET 2010)",
+    "options": [
+      "(a) $0^\\circ$",
+      "(b) $90^\\circ$",
+      "(c) $180^\\circ$",
+      "(d) $45^\\circ$"
+    ],
+    "correct_answer": "a",
+    "answer": "The potential energy (U) of an electric dipole in a uniform electric field is given by the formula: $U = -pE \\cos\\theta$, where 'p' is the dipole moment and 'E' is the electric field.<br>For the potential energy to be minimum, the value of $\\cos\\theta$ must be maximum, which is $+1$. This occurs when the angle $\\theta = 0^\\circ$. In this orientation, the dipole is aligned with the electric field and is in a stable equilibrium.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electrostatic potential at a point on the equatorial line of an electric dipole is: (MHT CET 2009)",
+    "options": [
+      "(a) Positive",
+      "(b) Negative",
+      "(c) Zero",
+      "(d) Depends on the position"
+    ],
+    "correct_answer": "c",
+    "answer": "The potential at a point on the equatorial line of an electric dipole is the sum of the potentials due to the two charges. The distance from the positive charge ($+q$) to any point on the equatorial line is the same as the distance from the negative charge ($-q$).<br>Potential due to $+q$ is $V_+ = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}$.<br>Potential due to $-q$ is $V_- = \\frac{1}{4\\pi\\epsilon_0} \\frac{-q}{r}$.<br>Total potential is $V = V_+ + V_- = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r} + \\frac{1}{4\\pi\\epsilon_0} \\frac{-q}{r} = 0$.<br>Therefore, the potential at any point on the equatorial line of an electric dipole is zero.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A capacitor of 5 $\\mu$F is charged to 20 V. The energy stored in the capacitor is: (MHT CET 2008)",
+    "options": [
+      "(a) $100 \\mu J$",
+      "(b) $200 \\mu J$",
+      "(c) $1000 \\mu J$",
+      "(d) $1000 J$"
+    ],
+    "correct_answer": "c",
+    "answer": "The energy (U) stored in a capacitor is given by the formula: $U = \\frac{1}{2}CV^2$.<br>Given values: Capacitance $C = 5 \\mu$F = $5 \\times 10^{-6}$ F.<br>Voltage $V = 20$ V.<br>$U = \\frac{1}{2} (5 \\times 10^{-6}) (20)^2 = \\frac{1}{2} (5 \\times 10^{-6}) (400) = 1000 \\times 10^{-6}$ J<br>$U = 1000 \\mu$J.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The part of the brain responsible for regulating balance and posture is the:",
+    "options": [
+      "(a) Cerebrum",
+      "(b) Cerebellum",
+      "(c) Medulla oblongata",
+      "(d) Hypothalamus"
+    ],
+    "correct_answer": "b",
+    "answer": "The **cerebellum** is located at the back of the brain and is responsible for coordinating voluntary movements, posture, balance, and speech, resulting in smooth and balanced muscular activity.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of the central nervous system (CNS) is:",
+    "options": [
+      "(a) Brain and spinal cord",
+      "(b) Nerves and ganglia",
+      "(c) Brain and nerves",
+      "(d) Spinal cord and nerves"
+    ],
+    "correct_answer": "a",
+    "answer": "The **central nervous system (CNS)** consists of the **brain** and the **spinal cord**. It is the main processing center for the entire nervous system.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The chemical messenger that transmits a nerve impulse across a synapse is called a:",
+    "options": [
+      "(a) Hormone",
+      "(b) Neurotransmitter",
+      "(c) Enzyme",
+      "(d) Pheromone"
+    ],
+    "correct_answer": "b",
+    "answer": "A **neurotransmitter** is a chemical substance that is released from a nerve ending to transmit an impulse to another nerve cell, muscle cell, or gland cell across a synapse.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The protective membranes covering the brain and spinal cord are collectively known as:",
+    "options": [
+      "(a) Cerebrospinal fluid",
+      "(b) Meninges",
+      "(c) Grey matter",
+      "(d) White matter"
+    ],
+    "correct_answer": "b",
+    "answer": "The **meninges** are the three layers of protective membranes that surround the brain and spinal cord. They are the dura mater, arachnoid mater, and pia mater.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the brain that connects the cerebrum to the spinal cord and controls vital functions like breathing and heart rate is the:",
+    "options": [
+      "(a) Pons",
+      "(b) Thalamus",
+      "(c) Medulla oblongata",
+      "(d) Hypothalamus"
+    ],
+    "correct_answer": "c",
+    "answer": "The **medulla oblongata** is located at the base of the brainstem, and it is a crucial center for regulating many vital functions, including the cardiovascular and respiratory systems.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The structure responsible for the 'fight-or-flight' response is the:",
+    "options": [
+      "(a) Pituitary gland",
+      "(b) Adrenal gland",
+      "(c) Thyroid gland",
+      "(d) Pancreas"
+    ],
+    "correct_answer": "b",
+    "answer": "The **adrenal glands**, located on top of the kidneys, produce hormones like adrenaline and noradrenaline in response to stress. These hormones mediate the 'fight-or-flight' response.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cells that form the myelin sheath around the axons in the peripheral nervous system are:",
+    "options": [
+      "(a) Astrocytes",
+      "(b) Microglia",
+      "(c) Schwann cells",
+      "(d) Oligodendrocytes"
+    ],
+    "correct_answer": "c",
+    "answer": "**Schwann cells** are a type of glial cell that forms the myelin sheath around the axons of peripheral nerve fibers. This sheath increases the speed of nerve impulse conduction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the brain that is the main coordinating center for sensory and motor signaling is the:",
+    "options": [
+      "(a) Thalamus",
+      "(b) Cerebellum",
+      "(c) Hypothalamus",
+      "(d) Cerebrum"
+    ],
+    "correct_answer": "a",
+    "answer": "The **thalamus** acts as a relay station for most sensory and motor information, sending it to the appropriate areas of the cerebral cortex for processing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reflex arc is a neural pathway that mediates a reflex action. The correct sequence of components in a reflex arc is:",
+    "options": [
+      "(a) Receptor → Motor neuron → Sensory neuron → Effector",
+      "(b) Receptor → Sensory neuron → Motor neuron → Effector",
+      "(c) Effector → Sensory neuron → Motor neuron → Receptor",
+      "(d) Sensory neuron → Motor neuron → Receptor → Effector"
+    ],
+    "correct_answer": "b",
+    "answer": "The correct sequence for a reflex arc is: a stimulus is detected by a **receptor**, which sends a signal via a **sensory neuron** to the CNS. The CNS then sends a response via a **motor neuron** to an **effector** (muscle or gland).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The gland that is known as the 'master gland' of the endocrine system is the:",
+    "options": [
+      "(a) Thyroid gland",
+      "(b) Pituitary gland",
+      "(c) Adrenal gland",
+      "(d) Pancreas"
+    ],
+    "correct_answer": "b",
+    "answer": "The **pituitary gland** is called the 'master gland' because it produces hormones that control many other endocrine glands throughout the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition caused by the under-secretion of the thyroid hormone in children is:",
+    "options": [
+      "(a) Graves' disease",
+      "(b) Myxedema",
+      "(c) Goitre",
+      "(d) Cretinism"
+    ],
+    "correct_answer": "d",
+    "answer": "**Cretinism** is a condition of severely stunted physical and mental growth due to untreated congenital deficiency of thyroid hormones (congenital hypothyroidism) usually due to maternal hypothyroidism.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disease caused by the deficiency of insulin hormone is:",
+    "options": [
+      "(a) Diabetes mellitus",
+      "(b) Diabetes insipidus",
+      "(c) Addison's disease",
+      "(d) Cushing's syndrome"
+    ],
+    "correct_answer": "a",
+    "answer": "**Diabetes mellitus** is a disease that occurs when your blood glucose, also called blood sugar, is too high. This is primarily caused by a lack of or resistance to the hormone insulin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that regulates the sleep-wake cycle is:",
+    "options": [
+      "(a) Melatonin",
+      "(b) Serotonin",
+      "(c) Thyroxine",
+      "(d) Adrenaline"
+    ],
+    "correct_answer": "a",
+    "answer": "**Melatonin** is a hormone primarily produced by the pineal gland. It is involved in regulating the sleep-wake cycle and is often called the 'sleep hormone'.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the brain that controls body temperature, hunger, and thirst is the:",
+    "options": [
+      "(a) Cerebrum",
+      "(b) Cerebellum",
+      "(c) Medulla oblongata",
+      "(d) Hypothalamus"
+    ],
+    "correct_answer": "d",
+    "answer": "The **hypothalamus** is a small region of the brain located at the base. It plays a crucial role in maintaining homeostasis, regulating body temperature, and controlling hunger and thirst.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone responsible for the development of secondary sexual characteristics in females is:",
+    "options": [
+      "(a) Progesterone",
+      "(b) Estrogen",
+      "(c) Testosterone",
+      "(d) FSH"
+    ],
+    "correct_answer": "b",
+    "answer": "**Estrogen** is the primary female sex hormone. It is responsible for the development and regulation of the female reproductive system and secondary sexual characteristics.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that prepares the uterus for pregnancy is:",
+    "options": [
+      "(a) Estrogen",
+      "(b) Progesterone",
+      "(c) Oxytocin",
+      "(d) LH"
+    ],
+    "correct_answer": "b",
+    "answer": "**Progesterone** is a hormone that plays a critical role in the menstrual cycle and in maintaining the early stages of pregnancy. It prepares the uterus for the implantation of a fertilized egg.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The gland that is both endocrine and exocrine in function is the:",
+    "options": [
+      "(a) Thyroid",
+      "(b) Pituitary",
+      "(c) Adrenal",
+      "(d) Pancreas"
+    ],
+    "correct_answer": "d",
+    "answer": "The **pancreas** is a heterocrine gland, meaning it has both exocrine and endocrine functions. Its endocrine function involves producing hormones like insulin and glucagon, while its exocrine function is to produce digestive enzymes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that causes the contraction of uterine muscles during childbirth is:",
+    "options": [
+      "(a) Prolactin",
+      "(b) Oxytocin",
+      "(c) Relaxin",
+      "(d) Estrogen"
+    ],
+    "correct_answer": "b",
+    "answer": "**Oxytocin** is a hormone that plays a major role in childbirth. It stimulates uterine muscle contractions during labor and is also involved in milk ejection after childbirth.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sensory receptors that are responsible for the sense of smell are:",
+    "options": [
+      "(a) Gustatory receptors",
+      "(b) Photoreceptors",
+      "(c) Olfactory receptors",
+      "(d) Auditory receptors"
+    ],
+    "correct_answer": "c",
+    "answer": "**Olfactory receptors** are specialized nerve cells located in the nasal cavity that detect chemical odors, allowing us to perceive the sense of smell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The photoreceptor cells in the retina of the eye responsible for color vision are:",
+    "options": [
+      "(a) Rods",
+      "(b) Cones",
+      "(c) Ganglion cells",
+      "(d) Bipolar cells"
+    ],
+    "correct_answer": "b",
+    "answer": "**Cones** are photoreceptor cells in the retina that are responsible for color vision and function best in relatively bright light. Rods, on the other hand, are responsible for vision at low light levels.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of a neuron that conducts nerve impulses away from the cell body is the:",
+    "options": [
+      "(a) Dendrite",
+      "(b) Axon",
+      "(c) Nucleus",
+      "(d) Myelin sheath"
+    ],
+    "correct_answer": "b",
+    "answer": "The **axon** is the elongated part of a neuron that conducts nerve impulses away from the cell body towards other neurons, muscles, or glands.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that promotes the release of glucose from the liver and increases blood sugar levels is:",
+    "options": [
+      "(a) Insulin",
+      "(b) Glucagon",
+      "(c) Thyroxine",
+      "(d) Adrenaline"
+    ],
+    "correct_answer": "b",
+    "answer": "**Glucagon** is a peptide hormone produced by the pancreas. It works in opposition to insulin, promoting the breakdown of glycogen in the liver to release glucose and increase blood sugar levels.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that causes the contraction of skeletal muscles is:",
+    "options": [
+      "(a) Acetylcholine",
+      "(b) Serotonin",
+      "(c) Dopamine",
+      "(d) GABA"
+    ],
+    "correct_answer": "a",
+    "answer": "**Acetylcholine** is a key neurotransmitter that, at the neuromuscular junction, binds to receptors on muscle cells, causing them to contract. It is a vital chemical messenger for motor functions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The outermost protective layer of the meninges is the:",
+    "options": [
+      "(a) Pia mater",
+      "(b) Arachnoid mater",
+      "(c) Dura mater",
+      "(d) Epidural space"
+    ],
+    "correct_answer": "c",
+    "answer": "The **dura mater** is the thick, tough, and outermost protective membrane of the brain and spinal cord.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the eye where the optic nerve exits the retina is known as the:",
+    "options": [
+      "(a) Fovea",
+      "(b) Blind spot",
+      "(c) Macula",
+      "(d) Pupil"
+    ],
+    "correct_answer": "b",
+    "answer": "The **blind spot** is the area on the retina where the optic nerve exits the eye. There are no photoreceptors (rods or cones) in this area, so it is insensitive to light.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The nerve cells that carry impulses from the CNS to effector organs are:",
+    "options": [
+      "(a) Sensory neurons",
+      "(b) Motor neurons",
+      "(c) Interneurons",
+      "(d) Neuroglia"
+    ],
+    "correct_answer": "b",
+    "answer": "**Motor neurons** (efferent neurons) are responsible for transmitting signals from the central nervous system (CNS) to the muscles and glands, causing a response.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The master clock of the body, which regulates the circadian rhythm, is located in the:",
+    "options": [
+      "(a) Pineal gland",
+      "(b) Hypothalamus",
+      "(c) Pituitary gland",
+      "(d) Thalamus"
+    ],
+    "correct_answer": "b",
+    "answer": "The **suprachiasmatic nucleus (SCN)**, located in the **hypothalamus**, is considered the master biological clock that synchronizes the body's circadian rhythms with external light-dark cycles.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that plays a major role in the metabolism of carbohydrates, fats, and proteins is:",
+    "options": [
+      "(a) Insulin",
+      "(b) Adrenaline",
+      "(c) Thyroxine",
+      "(d) Glucagon"
+    ],
+    "correct_answer": "c",
+    "answer": "**Thyroxine**, the hormone produced by the thyroid gland, is a primary regulator of metabolism. It affects nearly every cell in the body, controlling the rate at which they burn energy from food.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sympathetic nervous system is responsible for the:",
+    "options": [
+      "(a) 'Rest and digest' response",
+      "(b) 'Fight or flight' response",
+      "(c) Voluntary muscle movements",
+      "(d) Regulation of body temperature"
+    ],
+    "correct_answer": "b",
+    "answer": "The **sympathetic nervous system** is a part of the autonomic nervous system. Its primary process is to stimulate the body's 'fight or flight' response.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the neuron that receives nerve impulses is the:",
+    "options": [
+      "(a) Axon",
+      "(b) Dendrite",
+      "(c) Myelin sheath",
+      "(d) Synapse"
+    ],
+    "correct_answer": "b",
+    "answer": "A **dendrite** is a branch-like extension of a neuron's cell body that receives nerve impulses from other neurons and conducts them toward the cell body.",
+    "marks": 1
+  }
+]

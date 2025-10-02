@@ -1,0 +1,325 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following animals has an open circulatory system?",
+    "options": [
+      "Earthworm",
+      "Human",
+      "Cockroach",
+      "Fish"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Cockroaches belong to Phylum Arthropoda, a characteristic of which is an open circulatory system where blood flows through the body cavity (hemocoel). Earthworms and humans have a closed circulatory system. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Body of _______ animal is radially symmetrical.",
+    "options": [
+      "Starfish",
+      "Earthworm",
+      "Human",
+      "Flatworm"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Adult starfish (Phylum Echinodermata) exhibit pentamerous radial symmetry, meaning their body can be divided into five equal parts around a central axis. Other options are bilaterally symmetrical. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a hermaphrodite animal?",
+    "options": [
+      "Cockroach",
+      "Roundworm",
+      "Human",
+      "Earthworm"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> A hermaphrodite is an organism that has both male and female reproductive organs. Earthworms are classic examples of hermaphrodites. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a cold-blooded (poikilothermic) animal?",
+    "options": [
+      "Whale",
+      "Penguin",
+      "Snake",
+      "Bat"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Snakes are reptiles, which are cold-blooded animals. Their body temperature changes with the surrounding environment. Whales, penguins, and bats are warm-blooded. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Animals belonging to Phylum Porifera are also known as _______.",
+    "options": [
+      "jellyfish",
+      "sponges",
+      "flatworms",
+      "roundworms"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Phylum Porifera includes multicellular organisms that have bodies full of pores and channels allowing water to circulate through them. They are commonly called sponges. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The presence of a notochord is a characteristic feature of which phylum?",
+    "options": [
+      "Arthropoda",
+      "Annelida",
+      "Chordata",
+      "Mollusca"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The fundamental characteristic of Phylum Chordata is the presence of a notochord, a flexible rod-like structure, at some stage of their life cycle. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which phylum has the largest number of species in the animal kingdom?",
+    "options": [
+      "Mollusca",
+      "Chordata",
+      "Annelida",
+      "Arthropoda"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Phylum Arthropoda is the largest phylum in the animal kingdom, including insects, arachnids, crustaceans, and others. It constitutes about 80% of all known animal species. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Bat is included in which class?",
+    "options": [
+      "Aves",
+      "Reptilia",
+      "Amphibia",
+      "Mammalia"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Although bats can fly, they are not birds. They have mammary glands to feed their young, have hair on their body, and give birth to live young, which are key characteristics of Class Mammalia. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "Animals which have a true body cavity are called _______.",
+    "options": [
+      "Acoelomates",
+      "Pseudocoelomates",
+      "Eucoelomates",
+      "Coelenterates"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Eucoelomates are animals that possess a true coelom, which is a body cavity completely lined by mesoderm. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "The stinging cells or cnidoblasts are characteristic of Phylum _______.",
+    "options": [
+      "Porifera",
+      "Cnidaria",
+      "Platyhelminthes",
+      "Annelida"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Animals in Phylum Cnidaria (also called Coelenterata), like Hydra and jellyfish, have specialized stinging cells called cnidoblasts for capturing prey and for defense. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is animal classification?",
+    "answer": "Animal classification is the systematic grouping of animals into different categories based on their similarities and differences in body structure, origin, and evolution.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a notochord?",
+    "answer": "A notochord is a long, flexible, rod-like supporting structure that is found in the dorsal (back) side of the body in all chordate animals at some stage of their development.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the criteria used for animal classification?",
+    "answer": "The main criteria used for animal classification are: <br>1. Grades of organization (cellular, tissue, organ, organ-system). <br>2. Body symmetry (asymmetrical, radial, bilateral). <br>3. Body cavity (coelom). <br>4. Germ layers (diploblastic, triploblastic). <br>5. Body segmentation.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Hydra, Jellyfish, Sea-anemone, Planaria.",
+    "answer": "<b>Planaria.</b><br><b>Reason:</b> Hydra, Jellyfish, and Sea-anemone belong to Phylum Cnidaria. Planaria belongs to Phylum Platyhelminthes.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Butterfly, Scorpion, Cockroach, Earthworm.",
+    "answer": "<b>Earthworm.</b><br><b>Reason:</b> Butterfly, Scorpion, and Cockroach belong to Phylum Arthropoda. Earthworm belongs to Phylum Annelida.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Porifera : Spores :: Cnidaria : _______.",
+    "answer": "<b>Tentacles / Cnidoblasts.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Flatworm : Platyhelminthes :: Roundworm : _______.",
+    "answer": "<b>Aschelminthes.</b>",
+    "marks": 1
+  },
+    {
+    "type": "short",
+    "text": "I am a connecting link between reptiles and mammals. What is my name?",
+    "answer": "You are the <b>Duck-billed Platypus</b>.",
+    "marks": 1
+  },
+    {
+    "type": "short",
+    "text": "I live in your small intestine. My body is long and thread-like. In which phylum am I included?",
+    "answer": "You are included in Phylum <b>Aschelminthes</b> (Roundworms). An example is Ascaris.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Chordates and Non-chordates.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Chordates</th><th style='padding: 8px; text-align: left;'>Non-chordates</th></tr><tr><td style='padding: 8px;'>Notochord is present at least in some developmental stage.</td><td style='padding: 8px;'>Notochord is absent.</td></tr><tr><td style='padding: 8px;'>Central nervous system is dorsal and hollow.</td><td style='padding: 8px;'>Central nervous system is ventral and solid.</td></tr><tr><td style='padding: 8px;'>Heart, if present, is on the ventral side.</td><td style='padding: 8px;'>Heart, if present, is on the dorsal side.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Diploblastic and Triploblastic animals.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Diploblastic</th><th style='padding: 8px; text-align: left;'>Triploblastic</th></tr><tr><td style='padding: 8px;'>Animals in which cells are arranged in two embryonic layers, an external ectoderm and an internal endoderm.</td><td style='padding: 8px;'>Animals in which the developing embryo has a third germinal layer, the mesoderm, in between the ectoderm and endoderm.</td></tr><tr><td style='padding: 8px;'>Example: Phylum Cnidaria.</td><td style='padding: 8px;'>Example: Phylum Platyhelminthes to Chordata.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two characteristics of Phylum Porifera.",
+    "answer": "The characteristics of Phylum Porifera are:<br>1. These are simple, multicellular animals with a cellular grade of organization, commonly known as sponges.<br>2. Their body is perforated with numerous pores called ostia, and a large opening called the osculum. Water circulates through their body via a canal system.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two characteristics of Phylum Arthropoda.",
+    "answer": "The characteristics of Phylum Arthropoda are:<br>1. They have jointed appendages (legs, antennae).<br>2. Their body is covered by a tough, non-living chitinous exoskeleton.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the function of tube feet in starfish?",
+    "answer": "In starfish (Phylum Echinodermata), tube feet are part of the water vascular system. Their primary functions are:<br>1. <b>Locomotion:</b> Helping the starfish to move around.<br>2. <b>Capturing Prey:</b> Holding onto food items.<br>3. <b>Respiration:</b> Exchanging gases with the water.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the three types of body cavity (coelom)?",
+    "answer": "Based on the presence and nature of the coelom, animals are of three types:<br>1. <b>Acoelomate:</b> Animals that do not have a body cavity (e.g., Flatworms).<br>2. <b>Pseudocoelomate:</b> Animals that have a false body cavity, which is not completely lined by mesoderm (e.g., Roundworms).<br>3. <b>Eucoelomate:</b> Animals that have a true body cavity completely lined by mesoderm (e.g., Annelids to Chordates).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "To which phylum does the earthworm belong? Give two reasons for your answer.",
+    "answer": "The earthworm belongs to Phylum <b>Annelida</b>.<br><b>Reasons:</b><br>1. Its body is long, cylindrical, and metamerically segmented.<br>2. It has setae for locomotion.",
+    "marks": 2
+  },
+   {
+    "type": "short",
+    "text": "What is bilateral symmetry? Give an example.",
+    "answer": "Bilateral symmetry is a type of body plan where the body can be divided into two identical right and left halves in only one plane.<br><b>Example:</b> Human beings, insects, fish.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Name the three subphyla of Phylum Chordata.",
+    "answer": "Phylum Chordata is divided into three subphyla:<br>1. Urochordata<br>2. Cephalochordata<br>3. Vertebrata (Craniata)",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the special characteristics of mammals? (PYQ: March 2022)",
+    "answer": "The special characteristics of mammals are:<br>1. Presence of mammary glands for the production of milk to nourish their young.<br>2. Presence of hair or fur on their body.<br>3. They are warm-blooded (homeothermic) animals.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Jellyfish and corals belong to which phylum? State a characteristic of that phylum.",
+    "answer": "Jellyfish and corals belong to Phylum <b>Cnidaria</b> (or Coelenterata).<br><b>Characteristic:</b> They have tentacles bearing stinging cells called cnidoblasts, which are used for capturing prey and for defense.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the characteristics of Phylum Platyhelminthes with two examples.",
+    "answer": "Phylum Platyhelminthes consists of animals commonly known as flatworms.<br><b>Characteristics:</b><br>1. Their body is slender, flat like a leaf or strip, and bilaterally symmetrical.<br>2. They are triploblastic (three germ layers) but are acoelomate (do not have a true body cavity).<br>3. Most of these animals are endoparasites, living inside the body of other animals, but a few are free-living.<br>4. They are hermaphrodites, meaning male and female reproductive systems are present in the same animal body.<br><br><b>Examples:</b> Planaria, Liverfluke, Tapeworm.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the characteristics of Class Aves with two examples.",
+    "answer": "Class Aves includes all birds.<br><b>Characteristics:</b><br>1. These vertebrates are completely adapted for aerial life. Their forelimbs are modified into wings for flight.<br>2. Their body is covered with feathers, and they have a beak instead of jaws with teeth.<br>3. They are warm-blooded (homeotherms); they can maintain a constant body temperature irrespective of the surroundings.<br>4. Their bones are hollow (pneumatic) to reduce body weight, which helps in flight.<br><br><b>Examples:</b> Parrot, Pigeon, Penguin, Ostrich.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Identify the animal and write its characteristics. [An image of a Planaria is shown]",
+    "answer": "The animal is <b>Planaria</b>.<br><br><b>Characteristics:</b><br>1. It belongs to Phylum Platyhelminthes (flatworms).<br>2. It has a bilaterally symmetrical and acoelomate body.<br>3. It is a free-living flatworm found in freshwater.<br>4. It shows a high power of regeneration, where a cut body part can grow into a new individual.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the benefits of animal classification.",
+    "answer": "Animal classification provides several benefits:<br>1. <b>Systematic Study:</b> It makes the study of a wide variety of animals convenient and organized.<br>2. <b>Understanding Relationships:</b> It helps in understanding the evolutionary relationships among different groups of animals.<br>3. <b>Identification:</b> It helps in the accurate identification of animals based on their specific characteristics.<br>4. <b>Adaptation:</b> It gives us an idea about how animals have adapted to their specific environments over time.<br>5. <b>Conservation:</b> It is essential for wildlife conservation efforts as it helps in understanding the specific needs and threats to different species.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Give the scientific classification of a human being.",
+    "answer": "<b>Kingdom:</b> Animalia<br><b>Phylum:</b> Chordata<br><b>Class:</b> Mammalia<br><b>Order:</b> Primates<br><b>Family:</b> Hominidae<br><b>Genus:</b> Homo<br><b>Species:</b> sapiens",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe the characteristics of Phylum Annelida with examples.",
+    "answer": "Phylum Annelida includes segmented worms.<br><b>Characteristics:</b><br>1. Their body is long, cylindrical, and metamerically segmented (divided into many similar segments).<br>2. They are triploblastic, bilaterally symmetrical, and eucoelomate (have a true body cavity).<br>3. They have special organs for locomotion like setae or parapodia.<br>4. They have a closed circulatory system. Most are free-living, but some are ectoparasites (e.g., leech).<br><br><b>Examples:</b> Earthworm, Leech, Nereis.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the characteristics of Phylum Mollusca with examples.",
+    "answer": "Phylum Mollusca is the second largest phylum in the animal kingdom.<br><b>Characteristics:</b><br>1. These animals have a soft, unsegmented body, which is divided into three parts: head, visceral mass, and a muscular foot.<br>2. The body is covered by a hard, calcareous shell for protection. The shell may be external, internal, or absent in some cases.<br>3. The visceral mass is covered by a soft fold of skin called the mantle, which secretes the shell.<br>4. They are triploblastic, bilaterally symmetrical, and coelomate.<br><br><b>Examples:</b> Bivalve (clams), Snail, Octopus.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the characteristics of Class Pisces with examples.",
+    "answer": "Class Pisces includes all fishes.<br><b>Characteristics:</b><br>1. They are exclusively aquatic animals, living in both marine and freshwater.<br>2. Their body is spindle-shaped to minimize water resistance. They have fins for swimming and a tail fin for changing direction.<br>3. Respiration occurs through gills. They take in oxygen dissolved in water.<br>4. They are cold-blooded (poikilotherms) and have a two-chambered heart.<br>5. Their body is covered with scales, and their skeleton can be either cartilaginous or bony.<br><br><b>Examples:</b> Rohu, Shark, Sea-horse, Pomfret.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the five-kingdom classification system by Robert Whittaker.",
+    "answer": "Robert Whittaker proposed the five-kingdom classification system in 1969. He classified all living organisms into five kingdoms based on criteria like cell structure (prokaryotic/eukaryotic), body organization (unicellular/multicellular), and mode of nutrition (autotrophic/heterotrophic).<br><br>The five kingdoms are:<br>1. <b>Kingdom Monera:</b> Includes all prokaryotic, unicellular organisms. Ex: Bacteria.<br>2. <b>Kingdom Protista:</b> Includes eukaryotic, unicellular organisms. Ex: Amoeba, Paramoecium.<br>3. <b>Kingdom Fungi:</b> Includes eukaryotic, mostly multicellular, heterotrophic organisms with cell walls made of chitin. They are saprophytic. Ex: Mushroom, Yeast.<br>4. <b>Kingdom Plantae:</b> Includes eukaryotic, multicellular, autotrophic organisms with cell walls made of cellulose. Ex: All plants.<br>5. <b>Kingdom Animalia:</b> Includes eukaryotic, multicellular, heterotrophic organisms that lack a cell wall and are typically motile. Ex: All animals.",
+    "marks": 4
+  },
+    {
+    "type": "long",
+    "text": "Explain the body symmetry in animals with examples.",
+    "answer": "Body symmetry refers to the way an animal's body parts are arranged around a point or an axis. There are three types:<br>1. <b>Asymmetrical Body:</b> In this type, the body cannot be divided into two equal halves through any imaginary plane. Example: Amoeba, Sponges.<br>2. <b>Radial Symmetry:</b> In this type, the body can be divided into two identical halves by any plane passing through the central axis. This is seen in animals that are sedentary. Example: Hydra, Starfish.<br>3. <b>Bilateral Symmetry:</b> In this type, the body can be divided into two identical right and left halves through only one specific plane. This allows for streamlined and directional motion. Example: Humans, Insects, Fish.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What are the characteristics of Class Amphibia?",
+    "answer": "Class Amphibia includes animals that can live both on land and in water.<br><b>Characteristics:</b><br>1. During their larval stage, they are strictly aquatic and respire through gills. Adult amphibians can live on land and respire through lungs, and in water they respire through their moist skin.<br>2. They have two pairs of limbs for locomotion. Their digits are without claws.<br>3. They are cold-blooded (poikilotherms) and have a three-chambered heart.<br>4. Their skin is smooth or rough, moist, and lacks scales.<br>5. The neck is absent, and eyes are prominent with eyelids. Example: Frog, Toad, Salamander.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What are the characteristics of Class Reptilia?",
+    "answer": "Class Reptilia includes crawling animals.<br><b>Characteristics:</b><br>1. They are the first true terrestrial animals with a creeping or crawling mode of locomotion.<br>2. Their body is covered with dry, scaly skin to prevent water loss.<br>3. They are cold-blooded (poikilotherms). Most have a three-chambered heart, but crocodiles have a four-chambered heart.<br>4. Respiration occurs through lungs.<br>5. Neck is present between head and trunk. Example: Lizard, Snake, Turtle, Crocodile.",
+    "marks": 4
+  }
+]
+

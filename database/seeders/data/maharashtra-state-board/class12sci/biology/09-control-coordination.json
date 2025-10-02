@@ -1,0 +1,156 @@
+[
+  {
+    "type": "mcq",
+    "text": "The functional unit of the nervous system is the _______.",
+    "options": ["Nephron", "Neuron", "Alveolus", "Sarcomere"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The neuron, or nerve cell, is the basic structural and functional unit of the nervous system, responsible for transmitting nerve impulses. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The gap between two adjacent neurons is called a _______.",
+    "options": ["Synapse", "Dendrite", "Axon", "Myelin sheath"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> A synapse is a specialized junction where a nerve impulse is transmitted from one neuron to another neuron or to an effector cell like a muscle or gland. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which part of the human brain is the center for intelligence, memory, and voluntary actions?",
+    "options": ["Cerebellum", "Medulla oblongata", "Cerebrum", "Hypothalamus"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The cerebrum is the largest part of the brain and is responsible for higher-order functions such as thought, memory, consciousness, and the control of voluntary movements. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone responsible for the 'fight or flight' response is _______.",
+    "options": ["Insulin", "Thyroxine", "Adrenaline", "Growth hormone"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Adrenaline (also called epinephrine), secreted by the adrenal medulla, prepares the body for emergency situations by increasing heart rate, blood pressure, and blood glucose levels. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is known as the 'master endocrine gland'?",
+    "options": ["Thyroid gland", "Adrenal gland", "Pancreas", "Pituitary gland"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The pituitary gland is called the master gland because it produces hormones that control the functions of many other endocrine glands in the body. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A reflex arc is the pathway of a/an _______.",
+    "options": ["Voluntary action", "Reflex action", "Hormonal action", "Nerve impulse to the brain"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> A reflex arc is the neural pathway that mediates a reflex action. It typically includes a sensory receptor, a sensory neuron, an interneuron, a motor neuron, and an effector. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Goitre is a disease caused by the deficiency of _______.",
+    "options": ["Calcium", "Iron", "Iodine", "Sodium"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Iodine is essential for the synthesis of the thyroid hormones (thyroxine and triiodothyronine). A deficiency of iodine in the diet leads to the enlargement of the thyroid gland, a condition known as goitre. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the neuron that receives signals from other neurons is the _______.",
+    "options": ["Axon", "Myelin sheath", "Dendrite", "Synaptic knob"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Dendrites are short, branched extensions of a nerve cell, which receive nerve impulses from other neurons at synapses and transmit them to the cell body. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The cerebellum is responsible for maintaining the body's posture and equilibrium.",
+    "answer": "<b>True</b><br><b>Reason:</b> The cerebellum, or 'little brain', coordinates voluntary muscle movements, posture, balance, and equilibrium.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Insulin is a hormone that increases the blood glucose level.",
+    "answer": "<b>False</b><br><b>Reason:</b> Insulin, secreted by the pancreas, lowers the blood glucose level by promoting the uptake of glucose by cells. Glucagon is the hormone that increases blood glucose levels.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The sympathetic and parasympathetic nervous systems have opposite effects on most organs.",
+    "answer": "<b>True</b><br><b>Reason:</b> They are antagonistic in function. For example, the sympathetic system increases heart rate, while the parasympathetic system decreases it.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Neurotransmitters are released from the dendrites of a neuron.",
+    "answer": "<b>False</b><br><b>Reason:</b> Neurotransmitters are chemical messengers that are released from the axon terminals (synaptic knobs) of the presynaptic neuron into the synaptic cleft.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Hormones are chemical messengers that are transported through ducts.",
+    "answer": "<b>False</b><br><b>Reason:</b> Hormones are secreted by endocrine (ductless) glands directly into the bloodstream, which then transports them to their target organs.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between the Cerebrum and Cerebellum. (PYQ: March 2020)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Cerebrum</th><th style='padding: 8px;'>Cerebellum</th></tr><tr><td style='padding: 8px;'>It is the largest part of the brain, located in the forebrain.</td><td style='padding: 8px;'>It is the second largest part of the brain, located in the hindbrain.</td></tr><tr><td style='padding: 8px;'>It is the center for higher functions like intelligence, memory, thinking, and voluntary actions.</td><td style='padding: 8px;'>It is the center for coordinating voluntary muscle movements, maintaining posture, and balance.</td></tr><tr><td style='padding: 8px;'>Its surface is highly convoluted with gyri and sulci.</td><td style='padding: 8px;'>Its surface also has convolutions, but they are finer and more parallel.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'synapse' and 'neurotransmitter'.",
+    "answer": "<b>Synapse:</b> A synapse is a microscopic gap or junction between the axon terminal of one neuron (presynaptic neuron) and the dendrite or cell body of another neuron (postsynaptic neuron). It is the site where nerve impulses are transmitted from one neuron to the next.<br><br><b>Neurotransmitter:</b> A neurotransmitter is a chemical substance that is released at the end of a nerve fibre by the arrival of a nerve impulse and, by diffusing across the synapse, causes the transfer of the impulse to another nerve fibre, a muscle fibre, or some other structure.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a reflex action? Give an example.",
+    "answer": "A reflex action is a rapid, involuntary, and automatic response to a stimulus, which is not under the conscious control of the brain. It is a protective mechanism.<br><br><b>Example:</b> The immediate withdrawal of the hand on accidentally touching a hot object. This action occurs even before the sensation of pain reaches the brain.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Name the three layers of the meninges.",
+    "answer": "The brain and spinal cord are protected by three layers of connective tissue membranes called the meninges. From outermost to innermost, they are:<br>1. <b>Dura mater</b> (outermost, tough layer)<br>2. <b>Arachnoid mater</b> (middle, web-like layer)<br>3. <b>Pia mater</b> (innermost, delicate layer that adheres to the brain)",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the cause and one major symptom of Diabetes Mellitus?",
+    "answer": "<b>Cause:</b> Diabetes Mellitus is an endocrine disorder caused by the hyposecretion (under-secretion) of the hormone insulin by the pancreas, or by the inability of the body's cells to respond to the insulin produced.<br><br><b>Symptom:</b> A major symptom is hyperglycemia, which is an abnormally high level of glucose in the blood. This leads to symptoms like frequent urination (polyuria) and excessive thirst (polydipsia).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat, labelled diagram of a multipolar neuron. (PYQ: March 2022)",
+    "answer": "<br><br><b>Key labels should include:</b><br><ul><li><b>Cell Body (Cyton/Soma):</b> Contains the nucleus and Nissl's granules.</li><li><b>Dendrites:</b> Short, branched processes that receive signals.</li><li><b>Axon:</b> A long, single process that transmits signals away from the cell body.</li><li><b>Axon Hillock:</b> The region where the axon arises from the cyton.</li><li><b>Myelin Sheath:</b> The insulating layer covering the axon.</li><li><b>Schwann Cell:</b> The cell that produces the myelin sheath.</li><li><b>Node of Ranvier:</b> The gap between adjacent Schwann cells on the axon.</li><li><b>Axon Terminals (Synaptic Knobs):</b> The branched endings of the axon that release neurotransmitters.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the structure of the human brain with a labelled diagram.",
+    "answer": "[Image of a labelled diagram of the human brain]<br><br>The human brain is the central information processing organ, enclosed within the cranium. It is divided into three main parts:<br><br>1. <b>Forebrain (Prosencephalon):</b> It is the largest part and consists of:<br>   - <b>Cerebrum:</b> Divided into two cerebral hemispheres. It is the site of intelligence, memory, consciousness, and voluntary actions.<br>   - <b>Thalamus:</b> Acts as a major relay center for sensory information.<br>   - <b>Hypothalamus:</b> Controls body temperature, thirst, hunger, and secretes hormones.<br><br>2. <b>Midbrain (Mesencephalon):</b> It is a small part located between the forebrain and hindbrain. It is involved in processing visual and auditory information.<br><br>3. <b>Hindbrain (Rhombencephalon):</b> It consists of:<br>   - <b>Cerebellum:</b> The second largest part, it coordinates voluntary movements, posture, and balance.<br>   - <b>Pons:</b> Acts as a bridge connecting different parts of the brain and helps regulate breathing.<br>   - <b>Medulla Oblongata:</b> Controls involuntary vital functions like heartbeat, breathing, and blood pressure. It continues down as the spinal cord.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the transmission of a nerve impulse across a synapse.",
+    "answer": "The transmission of a nerve impulse across a synapse from one neuron (presynaptic) to another (postsynaptic) is a chemical process.<br><br>1. <b>Arrival of Action Potential:</b> When a nerve impulse (action potential) arrives at the axon terminal of the presynaptic neuron, it causes the depolarization of the presynaptic membrane.<br><br>2. <b>Opening of Calcium Channels:</b> This depolarization causes voltage-gated calcium channels to open, and calcium ions ($Ca^{2+}$) rush into the axon terminal.<br><br>3. <b>Release of Neurotransmitters:</b> The influx of calcium ions stimulates the synaptic vesicles (which contain neurotransmitters) to move towards the presynaptic membrane and fuse with it. This releases the neurotransmitter molecules (e.g., acetylcholine) into the synaptic cleft by exocytosis.<br><br>4. <b>Binding to Receptors:</b> The neurotransmitter molecules diffuse across the synaptic cleft and bind to specific receptor proteins on the membrane of the postsynaptic neuron.<br><br>5. <b>Generation of New Potential:</b> This binding opens ion channels on the postsynaptic membrane, causing an influx of ions (like $Na^+$). This leads to the generation of a new action potential in the postsynaptic neuron, and the impulse is thus transmitted.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the reflex arc with a neat, labelled diagram.",
+    "answer": "<br><br>A reflex arc is the neural pathway that controls a reflex action. It involves the following components:<br><br>1. <b>Receptor:</b> A sense organ or cell that detects the stimulus. For example, pain receptors in the skin.<br><br>2. <b>Sensory (Afferent) Neuron:</b> It transmits the sensory impulse from the receptor to the central nervous system (spinal cord). Its cell body is located in the dorsal root ganglion.<br><br>3. <b>Interneuron (Association Neuron):</b> Located within the grey matter of the spinal cord, it processes the incoming sensory information and generates a motor command.<br><br>4. <b>Motor (Efferent) Neuron:</b> It carries the motor impulse from the central nervous system to the effector.<br><br>5. <b>Effector:</b> The part of the body, such as a muscle or a gland, that responds to the motor command. For example, the muscle in the arm contracts to withdraw the hand.<br><br>This pathway allows for a very rapid response to a stimulus as the impulse does not have to travel all the way to the brain for processing.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the hormones secreted by the pituitary gland and their functions.",
+    "answer": "The pituitary gland is the master endocrine gland. Its anterior and posterior lobes secrete several important hormones.<br><br><b>Hormones of the Anterior Pituitary:</b><br><ul><li><b>Growth Hormone (GH):</b> Stimulates the growth of the body.</li><li><b>Thyroid-Stimulating Hormone (TSH):</b> Stimulates the thyroid gland to secrete its hormones.</li><li><b>Adrenocorticotropic Hormone (ACTH):</b> Stimulates the adrenal cortex to secrete its hormones.</li><li><b>Follicle-Stimulating Hormone (FSH):</b> Stimulates follicle development in ovaries and spermatogenesis in testes.</li><li><b>Luteinizing Hormone (LH):</b> Triggers ovulation in females and stimulates testosterone secretion in males.</li><li><b>Prolactin (PRL):</b> Stimulates milk production by the mammary glands.</li></ul><b>Hormones Released by the Posterior Pituitary:</b><br>(These are produced by the hypothalamus but stored and released by the posterior pituitary)<br><ul><li><b>Antidiuretic Hormone (ADH) / Vasopressin:</b> Promotes the reabsorption of water by the kidneys.</li><li><b>Oxytocin:</b> Stimulates uterine contractions during childbirth and milk ejection.</li></ul>",
+    "marks": 4
+  }
+]

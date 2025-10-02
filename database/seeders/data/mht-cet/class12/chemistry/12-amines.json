@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The correct order of basicity of primary, secondary, and tertiary amines in the gaseous phase is: (MHT CET 2022)",
+    "options": [
+      "(a) $1^\\circ < 2^\\circ < 3^\\circ$",
+      "(b) $3^\\circ < 2^\\circ < 1^\\circ$",
+      "(c) $2^\\circ > 3^\\circ > 1^\\circ$",
+      "(d) $3^\\circ > 2^\\circ > 1^\\circ$"
+    ],
+    "correct_answer": "d",
+    "answer": "In the gaseous phase, the basicity of amines is determined solely by the electron-donating inductive effect of the alkyl groups. More alkyl groups donate more electron density to the nitrogen atom, making the lone pair more available for protonation. Therefore, the order of basicity is **$3^\\circ > 2^\\circ > 1^\\circ$**.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Hinsberg's reagent is used to distinguish between: (MHT CET 2021)",
+    "options": [
+      "(a) Aldehydes and ketones",
+      "(b) Primary, secondary, and tertiary alcohols",
+      "(c) Primary, secondary, and tertiary amines",
+      "(d) Alkanes and alkenes"
+    ],
+    "correct_answer": "c",
+    "answer": "The **Hinsberg's test** is a chemical test used to differentiate between primary, secondary, and tertiary amines. The reagent is benzenesulfonyl chloride ($C_6H_5SO_2Cl$). A primary amine gives a solid precipitate soluble in KOH, a secondary amine gives an insoluble precipitate, and a tertiary amine gives no reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Gabriel phthalimide synthesis is used for the preparation of: (MHT CET 2020)",
+    "options": [
+      "(a) Primary aromatic amines",
+      "(b) Secondary amines",
+      "(c) Primary aliphatic amines",
+      "(d) Tertiary amines"
+    ],
+    "correct_answer": "c",
+    "answer": "The **Gabriel phthalimide synthesis** is a method for the preparation of **primary aliphatic amines**. The method involves the reaction of a primary alkyl halide with potassium phthalimide, followed by hydrolysis. It is not suitable for preparing primary aromatic amines because aryl halides do not undergo nucleophilic substitution with the phthalimide anion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conversion of an amide to a primary amine with one carbon less is known as: (MHT CET 2019)",
+    "options": [
+      "(a) Hoffmann bromamide degradation",
+      "(b) Carbylamine reaction",
+      "(c) Gabriel phthalimide synthesis",
+      "(d) Mendius reaction"
+    ],
+    "correct_answer": "a",
+    "answer": "The **Hoffmann bromamide degradation** is a reaction used to convert a primary amide into a primary amine containing one less carbon atom. The reaction involves the treatment of the amide with bromine in an aqueous or ethanolic solution of sodium hydroxide.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an alkyl isocyanide with a primary amine in the presence of a base is known as: (MHT CET 2018)",
+    "options": [
+      "(a) Wurtz reaction",
+      "(b) Carbylamine reaction",
+      "(c) Fittig reaction",
+      "(d) Hoffmann bromamide reaction"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Carbylamine reaction** (also known as the isocyanide test) is a reaction that distinguishes primary amines from secondary and tertiary amines. When a primary amine is heated with chloroform and alcoholic KOH, it forms an alkyl isocyanide, which has a very unpleasant odor. This is a characteristic test for primary amines.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The IUPAC name of aniline is: (MHT CET 2017)",
+    "options": [
+      "(a) Benzeneamine",
+      "(b) Aminobenzene",
+      "(c) Phenylamine",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "Aniline is the common name for the compound $C_6H_5NH_2$. In IUPAC nomenclature, it can be named as **Aminobenzene** or **Phenylamine**. The name **Benzeneamine** is also accepted as a systematic name, although Aminobenzene is more commonly used. Therefore, all the given options are correct.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds has the lowest boiling point? (MHT CET 2016)",
+    "options": [
+      "(a) $CH_3-CH_2-NH_2$",
+      "(b) $(CH_3)_2NH$",
+      "(c) $(CH_3)_3N$",
+      "(d) $CH_3CH_2CH_2NH_2$"
+    ],
+    "correct_answer": "c",
+    "answer": "The boiling point of amines is influenced by intermolecular forces, primarily hydrogen bonding. Primary and secondary amines can form intermolecular hydrogen bonds due to the presence of an N-H bond. Tertiary amines lack an N-H bond, so they cannot form intermolecular hydrogen bonds. Therefore, **tertiary amines have the lowest boiling points** among amines of comparable molecular mass.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an alkyl cyanide with $LiAlH_4$ followed by hydrolysis gives: (MHT CET 2015)",
+    "options": [
+      "(a) A primary amine",
+      "(b) A secondary amine",
+      "(c) A tertiary amine",
+      "(d) An amide"
+    ],
+    "correct_answer": "a",
+    "answer": "$LiAlH_4$ (Lithium aluminium hydride) is a strong reducing agent. It reduces alkyl cyanides (nitriles) to **primary amines**. The reaction is a hydrogenation reaction that adds hydrogen across the triple bond.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct order of basicity of amines in aqueous solution is: (MHT CET 2014)",
+    "options": [
+      "(a) $3^\\circ > 2^\\circ > 1^\\circ$",
+      "(b) $2^\\circ > 1^\\circ > 3^\\circ$",
+      "(c) $1^\\circ > 2^\\circ > 3^\\circ$",
+      "(d) $2^\\circ > 3^\\circ > 1^\\circ$"
+    ],
+    "correct_answer": "d",
+    "answer": "In aqueous solution, the basicity of amines is influenced by three factors: the inductive effect, the solvation effect, and the steric hindrance of the alkyl groups. The combined effect of these factors leads to the following order of basicity for ethyl and methyl substituted amines: **$2^\\circ > 3^\\circ > 1^\\circ$** for methyl and ethyl groups. This is a common exception to the gaseous-phase trend.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The final product of the reaction of an alkyl halide with potassium cyanide is: (MHT CET 2013)",
+    "options": [
+      "(a) A primary amine",
+      "(b) A nitrile",
+      "(c) An amide",
+      "(d) An isocyanide"
+    ],
+    "correct_answer": "b",
+    "answer": "The reaction of an alkyl halide with potassium cyanide (KCN) is a nucleophilic substitution reaction. The cyanide ion ($CN^-$) acts as a nucleophile and replaces the halogen atom, forming an **alkyl cyanide (nitrile)**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction of benzene diazonium chloride with phenol is: (MHT CET 2012)",
+    "options": [
+      "(a) p-hydroxyazobenzene",
+      "(b) p-chlorophenol",
+      "(c) Aniline",
+      "(d) Azobenzene"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction of a diazonium salt (benzene diazonium chloride) with a phenol is a coupling reaction. The diazonium ion acts as an electrophile and attacks the electron-rich para-position of the phenol ring. The product is an azo dye, specifically **p-hydroxyazobenzene**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following reactions does not involve the formation of a carbocation? (MHT CET 2011)",
+    "options": [
+      "(a) Friedel-Crafts reaction",
+      "(b) Halogenation of alkane",
+      "(c) Dehydration of alcohol",
+      "(d) $S_N1$ reaction"
+    ],
+    "correct_answer": "b",
+    "answer": "The halogenation of an alkane in the presence of sunlight is a **free-radical substitution reaction** and does not involve the formation of a carbocation intermediate. The other three reactions, Friedel-Crafts, dehydration of alcohol, and $S_N1$ reaction, all proceed via a carbocation intermediate.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Aniline is less basic than ethylamine because of: (MHT CET 2010)",
+    "options": [
+      "(a) Inductive effect",
+      "(b) Steric hindrance",
+      "(c) Resonance",
+      "(d) Hyperconjugation"
+    ],
+    "correct_answer": "c",
+    "answer": "Aniline is an aromatic amine, and its basicity is reduced due to **resonance**. The lone pair of electrons on the nitrogen atom is delocalized over the benzene ring, making it less available for protonation. Ethylamine, an aliphatic amine, has no such resonance, and the ethyl group's inductive effect increases its basicity. Thus, ethylamine is a stronger base than aniline.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction of methylamine with nitrous acid is: (MHT CET 2009)",
+    "options": [
+      "(a) Methyl alcohol",
+      "(b) Diazonium salt",
+      "(c) Methane",
+      "(d) Nitro methane"
+    ],
+    "correct_answer": "a",
+    "answer": "When a primary aliphatic amine (like methylamine) reacts with nitrous acid, it forms an unstable diazonium salt, which immediately decomposes to form a carbocation. This carbocation then reacts with water to form an alcohol. Therefore, the product is **methyl alcohol**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an amine with benzenesulfonyl chloride is: (MHT CET 2008)",
+    "options": [
+      "(a) Hoffmann's elimination",
+      "(b) Carbylamine reaction",
+      "(c) Hinsberg's test",
+      "(d) Mendius reaction"
+    ],
+    "correct_answer": "c",
+    "answer": "The reaction of an amine with benzenesulfonyl chloride ($C_6H_5SO_2Cl$) is the basis of the **Hinsberg's test**, which is used to differentiate primary, secondary, and tertiary amines.",
+    "marks": 1
+  }
+]

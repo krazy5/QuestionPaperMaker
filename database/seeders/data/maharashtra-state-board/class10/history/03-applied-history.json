@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The earliest museum in the world was discovered in the excavations at the city of _______.",
+    "options": [
+      "Delhi",
+      "Harappa",
+      "Ur",
+      "Kolkata"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The earliest museum (6th century B.C.E.) was discovered during excavations at 'Ur' in Mesopotamia. It was built by a Mesopotamian princess. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The National Archives of India is in _______.",
+    "options": [
+      "Delhi",
+      "Kolkata",
+      "Mumbai",
+      "Chennai"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> The National Archives of India, which preserves and stores the official records of the country, is located in New Delhi. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The application of historical knowledge to understand and solve contemporary issues is known as _______.",
+    "options": [
+      "Archaeology",
+      "Museology",
+      "Historiography",
+      "Applied History"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Applied History (also known as Public History) is a field that uses historical knowledge and methods to address contemporary problems and to make history accessible and useful to the public. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The famous Louvre Museum is located in _______.",
+    "options": [
+      "London",
+      "Paris",
+      "New York",
+      "Rome"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Louvre Museum, one of the world's largest and most famous art museums, was established in the 18th century C.E. and is located in Paris, France. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Indian Museum, the first museum in India, was founded by the Asiatic Society in _______.",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Indian Museum at Kolkata was founded by the Asiatic Society in 1814 C.E. It holds the distinction of being the first museum established in India. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "_______ is a UNESCO World Natural Heritage site in India.",
+    "options": [
+      "Taj Mahal",
+      "Ajanta Caves",
+      "Western Ghats",
+      "Red Fort"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Taj Mahal, Ajanta Caves, and Red Fort are World Cultural Heritage sites. The Western Ghats are listed as a World Natural Heritage site for their exceptional biodiversity. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The field of making history accessible to the public, outside of academia, is also known as _______.",
+    "options": [
+      "Public History",
+      "Private History",
+      "Oral History",
+      "Academic History"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Public History is another term for Applied History. It involves applying historical methods and knowledge for the benefit of the general public, for example, through museums, archives, and heritage conservation. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main office of the National Film Archives of India is located in _______.",
+    "options": [
+      "Mumbai",
+      "Delhi",
+      "Pune",
+      "Kolkata"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The National Film Archives of India, which works to preserve the country's cinematic heritage, was established in 1964 and has its main office in Pune, Maharashtra. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is Applied History?",
+    "answer": "Applied History, also known as Public History, is a field of study concerned with the application of history for the benefit of people in contemporary and future times. It explores how historical knowledge can help in understanding and solving present-day issues and in planning for a better future.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are Archives?",
+    "answer": "An archive is a place where historical documents, records, and other source materials of the past are preserved and stored in their original sequence. Archives provide authentic and reliable information for historical research.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the role of UNESCO in the context of heritage?",
+    "answer": "UNESCO (United Nations Educational, Scientific and Cultural Organization) is a global organization that works to promote world peace and security. One of its key roles is to identify and help preserve cultural and natural heritage sites around the world that are considered to be of outstanding value to humanity. It declares a list of World Heritage Sites.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one: (PYQ: March 2019)<br>1. Kootiyattam - Sanskrit theatre, Kerala<br>2. Ramman - Dance form in West Bengal<br>3. Ramlila - Traditional performance of the Ramayana in Uttar Pradesh<br>4. Kalbelia - Folk songs and dances of Rajasthan",
+    "answer": "<b>Wrong Pair:</b> Ramman - Dance form in West Bengal<br><b>Corrected Pair:</b> Ramman - Religious festival and ritual theatre of the Garhwal Himalayas.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Tangible Heritage, Intangible Heritage, Natural Heritage, Written Heritage.",
+    "answer": "<b>Written Heritage.</b><br><b>Reason:</b> Tangible, Intangible, and Natural Heritage are the main categories of heritage. 'Written Heritage' is a type of source, not a category of heritage itself.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Indian Museum : Kolkata :: National Museum : _______.",
+    "answer": "<b>Delhi.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Tangible Heritage : Ancient Sites :: Intangible Heritage : _______.",
+    "answer": "<b>Oral traditions / Traditional knowledge.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is meant by Cultural Heritage?",
+    "answer": "Cultural heritage is the legacy of human creativity from the past, passed down to the present and future generations. It is in the form of tangible and intangible assets. It is an expression of our way of living, developed by a community and passed on from generation to generation.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the two main types of cultural heritage? Give two examples of each.",
+    "answer": "The two main types are:<br>1. <b>Tangible Cultural Heritage:</b> This includes ancient sites, buildings, artifacts, manuscripts, sculptures, and paintings. Examples: Ajanta Caves, Taj Mahal.<br>2. <b>Intangible Cultural Heritage:</b> This includes oral traditions, traditional knowledge, social customs, festivals, and styles of performing arts. Examples: Ramlila, Kootiyattam.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is the knowledge of history helpful in the field of science?",
+    "answer": "The knowledge of history is helpful in science as it helps us to understand the chronology of scientific discoveries, inventions, and theories. It also helps us to understand the chain of cause and effect that led to these discoveries, which can inspire and guide future scientific research.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain how the method of history can be useful in research of: <br>a. Science<br>b. Arts<br>c. Management Studies",
+    "answer": "The method of history is useful across various fields:<br><b>a. Science:</b> Historical knowledge helps in understanding the chronological order of scientific discoveries and the reasons behind them. This can provide direction for future research and help avoid repeating past mistakes.<br><b>b. Arts:</b> To understand the development of any art form, it is essential to study its history, the style of the artist, and the cultural traditions that influenced it. This historical knowledge is crucial for art historians and critics.<br><b>c. Management Studies:</b> Understanding the history of management strategies, production processes, market research, and industrial relations is essential for effective management. A historical perspective helps in understanding organizational structures and adapting them to present needs.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of 'Public History'.",
+    "answer": "Public History, also known as Applied History, is a field that aims to make history relevant and accessible to the general public.<br>1. <b>Connecting with People:</b> It tries to bridge the gap between academic historians and the common people, removing misconceptions people may have about history.<br>2. <b>Practical Application:</b> It involves applying historical knowledge to real-world issues. For instance, historical understanding is vital for planning the preservation of heritage sites without hurting public sentiments.<br>3. <b>Creating Opportunities:</b> It creates opportunities for people to connect with history through mediums like museums, archives, heritage walks, and historical tourism. This knowledge can be important in planning for a better future.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What objectives can be fulfilled through the heritage projects?",
+    "answer": "Heritage projects, which involve the conservation and preservation of heritage sites, can fulfill several objectives:<br>1. <b>Preservation for Future:</b> The primary objective is to preserve our cultural and natural heritage in its original form for the benefit of future generations.<br>2. <b>Promoting Tourism:</b> Well-maintained heritage sites attract tourists, which helps to create professional opportunities for local people and boosts the economy.<br>3. <b>Awareness and Education:</b> These projects help in creating social awareness regarding the conservation of our heritage and provide valuable educational insights into our past.<br>4. <b>Documentation:</b> Systematic documentation of heritage sites is done, which serves as a valuable resource for researchers and historians.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the professional opportunities available in the field of Applied History?",
+    "answer": "Applied History opens up various professional opportunities related to the preservation and management of heritage.<br>1. <b>Museums and Archives:</b> Professionals are needed as curators, archivists, and conservators to manage museum collections and historical documents.<br>2. <b>Tourism and Hospitality:</b> Knowledge of history is essential for tour guides and in the hospitality industry linked to heritage tourism.<br>3. <b>Archaeology:</b> Archaeologists are required for the excavation and analysis of ancient sites.<br>4. <b>Media and Entertainment:</b> Historians are consulted for films, television serials, and books based on historical themes to ensure historical accuracy.<br>5. <b>Conservation:</b> Experts are needed for the conservation and preservation of historical sites and artifacts.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the difference between Tangible and Intangible Cultural Heritage with examples.",
+    "answer": "Cultural heritage is broadly divided into two categories: Tangible and Intangible.<br><br><b>Tangible Cultural Heritage:</b><br>This refers to the physical or material artifacts and creations that have been passed down through generations. These are things that we can see and touch.<br><ul><li><b>Examples:</b></li><li><b>Ancient Sites:</b> Archaeological sites, ruins of old cities.</li><li><b>Buildings and Monuments:</b> Forts, palaces, temples (e.g., Taj Mahal, Chhatrapati Shivaji Maharaj Terminus).</li><li><b>Artifacts:</b> Tools, pottery, coins, manuscripts found in excavations.</li><li><b>Art:</b> Sculptures, paintings (e.g., Ajanta paintings).</li></ul><br><b>Intangible Cultural Heritage:</b><br>This refers to the non-physical traditions, practices, knowledge, and skills that are part of a community's culture. These are expressed through human actions and knowledge.<br><ul><li><b>Examples:</b></li><li><b>Oral Traditions:</b> Folk tales, songs, and languages.</li><li><b>Performing Arts:</b> Traditional forms of music, dance, and theatre (e.g., Kootiyattam, Kalbelia).</li><li><b>Social Practices and Festivals:</b> Rituals and festive events (e.g., Ramlila, Ramman).</li><li><b>Traditional Craftsmanship:</b> Skills and knowledge involved in making traditional crafts.</li></ul>",
+    "marks": 4
+  }
+]
+

@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The energy gap of an intrinsic semiconductor at room temperature is approximately: (MHT CET 2022)",
+    "options": [
+      "(a) 0.1 eV",
+      "(b) 0.7 eV",
+      "(c) 1.1 eV",
+      "(d) 2.0 eV"
+    ],
+    "correct_answer": "c",
+    "answer": "The energy gap ($E_g$) is the minimum energy required to excite an electron from the valence band to the conduction band. The energy gap for silicon (Si) is approximately 1.1 eV, and for germanium (Ge) is about 0.7 eV. Since silicon is the most commonly used semiconductor, 1.1 eV is a good approximation for a typical semiconductor at room temperature.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The majority charge carriers in a p-type semiconductor are: (MHT CET 2021)",
+    "options": [
+      "(a) Electrons",
+      "(b) Holes",
+      "(c) Protons",
+      "(d) Neutrons"
+    ],
+    "correct_answer": "b",
+    "answer": "A **p-type semiconductor** is created by doping a pure semiconductor with a trivalent impurity (e.g., boron, aluminum). This creates a deficiency of one electron, which results in a **hole** in the crystal lattice. These holes are the majority charge carriers, while the minority charge carriers are electrons.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When a p-n junction is reverse biased, the width of the depletion layer: (MHT CET 2020)",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains the same",
+      "(d) becomes zero"
+    ],
+    "correct_answer": "a",
+    "answer": "In **reverse bias**, the positive terminal of the battery is connected to the n-type side and the negative terminal to the p-type side. This external voltage adds to the built-in potential barrier of the p-n junction. The increased potential barrier pushes the majority charge carriers (holes in p-type, electrons in n-type) away from the junction, causing the depletion layer to widen and the resistance of the junction to increase.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conductivity of a semiconductor increases with an increase in temperature because: (MHT CET 2019)",
+    "options": [
+      "(a) the number of charge carriers decreases",
+      "(b) the number of charge carriers increases",
+      "(c) the mobility of charge carriers decreases",
+      "(d) the mobility of charge carriers increases"
+    ],
+    "correct_answer": "b",
+    "answer": "In semiconductors, the number of thermally generated electron-hole pairs increases with an increase in temperature. This leads to a greater number of available charge carriers to conduct electricity. While the mobility of charge carriers may slightly decrease due to increased lattice vibrations, the dominant effect is the exponential increase in the number of charge carriers, which significantly increases the overall conductivity.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a forward-biased p-n junction, the potential barrier: (MHT CET 2018)",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains the same",
+      "(d) becomes zero"
+    ],
+    "correct_answer": "b",
+    "answer": "In **forward bias**, the positive terminal of the battery is connected to the p-type side and the negative terminal to the n-type side. This external voltage opposes the built-in potential barrier of the p-n junction. The net potential barrier across the junction decreases, allowing the majority charge carriers to diffuse across the junction and causing a current to flow.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reverse saturation current in a p-n junction diode is due to: (MHT CET 2017)",
+    "options": [
+      "(a) majority charge carriers",
+      "(b) minority charge carriers",
+      "(c) recombination of carriers",
+      "(d) diffusion of holes"
+    ],
+    "correct_answer": "b",
+    "answer": "In a reverse-biased p-n junction, the applied voltage pushes the majority carriers away from the junction, stopping the majority carrier current. However, a small current still flows. This is the **reverse saturation current**, which is caused by the drift of **minority charge carriers** (electrons from p-side and holes from n-side) across the junction due to the electric field.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an intrinsic semiconductor? (MHT CET 2016)",
+    "options": [
+      "(a) Silicon with Boron",
+      "(b) Germanium with Arsenic",
+      "(c) Pure Germanium",
+      "(d) Silicon with Phosphorus"
+    ],
+    "correct_answer": "c",
+    "answer": "An **intrinsic semiconductor** is a pure semiconductor without any doping. Silicon and Germanium in their pure form are intrinsic semiconductors. The other options are examples of doped (extrinsic) semiconductors.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The forbidden energy gap is largest in: (MHT CET 2015)",
+    "options": [
+      "(a) Metals",
+      "(b) Semiconductors",
+      "(c) Insulators",
+      "(d) Superconductors"
+    ],
+    "correct_answer": "c",
+    "answer": "The **forbidden energy gap** ($E_g$) is the energy difference between the valence band and the conduction band. In **insulators**, this gap is very large ($> 3$ eV), making it difficult for electrons to move from the valence band to the conduction band. In semiconductors, the gap is small ($< 3$ eV), and in metals, there is no gap; the bands overlap.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The resistance of a semiconductor changes with temperature as: (MHT CET 2014)",
+    "options": [
+      "(a) increases with temperature",
+      "(b) decreases with temperature",
+      "(c) remains constant with temperature",
+      "(d) may increase or decrease"
+    ],
+    "correct_answer": "b",
+    "answer": "As the temperature of a semiconductor increases, the number of charge carriers (electrons and holes) increases significantly. This increased availability of charge carriers leads to a decrease in the overall resistance of the material. Therefore, semiconductors have a negative temperature coefficient of resistance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The depletion region in a p-n junction is formed due to: (MHT CET 2013)",
+    "options": [
+      "(a) diffusion of majority carriers",
+      "(b) drift of minority carriers",
+      "(c) recombination of carriers",
+      "(d) movement of ions"
+    ],
+    "correct_answer": "a",
+    "answer": "The depletion region is formed at the junction of p-type and n-type semiconductors. When the junction is formed, the majority charge carriers (electrons from the n-side and holes from the p-side) diffuse across the junction due to the concentration gradient. This diffusion leaves behind fixed, immobile ions (positive on the n-side and negative on the p-side), creating a region devoid of mobile charge carriers. This process is called **diffusion of majority carriers**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a pentavalent impurity? (MHT CET 2012)",
+    "options": [
+      "(a) Boron",
+      "(b) Indium",
+      "(c) Arsenic",
+      "(d) Aluminum"
+    ],
+    "correct_answer": "c",
+    "answer": "A **pentavalent impurity** has five valence electrons. When a pure semiconductor (like Si or Ge) is doped with a pentavalent impurity, it results in an n-type semiconductor. Examples of pentavalent impurities are Phosphorus (P), Arsenic (As), and Antimony (Sb). Trivalent impurities have three valence electrons and create p-type semiconductors. Examples are Boron (B), Indium (In), and Aluminum (Al).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy gap of an intrinsic semiconductor: (MHT CET 2011)",
+    "options": [
+      "(a) Increases with temperature",
+      "(b) Decreases with temperature",
+      "(c) Remains constant with temperature",
+      "(d) Varies linearly with temperature"
+    ],
+    "correct_answer": "b",
+    "answer": "The energy gap of a semiconductor slightly **decreases** as the temperature increases. This is due to the increase in lattice vibrations, which weakens the interatomic bonds and reduces the energy required to break them.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of adding impurities to a pure semiconductor is called: (MHT CET 2010)",
+    "options": [
+      "(a) Doping",
+      "(b) Mixing",
+      "(c) Alloying",
+      "(d) Impregnation"
+    ],
+    "correct_answer": "a",
+    "answer": "**Doping** is the process of intentionally introducing impurities into an intrinsic semiconductor to change its electrical properties. Doping with a pentavalent impurity creates an n-type semiconductor, and doping with a trivalent impurity creates a p-type semiconductor.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The majority charge carriers in an n-type semiconductor are: (MHT CET 2009)",
+    "options": [
+      "(a) Holes",
+      "(b) Electrons",
+      "(c) Protons",
+      "(d) Neutrons"
+    ],
+    "correct_answer": "b",
+    "answer": "An **n-type semiconductor** is formed by doping a pure semiconductor with a pentavalent impurity (e.g., phosphorus). The extra electron from the impurity atom is loosely bound and can easily move, becoming a free electron. These free **electrons** are the majority charge carriers, and holes are the minority charge carriers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The potential barrier in a p-n junction is due to: (MHT CET 2008)",
+    "options": [
+      "(a) Holes in p-region",
+      "(b) Electrons in n-region",
+      "(c) Depletion of charges",
+      "(d) Immobile ions"
+    ],
+    "correct_answer": "d",
+    "answer": "The potential barrier is created by the electric field in the depletion region. This region is formed when electrons from the n-side diffuse into the p-side and holes from the p-side diffuse into the n-side. This diffusion leaves behind fixed, **immobile positive ions** on the n-side and **immobile negative ions** on the p-side, which creates the potential barrier.",
+    "marks": 1
+  }
+]

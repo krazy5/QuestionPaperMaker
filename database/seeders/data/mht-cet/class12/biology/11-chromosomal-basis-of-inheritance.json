@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Who proposed the chromosomal theory of inheritance?",
+    "options": [
+      "(a) T. H. Morgan",
+      "(b) Walter Sutton and Theodor Boveri",
+      "(c) Gregor Mendel",
+      "(d) Hugo de Vries"
+    ],
+    "correct_answer": "b",
+    "answer": "The chromosomal theory of inheritance, which states that genes are located on chromosomes, was proposed independently by **Walter Sutton and Theodor Boveri** in 1902.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of linked genes being inherited together is called:",
+    "options": [
+      "(a) Crossing over",
+      "(b) Linkage",
+      "(c) Recombination",
+      "(d) Segregation"
+    ],
+    "correct_answer": "b",
+    "answer": "**Linkage** is the tendency of genes located close to each other on the same chromosome to be inherited together during meiosis. The strength of the linkage is inversely proportional to the distance between the genes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The exchange of genetic material between homologous chromosomes is called:",
+    "options": [
+      "(a) Crossing over",
+      "(b) Linkage",
+      "(c) Segregation",
+      "(d) Independent assortment"
+    ],
+    "correct_answer": "a",
+    "answer": "**Crossing over** is a crucial event that occurs during prophase I of meiosis. It involves the exchange of segments of non-sister chromatids of homologous chromosomes, leading to genetic recombination.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In Drosophila, the 'X' body was first observed by:",
+    "options": [
+      "(a) T. H. Morgan",
+      "(b) Boveri",
+      "(c) Henking",
+      "(d) Sutton"
+    ],
+    "correct_answer": "c",
+    "answer": "In 1891, **Henking** studied spermatogenesis in insects and observed a peculiar nuclear structure that he called the 'X' body. He was unsure of its function, but it was later identified as a sex chromosome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The mechanism of sex determination in birds is:",
+    "options": [
+      "(a) XY-XX type",
+      "(b) ZW-ZZ type",
+      "(c) XO-XX type",
+      "(d) Haplodiploidy"
+    ],
+    "correct_answer": "b",
+    "answer": "In birds, the sex of the offspring is determined by the female. Females have two different sex chromosomes, designated ZW, while males have two identical sex chromosomes, ZZ. This is the **ZW-ZZ type** of sex determination.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a sex-linked disease?",
+    "options": [
+      "(a) Haemophilia",
+      "(b) Sickle cell anemia",
+      "(c) Phenylketonuria",
+      "(d) Thalassemia"
+    ],
+    "correct_answer": "a",
+    "answer": "**Haemophilia** is a sex-linked recessive disorder. The gene for this disease is located on the X chromosome, and it is more common in males because they have only one X chromosome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of an allele at one locus masking the effect of an allele at a different locus is called:",
+    "options": [
+      "(a) Codominance",
+      "(b) Incomplete dominance",
+      "(c) Epistasis",
+      "(d) Pleiotropy"
+    ],
+    "correct_answer": "c",
+    "answer": "**Epistasis** is a gene interaction in which an allele at one gene locus modifies or masks the expression of an allele at another gene locus. This often results in a modified phenotypic ratio.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A cross between a red-flowered plant ($RR$) and a white-flowered plant ($rr$) produces all pink-flowered ($Rr$) offspring. This is an example of:",
+    "options": [
+      "(a) Complete dominance",
+      "(b) Codominance",
+      "(c) Incomplete dominance",
+      "(d) Multiple alleles"
+    ],
+    "correct_answer": "c",
+    "answer": "**Incomplete dominance** is a form of intermediate inheritance in which one allele for a specific trait is not completely expressed over its paired allele. This results in a third phenotype that is a blending of the parental phenotypes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The inheritance of the ABO blood group in humans is an example of:",
+    "options": [
+      "(a) Incomplete dominance",
+      "(b) Codominance",
+      "(c) Multiple allelism",
+      "(d) Both (b) and (c)"
+    ],
+    "correct_answer": "d",
+    "answer": "The ABO blood group system is an excellent example of **multiple allelism** and **codominance**. There are three alleles ($I^A, I^B, i$), making it a case of multiple allelism. Also, alleles $I^A$ and $I^B$ are codominant, meaning that if both are present, both phenotypes are expressed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a dihybrid cross, the phenotypic ratio in the $F_2$ generation is $9:3:3:1$. This ratio is based on the principle of:",
+    "options": [
+      "(a) Segregation",
+      "(b) Dominance",
+      "(c) Incomplete dominance",
+      "(d) Independent assortment"
+    ],
+    "correct_answer": "d",
+    "answer": "The **Law of Independent Assortment** states that during the formation of gametes, the segregation of one pair of alleles is independent of the segregation of another pair of alleles. This principle leads to the $9:3:3:1$ phenotypic ratio in a dihybrid cross.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The failure of homologous chromosomes to separate during meiosis is called:",
+    "options": [
+      "(a) Deletion",
+      "(b) Duplication",
+      "(c) Non-disjunction",
+      "(d) Translocation"
+    ],
+    "correct_answer": "c",
+    "answer": "**Non-disjunction** is the failure of homologous chromosomes or sister chromatids to separate properly during cell division. This leads to gametes with an abnormal number of chromosomes, resulting in conditions like Down syndrome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The genotypic ratio of a monohybrid cross in the $F_2$ generation is:",
+    "options": [
+      "(a) $3:1$",
+      "(b) $1:2:1$",
+      "(c) $9:3:3:1$",
+      "(d) $1:1$"
+    ],
+    "correct_answer": "b",
+    "answer": "In a monohybrid cross, the $F_2$ generation will have a genotypic ratio of **$1:2:1$** (1 homozygous dominant : 2 heterozygous : 1 homozygous recessive).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A test cross is a cross between an individual with an unknown genotype and:",
+    "options": [
+      "(a) A homozygous dominant individual",
+      "(b) A heterozygous individual",
+      "(c) A homozygous recessive individual",
+      "(d) The $F_1$ hybrid"
+    ],
+    "correct_answer": "c",
+    "answer": "A **test cross** is a cross between an individual with a dominant phenotype but an unknown genotype and a homozygous recessive individual. It is used to determine the unknown genotype.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'gene' was coined by:",
+    "options": [
+      "(a) T. H. Morgan",
+      "(b) Gregor Mendel",
+      "(c) Wilhelm Johannsen",
+      "(d) Walter Sutton"
+    ],
+    "correct_answer": "c",
+    "answer": "The Danish botanist **Wilhelm Johannsen** coined the term 'gene' in 1909 to describe the fundamental physical and functional unit of heredity.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of linkage groups in a human female is:",
+    "options": [
+      "(a) 22",
+      "(b) 23",
+      "(c) 44",
+      "(d) 46"
+    ],
+    "correct_answer": "b",
+    "answer": "A linkage group is a group of genes that are linked together on a chromosome. Humans have 23 pairs of chromosomes. A human female has 22 pairs of autosomes and one pair of X chromosomes, giving a total of **23 linkage groups**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of a single gene affecting multiple phenotypic traits is called:",
+    "options": [
+      "(a) Pleiotropy",
+      "(b) Epistasis",
+      "(c) Polygenic inheritance",
+      "(d) Codominance"
+    ],
+    "correct_answer": "a",
+    "answer": "**Pleiotropy** is when a single gene controls more than one phenotype. For example, the gene that causes sickle cell anemia can also affect other traits, such as resistance to malaria.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The inheritance of skin color in humans is an example of:",
+    "options": [
+      "(a) Codominance",
+      "(b) Incomplete dominance",
+      "(c) Polygenic inheritance",
+      "(d) Multiple alleles"
+    ],
+    "correct_answer": "c",
+    "answer": "Skin color is a classic example of **polygenic inheritance**, where multiple genes contribute to a single phenotypic trait. The inheritance pattern involves a continuous range of phenotypes rather than discrete categories.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The distance between two genes on a chromosome is measured in:",
+    "options": [
+      "(a) Nanometers",
+      "(b) Map units or centiMorgans",
+      "(c) Angstroms",
+      "(d) Millimeters"
+    ],
+    "correct_answer": "b",
+    "answer": "The distance between linked genes on a chromosome is measured in **map units (m.u.)** or centiMorgans (cM). One map unit is equivalent to a 1% recombination frequency between two genes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory that genes are arranged in a linear fashion on chromosomes was proposed by:",
+    "options": [
+      "(a) T. H. Morgan",
+      "(b) Gregor Mendel",
+      "(c) Sutton and Boveri",
+      "(d) Alfred Sturtevant"
+    ],
+    "correct_answer": "a",
+    "answer": "**T. H. Morgan** provided experimental evidence for the linear arrangement of genes on chromosomes through his work on *Drosophila melanogaster* (fruit flies).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The $F_1$ progeny of a cross between a pure-breeding tall plant and a pure-breeding dwarf plant will be:",
+    "options": [
+      "(a) All tall",
+      "(b) All dwarf",
+      "(c) Half tall and half dwarf",
+      "(d) A mix of tall, medium, and dwarf"
+    ],
+    "correct_answer": "a",
+    "answer": "According to the Law of Dominance, when a pure-breeding tall plant ($TT$) is crossed with a pure-breeding dwarf plant ($tt$), the $F_1$ progeny will all be heterozygous ($Tt$) and express the dominant trait, which is tall.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the $F_2$ generation of a monohybrid cross, the phenotypic ratio of dominant to recessive traits is:",
+    "options": [
+      "(a) $1:2:1$",
+      "(b) $3:1$",
+      "(c) $9:3:3:1$",
+      "(d) $1:1$"
+    ],
+    "correct_answer": "b",
+    "answer": "The phenotypic ratio of a monohybrid cross in the $F_2$ generation is **$3:1$**, with three-quarters of the offspring showing the dominant trait and one-quarter showing the recessive trait.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A woman with blood group A marries a man with blood group B. Their child has blood group O. This is possible if the parents have genotypes:",
+    "options": [
+      "(a) $I^AI^A$ and $I^BI^B$",
+      "(b) $I^AI^A$ and $I^Bi$",
+      "(c) $I^Ai$ and $I^Bi$",
+      "(d) $I^Ai$ and $I^BI^B$"
+    ],
+    "correct_answer": "c",
+    "answer": "For a child to have blood group O ($ii$), they must inherit an $i$ allele from each parent. This is only possible if both parents are heterozygous, so the mother's genotype is $I^Ai$ and the father's is $I^Bi$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The genetic condition in which a person has a karyotype of $44 + XXY$ is:",
+    "options": [
+      "(a) Turner's syndrome",
+      "(b) Down syndrome",
+      "(c) Klinefelter's syndrome",
+      "(d) Patau syndrome"
+    ],
+    "correct_answer": "c",
+    "answer": "**Klinefelter's syndrome** is a genetic condition caused by the presence of an extra X chromosome in males. Individuals with this condition have a karyotype of $44 + XXY$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'linkage group' refers to all the genes on a single:",
+    "options": [
+      "(a) Gene",
+      "(b) Allele",
+      "(c) Chromosome",
+      "(d) Nucleotide"
+    ],
+    "correct_answer": "c",
+    "answer": "A **linkage group** is a set of genes that are inherited together because they are all located on the same chromosome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of genetic recombination is primarily due to:",
+    "options": [
+      "(a) Crossing over",
+      "(b) Mutation",
+      "(c) Independent assortment",
+      "(d) Segregation"
+    ],
+    "correct_answer": "a",
+    "answer": "Genetic recombination is the shuffling of alleles between homologous chromosomes, and the main mechanism for this is **crossing over** during meiosis. Independent assortment also contributes to genetic variation, but crossing over directly creates new combinations of alleles on a single chromosome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A dihybrid cross involves the study of the inheritance of:",
+    "options": [
+      "(a) One pair of contrasting traits",
+      "(b) Two pairs of contrasting traits",
+      "(c) Three pairs of contrasting traits",
+      "(d) Multiple genes"
+    ],
+    "correct_answer": "b",
+    "answer": "A **dihybrid cross** is a cross between two individuals that are heterozygous for two different traits. It is used to study the inheritance of two pairs of contrasting traits simultaneously.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A gene located on the Y chromosome is called a:",
+    "options": [
+      "(a) Sex-linked gene",
+      "(b) X-linked gene",
+      "(c) Holandric gene",
+      "(d) Autosomal gene"
+    ],
+    "correct_answer": "c",
+    "answer": "A **holandric gene** is a gene located on the Y chromosome. It is inherited exclusively by males, as they are the only ones who possess a Y chromosome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The genotype of a human male is:",
+    "options": [
+      "(a) 44 + XX",
+      "(b) 44 + XY",
+      "(c) 46 + XY",
+      "(d) 46 + XX"
+    ],
+    "correct_answer": "b",
+    "answer": "The human karyotype consists of 22 pairs of autosomes and one pair of sex chromosomes. A human male has **44 autosomes and one XY pair** of sex chromosomes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where a single chromosome is missing from a diploid set is:",
+    "options": [
+      "(a) Trisomy",
+      "(b) Monosomy",
+      "(c) Polyploidy",
+      "(d) Euploidy"
+    ],
+    "correct_answer": "b",
+    "answer": "**Monosomy** is a type of aneuploidy where a single chromosome is missing from a pair, resulting in a chromosomal count of $2n-1$. A common example is Turner's syndrome, where a female has only one X chromosome.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The concept of 'gene mapping' was first introduced by:",
+    "options": [
+      "(a) T. H. Morgan",
+      "(b) Alfred Sturtevant",
+      "(c) Gregor Mendel",
+      "(d) Walter Sutton"
+    ],
+    "correct_answer": "b",
+    "answer": "**Alfred Sturtevant**, a student of T. H. Morgan, developed the concept of gene mapping by using recombination frequency data from his experiments on *Drosophila* to determine the relative positions of genes on a chromosome.",
+    "marks": 1
+  }
+]

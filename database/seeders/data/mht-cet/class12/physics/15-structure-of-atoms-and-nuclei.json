@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The radius of the n-th orbit in a hydrogen atom is proportional to: (MHT CET 2025)",
+    "options": [
+      "(a) $n$",
+      "(b) $1/n$",
+      "(c) $n^2$",
+      "(d) $1/n^2$"
+    ],
+    "correct_answer": "c",
+    "answer": "According to Bohr's model of the atom, the radius of the n-th orbit ($r_n$) of an electron in a hydrogen atom is given by the formula:<br>$r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$<br>For a hydrogen atom, the atomic number Z=1. Since h, $\\epsilon_0$, $\\pi$, m, and e are constants, we can see that the radius is directly proportional to the square of the principal quantum number (n).<br>$r_n \\propto n^2$<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy of an electron in the n-th orbit of a hydrogen atom is proportional to: (MHT CET 2024)",
+    "options": [
+      "(a) $n^2$",
+      "(b) $1/n^2$",
+      "(c) $n$",
+      "(d) $1/n$"
+    ],
+    "correct_answer": "b",
+    "answer": "The energy of an electron in the n-th orbit ($E_n$) of a hydrogen atom is given by the formula:<br>$E_n = -\\frac{m Z^2 e^4}{8 \\epsilon_0^2 h^2 n^2}$<br>For a hydrogen atom, Z=1. Since m, e, $\\epsilon_0$, and h are constants, the energy is inversely proportional to the square of the principal quantum number (n).<br>$E_n \\propto 1/n^2$<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The half-life of a radioactive substance is 10 years. What percentage of the substance will remain after 40 years? (MHT CET 2023)",
+    "options": [
+      "(a) 25%",
+      "(b) 12.5%",
+      "(c) 6.25%",
+      "(d) 3.125%"
+    ],
+    "correct_answer": "c",
+    "answer": "The number of half-lives that have passed (N) is given by:<br>$N = \\frac{\\text{Total time}}{\\text{Half-life}} = \\frac{40 \\text{ years}}{10 \\text{ years}} = 4$<br>The fraction of the substance remaining ($f$) after N half-lives is given by the formula:<br>$f = \\left(\\frac{1}{2}\\right)^N$<br>For N=4, the fraction remaining is $f = (1/2)^4 = 1/16$.<br>To find the percentage, we multiply by 100:<br>Percentage remaining = $\\frac{1}{16} \\times 100\\% = 6.25\\%$.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a nuclear reactor, the moderator is used to: (MHT CET 2022)",
+    "options": [
+      "(a) absorb neutrons",
+      "(b) slow down neutrons",
+      "(c) accelerate neutrons",
+      "(d) absorb heat"
+    ],
+    "correct_answer": "b",
+    "answer": "A moderator in a nuclear reactor is a material used to <b>slow down fast-moving neutrons</b>. Fission is more likely to be induced by slow (thermal) neutrons than by fast neutrons. Common moderators are heavy water ($D_2O$) and graphite.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The binding energy per nucleon is maximum for: (MHT CET 2021)",
+    "options": [
+      "(a) helium",
+      "(b) carbon",
+      "(c) iron",
+      "(d) uranium"
+    ],
+    "correct_answer": "c",
+    "answer": "The binding energy per nucleon is a measure of the stability of a nucleus. The binding energy per nucleon is maximum for the element <b>iron-56 ($^{56}Fe$)</b>, which makes it one of the most stable nuclei. Nuclei with a mass number around 56 have the highest binding energy per nucleon.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ratio of the radii of two nuclei with mass numbers 8 and 27 is: (MHT CET 2020)",
+    "options": [
+      "(a) 2:3",
+      "(b) 3:2",
+      "(c) 4:9",
+      "(d) 9:4"
+    ],
+    "correct_answer": "a",
+    "answer": "The radius of a nucleus (R) is related to its mass number (A) by the empirical formula:<br>$R = R_0 A^{1/3}$<br>The ratio of the radii of two nuclei, $R_1$ and $R_2$, is:<br>$\\frac{R_1}{R_2} = \\frac{R_0 A_1^{1/3}}{R_0 A_2^{1/3}} = \\left(\\frac{A_1}{A_2}\\right)^{1/3}$<br>Given: $A_1 = 8$ and $A_2 = 27$.<br>$\\frac{R_1}{R_2} = \\left(\\frac{8}{27}\\right)^{1/3} = \\frac{2}{3}$<br>So the ratio is 2:3.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following radiations has the highest penetrating power? (MHT CET 2019)",
+    "options": [
+      "(a) alpha particles",
+      "(b) beta particles",
+      "(c) gamma rays",
+      "(d) X-rays"
+    ],
+    "correct_answer": "c",
+    "answer": "Gamma rays are high-energy photons with no mass or charge. They interact very weakly with matter and can penetrate through thick materials. Alpha particles are the least penetrating, stopped by a sheet of paper. Beta particles can penetrate paper but are stopped by a thin sheet of aluminum. Gamma rays require thick lead or concrete to be stopped.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The de Broglie wavelength of an electron in the first Bohr orbit of a hydrogen atom is: (MHT CET 2018)",
+    "options": [
+      "(a) equal to the circumference of the orbit",
+      "(b) twice the circumference of the orbit",
+      "(c) half the circumference of the orbit",
+      "(d) four times the circumference of the orbit"
+    ],
+    "correct_answer": "a",
+    "answer": "According to Bohr's quantization condition, the angular momentum of an electron in a stable orbit is an integral multiple of $h/(2\\pi)$.<br>$mvr_n = \\frac{nh}{2\\pi}$<br>The de Broglie wavelength is $\\lambda = h/mv$. Rearranging the Bohr's condition, we get:<br>$2\\pi r_n = n \\frac{h}{mv} = n\\lambda$<br>For the first orbit, $n=1$, so $2\\pi r_1 = \\lambda$. This means the de Broglie wavelength is equal to the circumference of the orbit.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The mass defect of a nucleus is equal to the: (MHT CET 2017)",
+    "options": [
+      "(a) mass of its protons",
+      "(b) mass of its neutrons",
+      "(c) total mass of its nucleons",
+      "(d) difference between the sum of the masses of its nucleons and its actual mass"
+    ],
+    "correct_answer": "d",
+    "answer": "The <b>mass defect</b> ($\\Delta m$) of a nucleus is the difference between the total mass of its individual nucleons (protons and neutrons) when they are separate, and the actual mass of the nucleus. This mass difference is converted into binding energy according to Einstein's mass-energy equivalence, $E = \\Delta m c^2$.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Rutherford scattering experiment led to the discovery of: (MHT CET 2016)",
+    "options": [
+      "(a) electrons",
+      "(b) protons",
+      "(c) the atomic nucleus",
+      "(d) neutrons"
+    ],
+    "correct_answer": "c",
+    "answer": "Rutherford's gold foil experiment, where alpha particles were fired at a thin sheet of gold foil, showed that a very small percentage of the particles were deflected at large angles. This led to the conclusion that the atom's mass and positive charge are concentrated in a small, dense core called the <b>atomic nucleus</b>.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A chain reaction is sustained in a nuclear reactor by: (MHT CET 2015)",
+    "options": [
+      "(a) controlling the number of fissionable nuclei",
+      "(b) controlling the speed of neutrons",
+      "(c) using heavy water as a moderator",
+      "(d) using control rods"
+    ],
+    "correct_answer": "d",
+    "answer": "A nuclear chain reaction is a self-sustaining series of nuclear fissions. To control this reaction and prevent it from becoming a runaway reaction, **control rods** (usually made of a neutron-absorbing material like cadmium or boron) are used to absorb excess neutrons.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The average binding energy per nucleon is a measure of: (MHT CET 2014)",
+    "options": [
+      "(a) nuclear stability",
+      "(b) nuclear fission",
+      "(c) nuclear fusion",
+      "(d) radioactivity"
+    ],
+    "correct_answer": "a",
+    "answer": "The binding energy is the energy required to break a nucleus into its constituent nucleons. The average binding energy per nucleon is used to compare the stability of different nuclei. A higher binding energy per nucleon indicates a more stable nucleus.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a nuclear fusion reaction, two light nuclei combine to form a heavier nucleus. This process is accompanied by a: (MHT CET 2013)",
+    "options": [
+      "(a) absorption of energy",
+      "(b) release of energy",
+      "(c) creation of mass",
+      "(d) destruction of mass"
+    ],
+    "correct_answer": "b",
+    "answer": "In a nuclear fusion reaction, the mass of the resulting heavy nucleus is less than the sum of the masses of the light nuclei. This 'missing' mass (mass defect) is converted into a large amount of energy, which is <b>released</b> in the process, as described by $E=\\Delta m c^2$.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy of an electron in the ground state of a hydrogen atom is -13.6 eV. What is its energy in the second excited state? (MHT CET 2012)",
+    "options": [
+      "(a) -3.4 eV",
+      "(b) -1.51 eV",
+      "(c) -0.85 eV",
+      "(d) -0.54 eV"
+    ],
+    "correct_answer": "b",
+    "answer": "The energy of an electron in the n-th orbit of a hydrogen atom is given by $E_n = \\frac{-13.6}{n^2}$ eV. The ground state is n=1, the first excited state is n=2, and the second excited state is n=3. For the second excited state, n=3.<br>$E_3 = \\frac{-13.6}{3^2} = \\frac{-13.6}{9} \\approx -1.51$ eV.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of neutrons in a nucleus of an atom with mass number A and atomic number Z is: (MHT CET 2011)",
+    "options": [
+      "(a) $A-Z$",
+      "(b) $A+Z$",
+      "(c) $Z$",
+      "(d) $A$"
+    ],
+    "correct_answer": "a",
+    "answer": "The mass number (A) of an atom is the total number of protons and neutrons in its nucleus. The atomic number (Z) is the number of protons. The number of neutrons is the difference between the mass number and the atomic number: Number of neutrons = $A - Z$.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an emulsion?",
+    "options": [
+      "(a) smoke",
+      "(b) milk",
+      "(c) foam rubber",
+      "(d) cheese"
+    ],
+    "correct_answer": "b",
+    "answer": "An emulsion is a colloid in which a liquid is dispersed in another liquid. Milk is an example of an oil-in-water emulsion, where fat is the dispersed phase and water is the dispersion medium.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The size of colloidal particles lies between:",
+    "options": [
+      "(a) $10^{-10} \\text{ m}$ and $10^{-9} \\text{ m}$",
+      "(b) $10^{-9} \\text{ m}$ and $10^{-6} \\text{ m}$",
+      "(c) $10^{-6} \\text{ m}$ and $10^{-4} \\text{ m}$",
+      "(d) $10^{-5} \\text{ m}$ and $10^{-2} \\text{ m}$"
+    ],
+    "correct_answer": "b",
+    "answer": "Colloidal particles have a size ranging from $1 \\text{ nm}$ to $1000 \\text{ nm}$, which corresponds to $10^{-9} \\text{ m}$ and $10^{-6} \\text{ m}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The scattering of a beam of light by colloidal particles is known as:",
+    "options": [
+      "(a) Brownian motion",
+      "(b) Dialysis",
+      "(c) Tyndall effect",
+      "(d) Electrophoresis"
+    ],
+    "correct_answer": "c",
+    "answer": "The Tyndall effect is the phenomenon of light scattering by colloidal particles. This effect is used to distinguish between a colloid and a true solution.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a gas in liquid colloid?",
+    "options": [
+      "(a) milk",
+      "(b) fog",
+      "(c) froth",
+      "(d) smoke"
+    ],
+    "correct_answer": "c",
+    "answer": "In a gas in liquid colloid, the dispersed phase is a gas and the dispersion medium is a liquid. Froth (or foam) is an example of this type of colloid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The continuous zigzag movement of colloidal particles in a dispersion medium is called:",
+    "options": [
+      "(a) coagulation",
+      "(b) Tyndall effect",
+      "(c) Brownian motion",
+      "(d) electrophoresis"
+    ],
+    "correct_answer": "c",
+    "answer": "Brownian motion is the random, ceaseless, and zigzag movement of colloidal particles caused by the unbalanced bombardment of the particles by the molecules of the dispersion medium.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Adsorption is a process in which a substance:",
+    "options": [
+      "(a) is uniformly distributed throughout the bulk of another substance",
+      "(b) gets deposited on the surface of another substance",
+      "(c) diffuses into another substance",
+      "(d) is chemically reacted with another substance"
+    ],
+    "correct_answer": "b",
+    "answer": "Adsorption is a surface phenomenon where molecular species get deposited on the surface of another substance. It is different from absorption, which is a bulk phenomenon.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of separating a colloid from a crystalloid by diffusion through a semi-permeable membrane is called:",
+    "options": [
+      "(a) osmosis",
+      "(b) peptization",
+      "(c) dialysis",
+      "(d) electrophoresis"
+    ],
+    "correct_answer": "c",
+    "answer": "Dialysis is the process of removing a dissolved substance from a colloidal solution by diffusion through a suitable membrane, which allows ions and small molecules to pass through but retains the colloidal particles.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of physical adsorption (physisorption)?",
+    "options": [
+      "(a) Hydrogen on nickel",
+      "(b) Oxygen on platinum",
+      "(c) $H_2$ and $N_2$ on coconut charcoal",
+      "(d) Iron nitride on the surface of iron"
+    ],
+    "correct_answer": "c",
+    "answer": "Physical adsorption is due to weak van der Waals forces between the adsorbate and the adsorbent. The adsorption of gases like $H_2$ and $N_2$ on coconut charcoal is a classic example of physisorption.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of converting a freshly prepared precipitate into a colloidal solution by adding a small amount of electrolyte is called:",
+    "options": [
+      "(a) coagulation",
+      "(b) peptization",
+      "(c) emulsification",
+      "(d) electrophoresis"
+    ],
+    "correct_answer": "b",
+    "answer": "Peptization is the process of dispersing a precipitate into a colloidal solution by adding a small amount of an electrolyte, known as a peptizing agent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The movement of colloidal particles towards oppositely charged electrodes under the influence of an electric field is known as:",
+    "options": [
+      "(a) Brownian motion",
+      "(b) Tyndall effect",
+      "(c) Electrophoresis",
+      "(d) Coagulation"
+    ],
+    "correct_answer": "c",
+    "answer": "Electrophoresis is the movement of charged colloidal particles under the influence of an electric field. The particles move toward the electrode with the opposite charge.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a solid-in-gas type of colloid?",
+    "options": [
+      "(a) fog",
+      "(b) smoke",
+      "(c) milk",
+      "(d) jelly"
+    ],
+    "correct_answer": "b",
+    "answer": "Smoke is a colloid where solid particles (like carbon) are the dispersed phase and gas (air) is the dispersion medium.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements is INCORRECT regarding adsorption?",
+    "options": [
+      "(a) It is a surface phenomenon.",
+      "(b) It is always exothermic.",
+      "(c) It increases with an increase in temperature.",
+      "(d) It depends on the surface area of the adsorbent."
+    ],
+    "correct_answer": "c",
+    "answer": "Adsorption is generally an exothermic process. An increase in temperature usually decreases the extent of adsorption because the process is in dynamic equilibrium and increasing temperature favors the endothermic desorption process, according to Le Chatelier's principle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The minimum concentration of an electrolyte required to cause the coagulation of a sol is known as:",
+    "options": [
+      "(a) coagulation value",
+      "(b) peptizing value",
+      "(c) gold number",
+      "(d) critical micelle concentration"
+    ],
+    "correct_answer": "a",
+    "answer": "The coagulation value (or flocculation value) is the minimum concentration of an electrolyte, in millimoles per liter, required to cause the coagulation of a sol in two hours.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the charge on colloidal particles?",
+    "options": [
+      "(a) Always positive",
+      "(b) Always negative",
+      "(c) Either positive or negative",
+      "(d) Neutral"
+    ],
+    "correct_answer": "c",
+    "answer": "Colloidal particles carry an electric charge. This charge can be either positive or negative, depending on the nature of the dispersed phase and the dispersion medium. For example, ferric hydroxide sol is positively charged, while arsenic sulfide sol is negatively charged.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "According to the Hardy-Schulze rule, the coagulation power of an ion is directly proportional to the:",
+    "options": [
+      "(a) size of the ion",
+      "(b) charge of the ion",
+      "(c) hydration of the ion",
+      "(d) valency of the ion"
+    ],
+    "correct_answer": "d",
+    "answer": "The Hardy-Schulze rule states that the coagulation power of an ion is directly proportional to the fourth power of its valency. More simply, the greater the valency of the flocculating ion, the greater its power to cause coagulation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of adsorption is caused by:",
+    "options": [
+      "(a) chemical bonds",
+      "(b) hydrogen bonds",
+      "(c) van der Waals forces",
+      "(d) covalent bonds"
+    ],
+    "correct_answer": "c",
+    "answer": "Physical adsorption is caused by weak van der Waals forces of attraction between the adsorbate and the adsorbent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of removal of an adsorbed substance from a surface is called:",
+    "options": [
+      "(a) adsorption",
+      "(b) absorption",
+      "(c) desorption",
+      "(d) coagulation"
+    ],
+    "correct_answer": "c",
+    "answer": "Desorption is the reverse of adsorption, where the adsorbed substance is removed from the surface of the adsorbent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An example of a liquid-in-solid colloid is:",
+    "options": [
+      "(a) paint",
+      "(b) milk",
+      "(c) cheese",
+      "(d) fog"
+    ],
+    "correct_answer": "c",
+    "answer": "Cheese is a gel, which is a liquid-in-solid colloid where the dispersed phase is liquid and the dispersion medium is solid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Freundlich adsorption isotherm gives an empirical relationship between the amount of gas adsorbed and its equilibrium:",
+    "options": [
+      "(a) temperature",
+      "(b) volume",
+      "(c) pressure",
+      "(d) concentration"
+    ],
+    "correct_answer": "c",
+    "answer": "The Freundlich adsorption isotherm is a mathematical expression that describes the relationship between the amount of gas adsorbed onto a solid surface and the gas pressure at a constant temperature.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a property of a colloidal solution?",
+    "options": [
+      "(a) Tyndall effect",
+      "(b) Brownian motion",
+      "(c) High diffusion rate",
+      "(d) Heterogeneous nature"
+    ],
+    "correct_answer": "c",
+    "answer": "Colloidal particles are larger than solute particles in a true solution, so they have a much lower diffusion rate. Colloids are heterogeneous, show the Tyndall effect, and exhibit Brownian motion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a gas being uniformly distributed throughout the bulk of a solid is called:",
+    "options": [
+      "(a) adsorption",
+      "(b) absorption",
+      "(c) desorption",
+      "(d) coagulation"
+    ],
+    "correct_answer": "b",
+    "answer": "Absorption is a bulk phenomenon where a substance is uniformly distributed throughout the body of another substance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a solid sol?",
+    "options": [
+      "(a) paint",
+      "(b) colored gemstones",
+      "(c) fog",
+      "(d) milk"
+    ],
+    "correct_answer": "b",
+    "answer": "A solid sol is a colloid where a solid is dispersed in another solid. Colored gemstones are examples of solid sols.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which type of colloid is formed by the aggregation of sulfur ($S_8$) molecules in water?",
+    "options": [
+      "(a) Multimolecular colloid",
+      "(b) Macromolecular colloid",
+      "(c) Associated colloid",
+      "(d) Reversible colloid"
+    ],
+    "correct_answer": "a",
+    "answer": "Multimolecular colloids are formed by the aggregation of a large number of atoms or small molecules. The sulfur sol is formed by the aggregation of $S_8$ molecules, so it is a multimolecular colloid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of chemical adsorption?",
+    "options": [
+      "(a) It is reversible.",
+      "(b) It is due to weak forces.",
+      "(c) It is highly specific.",
+      "(d) It is not very specific."
+    ],
+    "correct_answer": "c",
+    "answer": "Chemical adsorption (chemisorption) involves the formation of a chemical bond between the adsorbate and the adsorbent, making it highly specific and irreversible.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The gold number is a measure of the:",
+    "options": [
+      "(a) coagulation power of a colloid",
+      "(b) protective power of a lyophilic colloid",
+      "(c) purity of gold",
+      "(d) viscosity of a colloid"
+    ],
+    "correct_answer": "b",
+    "answer": "The gold number is a measure of the protective power of a lyophilic colloid. It is defined as the minimum amount of a protective colloid in milligrams that prevents the coagulation of $10 \\text{ mL}$ of a standard gold sol on the addition of $1 \\text{ mL}$ of $10\\% \\text{ NaCl}$ solution.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A catalyst that exists in a different phase from the reactants and products is called:",
+    "options": [
+      "(a) homogeneous catalyst",
+      "(b) heterogeneous catalyst",
+      "(c) biocatalyst",
+      "(d) autocatalyst"
+    ],
+    "correct_answer": "b",
+    "answer": "Heterogeneous catalysis occurs when the catalyst is in a different phase (solid, liquid, or gas) from the reactants and products.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an aerosol?",
+    "options": [
+      "(a) milk",
+      "(b) jelly",
+      "(c) fog",
+      "(d) blood"
+    ],
+    "correct_answer": "c",
+    "answer": "An aerosol is a colloid in which a solid or liquid is dispersed in a gas. Fog is a liquid aerosol where liquid water droplets are dispersed in the air (gas).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The minimum temperature above which a gas cannot be liquefied, no matter how high the pressure, is called:",
+    "options": [
+      "(a) boiling point",
+      "(b) critical temperature",
+      "(c) freezing point",
+      "(d) liquefaction point"
+    ],
+    "correct_answer": "b",
+    "answer": "The critical temperature ($T_c$) is the temperature above which a substance cannot exist in the liquid state, regardless of the pressure. It is a key property in the liquefaction of gases.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A colloid where the dispersed phase and dispersion medium are both liquids is called:",
+    "options": [
+      "(a) sol",
+      "(b) gel",
+      "(c) aerosol",
+      "(d) emulsion"
+    ],
+    "correct_answer": "d",
+    "answer": "An emulsion is a colloidal system in which both the dispersed phase and the dispersion medium are liquids.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements is true about lyophilic colloids?",
+    "options": [
+      "(a) They are easily coagulated by electrolytes.",
+      "(b) They are irreversible.",
+      "(c) They are highly stable.",
+      "(d) They have a low affinity for the dispersion medium."
+    ],
+    "correct_answer": "c",
+    "answer": "Lyophilic (solvent-loving) colloids are stable because of the strong interaction between the dispersed phase particles and the dispersion medium. This strong affinity prevents the particles from coagulating easily.",
+    "marks": 1
+  }
+]

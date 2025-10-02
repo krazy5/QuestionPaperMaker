@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The science of managing and caring for farm animals, especially for their domestic or commercial purposes, is known as:",
+    "options": [
+      "(a) Apiculture",
+      "(b) Pisciculture",
+      "(c) Animal husbandry",
+      "(d) Sericulture"
+    ],
+    "correct_answer": "c",
+    "answer": "**Animal husbandry** is the branch of agriculture concerned with the care, management, and selective breeding of domesticated animals.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a high-yielding breed of cow?",
+    "options": [
+      "(a) Jersey",
+      "(b) Red Sindhi",
+      "(c) Sahiwal",
+      "(d) Gir"
+    ],
+    "correct_answer": "a",
+    "answer": "**Jersey** is a famous high-yielding breed of dairy cattle known for its high butterfat content in milk. The other options are indigenous Indian breeds.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of breeding two different breeds of animals to produce a hybrid with desirable traits is called:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outbreeding",
+      "(c) Cross-breeding",
+      "(d) Mating"
+    ],
+    "correct_answer": "c",
+    "answer": "**Cross-breeding** involves the mating of two different breeds of animals. The hybrid offspring often have improved traits, a phenomenon known as hybrid vigor or heterosis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In dairy farm management, what is a key factor for improving the quality and quantity of milk production?",
+    "options": [
+      "(a) Providing a high-fat diet",
+      "(b) Maintaining good health and hygiene",
+      "(c) Keeping the animals in a crowded space",
+      "(d) Using artificial insemination only"
+    ],
+    "correct_answer": "b",
+    "answer": "**Maintaining good health and hygiene** is crucial for dairy farm management. Cleanliness and disease prevention directly impact the health of the animals and, consequently, the quality and quantity of the milk they produce.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of cultivating bees for honey and wax is called:",
+    "options": [
+      "(a) Pisciculture",
+      "(b) Sericulture",
+      "(c) Lac culture",
+      "(d) Apiculture"
+    ],
+    "correct_answer": "d",
+    "answer": "**Apiculture** is the practice of beekeeping, which involves the maintenance of honey bee colonies, commonly in hives, to harvest honey and other bee products like beeswax and pollen.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a common disease of poultry?",
+    "options": [
+      "(a) Anthrax",
+      "(b) Foot-and-mouth disease",
+      "(c) Ranikhet disease",
+      "(d) Rinderpest"
+    ],
+    "correct_answer": "c",
+    "answer": "**Ranikhet disease**, also known as Newcastle disease, is a highly contagious viral disease that affects various species of birds, including chickens, turkeys, and ducks.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The practice of growing fish in a controlled environment is called:",
+    "options": [
+      "(a) Sericulture",
+      "(b) Aquaculture",
+      "(c) Vermiculture",
+      "(d) Silviculture"
+    ],
+    "correct_answer": "b",
+    "answer": "**Aquaculture** is the farming of aquatic organisms such as fish, crustaceans, mollusks, and aquatic plants. This includes both freshwater and saltwater species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a method of selective breeding used to maintain the purity of a breed?",
+    "options": [
+      "(a) Out-crossing",
+      "(b) Inbreeding",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "b",
+    "answer": "**Inbreeding** involves the mating of closely related individuals within the same breed. It increases homozygosity and helps to maintain the purity and desirable traits of a breed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disease caused by protozoa in silkworms is:",
+    "options": [
+      "(a) Muscardine",
+      "(b) Grasserie",
+      "(c) Flacherie",
+      "(d) Pebrine"
+    ],
+    "correct_answer": "d",
+    "answer": "**Pebrine** is a destructive disease of silkworms caused by a microsporidian protozoan. It affects the silk glands, and the disease can be transmitted from parent to offspring.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the primary function of a silkworm?",
+    "options": [
+      "(a) Producing honey",
+      "(b) Producing milk",
+      "(c) Producing silk",
+      "(d) Producing lac"
+    ],
+    "correct_answer": "c",
+    "answer": "The silkworm, the larva of the silk moth, is primarily cultivated for the production of **silk**. The silk is a protein fiber spun by the larva to form its cocoon.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of growing edible mushrooms is called:",
+    "options": [
+      "(a) Vermiculture",
+      "(b) Sericulture",
+      "(c) Mycology",
+      "(d) Fungiculture"
+    ],
+    "correct_answer": "d",
+    "answer": "**Fungiculture** is the practice of cultivating fungi, especially edible mushrooms, for food. It is a form of horticulture.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The rearing of silkworms for the production of silk is known as:",
+    "options": [
+      "(a) Apiculture",
+      "(b) Sericulture",
+      "(c) Pisciculture",
+      "(d) Vermiculture"
+    ],
+    "correct_answer": "b",
+    "answer": "**Sericulture** is the cultivation of silkworms to produce silk. It is a significant industry in many parts of the world.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hybrid of a male donkey and a female horse is called a:",
+    "options": [
+      "(a) Hinny",
+      "(b) Mule",
+      "(c) Zorse",
+      "(d) Liger"
+    ],
+    "correct_answer": "b",
+    "answer": "A **mule** is the hybrid offspring of a male donkey and a female horse. Mules are known for their strength, hardiness, and hybrid vigor.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary objective of animal breeding is to:",
+    "options": [
+      "(a) Increase the number of animals",
+      "(b) Produce superior breeds",
+      "(c) Reduce the cost of feeding",
+      "(d) Prevent the spread of diseases"
+    ],
+    "correct_answer": "b",
+    "answer": "The main goal of animal breeding is to **produce superior breeds** with improved traits like higher milk yield, better meat quality, disease resistance, and faster growth rate.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a bacterial disease in cattle?",
+    "options": [
+      "(a) Foot-and-mouth disease",
+      "(b) Anthrax",
+      "(c) Rinderpest",
+      "(d) Bird flu"
+    ],
+    "correct_answer": "b",
+    "answer": "**Anthrax** is a serious infectious disease caused by the bacterium *Bacillus anthracis*. It can affect both wild and domestic animals, including cattle, sheep, and goats.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The practice of breeding animals of the same breed but with no common ancestor for at least 4-6 generations is called:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Out-crossing",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "b",
+    "answer": "**Out-crossing** is a breeding method that involves mating unrelated animals of the same breed. This practice helps to avoid inbreeding depression and can introduce new genetic variation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The most common method of artificial insemination in animal husbandry is:",
+    "options": [
+      "(a) Semen collection from a male",
+      "(b) Embryo transfer",
+      "(c) Genetic modification",
+      "(d) Cloning"
+    ],
+    "correct_answer": "a",
+    "answer": "Artificial insemination involves the collection of semen from a male and its introduction into the female's reproductive tract. The **semen collection from a male** is the first and most crucial step in this process.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of developing a new breed by combining the desirable traits of two or more existing breeds is:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outbreeding",
+      "(c) Cross-breeding",
+      "(d) Hybridization"
+    ],
+    "correct_answer": "c",
+    "answer": "**Cross-breeding** is a method of creating a new breed by mating two different pure breeds. This process aims to combine the best traits from both parental breeds into the offspring.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an exotic breed of poultry?",
+    "options": [
+      "(a) Aseel",
+      "(b) Leghorn",
+      "(c) Kadaknath",
+      "(d) Busra"
+    ],
+    "correct_answer": "b",
+    "answer": "**Leghorn** is a well-known exotic breed of chicken that originated in Italy. It is popular for its high egg-laying capacity.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term used for a group of animals that are related by descent and have a similar appearance is:",
+    "options": [
+      "(a) Species",
+      "(b) Breed",
+      "(c) Family",
+      "(d) Genus"
+    ],
+    "correct_answer": "b",
+    "answer": "A **breed** is a specific group of domestic animals having a homogeneous appearance (phenotype), homogeneous behavior, and other characteristics that distinguish it from other organisms of the same species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the main advantage of inbreeding?",
+    "options": [
+      "(a) It increases genetic diversity.",
+      "(b) It eliminates harmful recessive genes.",
+      "(c) It increases heterozygosity.",
+      "(d) It reduces homozygosity."
+    ],
+    "correct_answer": "b",
+    "answer": "**Inbreeding** increases homozygosity, which exposes harmful recessive genes. These can then be eliminated by selection, thus leading to a purer breed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of introducing the sperm of a superior male into the reproductive tract of a female is called:",
+    "options": [
+      "(a) Interspecific hybridization",
+      "(b) Artificial selection",
+      "(c) Artificial insemination",
+      "(d) Embryo transfer"
+    ],
+    "correct_answer": "c",
+    "answer": "**Artificial insemination** is a technique used to overcome breeding problems and improve the genetic quality of livestock. It involves the controlled introduction of semen into a female's reproductive tract.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a disease of honeybees?",
+    "options": [
+      "(a) Nosema disease",
+      "(b) Fowl cholera",
+      "(c) Swine fever",
+      "(d) Anthrax"
+    ],
+    "correct_answer": "a",
+    "answer": "**Nosema disease** is a parasitic disease of honeybees caused by the microsporidian fungus *Nosema apis*. It can lead to the weakening and death of the bee colony.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The breeding of animals from different species is:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Out-crossing",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "d",
+    "answer": "**Interspecific hybridization** is the process of mating two different species to produce a hybrid offspring. A mule is a well-known example.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The practice of management of fisheries, including the breeding and rearing of fish, is:",
+    "options": [
+      "(a) Pisciculture",
+      "(b) Sericulture",
+      "(c) Apiculture",
+      "(d) Vermiculture"
+    ],
+    "correct_answer": "a",
+    "answer": "**Pisciculture** is the specialized form of aquaculture that focuses specifically on the cultivation of fish.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The use of animals for labor, food, and other products is a primary component of:",
+    "options": [
+      "(a) Agriculture",
+      "(b) Biotechnology",
+      "(c) Genetic engineering",
+      "(d) Organic farming"
+    ],
+    "correct_answer": "a",
+    "answer": "**Agriculture** is the science and art of cultivating plants and livestock. Animal husbandry, the management and care of farm animals, is a crucial part of this.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a breed of sheep known for its wool?",
+    "options": [
+      "(a) Marwari",
+      "(b) Merino",
+      "(c) Lohi",
+      "(d) Bikaneri"
+    ],
+    "correct_answer": "b",
+    "answer": "**Merino** is a breed of sheep that is highly prized for its soft, fine wool. It is one of the most economically important breeds of sheep.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of releasing eggs from the ovary in an animal is:",
+    "options": [
+      "(a) Insemination",
+      "(b) Ovulation",
+      "(c) Fertilization",
+      "(d) Gestation"
+    ],
+    "correct_answer": "b",
+    "answer": "**Ovulation** is the release of a mature egg from the ovary. It is a key event in the reproductive cycle of most female animals.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The practice of using living organisms like earthworms to convert organic waste into compost is:",
+    "options": [
+      "(a) Sericulture",
+      "(b) Apiculture",
+      "(c) Vermiculture",
+      "(d) Pisciculture"
+    ],
+    "correct_answer": "c",
+    "answer": "**Vermiculture** is the process of using earthworms to decompose organic waste materials, producing a nutrient-rich compost known as vermicompost. ",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disease in poultry that is caused by a virus and affects the respiratory and nervous systems is:",
+    "options": [
+      "(a) Ranikhet disease",
+      "(b) Foot-and-mouth disease",
+      "(c) Anthrax",
+      "(d) Black disease"
+    ],
+    "correct_answer": "a",
+    "answer": "**Ranikhet disease** (Newcastle disease) is a viral disease that can cause high mortality in poultry, affecting their respiratory, digestive, and nervous systems.",
+    "marks": 1
+  }
+]

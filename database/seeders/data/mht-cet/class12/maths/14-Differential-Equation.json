@@ -1,0 +1,1380 @@
+[
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $\\frac{d^2y}{dx^2} + 5\\frac{dy}{dx} + 6y = e^x$ are: (MHT CET 2018)",
+    "options": [
+      "(a) Order=2, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The order of a differential equation is the order of the highest derivative present in the equation, which is $\\frac{d^2y}{dx^2}$. So, the order is 2. The degree of the differential equation is the power of the highest order derivative, when the equation is a polynomial in derivatives. Here, the power of $\\frac{d^2y}{dx^2}$ is 1. Thus, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The differential equation of all circles passing through the origin is: (MHT CET 2019)",
+    "options": [
+      "(a) $(x^2-y^2)\\frac{dy}{dx} - 2xy = 0$",
+      "(b) $(x^2+y^2)\\frac{dy}{dx} - 2xy = 0$",
+      "(c) $(x^2-y^2)\\frac{dy}{dx} + 2xy = 0$",
+      "(d) $(x^2+y^2)\\frac{dy}{dx} + 2xy = 0$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of a circle passing through the origin can be written as $x^2+y^2+2gx+2fy=0$. Differentiating with respect to x, we get $2x+2y\\frac{dy}{dx}+2g+2f\\frac{dy}{dx}=0$. From this, we can eliminate the constants g and f. The final differential equation is $(x^2-y^2)\\frac{dy}{dx} - 2xy = 0$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $(1+x^2)\\frac{dy}{dx} + 2xy = 4x^2$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $1+x^2$",
+      "(b) $e^{x^2}$",
+      "(c) $\\frac{1}{1+x^2}$",
+      "(d) $\\log(1+x^2)$"
+    ],
+    "correct_answer": "a",
+    "answer": "We first write the equation in the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$ by dividing by $(1+x^2)$. This gives $\\frac{dy}{dx} + \\frac{2x}{1+x^2}y = \\frac{4x^2}{1+x^2}$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\frac{2x}{1+x^2} dx} = e^{\\log(1+x^2)}=1+x^2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{x+y}{x}$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $\\log|x|=e^{y/x}+C$",
+      "(b) $y=x\\log|x|+Cx$",
+      "(c) $y=x^2\\log|x|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "b",
+    "answer": "The given differential equation is a homogeneous equation. Let $y=vx$, then $\\frac{dy}{dx} = v+x\\frac{dv}{dx}$. Substituting this into the equation, we get $v+x\\frac{dv}{dx} = \\frac{x+vx}{x} = 1+v$. This simplifies to $x\\frac{dv}{dx}=1$. We separate variables: $dv = \\frac{dx}{x}$. Integrating both sides gives $v=\\log|x|+C$. Substituting back $v=y/x$, we get $\\frac{y}{x}=\\log|x|+C$, which gives $y=x\\log|x|+Cx$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The differential equation of all non-vertical lines in a plane is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{d^2y}{dx^2}=0$",
+      "(b) $\\frac{dy}{dx}=0$",
+      "(c) $y=mx+c$",
+      "(d) $y=mx$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of all non-vertical lines is $y=mx+c$. This has two arbitrary constants, $m$ and $c$. Differentiating once gives $\\frac{dy}{dx}=m$. Differentiating a second time gives $\\frac{d^2y}{dx^2}=0$, which eliminates all arbitrary constants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\tan x = \\sec x$ is: (MHT CET 2023)",
+    "options": [
+      "(a) $\\sec x$",
+      "(b) $\\cos x$",
+      "(c) $\\tan x$",
+      "(d) $\\sin x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\tan x dx} = e^{\\log|\\sec x|} = \\sec x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $y'' + (y')^2 = x$ are: (MHT CET 2017)",
+    "options": [
+      "(a) Order=2, Degree=1",
+      "(b) Order=2, Degree=2",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $y''$ or $\\frac{d^2y}{dx^2}$. Thus, the order is 2. The degree is the power of this highest order derivative, which is 1. The equation is a polynomial in derivatives.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $\\tan^{-1}y = \\tan^{-1}x+C$",
+      "(b) $\\tan^{-1}y = \\tan^{-1}x$",
+      "(c) $\\log|1+y^2|=\\log|1+x^2|+C$",
+      "(d) $\\frac{1}{1+y^2} = \\frac{1}{1+x^2}+C$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y^2} = \\frac{dx}{1+x^2}$. Integrating both sides, we get $\\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2}$. This gives $\\tan^{-1}y = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\cot x = \\csc x$ is: (MHT CET 2015)",
+    "options": [
+      "(a) $\\sin x$",
+      "(b) $\\cos x$",
+      "(c) $\\tan x$",
+      "(d) $\\cot x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\cot x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\cot x dx} = e^{\\log|\\sin x|} = \\sin x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = e^{x-y}$ is: (MHT CET 2014)",
+    "options": [
+      "(a) $e^y=e^x+C$",
+      "(b) $e^y=-e^x+C$",
+      "(c) $e^y=e^{x-y}+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $\\frac{dy}{dx} = e^x \\cdot e^{-y}$. This is a variable separable type. We can write it as $e^y dy = e^x dx$. Integrating both sides, we get $\\int e^y dy = \\int e^x dx$. This gives $e^y=e^x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $x^2 dy = (x^2+y^2) dx$ is: (MHT CET 2013)",
+    "options": [
+      "(a) $\\tan^{-1}(\\frac{y}{x})=\\log|x|+C$",
+      "(b) $y=x\\log|x|+C$",
+      "(c) $y^2=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $\\frac{dy}{dx}=1+(\\frac{y}{x})^2$. This is a homogeneous equation. Let $y=vx$, then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$. So $v+x\\frac{dv}{dx}=1+v^2$, which gives $x\\frac{dv}{dx}=1+v^2$. Separating variables, $\\frac{dv}{1+v^2}=\\frac{dx}{x}$. Integrating both sides, $\\tan^{-1}v = \\log|x|+C$. Substituting back $v=y/x$, we get $\\tan^{-1}(y/x)=\\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = \\sin x$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\log x$",
+      "(c) $e^x$",
+      "(d) $x^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x}$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $(x+1)\\frac{dy}{dx}=2$ is: (MHT CET 2011)",
+    "options": [
+      "(a) $y=2\\log|x+1|+C$",
+      "(b) $y=2x+C$",
+      "(c) $y=\\frac{1}{2}\\log|x+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $dy=\\frac{2}{x+1}dx$. Integrating both sides, we get $\\int dy = \\int \\frac{2}{x+1} dx$. This gives $y=2\\log|x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3})^2 + (\\frac{dy}{dx})^4 = y^2$ are: (MHT CET 2010)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=4, Degree=2",
+      "(d) Order=3, Degree=4"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^3y}{dx^3}$. So the order is 3. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\tan x = \\sec x$ is: (MHT CET 2009)",
+    "options": [
+      "(a) $\\sec x$",
+      "(b) $\\cos x$",
+      "(c) $\\tan x$",
+      "(d) $\\sin x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\tan x dx} = e^{\\log|\\sec x|} = \\sec x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\tan^{-1}y = \\tan^{-1}x+C$",
+      "(b) $\\tan^{-1}y = \\tan^{-1}x$",
+      "(c) $\\log|1+y^2|=\\log|1+x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y^2} = \\frac{dx}{1+x^2}$. Integrating both sides, we get $\\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2}$. This gives $\\tan^{-1}y = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + (\\frac{dy}{dx})^3 = x^2$ are: (MHT CET 2007)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=3, Degree=2",
+      "(d) Order=3, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general solution of the differential equation $\\frac{dy}{dx} + y = 1$ is: (MHT CET 2006)",
+    "options": [
+      "(a) $y=1+Ce^{-x}$",
+      "(b) $y=1+Ce^x$",
+      "(c) $y=C+e^{-x}$",
+      "(d) $y=C+e^x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a linear differential equation. $P(x)=1, Q(x)=1$. The integrating factor is $e^{\\int 1 dx} = e^x$. The solution is $y(I.F.) = \\int Q(x)(I.F.) dx$. So, $ye^x = \\int 1 \\cdot e^x dx = e^x+C$. Dividing by $e^x$, we get $y=1+Ce^{-x}$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{x}{y}$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $y^2=x^2+C$",
+      "(b) $y^2=x^2$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $y dy = x dx$. Integrating both sides, we get $\\int y dy = \\int x dx$. This gives $\\frac{y^2}{2}=\\frac{x^2}{2}+C_1$, which can be written as $y^2=x^2+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} - y\\tan x = \\cos x$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\cos x$",
+      "(b) $\\sec x$",
+      "(c) $\\sin x$",
+      "(d) $-\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=-\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int -\\tan x dx} = e^{\\log|\\cos x|} = \\cos x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(y'')^3 + y' = 0$ are: (MHT CET 2003)",
+    "options": [
+      "(a) Order=2, Degree=3",
+      "(b) Order=3, Degree=2",
+      "(c) Order=1, Degree=3",
+      "(d) Order=3, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $y''$ or $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 3. So, the degree is 3.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx}=x+1$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $y=\\frac{x^2}{2}+x+C$",
+      "(b) $y=x^2+x+C$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a variable separable type. We can write it as $dy=(x+1)dx$. Integrating both sides, we get $\\int dy = \\int(x+1)dx$. This gives $y=\\frac{x^2}{2}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + x\\frac{dy}{dx} = y$ are: (MHT CET 2001)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{y}{x}$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=\\log x$",
+      "(d) $y=\\log y$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{y} = \\frac{dx}{x}$. Integrating both sides, we get $\\int \\frac{dy}{y} = \\int \\frac{dx}{x}$. This gives $\\log|y| = \\log|x|+C_1 = \\log|x|+\\log C$, which implies $|y|=C|x|$, or $y=Cx$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $\\frac{d^2y}{dx^2} + y\\frac{dy}{dx} = \\sin x$ are: (MHT CET 2019)",
+    "options": [
+      "(a) Order=2, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $x\\frac{dy}{dx} + y = x^2$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\frac{1}{x}$",
+      "(c) $x^2$",
+      "(d) $\\log x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $x\\frac{dy}{dx} + y = x^2$. We first write it in the standard linear form by dividing by $x$: $\\frac{dy}{dx} + \\frac{1}{x}y = x$. The integrating factor (I.F.) is $e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $y dx - x dy = 0$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $y dx = x dy$. We can separate variables by dividing by $xy$: $\\frac{dx}{x} = \\frac{dy}{y}$. Integrating both sides, we get $\\log|x| = \\log|y|+C_1 = \\log|y|+\\log C$, which implies $|x|=C|y|$, or $x=Cy$. Rearranging, $y=\\frac{1}{C}x$. We can let $C'=\\frac{1}{C}$, so $y=C'x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The differential equation of all lines parallel to the y-axis is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{dx}{dy}=0$",
+      "(b) $\\frac{dy}{dx}=0$",
+      "(c) $x=c$",
+      "(d) $y=c$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of all lines parallel to the y-axis is $x=c$, where $c$ is a constant. Differentiating with respect to y, we get $\\frac{dx}{dy}=0$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $y=x\\frac{dy}{dx} + \\frac{dy}{dx}$ are: (MHT CET 2023)",
+    "options": [
+      "(a) Order=1, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=1",
+      "(d) Order=2, Degree=2"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{dy}{dx}$. So the order is 1. The equation is a polynomial in derivatives, and the power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x\\log x} = \\frac{1}{x}$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\log x$",
+      "(b) $x$",
+      "(c) $\\log(\\log x)$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x\\log x}$. The integrating factor is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x\\log x} dx}$. Let $t=\\log x$, $dt=\\frac{1}{x}dx$. The integral becomes $\\int \\frac{1}{t} dt = \\log|t|=\\log|\\log x|$. So the I.F. is $e^{\\log|\\log x|}=\\log x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y}{1+x}$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $1+y = C(1+x)$",
+      "(b) $1+y = C/(1+x)$",
+      "(c) $1+y = \\log(1+x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y} = \\frac{dx}{1+x}$. Integrating both sides, we get $\\log|1+y|=\\log|1+x|+C_1 = \\log|1+x|+\\log C$, which implies $|1+y|=C|1+x|$, or $1+y=C(1+x)$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3}) = \\sqrt{1+(\\frac{dy}{dx})^2}$ are: (MHT CET 2015)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=3, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "To find the degree, we need to make the equation a polynomial in derivatives. Squaring both sides, we get $(\\frac{d^3y}{dx^3})^2 = 1+(\\frac{dy}{dx})^2$. The highest order derivative is $\\frac{d^3y}{dx^3}$, so the order is 3. The power of this highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\cot x = \\cos x$ is: (MHT CET 2014)",
+    "options": [
+      "(a) $\\sin x$",
+      "(b) $\\cos x$",
+      "(c) $\\sec x$",
+      "(d) $\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\cot x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\cot x dx} = e^{\\log|\\sin x|} = \\sin x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $x^2 dy = (x^2+y^2) dx$ is: (MHT CET 2013)",
+    "options": [
+      "(a) $\\tan^{-1}(\\frac{y}{x})=\\log|x|+C$",
+      "(b) $y=x\\log|x|+C$",
+      "(c) $y^2=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $\\frac{dy}{dx}=1+(\\frac{y}{x})^2$. This is a homogeneous equation. Let $y=vx$, then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$. So $v+x\\frac{dv}{dx}=1+v^2$, which gives $x\\frac{dv}{dx}=1+v^2$. Separating variables, $\\frac{dv}{1+v^2}=\\frac{dx}{x}$. Integrating both sides, $\\tan^{-1}v = \\log|x|+C$. Substituting back $v=y/x$, we get $\\tan^{-1}(y/x)=\\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = \\sin x$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\log x$",
+      "(c) $e^x$",
+      "(d) $x^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x}$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $(x+1)\\frac{dy}{dx}=2$ is: (MHT CET 2011)",
+    "options": [
+      "(a) $y=2\\log|x+1|+C$",
+      "(b) $y=2x+C$",
+      "(c) $y=\\frac{1}{2}\\log|x+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $dy=\\frac{2}{x+1}dx$. Integrating both sides, we get $\\int dy = \\int \\frac{2}{x+1} dx$. This gives $y=2\\log|x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3})^2 + (\\frac{dy}{dx})^4 = y^2$ are: (MHT CET 2010)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=4, Degree=2",
+      "(d) Order=3, Degree=4"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^3y}{dx^3}$. So the order is 3. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\tan x = \\sec x$ is: (MHT CET 2009)",
+    "options": [
+      "(a) $\\sec x$",
+      "(b) $\\cos x$",
+      "(c) $\\tan x$",
+      "(d) $\\sin x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\tan x dx} = e^{\\log|\\sec x|} = \\sec x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\tan^{-1}y = \\tan^{-1}x+C$",
+      "(b) $\\tan^{-1}y = \\tan^{-1}x$",
+      "(c) $\\log|1+y^2|=\\log|1+x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y^2} = \\frac{dx}{1+x^2}$. Integrating both sides, we get $\\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2}$. This gives $\\tan^{-1}y = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + (\\frac{dy}{dx})^3 = x^2$ are: (MHT CET 2007)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=3, Degree=2",
+      "(d) Order=3, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general solution of the differential equation $\\frac{dy}{dx} + y = 1$ is: (MHT CET 2006)",
+    "options": [
+      "(a) $y=1+Ce^{-x}$",
+      "(b) $y=1+Ce^x$",
+      "(c) $y=C+e^{-x}$",
+      "(d) $y=C+e^x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a linear differential equation. $P(x)=1, Q(x)=1$. The integrating factor is $e^{\\int 1 dx} = e^x$. The solution is $y(I.F.) = \\int Q(x)(I.F.) dx$. So, $ye^x = \\int 1 \\cdot e^x dx = e^x+C$. Dividing by $e^x$, we get $y=1+Ce^{-x}$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{x}{y}$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $y^2=x^2+C$",
+      "(b) $y^2=x^2$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $y dy = x dx$. Integrating both sides, we get $\\int y dy = \\int x dx$. This gives $\\frac{y^2}{2}=\\frac{x^2}{2}+C_1$, which can be written as $y^2=x^2+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} - y\\tan x = \\cos x$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\cos x$",
+      "(b) $\\sec x$",
+      "(c) $\\sin x$",
+      "(d) $-\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=-\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int -\\tan x dx} = e^{\\log|\\cos x|} = \\cos x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(y'')^3 + y' = 0$ are: (MHT CET 2003)",
+    "options": [
+      "(a) Order=2, Degree=3",
+      "(b) Order=3, Degree=2",
+      "(c) Order=1, Degree=3",
+      "(d) Order=3, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $y''$ or $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 3. So, the degree is 3.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx}=x+1$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $y=\\frac{x^2}{2}+x+C$",
+      "(b) $y=x^2+x+C$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a variable separable type. We can write it as $dy=(x+1)dx$. Integrating both sides, we get $\\int dy = \\int(x+1)dx$. This gives $y=\\frac{x^2}{2}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + x\\frac{dy}{dx} = y$ are: (MHT CET 2001)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{y}{x}$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=\\log x$",
+      "(d) $y=\\log y$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{y} = \\frac{dx}{x}$. Integrating both sides, we get $\\int \\frac{dy}{y} = \\int \\frac{dx}{x}$. This gives $\\log|y| = \\log|x|+C_1 = \\log|x|+\\log C$, which implies $|y|=C|x|$, or $y=Cx$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $\\frac{d^2y}{dx^2} + y\\frac{dy}{dx} = \\sin x$ are: (MHT CET 2019)",
+    "options": [
+      "(a) Order=2, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $x\\frac{dy}{dx} + y = x^2$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\frac{1}{x}$",
+      "(c) $x^2$",
+      "(d) $\\log x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $x\\frac{dy}{dx} + y = x^2$. We first write it in the standard linear form by dividing by $x$: $\\frac{dy}{dx} + \\frac{1}{x}y = x$. The integrating factor (I.F.) is $e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $y dx - x dy = 0$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $y dx = x dy$. We can separate variables by dividing by $xy$: $\\frac{dx}{x} = \\frac{dy}{y}$. Integrating both sides, we get $\\log|x| = \\log|y|+C_1 = \\log|y|+\\log C$, which implies $|x|=C|y|$, or $x=Cy$. Rearranging, $y=\\frac{1}{C}x$. We can let $C'=\\frac{1}{C}$, so $y=C'x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The differential equation of all lines parallel to the y-axis is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{dx}{dy}=0$",
+      "(b) $\\frac{dy}{dx}=0$",
+      "(c) $x=c$",
+      "(d) $y=c$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of all lines parallel to the y-axis is $x=c$, where $c$ is a constant. Differentiating with respect to y, we get $\\frac{dx}{dy}=0$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $y=x\\frac{dy}{dx} + \\frac{dy}{dx}$ are: (MHT CET 2023)",
+    "options": [
+      "(a) Order=1, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=1",
+      "(d) Order=2, Degree=2"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{dy}{dx}$. So the order is 1. The equation is a polynomial in derivatives, and the power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x\\log x} = \\frac{1}{x}$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\log x$",
+      "(b) $x$",
+      "(c) $\\log(\\log x)$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x\\log x}$. The integrating factor is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x\\log x} dx}$. Let $t=\\log x$, $dt=\\frac{1}{x}dx$. The integral becomes $\\int \\frac{1}{t} dt = \\log|t|=\\log|\\log x|$. So the I.F. is $e^{\\log|\\log x|}=\\log x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y}{1+x}$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $1+y = C(1+x)$",
+      "(b) $1+y = C/(1+x)$",
+      "(c) $1+y = \\log(1+x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y} = \\frac{dx}{1+x}$. Integrating both sides, we get $\\log|1+y|=\\log|1+x|+C_1 = \\log|1+x|+\\log C$, which implies $|1+y|=C|1+x|$, or $1+y=C(1+x)$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3}) = \\sqrt{1+(\\frac{dy}{dx})^2}$ are: (MHT CET 2015)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=3, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "To find the degree, we need to make the equation a polynomial in derivatives. Squaring both sides, we get $(\\frac{d^3y}{dx^3})^2 = 1+(\\frac{dy}{dx})^2$. The highest order derivative is $\\frac{d^3y}{dx^3}$, so the order is 3. The power of this highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\cot x = \\cos x$ is: (MHT CET 2014)",
+    "options": [
+      "(a) $\\sin x$",
+      "(b) $\\cos x$",
+      "(c) $\\sec x$",
+      "(d) $\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\cot x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\cot x dx} = e^{\\log|\\sin x|} = \\sin x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $x^2 dy = (x^2+y^2) dx$ is: (MHT CET 2013)",
+    "options": [
+      "(a) $\\tan^{-1}(\\frac{y}{x})=\\log|x|+C$",
+      "(b) $y=x\\log|x|+C$",
+      "(c) $y^2=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $\\frac{dy}{dx}=1+(\\frac{y}{x})^2$. This is a homogeneous equation. Let $y=vx$, then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$. So $v+x\\frac{dv}{dx}=1+v^2$, which gives $x\\frac{dv}{dx}=1+v^2$. Separating variables, $\\frac{dv}{1+v^2}=\\frac{dx}{x}$. Integrating both sides, $\\tan^{-1}v = \\log|x|+C$. Substituting back $v=y/x$, we get $\\tan^{-1}(y/x)=\\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = \\sin x$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\log x$",
+      "(c) $e^x$",
+      "(d) $x^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x}$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $(x+1)\\frac{dy}{dx}=2$ is: (MHT CET 2011)",
+    "options": [
+      "(a) $y=2\\log|x+1|+C$",
+      "(b) $y=2x+C$",
+      "(c) $y=\\frac{1}{2}\\log|x+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $dy=\\frac{2}{x+1}dx$. Integrating both sides, we get $\\int dy = \\int \\frac{2}{x+1} dx$. This gives $y=2\\log|x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3})^2 + (\\frac{dy}{dx})^4 = y^2$ are: (MHT CET 2010)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=4, Degree=2",
+      "(d) Order=3, Degree=4"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^3y}{dx^3}$. So the order is 3. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\tan x = \\sec x$ is: (MHT CET 2009)",
+    "options": [
+      "(a) $\\sec x$",
+      "(b) $\\cos x$",
+      "(c) $\\tan x$",
+      "(d) $\\sin x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\tan x dx} = e^{\\log|\\sec x|} = \\sec x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\tan^{-1}y = \\tan^{-1}x+C$",
+      "(b) $\\tan^{-1}y = \\tan^{-1}x$",
+      "(c) $\\log|1+y^2|=\\log|1+x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y^2} = \\frac{dx}{1+x^2}$. Integrating both sides, we get $\\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2}$. This gives $\\tan^{-1}y = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + (\\frac{dy}{dx})^3 = x^2$ are: (MHT CET 2007)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=3, Degree=2",
+      "(d) Order=3, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general solution of the differential equation $\\frac{dy}{dx} + y = 1$ is: (MHT CET 2006)",
+    "options": [
+      "(a) $y=1+Ce^{-x}$",
+      "(b) $y=1+Ce^x$",
+      "(c) $y=C+e^{-x}$",
+      "(d) $y=C+e^x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a linear differential equation. $P(x)=1, Q(x)=1$. The integrating factor is $e^{\\int 1 dx} = e^x$. The solution is $y(I.F.) = \\int Q(x)(I.F.) dx$. So, $ye^x = \\int 1 \\cdot e^x dx = e^x+C$. Dividing by $e^x$, we get $y=1+Ce^{-x}$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{x}{y}$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $y^2=x^2+C$",
+      "(b) $y^2=x^2$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $y dy = x dx$. Integrating both sides, we get $\\int y dy = \\int x dx$. This gives $\\frac{y^2}{2}=\\frac{x^2}{2}+C_1$, which can be written as $y^2=x^2+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} - y\\tan x = \\cos x$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\cos x$",
+      "(b) $\\sec x$",
+      "(c) $\\sin x$",
+      "(d) $-\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=-\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int -\\tan x dx} = e^{\\log|\\cos x|} = \\cos x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(y'')^3 + y' = 0$ are: (MHT CET 2003)",
+    "options": [
+      "(a) Order=2, Degree=3",
+      "(b) Order=3, Degree=2",
+      "(c) Order=1, Degree=3",
+      "(d) Order=3, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $y''$ or $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 3. So, the degree is 3.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx}=x+1$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $y=\\frac{x^2}{2}+x+C$",
+      "(b) $y=x^2+x+C$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a variable separable type. We can write it as $dy=(x+1)dx$. Integrating both sides, we get $\\int dy = \\int(x+1)dx$. This gives $y=\\frac{x^2}{2}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + x\\frac{dy}{dx} = y$ are: (MHT CET 2001)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{y}{x}$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=\\log x$",
+      "(d) $y=\\log y$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{y} = \\frac{dx}{x}$. Integrating both sides, we get $\\int \\frac{dy}{y} = \\int \\frac{dx}{x}$. This gives $\\log|y| = \\log|x|+C_1 = \\log|x|+\\log C$, which implies $|y|=C|x|$, or $y=Cx$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $\\frac{d^2y}{dx^2} + y\\frac{dy}{dx} = \\sin x$ are: (MHT CET 2019)",
+    "options": [
+      "(a) Order=2, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $x\\frac{dy}{dx} + y = x^2$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\frac{1}{x}$",
+      "(c) $x^2$",
+      "(d) $\\log x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $x\\frac{dy}{dx} + y = x^2$. We first write it in the standard linear form by dividing by $x$: $\\frac{dy}{dx} + \\frac{1}{x}y = x$. The integrating factor (I.F.) is $e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $y dx - x dy = 0$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $y dx = x dy$. We can separate variables by dividing by $xy$: $\\frac{dx}{x} = \\frac{dy}{y}$. Integrating both sides, we get $\\log|x| = \\log|y|+C_1 = \\log|y|+\\log C$, which implies $|x|=C|y|$, or $x=Cy$. Rearranging, $y=\\frac{1}{C}x$. We can let $C'=\\frac{1}{C}$, so $y=C'x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The differential equation of all lines parallel to the y-axis is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{dx}{dy}=0$",
+      "(b) $\\frac{dy}{dx}=0$",
+      "(c) $x=c$",
+      "(d) $y=c$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of all lines parallel to the y-axis is $x=c$, where $c$ is a constant. Differentiating with respect to y, we get $\\frac{dx}{dy}=0$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $y=x\\frac{dy}{dx} + \\frac{dy}{dx}$ are: (MHT CET 2023)",
+    "options": [
+      "(a) Order=1, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=1",
+      "(d) Order=2, Degree=2"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{dy}{dx}$. So the order is 1. The equation is a polynomial in derivatives, and the power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x\\log x} = \\frac{1}{x}$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\log x$",
+      "(b) $x$",
+      "(c) $\\log(\\log x)$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x\\log x}$. The integrating factor is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x\\log x} dx}$. Let $t=\\log x$, $dt=\\frac{1}{x}dx$. The integral becomes $\\int \\frac{1}{t} dt = \\log|t|=\\log|\\log x|$. So the I.F. is $e^{\\log|\\log x|}=\\log x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y}{1+x}$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $1+y = C(1+x)$",
+      "(b) $1+y = C/(1+x)$",
+      "(c) $1+y = \\log(1+x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y} = \\frac{dx}{1+x}$. Integrating both sides, we get $\\log|1+y|=\\log|1+x|+C_1 = \\log|1+x|+\\log C$, which implies $|1+y|=C|1+x|$, or $1+y=C(1+x)$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3}) = \\sqrt{1+(\\frac{dy}{dx})^2}$ are: (MHT CET 2015)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=3, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "To find the degree, we need to make the equation a polynomial in derivatives. Squaring both sides, we get $(\\frac{d^3y}{dx^3})^2 = 1+(\\frac{dy}{dx})^2$. The highest order derivative is $\\frac{d^3y}{dx^3}$, so the order is 3. The power of this highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\cot x = \\cos x$ is: (MHT CET 2014)",
+    "options": [
+      "(a) $\\sin x$",
+      "(b) $\\cos x$",
+      "(c) $\\sec x$",
+      "(d) $\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\cot x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\cot x dx} = e^{\\log|\\sin x|} = \\sin x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $x^2 dy = (x^2+y^2) dx$ is: (MHT CET 2013)",
+    "options": [
+      "(a) $\\tan^{-1}(\\frac{y}{x})=\\log|x|+C$",
+      "(b) $y=x\\log|x|+C$",
+      "(c) $y^2=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $\\frac{dy}{dx}=1+(\\frac{y}{x})^2$. This is a homogeneous equation. Let $y=vx$, then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$. So $v+x\\frac{dv}{dx}=1+v^2$, which gives $x\\frac{dv}{dx}=1+v^2$. Separating variables, $\\frac{dv}{1+v^2}=\\frac{dx}{x}$. Integrating both sides, $\\tan^{-1}v = \\log|x|+C$. Substituting back $v=y/x$, we get $\\tan^{-1}(y/x)=\\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = \\sin x$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\log x$",
+      "(c) $e^x$",
+      "(d) $x^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x}$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $(x+1)\\frac{dy}{dx}=2$ is: (MHT CET 2011)",
+    "options": [
+      "(a) $y=2\\log|x+1|+C$",
+      "(b) $y=2x+C$",
+      "(c) $y=\\frac{1}{2}\\log|x+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $dy=\\frac{2}{x+1}dx$. Integrating both sides, we get $\\int dy = \\int \\frac{2}{x+1} dx$. This gives $y=2\\log|x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3})^2 + (\\frac{dy}{dx})^4 = y^2$ are: (MHT CET 2010)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=4, Degree=2",
+      "(d) Order=3, Degree=4"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^3y}{dx^3}$. So the order is 3. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\tan x = \\sec x$ is: (MHT CET 2009)",
+    "options": [
+      "(a) $\\sec x$",
+      "(b) $\\cos x$",
+      "(c) $\\tan x$",
+      "(d) $\\sin x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\tan x dx} = e^{\\log|\\sec x|} = \\sec x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\tan^{-1}y = \\tan^{-1}x+C$",
+      "(b) $\\tan^{-1}y = \\tan^{-1}x$",
+      "(c) $\\log|1+y^2|=\\log|1+x^2|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y^2} = \\frac{dx}{1+x^2}$. Integrating both sides, we get $\\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2}$. This gives $\\tan^{-1}y = \\tan^{-1}x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + (\\frac{dy}{dx})^3 = x^2$ are: (MHT CET 2007)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=3, Degree=2",
+      "(d) Order=3, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general solution of the differential equation $\\frac{dy}{dx} + y = 1$ is: (MHT CET 2006)",
+    "options": [
+      "(a) $y=1+Ce^{-x}$",
+      "(b) $y=1+Ce^x$",
+      "(c) $y=C+e^{-x}$",
+      "(d) $y=C+e^x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a linear differential equation. $P(x)=1, Q(x)=1$. The integrating factor is $e^{\\int 1 dx} = e^x$. The solution is $y(I.F.) = \\int Q(x)(I.F.) dx$. So, $ye^x = \\int 1 \\cdot e^x dx = e^x+C$. Dividing by $e^x$, we get $y=1+Ce^{-x}$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{x}{y}$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $y^2=x^2+C$",
+      "(b) $y^2=x^2$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $y dy = x dx$. Integrating both sides, we get $\\int y dy = \\int x dx$. This gives $\\frac{y^2}{2}=\\frac{x^2}{2}+C_1$, which can be written as $y^2=x^2+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} - y\\tan x = \\cos x$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\cos x$",
+      "(b) $\\sec x$",
+      "(c) $\\sin x$",
+      "(d) $-\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=-\\tan x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int -\\tan x dx} = e^{\\log|\\cos x|} = \\cos x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(y'')^3 + y' = 0$ are: (MHT CET 2003)",
+    "options": [
+      "(a) Order=2, Degree=3",
+      "(b) Order=3, Degree=2",
+      "(c) Order=1, Degree=3",
+      "(d) Order=3, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $y''$ or $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 3. So, the degree is 3.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx}=x+1$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $y=\\frac{x^2}{2}+x+C$",
+      "(b) $y=x^2+x+C$",
+      "(c) $y=x+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "This is a variable separable type. We can write it as $dy=(x+1)dx$. Integrating both sides, we get $\\int dy = \\int(x+1)dx$. This gives $y=\\frac{x^2}{2}+x+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^2 + x\\frac{dy}{dx} = y$ are: (MHT CET 2001)",
+    "options": [
+      "(a) Order=2, Degree=2",
+      "(b) Order=2, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{y}{x}$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=\\log x$",
+      "(d) $y=\\log y$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{y} = \\frac{dx}{x}$. Integrating both sides, we get $\\int \\frac{dy}{y} = \\int \\frac{dx}{x}$. This gives $\\log|y| = \\log|x|+C_1 = \\log|x|+\\log C$, which implies $|y|=C|x|$, or $y=Cx$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $\\frac{d^2y}{dx^2} + y\\frac{dy}{dx} = \\sin x$ are: (MHT CET 2019)",
+    "options": [
+      "(a) Order=2, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=2",
+      "(d) Order=1, Degree=1"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$. So the order is 2. The power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $x\\frac{dy}{dx} + y = x^2$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\frac{1}{x}$",
+      "(c) $x^2$",
+      "(d) $\\log x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $x\\frac{dy}{dx} + y = x^2$. We first write it in the standard linear form by dividing by $x$: $\\frac{dy}{dx} + \\frac{1}{x}y = x$. The integrating factor (I.F.) is $e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $y dx - x dy = 0$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $y=Cx$",
+      "(b) $y=C/x$",
+      "(c) $y=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $y dx = x dy$. We can separate variables by dividing by $xy$: $\\frac{dx}{x} = \\frac{dy}{y}$. Integrating both sides, we get $\\log|x| = \\log|y|+C_1 = \\log|y|+\\log C$, which implies $|x|=C|y|$, or $x=Cy$. Rearranging, $y=\\frac{1}{C}x$. We can let $C'=\\frac{1}{C}$, so $y=C'x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The differential equation of all lines parallel to the y-axis is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{dx}{dy}=0$",
+      "(b) $\\frac{dy}{dx}=0$",
+      "(c) $x=c$",
+      "(d) $y=c$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of all lines parallel to the y-axis is $x=c$, where $c$ is a constant. Differentiating with respect to y, we get $\\frac{dx}{dy}=0$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $y=x\\frac{dy}{dx} + \\frac{dy}{dx}$ are: (MHT CET 2023)",
+    "options": [
+      "(a) Order=1, Degree=1",
+      "(b) Order=1, Degree=2",
+      "(c) Order=2, Degree=1",
+      "(d) Order=2, Degree=2"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{dy}{dx}$. So the order is 1. The equation is a polynomial in derivatives, and the power of the highest order derivative is 1. So, the degree is 1.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x\\log x} = \\frac{1}{x}$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\log x$",
+      "(b) $x$",
+      "(c) $\\log(\\log x)$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x\\log x}$. The integrating factor is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x\\log x} dx}$. Let $t=\\log x$, $dt=\\frac{1}{x}dx$. The integral becomes $\\int \\frac{1}{t} dt = \\log|t|=\\log|\\log x|$. So the I.F. is $e^{\\log|\\log x|}=\\log x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\frac{1+y}{1+x}$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $1+y = C(1+x)$",
+      "(b) $1+y = C/(1+x)$",
+      "(c) $1+y = \\log(1+x)+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $\\frac{dy}{1+y} = \\frac{dx}{1+x}$. Integrating both sides, we get $\\log|1+y|=\\log|1+x|+C_1 = \\log|1+x|+\\log C$, which implies $|1+y|=C|1+x|$, or $1+y=C(1+x)$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3}) = \\sqrt{1+(\\frac{dy}{dx})^2}$ are: (MHT CET 2015)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=3, Degree=1",
+      "(c) Order=1, Degree=2",
+      "(d) Order=1, Degree=3"
+    ],
+    "correct_answer": "a",
+    "answer": "To find the degree, we need to make the equation a polynomial in derivatives. Squaring both sides, we get $(\\frac{d^3y}{dx^3})^2 = 1+(\\frac{dy}{dx})^2$. The highest order derivative is $\\frac{d^3y}{dx^3}$, so the order is 3. The power of this highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + y\\cot x = \\cos x$ is: (MHT CET 2014)",
+    "options": [
+      "(a) $\\sin x$",
+      "(b) $\\cos x$",
+      "(c) $\\sec x$",
+      "(d) $\\tan x$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\cot x$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\cot x dx} = e^{\\log|\\sin x|} = \\sin x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $x^2 dy = (x^2+y^2) dx$ is: (MHT CET 2013)",
+    "options": [
+      "(a) $\\tan^{-1}(\\frac{y}{x})=\\log|x|+C$",
+      "(b) $y=x\\log|x|+C$",
+      "(c) $y^2=x^2+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is $\\frac{dy}{dx}=1+(\\frac{y}{x})^2$. This is a homogeneous equation. Let $y=vx$, then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$. So $v+x\\frac{dv}{dx}=1+v^2$, which gives $x\\frac{dv}{dx}=1+v^2$. Separating variables, $\\frac{dv}{1+v^2}=\\frac{dx}{x}$. Integrating both sides, $\\tan^{-1}v = \\log|x|+C$. Substituting back $v=y/x$, we get $\\tan^{-1}(y/x)=\\log|x|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The integrating factor of the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = \\sin x$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $x$",
+      "(b) $\\log x$",
+      "(c) $e^x$",
+      "(d) $x^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is in the linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x)=\\frac{1}{x}$. The integrating factor (I.F.) is $e^{\\int P(x) dx} = e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solution of the differential equation $(x+1)\\frac{dy}{dx}=2$ is: (MHT CET 2011)",
+    "options": [
+      "(a) $y=2\\log|x+1|+C$",
+      "(b) $y=2x+C$",
+      "(c) $y=\\frac{1}{2}\\log|x+1|+C$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The given equation is a variable separable type. We can write it as $dy=\\frac{2}{x+1}dx$. Integrating both sides, we get $\\int dy = \\int \\frac{2}{x+1} dx$. This gives $y=2\\log|x+1|+C$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The order and degree of the differential equation $(\\frac{d^3y}{dx^3})^2 + (\\frac{dy}{dx})^4 = y^2$ are: (MHT CET 2010)",
+    "options": [
+      "(a) Order=3, Degree=2",
+      "(b) Order=2, Degree=3",
+      "(c) Order=4, Degree=2",
+      "(d) Order=3, Degree=4"
+    ],
+    "correct_answer": "a",
+    "answer": "The highest order derivative is $\\frac{d^3y}{dx^3}$. So the order is 3. The equation is a polynomial in derivatives. The power of the highest order derivative is 2. So, the degree is 2.\n\n**Correct option is (a).**",
+    "marks": 1
+  }
+]

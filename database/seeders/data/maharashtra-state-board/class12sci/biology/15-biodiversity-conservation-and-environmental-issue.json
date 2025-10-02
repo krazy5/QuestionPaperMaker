@@ -1,0 +1,126 @@
+[
+  {
+    "type": "mcq",
+    "text": "The term 'Biodiversity' was popularized by _______.",
+    "options": ["A. Tansley", "E. Haeckel", "Edward Wilson", "E.P. Odum"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The term biodiversity was popularized by the sociobiologist Edward Wilson to describe the combined diversity at all the levels of biological organisation. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an ex-situ conservation method?",
+    "options": ["National Park", "Sacred Grove", "Seed Bank", "Biosphere Reserve"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Ex-situ conservation involves the conservation of threatened species outside their natural habitat. Seed banks, botanical gardens, and zoological parks are examples of ex-situ conservation. The others are in-situ methods. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Montreal Protocol was signed in 1987 to control _______.",
+    "options": ["The emission of greenhouse gases", "The use of pesticides", "The emission of ozone-depleting substances", "Water pollution"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Montreal Protocol is an international treaty designed to protect the ozone layer by phasing out the production of numerous substances that are responsible for ozone depletion, such as chlorofluorocarbons (CFCs). The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of increase in the concentration of a toxicant at successive trophic levels is known as _______.",
+    "options": ["Bioremediation", "Biomagnification", "Eutrophication", "Biofortification"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Biomagnification, or biological magnification, is the process where the concentration of toxic substances like DDT or mercury increases as it moves up the food chain. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Jhum' cultivation is a major cause of _______ in North-Eastern states of India.",
+    "options": ["Afforestation", "Deforestation", "Water conservation", "Soil conservation"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Jhum cultivation, also known as slash-and-burn agriculture, is a traditional farming method where forests are cleared and burned to create land for cultivation. This is a significant cause of deforestation. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a secondary air pollutant?",
+    "options": ["Carbon monoxide (CO)", "Sulphur dioxide (SO2)", "Peroxyacetyl nitrate (PAN)", "Carbon dioxide (CO2)"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Secondary pollutants are not emitted directly but are formed in the atmosphere when primary pollutants react with each other. PAN is a component of photochemical smog, formed from the reaction of hydrocarbons and nitrogen oxides. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Chipko Movement' was a historic movement associated with _______.",
+    "options": ["Preventing water pollution", "Protecting tigers", "Protecting trees from being cut", "Preventing noise pollution"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Chipko Movement was a non-violent social and ecological movement by rural villagers, particularly women, in India in the 1970s, aimed at protecting forests and trees from government-backed logging. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The unit used for measuring the thickness of the ozone layer is _______.",
+    "options": ["Decibels (dB)", "Dobson Units (DU)", "Pascals (Pa)", "Parts per million (ppm)"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The thickness of the ozone in a column of air from the ground to the top of the atmosphere is measured in terms of Dobson Units (DU). The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between in-situ and ex-situ conservation. (PYQ: March 2022)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>In-situ Conservation</th><th style='padding: 8px;'>Ex-situ Conservation</th></tr><tr><td style='padding: 8px;'>It is the conservation of species in their natural habitats or ecosystems.</td><td style='padding: 8px;'>It is the conservation of threatened species outside their natural habitats.</td></tr><tr><td style='padding: 8px;'>It involves the protection of the entire ecosystem.</td><td style='padding: 8px;'>It involves the protection of a particular endangered species.</td></tr><tr><td style='padding: 8px;'>It allows the species to evolve in its natural environment.</td><td style='padding: 8px;'>The species is protected in an artificial environment.</td></tr><tr><td style='padding: 8px;'>Examples: National Parks, Wildlife Sanctuaries, Sacred Groves.</td><td style='padding: 8px;'>Examples: Zoological Parks, Botanical Gardens, Seed Banks.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the three levels of biodiversity?",
+    "answer": "The three levels of biodiversity are:<br>1. <b>Genetic Diversity:</b> The diversity of genes within a single species. For example, there are many different varieties of rice or mangoes.<br>2. <b>Species Diversity:</b> The variety of different species (plants, animals, fungi, and microorganisms) within a region.<br>3. <b>Ecological Diversity:</b> The variety of different ecosystems, habitats, and ecological processes in a given geographical area.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'Pollution' and 'Pollutant'.",
+    "answer": "<b>Pollution:</b> It is defined as any undesirable change in the physical, chemical, or biological characteristics of air, land, water, or soil.<br><br><b>Pollutant:</b> A pollutant is any agent (substance, energy, or noise) that is introduced into the environment and has an undesirable effect, or adversely affects the usefulness of a resource.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are 'sacred groves'? What is their role in conservation?",
+    "answer": "<b>Sacred Groves</b> are tracts of forest that are set aside and protected by local communities in the name of a deity or ancestral spirit.<br><br><b>Role in Conservation:</b> They are a traditional form of in-situ conservation. Since all forms of interference are banned in these groves, they act as mini-biosphere reserves, preserving a rich diversity of rare and threatened plant and animal species.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the 'Greenhouse Effect'?",
+    "answer": "The greenhouse effect is a naturally occurring phenomenon responsible for heating the Earth's surface and atmosphere. Solar radiation reaches the Earth, and some of it is reflected back as infrared radiation (heat). Greenhouse gases (like $CO_2, CH_4$) present in the atmosphere trap some of this outgoing heat, thus keeping the Earth warm. An increase in the level of these gases due to human activities is leading to an enhanced greenhouse effect and global warming.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the causes and effects of deforestation?",
+    "answer": "<b>Deforestation</b> is the clearing of forests for the conversion of the land for other uses.<br><br><b>Causes of Deforestation:</b><br><ul><li><b>Conversion to Agricultural Land:</b> A significant cause is the clearing of forests to make land available for farming. Jhum cultivation is an example.</li><li><b>Urbanization and Infrastructure Development:</b> Forests are cleared for the construction of roads, dams, and cities.</li><li><b>Over-grazing:</b> Over-grazing by livestock can degrade forests.</li><li><b>Forest Fires:</b> Natural and man-made forest fires destroy large areas of forest.</li><li><b>Commercial Logging:</b> Cutting down trees for timber and other forest products.</li></ul><b>Effects of Deforestation:</b><br><ul><li><b>Loss of Biodiversity:</b> It leads to the destruction of habitats, causing the extinction of many plant and animal species.</li><li><b>Climate Change:</b> It contributes to enhanced global warming as trees absorb carbon dioxide.</li><li><b>Soil Erosion and Desertification:</b> The removal of the forest cover leads to soil erosion, which can turn fertile land into deserts.</li><li><b>Disruption of Water Cycle:</b> It can lead to changes in rainfall patterns and a decrease in groundwater levels.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the causes and consequences of global warming. (PYQ: March 2020)",
+    "answer": "<b>Global Warming</b> refers to the long-term heating of Earth’s climate system observed since the pre-industrial period due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere.<br><br><b>Causes:</b><br>The primary cause is the 'enhanced greenhouse effect'. The increased concentration of greenhouse gases in the atmosphere traps more heat. The main causes for the increase in these gases are:<br><ul><li>Burning of fossil fuels (coal, oil, gas) for energy and transportation, which releases large amounts of $CO_2$.</li><li>Deforestation, which reduces the absorption of $CO_2$ by trees.</li><li>Industrial processes and agricultural practices that release methane ($CH_4$) and nitrous oxide ($N_2O$).</li></ul><b>Consequences:</b><br><ul><li><b>Melting of Polar Ice Caps and Glaciers:</b> This leads to a rise in sea levels, which can submerge coastal areas.</li><li><b>Climate Change:</b> It leads to changes in weather patterns, causing an increase in the frequency of extreme weather events like floods, droughts, and heatwaves.</li><li><b>Loss of Biodiversity:</b> Many species that are unable to adapt to the changing climate may become extinct.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is 'radioactive waste'? Why is it a serious problem, and how should it be managed?",
+    "answer": "<b>Radioactive Waste</b> is the waste generated from the use of radioactive materials, primarily from nuclear power plants and medical applications. It contains radioactive isotopes that are highly damaging to living organisms.<br><br><b>Why it is a problem:</b><br>Radioactive waste is extremely hazardous because it emits harmful ionizing radiations that can cause mutations, cancer, and other severe health problems. Moreover, these wastes remain radioactive for thousands of years, making their disposal a major challenge.<br><br><b>Management of Radioactive Waste:</b><br>Extreme caution is required for the disposal of radioactive waste.<br><ul><li>The waste should be pre-treated to reduce its volume and radioactivity.</li><li>It should be stored in suitably shielded containers made of lead.</li><li>These containers must be buried deep underground (about 500m deep) in stable geological formations, far away from human populations and water sources.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Why should we conserve biodiversity? Explain the different reasons.",
+    "answer": "There are many reasons to conserve biodiversity, which can be grouped into three main categories:<br><br>1. <b>Narrowly Utilitarian Reasons:</b><br>These are the direct economic benefits that humans derive from nature. Biodiversity is a source of countless products that we use in our daily lives.<br><ul><li><b>Food:</b> We get all our food (cereals, pulses, fruits) from plants.</li><li><b>Medicines:</b> Many drugs, like quinine and morphine, are derived from plants.</li><li><b>Industrial Products:</b> We get timber, fibres, resins, and gums from forests.</li></ul>2. <b>Broadly Utilitarian Reasons:</b><br>These are the indirect services that biodiversity provides through ecosystem functions.<br><ul><li><b>Pollination:</b> Bees, birds, and other animals are essential for pollinating our crops.</li><li><b>Climate Regulation:</b> Forests play a crucial role in regulating climate and the oxygen-carbon dioxide balance.</li><li><b>Aesthetic Value:</b> Nature provides immense aesthetic and recreational pleasure, like bird-watching and trekking.</li></ul>3. <b>Ethical Reasons:</b><br>This argument is based on the belief that every species has an intrinsic value, even if it is not of any direct economic use to us. We have a moral and ethical duty to care for all living beings and to pass on our rich biological legacy to future generations in good order.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the causes and effects of air pollution.",
+    "answer": "<b>Air Pollution</b> is the contamination of the air by the presence of substances that are harmful to human health and the environment.<br><br><b>Causes of Air Pollution:</b><br><ul><li><b>Vehicular Emissions:</b> The exhaust from vehicles is a major source of pollutants like carbon monoxide (CO), nitrogen oxides ($NO_x$), and hydrocarbons.</li><li><b>Industrial Emissions:</b> Industries, especially thermal power plants and smelters, release large amounts of particulate matter, sulphur dioxide ($SO_2$), and other toxic gases.</li><li><b>Burning of Fossil Fuels:</b> The burning of coal and petroleum for energy production is a primary source of air pollutants.</li><li><b>Agricultural Activities:</b> The use of insecticides and pesticides, and the burning of crop residue contribute to air pollution.</li></ul><b>Effects of Air Pollution:</b><br><ul><li><b>On Human Health:</b> It causes respiratory problems like asthma and bronchitis, and can also lead to cardiovascular diseases and cancer.</li><li><b>On Plants:</b> Pollutants like sulphur dioxide can cause acid rain, which damages forests and crops.</li><li><b>On the Environment:</b> It is a major cause of global warming, ozone layer depletion, and the formation of smog.</li></ul>",
+    "marks": 3
+  }
+]

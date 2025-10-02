@@ -1,0 +1,196 @@
+[
+  {
+    "type": "mcq",
+    "text": "The enzyme used to join the DNA fragments is called:",
+    "options": [
+      "Restriction endonuclease",
+      "DNA polymerase",
+      "DNA ligase",
+      "Reverse transcriptase"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> DNA ligase is an enzyme that catalyzes the formation of a phosphodiester bond between two DNA fragments, effectively 'gluing' them together. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of making multiple copies of a specific DNA segment is known as:",
+    "options": [
+      "Electrophoresis",
+      "Recombinant DNA technology",
+      "Cloning",
+      "Polymerase Chain Reaction (PCR)"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Polymerase Chain Reaction (PCR) is a technique used to amplify a specific DNA sequence, creating millions of copies. This process is crucial in genetic engineering and diagnostics. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A plasmid is often used as a _______ in genetic engineering.",
+    "options": [
+      "Vector",
+      "Gene of interest",
+      "Host cell",
+      "Enzyme"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> A vector is a DNA molecule used as a vehicle to artificially carry foreign genetic material into another cell, where it can be replicated and expressed. Plasmids are small, circular DNA molecules found in bacteria that are commonly used as vectors. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique used to separate DNA fragments based on their size is:",
+    "options": [
+      "Polymerase Chain Reaction (PCR)",
+      "Gel electrophoresis",
+      "DNA sequencing",
+      "Ligation"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Gel electrophoresis is a laboratory technique used to separate DNA fragments by size. The fragments are loaded into a gel and an electric current is applied, causing the negatively charged DNA fragments to move toward the positive electrode. Smaller fragments move faster and travel farther. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a 'molecular scissors' used in genetic engineering?",
+    "options": [
+      "DNA ligase",
+      "Restriction endonuclease",
+      "DNA polymerase",
+      "Helicase"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Restriction endonucleases are enzymes that recognize specific DNA sequences and cut the DNA at or near those sites. They are essential tools for cutting DNA into fragments for cloning and other genetic manipulations. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first transgenic cow, Rosie, produced milk enriched with which human protein? (PYQ: March 2019)",
+    "options": [
+      "Insulin",
+      "Alpha-lactalbumin",
+      "Casein",
+      "Interferon"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Rosie, the first transgenic cow, was created in 1997. Her milk contained the human protein alpha-lactalbumin, which made it nutritionally more balanced for human babies than natural cow milk. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A small, circular, self-replicating DNA molecule in bacteria is called a:",
+    "options": [
+      "Chromosome",
+      "Nucleoid",
+      "Plasmid",
+      "Ribosome"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Plasmids are extra-chromosomal, circular DNA molecules that can replicate independently of the chromosomal DNA. They are widely used as vectors in recombinant DNA technology. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique of introducing foreign genes into a host organism is called:",
+    "options": [
+      "Hybridization",
+      "Mutation",
+      "Genetic engineering",
+      "Tissue culture"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Genetic engineering, also known as recombinant DNA technology, is the process of altering the genetic makeup of an organism by introducing, eliminating, or modifying genes. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Bt cotton is a genetically modified crop that is resistant to insect pests.",
+    "answer": "<b>True</b><br><b>Reason:</b> Bt cotton contains a gene from the bacterium <i>Bacillus thuringiensis</i> (Bt) that produces a protein toxic to certain insect pests like the cotton bollworm.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Restriction enzymes are naturally found in all eukaryotic organisms.",
+    "answer": "<b>False</b><br><b>Reason:</b> Restriction enzymes are primarily found in prokaryotic organisms (bacteria) where they function as a defense mechanism against invading viruses.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "DNA ligase is known as 'molecular scissors'.",
+    "answer": "<b>False</b><br><b>Reason:</b> Restriction endonucleases are the 'molecular scissors' as they cut DNA. DNA ligase is the 'molecular glue' as it joins DNA fragments.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The gene for human insulin is cloned into bacteria to produce insulin for diabetic patients.",
+    "answer": "<b>True</b><br><b>Reason:</b> This is a major application of biotechnology. The gene for human insulin is inserted into a bacterial plasmid, and the bacteria are then grown in large fermenters to produce insulin in large quantities.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Golden Rice is a transgenic crop enriched with Vitamin A.",
+    "answer": "<b>True</b><br><b>Reason:</b> Golden Rice is a genetically engineered variety of rice (Oryza sativa) that produces beta-carotene, a precursor of Vitamin A, in the edible part of the rice grain.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are restriction enzymes and what is their role in genetic engineering?",
+    "answer": "<b>Restriction enzymes</b> are enzymes found in bacteria that recognize and cut DNA at specific nucleotide sequences, known as restriction sites. They are often called 'molecular scissors'.<br><br><b>Role:</b> Their primary role in genetic engineering is to cut the desired gene from one organism and to cut the plasmid vector at a specific site, allowing the foreign gene to be inserted into the vector.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a plasmid? Why is it a good vector for cloning?",
+    "answer": "A <b>plasmid</b> is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids naturally exist in bacterial cells and some eukaryotes.<br><br><b>Reasons for being a good vector:</b><br><ul><li>They are easily isolated from bacteria.</li><li>They can replicate independently of the host chromosome.</li><li>They often contain genes for antibiotic resistance, which can be used as a selectable marker.</li><li>They have multiple cloning sites (MCS) where foreign DNA can be inserted.</li></ul>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the Polymerase Chain Reaction (PCR)? What are its main steps?",
+    "answer": "<b>Polymerase Chain Reaction (PCR)</b> is a laboratory technique used to amplify a specific segment of DNA, creating millions of copies in a short time.<br><br><b>Main Steps:</b><br>1. <b>Denaturation:</b> The DNA is heated to separate the double-stranded DNA into single strands.<br>2. <b>Annealing:</b> The temperature is lowered, allowing short DNA primers to bind to the single-stranded DNA templates.<br>3. <b>Extension:</b> DNA polymerase synthesizes new DNA strands by adding nucleotides to the primers. This cycle is repeated multiple times to achieve exponential amplification.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Name any two applications of biotechnology in the field of medicine.",
+    "answer": "1. <b>Production of Insulin:</b> The gene for human insulin is inserted into bacterial plasmids, which are then used to produce large quantities of insulin for treating diabetic patients.<br>2. <b>Gene Therapy:</b> This technique involves replacing a defective gene with a healthy one to cure genetic diseases like cystic fibrosis and hemophilia.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a transgenic organism? Give one example. (PYQ: March 2020)",
+    "answer": "A <b>transgenic organism</b> is an organism that has had a foreign gene (transgene) introduced into its genome. The foreign gene can be from a different species and is passed on to subsequent generations.<br><br><b>Example:</b> Bt Cotton, which has a gene from a bacterium (<i>Bacillus thuringiensis</i>) that makes it resistant to certain insect pests.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of gel electrophoresis with a diagram.",
+    "answer": "<b>Gel electrophoresis</b> is a technique used to separate charged molecules, like DNA or proteins, based on their size and charge.<br><br><b>Process:</b><br>1. <b>Gel Preparation:</b> A gel matrix (typically agarose for DNA) is prepared, and wells are created at one end.<br>2. <b>Sample Loading:</b> DNA samples, which are negatively charged, are loaded into the wells. A dye is added to track the movement.<br>3. <b>Electrophoresis:</b> An electric current is applied across the gel. The negatively charged DNA fragments migrate towards the positive electrode.<br>4. <b>Separation:</b> Smaller DNA fragments can move more easily through the pores of the gel matrix, so they travel faster and farther than larger fragments.<br>5. <b>Visualization:</b> After the separation, the DNA fragments are stained with a fluorescent dye and visualized under UV light, appearing as distinct bands. Each band represents a group of DNA fragments of the same size. This allows for the comparison of DNA samples. [Image of Gel Electrophoresis Process]<br><b>Significance:</b> This technique is vital for DNA fingerprinting, paternity testing, and gene analysis, as it allows for the clear visualization and separation of DNA fragments.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the steps involved in Recombinant DNA technology.",
+    "answer": "<b>Recombinant DNA (rDNA) technology</b> is a set of techniques used to create new combinations of genetic material by inserting a gene of interest into a vector.<br><br><b>Steps:</b><br>1. <b>Isolation of DNA:</b> The DNA containing the gene of interest and the vector DNA (e.g., plasmid) are isolated from their respective sources.<br>2. <b>Cutting of DNA:</b> Both the gene of interest and the vector are cut at specific sites using the same restriction endonuclease enzyme, creating complementary 'sticky ends'.<br>3. <b>Ligation:</b> The cut gene of interest is mixed with the cut vector. DNA ligase is used to join the sticky ends, forming a recombinant DNA molecule.<br>4. <b>Transformation:</b> The recombinant DNA molecule is introduced into a host organism, typically a bacterium like <i>E. coli</i>. The host cell takes up the foreign DNA.<br>5. <b>Selection and Screening:</b> The transformed cells are grown on a medium containing an antibiotic. Only the cells that have successfully taken up the plasmid (which contains an antibiotic resistance gene) will survive and grow. This allows for the selection of recombinant clones.<br>6. <b>Expression and Harvesting:</b> The host cells are grown in large quantities in bioreactors to produce the desired protein from the inserted gene, which is then purified and harvested.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of bacteria in the production of insulin for diabetic patients.",
+    "answer": "Recombinant DNA technology has revolutionized insulin production by using bacteria to synthesize human insulin, making it safe and widely available.<br><br><b>Process:</b><br>1. <b>Gene Isolation:</b> The gene for human insulin is isolated from human cells.<br>2. <b>Plasmid Vector:</b> A bacterial plasmid is isolated and cut open with a restriction enzyme.<br>3. <b>Gene Insertion:</b> The human insulin gene is inserted into the cut plasmid, and DNA ligase joins them to create a recombinant plasmid.<br>4. <b>Transformation:</b> The recombinant plasmid is introduced into a host bacterium (like <i>E. coli</i>) through a process called transformation.<br>5. <b>Mass Production:</b> The genetically engineered bacteria are grown in large fermentation tanks. As the bacteria multiply, they replicate the recombinant plasmid and express the human insulin gene, producing large amounts of insulin protein.<br>6. <b>Purification:</b> The bacterial cells are harvested, and the human insulin is purified from the culture to be used for treating diabetic patients.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on agricultural applications of biotechnology.",
+    "answer": "Biotechnology has brought about significant advancements in agriculture, leading to the development of Genetically Modified (GM) crops with improved traits.<br><br><b>Key Applications:</b><br>1. <b>Pest Resistance:</b> Genes from bacteria like <i>Bacillus thuringiensis</i> (Bt) are inserted into crops (e.g., Bt cotton, Bt brinjal). These genes produce proteins that are toxic to specific insect pests, reducing the need for chemical pesticides.<br>2. <b>Herbicide Tolerance:</b> Some GM crops are engineered to be resistant to herbicides, allowing farmers to use herbicides to control weeds without harming the crop. An example is glyphosate-resistant soybeans.<br>3. <b>Improved Nutritional Value:</b> Crops are genetically modified to enhance their nutritional content. A prime example is Golden Rice, which is enriched with beta-carotene (a precursor to Vitamin A) to combat Vitamin A deficiency in developing countries.<br>4. <b>Increased Yield and Shelf Life:</b> Genetic modifications can also improve crop yield, increase resistance to drought and salinity, and extend the shelf life of fruits and vegetables (e.g., Flavr Savr tomatoes).",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the concepts of cloning and gene therapy.",
+    "answer": "<b>Cloning:</b><br>Cloning is the process of creating genetically identical individuals. In biotechnology, gene cloning refers to the process of making multiple, identical copies of a specific gene. This is a fundamental step in many applications, such as producing proteins like insulin in bacteria. The cloned genes can be used for various purposes, including studying gene function or creating transgenic organisms.<br><br><b>Gene Therapy:</b><br>Gene therapy is a technique used to treat or prevent genetic diseases by replacing a defective gene with a functional, healthy one. This process typically involves introducing a new gene into the patient's cells using a vector, such as a modified virus. The new gene then provides instructions for the cell to produce a protein that was previously missing or defective, thereby correcting the genetic disorder. Gene therapy is a promising approach for treating a wide range of diseases, including inherited disorders and some types of cancer.",
+    "marks": 3
+  }
+]

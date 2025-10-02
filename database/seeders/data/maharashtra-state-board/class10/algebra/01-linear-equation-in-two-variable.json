@@ -1,333 +1,231 @@
 [
   {
-    "type": "mcq",
-    "text": "Which of the following is a linear equation in two variables?",
-    "options": ["2x + 3 = 7", "x^2 + y = 5", "3x - 2y = 8", "xy = 10"],
-    "correct_answer": "C",
-    "marks": 1
+  "type": "long",
+  "text": "<b>Complete the following activity to solve the simultaneous equations. (Practice Set 1.1)</b><br><br>\\(5x + 3y = 9\\)  ...(I)<br>\\(2x - 3y = 12\\)  ...(II)<br><br><b>Let's add equations (I) and (II).</b><br>\\(5x + 3y = 9\\)<br>+ \\(2x - 3y = 12\\)<br>-----------------<br>\\(7x = [  ]\\)<br>\\(x = [  ] / [  ]\\)<br>\\(x = [  ]\\)<br><br><b>Place</b> \\(x = 3\\) <b>in equation (I).</b><br>\\(5 \\times [  ] + 3y = 9\\)<br>[  ] + 3y = 9<br>\\(3y = 9 - [  ]\\)<br>\\(3y = [  ]\\)<br>\\(y = [  ] / 3\\)<br>\\(y = [  ]\\)<br><br><b>Solution is</b> \\((x, y) = ([  ], [  ])\\).",
+  "answer": "<b>Here is the completed activity with the blanks filled in:</b><br><br><b>Let's add equations (I) and (II).</b><br>\\(5x + 3y = 9\\)<br>+ \\(2x - 3y = 12\\)<br>-----------------<br>\\(7x = [ \\mathbf{21} ]\\)<br>\\(x = [ \\mathbf{21} ] / [ \\mathbf{7} ]\\)<br>\\(x = [ \\mathbf{3} ]\\)<br><br><b>Place</b> \\(x = 3\\) <b>in equation (I).</b><br>\\(5 \\times [ \\mathbf{3} ] + 3y = 9\\)<br>[ \\mathbf{15} ] + 3y = 9<br>\\(3y = 9 - [ \\mathbf{15} ]\\)<br>\\(3y = [ \\mathbf{-6} ]\\)<br>\\(y = [ \\mathbf{-6} ] / 3\\)<br>\\(y = [ \\mathbf{-2} ]\\)<br><br><b>Solution is</b> \\((x, y) = ([ \\mathbf{3} ], [ \\mathbf{-2} ])\\).",
+  "marks": 3
+}
+
+,
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $3a + 5b = 26$; $a + 5b = 22$ (Practice Set 1.1)",
+    "answer": "<b>Given Equations:</b><br>1) $3a + 5b = 26$<br>2) $a + 5b = 22$<br><br><b>Step 1: Eliminate one variable.</b><br>Subtracting equation (2) from equation (1):<br>$(3a + 5b) - (a + 5b) = 26 - 22$<br>$3a + 5b - a - 5b = 4$<br>$2a = 4$<br><br><b>Step 2: Solve for 'a'.</b><br>$a = \\frac{4}{2}$<br>$a = 2$<br><br><b>Step 3: Substitute the value of 'a' to find 'b'.</b><br>Using equation (2):<br>$a + 5b = 22$<br>$2 + 5b = 22$<br>$5b = 22 - 2$<br>$5b = 20$<br>$b = \\frac{20}{5}$<br>$b = 4$<br><br><b>Solution:</b><br>The solution is $(a, b) = (2, 4)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $x + 7y = 10$; $3x - 2y = 7$ (Practice Set 1.1)",
+    "answer": "<b>Given Equations:</b><br>1) $x + 7y = 10$<br>2) $3x - 2y = 7$<br><br><b>Step 1: Make the coefficients of one variable equal.</b><br>Multiply equation (1) by 3:<br>$3(x + 7y) = 3(10)$<br>$3x + 21y = 30$   ...(3)<br><br><b>Step 2: Eliminate the variable.</b><br>Subtract equation (2) from equation (3):<br>$(3x + 21y) - (3x - 2y) = 30 - 7$<br>$3x + 21y - 3x + 2y = 23$<br>$23y = 23$<br><br><b>Step 3: Solve for 'y'.</b><br>$y = \\frac{23}{23}$<br>$y = 1$<br><br><b>Step 4: Substitute the value of 'y' to find 'x'.</b><br>Using equation (1):<br>$x + 7y = 10$<br>$x + 7(1) = 10$<br>$x + 7 = 10$<br>$x = 10 - 7$<br>$x = 3$<br><br><b>Solution:</b><br>The solution is $(x, y) = (3, 1)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $2x - 3y = 9$; $2x + y = 13$ (Practice Set 1.1)",
+    "answer": "<b>Given Equations:</b><br>1) $2x - 3y = 9$<br>2) $2x + y = 13$<br><br><b>Step 1: Eliminate one variable.</b><br>Subtracting equation (1) from equation (2):<br>$(2x + y) - (2x - 3y) = 13 - 9$<br>$2x + y - 2x + 3y = 4$<br>$4y = 4$<br><br><b>Step 2: Solve for 'y'.</b><br>$y = \\frac{4}{4}$<br>$y = 1$<br><br><b>Step 3: Substitute the value of 'y' to find 'x'.</b><br>Using equation (2):<br>$2x + y = 13$<br>$2x + 1 = 13$<br>$2x = 13 - 1$<br>$2x = 12$<br>$x = \\frac{12}{2}$<br>$x = 6$<br><br><b>Solution:</b><br>The solution is $(x, y) = (6, 1)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $5m - 3n = 19$; $m - 6n = -7$ (Practice Set 1.1)",
+    "answer": "<b>Given Equations:</b><br>1) $5m - 3n = 19$<br>2) $m - 6n = -7$<br><br><b>Step 1: Make the coefficients of one variable equal.</b><br>Multiply equation (2) by 5:<br>$5(m - 6n) = 5(-7)$<br>$5m - 30n = -35$   ...(3)<br><br><b>Step 2: Eliminate the variable.</b><br>Subtract equation (3) from equation (1):<br>$(5m - 3n) - (5m - 30n) = 19 - (-35)$<br>$5m - 3n - 5m + 30n = 19 + 35$<br>$27n = 54$<br><br><b>Step 3: Solve for 'n'.</b><br>$n = \\frac{54}{27}$<br>$n = 2$<br><br><b>Step 4: Substitute the value of 'n' to find 'm'.</b><br>Using equation (2):<br>$m - 6n = -7$<br>$m - 6(2) = -7$<br>$m - 12 = -7$<br>$m = -7 + 12$<br>$m = 5$<br><br><b>Solution:</b><br>The solution is $(m, n) = (5, 2)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $5x + 2y = -3$; $x + 5y = 4$ (Practice Set 1.1)",
+    "answer": "<b>Given Equations:</b><br>1) $5x + 2y = -3$<br>2) $x + 5y = 4$<br><br><b>Step 1: Make the coefficients of one variable equal.</b><br>Multiply equation (2) by 5:<br>$5(x + 5y) = 5(4)$<br>$5x + 25y = 20$   ...(3)<br><br><b>Step 2: Eliminate the variable.</b><br>Subtract equation (1) from equation (3):<br>$(5x + 25y) - (5x + 2y) = 20 - (-3)$<br>$5x + 25y - 5x - 2y = 20 + 3$<br>$23y = 23$<br><br><b>Step 3: Solve for 'y'.</b><br>$y = \\frac{23}{23}$<br>$y = 1$<br><br><b>Step 4: Substitute the value of 'y' to find 'x'.</b><br>Using equation (2):<br>$x + 5y = 4$<br>$x + 5(1) = 4$<br>$x + 5 = 4$<br>$x = 4 - 5$<br>$x = -1$<br><br><b>Solution:</b><br>The solution is $(x, y) = (-1, 1)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $\\frac{1}{3}x + y = \\frac{10}{3}$; $2x + \\frac{1}{4}y = \\frac{11}{4}$ (Practice Set 1.1)",
+    "answer": "<b>Given Equations:</b><br>1) $\\frac{1}{3}x + y = \\frac{10}{3}$<br>2) $2x + \\frac{1}{4}y = \\frac{11}{4}$<br><br><b>Step 1: Clear the fractions to simplify the equations.</b><br>Multiply equation (1) by 3:<br>$3 \\times (\\frac{1}{3}x + y) = 3 \\times (\\frac{10}{3})$<br>$x + 3y = 10$   ...(3)<br><br>Multiply equation (2) by 4:<br>$4 \\times (2x + \\frac{1}{4}y) = 4 \\times (\\frac{11}{4})$<br>$8x + y = 11$   ...(4)<br><br><b>Step 2: Solve by substitution.</b><br>From equation (4), we can express y as $y = 11 - 8x$.<br>Substitute this into equation (3):<br>$x + 3(11 - 8x) = 10$<br>$x + 33 - 24x = 10$<br>$-23x = 10 - 33$<br>$-23x = -23$<br>$x = 1$<br><br><b>Step 3: Substitute the value of 'x' back to find 'y'.</b><br>Using $y = 11 - 8x$:<br>$y = 11 - 8(1)$<br>$y = 11 - 8$<br>$y = 3$<br><br><b>Solution:</b><br>The solution is $(x, y) = (1, 3)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $99x + 101y = 499$; $101x + 99y = 501$ (Practice Set 1.1) (PYQ: March 2020)",
+    "answer": "<b>Given Equations:</b><br>1) $99x + 101y = 499$<br>2) $101x + 99y = 501$<br><br><b>Special Method: Add and Subtract</b><br><br><b>Step 1: Add equations (1) and (2).</b><br>$(99x + 101y) + (101x + 99y) = 499 + 501$<br>$200x + 200y = 1000$<br>Dividing by 200:<br>$x + y = 5$   ...(3)<br><br><b>Step 2: Subtract equation (1) from equation (2).</b><br>$(101x + 99y) - (99x + 101y) = 501 - 499$<br>$2x - 2y = 2$<br>Dividing by 2:<br>$x - y = 1$   ...(4)<br><br><b>Step 3: Solve the new simple equations.</b><br>Adding equations (3) and (4):<br>$2x = 6$<br>$x = 3$<br><br><b>Step 4: Substitute the value of 'x' to find 'y'.</b><br>Using equation (3):<br>$3 + y = 5$<br>$y = 2$<br><br><b>Solution:</b><br>The solution is $(x, y) = (3, 2)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Solve the simultaneous equations: $49x - 57y = 172$; $57x - 49y = 252$ (Practice Set 1.1)",
+    "answer": "<b>Given Equations:</b><br>1) $49x - 57y = 172$<br>2) $57x - 49y = 252$<br><br><b>Special Method: Add and Subtract</b><br><br><b>Step 1: Add equations (1) and (2).</b><br>$(49x - 57y) + (57x - 49y) = 172 + 252$<br>$106x - 106y = 424$<br>Dividing by 106:<br>$x - y = 4$   ...(3)<br><br><b>Step 2: Subtract equation (1) from equation (2).</b><br>$(57x - 49y) - (49x - 57y) = 252 - 172$<br>$8x + 8y = 80$<br>Dividing by 8:<br>$x + y = 10$   ...(4)<br><br><b>Step 3: Solve the new simple equations.</b><br>Adding equations (3) and (4):<br>$2x = 14$<br>$x = 7$<br><br><b>Step 4: Substitute the value of 'x' to find 'y'.</b><br>Using equation (4):<br>$7 + y = 10$<br>$y = 3$<br><br><b>Solution:</b><br>The solution is $(x, y) = (7, 3)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Complete the following table to draw the graph of the equation $x + y = 3$. (Practice Set 1.2)<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>x</th><td style='padding: 8px;'>3</td><td style='padding: 8px;'>[  ]</td><td style='padding: 8px;'>[  ]</td></tr><tr><th style='padding: 8px;'>y</th><td style='padding: 8px;'>[  ]</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>3</td></tr><tr><th style='padding: 8px;'>(x, y)</th><td style='padding: 8px;'>(3, [  ])</td><td style='padding: 8px;'>([  ], 5)</td><td style='padding: 8px;'>([  ], 3)</td></tr></table>",
+    "answer": "<b>Step-by-step completion:</b><br><br>1. <b>When $x = 3$:</b> $3 + y = 3 \\implies y = 0$. Point is $(3, 0)$.<br>2. <b>When $y = 5$:</b> $x + 5 = 3 \\implies x = -2$. Point is $(-2, 5)$.<br>3. <b>When $y = 3$:</b> $x + 3 = 3 \\implies x = 0$. Point is $(0, 3)$.<br><br><b>Completed Table:</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>x</th><td style='padding: 8px;'>3</td><td style='padding: 8px;'><b>-2</b></td><td style='padding: 8px;'><b>0</b></td></tr><tr><th style='padding: 8px;'>y</th><td style='padding: 8px;'><b>0</b></td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>3</td></tr><tr><th style='padding: 8px;'>(x, y)</th><td style='padding: 8px;'>(3, <b>0</b>)</td><td style='padding: 8px;'>(<b>-2</b>, 5)</td><td style='padding: 8px;'>(<b>0</b>, 3)</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Complete the following table to draw the graph of the equation $x - y = 4$. (Practice Set 1.2)<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>x</th><td style='padding: 8px;'>4</td><td style='padding: 8px;'>-1</td><td style='padding: 8px;'>0</td></tr><tr><th style='padding: 8px;'>y</th><td style='padding: 8px;'>[  ]</td><td style='padding: 8px;'>[  ]</td><td style='padding: 8px;'>-4</td></tr><tr><th style='padding: 8px;'>(x, y)</th><td style='padding: 8px;'>(4, [  ])</td><td style='padding: 8px;'>(-1, [  ])</td><td style='padding: 8px;'>(0, -4)</td></tr></table>",
+    "answer": "<b>Step-by-step completion:</b><br><br>1. <b>When $x = 4$:</b> $4 - y = 4 \\implies y = 0$. Point is $(4, 0)$.<br>2. <b>When $x = -1$:</b> $-1 - y = 4 \\implies -y = 5 \\implies y = -5$. Point is $(-1, -5)$.<br><br><b>Completed Table:</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>x</th><td style='padding: 8px;'>4</td><td style='padding: 8px;'>-1</td><td style='padding: 8px;'>0</td></tr><tr><th style='padding: 8px;'>y</th><td style='padding: 8px;'><b>0</b></td><td style='padding: 8px;'><b>-5</b></td><td style='padding: 8px;'>-4</td></tr><tr><th style='padding: 8px;'>(x, y)</th><td style='padding: 8px;'>(4, <b>0</b>)</td><td style='padding: 8px;'>(-1, <b>-5</b>)</td><td style='padding: 8px;'>(0, -4)</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $x + y = 6$; $x - y = 4$ (Practice Set 1.2)",
+    "answer": "To solve graphically, we need to find points for each line.<br><br><b>For line 1: $x + y = 6$</b><br><ul><li>If $x = 0$, $y = 6$. Point: $(0, 6)$</li><li>If $y = 0$, $x = 6$. Point: $(6, 0)$</li><li>If $x = 2$, $y = 4$. Point: $(2, 4)$</li></ul><b>For line 2: $x - y = 4$</b><br><ul><li>If $x = 0$, $y = -4$. Point: $(0, -4)$</li><li>If $y = 0$, $x = 4$. Point: $(4, 0)$</li><li>If $x = 2$, $y = -2$. Point: $(2, -2)$</li></ul><b>Graphical Solution:</b><br>By plotting these points on a graph and drawing the lines, we find that the two lines intersect at the point <b>(5, 1)</b>.<br><br><b>Solution:</b> The solution is $(x, y) = (5, 1)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $x + y = 5$; $x - y = 3$ (Practice Set 1.2)",
+    "answer": "<b>For line 1: $x + y = 5$</b><br>Points: $(0, 5), (5, 0), (2, 3)$<br><br><b>For line 2: $x - y = 3$</b><br>Points: $(0, -3), (3, 0), (1, -2)$<br><br><b>Graphical Solution:</b><br>Plotting these points on a graph shows that the lines intersect at the point <b>(4, 1)</b>.<br><br><b>Solution:</b> The solution is $(x, y) = (4, 1)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $x + y = 0$; $2x - y = 9$ (Practice Set 1.2)",
+    "answer": "<b>For line 1: $x + y = 0$</b><br>Points: $(0, 0), (2, -2), (-1, 1)$<br><br><b>For line 2: $2x - y = 9$</b><br>Points: $(0, -9), (4.5, 0), (4, -1)$<br><br><b>Graphical Solution:</b><br>Plotting these points on a graph shows that the lines intersect at the point <b>(3, -3)</b>.<br><br><b>Solution:</b> The solution is $(x, y) = (3, -3)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $3x - y = 2$; $2x - y = 3$ (Practice Set 1.2)",
+    "answer": "<b>For line 1: $3x - y = 2$</b><br>Points: $(0, -2), (1, 1), (2, 4)$<br><br><b>For line 2: $2x - y = 3$</b><br>Points: $(0, -3), (1, -1), (2, 1)$<br><br><b>Graphical Solution:</b><br>Plotting these points on a graph shows that the lines intersect at the point <b>(-1, -5)</b>.<br><br><b>Solution:</b> The solution is $(x, y) = (-1, -5)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $3x - 4y = -7$; $5x - 2y = 0$ (Practice Set 1.2)",
+    "answer": "<b>For line 1: $3x - 4y = -7$</b><br>Points: $(1, 2.5), (-3, -0.5), (5, 5.5)$<br><br><b>For line 2: $5x - 2y = 0$</b><br>Points: $(0, 0), (2, 5), (-2, -5)$<br><br><b>Graphical Solution:</b><br>Plotting these points on a graph shows that the lines intersect at the point <b>(1, 2.5)</b>.<br><br><b>Solution:</b> The solution is $(x, y) = (1, 2.5)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $2x - 3y = 4$; $3y - x = 4$ (Practice Set 1.2) (PYQ: March 2022)",
+    "answer": "<b>For line 1: $2x - 3y = 4$</b><br>Points: $(2, 0), (5, 2), (-1, -2)$<br><br><b>For line 2: $3y - x = 4$</b><br>Points: $(-4, 0), (2, 2), (5, 3)$<br><br><b>Graphical Solution:</b><br>Plotting these points on a graph shows that the lines intersect at the point <b>(8, 4)</b>.<br><br><b>Solution:</b> The solution is $(x, y) = (8, 4)$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Find the value of the determinant: $$\\begin{vmatrix} 5 & 3 \\\\ -7 & 0 \\end{vmatrix}$$ (Practice Set 1.3)",
+    "answer": "Using the formula $ad - bc$:<br>Value $= (5)(0) - (3)(-7) = 0 - (-21) = 21$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the value of the determinant: $$\\begin{vmatrix} \\frac{7}{3} & \\frac{5}{3} \\\\ \\frac{3}{2} & \\frac{1}{2} \\end{vmatrix}$$ (Practice Set 1.3)",
+    "answer": "Using the formula $ad - bc$:<br>Value $= (\\frac{7}{3})(\\frac{1}{2}) - (\\frac{5}{3})(\\frac{3}{2}) = \\frac{7}{6} - \\frac{15}{6} = \\frac{-8}{6} = -\\frac{4}{3}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Solve using Cramer’s rule: $4x + 3y - 4 = 0$; $6x = 8 - 5y$ (Practice Set 1.3)",
+    "answer": "<b>Step 1: Write equations in standard form $ax + by = c$.</b><br>1) $4x + 3y = 4$<br>2) $6x + 5y = 8$<br><br><b>Step 2: Calculate determinants $D, D_x, D_y$.</b><br>$D = \\begin{vmatrix} 4 & 3 \\\\ 6 & 5 \\end{vmatrix} = (4)(5) - (3)(6) = 20 - 18 = 2$<br>$D_x = \\begin{vmatrix} 4 & 3 \\\\ 8 & 5 \\end{vmatrix} = (4)(5) - (3)(8) = 20 - 24 = -4$<br>$D_y = \\begin{vmatrix} 4 & 4 \\\\ 6 & 8 \\end{vmatrix} = (4)(8) - (4)(6) = 32 - 24 = 8$<br><br><b>Step 3: Find $x$ and $y$.</b><br>$x = \\frac{D_x}{D} = \\frac{-4}{2} = -2$<br>$y = \\frac{D_y}{D} = \\frac{8}{2} = 4$<br><br><b>Solution:</b> $(x, y) = (-2, 4)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve using Cramer’s rule: $4m + 6n = 54$; $3m + 2n = 28$ (Practice Set 1.3)",
+    "answer": "<b>Step 1: Equations are in standard form.</b><br>1) $4m + 6n = 54$<br>2) $3m + 2n = 28$<br><br><b>Step 2: Calculate determinants $D, D_m, D_n$.</b><br>$D = \\begin{vmatrix} 4 & 6 \\\\ 3 & 2 \\end{vmatrix} = (4)(2) - (6)(3) = 8 - 18 = -10$<br>$D_m = \\begin{vmatrix} 54 & 6 \\\\ 28 & 2 \\end{vmatrix} = (54)(2) - (6)(28) = 108 - 168 = -60$<br>$D_n = \\begin{vmatrix} 4 & 54 \\\\ 3 & 28 \\end{vmatrix} = (4)(28) - (54)(3) = 112 - 162 = -50$<br><br><b>Step 3: Find $m$ and $n$.</b><br>$m = \\frac{D_m}{D} = \\frac{-60}{-10} = 6$<br>$n = \\frac{D_n}{D} = \\frac{-50}{-10} = 5$<br><br><b>Solution:</b> $(m, n) = (6, 5)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve the equations by substituting variables: $\\frac{10}{x+y} + \\frac{2}{x-y} = 4$; $\\frac{15}{x+y} - \\frac{5}{x-y} = -2$ (Practice Set 1.4)",
+    "answer": "<b>Step 1: Substitute variables.</b><br>Let $a = \\frac{1}{x+y}$ and $b = \\frac{1}{x-y}$. The equations become:<br>1) $10a + 2b = 4 \\implies 5a + b = 2$<br>2) $15a - 5b = -2$<br><br><b>Step 2: Solve for a and b.</b><br>From (1), $b = 2 - 5a$. Substitute into (2):<br>$15a - 5(2 - 5a) = -2$<br>$15a - 10 + 25a = -2$<br>$40a = 8 \\implies a = \\frac{8}{40} = \\frac{1}{5}$<br>Now find b: $b = 2 - 5(\\frac{1}{5}) = 2 - 1 = 1$<br><br><b>Step 3: Substitute back to find x and y.</b><br>$a = \\frac{1}{5} \\implies \\frac{1}{x+y} = \\frac{1}{5} \\implies x + y = 5$   ...(3)<br>$b = 1 \\implies \\frac{1}{x-y} = 1 \\implies x - y = 1$   ...(4)<br><br><b>Step 4: Solve the new simple equations.</b><br>Add (3) and (4): $2x = 6 \\implies x = 3$<br>Substitute $x=3$ into (3): $3 + y = 5 \\implies y = 2$<br><br><b>Solution:</b> $(x, y) = (3, 2)$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The sum of father's age and twice the age of his son is 70. If we double the age of the father and add it to the age of his son the sum is 95. Find their present ages. (Practice Set 1.5)",
+    "answer": "<b>Step 1: Define variables and form equations.</b><br>Let the father's present age be $x$ years.<br>Let the son's present age be $y$ years.<br><br>From the first condition:<br>$x + 2y = 70$   ...(1)<br><br>From the second condition:<br>$2x + y = 95$   ...(2)<br><br><b>Step 2: Solve the simultaneous equations.</b><br>Multiply equation (2) by 2:<br>$4x + 2y = 190$   ...(3)<br><br>Subtract equation (1) from (3):<br>$(4x + 2y) - (x + 2y) = 190 - 70$<br>$3x = 120$<br>$x = 40$<br><br><b>Step 3: Find the value of y.</b><br>Substitute $x = 40$ into equation (1):<br>$40 + 2y = 70$<br>$2y = 30$<br>$y = 15$<br><br><b>Solution:</b><br>The father's present age is 40 years and the son's present age is 15 years.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "In a factory the ratio of salary of skilled and unskilled workers is $5:3$. Total salary of one day of both of them is Rs 720. Find daily wages of skilled and unskilled workers. (Problem Set 1)",
+    "answer": "<b>Step 1: Define variables and form equations.</b><br>Let the daily wage of a skilled worker be Rs $x$.<br>Let the daily wage of an unskilled worker be Rs $y$.<br><br>From the ratio condition:<br>$\\frac{x}{y} = \\frac{5}{3} \\implies 3x = 5y \\implies 3x - 5y = 0$   ...(1)<br><br>From the total salary condition:<br>$x + y = 720$   ...(2)<br><br><b>Step 2: Solve the simultaneous equations.</b><br>Multiply equation (2) by 5:<br>$5x + 5y = 3600$   ...(3)<br><br>Add equations (1) and (3):<br>$(3x - 5y) + (5x + 5y) = 0 + 3600$<br>$8x = 3600$<br>$x = \\frac{3600}{8}$<br>$x = 450$<br><br><b>Step 3: Find the value of y.</b><br>Substitute $x = 450$ into equation (2):<br>$450 + y = 720$<br>$y = 720 - 450$<br>$y = 270$<br><br><b>Solution:</b><br>The daily wage of a skilled worker is Rs 450 and the daily wage of an unskilled worker is Rs 270.",
+    "marks": 4
   },
   {
     "type": "mcq",
-    "text": "How many solutions does a single linear equation in two variables have?",
-    "options": ["None", "Exactly one", "Exactly two", "Infinitely many"],
-    "correct_answer": "D",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "The point (3, 2) is a solution of which equation?",
-    "options": ["x + y = 6", "2x - y = 4", "x - 2y = 0", "3x + y = 8"],
-    "correct_answer": "D",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "The graph of x = 4 is:",
-    "options": ["A line parallel to x-axis", "A line parallel to y-axis", "A line passing through origin", "A parabola"],
+    "text": "To draw a graph of $4x + 5y = 19$, find $y$ when $x = 1$. (Problem Set 1)",
+    "options": ["4", "3", "2", "-3"],
     "correct_answer": "B",
+    "answer": "<b>Step 1: Substitute the given value of x into the equation.</b><br>$4x + 5y = 19$<br>Given: $x = 1$<br>$4(1) + 5y = 19$<br><br><b>Step 2: Solve for y.</b><br>$4 + 5y = 19$<br>$5y = 19 - 4$<br>$5y = 15$<br>$y = \\frac{15}{5}$<br>$y = 3$<br><br><b>Conclusion:</b> When $x = 1$, $y = 3$. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Which ordered pair lies on the line 2x + y = 7?",
-    "options": ["(1, 5)", "(2, 2)", "(3, 1)", "(0, 7)"],
-    "correct_answer": "C",
+    "text": "For simultaneous equations in variables x and y, if $D_x = 49$, $D_y = -63$, $D = 7$, then what is $x$? (Problem Set 1)",
+    "options": ["7", "-7", "1/7", "-1/7"],
+    "correct_answer": "A",
+    "answer": "<b>Using Cramer's Rule:</b><br>The formula is $x = \\frac{D_x}{D}$.<br><br><b>Step 1: Substitute the given values.</b><br>$D_x = 49$, $D = 7$<br><br><b>Step 2: Calculate $x$.</b><br>$x = \\frac{49}{7} = 7$<br><br><b>Conclusion:</b> The value of $x$ is 7. The correct option is <b>A</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Slope of the line x + y = 5 is:",
-    "options": ["1", "-1", "5", "-5"],
+    "text": "Find the value of the determinant $$\\begin{vmatrix} 5 & 3 \\\\ -7 & -4 \\end{vmatrix}$$ (Problem Set 1)",
+    "options": ["-1", "1", "41", "-41"],
     "correct_answer": "B",
+    "answer": "<b>Formula for 2x2 Determinant:</b><br>The value of $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}$ is calculated as $(a \\times d) - (b \\times c)$.<br><br><b>Step 1: Apply the formula.</b><br>Value $= (5 \\times -4) - (3 \\times -7)$<br>Value $= -20 - (-21)$<br>Value $= -20 + 21 = 1$<br><br><b>Conclusion:</b> The value of the determinant is 1. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "x-intercept of 3x + 2y = 12 is:",
-    "options": ["(0, 6)", "(4, 0)", "(6, 0)", "(0, 4)"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "y-intercept of 5x - y = 10 is:",
-    "options": ["(0, -10)", "(2, 0)", "(0, 10)", "(5, 0)"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Which equation represents a horizontal line?",
-    "options": ["y = -3", "x = -3", "x + y = 3", "3x = y"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Standard form of a linear equation in two variables is:",
-    "options": ["ax + by + c = 0 where a, b not both zero", "ax^2 + by = c", "y = mx^2 + c", "abx + y = 0"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-
-  {
-    "type": "mcq",
-    "text": "If 4x - y = 11, then y in terms of x is:",
-    "options": ["y = 11 - 4x", "y = 4x + 11", "y = 11 + 4x", "y = 4 - 11x"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Which of the following is NOT a solution of x - y = 2?",
-    "options": ["(3, 1)", "(5, 3)", "(2, 0)", "(4, 1)"],
-    "correct_answer": "D",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "The line 2x + 3y = 12 cuts the y-axis at:",
-    "options": ["(0, 4)", "(6, 0)", "(0, 6)", "(4, 0)"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Which of these pairs (x, y) satisfies 3x + 5y = 0?",
-    "options": ["(5, -3)", "(-5, 3)", "(10, -6)", "All of these"],
-    "correct_answer": "D",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "If the cost of pens and pencils is represented by 2x + y = 20, what does x represent?",
-    "options": ["Total cost", "Cost per pencil", "Number of pens", "Number of pencils"],
+    "text": "To solve $x + y = 3$; $3x - 2y - 4 = 0$ by determinant method find $D$. (Problem Set 1)",
+    "options": ["5", "1", "-5", "-1"],
     "correct_answer": "C",
-    "marks": 1
-  },
-
-  {
-    "type": "true_false",
-    "text": "The graph of x + y = 0 passes through the origin. [SSC 2019]",
-    "answer": "True",
+    "answer": "<b>Step 1: Write the equations in standard form.</b><br>1) $x + y = 3$<br>2) $3x - 2y = 4$<br><br><b>Step 2: Form the determinant D.</b><br>$D = \\begin{vmatrix} 1 & 1 \\\\ 3 & -2 \\end{vmatrix}$<br><br><b>Step 3: Calculate the value of D.</b><br>$D = (1)(-2) - (1)(3) = -2 - 3 = -5$<br><br><b>Conclusion:</b> The value of D is -5. The correct option is <b>C</b>.",
     "marks": 1
   },
   {
-    "type": "true_false",
-    "text": "Every equation of the form ax + by = c (a and b both zero) is linear. [SSC 2016]",
-    "answer": "False",
+    "type": "mcq",
+    "text": "For equations $ax + by = c$ and $mx + ny = d$, if $an \\neq bm$, then these simultaneous equations have... (Problem Set 1)",
+    "options": ["Only one common solution", "No solution", "Infinite number of solutions", "Only two solutions"],
+    "correct_answer": "A",
+    "answer": "<b>Understanding the Condition:</b><br>The condition $an \\neq bm$ can be rewritten as $an - bm \\neq 0$.<br><br><b>Connection to Determinants:</b><br>The main determinant D for this system is $D = \\begin{vmatrix} a & b \\\\ m & n \\end{vmatrix} = an - bm$.<br><br><b>Cramer's Rule states:</b><br>If $D \\neq 0$, the system has exactly one unique solution.<br><br><b>Conclusion:</b><br>Since $an - bm \\neq 0$, it means $D \\neq 0$. Therefore, the system has <b>Only one common solution</b>. The correct option is <b>A</b>.",
     "marks": 1
   },
-  {
-    "type": "true_false",
-    "text": "The equation y = 5 represents a line parallel to the x-axis. [SSC 2021]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "Point (2, 3) lies on 2x + y = 8. [SSC 2018]",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "Any two distinct solutions of a linear equation in two variables determine its graph uniquely.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "The equation 0x + 3y = 9 is not a linear equation in two variables. [SSC 2017]",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "x = -2 and y = -2 represent the same line. [Predicted 2025]",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "All solutions of x - y = 1 lie on a straight line. [SSC 2020]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "The equation y = mx + c is linear only when c = 0. [Predicted 2025]",
-    "answer": "False",
-    "marks": 1
-  },
-
-  {
-    "type": "short",
-    "text": "Check whether (4, -1) is a solution of 3x + y = 11. [SSC 2017]",
-    "answer": "Substitute: 3(4) + (-1) = 12 - 1 = 11. Yes, it satisfies.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the x-intercept and y-intercept of 2x + y = 6. [SSC 2018]",
-    "answer": "For y = 0: 2x = 6 -> x = 3, so (3, 0). For x = 0: y = 6, so (0, 6).",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Express 5x - 7 = 3y in the form ax + by + c = 0 and identify a, b, c. [SSC 2019]",
-    "answer": "5x - 3y - 7 = 0. Here a = 5, b = -3, c = -7.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find any two solutions of x + 2y = 8. [SSC 2016]",
-    "answer": "Take y = 0 => x = 8 => (8, 0). Take y = 2 => x = 4 => (4, 2).",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "The cost of 1 notebook is Rs. 20 and 1 pen is Rs. 10. Write the linear equation if a student spends Rs. 150 on x notebooks and y pens. [SSC 2022]",
-    "answer": "20x + 10y = 150 or 2x + y = 15.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write the equation of the line passing through (0, 4) and parallel to x-axis. [SSC 2020]",
-    "answer": "y = 4.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "If the line passes through (2, 3) with slope -2, write its equation in slope-intercept form. [Predicted 2025]",
-    "answer": "y - 3 = -2(x - 2) -> y = -2x + 7.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Determine whether (1, 2) lies on 4x - 2y = 0. [SSC 2021]",
-    "answer": "4(1) - 2(2) = 4 - 4 = 0; Yes, the point lies on the line.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the equation of the line with x-intercept 5 and y-intercept 3. [SSC 2018]",
-    "answer": "x/5 + y/3 = 1 -> 3x + 5y = 15.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Convert y = 7 - 3x into standard form and state coefficients. [SSC 2016]",
-    "answer": "3x + y - 7 = 0; a = 3, b = 1, c = -7.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Give the geometric meaning of the solution set of ax + by = c. [SSC 2019]",
-    "answer": "All points on a straight line in the plane that satisfy the equation.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write the equation of the vertical line passing through (-3, 5). [SSC 2017]",
-    "answer": "x = -3.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the value of k if (2, 1) is a solution of kx + 3y = 11. [SSC 2023]",
-    "answer": "k(2) + 3(1) = 11 -> 2k + 3 = 11 -> k = 4.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Check if (0, -5) satisfies 5x + y + 5 = 0. [Predicted 2025]",
-    "answer": "5(0) + (-5) + 5 = 0; Yes, it satisfies.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the intercepts of 4x - y = 8. [SSC 2022]",
-    "answer": "x-intercept: set y = 0 -> 4x = 8 -> x = 2 -> (2, 0). y-intercept: set x = 0 -> -y = 8 -> y = -8 -> (0, -8).",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Write a linear equation for: The sum of a number x and twice another number y is 12. [SSC 2020]",
-    "answer": "x + 2y = 12.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the equation of a line with slope 3 and y-intercept -2. [Predicted 2025]",
-    "answer": "y = 3x - 2.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "If 6x + y = 13, find y when x = 1.5. [SSC 2018]",
-    "answer": "6(1.5) + y = 13 -> 9 + y = 13 -> y = 4.",
-    "marks": 2
-  },
-
   {
     "type": "long",
-    "text": "Plot the line x + y = 6 on a graph paper by finding at least two points, and find the area of the triangle formed by the line and the coordinate axes. [SSC 2019]",
-    "answer": "Intercepts: (6, 0) and (0, 6). Join to draw the line. Triangle with vertices (0,0), (6,0), (0,6). Area = (1/2) × base × height = (1/2) × 6 × 6 = 18 sq. units.",
+    "text": "Complete the following table to draw the graph of $2x - 6y = 3$. (Problem Set 1)<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>x</th><td style='padding: 8px;'>-5</td><td style='padding: 8px;'>[  ]</td></tr><tr><th style='padding: 8px;'>y</th><td style='padding: 8px;'>[  ]</td><td style='padding: 8px;'>0</td></tr><tr><th style='padding: 8px;'>(x, y)</th><td style='padding: 8px;'>(-5, [  ])</td><td style='padding: 8px;'>([  ], 0)</td></tr></table>",
+    "answer": "<b>Step-by-step completion:</b><br><br>1. <b>When $x = -5$:</b><br>$2(-5) - 6y = 3$<br>$-10 - 6y = 3$<br>$-6y = 13 \\implies y = -\\frac{13}{6}$<br><br>2. <b>When $y = 0$:</b><br>$2x - 6(0) = 3$<br>$2x = 3 \\implies x = \\frac{3}{2}$ or 1.5<br><br><b>Completed Table:</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>x</th><td style='padding: 8px;'>-5</td><td style='padding: 8px;'><b>3/2</b></td></tr><tr><th style='padding: 8px;'>y</th><td style='padding: 8px;'><b>-13/6</b></td><td style='padding: 8px;'>0</td></tr><tr><th style='padding: 8px;'>(x, y)</th><td style='padding: 8px;'>(-5, <b>-13/6</b>)</td><td style='padding: 8px;'>(<b>3/2</b>, 0)</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Solve the following simultaneous equations graphically: $2x + 3y = 12$; $x - y = 1$ (Problem Set 1)",
+    "answer": "<b>For line 1: $2x + 3y = 12$</b><br>Points: $(0, 4), (6, 0), (3, 2)$<br><br><b>For line 2: $x - y = 1$</b><br>Points: $(0, -1), (1, 0), (3, 2)$<br><br><b>Graphical Solution:</b><br>Plotting these lines on a graph, they intersect at the point <b>(3, 2)</b>.<br><br><b>Solution:</b> $(x, y) = (3, 2)$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "A taxi fare consists of a fixed charge of Rs. 50 and Rs. 12 per km. Write a linear equation in two variables representing total fare y for x km. Draw its graph and find the fare for 8 km. [Predicted 2025]",
-    "answer": "Equation: y = 50 + 12x. Plot for x = 0 -> y = 50; x = 5 -> y = 110. Join to get the line. For x = 8: y = 50 + 12(8) = 146.",
+    "text": "Solve using Cramer's rule: $6x - 3y = -10$; $3x + 5y - 8 = 0$ (Problem Set 1)",
+    "answer": "<b>Step 1: Standard form.</b><br>1) $6x - 3y = -10$<br>2) $3x + 5y = 8$<br><br><b>Step 2: Calculate determinants.</b><br>$D = \\begin{vmatrix} 6 & -3 \\\\ 3 & 5 \\end{vmatrix} = 30 - (-9) = 39$<br>$D_x = \\begin{vmatrix} -10 & -3 \\\\ 8 & 5 \\end{vmatrix} = -50 - (-24) = -26$<br>$D_y = \\begin{vmatrix} 6 & -10 \\\\ 3 & 8 \\end{vmatrix} = 48 - (-30) = 78$<br><br><b>Step 3: Find $x$ and $y$.</b><br>$x = \\frac{D_x}{D} = \\frac{-26}{39} = -\\frac{2}{3}$<br>$y = \\frac{D_y}{D} = \\frac{78}{39} = 2$<br><br><b>Solution:</b> $(x, y) = (-\\frac{2}{3}, 2)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Solve by substituting variables: $\\frac{2}{x} + \\frac{2}{3y} = \\frac{1}{6}$; $\\frac{3}{x} + \\frac{2}{y} = 0$ (Problem Set 1)",
+    "answer": "<b>Step 1: Substitute variables.</b><br>Let $a = 1/x$ and $b = 1/y$.<br>1) $2a + \\frac{2}{3}b = \\frac{1}{6} \\implies 12a + 4b = 1$<br>2) $3a + 2b = 0$<br><br><b>Step 2: Solve for a and b.</b><br>From (2), $2b = -3a \\implies b = -\\frac{3a}{2}$. Substitute into (1):<br>$12a + 4(-\\frac{3a}{2}) = 1$<br>$12a - 6a = 1 \\implies 6a = 1 \\implies a = \\frac{1}{6}$<br>Now find b: $b = -\\frac{3(1/6)}{2} = -\\frac{1}{2} \\div 2 = -\\frac{1}{4}$<br><br><b>Step 3: Find $x$ and $y$.</b><br>$a = 1/x \\implies 1/6 = 1/x \\implies x = 6$<br>$b = 1/y \\implies -1/4 = 1/y \\implies y = -4$<br><br><b>Solution:</b> $(x, y) = (6, -4)$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "The perimeter P of a rectangle is 40 cm. If the length is x cm and breadth is y cm, write the linear equation. If length is 12 cm, find breadth. Draw a suitable table of values. [SSC 2018]",
-    "answer": "Perimeter: 2(x + y) = 40 -> x + y = 20. If x = 12, y = 8. Sample table: (0, 20), (10, 10), (12, 8), (20, 0).",
+    "text": "A two digit number and the number with digits interchanged add up to 143. In the given number the digit in unit's place is 3 more than the digit in the ten's place. Find the original number. (Problem Set 1)",
+    "answer": "<b>Step 1: Define variables.</b><br>Let the digit in the ten's place be $x$.<br>Let the digit in the unit's place be $y$.<br>The original number is $10x + y$.<br>The interchanged number is $10y + x$.<br><br><b>Step 2: Form equations.</b><br>From the first condition:<br>$(10x + y) + (10y + x) = 143$<br>$11x + 11y = 143 \\implies x + y = 13$   ...(1)<br><br>From the second condition:<br>$y = x + 3 \\implies -x + y = 3$   ...(2)<br><br><b>Step 3: Solve the equations.</b><br>Add (1) and (2):<br>$(x + y) + (-x + y) = 13 + 3$<br>$2y = 16 \\implies y = 8$<br><br>Substitute $y=8$ into (1):<br>$x + 8 = 13 \\implies x = 5$<br><br><b>Step 4: Find the original number.</b><br>The number is $10x + y = 10(5) + 8 = 58$.<br><br><b>Solution:</b> The original number is 58.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "A shopkeeper sells notebooks at Rs. 30 each and pens at Rs. 10 each. If the total sale for a day is Rs. 600, write the linear equation. Find two different combinations of notebooks and pens satisfying it and interpret them. [SSC 2021]",
-    "answer": "30x + 10y = 600 -> 3x + y = 20. Examples: x=0 -> y=20; x=5 -> y=5; x=6 -> y=2. Interpretation: (x, y) gives number of notebooks and pens that reach sales of Rs. 600.",
+    "text": "The sum of the present ages of Manish and Savita is 31. Manish's age 3 years ago was 4 times the age of Savita. Find their present ages. (Problem Set 1)",
+    "answer": "<b>Step 1: Define variables.</b><br>Let Manish's present age be $x$.<br>Let Savita's present age be $y$.<br><br><b>Step 2: Form equations.</b><br>From the first condition:<br>$x + y = 31$   ...(1)<br><br>3 years ago:<br>Manish's age was $x - 3$.<br>Savita's age was $y - 3$.<br>From the second condition:<br>$x - 3 = 4(y - 3)$<br>$x - 3 = 4y - 12$<br>$x - 4y = -9$   ...(2)<br><br><b>Step 3: Solve the equations.</b><br>Subtract equation (2) from (1):<br>$(x + y) - (x - 4y) = 31 - (-9)$<br>$5y = 40 \\implies y = 8$<br><br>Substitute $y=8$ into (1):<br>$x + 8 = 31 \\implies x = 23$<br><br><b>Solution:</b><br>Manish's present age is 23 and Savita's present age is 8.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "From the graph of a line passing through (0, 4) and (4, 0), write its equation and find the intercepts. Also find the area of triangle formed with the axes. [SSC 2017]",
-    "answer": "Intercept form: x/4 + y/4 = 1 -> x + y = 4. Intercepts: (4, 0), (0, 4). Area = (1/2) × 4 × 4 = 8 sq. units.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "A mobile plan has a monthly rental of Rs. 199 and Rs. 1.5 per SMS. Write the linear equation relating monthly cost y and number of SMS x. Draw the graph and estimate cost for 120 SMS. [Predicted 2025]",
-    "answer": "y = 199 + 1.5x. Points: (0, 199), (100, 349). For x = 120: y = 199 + 1.5(120) = 379.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Two numbers x and y add up to 30. Write a linear equation, prepare a value table for at least four pairs, and show that all such solutions lie on a straight line. [SSC 2020]",
-    "answer": "x + y = 30. Sample pairs: (0,30), (10,20), (20,10), (30,0). Plot points—they are collinear, forming the line x + y = 30.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "The total revenue R (in Rs.) from selling x units of a product at Rs. 75 each and y units at Rs. 50 each is Rs. 2000. Write the linear equation. Find two solutions and interpret. [SSC 2022]",
-    "answer": "75x + 50y = 2000 -> divide by 25: 3x + 2y = 80. Solutions: x=0->y=40; x=20->y=20. Interpretation: feasible sales mixes for revenue 2000.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Draw the graph of 2x + y = 8 using any two points. Find coordinates where it meets the axes, and compute area of the triangle formed with the axes. [SSC 2016]",
-    "answer": "Intercepts: (4,0) and (0,8). Pick (0,8) and (4,0) to draw. Area = (1/2) × 4 × 8 = 16 sq. units.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "For a school funfair, entry ticket for adults is Rs. 50 and for children is Rs. 20. If total collection is Rs. 2000, write a linear equation and obtain three distinct solutions. Explain the meaning of each solution. [Predicted 2025]",
-    "answer": "50x + 20y = 2000 -> 5x + 2y = 200. Solutions: (0,100), (20,50), (40,0). Meaning: (x,y) is (adults, children) combinations reaching Rs. 2000.",
+    "text": "Places A and B are 30 km apart and they are on a straight road. Hamid travels from A to B on bike. At the same time Joseph starts from B on bike, travels towards A. They meet each other after 20 minutes. If Joseph would have started from B at the same time but in the opposite direction (instead of towards A), Hamid would have caught him after 3 hours. Find the speed of Hamid and Joseph. (Problem Set 1)",
+    "answer": "<b>Step 1: Define variables.</b><br>Let Hamid's speed be $x$ km/hr.<br>Let Joseph's speed be $y$ km/hr.<br>Distance = 30 km.<br><br><b>Case 1: They travel towards each other.</b><br>Time = 20 minutes = $1/3$ hour.<br>Relative speed = $x + y$.<br>Distance = Speed $\\times$ Time<br>$30 = (x + y) \\times (1/3) \\implies x + y = 90$   ...(1)<br><br><b>Case 2: They travel in the same direction.</b><br>Time = 3 hours.<br>Relative speed = $x - y$. (Assuming Hamid is faster)<br>The extra distance Hamid must cover is 30 km.<br>Distance = Speed $\\times$ Time<br>$30 = (x - y) \\times 3 \\implies x - y = 10$   ...(2)<br><br><b>Step 3: Solve the equations.</b><br>Add (1) and (2):<br>$(x + y) + (x - y) = 90 + 10$<br>$2x = 100 \\implies x = 50$<br><br>Substitute $x=50$ into (1):<br>$50 + y = 90 \\implies y = 40$<br><br><b>Solution:</b><br>Hamid's speed is 50 km/hr and Joseph's speed is 40 km/hr.",
     "marks": 4
   }
 ]
+

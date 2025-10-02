@@ -1,0 +1,1263 @@
+[
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the x-axis, and the lines $x=0$ and $x=2$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{8}{3}$ sq. units",
+      "(b) $\\frac{4}{3}$ sq. units",
+      "(c) 8 sq. units",
+      "(d) 2 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by the definite integral $\\int_{0}^{2} y dx$. Substituting $y=x^2$, we get $\\int_{0}^{2} x^2 dx = [\\frac{x^3}{3}]_{0}^{2} = \\frac{2^3}{3} - \\frac{0^3}{3} = \\frac{8}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\pi$ is: (MHT CET 2019)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 2 sq. units",
+      "(c) 0 sq. units",
+      "(d) -1 sq. unit"
+    ],
+    "correct_answer": "b",
+    "answer": "The area is given by $\\int_{0}^{\\pi} y dx = \\int_{0}^{\\pi} \\sin x dx = [-\\cos x]_{0}^{\\pi} = -\\cos\\pi - (-\\cos 0) = -(-1) - (-1) = 1+1=2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=4ax$ and the line $x=a$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{8a^2}{3}$ sq. units",
+      "(b) $\\frac{4a^2}{3}$ sq. units",
+      "(c) $\\frac{16a^2}{3}$ sq. units",
+      "(d) $\\frac{a^2}{3}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The parabola $y^2=4ax$ is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{a} y dx = 2\\int_{0}^{a} 2\\sqrt{ax} dx = 4\\sqrt{a}[\\frac{x^{3/2}}{3/2}]_{0}^{a} = \\frac{8\\sqrt{a}}{3}(a^{3/2}) = \\frac{8a^2}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the parabola $y=x^2$ and the line $y=x$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "First, find the points of intersection by setting $x^2=x$, which gives $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (x-x^2) dx = [\\frac{x^2}{2}-\\frac{x^3}{3}]_{0}^{1} = (\\frac{1}{2}-\\frac{1}{3}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=4x-x^2$ and the x-axis is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{8}{3}$ sq. units",
+      "(c) $\\frac{16}{3}$ sq. units",
+      "(d) $\\frac{64}{3}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The curve intersects the x-axis when $y=0$, which gives $4x-x^2=0$, so $x(4-x)=0$. The limits of integration are $x=0$ and $x=4$. The area is $\\int_{0}^{4} (4x-x^2) dx = [2x^2-\\frac{x^3}{3}]_{0}^{4} = (2(16)-\\frac{64}{3}) - 0 = 32-\\frac{64}{3}=\\frac{96-64}{3}=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curves $y=x^2$ and $y^2=x$ is: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{1}{3}$ sq. units",
+      "(b) $\\frac{1}{2}$ sq. units",
+      "(c) $\\frac{1}{4}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $y=x^2$ and $y^2=x$, so $(x^2)^2=x$, which gives $x^4-x=0$. The solutions are $x=0$ and $x=1$. The area is $\\int_{0}^{1} (\\sqrt{x}-x^2) dx = [\\frac{x^{3/2}}{3/2}-\\frac{x^3}{3}]_{0}^{1} = (\\frac{2}{3}-\\frac{1}{3})-0=\\frac{1}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^3$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{1}{4}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) 0 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{1} x^3 dx = [\\frac{x^4}{4}]_{0}^{1} = \\frac{1^4}{4}-\\frac{0^4}{4} = \\frac{1}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\sqrt{x}$, the x-axis, and the line $x=4$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $\\frac{16}{3}$ sq. units",
+      "(b) $\\frac{8}{3}$ sq. units",
+      "(c) 4 sq. units",
+      "(d) $\\frac{4}{3}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{4} y dx = \\int_{0}^{4} \\sqrt{x} dx = \\int_{0}^{4} x^{1/2} dx = [\\frac{x^{3/2}}{3/2}]_{0}^{4} = \\frac{2}{3}(4^{3/2}-0) = \\frac{2}{3}(8)=\\frac{16}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the circle $x^2+y^2=a^2$ is: (MHT CET 2015)",
+    "options": [
+      "(a) $\\pi a^2$",
+      "(b) $4\\pi a^2$",
+      "(c) $2\\pi a^2$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area of a circle with radius $a$ is given by the formula $\\pi a^2$. Using integration, the area is $4\\int_{0}^{a} \\sqrt{a^2-x^2} dx$, which evaluates to $\\pi a^2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=e^x$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2014)",
+    "options": [
+      "(a) $e-1$",
+      "(b) $e$",
+      "(c) $1-e$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{1} y dx = \\int_{0}^{1} e^x dx = [e^x]_{0}^{1} = e^1-e^0 = e-1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the line $y=4x-1$, the x-axis, and the lines $x=1$ and $x=2$ is: (MHT CET 2013)",
+    "options": [
+      "(a) 5 sq. units",
+      "(b) 2 sq. units",
+      "(c) 3 sq. units",
+      "(d) 6 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{1}^{2} (4x-1) dx = [2x^2-x]_{1}^{2} = (2(2^2)-2) - (2(1^2)-1) = (8-2) - (2-1) = 6-1=5$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^2-4$ and the x-axis is: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curve intersects the x-axis when $y=0$, which gives $x^2-4=0$, so $x=\\pm 2$. Since the parabola is below the x-axis between $-2$ and $2$, the area is $|\\int_{-2}^{2} (x^2-4) dx| = |[\\frac{x^3}{3}-4x]_{-2}^{2}| = |(\\frac{8}{3}-8) - (-\\frac{8}{3}+8)| = |-\\frac{16}{3} - \\frac{16}{3}| = |-\\frac{32}{3}|=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the parabola $y^2=x$ and the line $x=1$ is: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{1} y dx = 2\\int_{0}^{1} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{1} = 2(\\frac{2}{3}) = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curves $y=x^2$ and $y=x$ is: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "First, find the points of intersection by setting $x^2=x$, which gives $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (x-x^2) dx = [\\frac{x^2}{2}-\\frac{x^3}{3}]_{0}^{1} = (\\frac{1}{2}-\\frac{1}{3}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2009)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 0 sq. units",
+      "(c) -1 sq. unit",
+      "(d) $\\frac{\\pi}{2}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} y dx = \\int_{0}^{\\pi/2} \\cos x dx = [\\sin x]_{0}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(0) = 1-0=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y^2=x$ and the line $x=4$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) 4 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{4} y dx = 2\\int_{0}^{4} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{4} = \\frac{4}{3}(4^{3/2})=\\frac{4}{3}(8)=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ is: (MHT CET 2007)",
+    "options": [
+      "(a) $\\pi ab$",
+      "(b) $\\pi a^2b^2$",
+      "(c) $\\frac{\\pi ab}{4}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area of an ellipse with semi-major axis $a$ and semi-minor axis $b$ is given by the formula $\\pi ab$. This can be derived by integrating the equation of the ellipse. The area of the entire ellipse is 4 times the area in the first quadrant, which is $4\\int_{0}^{a} \\frac{b}{a}\\sqrt{a^2-x^2} dx = 4\\frac{b}{a}(\\frac{\\pi a^2}{4}) = \\pi ab$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^2$ and the x-axis between $x=1$ and $x=3$ is: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{26}{3}$ sq. units",
+      "(b) $\\frac{27}{3}$ sq. units",
+      "(c) $\\frac{25}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{1}^{3} x^2 dx = [\\frac{x^3}{3}]_{1}^{3} = \\frac{3^3}{3}-\\frac{1^3}{3} = \\frac{27}{3}-\\frac{1}{3}=\\frac{26}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^3$, the x-axis, and the lines $x=-1$ and $x=1$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{1}{2}$ sq. units",
+      "(b) 0 sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Since $y=x^3$ is an odd function, the integral from $-1$ to $1$ is zero. However, area must be positive. We calculate the area from $x=-1$ to $x=0$ and from $x=0$ to $x=1$ separately and add the absolute values. Area = $|\\int_{-1}^{0} x^3 dx|+|\\int_{0}^{1} x^3 dx| = |[\\frac{x^4}{4}]_{-1}^{0}|+|[\\frac{x^4}{4}]_{0}^{1}| = |0-\\frac{1}{4}|+|\\frac{1}{4}-0| = \\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^2$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{1}{3}$ sq. units",
+      "(b) $\\frac{1}{2}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{1} x^2 dx = [\\frac{x^3}{3}]_{0}^{1} = \\frac{1^3}{3}-\\frac{0^3}{3} = \\frac{1}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=-\\frac{\\pi}{2}$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2003)",
+    "options": [
+      "(a) 2 sq. units",
+      "(b) 0 sq. units",
+      "(c) 1 sq. unit",
+      "(d) -2 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{-\\pi/2}^{\\pi/2} \\cos x dx = [\\sin x]_{-\\pi/2}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(-\\frac{\\pi}{2}) = 1-(-1)=2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=2\\pi$ is: (MHT CET 2002)",
+    "options": [
+      "(a) 4 sq. units",
+      "(b) 2 sq. units",
+      "(c) 0 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is the sum of the absolute values of the integrals. Area = $|\\int_{0}^{\\pi} \\sin x dx|+|\\int_{\\pi}^{2\\pi} \\sin x dx| = |[-\\cos x]_{0}^{\\pi}|+|[-\\cos x]_{\\pi}^{2\\pi}| = |(-(-1))-(-1)|+|(-\\cos(2\\pi))-(-\\cos\\pi)| = |1+1|+|(-1)-(1)|=2+2=4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x$, the x-axis, and the line $x=2$ is: (MHT CET 2001)",
+    "options": [
+      "(a) 2 sq. units",
+      "(b) 1 sq. unit",
+      "(c) 4 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is a triangle with base 2 and height 2. Area = $\\frac{1}{2} \\times 2 \\times 2 = 2$. Using integration, $\\int_{0}^{2} x dx = [\\frac{x^2}{2}]_{0}^{2} = \\frac{4}{2}-0=2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the x-axis, and the line $x=3$ is: (MHT CET 2018)",
+    "options": [
+      "(a) 9 sq. units",
+      "(b) $\\frac{27}{3}$ sq. units",
+      "(c) 3 sq. units",
+      "(d) $\\frac{9}{3}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by the integral from 0 to 3. $\\int_{0}^{3} x^2 dx = [\\frac{x^3}{3}]_{0}^{3} = \\frac{3^3}{3}-0 = \\frac{27}{3}=9$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2-1$ and the x-axis is: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curve intersects the x-axis when $y=0$, which gives $x^2-1=0$, so $x=\\pm 1$. The area is $|\\int_{-1}^{1} (x^2-1) dx| = |[\\frac{x^3}{3}-x]_{-1}^{1}| = |(\\frac{1}{3}-1) - (-\\frac{1}{3}+1)| = |-\\frac{2}{3} - \\frac{2}{3}| = |-\\frac{4}{3}| = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2020)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 2 sq. units",
+      "(c) 0 sq. units",
+      "(d) $\\frac{\\pi}{2}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -\\cos(\\frac{\\pi}{2}) - (-\\cos 0) = 0 - (-1) = 1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the line $y=x+1$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{3}{2}$ sq. units",
+      "(b) $\\frac{1}{2}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{1} (x+1) dx = [\\frac{x^2}{2}+x]_{0}^{1} = (\\frac{1^2}{2}+1) - 0 = \\frac{1}{2}+1 = \\frac{3}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the y-axis, and the lines $y=0$ and $y=4$ is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{16}{3}$ sq. units",
+      "(b) $\\frac{8}{3}$ sq. units",
+      "(c) $\\frac{4}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{4} x dy$. From $y=x^2$, we get $x=\\sqrt{y}$. The area is $\\int_{0}^{4} \\sqrt{y} dy = [\\frac{y^{3/2}}{3/2}]_{0}^{4} = \\frac{2}{3}(4^{3/2}) = \\frac{2}{3}(8) = \\frac{16}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sqrt{x}$, the x-axis, and the lines $x=1$ and $x=4$ is: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{14}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{15}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{1}^{4} y dx = \\int_{1}^{4} \\sqrt{x} dx = [\\frac{x^{3/2}}{3/2}]_{1}^{4} = \\frac{2}{3}(4^{3/2}-1^{3/2}) = \\frac{2}{3}(8-1)=\\frac{14}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the x-axis, and the lines $x=-1$ and $x=1$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{2}{3}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) 0 sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "The function $y=x^2$ is an even function. The area is $2\\int_{0}^{1} x^2 dx = 2[\\frac{x^3}{3}]_{0}^{1} = 2(\\frac{1}{3}-0)=\\frac{2}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^3$, the x-axis, and the line $x=2$ is: (MHT CET 2016)",
+    "options": [
+      "(a) 4 sq. units",
+      "(b) 2 sq. units",
+      "(c) 8 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{2} x^3 dx = [\\frac{x^4}{4}]_{0}^{2} = \\frac{2^4}{4}-0=\\frac{16}{4}=4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the circle $x^2+y^2=4$ is: (MHT CET 2015)",
+    "options": [
+      "(a) $4\\pi$",
+      "(b) $2\\pi$",
+      "(c) $\\pi$",
+      "(d) $16\\pi$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of the circle is $x^2+y^2=2^2$, so the radius is $a=2$. The area of the circle is $\\pi a^2=\\pi(2^2)=4\\pi$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\sin x$, the x-axis, and the line $x=\\frac{\\pi}{2}$ is: (MHT CET 2014)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 2 sq. units",
+      "(c) 0 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -\\cos(\\frac{\\pi}{2}) - (-\\cos 0) = 0-(-1)=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=4x$ and the line $x=9$ is: (MHT CET 2013)",
+    "options": [
+      "(a) 72 sq. units",
+      "(b) 36 sq. units",
+      "(c) 18 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area in the first quadrant. Area = $2\\int_{0}^{9} y dx = 2\\int_{0}^{9} 2\\sqrt{x} dx = 4[\\frac{x^{3/2}}{3/2}]_{0}^{9} = \\frac{8}{3}[x^{3/2}]_{0}^{9} = \\frac{8}{3}(9^{3/2}-0) = \\frac{8}{3}(27) = 72$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the line $y=x$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{1}{2}$ sq. units",
+      "(b) 1 sq. unit",
+      "(c) 2 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is a triangle with base 1 and height 1. Area = $\\frac{1}{2} \\times 1 \\times 1 = \\frac{1}{2}$. Using integration, $\\int_{0}^{1} x dx = [\\frac{x^2}{2}]_{0}^{1} = \\frac{1}{2}-0=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2011)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 0 sq. units",
+      "(c) -1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\cos x dx = [\\sin x]_{0}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(0) = 1-0=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$ and the line $y=4$ is: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) 4 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $y=x^2$ and $y=4$, so $x^2=4$, giving $x=\\pm 2$. The area is $\\int_{-2}^{2} (4-x^2) dx = [4x-\\frac{x^3}{3}]_{-2}^{2} = (8-\\frac{8}{3})-(-8+\\frac{8}{3})=16-\\frac{16}{3}=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^3$, the x-axis, and the line $x=2$ is: (MHT CET 2009)",
+    "options": [
+      "(a) 4 sq. units",
+      "(b) 2 sq. units",
+      "(c) 8 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{2} x^3 dx = [\\frac{x^4}{4}]_{0}^{2} = \\frac{2^4}{4}-0=\\frac{16}{4}=4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^2$ and the line $y=x$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "First, find the points of intersection by setting $x^2=x$, which gives $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (x-x^2) dx = [\\frac{x^2}{2}-\\frac{x^3}{3}]_{0}^{1} = (\\frac{1}{2}-\\frac{1}{3}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\pi$ is: (MHT CET 2007)",
+    "options": [
+      "(a) 2 sq. units",
+      "(b) 1 sq. unit",
+      "(c) 0 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi} y dx = \\int_{0}^{\\pi} \\sin x dx = [-\\cos x]_{0}^{\\pi} = -\\cos\\pi - (-\\cos 0) = -(-1) - (-1) = 1+1=2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the parabola $y=x^2-4$ and the x-axis is: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curve intersects the x-axis when $y=0$, which gives $x^2-4=0$, so $x=\\pm 2$. The area is $|\\int_{-2}^{2} (x^2-4) dx| = |[\\frac{x^3}{3}-4x]_{-2}^{2}| = |(\\frac{8}{3}-8) - (-\\frac{8}{3}+8)| = |-\\frac{16}{3} - \\frac{16}{3}| = |-\\frac{32}{3}|=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $x=1$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{1} y dx = 2\\int_{0}^{1} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{1} = 2(\\frac{2}{3}) = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the line $y=x$, the x-axis, and the lines $x=0$ and $x=3$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{9}{2}$ sq. units",
+      "(b) 3 sq. units",
+      "(c) 4 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is a triangle with base 3 and height 3. Area = $\\frac{1}{2} \\times 3 \\times 3 = \\frac{9}{2}$. Using integration, $\\int_{0}^{3} x dx = [\\frac{x^2}{2}]_{0}^{3} = \\frac{9}{2}-0=\\frac{9}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2003)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 0 sq. units",
+      "(c) -1 sq. unit",
+      "(d) $\\frac{\\pi}{2}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\cos x dx = [\\sin x]_{0}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(0) = 1-0=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the y-axis, and the lines $y=1$ and $y=2$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{2}{3}(2\\sqrt{2}-1)$ sq. units",
+      "(b) $\\frac{2}{3}(2\\sqrt{2}+1)$ sq. units",
+      "(c) $\\frac{1}{3}(2\\sqrt{2}-1)$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "From $y=x^2$, we have $x=\\sqrt{y}$. The area is given by $\\int_{1}^{2} x dy = \\int_{1}^{2} \\sqrt{y} dy = [\\frac{y^{3/2}}{3/2}]_{1}^{2} = \\frac{2}{3}(2^{3/2}-1^{3/2}) = \\frac{2}{3}(2\\sqrt{2}-1)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\frac{3\\pi}{2}$ is: (MHT CET 2001)",
+    "options": [
+      "(a) 3 sq. units",
+      "(b) 2 sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is the sum of the absolute values of the integrals. Area = $|\\int_{0}^{\\pi} \\sin x dx|+|\\int_{\\pi}^{3\\pi/2} \\sin x dx| = |[-\\cos x]_{0}^{\\pi}|+|[-\\cos x]_{\\pi}^{3\\pi/2}| = |(-(-1))-(-1)|+|(-\\cos(3\\pi/2))-(-\\cos\\pi)| = |1+1|+|0-1|=2+1=3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curves $y=x^2$ and $y=x+2$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{9}{2}$ sq. units",
+      "(b) $\\frac{7}{2}$ sq. units",
+      "(c) $\\frac{5}{2}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $x^2=x+2$, which gives $x^2-x-2=0$, so $(x-2)(x+1)=0$. The limits are $x=-1$ and $x=2$. The area is $\\int_{-1}^{2} ((x+2)-x^2) dx = [\\frac{x^2}{2}+2x-\\frac{x^3}{3}]_{-1}^{2} = (2+4-\\frac{8}{3})-(\\frac{1}{2}-2+\\frac{1}{3}) = (6-\\frac{8}{3})-(-\\frac{7}{6})=\\frac{10}{3}+\\frac{7}{6}=\\frac{20+7}{6}=\\frac{27}{6}=\\frac{9}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $y=x$ is: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $y^2=x$ and $y=x$, so $x^2=x$. The limits are $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (\\sqrt{x}-x) dx = [\\frac{x^{3/2}}{3/2}-\\frac{x^2}{2}]_{0}^{1} = (\\frac{2}{3}-\\frac{1}{2}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $x=1$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{1} y dx = 2\\int_{0}^{1} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{1} = 2(\\frac{2}{3}) = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the line $y=x+1$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{3}{2}$ sq. units",
+      "(b) $\\frac{1}{2}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{1} (x+1) dx = [\\frac{x^2}{2}+x]_{0}^{1} = (\\frac{1^2}{2}+1) - 0 = \\frac{1}{2}+1 = \\frac{3}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the y-axis, and the lines $y=0$ and $y=4$ is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{16}{3}$ sq. units",
+      "(b) $\\frac{8}{3}$ sq. units",
+      "(c) $\\frac{4}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{4} x dy$. From $y=x^2$, we get $x=\\sqrt{y}$. The area is $\\int_{0}^{4} \\sqrt{y} dy = [\\frac{y^{3/2}}{3/2}]_{0}^{4} = \\frac{2}{3}(4^{3/2}) = \\frac{2}{3}(8) = \\frac{16}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sqrt{x}$, the x-axis, and the lines $x=1$ and $x=4$ is: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{14}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{15}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{1}^{4} y dx = \\int_{1}^{4} \\sqrt{x} dx = [\\frac{x^{3/2}}{3/2}]_{1}^{4} = \\frac{2}{3}(4^{3/2}-1^{3/2}) = \\frac{2}{3}(8-1)=\\frac{14}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the x-axis, and the lines $x=-1$ and $x=1$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{2}{3}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) 0 sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "The function $y=x^2$ is an even function. The area is $2\\int_{0}^{1} x^2 dx = 2[\\frac{x^3}{3}]_{0}^{1} = 2(\\frac{1}{3}-0)=\\frac{2}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^3$, the x-axis, and the line $x=2$ is: (MHT CET 2016)",
+    "options": [
+      "(a) 4 sq. units",
+      "(b) 2 sq. units",
+      "(c) 8 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{2} x^3 dx = [\\frac{x^4}{4}]_{0}^{2} = \\frac{2^4}{4}-0=\\frac{16}{4}=4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the circle $x^2+y^2=4$ is: (MHT CET 2015)",
+    "options": [
+      "(a) $4\\pi$",
+      "(b) $2\\pi$",
+      "(c) $\\pi$",
+      "(d) $16\\pi$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of the circle is $x^2+y^2=2^2$, so the radius is $a=2$. The area of the circle is $\\pi a^2=\\pi(2^2)=4\\pi$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\sin x$, the x-axis, and the line $x=\\frac{\\pi}{2}$ is: (MHT CET 2014)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 2 sq. units",
+      "(c) 0 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -\\cos(\\frac{\\pi}{2}) - (-\\cos 0) = 0-(-1)=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=4x$ and the line $x=9$ is: (MHT CET 2013)",
+    "options": [
+      "(a) 72 sq. units",
+      "(b) 36 sq. units",
+      "(c) 18 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area in the first quadrant. Area = $2\\int_{0}^{9} y dx = 2\\int_{0}^{9} 2\\sqrt{x} dx = 4[\\frac{x^{3/2}}{3/2}]_{0}^{9} = \\frac{8}{3}[x^{3/2}]_{0}^{9} = \\frac{8}{3}(9^{3/2}-0) = \\frac{8}{3}(27) = 72$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the line $y=x$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{1}{2}$ sq. units",
+      "(b) 1 sq. unit",
+      "(c) 2 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is a triangle with base 1 and height 1. Area = $\\frac{1}{2} \\times 1 \\times 1 = \\frac{1}{2}$. Using integration, $\\int_{0}^{1} x dx = [\\frac{x^2}{2}]_{0}^{1} = \\frac{1}{2}-0=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2011)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 0 sq. units",
+      "(c) -1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\cos x dx = [\\sin x]_{0}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(0) = 1-0=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$ and the line $y=4$ is: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) 4 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $y=x^2$ and $y=4$, so $x^2=4$, giving $x=\\pm 2$. The area is $\\int_{-2}^{2} (4-x^2) dx = [4x-\\frac{x^3}{3}]_{-2}^{2} = (8-\\frac{8}{3})-(-8+\\frac{8}{3})=16-\\frac{16}{3}=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^3$, the x-axis, and the line $x=2$ is: (MHT CET 2009)",
+    "options": [
+      "(a) 4 sq. units",
+      "(b) 2 sq. units",
+      "(c) 8 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{2} x^3 dx = [\\frac{x^4}{4}]_{0}^{2} = \\frac{2^4}{4}-0=\\frac{16}{4}=4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^2$ and the line $y=x$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "First, find the points of intersection by setting $x^2=x$, which gives $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (x-x^2) dx = [\\frac{x^2}{2}-\\frac{x^3}{3}]_{0}^{1} = (\\frac{1}{2}-\\frac{1}{3}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\pi$ is: (MHT CET 2007)",
+    "options": [
+      "(a) 2 sq. units",
+      "(b) 1 sq. unit",
+      "(c) 0 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi} y dx = \\int_{0}^{\\pi} \\sin x dx = [-\\cos x]_{0}^{\\pi} = -\\cos\\pi - (-\\cos 0) = -(-1) - (-1) = 1+1=2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the parabola $y=x^2-4$ and the x-axis is: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curve intersects the x-axis when $y=0$, which gives $x^2-4=0$, so $x=\\pm 2$. The area is $|\\int_{-2}^{2} (x^2-4) dx| = |[\\frac{x^3}{3}-4x]_{-2}^{2}| = |(\\frac{8}{3}-8) - (-\\frac{8}{3}+8)| = |-\\frac{16}{3} - \\frac{16}{3}| = |-\\frac{32}{3}|=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $x=1$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{1} y dx = 2\\int_{0}^{1} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{1} = 2(\\frac{2}{3}) = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the line $y=x$, the x-axis, and the lines $x=0$ and $x=3$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{9}{2}$ sq. units",
+      "(b) 3 sq. units",
+      "(c) 4 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is a triangle with base 3 and height 3. Area = $\\frac{1}{2} \\times 3 \\times 3 = \\frac{9}{2}$. Using integration, $\\int_{0}^{3} x dx = [\\frac{x^2}{2}]_{0}^{3} = \\frac{9}{2}-0=\\frac{9}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2003)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 0 sq. units",
+      "(c) -1 sq. unit",
+      "(d) $\\frac{\\pi}{2}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\cos x dx = [\\sin x]_{0}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(0) = 1-0=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the y-axis, and the lines $y=1$ and $y=2$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{2}{3}(2\\sqrt{2}-1)$ sq. units",
+      "(b) $\\frac{2}{3}(2\\sqrt{2}+1)$ sq. units",
+      "(c) $\\frac{1}{3}(2\\sqrt{2}-1)$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "From $y=x^2$, we have $x=\\sqrt{y}$. The area is given by $\\int_{1}^{2} x dy = \\int_{1}^{2} \\sqrt{y} dy = [\\frac{y^{3/2}}{3/2}]_{1}^{2} = \\frac{2}{3}(2^{3/2}-1^{3/2}) = \\frac{2}{3}(2\\sqrt{2}-1)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\frac{3\\pi}{2}$ is: (MHT CET 2001)",
+    "options": [
+      "(a) 3 sq. units",
+      "(b) 2 sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is the sum of the absolute values of the integrals. Area = $|\\int_{0}^{\\pi} \\sin x dx|+|\\int_{\\pi}^{3\\pi/2} \\sin x dx| = |[-\\cos x]_{0}^{\\pi}|+|[-\\cos x]_{\\pi}^{3\\pi/2}| = |(-(-1))-(-1)|+|(-\\cos(3\\pi/2))-(-\\cos\\pi)| = |1+1|+|0-1|=2+1=3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curves $y=x^2$ and $y=x+2$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{9}{2}$ sq. units",
+      "(b) $\\frac{7}{2}$ sq. units",
+      "(c) $\\frac{5}{2}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $x^2=x+2$, which gives $x^2-x-2=0$, so $(x-2)(x+1)=0$. The limits are $x=-1$ and $x=2$. The area is $\\int_{-1}^{2} ((x+2)-x^2) dx = [\\frac{x^2}{2}+2x-\\frac{x^3}{3}]_{-1}^{2} = (2+4-\\frac{8}{3})-(\\frac{1}{2}-2+\\frac{1}{3})=6-\\frac{8}{3}-(-\\frac{7}{6})=\\frac{10}{3}+\\frac{7}{6}=\\frac{20+7}{6}=\\frac{27}{6}=\\frac{9}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $y=x$ is: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $y^2=x$ and $y=x$, so $x^2=x$. The limits are $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (\\sqrt{x}-x) dx = [\\frac{x^{3/2}}{3/2}-\\frac{x^2}{2}]_{0}^{1} = (\\frac{2}{3}-\\frac{1}{2}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $x=1$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{1} y dx = 2\\int_{0}^{1} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{1} = 2(\\frac{2}{3}) = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the line $y=x+1$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{3}{2}$ sq. units",
+      "(b) $\\frac{1}{2}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{1} (x+1) dx = [\\frac{x^2}{2}+x]_{0}^{1} = (\\frac{1^2}{2}+1) - 0 = \\frac{1}{2}+1 = \\frac{3}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the y-axis, and the lines $y=0$ and $y=4$ is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{16}{3}$ sq. units",
+      "(b) $\\frac{8}{3}$ sq. units",
+      "(c) $\\frac{4}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{4} x dy$. From $y=x^2$, we get $x=\\sqrt{y}$. The area is $\\int_{0}^{4} \\sqrt{y} dy = [\\frac{y^{3/2}}{3/2}]_{0}^{4} = \\frac{2}{3}(4^{3/2}) = \\frac{2}{3}(8) = \\frac{16}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sqrt{x}$, the x-axis, and the lines $x=1$ and $x=4$ is: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{14}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{15}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{1}^{4} y dx = \\int_{1}^{4} \\sqrt{x} dx = [\\frac{x^{3/2}}{3/2}]_{1}^{4} = \\frac{2}{3}(4^{3/2}-1^{3/2}) = \\frac{2}{3}(8-1)=\\frac{14}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the x-axis, and the lines $x=-1$ and $x=1$ is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{2}{3}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) 0 sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "The function $y=x^2$ is an even function. The area is $2\\int_{0}^{1} x^2 dx = 2[\\frac{x^3}{3}]_{0}^{1} = 2(\\frac{1}{3}-0)=\\frac{2}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^3$, the x-axis, and the line $x=2$ is: (MHT CET 2016)",
+    "options": [
+      "(a) 4 sq. units",
+      "(b) 2 sq. units",
+      "(c) 8 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{2} x^3 dx = [\\frac{x^4}{4}]_{0}^{2} = \\frac{2^4}{4}-0=\\frac{16}{4}=4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the circle $x^2+y^2=4$ is: (MHT CET 2015)",
+    "options": [
+      "(a) $4\\pi$",
+      "(b) $2\\pi$",
+      "(c) $\\pi$",
+      "(d) $16\\pi$"
+    ],
+    "correct_answer": "a",
+    "answer": "The equation of the circle is $x^2+y^2=2^2$, so the radius is $a=2$. The area of the circle is $\\pi a^2=\\pi(2^2)=4\\pi$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\sin x$, the x-axis, and the line $x=\\frac{\\pi}{2}$ is: (MHT CET 2014)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 2 sq. units",
+      "(c) 0 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\sin x dx = [-\\cos x]_{0}^{\\pi/2} = -\\cos(\\frac{\\pi}{2}) - (-\\cos 0) = 0-(-1)=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=4x$ and the line $x=9$ is: (MHT CET 2013)",
+    "options": [
+      "(a) 72 sq. units",
+      "(b) 36 sq. units",
+      "(c) 18 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area in the first quadrant. Area = $2\\int_{0}^{9} y dx = 2\\int_{0}^{9} 2\\sqrt{x} dx = 4[\\frac{x^{3/2}}{3/2}]_{0}^{9} = \\frac{8}{3}[x^{3/2}]_{0}^{9} = \\frac{8}{3}(9^{3/2}-0) = \\frac{8}{3}(27) = 72$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the line $y=x$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{1}{2}$ sq. units",
+      "(b) 1 sq. unit",
+      "(c) 2 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is a triangle with base 1 and height 1. Area = $\\frac{1}{2} \\times 1 \\times 1 = \\frac{1}{2}$. Using integration, $\\int_{0}^{1} x dx = [\\frac{x^2}{2}]_{0}^{1} = \\frac{1}{2}-0=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2011)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 0 sq. units",
+      "(c) -1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\cos x dx = [\\sin x]_{0}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(0) = 1-0=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$ and the line $y=4$ is: (MHT CET 2010)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) 4 sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $y=x^2$ and $y=4$, so $x^2=4$, giving $x=\\pm 2$. The area is $\\int_{-2}^{2} (4-x^2) dx = [4x-\\frac{x^3}{3}]_{-2}^{2} = (8-\\frac{8}{3})-(-8+\\frac{8}{3})=16-\\frac{16}{3}=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^3$, the x-axis, and the line $x=2$ is: (MHT CET 2009)",
+    "options": [
+      "(a) 4 sq. units",
+      "(b) 2 sq. units",
+      "(c) 8 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{2} x^3 dx = [\\frac{x^4}{4}]_{0}^{2} = \\frac{2^4}{4}-0=\\frac{16}{4}=4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the curve $y=x^2$ and the line $y=x$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "First, find the points of intersection by setting $x^2=x$, which gives $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (x-x^2) dx = [\\frac{x^2}{2}-\\frac{x^3}{3}]_{0}^{1} = (\\frac{1}{2}-\\frac{1}{3}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\pi$ is: (MHT CET 2007)",
+    "options": [
+      "(a) 2 sq. units",
+      "(b) 1 sq. unit",
+      "(c) 0 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi} y dx = \\int_{0}^{\\pi} \\sin x dx = [-\\cos x]_{0}^{\\pi} = -\\cos\\pi - (-\\cos 0) = -(-1) - (-1) = 1+1=2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area bounded by the parabola $y=x^2-4$ and the x-axis is: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{32}{3}$ sq. units",
+      "(b) $\\frac{16}{3}$ sq. units",
+      "(c) $\\frac{8}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curve intersects the x-axis when $y=0$, which gives $x^2-4=0$, so $x=\\pm 2$. The area is $|\\int_{-2}^{2} (x^2-4) dx| = |[\\frac{x^3}{3}-4x]_{-2}^{2}| = |(\\frac{8}{3}-8) - (-\\frac{8}{3}+8)| = |-\\frac{16}{3} - \\frac{16}{3}| = |-\\frac{32}{3}|=\\frac{32}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $x=1$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{1} y dx = 2\\int_{0}^{1} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{1} = 2(\\frac{2}{3}) = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the line $y=x$, the x-axis, and the lines $x=0$ and $x=3$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{9}{2}$ sq. units",
+      "(b) 3 sq. units",
+      "(c) 4 sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is a triangle with base 3 and height 3. Area = $\\frac{1}{2} \\times 3 \\times 3 = \\frac{9}{2}$. Using integration, $\\int_{0}^{3} x dx = [\\frac{x^2}{2}]_{0}^{3} = \\frac{9}{2}-0=\\frac{9}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\cos x$, the x-axis, and the lines $x=0$ and $x=\\frac{\\pi}{2}$ is: (MHT CET 2003)",
+    "options": [
+      "(a) 1 sq. unit",
+      "(b) 0 sq. units",
+      "(c) -1 sq. unit",
+      "(d) $\\frac{\\pi}{2}$ sq. units"
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{\\pi/2} \\cos x dx = [\\sin x]_{0}^{\\pi/2} = \\sin(\\frac{\\pi}{2})-\\sin(0) = 1-0=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the y-axis, and the lines $y=1$ and $y=2$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $\\frac{2}{3}(2\\sqrt{2}-1)$ sq. units",
+      "(b) $\\frac{2}{3}(2\\sqrt{2}+1)$ sq. units",
+      "(c) $\\frac{1}{3}(2\\sqrt{2}-1)$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "From $y=x^2$, we have $x=\\sqrt{y}$. The area is given by $\\int_{1}^{2} x dy = \\int_{1}^{2} \\sqrt{y} dy = [\\frac{y^{3/2}}{3/2}]_{1}^{2} = \\frac{2}{3}(2^{3/2}-1^{3/2}) = \\frac{2}{3}(2\\sqrt{2}-1)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=\\sin x$, the x-axis, and the lines $x=0$ and $x=\\frac{3\\pi}{2}$ is: (MHT CET 2001)",
+    "options": [
+      "(a) 3 sq. units",
+      "(b) 2 sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is the sum of the absolute values of the integrals. Area = $|\\int_{0}^{\\pi} \\sin x dx|+|\\int_{\\pi}^{3\\pi/2} \\sin x dx| = |[-\\cos x]_{0}^{\\pi}|+|[-\\cos x]_{\\pi}^{3\\pi/2}| = |(-(-1))-(-1)|+|(-\\cos(3\\pi/2))-(-\\cos\\pi)| = |1+1|+|0-1|=2+1=3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curves $y=x^2$ and $y=x+2$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{9}{2}$ sq. units",
+      "(b) $\\frac{7}{2}$ sq. units",
+      "(c) $\\frac{5}{2}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $x^2=x+2$, which gives $x^2-x-2=0$, so $(x-2)(x+1)=0$. The limits are $x=-1$ and $x=2$. The area is $\\int_{-1}^{2} ((x+2)-x^2) dx = [\\frac{x^2}{2}+2x-\\frac{x^3}{3}]_{-1}^{2} = (2+4-\\frac{8}{3})-(\\frac{1}{2}-2+\\frac{1}{3})=6-\\frac{8}{3}-(-\\frac{7}{6})=\\frac{10}{3}+\\frac{7}{6}=\\frac{20+7}{6}=\\frac{27}{6}=\\frac{9}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $y=x$ is: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{1}{6}$ sq. units",
+      "(b) $\\frac{1}{3}$ sq. units",
+      "(c) $\\frac{1}{2}$ sq. units",
+      "(d) 1 sq. unit"
+    ],
+    "correct_answer": "a",
+    "answer": "The curves intersect when $y^2=x$ and $y=x$, so $x^2=x$. The limits are $x=0$ and $x=1$. The area is then given by $\\int_{0}^{1} (\\sqrt{x}-x) dx = [\\frac{x^{3/2}}{3/2}-\\frac{x^2}{2}]_{0}^{1} = (\\frac{2}{3}-\\frac{1}{2}) = \\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the parabola $y^2=x$ and the line $x=1$ is: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{4}{3}$ sq. units",
+      "(b) $\\frac{2}{3}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is symmetric about the x-axis. The total area is twice the area of the region in the first quadrant, which is given by $2\\int_{0}^{1} y dx = 2\\int_{0}^{1} \\sqrt{x} dx = 2[\\frac{x^{3/2}}{3/2}]_{0}^{1} = 2(\\frac{2}{3}) = \\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the line $y=x+1$, the x-axis, and the lines $x=0$ and $x=1$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{3}{2}$ sq. units",
+      "(b) $\\frac{1}{2}$ sq. units",
+      "(c) 1 sq. unit",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{1} (x+1) dx = [\\frac{x^2}{2}+x]_{0}^{1} = (\\frac{1^2}{2}+1) - 0 = \\frac{1}{2}+1 = \\frac{3}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The area of the region bounded by the curve $y=x^2$, the y-axis, and the lines $y=0$ and $y=4$ is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{16}{3}$ sq. units",
+      "(b) $\\frac{8}{3}$ sq. units",
+      "(c) $\\frac{4}{3}$ sq. units",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The area is given by $\\int_{0}^{4} x dy$. From $y=x^2$, we get $x=\\sqrt{y}$. The area is $\\int_{0}^{4} \\sqrt{y} dy = [\\frac{y^{3/2}}{3/2}]_{0}^{4} = \\frac{2}{3}(4^{3/2}) = \\frac{2}{3}(8) = \\frac{16}{3}$.",
+    "marks": 1
+  }
+]

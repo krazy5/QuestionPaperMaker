@@ -1,0 +1,210 @@
+[
+  {
+    "type": "mcq",
+    "text": "The photoelectric effect can be explained by assuming that: (MHT CET 2025)",
+    "options": [
+      "(a) light is a wave",
+      "(b) light consists of photons",
+      "(c) light is an electromagnetic wave",
+      "(d) light travels in a straight line"
+    ],
+    "correct_answer": "b",
+    "answer": "The photoelectric effect, where electrons are ejected from a metal surface when light shines on it, cannot be explained by classical wave theory. It is explained by <b>Einstein's photon theory of light</b>, which states that light consists of discrete energy packets called photons. The energy of a single photon is given by $E = h\\nu$.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The de Broglie wavelength of an electron moving with a velocity 'v' is: (MHT CET 2024)",
+    "options": [
+      "(a) $\\lambda = h/mv$",
+      "(b) $\\lambda = mv/h$",
+      "(c) $\\lambda = h/m$",
+      "(d) $\\lambda = h/v$"
+    ],
+    "correct_answer": "a",
+    "answer": "According to de Broglie's hypothesis, every moving particle has a wave associated with it. The wavelength of this matter wave, known as the de Broglie wavelength ($\\lambda$), is given by the formula $\\lambda = h/p$, where $p$ is the momentum of the particle. For a particle with mass 'm' and velocity 'v', the momentum is $p = mv$. Therefore, $\\lambda = h/mv$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The stopping potential in a photoelectric effect experiment depends on: (MHT CET 2023)",
+    "options": [
+      "(a) the intensity of incident light",
+      "(b) the frequency of incident light",
+      "(c) the distance from the source",
+      "(d) the area of the metal surface"
+    ],
+    "correct_answer": "b",
+    "answer": "The stopping potential ($V_s$) is the potential difference required to stop the most energetic photoelectrons. The maximum kinetic energy of the photoelectrons is related to the stopping potential by $K_{max} = eV_s$. From Einstein's photoelectric equation, $K_{max} = h\\nu - \\phi_0$. Since $h$ and $\\phi_0$ are constants for a given metal, the stopping potential depends directly on the <b>frequency</b> ($\\nu$) of the incident light, not its intensity.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The work function of a metal is a measure of: (MHT CET 2022)",
+    "options": [
+      "(a) the energy required to remove an electron from the surface",
+      "(b) the kinetic energy of the photoelectrons",
+      "(c) the potential energy of the electrons",
+      "(d) the threshold frequency"
+    ],
+    "correct_answer": "a",
+    "answer": "The <b>work function</b> ($\\phi_0$) of a metal is the minimum amount of energy required to remove a single electron from the surface of the metal. It is a characteristic property of the material.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The threshold frequency for a metal is $3.3 \\times 10^{14}$ Hz. The work function of the metal is approximately: (MHT CET 2021)",
+    "options": [
+      "(a) $1.36$ eV",
+      "(b) $2.14$ eV",
+      "(c) $1.36 \\times 10^{-19}$ J",
+      "(d) $2.14 \\times 10^{-19}$ J"
+    ],
+    "correct_answer": "a",
+    "answer": "The work function ($\\phi_0$) is related to the threshold frequency ($\\nu_0$) by the equation $\\phi_0 = h\\nu_0$.<br>Given: $h = 6.63 \\times 10^{-34}$ J s, $\\nu_0 = 3.3 \\times 10^{14}$ Hz.<br>$\\phi_0 = (6.63 \\times 10^{-34}) \\times (3.3 \\times 10^{14}) = 21.879 \\times 10^{-20}$ J $= 2.1879 \\times 10^{-19}$ J.<br>To convert Joules to electron volts (eV), we use the conversion factor $1 \\text{ eV} = 1.6 \\times 10^{-19}$ J.<br>$\\phi_0 = \\frac{2.1879 \\times 10^{-19}}{1.6 \\times 10^{-19}} \\approx 1.367$ eV.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The momentum of a photon of frequency '$\\nu$' is: (MHT CET 2020)",
+    "options": [
+      "(a) $h\\nu/c^2$",
+      "(b) $h\\nu/c$",
+      "(c) $h\\nu$",
+      "(d) $hc/\\nu$"
+    ],
+    "correct_answer": "b",
+    "answer": "The energy of a photon is given by $E = h\\nu$. The momentum (p) and energy (E) of a photon are related by $E = pc$, where 'c' is the speed of light. Combining these two equations gives $pc = h\\nu$, so the momentum is $p = h\\nu/c$.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The maximum kinetic energy of photoelectrons is proportional to: (MHT CET 2019)",
+    "options": [
+      "(a) intensity of light",
+      "(b) frequency of light",
+      "(c) number of photons",
+      "(d) velocity of light"
+    ],
+    "correct_answer": "b",
+    "answer": "The maximum kinetic energy of photoelectrons is given by the photoelectric equation: $K_{max} = h\\nu - \\phi_0$. This shows that $K_{max}$ is linearly dependent on the <b>frequency</b> ($\\nu$) of the incident light, and independent of its intensity.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has the longest de Broglie wavelength? (MHT CET 2018)",
+    "options": [
+      "(a) an electron",
+      "(b) a proton",
+      "(c) an alpha particle",
+      "(d) a neutron"
+    ],
+    "correct_answer": "a",
+    "answer": "The de Broglie wavelength is given by $\\lambda = h/p = h/mv$. For a constant velocity, the wavelength is inversely proportional to the mass of the particle. Since the electron has the smallest mass among the given options, it will have the longest de Broglie wavelength.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The rest mass of a photon is: (MHT CET 2017)",
+    "options": [
+      "(a) non-existent",
+      "(b) zero",
+      "(c) infinite",
+      "(d) equal to the mass of an electron"
+    ],
+    "correct_answer": "b",
+    "answer": "A photon is a quantum of light and all forms of electromagnetic radiation. It has no rest mass, which means its rest mass is <b>zero</b>.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The work function of a metal is 4 eV. The threshold wavelength for this metal is approximately: (MHT CET 2016)",
+    "options": [
+      "(a) 310 nm",
+      "(b) 410 nm",
+      "(c) 510 nm",
+      "(d) 610 nm"
+    ],
+    "correct_answer": "a",
+    "answer": "The work function ($\\phi_0$) is related to the threshold wavelength ($\\lambda_0$) by the equation $\\phi_0 = hc/\\lambda_0$.<br>Rearranging the formula gives $\\lambda_0 = hc/\\phi_0$.<br>Given: $\\phi_0 = 4$ eV. We use the conversion $1240$ eV nm for the product $hc$.<br>$\\lambda_0 = \\frac{1240 \\text{ eV nm}}{4 \\text{ eV}} = 310$ nm.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The photoelectric current is directly proportional to: (MHT CET 2015)",
+    "options": [
+      "(a) frequency of incident light",
+      "(b) intensity of incident light",
+      "(c) threshold frequency",
+      "(d) work function"
+    ],
+    "correct_answer": "b",
+    "answer": "The photoelectric current is the number of photoelectrons emitted per second. This number is directly proportional to the number of photons hitting the metal surface per second, which in turn is directly proportional to the <b>intensity</b> of the incident light.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The de Broglie wavelength is independent of: (MHT CET 2014)",
+    "options": [
+      "(a) momentum",
+      "(b) mass",
+      "(c) velocity",
+      "(d) charge"
+    ],
+    "correct_answer": "d",
+    "answer": "The de Broglie wavelength is given by $\\lambda = h/p = h/mv$. The formula shows that the wavelength depends on the momentum (mass and velocity) of the particle, but it is independent of the <b>charge</b> of the particle.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When the velocity of a particle is doubled, its de Broglie wavelength: (MHT CET 2013)",
+    "options": [
+      "(a) is halved",
+      "(b) is doubled",
+      "(c) is quadrupled",
+      "(d) is unchanged"
+    ],
+    "correct_answer": "a",
+    "answer": "The de Broglie wavelength is inversely proportional to the velocity of the particle: $\\lambda \\propto 1/v$. If the velocity is doubled, the wavelength will be halved.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy of a photon of wavelength '$\\lambda$' is: (MHT CET 2012)",
+    "options": [
+      "(a) $h/\\lambda$",
+      "(b) $h\\lambda/c$",
+      "(c) $hc/\\lambda$",
+      "(d) $c/h\\lambda$"
+    ],
+    "correct_answer": "c",
+    "answer": "The energy of a photon is given by $E = h\\nu$, where $\\nu$ is the frequency. Since the relationship between frequency and wavelength is $\\nu = c/\\lambda$, we can substitute this into the energy equation to get $E = hc/\\lambda$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a photoelectric experiment, if the intensity of the light is doubled, the photoelectric current: (MHT CET 2011)",
+    "options": [
+      "(a) is doubled",
+      "(b) is halved",
+      "(c) remains unchanged",
+      "(d) is quadrupled"
+    ],
+    "correct_answer": "a",
+    "answer": "The photoelectric current is directly proportional to the number of photons striking the metal surface per unit time. If the intensity of light is doubled, the number of photons per second is doubled, which in turn doubles the number of emitted photoelectrons and thus the photoelectric current.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The minimum energy required to remove an electron from a metal surface is called: (MHT CET 2010)",
+    "options": [
+      "(a) kinetic energy",
+      "(b) potential energy",
+      "(c) work function",
+      "(d) threshold energy"
+    ],
+    "correct_answer": "c",
+    "answer": "The minimum energy required to remove an electron from the surface of a metal is called the <b>work function</b> ($ \\phi_0 $). It is the minimum energy that a photon must have to liberate an electron from the metal.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  }
+]

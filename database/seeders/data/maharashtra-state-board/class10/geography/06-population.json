@@ -1,0 +1,128 @@
+[
+  {
+    "type": "long",
+    "text": "Explain the factors affecting the distribution of population in India. (Practice Set 6.1)",
+    "answer": "The distribution of population in India is uneven due to several factors:\n\n1.  **Physiography:** The northern plains, deltas, and coastal plains have a high population density due to fertile land and a favorable climate. In contrast, the hilly and mountainous regions, like the Himalayas, have a sparse population.\n2.  **Climate:** Areas with moderate climates and sufficient rainfall, such as coastal regions, have a high population density. The extreme climatic conditions of the Thar Desert or the Himalayas lead to a sparse population.\n3.  **Water Availability:** River valleys and areas with good irrigation facilities, like the Ganga Plain, are densely populated. The lack of water in deserts and some plateaus results in a sparse population.\n4.  **Economic Factors:** Industrial regions, urban areas, and cities with more job opportunities, better infrastructure, and educational facilities attract a large population.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the population density of India according to the 2011 Census?",
+    "answer": "According to the 2011 Census, the population density of India was **382 persons per sq. km**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between the population distribution of India and Brazil. (PYQ: March 2020)",
+    "answer": "### **Population Distribution of India**\n* **Distribution:** India has a very high population density overall, but it is unevenly distributed. The northern plains, coastal areas, and industrial belts are extremely dense.\n* **Reason:** The high density is due to fertile land, favorable climate, historical development, and economic opportunities.\n* **Trend:** The majority of the population lives in rural areas, but the rate of urbanization is increasing.\n\n### **Population Distribution of Brazil**\n* **Distribution:** Brazil has a relatively low population density. The population is concentrated mainly along the coastal areas in the east and southeast.\n* **Reason:** The low density is due to the vast Amazon rainforest in the interior, which is largely inaccessible and has a harsh climate. The coastal areas were the first to be settled and have better economic opportunities.\n* **Trend:** The majority of the population lives in urban areas, and the country is highly urbanized.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Which state of India has the lowest population density?",
+    "answer": "The state of **Arunachal Pradesh** has the lowest population density in India.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The population of Brazil is mainly concentrated in which region?",
+    "options": ["Amazon Basin", "Brazilian Highlands", "Coastal Areas", "Pantanal"],
+    "correct_answer": "C",
+    "answer": "The population of Brazil is mainly concentrated along the **coastal areas** due to historical and economic reasons. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the major challenges related to population in India? (Practice Set 6.2)",
+    "answer": "India, with its large population, faces several challenges:\n\n1.  **Unemployment:** Providing jobs to the massive workforce is a major challenge, leading to unemployment and underemployment.\n2.  **Pressure on Resources:** The large population puts immense pressure on natural resources like water, land, and forests.\n3.  **Inadequate Infrastructure:** Providing adequate housing, sanitation, healthcare, and education to the growing population is a huge task.\n4.  **Urbanization Issues:** Rapid urbanization leads to the growth of slums, traffic congestion, and pollution in cities.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Name any two states of Brazil with a high population density.",
+    "answer": "Two states of Brazil with a high population density are **Sao Paulo** and **Rio de Janeiro**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of 'population growth' and how it is calculated.",
+    "answer": "Population growth refers to the increase in the number of individuals in a population. It is calculated as the difference between the birth rate and the death rate over a specific period. A positive growth rate means the population is increasing, while a negative growth rate means it is decreasing. For a country, it also includes the effect of migration. The formula for population growth is:\n**Population Growth = (Births + Immigration) - (Deaths + Emigration)**",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the literacy rate of India as per the 2011 Census?",
+    "answer": "The literacy rate of India was approximately **74.04%** according to the 2011 Census.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain why the population is sparse in the Amazon Basin. (Practice Set 6.3)",
+    "answer": "The population is sparse in the Amazon Basin due to several reasons:\n\n1.  **Dense Forests:** The region is covered with dense, impenetrable rainforests, making it difficult for human settlement and agriculture.\n2.  **Unfavorable Climate:** The hot, humid, and rainy climate is not conducive to large-scale human habitation.\n3.  **Inaccessibility:** The lack of roads and infrastructure makes the interior of the Amazon Basin inaccessible, limiting development and settlement.\n4.  **Health Issues:** The dense forest environment is prone to diseases, which makes it challenging to live there.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an indicator of the quality of life of a population?",
+    "options": ["Population Density", "Sex Ratio", "Literacy Rate", "Birth Rate"],
+    "correct_answer": "C",
+    "answer": "The **literacy rate** is a good indicator of the quality of life and the level of development of a population. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Why is the population of Brazil highly urbanized? (PYQ: March 2019)",
+    "answer": "Brazil's population is highly urbanized for the following reasons:\n\n1.  **Economic Pull Factors:** Industrialization and the growth of services in urban areas created more job opportunities and a better quality of life, attracting people from rural areas.\n2.  **Rural-to-Urban Migration:** People migrated from the interior and rural areas to the coastal cities in search of a better standard of living and to escape poor living conditions.\n3.  **Government Policies:** The government has promoted the growth of major metropolitan centers, leading to the concentration of population in cities like Sao Paulo and Rio de Janeiro.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the sex ratio of India? (as per 2011 Census)",
+    "answer": "The sex ratio of India was **940 females per 1000 males** according to the 2011 Census.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Describe the main characteristics of the population pyramid of India. (Practice Set 6.4)",
+    "answer": "The population pyramid of India has the following characteristics:\n\n1.  **Broad Base:** The base of the pyramid is broad, indicating a large population of young people (birth rate is high).\n2.  **Tapering Top:** The top of the pyramid is narrow, which signifies a smaller population of old people (life expectancy is relatively lower).\n3.  **Growing Population:** The broad base and tapering top indicate that the population is growing rapidly.\n4.  **Youthful Population:** The high percentage of young people means that the population is youthful, and there is a large workforce for the future.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Which country has a higher population density, India or Brazil?",
+    "answer": "India has a much higher population density than Brazil.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the concept of 'demographic dividend' with reference to India.",
+    "answer": "Demographic dividend refers to the potential economic growth that can result from a shift in a country's age structure, mainly when the share of the working-age population (15-64 years) is larger than the non-working-age share. India is currently in this phase due to its young population. If this large workforce is employed and productive, it can lead to accelerated economic growth. To achieve this, India needs to invest in education, healthcare, and skill development.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "What is the term for a population pyramid that is narrow at the base and wide in the middle?",
+    "options": ["Expanding", "Stationary", "Declining", "Stable"],
+    "correct_answer": "C",
+    "answer": "A population pyramid that is narrow at the base and wide in the middle indicates a declining population, as the birth rate is lower than the death rate. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on the life expectancy of Brazil.",
+    "answer": "Brazil has a relatively high life expectancy compared to many developing nations. The life expectancy in Brazil has been steadily increasing over the years due to advancements in healthcare, better living conditions, and social welfare programs. A high life expectancy indicates a healthier population and a more developed society. Brazil's life expectancy is higher than that of India, reflecting a better healthcare system and a more stable environment.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the definition of population density?",
+    "answer": "Population density is the number of people living per unit area of land, usually expressed as persons per square kilometer (or per square mile).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the reasons behind the concentration of population in the coastal areas of Brazil.",
+    "answer": "The population of Brazil is heavily concentrated along its eastern coastal regions due to:\n\n1.  **Historical Settlement:** These areas were the first to be colonized and developed by the Portuguese, with major ports and cities established here.\n2.  **Favorable Climate and Topography:** The coastal plains have a suitable climate and flat land for agriculture and settlement, unlike the dense Amazon rainforest in the interior.\n3.  **Economic Development:** Major cities like Rio de Janeiro and Sao Paulo are located on the coast, which are the economic and industrial hubs of the country, providing more job opportunities.\n4.  **Accessibility:** The coastal areas have better connectivity and infrastructure, making them more attractive for living and business.",
+    "marks": 4
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The coordination number of a body-centered cubic (BCC) crystal lattice is: (MHT CET 2022)",
+    "options": [
+      "(a) 6",
+      "(b) 8",
+      "(c) 12",
+      "(d) 4"
+    ],
+    "correct_answer": "b",
+    "answer": "In a **body-centered cubic (BCC)** lattice, a constituent particle is present at the center of the cube, in addition to the particles at the corners. The particle at the center is in direct contact with the eight particles at the corners. Therefore, the coordination number is 8.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of atoms per unit cell in a face-centered cubic (FCC) crystal lattice is: (MHT CET 2021)",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 4",
+      "(d) 8"
+    ],
+    "correct_answer": "c",
+    "answer": "In a **face-centered cubic (FCC)** lattice, there are atoms at each of the 8 corners and at the center of each of the 6 faces. The contribution from each corner atom is $1/8$, and from each face-centered atom is $1/2$.<br>Number of atoms = (8 corners $\\times 1/8$) + (6 faces $\\times 1/2$) = $1 + 3 = 4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A compound forms a hexagonal close-packed (HCP) structure. The coordination number of the compound is: (MHT CET 2020)",
+    "options": [
+      "(a) 6",
+      "(b) 8",
+      "(c) 12",
+      "(d) 4"
+    ],
+    "correct_answer": "c",
+    "answer": "Both hexagonal close-packed (HCP) and face-centered cubic (FCC) lattices are examples of close-packed structures. In both structures, each atom is surrounded by 12 other atoms. Therefore, the coordination number is 12.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of tetrahedral voids per atom in a crystal lattice is: (MHT CET 2019)",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 4",
+      "(d) 8"
+    ],
+    "correct_answer": "b",
+    "answer": "For every atom in a close-packed structure (HCP or FCC), there is **one octahedral void** and **two tetrahedral voids**. Therefore, the number of tetrahedral voids per atom is 2.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Frenkel defect is a type of: (MHT CET 2018)",
+    "options": [
+      "(a) Stoichiometric defect",
+      "(b) Non-stoichiometric defect",
+      "(c) Impurity defect",
+      "(d) Interstitial defect"
+    ],
+    "correct_answer": "a",
+    "answer": "**Frenkel defect** is a type of **stoichiometric defect**. It occurs when an ion leaves its original lattice site and occupies an interstitial site, leaving a vacancy. The overall stoichiometry of the compound remains unchanged.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a molecular solid? (MHT CET 2017)",
+    "options": [
+      "(a) NaCl",
+      "(b) Diamond",
+      "(c) Ice",
+      "(d) Graphite"
+    ],
+    "correct_answer": "c",
+    "answer": "**Molecular solids** are solids in which the constituent particles are molecules held together by weak intermolecular forces. **Ice** is a molecular solid composed of water molecules ($H_2O$) held together by hydrogen bonds.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The packing efficiency of a simple cubic lattice is: (MHT CET 2016)",
+    "options": [
+      "(a) 52.4%",
+      "(b) 68%",
+      "(c) 74%",
+      "(d) 90%"
+    ],
+    "correct_answer": "a",
+    "answer": "The packing efficiency is the percentage of total space filled by the particles in a crystal lattice. For a **simple cubic** lattice, the atoms touch along the edge. The volume of the atom is $4/3 \\pi r^3$ and the volume of the unit cell is $(2r)^3$.<br>Packing efficiency = $(\\frac{\\text{Volume of one atom}}{\\text{Volume of unit cell}}) \\times 100 = (\\frac{4/3 \\pi r^3}{8r^3}) \\times 100 = \\frac{\\pi}{6} \\times 100 \\approx 52.4\\%$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a face-centered cubic (FCC) lattice, the atoms are in contact along the: (MHT CET 2015)",
+    "options": [
+      "(a) Edge",
+      "(b) Face diagonal",
+      "(c) Body diagonal",
+      "(d) None of these"
+    ],
+    "correct_answer": "b",
+    "answer": "In an **FCC** lattice, the atoms at the corners and the atom at the face center touch each other. The distance between the corner atom and the face-center atom is half the length of the face diagonal. Therefore, the atoms are in contact along the face diagonal.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The formula of a compound with atoms A and B forming a BCC lattice, where B atoms are at the corners and A atoms at the body center, is: (MHT CET 2014)",
+    "options": [
+      "(a) AB",
+      "(b) $A_2B$",
+      "(c) $AB_2$",
+      "(d) $A_8B$"
+    ],
+    "correct_answer": "a",
+    "answer": "In a BCC lattice, there are particles at the 8 corners and 1 particle at the body center.<br>Number of B atoms (at corners) = $8 \\times 1/8 = 1$<br>Number of A atoms (at body center) = $1 \\times 1 = 1$<br>The ratio of A:B is 1:1, so the formula is AB.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of octahedral voids per atom in a crystal lattice is: (MHT CET 2013)",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 4",
+      "(d) 8"
+    ],
+    "correct_answer": "a",
+    "answer": "In a close-packed structure, the number of **octahedral voids** is equal to the number of atoms. Therefore, the number of octahedral voids per atom is 1.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an ionic solid? (MHT CET 2012)",
+    "options": [
+      "(a) Ice",
+      "(b) NaCl",
+      "(c) Diamond",
+      "(d) Sucrose"
+    ],
+    "correct_answer": "b",
+    "answer": "**Ionic solids** are composed of positive and negative ions held together by electrostatic forces. **NaCl** (sodium chloride) is a classic example of an ionic solid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Schottky defect is a defect in: (MHT CET 2011)",
+    "options": [
+      "(a) Anions",
+      "(b) Cations",
+      "(c) Both anions and cations",
+      "(d) Interstitial sites"
+    ],
+    "correct_answer": "c",
+    "answer": "A **Schottky defect** is a type of point defect in an ionic crystal. It occurs when a pair of oppositely charged ions (a cation and an anion) are missing from their lattice sites, leaving behind two vacancies. This defect maintains the electrical neutrality of the crystal.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The coordination number of a simple cubic lattice is: (MHT CET 2010)",
+    "options": [
+      "(a) 6",
+      "(b) 8",
+      "(c) 12",
+      "(d) 4"
+    ],
+    "correct_answer": "a",
+    "answer": "In a **simple cubic** lattice, each atom is located at the corner of the cube. Each corner atom is in direct contact with its six nearest neighbors (one on each face of the cube). Therefore, the coordination number is 6.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Graphite is an example of a: (MHT CET 2009)",
+    "options": [
+      "(a) Ionic solid",
+      "(b) Covalent solid",
+      "(c) Molecular solid",
+      "(d) Metallic solid"
+    ],
+    "correct_answer": "b",
+    "answer": "**Graphite** is an allotrope of carbon. It has a layered structure in which each carbon atom is covalently bonded to three other carbon atoms in the same layer. These layers are held together by weak van der Waals forces. Because of the extensive covalent bonding, it is classified as a **covalent solid** or **network solid**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ionic radius of $Na^+$ is 95 pm and that of $Cl^-$ is 181 pm. The coordination number of $Na^+$ in NaCl crystal is: (MHT CET 2008)",
+    "options": [
+      "(a) 4",
+      "(b) 6",
+      "(c) 8",
+      "(d) 12"
+    ],
+    "correct_answer": "b",
+    "answer": "The coordination number in an ionic crystal like NaCl can be predicted from the radius ratio. The radius ratio is given by: $\\frac{r_{cation}}{r_{anion}} = \\frac{r_{Na^+}}{r_{Cl^-}} = \\frac{95}{181} \\approx 0.525$<br>A radius ratio in the range of 0.414 to 0.732 corresponds to an octahedral arrangement, where the coordination number is 6. In the NaCl crystal structure, each $Na^+$ ion is surrounded by six $Cl^-$ ions.",
+    "marks": 1
+  }
+]

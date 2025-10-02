@@ -1,0 +1,600 @@
+[
+  {
+    "type": "mcq",
+    "text": "Calculate the number of ions in $222 \\text{ g}$ anhydrous calcium chloride. (At. mass $Ca = 40, Cl = 35.5$)",
+    "options": [
+      "(a) $6 \\times N_A$",
+      "(b) $N_A$",
+      "(c) $2 \\times N_A$",
+      "(d) $3 \\times N_A$"
+    ],
+    "correct_answer": "a",
+    "answer": "The molar mass of $CaCl_2 = 40 + 2 \\times 35.5 = 111 \\text{ g/mol}$. Number of moles = $\\frac{222}{111} = 2 \\text{ mol}$. One mole of $CaCl_2$ contains one mole of $Ca^{2+}$ ions and two moles of $Cl^-$ ions, for a total of 3 moles of ions. Total ions = $2 \\text{ mol} \\times 3 \\times N_A = 6 \\times N_A$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the mass in grams of $0.25 \\text{ mol}$ of water?",
+    "options": [
+      "(a) $4.5 \\text{ g}$",
+      "(b) $1.8 \\text{ g}$",
+      "(c) $9.0 \\text{ g}$",
+      "(d) $0.5 \\text{ g}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molar mass of water ($H_2O$) is $2 \\times 1 + 16 = 18 \\text{ g/mol}$. Mass = Moles $\\times$ Molar Mass = $0.25 \\text{ mol} \\times 18 \\text{ g/mol} = 4.5 \\text{ g}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Find the number of moles present in $0.448 \\text{ L}$ of dihydrogen at STP.",
+    "options": [
+      "(a) $0.02 \\text{ mol}$",
+      "(b) $0.2 \\text{ mol}$",
+      "(c) $0.002 \\text{ mol}$",
+      "(d) $0.448 \\text{ mol}$"
+    ],
+    "correct_answer": "a",
+    "answer": "At STP, one mole of any gas occupies $22.4 \\text{ L}$. Number of moles = $\\frac{\\text{Volume at STP}}{\\text{Molar volume at STP}} = \\frac{0.448 \\text{ L}}{22.4 \\text{ L/mol}} = 0.02 \\text{ mol}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the percentage by mass of oxygen in $NaOH$?",
+    "options": [
+      "(a) $40\\%$",
+      "(b) $25\\%$",
+      "(c) $50\\%$",
+      "(d) $30\\%$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molar mass of $NaOH = 23 + 16 + 1 = 40 \\text{ g/mol}$. Percentage by mass of oxygen = $\\frac{\\text{Mass of O}}{\\text{Molar mass of NaOH}} \\times 100 = \\frac{16}{40} \\times 100 = 40\\%$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which law is illustrated by the formation of $CO$ and $CO_2$ from carbon and oxygen?",
+    "options": [
+      "(a) Law of Conservation of Mass",
+      "(b) Law of Definite Proportions",
+      "(c) Law of Multiple Proportions",
+      "(d) Gay-Lussac's Law"
+    ],
+    "correct_answer": "c",
+    "answer": "The Law of Multiple Proportions states that if two elements can combine to form more than one compound, the masses of one element that combine with a fixed mass of the other element are in a ratio of small whole numbers. In $CO$ and $CO_2$, a fixed mass of carbon combines with oxygen masses in the ratio of $1:2$, which is a simple whole number ratio.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the Avogadro number $N_A$ is changed from $6.022 \\times 10^{23} \\text{ mol}^{-1}$ to $6.022 \\times 10^{20} \\text{ mol}^{-1}$, this would change the:",
+    "options": [
+      "(a) Definition of mass in grams",
+      "(b) Mass of one mole of carbon",
+      "(c) Ratio of chemical species in a balanced equation",
+      "(d) Ratio of elements in a compound"
+    ],
+    "correct_answer": "b",
+    "answer": "The mass of one mole of a substance is defined as the mass of $N_A$ particles of that substance. If $N_A$ is changed, the mass of one mole would also change proportionally. For example, the molar mass of carbon is $12 \\text{ g/mol}$, which is the mass of $6.022 \\times 10^{23}$ atoms. If $N_A$ becomes $6.022 \\times 10^{20}$, the mass of one mole of carbon would become $\\frac{12 \\times 10^{20}}{10^{23}} = 12 \\times 10^{-3} \\text{ g}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A measured temperature on the Fahrenheit scale is $200^{\\circ}F$. What will this reading be on the Celsius scale?",
+    "options": [
+      "(a) $40^{\\circ}C$",
+      "(b) $94^{\\circ}C$",
+      "(c) $93.3^{\\circ}C$",
+      "(d) $30^{\\circ}C$"
+    ],
+    "correct_answer": "c",
+    "answer": "The relationship between Fahrenheit and Celsius is given by the formula: $T(^{\\circ}C) = (T(^{\\circ}F) - 32) \\times \\frac{5}{9}$.  Substituting the value, we get: $T(^{\\circ}C) = (200 - 32) \\times \\frac{5}{9} = 168 \\times \\frac{5}{9} = 93.33^{\\circ}C$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the molarity of a solution obtained by diluting $500 \\text{ mL}$ of a $5 \\text{ M}$ solution to $1500 \\text{ mL}$?",
+    "options": [
+      "(a) $1.5 \\text{ M}$",
+      "(b) $1.67 \\text{ M}$",
+      "(c) $0.017 \\text{ M}$",
+      "(d) $1.59 \\text{ M}$"
+    ],
+    "correct_answer": "b",
+    "answer": "We use the dilution formula: $M_1V_1 = M_2V_2$. Given $M_1 = 5 \\text{ M}$, $V_1 = 500 \\text{ mL}$, and $V_2 = 1500 \\text{ mL}$. We need to find $M_2$. $M_2 = \\frac{M_1V_1}{V_2} = \\frac{5 \\text{ M} \\times 500 \\text{ mL}}{1500 \\text{ mL}} = \\frac{2500}{1500} \\text{ M} \\approx 1.67 \\text{ M}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The empirical formula and molecular mass of a compound are $CH_2O$ and $180 \\text{ g}$ respectively. What will be the molecular formula of the compound?",
+    "options": [
+      "(a) $C_9H_{18}O_9$",
+      "(b) $C_6H_{12}O_6$",
+      "(c) $C_2H_{4}O_2$",
+      "(d) $CH_2O$"
+    ],
+    "correct_answer": "b",
+    "answer": "The empirical formula mass of $CH_2O = 12 + 2(1) + 16 = 30 \\text{ g}$. The molecular mass is $180 \\text{ g}$. The value of $n = \\frac{\\text{Molecular Mass}}{\\text{Empirical Formula Mass}} = \\frac{180}{30} = 6$. The molecular formula is $(CH_2O)_6 = C_6H_{12}O_6$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "How many moles of carbon atoms are present in $3.6 \\text{ kg}$ of carbon?",
+    "options": [
+      "(a) $300 \\text{ mol}$",
+      "(b) $100 \\text{ mol}$",
+      "(c) $150 \\text{ mol}$",
+      "(d) $200 \\text{ mol}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molar mass of carbon is $12 \\text{ g/mol}$. Given mass is $3.6 \\text{ kg} = 3600 \\text{ g}$. Number of moles = $\\frac{\\text{Mass}}{\\text{Molar Mass}} = \\frac{3600 \\text{ g}}{12 \\text{ g/mol}} = 300 \\text{ mol}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the volume occupied by one molecule of water, if its density is $1 \\text{ g } cm^{-3}$?",
+    "options": [
+      "(a) $2.98 \\times 10^{-23} \\text{ cm}^3$",
+      "(b) $6.023 \\times 10^{-23} \\text{ cm}^3$",
+      "(c) $5.50 \\times 10^{-23} \\text{ cm}^3$",
+      "(d) $3.0 \\times 10^{-23} \\text{ cm}^3$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molar mass of water is $18 \\text{ g/mol}$. Volume of 1 mole of water = $\\frac{\\text{Mass}}{\\text{Density}} = \\frac{18 \\text{ g}}{1 \\text{ g/cm}^3} = 18 \\text{ cm}^3$. Number of molecules in 1 mole is Avogadro's number ($N_A = 6.022 \\times 10^{23}$). Volume of one molecule = $\\frac{\\text{Volume of 1 mole}}{N_A} = \\frac{18 \\text{ cm}^3}{6.022 \\times 10^{23}} \\approx 2.988 \\times 10^{-23} \\text{ cm}^3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the number of moles and total number of atoms respectively present in $5.6 \\text{ cm}^3$ of ammonia gas at STP?",
+    "options": [
+      "(a) $2.5 \\times 10^{-4} \\text{ mol}$ and $6.022 \\times 10^{20}$ atoms",
+      "(b) $0.25 \\text{ mol}$ and $1.5 \\times 10^{23}$ atoms",
+      "(c) $2.5 \\times 10^{-4} \\text{ mol}$ and $7.5 \\times 10^{20}$ atoms",
+      "(d) $2.5 \\times 10^{-4} \\text{ mol}$ and $2.5 \\times 10^{20}$ atoms"
+    ],
+    "correct_answer": "a",
+    "answer": "At STP, $22400 \\text{ cm}^3$ of any gas contains 1 mole. Moles of ammonia = $\\frac{5.6}{22400} = 2.5 \\times 10^{-4} \\text{ mol}$. Each molecule of ammonia ($NH_3$) contains 4 atoms. Number of molecules = Moles $\\times N_A = 2.5 \\times 10^{-4} \\times 6.022 \\times 10^{23} = 1.5055 \\times 10^{20}$. Total number of atoms = Number of molecules $\\times$ 4 = $1.5055 \\times 10^{20} \\times 4 \\approx 6.022 \\times 10^{20}$ atoms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of significant figures in $0.00051$ is:",
+    "options": [
+      "(a) 5",
+      "(b) 3",
+      "(c) 2",
+      "(d) 4"
+    ],
+    "correct_answer": "c",
+    "answer": "Leading zeros are not considered significant. The non-zero digits, 5 and 1, are significant. Therefore, the number of significant figures is 2.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of significant figures in $6.02 \\times 10^{23}$ is:",
+    "options": [
+      "(a) 23",
+      "(b) 3",
+      "(c) 4",
+      "(d) 26"
+    ],
+    "correct_answer": "b",
+    "answer": "The number of significant figures in scientific notation is determined by the number of significant figures in the coefficient. The coefficient is $6.02$, which has three significant figures. The exponent ($10^{23}$) does not affect the number of significant figures.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the volume of oxygen required for the complete combustion of $0.25 \\text{ mol}$ of methane at S.T.P.?",
+    "options": [
+      "(a) $22.4 \\text{ dm}^3$",
+      "(b) $5.6 \\text{ dm}^3$",
+      "(c) $11.2 \\text{ dm}^3$",
+      "(d) $7.46 \\text{ dm}^3$"
+    ],
+    "correct_answer": "c",
+    "answer": "The balanced chemical equation for the combustion of methane is: $CH_4(g) + 2O_2(g) \\rightarrow CO_2(g) + 2H_2O(l)$. From the stoichiometry, $1 \\text{ mol}$ of $CH_4$ requires $2 \\text{ mol}$ of $O_2$. Therefore, $0.25 \\text{ mol}$ of $CH_4$ requires $0.25 \\times 2 = 0.5 \\text{ mol}$ of $O_2$. At S.T.P., $1 \\text{ mol}$ of a gas occupies $22.4 \\text{ dm}^3$. Volume of $O_2$ required = $0.5 \\text{ mol} \\times 22.4 \\text{ dm}^3/\\text{mol} = 11.2 \\text{ dm}^3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The percentage composition of a compound is found to be $80\\%$ carbon and $20\\%$ hydrogen. What is its empirical formula? (Atomic mass: $C = 12, H = 1$)",
+    "options": [
+      "(a) $CH$",
+      "(b) $CH_2$",
+      "(c) $CH_3$",
+      "(d) $C_2H_5$"
+    ],
+    "correct_answer": "c",
+    "answer": "To find the empirical formula, we calculate the mole ratio of the elements. For Carbon: $\\frac{80}{12} = 6.67 \\text{ mol}$. For Hydrogen: $\\frac{20}{1} = 20 \\text{ mol}$. The simplest whole number ratio is found by dividing by the smallest value ($6.67$). C: $\\frac{6.67}{6.67} = 1$. H: $\\frac{20}{6.67} \\approx 3$. The empirical formula is $CH_3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A compound contains $4.07\\%$ hydrogen, $24.27\\%$ carbon and $71.65\\%$ chlorine. Its molar mass is $98.96 \\text{ g/mol}$. What is its molecular formula?",
+    "options": [
+      "(a) $CH_2Cl$",
+      "(b) $C_2H_4Cl_2$",
+      "(c) $C_2H_2Cl_2$",
+      "(d) $C_3H_6Cl_3$"
+    ],
+    "correct_answer": "b",
+    "answer": "First, find the empirical formula by calculating the mole ratio of the elements. H: $\\frac{4.07}{1} = 4.07 \\text{ mol}$, C: $\\frac{24.27}{12} = 2.02 \\text{ mol}$, Cl: $\\frac{71.65}{35.5} = 2.02 \\text{ mol}$. Dividing by the smallest value ($2.02$) gives the ratio C:H:Cl as $1:2:1$. The empirical formula is $CH_2Cl$. The empirical formula mass is $12+2+35.5 = 49.5$. The molecular mass is $98.96 \\text{ g/mol}$. The value of $n = \\frac{98.96}{49.5} \\approx 2$. Molecular formula = $(CH_2Cl)_2 = C_2H_4Cl_2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "How many molecules of carbon dioxide are formed when $0.6 \\text{ g}$ of carbon is burnt in air?",
+    "options": [
+      "(a) $3.011 \\times 10^{22}$",
+      "(b) $6.022 \\times 10^{22}$",
+      "(c) $1.505 \\times 10^{22}$",
+      "(d) $6.022 \\times 10^{23}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction is $C(s) + O_2(g) \\rightarrow CO_2(g)$. From the stoichiometry, $1 \\text{ mol}$ of carbon produces $1 \\text{ mol}$ of $CO_2$. Moles of carbon = $\\frac{0.6 \\text{ g}}{12 \\text{ g/mol}} = 0.05 \\text{ mol}$. Moles of $CO_2$ formed is also $0.05 \\text{ mol}$. Number of molecules = Moles $\\times N_A = 0.05 \\times 6.022 \\times 10^{23} = 3.011 \\times 10^{22}$ molecules.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the mass in $\\text{kg}$ of $5 \\text{ mol}$ of acetic acid? (Molar mass = $60 \\text{ g/mol}$)",
+    "options": [
+      "(a) $0.3 \\text{ kg}$",
+      "(b) $3 \\text{ kg}$",
+      "(c) $30 \\text{ kg}$",
+      "(d) $300 \\text{ kg}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Mass = Moles $\\times$ Molar Mass = $5 \\text{ mol} \\times 60 \\text{ g/mol} = 300 \\text{ g}$. To convert to kg, we divide by 1000. Mass in kg = $\\frac{300}{1000} = 0.3 \\text{ kg}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the value of 1 amu in terms of grams?",
+    "options": [
+      "(a) $1.6605 \\times 10^{-24} \\text{ g}$",
+      "(b) $1.99 \\times 10^{-23} \\text{ g}$",
+      "(c) $1.07 \\times 10^{-24} \\text{ g}$",
+      "(d) $1.6605 \\times 10^{-27} \\text{ g}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The atomic mass unit (amu) is defined as exactly one-twelfth of the mass of an unbound atom of carbon-12. The mass of one carbon-12 atom is $1.9926 \\times 10^{-23} \\text{ g}$. Therefore, $1 \\text{ amu} = \\frac{1}{12} \\times (1.9926 \\times 10^{-23} \\text{ g}) = 1.6605 \\times 10^{-24} \\text{ g}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the reaction, $2KClO_3(s) \\rightarrow 2KCl(s) + 3O_2(g)$. If $33.6 \\text{ L}$ of oxygen gas is liberated at S.T.P., what is the mass of $KCl$ produced? (Atomic mass: $K = 39, Cl = 35.5$)",
+    "options": [
+      "(a) $48.0 \\text{ g}$",
+      "(b) $74.5 \\text{ g}$",
+      "(c) $122.5 \\text{ g}$",
+      "(d) $149.0 \\text{ g}$"
+    ],
+    "correct_answer": "b",
+    "answer": "Moles of $O_2$ = $\\frac{33.6}{22.4} = 1.5 \\text{ mol}$. From the stoichiometry, $2 \\text{ mol}$ of $KCl$ is produced for every $3 \\text{ mol}$ of $O_2$. Moles of $KCl$ produced = $1.5 \\times \\frac{2}{3} = 1 \\text{ mol}$. Molar mass of $KCl = 39 + 35.5 = 74.5 \\text{ g/mol}$. Mass of $KCl = 1 \\text{ mol} \\times 74.5 \\text{ g/mol} = 74.5 \\text{ g}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following pairs of compounds cannot demonstrate the law of multiple proportions?",
+    "options": [
+      "(a) $CO, CO_2$",
+      "(b) $H_2O, H_2O_2$",
+      "(c) $NaNO_3, CaCO_3$",
+      "(d) $N_2O, NO_2$"
+    ],
+    "correct_answer": "c",
+    "answer": "The law of multiple proportions applies to compounds formed by the same two elements. $NaNO_3$ and $CaCO_3$ are formed from different sets of elements ($Na, N, O$ and $Ca, C, O$), so they cannot demonstrate this law.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The mass of one atom of carbon-12 is:",
+    "options": [
+      "(a) $1.99 \\times 10^{-23} \\text{ g}$",
+      "(b) $12 \\text{ g}$",
+      "(c) $1.66 \\times 10^{-24} \\text{ g}$",
+      "(d) $6.022 \\times 10^{23} \\text{ g}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The mass of one mole of carbon-12 is $12 \\text{ g}$. One mole contains $N_A$ atoms. Mass of one atom = $\\frac{\\text{Molar Mass}}{N_A} = \\frac{12 \\text{ g}}{6.022 \\times 10^{23}} \\approx 1.99 \\times 10^{-23} \\text{ g}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the number of molecules present in $10 \\text{ g}$ of water?",
+    "options": [
+      "(a) $3.345 \\times 10^{23}$",
+      "(b) $6.022 \\times 10^{23}$",
+      "(c) $1.083 \\times 10^{24}$",
+      "(d) $1.083 \\times 10^{23}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molar mass of water is $18 \\text{ g/mol}$. Moles of water = $\\frac{\\text{Mass}}{\\text{Molar Mass}} = \\frac{10 \\text{ g}}{18 \\text{ g/mol}} \\approx 0.555 \\text{ mol}$. Number of molecules = Moles $\\times N_A = 0.555 \\times 6.022 \\times 10^{23} \\approx 3.345 \\times 10^{23}$ molecules.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The prefix $10^{18}$ is:",
+    "options": [
+      "(a) giga",
+      "(b) exa",
+      "(c) kilo",
+      "(d) mega"
+    ],
+    "correct_answer": "b",
+    "answer": "The SI prefix for $10^{18}$ is exa.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the percentage atom economy when formula weight of product obtained is $70 \\text{ u}$ and the sum of formula weight of reactant is $140 \\text{ u}$?",
+    "options": [
+      "(a) $70\\%$",
+      "(b) $50\\%$",
+      "(c) $100\\%$",
+      "(d) $25\\%$"
+    ],
+    "correct_answer": "b",
+    "answer": "Atom economy = $(\\frac{\\text{Formula weight of desired product}}{\\text{Sum of formula weights of all reactants}}) \\times 100$. Atom economy = $(\\frac{70}{140}) \\times 100 = 50\\%$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following pairs of compounds will NOT demonstrate the law of multiple proportion?",
+    "options": [
+      "(a) $CuO, Cu_2O$",
+      "(b) $CO, CO_2$",
+      "(c) $H_2O, H_2O_2$",
+      "(d) $Na_2S, NaF$"
+    ],
+    "correct_answer": "d",
+    "answer": "The law of multiple proportions is applicable to compounds formed from the same two elements. The pair $Na_2S$ and $NaF$ involves three different elements: $Na, S, F$. Therefore, this pair cannot demonstrate the law of multiple proportions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Chlorine has two isotopes $^{35}Cl$ and $^{37}Cl$ with an average atomic mass of $35.5$. What is the ratio of their relative abundance respectively?",
+    "options": [
+      "(a) $1:1$",
+      "(b) $2:1$",
+      "(c) $3:1$",
+      "(d) $1:3$"
+    ],
+    "correct_answer": "c",
+    "answer": "Let the percentage abundance of $^{35}Cl$ be $x\\%$ and that of $^{37}Cl$ be $(100-x)\\%$. Average atomic mass = $\\frac{(35 \\times x) + (37 \\times (100-x))}{100}$. $35.5 = \\frac{35x + 3700 - 37x}{100}$. $3550 = 3700 - 2x$. $2x = 3700 - 3550 = 150$. $x = 75\\%$. The percentage abundance of $^{37}Cl$ is $(100-75) = 25\\%$. The ratio of their relative abundance is $75:25$, which simplifies to $3:1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the mass in $\\text{kg}$ of $4.48 \\text{ dm}^3$ of carbon dioxide at S.T.P.?",
+    "options": [
+      "(a) $2.2 \\times 10^{-3}$",
+      "(b) $4.4 \\times 10^{-3}$",
+      "(c) $8.8 \\times 10^{-3}$",
+      "(d) $6.6 \\times 10^{-3}$"
+    ],
+    "correct_answer": "c",
+    "answer": "Molar mass of $CO_2 = 12 + 2 \\times 16 = 44 \\text{ g/mol}$. At STP, $22.4 \\text{ dm}^3$ is the molar volume. Moles of $CO_2 = \\frac{4.48}{22.4} = 0.2 \\text{ mol}$. Mass in grams = $0.2 \\text{ mol} \\times 44 \\text{ g/mol} = 8.8 \\text{ g}$. To convert to kg, we divide by 1000. Mass in kg = $8.8 \\times 10^{-3} \\text{ kg}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the number of moles of sodium atoms in $6.9 \\times 10^{-2} \\text{ kg}$? (Atomic mass = $23 \\text{ g/mol}$)",
+    "options": [
+      "(a) 1.5",
+      "(b) 0.3",
+      "(c) 3.0",
+      "(d) 2.3"
+    ],
+    "correct_answer": "c",
+    "answer": "Mass in grams = $6.9 \\times 10^{-2} \\text{ kg} = 69 \\text{ g}$. Number of moles = $\\frac{\\text{Mass}}{\\text{Molar Mass}} = \\frac{69 \\text{ g}}{23 \\text{ g/mol}} = 3.0 \\text{ mol}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A given compound always contains the same proportion of elements by weight. This statement is a law of:",
+    "options": [
+      "(a) Law of Conservation of Mass",
+      "(b) Law of Definite Proportions",
+      "(c) Law of Multiple Proportions",
+      "(d) Avogadro's Law"
+    ],
+    "correct_answer": "b",
+    "answer": "The Law of Definite Proportions (or Law of Constant Composition) states that a given chemical compound always contains its component elements in fixed ratio by mass.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a homogeneous mixture?",
+    "options": [
+      "(a) Mixture of soil and water",
+      "(b) Sugar solution",
+      "(c) Mixture of sugar, salt and sand",
+      "(d) Iodized table salt"
+    ],
+    "correct_answer": "b",
+    "answer": "A homogeneous mixture is a mixture in which the composition is uniform throughout the mixture. A sugar solution is a prime example of a homogeneous mixture.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What will be the mass of one atom of C-12 in grams?",
+    "options": [
+      "(a) $1.99 \\times 10^{-23} \\text{ g}$",
+      "(b) $12 \\text{ g}$",
+      "(c) $1.66 \\times 10^{-24} \\text{ g}$",
+      "(d) $6.022 \\times 10^{23} \\text{ g}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The mass of one mole of C-12 is $12 \\text{ g}$. One mole contains Avogadro's number ($N_A$) of atoms. Mass of one atom = $\\frac{12 \\text{ g}}{6.022 \\times 10^{23}} \\approx 1.99 \\times 10^{-23} \\text{ g}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the symbol for the SI unit of mole?",
+    "options": [
+      "(a) $mol$",
+      "(b) $m$",
+      "(c) $n$",
+      "(d) $M$"
+    ],
+    "correct_answer": "a",
+    "answer": "The SI unit for the amount of substance is the mole, and its symbol is $mol$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The mass of $0.5 \\text{ mol}$ of a gas at STP is $16 \\text{ g}$. The gas could be:",
+    "options": [
+      "(a) $N_2$",
+      "(b) $O_2$",
+      "(c) $CH_4$",
+      "(d) $CO_2$"
+    ],
+    "correct_answer": "b",
+    "answer": "Molar mass = $\\frac{\\text{Mass}}{\\text{Moles}} = \\frac{16 \\text{ g}}{0.5 \\text{ mol}} = 32 \\text{ g/mol}$. The molar mass of $O_2$ is $32 \\text{ g/mol}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An element forms two oxides. The first oxide contains $50\\%$ of the element and the second contains $40\\%$ of the element. The law illustrated is:",
+    "options": [
+      "(a) Law of conservation of mass",
+      "(b) Law of definite proportions",
+      "(c) Law of multiple proportions",
+      "(d) Avogadro's law"
+    ],
+    "correct_answer": "c",
+    "answer": "The masses of the second element (oxygen) that combine with a fixed mass of the first element will be in a simple whole number ratio, as per the Law of Multiple Proportions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of molecules in $4.4 \\text{ g}$ of $CO_2$ is:",
+    "options": [
+      "(a) $0.1 \\times N_A$",
+      "(b) $0.25 \\times N_A$",
+      "(c) $1 \\times N_A$",
+      "(d) $0.5 \\times N_A$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molar mass of $CO_2 = 12 + 2 \\times 16 = 44 \\text{ g/mol}$. Moles of $CO_2 = \\frac{4.4}{44} = 0.1 \\text{ mol}$. Number of molecules = Moles $\\times N_A = 0.1 \\times N_A$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the volume occupied by $0.5 \\text{ mol}$ of $SO_2$ gas at STP?",
+    "options": [
+      "(a) $11.2 \\text{ L}$",
+      "(b) $22.4 \\text{ L}$",
+      "(c) $5.6 \\text{ L}$",
+      "(d) $1.12 \\text{ L}$"
+    ],
+    "correct_answer": "a",
+    "answer": "At STP, 1 mole of any gas occupies $22.4 \\text{ L}$. Volume of $SO_2$ gas = $0.5 \\text{ mol} \\times 22.4 \\text{ L/mol} = 11.2 \\text{ L}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of moles of solute present in $1000 \\text{ mL}$ of a $0.5 \\text{ M}$ solution is:",
+    "options": [
+      "(a) $0.5$",
+      "(b) $1.0$",
+      "(c) $0.25$",
+      "(d) $2.0$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molarity ($M$) = $\\frac{\\text{Moles of solute}}{\\text{Volume of solution in L}}$. Volume in L = $\\frac{1000 \\text{ mL}}{1000} = 1 \\text{ L}$. Moles of solute = Molarity $\\times$ Volume in L = $0.5 \\text{ M} \\times 1 \\text{ L} = 0.5 \\text{ mol}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the percentage of carbon in ethanol ($C_2H_5OH$)?",
+    "options": [
+      "(a) $52.14\\%$",
+      "(b) $13.04\\%$",
+      "(c) $34.78\\%$",
+      "(d) $6.95\\%$"
+    ],
+    "correct_answer": "a",
+    "answer": "Molar mass of $C_2H_5OH = 2(12) + 6(1) + 16 = 46 \\text{ g/mol}$. Mass of carbon in one mole = $2 \\times 12 = 24 \\text{ g}$. Percentage of carbon = $\\frac{24}{46} \\times 100 \\approx 52.17\\%$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following contains the maximum number of atoms?",
+    "options": [
+      "(a) $1 \\text{ g}$ of $H_2$",
+      "(b) $1 \\text{ g}$ of $He$",
+      "(c) $1 \\text{ g}$ of $Na$",
+      "(d) $1 \\text{ g}$ of $O_2$"
+    ],
+    "correct_answer": "a",
+    "answer": "To find the number of atoms, we calculate moles and multiply by the number of atoms per molecule. Moles of $H_2 = \\frac{1}{2} = 0.5$. Atoms = $0.5 \\times 2 \\times N_A = N_A$. Moles of $He = \\frac{1}{4} = 0.25$. Atoms = $0.25 \\times N_A$. Moles of $Na = \\frac{1}{23}$. Atoms = $\\frac{1}{23} \\times N_A$. Moles of $O_2 = \\frac{1}{32}$. Atoms = $\\frac{1}{32} \\times 2 \\times N_A = \\frac{1}{16} N_A$. Since $0.5 > 0.25 > 1/16 > 1/23$, $H_2$ has the most atoms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of atoms in $0.1 \\text{ mol}$ of a triatomic gas is:",
+    "options": [
+      "(a) $1.806 \\times 10^{23}$",
+      "(b) $6.022 \\times 10^{22}$",
+      "(c) $3.011 \\times 10^{22}$",
+      "(d) $1.806 \\times 10^{24}$"
+    ],
+    "correct_answer": "a",
+    "answer": "A triatomic gas has 3 atoms per molecule. Number of molecules = $0.1 \\times N_A$. Number of atoms = $3 \\times 0.1 \\times N_A = 0.3 \\times 6.022 \\times 10^{23} = 1.8066 \\times 10^{23}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The mass of one mole of a substance is its:",
+    "options": [
+      "(a) Atomic mass",
+      "(b) Molecular mass",
+      "(c) Molar mass",
+      "(d) Equivalent mass"
+    ],
+    "correct_answer": "c",
+    "answer": "The mass of one mole of a substance is called its molar mass, expressed in units of grams per mole ($g/mol$).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the molar mass of a compound with the empirical formula $CH_2$ and a vapor density of $14$?",
+    "options": [
+      "(a) $14 \\text{ g/mol}$",
+      "(b) $28 \\text{ g/mol}$",
+      "(c) $42 \\text{ g/mol}$",
+      "(d) $56 \\text{ g/mol}$"
+    ],
+    "correct_answer": "b",
+    "answer": "Molecular mass = $2 \\times \\text{Vapor Density} = 2 \\times 14 = 28 \\text{ g/mol}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the number of moles of sodium atoms in $69 \\text{ g}$ of sodium?",
+    "options": [
+      "(a) $1$",
+      "(b) $2$",
+      "(c) $3$",
+      "(d) $4$"
+    ],
+    "correct_answer": "c",
+    "answer": "Atomic mass of Na is $23 \\text{ g/mol}$. Number of moles = $\\frac{69}{23} = 3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The volume of $22.4 \\text{ L}$ of a gas at STP contains:",
+    "options": [
+      "(a) 1 atom",
+      "(b) 1 molecule",
+      "(c) 1 mole",
+      "(d) $N_A$ atoms"
+    ],
+    "correct_answer": "c",
+    "answer": "According to Avogadro's Law, one mole of any ideal gas occupies a volume of $22.4 \\text{ L}$ at Standard Temperature and Pressure (STP).",
+    "marks": 1
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "type": "short",
+    "text": "Why does carbon form a large number of compounds?",
+    "answer": "Carbon forms a large number of compounds due to two main properties: **catenation**, the ability to form long chains and rings by bonding with other carbon atoms; and **tetravalency**, its ability to form four bonds with other atoms.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is catenation?",
+    "answer": "Catenation is the ability of an atom to form bonds with other atoms of the same element, resulting in the formation of long chains, branched chains, or rings. Carbon has a strong ability to catenate, which is why it forms millions of compounds.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the types of covalent bonds? Explain each type with an example.",
+    "answer": "Covalent bonds can be classified into single, double, and triple bonds based on the number of electron pairs shared between two atoms.\n\n* **Single Covalent Bond:** Formed by the sharing of one pair of electrons. Example: In a molecule of methane ($CH_4$), a single covalent bond exists between the carbon atom and each of the four hydrogen atoms.\n* **Double Covalent Bond:** Formed by the sharing of two pairs of electrons. Example: In a molecule of ethene ($C_2H_4$), a double bond exists between the two carbon atoms.\n* **Triple Covalent Bond:** Formed by the sharing of three pairs of electrons. Example: In a molecule of ethyne ($C_2H_2$), a triple bond exists between the two carbon atoms.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the difference between saturated and unsaturated hydrocarbons. (Practice Set 9.1)",
+    "answer": "### **Saturated Hydrocarbons**\n* **Bonding:** Contain only single covalent bonds between carbon atoms.\n* **Nomenclature:** They belong to the 'alkane' series, with names ending in '-ane'.\n* **Reactivity:** They are less reactive due to the strong single bonds.\n* **Example:** Ethane ($C_2H_6$).\n\n### **Unsaturated Hydrocarbons**\n* **Bonding:** Contain at least one double or triple covalent bond between carbon atoms.\n* **Nomenclature:** They belong to the 'alkene' (double bond) or 'alkyne' (triple bond) series, with names ending in '-ene' or '-yne' respectively.\n* **Reactivity:** They are more reactive due to the presence of multiple bonds.\n* **Example:** Ethene ($C_2H_4$) or Ethyne ($C_2H_2$).",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What are isomers?",
+    "answer": "Isomers are two or more compounds that have the same chemical formula but different structural arrangements of atoms. For example, butane ($C_4H_{10}$) has two isomers: n-butane and isobutane.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The functional group of an alcohol is... (Problem Set 9)",
+    "options": ["-COOH", "-OH", "-CHO", "-O-"],
+    "correct_answer": "B",
+    "answer": "The hydroxyl group (-OH) is the characteristic functional group of alcohols. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the homologous series of alkanes. (Practice Set 9.2)",
+    "answer": "A homologous series is a series of organic compounds that have a similar structure and a similar chemical property, in which the successive members differ by a $CH_2$ group.\n\n### **Characteristics of a homologous series**\n* All members have the same functional group.\n* Successive members differ by a $CH_2$ group and have a difference in molecular mass of 14 u.\n* All members can be represented by the same general formula.\n* They show a gradation in physical properties with increasing molecular mass.\n* They have similar chemical properties due to the presence of the same functional group.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Give the IUPAC name of $CH_3-CH_2-CH_3$.",
+    "answer": "The IUPAC name of the compound $CH_3-CH_2-CH_3$ is **Propane**. It is an alkane with three carbon atoms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general formula for alkenes is... (Problem Set 9)",
+    "options": ["$C_nH_{2n+2}$", "$C_nH_{2n}$", "$C_nH_{2n-2}$", "$C_nH_{2n-1}$"],
+    "correct_answer": "B",
+    "answer": "Alkenes are unsaturated hydrocarbons with a carbon-carbon double bond. Their general formula is $C_nH_{2n}$. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the addition reaction of hydrocarbons with an example. (Practice Set 9.3)",
+    "answer": "An addition reaction is a type of organic reaction in which an unsaturated hydrocarbon (alkene or alkyne) reacts with another substance (like hydrogen, chlorine, etc.) to form a saturated compound. In this reaction, the multiple bond (double or triple) is broken, and new atoms are added to the carbon atoms.\n\n**Example:** Hydrogenation of ethene\nWhen ethene ($C_2H_4$) reacts with hydrogen gas in the presence of a catalyst like Nickel, it forms a saturated hydrocarbon, ethane ($C_2H_6$).\n\n$C_2H_4(g) + H_2(g) \\xrightarrow{Ni} C_2H_6(g)$",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the functional group of a carboxylic acid?",
+    "answer": "The functional group of a carboxylic acid is the **carboxyl group** (-COOH).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first member of the alkyne homologous series is... (Problem Set 9)",
+    "options": ["Methane", "Ethene", "Ethane", "Ethyne"],
+    "correct_answer": "D",
+    "answer": "The alkyne series starts with two carbon atoms, as it requires a carbon-carbon triple bond. The first member is ethyne ($C_2H_2$). The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is a substitution reaction? Explain with an example. (Practice Set 9.4)",
+    "answer": "A substitution reaction is a type of chemical reaction in which one atom or a group of atoms in a molecule is replaced by another atom or a group of atoms. These reactions are characteristic of saturated hydrocarbons (alkanes), as they do not have any multiple bonds to break.\n\n**Example:** Chlorination of methane\nWhen methane ($CH_4$) reacts with chlorine gas in the presence of sunlight (UV light), one of the hydrogen atoms is replaced by a chlorine atom to form chloromethane.\n\n$CH_4(g) + Cl_2(g) \\xrightarrow{Sunlight} CH_3Cl(g) + HCl(g)$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Give the IUPAC name for $CH_3-COOH$.",
+    "answer": "The IUPAC name for the compound $CH_3-COOH$ is **Ethanoic acid**. It has two carbon atoms and a carboxyl group.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Vinegar is a dilute solution of... (Problem Set 9)",
+    "options": ["Ethanoic acid", "Formic acid", "Citric acid", "Sulphuric acid"],
+    "correct_answer": "A",
+    "answer": "Vinegar is a dilute aqueous solution of ethanoic acid (acetic acid). The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the reaction of esterification with a balanced chemical equation. (Practice Set 9.5)",
+    "answer": "Esterification is the reaction in which a carboxylic acid and an alcohol react in the presence of an acid catalyst (like concentrated sulfuric acid) to form an ester and water. This is a reversible reaction.\n\n**Example:** Reaction between ethanoic acid and ethanol\nEthanoic acid reacts with ethanol in the presence of an acid catalyst to form ethyl ethanoate (an ester) and water.\n\n$CH_3COOH(aq) + C_2H_5OH(aq) \\xrightarrow{H^+} CH_3COOC_2H_5(aq) + H_2O(l)$\n(Ethanoic Acid + Ethanol $\\xrightarrow{H^+}$ Ethyl Ethanoate + Water)",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the functional group of a ketone?",
+    "answer": "The functional group of a ketone is the **carbonyl group** ($>C=O$) attached to two carbon atoms.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "What is the general formula for a carboxylic acid? (Problem Set 9)",
+    "options": ["$R-OH$", "$R-CHO$", "$R-COOH$", "$R-O-R'$"],
+    "correct_answer": "C",
+    "answer": "The general formula for a carboxylic acid is $R-COOH$, where 'R' represents a hydrocarbon group. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of saponification with a balanced chemical equation. (Practice Set 9.6)",
+    "answer": "Saponification is the process of making soap from an ester (triglyceride) by hydrolysis with a strong base like sodium hydroxide. The reaction produces a soap (sodium salt of a long-chain fatty acid) and glycerol (an alcohol).\n\n**Example:** Hydrolysis of a fat with sodium hydroxide\n\n$Fat (Ester) + 3NaOH(aq) \\rightarrow Glycerol + 3 Soap (Sodium salt of fatty acid)$",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is a functional group?",
+    "answer": "A functional group is an atom or a group of atoms in an organic molecule that is responsible for its characteristic chemical reactions. It determines the chemical properties of a compound.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not a functional group? (Problem Set 9)",
+    "options": ["-OH", "-CHO", "-NH_2", "-CH_3"],
+    "correct_answer": "D",
+    "answer": "The -OH (hydroxyl), -CHO (aldehyde), and -NH_2 (amino) groups are all common functional groups. The -CH_3 (methyl) group is a hydrocarbon group, not a functional group. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the properties of covalent compounds. (PYQ: March 2020)",
+    "answer": "### **Properties of Covalent Compounds**\n1.  **Low Melting and Boiling Points:** They have weak intermolecular forces of attraction, so less energy is required to break these forces, leading to low melting and boiling points.\n2.  **Poor Conductors of Electricity:** Covalent compounds do not have free ions or electrons to carry electric charge, so they are generally poor conductors of electricity.\n3.  **Solubility:** They are generally insoluble in water but soluble in organic solvents like alcohol, ether, and benzene.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is an oxidizing agent? (Practice Set 9.7)",
+    "answer": "An oxidizing agent is a substance that causes the oxidation of another substance by either adding oxygen to it or removing hydrogen from it. An example is alkaline potassium permanganate ($KMnO_4$).",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The general formula for alkynes is... (Problem Set 9)",
+    "options": ["$C_nH_{2n+2}$", "$C_nH_{2n}$", "$C_nH_{2n-2}$", "$C_nH_{2n-1}$"],
+    "correct_answer": "C",
+    "answer": "Alkynes are unsaturated hydrocarbons with at least one carbon-carbon triple bond. Their general formula is $C_nH_{2n-2}$. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is an ester? How is it formed? (Practice Set 9.8)",
+    "answer": "An ester is an organic compound formed by the reaction of a carboxylic acid with an alcohol. Esters have a characteristic fruity smell and are used in perfumes and flavoring agents. The process of forming an ester is called **esterification**.\n\n$R-COOH + R'-OH \\xrightarrow{H^+} R-COO-R' + H_2O$\n(Carboxylic Acid + Alcohol $\\xrightarrow{H^+}$ Ester + Water)",
+    "marks": 3
+  }
+]

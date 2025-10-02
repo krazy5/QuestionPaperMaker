@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "A ray of light is incident on a plane mirror at an angle of $30^\\circ$. The angle of deviation of the ray after reflection is: (MHT CET 2022)",
+    "options": [
+      "(a) $30^\\circ$",
+      "(b) $60^\\circ$",
+      "(c) $120^\\circ$",
+      "(d) $150^\\circ$"
+    ],
+    "correct_answer": "c",
+    "answer": "The angle of incidence is given as the angle between the incident ray and the normal, which is $i = 30^\\circ$. According to the law of reflection, the angle of reflection is equal to the angle of incidence, so $r = 30^\\circ$.<br>The angle of deviation ($\\delta$) is the angle between the incident ray and the reflected ray. This is found by subtracting the sum of the angles of incidence and reflection from $180^\\circ$.<br>$\\delta = 180^\\circ - (i + r) = 180^\\circ - (30^\\circ + 30^\\circ) = 180^\\circ - 60^\\circ = 120^\\circ$<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A convex lens of focal length 20 cm is in contact with a concave lens of focal length 40 cm. The power of the combination is: (MHT CET 2021)",
+    "options": [
+      "(a) +2.5 D",
+      "(b) +5.0 D",
+      "(c) -2.5 D",
+      "(d) +7.5 D"
+    ],
+    "correct_answer": "a",
+    "answer": "The power of a lens is given by $P = \\frac{1}{f}$, where 'f' is the focal length in meters.<br>For the convex lens, focal length $f_1 = +20$ cm = +0.2 m.<br>Power of the convex lens, $P_1 = \\frac{1}{0.2} = +5$ D.<br>For the concave lens, focal length $f_2 = -40$ cm = -0.4 m.<br>Power of the concave lens, $P_2 = \\frac{1}{-0.4} = -2.5$ D.<br>The power of the combination is the sum of the individual powers:<br>$P_{total} = P_1 + P_2 = +5 \\text{ D} + (-2.5 \\text{ D}) = +2.5$ D.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A mirror produces an image that is virtual, erect, and magnified. The mirror is: (MHT CET 2020)",
+    "options": [
+      "(a) Plane",
+      "(b) Concave",
+      "(c) Convex",
+      "(d) Both concave and convex"
+    ],
+    "correct_answer": "b",
+    "answer": "Let's analyze the image properties for each type of mirror:<br>- **Plane mirror:** Produces a virtual, erect, and same-sized image.<br>- **Convex mirror:** Produces a virtual, erect, and diminished image.<br>- **Concave mirror:** Produces a virtual, erect, and magnified image when the object is placed between the pole and the principal focus.<br>Only a concave mirror can produce a virtual, erect, and magnified image.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The refractive index of a medium is 'n'. The critical angle for the medium is: (MHT CET 2019)",
+    "options": [
+      "(a) $\\sin^{-1}(1/n)$",
+      "(b) $\\cos^{-1}(1/n)$",
+      "(c) $\\tan^{-1}(1/n)$",
+      "(d) $\\cot^{-1}(1/n)$"
+    ],
+    "correct_answer": "a",
+    "answer": "The **critical angle** ($i_c$) is the angle of incidence in a denser medium for which the angle of refraction in a rarer medium is $90^\\circ$.<br>According to Snell's law, $n_1 \\sin i_c = n_2 \\sin 90^\\circ$.<br>Let the refractive index of the denser medium be 'n' and the rarer medium (e.g., air) be 1.<br>$n \\sin i_c = 1 \\times 1 = 1$<br>$\\sin i_c = \\frac{1}{n}$<br>$i_c = \\sin^{-1}\\left(\\frac{1}{n}\\right)$<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The focal length of a spherical mirror is 'f'. The radius of curvature is 'R'. The relation between them is: (MHT CET 2018)",
+    "options": [
+      "(a) $R = f$",
+      "(b) $R = 2f$",
+      "(c) $R = f/2$",
+      "(d) $R = 3f$"
+    ],
+    "correct_answer": "b",
+    "answer": "For a spherical mirror, the focal length 'f' is half of its radius of curvature 'R'. The principal focus is the midpoint between the pole and the center of curvature.<br>The relation is: $f = \\frac{R}{2}$<br>This can be rearranged as: $R = 2f$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A ray of light passes through a glass slab of thickness 't' and refractive index 'n'. The lateral shift of the ray is: (MHT CET 2017)",
+    "options": [
+      "(a) $t \\sin i (1 - \\frac{\\cos i}{n \\cos r})$",
+      "(b) $t \\sin i (1 - \\frac{n \\cos r}{\\cos i})$",
+      "(c) $t \\sin i (1 + \\frac{\\cos i}{n \\cos r})$",
+      "(d) $t \\sin i (1 + \\frac{n \\cos r}{\\cos i})$"
+    ],
+    "correct_answer": "a",
+    "answer": "The lateral shift (d) is the perpendicular distance between the incident ray and the emergent ray. It is given by the formula:<br>$d = t \\frac{\\sin(i-r)}{\\cos r} = t (\\frac{\\sin i \\cos r - \\cos i \\sin r}{\\cos r})$<br>$d = t(\\sin i - \\cos i \\tan r)$<br>From Snell's law, $n = \\frac{\\sin i}{\\sin r} \\implies \\sin r = \\frac{\\sin i}{n}$<br>$\\cos r = \\sqrt{1 - \\sin^2 r} = \\sqrt{1 - \\frac{\\sin^2 i}{n^2}} = \\frac{\\sqrt{n^2 - \\sin^2 i}}{n}$<br>Substituting these values, we get:<br>$d = t \\sin i \\left( 1 - \\frac{\\cos i}{n \\cos r} \\right)$<br>This is a standard formula derived from geometry and Snell's law.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The power of a lens is +2.0 D. The type of lens and its focal length are: (MHT CET 2016)",
+    "options": [
+      "(a) Convex, 50 cm",
+      "(b) Concave, 50 cm",
+      "(c) Convex, 20 cm",
+      "(d) Concave, 20 cm"
+    ],
+    "correct_answer": "a",
+    "answer": "The power of a lens is positive for a **convex** lens and negative for a concave lens. Since the given power is +2.0 D, the lens must be convex.<br>The focal length is calculated from the power formula, $f = \\frac{1}{P}$, where 'f' is in meters.<br>$f = \\frac{1}{+2.0 \\text{ D}} = +0.5$ m<br>To convert to centimeters, multiply by 100:<br>$f = 0.5 \\text{ m} \\times 100 = 50$ cm.<br>So, the lens is convex with a focal length of 50 cm.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The minimum deviation for a prism occurs when the angle of incidence is: (MHT CET 2015)",
+    "options": [
+      "(a) equal to the angle of emergence",
+      "(b) less than the angle of emergence",
+      "(c) greater than the angle of emergence",
+      "(d) independent of the angle of emergence"
+    ],
+    "correct_answer": "a",
+    "answer": "For a prism, the condition for **minimum deviation** is that the angle of incidence ($i$) is equal to the angle of emergence ($e$). In this condition, the ray of light travels symmetrically through the prism, meaning the angle of refraction at the first surface ($r_1$) is equal to the angle of refraction at the second surface ($r_2$).<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A concave mirror forms a real image of an object at a distance of 30 cm from the mirror. The object is at a distance of 60 cm from the mirror. The focal length of the mirror is: (MHT CET 2014)",
+    "options": [
+      "(a) 20 cm",
+      "(b) 30 cm",
+      "(c) 40 cm",
+      "(d) 60 cm"
+    ],
+    "correct_answer": "a",
+    "answer": "We use the **mirror formula**: $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$<br>Given values (using the sign convention):<br>Object distance, $u = -60$ cm (real object)<br>Image distance, $v = -30$ cm (real image)<br>Substitute these values into the formula:<br>$\\frac{1}{f} = \\frac{1}{-30} + \\frac{1}{-60} = -\\frac{1}{30} - \\frac{1}{60} = \\frac{-2-1}{60} = -\\frac{3}{60} = -\\frac{1}{20}$<br>$f = -20$ cm<br>The focal length is 20 cm.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The lens formula for a converging lens is: (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$",
+      "(b) $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$",
+      "(c) $f = \\frac{uv}{u-v}$",
+      "(d) $f = \\frac{u-v}{uv}$"
+    ],
+    "correct_answer": "b",
+    "answer": "The **thin lens formula** relates the focal length (f), object distance (u), and image distance (v) of a lens. The formula is:<br>$\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$<br>This formula is applicable for both converging (convex) and diverging (concave) lenses, provided that the appropriate sign conventions are used for f, u, and v.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The refractive index of diamond is approximately 2.4. The speed of light in diamond is: (MHT CET 2012)",
+    "options": [
+      "(a) $3 \\times 10^8$ m/s",
+      "(b) $1.25 \\times 10^8$ m/s",
+      "(c) $2.4 \\times 10^8$ m/s",
+      "(d) $1.5 \\times 10^8$ m/s"
+    ],
+    "correct_answer": "b",
+    "answer": "The refractive index (n) of a medium is defined as the ratio of the speed of light in a vacuum (c) to the speed of light in that medium (v).<br>$n = \\frac{c}{v}$<br>We can rearrange this to find the speed of light in the medium:<br>$v = \\frac{c}{n}$<br>Given values: $c = 3 \\times 10^8$ m/s, $n = 2.4$.<br>$v = \\frac{3 \\times 10^8}{2.4} = 1.25 \\times 10^8$ m/s.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When a ray of light enters a denser medium, its wavelength: (MHT CET 2011)",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains the same",
+      "(d) may increase or decrease"
+    ],
+    "correct_answer": "b",
+    "answer": "When a ray of light passes from a rarer medium to a denser medium, its frequency remains unchanged, but its speed decreases. Since the speed of a wave is given by $v = f\\lambda$, and the frequency (f) is constant, a decrease in speed (v) must correspond to a decrease in wavelength ($\\lambda$).<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A convex lens is placed in a liquid with a refractive index greater than the refractive index of the lens. The lens will behave as a: (MHT CET 2010)",
+    "options": [
+      "(a) Converging lens",
+      "(b) Diverging lens",
+      "(c) Plane glass plate",
+      "(d) Depends on the radius of curvature"
+    ],
+    "correct_answer": "b",
+    "answer": "The behavior of a lens depends on the relative refractive index of the lens material and the surrounding medium. If a convex lens is placed in a medium with a refractive index greater than its own, the light rays will bend away from the normal instead of towards it. This will cause the convex lens to behave as a **diverging lens**.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnification produced by a convex mirror is always: (MHT CET 2009)",
+    "options": [
+      "(a) Positive and greater than 1",
+      "(b) Positive and less than 1",
+      "(c) Negative and less than 1",
+      "(d) Negative and greater than 1"
+    ],
+    "correct_answer": "b",
+    "answer": "A **convex mirror** always forms a virtual, erect, and diminished image for any position of the object. The magnification (m) is given by the ratio of image height to object height, $m = \\frac{h_i}{h_o} = -\\frac{v}{u}$.<br>For a convex mirror, the image is always virtual and erect, which means the magnification is positive. The image is always diminished, which means the magnification is less than 1. Therefore, the magnification is always positive and less than 1.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A ray of light is incident on a plane mirror at an angle of $45^\\circ$. The angle between the incident ray and the reflected ray is: (MHT CET 2008)",
+    "options": [
+      "(a) $45^\\circ$",
+      "(b) $90^\\circ$",
+      "(c) $135^\\circ$",
+      "(d) $180^\\circ$"
+    ],
+    "correct_answer": "b",
+    "answer": "According to the law of reflection, the angle of incidence ($i$) is equal to the angle of reflection ($r$). The angle of incidence is given as $45^\\circ$, so the angle of reflection is also $45^\\circ$.<br>The angle between the incident ray and the reflected ray is the sum of the angle of incidence and the angle of reflection.<br>Angle = $i + r = 45^\\circ + 45^\\circ = 90^\\circ$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  }
+]

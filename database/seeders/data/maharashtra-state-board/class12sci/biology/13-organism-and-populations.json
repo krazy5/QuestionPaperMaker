@@ -1,0 +1,150 @@
+[
+  {
+    "type": "mcq",
+    "text": "The study of the interaction of an individual organism or a single species with the living and non-living factors of its environment is called _______.",
+    "options": ["Synecology", "Autecology", "Ecology", "Genecology"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Autecology is the branch of ecology that deals with the study of a single species and its interaction with its environment, whereas synecology is the study of groups of organisms or communities. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An age pyramid with a broad base indicates _______.",
+    "options": ["High percentage of young individuals", "High percentage of old individuals", "A stable population", "A declining population"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> A broad-based, triangular-shaped age pyramid is characteristic of an expanding population with a high percentage of pre-reproductive (young) individuals and a high birth rate. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The interaction between a sea anemone and a hermit crab is an example of _______.",
+    "options": ["Mutualism", "Commensalism", "Parasitism", "Competition"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> This is a classic example of commensalism, an interaction where one species benefits and the other is neither harmed nor benefited. The sea anemone gets a ride and food scraps, while the hermit crab is unaffected. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of deaths in a population during a given period is called _______.",
+    "options": ["Natality", "Mortality", "Immigration", "Emigration"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Mortality, or the death rate, is a key attribute of a population that refers to the number of individuals dying in that population over a specific period. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an adaptation of desert plants (xerophytes) to conserve water?",
+    "options": ["Broad, thin leaves", "Sunken stomata", "Presence of aerenchyma", "Poorly developed root system"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Sunken stomata are located in small pits on the leaf surface. This arrangement reduces the rate of transpiration by creating a pocket of humid air, which is a key adaptation to arid environments. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The population growth curve in an environment with unlimited resources is typically _______.",
+    "options": ["S-shaped", "J-shaped", "Bell-shaped", "Linear"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> When resources are unlimited, a population exhibits exponential growth, which, when plotted against time, results in a J-shaped curve. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A population interaction in which both interacting species are harmed is _______.",
+    "options": ["Predation", "Parasitism", "Commensalism", "Competition"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Competition is an interaction between organisms or species in which both are harmed. It occurs when they require a resource that is in limited supply. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'niche' refers to _______.",
+    "options": ["The physical space where an organism lives", "All the populations of different species in an area", "The functional role of an organism in its ecosystem", "The group of organisms of the same species"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> An ecological niche describes how an organism or population responds to the distribution of resources and competitors (e.g., by growing when resources are abundant, and when predators, parasites and pathogens are scarce) and how it in turn alters those same factors. It's the organism's functional role. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Natality refers to the number of births per unit of population per unit time.",
+    "answer": "<b>True</b><br><b>Reason:</b> Natality, or the birth rate, is a primary factor that contributes to an increase in population density.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "A J-shaped growth curve has a phase of negative acceleration.",
+    "answer": "<b>False</b><br><b>Reason:</b> A J-shaped (exponential) growth curve shows a lag phase followed by a phase of positive acceleration. The S-shaped (logistic) curve has a phase of negative acceleration as it approaches the carrying capacity.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The interaction between a fig tree and a wasp is an example of mutualism.",
+    "answer": "<b>True</b><br><b>Reason:</b> This is a classic example of co-evolution and mutualism. The wasp can lay its eggs only inside the fig fruit, and in return, the wasp is the only pollinator for the fig flower.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Allen's Rule states that mammals from colder climates generally have shorter ears and limbs.",
+    "answer": "<b>True</b><br><b>Reason:</b> This is an adaptation to minimize heat loss from the body surface in cold climates.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Camouflage is an adaptation seen in prey to avoid predation.",
+    "answer": "<b>True</b><br><b>Reason:</b> Camouflage, or cryptic coloration, allows an organism to blend in with its surroundings, making it difficult for predators to spot it.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the four basic attributes of a population?",
+    "answer": "A population has certain attributes that an individual organism does not. The four main attributes are:<br>1. <b>Population Density:</b> The number of individuals of a population per unit area or volume.<br>2. <b>Birth Rate (Natality):</b> The number of births per 1000 individuals of a population per year.<br>3. <b>Death Rate (Mortality):</b> The number of deaths per 1000 individuals of a population per year.<br>4. <b>Age Distribution:</b> The proportion of individuals in different age groups (pre-reproductive, reproductive, and post-reproductive) in a population.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'Mutualism' and 'Commensalism' with one example each.",
+    "answer": "<b>Mutualism:</b> It is a type of population interaction in which both the interacting species are benefited. Neither can survive without the other. <br><b>Example:</b> Lichens, which are a mutualistic association between an alga and a fungus.<br><br><b>Commensalism:</b> It is a type of interaction in which one species benefits and the other is neither harmed nor benefited. <br><b>Example:</b> An orchid growing as an epiphyte on a mango tree.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is an 'age pyramid'? What does a bell-shaped age pyramid indicate?",
+    "answer": "An <b>age pyramid</b> is a graphical representation of the age distribution of a population. It plots the percentage of the population in different age groups (pre-reproductive, reproductive, and post-reproductive).<br><br>A <b>bell-shaped</b> age pyramid is one where the number of pre-reproductive and reproductive individuals is almost equal. This indicates a stable population, where the birth rate is almost equal to the death rate, and the population is not growing significantly.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 'carrying capacity' (K)?",
+    "answer": "<b>Carrying capacity (K)</b> is defined as the maximum population size of a biological species that can be sustained by that specific environment, given the food, habitat, water, and other resources available. In the logistic growth model, the population growth slows down and stops when it reaches the carrying capacity.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain 'Gause's Competitive Exclusion Principle'.",
+    "answer": "Gause's Competitive Exclusion Principle states that two closely related species competing for the same limited resources cannot coexist indefinitely, and the competitively inferior one will be eliminated eventually. This principle is true if the resources are limited and the species do not find ways to coexist through mechanisms like resource partitioning.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the logistic (S-shaped) population growth curve with a neat, labelled diagram.",
+    "answer": "<br><br>The logistic or S-shaped growth curve describes the growth of a population in an environment with limited resources. It is a more realistic model of population growth.<br><br>The curve has four distinct phases:<br>1. <b>Lag Phase:</b> This is the initial phase where the population is small and adapting to the new environment. The growth rate is slow.<br><br>2. <b>Log Phase (Exponential Growth Phase):</b> In this phase, the population grows rapidly as resources are abundant. The growth rate is positive and accelerating.<br><br>3. <b>Phase of Negative Acceleration:</b> As the population size increases, the resources start to become limited, and environmental resistance increases. This causes the growth rate to slow down.<br><br>4. <b>Stationary Phase (Plateau):</b> In this phase, the population has reached the environment's <b>carrying capacity (K)</b>. The birth rate becomes equal to the death rate, and the population growth becomes zero. The curve becomes flat.<br><br>This pattern of growth is described by the equation: $\\frac{dN}{dt} = rN (\\frac{K-N}{K})$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What are adaptations? Describe any two types of adaptations in animals with examples.",
+    "answer": "An <b>adaptation</b> is any attribute of an organism (morphological, physiological, or behavioral) that enables the organism to survive and reproduce in its habitat.<br><br><b>Two types of adaptations are:</b><br>1. <b>Morphological Adaptations (Structural):</b> These are adaptations related to the external structure of an organism.<br>   - <b>Example: Camouflage.</b> Some animals, like the chameleon or the stick insect, have evolved body shapes and colourations that help them blend in with their surroundings to avoid predators.<br><br>2. <b>Physiological Adaptations (Functional):</b> These are adaptations related to the functioning of an organism's body.<br>   - <b>Example: Hibernation.</b> Some animals, like bears, undergo hibernation (winter sleep) to escape the extreme cold and food scarcity of winter. During this period, their metabolic rate slows down significantly to conserve energy.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the different types of population interactions. (Any four)",
+    "answer": "Population interactions are the effects that the organisms in a community have on one another. The main types are:<br><br>1. <b>Mutualism (+/+):</b> An interaction where both the interacting species benefit. For example, lichens are a mutualistic association between an alga (which provides food) and a fungus (which provides shelter and absorbs nutrients).<br><br>2. <b>Competition (-/-):</b> An interaction where both the interacting species are harmed. It occurs when two species compete for the same limited resources. For example, flamingoes and resident fishes in a lake compete for the same food, zooplankton.<br><br>3. <b>Predation (+/-):</b> An interaction where one species (the predator) kills and consumes the other species (the prey). For example, a tiger preying on a deer. Predation helps in transferring energy and keeping the prey population under control.<br><br>4. <b>Parasitism (+/-):</b> An interaction where one species (the parasite) depends on another species (the host) for food and shelter, and in the process, harms the host. For example, the human liver fluke is a parasite that lives in the human body.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is an 'age pyramid'? Explain the three types of age pyramids.",
+    "answer": "An <b>age pyramid</b> is a graphical illustration that shows the distribution of various age groups (pre-reproductive, reproductive, and post-reproductive) in a population. The shape of the pyramid reflects the growth status of the population.<br><br>The three main types of age pyramids are:<br>1. <b>Expanding (Triangular) Pyramid:</b> This pyramid has a very broad base and tapers towards the top. It indicates a high percentage of young, pre-reproductive individuals, a high birth rate, and rapid population growth. This is typical of developing countries.<br><br>2. <b>Stable (Bell-shaped) Pyramid:</b> This pyramid is broad at the base but tapers more gradually. The number of pre-reproductive and reproductive individuals is almost equal. This indicates a stable population where the birth rate is almost equal to the death rate, and the population growth is slow or zero.<br><br>3. <b>Declining (Urn-shaped) Pyramid:</b> This pyramid has a narrow base and a tapering top. It indicates a low percentage of young individuals and a low birth rate. The reproductive group is larger than the pre-reproductive group, indicating a declining population.",
+    "marks": 4
+  }
+]

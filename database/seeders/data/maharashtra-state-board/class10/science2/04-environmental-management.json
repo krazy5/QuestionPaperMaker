@@ -1,0 +1,293 @@
+[
+  {
+    "type": "mcq",
+    "text": "The flow of energy in an ecosystem is always _______.",
+    "options": [
+      "unidirectional",
+      "bidirectional",
+      "multidirectional",
+      "cyclic"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Energy flows from the sun to producers, then to consumers, and is lost as heat at each trophic level. It does not return to the sun, so the flow is one-way or unidirectional. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an abiotic component of an ecosystem?",
+    "options": [
+      "Plants",
+      "Animals",
+      "Sunlight",
+      "Bacteria"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Abiotic components are the non-living chemical and physical parts of the environment. Sunlight, water, soil, and air are abiotic, whereas plants, animals, and bacteria are biotic (living) components. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the food chain: Grass → Deer → Tiger, the tiger is a _______.",
+    "options": [
+      "producer",
+      "primary consumer",
+      "secondary consumer",
+      "decomposer"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Grass is the producer. The deer eats the grass, so it is the primary consumer. The tiger eats the deer, making it the secondary consumer or apex consumer in this chain. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of converting nitrogen gas into its compounds like nitrates and nitrites is called _______.",
+    "options": [
+      "nitrification",
+      "denitrification",
+      "nitrogen fixation",
+      "ammonification"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Nitrogen fixation is the conversion of atmospheric nitrogen (N₂) into usable forms like ammonia, nitrates, or nitrites, which can be done by certain bacteria or through industrial processes. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is considered a hotspot of biodiversity in India?",
+    "options": [
+      "Thar Desert",
+      "Western Ghats",
+      "Gangetic Plains",
+      "Deccan Plateau"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Western Ghats are one of the world's major biodiversity hotspots due to their high number of endemic species and significant habitat loss. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Chipko Movement' is associated with the conservation of _______.",
+    "options": [
+      "water",
+      "soil",
+      "forests",
+      "wildlife"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Chipko Movement was a forest conservation movement in India where people, especially women, hugged trees to prevent them from being cut down. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "World Biodiversity Day is celebrated on _______.",
+    "options": [
+      "5th June",
+      "22nd April",
+      "22nd May",
+      "16th September"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> World Biodiversity Day is celebrated on 22nd May each year to increase understanding and awareness of biodiversity issues. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The species whose population is declining and may become endangered in the near future are called _______ species.",
+    "options": [
+      "rare",
+      "indeterminate",
+      "vulnerable",
+      "endangered"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Vulnerable species are those whose populations are extremely low and continue to decline, putting them at high risk of becoming endangered if the causal factors are not controlled. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is an ecosystem?",
+    "answer": "An ecosystem is a biological community formed by the interaction between all the living organisms (biotic components) and the non-living physical environment (abiotic components) in a particular area.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define Food Chain.",
+    "answer": "A food chain is a linear sequence of organisms that shows the definite sequence of interactions between producers, consumers, and decomposers, and illustrates how nutrients and energy are transferred from one organism to another.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are 'sacred groves'?",
+    "answer": "Sacred groves are patches of forest or natural vegetation that are protected by local communities, dedicated to a deity or ancestral spirits. These forests are traditionally conserved and have significant religious and cultural importance, acting as rich reservoirs of biodiversity.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Carbon cycle, Nitrogen cycle, Oxygen cycle, Food chain.",
+    "answer": "<b>Food chain.</b><br><b>Reason:</b> The carbon, nitrogen, and oxygen cycles are biogeochemical cycles, which involve the movement of nutrients. A food chain shows the flow of energy.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Lion-tailed monkey, Giant squirrel, Musk deer, Tiger.",
+    "answer": "<b>Tiger.</b><br><b>Reason:</b> The lion-tailed monkey, giant squirrel, and musk deer are examples of endangered or rare species facing a severe threat of extinction. The tiger's status has improved from endangered due to conservation efforts but the others are more critically threatened in specific contexts.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Producers : Plants :: Decomposers : _______.",
+    "answer": "<b>Bacteria / Fungi.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Man : Apex consumer :: Grass : _______.",
+    "answer": "<b>Producer.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the three levels of biodiversity? (PYQ: March 2022)",
+    "answer": "The three levels of biodiversity are:<br>1. <b>Genetic Diversity:</b> Variation in genes within a species.<br>2. <b>Species Diversity:</b> The variety of different species in a particular area.<br>3. <b>Ecosystem Diversity:</b> The variety of different ecosystems in a given place.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Food Chain and Food Web.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Food Chain</th><th style='padding: 8px; text-align: left;'>Food Web</th></tr><tr><td style='padding: 8px;'>It is a single, linear pathway of energy flow.</td><td style='padding: 8px;'>It is a complex network of many interconnected food chains.</td></tr><tr><td style='padding: 8px;'>It shows the relationship between a limited number of organisms.</td><td style='padding: 8px;'>It shows the feeding relationships among a large number of organisms in an ecosystem.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give two examples of endangered animal species and two examples of endangered plant species.",
+    "answer": "<b>Endangered Animal Species:</b><br>1. Lion-tailed monkey<br>2. Tiger<br><br><b>Endangered Plant Species:</b><br>1. Red Sandalwood<br>2. Malabar Mahogany",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the role of decomposers in an ecosystem?",
+    "answer": "Decomposers, like bacteria and fungi, play a crucial role by breaking down the complex organic matter from dead plants and animals into simple inorganic substances. This process returns essential nutrients to the soil, water, and air, making them available for producers to use again. They are the 'recyclers' of the ecosystem.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is an 'Energy Pyramid'?",
+    "answer": "An energy pyramid is a graphical representation that shows the flow of energy at different trophic levels in an ecosystem. The base of the pyramid is wide and represents the producers, which have the most energy. The energy decreases at each successive trophic level as it moves upwards, so the pyramid is always upright.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is environmental conservation our social responsibility?",
+    "answer": "Environmental conservation is our social responsibility because the existence of humans is dependent on a healthy environment. We use natural resources for our survival and development. Therefore, it is our duty to conserve these resources for future generations and to maintain the balance of nature for the well-being of all living beings.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the main processes in the carbon cycle?",
+    "answer": "The main processes in the carbon cycle are:<br>1. <b>Photosynthesis:</b> Plants absorb atmospheric CO₂ to make food.<br>2. <b>Respiration:</b> Plants and animals release CO₂ back into the atmosphere.<br>3. <b>Decomposition:</b> Decomposers release carbon from dead organic matter.<br>4. <b>Combustion:</b> Burning of fossil fuels releases large amounts of CO₂.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "List four ways you can contribute to environmental conservation.",
+    "answer": "Four ways I can contribute are:<br>1. Reducing the use of electricity and water.<br>2. Planting more trees.<br>3. Using public transport or cycling to reduce air pollution.<br>4. Following the 3 R's: Reduce, Reuse, and Recycle.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the Carbon Cycle with a simple diagram.",
+    "answer": "[Image of the Carbon Cycle]<br>The carbon cycle is the biogeochemical cycle by which carbon is exchanged among the biosphere, atmosphere, oceans, and geosphere.<br>1. Carbon enters the atmosphere as carbon dioxide (CO₂) from respiration of living organisms and combustion of fossil fuels.<br>2. Plants (producers) absorb this CO₂ during photosynthesis and convert it into organic compounds (food).<br>3. Carbon is transferred to animals (consumers) when they eat plants.<br>4. When plants and animals die, decomposers like bacteria and fungi break down the dead organic matter and release carbon back into the soil and atmosphere through decomposition.<br>5. Some carbon is buried and becomes fossil fuels over millions of years. This completes the cycle.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the Nitrogen Cycle with a diagram.",
+    "answer": "[Image of the Nitrogen Cycle]<br>The nitrogen cycle is the process of circulation of nitrogen in various forms through nature.<br>1. <b>Nitrogen Fixation:</b> Atmospheric nitrogen gas (N₂) is converted into usable compounds like ammonia and nitrates by nitrogen-fixing bacteria (e.g., Rhizobium) or by lightning.<br>2. <b>Assimilation:</b> Plants absorb these nitrogen compounds from the soil and use them to make proteins.<br>3. <b>Ammonification:</b> When plants and animals die, decomposers convert the nitrogenous waste into ammonia.<br>4. <b>Nitrification:</b> Nitrifying bacteria convert ammonia into nitrites and then into nitrates.<br>5. <b>Denitrification:</b> Denitrifying bacteria in the soil convert nitrates back into atmospheric nitrogen gas (N₂), completing the cycle.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is meant by 'biodiversity hotspots'? What are the criteria for declaring a region as a hotspot? (PYQ: March 2020)",
+    "answer": "<b>Biodiversity hotspots</b> are regions of the world that have a very high level of species richness and a high degree of endemism (species found nowhere else), but are also under severe threat from human activities.<br><br>The two main criteria for declaring a region as a hotspot are:<br>1. <b>High Species Endemism:</b> The region must contain at least 1,500 species of vascular plants ( > 0.5% of the world's total) as endemics.<br>2. <b>High Degree of Threat:</b> The region must have lost at least 70% of its original natural vegetation, indicating a severe threat to its biodiversity.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the different types of threatened species? Give one example of each.",
+    "answer": "Threatened species are classified into four main categories based on the risk of extinction:<br>1. <b>Endangered Species:</b> These are species whose population has declined to a critical level or their habitat is so drastically reduced that they are in immediate danger of extinction. Example: Lion-tailed monkey.<br>2. <b>Rare Species:</b> These are species with a small population. They are not currently endangered or vulnerable but are at risk due to their low numbers. Example: Red panda.<br>3. <b>Vulnerable Species:</b> These are species whose population is extremely less and continues to decline, making them likely to become endangered in the near future if conditions do not improve. Example: Tiger.<br>4. <b>Indeterminate Species:</b> These are species that appear to be endangered, but there is not enough information available about their population and distribution to make a clear assessment. Example: Giant squirrel (Shekhru).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the relationship between the food chain and the energy pyramid.",
+    "answer": "A food chain illustrates the path of energy flow from one organism to another, while an energy pyramid quantifies this flow.<br><br>The base of the energy pyramid represents the producers (first trophic level of a food chain), which have the maximum amount of energy. As we move up the food chain to primary consumers, secondary consumers, and so on, each successive level of the pyramid becomes smaller. This is because, according to the 10% law of energy transfer, only about 10% of the energy from one trophic level is transferred to the next. The remaining 90% is lost as heat during metabolic processes. Therefore, the pyramid shape clearly shows the decreasing amount of energy available at higher trophic levels of the food chain.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Complete the following chart showing the classification of threatened species.",
+    "answer": "<br><b>Classification of Threatened Species:</b><br><ul><li><b>Endangered Species:</b> Number of organisms is declined or habitat is shrunk to such an extent that they can be extinct in near future. Ex: Lion-tailed monkey, Lesser florican.</li><li><b>Rare Species:</b> Number of organisms is considerably declined. Organisms of these species being endemic may become extinct very fast. Ex: Red panda, Musk deer.</li><li><b>Vulnerable Species:</b> Number of organisms is extremely less and continues to decline. Continuous decline in their number is a worrisome reason. Ex: Tiger, Lion.</li><li><b>Indeterminate Species:</b> These organisms appear to be endangered but due to their some behavioural habits (like shyness) there is no definite and substantial information. Ex: Giant squirrel (Shekhru).</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What are the major threats to biodiversity?",
+    "answer": "The major threats to biodiversity, often caused by human activities, are:<br>1. <b>Habitat Loss and Fragmentation:</b> Deforestation for agriculture, urbanization, and infrastructure development destroys the natural homes of species.<br>2. <b>Pollution:</b> Air, water, and soil pollution can harm or kill organisms and disrupt ecosystems.<br>3. <b>Over-exploitation:</b> Excessive hunting, fishing, and harvesting of species for commercial purposes can lead to their extinction.<br>4. <b>Invasive Alien Species:</b> Introduction of non-native species can outcompete native species for resources, leading to a decline in their population.<br>5. <b>Climate Change:</b> Global warming and changing weather patterns can alter habitats and affect the survival of species.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "How can biodiversity be conserved?",
+    "answer": "Biodiversity can be conserved through various efforts:<br>1. <b>Protecting Natural Habitats:</b> Establishing national parks, wildlife sanctuaries, and biosphere reserves to protect ecosystems and wildlife.<br>2. <b>Legal Protection:</b> Enacting and enforcing laws to prevent poaching, illegal trade of wildlife, and deforestation.<br>3. <b>Conservation Projects:</b> Launching special projects to save critically endangered species, like 'Project Tiger'.<br>4. <b>Public Awareness:</b> Educating people about the importance of biodiversity and encouraging their participation in conservation efforts.<br>5. <b>Maintaining Records:</b> Documenting traditional knowledge and making lists of threatened species to guide conservation strategies.<br>6. <b>Conserving All Levels:</b> Protecting not just species, but also the genetic diversity within them and the ecosystems they inhabit.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Observe the food chain and answer the questions. Grass → Grasshopper → Frog → Snake → Eagle<br>1. What is the trophic level of the Frog?<br>2. What will be the effect on the number of Snakes if all the Frogs are removed?<br>3. What is the primary source of energy in this food chain?",
+    "answer": "1. The Frog is a <b>Secondary Consumer</b> (Third trophic level).<br>2. If all the Frogs are removed, the Snakes will lose their primary food source. This will lead to a <b>decline in the population of Snakes</b> due to starvation.<br>3. The primary source of energy in this, and almost all, food chains is the <b>Sun</b>.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Complete the given chart of the food chain.",
+    "answer": "<br><b>Flowchart Content:</b><br><b>Producers</b> (e.g., Phytoplankton) → <b>Primary Consumers</b> (e.g., Zooplankton) → <b>Secondary Consumers</b> (e.g., Fish) → <b>Apex Consumers</b> (e.g., Human)",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the Oxygen Cycle.",
+    "answer": "[Image of the Oxygen Cycle]<br>The oxygen cycle is the biogeochemical cycle of oxygen within its three main reservoirs: the atmosphere, the biosphere, and the lithosphere.<br>1. The main source of atmospheric oxygen is <b>photosynthesis</b>, carried out by plants and phytoplankton, which release oxygen as a byproduct.<br>2. This oxygen is utilized by all living organisms (including plants) for <b>respiration</b>, a process that breaks down food to release energy and produces carbon dioxide.<br>3. Oxygen is also used in processes like <b>combustion</b> (burning) and decomposition.<br>4. These processes release carbon dioxide, which is then used by plants for photosynthesis, releasing oxygen again. This maintains the balance of oxygen in the atmosphere.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the 'Jadav Molai Payeng' story an example of?",
+    "answer": "The story of Jadav 'Molai' Payeng is a remarkable example of how a single individual, with determination and effort, can make a huge contribution to environmental conservation. He single-handedly planted and grew an entire forest on a barren sandbar, transforming it into a thriving ecosystem.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Identify the relationship shown in the diagram: [A diagram showing interconnected food chains]",
+    "answer": "The diagram shows a <b>Food Web</b>.<br>It represents the complex network of interconnected food chains within an ecosystem, showing multiple feeding relationships among different organisms.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are producers, consumers, and decomposers?",
+    "answer": "<b>Producers:</b> Organisms, mainly green plants, that produce their own food using sunlight through photosynthesis.<br><b>Consumers:</b> Organisms that get their energy by feeding on other organisms. They can be primary (herbivores), secondary (carnivores), or tertiary.<br><b>Decomposers:</b> Microorganisms like bacteria and fungi that break down dead organic matter and return nutrients to the ecosystem.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between biotic and abiotic factors?",
+    "answer": "<b>Biotic factors</b> are all the living or once-living components of an ecosystem, such as plants, animals, fungi, and bacteria.<br><b>Abiotic factors</b> are the non-living physical and chemical components of an ecosystem, such as sunlight, temperature, water, soil, and air.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "My place is in water, I am the primary consumer in an aquatic food chain. Who am I?",
+    "answer": "You are <b>Zooplankton</b> (which feed on phytoplankton).",
+    "marks": 1
+  }
+]
+

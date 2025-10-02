@@ -1,0 +1,355 @@
+[
+  {
+    "type": "mcq",
+    "text": "In _______, the parent cell divides to form two similar daughter cells.",
+    "options": [
+      "budding",
+      "binary fission",
+      "fragmentation",
+      "multiple fission"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Binary fission is a common method of asexual reproduction in unicellular organisms like Amoeba and Paramoecium, where the parent cell divides into two identical daughter cells. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a male part of the flower?",
+    "options": [
+      "Stigma",
+      "Style",
+      "Ovary",
+      "Androecium"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Androecium is the male whorl of a flower, and its individual members are called stamens. The stigma, style, and ovary make up the female part (gynoecium). The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In humans, sperm production occurs in the organ _______.",
+    "options": [
+      "prostate gland",
+      "testes",
+      "ovary",
+      "Cowper's gland"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The testes are the primary male reproductive organs responsible for the production of sperm (spermatogenesis) and the male sex hormone, testosterone. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Implantation of the embryo occurs in the _______.",
+    "options": [
+      "ovary",
+      "oviduct",
+      "uterus",
+      "vagina"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> After fertilization in the oviduct, the embryo travels to the uterus and gets embedded in its inner wall. This process is called implantation. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The transfer of pollen grains from the anther to the stigma is called _______.",
+    "options": [
+      "fertilization",
+      "pollination",
+      "germination",
+      "fragmentation"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Pollination is the essential first step for fertilization in flowering plants, involving the transfer of pollen. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Asexual reproduction by budding is observed in _______.",
+    "options": [
+      "Amoeba",
+      "Yeast",
+      "Spirogyra",
+      "Planaria"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Yeast, a unicellular fungus, reproduces asexually by producing a small outgrowth or 'bud' that detaches to form a new individual. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a method of contraception?",
+    "options": [
+      "Condom",
+      "Copper-T",
+      "IVF",
+      "Oral pills"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> In-Vitro Fertilization (IVF) is an assisted reproductive technology that helps with conception. The other three are methods used to prevent pregnancy. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Modern concepts like IVF, Surrogacy, and Sperm Bank are useful for childless couples. From this, we understand the need for ______.",
+    "options": [
+      "population control",
+      "reproductive health",
+      "gender equality",
+      "asexual reproduction"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> These techniques address issues of infertility and help couples have children, which falls under the broader concept of maintaining reproductive health. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "Which type of reproduction gives rise to genetic variation?",
+    "options": [
+      "Asexual",
+      "Sexual",
+      "Vegetative",
+      "Budding"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Sexual reproduction involves the fusion of gametes from two different parents, leading to a new combination of genes and thus genetic variation in the offspring. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "In a flower, the ovules are present inside the _______.",
+    "options": [
+      "stigma",
+      "style",
+      "ovary",
+      "anther"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The ovary is the basal, swollen part of the pistil (gynoecium) that contains one or more ovules, which house the female gamete. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define fertilization.",
+    "answer": "Fertilization is the process of fusion of a haploid male gamete (sperm) with a haploid female gamete (ovum) to form a diploid zygote.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is regeneration?",
+    "answer": "Regeneration is the ability of an organism to regrow its lost or broken body parts. In some organisms like Planaria, it can also lead to the formation of a new individual from a body fragment.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which hormones are related to the male reproductive system?",
+    "answer": "The primary hormone related to the male reproductive system is Testosterone, which is secreted by the testes.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Ovary, Oviduct, Uterus, Testes.",
+    "answer": "<b>Testes.</b><br><b>Reason:</b> Ovary, oviduct, and uterus are parts of the human female reproductive system. The testes are part of the male reproductive system.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Calyx, Corolla, Androecium, Stigma.",
+    "answer": "<b>Stigma.</b><br><b>Reason:</b> Calyx, corolla, and androecium are complete whorls of a flower. The stigma is a part of a whorl (gynoecium).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Spirogyra : Fragmentation :: Planaria : _______.",
+    "answer": "<b>Regeneration.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Male gamete : Sperm :: Female gamete : _______.",
+    "answer": "<b>Ovum / Egg cell.</b>",
+    "marks": 1
+  },
+    {
+    "type": "short",
+    "text": "What is puberty?",
+    "answer": "Puberty is the period during which adolescents reach sexual maturity and become capable of reproduction. It involves significant hormonal and physical changes in the body.",
+    "marks": 1
+  },
+    {
+    "type": "short",
+    "text": "Name the agents of cross-pollination.",
+    "answer": "Agents of cross-pollination can be biotic (insects, birds, bats) or abiotic (wind, water).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is pollination? Name its two types.",
+    "answer": "Pollination is the transfer of pollen grains from the anther to the stigma of a flower.<br>The two types are:<br>1. <b>Self-pollination</b><br>2. <b>Cross-pollination</b>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Self-pollination and Cross-pollination. (PYQ: March 2022)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Self-pollination</th><th style='padding: 8px; text-align: left;'>Cross-pollination</th></tr><tr><td style='padding: 8px;'>Pollen grains are transferred from the anther to the stigma of the same flower or another flower on the same plant.</td><td style='padding: 8px;'>Pollen grains are transferred from the anther of a flower on one plant to the stigma of a flower on another plant of the same species.</td></tr><tr><td style='padding: 8px;'>It does not require external agents like insects or wind.</td><td style='padding: 8px;'>It requires external agents (biotic or abiotic).</td></tr><tr><td style='padding: 8px;'>It does not produce much genetic variation.</td><td style='padding: 8px;'>It produces greater genetic variation.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Asexual and Sexual reproduction.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Asexual Reproduction</th><th style='padding: 8px; text-align: left;'>Sexual Reproduction</th></tr><tr><td style='padding: 8px;'>Involves a single parent.</td><td style='padding: 8px;'>Involves two parents (male and female).</td></tr><tr><td style='padding: 8px;'>Gamete formation does not occur.</td><td style='padding: 8px;'>Gamete formation is an essential step.</td></tr><tr><td style='padding: 8px;'>The offspring are genetically identical to the parent.</td><td style='padding: 8px;'>The offspring are genetically different from both parents.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the menstrual cycle?",
+    "answer": "The menstrual cycle is a series of natural changes in the female reproductive system that occurs in a cycle of approximately 28-30 days. It involves the development and release of an egg (ovulation) and the periodic shedding of the uterine lining (menstruation) if the egg is not fertilized. It is controlled by four main hormones: FSH, LH, estrogen, and progesterone.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is vegetative propagation? Give two examples.",
+    "answer": "Vegetative propagation is a type of asexual reproduction in plants where new plants are produced from vegetative parts like roots, stems, leaves, or buds.<br><b>Examples:</b><br>1. Potato tubers (from buds or 'eyes').<br>2. Bryophyllum (from leaf margins).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the functions of the Ovary and Testes?",
+    "answer": "<b>Ovary:</b><br>1. Production of the female gamete (ovum or egg).<br>2. Secretion of female sex hormones like estrogen and progesterone.<br><br><b>Testes:</b><br>1. Production of the male gamete (sperm).<br>2. Secretion of the male sex hormone, testosterone.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give two examples of sexually transmitted diseases (STDs).",
+    "answer": "Two examples of sexually transmitted diseases are:<br>1. Syphilis<br>2. Gonorrhea",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Which part of the flower develops into a fruit and seed after fertilization?",
+    "answer": "After fertilization, the <b>ovary</b> develops into the fruit, and the <b>ovules</b> within the ovary develop into seeds.",
+    "marks": 2
+  },
+   {
+    "type": "short",
+    "text": "What are twin children? Name the two types of twins.",
+    "answer": "Twins are two offspring produced in the same pregnancy.<br>The two main types are:<br>1. <b>Monozygotic (Identical) Twins:</b> Formed from a single zygote that splits into two embryos.<br>2. <b>Dizygotic (Fraternal) Twins:</b> Formed from two separate eggs being fertilized by two separate sperms.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the importance of reproductive health?",
+    "answer": "Maintaining reproductive health is important for overall well-being. It involves physical, mental, and social well-being in all matters relating to the reproductive system. It ensures that people can have a responsible, satisfying, and safe sex life and that they have the capability to reproduce and the freedom to decide if, when, and how often to do so. It also includes awareness and prevention of sexually transmitted diseases.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two methods of family planning.",
+    "answer": "Two methods of family planning are:<br>1. <b>Barrier Methods:</b> Use of condoms, diaphragms, or cervical caps to prevent sperm from reaching the egg.<br>2. <b>Hormonal Methods:</b> Use of oral contraceptive pills that prevent ovulation.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Which precautions will you follow to maintain reproductive health?",
+    "answer": "Precautions to maintain reproductive health include:<br>1. Maintaining personal hygiene of the genital organs.<br>2. Having a balanced diet and regular exercise.<br>3. Avoiding unprotected sexual contact and having awareness about sexually transmitted diseases (STDs).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the process of multiple fission in Amoeba.",
+    "answer": "Multiple Fission in Amoeba occurs during unfavorable conditions. The Amoeba withdraws its pseudopodia and secretes a three-layered protective covering called a cyst around itself. Inside the cyst, the nucleus divides repeatedly, followed by cytoplasmic division, forming many minute daughter amoebae. When favorable conditions return, the cyst breaks open, releasing the daughter amoebae.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a flower? What is its function?",
+    "answer": "A flower is the structural unit of sexual reproduction in plants (angiosperms).<br>Its main function is to produce male and female gametes and to facilitate fertilization so that seeds and fruits can be formed for the propagation of the species.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the structure of a typical flower with respect to its four whorls.",
+    "answer": "A typical flower consists of four main whorls arranged on the thalamus (receptacle):<br>1. <b>Calyx:</b> The outermost whorl, composed of sepals. They are usually green and protect the flower in its bud stage.<br>2. <b>Corolla:</b> The whorl inside the calyx, composed of petals. They are often large, colourful, and scented to attract pollinators.<br>3. <b>Androecium:</b> The male reproductive whorl, consisting of stamens. Each stamen has a filament (stalk) and an anther that produces pollen grains.<br>4. <b>Gynoecium (or Pistil):</b> The female reproductive whorl at the center, consisting of one or more carpels. Each carpel has three parts: the stigma (receives pollen), the style (connects stigma to ovary), and the ovary (contains ovules).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain binary fission in Amoeba.",
+    "answer": "Binary fission in Amoeba is a simple form of asexual reproduction.<br>1. The process begins with the division of the nucleus, which is called karyokinesis. The nucleus elongates and divides mitotically into two.<br>2. This is followed by the division of the cytoplasm, called cytokinesis. The cytoplasm constricts in the middle.<br>3. The constriction deepens and finally divides the parent Amoeba into two smaller, genetically identical daughter amoebae.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain budding in Hydra.",
+    "answer": "Budding in Hydra is a type of asexual reproduction.<br>1. Under favorable conditions, a small outgrowth, called a bud, develops on the body wall of the parent Hydra due to repeated cell division at that site.<br>2. This bud gradually grows, developing a mouth and tentacles.<br>3. Once the bud is fully developed and large enough to survive independently, it detaches from the parent's body and becomes a new, independent Hydra.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of double fertilization in angiosperms. (PYQ: March 2019)",
+    "answer": "Double fertilization is a unique process that occurs in flowering plants (angiosperms).<br>1. After pollination, the pollen grain on the stigma germinates and a pollen tube grows down through the style to the ovule.<br>2. The pollen tube carries two male gametes.<br>3. <b>First Fertilization (Syngamy):</b> One of the male gametes fuses with the egg cell to form the diploid zygote, which will develop into the embryo.<br>4. <b>Second Fertilization (Triple Fusion):</b> The second male gamete fuses with the two polar nuclei present in the central cell of the ovule to form the triploid primary endosperm nucleus (PEN). This develops into the endosperm, which provides nourishment to the developing embryo.<br>Since two fertilization events occur, the process is called double fertilization.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on IVF (In-Vitro Fertilization).",
+    "answer": "IVF, or In-Vitro Fertilization, is an assisted reproductive technology used to help with infertility. In this technique, fertilization is performed outside the body, in a laboratory dish ('in-vitro'). An ovum is collected from the female's ovary and is fertilized with sperm collected from the male. Once the zygote is formed, it is allowed to develop into an embryo for a few days. The healthy embryo is then transferred and implanted into the mother's uterus for further development. This technique is useful for couples who have issues like a low sperm count or blockages in the oviduct.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe the main parts of the human male reproductive system.",
+    "answer": "The human male reproductive system consists of the following parts:<br>1. <b>Testes:</b> A pair of oval-shaped organs located in the scrotum. They produce sperm and the hormone testosterone.<br>2. <b>Duct System (Epididymis, Vas deferens, Ejaculatory duct):</b> A series of tubes that store and transport sperm from the testes.<br>3. <b>Accessory Glands (Seminal vesicles, Prostate gland, Cowper's gland):</b> These glands produce fluids that mix with sperm to form semen. This fluid provides nourishment and aids in sperm motility.<br>4. <b>Urethra:</b> A tube that extends through the penis and serves as a common passage for both urine and semen.<br>5. <b>Penis:</b> The external copulatory organ used to deliver semen into the female reproductive tract.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the main parts of the human female reproductive system. (PYQ: July 2022)",
+    "answer": "The human female reproductive system consists of the following parts:<br>1. <b>Ovaries:</b> A pair of small, oval-shaped organs located in the abdominal cavity. They produce ova (eggs) and female hormones like estrogen and progesterone.<br>2. <b>Oviducts (Fallopian tubes):</b> A pair of tubes that extend from the ovaries to the uterus. Fertilization of the ovum by the sperm takes place here.<br>3. <b>Uterus:</b> A hollow, muscular, pear-shaped organ where the embryo implants and develops during pregnancy.<br>4. <b>Cervix:</b> The lower, narrow part of the uterus that opens into the vagina.<br>5. <b>Vagina:</b> A muscular tube that connects the cervix to the outside of the body. It receives sperm during intercourse and serves as the birth canal.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the process of spore formation in Mucor.",
+    "answer": "Spore formation is a method of asexual reproduction in fungi like Mucor.<br>1. Mucor has a filamentous body called a mycelium.<br>2. It develops vertical hyphae called sporangiophores.<br>3. At the tip of the sporangiophore, a bulb-like structure called a sporangium develops.<br>4. Inside the sporangium, the nucleus divides several times, and each nucleus gets surrounded by a bit of cytoplasm, forming numerous spores.<br>5. When the sporangium matures, it bursts open, releasing the spores into the air.<br>6. These spores are very light and can travel long distances. When they land on a suitable moist and warm surface, they germinate to form a new Mucor fungus.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the structure and journey of a human sperm.",
+    "answer": "A human sperm is a microscopic male gamete. It has three main parts: a head, a middle piece, and a tail.<br><ul><li><b>Head:</b> Contains the haploid nucleus with genetic material and is covered by a cap-like structure called the acrosome, which contains enzymes to penetrate the egg.</li><li><b>Middle Piece:</b> Contains numerous mitochondria that provide the energy for the sperm's movement.</li><li><b>Tail (Flagellum):</b> Helps the sperm to swim towards the ovum.</li></ul><b>Journey:</b> Sperms are produced in the testes and are transported through a series of ducts: epididymis, vas deferens, and ejaculatory duct. Secretions from seminal vesicles and the prostate gland mix with the sperms to form semen. During ejaculation, semen is expelled through the urethra, out of the penis, and deposited in the female's vagina. From there, the sperms swim through the cervix and uterus into the oviduct, where one sperm may fertilize an ovum if present.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the modern methods of reproduction like Surrogacy and Sperm Bank.",
+    "answer": "<b>Surrogacy:</b> This is an arrangement where a woman (the surrogate mother) agrees to carry and deliver a baby for a couple who cannot conceive on their own. The embryo is created using an ovum from the intended mother (or a donor) and sperm from the intended father (or a donor) through IVF. This embryo is then implanted in the uterus of the surrogate mother. This method is used when the intended mother has problems with her uterus.<br><br><b>Sperm Bank / Semen Bank:</b> This is a facility that collects, stores, and provides human sperm. Semen is collected from healthy, willing donors and is cryopreserved (frozen) in liquid nitrogen. This stored sperm can be used in the future by couples facing infertility issues due to problems in the male partner's sperm production. The sperm is used to fertilize the female partner's ovum through techniques like Intrauterine Insemination (IUI) or IVF.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the hormonal control of the menstrual cycle. (PYQ: March 2018)",
+    "answer": "The menstrual cycle is a reproductive cycle in human females controlled by four hormones.<br>1. <b>Follicle-Stimulating Hormone (FSH):</b> Secreted by the pituitary gland, FSH stimulates the growth of a follicle inside the ovary.<br>2. <b>Estrogen:</b> As the follicle grows, it secretes estrogen. Estrogen causes the endometrium (lining of the uterus) to thicken and prepare for implantation.<br>3. <b>Luteinizing Hormone (LH):</b> A surge in LH level around the 14th day, also from the pituitary, causes the mature follicle to rupture and release the ovum. This process is called ovulation.<br>4. <b>Progesterone:</b> After ovulation, the remnant of the follicle develops into a structure called the corpus luteum, which secretes progesterone. Progesterone further maintains the endometrium. If fertilization does not occur, the corpus luteum degenerates, progesterone levels fall, and the endometrium breaks down, leading to menstruation. The cycle then begins again.",
+    "marks": 4
+  },
+    {
+    "type": "long",
+    "text": "What is fragmentation? Explain with an example.",
+    "answer": "Fragmentation is a method of asexual reproduction where the body of the parent organism breaks into two or more smaller pieces or fragments, and each fragment grows into a new, fully developed individual.<br><br><b>Example: Spirogyra.</b> When sufficient water and nutrients are available, the filaments of Spirogyra grow very fast. These long filaments then break up into smaller fragments. Each fragment is capable of growing into a new, independent filament of Spirogyra.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Complete the flowchart of sexual reproduction in plants. [Flowchart with blanks: Flower -> Pollination -> ? -> Zygote -> ? -> Seed]",
+    "answer": "Flower → Pollination → <b>Fertilization</b> → Zygote → <b>Embryo</b> → Seed",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the advantages of vegetative propagation in plants?",
+    "answer": "The advantages of vegetative propagation are:<br>1. Plants raised by this method can bear flowers and fruits earlier than those produced from seeds.<br>2. It allows for the propagation of plants like bananas, oranges, and jasmine that have lost the capacity to produce seeds.<br>3. All plants produced are genetically identical to the parent plant and retain its desirable characteristics.<br>4. It is a faster, easier, and cheaper method of propagation for many plants.",
+    "marks": 3
+  }
+]
+

@@ -1,0 +1,132 @@
+[
+  {
+    "type": "mcq",
+    "text": "In a forward-biased PN junction diode, the barrier potential: (MHT CET 2025)",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains unchanged",
+      "(d) becomes zero"
+    ],
+    "correct_answer": "b",
+    "answer": "When a PN junction diode is forward-biased, an external voltage is applied across the junction. This external voltage opposes the built-in potential barrier, effectively reducing its height. This reduction allows majority charge carriers to cross the junction, leading to a flow of current.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main purpose of a rectifier is to convert: (MHT CET 2024)",
+    "options": [
+      "(a) AC to DC",
+      "(b) DC to AC",
+      "(c) high voltage to low voltage",
+      "(d) low voltage to high voltage"
+    ],
+    "correct_answer": "a",
+    "answer": "A rectifier is an electronic device that converts alternating current (AC), which periodically reverses direction, to direct current (DC), which flows in only one direction. This process is essential for powering most electronic devices.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The depletion region in a PN junction is caused by: (MHT CET 2023)",
+    "options": [
+      "(a) forward biasing",
+      "(b) reverse biasing",
+      "(c) diffusion of charge carriers",
+      "(d) recombination of electrons and holes"
+    ],
+    "correct_answer": "d",
+    "answer": "The depletion region forms at the junction of P and N type semiconductors due to the diffusion of majority charge carriers. When electrons from the N-side cross the junction and recombine with holes on the P-side, they leave behind fixed positive and negative ions, creating a region with no mobile charges, known as the depletion region.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The input and output signals of a common-emitter amplifier have a phase difference of: (MHT CET 2022)",
+    "options": [
+      "(a) $0^\\circ$",
+      "(b) $45^\\circ$",
+      "(c) $90^\\circ$",
+      "(d) $180^\\circ$"
+    ],
+    "correct_answer": "d",
+    "answer": "In a common-emitter (CE) configuration of a transistor amplifier, the output voltage signal (at the collector) is out of phase with the input voltage signal (at the base). This phase shift is exactly $180^\\circ$ or $\\pi$ radians.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A Zener diode is designed to operate in the: (MHT CET 2021)",
+    "options": [
+      "(a) forward-bias region",
+      "(b) breakdown region",
+      "(c) reverse-bias region with current limiting",
+      "(d) reverse-bias region beyond the breakdown voltage"
+    ],
+    "correct_answer": "d",
+    "answer": "A Zener diode is a special type of diode that is heavily doped to allow current to flow in the reverse direction once the reverse voltage reaches the Zener breakdown voltage. It is primarily used as a voltage regulator, operating in the reverse-bias region beyond the breakdown voltage.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following logic gates is a universal gate? (MHT CET 2020)",
+    "options": [
+      "(a) OR",
+      "(b) AND",
+      "(c) XOR",
+      "(d) NAND"
+    ],
+    "correct_answer": "d",
+    "answer": "Universal gates are those from which any other logic gate (AND, OR, NOT, etc.) can be constructed. The NAND and NOR gates are considered universal gates. The NAND gate is a combination of NOT and AND gates.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a full-wave rectifier, if the input frequency is 50 Hz, the output ripple frequency is: (MHT CET 2019)",
+    "options": [
+      "(a) 50 Hz",
+      "(b) 100 Hz",
+      "(c) 25 Hz",
+      "(d) 200 Hz"
+    ],
+    "correct_answer": "b",
+    "answer": "A full-wave rectifier rectifies both the positive and negative cycles of the input AC signal. This means that for every one complete cycle of the input, the output has two pulses. Therefore, the output ripple frequency is twice the input frequency. For an input frequency of 50 Hz, the output ripple frequency is $2 \\times 50 \\text{ Hz} = 100$ Hz.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy gap for a semiconductor is typically in the range of: (MHT CET 2018)",
+    "options": [
+      "(a) 0.1 to 0.4 eV",
+      "(b) 1 to 2 eV",
+      "(c) 5 to 10 eV",
+      "(d) greater than 10 eV"
+    ],
+    "correct_answer": "b",
+    "answer": "The energy gap, or band gap ($E_g$), is the energy difference between the top of the valence band and the bottom of the conduction band. For semiconductors, this gap is relatively small, typically in the range of 1 to 2 eV. For example, the energy gap for silicon (Si) is about 1.1 eV and for germanium (Ge) is about 0.7 eV.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a N-type semiconductor, the majority charge carriers are: (MHT CET 2017)",
+    "options": [
+      "(a) protons",
+      "(b) electrons",
+      "(c) holes",
+      "(d) neutrons"
+    ],
+    "correct_answer": "b",
+    "answer": "An N-type semiconductor is created by doping a pure semiconductor with a pentavalent impurity (e.g., phosphorus). The impurity atom has five valence electrons, four of which form covalent bonds with the host atoms, and the fifth one is a free electron. These free electrons are the majority charge carriers in an N-type semiconductor.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reverse current in a PN junction diode is due to: (MHT CET 2016)",
+    "options": [
+      "(a) diffusion of majority carriers",
+      "(b) drift of majority carriers",
+      "(c) diffusion of minority carriers",
+      "(d) drift of minority carriers"
+    ],
+    "correct_answer": "d",
+    "answer": "When a PN junction is reverse-biased, the external voltage increases the barrier potential. However, a very small current flows due to the thermal generation of electron-hole pairs. These minority carriers are swept across the junction by the electric field, which constitutes a small <b>drift current</b>.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  }
+]

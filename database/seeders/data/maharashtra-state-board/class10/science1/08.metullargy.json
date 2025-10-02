@@ -1,0 +1,166 @@
+[
+  {
+    "type": "short",
+    "text": "What is the difference between minerals and ores? (Practice Set 8.1)",
+    "answer": "A **mineral** is a naturally occurring inorganic substance that has a definite chemical composition and crystalline structure. All minerals do not necessarily contain a high percentage of a particular metal. An **ore** is a mineral from which a metal can be extracted economically and conveniently. Therefore, all ores are minerals, but not all minerals are ores.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define Metallurgy.",
+    "answer": "Metallurgy is the science and technology of the extraction of metals from their ores and their purification for different purposes. It involves various processes such as the concentration of ores, extraction of crude metal, and refining.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of froth flotation for the concentration of ores. (Practice Set 8.2)",
+    "answer": "The froth flotation method is used for the concentration of sulfide ores. It is based on the principle that sulfide ores are preferentially wetted by pine oil, while the gangue particles are wetted by water.\n\n1.  The powdered ore is mixed with water and a small amount of pine oil or fatty acids in a flotation tank.\n2.  Compressed air is passed through the mixture. This creates froth due to the pine oil.\n3.  The ore particles, which are wetted by the oil, stick to the bubbles of the froth and rise to the surface. The froth is then skimmed off.\n4.  The gangue particles, being wetted by water, sink to the bottom of the tank and are discarded.\n5.  The collected froth is then dried to obtain the concentrated ore.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the steps involved in the extraction of metals from ores?",
+    "answer": "The main steps involved in the extraction of metals from their ores are:\n\n1.  **Concentration of the ore:** This involves the removal of unwanted gangue (impurities) from the ore. Common methods include froth flotation, hydraulic separation, magnetic separation, and leaching.\n2.  **Extraction of the metal:** The concentrated ore is converted into a crude metal. This often involves processes like calcination or roasting, followed by reduction.\n3.  **Refining of the metal:** The crude metal obtained is purified to remove any remaining impurities. Methods include distillation, electrolysis, and electrolytic refining.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Why is it easier to extract metals from their oxides than from their carbonates?",
+    "answer": "It is easier to extract metals from their oxides because oxides can be reduced directly to the metal using a suitable reducing agent like carbon. Carbonates and sulfides, however, must first be converted into oxides through calcination or roasting, respectively, before they can be reduced.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following metals is found in a free state? (Problem Set 8)",
+    "options": ["Aluminium", "Sodium", "Iron", "Gold"],
+    "correct_answer": "D",
+    "answer": "Metals that are unreactive, such as gold, silver, and platinum, are often found in a free or native state because they do not readily react with elements in their surroundings. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of electrolytic refining of copper. (Practice Set 8.3)",
+    "answer": "Electrolytic refining is the most widely used method for purifying reactive metals like copper, zinc, and aluminium. Here's how it works for copper:\n\n1.  A thick block of impure copper is used as the **anode** (+ve electrode).\n2.  A thin strip of pure copper is used as the **cathode** (-ve electrode).\n3.  The electrolyte is an aqueous solution of copper sulfate ($CuSO_4$) acidified with dilute sulfuric acid.\n4.  When an electric current is passed through the solution, copper ions from the impure anode go into the solution, while an equivalent amount of copper from the solution is deposited on the pure copper cathode.\n5.  The impurities from the impure anode settle down at the bottom of the anode as **anode mud**.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the role of cryolite in the extraction of aluminum?",
+    "answer": "Cryolite ($Na_3AlF_6$) is used in the electrolytic reduction of alumina ($Al_2O_3$). It is added to lower the melting point of alumina from $2050^{\\circ}C$ to around $950^{\\circ}C$, which saves a significant amount of energy.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an alloy? (Problem Set 8)",
+    "options": ["Iron", "Copper", "Steel", "Sulphur"],
+    "correct_answer": "C",
+    "answer": "An alloy is a homogeneous mixture of a metal with another metal or a non-metal. Steel is an alloy of iron and carbon. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is roasting? Explain with a balanced chemical equation. (Practice Set 8.4)",
+    "answer": "Roasting is the process of heating a concentrated ore, usually a sulfide ore, strongly in the presence of excess air at a temperature below the melting point of the metal. This converts the sulfide ore into its metal oxide.\n\n**Example: Roasting of zinc sulfide ore**\nWhen zinc sulfide ($ZnS$) is roasted in the presence of oxygen, it is converted into zinc oxide ($ZnO$).\n\n$2ZnS(s) + 3O_2(g) \\xrightarrow{\\Delta} 2ZnO(s) + 2SO_2(g)$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is galvanizing? (PYQ: March 2022)",
+    "answer": "Galvanizing is a method of protecting iron and steel from rusting by applying a thin coating of zinc. Zinc is more reactive than iron, so it corrodes first, protecting the iron underneath.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "What is the chemical formula of bauxite, the main ore of aluminium? (Problem Set 8)",
+    "options": ["$Al_2O_3$", "$Al_2O_3 \\cdot 2H_2O$", "$Fe_2O_3$", "$FeO$"],
+    "correct_answer": "B",
+    "answer": "Bauxite is the main ore of aluminum. Its chemical formula is hydrated aluminium oxide, which is $Al_2O_3 \\cdot 2H_2O$. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of thermite reaction. Mention its application. (Practice Set 8.5)",
+    "answer": "The thermite reaction is a highly exothermic reaction in which a metal oxide is reduced by a more reactive metal, usually aluminum powder. The reaction releases a large amount of heat, which makes the metal molten.\n\n**Example: Reduction of iron(III) oxide with aluminum**\n$Fe_2O_3(s) + 2Al(s) \\rightarrow 2Fe(l) + Al_2O_3(s) + Heat$\n\n**Application:**\nThe thermite reaction is used for welding railway tracks or cracked machine parts. The molten iron produced is used to join the parts together.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is an alloy? Give an example.",
+    "answer": "An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal. An example is brass, which is an alloy of copper and zinc.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Rusting of iron is an example of... (Problem Set 8)",
+    "options": ["Oxidation", "Reduction", "Combination", "Displacement"],
+    "correct_answer": "A",
+    "answer": "Rusting is the chemical process of oxidation. Iron reacts with oxygen and water to form hydrated iron(III) oxide, also known as rust. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is anodizing? Explain its significance. (PYQ: July 2019)",
+    "answer": "Anodizing is an electrolytic process used to form a thick, protective oxide layer on the surface of aluminium. The process works as follows:\n\n1.  The aluminium object is made the anode in an electrolytic cell.\n2.  Dilute sulfuric acid is used as the electrolyte.\n3.  When a current is passed, oxygen gas is released at the anode.\n4.  This oxygen reacts with the aluminium to form a protective layer of aluminium oxide ($Al_2O_3$).\n\n**Significance:**\n* The aluminium oxide layer is hard, durable, and highly corrosion-resistant.\n* It can absorb dyes, allowing the surface to be colored, which is useful for decorative purposes.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is an amalgam? Give an example.",
+    "answer": "An amalgam is an alloy where one of the constituent metals is mercury. For example, a dental amalgam is an alloy of mercury with silver, tin, and copper used for dental fillings.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of brass is... (Problem Set 8)",
+    "options": ["Copper", "Tin", "Zinc", "Lead"],
+    "correct_answer": "A",
+    "answer": "Brass is an alloy of copper and zinc. Copper is the main component. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of corrosion. Give two methods to prevent it. (Practice Set 8.6)",
+    "answer": "Corrosion is the gradual destruction of a metal due to its reaction with the surrounding environment, such as air, moisture, and chemicals. The most common example is the rusting of iron. It is an electrochemical process where the metal gets oxidized.\n\n### **Methods to prevent corrosion**\n1.  **Painting:** A layer of paint on the surface of a metal acts as a barrier, preventing air and moisture from coming into contact with the metal and thus preventing corrosion.\n2.  **Galvanizing:** This involves coating the metal with a thin layer of a more reactive metal, such as zinc. The zinc layer corrodes preferentially, protecting the base metal from rust.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the reactivity series of metals?",
+    "answer": "The reactivity series is a list of metals arranged in decreasing order of their reactivity. A more reactive metal can displace a less reactive metal from its compound.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the most reactive metal? (Problem Set 8)",
+    "options": ["Gold", "Zinc", "Potassium", "Copper"],
+    "correct_answer": "C",
+    "answer": "Potassium is at the top of the reactivity series, making it the most reactive among the given options. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the significance of the reactivity series in metallurgy?",
+    "answer": "The reactivity series is a crucial tool in metallurgy because it helps determine the appropriate method for extracting a metal from its ore. \n\n* **Highly reactive metals** (e.g., K, Na, Ca, Mg, Al) cannot be reduced by carbon because they have a stronger affinity for oxygen than carbon. They are extracted by the electrolytic reduction of their molten ores.\n* **Moderately reactive metals** (e.g., Zn, Fe, Pb) are extracted by reduction of their oxides using a suitable reducing agent like carbon.\n* **Less reactive metals** (e.g., Ag, Au, Pt) are found in the free state or can be extracted by simple heating of their sulfide ores, as they are very unreactive.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define gangue.",
+    "answer": "Gangue refers to the unwanted rock, sand, and other earthy impurities present in an ore. It is also known as a matrix.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of heating an ore in the absence of air is called... (Problem Set 8)",
+    "options": ["Roasting", "Calcination", "Smelting", "Concentration"],
+    "correct_answer": "B",
+    "answer": "Calcination is the process of heating a carbonate or hydrate ore strongly in the absence or limited supply of air to convert it into its oxide. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of electrolytic reduction of alumina to extract aluminum. (Practice Set 8.7)",
+    "answer": "Aluminium is a highly reactive metal and is extracted from its ore, bauxite ($Al_2O_3 \\cdot 2H_2O$), using electrolytic reduction.\n\n1.  **Electrolyte:** Molten alumina mixed with cryolite ($Na_3AlF_6$) and fluorspar ($CaF_2$). Cryolite lowers the melting point of alumina, and fluorspar improves conductivity.\n2.  **Anode:** Carbon rods.\n3.  **Cathode:** The carbon lining of the steel tank.\n\n**Process:**\nWhen a current is passed through the electrolyte, aluminium ions ($Al^{3+}$) are reduced at the cathode, forming molten aluminium, which is collected at the bottom. The oxide ions ($O^{2-}$) are oxidized at the anode, forming oxygen gas. The oxygen reacts with the carbon anodes to form carbon dioxide, so the anodes are consumed and need to be replaced periodically.",
+    "marks": 4
+  }
+]

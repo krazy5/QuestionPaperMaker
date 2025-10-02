@@ -84,78 +84,6 @@
     "marks": 1
   },
   {
-    "type": "mcq",
-    "text": "The value of $\\sin^{-1}(\\sin(\\frac{7\\pi}{6}))$ is:",
-    "options": [
-      "$\\frac{7\\pi}{6}$",
-      "$\\frac{\\pi}{6}$",
-      "$-\\frac{\\pi}{6}$",
-      "None of these"
-    ],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "In $\\triangle ABC$, if $a=2, b=3, \\sin A = 2/3$, then $\\angle B$ is:",
-    "options": [
-      "$30^\\circ$",
-      "$60^\\circ$",
-      "$90^\\circ$",
-      "$120^\\circ$"
-    ],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "short",
-    "text": "Find the principal solutions of $\\cot\\theta = \\sqrt{3}$.",
-    "answer": "We have $\\cot\\theta = \\sqrt{3}$. Since $\\cot(\\pi/6) = \\sqrt{3}$ and $\\cot(\\pi + \\pi/6) = \\cot(7\\pi/6) = \\sqrt{3}$. The principal solutions are $\\theta = \\pi/6$ and $\\theta = 7\\pi/6$.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "In $\\triangle ABC$, prove that $\\sin(\\frac{B-C}{2}) = \\frac{b-c}{a} \\cos(\\frac{A}{2})$.",
-    "answer": "Using the sine rule, $b=k\\sin B$ and $c=k\\sin C$. RHS = $\\frac{k(\\sin B - \\sin C)}{k\\sin A} \\cos(\\frac{A}{2})$. Using sum-to-product and half-angle formulas, this simplifies to the LHS.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the value of $\\tan^{-1}(\\sqrt{3}) - \\sec^{-1}(-2)$.",
-    "answer": "$\\tan^{-1}(\\sqrt{3}) = \\pi/3$. $\\sec^{-1}(-2) = \\pi - \\sec^{-1}(2) = \\pi - \\pi/3 = 2\\pi/3$. The value is $\\pi/3 - 2\\pi/3 = -\\pi/3$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Prove that $\\tan^{-1}(\\frac{1}{2}) + \\tan^{-1}(\\frac{1}{3}) = \\frac{\\pi}{4}$.",
-    "answer": "Using the formula $\\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}(\\frac{x+y}{1-xy})$, we get LHS = $\\tan^{-1}(\\frac{1/2 + 1/3}{1 - (1/2)(1/3)}) = \\tan^{-1}(\\frac{5/6}{5/6}) = \\tan^{-1}(1) = \\frac{\\pi}{4}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "In $\\triangle ABC$, if $\\angle A = 45^\\circ, \\angle B = 60^\\circ$, then find the ratio of its sides.",
-    "answer": "$\\angle C = 180 - (45+60) = 75^\\circ$. By the sine rule, $a:\\sin A = b:\\sin B = c:\\sin C$. So, $a:b:c = \\sin 45^\\circ : \\sin 60^\\circ : \\sin 75^\\circ$. This gives the ratio $\\frac{1}{\\sqrt{2}} : \\frac{\\sqrt{3}}{2} : \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$. Multiplying by $2\\sqrt{2}$ gives the ratio $2 : \\sqrt{6} : (\\sqrt{3}+1)$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Two ships leave a port at the same time. One goes 24 km per hour in the direction N $45^\\circ$ E and other travels 32 km per hour in the direction S $75^\\circ$ E. Find the distance between the ships at the end of 3 hours.",
-    "answer": "After 3 hours, the distances are $a=72$ km and $b=96$ km. The angle between their paths is $45 + (90-75) = 60^\\circ$. Using the cosine rule, the distance $d^2 = a^2 + b^2 - 2ab\\cos(60^\\circ)$. $d^2 = 72^2 + 96^2 - 2(72)(96)(1/2) = 5184 + 9216 - 6912 = 7488$. So, $d = \\sqrt{7488} \\approx 86.5$ km.",
-    "marks": 4
-  },
-  {
-    "type": "true_false",
-    "text": "The principal value branch of $\\sin^{-1}x$ is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "The sine rule can be applied to any triangle.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
     "type": "short",
     "text": "In $\\triangle ABC$, if $a = 18, b = 24, c = 30$, find the value of $\\cos A$.",
     "answer": "Using the cosine rule, $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{24^2 + 30^2 - 18^2}{2(24)(30)} = \\frac{576 + 900 - 324}{1440} = \\frac{1152}{1440} = \\frac{4}{5}$.",
@@ -164,7 +92,7 @@
   {
     "type": "short",
     "text": "In $\\triangle ABC$, prove the projection rule: $a = b\\cos C + c\\cos B$.",
-    "answer": "From properties of a triangle, we know $b = a\\cos C + c\\cos A$ and $c = a\\cos B + b\\cos A$. Adding these gives $b+c = a(\\cos B + \\cos C) + (b+c)\\cos A$. This is one way to prove it. A simpler way is to drop a perpendicular from A to BC.",
+    "answer": "From properties of a triangle, we know $b = a\\cos C + c\\cos A$ and $c = a\\cos B + b\\cos A$. This is one way to prove it. A simpler way is to drop a perpendicular from A to BC.",
     "marks": 2
   },
   {
@@ -235,12 +163,6 @@
   },
   {
     "type": "long",
-    "text": "In $\\triangle ABC$, prove that $\\sin(\\frac{B-C}{2}) = \\frac{b-c}{a} \\cos(\\frac{A}{2})$.",
-    "answer": "Step 1: Start with the RHS: $\\frac{b-c}{a} \\cos(\\frac{A}{2})$. Step 2: Apply the Sine Rule: $a=k\\sin A, b=k\\sin B, c=k\\sin C$. The expression becomes $\\frac{k(\\sin B - \\sin C)}{k\\sin A} \\cos(\\frac{A}{2})$. Step 3: Use the sum-to-product formula: $\\sin B - \\sin C = 2\\cos(\\frac{B+C}{2})\\sin(\\frac{B-C}{2})$. Step 4: Use the half-angle formula for the denominator: $\\sin A = 2\\sin(\\frac{A}{2})\\cos(\\frac{A}{2})$. Step 5: Substitute these back: $\\frac{2\\cos(\\frac{B+C}{2})\\sin(\\frac{B-C}{2})}{2\\sin(\\frac{A}{2})\\cos(\\frac{A}{2})} \\cos(\\frac{A}{2})$. Step 6: Since $A+B+C=\\pi$, $\\frac{B+C}{2} = \\frac{\\pi}{2} - \\frac{A}{2}$, so $\\cos(\\frac{B+C}{2}) = \\sin(\\frac{A}{2})$. Step 7: The expression simplifies to $\\frac{\\sin(\\frac{A}{2})\\sin(\\frac{B-C}{2})}{\\sin(\\frac{A}{2})} = \\sin(\\frac{B-C}{2})$, which is the LHS.",
-    "marks": 4
-  },
-  {
-    "type": "long",
     "text": "With usual notations prove that $2\\{a\\sin^2(\\frac{C}{2}) + c\\sin^2(\\frac{A}{2})\\} = a - b + c$.",
     "answer": "Step 1: Start with the LHS. Use the half-angle formulas: $\\sin^2(\\frac{C}{2}) = \\frac{(s-a)(s-b)}{ab}$ and $\\sin^2(\\frac{A}{2}) = \\frac{(s-b)(s-c)}{bc}$. Step 2: Substitute these into the LHS: $2\\{a\\frac{(s-a)(s-b)}{ab} + c\\frac{(s-b)(s-c)}{bc}\\}$. Step 3: Simplify by cancelling terms: $2\\{\\frac{(s-a)(s-b)}{b} + \\frac{(s-b)(s-c)}{b}\\}$. Step 4: Factor out the common term $\\frac{s-b}{b}$: $\\frac{2(s-b)}{b} [(s-a) + (s-c)] = \\frac{2(s-b)}{b} [2s - a - c]$. Step 5: We know $2s = a+b+c$, so $2s-a-c = b$. Step 6: The expression becomes $\\frac{2(s-b)}{b} [b] = 2(s-b)$. Step 7: Substitute $s = \\frac{a+b+c}{2}$: $2(\\frac{a+b+c}{2} - b) = a+b+c - 2b = a-b+c$, which is the RHS.",
     "marks": 4
@@ -265,14 +187,260 @@
   },
   {
     "type": "long",
-    "text": "In $\\triangle ABC$, if $a = 18, b = 24, c = 30$, find the value of $\\cos A$.",
-    "answer": "Step 1: Use the Cosine Rule for $\\cos A$: $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$. Step 2: Substitute the given values: $\\cos A = \\frac{24^2 + 30^2 - 18^2}{2(24)(30)}$. Step 3: Calculate the squares: $\\cos A = \\frac{576 + 900 - 324}{1440}$. Step 4: Simplify the numerator and denominator: $\\cos A = \\frac{1152}{1440}$. Step 5: Reduce the fraction: $\\frac{1152}{1440} = \\frac{4}{5}$. So, $\\cos A = 0.8$.",
+    "text": "In $\\triangle ABC$, prove that $(b + c - a) \\tan(\\frac{A}{2}) = (a + b - c) \\tan(\\frac{C}{2})$.",
+    "answer": "Step 1: Use the semi-perimeter $s = \\frac{a+b+c}{2}$. Note that $b+c-a = 2(s-a)$ and $a+b-c = 2(s-c)$. Step 2: Use the half-angle formulas for tangent: $\\tan(\\frac{A}{2}) = \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}}$ and $\\tan(\\frac{C}{2}) = \\sqrt{\\frac{(s-a)(s-b)}{s(s-c)}}$. Step 3: Substitute these into the LHS: $2(s-a) \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}} = 2\\sqrt{\\frac{(s-a)^2(s-b)(s-c)}{s(s-a)}} = 2\\sqrt{\\frac{(s-a)(s-b)(s-c)}{s}}$. Step 4: Substitute into the RHS: $2(s-c) \\sqrt{\\frac{(s-a)(s-b)}{s(s-c)}} = 2\\sqrt{\\frac{(s-c)^2(s-a)(s-b)}{s(s-c)}} = 2\\sqrt{\\frac{(s-a)(s-b)(s-c)}{s}}$. Since LHS = RHS, the identity is proved.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $\\cos^{-1}(\\cos(\\frac{13\\pi}{6}))$ is:",
+    "options": [
+      "$\\frac{13\\pi}{6}$",
+      "$\\frac{\\pi}{6}$",
+      "$-\\frac{\\pi}{6}$",
+      "$\\frac{\\pi}{3}$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $\\sin^{-1}x = y$, then:",
+    "options": [
+      "$0 \\le y \\le \\pi$",
+      "$-\\frac{\\pi}{2} \\le y \\le \\frac{\\pi}{2}$",
+      "$0 < y < \\pi$",
+      "$-\\frac{\\pi}{2} < y < \\frac{\\pi}{2}$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general solution of $\\cos(2\\theta) = 0$ is:",
+    "options": [
+      "$\\theta = n\\pi \\pm \\frac{\\pi}{4}$",
+      "$\\theta = (2n+1)\\frac{\\pi}{2}$",
+      "$\\theta = (2n+1)\\frac{\\pi}{4}$",
+      "$\\theta = n\\pi$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In $\\triangle ABC$, $a=4, b=5, c=6$. The area of the triangle is:",
+    "options": [
+      "$\\frac{15}{2}$",
+      "$\\frac{15\\sqrt{7}}{4}$",
+      "$15\\sqrt{7}$",
+      "$\\frac{15}{4}$"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $2\\tan^{-1}(\\frac{1}{3})$ is equal to:",
+    "options": [
+      "$\\tan^{-1}(\\frac{3}{4})$",
+      "$\\tan^{-1}(\\frac{3}{2})$",
+      "$\\tan^{-1}(\\frac{4}{3})$",
+      "$\\tan^{-1}(1)$"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the principal solution of $\\tan\\theta = -1$.",
+    "answer": "We know $\\tan(\\pi/4)=1$. Since tan is negative in the 2nd and 4th quadrants, the solutions are $\\theta = \\pi - \\pi/4 = 3\\pi/4$ and $\\theta = 2\\pi - \\pi/4 = 7\\pi/4$. The principal solutions are $3\\pi/4$ and $7\\pi/4$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the value of $\\sin(\\frac{\\pi}{3} - \\sin^{-1}(-\\frac{1}{2}))$.",
+    "answer": "$\\sin^{-1}(-1/2) = -\\pi/6$. The expression becomes $\\sin(\\frac{\\pi}{3} - (-\\frac{\\pi}{6})) = \\sin(\\frac{\\pi}{3} + \\frac{\\pi}{6}) = \\sin(\\frac{\\pi}{2}) = 1$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the general solution for $2\\cos^2\\theta - 1 = 0$.",
+    "answer": "$2\\cos^2\\theta - 1 = \\cos(2\\theta)$. So, $\\cos(2\\theta) = 0$. This implies $2\\theta = (2n+1)\\frac{\\pi}{2}$. Therefore, $\\theta = (2n+1)\\frac{\\pi}{4}$ for $n \\in Z$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "In $\\triangle ABC$, if $a=16, c=9, B=30^\\circ$, find the area of the triangle.",
+    "answer": "Area = $\\frac{1}{2}ac\\sin B = \\frac{1}{2}(16)(9)\\sin(30^\\circ) = \\frac{1}{2}(16)(9)(\\frac{1}{2}) = 36$ square units.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Prove that $\\frac{\\sin x}{1+\\cos x} = \\tan(\\frac{x}{2})$.",
+    "answer": "LHS = $\\frac{2\\sin(x/2)\\cos(x/2)}{1 + (2\\cos^2(x/2)-1)} = \\frac{2\\sin(x/2)\\cos(x/2)}{2\\cos^2(x/2)} = \\frac{\\sin(x/2)}{\\cos(x/2)} = \\tan(x/2)$ = RHS.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the cartesian coordinates of the point whose polar coordinates are $(2, \\pi/4)$.",
+    "answer": "$x = r\\cos\\theta = 2\\cos(\\pi/4) = 2(\\frac{1}{\\sqrt{2}}) = \\sqrt{2}$. $y = r\\sin\\theta = 2\\sin(\\pi/4) = 2(\\frac{1}{\\sqrt{2}}) = \\sqrt{2}$. The coordinates are $(\\sqrt{2}, \\sqrt{2})$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the polar coordinates of the point whose cartesian coordinates are $(1, -\\sqrt{3})$.",
+    "answer": "$r = \\sqrt{x^2+y^2} = \\sqrt{1^2+(-\\sqrt{3})^2} = \\sqrt{1+3} = 2$. $\\tan\\theta = y/x = -\\sqrt{3}$. Since x is positive and y is negative, the point is in the 4th quadrant. $\\theta = 2\\pi - \\pi/3 = 5\\pi/3$. The polar coordinates are $(2, 5\\pi/3)$.",
+    "marks": 2
+  },
+  {
+    "type": "true_false",
+    "text": "The domain of $\\sec^{-1}x$ is $R - (-1, 1)$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "$\\cos^{-1}x = \\sin^{-1}(\\sqrt{1-x^2})$ for $x \\in [0, 1]$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The general solution for $\\sin\\theta = \\sin\\alpha$ is $\\theta = 2n\\pi \\pm \\alpha$.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Napier's analogy is given by $\\tan(\\frac{B-C}{2}) = \\frac{b-c}{b+c} \\cot(\\frac{A}{2})$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In any $\\triangle ABC$, $a\\cos B + b\\cos A = c$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The value of $\\sin(15^\\circ)$ is $\\frac{\\sqrt{3}-1}{2\\sqrt{2}}$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "$\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 + \\tan A \\tan B}$.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Solve the equation $\\sin(2x) + \\sin(4x) + \\sin(6x) = 0$.",
+    "answer": "Rearrange as $(\\sin(6x)+\\sin(2x)) + \\sin(4x) = 0$. Use sum-to-product: $2\\sin(4x)\\cos(2x) + \\sin(4x) = 0$. Factor out $\\sin(4x)$: $\\sin(4x)(2\\cos(2x)+1)=0$. Case 1: $\\sin(4x)=0 \\implies 4x=n\\pi \\implies x=n\\pi/4$. Case 2: $2\\cos(2x)+1=0 \\implies \\cos(2x)=-1/2 \\implies 2x=2n\\pi \\pm 2\\pi/3 \\implies x=n\\pi \\pm \\pi/3$. The solutions are $x=n\\pi/4$ and $x=n\\pi \\pm \\pi/3$ for $n \\in Z$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "A person observes the top of a tower from a point A on the ground. The angle of elevation is $30^\\circ$. He walks 20 meters towards the tower to a point B and finds the angle of elevation to be $60^\\circ$. Find the height of the tower.",
+    "answer": "Let h be the height of the tower and x be the distance of point B from the base. From point B, $\\tan(60^\\circ) = h/x \\implies \\sqrt{3}=h/x \\implies h=x\\sqrt{3}$. From point A, $\\tan(30^\\circ) = h/(x+20) \\implies 1/\\sqrt{3} = h/(x+20)$. Substitute h: $1/\\sqrt{3} = x\\sqrt{3}/(x+20) \\implies x+20=3x \\implies 2x=20 \\implies x=10$ m. Height $h = 10\\sqrt{3}$ meters.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Prove that $2\\tan^{-1}(\\frac{1}{5}) + \\sec^{-1}(\\frac{5\\sqrt{2}}{7}) + 2\\tan^{-1}(\\frac{1}{8}) = \\frac{\\pi}{4}$.",
+    "answer": "Combine the tan terms: $2(\\tan^{-1}(1/5) + \\tan^{-1}(1/8)) = 2\\tan^{-1}(\\frac{1/5+1/8}{1-1/40}) = 2\\tan^{-1}(\\frac{13/40}{39/40}) = 2\\tan^{-1}(1/3)$. Use $2\\tan^{-1}x = \\tan^{-1}(\\frac{2x}{1-x^2})$. So, $2\\tan^{-1}(1/3) = \\tan^{-1}(\\frac{2/3}{1-1/9}) = \\tan^{-1}(3/4)$. Let $\\alpha = \\sec^{-1}(5\\sqrt{2}/7)$, then $\\sec\\alpha = 5\\sqrt{2}/7, \\cos\\alpha=7/(5\\sqrt{2}), \\sin\\alpha=1/(5\\sqrt{2})$. $\\tan\\alpha = 1/7$. We need to prove $\\tan^{-1}(3/4) + \\tan^{-1}(1/7) = \\pi/4$. LHS = $\\tan^{-1}(\\frac{3/4+1/7}{1-3/28}) = \\tan^{-1}(\\frac{25/28}{25/28}) = \\tan^{-1}(1) = \\pi/4$.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "If $\\cos^{-1}x + \\cos^{-1}y + \\cos^{-1}z = \\pi$, prove that $x^2+y^2+z^2+2xyz=1$.",
+    "answer": "Let $A=\\cos^{-1}x, B=\\cos^{-1}y, C=\\cos^{-1}z$. So $A+B+C=\\pi$. We have $x=\\cos A, y=\\cos B, z=\\cos C$. Consider $A+B = \\pi-C$. Take cosine of both sides: $\\cos(A+B)=\\cos(\\pi-C) \\implies \\cos A\\cos B - \\sin A\\sin B = -\\cos C$. So $xy - \\sqrt{1-x^2}\\sqrt{1-y^2} = -z$. Rearrange and square: $(xy+z)^2 = (1-x^2)(1-y^2)$. Expand: $x^2y^2+2xyz+z^2 = 1-x^2-y^2+x^2y^2$. This simplifies to $x^2+y^2+z^2+2xyz=1$.",
+    "marks": 5
+  },
+  {
+    "type": "mcq",
+    "text": "The domain of the function $\\cos^{-1}(2x-1)$ is:",
+    "options": [
+      "[0, 1]",
+      "[-1, 1]",
+      "(-1, 1)",
+      "[0, pi]"
+    ],
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of $\\sin(2\\sin^{-1}(0.6))$ is:",
+    "options": [
+      "0.48",
+      "0.96",
+      "1.2",
+      "sin(1.2)"
+    ],
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If in a $\\triangle ABC$, $a=2b$ and $|A-B| = \\pi/3$, then $\\angle C$ is:",
+    "options": [
+      "$\\pi/6$",
+      "$\\pi/3$",
+      "$\\pi/2$",
+      "$2\\pi/3$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the value of $\\tan(\\cos^{-1}(\\frac{4}{5}) + \\tan^{-1}(\\frac{2}{3}))$.",
+    "answer": "Let $\\alpha = \\cos^{-1}(4/5)$. Then $\\cos\\alpha=4/5, \\sin\\alpha=3/5, \\tan\\alpha=3/4$. So we need to find $\\tan(\\tan^{-1}(3/4)+\\tan^{-1}(2/3)) = \\tan(\\tan^{-1}(\\frac{3/4+2/3}{1-(3/4)(2/3)})) = \\frac{17/12}{1/2} = 17/6$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the general solution of $\\tan^2\\theta = 3$.",
+    "answer": "$\\tan^2\\theta = 3 \\implies \\tan^2\\theta = (\\sqrt{3})^2 = \\tan^2(\\pi/3)$. The general solution is $\\theta = n\\pi \\pm \\pi/3$ for $n \\in Z$.",
     "marks": 2
   },
   {
     "type": "long",
-    "text": "In $\\triangle ABC$, prove that $(b + c - a) \\tan(\\frac{A}{2}) = (a + b - c) \\tan(\\frac{C}{2})$.",
-    "answer": "Step 1: Use the semi-perimeter $s = \\frac{a+b+c}{2}$. Note that $b+c-a = 2(s-a)$ and $a+b-c = 2(s-c)$. Step 2: Use the half-angle formulas for tangent: $\\tan(\\frac{A}{2}) = \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}}$ and $\\tan(\\frac{C}{2}) = \\sqrt{\\frac{(s-a)(s-b)}{s(s-c)}}$. Step 3: Substitute these into the LHS: $2(s-a) \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}} = 2\\sqrt{\\frac{(s-a)^2(s-b)(s-c)}{s(s-a)}} = 2\\sqrt{\\frac{(s-a)(s-b)(s-c)}{s}}$. Step 4: Substitute into the RHS: $2(s-c) \\sqrt{\\frac{(s-a)(s-b)}{s(s-c)}} = 2\\sqrt{\\frac{(s-c)^2(s-a)(s-b)}{s(s-c)}} = 2\\sqrt{\\frac{(s-a)(s-b)(s-c)}{s}}$. Since LHS = RHS, the identity is proved.",
+    "text": "The angle of elevation of the top of a vertical tower from a point on the ground is $60^\\circ$. From another point 10 m vertically above the first, the angle of elevation is $45^\\circ$. Find the height of the tower.",
+    "answer": "Let h be the height of the tower and x be the distance from the base. $\\tan 60^\\circ = h/x \\implies h=x\\sqrt{3}$. From the second point, the height to the top is $h-10$. The distance is still x. So $\\tan 45^\\circ = (h-10)/x \\implies 1 = (h-10)/x \\implies x=h-10$. Substitute x in the first equation: $h = (h-10)\\sqrt{3} = h\\sqrt{3}-10\\sqrt{3}$. So $h(\\sqrt{3}-1)=10\\sqrt{3}$. $h=\\frac{10\\sqrt{3}}{\\sqrt{3}-1} = 5(3+\\sqrt{3})$ meters.",
     "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "If $\\cos^{-1}x > \\sin^{-1}x$, then",
+    "options": [
+      "$1/\\sqrt{2} < x \\le 1$",
+      "$0 \\le x < 1/\\sqrt{2}$",
+      "$-1 \\le x < 1/\\sqrt{2}$",
+      "$x > 0$"
+    ],
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the principal value of $\\text{cosec}^{-1}(-2)$.",
+    "answer": "The principal value of $\\text{cosec}^{-1}(-2)$ is $-\\pi/6$.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "$\\sin^{-1}x + \\cos^{-1}x = \\pi$ for all $x \\in [-1,1]$.",
+    "answer": "False",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The range of $\\tan^{-1}x$ is $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$.",
+    "answer": "True",
+    "marks": 1
   }
 ]

@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a feature of connective tissue?",
+    "options": [
+      "(a) Links and supports other tissues",
+      "(b) Cells are found close together",
+      "(c) Mesodermal in origin",
+      "(d) Has a large quantity of intercellular matrix"
+    ],
+    "correct_answer": "b",
+    "answer": "A defining characteristic of connective tissue is that the cells are widely spaced and embedded in an abundant intercellular matrix. This is in contrast to epithelial tissue, where cells are closely packed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The inner lining of the salivary ducts and the tubular parts of nephrons are made up of which type of epithelium?",
+    "options": [
+      "(a) Squamous epithelium",
+      "(b) Cuboidal epithelium",
+      "(c) Columnar epithelium",
+      "(d) Ciliated epithelium"
+    ],
+    "correct_answer": "b",
+    "answer": "Cuboidal epithelium, consisting of cube-like cells, is typically found in ducts of glands and tubular parts of nephrons, where it performs functions of secretion and absorption.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Tendons connect:",
+    "options": [
+      "(a) Bone to bone",
+      "(b) Muscle to bone",
+      "(c) Muscle to muscle",
+      "(d) Nerve to muscle"
+    ],
+    "correct_answer": "b",
+    "answer": "Tendons are a type of dense regular connective tissue that attaches skeletal muscles to bones, allowing for movement. Ligaments, by contrast, connect bone to bone.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Adipose tissue is a type of:",
+    "options": [
+      "(a) Loose connective tissue",
+      "(b) Dense regular connective tissue",
+      "(c) Dense irregular connective tissue",
+      "(d) Specialized connective tissue"
+    ],
+    "correct_answer": "a",
+    "answer": "Adipose tissue is a loose connective tissue located beneath the skin. It is specialized to store fat and provides insulation and cushioning to the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The function of the ciliated epithelium in the trachea is to:",
+    "options": [
+      "(a) Facilitate gaseous exchange",
+      "(b) Move dust particles and mucus out of the respiratory tract",
+      "(c) Absorb nutrients",
+      "(d) Secrete hormones"
+    ],
+    "correct_answer": "b",
+    "answer": "Ciliated epithelium in the trachea has cilia on its free surface that beat in a coordinated manner to move dust particles and mucus toward the pharynx to be expelled.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a fluid connective tissue?",
+    "options": [
+      "(a) Bone",
+      "(b) Cartilage",
+      "(c) Blood",
+      "(d) Ligament"
+    ],
+    "correct_answer": "c",
+    "answer": "Blood is a fluid connective tissue with a liquid matrix (plasma) and various cells (RBCs, WBCs, platelets) that circulates throughout the body, transporting substances.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Smooth muscles are:",
+    "options": [
+      "(a) Voluntary, striated, and multinucleated",
+      "(b) Involuntary, non-striated, and uninucleated",
+      "(c) Voluntary, non-striated, and uninucleated",
+      "(d) Involuntary, striated, and uninucleated"
+    ],
+    "correct_answer": "b",
+    "answer": "Smooth muscles are found in the walls of internal organs like the intestine and blood vessels. They are involuntary (not under conscious control), lack striations, and are uninucleated.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Intercalated discs are characteristic features of:",
+    "options": [
+      "(a) Skeletal muscle",
+      "(b) Cardiac muscle",
+      "(c) Smooth muscle",
+      "(d) Nervous tissue"
+    ],
+    "correct_answer": "b",
+    "answer": "Intercalated discs are specialized cell junctions found only in cardiac muscle tissue. They allow the cardiac muscle cells to contract as a single unit.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a type of supporting connective tissue?",
+    "options": [
+      "(a) Areolar tissue",
+      "(b) Adipose tissue",
+      "(c) Bone",
+      "(d) Blood"
+    ],
+    "correct_answer": "c",
+    "answer": "Bone and cartilage are classified as supporting connective tissues because they provide structural support and a framework for the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The major component of the intercellular matrix of bone is:",
+    "options": [
+      "(a) Calcium carbonate",
+      "(b) Calcium phosphate",
+      "(c) Both (a) and (b)",
+      "(d) Proteins"
+    ],
+    "correct_answer": "c",
+    "answer": "The hard, rigid matrix of bone is primarily composed of inorganic salts like calcium phosphate and calcium carbonate, along with collagen fibers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the main tissue that provides structural frame to the body?",
+    "options": [
+      "(a) Epithelial tissue",
+      "(b) Connective tissue",
+      "(c) Muscular tissue",
+      "(d) Nervous tissue"
+    ],
+    "correct_answer": "b",
+    "answer": "Connective tissues, especially bone and cartilage, form the structural framework and support system of the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cells of adipose tissue are specialized to store:",
+    "options": [
+      "(a) Proteins",
+      "(b) Carbohydrates",
+      "(c) Fats",
+      "(d) Water"
+    ],
+    "correct_answer": "c",
+    "answer": "Adipose tissue is a type of fat-storing connective tissue. Its cells, called adipocytes, are specialized for storing lipids.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which type of tissue is responsible for the movement of the body?",
+    "options": [
+      "(a) Epithelial tissue",
+      "(b) Connective tissue",
+      "(c) Muscular tissue",
+      "(d) Nervous tissue"
+    ],
+    "correct_answer": "c",
+    "answer": "Muscular tissue, which includes skeletal, smooth, and cardiac muscle, is specialized for contraction and is responsible for all forms of body movement.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The junction that helps to stop substances from leaking across a tissue is a:",
+    "options": [
+      "(a) Gap junction",
+      "(b) Adhering junction",
+      "(c) Tight junction",
+      "(d) Intercalated disc"
+    ],
+    "correct_answer": "c",
+    "answer": "Tight junctions form a seal between adjacent cells, preventing the passage of substances across the tissue. They are commonly found in epithelial tissues that line organs like the intestine and bladder.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In bone, the cells, called osteocytes, are present in spaces called:",
+    "options": [
+      "(a) Matrix",
+      "(b) Lacunae",
+      "(c) Osteons",
+      "(d) Haversian canals"
+    ],
+    "correct_answer": "b",
+    "answer": "Osteocytes, the mature bone cells, reside in small spaces within the bone matrix called lacunae.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The inner lining of the fallopian tubes is lined with:",
+    "options": [
+      "(a) Squamous epithelium",
+      "(b) Columnar epithelium",
+      "(c) Ciliated epithelium",
+      "(d) Glandular epithelium"
+    ],
+    "correct_answer": "c",
+    "answer": "Ciliated epithelium is found on the inner surface of hollow organs like bronchioles and fallopian tubes, where the beating of cilia helps move ova toward the uterus.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which tissue is found beneath the skin and serves as a cushion and insulator?",
+    "options": [
+      "(a) Nervous tissue",
+      "(b) Muscular tissue",
+      "(c) Adipose tissue",
+      "(d) Epithelial tissue"
+    ],
+    "correct_answer": "c",
+    "answer": "Adipose tissue is a loose connective tissue located beneath the skin. It provides a layer of insulation and acts as a cushion for organs.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The component of cartilage that makes it flexible is:",
+    "options": [
+      "(a) Chondrocytes",
+      "(b) Collagen fibers",
+      "(c) Elastin fibers",
+      "(d) Chondrin"
+    ],
+    "correct_answer": "b",
+    "answer": "The matrix of cartilage is composed of chondrin, which is produced by chondrocytes. Collagen fibers are also present, providing tensile strength and flexibility.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a type of dense regular connective tissue?",
+    "options": [
+      "(a) Bone",
+      "(b) Cartilage",
+      "(c) Tendon",
+      "(d) Blood"
+    ],
+    "correct_answer": "c",
+    "answer": "Dense regular connective tissue is characterized by tightly packed collagen fibers arranged in parallel rows, giving it great tensile strength in one direction. Tendons and ligaments are examples.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The study of tissues is called:",
+    "options": [
+      "(a) Cytology",
+      "(b) Histology",
+      "(c) Pathology",
+      "(d) Anatomy"
+    ],
+    "correct_answer": "b",
+    "answer": "Histology is the branch of biology that studies the microscopic anatomy of biological tissues. Cytology is the study of cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a simple epithelium?",
+    "options": [
+      "(a) Stratified squamous epithelium",
+      "(b) Transitional epithelium",
+      "(c) Simple squamous epithelium",
+      "(d) All of these"
+    ],
+    "correct_answer": "c",
+    "answer": "Simple epithelium is a single layer of cells. Simple squamous epithelium, with its thin, flattened cells, is a type of simple epithelium found in the lining of blood vessels and the alveoli of the lungs.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following tissues is mesodermal in origin?",
+    "options": [
+      "(a) Epithelial tissue",
+      "(b) Connective tissue",
+      "(c) Both (a) and (b)",
+      "(d) None of these"
+    ],
+    "correct_answer": "b",
+    "answer": "Connective tissue is mesodermal in origin, meaning it develops from the mesoderm, one of the three primary germ layers in early embryonic development.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of muscle found in the walls of the heart is:",
+    "options": [
+      "(a) Skeletal muscle",
+      "(b) Smooth muscle",
+      "(c) Cardiac muscle",
+      "(d) Striated muscle"
+    ],
+    "correct_answer": "c",
+    "answer": "Cardiac muscle is a specialized type of muscle found only in the walls of the heart. It is striated and involuntary.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which type of tissue is primarily involved in communication and control within the body?",
+    "options": [
+      "(a) Epithelial tissue",
+      "(b) Connective tissue",
+      "(c) Muscular tissue",
+      "(d) Nervous tissue"
+    ],
+    "correct_answer": "d",
+    "answer": "Nervous tissue is composed of neurons and glial cells. It is responsible for transmitting electrical signals and coordinating body functions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cells that secrete fibers of structural proteins like collagen and elastin are called:",
+    "options": [
+      "(a) Chondrocytes",
+      "(b) Osteocytes",
+      "(c) Fibroblasts",
+      "(d) Adipocytes"
+    ],
+    "correct_answer": "c",
+    "answer": "Fibroblasts are the most common cells in connective tissue proper. They are responsible for synthesizing collagen and elastin fibers and the extracellular matrix.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which tissue correctly matches its location?",
+    "options": [
+      "(a) Smooth muscle - Wall of intestine",
+      "(b) Areolar tissue - Tendons",
+      "(c) Cuboidal epithelium - Lining of stomach",
+      "(d) Transitional epithelium - Tip of nose"
+    ],
+    "correct_answer": "a",
+    "answer": "Smooth muscle is found in the walls of the intestine, where it helps in the involuntary movement of food. Areolar tissue is found beneath the skin, not in tendons. Cuboidal epithelium lines ducts, and the lining of the stomach is columnar epithelium. The tip of the nose is hyaline cartilage.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The protective membrane, Pia mater, is the _______ layer of the CNS.",
+    "options": [
+      "(a) Middle, thin and web-like",
+      "(b) Innermost, delicate and vascular",
+      "(c) Outermost, vascular, web-like",
+      "(d) Outermost, non-vascular, thick"
+    ],
+    "correct_answer": "b",
+    "answer": "The meninges are the three membranes that envelop the brain and spinal cord. The pia mater is the innermost, delicate, and highly vascularized layer.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a characteristic of cartilage?",
+    "options": [
+      "(a) It is flexible and elastic.",
+      "(b) It is present in the extremities of long bones.",
+      "(c) It is highly vascular.",
+      "(d) It has cells called chondrocytes."
+    ],
+    "correct_answer": "c",
+    "answer": "Cartilage is an avascular tissue, meaning it lacks a blood supply. It receives its nutrients by diffusion from surrounding tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cells that phagocytose pathogens in connective tissue are called:",
+    "options": [
+      "(a) Fibroblasts",
+      "(b) Mast cells",
+      "(c) Macrophages",
+      "(d) Adipocytes"
+    ],
+    "correct_answer": "c",
+    "answer": "Macrophages are large phagocytic cells found in connective tissue that play a key role in the body's immune response by engulfing and digesting pathogens and cellular debris.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a function of epithelial tissue?",
+    "options": [
+      "(a) Protection, secretion, and absorption",
+      "(b) Providing structural support",
+      "(c) Movement and locomotion",
+      "(d) Coordinating body functions"
+    ],
+    "correct_answer": "a",
+    "answer": "Epithelial tissue forms protective coverings, secretes substances like mucus and hormones, and absorbs nutrients in the intestines. Its functions are diverse but generally relate to covering and lining surfaces.",
+    "marks": 1
+  }
+]

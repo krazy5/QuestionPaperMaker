@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following plant growth regulators is a gaseous hormone?",
+    "options": [
+      "(a) Auxin",
+      "(b) Gibberellin",
+      "(c) Ethylene",
+      "(d) Cytokinin"
+    ],
+    "correct_answer": "c",
+    "answer": "Ethylene is the only known plant growth regulator that exists in a gaseous state. It is involved in fruit ripening and senescence.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of promoting flowering in some plants by exposure to cold temperatures is known as:",
+    "options": [
+      "(a) Photoperiodism",
+      "(b) Vernalization",
+      "(c) Apical dominance",
+      "(d) Parthenocarpy"
+    ],
+    "correct_answer": "b",
+    "answer": "Vernalization is the process of inducing a plant's flowering process by exposure to prolonged cold temperatures. This is particularly important for winter annuals and biennials.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following plant hormones promotes the growth of lateral buds?",
+    "options": [
+      "(a) Auxin",
+      "(b) Gibberellin",
+      "(c) Cytokinin",
+      "(d) Abscisic acid"
+    ],
+    "correct_answer": "c",
+    "answer": "Cytokinins are responsible for promoting cell division and are known to overcome apical dominance, thus promoting the growth of lateral buds. Auxin, by contrast, promotes apical dominance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The suppression of lateral bud growth by the apical bud is a phenomenon called:",
+    "options": [
+      "(a) Photoperiodism",
+      "(b) Vernalization",
+      "(c) Apical dominance",
+      "(d) Thigmotropism"
+    ],
+    "correct_answer": "c",
+    "answer": "Apical dominance is the phenomenon where the central stem (apical bud) grows more strongly than the lateral stems (lateral buds) due to the production of auxin by the apical bud.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant hormone is responsible for the 'bolting' effect in beet, cabbage, and other plants?",
+    "options": [
+      "(a) Auxin",
+      "(b) Gibberellin",
+      "(c) Cytokinin",
+      "(d) Ethylene"
+    ],
+    "correct_answer": "b",
+    "answer": "Gibberellins are known to cause 'bolting', which is the rapid elongation of internodes just prior to flowering in rosette plants like beet and cabbage.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ability of a plant to follow different pathways in response to the environment to form different kinds of structures is called:",
+    "options": [
+      "(a) Differentiation",
+      "(b) Dedifferentiation",
+      "(c) Redifferentiation",
+      "(d) Plasticity"
+    ],
+    "correct_answer": "d",
+    "answer": "Plasticity is the ability of a plant to modify its form in response to changes in its environment. A well-known example is heterophylly in cotton, coriander, and larkspur, where the leaves produced in different environments are different.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a plant growth inhibitor?",
+    "options": [
+      "(a) Gibberellic acid",
+      "(b) Indole-3-acetic acid (IAA)",
+      "(c) Abscisic acid (ABA)",
+      "(d) Kinetin"
+    ],
+    "correct_answer": "c",
+    "answer": "Abscisic acid (ABA) is a plant hormone that is primarily a growth inhibitor. It plays a role in seed dormancy, bud dormancy, and the closure of stomata during stress.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which hormone promotes flowering in pineapples?",
+    "options": [
+      "(a) Auxin",
+      "(b) Gibberellin",
+      "(c) Cytokinin",
+      "(d) Abscisic acid"
+    ],
+    "correct_answer": "a",
+    "answer": "Auxins are known to induce flowering in pineapples and other related plants. They are also used to prevent premature fruit drop.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The site of perception of light during photoperiodism is:",
+    "options": [
+      "(a) Stem",
+      "(b) Root",
+      "(c) Leaf",
+      "(d) Flower"
+    ],
+    "correct_answer": "c",
+    "answer": "The leaves are the site of perception of the photoperiodic stimulus. A hypothetical hormone, 'florigen', is synthesized in the leaves and transported to the shoot apices to induce flowering.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements is INCORRECT?",
+    "options": [
+      "(a) Gibberellins are acidic in nature.",
+      "(b) Auxins are responsible for apical dominance.",
+      "(c) Cytokinins promote cell division.",
+      "(d) Abscisic acid is a growth promoter."
+    ],
+    "correct_answer": "d",
+    "answer": "Abscisic acid (ABA) is a plant growth inhibitor, not a promoter. It is also known as the stress hormone.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of forming interfascicular cambium from fully developed parenchyma cells is an example of:",
+    "options": [
+      "(a) Differentiation",
+      "(b) Dedifferentiation",
+      "(c) Redifferentiation",
+      "(d) Cell division"
+    ],
+    "correct_answer": "b",
+    "answer": "Dedifferentiation is the process by which a differentiated cell (e.g., parenchyma) regains the ability to divide and forms meristematic tissue (e.g., interfascicular cambium).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant growth regulator, when sprayed on sugarcane crops, increases the length of the stem, thus increasing the yield?",
+    "options": [
+      "(a) Auxin",
+      "(b) Gibberellin",
+      "(c) Ethylene",
+      "(d) Cytokinin"
+    ],
+    "correct_answer": "b",
+    "answer": "Gibberellins are widely used in agriculture to increase the length of the stem in crops like sugarcane, which directly increases the yield.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following hormones would you add to a culture medium to secure both shoots and roots from a callus?",
+    "options": [
+      "(a) Auxin and gibberellin",
+      "(b) Auxin and cytokinin",
+      "(c) Gibberellin and abscisic acid",
+      "(d) Auxin and ethylene"
+    ],
+    "correct_answer": "b",
+    "answer": "The ratio of auxin and cytokinin in a culture medium is crucial for the differentiation of a callus. A high auxin to cytokinin ratio promotes root formation, while a high cytokinin to auxin ratio promotes shoot formation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of auxins in plants is:",
+    "options": [
+      "(a) Fruit ripening",
+      "(b) Cell elongation",
+      "(c) Stomatal closure",
+      "(d) Inducing dormancy"
+    ],
+    "correct_answer": "b",
+    "answer": "Auxins are well-known for their role in cell elongation, especially in the growing regions of the stem and roots. They also play a role in apical dominance and phototropism.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not a growth-promoting plant hormone?",
+    "options": [
+      "(a) Auxin",
+      "(b) Gibberellin",
+      "(c) Cytokinin",
+      "(d) Ethylene"
+    ],
+    "correct_answer": "d",
+    "answer": "While ethylene has some growth-promoting effects, its primary function is to inhibit longitudinal growth and promote senescence, making it generally classified as a growth inhibitor, especially in comparison to the other options.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The plant hormone that helps in overcoming seed dormancy is:",
+    "options": [
+      "(a) Abscisic acid",
+      "(b) Ethylene",
+      "(c) Gibberellin",
+      "(d) Auxin"
+    ],
+    "correct_answer": "c",
+    "answer": "Gibberellins are known to break seed and bud dormancy by stimulating the synthesis of hydrolytic enzymes that break down stored food reserves. Abscisic acid, in contrast, promotes dormancy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'photoperiodism' refers to the plant's response to:",
+    "options": [
+      "(a) Gravity",
+      "(b) Touch",
+      "(c) Light duration",
+      "(d) Temperature"
+    ],
+    "correct_answer": "c",
+    "answer": "Photoperiodism is the physiological reaction of organisms to the length of a day or night. It is a key factor in flowering plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ability of a differentiated plant cell to revert to the meristematic state and give rise to new cells and tissues is called:",
+    "options": [
+      "(a) Differentiation",
+      "(b) Redifferentiation",
+      "(c) Dedifferentiation",
+      "(d) Pluripotency"
+    ],
+    "correct_answer": "c",
+    "answer": "Redifferentiation is the process by which dedifferentiated cells lose their ability to divide and mature into specialized cells or tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a function of ethylene?",
+    "options": [
+      "(a) Apical dominance",
+      "(b) Fruit ripening",
+      "(c) Cell elongation",
+      "(d) Breaking seed dormancy"
+    ],
+    "correct_answer": "b",
+    "answer": "Ethylene is widely known for its role in promoting the ripening of fruits, such as bananas and mangoes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The growth that is constant and occurs at a steady rate is called:",
+    "options": [
+      "(a) Geometric growth",
+      "(b) Arithmetic growth",
+      "(c) Logarithmic growth",
+      "(d) Exponential growth"
+    ],
+    "correct_answer": "b",
+    "answer": "Arithmetic growth is a type of growth where the rate of growth is constant, and the increase in growth occurs in an arithmetic progression. This is often seen in root elongation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The growth curve in most living organisms is typically:",
+    "options": [
+      "(a) J-shaped",
+      "(b) S-shaped (sigmoid)",
+      "(c) Linear",
+      "(d) Parabolic"
+    ],
+    "correct_answer": "b",
+    "answer": "The growth of most living organisms follows a sigmoid or S-shaped curve, which has a lag phase, an exponential or log phase, a stationary phase, and a declining phase.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant hormone is used to destroy weeds in a field?",
+    "options": [
+      "(a) Ethylene",
+      "(b) Gibberellic acid",
+      "(c) 2,4-D (2,4-dichlorophenoxyacetic acid)",
+      "(d) Abscisic acid"
+    ],
+    "correct_answer": "c",
+    "answer": "2,4-D is a synthetic auxin that is widely used as a herbicide to selectively kill broadleaf weeds without affecting monocotyledonous crops like grasses.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT an inhibitory substance governing seed dormancy?",
+    "options": [
+      "(a) Abscisic acid",
+      "(b) Phenolic acids",
+      "(c) Para-ascorbic acid",
+      "(d) Gibberellins"
+    ],
+    "correct_answer": "d",
+    "answer": "Abscisic acid, phenolic acids, and para-ascorbic acid are all known to be inhibitory substances that promote seed dormancy. Gibberellins, however, are a growth promoter and break seed dormancy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of promoting the formation of female flowers in cucumbers is due to:",
+    "options": [
+      "(a) Gibberellin",
+      "(b) Ethylene",
+      "(c) Auxin",
+      "(d) Cytokinin"
+    ],
+    "correct_answer": "b",
+    "answer": "Ethylene is known to induce female flower formation in cucumber plants, leading to an increased yield of fruits.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an adenine derivative?",
+    "options": [
+      "(a) Gibberellin",
+      "(b) Auxin",
+      "(c) Kinetin",
+      "(d) Ethylene"
+    ],
+    "correct_answer": "c",
+    "answer": "Kinetin is a synthetic cytokinin, and cytokinins are adenine derivatives, meaning they are structurally related to the nitrogenous base adenine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The site of perception of gravity in plants is the:",
+    "options": [
+      "(a) Stem apex",
+      "(b) Root apex",
+      "(c) Leaves",
+      "(d) Flowers"
+    ],
+    "correct_answer": "b",
+    "answer": "The root cap cells in the root apex are the site of gravity perception. They contain statoliths (amyloplasts) that settle to the bottom of the cells and signal the direction of gravity.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a function of abscisic acid?",
+    "options": [
+      "(a) Cell elongation",
+      "(b) Inducing parthenocarpy",
+      "(c) Inducing dormancy",
+      "(d) Increasing internode length"
+    ],
+    "correct_answer": "c",
+    "answer": "Abscisic acid is a stress hormone that promotes dormancy in seeds and buds to help the plant survive unfavorable environmental conditions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon where a stem grows towards a light source is called:",
+    "options": [
+      "(a) Geotropism",
+      "(b) Hydrotropism",
+      "(c) Thigmotropism",
+      "(d) Phototropism"
+    ],
+    "correct_answer": "d",
+    "answer": "Phototropism is the growth of an organism in response to a light stimulus. Stems typically show positive phototropism, growing towards the light.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main reason for the rapid elongation of cells in the elongation phase of growth is:",
+    "options": [
+      "(a) Increase in cell number",
+      "(b) Increase in vacuole size",
+      "(c) Cell differentiation",
+      "(d) Respiration"
+    ],
+    "correct_answer": "b",
+    "answer": "In the elongation phase, the cells formed in the meristematic phase undergo rapid enlargement, primarily due to the uptake of water and the enlargement of their central vacuole.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements about plant growth regulators is correct?",
+    "options": [
+      "(a) All are growth promoters.",
+      "(b) All are growth inhibitors.",
+      "(c) They can act as both promoters and inhibitors.",
+      "(d) They have no effect on plant growth."
+    ],
+    "correct_answer": "c",
+    "answer": "Plant growth regulators are small, simple molecules that can act as both growth promoters (e.g., auxin, gibberellin, cytokinin) and growth inhibitors (e.g., abscisic acid, ethylene) depending on the concentration and the plant's physiological state.",
+    "marks": 1
+  }
+]

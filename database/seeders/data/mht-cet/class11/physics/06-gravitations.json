@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The weight of a body at the center of the Earth is: (MHT CET 2022)",
+    "options": [
+      "(a) Maximum",
+      "(b) Zero",
+      "(c) Half of its weight on the surface",
+      "(d) Same as its weight on the surface"
+    ],
+    "correct_answer": "b",
+    "answer": "The weight of a body is given by the formula $W = mg$, where 'g' is the acceleration due to gravity.<br>The value of 'g' inside the Earth at a depth 'd' from the surface is given by $g_d = g \\left( 1 - \\frac{d}{R} \\right)$, where 'R' is the radius of the Earth.<br>At the center of the Earth, the depth is equal to the radius, so $d = R$.<br>$g_{center} = g \\left( 1 - \\frac{R}{R} \\right) = g(1 - 1) = 0$<br>Since the acceleration due to gravity at the center of the Earth is zero, the weight of the body at the center is also zero.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The escape velocity from the surface of the Earth is approximately 11.2 km/s. If a body is thrown from the Earth's surface with a velocity of 22.4 km/s, its velocity when it is far away from the Earth will be: (MHT CET 2021)",
+    "options": [
+      "(a) 11.2 km/s",
+      "(b) 16.0 km/s",
+      "(c) 19.4 km/s",
+      "(d) 22.4 km/s"
+    ],
+    "correct_answer": "c",
+    "answer": "According to the principle of **conservation of energy**, the total energy of the body is conserved.<br>Total initial energy (at the surface of the Earth) = Total final energy (far away from the Earth).<br>$E_{initial} = E_{final}$<br>$KE_{initial} + PE_{initial} = KE_{final} + PE_{final}$<br>$\\frac{1}{2}mv_{initial}^2 - \\frac{G M_E m}{R_E} = \\frac{1}{2}mv_{final}^2 + 0$<br>We know that the escape velocity, $v_e = \\sqrt{\\frac{2 G M_E}{R_E}}$. So, $\\frac{G M_E}{R_E} = \\frac{1}{2}v_e^2$.<br>Substitute this into the energy equation:<br>$\\frac{1}{2}mv_{initial}^2 - m\\left(\\frac{1}{2}v_e^2\\right) = \\frac{1}{2}mv_{final}^2$<br>Cancel $\\frac{1}{2}m$ from all terms:<br>$v_{initial}^2 - v_e^2 = v_{final}^2$<br>Given values: $v_{initial} = 22.4$ km/s, $v_e = 11.2$ km/s. We also know that $22.4 = 2 \\times 11.2$, so $v_{initial} = 2v_e$.<br>$v_{final}^2 = (2v_e)^2 - v_e^2 = 4v_e^2 - v_e^2 = 3v_e^2$<br>$v_{final} = \\sqrt{3}v_e = \\sqrt{3} \\times 11.2 \\text{ km/s} \\approx 1.732 \\times 11.2 \\text{ km/s} \\approx 19.4 \\text{ km/s}$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The orbital velocity of a satellite revolving around the Earth at a height 'h' is 'v'. The escape velocity from the Earth's surface is 'vₑ'. The relation between 'v' and 'vₑ' is: (MHT CET 2020)",
+    "options": [
+      "(a) $v = v_e / \\sqrt{2}$",
+      "(b) $v = v_e \\sqrt{2}$",
+      "(c) $v = v_e / 2$",
+      "(d) $v = v_e$"
+    ],
+    "correct_answer": "a",
+    "answer": "The escape velocity from the surface of the Earth is given by the formula:<br>$v_e = \\sqrt{\\frac{2GM}{R}}$<br>The orbital velocity of a satellite at a radius 'r' (where $r = R + h$) is given by:<br>$v = \\sqrt{\\frac{GM}{r}}$<br>The problem does not specify the height 'h' or the orbital radius 'r'. However, a common question relates orbital velocity to escape velocity from the *same* radius. Let's assume the question is asking for the relationship at the Earth's surface, so $r = R$.<br>Comparing the two formulas:<br>$v_e = \\sqrt{2} \\times \\sqrt{\\frac{GM}{R}} = \\sqrt{2} \\times v_{orbital}$<br>$v_{orbital} = \\frac{v_e}{\\sqrt{2}}$<br>So, if a satellite were to orbit just above the Earth's surface, its orbital velocity would be $v_e / \\sqrt{2}$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ratio of the acceleration due to gravity on the surface of two planets is 2:3 and the ratio of their radii is 1:2. The ratio of their escape velocities from the surfaces is: (MHT CET 2019)",
+    "options": [
+      "(a) 1:2",
+      "(b) 2:3",
+      "(c) 1:$\\sqrt{3}$",
+      "(d) $\\sqrt{2}:\\sqrt{3}$"
+    ],
+    "correct_answer": "c",
+    "answer": "The escape velocity ($v_e$) from the surface of a planet is given by the formula:<br>$v_e = \\sqrt{2gR}$<br>where 'g' is the acceleration due to gravity on the surface and 'R' is the radius of the planet.<br>We are given the following ratios:<br>$\\frac{g_1}{g_2} = \\frac{2}{3}$<br>$\\frac{R_1}{R_2} = \\frac{1}{2}$<br>We need to find the ratio of their escape velocities, $\\frac{v_{e1}}{v_{e2}}$.<br>$\\frac{v_{e1}}{v_{e2}} = \\frac{\\sqrt{2g_1R_1}}{\\sqrt{2g_2R_2}} = \\sqrt{\\frac{g_1R_1}{g_2R_2}} = \\sqrt{\\left(\\frac{g_1}{g_2}\\right) \\left(\\frac{R_1}{R_2}\\right)}$<br>Substitute the given ratios:<br>$\\frac{v_{e1}}{v_{e2}} = \\sqrt{\\left(\\frac{2}{3}\\right) \\left(\\frac{1}{2}\\right)} = \\sqrt{\\frac{2}{6}} = \\sqrt{\\frac{1}{3}} = \\frac{1}{\\sqrt{3}}$<br>So the ratio of their escape velocities is $1:\\sqrt{3}$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The period of a geostationary satellite is: (MHT CET 2018)",
+    "options": [
+      "(a) 6 h",
+      "(b) 12 h",
+      "(c) 24 h",
+      "(d) 365 days"
+    ],
+    "correct_answer": "c",
+    "answer": "A geostationary satellite is a satellite that orbits the Earth at an altitude of approximately 35,786 km (22,236 miles) directly over the equator, with an orbital period that is equal to the Earth's rotational period. Since the Earth completes one rotation in approximately 24 hours, the period of a geostationary satellite is also 24 hours. This allows the satellite to remain in a fixed position relative to a point on the Earth's surface.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "According to Kepler's third law of planetary motion, the square of the period of a planet is proportional to the cube of its average distance from the Sun. The mathematical relation is: (MHT CET 2017)",
+    "options": [
+      "(a) $T^2 \\propto r^3$",
+      "(b) $T^3 \\propto r^2$",
+      "(c) $T^2 \\propto 1/r^3$",
+      "(d) $T^3 \\propto 1/r^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "Kepler's third law of planetary motion, also known as the law of periods, states that the square of the orbital period ($T$) of a planet is directly proportional to the cube of the semi-major axis of its orbit ($r$). For a circular orbit, the semi-major axis is the radius of the orbit.<br>The mathematical form of this law is:<br>$T^2 \\propto r^3$<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The orbital velocity of a satellite near the Earth's surface is $v_o$. The escape velocity from the Earth's surface is: (MHT CET 2016)",
+    "options": [
+      "(a) $v_o / \\sqrt{2}$",
+      "(b) $2v_o$",
+      "(c) $v_o \\sqrt{2}$",
+      "(d) $v_o / 2$"
+    ],
+    "correct_answer": "c",
+    "answer": "The orbital velocity ($v_o$) of a satellite orbiting close to the Earth's surface (where the orbital radius is approximately equal to the Earth's radius, R) is given by:<br>$v_o = \\sqrt{\\frac{GM}{R}}$<br>The escape velocity ($v_e$) from the Earth's surface is given by:<br>$v_e = \\sqrt{\\frac{2GM}{R}}$<br>We can see the relationship by comparing the two formulas:<br>$v_e = \\sqrt{2} \\times \\sqrt{\\frac{GM}{R}} = \\sqrt{2} v_o$<br>So, the escape velocity is $\\sqrt{2}$ times the orbital velocity for a satellite orbiting near the Earth's surface.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A body is projected vertically upwards with a velocity equal to the escape velocity. The velocity of the body at a very large distance from the Earth is: (MHT CET 2015)",
+    "options": [
+      "(a) Zero",
+      "(b) Infinity",
+      "(c) $v_e$",
+      "(d) $v_e/2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The escape velocity ($v_e$) is the minimum velocity required for a body to escape the gravitational field of a planet and reach a point infinitely far away with zero kinetic energy. According to the **conservation of energy**, the total energy of the body is conserved.<br>Initial total energy = Final total energy<br>$KE_{initial} + PE_{initial} = KE_{final} + PE_{final}$<br>$\\frac{1}{2}mv_e^2 - \\frac{G M_E m}{R_E} = KE_{final} + 0$<br>By definition of escape velocity, $\\frac{1}{2}mv_e^2 = \\frac{G M_E m}{R_E}$.<br>So, $0 = KE_{final} = \\frac{1}{2}mv_{final}^2$.<br>This implies that $v_{final} = 0$.<br>The body reaches a point at an infinite distance with zero velocity.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The angular momentum of a planet revolving around the Sun is conserved due to: (MHT CET 2014)",
+    "options": [
+      "(a) Gravitational force",
+      "(b) No external torque",
+      "(c) Constant kinetic energy",
+      "(d) Constant velocity"
+    ],
+    "correct_answer": "b",
+    "answer": "The **principle of conservation of angular momentum** states that if the net external torque acting on a system is zero, the total angular momentum of the system remains constant.<br>The gravitational force exerted by the Sun on a planet is always directed along the line joining their centers. The torque ($\\tau$) is given by $\\tau = r \\times F$. Since the force vector ($F$) is parallel to the position vector ($r$), the cross product is zero. Thus, the torque exerted by the gravitational force is zero.<br>Since the net external torque is zero, the angular momentum of the planet is conserved.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The acceleration due to gravity on the surface of the Earth is 'g'. The value of 'g' at a height 'h' equal to the radius of the Earth 'R' is: (MHT CET 2013)",
+    "options": [
+      "(a) g",
+      "(b) g/2",
+      "(c) g/4",
+      "(d) g/8"
+    ],
+    "correct_answer": "c",
+    "answer": "The acceleration due to gravity at a height 'h' above the Earth's surface is given by the formula:<br>$g' = g \\left( \\frac{R}{R+h} \\right)^2$<br>where 'R' is the radius of the Earth and 'g' is the acceleration due to gravity on the surface.<br>We are given that the height is equal to the radius, so $h = R$.<br>Substitute $h=R$ into the formula:<br>$g' = g \\left( \\frac{R}{R+R} \\right)^2 = g \\left( \\frac{R}{2R} \\right)^2 = g \\left( \\frac{1}{2} \\right)^2 = \\frac{g}{4}$<br>So, at a height equal to the radius of the Earth, the acceleration due to gravity becomes one-fourth of its value on the surface.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The mass and radius of the Earth are 'M' and 'R'. The acceleration due to gravity on the surface of the Earth is 'g'. The acceleration due to gravity at a height 'h' is 'g''. Then: (MHT CET 2012)",
+    "options": [
+      "(a) $g' = g$",
+      "(b) $g' < g$",
+      "(c) $g' > g$",
+      "(d) $g'$ depends on mass"
+    ],
+    "correct_answer": "b",
+    "answer": "The acceleration due to gravity on the surface of the Earth is $g = \\frac{GM}{R^2}$.<br>The acceleration due to gravity at a height 'h' above the Earth's surface is $g' = \\frac{GM}{(R+h)^2}$.<br>Since 'h' is a positive value, the denominator $(R+h)^2$ is greater than $R^2$.<br>Because the denominator is larger, the value of $g'$ will be smaller than 'g'.<br>Therefore, $g' < g$.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the radius of the Earth were to shrink by 1% and its mass remain the same, the acceleration due to gravity on its surface would: (MHT CET 2011)",
+    "options": [
+      "(a) increase by 2%",
+      "(b) decrease by 2%",
+      "(c) increase by 1%",
+      "(d) decrease by 1%"
+    ],
+    "correct_answer": "a",
+    "answer": "The acceleration due to gravity on the surface of the Earth is given by $g = \\frac{GM}{R^2}$.<br>If the radius of the Earth shrinks by 1%, the new radius $R'$ is:<br>$R' = R - 1\\% \\text{ of } R = R - 0.01R = 0.99R$<br>The new acceleration due to gravity, $g'$, is:<br>$g' = \\frac{GM}{(R')^2} = \\frac{GM}{(0.99R)^2} = \\frac{GM}{0.9801R^2}$<br>$g' = \\left( \\frac{1}{0.9801} \\right) \\frac{GM}{R^2} \\approx (1.0203)g$<br>The percentage increase is:<br>$\\text{Percentage Increase} = \\frac{g' - g}{g} \\times 100\\% = \\frac{1.0203g - g}{g} \\times 100\\% = 0.0203 \\times 100\\% = 2.03\\% \\approx 2\\%$<br><br>Alternatively, we can use a differential approximation for small changes. The formula is $g \\propto R^{-2}$.<br>The fractional change is given by $\\frac{\\Delta g}{g} \\approx -2\\frac{\\Delta R}{R}$.<br>We are given $\\frac{\\Delta R}{R} = -0.01$ (a 1% decrease).<br>$\\frac{\\Delta g}{g} \\approx -2(-0.01) = +0.02$<br>So, the acceleration due to gravity increases by approximately 2%.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The escape velocity from the Earth's surface does not depend on the: (MHT CET 2010)",
+    "options": [
+      "(a) mass of the body",
+      "(b) radius of the Earth",
+      "(c) acceleration due to gravity",
+      "(d) density of the Earth"
+    ],
+    "correct_answer": "a",
+    "answer": "The formula for escape velocity from the surface of a planet is:<br>$v_e = \\sqrt{\\frac{2GM}{R}}$<br>Where 'G' is the universal gravitational constant, 'M' is the mass of the planet, and 'R' is the radius of the planet.<br>We can also express this in terms of acceleration due to gravity, $g = \\frac{GM}{R^2}$, so $GM = gR^2$.<br>$v_e = \\sqrt{\\frac{2gR^2}{R}} = \\sqrt{2gR}$<br>Looking at these formulas, the escape velocity depends on the mass and radius of the planet, and therefore on the acceleration due to gravity and the density (since density = mass/volume). The mass of the body being projected, 'm', does not appear in the formula.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If the distance between the Sun and the Earth were to be doubled, the duration of a year would be approximately: (MHT CET 2009)",
+    "options": [
+      "(a) 1 year",
+      "(b) 2 years",
+      "(c) $2\\sqrt{2}$ years",
+      "(d) 4 years"
+    ],
+    "correct_answer": "c",
+    "answer": "This problem is a direct application of **Kepler's third law of planetary motion**.<br>The law states that the square of the orbital period (T) is proportional to the cube of the average distance (r) from the Sun.<br>$T^2 \\propto r^3$<br>We are given that the new distance is doubled, so $r' = 2r$.<br>Let the initial period be $T = 1$ year.<br>We need to find the new period, $T'$.<br>From Kepler's law, we can set up a ratio:<br>$\\left( \\frac{T'}{T} \\right)^2 = \\left( \\frac{r'}{r} \\right)^3$<br>$\\left( \\frac{T'}{1} \\right)^2 = \\left( \\frac{2r}{r} \\right)^3 = 2^3 = 8$<br>$T'^2 = 8$<br>$T' = \\sqrt{8} = \\sqrt{4 \\times 2} = 2\\sqrt{2}$ years.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The escape velocity of a body from the Earth's surface is $v_e$. A body is projected with velocity $2v_e$. The final velocity of the body at infinity will be: (MHT CET 2008)",
+    "options": [
+      "(a) $\\sqrt{3}v_e$",
+      "(b) $v_e$",
+      "(c) $2v_e$",
+      "(d) 0"
+    ],
+    "correct_answer": "a",
+    "answer": "This is a problem based on the **conservation of mechanical energy**.<br>The total energy of the body is the sum of its kinetic energy (KE) and potential energy (PE).<br>Total Energy = KE + PE<br>At the surface of the Earth:<br>$E_{initial} = \\frac{1}{2}m(2v_e)^2 - \\frac{GMm}{R}$<br>At infinity, the potential energy is zero and the final velocity is $v_f$.<br>$E_{final} = \\frac{1}{2}mv_f^2 + 0$<br>From the definition of escape velocity, $\\frac{1}{2}mv_e^2 = \\frac{GMm}{R}$.<br>Applying the conservation of energy, $E_{initial} = E_{final}$:<br>$\\frac{1}{2}m(2v_e)^2 - \\frac{GMm}{R} = \\frac{1}{2}mv_f^2$<br>$\\frac{1}{2}m(4v_e^2) - \\frac{1}{2}mv_e^2 = \\frac{1}{2}mv_f^2$<br>Cancel $\\frac{1}{2}m$ from all terms:<br>$4v_e^2 - v_e^2 = v_f^2$<br>$3v_e^2 = v_f^2$<br>$v_f = \\sqrt{3}v_e$<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  }
+]

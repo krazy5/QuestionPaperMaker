@@ -1,0 +1,156 @@
+[
+  {
+    "type": "mcq",
+    "text": "The process of release of the ovum from a mature Graafian follicle is called _______.",
+    "options": ["Gestation", "Ovulation", "Parturition", "Implantation"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Ovulation is the release of a mature secondary oocyte (ovum) from the ovary, which typically occurs around the 14th day of the menstrual cycle, triggered by a surge in Luteinizing Hormone (LH). The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In humans, the fertilization of the egg takes place in the _______.",
+    "options": ["Ovary", "Uterus", "Vagina", "Fallopian tube (Oviduct)"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Fertilization, the fusion of the sperm and the egg, occurs in the ampulla region of the fallopian tube (oviduct). The resulting zygote then travels to the uterus for implantation. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The layer of the uterus which exhibits strong contractions during parturition is the _______.",
+    "options": ["Endometrium", "Myometrium", "Perimetrium", "Corpus luteum"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The myometrium is the middle layer of the uterine wall, consisting of thick smooth muscle tissue. It undergoes strong contractions during childbirth (parturition) to expel the fetus. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Spermatogenesis is the process of formation of sperms from _______.",
+    "options": ["Spermatids", "Spermatogonia", "Spermatocytes", "Sertoli cells"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Spermatogenesis is the entire process of the production of mature sperm. It begins with the diploid stem cells called spermatogonia, which undergo mitosis and meiosis to form sperm. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an IUCD (Intra-Uterine Contraceptive Device)?",
+    "options": ["Condom", "Saheli", "Copper-T", "Vasectomy"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Copper-T is a T-shaped device that is inserted into the uterus. The copper ions released suppress sperm motility and the fertilizing capacity of sperms, thus acting as an effective contraceptive. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solid ball of cells formed after the cleavage of the zygote is known as the _______.",
+    "options": ["Blastocyst", "Gastrula", "Morula", "Foetus"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Cleavage is a series of rapid mitotic divisions of the zygote. This results in a solid ball of 8 to 16 cells called the morula. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following sexually transmitted diseases is caused by a virus?",
+    "options": ["Syphilis", "Gonorrhoea", "Chlamydiasis", "AIDS"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> AIDS (Acquired Immuno Deficiency Syndrome) is caused by the Human Immunodeficiency Virus (HIV). Syphilis, Gonorrhoea, and Chlamydiasis are caused by bacteria. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone responsible for maintaining pregnancy is _______.",
+    "options": ["FSH", "LH", "Progesterone", "Oxytocin"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Progesterone is essential for the maintenance of the endometrium (inner lining of the uterus) throughout pregnancy. It is initially secreted by the corpus luteum and later by the placenta. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Asexual reproduction by gemmule formation is seen in Hydra.",
+    "answer": "<b>False</b><br><b>Reason:</b> Gemmule formation is a characteristic method of asexual reproduction in sponges (Phylum Porifera). Hydra reproduces asexually by budding.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The acrosome of the sperm contains mitochondria that provide energy for movement.",
+    "answer": "<b>False</b><br><b>Reason:</b> The acrosome is a cap-like structure that contains hydrolytic enzymes to help the sperm penetrate the egg. The mitochondria are located in the middle piece of the sperm.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The menstrual cycle ceases during pregnancy.",
+    "answer": "<b>True</b><br><b>Reason:</b> High levels of progesterone during pregnancy inhibit the release of FSH and LH from the pituitary, which prevents the development of new follicles and ovulation, thereby stopping the menstrual cycle.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In-vitro fertilization (IVF) is a method of contraception.",
+    "answer": "<b>False</b><br><b>Reason:</b> IVF is an Assisted Reproductive Technology (ART) that helps infertile couples to have a child. Contraception is the prevention of pregnancy.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Colostrum is rich in antibodies that provide passive immunity to the newborn.",
+    "answer": "<b>True</b><br><b>Reason:</b> Colostrum, the first milk produced after childbirth, is rich in IgA antibodies which protect the newborn baby from infections.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Spermatogenesis and Oogenesis.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Spermatogenesis</th><th style='padding: 8px;'>Oogenesis</th></tr><tr><td style='padding: 8px;'>It is the process of the formation of male gametes (sperms).</td><td style='padding: 8px;'>It is the process of the formation of the female gamete (ovum).</td></tr><tr><td style='padding: 8px;'>It takes place in the testes.</td><td style='padding: 8px;'>It takes place in the ovaries.</td></tr><tr><td style='padding: 8px;'>It is a continuous process that starts at puberty.</td><td style='padding: 8px;'>It is a discontinuous process that starts in the foetal stage but is completed only after puberty.</td></tr><tr><td style='padding: 8px;'>It produces four functional haploid sperms from one spermatogonium.</td><td style='padding: 8px;'>It produces one functional haploid ovum and polar bodies from one oogonium.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the function of Sertoli cells and Leydig cells?",
+    "answer": "<b>Sertoli Cells (Nurse cells):</b> These are found in the seminiferous tubules of the testes. Their primary function is to provide nourishment to the developing sperms.<br><br><b>Leydig Cells (Interstitial cells):</b> These are located in the connective tissue between the seminiferous tubules. Their function is to synthesize and secrete the male sex hormone, testosterone.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'Parturition' and 'Lactation'.",
+    "answer": "<b>Parturition:</b> It is the process of childbirth, which involves a series of strong, rhythmic contractions of the uterus that results in the expulsion of the fully developed foetus from the mother's womb at the end of the gestation period.<br><br><b>Lactation:</b> It is the process of production of milk by the mammary glands of the female after childbirth. This process is stimulated by the hormone prolactin.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the 'corpus luteum'? What is its main function?",
+    "answer": "The corpus luteum is a temporary endocrine structure that is formed from the remnant of the Graafian follicle in the ovary after ovulation.<br><br>Its main function is to secrete the hormone progesterone, which is essential for the maintenance of the endometrium during the secretory phase of the menstrual cycle and throughout pregnancy.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give two examples of bacterial STDs and two examples of viral STDs.",
+    "answer": "<b>Bacterial STDs:</b><br>1. Syphilis<br>2. Gonorrhoea<br><br><b>Viral STDs:</b><br>1. AIDS (Acquired Immuno Deficiency Syndrome)<br>2. Genital Herpes",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the structure of a mature human sperm with a neat, labelled diagram. (PYQ: March 2019)",
+    "answer": "<br><br>A mature human sperm is a microscopic, motile male gamete. It is divisible into four main parts:<br><ul><li><b>Head:</b> It is oval-shaped and contains a large haploid nucleus with the genetic material. The anterior part of the head is covered by a cap-like structure called the <b>acrosome</b>, which contains enzymes (like hyaluronidase) that help in penetrating the egg during fertilization.</li><li><b>Neck:</b> It is a very short region connecting the head and the middle piece. It contains two centrioles.</li><li><b>Middle Piece:</b> It is a cylindrical structure containing numerous spirally arranged <b>mitochondria</b>. These mitochondria provide the energy (ATP) required for the movement of the tail.</li><li><b>Tail (Flagellum):</b> It is a long, slender, and tapering structure that helps the sperm to swim in the female genital tract towards the egg.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the different phases of the menstrual cycle with respect to the changes in the ovary and the uterus. (PYQ: March 2020)",
+    "answer": "The menstrual cycle is a reproductive cycle in human females that lasts for about 28 days. It involves cyclic changes in the ovary and the uterus, regulated by hormones. It has four phases:<br><br>1. <b>Menstrual Phase (Days 1-5):</b> If the ovum is not fertilized, the corpus luteum degenerates, causing a drop in progesterone levels. This leads to the breakdown of the endometrial lining of the uterus, and it is shed along with blood. This is called menstruation.<br><br>2. <b>Proliferative Phase / Follicular Phase (Days 5-14):</b> The pituitary gland secretes FSH, which stimulates the growth of a few ovarian follicles. One of these develops into a mature Graafian follicle. The growing follicles secrete estrogen, which causes the regeneration and thickening of the endometrium.<br><br>3. <b>Ovulatory Phase (Day 14):</b> A surge in the level of LH (Luteinizing Hormone) causes the mature Graafian follicle to rupture and release the secondary oocyte (ovum). This is called ovulation.<br><br>4. <b>Secretory Phase / Luteal Phase (Days 15-28):</b> The remnant of the ruptured follicle develops into the corpus luteum, which secretes progesterone. Progesterone further thickens the endometrium, making it ready for the implantation of an embryo. If fertilization does not occur, the cycle repeats.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is contraception? Describe any three natural methods of birth control.",
+    "answer": "<b>Contraception</b> refers to the voluntary prevention of pregnancy by using various methods or devices. These methods are also known as birth control methods.<br><br><b>Three natural methods of birth control are:</b><br>1. <b>Rhythm Method (Periodic Abstinence):</b> This method is based on the fact that ovulation occurs around the 14th day of the cycle. Couples avoid sexual intercourse during the fertile period, which is roughly from day 10 to day 17 of the menstrual cycle, to prevent pregnancy.<br>2. <b>Coitus Interruptus (Withdrawal):</b> In this method, the male partner withdraws his penis from the vagina just before ejaculation to avoid insemination.<br>3. <b>Lactational Amenorrhea (LAM):</b> This method is based on the fact that ovulation and the menstrual cycle do not occur during the period of intense lactation following childbirth. It is effective for a maximum period of six months after delivery.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on Assisted Reproductive Technologies (ART).",
+    "answer": "Assisted Reproductive Technologies (ART) are a group of special techniques used to help infertile couples to have children. Some of the common ART procedures are:<br><ul><li><b>In-Vitro Fertilization (IVF):</b> This is a popular technique where fertilization is performed outside the body. An ovum from the female and sperm from the male are collected and are induced to fuse in a laboratory dish ('in-vitro'). The resulting embryo is then transferred into the uterus of the female for further development.</li><li><b>Zygote Intra-Fallopian Transfer (ZIFT):</b> This is a modification of IVF where the zygote or early embryo (up to 8 blastomeres) is transferred into the fallopian tube instead of the uterus.</li><li><b>Gamete Intra-Fallopian Transfer (GIFT):</b> In this method, an ovum collected from a donor is transferred into the fallopian tube of another female who cannot produce one but can provide a suitable environment for fertilization and further development.</li><li><b>Intracytoplasmic Sperm Injection (ICSI):</b> In this procedure, a single sperm is directly injected into the cytoplasm of an ovum in the laboratory.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of fertilization and implantation in humans.",
+    "answer": "<b>Fertilization:</b><br>Fertilization is the fusion of the male gamete (sperm) and the female gamete (ovum) to form a diploid zygote. In humans, it occurs in the ampulla of the fallopian tube.<br>1. During copulation, semen is deposited in the vagina. The motile sperms swim up to the fallopian tube.<br>2. The acrosome of one sperm releases enzymes that help it to penetrate the outer layers of the ovum (corona radiata and zona pellucida).<br>3. The fusion of the sperm and ovum membranes occurs, and the nucleus of the sperm enters the ovum. This induces the completion of the second meiotic division of the oocyte.<br>4. The haploid nucleus of the sperm fuses with the haploid nucleus of the ovum to form the diploid zygote.<br><br><b>Implantation:</b><br>The zygote undergoes cleavage (mitotic divisions) as it moves down the fallopian tube. It develops into a morula and then a blastocyst. The blastocyst reaches the uterus and gets attached to and embedded in the inner wall of the uterus (endometrium). This process is called implantation. It occurs about 7 days after fertilization and leads to pregnancy.",
+    "marks": 4
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The restriction enzyme most commonly used to cut DNA at specific recognition sites to produce restriction fragments is:",
+    "options": [
+      "(a) DNA ligase",
+      "(b) Taq polymerase",
+      "(c) Exonuclease",
+      "(d) Restriction endonuclease"
+    ],
+    "correct_answer": "d",
+    "answer": "Restriction endonucleases are molecular scissors that cut DNA at specific recognition sites, called palindromic sequences. They are essential tools in genetic engineering for creating recombinant DNA.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme used to join the cut DNA fragments in recombinant DNA technology is:",
+    "options": [
+      "(a) DNA polymerase",
+      "(b) Reverse transcriptase",
+      "(c) DNA ligase",
+      "(d) Restriction endonuclease"
+    ],
+    "correct_answer": "c",
+    "answer": "DNA ligase is often referred to as 'molecular glue' as it catalyzes the formation of phosphodiester bonds to join the sugar-phosphate backbones of DNA fragments, effectively sealing them together.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a plasmid used as a vector in genetic engineering for making transgenic plants?",
+    "options": [
+      "(a) pBR322",
+      "(b) Ti plasmid",
+      "(c) pUC18",
+      "(d) M13 phage"
+    ],
+    "correct_answer": "b",
+    "answer": "The Ti plasmid (tumor-inducing plasmid) is found in the bacterium *Agrobacterium tumefaciens*. It is widely used as a vector to introduce foreign genes into plant cells, leading to the creation of transgenic plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique used to amplify a specific segment of DNA is called:",
+    "options": [
+      "(a) Gel electrophoresis",
+      "(b) PCR",
+      "(c) DNA fingerprinting",
+      "(d) Gene cloning"
+    ],
+    "correct_answer": "b",
+    "answer": "Polymerase Chain Reaction (PCR) is a powerful technique used to make multiple copies of a specific DNA sequence, a process known as amplification. It is often used in genetic research and forensic science.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The heat-stable DNA polymerase used in PCR is obtained from:",
+    "options": [
+      "(a) *E. coli*",
+      "(b) *Agrobacterium tumefaciens*",
+      "(c) *Thermus aquaticus*",
+      "(d) *Bacillus subtilis*"
+    ],
+    "correct_answer": "c",
+    "answer": "The enzyme Taq polymerase, which is a heat-stable DNA polymerase, is isolated from the bacterium *Thermus aquaticus*. Its heat stability is crucial for the high-temperature denaturation step in PCR.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a genetic engineering experiment, the plasmid containing the gene of interest is introduced into a host cell. This process is called:",
+    "options": [
+      "(a) Ligation",
+      "(b) Restriction",
+      "(c) Transformation",
+      "(d) Replication"
+    ],
+    "correct_answer": "c",
+    "answer": "Transformation is the process by which a host cell takes up foreign DNA (like a recombinant plasmid) from its surroundings. This is a crucial step in genetic engineering for gene cloning.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of separating DNA fragments of different sizes is achieved by:",
+    "options": [
+      "(a) Polymerase Chain Reaction (PCR)",
+      "(b) Gel electrophoresis",
+      "(c) Gene cloning",
+      "(d) DNA sequencing"
+    ],
+    "correct_answer": "b",
+    "answer": "Gel electrophoresis is a laboratory technique used to separate mixtures of DNA, RNA, or proteins according to their molecular size. The fragments are separated by an electric current as they move through a gel matrix.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A recombinant DNA molecule is formed by:",
+    "options": [
+      "(a) Combining DNA from two different organisms",
+      "(b) Deleting a segment of DNA",
+      "(c) Replicating a DNA molecule",
+      "(d) Repairing a damaged DNA strand"
+    ],
+    "correct_answer": "a",
+    "answer": "Recombinant DNA (rDNA) is a form of artificial DNA that is created by combining two or more sequences that would not normally occur together through the process of genetic recombination.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a genetically modified crop?",
+    "options": [
+      "(a) Bt Cotton",
+      "(b) Basmati Rice",
+      "(c) Maize",
+      "(d) Wheat"
+    ],
+    "correct_answer": "a",
+    "answer": "Bt cotton is a genetically modified cotton crop that produces an insecticide to combat bollworm pests. The 'Bt' refers to the gene from the bacterium *Bacillus thuringiensis* that produces the insecticide.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme used in PCR to synthesize new DNA strands is:",
+    "options": [
+      "(a) DNA ligase",
+      "(b) Restriction endonuclease",
+      "(c) Reverse transcriptase",
+      "(d) Taq polymerase"
+    ],
+    "correct_answer": "d",
+    "answer": "Taq polymerase is a DNA polymerase that synthesizes new DNA strands by extending the primers in the PCR reaction. Its ability to withstand high temperatures is critical for the PCR cycle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of introducing a new gene into an organism's genome is known as:",
+    "options": [
+      "(a) Hybridization",
+      "(b) Genetic engineering",
+      "(c) Tissue culture",
+      "(d) Mutation"
+    ],
+    "correct_answer": "b",
+    "answer": "Genetic engineering is the direct manipulation of an organism's genes using biotechnology. It is a set of technologies used to change the genetic makeup of cells, including the transfer of genes within and across species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the first step in creating a recombinant DNA molecule?",
+    "options": [
+      "(a) Inserting the gene into a vector",
+      "(b) Cutting the gene of interest with a restriction enzyme",
+      "(c) Ligating the DNA fragments",
+      "(d) Amplifying the DNA"
+    ],
+    "correct_answer": "b",
+    "answer": "The first step in creating recombinant DNA is to isolate the gene of interest and cut it, along with the vector, using the same restriction enzyme. This creates complementary 'sticky ends' that can be joined together.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'vector' in genetic engineering refers to:",
+    "options": [
+      "(a) A DNA molecule that carries foreign genetic material into a host cell.",
+      "(b) A protein that binds to DNA.",
+      "(c) An enzyme that cuts DNA.",
+      "(d) A host cell that receives foreign DNA."
+    ],
+    "correct_answer": "a",
+    "answer": "A vector is a DNA molecule used as a vehicle to artificially carry foreign genetic material into another cell, where it can be replicated and/or expressed. Plasmids and viruses are common examples.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of making copies of a gene is called:",
+    "options": [
+      "(a) Gene cloning",
+      "(b) Transformation",
+      "(c) Genetic engineering",
+      "(d) Electrophoresis"
+    ],
+    "correct_answer": "a",
+    "answer": "Gene cloning is the process of making multiple, identical copies of a particular piece of DNA. This is often done by inserting the DNA into a host cell, which then replicates the DNA along with its own.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique of using electricity to create temporary pores in a cell membrane to introduce foreign DNA is called:",
+    "options": [
+      "(a) Electrophoresis",
+      "(b) Transformation",
+      "(c) Microinjection",
+      "(d) Electroporation"
+    ],
+    "correct_answer": "d",
+    "answer": "Electroporation is a method that uses an electrical pulse to create temporary holes in cell membranes, allowing foreign substances, such as DNA, to enter the cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that synthesizes DNA from an RNA template is:",
+    "options": [
+      "(a) DNA polymerase",
+      "(b) RNA polymerase",
+      "(c) Reverse transcriptase",
+      "(d) DNA ligase"
+    ],
+    "correct_answer": "c",
+    "answer": "Reverse transcriptase is an enzyme that catalyzes the formation of DNA from an RNA template. This process is known as reverse transcription.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'Biotechnology' was coined by:",
+    "options": [
+      "(a) Louis Pasteur",
+      "(b) Karl Ereky",
+      "(c) Gregor Mendel",
+      "(d) T. H. Morgan"
+    ],
+    "correct_answer": "b",
+    "answer": "The term 'biotechnology' was first coined by a Hungarian engineer named Karl Ereky in 1919 to describe the process of using biology to produce products from raw materials.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not a step in the process of PCR?",
+    "options": [
+      "(a) Denaturation",
+      "(b) Annealing",
+      "(c) Ligation",
+      "(d) Extension"
+    ],
+    "correct_answer": "c",
+    "answer": "The three main steps of PCR are denaturation, annealing, and extension. Ligation is the process of joining DNA fragments and is a key step in recombinant DNA technology, but not in PCR.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an application of biotechnology in medicine?",
+    "options": [
+      "(a) Production of biofuels",
+      "(b) Production of genetically modified crops",
+      "(c) Production of human insulin",
+      "(d) Production of cheese"
+    ],
+    "correct_answer": "c",
+    "answer": "Biotechnology has been instrumental in the large-scale production of human insulin using genetically engineered bacteria. This has revolutionized the treatment of diabetes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique of introducing foreign genes into a cell using a micropipette is called:",
+    "options": [
+      "(a) Electroporation",
+      "(b) Microinjection",
+      "(c) Biolistics",
+      "(d) Transformation"
+    ],
+    "correct_answer": "b",
+    "answer": "Microinjection is a method of introducing foreign genetic material into a single cell using a fine glass micropipette. It is commonly used for creating transgenic animals.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bacterium that is considered 'Nature's genetic engineer' is:",
+    "options": [
+      "(a) *E. coli*",
+      "(b) *Bacillus thuringiensis*",
+      "(c) *Agrobacterium tumefaciens*",
+      "(d) *Lactobacillus*"
+    ],
+    "correct_answer": "c",
+    "answer": "*Agrobacterium tumefaciens* is a soil bacterium that naturally transfers a segment of its DNA (T-DNA from the Ti plasmid) into plant cells, causing the formation of crown gall tumors. This natural ability makes it a valuable tool in biotechnology.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first human hormone produced by recombinant DNA technology was:",
+    "options": [
+      "(a) Thyroxine",
+      "(b) Insulin",
+      "(c) Adrenaline",
+      "(d) Testosterone"
+    ],
+    "correct_answer": "b",
+    "answer": "Human insulin was the first human hormone produced using recombinant DNA technology. This genetically engineered insulin, called 'Humulin', was approved for use in 1982.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a common vector used in gene cloning?",
+    "options": [
+      "(a) Plasmid",
+      "(b) Ribosome",
+      "(c) Mitochondrion",
+      "(d) Lysosome"
+    ],
+    "correct_answer": "a",
+    "answer": "Plasmids are small, circular, double-stranded DNA molecules that are distinct from a cell's chromosomal DNA. They are widely used as vectors in genetic engineering because they can be easily manipulated and replicated within host cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of joining a gene of interest into a plasmid vector is called:",
+    "options": [
+      "(a) Transformation",
+      "(b) Ligation",
+      "(c) Restriction",
+      "(d) Amplification"
+    ],
+    "correct_answer": "b",
+    "answer": "Ligation is the process where a DNA ligase enzyme is used to permanently join the gene of interest with the plasmid vector, creating a recombinant DNA molecule.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of introducing a foreign gene into a cell using a 'gene gun' is known as:",
+    "options": [
+      "(a) Microinjection",
+      "(b) Electroporation",
+      "(c) Biolistics",
+      "(d) Transformation"
+    ],
+    "correct_answer": "c",
+    "answer": "Biolistics, also known as gene gun technology, involves firing microscopic particles coated with DNA into plant cells. This method is effective for introducing genes into plant cells with thick cell walls.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme used to synthesize cDNA from an mRNA template is:",
+    "options": [
+      "(a) DNA polymerase",
+      "(b) RNA polymerase",
+      "(c) Reverse transcriptase",
+      "(d) DNA ligase"
+    ],
+    "correct_answer": "c",
+    "answer": "Reverse transcriptase is used to synthesize a complementary DNA (cDNA) strand from an mRNA template. This process is essential for cloning eukaryotic genes, as it removes introns that are not present in the mRNA.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an application of biotechnology in agriculture?",
+    "options": [
+      "(a) Production of vaccines",
+      "(b) Production of pest-resistant crops",
+      "(c) Production of antibiotics",
+      "(d) Production of biofuels"
+    ],
+    "correct_answer": "b",
+    "answer": "Genetic engineering allows for the creation of pest-resistant crops, such as Bt cotton, which reduces the need for chemical pesticides and increases crop yield.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first transgenic animal to be produced was:",
+    "options": [
+      "(a) Sheep",
+      "(b) Cow",
+      "(c) Mouse",
+      "(d) Pig"
+    ],
+    "correct_answer": "c",
+    "answer": "The first transgenic animals to be successfully produced were mice. They were used to study the function of specific genes and to develop models for human diseases.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a key feature of a cloning vector?",
+    "options": [
+      "(a) A large size",
+      "(b) Multiple origin of replication sites",
+      "(c) A selectable marker",
+      "(d) An unstable structure"
+    ],
+    "correct_answer": "c",
+    "answer": "A selectable marker, such as an antibiotic resistance gene, is a crucial component of a cloning vector. It allows for the selection of host cells that have successfully taken up the vector.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a single cell developing into a whole plant in tissue culture is called:",
+    "options": [
+      "(a) Dedifferentiation",
+      "(b) Redifferentiation",
+      "(c) Totipotency",
+      "(d) Pluripotency"
+    ],
+    "correct_answer": "c",
+    "answer": "Totipotency is the ability of a single plant cell to divide and differentiate into all the different cell types of a complete organism. This principle is the basis of plant tissue culture and micropropagation.",
+    "marks": 1
+  }
+]

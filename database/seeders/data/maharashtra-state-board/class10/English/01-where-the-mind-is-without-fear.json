@@ -1,0 +1,34 @@
+[
+  {
+    "type": "long",
+    "text": "<b>Read the following poem and answer the questions that follow.</b><br><br><i>Where the mind is without fear and the head is held high;<br>Where knowledge is free;<br>Where the world has not been broken up into fragments by narrow domestic walls;<br>Where words come out from the depth of truth;<br>Where tireless striving stretches its arms towards perfection;<br>Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;<br>Where the mind is led forward by thee into ever-widening thought and action-<br>Into that heaven of freedom, my Father, let my country awake.</i><br><br><b>A1. Simple Factual (2 marks)</b><br>According to the poet, how should the head be and what should be the state of knowledge?<br><br><b>A2. Complex Factual (2 marks)</b><br>What does the poet mean by 'narrow domestic walls'? What harm have they done to the world?<br><br><b>A3. Poetic Device (1 mark)</b><br>Find an example of Personification from the poem.",
+    "answer": "<b>A1.</b> According to the poet, the head should be held high with dignity and self-respect. Knowledge should be free and accessible to all, without any discrimination.<br><br><b>A2.</b> By 'narrow domestic walls', the poet means the divisions in society based on caste, creed, religion, language, and other superstitions. These divisions have 'broken up the world into fragments', meaning they have divided humanity and destroyed its unity.<br><br><b>A3.</b> An example of Personification is: 'Where tireless striving stretches its arms towards perfection'. Here, 'tireless striving' (a quality) is given the human action of stretching its arms.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "<b>Write the appreciation of the poem, 'Where the Mind is Without Fear'. You can use the following points:</b><br><ul><li>About the poem/poet and the title</li><li>The theme</li><li>Poetic style, language, poetic devices</li><li>Special features</li><li>Your opinion about the poem</li></ul>",
+    "answer": "<b>Appreciation of the Poem</b><br><br><b>About the Poem/Poet:</b> The poem 'Where the Mind is Without Fear' is a powerful prayer written by the world-renowned Indian poet, Rabindranath Tagore. It is taken from his Nobel Prize-winning collection of poems, 'Gitanjali'. The title itself reflects the poet's dream of a truly free and enlightened India.<br><br><b>Theme:</b> The central theme of the poem is the poet's vision for a new and awakened India. He prays to God for a country where people are fearless, knowledgeable, truthful, rational, and united, free from the shackles of superstition and prejudice.<br><br><b>Poetic Style and Devices:</b> The poem is written in free verse, so it does not have a specific rhyme scheme. It is a single, complex sentence. The poet uses powerful imagery and metaphors. For example, 'clear stream of reason' is a metaphor for rational thinking, and the 'dreary desert sand of dead habit' is a metaphor for blind superstitions. Personification is used in 'tireless striving stretches its arms'.<br><br><b>Special Features:</b> The poem is a prayer to God ('my Father'). Its repetitive use of the word 'Where' at the beginning of each line creates a strong rhetorical effect, emphasizing the qualities of the ideal nation he envisions.<br><br><b>My Opinion:</b> I think this is a very inspiring and timeless poem. Its message of unity, reason, and fearlessness is relevant even today, not just for India but for the entire world.",
+    "marks": 5
+  },
+  {
+    "type": "mcq",
+    "text": "The poem 'Where the Mind is Without Fear' is taken from the collection named _______.",
+    "options": [
+      "The Post Office",
+      "Gitanjali",
+      "The Home and the World",
+      "Chokher Bali"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> This poem is a part of Rabindranath Tagore's famous work 'Gitanjali', for which he was awarded the Nobel Prize in Literature in 1913. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Match the following columns:<br><br><b>Column A</b><br>(1) The head is held high<br>(2) Narrow domestic walls<br>(3) Knowledge is free<br>(4) Dreary desert sand of dead habit<br><br><b>Column B</b><br>(a) Education is for everyone<br>(b) Old, traditional and harmful customs<br>(c) A person has self-respect<br>(d) Divisions based on caste and religion",
+    "answer": "(1) - (c) A person has self-respect<br>(2) - (d) Divisions based on caste and religion<br>(3) - (a) Education is for everyone<br>(4) - (b) Old, traditional and harmful customs",
+    "marks": 2
+  }
+]
+

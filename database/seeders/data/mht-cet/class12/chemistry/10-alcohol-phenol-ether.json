@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The major product formed when phenol reacts with bromine water is: (MHT CET 2022)",
+    "options": [
+      "(a) o-Bromophenol",
+      "(b) p-Bromophenol",
+      "(c) 2,4,6-Tribromophenol",
+      "(d) m-Bromophenol"
+    ],
+    "correct_answer": "c",
+    "answer": "Phenol is a highly activating group, and the $-\\text{OH}$ group directs the incoming electrophile to the ortho- and para-positions. When phenol reacts with bromine water (an aqueous solution of $Br_2$), the reaction proceeds rapidly, and all available ortho- and para-positions are substituted. The major product is **2,4,6-Tribromophenol**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds is the most acidic? (MHT CET 2021)",
+    "options": [
+      "(a) Phenol",
+      "(b) o-Nitrophenol",
+      "(c) m-Nitrophenol",
+      "(d) p-Nitrophenol"
+    ],
+    "correct_answer": "d",
+    "answer": "The acidity of phenols is enhanced by the presence of electron-withdrawing groups, such as the nitro group ($-\\text{NO}_2$). The nitro group stabilizes the phenoxide ion by resonance. This effect is most pronounced when the nitro group is in the ortho- or para-position. The para-position allows for maximum delocalization of the negative charge, making **p-nitrophenol** the most acidic among the options.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an alcohol with a carboxylic acid in the presence of a strong acid catalyst is known as: (MHT CET 2020)",
+    "options": [
+      "(a) Esterification",
+      "(b) Saponification",
+      "(c) Hydrolysis",
+      "(d) Neutralization"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction between an alcohol and a carboxylic acid to form an ester and water is known as **esterification**. It is a reversible reaction catalyzed by a strong acid like sulfuric acid ($H_2SO_4$).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction between propan-1-ol and concentrated sulfuric acid at $443$ K is: (MHT CET 2019)",
+    "options": [
+      "(a) Dipropyl ether",
+      "(b) Propene",
+      "(c) Propan-2-ol",
+      "(d) Propane"
+    ],
+    "correct_answer": "b",
+    "answer": "The reaction of an alcohol with concentrated sulfuric acid is a dehydration reaction. The product depends on the reaction temperature. At a high temperature ($>443$ K), intermolecular dehydration occurs, leading to the formation of an alkene. Therefore, propan-1-ol will dehydrate to form **propene**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following methods is used for the preparation of an ether? (MHT CET 2018)",
+    "options": [
+      "(a) Wurtz reaction",
+      "(b) Fittig reaction",
+      "(c) Williamson's synthesis",
+      "(d) Friedel-Crafts reaction"
+    ],
+    "correct_answer": "c",
+    "answer": "**Williamson's synthesis** is a widely used method for preparing symmetrical and asymmetrical ethers. The reaction involves the nucleophilic attack of an alkoxide ion on a primary alkyl halide.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction of phenol with dilute nitric acid at low temperature is: (MHT CET 2017)",
+    "options": [
+      "(a) o-Nitrophenol only",
+      "(b) p-Nitrophenol only",
+      "(c) a mixture of o- and p-nitrophenol",
+      "(d) m-Nitrophenol"
+    ],
+    "correct_answer": "c",
+    "answer": "When phenol reacts with dilute nitric acid at low temperature, the nitro group ($-\\text{NO}_2$) acts as an electrophile and is directed to the ortho- and para-positions of the benzene ring, forming a mixture of **o-nitrophenol and p-nitrophenol**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds is an ether? (MHT CET 2016)",
+    "options": [
+      "(a) $CH_3-OH$",
+      "(b) $C_2H_5-OH$",
+      "(c) $CH_3-O-CH_3$",
+      "(d) $CH_3-CO-CH_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "Ethers are organic compounds that contain an ether group, an oxygen atom connected to two alkyl or aryl groups. The general formula is R-O-R'. Among the options, **$CH_3-O-CH_3$** (dimethyl ether) fits this description. The other options are an alcohol, an alcohol, and a ketone, respectively.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an alkyl halide with a nucleophile, where the rate of reaction depends on the concentration of both the alkyl halide and the nucleophile, is: (MHT CET 2015)",
+    "options": [
+      "(a) $S_N1$",
+      "(b) $S_N2$",
+      "(c) $E1$",
+      "(d) $E2$"
+    ],
+    "correct_answer": "b",
+    "answer": "In an **$S_N2$ (Substitution Nucleophilic Bimolecular) reaction**, the rate of reaction depends on the concentration of both the alkyl halide and the nucleophile. The reaction proceeds in a single step through a transition state.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The dehydration of an alcohol to form an ether is favored at: (MHT CET 2014)",
+    "options": [
+      "(a) high temperature and high pressure",
+      "(b) low temperature and high concentration of acid",
+      "(c) high temperature and low concentration of alcohol",
+      "(d) low temperature and high concentration of alcohol"
+    ],
+    "correct_answer": "d",
+    "answer": "The formation of an ether by the dehydration of an alcohol is an intermolecular dehydration reaction. This reaction is favored at **low temperatures (around 413 K) and high concentrations of alcohol**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The IUPAC name of catechol is: (MHT CET 2013)",
+    "options": [
+      "(a) Benzene-1,2-diol",
+      "(b) Benzene-1,3-diol",
+      "(c) Benzene-1,4-diol",
+      "(d) Hydroxybenzene"
+    ],
+    "correct_answer": "a",
+    "answer": "Catechol is a common name for a compound with two hydroxyl groups ($-\\text{OH}$) attached to a benzene ring in adjacent positions. The IUPAC name is **Benzene-1,2-diol**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of phenol with $CHCl_3$ and aqueous NaOH is: (MHT CET 2012)",
+    "options": [
+      "(a) Reimer-Tiemann reaction",
+      "(b) Kolbe's reaction",
+      "(c) Wurtz reaction",
+      "(d) Cannizzaro's reaction"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction of phenol with chloroform ($CHCl_3$) in the presence of an aqueous alkali (like NaOH) to form salicylaldehyde is a name reaction known as the **Reimer-Tiemann reaction**. The intermediate is a carbene.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of isomers of molecular formula $C_3H_8O$ is: (MHT CET 2011)",
+    "options": [
+      "(a) 2",
+      "(b) 3",
+      "(c) 4",
+      "(d) 5"
+    ],
+    "correct_answer": "b",
+    "answer": "The molecular formula $C_3H_8O$ can represent both alcohols and ethers. The possible isomers are:<br>1. Propan-1-ol ($CH_3CH_2CH_2OH$)<br>2. Propan-2-ol ($CH_3CH(OH)CH_3$)<br>3. Methoxyethane ($CH_3-O-C_2H_5$)<br>There are a total of **3** isomers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds is used as an anesthetic? (MHT CET 2010)",
+    "options": [
+      "(a) Diethyl ether",
+      "(b) Dimethyl ether",
+      "(c) Ethyl methyl ether",
+      "(d) Diisopropyl ether"
+    ],
+    "correct_answer": "a",
+    "answer": "**Diethyl ether** ($CH_3CH_2-O-CH_2CH_3$) was one of the first and most widely used general anesthetics in the past. Its use has largely been replaced by safer alternatives, but it remains a historical example.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction of phenol with zinc dust is: (MHT CET 2009)",
+    "options": [
+      "(a) Benzene",
+      "(b) Toluene",
+      "(c) Aniline",
+      "(d) Cyclohexane"
+    ],
+    "correct_answer": "a",
+    "answer": "When phenol is heated with zinc dust, the zinc removes the oxygen atom from the hydroxyl group, leading to the formation of **benzene**. This is a reduction reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The boiling point of alcohols is higher than that of hydrocarbons of comparable molecular mass due to: (MHT CET 2008)",
+    "options": [
+      "(a) Van der Waals forces",
+      "(b) Dipole-dipole interaction",
+      "(c) Hydrogen bonding",
+      "(d) Covalent bonding"
+    ],
+    "correct_answer": "c",
+    "answer": "Alcohols have a high boiling point compared to hydrocarbons of similar molecular mass because of the presence of the highly electronegative oxygen atom in the hydroxyl group, which allows for intermolecular **hydrogen bonding**. This strong intermolecular force requires a significant amount of energy to break, thus increasing the boiling point.",
+    "marks": 1
+  }
+]

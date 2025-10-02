@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The resistivity of a conductor depends on: (MHT CET 2022)",
+    "options": [
+      "(a) its length",
+      "(b) its cross-sectional area",
+      "(c) its material and temperature",
+      "(d) all of the above"
+    ],
+    "correct_answer": "c",
+    "answer": "Resistivity ($\\rho$) is an intrinsic property of a material that quantifies how strongly it resists the flow of electric current. Unlike resistance, resistivity is independent of the conductor's geometry (length or area) but depends solely on the nature of the material and its temperature.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A galvanometer can be converted into an ammeter by connecting a: (MHT CET 2021)",
+    "options": [
+      "(a) high resistance in series",
+      "(b) low resistance in series",
+      "(c) high resistance in parallel",
+      "(d) low resistance in parallel (shunt)"
+    ],
+    "correct_answer": "d",
+    "answer": "To convert a galvanometer into an ammeter, a low resistance called a <b>shunt</b> is connected in parallel with the galvanometer. This allows the majority of the current to bypass the galvanometer, protecting its sensitive coil from damage and extending its measurement range.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Kirchhoff's first law is a consequence of the conservation of: (MHT CET 2020)",
+    "options": [
+      "(a) energy",
+      "(b) momentum",
+      "(c) charge",
+      "(d) mass"
+    ],
+    "correct_answer": "c",
+    "answer": "Kirchhoff's first law, also known as the junction rule, states that the algebraic sum of currents entering a junction is zero. This principle is a direct consequence of the <b>conservation of electric charge</b>, as charge cannot be created or destroyed at a junction.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A wire of resistance R is stretched to double its length. The new resistance will be: (MHT CET 2019)",
+    "options": [
+      "(a) R",
+      "(b) 2R",
+      "(c) 4R",
+      "(d) R/2"
+    ],
+    "correct_answer": "c",
+    "answer": "The resistance of a wire is given by $R = \\frac{\\rho L}{A}$, where $\\rho$ is resistivity, L is length, and A is the cross-sectional area. When the wire is stretched, its volume remains constant ($V = AL$).<br>If the length is doubled ($L' = 2L$), the new area must be halved ($A' = A/2$) to keep the volume constant.<br>The new resistance is:<br>$R' = \\frac{\\rho L'}{A'} = \\frac{\\rho (2L)}{A/2} = 4 \\frac{\\rho L}{A} = 4R$<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A potentiometer is more sensitive than a voltmeter because: (MHT CET 2018)",
+    "options": [
+      "(a) it draws a large current from the cell",
+      "(b) it draws a small current from the cell",
+      "(c) it draws no current from the cell at the null point",
+      "(d) it has a high resistance"
+    ],
+    "correct_answer": "c",
+    "answer": "A potentiometer is used to measure potential difference without drawing any current from the cell under test at the null point. This means there is no internal resistance drop, and the measurement is highly accurate. This is the main reason why a potentiometer is more sensitive and accurate than a voltmeter, which always draws some current.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A cell of e.m.f. 'E' and internal resistance 'r' is connected across an external resistance 'R'. The current in the circuit is: (MHT CET 2017)",
+    "options": [
+      "(a) $I = \\frac{E}{R}$",
+      "(b) $I = \\frac{E}{r}$",
+      "(c) $I = \\frac{E}{R+r}$",
+      "(d) $I = \\frac{E}{R-r}$"
+    ],
+    "correct_answer": "c",
+    "answer": "According to <b>Ohm's Law</b> for a complete circuit, the current 'I' is the total e.m.f. divided by the total resistance. The total resistance is the sum of the external resistance 'R' and the internal resistance 'r' of the cell.<br>$I = \\frac{\\text{Total e.m.f.}}{\\text{Total resistance}} = \\frac{E}{R+r}$<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A wire of resistance R is cut into 10 equal parts. These parts are then connected in parallel. The equivalent resistance will be: (MHT CET 2016)",
+    "options": [
+      "(a) R",
+      "(b) R/10",
+      "(c) 100R",
+      "(d) R/100"
+    ],
+    "correct_answer": "d",
+    "answer": "When a wire of resistance R is cut into 10 equal parts, the resistance of each part will be $R/10$ (since resistance is proportional to length).<br>When these 10 parts are connected in parallel, the equivalent resistance ($R_{eq}$) is given by:<br>$\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + ... + \\frac{1}{R_{10}}$<br>Since all parts have the same resistance, $R_1 = R_2 = ... = R_{10} = r = R/10$.<br>$\\frac{1}{R_{eq}} = \\frac{10}{r} = \\frac{10}{R/10} = \\frac{100}{R}$<br>Therefore, $R_{eq} = R/100$.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of a galvanometer's resistance is 'G'. To convert it into a voltmeter of range 'V', the series resistance required is: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{V}{I_g} - G$",
+      "(b) $I_g G - V$",
+      "(c) $\\frac{V}{I_g}$",
+      "(d) $\\frac{V}{I_g} + G$"
+    ],
+    "correct_answer": "a",
+    "answer": "To convert a galvanometer into a voltmeter, a high resistance ($R_s$) is connected in series with it. The total resistance of the voltmeter is $R_{total} = R_s + G$.<br>According to Ohm's Law, the maximum voltage that can be measured is $V = I_g R_{total} = I_g (R_s + G)$.<br>Rearranging the formula to find the series resistance ($R_s$):<br>$R_s + G = \\frac{V}{I_g}$<br>$R_s = \\frac{V}{I_g} - G$<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Kirchhoff's voltage law (second law) is based on the principle of conservation of: (MHT CET 2014)",
+    "options": [
+      "(a) charge",
+      "(b) energy",
+      "(c) momentum",
+      "(d) mass"
+    ],
+    "correct_answer": "b",
+    "answer": "Kirchhoff's second law, or the loop rule, states that the algebraic sum of the changes in potential around any closed loop in a circuit must be zero. This is a direct consequence of the <b>conservation of energy</b>, as the work done by a conservative electric field in moving a charge around a closed loop is zero.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reciprocal of resistance is: (MHT CET 2013)",
+    "options": [
+      "(a) conductance",
+      "(b) resistivity",
+      "(c) conductivity",
+      "(d) admittance"
+    ],
+    "correct_answer": "a",
+    "answer": "The reciprocal of resistance is called <b>conductance</b> (G). It measures the ease with which electric current flows through a material. The SI unit of conductance is Siemens (S), which is also known as a 'mho'.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a meter bridge, the null point is obtained at 40 cm from the left end. The unknown resistance is 'X' and the known resistance is 'Y'. The ratio X:Y is: (MHT CET 2012)",
+    "options": [
+      "(a) 2:3",
+      "(b) 3:2",
+      "(c) 1:1",
+      "(d) 1:2"
+    ],
+    "correct_answer": "a",
+    "answer": "A meter bridge works on the principle of a Wheatstone bridge. At the null point, the bridge is balanced, and the ratio of resistances is equal to the ratio of the lengths of the bridge wire.<br>$\\frac{X}{Y} = \\frac{l_1}{100 - l_1}$<br><br>Given:<br>Length from left end, $l_1 = 40$ cm<br>Length from right end, $l_2 = 100 - 40 = 60$ cm<br><br>Substitute the values:<br>$\\frac{X}{Y} = \\frac{40}{60} = \\frac{2}{3}$<br><br>The ratio X:Y is 2:3.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of electrical energy is: (MHT CET 2011)",
+    "options": [
+      "(a) Watt",
+      "(b) Joule",
+      "(c) Ampere",
+      "(d) Volt"
+    ],
+    "correct_answer": "b",
+    "answer": "Electrical energy is a form of energy. The SI unit for all forms of energy is the <b>Joule</b> (J). Electrical power is measured in Watts (W), and is the rate of energy consumption ($1 W = 1 J/s$).<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of electric current is: (MHT CET 2010)",
+    "options": [
+      "(a) Volt",
+      "(b) Watt",
+      "(c) Ampere",
+      "(d) Ohm"
+    ],
+    "correct_answer": "c",
+    "answer": "The SI unit of electric current is the <b>Ampere</b> (A). It is one of the seven base SI units and is defined as the flow of one Coulomb of charge per second.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The power dissipated in a resistor is given by: (MHT CET 2009)",
+    "options": [
+      "(a) $P = IV$",
+      "(b) $P = I^2R$",
+      "(c) $P = \\frac{V^2}{R}$",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "The power dissipated in a resistor can be calculated using several equivalent formulas, all derived from Ohm's Law ($V = IR$).<br>1. $P = IV$ (Power equals current times voltage)<br>2. By substituting $V = IR$, we get $P = I(IR) = I^2R$<br>3. By substituting $I = V/R$, we get $P = (V/R)V = V^2/R$<br>All three formulas are valid for calculating power dissipated in a resistor.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An electric heater is rated 2 kW, 220 V. The resistance of the heater is: (MHT CET 2008)",
+    "options": [
+      "(a) 24.2 $\\Omega$",
+      "(b) 48.4 $\\Omega$",
+      "(c) 12.1 $\\Omega$",
+      "(d) 242 $\\Omega$"
+    ],
+    "correct_answer": "a",
+    "answer": "The power (P) dissipated in a resistor is related to the voltage (V) and resistance (R) by the formula $P = \\frac{V^2}{R}$.<br>We can rearrange this formula to solve for resistance:<br>$R = \\frac{V^2}{P}$<br><br>Given:<br>Power, $P = 2$ kW = $2000$ W<br>Voltage, $V = 220$ V<br><br>Substitute the values:<br>$R = \\frac{(220)^2}{2000} = \\frac{48400}{2000} = \\frac{484}{20} = 24.2 \\Omega$<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  }
+]

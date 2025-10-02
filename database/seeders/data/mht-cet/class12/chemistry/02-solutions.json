@@ -1,0 +1,184 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following colligative properties is independent of the nature of solute particles? (MHT CET 2022)",
+    "options": [
+      "(a) Boiling point elevation",
+      "(b) Freezing point depression",
+      "(c) Osmotic pressure",
+      "(d) All of these"
+    ],
+    "correct_answer": "d",
+    "answer": "Colligative properties depend only on the number of solute particles in a solution, and not on their chemical identity or nature. These properties are **boiling point elevation**, **freezing point depression**, **osmotic pressure**, and **relative lowering of vapor pressure**. Therefore, all the options listed are correct.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The molality of a solution containing 18 g of glucose (Molar mass = 180 g/mol) in 500 g of water is: (MHT CET 2021)",
+    "options": [
+      "(a) 0.1 m",
+      "(b) 0.2 m",
+      "(c) 0.5 m",
+      "(d) 1.0 m"
+    ],
+    "correct_answer": "b",
+    "answer": "Molality (m) is defined as the number of moles of solute per kilogram of solvent.<br>Moles of glucose = $\\frac{\\text{mass}}{\\text{Molar mass}} = \\frac{18 \\text{ g}}{180 \\text{ g/mol}} = 0.1$ mol.<br>Mass of solvent (water) in kg = $500 \\text{ g} = 0.5$ kg.<br>Molality (m) = $\\frac{\\text{Moles of solute}}{\\text{Mass of solvent (kg)}} = \\frac{0.1 \\text{ mol}}{0.5 \\text{ kg}} = 0.2$ m.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An aqueous solution freezes at $-0.186^{\\circ}C$. The boiling point of the solution will be ($K_f = 1.86^{\\circ}C \\text{ kg/mol}$, $K_b = 0.512^{\\circ}C \\text{ kg/mol}$): (MHT CET 2020)",
+    "options": [
+      "(a) $100.0512^{\\circ}C$",
+      "(b) $100.186^{\\circ}C$",
+      "(c) $100.512^{\\circ}C$",
+      "(d) $100.0186^{\\circ}C$"
+    ],
+    "correct_answer": "a",
+    "answer": "Freezing point depression, $\\Delta T_f = 0 - (-0.186^{\\circ}C) = 0.186^{\\circ}C$.<br>$\\Delta T_f = K_f \\times m \\implies m = \\frac{\\Delta T_f}{K_f} = \\frac{0.186}{1.86} = 0.1$ m.<br>Boiling point elevation, $\\Delta T_b = K_b \\times m = 0.512 \\times 0.1 = 0.0512^{\\circ}C$.<br>Boiling point of solution = Boiling point of pure water + $\\Delta T_b$ = $100^{\\circ}C + 0.0512^{\\circ}C = 100.0512^{\\circ}C$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has the highest boiling point? (MHT CET 2019)",
+    "options": [
+      "(a) 0.1 M NaCl",
+      "(b) 0.1 M Urea",
+      "(c) 0.1 M Glucose",
+      "(d) 0.1 M Sucrose"
+    ],
+    "correct_answer": "a",
+    "answer": "Boiling point elevation is a colligative property that depends on the number of solute particles. The formula is $\\Delta T_b = i \\times K_b \\times m$. The vant Hoff factor, 'i', represents the number of particles the solute dissociates into.<br>Urea, Glucose, and Sucrose are non-electrolytes, so their 'i' value is 1.<br>NaCl dissociates into $Na^+$ and $Cl^-$ ions, so its 'i' value is 2.<br>Since 0.1 M NaCl has the highest number of solute particles (twice that of the others), it will have the largest boiling point elevation and thus the highest boiling point.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The osmotic pressure of a solution can be increased by: (MHT CET 2018)",
+    "options": [
+      "(a) Increasing temperature",
+      "(b) Decreasing temperature",
+      "(c) Decreasing concentration",
+      "(d) Increasing volume"
+    ],
+    "correct_answer": "a",
+    "answer": "The osmotic pressure ($\\pi$) is given by the formula $\\pi = CRT$, where C is the molar concentration, R is the gas constant, and T is the temperature in Kelvin. From the formula, it is clear that osmotic pressure is directly proportional to the temperature. Therefore, increasing the temperature will increase the osmotic pressure.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has the lowest vapor pressure at a given temperature? (MHT CET 2017)",
+    "options": [
+      "(a) 0.1 M NaCl",
+      "(b) 0.1 M Urea",
+      "(c) 0.1 M Glucose",
+      "(d) Pure water"
+    ],
+    "correct_answer": "a",
+    "answer": "The vapor pressure of a solution is lowered by the presence of a non-volatile solute. The extent of this lowering depends on the number of solute particles. This is the colligative property of **relative lowering of vapor pressure**. The solution with the highest number of solute particles will have the lowest vapor pressure. As established previously, 0.1 M NaCl dissociates into two ions, giving it twice the number of particles compared to the other options. Pure water has no solute particles, so its vapor pressure is the highest.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The vant Hoff factor for a dilute aqueous solution of $K_3[Fe(CN)_6]$ is: (MHT CET 2015)",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "correct_answer": "d",
+    "answer": "The vant Hoff factor 'i' represents the number of particles that a solute dissociates into in a solution. For the complex salt $K_3[Fe(CN)_6]$, the dissociation is as follows:<br>$K_3[Fe(CN)_6] \\longrightarrow 3K^+ + [Fe(CN)_6]^{3-}$<br>The dissociation produces 3 potassium ions ($K^+$) and 1 complex ion ($[Fe(CN)_6]^{3-}$).<br>Total number of ions = $3 + 1 = 4$.<br>Therefore, the vant Hoff factor (i) is 4.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a non-ideal solution showing positive deviation from Raoult's law? (MHT CET 2014)",
+    "options": [
+      "(a) Acetone + Chloroform",
+      "(b) Ethanol + Acetone",
+      "(c) Benzene + Toluene",
+      "(d) Water + Nitric acid"
+    ],
+    "correct_answer": "b",
+    "answer": "**Positive deviation** from Raoult's law occurs when the intermolecular forces between the solute and solvent molecules are weaker than the average intermolecular forces within the pure components. This leads to an increase in vapor pressure. In the mixture of **ethanol and acetone**, the strong hydrogen bonds in ethanol are broken by the addition of acetone, leading to weaker intermolecular forces and a higher vapor pressure.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The relative lowering of vapor pressure is equal to the mole fraction of the solute. This statement is known as: (MHT CET 2013)",
+    "options": [
+      "(a) Henry's law",
+      "(b) Raoult's law",
+      "(c) Dalton's law",
+      "(d) Avogadro's law"
+    ],
+    "correct_answer": "b",
+    "answer": "**Raoult's law** states that for a solution of non-volatile solute, the relative lowering of vapor pressure is equal to the mole fraction of the solute. The formula is: $\\frac{P^0 - P_s}{P^0} = X_{solute}$.<br>Here, $P^0$ is the vapor pressure of the pure solvent, and $P_s$ is the vapor pressure of the solution.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Osmotic pressure is measured by: (MHT CET 2012)",
+    "options": [
+      "(a) Ostwald's viscometer",
+      "(b) Berkeley-Hartley method",
+      "(c) Victor Meyer's method",
+      "(d) Freezing point depression method"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Berkeley-Hartley method** is a standard experimental method used to determine the osmotic pressure of a solution. This method involves applying an external pressure on the solution side to prevent osmosis, and the magnitude of this applied pressure is equal to the osmotic pressure.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the liquid. This is stated by: (MHT CET 2011)",
+    "options": [
+      "(a) Raoult's law",
+      "(b) Henry's law",
+      "(c) Ostwald's law",
+      "(d) Boyle's law"
+    ],
+    "correct_answer": "b",
+    "answer": "**Henry's law** states that the amount of a gas dissolved in a liquid is directly proportional to the partial pressure of that gas above the liquid at a given temperature. The formula is: $P_{gas} = K_H \\times X_{gas}$, where $K_H$ is Henry's law constant.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The elevation in boiling point of a solution is directly proportional to the: (MHT CET 2010)",
+    "options": [
+      "(a) Mole fraction of solute",
+      "(b) Molarity of solute",
+      "(c) Molality of solute",
+      "(d) Molar mass of solute"
+    ],
+    "correct_answer": "c",
+    "answer": "The elevation in boiling point ($\\Delta T_b$) is a colligative property given by the formula $\\Delta T_b = K_b \\times m$. Here, 'm' is the **molality** of the solution. Therefore, the elevation in boiling point is directly proportional to the molality of the solute.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Azeotropic mixtures are: (MHT CET 2009)",
+    "options": [
+      "(a) Mixtures with the same boiling point as a single component",
+      "(b) Mixtures that boil at a constant temperature without change in composition",
+      "(c) Mixtures that can be separated by fractional distillation",
+      "(d) Mixtures with very low vapor pressure"
+    ],
+    "correct_answer": "b",
+    "answer": "An **azeotropic mixture** is a liquid mixture that has a constant boiling point. At this temperature, the composition of the vapor phase is the same as the liquid phase, making it impossible to separate the components by fractional distillation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The depression in freezing point of 0.1 M solution of non-electrolyte in water is: (MHT CET 2008)",
+    "options": [
+      "(a) $0.186^{\\circ}C$",
+      "(b) $0.372^{\\circ}C$",
+      "(c) $1.86^{\\circ}C$",
+      "(d) $0.0186^{\\circ}C$"
+    ],
+    "correct_answer": "a",
+    "answer": "The freezing point depression is given by the formula $\\Delta T_f = K_f \\times m$. For dilute aqueous solutions, molarity (M) is approximately equal to molality (m). The freezing point depression constant for water ($K_f$) is $1.86^{\\circ}C$ kg/mol.<br>$\\Delta T_f = 1.86^{\\circ}C \\text{ kg/mol} \\times 0.1 \\text{ mol/kg} = 0.186^{\\circ}C$.",
+    "marks": 1
+  }
+]

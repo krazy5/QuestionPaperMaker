@@ -1,0 +1,319 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is used as a fuel in thermal power plants?",
+    "options": [
+      "Uranium",
+      "Water",
+      "Coal",
+      "Sunlight"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Thermal power plants burn fossil fuels, primarily coal, to heat water into steam, which then drives a turbine to generate electricity. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The principle of _______ is used in an electric generator.",
+    "options": [
+      "electrolysis",
+      "magnetic effect of current",
+      "electromagnetic induction",
+      "heating effect of current"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> An electric generator works on the principle of electromagnetic induction, where a changing magnetic field in a conductor induces an electric current. This was discovered by Michael Faraday. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which semiconductor material is commonly used in making solar cells?",
+    "options": [
+      "Carbon",
+      "Silicon",
+      "Germanium",
+      "Sulphur"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Silicon is the most widely used semiconductor material for manufacturing solar photovoltaic (PV) cells due to its abundance and efficiency. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a hydroelectric power plant, the potential energy of stored water is converted into _______ energy.",
+    "options": [
+      "chemical",
+      "nuclear",
+      "kinetic",
+      "heat"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> When water stored at a height in a dam is released, its potential energy is converted into kinetic energy as it flows downwards, which is then used to rotate the turbine. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a form of green energy?",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Energy from natural gas",
+      "Hydroelectric energy"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Green energy sources are those that are non-polluting and renewable. While natural gas is cleaner than coal, it is still a fossil fuel that releases greenhouse gases when burned. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of controlled chain reaction of nuclear fission is used in _______.",
+    "options": [
+      "hydroelectric power plants",
+      "thermal power plants",
+      "nuclear power plants",
+      "solar power plants"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Nuclear power plants generate heat by splitting atoms (usually Uranium-235) in a controlled nuclear fission chain reaction. This heat is used to produce steam and generate electricity. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "For a wind turbine, the required wind speed is generally between _______.",
+    "options": [
+      "1-5 km/hr",
+      "5-10 km/hr",
+      "15-20 km/hr",
+      "30-40 km/hr"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Wind turbines need a minimum wind speed to operate efficiently. While specific requirements vary, a range of 15-20 km/hr is generally considered suitable for power generation. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy from the sun is a result of _______.",
+    "options": [
+      "nuclear fission",
+      "nuclear fusion",
+      "combustion",
+      "chemical reactions"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Sun produces a vast amount of energy through nuclear fusion, where hydrogen atoms fuse together to form helium under immense temperature and pressure, releasing energy in the process. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "Which of the following is a major problem with using fossil fuels?",
+    "options": [
+      "They are renewable",
+      "They cause air pollution",
+      "They are available in abundance",
+      "They have low energy content"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Burning fossil fuels like coal, oil, and natural gas releases harmful gases like carbon dioxide, sulphur dioxide, and nitrogen oxides, which are major causes of air pollution, acid rain, and global warming. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "In a thermal power plant, the turbine is rotated by _______.",
+    "options": [
+      "flowing water",
+      "wind",
+      "high-pressure steam",
+      "magnetic field"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The heat generated by burning fuel is used to boil water and create high-pressure, high-temperature steam. This steam is directed at the blades of a turbine, causing it to rotate at high speed. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define Green Energy.",
+    "answer": "Green energy is the energy generated from natural resources that are renewable and do not cause environmental pollution. Examples include solar energy, wind energy, and hydroelectric energy.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "State the principle of an electric generator.",
+    "answer": "An electric generator works on the principle of electromagnetic induction. This principle states that when a conductor moves in a magnetic field or when the magnetic field around a stationary conductor changes, a potential difference (voltage) is induced across the conductor.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the function of a turbine in a power plant?",
+    "answer": "The function of a turbine in a power plant is to rotate the generator. It has blades that are pushed by a moving fluid (like steam, water, or wind), causing the turbine to spin. This rotational motion is then transferred to the generator to produce electricity.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Coal, Uranium, Natural Gas, Crude Oil.",
+    "answer": "<b>Uranium.</b><br><b>Reason:</b> Coal, natural gas, and crude oil are fossil fuels used in thermal power plants. Uranium is a nuclear fuel used in nuclear power plants.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Solar panel, Windmill, Hydroelectric plant, Nuclear reactor.",
+    "answer": "<b>Nuclear reactor.</b><br><b>Reason:</b> Solar panels, windmills, and hydroelectric plants are based on green/renewable energy sources. A nuclear reactor is based on a non-renewable source (uranium).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Hydroelectric Plant : Potential energy of water :: Windmill : _______.",
+    "answer": "<b>Kinetic energy of wind.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Thermal Plant : Air pollution :: Nuclear Plant : _______.",
+    "answer": "<b>Nuclear waste / Radiation risk.</b>",
+    "marks": 1
+  },
+    {
+    "type": "short",
+    "text": "What type of energy is stored in the water of a dam?",
+    "answer": "The water stored at a height in a dam possesses potential energy.",
+    "marks": 1
+  },
+    {
+    "type": "short",
+    "text": "Name two types of solar power plants.",
+    "answer": "The two main types of solar power plants are:<br>1. Solar Photovoltaic Power Plant.<br>2. Solar Thermal Power Plant.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the two main problems associated with thermal power generation?",
+    "answer": "The two main problems are:<br>1. <b>Air Pollution:</b> Burning fossil fuels releases harmful gases like CO₂, SO₂, and NOx, which cause acid rain and global warming.<br>2. <b>Resource Depletion:</b> Fossil fuels are non-renewable and their reserves are limited.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the advantages of using solar energy?",
+    "answer": "The main advantages of using solar energy are:<br>1. It is a renewable and inexhaustible source of energy.<br>2. It is environmentally friendly and does not cause pollution.<br>3. Solar panels have low maintenance costs and can be installed in remote areas.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the limitations of harnessing wind energy?",
+    "answer": "The limitations of harnessing wind energy are:<br>1. Wind turbines require a specific minimum wind speed to operate, which is not available everywhere or at all times.<br>2. Wind farms require large areas of land.<br>3. The initial installation cost of a windmill is very high.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between a Thermal Power Plant and a Nuclear Power Plant based on the fuel used and the problems associated.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Aspect</th><th style='padding: 8px; text-align: left;'>Thermal Power Plant</th><th style='padding: 8px; text-align: left;'>Nuclear Power Plant</th></tr><tr><td style='padding: 8px;'><b>Fuel Used</b></td><td style='padding: 8px;'>Fossil fuels like coal.</td><td style='padding: 8px;'>Radioactive elements like Uranium or Plutonium.</td></tr><tr><td style='padding: 8px;'><b>Problems</b></td><td style='padding: 8px;'>Causes air pollution (greenhouse gases, soot) and depletion of fossil fuels.</td><td style='padding: 8px;'>Generates hazardous nuclear waste and has a risk of accidents leading to radiation leakage.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is it necessary to control the fission reaction in a nuclear power plant?",
+    "answer": "It is necessary to control the fission reaction to prevent it from becoming an uncontrolled chain reaction. An uncontrolled reaction would release an enormous amount of energy in a short time, similar to an atomic bomb, leading to a catastrophic explosion and release of harmful radiation.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write a short note on Geothermal Energy.",
+    "answer": "Geothermal energy is the heat energy from the interior of the Earth. In some places, underground water comes in contact with hot spots in the Earth's crust and gets converted to steam. This steam is trapped at high pressure between rocks. By drilling pipes deep into the Earth, this steam can be brought to the surface to rotate turbines and generate electricity.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the 'photovoltaic effect'?",
+    "answer": "The photovoltaic effect is a process that generates a voltage or electric current in a photovoltaic cell when it is exposed to light. When sunlight strikes the solar cell, the photons of light displace electrons in the semiconductor material, creating a potential difference and causing a direct current (DC) to flow.",
+    "marks": 2
+  },
+   {
+    "type": "short",
+    "text": "List any four forms of energy.",
+    "answer": "Four forms of energy are:<br>1. Kinetic Energy<br>2. Potential Energy<br>3. Heat Energy<br>4. Electrical Energy",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between AC and DC current?",
+    "answer": "<b>Direct Current (DC):</b> The flow of electric charge is only in one direction. It does not change its direction with time. Example: Current from a battery or a solar cell.<br><b>Alternating Current (AC):</b> The flow of electric charge periodically reverses its direction. Example: Current supplied to our homes.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the environmental consequences of hydroelectric power plants?",
+    "answer": "The environmental consequences include:<br>1. Submergence of large areas of forest and agricultural land, destroying biodiversity.<br>2. Decomposition of submerged vegetation releases large amounts of methane, a greenhouse gas.<br>3. It obstructs the flow of river water, affecting aquatic life.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is energy generated from natural gas considered less polluting than from coal?",
+    "answer": "Power generation from natural gas is less polluting than from coal because natural gas burns more cleanly. It produces negligible amounts of sulphur dioxide and soot particles and produces less carbon dioxide per unit of energy generated compared to coal.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the energy transformation in a thermal power plant.",
+    "answer": "In a thermal power plant, energy is transformed through several steps:<br>1. <b>Chemical Energy to Heat Energy:</b> The fuel (coal) is burned. The chemical energy stored in the coal is converted into heat energy.<br>2. <b>Heat Energy to Kinetic Energy of Steam:</b> The heat energy is used to boil water, producing high-pressure steam. The heat energy is thus converted into the kinetic energy of the steam.<br>3. <b>Kinetic Energy of Steam to Kinetic Energy of Turbine:</b> The steam is directed at the turbine blades, causing the turbine to rotate. The kinetic energy of the steam is converted into the rotational kinetic energy of the turbine.<br>4. <b>Kinetic Energy of Turbine to Electrical Energy:</b> The rotating turbine drives the generator, which converts the kinetic energy into electrical energy based on the principle of electromagnetic induction.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the working principle of a solar photovoltaic cell.",
+    "answer": "A solar photovoltaic (PV) cell converts solar energy directly into electrical energy. This is based on the photovoltaic effect.<br>1. A solar cell is made of a semiconductor, usually silicon. It consists of two layers, a p-type and an n-type silicon, forming a p-n junction.<br>2. When sunlight (photons) strikes the surface of the cell, it provides energy to the electrons in the silicon.<br>3. These energized electrons break free from their atoms and start to flow across the p-n junction.<br>4. This movement of electrons creates a potential difference (voltage) across the junction, and if an external circuit is connected, a direct current (DC) flows through it. Many such cells connected in series and parallel form a solar panel to generate a usable amount of electricity.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the advantages and limitations of hydroelectric power generation? (PYQ: March 2019)",
+    "answer": "<b>Advantages:</b><br>1. No fuel is burnt, so there is no air pollution from combustion.<br>2. If there is sufficient water storage in the dam, electricity can be generated as and when required.<br>3. The water stored in the dam can be used for irrigation, fishing, and water supply.<br><br><b>Limitations:</b><br>1. Construction of dams submerges large tracts of fertile land and forests, destroying the local ecosystem.<br>2. It causes forced migration of a large number of people, leading to social problems.<br>3. It can obstruct the natural flow of river water, adversely affecting the aquatic life in the river.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What steps are involved in generating electricity from wind energy?",
+    "answer": "Generating electricity from wind involves the following steps:<br>1. A wind turbine with large blades is erected in a location with consistent high-speed winds.<br>2. The kinetic energy of the wind pushes against the blades, causing them to rotate.<br>3. The rotating blades are connected to a shaft, which is connected to a gearbox. The gearbox increases the rotational speed.<br>4. The high-speed shaft from the gearbox is connected to a generator.<br>5. The generator, working on the principle of electromagnetic induction, converts the rotational kinetic energy into electrical energy.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the steps in a nuclear power plant for electricity generation.",
+    "answer": "A nuclear power plant generates electricity through the following steps:<br>1. <b>Nuclear Fission:</b> In the nuclear reactor, a controlled chain reaction is initiated. Atoms of a nuclear fuel like Uranium-235 are bombarded with neutrons, causing them to split (fission). This releases a tremendous amount of heat energy.<br>2. <b>Heat Exchange:</b> The heat generated in the reactor is used to boil water and produce high-pressure steam. This is usually done in a heat exchanger or steam generator.<br>3. <b>Turbine Rotation:</b> The high-pressure steam is directed to a turbine, causing its blades to rotate at high speed.<br>4. <b>Electricity Generation:</b> The turbine is connected to a generator, which converts the kinetic energy of the turbine's rotation into electrical energy.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain why it is the 'need of the hour' to save energy.",
+    "answer": "Saving energy is the 'need of the hour' for several critical reasons:<br>1. <b>Limited Fossil Fuels:</b> Most of our energy comes from fossil fuels like coal, oil, and gas, which are non-renewable and are depleting rapidly. Saving energy helps conserve these resources for the future.<br>2. <b>Environmental Protection:</b> The burning of fossil fuels is a major cause of air pollution, acid rain, and global warming. Reducing energy consumption reduces these harmful effects.<br>3. <b>Economic Reasons:</b> Energy generation and consumption involve huge costs. Saving energy reduces expenditure on energy bills for individuals and reduces the nation's spending on importing fuel.<br>4. <b>Increasing Demand:</b> With growing population and industrialization, the demand for energy is constantly increasing. Saving energy is as good as generating energy and helps to bridge the gap between demand and supply.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the construction of a solar thermal power plant.",
+    "answer": "A solar thermal power plant uses heat from the sun to generate electricity. Its construction involves:<br>1. <b>Concentrators/Reflectors:</b> Large arrays of mirrors (heliostats) or parabolic troughs are used to concentrate sunlight onto a small area.<br>2. <b>Absorber/Receiver:</b> A receiver, often a pipe containing a fluid (like oil or molten salt), is placed at the focal point of the concentrators. It absorbs the concentrated solar energy and gets heated to a very high temperature.<br>3. <b>Heat Exchanger:</b> The hot fluid from the absorber is circulated through a heat exchanger, where it transfers its heat to water.<br>4. <b>Steam Turbine and Generator:</b> The water boils to produce high-pressure steam. This steam is then used to rotate a turbine, which in turn drives a generator to produce electricity, similar to a conventional thermal power plant.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Complete the flowchart showing the generation of electrical energy.",
+    "answer": "<br><b>Flowchart Content:</b><br><b>Fuel (e.g., Coal)</b> → Boiler (for conversion of water to steam) → <b>Steam Turbine</b> → Generator → <b>Electrical Energy</b>.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is meant by 'energy crisis'? What are its causes and effects?",
+    "answer": "An 'energy crisis' refers to any significant bottleneck in the supply of energy resources to an economy. It is a situation where the demand for energy is far greater than the supply.<br><br><b>Causes:</b><br>1. Over-dependence on limited fossil fuels.<br>2. Rapid increase in global population and industrialization, leading to increased demand.<br>3. Political instability in fuel-producing regions.<br>4. Lack of development and investment in alternative, renewable energy sources.<br><br><b>Effects:</b><br>1. Increase in the price of energy and goods.<br>2. Slower economic growth.<br>3. Increased pollution and environmental damage as nations scramble for any available energy source.",
+    "marks": 4
+  },
+    {
+    "type": "long",
+    "text": "Compare and contrast electricity generation from solar energy and wind energy.",
+    "answer": "<b>Similarities:</b><br><ul><li>Both are green and renewable sources of energy.</li><li>Neither produces greenhouse gases or causes air pollution during operation.</li><li>Both are dependent on weather and climatic conditions (sunshine and wind speed).</li></ul><br><b>Differences:</b><br><table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Aspect</th><th style='padding: 8px; text-align: left;'>Solar Energy</th><th style='padding: 8px; text-align: left;'>Wind Energy</th></tr><tr><td style='padding: 8px;'><b>Principle</b></td><td style='padding: 8px;'>Uses photovoltaic effect (for PV cells) or heat concentration (for thermal plants).</td><td style='padding: 8px;'>Uses the kinetic energy of wind to rotate turbine blades.</td></tr><tr><td style='padding: 8px;'><b>Availability</b></td><td style='padding: 8px;'>Available only during the daytime and depends on cloud cover.</td><td style='padding: 8px;'>Available during day and night, but depends on consistent wind speeds.</td></tr><tr><td style='padding: 8px;'><b>Land Use</b></td><td style='padding: 8px;'>Can be installed on rooftops, requiring less dedicated land. Large plants need significant area.</td><td style='padding: 8px;'>Wind farms require very large areas of land.</td></tr></table>",
+    "marks": 4
+  },
+    {
+    "type": "long",
+    "text": "A good source of energy should have which qualities?",
+    "answer": "A good or ideal source of energy should have the following qualities:<br>1. <b>High Calorific Value:</b> It should produce a large amount of energy per unit mass or volume.<br>2. <b>Easily Available and Accessible:</b> It should be readily available for use.<br>3. <b>Economical:</b> It should be inexpensive and affordable.<br>4. <b>Safe and Easy to Store and Transport:</b> It should not pose significant risks during storage and transportation.<br>5. <b>Environmentally Friendly:</b> It should not cause pollution or have minimal impact on the environment.",
+    "marks": 3
+  }
+]
+

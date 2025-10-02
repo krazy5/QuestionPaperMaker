@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The Election Commissioner is appointed by the _______.",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Chief Justice of India",
+      "Speaker of the Lok Sabha"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Constitution of India has established an autonomous body, the Election Commission, to conduct free and fair elections. The President of India appoints the Chief Election Commissioner and two other Election Commissioners. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of preparing the voters' list is a key function of the _______.",
+    "options": [
+      "Government",
+      "Parliament",
+      "Supreme Court",
+      "Election Commission"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> One of the primary responsibilities of the Election Commission is to prepare and update the electoral rolls (voters' lists) before every election to ensure that all eligible citizens can vote. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of dividing a state into constituencies for elections is known as _______.",
+    "options": [
+      "Demarcation",
+      "Delimitation",
+      "Decentralization",
+      "Delegation"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Delimitation Commission of the Election Commission is responsible for drawing the boundaries of the constituencies from which representatives are elected. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The rules that political parties and candidates have to follow during elections are called the _______.",
+    "options": [
+      "Code of Ethics",
+      "Electoral Rules",
+      "Model Code of Conduct",
+      "Campaigning Guidelines"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> To ensure free and fair elections, the Election Commission has adopted a Model Code of Conduct, which lays down the rules and guidelines for how political parties and candidates should conduct themselves during the election period. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first Chief Election Commissioner of independent India was _______.",
+    "options": [
+      "T. N. Seshan",
+      "Sukumar Sen",
+      "J. M. Lyngdoh",
+      "T. S. Krishnamurthy"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Sukumar Sen was the first Chief Election Commissioner of India, who successfully oversaw the first general elections in 1951-52, a massive and challenging task. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The use of EVMs (Electronic Voting Machines) started from the decade of _______.",
+    "options": [
+      "1980s",
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The use of EVMs began on an experimental basis in the late 1980s and became more widespread in the 1990s. This was a major electoral reform to make the voting and counting process more efficient and secure. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Who has the power to recognise and de-recognise political parties?",
+    "options": [
+      "The President",
+      "The Parliament",
+      "The Election Commission",
+      "The Supreme Court"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Election Commission has the authority to grant recognition to political parties as national or state parties based on a set criteria. It also has the power to de-recognise them if they fail to meet the conditions. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the minimum age for a citizen to vote in India?",
+    "options": [
+      "16 years",
+      "18 years",
+      "21 years",
+      "25 years"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Every Indian citizen who is 18 years of age or older has the right to vote in elections, provided they are not disqualified otherwise. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the electoral process?",
+    "answer": "The electoral process is the entire process of conducting elections in a democracy. It includes a series of steps such as establishing constituencies, finalizing voters' lists, nomination of candidates, election campaigns, actual voting, counting of votes, and declaration of results.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the function of the Election Commission?",
+    "answer": "The Election Commission of India is an autonomous constitutional body responsible for administering the entire election process in the country. Its primary function is to ensure that elections are conducted in a free, fair, and impartial manner.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is a 'constituency'?",
+    "answer": "A constituency is a specific geographical area from which a representative is elected to a legislative body like the Lok Sabha or a State Assembly. The number of representatives elected from each constituency is generally one.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Code of Conduct - Rules for elections<br>2. EVM - Electronic Voting Machine<br>3. Delimitation - Preparing voters' list<br>4. Recognition of parties - Election Commission",
+    "answer": "<b>Wrong Pair:</b> Delimitation - Preparing voters' list<br><b>Corrected Pair:</b> Delimitation - Restructuring of constituencies",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Election Commissioner, Chief Minister, Prime Minister, President.",
+    "answer": "<b>Election Commissioner.</b><br><b>Reason:</b> The Chief Minister, Prime Minister, and President are heads of the executive at different levels. The Election Commissioner is the head of an independent constitutional body.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Lok Sabha Election : Central Government :: _______ Election : State Government.",
+    "answer": "<b>Vidhan Sabha (Assembly).</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Voting Machine : EVM :: Voter's Slip with Symbol : _______.",
+    "answer": "<b>VVPAT.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What do you understand by the 'Code of Conduct'?",
+    "answer": "The Model Code of Conduct is a set of guidelines issued by the Election Commission for political parties and candidates to follow during elections. It aims to prevent malpractices, ensure a level playing field for all contestants, and maintain the decorum of the election campaign.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What information is included in a voter's list?",
+    "answer": "A voter's list, also known as an electoral roll, contains the names of all eligible voters in a particular constituency. It includes information like the voter's name, address, age, gender, and photograph, along with the designated polling booth.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 're-structuring of the constituencies'?",
+    "answer": "Re-structuring, or delimitation, of constituencies is the process of redrawing the boundaries of Lok Sabha and Assembly constituencies. This is done by the Delimitation Commission to ensure that all constituencies have a roughly equal population. It does not give in to any political pressure.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the functions of the Election Commission.",
+    "answer": "The Election Commission of India performs several crucial functions to ensure democratic elections:<br>1. <b>Prepare the Voters' List:</b> It prepares and regularly updates the list of all eligible voters.<br>2. <b>Decide the Election Timetable:</b> It announces the schedule for the entire election process, from the date of nomination to the declaration of results.<br>3. <b>Scrutiny of Applications:</b> It examines the nomination forms of all candidates to check if they meet the eligibility criteria.<br>4. <b>Give Recognition to Political Parties:</b> It grants recognition to political parties as national or state parties and allots election symbols to them.<br>5. <b>Ensure Free and Fair Elections:</b> It takes measures to prevent any malpractices during elections, including enforcing the Model Code of Conduct.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the major challenges in conducting free and fair elections?",
+    "answer": "Despite the efforts of the Election Commission, there are several challenges in conducting free and fair elections in a vast country like India.<br>1. <b>Misuse of Money:</b> The excessive and illegal use of money by some candidates and parties to influence voters is a major challenge.<br>2. <b>Criminalisation of Politics:</b> The increasing participation of candidates with criminal backgrounds in the electoral process undermines the credibility of democracy.<br>3. <b>Violence during Elections:</b> Incidents of violence, booth capturing, and intimidation of voters still occur in some parts of the country.<br>4. <b>Dynastic Politics:</b> The practice of giving tickets to relatives of existing leaders limits opportunities for common people to participate in politics.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the journey from ballot boxes to EVM machines.",
+    "answer": "The method of voting in India has evolved significantly over the years.<br>1. <b>First General Election:</b> The first general election in 1951-52 was conducted using ballot boxes. Voters were given a ballot paper with the names and symbols of candidates, which they had to put into the ballot box of their chosen candidate.<br>2. <b>Introduction of EVMs:</b> To make the voting process faster, more efficient, and to prevent malpractices like booth capturing and invalid votes, the Electronic Voting Machine (EVM) was introduced in the late 1990s.<br>3. <b>VVPAT:</b> Recently, the Voter Verifiable Paper Audit Trail (VVPAT) machine has been added along with the EVM. It prints a slip with the symbol of the party the person has voted for, which allows the voter to verify their vote and adds another layer of transparency to the process.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What electoral reforms would you suggest to improve the election process?",
+    "answer": "While the Indian election process is robust, some reforms could further strengthen it:<br>1. <b>Increase Women's Representation:</b> Political parties should be encouraged or mandated to give 50% of the tickets to women candidates to increase their representation in legislatures.<br>2. <b>De-criminalisation of Politics:</b> Parties should be discouraged from giving tickets to candidates with criminal backgrounds. The judiciary should ensure that cases against such candidates are decided quickly.<br>3. <b>Control Election Expenditure:</b> Stricter measures are needed to control the amount of money spent by candidates and parties during campaigns to ensure a level playing field.<br>4. <b>Promote Internal Democracy:</b> There should be laws to ensure that political parties function in a democratic manner and hold regular internal elections for party posts.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of an election, from the announcement of dates to the declaration of results.",
+    "answer": "The election process in India is a complex and systematic exercise conducted by the Election Commission.<br>1. <b>Announcement of Dates:</b> The process begins with the EC announcing the dates and schedule for the election.<br>2. <b>Filing of Nominations:</b> Candidates from political parties and independent candidates file their nomination papers with the election authorities.<br>3. <b>Scrutiny:</b> The EC scrutinizes all nomination forms to check for eligibility and correctness.<br>4. <b>Election Campaign:</b> Candidates and parties campaign to seek votes from the people. This must be done according to the Model Code of Conduct.<br>5. <b>Voting Day:</b> On the designated day, eligible citizens cast their votes secretly at polling booths.<br>6. <b>Counting of Votes:</b> After the voting is over, the votes are counted in a secure and transparent manner.<br>7. <b>Declaration of Results:</b> The candidate who gets the highest number of votes in a constituency is declared the winner, and the final results are announced.",
+    "marks": 4
+  }
+]
+

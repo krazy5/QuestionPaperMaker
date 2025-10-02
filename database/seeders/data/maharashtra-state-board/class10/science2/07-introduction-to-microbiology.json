@@ -1,0 +1,313 @@
+[
+  {
+    "type": "mcq",
+    "text": "Yogurt has a specific sour taste due to the formation of _______.",
+    "options": [
+      "acetic acid",
+      "citric acid",
+      "lactic acid",
+      "hydrochloric acid"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> In yogurt production, Lactobacillus bacteria ferment the lactose sugar in milk into lactic acid, which coagulates the milk proteins and gives yogurt its characteristic sour taste. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of biogas is _______ gas.",
+    "options": [
+      "hydrogen",
+      "methane",
+      "carbon dioxide",
+      "oxygen"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Biogas is produced by the anaerobic digestion of organic matter. It primarily consists of methane (CH₄, about 50-75%), which is the combustible component, and carbon dioxide (CO₂). The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The leavening of the dough during bread making is caused by _______.",
+    "options": [
+      "lactic acid",
+      "oxygen",
+      "carbon dioxide",
+      "alcohol"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Yeast (Saccharomyces cerevisiae) added to the dough ferments the carbohydrates, producing carbon dioxide (CO₂) and ethanol. The CO₂ gas gets trapped in the dough, causing it to rise. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Vinegar is chemically 4% _______.",
+    "options": [
+      "acetic acid",
+      "nitric acid",
+      "lactic acid",
+      "citric acid"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Vinegar is produced by the fermentation of ethanol by acetic acid bacteria (e.g., Acetobacter). The final product is a dilute solution of acetic acid (CH₃COOH). The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of using microbes to clean up pollutants like oil spills is called _______.",
+    "options": [
+      "biofortification",
+      "bioremediation",
+      "fermentation",
+      "bio-magnification"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Bioremediation is a waste management technique that involves the use of microorganisms to remove or neutralize pollutants from a contaminated site. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an antibiotic?",
+    "options": [
+      "Insulin",
+      "Penicillin",
+      "Aspirin",
+      "Ethanol"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Penicillin is a well-known antibiotic produced by the fungus Penicillium chrysogenum. Antibiotics are used to destroy or inhibit the growth of harmful bacteria. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following are called 'farmer's friends' as they help in increasing soil fertility?",
+    "options": [
+      "Pathogens",
+      "Pests",
+      "Bio-fertilizers",
+      "Weeds"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Bio-fertilizers are substances containing living microorganisms which, when applied to seed, plant surfaces, or soil, colonize the rhizosphere and promote growth by increasing the supply of primary nutrients to the host plant. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "_______ is a 'probiotic' food.",
+    "options": [
+      "Bread",
+      "Cheese",
+      "Vinegar",
+      "Yogurt"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Probiotics are live, active bacteria that are beneficial for our digestive system. Yogurt contains live cultures of bacteria like Lactobacillus, making it a probiotic food. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "The gum which gives thickness to ice-creams and puddings is _______.",
+    "options": [
+      "Acacia gum",
+      "Xanthan gum",
+      "Cellulose gum",
+      "Guar gum"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Xanthan gum is a popular food additive obtained by fermentation of starch and molasses. It is used as a thickener and stabilizer in products like ice-creams, puddings, and sauces. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+    {
+    "type": "mcq",
+    "text": "Which bacteria is used to clear oil spills in oceans?",
+    "options": [
+      "Lactobacillus",
+      "Rhizobium",
+      "Pseudomonas",
+      "Streptococcus"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Certain bacteria like Pseudomonas spp. and Alcanovorax borkumensis have the ability to break down hydrocarbons present in crude oil, helping in the bioremediation of oil spills. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are probiotics?",
+    "answer": "Probiotics are food products containing active, beneficial bacteria like Lactobacillus. These microbes colonize the intestine and help in improving our digestion and immunity by killing harmful bacteria.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define fermentation.",
+    "answer": "Fermentation is a metabolic process in which microorganisms like bacteria and yeast convert complex organic substances (like carbohydrates) into simpler compounds like acids or alcohol in the absence of oxygen.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are antibiotics?",
+    "answer": "Antibiotics are chemical substances produced by some microbes (like bacteria and fungi) that can kill or inhibit the growth of other harmful microorganisms, especially disease-causing bacteria.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Lactobacillus, Yeast, Aspergillus, Penicillium.",
+    "answer": "<b>Lactobacillus.</b><br><b>Reason:</b> Lactobacillus is a bacterium, whereas Yeast, Aspergillus, and Penicillium are types of fungi.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Sewage, Biogas, Landfill, Composting.",
+    "answer": "<b>Sewage.</b><br><b>Reason:</b> Biogas, Landfill, and Composting are methods of waste management. Sewage is a type of waste to be managed.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Bread : Yeast :: Yogurt : _______.",
+    "answer": "<b>Lactobacillus.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Nitrogen fixation : Rhizobium :: Fermentation : _______.",
+    "answer": "<b>Yeast.</b>",
+    "marks": 1
+  },
+    {
+    "type": "short",
+    "text": "What is the role of microbes in making cheese?",
+    "answer": "In cheese production, first, lactic acid bacteria (Lactobacillus) are used to sour the milk. Then, enzymes like protease from fungi are used to coagulate the milk proteins to form solid curd (cheese). Specific microbes are also used for ripening and flavour development.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are microbial inoculants or biofertilizers?",
+    "answer": "Microbial inoculants, or biofertilizers, are substances containing living microorganisms that help in promoting plant growth. They increase the availability of primary nutrients to the plants through processes like nitrogen fixation and phosphate solubilization, thereby enhancing soil fertility.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give two examples of beverages produced by microbial fermentation.",
+    "answer": "Two examples of beverages produced by microbial fermentation are:<br>1. <b>Vinegar:</b> Produced by the action of Acetobacter on ethanol.<br>2. <b>Wine/Beer:</b> Produced by the fermentation of fruit juices or grains by yeast.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the term 'bioremediation'.",
+    "answer": "Bioremediation is the use of microorganisms to break down and remove environmental pollutants or toxic wastes. For example, certain bacteria can decompose hydrocarbons in oil spills, and some microbes are used to absorb heavy metals like arsenic from the soil.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are biopesticides? Give an example.",
+    "answer": "Biopesticides are certain living organisms or their products that are used to destroy or control pests like weeds and insects. They are a natural and non-polluting alternative to chemical pesticides. <br><b>Example:</b> A toxin produced by the bacterium Bacillus thuringiensis (Bt) is used to kill certain insect pests.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is sewage? Why is it harmful?",
+    "answer": "Sewage is the wastewater released from communities (cities, villages) containing a complex mixture of human excreta, dissolved organic matter, and pathogenic microbes.<br>It is harmful because if released into water bodies without treatment, it can cause water pollution and spread water-borne diseases like cholera, typhoid, and dysentery.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Name two organic acids produced using microbes and state one use of each.",
+    "answer": "Two organic acids produced using microbes are:<br>1. <b>Citric Acid:</b> Used in beverages, toffees, and chocolates to impart a sour taste.<br>2. <b>Gluconic Acid:</b> Used as a source of calcium and iron supplements.",
+    "marks": 2
+  },
+   {
+    "type": "short",
+    "text": "What is the use of Xanthan gum?",
+    "answer": "Xanthan gum is a substance produced by the fermentation of starch or molasses by Xanthomonas bacteria. It is widely used as a food additive because it imparts thickness and stability to products like ice-creams, puddings, sauces, and soups.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Which microbes are used as biofertilizers? (PYQ: March 2019)",
+    "answer": "Microbes used as biofertilizers include:<br>1. <b>Nitrogen-fixing bacteria:</b> Such as Rhizobium (symbiotic) and Azotobacter (free-living).<br>2. <b>Phosphate-solubilizing bacteria:</b> Which make phosphorus available to plants.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Write two advantages of using microbial inoculants.",
+    "answer": "Two advantages are:<br>1. They are eco-friendly and do not cause soil pollution, unlike chemical fertilizers.<br>2. They improve soil fertility and texture naturally, leading to an increase in crop yield.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How is alcohol produced on a large scale?",
+    "answer": "On a large scale, alcohol (ethanol) is produced through the fermentation of molasses, which is a byproduct of the sugar industry. The yeast, Saccharomyces cerevisiae, is added to diluted molasses. The yeast ferments the sugars in the molasses to produce ethanol.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of yogurt production from milk.",
+    "answer": "Yogurt is a milk product produced with the help of Lactobacillus bacteria.<br>1. First, the milk is boiled and then cooled to a lukewarm temperature.<br>2. A small amount of yogurt starter culture (containing Lactobacillus) is added to this milk and mixed well.<br>3. The Lactobacillus bacteria begin to ferment the lactose sugar present in the milk, converting it into lactic acid.<br>4. The lactic acid causes the milk proteins (casein) to coagulate, resulting in a thick, semi-solid consistency.<br>5. The lactic acid also gives yogurt its characteristic sour taste and helps in preserving it by inhibiting the growth of harmful microbes.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on Probiotics.",
+    "answer": "Probiotics are food products that contain live, active, and beneficial microorganisms. Examples include yogurt, kefir, and some pickles.<br><b>Benefits of Probiotics:</b><br>1. These microbes form colonies in our intestines and improve the balance of good bacteria in our gut.<br>2. They improve our digestion and reduce the population of harmful microbes like Clostridium.<br>3. They help enhance our immune system.<br>4. They are also used in the treatment of conditions like diarrhea.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are microbial enzymes? Give some examples and their uses.",
+    "answer": "Microbial enzymes are enzymes that are derived from microorganisms. They are preferred over plant or animal enzymes because they are more active and can be produced efficiently and cheaply through fermentation.<br><b>Examples and Uses:</b><br>1. <b>Proteases:</b> Used in detergents to help remove protein stains.<br>2. <b>Amylases and Cellulases:</b> Used in the food industry for processing and in biofuels production.<br>3. <b>Glucose Oxidase:</b> Used in diagnostic kits for diabetes.<br>4. <b>Lipases:</b> Used in the detergent industry for removing oily stains.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "How are microbes useful in sewage treatment?",
+    "answer": "Microbes play a crucial role in the secondary treatment of sewage.<br>1. After primary treatment (physical removal of solids), the liquid sewage (effluent) is passed into large aeration tanks.<br>2. Air is pumped into these tanks to promote the growth of aerobic bacteria and other microbes, which form flocs.<br>3. These microbes consume the organic matter present in the sewage as food, thus significantly reducing the BOD (Biochemical Oxygen Demand) of the water.<br>4. In the next stage, anaerobic microbes like methanogens are used to digest the bacterial flocs and remaining organic matter in a digester, producing biogas in the process.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of microbes in composting.",
+    "answer": "Composting is the process of decomposing organic solid waste. Microbes are central to this process.<br>1. Solid waste, including vegetable peels, food leftovers, and agricultural waste, is collected in a compost pit.<br>2. This waste serves as food for a variety of microorganisms like bacteria and fungi present in the soil and waste itself.<br>3. These microbes break down the complex organic compounds into simple, inorganic nutrients.<br>4. This decomposition process converts the waste into a dark, nutrient-rich, humus-like material called compost, which is an excellent organic manure for plants.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe the process of biogas production.",
+    "answer": "Biogas is produced in a biogas plant through the anaerobic digestion of organic waste like animal dung, kitchen waste, and agricultural residue.<br>1. The organic waste is mixed with water to form a slurry, which is fed into a large underground tank called a digester.<br>2. The digester is a sealed chamber with no oxygen. Here, anaerobic microorganisms, especially methanogenic bacteria, act on the organic matter.<br>3. In the first stage, acid-producing bacteria break down the complex compounds into organic acids.<br>4. In the second stage, methanogenic bacteria act on these organic acids to produce a mixture of gases, primarily methane (CH₄) and carbon dioxide (CO₂).<br>5. This gas mixture, called biogas, is collected in a gas holder and can be supplied to homes through pipes to be used as a cooking fuel.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the use of microbes in the production of beverages.",
+    "answer": "Microbes, especially yeast (Saccharomyces cerevisiae), are widely used in the production of various beverages through fermentation.<br>1. <b>Wine and Beer:</b> Yeast is used to ferment sugars present in fruit juices (for wine) or malted cereals like barley (for beer). The yeast converts the sugar into ethanol and carbon dioxide.<br>2. <b>Vinegar:</b> This is a two-step process. First, yeast ferments sugars to produce ethanol. Then, acetic acid bacteria (like Acetobacter) are used to oxidize the ethanol into acetic acid, which is the main component of vinegar.<br>3. <b>Coffee and Cocoa:</b> Microbes are involved in processing the beans. Fermentation by microbes helps in separating the seeds from the fruit pulp and also develops the characteristic aroma and flavour of coffee and cocoa.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "How do microbes help in cleaning up oil spills?",
+    "answer": "The use of microbes to clean up oil spills is a form of bioremediation.<br>1. Crude oil contains toxic hydrocarbons that are harmful to marine life. Some species of bacteria and fungi have the natural ability to degrade these hydrocarbons.<br>2. Bacteria like Pseudomonas spp. and Alcanovorax borkumensis are known as hydrocarbonoclastic bacteria (HCB).<br>3. When an oil spill occurs, these microbes are often introduced to the site. They use the hydrocarbons as their source of carbon and energy.<br>4. Through their metabolic activities, they break down the complex and toxic hydrocarbon molecules into simpler, non-toxic substances like carbon dioxide and water, thus cleaning the ocean surface.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is meant by microbial pollution control? Explain the role of microbes in it.",
+    "answer": "Microbial pollution control refers to the use of microorganisms to manage and reduce various forms of environmental pollution. Microbes play a vital role in this process:<br>1. <b>Sewage Treatment:</b> Aerobic and anaerobic microbes are used to decompose the organic pollutants in wastewater, making it safe to be released into rivers.<br>2. <b>Solid Waste Management:</b> Microbes decompose organic solid waste through composting or in modern landfills to produce manure and reduce the volume of garbage.<br>3. <b>Bioremediation:</b> Microbes are used to clean up specific pollutants. For example, some fungi can absorb heavy metals from the soil, while certain bacteria can degrade toxic chemicals and oil spills.<br>4. <b>Biogas Production:</b> Anaerobic microbes convert organic waste into biogas, a clean fuel, which helps in waste management and provides a renewable energy source.",
+    "marks": 4
+  },
+    {
+    "type": "long",
+    "text": "Write a note on antibiotics.",
+    "answer": "Antibiotics are carbon compounds obtained from some bacteria and fungi that are used for destroying or preventing the growth of harmful microorganisms, especially bacteria. They are a cornerstone of modern medicine.<br><ul><li><b>Discovery:</b> The first antibiotic, Penicillin, was discovered by Alexander Fleming from the fungus Penicillium.</li><li><b>Mechanism:</b> They work by either killing the bacteria (bactericidal) or inhibiting their cellular processes like cell wall synthesis (bacteriostatic).</li><li><b>Types:</b> Antibiotics can be broad-spectrum (acting against a wide variety of bacteria) or narrow-spectrum (effective against specific bacteria).</li><li><b>Caution:</b> It is important to take antibiotics only on a doctor's prescription and to complete the full course to prevent the development of antibiotic-resistant bacteria.</li></ul>Examples: Penicillin, Tetracycline, Streptomycin.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the industrial production of bread.",
+    "answer": "The industrial production of bread involves the use of baker's yeast (Saccharomyces cerevisiae).<br>1. <b>Dough Preparation:</b> Flour, water, salt, yeast, and other ingredients are mixed to form a dough.<br>2. <b>Fermentation (Proofing):</b> The dough is kept at a warm temperature for some time. During this period, the yeast carries out anaerobic respiration (fermentation) on the carbohydrates in the flour.<br>3. <b>Leavening:</b> This fermentation produces carbon dioxide (CO₂) and ethanol. The CO₂ gas gets trapped in the gluten network of the dough, causing it to rise and become porous and spongy.<br>4. <b>Baking:</b> The risen dough is then baked in an oven. The heat causes the CO₂ and ethanol to evaporate, making the bread light and fluffy. The yeast is killed during baking.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What are biofuels? Explain their importance.",
+    "answer": "Biofuels are renewable energy sources produced from organic matter or biomass, such as agricultural crops, algae, or organic waste. They can be solid, liquid, or gaseous.<br>Examples include ethanol, biodiesel, and biogas.<br><br><b>Importance of Biofuels:</b><br>1. <b>Renewable:</b> Unlike fossil fuels, biofuels are derived from renewable resources and are sustainable.<br>2. <b>Environmentally Friendly:</b> They are cleaner-burning fuels. For example, ethanol and biodiesel produce fewer greenhouse gas emissions compared to petrol and diesel.<br>3. <b>Energy Security:</b> They can be produced domestically, reducing a country's dependence on imported fossil fuels.<br>4. <b>Waste Utilization:</b> Fuels like biogas can be produced from waste materials, providing a solution for waste management while generating energy.",
+    "marks": 4
+  }
+]
+

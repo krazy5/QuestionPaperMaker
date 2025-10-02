@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The tradition of travelling can be traced back to the times of _______.",
+    "options": [
+      "Marco Polo",
+      "Gautam Buddha",
+      "Ibn Battuta",
+      "Benjamin of Tudela"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The tradition of travelling is very old in India. Buddhist monks were ordained not to stay at one place but to travel continuously to preach. This shows that the tradition of tourism dates back to ancient times. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Lothal, a site of the Harappan civilization, is located in the state of _______.",
+    "options": [
+      "Rajasthan",
+      "Punjab",
+      "Gujarat",
+      "Haryana"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Lothal was one of the southernmost cities of the ancient Indus Valley Civilization, located in the Bhāl region of the modern state of Gujarat. It was an important port city. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The world-famous traveller from the 14th century who introduced the western world to China was _______.",
+    "options": [
+      "Marco Polo",
+      "Ibn Battuta",
+      "Benjamin of Tudela",
+      "Gerhardus Mercator"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Marco Polo, an Italian traveller, introduced Asia, especially China, to Europe through his travelogues. His writings inspired many other travellers. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first European to prepare a travelogue based on his travels in India was _______.",
+    "options": [
+      "Thomas Cook",
+      "Marco Polo",
+      "Benjamin of Tudela",
+      "Ibn Battuta"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Thomas Cook, a British businessman, is known for organizing the first package tour. He also published travelogues and is considered a pioneer of modern tourism. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of tourism that involves visiting places to experience different traditions and lifestyles is known as _______ tourism.",
+    "options": [
+      "Agro-tourism",
+      "Cultural",
+      "Health",
+      "Sports"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Cultural tourism involves travelling to experience the culture of a place, including its traditions, festivals, heritage sites, and local way of life. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ‘Mahabaleshwar-Pratapgad-Raigad’ circuit is primarily an example of _______ tourism.",
+    "options": [
+      "Religious",
+      "Agro-tourism",
+      "Historical",
+      "Health"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> This circuit in Maharashtra includes historical forts that are closely associated with the life of Chhatrapati Shivaji Maharaj, making it a key destination for historical tourism. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Maharashtra Tourism Development Corporation' (MTDC) was established in _______.",
+    "options": [
+      "1950",
+      "1960",
+      "1975",
+      "1982"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The MTDC was established in 1975 to systematically develop and promote tourism in the state of Maharashtra. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Visiting a rural area to experience farm life and agriculture is known as _______.",
+    "options": [
+      "Film Tourism",
+      "Sports Tourism",
+      "Eco-tourism",
+      "Agro-tourism"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Agro-tourism, or agricultural tourism, is a rapidly developing type of tourism where tourists visit rural areas and farms to get a hands-on experience of agricultural life. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is tourism?",
+    "answer": "Tourism is the activity of travelling to places away from one's usual environment for various purposes such as leisure, recreation, business, education, or health, for a certain period of time.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by historical tourism?",
+    "answer": "Historical tourism is a type of tourism where people travel to visit places of historical importance, such as ancient monuments, forts, museums, and archaeological sites, to learn about the history and heritage of that place.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is agro-tourism?",
+    "answer": "Agro-tourism, also known as agricultural tourism, is a form of tourism where tourists visit rural areas, farms, and ranches to experience the local agricultural lifestyle, participate in farming activities, and enjoy the rural environment.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Ajanta Caves - Historical Heritage<br>2. Tadoba National Park - Natural Heritage<br>3. Varanasi - Religious Place<br>4. Mahabaleshwar - Agro-tourism",
+    "answer": "<b>Wrong Pair:</b> Mahabaleshwar - Agro-tourism<br><b>Corrected Pair:</b> Mahabaleshwar - Hill Station / Natural Heritage",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Historical Tourism, Geographic Tourism, Health Tourism, International Tourism.",
+    "answer": "<b>International Tourism.</b><br><b>Reason:</b> Historical, Geographic, and Health tourism are types of tourism based on the purpose of travel. International tourism is a type based on the location (crossing national borders).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Thomas Cook : Package Tours :: Marco Polo : _______.",
+    "answer": "<b>Travelogues / Introducing Asia to the West.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Taj Mahal : Agra :: Gateway of India : _______.",
+    "answer": "<b>Mumbai.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Why is it important to preserve our heritage?",
+    "answer": "It is important to preserve our cultural and natural heritage because it is our link to the past and a source of our identity. These heritage sites are our invaluable assets, and preserving them for future generations is our moral responsibility. They also play a crucial role in promoting tourism.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What precautions should tourists take at heritage sites?",
+    "answer": "Tourists should take the following precautions:<br>1. They should not vandalize or deface the heritage monuments by writing on walls or carving on trees.<br>2. They should follow all the rules and instructions given by the authorities at the site.<br>3. They should not litter and should help in keeping the premises clean.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the role of MTDC?",
+    "answer": "The Maharashtra Tourism Development Corporation (MTDC) was established in 1975 to promote tourism in Maharashtra. Its role is to develop tourist infrastructure, provide facilities like tourist hotels and resorts, and to publicize and market the various tourist destinations within the state.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the different types of tourism.",
+    "answer": "Tourism can be classified into various types based on the purpose and interest of the traveller.<br>1. <b>Historical Tourism:</b> Travelling to places of historical importance like forts, palaces, and museums.<br>2. <b>Geographic Tourism:</b> Visiting places to observe the special geographical features of a region, like valleys, beaches, and national parks.<br>3. <b>Health Tourism:</b> Travelling to other places to avail of high-quality medical facilities or for wellness treatments.<br>4. <b>Agro-tourism:</b> Visiting rural areas to experience agricultural life.<br>5. <b>Sports Tourism:</b> Travelling to watch or participate in major sporting events like the Olympics or World Cups.<br>6. <b>Cultural Tourism:</b> Experiencing the local culture, festivals, and traditions of a place.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe the development of tourism in India.",
+    "answer": "The tradition of travelling is ancient in India. <br>1. <b>Ancient Period:</b> People travelled for various reasons, including pilgrimages (like the Char Dham Yatra), to attend fairs and festivals, and for seeking education at universities like Nalanda and Takshashila.<br>2. <b>Medieval Period:</b> The writings of travellers like Ibn Battuta and Marco Polo introduced India to the world. Travel for trade and religious purposes continued.<br>3. <b>Modern Period:</b> The development of modern transportation like railways during the British era made travel easier. Thomas Cook organized tours, marking the beginning of modern tourism.<br>4. <b>Post-Independence:</b> After independence, the Indian government has taken many steps to promote tourism. Tourism Development Corporations were established, and various types of tourism like historical, cultural, and health tourism are being actively promoted.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the professional fields related to tourism?",
+    "answer": "Tourism is a major industry that provides employment to a large number of people. Some professional fields are:<br>1. <b>Hospitality:</b> Working in hotels, resorts, and restaurants as managers, chefs, and service staff.<br>2. <b>Travel Agencies and Tour Operators:</b> Planning and organizing tours for tourists.<br>3. <b>Guides:</b> Professional guides who have in-depth knowledge of the history, language, and culture of a place are in high demand.<br>4. <b>Transportation:</b> The aviation, railway, and road transport sectors are all integral to tourism.<br>5. <b>Handicrafts and Souvenirs:</b> There is a large market for local handicrafts and souvenirs, providing employment to artisans.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What kind of development is necessary in the surroundings of a tourist destination?",
+    "answer": "For a tourist destination to be successful, it is essential to develop the surrounding area and provide necessary facilities for the tourists.<br>1. <b>Infrastructure:</b> Good quality roads, reliable electricity and water supply, and good communication networks are essential.<br>2. <b>Accommodation and Food:</b> There should be a sufficient number of safe and clean hotels, guest houses, and restaurants to cater to tourists with different budgets.<br>3. <b>Safety and Security:</b> Ensuring the safety of tourists is a top priority. This includes proper policing and emergency medical services.<br>4. <b>Accessibility:</b> The site should be easily accessible. For differently-abled and senior citizens, special facilities like ramps should be available.<br>5. <b>Information Centers:</b> Tourist information centers that provide authentic information, maps, and booklets are very helpful.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the importance of travelogues in history.",
+    "answer": "Travelogues, or the written accounts of travellers, are an extremely important source of history.<br>1. <b>Historical Information:</b> They provide first-hand accounts of the social, political, economic, and cultural life of the period in which they were written. For example, the travelogue of the Chinese traveller Hiuen Tsang gives valuable information about India in the 7th century C.E.<br>2. <b>Cross-Cultural Understanding:</b> The writings of travellers like Marco Polo and Ibn Battuta introduced different parts of the world to each other, fostering an exchange of knowledge and culture.<br>3. <b>Inspiration for Travel:</b> Travelogues have historically inspired other people to undertake long journeys and explore new lands.<br>4. <b>Authenticity:</b> While they need to be critically examined for the author's personal biases, they often provide a more personal and vivid picture of the past than official records.",
+    "marks": 4
+  }
+]
+

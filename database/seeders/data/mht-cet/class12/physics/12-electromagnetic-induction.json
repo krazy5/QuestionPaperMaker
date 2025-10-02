@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The phenomenon of producing an induced e.m.f. in a circuit due to a change in the magnetic flux linked with it is called: (MHT CET 2025)",
+    "options": [
+      "(a) electromagnetic induction",
+      "(b) magnetic hysteresis",
+      "(c) eddy currents",
+      "(d) self-induction"
+    ],
+    "correct_answer": "a",
+    "answer": "This is the fundamental definition of <b>electromagnetic induction</b>, a principle discovered by Michael Faraday. It states that a changing magnetic field induces an electromotive force (e.m.f.) in a nearby circuit, which can drive a current.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The direction of the induced e.m.f. in a circuit is given by: (MHT CET 2024)",
+    "options": [
+      "(a) Fleming's left-hand rule",
+      "(b) Fleming's right-hand rule",
+      "(c) Lenz's law",
+      "(d) Ampere's law"
+    ],
+    "correct_answer": "c",
+    "answer": "<b>Lenz's law</b> states that the direction of the induced current is such that it opposes the cause that produces it. This provides the direction of the induced e.m.f. Fleming's rules are used to determine the direction of force (left-hand) or motion (right-hand) of a conductor in a magnetic field, while Ampere's law relates the magnetic field to the current producing it.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A metal rod is held parallel to a strong magnetic field and is moving with a velocity 'v'. The induced e.m.f. across its ends will be: (MHT CET 2023)",
+    "options": [
+      "(a) $BvL$",
+      "(b) zero",
+      "(c) $BvL/2$",
+      "(d) $2BvL$"
+    ],
+    "correct_answer": "b",
+    "answer": "The induced e.m.f. in a moving conductor in a magnetic field is given by $E = BvL \\sin\\theta$. Here, the rod is moving parallel to the magnetic field, which means the angle $\\theta$ between the velocity vector 'v' and the magnetic field 'B' is $0^\\circ$. Since $\\sin(0^\\circ) = 0$, the induced e.m.f. will be zero.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The self-inductance of a coil is: (MHT CET 2022)",
+    "options": [
+      "(a) proportional to its length",
+      "(b) proportional to the square of the number of turns",
+      "(c) proportional to the current flowing through it",
+      "(d) inversely proportional to its cross-sectional area"
+    ],
+    "correct_answer": "b",
+    "answer": "The self-inductance (L) of a solenoid is given by the formula $L = \\frac{\\mu_0 n^2 A}{l}$, where 'n' is the total number of turns, 'A' is the cross-sectional area, and 'l' is the length. This formula shows that the self-inductance is directly proportional to the square of the number of turns.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Lenz's law is a consequence of the law of conservation of: (MHT CET 2021)",
+    "options": [
+      "(a) momentum",
+      "(b) charge",
+      "(c) energy",
+      "(d) mass"
+    ],
+    "correct_answer": "c",
+    "answer": "Lenz's law states that the induced current's direction opposes the change in magnetic flux. This opposition implies that work must be done to counter the opposing force, and this work is converted into electrical energy. Thus, Lenz's law is a statement of the <b>conservation of energy</b>.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The mutual inductance of a pair of coils depends on: (MHT CET 2020)",
+    "options": [
+      "(a) the current in the coils",
+      "(b) the material of the core separating the coils",
+      "(c) the number of turns in each coil only",
+      "(d) both current and number of turns"
+    ],
+    "correct_answer": "b",
+    "answer": "Mutual inductance (M) is a property of a pair of coils that depends on their geometric properties (size, shape, relative orientation, number of turns) and the magnetic properties of the core material that links them. It is independent of the current flowing through the coils.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The induced e.m.f. in a coil rotating in a uniform magnetic field is maximum when the plane of the coil is: (MHT CET 2019)",
+    "options": [
+      "(a) parallel to the magnetic field",
+      "(b) perpendicular to the magnetic field",
+      "(c) at an angle of $45^\\circ$ to the magnetic field",
+      "(d) at an angle of $60^\\circ$ to the magnetic field"
+    ],
+    "correct_answer": "a",
+    "answer": "The induced e.m.f. is given by $E = E_0 \\sin(\\omega t)$, where the e.m.f. is maximum when $\\sin(\\omega t) = \\pm 1$. This occurs when the change in magnetic flux is maximum. The rate of change of magnetic flux is highest when the plane of the coil is <b>parallel</b> to the magnetic field lines, as the angle between the area vector and the magnetic field is $90^\\circ$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A coil of area 'A' and 'N' turns is placed in a uniform magnetic field 'B' perpendicular to its plane. The magnetic flux linked with the coil is: (MHT CET 2018)",
+    "options": [
+      "(a) $NBA$",
+      "(b) $N B/A$",
+      "(c) $B/NA$",
+      "(d) $N B A \\cos\\theta$"
+    ],
+    "correct_answer": "a",
+    "answer": "The magnetic flux ($\\Phi_B$) linked with a single turn is given by $\\Phi_B = B A \\cos\\theta$. For 'N' turns, the total flux is $\\Phi_B = N B A \\cos\\theta$. When the plane of the coil is perpendicular to the magnetic field, the angle between the area vector and the field is $\\theta = 0^\\circ$, and $\\cos(0^\\circ) = 1$. Therefore, the total magnetic flux is $NBA$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of magnetic flux is: (MHT CET 2017)",
+    "options": [
+      "(a) Tesla",
+      "(b) Weber",
+      "(c) Volt",
+      "(d) Ampere"
+    ],
+    "correct_answer": "b",
+    "answer": "The SI unit of magnetic flux is the <b>Weber</b> (Wb). It is defined as the magnetic flux that, when linking a single turn of a circuit, produces an e.m.f. of 1 volt as it is reduced to zero at a uniform rate in 1 second.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic flux linked with a coil changes from 12 Wb to 6 Wb in 2 seconds. The induced e.m.f. is: (MHT CET 2016)",
+    "options": [
+      "(a) 3 V",
+      "(b) 6 V",
+      "(c) 12 V",
+      "(d) 24 V"
+    ],
+    "correct_answer": "a",
+    "answer": "According to <b>Faraday's law of electromagnetic induction</b>, the induced e.m.f. (E) is equal to the negative rate of change of magnetic flux ($\\Phi_B$). The magnitude of the e.m.f. is:<br>$|E| = \\left|\\frac{\\Delta\\Phi_B}{\\Delta t}\\right| = \\left|\\frac{\\Phi_{final} - \\Phi_{initial}}{\\Delta t}\\right|$<br>$|E| = \\left|\\frac{6 \\text{ Wb} - 12 \\text{ Wb}}{2 \\text{ s}}\\right| = \\left|\\frac{-6}{2}\\right| = 3$ V<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The induced e.m.f. is proportional to the rate of change of: (MHT CET 2015)",
+    "options": [
+      "(a) magnetic field",
+      "(b) magnetic flux",
+      "(c) electric field",
+      "(d) magnetic moment"
+    ],
+    "correct_answer": "b",
+    "answer": "According to <b>Faraday's law of electromagnetic induction</b>, the magnitude of the induced e.m.f. is directly proportional to the rate of change of <b>magnetic flux</b> linked with the circuit.<br>$E \\propto \\frac{d\\Phi_B}{dt}$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of self-inductance is: (MHT CET 2014)",
+    "options": [
+      "(a) Ohm",
+      "(b) Henry",
+      "(c) Farad",
+      "(d) Weber"
+    ],
+    "correct_answer": "b",
+    "answer": "The SI unit of self-inductance (L) is the <b>Henry</b> (H). A coil has a self-inductance of one henry if an e.m.f. of 1 volt is induced in it when the current in the coil is changing at the rate of 1 ampere per second.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Eddy currents are induced in: (MHT CET 2013)",
+    "options": [
+      "(a) a coil",
+      "(b) an insulator",
+      "(c) a bulk metallic piece",
+      "(d) a non-magnetic material"
+    ],
+    "correct_answer": "c",
+    "answer": "Eddy currents are loops of electric current induced within a conductor by a changing magnetic field. They are named 'eddy currents' because they resemble eddies in water. These currents are induced in a bulk metallic piece and can cause heating, a phenomenon used in induction furnaces.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A coil has 200 turns and a cross-sectional area of $0.05 \\text{ m}^2$. The magnetic field perpendicular to the coil changes from 0.1 T to 0.5 T in 0.5 s. The induced e.m.f. is: (MHT CET 2012)",
+    "options": [
+      "(a) 8 V",
+      "(b) 16 V",
+      "(c) 4 V",
+      "(d) 2 V"
+    ],
+    "correct_answer": "a",
+    "answer": "The induced e.m.f. is given by Faraday's law: $E = -N \\frac{d\\Phi_B}{dt} = -N \\frac{\\Delta(BA)}{\\Delta t}$.<br>$E = -N A \\frac{\\Delta B}{\\Delta t}$<br>Given: $N=200$, $A=0.05 \\text{ m}^2$, $\\Delta B = 0.5 - 0.1 = 0.4$ T, $\\Delta t = 0.5$ s.<br>$|E| = 200 \\times 0.05 \\times \\frac{0.4}{0.5} = 10 \\times 0.8 = 8$ V.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A motor works on the principle of: (MHT CET 2011)",
+    "options": [
+      "(a) Faraday's law of induction",
+      "(b) electric field",
+      "(c) a force on a current-carrying conductor in a magnetic field",
+      "(d) Lenz's law"
+    ],
+    "correct_answer": "c",
+    "answer": "An electric motor converts electrical energy into mechanical energy. It works on the principle that a current-carrying conductor placed in a magnetic field experiences a force (the Lorentz force), which causes it to rotate.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  }
+]

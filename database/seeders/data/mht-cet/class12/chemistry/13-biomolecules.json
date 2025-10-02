@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is a reducing sugar? (MHT CET 2022)",
+    "options": [
+      "(a) Sucrose",
+      "(b) Maltose",
+      "(c) Starch",
+      "(d) Cellulose"
+    ],
+    "correct_answer": "b",
+    "answer": "A reducing sugar is any sugar that is capable of acting as a reducing agent because it has a free aldehyde group or a free ketone group. **Maltose** contains a free hemiacetal group and can, therefore, reduce Fehling's solution or Tollen's reagent. Sucrose is a non-reducing sugar because its anomeric carbons are linked and not free.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The deficiency of which vitamin causes night blindness? (MHT CET 2021)",
+    "options": [
+      "(a) Vitamin $B_1$",
+      "(b) Vitamin A",
+      "(c) Vitamin C",
+      "(d) Vitamin D"
+    ],
+    "correct_answer": "b",
+    "answer": "Night blindness (nyctalopia) is a condition that makes it difficult or impossible to see in relatively low light. The condition is associated with a deficiency of **Vitamin A**, which is essential for the proper functioning of the retina and the formation of rhodopsin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following amino acids is a basic amino acid? (MHT CET 2020)",
+    "options": [
+      "(a) Glycine",
+      "(b) Valine",
+      "(c) Lysine",
+      "(d) Alanine"
+    ],
+    "correct_answer": "c",
+    "answer": "Basic amino acids are those that have an amino group in their side chain. **Lysine** has an extra amino group on its side chain, making it a basic amino acid. Glycine and Alanine are neutral amino acids, while Valine is a non-polar, neutral amino acid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of starch is a polymer of $\\alpha$-glucose called: (MHT CET 2019)",
+    "options": [
+      "(a) Amylose",
+      "(b) Amylopectin",
+      "(c) Glycogen",
+      "(d) Cellulose"
+    ],
+    "correct_answer": "a",
+    "answer": "Starch is a mixture of two polysaccharides, amylose and amylopectin. **Amylose** is a linear polymer of $\\alpha$-D-glucose linked by $C_1-C_4$ glycosidic bonds. Amylopectin is a branched polymer. Glycogen is the storage form of glucose in animals, and cellulose is a structural polysaccharide in plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The a-helix and $\\beta$-pleated sheet structures are examples of which level of protein structure? (MHT CET 2018)",
+    "options": [
+      "(a) Primary structure",
+      "(b) Secondary structure",
+      "(c) Tertiary structure",
+      "(d) Quaternary structure"
+    ],
+    "correct_answer": "b",
+    "answer": "The **secondary structure** of a protein refers to the local folding of the polypeptide chain into regular repeating patterns. The most common types are the $\\alpha$-helix and the $\\beta$-pleated sheet, which are stabilized by hydrogen bonding between the backbone atoms.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a fibrous protein? (MHT CET 2017)",
+    "options": [
+      "(a) Insulin",
+      "(b) Albumin",
+      "(c) Globulin",
+      "(d) Keratin"
+    ],
+    "correct_answer": "d",
+    "answer": "Proteins are classified into two main types based on their molecular shape: fibrous and globular. Fibrous proteins are long, fiber-like proteins that are generally insoluble in water and serve structural roles. **Keratin**, found in hair, nails, and skin, is an example of a fibrous protein.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The monomer of nucleic acids is: (MHT CET 2016)",
+    "options": [
+      "(a) Nucleoside",
+      "(b) Nucleotide",
+      "(c) Sugar",
+      "(d) Phosphate"
+    ],
+    "correct_answer": "b",
+    "answer": "Nucleic acids, such as DNA and RNA, are polymers. The monomeric unit that makes up a nucleic acid is a **nucleotide**. A nucleotide consists of three components: a nitrogenous base, a pentose sugar, and a phosphate group.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The deficiency of which vitamin causes the disease scurvy? (MHT CET 2015)",
+    "options": [
+      "(a) Vitamin A",
+      "(b) Vitamin $B_1$",
+      "(c) Vitamin C",
+      "(d) Vitamin K"
+    ],
+    "correct_answer": "c",
+    "answer": "**Scurvy** is a disease resulting from a lack of **Vitamin C** (ascorbic acid). It is characterized by weakness, anemia, gum disease, and skin hemorrhages.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a disaccharide? (MHT CET 2014)",
+    "options": [
+      "(a) Glucose",
+      "(b) Fructose",
+      "(c) Maltose",
+      "(d) Starch"
+    ],
+    "correct_answer": "c",
+    "answer": "Disaccharides are carbohydrates that are formed when two monosaccharides are joined by a glycosidic linkage. **Maltose** is a disaccharide composed of two glucose units. Glucose and Fructose are monosaccharides, and Starch is a polysaccharide.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary structure of a protein is determined by the: (MHT CET 2013)",
+    "options": [
+      "(a) Order of amino acids",
+      "(b) a-helix structure",
+      "(c) Hydrogen bonding",
+      "(d) Disulfide bonds"
+    ],
+    "correct_answer": "a",
+    "answer": "The **primary structure** of a protein is the linear sequence, or **order of amino acids**, in the polypeptide chain. This sequence is unique to each protein and is determined by the gene that codes for it.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sugar present in DNA is: (MHT CET 2012)",
+    "options": [
+      "(a) Ribose",
+      "(b) Deoxyribose",
+      "(c) Glucose",
+      "(d) Fructose"
+    ],
+    "correct_answer": "b",
+    "answer": "DNA stands for deoxyribonucleic acid. The sugar component of DNA is **2-deoxyribose**, a five-carbon sugar that lacks a hydroxyl group at the 2' carbon position. Ribose is the sugar found in RNA.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a non-essential amino acid? (MHT CET 2011)",
+    "options": [
+      "(a) Leucine",
+      "(b) Tryptophan",
+      "(c) Alanine",
+      "(d) Lysine"
+    ],
+    "correct_answer": "c",
+    "answer": "Essential amino acids are those that cannot be synthesized by the body and must be obtained from the diet. Non-essential amino acids can be synthesized by the body. Among the options, **Alanine** is a non-essential amino acid. Leucine, Tryptophan, and Lysine are essential amino acids.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hydrolysis of sucrose yields: (MHT CET 2010)",
+    "options": [
+      "(a) Glucose and fructose",
+      "(b) Glucose and glucose",
+      "(c) Glucose and galactose",
+      "(d) Fructose and fructose"
+    ],
+    "correct_answer": "a",
+    "answer": "Sucrose is a disaccharide composed of one unit of $\\alpha$-D-glucose and one unit of $\\beta$-D-fructose. The hydrolysis of sucrose breaks the glycosidic bond, yielding a mixture of **glucose and fructose**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction of an amino acid with ninhydrin is: (MHT CET 2009)",
+    "options": [
+      "(a) A colored complex",
+      "(b) An alcohol",
+      "(c) A ketone",
+      "(d) A carboxylic acid"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction of an amino acid with ninhydrin is a standard test for the presence of amino acids. The reaction produces a purple or blue **colored complex** (Ruhemann's Purple), which is used for the quantitative analysis of amino acids.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The glycosidic linkage is present in: (MHT CET 2008)",
+    "options": [
+      "(a) Proteins",
+      "(b) Lipids",
+      "(c) Carbohydrates",
+      "(d) Nucleic acids"
+    ],
+    "correct_answer": "c",
+    "answer": "A **glycosidic linkage** is a type of covalent bond that joins a carbohydrate (sugar) molecule to another group. It is the characteristic linkage that connects monosaccharides to form disaccharides and polysaccharides, so it is found in **carbohydrates**.",
+    "marks": 1
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "type": "long",
+    "text": "Explain the concept of specific latent heat of fusion. (Practice Set 5.1)",
+    "answer": "The specific latent heat of fusion is the amount of heat energy required to change a unit mass of a solid into a liquid at a constant temperature. This heat is absorbed without any change in the temperature of the substance. For example, the specific latent heat of fusion of ice is $3.33 \\times 10^5$ J/kg. This means that to convert 1 kg of ice at $0^{\\circ}C$ into 1 kg of water at $0^{\\circ}C$, $3.33 \\times 10^5$ J of heat energy must be supplied.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is latent heat?",
+    "answer": "Latent heat is the heat energy absorbed or released by a substance during a change of state (e.g., solid to liquid, liquid to gas) without any change in its temperature.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the anomalous behavior of water. (Practice Set 5.2)",
+    "answer": "Most liquids contract on cooling and expand on heating. However, water shows a peculiar behavior, known as the anomalous behavior of water, in the temperature range of $0^{\\circ}C$ to $4^{\\circ}C$.\n\n* When water is cooled from room temperature, it contracts normally until it reaches $4^{\\circ}C$.\n* When it is cooled further from $4^{\\circ}C$ to $0^{\\circ}C$, instead of contracting, it **expands**.\n* At $4^{\\circ}C$, water has its minimum volume and therefore its maximum density. Below $4^{\\circ}C$, its density decreases as it expands.\n\nThis behavior is crucial for aquatic life, as the densest water at $4^{\\circ}C$ settles at the bottom of lakes and ponds, allowing the water above to freeze, while life continues below.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is specific heat capacity?",
+    "answer": "The specific heat capacity of a substance is the amount of heat energy required to raise the temperature of a unit mass of that substance by $1^{\\circ}C$ (or 1 K).",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of specific latent heat is... (Problem Set 5)",
+    "options": ["J/kg", "cal/g", "J", "W"],
+    "correct_answer": "A",
+    "answer": "The SI unit of specific latent heat is Joules per kilogram ($J/kg$). Calorimetry and other thermodynamic quantities often use this unit. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is the difference between heat and temperature?",
+    "answer": "### **Heat**\n* **Definition:** Heat is a form of energy. It is the total kinetic energy of all the molecules in a body.\n* **Unit:** Its SI unit is Joule (J).\n* **Nature:** Heat flows from a region of higher temperature to a region of lower temperature.\n* **Measurement:** It is measured using a calorimeter.\n\n### **Temperature**\n* **Definition:** Temperature is a measure of the degree of hotness or coldness of a body. It is a measure of the average kinetic energy of the molecules in a body.\n* **Unit:** Its SI unit is Kelvin (K). It is also measured in Celsius ($^{\\circ}C$) and Fahrenheit ($^{\\circ}F$).\n* **Nature:** Temperature determines the direction of heat flow.\n* **Measurement:** It is measured using a thermometer.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is meant by the dew point temperature?",
+    "answer": "The dew point temperature is the temperature at which the air becomes saturated with water vapor. If the air is cooled below this temperature, the excess water vapor condenses to form tiny droplets of water, known as dew.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "At what temperature does water have its maximum density? (Problem Set 5)",
+    "options": ["$0^{\\circ}C$", "$4^{\\circ}C$", "$100^{\\circ}C$", "$20^{\\circ}C$"],
+    "correct_answer": "B",
+    "answer": "Due to the anomalous behavior of water, it has its maximum density at $4^{\\circ}C$. Below this temperature, its volume expands. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Why do the bottoms of water bottles stored in the refrigerator become wet in summer? (PYQ: March 2020)",
+    "answer": "The air around us contains a certain amount of water vapor. When a cold bottle is taken out of the refrigerator, its surface temperature is very low. This cold surface cools the air immediately surrounding it. If the temperature of this air drops below its dew point, the water vapor in the air condenses onto the cold surface of the bottle, forming tiny water droplets. This is a physical phenomenon similar to the formation of dew on grass, and it is why the bottle's bottom feels wet.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define specific latent heat of vaporization.",
+    "answer": "The specific latent heat of vaporization is the amount of heat energy required to change a unit mass of a liquid into a gas at a constant temperature. For water, this heat is absorbed at $100^{\\circ}C$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "A metal ball of mass 1 kg is heated to $100^{\\circ}C$ and then dropped into a calorimeter containing 500 g of water at $20^{\\circ}C$. The final temperature of the mixture is $30^{\\circ}C$. If the specific heat capacity of water is $4.18 \\times 10^3$ J/kg K, find the specific heat capacity of the metal. (Practice Set 5.3)",
+    "answer": "According to the principle of heat exchange:\nHeat lost by the metal ball = Heat gained by the water\n\n**Given data for water:**\n* Mass of water, $m_w = 500$ g = $0.5$ kg\n* Initial temperature of water, $T_{iw} = 20^{\\circ}C$\n* Final temperature of mixture, $T_f = 30^{\\circ}C$\n* Specific heat capacity of water, $c_w = 4.18 \\times 10^3$ J/kg K\n* Change in temperature of water, $\\Delta T_w = 30 - 20 = 10^{\\circ}C$\n\n**Given data for metal ball:**\n* Mass of metal, $m_m = 1$ kg\n* Initial temperature of metal, $T_{im} = 100^{\\circ}C$\n* Final temperature of mixture, $T_f = 30^{\\circ}C$\n* Specific heat capacity of metal, $c_m = ?$\n* Change in temperature of metal, $\\Delta T_m = 100 - 30 = 70^{\\circ}C$\n\n**Calculations:**\nHeat gained by water = $Q_w = m_w c_w \\Delta T_w$\n$Q_w = 0.5 \\times 4.18 \\times 10^3 \\times 10 = 20900$ J\n\nHeat lost by metal = $Q_m = m_m c_m \\Delta T_m$\n$Q_m = 1 \\times c_m \\times 70 = 70 c_m$\n\nAccording to the principle of heat exchange, $Q_m = Q_w$:\n$70 c_m = 20900$\n$c_m = \\frac{20900}{70} \\approx 298.57$ J/kg K\n\n**Answer:** The specific heat capacity of the metal is approximately $298.57$ J/kg K.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Why is the base of a pressure cooker heavy?",
+    "answer": "The base of a pressure cooker is made heavy to provide a large surface area for absorbing heat and to distribute the heat evenly. This prevents the burning of food and also helps in efficient heat transfer from the stove to the contents of the cooker.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The amount of heat required to raise the temperature of a substance is given by the formula... (Problem Set 5)",
+    "options": ["$Q = m \\times L$", "$Q = m \\times c \\times \\Delta T$", "$Q = m \\times v$", "$Q = v \\times t$"],
+    "correct_answer": "B",
+    "answer": "The formula for calculating the heat required to change the temperature of a substance is $Q = mc\\Delta T$, where $m$ is mass, $c$ is specific heat capacity, and $\\Delta T$ is the change in temperature. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of latent heat in the change of state.",
+    "answer": "During a change of state, such as melting or boiling, a substance absorbs or releases a large amount of heat energy without a change in its temperature. This hidden or 'latent' heat is used to overcome the intermolecular forces of attraction. \n\n* **Melting:** When a solid melts, the absorbed latent heat of fusion provides the energy to break the bonds holding the molecules in a fixed lattice, allowing them to move freely as a liquid.\n* **Boiling:** When a liquid boils, the absorbed latent heat of vaporization provides the energy to completely separate the molecules, allowing them to escape as a gas. \n\nSimilarly, during condensation or freezing, the latent heat is released into the surroundings, allowing the substance to change its state.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "State the principle of heat exchange.",
+    "answer": "The principle of heat exchange states that if two bodies at different temperatures are in thermal contact, the heat lost by the hotter body is equal to the heat gained by the colder body, provided no heat is lost to the surroundings.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has the highest specific heat capacity? (Problem Set 5)",
+    "options": ["Copper", "Iron", "Water", "Mercury"],
+    "correct_answer": "C",
+    "answer": "Water has a very high specific heat capacity compared to most other substances. This means it can absorb a large amount of heat without a significant rise in its temperature. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain why the temperature of a substance does not change during melting or boiling. (Practice Set 5.1)",
+    "answer": "During melting or boiling, a substance is in a state of phase change. The heat energy supplied to the substance is not used to increase the kinetic energy of the molecules (which would increase the temperature) but rather to change the state of the substance. For instance:\n\n* **Melting:** The heat energy supplied (latent heat of fusion) is used to overcome the intermolecular forces that hold the particles in a fixed solid state, allowing them to move as a liquid. This energy is stored as potential energy, so the temperature remains constant.\n* **Boiling:** The heat energy supplied (latent heat of vaporization) is used to completely separate the liquid molecules from each other to form a gas. This again increases the potential energy of the molecules without increasing their average kinetic energy, so the temperature remains constant.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is relative humidity?",
+    "answer": "Relative humidity is the ratio of the amount of water vapor in the air to the maximum amount of water vapor the air can hold at a given temperature, expressed as a percentage.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why do we feel more comfortable in hot and humid weather if we use a fan? (PYQ: July 2019)",
+    "answer": "In hot and humid weather, the air already contains a large amount of water vapor, so our sweat does not evaporate easily. Since the evaporation of sweat is the primary way our body cools down, we feel uncomfortable.\n\nWhen a fan is used, it moves the air, and the moving air causes our sweat to evaporate more quickly. The latent heat of vaporization required for the sweat to evaporate is taken from our body, which cools us down. Therefore, even though the temperature of the air doesn't change, we feel more comfortable due to the enhanced evaporation of sweat from our skin.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is sublimation?",
+    "answer": "Sublimation is the process in which a solid changes directly into a gas without passing through the liquid state. Examples include camphor and dry ice (solid carbon dioxide).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The boiling point of water is... (Problem Set 5)",
+    "options": ["$0^{\\circ}C$", "$100^{\\circ}C$", "$273$ K", "$32$ K"],
+    "correct_answer": "B",
+    "answer": "The boiling point of water at standard atmospheric pressure is $100^{\\circ}C$. In Kelvin, this is $373.15$ K. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain how the anomalous behavior of water helps marine life in cold regions. (PYQ: March 2022)",
+    "answer": "The anomalous behavior of water is crucial for the survival of aquatic life in regions that experience freezing temperatures. Here's how it helps:\n\n1.  As the surface water of a lake or pond cools down in winter, its density increases, and it sinks to the bottom.\n2.  This process continues until the entire body of water reaches $4^{\\circ}C$, which is the temperature of maximum density.\n3.  As the surface water cools below $4^{\\circ}C$ (to $3^{\\circ}C, 2^{\\circ}C, 1^{\\circ}C, 0^{\\circ}C$), it expands and becomes less dense, so it remains on the surface.\n4.  This less dense water on the surface freezes to form a layer of ice at $0^{\\circ}C$.\n5.  Since ice is a poor conductor of heat, this layer of ice acts as an insulating blanket, preventing the heat from the water below from escaping. The water at the bottom remains at $4^{\\circ}C$, providing a suitable environment for aquatic animals to survive.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is a calorimeter?",
+    "answer": "A calorimeter is an insulated vessel used to measure the amount of heat gained or lost by a substance. It is used in experiments based on the principle of heat exchange.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a gas changing directly into a solid is called... (Problem Set 5)",
+    "options": ["Fusion", "Sublimation", "Deposition", "Vaporization"],
+    "correct_answer": "C",
+    "answer": "The process where a gas changes directly into a solid state without passing through the liquid state is called deposition. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "A block of ice of mass 2 kg is taken out of a refrigerator. How much heat energy must be supplied to melt the ice completely at $0^{\\circ}C$? (Given: Specific latent heat of fusion of ice = $3.33 \\times 10^5$ J/kg)",
+    "answer": "To melt the ice, we need to supply an amount of heat equal to the latent heat of fusion. The formula is:\n\n**Given:**\n* Mass of ice, $m = 2$ kg\n* Specific latent heat of fusion, $L_{fusion} = 3.33 \\times 10^5$ J/kg\n\n**Formula:**\n$Q = m \\times L_{fusion}$\n\n**Calculation:**\n$Q = 2 \\times 3.33 \\times 10^5$\n$Q = 6.66 \\times 10^5$ J\n\n**Answer:** The heat energy required to melt the ice completely is $6.66 \\times 10^5$ J.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Why are thermometers filled with mercury or alcohol?",
+    "answer": "Thermometers are filled with mercury or alcohol because they have a low specific heat capacity and a uniform coefficient of thermal expansion over a wide range of temperatures. This allows them to expand and contract predictably, leading to accurate temperature measurements.",
+    "marks": 2
+  }
+]

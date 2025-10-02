@@ -1,0 +1,104 @@
+[
+  {
+    "type": "short",
+    "text": "What is the importance of a field visit?",
+    "answer": "A field visit is very important in geography because it helps us to understand the correlation between humans and the environment. It allows for the direct observation of geographical features and processes, making learning more practical and effective.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is it important to obtain permission before a field visit?",
+    "answer": "It is important to get permission from the concerned authorities or local leaders before a field visit. This ensures safety and avoids any legal issues. It also helps in arranging facilities and guides for the visit.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What preparations are necessary for a field visit? (PYQ: March 2018)",
+    "answer": "Preparation is a key step for a successful field visit. The following preparations are necessary:\n\n1.  **Selection of the site:** Choose a location that is relevant to the topic of study.\n2.  **Purpose and Scope:** Clearly define the objective of the visit and what information needs to be collected.\n3.  **Permission:** Obtain necessary permissions from school authorities, parents, and local authorities of the site.\n4.  **Route and Transport:** Plan the travel route, mode of transport, and accommodation if necessary.\n5.  **Tools and Materials:** Prepare a list of materials like a notebook, pen, pencil, camera, compass, and first-aid kit.\n6.  **Questionnaire:** Prepare a questionnaire to interview local people, farmers, or officials to gather specific information.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What precautions should be taken during a field visit?",
+    "answer": "During a field visit, a student should take the following precautions:\n\n1.  Listen carefully to the teacher's instructions.\n2.  Stay in the group and do not wander off alone.\n3.  Avoid touching or eating unknown plants or fruits.\n4.  Take care of personal belongings and the school's equipment.\n5.  Be respectful towards the local people and the environment.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the importance of a field report.",
+    "answer": "A field report is a systematic documentation of observations and data collected during a field visit. It is important for several reasons:\n\n1.  **Data Analysis:** It provides a record for later analysis of the data collected.\n2.  **Learning Reinforcement:** It helps to consolidate the knowledge gained through observation and experience.\n3.  **Future Reference:** It can be used as a reference document for future studies or projects.\n4.  **Communication:** It effectively communicates the findings of the field visit to others who did not participate.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is a field report?",
+    "answer": "A field report is a document that presents the findings, observations, and data collected during a field visit. It typically includes an introduction, methodology, observations, analysis, and a conclusion.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "How can you collect information during a field visit? (Practice Set 1.1)",
+    "answer": "Information can be collected through various methods during a field visit:\n\n1.  **Direct Observation:** Observing geographical features, landforms, vegetation, and human activities in the area.\n2.  **Photography and Videography:** Taking pictures or making videos of the location, landforms, and activities for later reference.\n3.  **Questionnaire:** Using a prepared questionnaire to interview local people, authorities, or business owners to gather qualitative data.\n4.  **Field Notes:** Writing down observations, thoughts, and reflections in a notebook as they occur.\n5.  **Measurement:** Using a compass, tape measure, or other tools to measure distances, directions, and heights to get quantitative data.\n6.  **Sampling:** Collecting rock, soil, or water samples for later analysis.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Mention any four tools and materials required for a field visit.",
+    "answer": "Four essential tools and materials for a field visit are:\n\n1.  A notebook and pen/pencil for taking notes.\n2.  A camera to document observations.\n3.  A compass to determine direction.\n4.  A first-aid kit for emergencies.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the necessary steps to write a field report?",
+    "answer": "A field report should be written systematically. The necessary steps are as follows:\n\n1.  **Introduction:** State the topic, purpose, and duration of the field visit.\n2.  **Location:** Describe the location of the field visit, including its geographical features.\n3.  **Methodology:** Explain the methods used for data collection, such as interviews, observation, and note-taking.\n4.  **Observations:** Write down detailed observations on the geographical features, economic activities, social life, and other relevant aspects.\n5.  **Analysis and Conclusion:** Analyze the collected data to draw conclusions related to the purpose of the visit.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a field visit? (Problem Set 1)",
+    "options": ["Reading a book about a mountain.", "Watching a documentary about a forest.", "Visiting a museum to study its artifacts.", "Looking at a map of a river."],
+    "correct_answer": "C",
+    "answer": "A field visit involves going to a place and observing it directly. Visiting a museum is a direct, on-site observation, which makes it an example of a field visit. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What kind of information can you obtain during a field visit to a river basin?",
+    "answer": "During a field visit to a river basin, you can gather the following information:\n\n1.  **River Features:** Observe the river's flow, velocity, depth, and width. You can also identify different landforms like meanders, oxbow lakes, and floodplains.\n2.  **Water Quality:** Collect water samples for testing pH, turbidity, and dissolved oxygen levels.\n3.  **Ecosystem:** Observe the flora and fauna that thrive in and around the river.\n4.  **Human Activities:** Study the human activities in the area, such as agriculture, fishing, industrial use of water, and water pollution.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "What is the primary objective of a field visit? (Problem Set 1)",
+    "options": ["To enjoy a trip.", "To get a break from school.", "To gain firsthand experience.", "To collect souvenirs."],
+    "correct_answer": "C",
+    "answer": "The primary objective of a field visit is to gain practical, firsthand experience of a geographical location or phenomenon. This helps in better understanding theoretical concepts. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the benefits of a field visit for a student? (PYQ: March 2020)",
+    "answer": "A field visit provides several benefits for a student:\n\n1.  **Practical Learning:** It connects classroom learning to the real world, making concepts easier to understand.\n2.  **Observation Skills:** It develops a student's observation and data collection skills.\n3.  **Critical Thinking:** It encourages students to think critically about the relationship between physical and human geography.\n4.  **Social Skills:** It promotes teamwork and collaboration as students work together to complete tasks.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is a questionnaire?",
+    "answer": "A questionnaire is a research tool consisting of a set of questions used to gather information from a respondent. It is a key tool during a field visit for interviewing people.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "How will you take notes during a field visit? (Practice Set 1.2)",
+    "answer": "Taking notes during a field visit is crucial for a successful report. Here are some tips on how to do it:\n\n1.  **Carry a Notebook:** Always have a waterproof notebook and a pen or pencil with you.\n2.  **Be Specific:** Write down specific details about what you see, hear, and experience. Use descriptive words to capture the environment.\n3.  **Sketch and Draw:** Make small sketches of the features you observe to supplement your written notes. This can be very useful for recalling information later.\n4.  **Use a System:** Create a system for organizing your notes, perhaps by using different headings for different types of information, like 'Physical Features,' 'Human Activities,' or 'Local Economy'.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is not a risk of a field visit? (Problem Set 1)",
+    "options": ["Weather changes", "Getting lost", "Snake bite", "Learning something new"],
+    "correct_answer": "D",
+    "answer": "Learning something new is the main purpose of a field visit and is not a risk. Weather changes, getting lost, and snake bites are all potential risks that need to be planned for. The correct option is **D**.",
+    "marks": 1
+  }
+]

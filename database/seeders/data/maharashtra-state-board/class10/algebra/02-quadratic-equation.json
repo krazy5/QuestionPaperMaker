@@ -1,320 +1,116 @@
 [
   {
-    "type": "mcq",
-    "text": "Which of the following is a quadratic equation in one variable? [SSC 2019]",
-    "options": ["2x + 3 = 7", "x^2 + y = 5", "3x^2 - 2x + 1 = 0", "xy = 10"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "For x^2 - 5x + 6 = 0, the leading coefficient is: [SSC 2016]",
-    "options": ["0", "1", "-5", "6"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Consider 2x^2 - 3x + 5 = 0. The nature of its roots is: [SSC 2018]",
-    "options": ["Real and unequal", "Real and equal", "Non-real complex", "Rational and unequal"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "For x^2 - 4x + 4 = 0, the roots are: [SSC 2017]",
-    "options": ["2 and 2", "-2 and -2", "2 and -2", "None of these"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "The roots of x^2 - 7x + 12 = 0 are: [SSC 2020]",
-    "options": ["3 and 4", "-3 and -4", "-3 and 4", "2 and 6"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Sum of the roots of ax^2 + bx + c = 0 (a ≠ 0) is: [SSC 2016]",
-    "options": ["a/b", "b/a", "-b/a", "c/a"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Product of the roots of ax^2 + bx + c = 0 is: [SSC 2016]",
-    "options": ["a/b", "-b/a", "a/c", "c/a"],
-    "correct_answer": "D",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "One root of a quadratic is 2 and the sum of roots is 5. The other root is: [Predicted 2025]",
-    "options": ["2", "3", "5", "7"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "A quadratic equation with roots 2 and -3 is: [SSC 2018]",
-    "options": ["x^2 - 5x + 6 = 0", "x^2 - x - 6 = 0", "x^2 + x - 6 = 0", "x^2 - 2x - 3 = 0"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Quadratic formula for ax^2 + bx + c = 0 (a ≠ 0) is: [SSC 2017]",
-    "options": ["x = (-b ± √(b^2 - 4ac)) / (2a)", "x = (-b ± √(b^2 + 4ac)) / (2a)", "x = (b ± √(b^2 - 4ac)) / (2a)", "x = (c ± √(b^2 - 4ac)) / (2a)"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "For 2x^2 + kx + 8 = 0 to have equal roots, k must be: [Predicted 2025]",
-    "options": ["8", "-8", "Both 8 and -8", "Neither 8 nor -8"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "The roots of 3x^2 - 12x = 0 are: [SSC 2021]",
-    "options": ["0 and 4", "3 and -4", "0 and -4", "4 and 3"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "If the discriminant b^2 - 4ac is a perfect square and a, b, c are integers, then the roots are: [SSC 2022]",
-    "options": ["Real and irrational", "Real and rational", "Non-real complex", "Equal and non-zero"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Axis of symmetry of y = x^2 - 6x + 5 is: [Predicted 2025]",
-    "options": ["y = 3", "x = 3", "x = -3", "y = -3"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "The quadratic y = x^2 + 4x + 4 touches the x-axis at: [SSC 2019]",
-    "options": ["(-2, 0)", "(2, 0)", "(0, -2)", "(0, 2)"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-
-  {
-    "type": "true_false",
-    "text": "If b^2 - 4ac < 0 for ax^2 + bx + c = 0, then the roots are non-real complex. [SSC 2018]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "If the product of roots is negative, then the roots have opposite signs. [SSC 2017]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "The equation x^2 + 1 = 0 has real roots. [SSC 2019]",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "Equal roots occur when b^2 = 4ac. [SSC 2020]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "If roots are 2 and 3, the equation is x^2 - 5x + 6 = 0. [SSC 2016]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "For 5x^2 - 7x + 2 = 0, sum of roots is 7/5. [SSC 2021]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "If one root of a quadratic is 0, then c = 0. [Predicted 2025]",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "The graph of any quadratic equation is a straight line. [SSC 2016]",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "If the discriminant is a perfect square, the roots must be integers. [Predicted 2025]",
-    "answer": "False",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "For x^2 - 10x + 25 = 0, the roots are 5 and -5. [SSC 2018]",
-    "answer": "False",
-    "marks": 1
-  },
-
-  {
     "type": "short",
-    "text": "Find the discriminant and hence the nature of roots of 2x^2 + 5x + 3 = 0. [SSC 2021]",
-    "answer": "D = b^2 - 4ac = 5^2 - 4(2)(3) = 25 - 24 = 1. Since D > 0 and a, b, c are integers, roots are real, distinct, and rational.",
-    "marks": 2
+    "text": "Write any two quadratic equations. (Practice Set 2.1)",
+    "answer": "A quadratic equation is a polynomial equation of the second degree, with the general form $ax^2 + bx + c = 0$, where $a \\neq 0$.<br><br>Here are two examples:<br>1) <b>$x^2 + 5x + 6 = 0$</b><br>   (Here, a=1, b=5, c=6)<br><br>2) <b>$3y^2 - 10y + 7 = 0$</b><br>   (Here, a=3, b=-10, c=7)",
+    "marks": 1
   },
-  {
-    "type": "short",
-    "text": "Solve x^2 - 9x + 14 = 0 by factorization. [SSC 2016]",
-    "answer": "Find two numbers with product 14 and sum 9: 7 and 2. So x^2 - 9x + 14 = (x - 7)(x - 2) = 0 ⇒ x = 7 or x = 2.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find k if x^2 + kx + 16 = 0 has equal roots. [SSC 2019]",
-    "answer": "For equal roots: D = 0 ⇒ k^2 - 4(1)(16) = 0 ⇒ k^2 - 64 = 0 ⇒ k = 8 or k = -8.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Form the quadratic equation whose roots are 4 and -5. [SSC 2018]",
-    "answer": "Sum = 4 + (-5) = -1, Product = 4(-5) = -20. Equation: x^2 - (sum)x + product = 0 ⇒ x^2 + x - 20 = 0.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "If α + β = 5 and αβ = 6, form the quadratic equation. [SSC 2017]",
-    "answer": "Equation: x^2 - (α + β)x + αβ = 0 ⇒ x^2 - 5x + 6 = 0.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Solve 3x^2 - 12x = 0 and state the method. [SSC 2020]",
-    "answer": "Factorization by common factor: 3x(x - 4) = 0 ⇒ x = 0 or x = 4.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Solve x^2 + 4x + 5 = 0 by the quadratic formula. [SSC 2022]",
-    "answer": "a=1, b=4, c=5. D = 4^2 - 4(1)(5) = 16 - 20 = -4. x = [-4 ± √(-4)]/2 = [-4 ± 2i]/2 ⇒ x = -2 ± i.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Solve x^2 - 6x + 8 = 0 and verify sum and product of roots. [SSC 2019]",
-    "answer": "Factor: (x - 2)(x - 4) = 0 ⇒ x = 2, 4. Sum = 2 + 4 = 6 = -b/a. Product = 2×4 = 8 = c/a.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find m such that 2x^2 - (m + 1)x + m = 0 has equal roots. [Predicted 2025]",
-    "answer": "Equal roots ⇒ D = 0. D = (m + 1)^2 - 8m = m^2 - 6m + 1 = 0 ⇒ m = 3 ± 2√2.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Determine the nature of roots of x^2 - 2x + 2 = 0. [SSC 2018]",
-    "answer": "D = b^2 - 4ac = (-2)^2 - 4(1)(2) = 4 - 8 = -4 < 0 ⇒ Non-real complex conjugate roots.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Solve (2x - 3)^2 - 25 = 0. [SSC 2020]",
-    "answer": "(2x - 3)^2 = 25 ⇒ 2x - 3 = ±5 ⇒ 2x = 8 or 2x = -2 ⇒ x = 4 or x = -1.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Solve x^2 + 6x + 5 = 0 by completing the square. [SSC 2017]",
-    "answer": "x^2 + 6x + 9 - 9 + 5 = 0 ⇒ (x + 3)^2 - 4 = 0 ⇒ x + 3 = ±2 ⇒ x = -1, -5.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "If x^2 + kx - 2 = 0 has roots that differ by 3, find k. [Predicted 2025]",
-    "answer": "Let roots α, β with (α - β)^2 = 9. But (α - β)^2 = (α + β)^2 - 4αβ = k^2 + 8. So k^2 + 8 = 9 ⇒ k^2 = 1 ⇒ k = ±1.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "In x^2 - px + 8 = 0, one root is double the other. Find p. [SSC 2022]",
-    "answer": "Let roots α and 2α. Sum = 3α = p, product = 2α^2 = 8 ⇒ α^2 = 4 ⇒ α = ±2 ⇒ p = 3α = 6 or -6.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Form the quadratic equation whose roots are 2 and 1/3 with integer coefficients. [Predicted 2025]",
-    "answer": "(x - 2)(x - 1/3) = 0 ⇒ 3x^2 - 7x + 2 = 0.",
-    "marks": 2
-  },
-
   {
     "type": "long",
-    "text": "Solve 5x^2 - 13x + 6 = 0 by factorization. Verify sum and product of roots. [SSC 2019]",
-    "answer": "Step 1: Find two numbers with product 5×6 = 30 and sum -13 ⇒ -10 and -3.<br>Step 2: 5x^2 - 13x + 6 = 5x^2 - 10x - 3x + 6 = 5x(x - 2) - 3(x - 2) = (5x - 3)(x - 2) = 0.<br>Step 3: Roots: x = 3/5, x = 2.<br>Verification: Sum = 3/5 + 2 = 13/5 = -b/a; Product = (3/5)×2 = 6/5 = c/a.",
+    "text": "Decide which of the following are quadratic equations: (Practice Set 2.1)<br>(1) $x^2 + 5x - 2 = 0$<br>(2) $y^2 = 5y - 10$<br>(3) $y^2 + \\frac{1}{y} = 2$<br>(4) $x + \\frac{1}{x} = -2$<br>(5) $(m+2)(m-5) = 0$<br>(6) $m^3 + 3m^2 - 2 = 3m^3$",
+    "answer": "<b>(1) $x^2 + 5x - 2 = 0$</b><br>This is in the form $ax^2 + bx + c = 0$ with $a=1, b=5, c=-2$. The highest power of the variable x is 2. <b>Yes, it is a quadratic equation.</b><br><br><b>(2) $y^2 = 5y - 10$</b><br>Rearranging the terms, we get $y^2 - 5y + 10 = 0$. This is in the form $ay^2 + by + c = 0$ with $a=1, b=-5, c=10$. The highest power of y is 2. <b>Yes, it is a quadratic equation.</b><br><br><b>(3) $y^2 + \\frac{1}{y} = 2$</b><br>To remove the fraction, multiply the entire equation by y: $y^3 + 1 = 2y$. Rearranging gives $y^3 - 2y + 1 = 0$. The highest power of the variable y is 3. <b>No, it is not a quadratic equation.</b><br><br><b>(4) $x + \\frac{1}{x} = -2$</b><br>To remove the fraction, multiply the entire equation by x: $x^2 + 1 = -2x$. Rearranging gives $x^2 + 2x + 1 = 0$. The highest power of x is 2. <b>Yes, it is a quadratic equation.</b><br><br><b>(5) $(m+2)(m-5) = 0$</b><br>Expanding the brackets: $m(m-5) + 2(m-5) = 0 \\implies m^2 - 5m + 2m - 10 = 0 \\implies m^2 - 3m - 10 = 0$. The highest power of m is 2. <b>Yes, it is a quadratic equation.</b><br><br><b>(6) $m^3 + 3m^2 - 2 = 3m^3$</b><br>Rearranging the terms to one side: $3m^3 - m^3 - 3m^2 + 2 = 0 \\implies 2m^3 - 3m^2 + 2 = 0$. The highest power of m is 3. <b>No, it is not a quadratic equation.</b>",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Solve 2x^2 - x - 6 = 0 using the quadratic formula. [SSC 2018]",
-    "answer": "a=2, b=-1, c=-6. D = b^2 - 4ac = (-1)^2 - 4(2)(-6) = 1 + 48 = 49.<br>x = [1 ± √49] / (4) = (1 ± 7)/4 ⇒ x = 2 or x = -3/2.",
+    "text": "Write the following equations in the form $ax^2+bx+c=0$, then write the values of a, b, c for each equation. (Practice Set 2.1)<br>(1) $2y = 10 - y^2$<br>(2) $(x-1)^2 = 2x+3$<br>(3) $x^2+5x = -(3-x)$<br>(4) $3m^2 = 2m^2 - 9$<br>(5) $p(3+6p) = -5$<br>(6) $x^2-9=13$",
+    "answer": "<b>(1) $2y = 10 - y^2$</b><br>Rearranging: $y^2 + 2y - 10 = 0$.<br>Comparing with $ay^2+by+c=0$, we get <b>a = 1, b = 2, c = -10</b>.<br><br><b>(2) $(x-1)^2 = 2x+3$</b><br>Expanding the left side: $x^2 - 2x + 1 = 2x + 3$.<br>Rearranging: $x^2 - 2x - 2x + 1 - 3 = 0 \\implies x^2 - 4x - 2 = 0$.<br>Comparing with $ax^2+bx+c=0$, we get <b>a = 1, b = -4, c = -2</b>.<br><br><b>(3) $x^2+5x = -(3-x)$</b><br>Expanding the right side: $x^2 + 5x = -3 + x$.<br>Rearranging: $x^2 + 5x - x + 3 = 0 \\implies x^2 + 4x + 3 = 0$.<br>Comparing with $ax^2+bx+c=0$, we get <b>a = 1, b = 4, c = 3</b>.<br><br><b>(4) $3m^2 = 2m^2 - 9$</b><br>Rearranging: $3m^2 - 2m^2 + 9 = 0 \\implies m^2 + 0m + 9 = 0$.<br>Comparing with $am^2+bm+c=0$, we get <b>a = 1, b = 0, c = 9</b>.<br><br><b>(5) $p(3+6p) = -5$</b><br>Expanding the left side: $3p + 6p^2 = -5$.<br>Rearranging: $6p^2 + 3p + 5 = 0$.<br>Comparing with $ap^2+bp+c=0$, we get <b>a = 6, b = 3, c = 5</b>.<br><br><b>(6) $x^2-9=13$</b><br>Rearranging: $x^2 - 9 - 13 = 0 \\implies x^2 - 22 = 0 \\implies x^2 + 0x - 22 = 0$.<br>Comparing with $ax^2+bx+c=0$, we get <b>a = 1, b = 0, c = -22</b>.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "The product of two consecutive positive integers is 156. Find the integers. [SSC 2016]",
-    "answer": "Let integers be n and n+1. Then n(n+1) = 156 ⇒ n^2 + n - 156 = 0.<br>D = 1 + 624 = 625 ⇒ √D = 25.<br>n = [-1 ± 25]/2 ⇒ n = 12 or n = -13 (reject negative).<br>Integers: 12 and 13.",
-    "marks": 4
+    "text": "Determine whether the values given against each of the quadratic equations are the roots of the equation. (Practice Set 2.1)<br>(1) $x^2 + 4x - 5 = 0$, $x = 1, -1$<br>(2) $2m^2 - 5m = 0$, $m = 2, 5/2$",
+    "answer": "<b>(1) $x^2 + 4x - 5 = 0$, $x = 1, -1$</b><br>To check if a value is a root, we substitute it into the equation and see if the Left Hand Side (LHS) equals the Right Hand Side (RHS), which is 0.<br><br>* <b>Check for x = 1:</b><br>    LHS = $(1)^2 + 4(1) - 5 = 1 + 4 - 5 = 0$.<br>    Since LHS = RHS, <b>x = 1 is a root</b>.<br><br>* <b>Check for x = -1:</b><br>    LHS = $(-1)^2 + 4(-1) - 5 = 1 - 4 - 5 = -8$.<br>    Since LHS $\\neq$ RHS, <b>x = -1 is not a root</b>.<br><br><b>(2) $2m^2 - 5m = 0$, $m = 2, 5/2$</b><br><br>* <b>Check for m = 2:</b><br>    LHS = $2(2)^2 - 5(2) = 2(4) - 10 = 8 - 10 = -2$.<br>    Since LHS $\\neq$ RHS, <b>m = 2 is not a root</b>.<br><br>* <b>Check for m = 5/2:</b><br>    LHS = $2(\\frac{5}{2})^2 - 5(\\frac{5}{2}) = 2(\\frac{25}{4}) - \\frac{25}{2} = \\frac{25}{2} - \\frac{25}{2} = 0$.<br>    Since LHS = RHS, <b>m = 5/2 is a root</b>.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Find $k$ if $x=3$ is a root of the equation $kx^2 - 10x + 3 = 0$. (Practice Set 2.1)",
+    "answer": "<b>Step 1: Understand the condition.</b><br>If $x=3$ is a root of the equation, it means that substituting $x=3$ into the equation will make the equation true.<br><br><b>Step 2: Substitute x = 3 into the equation.</b><br>  $k(3)^2 - 10(3) + 3 = 0$<br><br><b>Step 3: Solve for k.</b><br>  $k(9) - 30 + 3 = 0$<br>  $9k - 27 = 0$<br>  $9k = 27$<br>  $k = 27 / 9$<br>  $k = 3$<br><br><b>Solution:</b> The value of $k$ is 3.",
+    "marks": 2
   },
   {
     "type": "long",
-    "text": "A rectangle has area 180 m^2. If the length exceeds the breadth by 9 m, find its dimensions. [SSC 2020]",
-    "answer": "Let breadth = x m ⇒ length = x + 9. Area: x(x + 9) = 180 ⇒ x^2 + 9x - 180 = 0.<br>D = 81 + 720 = 801 ⇒ √D = √801 = 28.324… (but factorization possible?) Try factors: 180 = 15×12; 12 and 15 differ by 3, not 9. Use quadratic formula:<br>x = [-9 ± √801]/2. Positive root: x ≈ (-9 + 28.324)/2 ≈ 9.662 m; length ≈ 18.662 m.<br>(Accept nearest cm if asked.)",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Divide Rs. 90 between two persons such that the product of their amounts is 1400. Find the amounts. [Predicted 2025]",
-    "answer": "Let first person get x. Then second gets 90 - x. Product: x(90 - x) = 1400 ⇒ -x^2 + 90x - 1400 = 0 ⇒ x^2 - 90x + 1400 = 0.<br>D = 8100 - 5600 = 2500 ⇒ √D = 50.<br>x = [90 ± 50]/2 ⇒ x = 70 or 20.<br>Amounts: Rs. 70 and Rs. 20.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "If (x - 2) is a factor of x^2 + kx - 6, find k and the other root. [SSC 2021]",
-    "answer": "By factor theorem: Put x = 2 ⇒ 2^2 + 2k - 6 = 0 ⇒ 4 + 2k - 6 = 0 ⇒ 2k - 2 = 0 ⇒ k = 1.<br>Equation becomes x^2 + x - 6 = 0 ⇒ (x - 2)(x + 3) = 0 ⇒ other root is -3.",
+    "text": "One of the roots of the equation $5m^2 + 2m + k = 0$ is -7/5. Complete the following activity to find the value of 'k'. (Practice Set 2.1)<br><b>Solution:</b><br>... is a root of the quadratic equation $5m^2 + 2m + k = 0$<br>Put m = ... in the equation.<br>$5(\\dots)^2 + 2(\\dots) + k = 0$<br>$5(\\dots) + (\\dots) + k = 0$<br>... + k = 0<br>$k = ...$",
+    "answer": "<b>Completed Activity:</b><br><br><b>Solution:</b><br><b>-7/5</b> is a root of the quadratic equation $5m^2 + 2m + k = 0$<br>Put m = <b>-7/5</b> in the equation.<br>$5(-\\frac{7}{5})^2 + 2(-\\frac{7}{5}) + k = 0$<br>$5(\\frac{49}{25}) + (-\\frac{14}{5}) + k = 0$<br>$\\frac{49}{5} - \\frac{14}{5} + k = 0$<br>$\\frac{35}{5} + k = 0$<br>$7 + k = 0$<br>$k = -7$",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Find the range of k so that 3x^2 - 2kx + (k + 3) = 0 has no real roots. [Predicted 2025]",
-    "answer": "No real roots ⇒ D < 0. D = (-2k)^2 - 4(3)(k + 3) = 4k^2 - 12k - 36.<br>4k^2 - 12k - 36 < 0 ⇒ divide by 4: k^2 - 3k - 9 < 0.<br>Roots of k^2 - 3k - 9 = 0 are k = [3 ± √(9 + 36)]/2 = [3 ± √45]/2 = (3 ± 3√5)/2.<br>Inequality < 0 between the roots ⇒ k ∈ ((3 - 3√5)/2, (3 + 3√5)/2).",
+    "text": "Solve the following quadratic equations by factorization. (Practice Set 2.2)<br>(1) $x^2 - 15x + 54 = 0$<br>(2) $x^2 + x - 20 = 0$<br>(3) $2y^2 + 27y + 13 = 0$<br>(4) $5m^2 = 22m + 15$<br>(5) $2x^2 - 2x + \\frac{1}{2} = 0$<br>(6) $6x - \\frac{2}{x} = 1$<br>(7) $\\sqrt{2}x^2 + 7x + 5\\sqrt{2} = 0$<br>(8) $3x^2 - 2\\sqrt{6}x + 2 = 0$<br>(9) $2m(m-24) = 50$<br>(10) $25m^2 = 9$<br>(11) $7m^2 = 21m$<br>(12) $m^2 - 11 = 0$",
+    "answer": "<b>(1) $x^2 - 15x + 54 = 0$</b><br>Find two numbers that multiply to 54 and add to -15. (-9 and -6)<br>$x^2 - 9x - 6x + 54 = 0$<br>$x(x-9) - 6(x-9) = 0$<br>$(x-9)(x-6) = 0$<br><b>Roots: x = 9, x = 6</b><br><br><b>(2) $x^2 + x - 20 = 0$</b><br>Find two numbers that multiply to -20 and add to 1. (5 and -4)<br>$x^2 + 5x - 4x - 20 = 0$<br>$x(x+5) - 4(x+5) = 0$<br>$(x+5)(x-4) = 0$<br><b>Roots: x = -5, x = 4</b><br><br><b>(3) $2y^2 + 27y + 13 = 0$</b><br>Multiply a*c = 2*13=26. Find two numbers that multiply to 26 and add to 27. (26 and 1)<br>$2y^2 + 26y + y + 13 = 0$<br>$2y(y+13) + 1(y+13) = 0$<br>$(2y+1)(y+13) = 0$<br><b>Roots: y = -1/2, y = -13</b><br><br><b>(4) $5m^2 = 22m + 15$</b><br>Rearrange: $5m^2 - 22m - 15 = 0$. a*c = -75. Find factors of -75 that add to -22. (-25 and 3)<br>$5m^2 - 25m + 3m - 15 = 0$<br>$5m(m-5) + 3(m-5) = 0$<br>$(5m+3)(m-5) = 0$<br><b>Roots: m = -3/5, m = 5</b><br><br><b>(5) $2x^2 - 2x + \\frac{1}{2} = 0$</b><br>Multiply by 2 to clear fraction: $4x^2 - 4x + 1 = 0$. This is a perfect square.<br>$(2x-1)^2 = 0$<br><b>Root: x = 1/2 (repeated)</b><br><br><b>(6) $6x - \\frac{2}{x} = 1$</b><br>Multiply by x: $6x^2 - 2 = x \\implies 6x^2 - x - 2 = 0$. a*c = -12. Factors of -12 that add to -1. (-4 and 3)<br>$6x^2 - 4x + 3x - 2 = 0$<br>$2x(3x-2) + 1(3x-2) = 0$<br>$(2x+1)(3x-2) = 0$<br><b>Roots: x = -1/2, x = 2/3</b><br><br><b>(7) $\\sqrt{2}x^2 + 7x + 5\\sqrt{2} = 0$</b><br>a*c = $\\sqrt{2} * 5\\sqrt{2} = 10$. Factors of 10 that add to 7. (5 and 2)<br>$\\sqrt{2}x^2 + 5x + 2x + 5\\sqrt{2} = 0$<br>$x(\\sqrt{2}x+5) + \\sqrt{2}(\\sqrt{2}x+5) = 0$<br>$(x+\\sqrt{2})(\\sqrt{2}x+5) = 0$<br><b>Roots: x = -$\\sqrt{2}$, x = -5/$\\sqrt{2}$</b><br><br><b>(8) $3x^2 - 2\\sqrt{6}x + 2 = 0$</b><br>a*c = 6. Factors of 6 that add to $-2\\sqrt{6}$. ($-\\sqrt{6}$ and $-\\sqrt{6}$)<br>$3x^2 - \\sqrt{6}x - \\sqrt{6}x + 2 = 0$<br>$\\sqrt{3}x(\\sqrt{3}x - \\sqrt{2}) - \\sqrt{2}(\\sqrt{3}x - \\sqrt{2}) = 0$<br>$(\\sqrt{3}x - \\sqrt{2})^2 = 0$<br><b>Root: x = $\\sqrt{2}$/$\\sqrt{3}$ (repeated)</b><br><br><b>(9) $2m(m-24) = 50$</b><br>$2m^2 - 48m = 50 \\implies 2m^2 - 48m - 50 = 0 \\implies m^2 - 24m - 25 = 0$.<br>Factors of -25 that add to -24. (-25 and 1)<br>$(m-25)(m+1)=0$<br><b>Roots: m = 25, m = -1</b><br><br><b>(10) $25m^2 = 9$</b><br>$25m^2 - 9 = 0$. Difference of squares.<br>$(5m-3)(5m+3) = 0$<br><b>Roots: m = 3/5, m = -3/5</b><br><br><b>(11) $7m^2 = 21m$</b><br>$7m^2 - 21m = 0$<br>$7m(m-3) = 0$<br><b>Roots: m = 0, m = 3</b><br><br><b>(12) $m^2 - 11 = 0$</b><br>$m^2 = 11$<br><b>Roots: m = $\\sqrt{11}$, m = -$\\sqrt{11}$</b>",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "The roots of a quadratic are in the ratio 3:2 and their sum is 20. Find the quadratic equation. [SSC 2018]",
-    "answer": "Let roots be 3t and 2t. Sum 3t + 2t = 5t = 20 ⇒ t = 4.<br>Roots: 12 and 8; product = 96.<br>Equation: x^2 - (sum)x + product = 0 ⇒ x^2 - 20x + 96 = 0.",
+    "text": "To solve $\\sqrt{2}x^2 + 7x + 5\\sqrt{2} = 0$ by factorisation, complete the following activity. (Practice Set 2.2)<br><b>Solution:</b><br>$\\sqrt{2}x^2 + 7x + 5\\sqrt{2} = 0$<br>$\\sqrt{2}x^2 + [\\dots] + [\\dots] + 5\\sqrt{2} = 0$<br>$x(\\dots) + \\sqrt{2}(\\dots) = 0$<br>$(\\dots)(x + \\sqrt{2}) = 0$<br>$(\\dots) = 0$ or $(x + \\sqrt{2}) = 0$<br>$\\therefore x = [\\dots]$ or $x = -\\sqrt{2}$<br>$\\therefore [\\dots]$ and $-\\sqrt{2}$ are the roots of the equation.",
+    "answer": "<b>Solution:</b><br>$\\sqrt{2}x^2 + 7x + 5\\sqrt{2} = 0$<br>To factorize, we need two numbers whose product is $(\\sqrt{2})(5\\sqrt{2}) = 10$ and whose sum is 7. These numbers are 5 and 2.<br>$\\sqrt{2}x^2 + [5x] + [2x] + 5\\sqrt{2} = 0$<br>$x(\\sqrt{2}x + 5) + \\sqrt{2}(\\sqrt{2}x + 5) = 0$<br>$(\\sqrt{2}x + 5)(x + \\sqrt{2}) = 0$<br>$(\\sqrt{2}x + 5) = 0$ or $(x + \\sqrt{2}) = 0$<br>$\\therefore x = [-\\frac{5}{\\sqrt{2}}]$ or $x = -\\sqrt{2}$<br>$\\therefore [-\\frac{5}{\\sqrt{2}}]$ and $-\\sqrt{2}$ are the roots of the equation.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Solve 4x^2 + 4x + 1 = 0 and describe the graph’s contact with the x-axis. [SSC 2022]",
-    "answer": "Observe (2x + 1)^2 = 0 ⇒ 2x + 1 = 0 ⇒ x = -1/2 (repeated root).<br>D = 0 ⇒ real and equal roots. Graph touches the x-axis at (-1/2, 0) (tangent).",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "The product of two numbers is 40 and one number is 3 more than the other. Find the numbers. [Predicted 2025]",
-    "answer": "Let numbers be r and r + 3. Then r(r + 3) = 40 ⇒ r^2 + 3r - 40 = 0.<br>D = 9 + 160 = 169 ⇒ √D = 13.<br>r = [-3 ± 13]/2 ⇒ r = 5 or r = -8.<br>Numbers: (5, 8) or (-8, -5). (If positive numbers required: 5 and 8.)",
+    "text": "Solve the following quadratic equations by completing the square method. (Practice Set 2.3)<br>(1) $x^2 + x - 20 = 0$<br>(2) $x^2 + 2x - 5 = 0$<br>(3) $m^2 - 5m = -3$<br>(4) $9y^2 - 12y + 2 = 0$<br>(5) $2y^2 + 9y + 10 = 0$<br>(6) $5x^2 = 4x + 7$",
+    "answer": "<b>(1) $x^2 + x - 20 = 0$</b><br>$x^2 + x = 20$<br>Add $(\\frac{1}{2} \\times 1)^2 = \\frac{1}{4}$ to both sides:<br>$x^2 + x + \\frac{1}{4} = 20 + \\frac{1}{4}$<br>$(x + \\frac{1}{2})^2 = \\frac{81}{4}$<br>$x + \\frac{1}{2} = \\pm \\frac{9}{2}$<br>$x = -\\frac{1}{2} \\pm \\frac{9}{2}$<br><b>Roots: x = 4, x = -5</b><br><br><b>(2) $x^2 + 2x - 5 = 0$</b><br>$x^2 + 2x = 5$<br>Add $(\\frac{1}{2} \\times 2)^2 = 1$ to both sides:<br>$x^2 + 2x + 1 = 5 + 1$<br>$(x+1)^2 = 6$<br>$x+1 = \\pm \\sqrt{6}$<br><b>Roots: x = -1 + $\\sqrt{6}$, x = -1 - $\\sqrt{6}$</b><br><br><b>(3) $m^2 - 5m = -3$</b><br>Add $(\\frac{1}{2} \\times -5)^2 = \\frac{25}{4}$ to both sides:<br>$m^2 - 5m + \\frac{25}{4} = -3 + \\frac{25}{4}$<br>$(m - \\frac{5}{2})^2 = \\frac{13}{4}$<br>$m - \\frac{5}{2} = \\pm \\frac{\\sqrt{13}}{2}$<br><b>Roots: m = $\\frac{5 + \\sqrt{13}}{2}$, m = $\\frac{5 - \\sqrt{13}}{2}$</b><br><br><b>(4) $9y^2 - 12y + 2 = 0$</b><br>Divide by 9: $y^2 - \\frac{4}{3}y = -\\frac{2}{9}$<br>Add $(\\frac{1}{2} \\times -\\frac{4}{3})^2 = \\frac{4}{9}$ to both sides:<br>$y^2 - \\frac{4}{3}y + \\frac{4}{9} = -\\frac{2}{9} + \\frac{4}{9}$<br>$(y - \\frac{2}{3})^2 = \\frac{2}{9}$<br>$y - \\frac{2}{3} = \\pm \\frac{\\sqrt{2}}{3}$<br><b>Roots: y = $\\frac{2 + \\sqrt{2}}{3}$, y = $\\frac{2 - \\sqrt{2}}{3}$</b><br><br><b>(5) $2y^2 + 9y + 10 = 0$</b><br>Divide by 2: $y^2 + \\frac{9}{2}y = -5$<br>Add $(\\frac{1}{2} \\times \\frac{9}{2})^2 = \\frac{81}{16}$ to both sides:<br>$y^2 + \\frac{9}{2}y + \\frac{81}{16} = -5 + \\frac{81}{16}$<br>$(y + \\frac{9}{4})^2 = \\frac{1}{16}$<br>$y + \\frac{9}{4} = \\pm \\frac{1}{4}$<br>$y = -\\frac{9}{4} \\pm \\frac{1}{4}$<br><b>Roots: y = -2, y = -5/2</b><br><br><b>(6) $5x^2 = 4x + 7$</b><br>Divide by 5: $x^2 - \\frac{4}{5}x = \\frac{7}{5}$<br>Add $(\\frac{1}{2} \\times -\\frac{4}{5})^2 = \\frac{4}{25}$ to both sides:<br>$x^2 - \\frac{4}{5}x + \\frac{4}{25} = \\frac{7}{5} + \\frac{4}{25}$<br>$(x - \\frac{2}{5})^2 = \\frac{39}{25}$<br>$x - \\frac{2}{5} = \\pm \\frac{\\sqrt{39}}{5}$<br><b>Roots: x = $\\frac{2 + \\sqrt{39}}{5}$, x = $\\frac{2 - \\sqrt{39}}{5}$</b>",
     "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Compare the given quadratic equations to the general form and write values of a, b, c. (Practice Set 2.4)<br>(1) $x^2 - 7x + 5 = 0$<br>(2) $2m^2 = 5m - 5$<br>(3) $y^2 = 7y$",
+    "answer": "<b>General Form: $ax^2 + bx + c = 0$</b><br><br><b>(1) $x^2 - 7x + 5 = 0$</b><br>The equation is already in the general form.<br><b>a = 1, b = -7, c = 5</b><br><br><b>(2) $2m^2 = 5m - 5$</b><br>Rearranging the terms: $2m^2 - 5m + 5 = 0$.<br><b>a = 2, b = -5, c = 5</b><br><br><b>(3) $y^2 = 7y$</b><br>Rearranging the terms: $y^2 - 7y = 0$.<br>This can be written as $y^2 - 7y + 0 = 0$.<br><b>a = 1, b = -7, c = 0</b>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Solve using the formula. (Practice Set 2.4)<br>(1) $x^2 + 6x + 5 = 0$<br>(2) $x^2 - 3x - 2 = 0$<br>(3) $3m^2 + 2m - 7 = 0$<br>(4) $5m^2 - 4m - 2 = 0$<br>(5) $y^2 + \\frac{1}{3}y = 2$<br>(6) $5x^2 + 13x + 8 = 0$",
+    "answer": "<b>Quadratic Formula: $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$</b><br><br><b>(1) $x^2 + 6x + 5 = 0$</b><br>a=1, b=6, c=5<br>$x = \\frac{-6 \\pm \\sqrt{6^2 - 4(1)(5)}}{2(1)} = \\frac{-6 \\pm \\sqrt{36-20}}{2} = \\frac{-6 \\pm \\sqrt{16}}{2} = \\frac{-6 \\pm 4}{2}$<br><b>Roots: x = -1, x = -5</b><br><br><b>(2) $x^2 - 3x - 2 = 0$</b><br>a=1, b=-3, c=-2<br>$x = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(1)(-2)}}{2(1)} = \\frac{3 \\pm \\sqrt{9+8}}{2} = \\frac{3 \\pm \\sqrt{17}}{2}$<br><b>Roots: x = $\\frac{3 + \\sqrt{17}}{2}$, x = $\\frac{3 - \\sqrt{17}}{2}$</b><br><br><b>(3) $3m^2 + 2m - 7 = 0$</b><br>a=3, b=2, c=-7<br>$m = \\frac{-2 \\pm \\sqrt{2^2 - 4(3)(-7)}}{2(3)} = \\frac{-2 \\pm \\sqrt{4+84}}{6} = \\frac{-2 \\pm \\sqrt{88}}{6} = \\frac{-2 \\pm 2\\sqrt{22}}{6} = \\frac{-1 \\pm \\sqrt{22}}{3}$<br><b>Roots: m = $\\frac{-1 + \\sqrt{22}}{3}$, m = $\\frac{-1 - \\sqrt{22}}{3}$</b><br><br><b>(4) $5m^2 - 4m - 2 = 0$</b><br>a=5, b=-4, c=-2<br>$m = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(5)(-2)}}{2(5)} = \\frac{4 \\pm \\sqrt{16+40}}{10} = \\frac{4 \\pm \\sqrt{56}}{10} = \\frac{4 \\pm 2\\sqrt{14}}{10} = \\frac{2 \\pm \\sqrt{14}}{5}$<br><b>Roots: m = $\\frac{2 + \\sqrt{14}}{5}$, m = $\\frac{2 - \\sqrt{14}}{5}$</b><br><br><b>(5) $y^2 + \\frac{1}{3}y = 2$</b><br>Rearrange and clear fraction: $3y^2 + y = 6 \\implies 3y^2 + y - 6 = 0$.<br>a=3, b=1, c=-6<br>$y = \\frac{-1 \\pm \\sqrt{1^2 - 4(3)(-6)}}{2(3)} = \\frac{-1 \\pm \\sqrt{1+72}}{6} = \\frac{-1 \\pm \\sqrt{73}}{6}$<br><b>Roots: y = $\\frac{-1 + \\sqrt{73}}{6}$, y = $\\frac{-1 - \\sqrt{73}}{6}$</b><br><br><b>(6) $5x^2 + 13x + 8 = 0$</b><br>a=5, b=13, c=8<br>$x = \\frac{-13 \\pm \\sqrt{13^2 - 4(5)(8)}}{2(5)} = \\frac{-13 \\pm \\sqrt{169-160}}{10} = \\frac{-13 \\pm \\sqrt{9}}{10} = \\frac{-13 \\pm 3}{10}$<br><b>Roots: x = -1, x = -8/5</b>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "With the help of the flow chart given below solve the equation $x^2 + 2\\sqrt{3}x + 3 = 0$ using the formula. (Practice Set 2.4)<br><b>Flow Chart:</b><br>[Compare equations $x^2 + 2\\sqrt{3}x + 3 = 0$ and $ax^2+bx+c=0$ find the values of a,b,c.] -> [Find value of $b^2-4ac$] -> [Write formula to solve quadratic equation.] -> [Substitute values of a,b,c and find roots.]",
+    "answer": "<b>Step 1: Compare equations and find a, b, c.</b><br>Comparing $x^2 + 2\\sqrt{3}x + 3 = 0$ with the general form $ax^2+bx+c=0$, we get:<br>* a = 1<br>* b = $2\\sqrt{3}$<br>* c = 3<br><br><b>Step 2: Find the value of the discriminant, $b^2-4ac$.</b><br>$b^2 - 4ac = (2\\sqrt{3})^2 - 4(1)(3)$<br>$= (4 \\times 3) - 12$<br>$= 12 - 12 = 0$<br><br><b>Step 3: Write the formula to solve the quadratic equation.</b><br>The quadratic formula is: $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$<br><br><b>Step 4: Substitute the values and find the roots.</b><br>$x = \\frac{-2\\sqrt{3} \\pm \\sqrt{0}}{2(1)}$<br>$x = \\frac{-2\\sqrt{3}}{2}$<br>$x = -\\sqrt{3}$<br><br>Since the discriminant is 0, the equation has real and equal roots.<br><br><b>Solution:</b><br>The roots of the equation are <b>$-\\sqrt{3}, -\\sqrt{3}$</b>.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Fill in the gaps and complete. (Practice Set 2.5)<br>(1) Quadratic Equation: $ax^2+bx+c=0$. If $b^2-4ac=5$, the nature of roots is ... . If $b^2-4ac=-5$, the nature of roots is ... .<br>(2) Sum of roots = -7, Product of roots = 5. The quadratic equation is $x^2 - (\\dots)x + (\\dots) = 0$.<br>(3) If $\\alpha, \\beta$ are roots of $2x^2-4x-3=0$, then $\\alpha+\\beta = \\dots$ and $\\alpha\\beta = \\dots$.",
+    "answer": "<b>(1) Nature of roots:</b><br>* If $b^2-4ac=5$ (which is > 0), the nature of roots is <b>Real and Unequal</b>.<br>* If $b^2-4ac=-5$ (which is < 0), the nature of roots is <b>Not Real</b>.<br><br><b>(2) Forming the equation:</b><br>The quadratic equation is $x^2 - (\\text{Sum of roots})x + (\\text{Product of roots}) = 0$.<br>$x^2 - (-7)x + (5) = 0$<br>$x^2 + 7x + 5 = 0$<br><b>Blanks:</b> $x^2 - (-7)x + (5) = 0$<br><br><b>(3) Finding sum and product of roots:</b><br>For the equation $2x^2-4x-3=0$, we have a=2, b=-4, c=-3.<br>* Sum of roots: $\\alpha+\\beta = -b/a = -(-4)/2 = 2$.<br>* Product of roots: $\\alpha\\beta = c/a = -3/2$.<br><b>Blanks:</b> $\\alpha+\\beta = 2$, $\\alpha\\beta = -3/2$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Find the value of the discriminant. (Practice Set 2.5)<br>(1) $x^2+7x-1=0$<br>(2) $2y^2-5y+10=0$<br>(3) $\\sqrt{2}x^2+4x+2\\sqrt{2}=0$",
+    "answer": "<b>Discriminant Formula: $\\Delta = b^2 - 4ac$</b><br><br><b>(1) $x^2+7x-1=0$</b><br>a=1, b=7, c=-1<br>$\\Delta = (7)^2 - 4(1)(-1) = 49 + 4 = 53$.<br><br><b>(2) $2y^2-5y+10=0$</b><br>a=2, b=-5, c=10<br>$\\Delta = (-5)^2 - 4(2)(10) = 25 - 80 = -55$.<br><br><b>(3) $\\sqrt{2}x^2+4x+2\\sqrt{2}=0$</b><br>a=$\\sqrt{2}$, b=4, c=$2\\sqrt{2}$<br>$\\Delta = (4)^2 - 4(\\sqrt{2})(2\\sqrt{2}) = 16 - 8(2) = 16 - 16 = 0$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Determine the nature of roots of the following quadratic equations. (Practice Set 2.5)<br>(1) $x^2-4x+4=0$<br>(2) $2y^2-7y+2=0$<br>(3) $m^2+2m+9=0$",
+    "answer": "The nature of the roots is determined by the discriminant, $\\Delta = b^2 - 4ac$.<br>* If $\\Delta > 0$, roots are real and unequal.<br>* If $\\Delta = 0$, roots are real and equal.<br>* If $\\Delta < 0$, roots are not real.<br><br><b>(1) $x^2-4x+4=0$</b><br>$\\Delta = (-4)^2 - 4(1)(4) = 16 - 16 = 0$.<br><b>Nature of roots: Real and equal.</b><br><br><b>(2) $2y^2-7y+2=0$</b><br>$\\Delta = (-7)^2 - 4(2)(2) = 49 - 16 = 33$.<br>Since $\\Delta > 0$, the <b>nature of roots is Real and unequal.</b><br><br><b>(3) $m^2+2m+9=0$</b><br>$\\Delta = (2)^2 - 4(1)(9) = 4 - 36 = -32$.<br>Since $\\Delta < 0$, the <b>nature of roots is Not real.</b>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Form the quadratic equation from the roots given below. (Practice Set 2.5)<br>(1) 0 and 4<br>(2) 3 and -10<br>(3) $\\frac{1}{2}$ and $-\\frac{1}{2}$<br>(4) $2-\\sqrt{5}$ and $2+\\sqrt{5}$",
+    "answer": "<b>Formula: $x^2 - (\\alpha + \\beta)x + \\alpha\\beta = 0$, where $\\alpha$ and $\\beta$ are the roots.</b><br><br><b>(1) Roots: 0 and 4</b><br>Sum of roots ($\\alpha+\\beta$) = 0 + 4 = 4<br>Product of roots ($\\alpha\\beta$) = 0 * 4 = 0<br>Equation: $x^2 - 4x + 0 = 0 \\implies x^2 - 4x = 0$.<br><br><b>(2) Roots: 3 and -10</b><br>Sum of roots = 3 + (-10) = -7<br>Product of roots = 3 * (-10) = -30<br>Equation: $x^2 - (-7)x + (-30) = 0 \\implies x^2 + 7x - 30 = 0$.<br><br><b>(3) Roots: $\\frac{1}{2}$ and $-\\frac{1}{2}$</b><br>Sum of roots = $\\frac{1}{2} + (-\\frac{1}{2}) = 0$<br>Product of roots = $(\\frac{1}{2}) * (-\\frac{1}{2}) = -\\frac{1}{4}$<br>Equation: $x^2 - 0x + (-\\frac{1}{4}) = 0 \\implies x^2 - \\frac{1}{4} = 0 \\implies 4x^2 - 1 = 0$.<br><br><b>(4) Roots: $2-\\sqrt{5}$ and $2+\\sqrt{5}$</b><br>Sum of roots = $(2-\\sqrt{5}) + (2+\\sqrt{5}) = 4$<br>Product of roots = $(2-\\sqrt{5})(2+\\sqrt{5}) = 2^2 - (\\sqrt{5})^2 = 4 - 5 = -1$<br>Equation: $x^2 - 4x + (-1) = 0 \\implies x^2 - 4x - 1 = 0$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Sum of the roots of a quadratic equation is double their product. Find k if the equation is $x^2 - 4kx + k + 3 = 0$. (Practice Set 2.5)",
+    "answer": "<b>Step 1: Identify a, b, and c.</b><br>For the equation $x^2 - 4kx + k + 3 = 0$, we have:<br>  a = 1<br>  b = -4k<br>  c = k + 3<br><br><b>Step 2: Find the sum and product of the roots in terms of k.</b><br>Let the roots be $\\alpha$ and $\\beta$.<br>Sum of roots: $\\alpha + \\beta = -b/a = -(-4k)/1 = 4k$<br>Product of roots: $\\alpha\\beta = c/a = (k+3)/1 = k+3$<br><br><b>Step 3: Apply the given condition.</b><br>The problem states that the sum of the roots is double their product:<br>  $\\alpha + \\beta = 2(\\alpha\\beta)$<br><br><b>Step 4: Substitute the expressions from Step 2 and solve for k.</b><br>  $4k = 2(k+3)$<br>  $4k = 2k + 6$<br>  $4k - 2k = 6$<br>  $2k = 6$<br>  $k = 3$<br><br><b>Solution:</b> The value of k is 3.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "If $\\alpha, \\beta$ are roots of $y^2-2y-7=0$, find,<br>(1) $\\alpha^2 + \\beta^2$<br>(2) $\\alpha^3 + \\beta^3$ (Practice Set 2.5)",
+    "answer": "<b>Step 1: Find the sum and product of the roots from the equation.</b><br>For $y^2-2y-7=0$, we have a=1, b=-2, c=-7.<br>Sum of roots: $\\alpha + \\beta = -b/a = -(-2)/1 = 2$<br>Product of roots: $\\alpha\\beta = c/a = -7/1 = -7$<br><br><b>(1) Find $\\alpha^2 + \\beta^2$</b><br>We use the identity: $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta$<br>Substitute the values from Step 1:<br>$\\alpha^2 + \\beta^2 = (2)^2 - 2(-7) = 4 - (-14) = 4 + 14 = 18$.<br><br><b>(2) Find $\\alpha^3 + \\beta^3$</b><br>We use the identity: $\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta)$<br>Substitute the values from Step 1:<br>$\\alpha^3 + \\beta^3 = (2)^3 - 3(-7)(2) = 8 - (-42) = 8 + 42 = 50$.<br><br><b>Solution:</b><br>(1) $\\alpha^2 + \\beta^2 = 18$<br>(2) $\\alpha^3 + \\beta^3 = 50$",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "The roots of each of the following quadratic equations are real and equal, find k.<br>(1) $3y^2+ky+12=0$<br>(2) $kx(x-2)+6=0$ (Practice Set 2.5)",
+    "answer": "<b>Condition for Real and Equal Roots:</b><br>The roots of a quadratic equation are real and equal if the discriminant ($\\Delta = b^2 - 4ac$) is equal to zero.<br><br><b>(1) $3y^2+ky+12=0$</b><br>Here, a=3, b=k, c=12.<br>Set the discriminant to zero:<br>$\\Delta = k^2 - 4(3)(12) = 0$<br>$k^2 - 144 = 0$<br>$k^2 = 144$<br>$k = \\pm \\sqrt{144}$<br><b>k = 12 or k = -12</b><br><br><b>(2) $kx(x-2)+6=0$</b><br>First, expand the equation to get the standard form:<br>$kx^2 - 2kx + 6 = 0$<br>Here, a=k, b=-2k, c=6.<br>Set the discriminant to zero:<br>$\\Delta = (-2k)^2 - 4(k)(6) = 0$<br>$4k^2 - 24k = 0$<br>Factor out 4k:<br>$4k(k - 6) = 0$<br>This gives two possible solutions: $4k=0 \\implies k=0$ or $k-6=0 \\implies k=6$.<br>If k=0, the equation becomes $6=0$, which is not a quadratic equation. Therefore, we discard k=0.<br><b>k = 6</b>",
+    "marks": 3
   }
 ]

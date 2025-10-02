@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "When people come together and form an organisation to achieve political power, such organisations are called _______.",
+    "options": [
+      "Social organisations",
+      "Political parties",
+      "Non-governmental organisations",
+      "Pressure groups"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> A political party is a group of people who come together to contest elections and hold power in the government. They agree on some policies and programmes for the society with a view to promoting the collective good. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a characteristic of a political party?",
+    "options": [
+      "To be in power",
+      "To pursue an ideology",
+      "To have a party agenda",
+      "To work only for social service"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> While political parties may engage in social service, their primary objective is to capture political power by contesting elections. The other three options are key characteristics of a political party. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The _______ was formed in 1885 with the objective of gaining independence for India.",
+    "options": [
+      "Bharatiya Janata Party",
+      "Communist Party of India",
+      "Indian National Congress",
+      "Bahujan Samaj Party"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Indian National Congress was founded in 1885, and it played a central role in India's struggle for independence from British rule. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The party that has a 'Lotus' as its election symbol is the _______.",
+    "options": [
+      "Indian National Congress",
+      "Bharatiya Janata Party",
+      "Nationalist Congress Party",
+      "Trinamool Congress"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The election symbol of the Bharatiya Janata Party (BJP), one of the two major national parties in India, is the Lotus. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The political system in which only one party has a realistic chance of winning and forming the government is called a _______ system.",
+    "options": [
+      "One-party",
+      "Two-party",
+      "Multi-party",
+      "No-party"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> A one-party system is a system where a single political party holds power and no other parties are permitted to run candidates for election. China is a modern example. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Shiv Sena is a prominent regional party in the state of _______.",
+    "options": [
+      "Gujarat",
+      "Punjab",
+      "Maharashtra",
+      "Tamil Nadu"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Shiv Sena was established in 1966 with the objective of protecting the rights of Marathi people and promoting Marathi language. It is a major political force in Maharashtra. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following acts as a link between the government and the people?",
+    "options": [
+      "The Judiciary",
+      "The Bureaucracy",
+      "Political Parties",
+      "The President"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Political parties communicate the demands and grievances of the people to the government. They also inform the public about the policies and schemes of the government, thus acting as a vital link. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A government formed by an alliance of two or more political parties is known as a _______ government.",
+    "options": [
+      "Unitary",
+      "Majority",
+      "Coalition",
+      "Presidential"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> When no single party gets a clear majority in an election, several parties come together to form a government. This type of government is called a coalition government. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are political parties?",
+    "answer": "A political party is a group of people who come together with a common ideology and agenda, with the aim of contesting elections, winning power, and forming the government.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the main components of a political party?",
+    "answer": "A political party has three main components:<br>1. <b>The Leaders:</b> Who formulate policies and choose candidates.<br>2. <b>The Active Members:</b> Who are involved in different party activities.<br>3. <b>The Followers:</b> Who believe in the party's ideology and vote for it.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between a national party and a regional party?",
+    "answer": "A <b>national party</b> has influence all over the country or in several states and works on national issues. <br>A <b>regional party</b> has its influence limited to a particular state or region and focuses primarily on regional issues and the interests of that region.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Indian National Congress - 1885<br>2. Bharatiya Janata Party - 1980<br>3. Communist Party of India (Marxist) - 1925<br>4. Shiv Sena - 1966",
+    "answer": "<b>Wrong Pair:</b> Communist Party of India (Marxist) - 1925<br><b>Corrected Pair:</b> Communist Party of India (Marxist) - 1964 (The Communist Party of India was formed in 1925, but the Marxist faction split in 1964).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Shiv Sena, Akali Dal, Trinamool Congress, Bharatiya Janata Party.",
+    "answer": "<b>Bharatiya Janata Party.</b><br><b>Reason:</b> Shiv Sena, Akali Dal, and Trinamool Congress are recognized as regional parties (though Trinamool Congress has national party status, its influence is concentrated). The Bharatiya Janata Party is a major national party.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Congress : Hand :: BJP : _______.",
+    "answer": "<b>Lotus.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: One-Party System : China :: Two-Party System : _______.",
+    "answer": "<b>USA / UK.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the role of the opposition party?",
+    "answer": "The opposition party plays a crucial role in a democracy by keeping a check on the ruling party. It criticizes the wrong policies of the government, raises questions in the legislature, and provides an alternative choice to the voters.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the characteristics of a political party?",
+    "answer": "The key characteristics of a political party are:<br>1. <b>To be in Power:</b> The primary goal is to achieve power through elections.<br>2. <b>Ideology:</b> Every party is based on a particular ideology or a set of ideas about society and governance.<br>3. <b>Party Agenda:</b> They have a specific agenda or a set of policies which they promise to implement if they come to power.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by a 'coalition government'?",
+    "answer": "A coalition government is a form of government in which political parties cooperate to form a government. This usually happens when no single party gets a clear majority of seats in an election. The parties in the coalition form a cabinet and govern together.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the major functions of political parties in a democracy.",
+    "answer": "Political parties perform several essential functions in a democracy:<br>1. <b>To Contest Elections:</b> The main function of parties is to contest elections by putting up candidates and trying to win the people's mandate.<br>2. <b>To Form and Run the Government:</b> The party that wins a majority in the elections forms the government and runs the country according to its policies and ideology.<br>3. <b>To Act as a Link:</b> Parties act as a link between the government and the people. They convey the problems and demands of the people to the government and also inform the people about the government's schemes.<br>4. <b>To Shape Public Opinion:</b> They raise and highlight important public issues, which helps in shaping public opinion.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What criteria are set by the Election Commission for a party to be recognised as a 'National Party'?",
+    "answer": "The Election Commission has laid down specific criteria for a political party to be recognised as a National Party. A party has to fulfill any one of the following conditions:<br>1. The party should win at least 6% of the valid votes in four or more states in a Lok Sabha or Assembly election, and win at least 4 seats in the Lok Sabha from any state or states.<br>OR<br>2. The party should win at least 2% of the total seats in the Lok Sabha (i.e., 11 seats) from at least three different states.<br>OR<br>3. The party is recognised as a State Party in at least four states.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the Indian National Congress.",
+    "answer": "The Indian National Congress, founded in 1885, is one of the oldest political parties in India.<br>1. <b>Role in Freedom Struggle:</b> It was at the forefront of India's struggle for independence from British rule.<br>2. <b>Post-Independence Dominance:</b> After independence, it was the most dominant party in Indian politics for several decades, both at the Centre and in many states.<br>3. <b>Ideology:</b> The party supports secularism, all-round development, equal rights, and welfare for minorities and disadvantaged sections of society.<br>4. <b>Policies:</b> It advocates policies based on democratic socialism and believes in a planned economy and social justice.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the Bharatiya Janata Party (BJP).",
+    "answer": "The Bharatiya Janata Party (BJP) is a major national political party in India.<br>1. <b>Formation:</b> The BJP was formed in 1980, emerging from the earlier Bharatiya Jana Sangh.<br>2. <b>Ideology:</b> The party's ideology is based on 'Hindutva' or cultural nationalism. It also advocates for 'Integral Humanism', which emphasizes a holistic approach to human development.<br>3. <b>Key Policies:</b> The party stands for the protection of India's ancient culture and values. It favors economic reforms and a strong national defense policy.<br>4. <b>Rise to Power:</b> The party gained prominence in the 1990s and has formed the government at the Centre several times since then.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the changing nature of the party system in India.",
+    "answer": "The party system in India has undergone significant changes since independence.<br>1. <b>One-Party Dominant System:</b> In the first few decades after independence (approx. 1947-1977), the Indian National Congress was the dominant party, winning a majority in most elections at the Centre and in the states. This was known as the 'Congress System'.<br>2. <b>End of One-Party Dominance:</b> The dominance of the Congress was challenged in the 1977 elections. After the 1989 Lok Sabha elections, the system of one-party rule came to an end.<br>3. <b>Era of Coalition Politics:</b> Since 1989, no single party has consistently secured a clear majority on its own. This has led to the emergence of coalition governments, where several parties, including regional parties, come together to form the government.<br>4. <b>Rise of Regional Parties:</b> The importance of regional parties has increased significantly, and they play a key role in forming coalition governments at the national level.",
+    "marks": 4
+  }
+]
+

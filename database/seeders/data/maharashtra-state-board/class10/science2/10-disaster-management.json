@@ -1,0 +1,245 @@
+[
+  {
+    "type": "mcq",
+    "text": "A sudden calamitous event that brings great damage, loss, or destruction is called a _______.",
+    "options": [
+      "hazard",
+      "risk",
+      "disaster",
+      "mock drill"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> A disaster is a serious disruption of the functioning of a community or a society involving widespread human, material, economic or environmental losses and impacts, which exceeds the ability of the affected community to cope using its own resources. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a man-made disaster?",
+    "options": [
+      "Earthquake",
+      "Flood",
+      "Cyclone",
+      "Bomb blast"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Earthquakes, floods, and cyclones are natural disasters. A bomb blast is a result of human actions, making it a man-made disaster. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The practice drill conducted to check the preparedness for a disaster is called a _______.",
+    "options": [
+      "first aid",
+      "rehabilitation",
+      "mock drill",
+      "mitigation"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> A mock drill is a practice exercise that simulates a disaster scenario to train personnel and test the effectiveness of disaster management plans and response mechanisms. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a geological disaster?",
+    "options": [
+      "Tsunami",
+      "Cyclone",
+      "Forest fire",
+      "Flood"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Geological disasters are caused by processes originating from the solid earth. A tsunami is a series of large waves caused by underwater earthquakes or volcanic eruptions. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The immediate help given to a victim before medical help arrives is known as _______.",
+    "options": [
+      "rehabilitation",
+      "response",
+      "first aid",
+      "preparedness"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> First aid is the first and immediate assistance given to any person suffering from either a minor or serious illness or injury, with care provided to preserve life, prevent the condition from worsening, or to promote recovery. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phase of disaster management that focuses on reducing the impact of a disaster is _______.",
+    "options": [
+      "preparedness",
+      "response",
+      "recovery",
+      "mitigation"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Mitigation refers to actions taken to lessen or reduce the severity and impact of a future disaster. Examples include building earthquake-resistant structures or planting mangroves to reduce cyclone impact. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which authority is responsible for disaster management at the national level in India?",
+    "options": [
+      "DDMA",
+      "SDMA",
+      "NDMA",
+      "NDRF"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The National Disaster Management Authority (NDMA) is the apex body for disaster management in India, with the Prime Minister as its chairperson. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Poisoning, bomb blasts, and accidents are examples of _______ disasters.",
+    "options": [
+      "natural",
+      "geological",
+      "atmospheric",
+      "man-made"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> These events are caused directly by human intent or negligence, and therefore are classified as man-made disasters. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is a disaster?",
+    "answer": "A disaster is a sudden, calamitous event that seriously disrupts the functioning of a community or society and causes human, material, and economic or environmental losses that exceed the community's or society's ability to cope using its own resources.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the two main types of disasters?",
+    "answer": "The two main types of disasters are:<br>1. <b>Natural Disasters:</b> Events caused by natural processes of the Earth (e.g., earthquakes, floods, cyclones).<br>2. <b>Man-made Disasters:</b> Events caused by human activities (e.g., industrial accidents, bomb blasts, wars).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the main objective of first aid?",
+    "answer": "The main objective of first aid is to provide immediate care to a victim to preserve life, prevent the condition from worsening, and promote recovery until professional medical help arrives.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Earthquake, Flood, War, Tsunami.",
+    "answer": "<b>War.</b><br><b>Reason:</b> Earthquake, flood, and tsunami are natural disasters. War is a man-made disaster.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Preparedness, Response, First Aid, Recovery.",
+    "answer": "<b>First Aid.</b><br><b>Reason:</b> Preparedness, Response, and Recovery are phases of the disaster management cycle. First aid is a specific action performed during the response phase.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: National Level : NDMA :: District Level : _______.",
+    "answer": "<b>DDMA (District Disaster Management Authority).</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Flood : Hydrological :: Forest Fire : _______.",
+    "answer": "<b>Ecological / Environmental.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is meant by the 'disaster management cycle'?",
+    "answer": "The disaster management cycle is a continuous process by which all individuals, groups, and communities manage hazards in an effort to avoid or ameliorate the impact of disasters. It consists of three main phases: pre-disaster (prevention, mitigation, preparedness), during disaster (response), and post-disaster (recovery, rehabilitation, reconstruction).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the objectives of disaster management? (PYQ: March 2020)",
+    "answer": "The main objectives of disaster management are:<br>1. To save human life and provide help to victims.<br>2. To reduce the impact and severity of disasters.<br>3. To ensure rapid and effective rescue and relief operations.<br>4. To achieve rapid recovery and rehabilitation of the affected community.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the importance of a mock drill?",
+    "answer": "A mock drill is important because it helps to:<br>1. Evaluate the effectiveness of a disaster management plan.<br>2. Train response teams and the community on their roles and responsibilities during a disaster.<br>3. Identify gaps and weaknesses in preparedness, which can then be improved.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What immediate actions should be taken during an earthquake?",
+    "answer": "During an earthquake, one should:<br>1. If indoors, follow the 'Drop, Cover, and Hold on' procedure. Get under a sturdy table and hold on to it. Stay away from windows and heavy objects.<br>2. If outdoors, move to an open area away from buildings, trees, and power lines.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the 'ABC's of First Aid'?",
+    "answer": "The 'ABC' of First Aid is a primary assessment protocol to check a victim's vital signs:<br><b>A for Airway:</b> Check if the person's airway is clear of any obstructions.<br><b>B for Breathing:</b> Check if the person is breathing.<br><b>C for Circulation:</b> Check for a pulse to see if the heart is beating.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the role of the NDRF?",
+    "answer": "The National Disaster Response Force (NDRF) is a specialized force constituted for the purpose of specialist response to a threatening disaster situation or disaster. Its main role is to conduct search, rescue, and relief operations during a disaster.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Give two examples of atmospheric disasters.",
+    "answer": "Two examples of atmospheric disasters are:<br>1. Cyclones (Hurricanes/Typhoons)<br>2. Tornadoes",
+    "marks": 1
+  },
+   {
+    "type": "short",
+    "text": "What are the long-term effects of a disaster on a society?",
+    "answer": "The long-term effects of a disaster include:<br>1. <b>Economic Impact:</b> Damage to infrastructure, loss of livelihoods, and disruption of economic activities.<br>2. <b>Psychological Impact:</b> Survivors may suffer from long-term mental trauma, stress, and anxiety.<br>3. <b>Social Impact:</b> Displacement of communities and loss of social fabric.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the difference between a hazard and a disaster?",
+    "answer": "A <b>hazard</b> is a potential source of harm or an event with the potential to cause loss. For example, living in an earthquake-prone area is a hazard.<br>A <b>disaster</b> is the actual event where the hazard is realized and causes significant damage and loss that exceeds the community's capacity to cope.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the structure of the Disaster Management Authority in India.",
+    "answer": "The Disaster Management Authority in India has a three-tier structure:<br>1. <b>National Disaster Management Authority (NDMA):</b> This is the apex body at the national level, chaired by the Prime Minister. It is responsible for laying down the policies, plans, and guidelines for disaster management for the entire country.<br>2. <b>State Disaster Management Authority (SDMA):</b> This body operates at the state level and is headed by the Chief Minister of the respective state. It is responsible for implementing the national policies and preparing the state-level disaster management plan.<br>3. <b>District Disaster Management Authority (DDMA):</b> This body functions at the district level and is headed by the District Collector/Magistrate. It is responsible for planning, coordinating, and implementing disaster management activities at the district level.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is meant by 'Post-disaster Management'? What are its main components?",
+    "answer": "Post-disaster management refers to the phase of activities that are carried out immediately after a disaster strikes. The goal is to provide immediate relief and to help the community return to a normal or even better state than before the disaster.<br><br><b>Its main components are:</b><br>1. <b>Response:</b> Immediate actions to save lives, provide first aid, and meet the basic subsistence needs of the people affected. This includes search and rescue operations.<br>2. <b>Recovery and Rehabilitation:</b> Helping individuals and communities to get back on their feet. This includes providing temporary housing, financial assistance, and psychological counseling.<br>3. <b>Reconstruction:</b> The long-term process of rebuilding the damaged physical infrastructure (like homes, roads, hospitals) and restoring the economy. The aim is to 'Build Back Better' by making the infrastructure more disaster-resilient.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is first aid? What basic principles should be followed while giving it?",
+    "answer": "First aid is the immediate assistance provided to a person suffering from a sudden illness or injury, until full medical treatment is available.<br><br><b>Basic Principles (DRSABCD action plan):</b><br>1. <b>D - Danger:</b> First, check for any danger to yourself, bystanders, and the victim.<br>2. <b>R - Response:</b> Check if the victim is conscious. Ask questions or gently shake their shoulders.<br>3. <b>S - Send for help:</b> Call for medical assistance (ambulance, doctor) immediately.<br>4. <b>A - Airway:</b> Check the victim's airway and clear any obstructions.<br>5. <b>B - Breathing:</b> Check if the victim is breathing normally.<br>6. <b>C - CPR:</b> If the victim is not breathing, start Cardiopulmonary Resuscitation (CPR).<br>7. <b>D - Defibrillation:</b> If available, apply an automated external defibrillator (AED).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of students in disaster management.",
+    "answer": "Students can play a very important role in disaster management, both before and after a disaster.<br><b>Before a Disaster (Preparedness):</b><br>1. Gaining knowledge about different types of disasters and their mitigation measures.<br>2. Participating in awareness campaigns and mock drills in their school and community.<br>3. Helping their family to prepare a disaster emergency kit and an evacuation plan.<br><br><b>After a Disaster (Response and Recovery):</b><br>1. Providing help in rescue and relief operations according to their capacity.<br>2. Assisting in relief camps by distributing food, water, and clothes.<br>3. Providing emotional support to the victims, especially children.<br>4. Helping to spread correct information and preventing the spread of rumors.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the causes and effects of floods.",
+    "answer": "Floods are a natural disaster characterized by an overflow of a large amount of water beyond its normal limits, especially over what is normally dry land.<br><br><b>Causes of Floods:</b><br>1. <b>Heavy Rainfall:</b> Prolonged and excessive rainfall is the most common cause.<br>2. <b>Overflowing Rivers:</b> When rivers cannot contain the high volume of water within their banks.<br>3. <b>Dam Failures:</b> A sudden collapse of a dam can release a huge amount of water downstream.<br>4. <b>Cloudbursts:</b> An extreme amount of precipitation in a short period of time.<br>5. <b>Deforestation:</b> Removal of forests reduces the soil's capacity to absorb water, leading to faster runoff.<br><br><b>Effects of Floods:</b><br>1. Loss of human and animal life.<br>2. Widespread damage to property, infrastructure, and crops.<br>3. Outbreak of water-borne diseases like cholera and typhoid due to contaminated water.<br>4. Soil erosion, which reduces soil fertility.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What first aid would you provide to a person with severe bleeding?",
+    "answer": "For a person with severe bleeding, the following first aid steps should be taken:<br>1. <b>Ensure Safety:</b> Make sure the area is safe. Wear protective gloves if available to avoid infection.<br>2. <b>Call for Help:</b> Immediately call for an ambulance or medical help.<br>3. <b>Apply Direct Pressure:</b> Place a clean cloth or sterile dressing over the wound and apply firm and continuous pressure with your palm. This is the most important step to stop the bleeding.<br>4. <b>Elevate the Wound:</b> If the bleeding is from a limb (arm or leg), and there is no fracture, raise it above the level of the heart. This uses gravity to help reduce blood flow to the area.<br>5. <b>Keep the Victim Warm:</b> Cover the person with a blanket to prevent shock.<br>6. <b>Do Not Remove the Dressing:</b> If blood soaks through the dressing, do not remove it. Add another dressing on top of the first one and continue to apply pressure.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is meant by 'Pre-disaster Management'? What are its main components?",
+    "answer": "Pre-disaster management includes all the actions and measures taken before a disaster occurs, with the aim of reducing its impact and being ready to face it effectively. It is a proactive approach to disaster management.<br><br><b>Its main components are:</b><br>1. <b>Prevention:</b> Taking steps to ensure that a disaster does not happen at all, if possible. (e.g., preventing a fire by having strict fire safety codes).<br>2. <b>Mitigation:</b> These are measures taken to reduce the severity and impact of a disaster if it cannot be prevented. (e.g., building earthquake-resistant buildings, planting trees to prevent soil erosion).<br>3. <b>Preparedness:</b> This involves planning, training, and educational activities to ensure that people are ready to respond effectively when a disaster strikes. (e.g., preparing an emergency kit, conducting mock drills, setting up warning systems).",
+    "marks": 4
+  }
+]
+

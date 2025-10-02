@@ -1,0 +1,343 @@
+[
+  {
+    "type": "mcq",
+    "text": "The process of glycolysis occurs in the _______.",
+    "options": [
+      "cytoplasm",
+      "mitochondria",
+      "nucleus",
+      "chloroplast"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Glycolysis is the first step in cellular respiration and it takes place in the cytoplasm of the cell. It does not require oxygen. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "At the end of glycolysis, _______ molecules are obtained.",
+    "options": [
+      "pyruvic acid",
+      "glucose",
+      "citric acid",
+      "lactic acid"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> During glycolysis, one molecule of glucose is broken down into two molecules of pyruvic acid, along with ATP, NADH₂, and water. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Krebs cycle is also known as the _______.",
+    "options": [
+      "citric acid cycle",
+      "glycolysis cycle",
+      "carbon cycle",
+      "fermentation cycle"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> The Krebs cycle is also called the Tricarboxylic Acid (TCA) cycle or the citric acid cycle because citric acid is the first stable compound formed in the cycle. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is called the 'energy currency' of the cell?",
+    "options": [
+      "ADP",
+      "ATP",
+      "NADH₂",
+      "FADH₂"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> ATP (Adenosine Triphosphate) is an energy-rich molecule that stores energy in its phosphate bonds. This stored energy is used to carry out various cellular activities, hence it is called the energy currency. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "During excessive exercise, we feel tired due to the accumulation of _______ in our muscles.",
+    "options": [
+      "pyruvic acid",
+      "citric acid",
+      "lactic acid",
+      "alcohol"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> When there is a shortage of oxygen during strenuous physical activity, muscle cells perform anaerobic respiration, converting pyruvic acid into lactic acid. The accumulation of lactic acid causes muscle fatigue. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Amino acids are obtained after the digestion of which nutrient?",
+    "options": [
+      "Carbohydrates",
+      "Lipids",
+      "Proteins",
+      "Vitamins"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Proteins are complex macromolecules made up of long chains of amino acids. Digestion breaks down these proteins into their constituent amino acids. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Mitosis occurs in _______ cells.",
+    "options": [
+      "somatic",
+      "germ",
+      "gamete",
+      "both somatic and germ"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Mitosis is a type of cell division that occurs in somatic (body) cells and stem cells. It is essential for growth and repair of the body. Germ cells undergo meiosis. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In meiosis, the number of chromosomes in the daughter cells becomes _______.",
+    "options": [
+      "the same",
+      "double",
+      "half",
+      "four times"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Meiosis is a reductional division. A diploid (2n) parent cell divides to form four haploid (n) daughter cells, where the chromosome number is halved. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pairing of homologous chromosomes occurs during which phase of meiosis?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase I",
+      "Prophase II"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> In Prophase I of meiosis, homologous chromosomes pair up (synapsis) and genetic recombination (crossing over) occurs between non-sister chromatids. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "We get _______ energy per gram of lipid.",
+    "options": [
+      "4 kcal",
+      "9 kcal",
+      "2 kcal",
+      "6 kcal"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Lipids are a high-energy food source, providing approximately 9 kcal of energy per gram. Carbohydrates and proteins provide about 4 kcal/gram. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Define Glycolysis. (PYQ: March 2020)",
+    "answer": "Glycolysis is the process of stepwise oxidation of one molecule of glucose into two molecules of pyruvic acid, ATP, NADH₂, and water, which occurs in the cytoplasm.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is fermentation?",
+    "answer": "Fermentation is a type of anaerobic respiration performed by microorganisms like yeast, where pyruvic acid is converted into alcohol or other organic acids.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are proteins made of?",
+    "answer": "Proteins are macromolecules formed by bonding together many smaller units called amino acids.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Which cell organelle is known as the 'powerhouse of the cell'?",
+    "answer": "The mitochondrion is known as the 'powerhouse of the cell' because it is the site of aerobic respiration where most of the ATP is generated.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Find the odd one out: Prophase, Metaphase, Interphase, Anaphase.",
+    "answer": "<b>Interphase.</b><br><b>Reason:</b> Prophase, Metaphase, and Anaphase are stages of karyokinesis (nuclear division) within mitosis or meiosis. Interphase is the preparatory phase of the cell cycle, not a part of the division itself.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the analogy: Somatic cells : Mitosis :: Germ cells : _______.",
+    "answer": "<b>Meiosis.</b>",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the analogy: Aerobic respiration : Mitochondria :: Glycolysis : _______.",
+    "answer": "<b>Cytoplasm.</b>",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Name the two types of cell division.",
+    "answer": "The two types of cell division are Mitosis and Meiosis.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the two main steps of aerobic respiration?",
+    "answer": "The two main steps of aerobic respiration are the Tricarboxylic Acid (Krebs) cycle and the Electron Transfer Chain reaction. (Both occur after glycolysis).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Distinguish between Aerobic and Anaerobic respiration.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Aerobic Respiration</th><th style='padding: 8px; text-align: left;'>Anaerobic Respiration</th></tr><tr><td style='padding: 8px;'>Occurs in the presence of oxygen.</td><td style='padding: 8px;'>Occurs in the absence of oxygen.</td></tr><tr><td style='padding: 8px;'>Takes place in mitochondria.</td><td style='padding: 8px;'>Takes place only in the cytoplasm.</td></tr><tr><td style='padding: 8px;'>End products are CO₂, H₂O, and a large amount of energy (38 ATP).</td><td style='padding: 8px;'>End products are alcohol or lactic acid, and a small amount of energy (2 ATP).</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Distinguish between Mitosis and Meiosis. (PYQ: March 2022)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Mitosis</th><th style='padding: 8px; text-align: left;'>Meiosis</th></tr><tr><td style='padding: 8px;'>Occurs in somatic cells.</td><td style='padding: 8px;'>Occurs in germ cells.</td></tr><tr><td style='padding: 8px;'>One parent cell gives rise to two daughter cells.</td><td style='padding: 8px;'>One parent cell gives rise to four daughter cells.</td></tr><tr><td style='padding: 8px;'>Chromosome number remains the same in daughter cells (diploid to diploid).</td><td style='padding: 8px;'>Chromosome number is halved in daughter cells (diploid to haploid).</td></tr><tr><td style='padding: 8px;'>Essential for growth and repair.</td><td style='padding: 8px;'>Essential for gamete formation.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Give a scientific reason: Oxygen is necessary for the complete oxidation of glucose.",
+    "answer": "Oxygen acts as the final electron acceptor in the Electron Transfer Chain (ETC), which is the last step of aerobic respiration. By accepting electrons, oxygen allows the chain to continue functioning, which leads to the formation of a large number of ATP molecules. Without oxygen, the ETC stops, and glucose is only partially oxidized through glycolysis, yielding far less energy.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Give a scientific reason: Sometimes, higher plants and animals also perform anaerobic respiration.",
+    "answer": "During certain conditions, like waterlogging for plants or strenuous physical activity for animals, the demand for oxygen exceeds the supply. In such situations of temporary oxygen depletion, cells switch to anaerobic respiration to produce a small amount of energy quickly. For example, animal muscle cells produce lactic acid, allowing them to function for a short period without sufficient oxygen.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat, labelled diagram of a mitochondrion.",
+    "answer": "[Image of a labelled diagram of a mitochondrion]<br><b>Labels should include:</b> Outer membrane, Inner membrane, Cristae, Matrix, Ribosomes, DNA.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on ATP.",
+    "answer": "ATP, or Adenosine Triphosphate, is known as the energy currency of the cell. It is a molecule composed of an adenine base, a ribose sugar, and three phosphate groups linked by high-energy bonds. When the cell needs energy, the terminal phosphate bond is broken, converting ATP into ADP (Adenosine Diphosphate) and releasing a large amount of energy. This energy is used to power various metabolic processes and cellular functions.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "How is energy obtained from Lipids?",
+    "answer": "Lipids are first broken down into fatty acids and glycerol. Fatty acids and glycerol are then converted into Acetyl-CoA. This Acetyl-CoA molecule then enters the Krebs cycle in the mitochondria, where it is completely oxidized to produce a large amount of energy in the form of ATP, NADH₂, and FADH₂.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is the importance of meiosis?",
+    "answer": "Meiosis is important for two main reasons:<br>1. <b>Gamete Formation:</b> It produces haploid gametes (sperms and eggs) which is essential for sexual reproduction.<br>2. <b>Genetic Variation:</b> The process of crossing over during Prophase I results in new combinations of genes, leading to genetic variation among offspring, which is crucial for evolution and adaptation.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the Kreb's cycle in brief. (PYQ: March 2019)",
+    "answer": "The Krebs cycle (or Tricarboxylic acid cycle) is the second major step of aerobic respiration, occurring in the mitochondrial matrix.<br>1. The two molecules of Acetyl-CoA produced from glycolysis enter the mitochondria.<br>2. The acetyl part of Acetyl-CoA combines with oxaloacetic acid to form citric acid, the first molecule of the cycle.<br>3. This is followed by a series of cyclic reactions where the acetyl part is completely oxidized.<br>4. In this process, molecules of CO₂, NADH₂, FADH₂, and ATP are generated. For every molecule of glucose, the cycle runs twice.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the Electron Transfer Chain (ETC) reaction.",
+    "answer": "The Electron Transfer Chain (ETC) is the final stage of aerobic respiration, which takes place on the inner mitochondrial membrane.<br>1. NADH₂ and FADH₂ molecules, formed during glycolysis and the Krebs cycle, participate in this reaction.<br>2. They donate high-energy electrons, which are passed along a series of protein complexes embedded in the inner membrane.<br>3. As electrons are transferred, energy is released, which is used to synthesize ATP molecules from ADP and inorganic phosphate (this is called oxidative phosphorylation).<br>4. At the end of the chain, electrons combine with protons and oxygen to form water molecules. A large amount of ATP is produced in this step.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "How is energy obtained from Proteins?",
+    "answer": "Proteins are digested into their building blocks, called amino acids. These amino acids are absorbed and transported to different cells. Depending on the body's needs, different amino acids are converted into intermediates like pyruvic acid or Acetyl-CoA. These intermediates then enter the pathways of cellular respiration. For example, Acetyl-CoA can enter the Krebs cycle to be completely oxidized for energy production.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Draw a flowchart showing the process of anaerobic respiration in living organisms.",
+    "answer": "<br><b>Flowchart Content:</b><br><b>Glucose (in Cytoplasm) → Glycolysis → Pyruvic Acid</b><br>Then, two branches:<br>1. <b>In Yeast (Fermentation):</b> Pyruvic Acid → Ethanol + CO₂ + Energy (2 ATP)<br>2. <b>In Muscle Cells / Erythrocytes:</b> Pyruvic Acid → Lactic Acid + Energy (2 ATP)",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Draw neat, labelled diagrams of the four stages of mitosis. (PYQ: July 2022)",
+    "answer": "<br>1. <b>Prophase:</b> Chromosomes condense and become visible, nuclear membrane starts to disappear, spindle fibers form.<br>2. <b>Metaphase:</b> Chromosomes align at the equatorial plane (metaphase plate).<br>3. <b>Anaphase:</b> Centromeres divide, and sister chromatids are pulled to opposite poles by spindle fibers.<br>4. <b>Telophase:</b> Chromosomes decondense, nuclear membranes reform around the two sets of chromosomes, cytoplasm begins to divide.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What happens to the pyruvic acid molecules formed during glycolysis? Explain with a flowchart.",
+    "answer": "The fate of pyruvic acid depends on the presence or absence of oxygen.<br><br><br><b>Flowchart Content:</b><br><b>Pyruvic Acid</b><br>Three branches:<br>1. <b>Anaerobic Respiration (Fermentation):</b> Pyruvic acid is converted to Ethanol and CO₂ (in yeast) or other organic acids.<br>2. <b>Anaerobic Respiration (In Muscles):</b> Pyruvic acid is converted to Lactic Acid.<br>3. <b>Aerobic Respiration:</b> Pyruvic acid is converted to Acetyl-Coenzyme A, which then enters the Krebs Cycle in the mitochondria.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of energy production through aerobic respiration of carbohydrates. (PYQ: March 2018)",
+    "answer": "Energy production from carbohydrates through aerobic respiration involves three main steps:<br><br>1. <b>Glycolysis:</b> This occurs in the cytoplasm. One molecule of glucose (a 6-carbon molecule) is broken down into two molecules of pyruvic acid (a 3-carbon molecule). In this process, there is a net gain of 2 ATP and 2 NADH₂ molecules.<br><br>2. <b>Tricarboxylic Acid (TCA) / Krebs Cycle:</b> This occurs in the mitochondria. The two pyruvic acid molecules are first converted into two molecules of Acetyl-CoA, releasing 2 NADH₂ and 2 CO₂. Each Acetyl-CoA then enters the Krebs cycle, where it is completely oxidized. The two turns of the cycle produce 4 CO₂, 6 NADH₂, 2 FADH₂, and 2 ATP.<br><br>3. <b>Electron Transfer Chain (ETC) Reaction:</b> This occurs on the inner mitochondrial membrane. The NADH₂ and FADH₂ molecules produced in the first two steps donate high-energy electrons. As these electrons pass through a chain of proteins, their energy is used to produce a large amount of ATP (about 34 ATP). Oxygen acts as the final electron acceptor, forming water. Thus, a single glucose molecule yields a total of about 38 ATP molecules.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Explain the two stages of Meiosis (Meiosis-I and Meiosis-II) with suitable diagrams.",
+    "answer": "[Image of the stages of Meiosis I and Meiosis II]<br>Meiosis is a two-stage cell division process that produces four haploid daughter cells from one diploid parent cell.<br><br><b>Meiosis I (Reductional Division):</b><br>In this stage, the homologous chromosomes are separated. It consists of:<br><ul><li><b>Prophase I:</b> Longest phase. Chromosomes condense, homologous chromosomes pair up (synapsis) and exchange genetic material (crossing over).</li><li><b>Metaphase I:</b> Homologous pairs align at the equatorial plane.</li><li><b>Anaphase I:</b> Homologous chromosomes (each with two chromatids) are pulled to opposite poles. Sister chromatids remain attached.</li><li><b>Telophase I:</b> Two haploid cells are formed, but each chromosome still consists of two sister chromatids.</li></ul><br><b>Meiosis II (Equational Division):</b><br>This stage is similar to mitosis, where sister chromatids are separated. It consists of:<br><ul><li><b>Prophase II:</b> Chromosomes condense again.</li><li><b>Metaphase II:</b> Chromosomes align at the equatorial plane in each cell.</li><li><b>Anaphase II:</b> Sister chromatids separate and move to opposite poles.</li><li><b>Telophase II:</b> Nuclear membranes reform, and the cytoplasm divides (cytokinesis), resulting in a total of four genetically unique haploid daughter cells.</li></ul>",
+    "marks": 5
+  },
+   {
+    "type": "short",
+    "text": "Identify the phase of mitosis shown in the diagram and describe it. [Image of Metaphase]",
+    "answer": "The phase shown is <b>Metaphase</b>.<br>In this stage, the nuclear membrane has completely disappeared. All the condensed chromosomes complete their condensation and align themselves at the center of the cell, on the equatorial plane or metaphase plate. The spindle fibers are attached to the centromere of each chromosome.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Identify the phase of mitosis shown in the diagram and describe it. [Image of Anaphase]",
+    "answer": "The phase shown is <b>Anaphase</b>.<br>In this stage, the centromeres of the chromosomes split, and the sister chromatids separate. These separated chromatids, now called daughter chromosomes, are pulled towards the opposite poles of the cell by the contracting spindle fibers. The cell begins to elongate.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the source of proteins for animals and plants?",
+    "answer": "For animals, the main sources of proteins are animal products like meat, eggs, and milk, as well as plant products like pulses and legumes.<br>For plants, they produce the necessary amino acids from minerals and synthesize their own proteins.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are vitamins? Name two types.",
+    "answer": "Vitamins are a group of heterogeneous chemical compounds required in small quantities for the proper growth and functioning of the body. <br>The two main types are:<br>1. <b>Fat-soluble vitamins</b> (e.g., A, D, E, K)<br>2. <b>Water-soluble vitamins</b> (e.g., B-complex, C)",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Complete the chart related to energy production. [Flowchart with blanks: Lipids -> Fatty Acids -> ? -> Krebs Cycle]",
+    "answer": "Lipids → Fatty Acids → <b>Acetyl-CoA</b> → Krebs Cycle.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain crossing over.",
+    "answer": "Crossing over is the exchange of genetic material between the non-sister chromatids of homologous chromosomes. This process occurs during Prophase I of meiosis and is a major source of genetic recombination and variation in sexually reproducing organisms.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is karyokinesis and cytokinesis?",
+    "answer": "<b>Karyokinesis</b> is the division of the nucleus, which involves stages like prophase, metaphase, anaphase, and telophase.<br><b>Cytokinesis</b> is the division of the cytoplasm, which typically follows karyokinesis to form two separate daughter cells.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why is it said that glycolysis is the first step of respiration?",
+    "answer": "Glycolysis is considered the first step of both aerobic and anaerobic respiration. It is a universal pathway that occurs in the cytoplasm of nearly all organisms. It does not require oxygen and serves as the initial process to break down glucose into pyruvic acid, which can then be further processed either aerobically in the mitochondria or anaerobically in the cytoplasm.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Complete the following chart. ",
+    "answer": "The labels for the ATP molecule are:<br>1. <b>Adenine</b> (a nitrogenous base)<br>2. <b>Ribose</b> (a pentose sugar)<br>3. <b>Three Phosphate groups</b> (linked by high-energy bonds)",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is the full form of ATP, ADP, NADH₂, and FADH₂?",
+    "answer": "<ul><li><b>ATP:</b> Adenosine Triphosphate</li><li><b>ADP:</b> Adenosine Diphosphate</li><li><b>NADH₂:</b> Nicotinamide Adenine Dinucleotide (reduced form)</li><li><b>FADH₂:</b> Flavin Adenine Dinucleotide (reduced form)</li></ul>",
+    "marks": 2
+  }
+]
+

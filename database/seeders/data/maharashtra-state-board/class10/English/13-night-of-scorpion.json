@@ -1,0 +1,27 @@
+[
+  {
+    "type": "long",
+    "text": "<b>Read the following extract and answer the questions that follow.</b><br><br><i>The peasants came like swarms of flies<br>and buzzed the name of God a hundred times<br>to paralyse the Evil One.<br>With candles and with lanterns<br>throwing giant scorpion shadows<br>on the mud-baked walls<br>they searched for him: he was not found.<br>They clicked their tongues.<br>With every movement that the scorpion made his poison moved in Mother’s blood, they said.</i><br><br><b>A1. Simple Factual (2 marks)</b><br>Why did the peasants come? What did they do?<br><br><b>A2. Complex Factual (2 marks)</b><br>What does the line 'throwing giant scorpion shadows on the mud-baked walls' suggest about the atmosphere?<br><br><b>A3. Poetic Device (1 mark)</b><br>Identify and explain the figure of speech in the first line of the extract.",
+    "answer": "<b>A1.</b> The peasants came to the narrator's house when they heard that his mother had been bitten by a scorpion. They chanted the name of God a hundred times, hoping to paralyse the scorpion and nullify the effect of the poison.<br><br><b>A2.</b> This line suggests a dark, fearful, and superstitious atmosphere. The flickering lights of the candles and lanterns cast large, menacing shadows of scorpions, amplifying the villagers' fear and the sense of danger present in the house.<br><br><b>A3.</b> The figure of speech is <b>Simile</b>. The peasants are directly compared to 'swarms of flies' using the word 'like', suggesting their large numbers and the buzzing sound they made.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "<b>Write the appreciation of the poem 'Night of the Scorpion'. You can use the following points:</b><br><ul><li>About the poem/poet and the title</li><li>The theme</li><li>Poetic style, language, poetic devices</li><li>Special features/message</li><li>Your opinion about the poem</li></ul>",
+    "answer": "<b>Appreciation of the Poem</b><br><br><b>About the Poem/Poet:</b> 'Night of the Scorpion' is a famous narrative poem by the Indian Jewish poet Nissim Ezekiel. The title aptly describes the central incident of the poem—a night when the speaker's mother is stung by a scorpion.<br><br><b>Theme:</b> The poem has multiple themes. It portrays the superstitious beliefs of rural Indian villagers, the contrast between superstition and the father's scientific rationalism, and above all, the selfless and unconditional love of a mother for her children.<br><br><b>Poetic Style and Devices:</b> The poem is written in free verse, without a consistent rhyme scheme or meter, which gives it a story-like quality. The language is simple and lucid. The poet uses vivid imagery to create a powerful picture of the scene. Important figures of speech include <b>Simile</b> ('came like swarms of flies'), <b>Metaphor</b> ('the Evil One' for the scorpion), <b>Onomatopoeia</b> ('buzzed'), and <b>Alliteration</b>.<br><br><b>Special Features/Message:</b> The poem's special feature is its first-person narrative from the perspective of a child observing the event. The most powerful message comes in the last lines, which highlight a mother's selfless love—even in her intense pain, her only thought is of relief that the scorpion spared her children.<br><br><b>My Opinion:</b> I think this is a very moving poem. It beautifully captures a slice of Indian rural life and presents a powerful contrast between different belief systems. The ending is particularly impactful and leaves a lasting impression on the reader.",
+    "marks": 5
+  },
+  {
+    "type": "short",
+    "text": "How was the father's reaction different from that of the peasants?",
+    "answer": "The peasants' reaction was based on superstition and religious belief. They chanted God's name, clicked their tongues, and spoke of karma. In contrast, the father's reaction was rational and scientific. He was a sceptic and a rationalist who tried every possible scientific remedy—'powder, mixture, herb and hybrid'. He even poured a little paraffin on the bite and put a match to it, showing his desperation to find a practical cure rather than relying on prayers.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What do the mother's last words in the poem reveal about her character?",
+    "answer": "The mother's final words, after twenty hours of suffering, are: 'Thank God the scorpion picked on me / And spared my children.' These words reveal the core of her character—her immense, selfless, and unconditional love for her children. Despite her own excruciating pain, her first and only thought is of her children's safety and well-being. It is a powerful testament to the nature of a mother's love.",
+    "marks": 2
+  }
+]
+

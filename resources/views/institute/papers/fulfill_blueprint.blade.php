@@ -68,7 +68,7 @@
                                     <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3 p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
                                         <div class="pr-0 md:pr-3">
                                             <p class="text-sm sm:text-base">
-                                                Select <span class="font-semibold">{{ $rule->number_of_questions_to_select }}</span>
+                                                Select <span class="font-semibold">{{ $rule->total_questions_to_display }}</span>
                                                 <span class="px-2 py-0.5 rounded-full text-xs bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 align-middle">
                                                     {{ strtoupper($rule->question_type) }}
                                                 </span>
@@ -77,7 +77,7 @@
                                         </div>
                                         <div class="text-right">
                                             <p class="text-base sm:text-lg font-bold text-gray-800 dark:text-gray-100" id="rule-count-{{$rule->id}}">
-                                                {{ $ruleCounts[$rule->id] ?? 0 }} / {{ $rule->number_of_questions_to_select }}
+                                                {{ $ruleCounts[$rule->id] ?? 0 }} / {{ $rule->total_questions_to_display }}
                                             </p>
                                             <button type="button"
                                                     class="mt-1 text-sm text-indigo-600 dark:text-indigo-400 hover:underline open-modal-btn"

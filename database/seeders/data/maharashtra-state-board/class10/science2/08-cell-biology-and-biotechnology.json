@@ -1,0 +1,164 @@
+[
+  {
+    "type": "short",
+    "text": "Define principal axis, principal focus, and optical center of a lens.",
+    "answer": "The **principal axis** is a straight line passing through the optical center and perpendicular to both surfaces of the lens. The **principal focus ($F$)** is the point on the principal axis where light rays parallel to the principal axis converge (for a convex lens) or appear to diverge from (for a concave lens) after passing through the lens. The **optical center ($O$)** is a point on the principal axis of a lens through which a light ray passes without any deviation.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat ray diagram to show the formation of an image by a convex lens when the object is placed at a distance greater than $2F_1$. (Practice Set 7.1)",
+    "answer": "### **Ray Diagram**\n**Position of Object:** Beyond $2F_1$\n\n1.  Draw a ray from the top of the object parallel to the principal axis. After refraction, it passes through the principal focus $F_2$.\n2.  Draw a second ray from the top of the object passing through the optical center. This ray goes undeviated.\n3.  The two rays intersect at a point, which is the top of the image. The image is formed between $F_2$ and $2F_2$.\n\n### **Characteristics of the image**\n* **Position:** Between $F_2$ and $2F_2$\n* **Nature:** Real and inverted\n* **Size:** Diminished",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the difference between a convex and a concave lens. (Practice Set 7.2)",
+    "answer": "### **Convex Lens**\n* **Shape:** Thicker at the center and thinner at the edges.\n* **Action:** It is a converging lens; it converges parallel rays of light to a single point.\n* **Focal Length:** The focal length is positive.\n* **Image Formation:** It can form both real and virtual images depending on the position of the object.\n\n### **Concave Lens**\n* **Shape:** Thinner at the center and thicker at the edges.\n* **Action:** It is a diverging lens; it diverges parallel rays of light.\n* **Focal Length:** The focal length is negative.\n* **Image Formation:** It always forms a virtual, erect, and diminished image, regardless of the object's position.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the SI unit of power of a lens?",
+    "answer": "The SI unit of power of a lens is the **diopter (D)**. One diopter is the power of a lens with a focal length of 1 meter.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which lens always produces a virtual, erect, and diminished image?",
+    "options": ["Convex lens", "Concave lens", "Plano-convex lens", "Plano-concave lens"],
+    "correct_answer": "B",
+    "answer": "A concave lens is a diverging lens, and for all positions of the object, it always forms a virtual, erect, and diminished image between the optical center and the principal focus. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "An object is placed at a distance of 10 cm from a convex lens of focal length 15 cm. Find the position and nature of the image. (Practice Set 7.3)",
+    "answer": "Using the lens formula, $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$.\n\n**Given:**\n* Object distance, $u = -10$ cm (always negative)\n* Focal length, $f = +15$ cm (positive for convex lens)\n* Image distance, $v = ?$\n\n**Calculation:**\n$\\frac{1}{15} = \\frac{1}{v} - \\frac{1}{-10}$\n$\\frac{1}{v} = \\frac{1}{15} - \\frac{1}{10} = \\frac{2 - 3}{30} = -\\frac{1}{30}$\n$v = -30$ cm\n\n**Position and Nature of the Image:**\nSince the image distance $v$ is negative, the image is formed at 30 cm on the same side of the lens as the object. The image is **virtual and erect**.\n\n**Answer:** The image is formed at 30 cm from the lens on the same side as the object. The image is virtual and erect.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What are the two main types of defects of vision?",
+    "answer": "The two main types of defects of vision are **myopia (nearsightedness)** and **hypermetropia (farsightedness)**. Both can be corrected using appropriate lenses.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Myopia can be corrected by using a... (Problem Set 7)",
+    "options": ["Concave lens", "Convex lens", "Bifocal lens", "Cylindrical lens"],
+    "correct_answer": "A",
+    "answer": "Myopia is the inability to see distant objects clearly. It can be corrected by using a concave lens, which is a diverging lens that helps to focus the light rays onto the retina. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the structure and working of a simple microscope. (Practice Set 7.4)",
+    "answer": "### **Structure**\nA simple microscope, also known as a magnifying glass, is essentially a single convex lens of short focal length.\n\n### **Working**\n1.  An object is placed between the principal focus ($F$) and the optical center ($O$) of the convex lens.\n2.  A virtual, erect, and magnified image is formed on the same side of the lens as the object, at a distance of $v$.\n3.  The magnified image is formed at a comfortable viewing distance, allowing the eye to see a larger, clearer version of the object. The lens acts as a magnifier by making the object appear to subtend a larger angle at the eye than it would if viewed directly.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "How is hypermetropia corrected?",
+    "answer": "Hypermetropia, or farsightedness, is the inability to see nearby objects clearly. It is corrected by using a **convex lens** of appropriate power. The convex lens helps to converge the light rays onto the retina, so the image is formed correctly.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "An object of height 5 cm is placed at a distance of 20 cm from a concave lens of focal length 10 cm. Find the position, nature, and size of the image. (Practice Set 7.5)",
+    "answer": "Using the lens formula, $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$.\n\n**Given:**\n* Object height, $h_o = 5$ cm\n* Object distance, $u = -20$ cm\n* Focal length, $f = -10$ cm (negative for concave lens)\n\n**1. Position of the image ($v$):**\n$\\frac{1}{-10} = \\frac{1}{v} - \\frac{1}{-20}$\n$\\frac{1}{v} = \\frac{1}{-10} - \\frac{1}{20} = \\frac{-2-1}{20} = \\frac{-3}{20}$\n$v = -\\frac{20}{3} \\approx -6.67$ cm\n\n**2. Nature of the image:**\nSince $v$ is negative, the image is formed on the same side as the object, and it is **virtual and erect**.\n\n**3. Size of the image ($h_i$):**\nUsing magnification, $m = \\frac{h_i}{h_o} = \\frac{v}{u}$\n$\\frac{h_i}{5} = \\frac{-6.67}{-20} = 0.3335$\n$h_i = 5 \\times 0.3335 \\approx 1.67$ cm\n\n**Answer:** The image is formed at approximately 6.67 cm from the lens, is virtual and erect, and has a size of 1.67 cm.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is Presbyopia?",
+    "answer": "Presbyopia is a type of vision defect that occurs due to the weakening of the ciliary muscles and the loss of flexibility of the eye lens with age. It makes it difficult for a person to see nearby objects clearly.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "What is the focal length of a lens with a power of $+2.5$ D? (Problem Set 7)",
+    "options": ["$40$ cm", "$25$ cm", "$0.4$ m", "$0.25$ m"],
+    "correct_answer": "A",
+    "answer": "The power of a lens is $P = 1/f$ (where $f$ is in meters). So, $f = 1/P = 1/2.5 = 0.4$ m. Converting to cm, we get $0.4 \\times 100 = 40$ cm. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the construction and working of a compound microscope. (Practice Set 7.6)",
+    "answer": "### **Construction**\nA compound microscope consists of two convex lenses mounted coaxially in a tube:\n* **Objective Lens:** A convex lens with a very short focal length.\n* **Eyepiece (Ocular Lens):** A convex lens with a short focal length, but longer than the objective's.\n\n### **Working**\n1.  An object is placed just beyond the principal focus of the objective lens.\n2.  The objective lens forms a real, inverted, and magnified image. This image acts as the object for the eyepiece.\n3.  The eyepiece is adjusted so that the image from the objective lens is placed between its principal focus and optical center. \n4.  The eyepiece then forms a final image that is virtual, inverted, and highly magnified. The final image is formed at a comfortable viewing distance.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the least distance of distinct vision for a normal human eye?",
+    "answer": "The least distance of distinct vision is the minimum distance at which an object can be seen clearly without any strain on the eye. For a normal human eye, this distance is approximately **25 cm**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A person with myopia cannot see... (Problem Set 7)",
+    "options": ["Nearby objects clearly", "Distant objects clearly", "Objects in darkness", "Objects in bright light"],
+    "correct_answer": "B",
+    "answer": "Myopia is a vision defect where a person can see nearby objects clearly but cannot see distant objects clearly. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the common causes of Myopia? How is it corrected? (PYQ: March 2020)",
+    "answer": "### **Causes of Myopia**\nMyopia is caused by two main reasons:\n1.  **Increased curvature of the cornea and eye lens:** This causes the eye lens to have a shorter focal length.\n2.  **Elongation of the eyeball:** This causes the distance between the lens and the retina to be too long.\n\nIn both cases, the light rays from distant objects converge at a point in front of the retina, resulting in a blurred image.\n\n### **Correction**\nMyopia is corrected by using a **concave (diverging) lens** of suitable power. The concave lens diverges the incoming parallel rays from distant objects before they enter the eye, so they converge at the retina instead of in front of it.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is a compound microscope?",
+    "answer": "A compound microscope is an optical instrument used to obtain highly magnified images of tiny objects, such as biological specimens. It uses two convex lenses: an objective lens and an eyepiece.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The power of a concave lens is always... (Problem Set 7)",
+    "options": ["Positive", "Negative", "Zero", "Depends on the medium"],
+    "correct_answer": "B",
+    "answer": "A concave lens is a diverging lens, and its focal length is considered negative. Therefore, its power ($P = 1/f$) is also always negative. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat diagram of the human eye and label its parts.",
+    "answer": "The human eye is a complex optical instrument that allows us to see. Its main parts are:\n\n1.  **Cornea:** The transparent front part of the eye that refracts light.\n2.  **Iris:** The colored part of the eye that controls the size of the pupil.\n3.  **Pupil:** The opening in the center of the iris through which light enters the eye.\n4.  **Lens:** A flexible, transparent structure behind the iris that focuses light onto the retina.\n5.  **Ciliary Muscles:** Muscles that control the shape of the eye lens to adjust its focal length.\n6.  **Retina:** The light-sensitive layer at the back of the eye where the image is formed.\n7.  **Optic Nerve:** The nerve that transmits visual information from the retina to the brain.\n\n[Image of a labeled diagram of the human eye]",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the function of the iris and pupil in the human eye?",
+    "answer": "The iris is the colored part of the eye that controls the amount of light entering the eye by adjusting the size of the pupil. The pupil is the small hole in the center of the iris through which light passes to reach the retina.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the common causes of Hypermetropia? How is it corrected?",
+    "answer": "### **Causes of Hypermetropia**\nHypermetropia is caused by two main reasons:\n1.  **Decreased curvature of the cornea and eye lens:** This causes the eye lens to have a longer focal length.\n2.  **Shortening of the eyeball:** This causes the distance between the lens and the retina to be too short.\n\nIn both cases, the light rays from nearby objects converge at a point behind the retina, resulting in a blurred image.\n\n### **Correction**\nHypermetropia is corrected by using a **convex (converging) lens** of suitable power. The convex lens helps to converge the incoming rays from nearby objects, so they focus correctly on the retina.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the accommodation of the eye?",
+    "answer": "Accommodation is the ability of the eye lens to change its focal length by changing its shape with the help of the ciliary muscles. This allows the eye to focus on objects at different distances.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The power of a lens is the reciprocal of its focal length in... (Problem Set 7)",
+    "options": ["meters", "centimeters", "millimeters", "kilometers"],
+    "correct_answer": "A",
+    "answer": "The power of a lens in diopters is defined as the reciprocal of its focal length in meters. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is a lens? Explain the two main types of lenses.",
+    "answer": "A lens is a transparent optical medium bounded by two spherical surfaces, or by one spherical and one plane surface.\n\n### **Types of Lenses**\n1.  **Convex Lens (Converging Lens):** A convex lens is a lens that is thicker at the center and thinner at the edges. When parallel rays of light pass through a convex lens, they converge at a single point called the principal focus.\n2.  **Concave Lens (Diverging Lens):** A concave lens is a lens that is thinner at the center and thicker at the edges. When parallel rays of light pass through a concave lens, they diverge, and they appear to come from a single point called the principal focus.",
+    "marks": 4
+  }
+]

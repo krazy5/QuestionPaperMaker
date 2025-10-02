@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following is the primary site of gaseous exchange in the human respiratory system?",
+    "options": [
+      "(a) Trachea",
+      "(b) Bronchi",
+      "(c) Alveoli",
+      "(d) Larynx"
+    ],
+    "correct_answer": "c",
+    "answer": "Alveoli are tiny, balloon-like air sacs in the lungs where the exchange of oxygen and carbon dioxide occurs through simple diffusion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The exchange of gases between the external environment and the lungs is called:",
+    "options": [
+      "(a) Cellular respiration",
+      "(b) Internal respiration",
+      "(c) External respiration",
+      "(d) Breathing"
+    ],
+    "correct_answer": "c",
+    "answer": "External respiration is the process of exchanging gases (oxygen and carbon dioxide) between the lungs and the atmosphere. This is distinct from internal respiration, which is the exchange of gases between the blood and body tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which part of the brain is primarily responsible for regulating the respiratory process?",
+    "options": [
+      "(a) Cerebrum",
+      "(b) Cerebellum",
+      "(c) Medulla oblongata",
+      "(d) Hypothalamus"
+    ],
+    "correct_answer": "c",
+    "answer": "The medulla oblongata, along with the pons, contains the respiratory control centers that regulate the rate and depth of breathing. It is responsible for involuntary breathing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The membrane that encloses the lungs is called the:",
+    "options": [
+      "(a) Pericardium",
+      "(b) Peritoneum",
+      "(c) Pleural membrane",
+      "(d) Meninges"
+    ],
+    "correct_answer": "c",
+    "answer": "The lungs are enclosed by a double-layered membrane called the pleura, which contains pleural fluid to reduce friction during breathing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The maximum volume of air contained in the lungs by a full forced inhalation is called:",
+    "options": [
+      "(a) Tidal volume",
+      "(b) Inspiratory reserve volume",
+      "(c) Expiratory reserve volume",
+      "(d) Total lung capacity"
+    ],
+    "correct_answer": "d",
+    "answer": "Total lung capacity is the maximum amount of air that can be contained in the lungs after a maximal forced inhalation. It is the sum of the vital capacity and the residual volume.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Most of the carbon dioxide in the blood is transported as:",
+    "options": [
+      "(a) Dissolved in plasma",
+      "(b) Carbaminohaemoglobin",
+      "(c) Bicarbonate ions",
+      "(d) Attached to haemoglobin"
+    ],
+    "correct_answer": "c",
+    "answer": "Approximately 70% of the carbon dioxide transported in the blood is in the form of bicarbonate ions ($HCO_3^-$), which are formed inside red blood cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a chronic respiratory disorder caused by smoking?",
+    "options": [
+      "(a) Asthma",
+      "(b) Emphysema",
+      "(c) Bronchitis",
+      "(d) Pneumonia"
+    ],
+    "correct_answer": "b",
+    "answer": "Emphysema is a chronic respiratory disease characterized by the destruction of the walls of the alveoli. It is a major cause of death from smoking.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements is true about the trachea?",
+    "options": [
+      "(a) It is covered by a soft tissue called epiglottis.",
+      "(b) It is also known as the voice box.",
+      "(c) It is supported by C-shaped cartilaginous rings.",
+      "(d) It is the site of gaseous exchange."
+    ],
+    "correct_answer": "c",
+    "answer": "The trachea (windpipe) is a tube that extends from the larynx. Its walls are reinforced with C-shaped cartilaginous rings that prevent it from collapsing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is responsible for filtering and conditioning the inhaled air?",
+    "options": [
+      "(a) Alveoli",
+      "(b) Bronchioles",
+      "(c) Nasal chambers",
+      "(d) Lungs"
+    ],
+    "correct_answer": "c",
+    "answer": "The nasal chambers, with their lining of mucus and cilia, warm, moisten, and filter the inhaled air, removing dust and other foreign particles before it reaches the lungs.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following diseases is characterized by an allergic reaction that causes spasms in the bronchiolar muscles?",
+    "options": [
+      "(a) Emphysema",
+      "(b) Pneumonia",
+      "(c) Asthma",
+      "(d) Bronchitis"
+    ],
+    "correct_answer": "c",
+    "answer": "Asthma is a chronic inflammatory disease of the airways, often triggered by allergens. It causes spasms in the bronchial muscles, leading to narrowing of the airways and difficulty in breathing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The partial pressure of oxygen in the alveolar air is approximately:",
+    "options": [
+      "(a) $40 \\text{ mmHg}$",
+      "(b) $45 \\text{ mmHg}$",
+      "(c) $104 \\text{ mmHg}$",
+      "(d) $95 \\text{ mmHg}$"
+    ],
+    "correct_answer": "c",
+    "answer": "The partial pressure of oxygen ($pO_2$) in the alveolar air is approximately $104 \\text{ mmHg}$, while in deoxygenated blood, it is about $40 \\text{ mmHg}$. This pressure gradient drives the diffusion of oxygen into the blood.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of the hemoglobin molecule that binds to oxygen is:",
+    "options": [
+      "(a) Calcium",
+      "(b) Magnesium",
+      "(c) Iron",
+      "(d) Zinc"
+    ],
+    "correct_answer": "c",
+    "answer": "Hemoglobin is a protein in red blood cells that contains iron atoms. Each iron atom can bind reversibly to one oxygen molecule, allowing hemoglobin to transport oxygen from the lungs to the tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of respiration that does NOT require oxygen is called:",
+    "options": [
+      "(a) Aerobic respiration",
+      "(b) Anaerobic respiration",
+      "(c) Internal respiration",
+      "(d) Pulmonary respiration"
+    ],
+    "correct_answer": "b",
+    "answer": "Anaerobic respiration is a form of incomplete intracellular respiration in which oxygen is not used. It is a less efficient process than aerobic respiration but allows organisms to generate energy in the absence of oxygen.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The volume of air that a person can inhale or exhale with maximum effort is called:",
+    "options": [
+      "(a) Tidal volume",
+      "(b) Vital capacity",
+      "(c) Residual volume",
+      "(d) Functional residual capacity"
+    ],
+    "correct_answer": "b",
+    "answer": "Vital capacity is the total volume of air that can be exhaled after a maximal inhalation. It is a measure of the maximum amount of air a person can move in or out of their lungs in a single breath.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The movement of the diaphragm and the intercostal muscles during inhalation is to:",
+    "options": [
+      "(a) Decrease the volume of the thoracic cavity",
+      "(b) Increase the pressure in the thoracic cavity",
+      "(c) Increase the volume of the thoracic cavity",
+      "(d) Decrease the pressure in the lungs"
+    ],
+    "correct_answer": "c",
+    "answer": "During inhalation, the diaphragm contracts and flattens, and the intercostal muscles contract, lifting the ribs and sternum. This increases the volume of the thoracic cavity, which in turn decreases the pressure in the lungs, causing air to rush in.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the correct pathway of air during exhalation?",
+    "options": [
+      "(a) Alveoli $\\rightarrow$ Bronchioles $\\rightarrow$ Bronchi $\\rightarrow$ Trachea $\\rightarrow$ Larynx $\\rightarrow$ Pharynx $\\rightarrow$ Nasal cavity",
+      "(b) Nasal cavity $\\rightarrow$ Pharynx $\\rightarrow$ Larynx $\\rightarrow$ Trachea $\\rightarrow$ Bronchi $\\rightarrow$ Bronchioles $\\rightarrow$ Alveoli",
+      "(c) Trachea $\\rightarrow$ Bronchi $\\rightarrow$ Bronchioles $\\rightarrow$ Alveoli $\\rightarrow$ Pharynx $\\rightarrow$ Larynx $\\rightarrow$ Nasal cavity",
+      "(d) Larynx $\\rightarrow$ Pharynx $\\rightarrow$ Nasal cavity $\\rightarrow$ Alveoli $\\rightarrow$ Bronchioles $\\rightarrow$ Trachea $\\rightarrow$ Bronchi"
+    ],
+    "correct_answer": "a",
+    "answer": "During exhalation, air flows out of the lungs. The path is the reverse of inhalation, starting from the alveoli and moving outwards through the respiratory tract.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The amount of oxygen released by hemoglobin at the tissues depends on the:",
+    "options": [
+      "(a) Partial pressure of carbon dioxide ($pCO_2$)",
+      "(b) Temperature",
+      "(c) pH of the blood",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "The oxygen dissociation curve shows that factors like partial pressure of carbon dioxide, temperature, and pH affect the affinity of hemoglobin for oxygen. A higher $pCO_2$, higher temperature, or lower pH (acidity) decreases hemoglobin's affinity for oxygen, causing more oxygen to be released at the tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The vocal cords are present in the:",
+    "options": [
+      "(a) Pharynx",
+      "(b) Larynx",
+      "(c) Trachea",
+      "(d) Bronchi"
+    ],
+    "correct_answer": "b",
+    "answer": "The larynx, also known as the voice box, is a cartilaginous structure in the neck that contains the vocal cords. The vibration of these cords produces sound.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the function of the epiglottis?",
+    "options": [
+      "(a) To produce sound",
+      "(b) To prevent food from entering the trachea",
+      "(c) To filter the air we breathe",
+      "(d) To facilitate the exchange of gases"
+    ],
+    "correct_answer": "b",
+    "answer": "The epiglottis is a flap of cartilage located at the base of the tongue. It acts as a lid, covering the opening of the trachea (glottis) during swallowing to prevent food from entering the windpipe.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of oxygen molecules utilized in glycolysis is:",
+    "options": [
+      "(a) 0",
+      "(b) 2",
+      "(c) 4",
+      "(d) 6"
+    ],
+    "correct_answer": "a",
+    "answer": "Glycolysis is an anaerobic process that does not require oxygen. It is the first step of cellular respiration and occurs in the cytoplasm.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following structures is responsible for the exchange of gases between the blood and body tissues?",
+    "options": [
+      "(a) Alveoli",
+      "(b) Bronchioles",
+      "(c) Capillaries",
+      "(d) Veins"
+    ],
+    "correct_answer": "c",
+    "answer": "The exchange of gases, nutrients, and waste products between the blood and the body tissues occurs across the thin walls of the capillaries.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The partial pressure of carbon dioxide ($pCO_2$) is highest in the:",
+    "options": [
+      "(a) Alveolar air",
+      "(b) Deoxygenated blood",
+      "(c) Oxygenated blood",
+      "(d) Atmosphere"
+    ],
+    "correct_answer": "b",
+    "answer": "The partial pressure of carbon dioxide is highest in the deoxygenated blood returning from the tissues to the lungs, as the tissues have produced $CO_2$ as a waste product of cellular respiration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where the air sacs of the lungs are filled with fluid, leading to breathing difficulties, is known as:",
+    "options": [
+      "(a) Asthma",
+      "(b) Bronchitis",
+      "(c) Pneumonia",
+      "(d) Emphysema"
+    ],
+    "correct_answer": "c",
+    "answer": "Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing a cough with phlegm or pus, fever, chills, and difficulty breathing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The volume of air that remains in the lungs after a maximal exhalation is called:",
+    "options": [
+      "(a) Tidal volume",
+      "(b) Vital capacity",
+      "(c) Residual volume",
+      "(d) Expiratory reserve volume"
+    ],
+    "correct_answer": "c",
+    "answer": "Residual volume is the amount of air that cannot be exhaled from the lungs. This volume of air always remains in the lungs, even after a forced exhalation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The respiratory pigment in human blood is:",
+    "options": [
+      "(a) Chlorophyll",
+      "(b) Hemocyanin",
+      "(c) Myoglobin",
+      "(d) Hemoglobin"
+    ],
+    "correct_answer": "d",
+    "answer": "Hemoglobin is the iron-containing protein in red blood cells that transports oxygen from the lungs to the rest of the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a part of the human respiratory tract?",
+    "options": [
+      "(a) Pharynx",
+      "(b) Trachea",
+      "(c) Alveoli",
+      "(d) Oesophagus"
+    ],
+    "correct_answer": "d",
+    "answer": "The oesophagus is part of the digestive system and is responsible for transporting food from the pharynx to the stomach. The pharynx, trachea, and alveoli are all parts of the respiratory system.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules gained in aerobic respiration are approximately how many times more than that produced in anaerobic respiration?",
+    "options": [
+      "(a) 2",
+      "(b) 12",
+      "(c) 15",
+      "(d) 19"
+    ],
+    "correct_answer": "d",
+    "answer": "Aerobic respiration generates a net of 36-38 ATP molecules per glucose molecule, while anaerobic respiration generates only a net of 2 ATP molecules. Thus, aerobic respiration is approximately 19 times more efficient.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a type of breathing disorder characterized by the inflammation of the bronchial tubes?",
+    "options": [
+      "(a) Emphysema",
+      "(b) Bronchitis",
+      "(c) Asthma",
+      "(d) Pneumonia"
+    ],
+    "correct_answer": "b",
+    "answer": "Bronchitis is an inflammation of the lining of the bronchial tubes, which carry air to and from your lungs. This inflammation causes a cough with mucus, wheezing, and shortness of breath.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxygen dissociation curve shifts to the right due to:",
+    "options": [
+      "(a) Increase in $pCO_2$",
+      "(b) Decrease in temperature",
+      "(c) Increase in pH",
+      "(d) All of the above"
+    ],
+    "correct_answer": "a",
+    "answer": "An increase in $pCO_2$ (partial pressure of carbon dioxide), a decrease in pH (increase in acidity), and an increase in temperature all cause the oxygen dissociation curve to shift to the right. This indicates a decreased affinity of hemoglobin for oxygen, leading to more oxygen being released to the tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of rapid influx of $Na^+$ ions across a neuron membrane during a stimulus is called:",
+    "options": [
+      "(a) Repolarization",
+      "(b) Hyperpolarization",
+      "(c) Depolarization",
+      "(d) Polarization"
+    ],
+    "correct_answer": "c",
+    "answer": "Depolarization is the process of rapid influx of positive ions, such as $Na^+$, into a cell, causing a change in its membrane potential. This is a key step in nerve impulse transmission.",
+    "marks": 1
+  }
+]

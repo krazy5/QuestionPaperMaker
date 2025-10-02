@@ -143,7 +143,6 @@
     "answer": "Let $y=sin^{2}x^{2}-cos^{2}x^{2} = -cos(2x^{2})$. Differentiating w.r.t. x, we get $\\frac{dy}{dx} = -[-sin(2x^{2})] \\cdot 4x = 4xsin(2x^{2})$.",
     "marks": 2
   },
-  
   {
     "type": "long",
     "text": "Find the derivative of the function $y=\\sqrt{x}$ using the derivative of the inverse function $x=f^{-1}(y)$.",
@@ -195,7 +194,7 @@
   {
     "type": "long",
     "text": "If $f(x) = x^3 + x - 2$, find $(f^{-1})'(0)$.",
-    "answer": "Let $y = f(x) = x^3 + x - 2$. We need to find the value of x for which $f(x)=0$. By inspection, if $x=1$, $f(1) = 1^3 + 1 - 2 = 0$. So we need to find the derivative of the inverse at $y=0$, which corresponds to $x=1$. First, find $f'(x) = 3x^2 + 1$. Then, evaluate at $x=1$: $f'(1) = 3(1)^2 + 1 = 4$. The formula for the derivative of an inverse function is $(f^{-1})'(y) = \\frac{1}{f'(x)}$. Therefore, $(f^{-1})'(0) = \\frac{1}{f'(1)} = \\frac{1}{4}$. The source document appears to have an error in calculation.",
+    "answer": "Let $y = f(x) = x^3 + x - 2$. We need to find the value of x for which $f(x)=0$. By inspection, if $x=1$, $f(1) = 1^3 + 1 - 2 = 0$. So we need to find the derivative of the inverse at $y=0$, which corresponds to $x=1$. First, find $f'(x) = 3x^2 + 1$. Then, evaluate at $x=1$: $f'(1) = 3(1)^2 + 1 = 4$. The formula for the derivative of an inverse function is $(f^{-1})'(y) = \\frac{1}{f'(x)}$. Therefore, $(f^{-1})'(0) = \\frac{1}{f'(1)} = \\frac{1}{4}$.",
     "marks": 3
   },
   {
@@ -281,9 +280,7 @@
     "text": "Differentiate $cot^{-1}(\\frac{1+35x^2}{2x})$ w.r.t. x.",
     "answer": "Let $y = cot^{-1}(\\frac{1+35x^2}{2x}) = tan^{-1}(\\frac{2x}{1+35x^2})$. We rewrite the argument as $\\frac{7x-5x}{1+(7x)(5x)}$. Using the formula $tan^{-1}(A)-tan^{-1}(B) = tan^{-1}(\\frac{A-B}{1+AB})$, we get $y = tan^{-1}(7x) - tan^{-1}(5x)$. Differentiating w.r.t. x: $\\frac{dy}{dx} = \\frac{1}{1+(7x)^2} \\cdot 7 - \\frac{1}{1+(5x)^2} \\cdot 5 = \\frac{7}{1+49x^2} - \\frac{5}{1+25x^2}$.",
     "marks": 3
-  
-},
-
+  },
   {
     "type": "long",
     "text": "Differentiate $\\frac{(x+1)^{2}}{(x+2)^{3}(x+3)^{4}}$ w.r.t. x.",
@@ -365,7 +362,7 @@
   {
     "type": "long",
     "text": "If $log(x+y) = log(xy)+p$, where p is a constant, then prove that $\\frac{dy}{dx}=-\\frac{y^2}{x^2}$.",
-    "answer": "Given $log(x+y) = log(x)+log(y)+p$. Differentiating w.r.t. x: $\\frac{1}{x+y}(1+\\frac{dy}{dx}) = \\frac{1}{x} + \\frac{1}{y}\\frac{dy}{dx}$. Expanding and rearranging: $\\frac{1}{x+y} + \\frac{1}{x+y}\\frac{dy}{dx} = \\frac{1}{x} + \\frac{1}{y}\\frac{dy}{dx}$. Grouping $\\frac{dy}{dx}$ terms: $\\frac{dy}{dx}(\\frac{1}{x+y} - \\frac{1}{y}) = \\frac{1}{x} - \\frac{1}{x+y}$. Finding common denominators: $\\frac{dy}{dx}(\\frac{y-(x+y)}{y(x+y)}) = \\frac{x-(x+y)}{x(x+y)}$. This simplifies to $\\frac{dy}{dx}(\\frac{-x}{y(x+y)}) = \\frac{-y}{x(x+y)}$. Therefore, $\\frac{dy}{dx} = \\frac{-y}{x(x+y)} \\cdot \\frac{y(x+y)}{-x} = \\frac{y^2}{x^2}$. The source document has a sign error in the final step.",
+    "answer": "The initial equation is $log(x+y) = log(x)+log(y)+p$. Differentiating w.r.t. x: $\\frac{1}{x+y}(1+\\frac{dy}{dx}) = \\frac{1}{x} + \\frac{1}{y}\\frac{dy}{dx}$. Rearranging gives $\\frac{dy}{dx}(\\frac{1}{x+y}-\\frac{1}{y}) = \\frac{1}{x}-\\frac{1}{x+y}$. This simplifies to $\\frac{dy}{dx}(\\frac{y-x-y}{y(x+y)}) = \\frac{x+y-x}{x(x+y)}$, so $\\frac{dy}{dx}(\\frac{-x}{y(x+y)}) = \\frac{y}{x(x+y)}$. Thus $\\frac{dy}{dx} = -\\frac{y^2}{x^2}$.",
     "marks": 4
   },
   {
@@ -385,8 +382,197 @@
     "text": "If $y=\\sqrt{log(x)+\\sqrt{log(x)+\\sqrt{log(x)+...}}}$, then show that $\\frac{dy}{dx}=\\frac{1}{x(2y-1)}$.",
     "answer": "The given equation can be written recursively as $y = \\sqrt{log(x)+y}$. Squaring both sides gives $y^2 = log(x)+y$. Differentiating this implicit equation with respect to x: $2y\\frac{dy}{dx} = \\frac{1}{x} + \\frac{dy}{dx}$. Grouping the $\\frac{dy}{dx}$ terms: $2y\\frac{dy}{dx} - \\frac{dy}{dx} = \\frac{1}{x} \\implies \\frac{dy}{dx}(2y-1) = \\frac{1}{x}$. Therefore, $\\frac{dy}{dx} = \\frac{1}{x(2y-1)}$.",
     "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $e^x \\log(x)$ w.r.t. x.",
+    "answer": "Let $y = e^x \\log(x)$. Using the product rule, $\\frac{dy}{dx} = e^x \\frac{d}{dx}(\\log x) + \\log x \\frac{d}{dx}(e^x) = e^x (\\frac{1}{x}) + \\log x (e^x) = e^x(\\frac{1}{x} + \\log x)$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\frac{\\sin(x)}{x^2+1}$ w.r.t. x.",
+    "answer": "Let $y = \\frac{\\sin(x)}{x^2+1}$. Using the quotient rule, $\\frac{dy}{dx} = \\frac{(x^2+1)\\frac{d}{dx}(\\sin x) - \\sin x \\frac{d}{dx}(x^2+1)}{(x^2+1)^2} = \\frac{(x^2+1)\\cos x - \\sin x (2x)}{(x^2+1)^2} = \\frac{(x^2+1)\\cos x - 2x\\sin x}{(x^2+1)^2}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $x = a(\\theta - \\sin\\theta)$ and $y = a(1 - \\cos\\theta)$.",
+    "answer": "Given $x = a(\\theta - \\sin\\theta)$ and $y = a(1 - \\cos\\theta)$. First, find derivatives with respect to $\\theta$: $\\frac{dx}{d\\theta} = a(1 - \\cos\\theta)$ and $\\frac{dy}{d\\theta} = a(0 - (-\\sin\\theta)) = a\\sin\\theta$. Then, $\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta} = \\frac{a\\sin\\theta}{a(1-\\cos\\theta)} = \\frac{2\\sin(\\theta/2)\\cos(\\theta/2)}{2\\sin^2(\\theta/2)} = \\cot(\\theta/2)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{d^2y}{dx^2}$ if $x^2+y^2=a^2$.",
+    "answer": "Differentiating $x^2+y^2=a^2$ w.r.t. x gives $2x + 2y\\frac{dy}{dx} = 0$, so $\\frac{dy}{dx} = -\\frac{x}{y}$. Now, differentiate again using the quotient rule: $\\frac{d^2y}{dx^2} = -\\frac{y(1) - x(\\frac{dy}{dx})}{y^2} = -\\frac{y - x(-\\frac{x}{y})}{y^2} = -\\frac{y+\\frac{x^2}{y}}{y^2} = -\\frac{y^2+x^2}{y^3}$. Since $x^2+y^2=a^2$, we have $\\frac{d^2y}{dx^2} = -\\frac{a^2}{y^3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $(\\tan x)^{\\sin x}$ w.r.t. x.",
+    "answer": "Let $y = (\\tan x)^{\\sin x}$. Taking logs: $\\log y = \\sin x \\log(\\tan x)$. Differentiating w.r.t. x: $\\frac{1}{y}\\frac{dy}{dx} = \\sin x \\frac{\\sec^2 x}{\\tan x} + \\log(\\tan x) \\cos x = \\sin x \\frac{1/\\cos^2 x}{\\sin x/\\cos x} + \\cos x \\log(\\tan x) = \\sec x + \\cos x \\log(\\tan x)$. So, $\\frac{dy}{dx} = y[\\sec x + \\cos x \\log(\\tan x)] = (\\tan x)^{\\sin x}[\\sec x + \\cos x \\log(\\tan x)]$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $\\log(\\sin(\\sqrt{x^2+1}))$.",
+    "answer": "Let $y = \\log(\\sin(\\sqrt{x^2+1}))$. Using chain rule: $\\frac{dy}{dx} = \\frac{1}{\\sin(\\sqrt{x^2+1})} \\cdot \\cos(\\sqrt{x^2+1}) \\cdot \\frac{1}{2\\sqrt{x^2+1}} \\cdot 2x = \\frac{x \\cot(\\sqrt{x^2+1})}{\\sqrt{x^2+1}}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $\\sec^{-1}(\\frac{x^2+1}{x^2-1})$ w.r.t. x.",
+    "answer": "Let $y = \\sec^{-1}(\\frac{x^2+1}{x^2-1}) = \\cos^{-1}(\\frac{x^2-1}{x^2+1})$. Let $x=\\cot\\theta$. Then $y = \\cos^{-1}(\\frac{\\cot^2\\theta-1}{\\cot^2\\theta+1}) = \\cos^{-1}(\\cos(2\\theta)) = 2\\theta = 2\\cot^{-1}(x)$. So, $\\frac{dy}{dx} = 2(-\\frac{1}{1+x^2}) = -\\frac{2}{1+x^2}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $\\sin(xy) + x^2 = y^2$.",
+    "answer": "Differentiating implicitly w.r.t. x: $\\cos(xy)(y + x\\frac{dy}{dx}) + 2x = 2y\\frac{dy}{dx}$. Expanding: $y\\cos(xy) + x\\cos(xy)\\frac{dy}{dx} + 2x = 2y\\frac{dy}{dx}$. Grouping $\\frac{dy}{dx}$ terms: $y\\cos(xy) + 2x = \\frac{dy}{dx}(2y - x\\cos(xy))$. Thus, $\\frac{dy}{dx} = \\frac{y\\cos(xy)+2x}{2y-x\\cos(xy)}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $x^2 e^x \\sin(x)$ w.r.t. x.",
+    "answer": "Let $y=x^2 e^x \\sin(x)$. Using product rule for three functions: $\\frac{dy}{dx} = (\\frac{d}{dx}x^2) e^x \\sin x + x^2 (\\frac{d}{dx}e^x) \\sin x + x^2 e^x (\\frac{d}{dx}\\sin x) = 2x e^x \\sin x + x^2 e^x \\sin x + x^2 e^x \\cos x = e^x(2x\\sin x + x^2\\sin x + x^2\\cos x)$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $x=\\frac{3at}{1+t^3}$ and $y=\\frac{3at^2}{1+t^3}$.",
+    "answer": "Using quotient rule: $\\frac{dx}{dt} = 3a\\frac{(1+t^3)(1) - t(3t^2)}{(1+t^3)^2} = 3a\\frac{1-2t^3}{(1+t^3)^2}$. And $\\frac{dy}{dt} = 3a\\frac{(1+t^3)(2t) - t^2(3t^2)}{(1+t^3)^2} = 3a\\frac{2t-t^4}{(1+t^3)^2}$. Then $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{3a(2t-t^4)/(1+t^3)^2}{3a(1-2t^3)/(1+t^3)^2} = \\frac{t(2-t^3)}{1-2t^3}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $\\tan^{-1}(\\frac{\\sqrt{1+x^2}-1}{x})$ w.r.t. x.",
+    "answer": "Let $x=\\tan\\theta$. Then the expression becomes $\\tan^{-1}(\\frac{\\sqrt{1+\\tan^2\\theta}-1}{\\tan\\theta}) = \\tan^{-1}(\\frac{\\sec\\theta-1}{\\tan\\theta}) = \\tan^{-1}(\\frac{1-\\cos\\theta}{\\sin\\theta}) = \\tan^{-1}(\\tan(\\theta/2)) = \\theta/2$. So $y = \\frac{1}{2}\\tan^{-1}(x)$. Differentiating gives $\\frac{dy}{dx} = \\frac{1}{2(1+x^2)}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\log_x(a)$ w.r.t. x.",
+    "answer": "Let $y = \\log_x(a) = \\frac{\\log a}{\\log x}$. Using quotient rule: $\\frac{dy}{dx} = \\log a \\cdot \\frac{-1}{(\\log x)^2} \\cdot \\frac{1}{x} = -\\frac{\\log a}{x(\\log x)^2}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{d^2y}{dx^2}$ for $x=at^2, y=2at$.",
+    "answer": "$\\frac{dx}{dt}=2at$ and $\\frac{dy}{dt}=2a$. So $\\frac{dy}{dx} = \\frac{2a}{2at} = \\frac{1}{t}$. Now, $\\frac{d^2y}{dx^2} = \\frac{d}{dx}(\\frac{1}{t}) = \\frac{d}{dt}(\\frac{1}{t}) \\cdot \\frac{dt}{dx} = -\\frac{1}{t^2} \\cdot \\frac{1}{2at} = -\\frac{1}{2at^3}$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\frac{e^x - e^{-x}}{e^x + e^{-x}}$ w.r.t. x.",
+    "answer": "Let $y = \\tanh(x)$. Then $\\frac{dy}{dx} = \\text{sech}^2(x)$. Alternatively, using quotient rule: $\\frac{dy}{dx} = \\frac{(e^x+e^{-x})(e^x+e^{-x}) - (e^x-e^{-x})(e^x-e^{-x})}{(e^x+e^{-x})^2} = \\frac{(e^{2x}+2+e^{-2x}) - (e^{2x}-2+e^{-2x})}{(e^x+e^{-x})^2} = \\frac{4}{(e^x+e^{-x})^2}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $y^x = x^y$.",
+    "answer": "Take logs: $x \\log y = y \\log x$. Differentiate implicitly: $x(\\frac{1}{y}\\frac{dy}{dx}) + \\log y = y(\\frac{1}{x}) + \\log x \\frac{dy}{dx}$. Grouping terms: $\\frac{dy}{dx}(\\frac{x}{y}-\\log x) = \\frac{y}{x} - \\log y$. So $\\frac{dy}{dx}(\\frac{x-y\\log x}{y}) = \\frac{y-x\\log y}{x}$. Thus $\\frac{dy}{dx} = \\frac{y(y-x\\log y)}{x(x-y\\log x)}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $\\tan^{-1}(\\frac{a\\cos x - b\\sin x}{b\\cos x + a\\sin x})$ w.r.t. x.",
+    "answer": "Divide numerator and denominator by $b\\cos x$: $y = \\tan^{-1}(\\frac{a/b - \\tan x}{1 + (a/b)\\tan x})$. This is in the form $\\tan^{-1}(\\frac{A-B}{1+AB})$, so $y = \\tan^{-1}(a/b) - \\tan^{-1}(\\tan x) = \\tan^{-1}(a/b) - x$. Differentiating gives $\\frac{dy}{dx} = 0 - 1 = -1$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $x\\sqrt{1+y} + y\\sqrt{1+x}=0$.",
+    "answer": "Rearrange: $x\\sqrt{1+y} = -y\\sqrt{1+x}$. Square both sides: $x^2(1+y)=y^2(1+x)$, which gives $x^2-y^2+x^2y-y^2x=0 \\implies (x-y)(x+y)+xy(x-y)=0$. Assuming $x \\neq y$, we get $x+y+xy=0$, so $y(1+x)=-x$, and $y=-\\frac{x}{1+x}$. Differentiating using quotient rule: $\\frac{dy}{dx} = -\\frac{(1+x)(1)-x(1)}{(1+x)^2} = -\\frac{1}{(1+x)^2}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If $y=A\\cos(nx) + B\\sin(nx)$, show that $\\frac{d^2y}{dx^2} + n^2y = 0$.",
+    "answer": "First derivative: $\\frac{dy}{dx} = -An\\sin(nx) + Bn\\cos(nx)$. Second derivative: $\\frac{d^2y}{dx^2} = -An^2\\cos(nx) - Bn^2\\sin(nx) = -n^2(A\\cos(nx)+B\\sin(nx)) = -n^2y$. Therefore, $\\frac{d^2y}{dx^2} + n^2y = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find $\\frac{dy}{dx}$ if $x=\\sin^{-1}(\\frac{2t}{1+t^2})$ and $y=\\cos^{-1}(\\frac{1-t^2}{1+t^2})$.",
+    "answer": "Let $t=\\tan\\theta$. Then $x=\\sin^{-1}(\\sin(2\\theta))=2\\theta=2\\tan^{-1}t$. And $y=\\cos^{-1}(\\cos(2\\theta))=2\\theta=2\\tan^{-1}t$. So $y=x$. Therefore $\\frac{dy}{dx}=1$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\log(x+\\sqrt{x^2+a^2})$ w.r.t. x.",
+    "answer": "Let $y=\\log(x+\\sqrt{x^2+a^2})$. Using chain rule: $\\frac{dy}{dx} = \\frac{1}{x+\\sqrt{x^2+a^2}} \\cdot (1 + \\frac{2x}{2\\sqrt{x^2+a^2}}) = \\frac{1}{x+\\sqrt{x^2+a^2}} \\cdot (\\frac{\\sqrt{x^2+a^2}+x}{\\sqrt{x^2+a^2}}) = \\frac{1}{\\sqrt{x^2+a^2}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $y = \\sin(2\\tan^{-1}(\\sqrt{\\frac{1-x}{1+x}}))$.",
+    "answer": "Let $x=\\cos\\theta$. Then $y=\\sin(2\\tan^{-1}(\\sqrt{\\frac{1-\\cos\\theta}{1+\\cos\\theta}})) = \\sin(2\\tan^{-1}(\\tan(\\theta/2))) = \\sin(\\theta) = \\sqrt{1-\\cos^2\\theta} = \\sqrt{1-x^2}$. So $\\frac{dy}{dx} = \\frac{-2x}{2\\sqrt{1-x^2}} = -\\frac{x}{\\sqrt{1-x^2}}$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $e^{ax}\\cos(bx+c)$ w.r.t. x.",
+    "answer": "Let $y=e^{ax}\\cos(bx+c)$. Using product rule: $\\frac{dy}{dx} = e^{ax}(-b\\sin(bx+c)) + \\cos(bx+c)(ae^{ax}) = e^{ax}(a\\cos(bx+c)-b\\sin(bx+c))$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $x^{x^x}$ w.r.t. x.",
+    "answer": "Let $y=x^{x^x}$. Then $\\log y = x^x \\log x$. Differentiating: $\\frac{1}{y}\\frac{dy}{dx} = x^x(\\frac{1}{x}) + \\log x (\\frac{d}{dx}x^x)$. We know $\\frac{d}{dx}x^x = x^x(1+\\log x)$. So $\\frac{1}{y}\\frac{dy}{dx} = x^{x-1} + \\log x (x^x(1+\\log x))$. Thus $\\frac{dy}{dx} = x^{x^x}[x^{x-1} + x^x \\log x(1+\\log x)]$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "If $\\cos(y) = x\\cos(a+y)$, prove that $\\frac{dy}{dx} = \\frac{\\cos^2(a+y)}{\\sin(a)}$.",
+    "answer": "Given $\\cos(y) = x\\cos(a+y)$, so $x = \\frac{\\cos y}{\\cos(a+y)}$. Differentiate w.r.t y: $\\frac{dx}{dy} = \\frac{\\cos(a+y)(-\\sin y) - \\cos y(-\\sin(a+y))}{\\cos^2(a+y)} = \\frac{\\sin(a+y)\\cos y - \\cos(a+y)\\sin y}{\\cos^2(a+y)} = \\frac{\\sin((a+y)-y)}{\\cos^2(a+y)} = \\frac{\\sin a}{\\cos^2(a+y)}$. Therefore, $\\frac{dy}{dx} = \\frac{1}{dx/dy} = \\frac{\\cos^2(a+y)}{\\sin(a)}$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the second derivative of $y=e^{ax}\\sin(bx)$.",
+    "answer": "First derivative: $\\frac{dy}{dx} = e^{ax}(b\\cos(bx)) + ae^{ax}\\sin(bx) = e^{ax}(b\\cos(bx)+a\\sin(bx))$. Second derivative: $\\frac{d^2y}{dx^2} = e^{ax}(-b^2\\sin(bx)+ab\\cos(bx)) + ae^{ax}(b\\cos(bx)+a\\sin(bx)) = e^{ax}((a^2-b^2)\\sin(bx)+2ab\\cos(bx))$.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $x^2 \\cos(x)$ w.r.t x.",
+    "answer": "Let $y=x^2 \\cos(x)$. Using product rule, $\\frac{dy}{dx} = x^2(-\\sin x) + \\cos x (2x) = 2x\\cos x - x^2\\sin x$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find $\\frac{dy}{dx}$ if $x=t^2$ and $y=2t$.",
+    "answer": "$\\frac{dx}{dt} = 2t$ and $\\frac{dy}{dt} = 2$. Therefore $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{2}{2t} = \\frac{1}{t}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the second derivative of $y = x^3 - 5x^2 + 2$.",
+    "answer": "First derivative $\\frac{dy}{dx} = 3x^2 - 10x$. Second derivative $\\frac{d^2y}{dx^2} = 6x - 10$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $\\frac{\\log x}{x}$ w.r.t x.",
+    "answer": "Let $y = \\frac{\\log x}{x}$. Using quotient rule, $\\frac{dy}{dx} = \\frac{x(1/x) - \\log x (1)}{x^2} = \\frac{1-\\log x}{x^2}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $e^{\\sqrt{\\cot(x)}}$ w.r.t x.",
+    "answer": "Let $y = e^{\\sqrt{\\cot(x)}}$. Using chain rule, $\\frac{dy}{dx} = e^{\\sqrt{\\cot(x)}} \\cdot \\frac{1}{2\\sqrt{\\cot x}} \\cdot (-\\csc^2 x) = -\\frac{\\csc^2 x \\cdot e^{\\sqrt{\\cot(x)}}}{2\\sqrt{\\cot x}}$.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Differentiate $a^{\\cos^{-1}(x)}$ w.r.t x.",
+    "answer": "Let $y = a^{\\cos^{-1}(x)}$. Using chain rule, $\\frac{dy}{dx} = a^{\\cos^{-1}(x)} \\log(a) \\cdot \\frac{-1}{\\sqrt{1-x^2}} = -\\frac{a^{\\cos^{-1}(x)} \\log(a)}{\\sqrt{1-x^2}}$.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate $\\sqrt{\\frac{1-\\tan x}{1+\\tan x}}$ w.r.t x.",
+    "answer": "Let $y = \\sqrt{\\frac{1-\\tan x}{1+\\tan x}} = \\sqrt{\\tan(\\frac{\\pi}{4}-x)} = (\\tan(\\frac{\\pi}{4}-x))^{1/2}$. So, $\\frac{dy}{dx} = \\frac{1}{2}(\\tan(\\frac{\\pi}{4}-x))^{-1/2} \\cdot \\sec^2(\\frac{\\pi}{4}-x) \\cdot (-1) = -\\frac{\\sec^2(\\frac{\\pi}{4}-x)}{2\\sqrt{\\tan(\\frac{\\pi}{4}-x)}}$.",
+    "marks": 3
   }
-
-
-
 ]

@@ -1,0 +1,150 @@
+[
+  {
+    "type": "mcq",
+    "text": "The movement of water from a region of higher water potential to a region of lower water potential through a semipermeable membrane is called _______.",
+    "options": ["Diffusion", "Imbibition", "Osmosis", "Plasmolysis"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Osmosis is the net movement of solvent (usually water) molecules across a selectively permeable membrane from an area of high water potential to an area of low water potential. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When a plant cell is placed in a hypertonic solution, it undergoes _______.",
+    "options": ["Plasmolysis", "Deplasmolysis", "Turgidity", "Imbibition"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> A hypertonic solution has a lower water potential (higher solute concentration) than the cell. Due to exosmosis, water moves out of the cell, causing the protoplast to shrink away from the cell wall. This process is called plasmolysis. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The loss of water in the form of liquid droplets from the hydathodes of leaves is known as _______.",
+    "options": ["Transpiration", "Guttation", "Bleeding", "Evaporation"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Guttation is the exudation of xylem sap (water and dissolved minerals) in the form of droplets from the tips or margins of leaves, typically occurring at night or in the early morning when transpiration is low. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following elements is required for the opening and closing of stomata?",
+    "options": ["Magnesium (Mg)", "Calcium (Ca)", "Potassium (K)", "Iron (Fe)"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The opening and closing of stomata are regulated by the turgor of the guard cells, which is controlled by the accumulation and release of potassium ($K^+$) ions. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cohesion-tension theory for the ascent of sap was proposed by _______.",
+    "options": ["J.C. Bose", "Stephen Hales", "Dixon and Joly", "Joseph Priestley"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The most widely accepted theory explaining the upward movement of water in the xylem, the cohesion-tension theory, was put forward by Dixon and Joly in 1894. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Water potential ($\\Psi_w$) is measured in units of _______.",
+    "options": ["Joules", "Pascals", "Newtons", "Watts"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Water potential is a measure of the potential energy of water and is expressed in pressure units. The standard unit for measuring it is Pascals (Pa) or Megapascals (MPa). The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The apoplast pathway of water absorption involves the movement of water through _______.",
+    "options": ["Cytoplasm and plasmodesmata", "Cell walls and intercellular spaces", "Vacuoles only", "Xylem vessels only"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The apoplast pathway is the movement of water exclusively through the non-living parts of the root, which include the cell walls and the intercellular spaces, without crossing any membranes. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an anti-transpirant?",
+    "options": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid (ABA)"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Abscisic acid is a plant hormone that, under conditions of water stress, causes stomatal closure, thereby reducing the rate of transpiration. It acts as a natural anti-transpirant. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The water potential of pure water at standard temperature and pressure is taken to be zero.",
+    "answer": "<b>True</b><br><b>Reason:</b> By convention, the highest water potential is that of pure water, and it is set to zero. The addition of solutes lowers the water potential, making it negative.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Transpiration is often called a 'necessary evil' for plants.",
+    "answer": "<b>True</b><br><b>Reason:</b> It is 'necessary' because it creates the transpiration pull for water absorption and transport, and cools the leaf surface. It is an 'evil' because it can lead to excessive water loss and wilting if not controlled.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Root pressure is sufficient to drive water to the tops of tall trees.",
+    "answer": "<b>False</b><br><b>Reason:</b> Root pressure is a relatively weak positive pressure that can only push water up to a small height. It is not the main driving force for the ascent of sap in tall trees.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Imbibition is a type of diffusion where water is absorbed by solid particles.",
+    "answer": "<b>True</b><br><b>Reason:</b> Imbibition is a special type of diffusion where water is absorbed by hydrophilic solid colloids (like dry seeds or wood), causing them to swell.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Stomata are generally open during the night and closed during the day.",
+    "answer": "<b>False</b><br><b>Reason:</b> In most plants, stomata open during the day to facilitate photosynthesis (uptake of $CO_2$) and close at night to conserve water. (CAM plants are an exception).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define 'water potential' and list its components.",
+    "answer": "<b>Water Potential ($\\Psi_w$):</b> It is defined as the difference in the potential energy of water in a system compared to the potential energy of pure water at the same temperature and pressure.<br><br><b>Components:</b> Water potential is the sum of two main components:<br>1. <b>Solute Potential ($\\Psi_s$):</b> The effect of dissolved solutes on water potential. It is always negative.<br>2. <b>Pressure Potential ($\\Psi_p$):</b> The effect of pressure on water potential. It is usually positive.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Transpiration and Guttation.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Transpiration</th><th style='padding: 8px;'>Guttation</th></tr><tr><td style='padding: 8px;'>It is the loss of water in the form of vapour.</td><td style='padding: 8px;'>It is the loss of water in the form of liquid droplets.</td></tr><tr><td style='padding: 8px;'>It occurs through stomata, lenticels, and cuticle.</td><td style='padding: 8px;'>It occurs through special pores called hydathodes.</td></tr><tr><td style='padding: 8px;'>The water lost is pure water.</td><td style='padding: 8px;'>The water lost contains dissolved salts and sugars.</td></tr><tr><td style='padding: 8px;'>It occurs mainly during the day.</td><td style='padding: 8px;'>It occurs mainly during the night or early morning.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the significance of transpiration?",
+    "answer": "Transpiration is significant for plants in several ways:<br>1. <b>Creates Transpiration Pull:</b> It is the main driving force for the absorption and upward movement of water and minerals (ascent of sap).<br>2. <b>Cools the Leaf Surface:</b> The evaporation of water from the leaf surface has a cooling effect, which protects the leaves from the intense heat of the sun.<br>3. <b>Maintains Turgor:</b> It helps in maintaining the shape and structure of plant cells by keeping them turgid.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the terms 'Plasmolysis' and 'Deplasmolysis'.",
+    "answer": "<b>Plasmolysis:</b> It is the process of shrinkage of the protoplast of a plant cell away from its cell wall when it is placed in a hypertonic solution. This occurs due to the loss of water from the cell through exosmosis.<br><br><b>Deplasmolysis:</b> It is the process where a plasmolysed cell regains its original turgid state when it is placed in a hypotonic or isotonic solution (like pure water). This occurs due to the entry of water into the cell through endosmosis.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Describe the two main pathways of water absorption by roots.",
+    "answer": "Plants absorb water from the soil through their roots via two main pathways:<br>1. <b>Apoplast Pathway:</b> In this pathway, water moves from the root hair to the xylem through the non-living parts of the root, i.e., the cell walls and the intercellular spaces, without crossing any membrane.<br>2. <b>Symplast Pathway:</b> In this pathway, water enters the cytoplasm of the root hair cell and then moves from one cell to the next through the cytoplasmic connections called plasmodesmata, until it reaches the xylem.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the Cohesion-Tension theory for the ascent of sap. (PYQ: March 2022)",
+    "answer": "The Cohesion-Tension theory, proposed by Dixon and Joly, is the most accepted explanation for the upward movement of water (ascent of sap) in the xylem of tall trees. The theory is based on three key physical properties of water:<br><br>1. <b>Cohesion:</b> Water molecules have a strong mutual attraction to each other due to hydrogen bonds. This property of cohesion allows water to form a continuous, unbroken column in the xylem from the roots to the leaves.<br><br>2. <b>Adhesion:</b> Water molecules are also attracted to the lignified walls of the xylem vessels. This property of adhesion helps to support the water column against the force of gravity.<br><br>3. <b>Transpiration Pull (Tension):</b> Transpiration, the evaporation of water from the leaf surfaces, creates a negative pressure or tension in the xylem of the leaves. This tension is transmitted down the continuous water column all the way to the roots. This 'pull' is the main driving force that lifts the entire column of water upwards.<br><br>Thus, the continuous water column is pulled up like a rope due to the tension created by transpiration, with cohesion and adhesion maintaining the integrity of the column.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the structure and working mechanism of stomata.",
+    "answer": "<b>Structure of Stomata:</b><br>A stoma (plural: stomata) is a tiny pore found on the epidermis of leaves, stems, etc. Each stoma is surrounded by two specialized, bean-shaped cells called <b>guard cells</b>. The inner wall of the guard cells (facing the pore) is thick and inelastic, while the outer wall is thin and elastic. The guard cells contain chloroplasts and are surrounded by subsidiary cells.<br><br><b>Working Mechanism (Opening and Closing):</b><br>The opening and closing of the stomatal pore is a result of the change in the turgidity of the guard cells.<br>1. <b>Opening:</b> During the day, potassium ions ($K^+$) actively accumulate in the guard cells, making their water potential lower. Water from the surrounding subsidiary cells enters the guard cells by endosmosis, making them turgid. Due to their differential wall thickness, the turgid guard cells bulge outwards, causing the pore between them to open.<br>2. <b>Closing:</b> At night, or during water stress, the potassium ions diffuse out of the guard cells. This increases their water potential. Water moves out of the guard cells by exosmosis, making them flaccid. The flaccid guard cells lose their curved shape and collapse, causing the stomatal pore to close.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is root pressure? How can it be demonstrated experimentally?",
+    "answer": "<b>Root Pressure:</b> It is a positive hydrostatic pressure that develops in the xylem sap of the root of some plants. It is caused by the active absorption of mineral ions from the soil by the root cells. This lowers the water potential of the root xylem, causing water to move from the soil into the root by osmosis. This influx of water generates a positive pressure that can push the water up the stem to a small height.<br><br><b>Demonstration Experiment:</b><br>1. Take a small, well-watered potted plant.<br>2. Cut the stem of the plant a few centimetres above the ground level.<br>3. Attach a narrow glass tube to the cut end of the stump using a rubber tubing to ensure an airtight seal.<br>4. Pour some coloured water into the glass tube to mark the initial level.<br>5. Leave the setup undisturbed for a few hours.<br><b>Observation:</b> After some time, the level of the coloured water in the glass tube will be seen to rise.<br><b>Conclusion:</b> This rise in the water level is due to the positive pressure exerted by the root system, which is the root pressure.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are the factors that affect the rate of transpiration? Explain any three.",
+    "answer": "The rate of transpiration is affected by several external and internal factors.<br><br><b>External Factors:</b><br>1. <b>Light:</b> The rate of transpiration is higher in the light than in the dark because light stimulates the opening of stomata.<br>2. <b>Temperature:</b> An increase in temperature increases the rate of evaporation of water from the leaf surface, thus increasing the rate of transpiration.<br>3. <b>Wind:</b> A moderate wind speed increases the rate of transpiration by removing the humid layer of air from around the leaf surface. However, very high wind speeds can cause the stomata to close, reducing transpiration.<br><br>Other factors include humidity (higher humidity decreases transpiration) and atmospheric pressure.<br><br><b>Internal Factors:</b><br>These include the number and distribution of stomata, leaf area, and root-shoot ratio.",
+    "marks": 3
+  }
+]

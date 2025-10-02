@@ -1,0 +1,146 @@
+[
+  {
+    "type": "long",
+    "text": "Explain the major physiographic divisions of India. (Practice Set 3.1)",
+    "answer": "India is divided into five major physiographic divisions:\n\n1.  **The Himalayas:** These are the young fold mountains in the north. They are divided into three parallel ranges: the Himadri (Greater Himalayas), the Himachal (Lesser Himalayas), and the Shiwalik (Outer Himalayas).\n2.  **The North Indian Plains:** They lie between the Himalayas in the north and the Peninsular Plateau in the south. They are a vast plain formed by the deposition of sediments by the Himalayan rivers.\n3.  **The Peninsular Plateau:** This is the oldest and largest physiographic unit of India. It is a triangular landmass composed of old crystalline, igneous, and metamorphic rocks. It includes the Deccan Plateau and the Central Highlands.\n4.  **The Coastal Plains:** These are narrow strips of flat land on either side of the Peninsular Plateau. The western coast is narrow, while the eastern coast is wider. They are marked by deltas of large rivers.\n5.  **The Islands:** India has two main groups of islands: the Andaman and Nicobar Islands in the Bay of Bengal and the Lakshadweep Islands in the Arabian Sea.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the name of the highest peak in the Himalayas in India?",
+    "answer": "The highest peak in the Himalayas located within India is **Mount Kanchenjunga**, with a height of $8,586$ m.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between the Himalayan rivers and the Peninsular rivers. (PYQ: March 2020)",
+    "answer": "### **Himalayan Rivers**\n* **Source:** They originate from the Himalayas and are perennial (flow throughout the year) because they are fed by glaciers and rainfall.\n* **Length:** They are long and wide, forming large river basins.\n* **Course:** They have a long course, flowing through mountains and plains. They are naviagable in the plains.\n* **Examples:** Ganga, Yamuna, Brahmaputra, Indus.\n\n### **Peninsular Rivers**\n* **Source:** They originate from the Peninsular Plateau and are seasonal, depending on rainfall for water.\n* **Length:** They are shorter in length and have smaller basins.\n* **Course:** They have a fixed course and are not navigable. They form waterfalls and rapids.\n* **Examples:** Godavari, Krishna, Mahanadi, Narmada, Tapi.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the significance of the Peninsular Plateau?",
+    "answer": "The Peninsular Plateau is a significant source of minerals. It also contains fertile black soil in some areas, which is suitable for agriculture. Many of India's major rivers originate from this plateau.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a major river of the Peninsular drainage system?",
+    "options": ["Ganga", "Brahmaputra", "Krishna", "Indus"],
+    "correct_answer": "C",
+    "answer": "The Krishna river is one of the major rivers of the Peninsular drainage system, originating from the Western Ghats. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the coastal plains of India.",
+    "answer": "The Indian coastal plains are divided into two parts:\n\n1.  **Western Coastal Plain:** It lies between the Western Ghats and the Arabian Sea. It is a narrow plain with a maximum width of about $60$ km. It is characterized by small, swift-flowing rivers, and is known for its beautiful beaches. This plain is further subdivided into the Konkan Coast and Malabar Coast.\n\n2.  **Eastern Coastal Plain:** It lies between the Eastern Ghats and the Bay of Bengal. It is a wider plain, with a width of up to $100$ km. It is characterized by deltas of major rivers like Mahanadi, Godavari, Krishna, and Kaveri. It is a fertile region, suitable for agriculture.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the name of the desert in India?",
+    "answer": "The desert in India is known as the **Thar Desert** or the Great Indian Desert.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the characteristics of the Indian Desert. (Practice Set 3.2)",
+    "answer": "The Indian Desert, also known as the Thar Desert, lies in the western part of India, mainly in Rajasthan. Its characteristics are:\n\n1.  **Climate:** It has a very hot and arid climate with very little rainfall (less than $150$ mm annually).\n2.  **Vegetation:** The vegetation is sparse and consists of thorny bushes and scrubs.\n3.  **Topography:** The region has a sandy terrain with shifting sand dunes. The rivers are short and seasonal, and many of them disappear into the sand.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the Sunderban Delta known for?",
+    "answer": "The Sunderban Delta is the largest delta in the world, formed by the Ganga and Brahmaputra rivers. It is famous for its **mangrove forests** and is home to the Royal Bengal Tiger.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the features of the Himalayan mountain range.",
+    "answer": "The Himalayas are a young fold mountain range in the northern part of India. They are geologically unstable and prone to earthquakes. They are divided into three parallel ranges:\n\n1.  **Himadri (Greater Himalayas):** The northern-most range, with an average height of over $6000$ m. It contains the highest peaks like Mount Everest and Kanchenjunga.\n2.  **Himachal (Lesser Himalayas):** Lies south of the Himadri. It has an average height of $3700$ to $4500$ m. Many popular hill stations like Shimla, Mussoorie, and Nainital are located here.\n3.  **Shiwalik (Outer Himalayas):** The southern-most range with an average height of $900$ to $1100$ m. It is composed of unconsolidated sediments brought down by the rivers.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Which river does not flow into the Bay of Bengal?",
+    "options": ["Mahanadi", "Godavari", "Narmada", "Kaveri"],
+    "correct_answer": "C",
+    "answer": "The Narmada river flows westward into the Arabian Sea, while the others flow eastward into the Bay of Bengal. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the importance of the Himalayas to India's climate.",
+    "answer": "The Himalayas play a very important role in influencing India's climate:\n\n1.  **Monsoon Barrier:** They act as a barrier to the moisture-laden winds from the Indian Ocean, forcing them to shed their moisture on the plains of North India, resulting in heavy rainfall.\n2.  **Cold Wind Barrier:** They prevent the cold winds from Central Asia from entering the Indian subcontinent, keeping North India's winter mild.\n3.  **Source of Rivers:** They are the source of perennial rivers, which provide a continuous supply of water for agriculture and human consumption.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Name the two major river systems in India.",
+    "answer": "The two major river systems in India are the **Himalayan rivers** and the **Peninsular rivers**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the characteristics of the Indian Peninsular Plateau? (PYQ: March 2019)",
+    "answer": "The Indian Peninsular Plateau is a large and ancient landmass in India. Its main characteristics are:\n\n1.  **Formation:** It is composed of old crystalline, igneous, and metamorphic rocks.\n2.  **Shape and Relief:** It is a triangular landmass with a varied relief. The general slope of the plateau is from west to east.\n3.  **Drainage:** Most of the rivers here are seasonal and flow into the Bay of Bengal. The Narmada and Tapi are exceptions, flowing westward.\n4.  **Mineral Wealth:** The plateau is rich in minerals like iron ore, coal, and manganese.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What are the two groups of islands in India?",
+    "answer": "The two main groups of islands in India are the **Andaman and Nicobar Islands** and the **Lakshadweep Islands**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the difference between the Western and Eastern Ghats.",
+    "answer": "### **Western Ghats**\n* **Location:** Form the western edge of the Peninsular Plateau. They are a continuous mountain range.\n* **Height:** They are relatively higher, with an average height of $900-1600$ m.\n* **Drainage:** They are the source of major rivers like Godavari, Krishna, and Kaveri, which flow eastward.\n* **Climate:** They cause orographic rainfall on the western side and create a rain shadow on the eastern side.\n\n### **Eastern Ghats**\n* **Location:** Form the eastern edge of the Peninsular Plateau. They are discontinuous and irregular.\n* **Height:** They are lower than the Western Ghats, with an average height of about $600$ m.\n* **Drainage:** Many large rivers like the Mahanadi, Godavari, and Krishna cut through them, forming deltas at the coast.\n* **Climate:** They do not act as a major barrier to the monsoons and receive rainfall from the retreating monsoons.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is a doab?",
+    "answer": "A **doab** is a tract of land lying between two converging, or confluent, rivers. The word 'doab' is derived from Persian, meaning 'two waters'.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Describe the main river systems of the Himalayan drainage. (Practice Set 3.3)",
+    "answer": "The main river systems of the Himalayan drainage are:\n\n1.  **Indus River System:** This river system has its source near Lake Mansarovar in Tibet. Its main tributaries are Jhelum, Chenab, Ravi, Beas, and Satluj. Most of its basin lies in Pakistan.\n2.  **Ganga River System:** The Ganga is the most important river of North India. It originates from the Gangotri glacier in Uttarakhand. Its major tributaries are Yamuna, Ghaghara, Gandak, and Kosi. The Ganga and Brahmaputra rivers form the Sunderban Delta before flowing into the Bay of Bengal.\n3.  **Brahmaputra River System:** The Brahmaputra originates in Tibet, where it is known as the Yarlung Tsangpo. It flows eastward, enters India in Arunachal Pradesh, and then flows through Assam before joining the Ganga in Bangladesh.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the name of the highest peak of the Peninsular Plateau?",
+    "answer": "The highest peak of the Peninsular Plateau is **Anai Mudi**, located in the Western Ghats, with a height of $2695$ m.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why are the rivers of the Peninsular Plateau not navigable?",
+    "answer": "The rivers of the Peninsular Plateau are generally not navigable for a number of reasons:\n\n1.  **Seasonal Flow:** These rivers are mainly rain-fed, so their flow is irregular and they may dry up during the summer months, making navigation difficult.\n2.  **Steep Slopes:** Many of these rivers flow over hard, rocky terrain and have steep gradients, leading to the formation of rapids and waterfalls.\n3.  **Short Course:** The rivers are relatively short, and their channels are often shallow, which is unsuitable for large boats or ships.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is a delta?",
+    "answer": "A **delta** is a landform created by the deposition of sediment at the mouth of a river where it enters an ocean, sea, or estuary. Deltas are typically very fertile.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Describe the two major river systems of the Peninsular drainage.",
+    "answer": "The Peninsular rivers can be divided into two main systems:\n\n1.  **East-Flowing Rivers:** These rivers, including the Mahanadi, Godavari, Krishna, and Kaveri, originate from the Western Ghats and flow eastward into the Bay of Bengal. They are known for forming large, fertile deltas at their mouths.\n2.  **West-Flowing Rivers:** These rivers, like the Narmada and Tapi, flow westward into the Arabian Sea. They flow through fault valleys and do not form deltas, but instead form estuaries at their mouths.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "The Western Ghats are a major source of which of the following river systems?",
+    "options": ["Indus", "Ganga", "Brahmaputra", "Godavari"],
+    "correct_answer": "D",
+    "answer": "The Godavari River, along with many other major Peninsular rivers like Krishna and Kaveri, originates from the Western Ghats. The correct option is **D**.",
+    "marks": 1
+  }
+]

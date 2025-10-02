@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The speed of sound in a medium is independent of: (MHT CET 2022)",
+    "options": [
+      "(a) Temperature",
+      "(b) Pressure",
+      "(c) Density",
+      "(d) Humidity"
+    ],
+    "correct_answer": "b",
+    "answer": "The speed of sound in a gas is given by Newton-Laplace formula, $v = \\sqrt{\\frac{\\gamma P}{\\rho}}$, where P is pressure and $\\rho$ is density. While it seems the speed depends on pressure, it actually doesn't for an ideal gas. This is because for an ideal gas at constant temperature, $\\frac{P}{\\rho}$ is constant. This can be seen from the ideal gas law, $PV = nRT \\implies P = \\frac{nRT}{V} = \\frac{m}{M} \\frac{RT}{V} = (\\frac{m}{V}) \\frac{RT}{M} = \\rho \\frac{RT}{M}$. So, $\\frac{P}{\\rho} = \\frac{RT}{M}$. Since $T$, $R$, and $M$ are constants for a given gas, the ratio $\\frac{P}{\\rho}$ is constant. Therefore, the speed of sound is independent of pressure. The speed of sound does depend on temperature, density, and humidity (which affects density).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When a source of sound moves away from a stationary observer, the apparent frequency of sound: (MHT CET 2021)",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains the same",
+      "(d) may increase or decrease"
+    ],
+    "correct_answer": "b",
+    "answer": "This is an application of the **Doppler Effect**. When a source of sound moves relative to an observer, the apparent frequency of the sound heard by the observer changes. The formula for the apparent frequency ($f'$) is given by:<br>$f' = f \\left( \\frac{v \\pm v_o}{v \\mp v_s} \\right)$<br>where 'f' is the source frequency, 'v' is the speed of sound, '$v_o$' is the observer's velocity, and '$v_s$' is the source's velocity. We use the upper signs for the observer and lower signs for the source when they are moving **towards** each other, and vice versa.<br>In this case, the source is moving away from a stationary observer. So, the observer's velocity is zero ($v_o = 0$), and the source's velocity is positive in the denominator ($+v_s$).<br>$f' = f \\left( \\frac{v}{v + v_s} \\right)$<br>Since the denominator $(v + v_s)$ is greater than the numerator 'v', the fraction is less than 1. This means the apparent frequency ($f'$) is less than the original frequency (f). Therefore, the apparent frequency decreases.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The speed of sound in air at $0^\\circ$C is 331 m/s. The speed of sound at $27^\\circ$C will be approximately: (MHT CET 2020)",
+    "options": [
+      "(a) 331 m/s",
+      "(b) 347 m/s",
+      "(c) 351 m/s",
+      "(d) 361 m/s"
+    ],
+    "correct_answer": "b",
+    "answer": "The speed of sound in a gas is directly proportional to the square root of its absolute temperature.<br>$v \\propto \\sqrt{T}$<br>We can write this as a ratio: $\\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}}$<br>First, convert the temperatures to the Kelvin scale:<br>$T_1 = 0^\\circ$C = $0 + 273 = 273$ K.<br>$T_2 = 27^\\circ$C = $27 + 273 = 300$ K.<br>Given $v_1 = 331$ m/s.<br>$\\frac{v_2}{331} = \\sqrt{\\frac{300}{273}} \\approx \\sqrt{1.0989} \\approx 1.048$<br>$v_2 = 331 \\times 1.048 \\approx 346.8$ m/s.<br>The closest option is 347 m/s.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of beats occurs due to: (MHT CET 2019)",
+    "options": [
+      "(a) Interference",
+      "(b) Diffraction",
+      "(c) Polarization",
+      "(d) Reflection"
+    ],
+    "correct_answer": "a",
+    "answer": "Beats are the periodic variations in the loudness of sound heard when two sound waves of slightly different frequencies interfere with each other. The beat frequency is the difference between the two frequencies. This phenomenon is a direct consequence of the **interference** of sound waves.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A wave has a frequency of 500 Hz and a wavelength of 0.4 m. The speed of the wave is: (MHT CET 2018)",
+    "options": [
+      "(a) 200 m/s",
+      "(b) 125 m/s",
+      "(c) 500 m/s",
+      "(d) 100 m/s"
+    ],
+    "correct_answer": "a",
+    "answer": "The speed of a wave ($v$) is related to its frequency ($f$) and wavelength ($\\lambda$) by the fundamental wave equation:<br>$v = f\\lambda$<br>Given values: frequency $f = 500$ Hz, wavelength $\\lambda = 0.4$ m.<br>$v = (500 \\text{ Hz})(0.4 \\text{ m}) = 200$ m/s.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The velocity of sound in a solid medium is highest. This is because: (MHT CET 2017)",
+    "options": [
+      "(a) Solids are more elastic than liquids and gases",
+      "(b) Solids have high density",
+      "(c) Solids have low density",
+      "(d) Solids have high pressure"
+    ],
+    "correct_answer": "a",
+    "answer": "The speed of a longitudinal wave (like sound) in a medium is given by the formula $v = \\sqrt{\\frac{E}{\\rho}}$, where 'E' is the modulus of elasticity (Young's modulus for solids, Bulk modulus for fluids) and '$\\rho$' is the density.<br>While solids have a higher density than liquids and gases, their modulus of elasticity (E) is significantly higher. The increase in 'E' is much more dominant than the increase in '$\\rho$'. Therefore, the ratio $\\frac{E}{\\rho}$ is highest for solids, making the speed of sound highest in solids.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The apparent frequency of a sound wave heard by an observer when the source and observer are both moving away from each other is given by: (MHT CET 2016)",
+    "options": [
+      "(a) $f' = f \\frac{(v-v_o)}{(v-v_s)}$",
+      "(b) $f' = f \\frac{(v+v_o)}{(v-v_s)}$",
+      "(c) $f' = f \\frac{(v-v_o)}{(v+v_s)}$",
+      "(d) $f' = f \\frac{(v+v_o)}{(v+v_s)}$"
+    ],
+    "correct_answer": "c",
+    "answer": "This is another application of the **Doppler Effect**.<br>The general formula for apparent frequency ($f'$) is $f' = f \\left( \\frac{v \\pm v_o}{v \\mp v_s} \\right)$.<br>The sign convention is: Velocity is positive if it is in the direction from observer to source.<br>Here, both the source and the observer are moving away from each other. Let's assume the source is at the origin and moving in the positive direction, and the observer is moving in the negative direction.<br>The observer is moving away from the source, so the velocity of the observer ($v_o$) is negative in the numerator.<br>The source is also moving away from the observer, so the velocity of the source ($v_s$) is positive in the denominator.<br>$f' = f \\frac{(v-v_o)}{(v+v_s)}$<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of resonance is a special case of: (MHT CET 2015)",
+    "options": [
+      "(a) Forced vibration",
+      "(b) Natural vibration",
+      "(c) Damped vibration",
+      "(d) Free vibration"
+    ],
+    "correct_answer": "a",
+    "answer": "When a body is subjected to an external periodic force, it vibrates. These vibrations are called **forced vibrations**. If the frequency of the external force is equal to the natural frequency of the body, the amplitude of vibration becomes very large. This phenomenon is called **resonance**. Therefore, resonance is a special case of forced vibration.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The intensity of sound is proportional to the square of: (MHT CET 2014)",
+    "options": [
+      "(a) Frequency",
+      "(b) Wavelength",
+      "(c) Amplitude",
+      "(d) Velocity"
+    ],
+    "correct_answer": "c",
+    "answer": "The intensity of a wave is the power transmitted per unit area. For a sound wave, the intensity ($I$) is directly proportional to the square of the amplitude ($A$) of the wave.<br>$I \\propto A^2$<br>It is also proportional to the square of the frequency and the density of the medium.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The velocity of sound in a medium depends on its: (MHT CET 2013)",
+    "options": [
+      "(a) Elasticity and density",
+      "(b) Elasticity and pressure",
+      "(c) Density and pressure",
+      "(d) Temperature and pressure"
+    ],
+    "correct_answer": "a",
+    "answer": "The general formula for the velocity of a longitudinal wave in a medium is $v = \\sqrt{\\frac{E}{\\rho}}$, where 'E' is the modulus of elasticity of the medium and '$\\rho$' is its density.<br>The velocity of sound is therefore dependent on both the elasticity (which determines how well the medium resists deformation) and the density (which relates to the inertia of the medium).<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of reflection of sound waves from an obstacle is called: (MHT CET 2012)",
+    "options": [
+      "(a) Echo",
+      "(b) Resonance",
+      "(c) Reverberation",
+      "(d) Beat"
+    ],
+    "correct_answer": "a",
+    "answer": "An **echo** is the phenomenon of a sound wave being reflected from an obstacle and heard by the observer after a short delay. For an echo to be distinct, the reflecting surface must be far enough from the source and observer so that the reflected sound reaches the observer after a time delay of at least 0.1 seconds, which is the persistence of human hearing.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The speed of sound in air at standard temperature and pressure (STP) is: (MHT CET 2011)",
+    "options": [
+      "(a) 250 m/s",
+      "(b) 280 m/s",
+      "(c) 331 m/s",
+      "(d) 350 m/s"
+    ],
+    "correct_answer": "c",
+    "answer": "The accepted value for the speed of sound in dry air at $0^\\circ$C and 1 atm pressure (STP) is approximately 331 m/s.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If a source of sound moves towards a stationary observer with half the speed of sound, the apparent frequency heard by the observer will be: (MHT CET 2010)",
+    "options": [
+      "(a) f",
+      "(b) 2f",
+      "(c) 3f/2",
+      "(d) 2f/3"
+    ],
+    "correct_answer": "b",
+    "answer": "This is a Doppler Effect problem. The source is moving towards a stationary observer. The formula for apparent frequency ($f'$) is:<br>$f' = f \\left( \\frac{v}{v - v_s} \\right)$<br>Given that the source velocity is half the speed of sound, $v_s = v/2$.<br>Substitute this into the formula:<br>$f' = f \\left( \\frac{v}{v - v/2} \\right) = f \\left( \\frac{v}{v/2} \\right) = f(2) = 2f$<br>The apparent frequency heard by the observer will be double the original frequency.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of **reverberation** is due to: (MHT CET 2009)",
+    "options": [
+      "(a) Single reflection of sound",
+      "(b) Multiple reflections of sound",
+      "(c) Absorption of sound",
+      "(d) Diffraction of sound"
+    ],
+    "correct_answer": "b",
+    "answer": "Reverberation is the persistence of sound in a room or a space after the source of the sound has stopped. It is caused by **multiple reflections** of sound waves from the walls, ceiling, and floor. The sound waves bounce back and forth, creating a prolonged sound that gradually fades away as the sound energy is absorbed by the surfaces.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The speed of sound in air is 'v'. The speed of sound in water is approximately: (MHT CET 2008)",
+    "options": [
+      "(a) v",
+      "(b) 4v",
+      "(c) 8v",
+      "(d) 16v"
+    ],
+    "correct_answer": "b",
+    "answer": "The speed of sound in a medium depends on its elasticity and density. Liquids are generally less compressible than gases, giving them a much higher bulk modulus (elasticity). The density of water is also much higher than air. The combined effect is a significantly higher speed of sound in water.<br>The speed of sound in air at room temperature is about 343 m/s.<br>The speed of sound in water is about 1480 m/s.<br>The ratio is $\\frac{1480}{343} \\approx 4.3$. So, the speed of sound in water is approximately 4 times the speed of sound in air.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  }
+]

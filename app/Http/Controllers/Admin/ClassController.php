@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\AcademicClassModel;
+
+use App\Models\Board; // 👈 NEW IMPORT
 use Illuminate\Http\Request;
 
 class ClassController extends Controller
@@ -51,15 +53,20 @@ class ClassController extends Controller
 
     public function create()
     {
-        return view('admin.classes.create');
+        // 💡 FETCH ALL BOARDS
+        $boards = Board::orderBy('name')->get();
+        return view('admin.classes.create', compact('boards')); // 👈 PASS BOARDS
     }
 
     public function store(Request $request)
     {
-        $validated = $request->validate([
-            'name' => 'required|string|max:255|unique:academic_class_models',
+         $validated = $request->validate([
+            // 💡 ADD board_id VALIDATION
+            'board_id' => 'required|exists:boards,id',
+            'name'     => 'required|string|max:255|unique:academic_class_models',
         ]);
 
+        // 💡 INCLUDE board_id in creation
         AcademicClassModel::create($validated);
 
         return redirect()->route('admin.classes.index')
@@ -68,15 +75,21 @@ class ClassController extends Controller
 
     public function edit(AcademicClassModel $class)
     {
-        return view('admin.classes.edit', ['class' => $class]);
+        // 💡 FETCH ALL BOARDS
+        $boards = Board::orderBy('name')->get();
+        // 👈 PASS BOTH CLASS AND BOARDS
+        return view('admin.classes.edit', ['class' => $class, 'boards' => $boards]);
     }
 
     public function update(Request $request, AcademicClassModel $class)
     {
         $validated = $request->validate([
-            'name' => 'required|string|max:255|unique:academic_class_models,name,' . $class->id,
+            // 💡 ADD board_id VALIDATION
+            'board_id' => 'required|exists:boards,id',
+            'name'     => 'required|string|max:255|unique:academic_class_models,name,' . $class->id,
         ]);
 
+        // 💡 INCLUDE board_id in update
         $class->update($validated);
 
         return redirect()->route('admin.classes.index')

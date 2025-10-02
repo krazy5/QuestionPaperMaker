@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of the following elements has the highest electronegativity? (MHT CET 2022)",
+    "options": [
+      "(a) Fluorine",
+      "(b) Chlorine",
+      "(c) Bromine",
+      "(d) Iodine"
+    ],
+    "correct_answer": "a",
+    "answer": "Among the halogens (Group 17), electronegativity decreases down the group. Therefore, Fluorine (F) has the highest electronegativity. This is due to its small atomic size and high effective nuclear charge.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following noble gases is used in a sign board for advertising? (MHT CET 2021)",
+    "options": [
+      "(a) Helium",
+      "(b) Neon",
+      "(c) Argon",
+      "(d) Krypton"
+    ],
+    "correct_answer": "b",
+    "answer": "Neon (Ne) is widely used in glowing signboards and advertisements. When electricity is passed through neon gas, it emits a brilliant orange-red light, which makes it ideal for this application.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond angle in $H_2S$ is smaller than that in $H_2O$. This is because: (MHT CET 2020)",
+    "options": [
+      "(a) Oxygen has higher electronegativity than sulfur.",
+      "(b) Oxygen has a larger size than sulfur.",
+      "(c) Sulfur has higher electronegativity than oxygen.",
+      "(d) The lone pair-bond pair repulsion in $H_2S$ is stronger than in $H_2O$."
+    ],
+    "correct_answer": "a",
+    "answer": "The bond angle in $H_2O$ (approx. $104.5^\\circ$) is larger than in $H_2S$ (approx. $92.1^\\circ$). This is because oxygen is more electronegative than sulfur. The highly electronegative oxygen atom pulls the electron density from the hydrogen atoms closer to itself, which increases the repulsion between the bond pairs and causes the bond angle to expand. In $H_2S$, the less electronegative sulfur atom does not pull the electrons as strongly, leading to less bond pair repulsion and a smaller bond angle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a liquid at room temperature? (MHT CET 2019)",
+    "options": [
+      "(a) $F_2$",
+      "(b) $Cl_2$",
+      "(c) $Br_2$",
+      "(d) $I_2$"
+    ],
+    "correct_answer": "c",
+    "answer": "At room temperature, Fluorine ($F_2$) and Chlorine ($Cl_2$) are gases, Bromine ($Br_2$) is a liquid, and Iodine ($I_2$) is a solid. The physical state of halogens at room temperature is due to the increasing strength of van der Waals forces as the molecular size and mass increase down the group.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hybridization of Xe in $XeF_2$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $sp^3$",
+      "(b) $sp^3d$",
+      "(c) $sp^3d^2$",
+      "(d) $sp^3d^3$"
+    ],
+    "correct_answer": "b",
+    "answer": "To determine the hybridization of Xe in $XeF_2$, we need to find the steric number (SN). The central atom is Xenon (Xe), which has 8 valence electrons. It forms 2 single bonds with two F atoms, and the remaining electrons form 3 lone pairs. <br>Steric Number = (Number of bond pairs) + (Number of lone pairs) = 2 + 3 = 5. <br>A steric number of 5 corresponds to **$sp^3d$ hybridization**. The geometry is trigonal bipyramidal, but due to the lone pairs, the shape of the molecule is linear.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the most acidic oxide? (MHT CET 2017)",
+    "options": [
+      "(a) $SO_2$",
+      "(b) $P_4O_{10}$",
+      "(c) $Cl_2O_7$",
+      "(d) $Al_2O_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "The acidic character of oxides generally increases with the electronegativity of the central atom and its oxidation state. Chlorine is a highly electronegative non-metal, and in $Cl_2O_7$, its oxidation state is +7 (the highest possible). This makes $Cl_2O_7$ the most acidic oxide among the given options.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has the highest bond dissociation enthalpy? (MHT CET 2016)",
+    "options": [
+      "(a) $F_2$",
+      "(b) $Cl_2$",
+      "(c) $Br_2$",
+      "(d) $I_2$"
+    ],
+    "correct_answer": "b",
+    "answer": "The bond dissociation enthalpy of halogens generally decreases down the group. However, due to the small size and strong lone pair-lone pair repulsion in $F_2$, its bond is weaker than that of $Cl_2$. The order of bond dissociation enthalpy is $Cl_2 > Br_2 > F_2 > I_2$. Therefore, $Cl_2$ has the highest bond dissociation enthalpy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The noble gas which does not have a filled octet is: (MHT CET 2015)",
+    "options": [
+      "(a) Neon",
+      "(b) Argon",
+      "(c) Krypton",
+      "(d) Helium"
+    ],
+    "correct_answer": "d",
+    "answer": "All noble gases have a stable electronic configuration with a completely filled valence shell. For most noble gases (Ne, Ar, Kr, Xe, Rn), this is an octet ($ns^2np^6$). However, Helium (He) is an exception. It has a duplet configuration with a filled K shell ($1s^2$), but it is still chemically inert.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the strongest reducing agent? (MHT CET 2014)",
+    "options": [
+      "(a) HF",
+      "(b) HCl",
+      "(c) HBr",
+      "(d) HI"
+    ],
+    "correct_answer": "d",
+    "answer": "The reducing power of halogen acids increases down the group. The bond strength of the H-X bond decreases from HF to HI, making it easier to break the bond and release hydrogen, which can then act as a reducing agent. Thus, HI is the strongest reducing agent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct order of increasing acidic strength of hydrides is: (MHT CET 2013)",
+    "options": [
+      "(a) $H_2O < H_2S < H_2Se < H_2Te$",
+      "(b) $H_2Te < H_2Se < H_2S < H_2O$",
+      "(c) $H_2O < H_2Se < H_2S < H_2Te$",
+      "(d) $H_2S < H_2O < H_2Se < H_2Te$"
+    ],
+    "correct_answer": "a",
+    "answer": "The acidic strength of hydrides of Group 16 elements increases down the group. This is because the bond dissociation enthalpy of the H-X bond decreases with an increase in the size of the central atom (O, S, Se, Te). The weaker the bond, the more easily it can donate a proton, and the stronger the acid. Therefore, the order of increasing acidic strength is $H_2O < H_2S < H_2Se < H_2Te$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The element from Group 17 which can form a maximum number of bonds is: (MHT CET 2012)",
+    "options": [
+      "(a) Fluorine",
+      "(b) Chlorine",
+      "(c) Bromine",
+      "(d) Iodine"
+    ],
+    "correct_answer": "d",
+    "answer": "The ability to expand the octet and form a maximum number of bonds depends on the availability of d-orbitals. Fluorine has no d-orbitals in its valence shell, so it cannot expand its octet. The other halogens (Cl, Br, I) have d-orbitals and can expand their valence shell to form more than one bond. Iodine has the largest size and the most stable expanded octet, allowing it to form the maximum number of bonds.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds is not a halogen derivative of alkane? (MHT CET 2011)",
+    "options": [
+      "(a) $CH_3Cl$",
+      "(b) $C_2H_5Br$",
+      "(c) $CH_2=CHCl$",
+      "(d) $C_6H_5F$"
+    ],
+    "correct_answer": "c",
+    "answer": "A halogen derivative of an alkane has a halogen atom bonded to a saturated carbon atom. In $CH_2=CHCl$, the chlorine atom is bonded to an unsaturated carbon atom (part of a double bond). This compound is a halogen derivative of an alkene.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the most powerful oxidizing agent? (MHT CET 2010)",
+    "options": [
+      "(a) $F_2$",
+      "(b) $Cl_2$",
+      "(c) $Br_2$",
+      "(d) $I_2$"
+    ],
+    "correct_answer": "a",
+    "answer": "Oxidizing power of halogens decreases down the group. This is because the electronegativity and electron affinity decrease down the group. Fluorine has the highest electronegativity and is the most powerful oxidizing agent, meaning it has the strongest tendency to gain electrons.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond angle in $NH_3$ is: (MHT CET 2009)",
+    "options": [
+      "(a) $109.5^\\circ$",
+      "(b) $107^\\circ$",
+      "(c) $104.5^\\circ$",
+      "(d) $90^\\circ$"
+    ],
+    "correct_answer": "b",
+    "answer": "$NH_3$ (ammonia) has a trigonal pyramidal geometry with a bond angle of approximately $107^\\circ$. The central N atom is $sp^3$ hybridized, but the lone pair-bond pair repulsion is greater than bond pair-bond pair repulsion, which slightly compresses the bond angle from the ideal tetrahedral angle of $109.5^\\circ$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general electronic configuration of Group 17 elements is: (MHT CET 2008)",
+    "options": [
+      "(a) $ns^2np^5$",
+      "(b) $ns^2np^6$",
+      "(c) $ns^2np^4$",
+      "(d) $ns^2np^3$"
+    ],
+    "correct_answer": "a",
+    "answer": "The Group 17 elements, known as halogens, have seven valence electrons. Their general electronic configuration is $ns^2np^5$, where 'n' is the principal quantum number. This configuration is one electron short of a stable octet, making them highly reactive non-metals.",
+    "marks": 1
+  }
+]

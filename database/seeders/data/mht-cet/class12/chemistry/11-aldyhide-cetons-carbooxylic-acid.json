@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The reaction of an aldehyde with an alcohol in the presence of dry HCl gas to form an acetal is known as: (MHT CET 2022)",
+    "options": [
+      "(a) Tollen's test",
+      "(b) Fehling's test",
+      "(c) Hemiacetal formation",
+      "(d) Acetal formation"
+    ],
+    "correct_answer": "d",
+    "answer": "The reaction of an aldehyde with an alcohol in the presence of an acid catalyst first forms a hemiacetal, which then reacts with a second molecule of alcohol to form a stable **acetal**. The reaction is reversible.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following does not give a positive Tollen's test? (MHT CET 2021)",
+    "options": [
+      "(a) Acetaldehyde",
+      "(b) Formaldehyde",
+      "(c) Acetone",
+      "(d) Glucose"
+    ],
+    "correct_answer": "c",
+    "answer": "**Tollen's test** is a chemical test used to distinguish between aldehydes and ketones. Aldehydes are easily oxidized and give a positive test (forming a silver mirror). Ketones, being less reactive to oxidation, do not give a positive Tollen's test. Among the given options, Acetone is a ketone, while the others are aldehydes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The major product of the reaction between benzaldehyde and concentrated NaOH solution is: (MHT CET 2020)",
+    "options": [
+      "(a) Benzyl alcohol and sodium benzoate",
+      "(b) Benzoic acid and benzene",
+      "(c) Toluene and sodium formate",
+      "(d) Phenylmethanol and benzene"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction of an aldehyde without $\\alpha$-hydrogen atoms (like benzaldehyde) with a concentrated base is a disproportionation reaction called the **Cannizzaro reaction**. In this reaction, one molecule is reduced to an alcohol, and another is oxidized to a carboxylic acid salt. Therefore, the products are **benzyl alcohol and sodium benzoate**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds gives a red precipitate with Fehling's solution? (MHT CET 2019)",
+    "options": [
+      "(a) Acetone",
+      "(b) Benzaldehyde",
+      "(c) Propanone",
+      "(d) Ethanal"
+    ],
+    "correct_answer": "d",
+    "answer": "**Fehling's solution** is used to distinguish between aldehydes and ketones. Aliphatic aldehydes react with Fehling's solution to form a red precipitate of cuprous oxide ($Cu_2O$). Aromatic aldehydes do not react. Among the given options, **Ethanal** is an aliphatic aldehyde and will give a positive test.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction of an aldehyde with a Grignard reagent, followed by hydrolysis, is: (MHT CET 2018)",
+    "options": [
+      "(a) A primary alcohol",
+      "(b) A secondary alcohol",
+      "(c) A tertiary alcohol",
+      "(d) An ether"
+    ],
+    "correct_answer": "b",
+    "answer": "When an aldehyde (other than formaldehyde) reacts with a Grignard reagent, it forms an addition product. Upon hydrolysis, this product yields a **secondary alcohol**. For example, acetaldehyde reacting with a Grignard reagent yields a secondary alcohol.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation of a primary alcohol with PCC (Pyridinium chlorochromate) gives: (MHT CET 2017)",
+    "options": [
+      "(a) An aldehyde",
+      "(b) A ketone",
+      "(c) A carboxylic acid",
+      "(d) An ether"
+    ],
+    "correct_answer": "a",
+    "answer": "**PCC** is a mild oxidizing agent. When it oxidizes a primary alcohol, the reaction stops at the aldehyde stage, preventing further oxidation to a carboxylic acid. A strong oxidizing agent like $KMnO_4$ would oxidize the primary alcohol to a carboxylic acid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The functional isomer of a ketone is: (MHT CET 2016)",
+    "options": [
+      "(a) An aldehyde",
+      "(b) An alcohol",
+      "(c) An ether",
+      "(d) A carboxylic acid"
+    ],
+    "correct_answer": "a",
+    "answer": "Functional isomers are compounds with the same molecular formula but different functional groups. A ketone has the general formula R-CO-R', while an aldehyde has R-CHO. For a given number of carbon atoms, a ketone and an aldehyde can be functional isomers. For example, propanal and propanone are functional isomers.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the strongest acid? (MHT CET 2015)",
+    "options": [
+      "(a) Ethanoic acid",
+      "(b) Trichloroethanoic acid",
+      "(c) Chloroethanoic acid",
+      "(d) Dichloroethanoic acid"
+    ],
+    "correct_answer": "b",
+    "answer": "The acidity of carboxylic acids is influenced by the electron-withdrawing or electron-donating nature of the substituents. Electron-withdrawing groups increase acidity by stabilizing the carboxylate anion. The halogens are electron-withdrawing groups, and their effect increases with electronegativity and number. Chlorine is an electron-withdrawing group, and with three chlorine atoms, **trichloroethanoic acid** is the most acidic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reagent used in the Stephen's reduction is: (MHT CET 2014)",
+    "options": [
+      "(a) $SnCl_2$ and HCl",
+      "(b) $LiAlH_4$",
+      "(c) $NaBH_4$",
+      "(d) $H_2/Ni$"
+    ],
+    "correct_answer": "a",
+    "answer": "The **Stephen's reaction** is a method for preparing aldehydes from nitriles. The nitrile is reduced by stannous chloride ($SnCl_2$) in the presence of hydrochloric acid (HCl) to form an imine, which upon hydrolysis yields the corresponding aldehyde. The correct reagent is **$SnCl_2$ and HCl**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds gives a positive iodoform test? (MHT CET 2013)",
+    "options": [
+      "(a) Methanol",
+      "(b) Ethanol",
+      "(c) Propan-1-ol",
+      "(d) Propanone"
+    ],
+    "correct_answer": "b",
+    "answer": "The **iodoform test** is used to detect the presence of a methyl ketone ($CH_3-CO-$) or a secondary alcohol with the structure $CH_3CH(OH)-$. Ethanol contains the $CH_3CH(OH)-$ group, and propanone contains the $CH_3-CO-$ group. Both will give a positive iodoform test. Since Ethanol is present in the options, it is the correct choice.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an aldehyde with hydrazine and KOH is known as: (MHT CET 2012)",
+    "options": [
+      "(a) Wolff-Kishner reduction",
+      "(b) Clemmensen reduction",
+      "(c) Cannizzaro reaction",
+      "(d) Aldol condensation"
+    ],
+    "correct_answer": "a",
+    "answer": "The **Wolff-Kishner reduction** is a reaction that converts a ketone or aldehyde into an alkane. The reaction involves heating the aldehyde or ketone with hydrazine ($H_2N-NH_2$) and a strong base like KOH in a high-boiling solvent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction between acetaldehyde and $HCN$ is: (MHT CET 2011)",
+    "options": [
+      "(a) Acetaldehyde cyanohydrin",
+      "(b) Acetone cyanohydrin",
+      "(c) Acetic acid",
+      "(d) Ethyl cyanide"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction of an aldehyde or ketone with hydrogen cyanide (HCN) is a nucleophilic addition reaction. The product is a **cyanohydrin**. Therefore, acetaldehyde reacts with HCN to form **acetaldehyde cyanohydrin**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction of an aldehyde with Tollen's reagent is: (MHT CET 2010)",
+    "options": [
+      "(a) An alcohol",
+      "(b) A ketone",
+      "(c) A carboxylic acid salt",
+      "(d) An ether"
+    ],
+    "correct_answer": "c",
+    "answer": "Tollen's reagent, an ammoniacal silver nitrate solution, is a mild oxidizing agent. It oxidizes aldehydes to **carboxylic acid salts** and is itself reduced to elemental silver, which forms a 'silver mirror' on the test tube.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The IUPAC name of the compound $CH_3-CH_2-CO-CH_3$ is: (MHT CET 2009)",
+    "options": [
+      "(a) Butanal",
+      "(b) Butanone",
+      "(c) Propanone",
+      "(d) Pentanone"
+    ],
+    "correct_answer": "b",
+    "answer": "The longest carbon chain contains four carbon atoms, so the root name is 'butane'. The functional group is a ketone, indicated by the suffix '-one'. The carbonyl group is at position 2. Therefore, the IUPAC name is **Butanone**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The compound which undergoes Aldol condensation is: (MHT CET 2008)",
+    "options": [
+      "(a) Formaldehyde",
+      "(b) Benzaldehyde",
+      "(c) Acetone",
+      "(d) Propanone"
+    ],
+    "correct_answer": "c",
+    "answer": "The **Aldol condensation** is a reaction that occurs between two molecules of an aldehyde or ketone that have at least one $\\alpha$-hydrogen atom. Both Acetone and Propanone have $\\alpha$-hydrogen atoms and can undergo Aldol condensation. Both are ketones. I will select Acetone as it's the simplest ketone with an $\\alpha$-hydrogen. The other options, formaldehyde and benzaldehyde, do not have any $\\alpha$-hydrogen atoms.",
+    "marks": 1
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The first English newspaper in India was started by _______.",
+    "options": [
+      "James Augustus Hicky",
+      "John Marshall",
+      "Allen Hume",
+      "Balshastri Jambhekar"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> James Augustus Hicky, an Irishman, started the first English newspaper in India, the 'Bengal Gazette' (also known as 'Calcutta General Advertiser'), in 1780. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first Marathi newspaper, ‘Darpan’, was started by _______.",
+    "options": [
+      "Lokmanya Tilak",
+      "Gopal Ganesh Agarkar",
+      "Mahatma Phule",
+      "Balshastri Jambhekar"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Balshastri Jambhekar, known as the 'Father of Marathi Journalism', started the newspaper 'Darpan' in 1832. It was the first newspaper in the Marathi language. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Television is a/an _______ medium.",
+    "options": [
+      "visual",
+      "audio",
+      "audio-visual",
+      "print"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Television combines both sound (audio) and pictures (visual), making it a powerful audio-visual medium. This allows it to cross the barrier of literacy. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The newspapers ‘Kesari’ and ‘Maratha’ were started by _______.",
+    "options": [
+      "Gopal Krishna Gokhale",
+      "Bal Gangadhar Tilak",
+      "Gopal Ganesh Agarkar",
+      "Vishnushastri Chiplunkar"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Bal Gangadhar Tilak and Gopal Ganesh Agarkar started the newspapers 'Kesari' (in Marathi) and 'Maratha' (in English) in 1881. These became important voices of the independence movement. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Indian Broadcasting Company (IBC), a private radio company, was later nationalised and named _______.",
+    "options": [
+      "Doordarshan",
+      "Prasar Bharati",
+      "Akashvani",
+      "All India Radio"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The private radio company IBC was taken over by the British Government and named Indian State Broadcasting Service (ISBS). In 1936, it was renamed All India Radio (AIR), which later came to be known as 'Akashvani'. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ‘Shatpatre’ published in the newspaper ‘Prabhakar’ were written by _______.",
+    "options": [
+      "Bhau Mahajan",
+      "Dr. Babasaheb Ambedkar",
+      "Lokhitvadi (Gopal Hari Deshmukh)",
+      "Balshastri Jambhekar"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> 'Lokhitvadi' (Gopal Hari Deshmukh) wrote a series of letters, known as 'Shatpatre', which commented on various social and cultural issues. These were published in the weekly 'Prabhakar'. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of these is considered an authorised and authentic source for historical research?",
+    "options": [
+      "Social media posts",
+      "Blog articles",
+      "Government Gazettes",
+      "Tabloids"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Government Gazettes and other official documents published by the government are considered authentic and reliable sources of information for historians. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Delhi Doordarshan centre was inaugurated by _______.",
+    "options": [
+      "Jawaharlal Nehru",
+      "Sardar Vallabhbhai Patel",
+      "Dr. Rajendra Prasad",
+      "Indira Gandhi"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Dr. Rajendra Prasad, the first President of India, inaugurated the Delhi Doordarshan centre on 15th September 1959. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is Mass Media?",
+    "answer": "Mass media are forms of communication that use technology to reach a large number of people (a mass audience) simultaneously. They include print media like newspapers and magazines, and electronic media like radio, television, and the internet.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why do we need mass media?",
+    "answer": "We need mass media for several reasons:<br>1. To facilitate the free flow of information to all strata of society.<br>2. To circulate information and knowledge, and to create awareness about social, political, and cultural events.<br>3. To provide a platform for public discussion and to help in strengthening democracy.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What were the objectives of newspapers during the Indian freedom struggle?",
+    "answer": "During the freedom struggle, newspapers acted as an important tool for social and political awakening. Their objectives were to criticize the unjust policies of the British government, to educate the Indian people about their rights, and to build a strong public opinion in favour of the nationalist movement.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Prabhakar - Acharya P. K. Atre<br>2. Darpan - Balshastri Jambhekar<br>3. Kesari - Bal Gangadhar Tilak<br>4. Deenbandhu - Krishnarao Bhalekar",
+    "answer": "<b>Wrong Pair:</b> Prabhakar - Acharya P. K. Atre<br><b>Corrected Pair:</b> Prabhakar - Bhau Mahajan",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Newspaper, Television, Radio, Internet.",
+    "answer": "<b>Newspaper.</b><br><b>Reason:</b> Television, Radio, and the Internet are forms of electronic media. The newspaper is a form of print media.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: First English Newspaper : Bengal Gazette :: First Marathi Newspaper : _______.",
+    "answer": "<b>Darpan.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Radio : Audio :: Newspaper : _______.",
+    "answer": "<b>Visual / Print.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the main purpose of Akashvani (All India Radio)?",
+    "answer": "Akashvani is a government-run public radio broadcaster. Its main purpose is to serve as a medium of information, education, and entertainment. It broadcasts a variety of programs, including news, government policies, awareness programs, and entertainment programs in various regional languages.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How can mass media be a source for writing history?",
+    "answer": "Mass media, like newspapers from a particular period, can be a very important source for historians. They reflect the social, political, and cultural events of that time. Editorials, articles, and even advertisements in old newspapers can provide valuable information and insights into the contemporary society.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the contribution of Balshastri Jambhekar to Marathi journalism?",
+    "answer": "Balshastri Jambhekar is known as the 'Father of Marathi Journalism'. In 1832, he started the first Marathi newspaper, 'Darpan'. Through this newspaper, he published news on social, political, and cultural events, and wrote about issues like widow remarriage, thus using journalism as a tool for social reform and awakening.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the role of newspapers in the Indian struggle for independence.",
+    "answer": "Newspapers played a pivotal role in India's struggle for independence.<br>1. <b>Creating Awareness:</b> Newspapers like 'Kesari', 'Maratha', 'Amrita Bazar Patrika', and 'Deenbandhu' acted as a source of information and created mass awareness about the political and social situation in the country.<br>2. <b>Criticism of British Rule:</b> They fearlessly exposed and criticized the exploitative and unjust policies of the British government.<br>3. <b>Promoting Nationalism:</b> The writings in these newspapers educated the people, promoted ideas of democracy and freedom, and helped in building a strong sense of nationalism and unity among Indians.<br>4. <b>Social Reform:</b> They also became a medium for discussing and advocating for social reforms, which was considered an integral part of the freedom struggle.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the history of Doordarshan in India.",
+    "answer": "Doordarshan is India's public service television broadcaster.<br>1. <b>Inauguration:</b> The Delhi Doordarshan centre was inaugurated on 15th September 1959 by Dr. Rajendra Prasad, the first President of India.<br>2. <b>Early Years:</b> Initially, it was part of All India Radio. Its services were separated on 1st April 1976.<br>3. <b>Colour Television:</b> Colour television was introduced in India on 15th August 1982.<br>4. <b>Impact:</b> Doordarshan played a very important role in educating and entertaining the Indian masses. TV serials like 'Ramayan' and 'Mahabharat' had a huge impact on the entire nation. It also served as a medium for the government to broadcast important news and awareness programs.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Why is it important for media to provide critical analysis of events?",
+    "answer": "It is very important for mass media to provide a critical analysis of events, and not just report them, for several reasons:<br>1. <b>In-depth Understanding:</b> A critical analysis helps the audience to understand the background, context, and potential consequences of an event, providing a deeper insight than a simple news report.<br>2. <b>Informed Public Opinion:</b> By presenting multiple perspectives and expert opinions, the media helps people to form their own informed and balanced opinions on important issues. This is crucial for a healthy democracy.<br>3. <b>Accountability:</b> Critical analysis of government policies and actions helps in holding the government accountable to the people.<br>4. <b>Avoiding Misinformation:</b> In an age of fake news, a critical and unbiased review of information helps to separate facts from misinformation.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the evolution of technology in mass media.",
+    "answer": "The technology used in mass media has evolved significantly over time.<br>1. <b>Print Media:</b> The earliest form of mass media was the newspaper, which relied on printing technology. Initially, they were printed in black and white. Later, advancements allowed for colour printing and better quality images.<br>2. <b>Radio (Audio):</b> The invention of radio in the early 20th century introduced electronic media. It used radio waves to transmit audio content, overcoming the barriers of distance and literacy.<br>3. <b>Television (Audio-Visual):</b> The arrival of television brought the audio-visual revolution, combining sound and moving pictures. The technology evolved from black and white to colour television.<br>4. <b>Internet and Digital Media:</b> The most recent and profound evolution has been the internet. It has led to the rise of electronic journalism, web news portals, social media, and online streaming services, making information instantly accessible globally on various devices like computers and smartphones.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the different functions of newspapers.",
+    "answer": "Newspapers, as a form of mass media, perform several important functions in a society:<br>1. <b>Informing the Public:</b> The primary function is to provide news and information about current events happening at local, national, and international levels.<br>2. <b>Educating the Masses:</b> Newspapers publish articles, editorials, and supplements on various topics like science, health, history, and economy, which help to educate the public.<br>3. <b>Shaping Public Opinion:</b> Through editorials and opinion pieces, newspapers provide a platform for debate and discussion on important issues, thus helping to shape public opinion.<br>4. <b>Acting as a Watchdog:</b> Newspapers play a crucial role in a democracy by acting as a 'watchdog' of the government. They scrutinize government policies and actions, and expose corruption and wrongdoing.<br>5. <b>Entertainment and Commerce:</b> They also provide entertainment through sections on comics, puzzles, and lifestyle, and serve as a medium for advertisements.",
+    "marks": 4
+  }
+]
+

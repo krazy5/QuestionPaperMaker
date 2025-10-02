@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The process of breeding two different species to produce a new hybrid is known as:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outbreeding",
+      "(c) Interspecific hybridization",
+      "(d) Cross-breeding"
+    ],
+    "correct_answer": "c",
+    "answer": "Interspecific hybridization is the process of crossing two different species to produce a hybrid. For example, a mule is a hybrid of a horse and a donkey.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Inbreeding depression is a problem that can be overcome by:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outcrossing",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "b",
+    "answer": "Inbreeding depression, which is a reduction in fitness and vigor due to continuous inbreeding, can be overcome by outcrossing. This involves mating the inbred population with unrelated individuals of the same breed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a method of plant breeding for disease resistance?",
+    "options": [
+      "(a) Mutation breeding",
+      "(b) Tissue culture",
+      "(c) Micropropagation",
+      "(d) Biofortification"
+    ],
+    "correct_answer": "a",
+    "answer": "Mutation breeding is a plant breeding technique where new variations are created by treating seeds or other plant parts with mutagens like gamma rays. This can lead to the development of disease-resistant varieties.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'biofortification' refers to:",
+    "options": [
+      "(a) Breeding crops with improved nutritional quality.",
+      "(b) Developing crops with pest resistance.",
+      "(c) Using tissue culture to grow plants.",
+      "(d) Introducing a foreign gene into a plant."
+    ],
+    "correct_answer": "a",
+    "answer": "Biofortification is the process of breeding crops to increase their nutritional value, such as increasing the content of vitamins, minerals, or proteins. A famous example is 'Golden Rice,' which is fortified with vitamin A.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique of growing a plant from a single cell or tissue in a sterile medium is known as:",
+    "options": [
+      "(a) Hybridization",
+      "(b) Clonal propagation",
+      "(c) Tissue culture",
+      "(d) Mutation breeding"
+    ],
+    "correct_answer": "c",
+    "answer": "Plant tissue culture is a collection of techniques used to maintain or grow plant cells, tissues, or organs under sterile conditions on a nutrient culture medium of known composition.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of producing thousands of plants from a single plant in a short time is called:",
+    "options": [
+      "(a) Hybridization",
+      "(b) Micropropagation",
+      "(c) Somatic hybridization",
+      "(d) Mutation breeding"
+    ],
+    "correct_answer": "b",
+    "answer": "Micropropagation is the practice of rapidly multiplying stock plant material to produce a large number of progeny plants, using modern plant tissue culture methods.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A protoplast is a plant cell without a:",
+    "options": [
+      "(a) Nucleus",
+      "(b) Cell membrane",
+      "(c) Cell wall",
+      "(d) Cytoplasm"
+    ],
+    "correct_answer": "c",
+    "answer": "A protoplast is a plant cell from which the cell wall has been removed, typically using enzymes like cellulase and pectinase. This allows for the fusion of cells from different species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fusion of two protoplasts from different species is a key step in:",
+    "options": [
+      "(a) Micropropagation",
+      "(b) Somatic hybridization",
+      "(c) Mutation breeding",
+      "(d) Anther culture"
+    ],
+    "correct_answer": "b",
+    "answer": "Somatic hybridization is the process of fusing protoplasts of two different plant species to produce a hybrid plant. This technique can be used to combine desirable traits from different species that cannot be crossed sexually.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technique of producing disease-free plants by culturing the shoot apical meristem is known as:",
+    "options": [
+      "(a) Anther culture",
+      "(b) Meristem culture",
+      "(c) Embryo culture",
+      "(d) Protoplast fusion"
+    ],
+    "correct_answer": "b",
+    "answer": "The shoot apical meristem is generally free of viruses. By culturing this small portion of the plant tissue, it is possible to produce a virus-free plant. This technique is called meristem culture.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of producing haploid plants from pollen grains is called:",
+    "options": [
+      "(a) Anther culture",
+      "(b) Ovule culture",
+      "(c) Embryo culture",
+      "(d) Meristem culture"
+    ],
+    "correct_answer": "a",
+    "answer": "Anther culture is a technique of plant tissue culture where pollen grains are cultured to produce haploid plants. These haploid plants can then be used to create homozygous diploid plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Green Revolution' in India was primarily based on the development of:",
+    "options": [
+      "(a) High-yielding varieties of wheat and rice",
+      "(b) Disease-resistant crops",
+      "(c) Genetically modified crops",
+      "(d) Biofortified crops"
+    ],
+    "correct_answer": "a",
+    "answer": "The Green Revolution was a period of increased agricultural production worldwide, particularly in developing countries. In India, it was driven by the development of high-yielding varieties of wheat and rice, primarily through the work of M. S. Swaminathan.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The technology of growing a plant from a small plant part in a test tube is called:",
+    "options": [
+      "(a) In vivo culture",
+      "(b) In situ culture",
+      "(c) Ex vivo culture",
+      "(d) In vitro culture"
+    ],
+    "correct_answer": "d",
+    "answer": "In vitro culture is the technique of growing cells, tissues, or organs in a sterile, artificial medium. This is the fundamental principle of plant tissue culture.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The breeding of animals of the same breed, but with no common ancestors on either side of the pedigree for 4-6 generations is known as:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outcrossing",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "b",
+    "answer": "Outcrossing is the breeding of unrelated individuals of the same breed. It is a method of outbreeding that helps to overcome inbreeding depression.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of producing a superior hybrid from two different parents is called:",
+    "options": [
+      "(a) Hybrid vigor",
+      "(b) Heterosis",
+      "(c) Both (a) and (b)",
+      "(d) Cross-breeding"
+    ],
+    "correct_answer": "c",
+    "answer": "Hybrid vigor, also known as heterosis, is the phenomenon where the hybrid offspring is superior to both of its parents in terms of growth, yield, and other desirable traits.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The breeding of animals of different breeds is called:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outcrossing",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "c",
+    "answer": "Cross-breeding is the mating of two animals of different breeds. The aim is to combine the desirable traits of the two breeds to produce a new, improved breed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'hissardale' sheep breed was developed by crossing:",
+    "options": [
+      "(a) Bikaneri ewes and Merino rams",
+      "(b) Bikaneri ewes and Russian Merino rams",
+      "(c) Bikaneri ewes and Dorset rams",
+      "(d) Bikaneri ewes and Spanish Merino rams"
+    ],
+    "correct_answer": "b",
+    "answer": "Hissardale is a new breed of sheep developed in Punjab by crossing Bikaneri ewes with Russian Merino rams. It is a good example of cross-breeding.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a marine fish?",
+    "options": [
+      "(a) Catla",
+      "(b) Rohu",
+      "(c) Hilsa",
+      "(d) Common carp"
+    ],
+    "correct_answer": "c",
+    "answer": "Hilsa is a type of marine fish. Catla, Rohu, and Common carp are examples of freshwater fishes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The culture of aquatic organisms, both plant and animal, in a controlled environment is called:",
+    "options": [
+      "(a) Pisiculture",
+      "(b) Apiculture",
+      "(c) Aquaculture",
+      "(d) Sericulture"
+    ],
+    "correct_answer": "c",
+    "answer": "Aquaculture is the farming of aquatic organisms such as fish, shellfish, and aquatic plants. This includes both freshwater and marine environments.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The scientific name of the honey bee is:",
+    "options": [
+      "(a) *Apis indica*",
+      "(b) *Bombyx mori*",
+      "(c) *Penaeus monodon*",
+      "(d) *Oryza sativa*"
+    ],
+    "correct_answer": "a",
+    "answer": "The scientific name of the Indian honey bee is *Apis indica*. *Bombyx mori* is the silkworm, *Penaeus monodon* is a type of shrimp, and *Oryza sativa* is rice.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The culture of bees for honey production is called:",
+    "options": [
+      "(a) Pisiculture",
+      "(b) Apiculture",
+      "(c) Aquaculture",
+      "(d) Sericulture"
+    ],
+    "correct_answer": "b",
+    "answer": "Apiculture, or beekeeping, is the practice of keeping bees to collect honey and other products like beeswax and royal jelly.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of raising fish in tanks or enclosures is known as:",
+    "options": [
+      "(a) Aquaculture",
+      "(b) Pisiculture",
+      "(c) Sericulture",
+      "(d) Floriculture"
+    ],
+    "correct_answer": "b",
+    "answer": "Pisiculture is a subset of aquaculture that deals specifically with the farming of fish for commercial purposes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of producing silk from silkworms is called:",
+    "options": [
+      "(a) Apiculture",
+      "(b) Pisiculture",
+      "(c) Sericulture",
+      "(d) Floriculture"
+    ],
+    "correct_answer": "c",
+    "answer": "Sericulture is the cultivation of silkworms to produce silk. The silkworm, *Bombyx mori*, is the most widely used species in sericulture.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The art of growing flowers and ornamental plants is known as:",
+    "options": [
+      "(a) Olericulture",
+      "(b) Pomology",
+      "(c) Floriculture",
+      "(d) Viticulture"
+    ],
+    "correct_answer": "c",
+    "answer": "Floriculture is a discipline of horticulture concerned with the cultivation of flowering and ornamental plants for gardens and floristry. Olericulture is the science of growing vegetables, and pomology is the science of growing fruit.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'single-cell protein' refers to:",
+    "options": [
+      "(a) Protein from a single plant cell.",
+      "(b) Protein from a single animal cell.",
+      "(c) Protein from unicellular organisms.",
+      "(d) Protein from a single gene."
+    ],
+    "correct_answer": "c",
+    "answer": "Single-cell protein (SCP) refers to the protein-rich biomass of unicellular organisms such as algae, yeast, fungi, and bacteria. It is a potential source of protein for both human and animal consumption.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main component of biogas is:",
+    "options": [
+      "(a) Propane",
+      "(b) Methane",
+      "(c) Carbon dioxide",
+      "(d) Hydrogen"
+    ],
+    "correct_answer": "b",
+    "answer": "Biogas is a mixture of gases produced by the breakdown of organic matter in the absence of oxygen. Its primary component is methane, which makes it a valuable renewable energy source.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The breeding method that involves the mating of more closely related individuals within the same breed is:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outcrossing",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "a",
+    "answer": "Inbreeding is the mating of closely related individuals. It is a breeding strategy used to increase homozygosity and maintain a specific breed's genetic characteristics.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cultivation of vegetables is known as:",
+    "options": [
+      "(a) Olericulture",
+      "(b) Pomology",
+      "(c) Floriculture",
+      "(d) Viticulture"
+    ],
+    "correct_answer": "a",
+    "answer": "Olericulture is the science of growing vegetables. Pomology is the science of growing fruits, floriculture is the science of growing flowers, and viticulture is the science of grape cultivation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The breeding of animals of different species is called:",
+    "options": [
+      "(a) Inbreeding",
+      "(b) Outcrossing",
+      "(c) Cross-breeding",
+      "(d) Interspecific hybridization"
+    ],
+    "correct_answer": "d",
+    "answer": "Interspecific hybridization is the process of breeding two different species. This type of hybridization is typically used to combine the desirable traits of two different species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a common disease of honey bees?",
+    "options": [
+      "(a) Foulbrood",
+      "(b) Anthrax",
+      "(c) Mastitis",
+      "(d) Ranikhet"
+    ],
+    "correct_answer": "a",
+    "answer": "Foulbrood is a bacterial disease that affects the larval stage of honey bees. Anthrax and Mastitis are diseases of cattle, and Ranikhet is a disease of poultry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The scientific name of the Indian silkworm is:",
+    "options": [
+      "(a) *Apis indica*",
+      "(b) *Bombyx mori*",
+      "(c) *Penaeus monodon*",
+      "(d) *Oryza sativa*"
+    ],
+    "correct_answer": "b",
+    "answer": "The scientific name of the domestic silkworm is *Bombyx mori*. *Apis indica* is the honey bee, *Penaeus monodon* is a type of shrimp, and *Oryza sativa* is rice.",
+    "marks": 1
+  }
+]

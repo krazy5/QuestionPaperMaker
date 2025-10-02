@@ -1,0 +1,156 @@
+[
+  {
+    "type": "mcq",
+    "text": "The theory of Chemical Evolution of life was independently proposed by _______.",
+    "options": ["Miller and Urey", "Darwin and Wallace", "Oparin and Haldane", "Watson and Crick"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The theory that life originated from non-living organic molecules in a primitive earth environment was proposed by Aleksandr Oparin of Russia and J.B.S. Haldane of England. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Miller-Urey experiment simulated conditions of primitive Earth and produced _______.",
+    "options": ["Amino acids", "Prokaryotic cells", "Proteins", "Nucleic acids"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> In their 1953 experiment, Stanley Miller and Harold Urey passed electric sparks through a mixture of gases (methane, ammonia, hydrogen, water vapor) and successfully synthesized simple organic compounds, including several amino acids. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The wings of a butterfly and the wings of a bird are examples of _______ organs.",
+    "options": ["Homologous", "Analogous", "Vestigial", "Atavistic"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Analogous organs are structures that have different anatomical origins but perform similar functions. The wings of an insect and a bird both serve for flight but have very different structures, indicating convergent evolution. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The book 'Origin of Species' was written by _______.",
+    "options": ["Jean-Baptiste Lamarck", "Charles Darwin", "Alfred Wallace", "Gregor Mendel"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Charles Darwin published his groundbreaking book 'On the Origin of Species by Means of Natural Selection' in 1859, which laid out the theory of evolution by natural selection. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of 'Industrial Melanism' observed in peppered moths is an example of _______.",
+    "options": ["Genetic drift", "Adaptive radiation", "Natural selection", "Artificial selection"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The change in the frequency of light and dark-coloured moths in response to industrial pollution is a classic example of natural selection, where the better-camouflaged moth had a survival advantage. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following represents a connecting link between reptiles and birds?",
+    "options": ["Duck-billed platypus", "Archaeopteryx", "Peripatus", "Lungfish"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The fossil of Archaeopteryx shows characteristics of both reptiles (like teeth and a long tail) and birds (like feathers and wings), making it a crucial connecting link. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Hardy-Weinberg principle describes a population that is _______.",
+    "options": ["Undergoing rapid evolution", "Not evolving", "Shrinking", "Migrating"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Hardy-Weinberg equilibrium states that allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences. This describes a non-evolving population. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first hominid to use fire was probably _______.",
+    "options": ["Australopithecus", "Homo habilis", "Homo erectus", "Neanderthal man"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Fossil evidence suggests that Homo erectus was the first human ancestor to control and use fire, which was a major step in human evolution. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Lamarck's theory of evolution is based on the inheritance of acquired characters.",
+    "answer": "<b>True</b><br><b>Reason:</b> Lamarck proposed that characteristics acquired by an organism during its lifetime (like the long neck of a giraffe) could be passed on to its offspring.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The study of fossils is called embryology.",
+    "answer": "<b>False</b><br><b>Reason:</b> The study of fossils is called palaeontology. Embryology is the study of the development of embryos.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Genetic drift has a more significant effect on large populations.",
+    "answer": "<b>False</b><br><b>Reason:</b> Genetic drift, which is the random change in allele frequencies, has a much more pronounced effect in small populations, where chance events can drastically alter the gene pool.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The modern synthetic theory of evolution combines Darwin's theory with genetics.",
+    "answer": "<b>True</b><br><b>Reason:</b> The modern synthetic theory integrates Charles Darwin's theory of natural selection with the principles of Mendelian genetics, population genetics, and other biological fields.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Homo sapiens first arose in Asia and then migrated to other continents.",
+    "answer": "<b>False</b><br><b>Reason:</b> The widely accepted 'Out of Africa' theory states that modern humans (Homo sapiens) originated in Africa and then migrated out to populate the rest of the world.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Homologous and Analogous organs. (PYQ: March 2022)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Homologous Organs</th><th style='padding: 8px;'>Analogous Organs</th></tr><tr><td style='padding: 8px;'>They have a similar anatomical structure and origin but perform different functions.</td><td style='padding: 8px;'>They have different anatomical structures and origins but perform similar functions.</td></tr><tr><td style='padding: 8px;'>They indicate divergent evolution (common ancestry).</td><td style='padding: 8px;'>They indicate convergent evolution.</td></tr><tr><td style='padding: 8px;'>Example: Forelimbs of a man, whale, and bat.</td><td style='padding: 8px;'>Example: Wings of a butterfly and a bird.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is 'adaptive radiation'? Give one example.",
+    "answer": "Adaptive radiation is an evolutionary process in which a single ancestral species diversifies into a number of new species that are adapted to different habitats and ways of life.<br><br><b>Example:</b> Darwin's finches on the Galapagos Islands. An ancestral seed-eating finch species diversified into about 13 different species, each with a beak adapted to a specific type of food available on different islands.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'gene pool' and 'gene frequency'.",
+    "answer": "<b>Gene Pool:</b> The gene pool is the sum total of all the genes (and their different alleles) present in a randomly interbreeding population at a given time.<br><br><b>Gene Frequency (Allele Frequency):</b> It is the proportion of a specific allele in the gene pool of a population. It is usually expressed as a percentage or a decimal.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are vestigial organs? Give two examples from the human body.",
+    "answer": "Vestigial organs are rudimentary organs that are underdeveloped, non-functional, and degenerated, but were fully developed and functional in the ancestors.<br><br><b>Examples in Humans:</b><br>1. <b>Vermiform appendix:</b> An appendage of the large intestine, which was used for digesting cellulose in our herbivorous ancestors.<br>2. <b>Coccyx (tailbone):</b> The remnant of a tail.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the 'founder effect'?",
+    "answer": "The founder effect is a specific case of genetic drift. It occurs when a new population is established by a very small number of individuals ('founders') from a larger parent population. The gene pool of this new population may have different allele frequencies and reduced genetic variation compared to the original population, simply by chance.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the Miller-Urey experiment with a neat, labelled diagram. What did it prove?",
+    "answer": "<br><br>The Miller-Urey experiment, conducted in 1953, was designed to test the theory of chemical evolution by simulating the conditions of the primitive Earth's atmosphere.<br><br><b>Experimental Setup:</b><br><ul><li>They created a closed system containing a mixture of gases believed to be present in the early atmosphere: methane ($CH_4$), ammonia ($NH_3$), hydrogen ($H_2$), and water vapour ($H_2O$).</li><li>This gaseous mixture was subjected to continuous electric sparks, simulating lightning.</li><li>A condenser was used to cool the mixture, causing the water to condense and collect in a U-shaped trap.</li></ul><b>Observation and Conclusion:</b><br>After a week, the collected water was found to be a dark red liquid containing a variety of organic compounds. Analysis of this liquid revealed the presence of several amino acids, such as glycine and alanine, which are the building blocks of proteins.<br><br><b>This experiment proved that organic molecules could be synthesized from inorganic precursors under the simulated conditions of primitive Earth, thus providing strong evidence for the theory of chemical evolution.</b>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the main postulates of Darwin's theory of natural selection. (PYQ: March 2020)",
+    "answer": "Charles Darwin's theory of evolution by natural selection is based on several key observations and inferences:<br><br>1. <b>Overproduction (Prodigality of nature):</b> All organisms have the potential to reproduce at a very high rate, leading to a geometric increase in their population.<br><br>2. <b>Struggle for Existence:</b> Since resources like food and space are limited, the overproduction of individuals leads to competition or a 'struggle for existence' among them. This struggle can be intraspecific (within the species) or interspecific (between species).<br><br>3. <b>Variation and Heredity:</b> There are natural variations among the individuals of any population. These variations are heritable and are passed on from parents to offspring.<br><br>4. <b>Survival of the Fittest (Natural Selection):</b> In the struggle for existence, individuals with variations that are more favourable and better adapted to their environment are more likely to survive, reproduce, and pass on these advantageous traits to the next generation. This is natural selection.<br><br>5. <b>Origin of New Species:</b> Over many generations, the accumulation of these favourable variations through natural selection leads to the formation of a new species that is distinct from the ancestral species.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is speciation? Describe the two main types of speciation.",
+    "answer": "<b>Speciation</b> is the evolutionary process by which new biological species arise.<br><br>The two main types of speciation are:<br>1. <b>Allopatric Speciation:</b> This occurs when a population is divided into two or more geographically isolated sub-populations by a physical barrier like a mountain range, river, or ocean. The isolated populations then evolve independently. Over time, due to different selective pressures and genetic drift, they accumulate enough genetic differences that they can no longer interbreed even if the barrier is removed. This leads to the formation of new species.<br><br>2. <b>Sympatric Speciation:</b> This is the formation of a new species from a single ancestral species while inhabiting the same geographical region. There is no physical barrier. Reproductive isolation occurs due to other factors, such as ecological isolation (adapting to different niches within the same area) or genetic mechanisms like polyploidy (common in plants), which prevent interbreeding.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the paleontological evidence for evolution.",
+    "answer": "Palaeontology is the study of fossils, which are the preserved remains or impressions of organisms from the past. Fossils provide direct and compelling evidence for evolution.<br><ul><li><b>Fossil Record:</b> The study of fossils from different rock strata (layers) shows that life forms have changed over time. The fossils found in older, deeper layers are simpler, while those in the newer, upper layers are more complex. This supports the idea that life has evolved from simple to more complex forms.</li><li><b>Connecting Links:</b> Fossils of organisms that show characteristics of two different groups provide evidence of evolutionary transitions. A classic example is <b>Archaeopteryx</b>, which is a connecting link between reptiles and birds.</li><li><b>Evolutionary Lineages:</b> The fossil record allows us to trace the evolutionary history (phylogeny) of certain organisms, like the horse, showing a gradual change in size, leg structure, and teeth over millions of years in response to environmental changes.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe the key milestones in human evolution from Australopithecus to Homo sapiens.",
+    "answer": "Human evolution is the lengthy process of change by which people originated from ape-like ancestors.<br><br>1. <b>Australopithecus (approx. 4 mya):</b> Considered a connecting link between apes and man. They were short-statured, had a small brain size (around 450 cc), but were the first to show bipedal locomotion (walked on two legs).<br><br>2. <b>Homo habilis ('Handy Man', approx. 2.5 mya):</b> The first to be called 'Homo'. They had a larger brain (650-800 cc) than Australopithecus and were the first known toolmakers, using simple stone tools.<br><br>3. <b>Homo erectus ('Upright Man', approx. 1.8 mya):</b> They were fully erect and had a larger brain size (900-1100 cc). A major milestone was that they were the first to use and control fire.<br><br>4. <b>Neanderthal Man (Homo neanderthalensis, approx. 100,000 years ago):</b> Lived in Europe and Asia. They had a brain size comparable to modern humans (around 1450 cc). They used more sophisticated tools, buried their dead, and had some form of ritualistic culture.<br><br>5. <b>Homo sapiens ('Wise Man', arose in Africa approx. 200,000 years ago):</b> This is modern man. They have a large brain (around 1350 cc), a high forehead, and a prominent chin. They developed advanced tools, language, art (cave paintings), and agriculture.",
+    "marks": 4
+  }
+]

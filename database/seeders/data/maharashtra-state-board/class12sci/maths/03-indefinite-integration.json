@@ -7,7 +7,7 @@
   },
   {
     "type": "long",
-    "text": "Integrate $x^2(1 - \\frac{2}{x})^2$ w. r. t. x.",
+    "text": "Integrate $x^2(1 - \\frac{2}{x})^2$ w. r. t. x. (HSC Textbook)",
     "answer": "First, expand the expression: $x^2(1 - \\frac{2}{x})^2 = x^2(1 - \\frac{4}{x} + \\frac{4}{x^2}) = x^2 - 4x + 4$.<br>Now, integrate the resulting polynomial: $\\int (x^2 - 4x + 4) dx = \\frac{x^3}{3} - 4\\frac{x^2}{2} + 4x + C = \\frac{x^3}{3} - 2x^2 + 4x + C$.",
     "marks": 3
   },
@@ -31,7 +31,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int \\tan^2 x \\cdot dx$.",
+    "text": "Evaluate $\\int \\tan^2 x \\cdot dx$. (March 2022)",
     "answer": "Using the trigonometric identity $\\tan^2 x = \\sec^2 x - 1$, the integral becomes:<br>$\\int (\\sec^2 x - 1) dx = \\int \\sec^2 x dx - \\int 1 dx = \\tan x - x + C$.",
     "marks": 2
   },
@@ -61,7 +61,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int \\frac{\\sin x}{1 + \\sin x} \\cdot dx$.",
+    "text": "Evaluate $\\int \\frac{\\sin x}{1 + \\sin x} \\cdot dx$. (July 2019)",
     "answer": "Multiply the numerator and denominator by the conjugate of the denominator, $(1 - \\sin x)$:<br>$\\int \\frac{\\sin x(1-\\sin x)}{(1+\\sin x)(1-\\sin x)} dx = \\int \\frac{\\sin x - \\sin^2 x}{1-\\sin^2 x} dx = \\int \\frac{\\sin x - \\sin^2 x}{\\cos^2 x} dx$<br>$= \\int (\\frac{\\sin x}{\\cos^2 x} - \\frac{\\sin^2 x}{\\cos^2 x}) dx = \\int (\\sec x \\tan x - \\tan^2 x) dx$<br>$= \\int (\\sec x \\tan x - (\\sec^2 x - 1)) dx = \\sec x - \\tan x + x + C$.",
     "marks": 4
   },
@@ -73,7 +73,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int \\sqrt{1+\\sin 2x} \\cdot dx$.",
+    "text": "Evaluate $\\int \\sqrt{1+\\sin 2x} \\cdot dx$. (March 2020)",
     "answer": "Using the identities $1=\\sin^2 x + \\cos^2 x$ and $\\sin 2x = 2\\sin x \\cos x$:<br>$\\int \\sqrt{\\sin^2 x + \\cos^2 x + 2\\sin x \\cos x} dx = \\int \\sqrt{(\\sin x + \\cos x)^2} dx$<br>$= \\int |\\sin x + \\cos x| dx$. Assuming the expression inside the absolute value is non-negative, the integral is:<br>$\\int (\\sin x + \\cos x) dx = -\\cos x + \\sin x + C$.",
     "marks": 3
   },
@@ -85,7 +85,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int \\sin 4x \\cos 3x \\cdot dx$.",
+    "text": "Evaluate $\\int \\sin 4x \\cos 3x \\cdot dx$. (HSC Textbook)",
     "answer": "Using the product-to-sum formula $\\sin A \\cos B = \\frac{1}{2}[\\sin(A+B) + \\sin(A-B)]$:<br>$\\int \\frac{1}{2}[\\sin(4x+3x) + \\sin(4x-3x)] dx = \\frac{1}{2} \\int (\\sin 7x + \\sin x) dx$<br>$= \\frac{1}{2} [-\\frac{\\cos 7x}{7} - \\cos x] + C = -\\frac{\\cos 7x}{14} - \\frac{\\cos x}{2} + C$.",
     "marks": 3
   },
@@ -133,7 +133,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int \\cos^2 x \\cdot dx$.",
+    "text": "Evaluate $\\int \\cos^2 x \\cdot dx$. (March 2023)",
     "answer": "Using the half-angle identity $\\cos^2 x = \\frac{1+\\cos 2x}{2}$:<br>$\\int \\frac{1+\\cos 2x}{2} dx = \\frac{1}{2}\\int (1+\\cos 2x) dx = \\frac{1}{2}(x + \\frac{\\sin 2x}{2}) + C = \\frac{x}{2} + \\frac{\\sin 2x}{4} + C$.",
     "marks": 2
   },
@@ -181,14 +181,14 @@
   },
   {
     "type": "long",
-    "text": "Integrate $\\frac{e^{3x}}{e^{3x}+1}$ w. r. t. x.",
+    "text": "Integrate $\\frac{e^{3x}}{e^{3x}+1}$ w. r. t. x. (HSC Textbook)",
     "answer": "Let $u = e^{3x}+1$. Then $du = 3e^{3x} dx$, so $e^{3x} dx = \\frac{1}{3} du$. The integral becomes:<br>$\\int \\frac{1}{u} \\cdot \\frac{1}{3} du = \\frac{1}{3} \\ln|u| + C$.<br>Substituting back for $u$: $\\frac{1}{3} \\ln(e^{3x}+1) + C$.",
     "marks": 2
   },
   {
     "type": "long",
     "text": "Integrate $\\frac{(\\alpha x^2-1)}{(x^2+1)(x+\\tan^{-1}x)}$ w. r. t. x. (Assuming the numerator is $x^2+2$ due to a likely typo)",
-    "answer": "The problem as stated, $\\int \\frac{1}{(x^2+1)(x+\\tan^{-1}x)} dx$, is non-standard. A common variation is $\\int \\frac{x^2+2}{(x^2+1)(x+\\tan^{-1}x)} dx$. Let's solve this variation.<br>Let $u = x+\\tan^{-1}x$. Then $du = (1 + \\frac{1}{x^2+1}) dx = (\\frac{x^2+1+1}{x^2+1}) dx = \\frac{x^2+2}{x^2+1} dx$.<br>So the numerator can be rewritten. Wait, the problem is $\\frac{1}{x^2+1} \\frac{1}{x+\\tan^{-1}x}$. This is incorrect. A different typo is more likely: $\\int \\frac{1+\\frac{1}{x^2}}{x - \\frac{1}{x}} dx$. The provided text is likely flawed.",
+    "answer": "The problem as stated is non-standard. A common variation is $\\int \\frac{x^2+2}{(x^2+1)(x+\\tan^{-1}x)} dx$. Let's solve this variation.<br>Let $u = x+\\tan^{-1}x$. Then $du = (1 + \\frac{1}{x^2+1}) dx = (\\frac{x^2+1+1}{x^2+1}) dx = \\frac{x^2+2}{x^2+1} dx$.<br>The integral becomes $\\int \\frac{1}{u}du = \\ln|u|+C = \\ln|x+\\tan^{-1}x|+C$.",
     "marks": 2
   },
   {
@@ -199,7 +199,7 @@
   },
   {
     "type": "long",
-    "text": "Integrate $\\frac{e^{2x}+1}{e^{2x}-1}$ w. r. t. x.",
+    "text": "Integrate $\\frac{e^{2x}+1}{e^{2x}-1}$ w. r. t. x. (March 2018)",
     "answer": "Divide the numerator and denominator by $e^x$: $\\int \\frac{e^x+e^{-x}}{e^x-e^{-x}} dx$.<br>Now, let $u = e^x - e^{-x}$. Then $du = (e^x - (-e^{-x})) dx = (e^x + e^{-x}) dx$.<br>The integral becomes $\\int \\frac{1}{u} du = \\ln|u| + C$.<br>Substituting back for $u$: $\\ln|e^x - e^{-x}| + C$.",
     "marks": 3
   },
@@ -349,7 +349,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int \\frac{1}{x^2+8x+12} dx$.",
+    "text": "Evaluate $\\int \\frac{1}{x^2+8x+12} dx$. (July 2022)",
     "answer": "First, complete the square for the denominator: $x^2+8x+12 = (x^2+8x+16) - 16 + 12 = (x+4)^2-4 = (x+4)^2-2^2$. The integral is $\\int \\frac{1}{(x+4)^2-2^2}dx$. Let $u=x+4$. This becomes $\\int \\frac{1}{u^2-2^2}du = \\frac{1}{2(2)}\\ln|\\frac{u-2}{u+2}| + C = \\frac{1}{4}\\ln|\\frac{x+4-2}{x+4+2}| + C = \\frac{1}{4}\\ln|\\frac{x+2}{x+6}| + C$.",
     "marks": 3
   },
@@ -373,7 +373,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int \\frac{1}{4+3\\cos^2 x} dx$.",
+    "text": "Evaluate $\\int \\frac{1}{4+3\\cos^2 x} dx$. (HSC Textbook)",
     "answer": "Divide the numerator and denominator by $\\cos^2 x$: $\\int \\frac{\\sec^2 x}{4\\sec^2 x+3} dx$. Use the identity $\\sec^2 x = 1+\\tan^2 x$: $\\int \\frac{\\sec^2 x}{4(1+\\tan^2 x)+3} dx = \\int \\frac{\\sec^2 x}{7+4\\tan^2 x} dx$. Let $u=\\tan x$, so $du=\\sec^2 x dx$. The integral becomes $\\int \\frac{du}{7+(2u)^2} = \\int \\frac{du}{(\\sqrt{7})^2+(2u)^2}$. Let $v=2u$, so $dv=2du$. This gives $\\frac{1}{2}\\int \\frac{dv}{(\\sqrt{7})^2+v^2} = \\frac{1}{2} \\cdot \\frac{1}{\\sqrt{7}} \\tan^{-1}(\\frac{v}{\\sqrt{7}})+C = \\frac{1}{2\\sqrt{7}}\\tan^{-1}(\\frac{2\\tan x}{\\sqrt{7}})+C$.",
     "marks": 4
   },
@@ -440,7 +440,7 @@
   {
     "type": "long",
     "text": "Evaluate $\\int \\sqrt{\\frac{x-7}{x-9}} dx$.",
-    "answer": "Rationalize the numerator: $\\int \\frac{\\sqrt{x-7}}{\\sqrt{x-9}} \\cdot \\frac{\\sqrt{x-7}}{\\sqrt{x-7}} dx = \\int \\frac{x-7}{\\sqrt{(x-9)(x-7)}} dx = \\int \\frac{x-7}{\\sqrt{x^2-16x+63}} dx$.<br>Let $x-7 = A(2x-16)+B$. Comparing coefficients gives $A=1/2$ and $B=1$.<br>The integral is $\\frac{1}{2}\\int \\frac{2x-16}{\\sqrt{x^2-16x+63}} dx + \\int \\frac{1}{\\sqrt{x^2-16x+63}} dx$.<br>The first part is $\\sqrt{x^2-16x+63}$.<br>For the second part, complete the square: $x^2-16x+63=(x-8)^2-1$. The integral is $\\int \\frac{1}{\\sqrt{(x-8)^2-1^2}}dx = \\ln|x-8+\\sqrt{x^2-16x+63}|$.<br>Final answer: $\\sqrt{x^2-16x+63} + \\ln|x-8+\\sqrt{x^2-16x+63}| + C$.",
+    "answer": "Rationalize the numerator: $\\int \\frac{\\sqrt{x-7}}{\\sqrt{x-9}} \\cdot \\frac{\\sqrt{x-7}}{\\sqrt{x-7}} dx = \\int \\frac{x-7}{\\sqrt{(x-9)(x-7)}} dx = \\int \\frac{x-7}{\\sqrt{x^2-16x+63}} dx$.<br>Let $x-7 = A(2x-16)+B$. Comparing coefficients gives $A=1/2$ and $B=1$.<br>The integral is $\\frac{1}{2}\\int \\frac{2x-16}{\\sqrt{x^2-16x+63}} dx + \\int \\frac{1}{\\sqrt{x^2-16x+63}} dx$.<br>The first part is $\\sqrt{x^2-16x+63}$.<br>For the second part, complete the square: $x^2-16x+63=(x-8)^2-1$. The integral is $\\int \\frac{1}{\\sqrt{(x-8)^2-1^2}}dx = \\ln|x-8+\\sqrt{x^2-16x+63}|$.<br> $\\sqrt{x^2-16x+63} + \\ln|x-8+\\sqrt{x^2-16x+63}| + C$.",
     "marks": 5
   },
   {
@@ -463,7 +463,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int x^2 \\log x \\ dx$.",
+    "text": "Evaluate $\\int x^2 \\log x \\ dx$. (March 2024)",
     "answer": "We use integration by parts, $\\int u \\ dv = uv - \\int v \\ du$. Let $u = \\log x$ and $dv = x^2 dx$. Then $du = \\frac{1}{x} dx$ and $v = \\frac{x^3}{3}$.<br>The integral becomes:<br>$\\log x \\cdot \\frac{x^3}{3} - \\int \\frac{x^3}{3} \\cdot \\frac{1}{x} dx = \\frac{x^3 \\log x}{3} - \\frac{1}{3} \\int x^2 dx = \\frac{x^3 \\log x}{3} - \\frac{1}{3} \\frac{x^3}{3} + C = \\frac{x^3 \\log x}{3} - \\frac{x^3}{9} + C$.",
     "marks": 3
   },
@@ -475,7 +475,7 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int x \\tan^{-1} x \\ dx$.",
+    "text": "Evaluate $\\int x \\tan^{-1} x \\ dx$. (July 2023)",
     "answer": "Let $u=\\tan^{-1}x$ and $dv=x dx$. Then $du=\\frac{1}{1+x^2}dx$ and $v=\\frac{x^2}{2}$.<br>Using integration by parts: $\\frac{x^2}{2}\\tan^{-1}x - \\int \\frac{x^2}{2} \\frac{1}{1+x^2}dx = \\frac{x^2}{2}\\tan^{-1}x - \\frac{1}{2}\\int \\frac{x^2+1-1}{1+x^2}dx$<br>$= \\frac{x^2}{2}\\tan^{-1}x - \\frac{1}{2}\\int (1 - \\frac{1}{1+x^2})dx = \\frac{x^2}{2}\\tan^{-1}x - \\frac{1}{2}(x - \\tan^{-1}x) + C$.",
     "marks": 4
   },
@@ -530,7 +530,7 @@
   {
     "type": "long",
     "text": "Evaluate $\\int (2+\\cot x - \\csc^2 x) e^x \\ dx$.",
-    "answer": "We can split the integral: $\\int 2e^x dx + \\int e^x (\\cot x - \\csc^2 x) dx = 2e^x + I_2$.<br>For $I_2$, let's use integration by parts on the term $\\int e^x \\cot x dx$. Let $u=\\cot x, dv=e^x dx$. Then $du=-\\csc^2 x dx, v=e^x$.<br>$\\int e^x \\cot x dx = e^x \\cot x - \\int e^x(-\\csc^2 x)dx = e^x \\cot x + \\int e^x \\csc^2 x dx$.<br>Now substitute this back into $I_2$:<br>$I_2 = (e^x \\cot x + \\int e^x \\csc^2 x dx) - \\int e^x \\csc^2 x dx = e^x \\cot x$.<br>The final answer is $2e^x + e^x \\cot x + C = e^x(2+\\cot x)+C$.",
+    "answer": "We can split the integral: $\\int 2e^x dx + \\int e^x (\\cot x - \\csc^2 x) dx = 2e^x + I_2$.<br>For $I_2$, we see this is of the form $\\int e^x(f(x)+f'(x))dx$ where $f(x)=\\cot x$ and $f'(x)=-\\csc^2 x$. So $I_2 = e^x \\cot x$. The final answer is $2e^x + e^x \\cot x + C = e^x(2+\\cot x)+C$.",
     "marks": 4
   },
   {
@@ -541,13 +541,13 @@
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int e^x (\\frac{1}{x} - \\frac{1}{x^2}) \\ dx$.",
+    "text": "Evaluate $\\int e^x (\\frac{1}{x} - \\frac{1}{x^2}) \\ dx$. (March 2019)",
     "answer": "This integral is in the form $\\int e^x(f(x)+f'(x))dx$.<br>Let $f(x) = \\frac{1}{x}$. Then its derivative is $f'(x) = -\\frac{1}{x^2}$.<br>The integrand is exactly $e^x(f(x)+f'(x))$.<br>Therefore, the integral is $e^x f(x) + C = \\frac{e^x}{x} + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Evaluate $\\int (\\frac{x}{(x+1)^2}) e^x \\ dx$.",
+    "text": "Evaluate $\\int (\\frac{x}{(x+1)^2}) e^x \\ dx$. (HSC Textbook)",
     "answer": "First, we rewrite the algebraic part: $\\frac{x}{(x+1)^2} = \\frac{x+1-1}{(x+1)^2} = \\frac{x+1}{(x+1)^2} - \\frac{1}{(x+1)^2} = \\frac{1}{x+1} - \\frac{1}{(x+1)^2}$.<br>The integral is $\\int e^x (\\frac{1}{x+1} - \\frac{1}{(x+1)^2}) dx$.<br>This is in the form $\\int e^x(f(x)+f'(x))dx$, where $f(x)=\\frac{1}{x+1}$ and $f'(x)=-\\frac{1}{(x+1)^2}$.<br>The result is $e^x f(x) + C = \\frac{e^x}{x+1} + C$.",
     "marks": 4
   },
@@ -583,8 +583,8 @@
   },
   {
     "type": "long",
-    "text": "Integrate $\\frac{x^2+2}{(x-1)(x+2)(x+3)}$ w. r. t. x.",
-    "answer": "We use partial fraction decomposition. Let $\\frac{x^2+2}{(x-1)(x+2)(x+3)} = \\frac{A}{x-1} + \\frac{B}{x+2} + \\frac{C}{x+3}$.<br>Solving for the coefficients:<br>$A = \\frac{(-1)^2+2}{(-1+2)(-1+3)}$ is incorrect. Let's recompute.<br>$A = \\frac{1^2+2}{(1+2)(1+3)} = \\frac{3}{12} = \\frac{1}{4}$.<br>$B = \\frac{(-2)^2+2}{(-2-1)(-2+3)} = \\frac{6}{-3} = -2$.<br>$C = \\frac{(-3)^2+2}{(-3-1)(-3+2)} = \\frac{11}{4}$.<br>The integral is $\\int (\\frac{1/4}{x-1} - \\frac{2}{x+2} + \\frac{11/4}{x+3}) dx = \\frac{1}{4}\\ln|x-1| - 2\\ln|x+2| + \\frac{11}{4}\\ln|x+3| + C$.",
+    "text": "Integrate $\\frac{x^2+2}{(x-1)(x+2)(x+3)}$ w. r. t. x. (March 2022)",
+    "answer": "We use partial fraction decomposition. Let $\\frac{x^2+2}{(x-1)(x+2)(x+3)} = \\frac{A}{x-1} + \\frac{B}{x+2} + \\frac{C}{x+3}$.<br>Solving for the coefficients:<br>$A = \\frac{1^2+2}{(1+2)(1+3)} = \\frac{3}{12} = \\frac{1}{4}$.<br>$B = \\frac{(-2)^2+2}{(-2-1)(-2+3)} = \\frac{6}{-3} = -2$.<br>$C = \\frac{(-3)^2+2}{(-3-1)(-3+2)} = \\frac{11}{4}$.<br>The integral is $\\int (\\frac{1/4}{x-1} - \\frac{2}{x+2} + \\frac{11/4}{x+3}) dx = \\frac{1}{4}\\ln|x-1| - 2\\ln|x+2| + \\frac{11}{4}\\ln|x+3| + C$.",
     "marks": 4
   },
   {
@@ -607,7 +607,7 @@
   },
   {
     "type": "long",
-    "text": "Integrate $\\frac{x^2+x-1}{x^2+x-6}$ w. r. t. x.",
+    "text": "Integrate $\\frac{x^2+x-1}{x^2+x-6}$ w. r. t. x. (March 2020)",
     "answer": "This is an improper rational function. We perform long division first: $\\frac{x^2+x-1}{x^2+x-6} = 1 + \\frac{5}{x^2+x-6}$.<br>The integral is $\\int (1 + \\frac{5}{(x+3)(x-2)}) dx$.<br>For the fraction, $\\frac{5}{(x+3)(x-2)} = \\frac{A}{x+3} + \\frac{B}{x-2}$.<br>$A = \\frac{5}{-5}=-1$, $B = \\frac{5}{5}=1$.<br>So we integrate $\\int (1 - \\frac{1}{x+3} + \\frac{1}{x-2}) dx = x - \\ln|x+3| + \\ln|x-2| + C = x + \\ln|\\frac{x-2}{x+3}| + C$.",
     "marks": 4
   },
@@ -619,7 +619,7 @@
   },
   {
     "type": "long",
-    "text": "Integrate $\\frac{1}{x(x^5+1)}$ w. r. t. x.",
+    "text": "Integrate $\\frac{1}{x(x^5+1)}$ w. r. t. x. (HSC Textbook)",
     "answer": "We can write this as $\\int \\frac{x^4}{x^5(x^5+1)} dx$. Let $u=x^5$, so $du = 5x^4 dx$.<br>The integral becomes $\\frac{1}{5}\\int \\frac{du}{u(u+1)}$.<br>Using partial fractions, $\\frac{1}{u(u+1)} = \\frac{1}{u} - \\frac{1}{u+1}$.<br>So the integral is $\\frac{1}{5} \\int (\\frac{1}{u} - \\frac{1}{u+1}) du = \\frac{1}{5}(\\ln|u| - \\ln|u+1|) + C = \\frac{1}{5}\\ln|\\frac{u}{u+1}| + C$.<br>Substituting back: $\\frac{1}{5}\\ln|\\frac{x^5}{x^5+1}| + C$.",
     "marks": 4
   },
@@ -649,7 +649,7 @@
   },
   {
     "type": "long",
-    "text": "Integrate $\\frac{(3\\sin x-2)\\cos x}{5-4\\sin x - \\cos^2 x}$ w. r. t. x.",
+    "text": "Integrate $\\frac{(3\\sin x-2)\\cos x}{5-4\\sin x - \\cos^2 x}$ w. r. t. x. (March 2023)",
     "answer": "First, simplify the denominator: $5-4\\sin x - (1-\\sin^2 x) = \\sin^2 x - 4\\sin x + 4 = (\\sin x - 2)^2$.<br>The integral is $\\int \\frac{(3\\sin x-2)\\cos x}{(\\sin x - 2)^2} dx$.<br>Let $u=\\sin x$, so $du=\\cos x dx$. The integral becomes $\\int \\frac{3u-2}{(u-2)^2} du$.<br>Let $v=u-2$, so $u=v+2$. The integral is $\\int \\frac{3(v+2)-2}{v^2} dv = \\int \\frac{3v+4}{v^2} dv = \\int (\\frac{3}{v} + \\frac{4}{v^2}) dv$.<br>$= 3\\ln|v| - \\frac{4}{v} + C = 3\\ln|u-2| - \\frac{4}{u-2} + C$.<br>Substituting back: $3\\ln|\\sin x-2| - \\frac{4}{\\sin x-2} + C$.",
     "marks": 5
   },
@@ -764,19 +764,19 @@
   {
     "type": "short",
     "text": "$\\int \\frac{dx}{\\cos x \\sqrt{\\sin^2 x - \\cos^2 x}} =$\n(A) $\\log(\\tan x - \\sqrt{\\tan^2 x - 1})+c$\n(B) $\\sin^{-1}(\\tan x)+c$\n(C) $1+\\sin^{-1}(\\cot x)+c$\n(D) $\\log(\\tan x + \\sqrt{\\tan^2 x - 1})+c$",
-    "answer": "To simplify the integral, we can divide the numerator and the denominator by $\\cos x$ (inside the square root this means dividing by $\\cos^2 x$).<br>$\\int \\frac{dx/\\cos x}{\\sqrt{\\sin^2 x/\\cos^2 x - \\cos^2 x/\\cos^2 x}} $ - This is not the right approach. Let's divide by $\\cos^2 x$ outside the root.<br>$\\int \\frac{\\sec^2 x dx}{\\sec x \\sqrt{\\tan^2 x - 1}}$. No, this is also incorrect manipulation.<br>The correct way is to manipulate the integrand: $\\int \\frac{1}{\\cos^2 x \\sqrt{\\frac{\\sin^2 x}{\\cos^2 x} - 1}} dx = \\int \\frac{\\sec^2 x}{\\sqrt{\\tan^2 x - 1}} dx$.<br>Now, we use substitution. Let $u = \\tan x$. Then $du = \\sec^2 x dx$.<br>The integral becomes $\\int \\frac{du}{\\sqrt{u^2-1}}$.<br>This is a standard integral form, which evaluates to $\\ln|u + \\sqrt{u^2-1}| + C$.<br>Substituting back $u=\\tan x$: $\\ln|\\tan x + \\sqrt{\\tan^2 x - 1}| + c$. **Correct option is (D).**",
+    "answer": "The correct way is to manipulate the integrand: $\\int \\frac{1}{\\cos^2 x \\sqrt{\\frac{\\sin^2 x}{\\cos^2 x} - 1}} dx = \\int \\frac{\\sec^2 x}{\\sqrt{\\tan^2 x - 1}} dx$.<br>Now, we use substitution. Let $u = \\tan x$. Then $du = \\sec^2 x dx$.<br>The integral becomes $\\int \\frac{du}{\\sqrt{u^2-1}}$.<br>This is a standard integral form, which evaluates to $\\ln|u + \\sqrt{u^2-1}| + C$.<br>Substituting back $u=\\tan x$: $\\ln|\\tan x + \\sqrt{\\tan^2 x - 1}| + c$. **Correct option is (D).**",
     "marks": 4
   },
   {
     "type": "short",
     "text": "$\\int \\frac{(\\log x)^2}{x} dx =$\n(A) $\\frac{1}{1+\\log x} + c$\n(B) $x(1+\\log x) + c$\n(C) $\\frac{(\\log x)^3}{3} + c$\n(D) $\\frac{1}{1-\\log x}$",
-    "answer": "The question as stated is $\\int \\frac{(\\log x)^2}{x} dx$. We solve this by substitution. Let $u = \\log x$, which means $du = \\frac{1}{x} dx$. The integral becomes $\\int u^2 du = \\frac{u^3}{3} + C$. Substituting back, we get $\\frac{(\\log x)^3}{3} + C$. None of the provided options (A, B, D, and C which is cut off in the image but assumed from pattern) match this result. There is likely a typographical error in the question or the options. Assuming option (C) was meant to be the correct answer $\\frac{(\\log x)^3}{3} + c$, it would be the correct choice.",
+    "answer": "The question as stated is $\\int \\frac{(\\log x)^2}{x} dx$. We solve this by substitution. Let $u = \\log x$, which means $du = \\frac{1}{x} dx$. The integral becomes $\\int u^2 du = \\frac{u^3}{3} + C$. Substituting back, we get $\\frac{(\\log x)^3}{3} + C$. **Correct option is (C).**",
     "marks": 3
   },
   {
     "type": "short",
     "text": "$\\int [\\sin(\\log x) + \\cos(\\log x)] dx =$\n(A) $x \\cos(\\log x) + c$\n(B) $\\sin(\\log x) + c$\n(C) $\\cos(\\log x) + c$\n(D) $x \\sin(\\log x) + c$",
-    "answer": "This problem can be solved by recognizing a pattern related to integration by parts. Let's find the integral of each part separately. Let $I_1 = \\int \\sin(\\log x) dx$ and $I_2 = \\int \\cos(\\log x) dx$.<br>Using integration by parts for $I_1$ (with $u=\\sin(\\log x), dv=dx$):<br>$I_1 = x\\sin(\\log x) - \\int x \\cos(\\log x) \\frac{1}{x} dx = x\\sin(\\log x) - I_2$.<br>So, $I_1 + I_2 = x\\sin(\\log x)$.<br>The required integral is $\\int [\\sin(\\log x) + \\cos(\\log x)] dx = I_1 + I_2$.<br>Therefore, the result is $x \\sin(\\log x) + c$. **Correct option is (D).**",
+    "answer": "This problem can be solved by recognizing a pattern related to integration by parts. Let $I_1 = \\int \\sin(\\log x) dx$ and $I_2 = \\int \\cos(\\log x) dx$.<br>Using integration by parts for $I_1$ (with $u=\\sin(\\log x), dv=dx$):<br>$I_1 = x\\sin(\\log x) - \\int x \\cos(\\log x) \\frac{1}{x} dx = x\\sin(\\log x) - I_2$.<br>So, $I_1 + I_2 = x\\sin(\\log x)$.<br>The required integral is $\\int [\\sin(\\log x) + \\cos(\\log x)] dx = I_1 + I_2$.<br>Therefore, the result is $x \\sin(\\log x) + c$. **Correct option is (D).**",
     "marks": 5
   },
   {
@@ -788,7 +788,7 @@
   {
     "type": "short",
     "text": "$\\int \\frac{e^x + e^{-x}}{e^x - e^{-x}} dx =$\n(A) $e^x - \\frac{1}{3e^{3x}} + c$\n(B) $e^x + \\frac{1}{3e^{3x}} + c$\n(C) $e^{2x} + \\frac{1}{3e^{3x}} + c$\n(D) $\\ln|e^x - e^{-x}| + c$",
-    "answer": "The question asks to evaluate $\\int \\frac{e^x + e^{-x}}{e^x - e^{-x}} dx$. The options provided in the image do not seem to correspond to this question. However, we can solve the question as written.<br>This integral is in the form $\\int \\frac{f'(x)}{f(x)} dx$.<br>Let $u = e^x - e^{-x}$. Then its derivative is $du = (e^x - (-e^{-x})) dx = (e^x + e^{-x}) dx$, which is exactly the numerator.<br>The integral becomes $\\int \\frac{du}{u} = \\ln|u| + C = \\ln|e^x - e^{-x}| + C$. Assuming option (D) was intended to be this result, it would be the correct answer.",
+    "answer": "This integral is in the form $\\int \\frac{f'(x)}{f(x)} dx$.<br>Let $u = e^x - e^{-x}$. Then its derivative is $du = (e^x - (-e^{-x})) dx = (e^x + e^{-x}) dx$, which is exactly the numerator.<br>The integral becomes $\\int \\frac{du}{u} = \\ln|u| + C = \\ln|e^x - e^{-x}| + C$. **Correct option is (D).**",
     "marks": 3
   },
   {
@@ -850,5 +850,11 @@
     "text": "Integrate $\\log(x^2+1)$ with respect to x.",
     "answer": "We use integration by parts, $\\int u dv = uv - \\int v du$.<br>Let $u=\\log(x^2+1)$ and $dv=dx$. Then $du=\\frac{2x}{x^2+1}dx$ and $v=x$.<br>The integral is $x\\log(x^2+1) - \\int x \\cdot \\frac{2x}{x^2+1} dx = x\\log(x^2+1) - 2\\int \\frac{x^2}{x^2+1} dx$.<br>For the remaining integral, we write $\\frac{x^2}{x^2+1} = \\frac{x^2+1-1}{x^2+1} = 1 - \\frac{1}{x^2+1}$.<br>So, $\\int (1 - \\frac{1}{x^2+1}) dx = x - \\tan^{-1}x$.<br>The final answer is $x\\log(x^2+1) - 2(x - \\tan^{-1}x) + C = x\\log(x^2+1) - 2x + 2\\tan^{-1}x + C$.",
     "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Evaluate $\\int \\frac{x^2 \\tan^{-1}(x^3)}{1+x^6} dx$. (March 2017)",
+    "answer": "We solve this integral using substitution. Let $u = \\tan^{-1}(x^3)$.<br>Then, the derivative is $du = \\frac{1}{1+(x^3)^2} \\cdot 3x^2 dx = \\frac{3x^2}{1+x^6} dx$.<br>This implies that $\\frac{x^2}{1+x^6} dx = \\frac{1}{3} du$.<br>The integral becomes $\\int u \\cdot \\frac{1}{3} du = \\frac{1}{3} \\int u du$.<br>Using the power rule for integration: $\\frac{1}{3} \\frac{u^2}{2} + C = \\frac{u^2}{6} + C$.<br>Substituting back $u = \\tan^{-1}(x^3)$: $\\frac{(\\tan^{-1}(x^3))^2}{6} + C$.",
+    "marks": 3
   }
 ]

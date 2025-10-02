@@ -47,6 +47,21 @@
                         @csrf
                         @method('PUT')
 
+                         {{-- 💡 NEW: Board Dropdown --}}
+                    <div>
+                        <label for="board_id" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Board</label>
+                        <select name="board_id" id="board_id" required
+                                class="mt-1 block w-full rounded-lg border border-gray-300 bg-white/90 px-3 py-2 text-gray-900 shadow-sm placeholder:text-gray-400
+                                       focus:border-blue-500 focus:ring-1 focus:ring-blue-500
+                                       dark:border-gray-700 dark:bg-gray-900/70 dark:text-gray-100 dark:placeholder:text-gray-500">
+                            <option value="">-- Select a Board --</option>
+                            @foreach ($boards as $board)
+                                <option value="{{ $board->id }}" @selected(old('board_id', $class->board_id) == $board->id)>{{ $board->name }}</option>
+                            @endforeach
+                        </select>
+                        @error('board_id') <p class="mt-1 text-sm text-red-600 dark:text-red-400">{{ $message }}</p> @enderror
+                    </div>
+                    {{-- END NEW: Board Dropdown --}}
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Class Name</label>
                             <input type="text" name="name" id="name" value="{{ old('name', $class->name) }}" required

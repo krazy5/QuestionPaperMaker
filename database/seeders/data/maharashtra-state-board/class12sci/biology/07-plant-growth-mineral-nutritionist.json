@@ -1,0 +1,126 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which plant hormone is primarily responsible for apical dominance?",
+    "options": ["Gibberellin", "Cytokinin", "Auxin", "Ethylene"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Auxin, produced in the apical bud, inhibits the growth of lateral (axillary) buds. This phenomenon, where the central stem grows more strongly than the side stems, is called apical dominance. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The gaseous plant hormone responsible for fruit ripening is _______.",
+    "options": ["Abscisic acid", "Ethylene", "Gibberellin", "Cytokinin"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Ethylene is a gaseous phytohormone that plays a major role in the ripening of fruits. It also promotes senescence and abscission of leaves and flowers. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of flowering in response to the relative length of day and night is called _______.",
+    "options": ["Vernalization", "Phototropism", "Photoperiodism", "Parthenocarpy"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Photoperiodism is the physiological reaction of organisms to the length of day or night. In plants, it primarily affects the induction of flowering. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is considered a 'stress hormone' in plants?",
+    "options": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid (ABA)"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Abscisic acid (ABA) is produced in response to various environmental stresses like drought and high salinity. It helps the plant to cope with these conditions, for example, by inducing stomatal closure to reduce water loss. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'bolting' effect, which is the sudden elongation of the internodes before flowering, is induced by _______.",
+    "options": ["Ethylene", "Auxin", "Gibberellin", "Cytokinin"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Gibberellins promote cell elongation, particularly in the internodes. In rosette plants like cabbage, the application of gibberellins can induce premature flowering and stem elongation, a phenomenon known as bolting. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a macronutrient for plants?",
+    "options": ["Iron (Fe)", "Manganese (Mn)", "Nitrogen (N)", "Zinc (Zn)"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Macronutrients are essential elements required by plants in relatively large quantities. Nitrogen is a key macronutrient, being a major component of proteins, nucleic acids, and chlorophyll. Iron, Manganese, and Zinc are micronutrients. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The deficiency of which element causes chlorosis (yellowing of leaves)?",
+    "options": ["Nitrogen", "Magnesium", "Iron", "All of the above"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Chlorosis is the loss of the normal green colouration of leaves due to a deficiency of chlorophyll. Since elements like Nitrogen and Magnesium are components of chlorophyll, and Iron is required for its synthesis, the deficiency of any of these can cause chlorosis. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The induction of flowering by a low-temperature treatment is known as _______.",
+    "options": ["Photoperiodism", "Scarification", "Vernalization", "Stratification"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Vernalization is a process where flowering is promoted by exposing the plant or its seeds to a prolonged period of cold temperature. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Define 'Growth' and list its three main phases in plants.",
+    "answer": "<b>Growth</b> is defined as an irreversible, permanent increase in the size of an organ or its parts, or even of an individual cell, which is accompanied by an increase in dry weight.<br><br>The three main phases of growth are:<br>1. <b>Phase of Cell Division (Formative Phase):</b> Characterized by rapid mitotic cell divisions.<br>2. <b>Phase of Cell Enlargement/Elongation:</b> The newly formed cells increase in size.<br>3. <b>Phase of Cell Maturation/Differentiation:</b> The enlarged cells develop into specialized, mature cells.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between macronutrients and micronutrients.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Macronutrients</th><th style='padding: 8px;'>Micronutrients</th></tr><tr><td style='padding: 8px;'>These are essential mineral elements required by plants in large quantities (generally > 10 mmole/kg of dry matter).</td><td style='padding: 8px;'>These are essential mineral elements required by plants in very small quantities (generally < 10 mmole/kg of dry matter).</td></tr><tr><td style='padding: 8px;'>They are involved in building plant structures and in major metabolic processes.</td><td style='padding: 8px;'>They primarily function as co-factors for various enzymes.</td></tr><tr><td style='padding: 8px;'>Examples: Nitrogen (N), Phosphorus (P), Potassium (K), Calcium (Ca).</td><td style='padding: 8px;'>Examples: Iron (Fe), Manganese (Mn), Zinc (Zn), Copper (Cu).</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is 'Senescence' in plants? Which hormone promotes it and which one delays it?",
+    "answer": "<b>Senescence</b> is the process of aging in plants, which leads to the death of an organ or the whole plant. It is characterized by deteriorative changes like the breakdown of chlorophyll and proteins.<br><br><ul><li><b>Hormone that promotes senescence:</b> Abscisic acid (ABA) and Ethylene.</li><li><b>Hormone that delays senescence:</b> Cytokinin.</li></ul>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the terms 'Short-Day Plants' and 'Long-Day Plants'.",
+    "answer": "<b>Short-Day Plants (SDP):</b> These are plants that flower only when the length of the day is shorter than a certain critical period. They essentially require a long, uninterrupted dark period to flower. Example: Soybean, Chrysanthemum.<br><br><b>Long-Day Plants (LDP):</b> These are plants that flower only when the length of the day is longer than a certain critical period. They require a short dark period to flower. Example: Spinach, Radish.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Describe the physiological effects of Gibberellins. (Any two)",
+    "answer": "Two major physiological effects of Gibberellins are:<br>1. <b>Stem and Internode Elongation:</b> Gibberellins cause the elongation of the stem, especially in genetically dwarf plants. They promote the elongation of internodes, a phenomenon known as bolting, in rosette plants.<br>2. <b>Breaking Dormancy:</b> They are effective in breaking the dormancy of buds and seeds, promoting their germination.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the sigmoid (S-shaped) growth curve with a neat, labelled diagram. (PYQ: March 2022)",
+    "answer": "<br><br>The sigmoid growth curve, or S-shaped curve, is characteristic of the growth of a plant, organ, or a population of organisms in an environment with limited resources. It represents geometric growth and has three main phases:<br><br>1. <b>Lag Phase:</b> This is the initial phase of growth where the growth rate is very slow. During this phase, the cells are adapting to the new environment and preparing for division.<br><br>2. <b>Log Phase (Exponential Phase):</b> This is the phase of rapid growth. The growth rate is maximal and increases exponentially as the cells divide at a constant rate. The availability of resources is abundant.<br><br>3. <b>Stationary Phase (Steady Phase):</b> In this phase, the growth rate slows down and eventually stops. This occurs because the resources become limited, or due to the accumulation of toxic waste products. The number of new cells produced is roughly equal to the number of cells that die. The curve becomes flat at the top, representing the carrying capacity (K) of the environment.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the Avena coleoptile curvature test. What does it demonstrate?",
+    "answer": "The Avena (oat) coleoptile curvature test is a bioassay used to detect and measure the concentration of auxins. It was first performed by F.W. Went.<br><br><b>Procedure:</b><br>1. The tip of an oat coleoptile is removed. This stops the growth as the source of auxin is removed.<br>2. A small block of agar is placed on the decapitated coleoptile for some time and then removed.<br>3. The substance to be tested for auxin activity is placed on another agar block, and this block is then placed asymmetrically (off-center) on the cut surface of the decapitated coleoptile.<br>4. The setup is kept in the dark to avoid any phototropic effects.<br><br><b>Observation:</b><br>The coleoptile bends or curves on the side opposite to the agar block.<br><br><b>Demonstration:</b><br>This test demonstrates that the substance in the agar block (auxin) diffuses down the side it is placed on, stimulating cell elongation on that side only. This differential growth causes the curvature. The degree of curvature is directly proportional to the concentration of auxin in the agar block, allowing for its quantitative measurement.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is plasticity in plants? Give an example.",
+    "answer": "<b>Plasticity</b> is the ability of a plant to follow different pathways in response to the environment or phases of life to form different kinds of structures. It is an example of environmentally controlled development.<br><br><b>Example: Heterophylly in Buttercup (Ranunculus)</b><br>The buttercup plant shows heterophylly, meaning it produces two different types of leaves depending on the habitat.<br><ul><li>The leaves of the plant that are produced in the <b>terrestrial (land) habitat</b> are broad and lobed.</li><li>The leaves of the same plant that are produced in the <b>aquatic (water) habitat</b> are highly dissected and ribbon-like.</li></ul>This difference in leaf morphology in the same plant is an example of plasticity, allowing the plant to adapt to different environments.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the role of Nitrogen as a critical element for plants. Mention its deficiency symptoms.",
+    "answer": "<b>Role of Nitrogen (N):</b><br>Nitrogen is one of the most important essential macronutrients for plants. It is absorbed by plants mainly in the form of nitrate ions ($NO_3^−$).<br><ul><li>It is a major constituent of amino acids, proteins, and nucleic acids (DNA and RNA).</li><li>It is a key component of chlorophyll, the pigment essential for photosynthesis.</li><li>It is also a part of many vitamins and hormones.</li></ul><b>Deficiency Symptoms:</b><br>The deficiency of nitrogen affects plant growth severely.<br><ul><li><b>Chlorosis:</b> Since nitrogen is a part of chlorophyll, its deficiency causes a general yellowing of the leaves, especially the older ones.</li><li><b>Stunted Growth:</b> Protein synthesis is affected, which leads to stunted or poor plant growth.</li><li>Dormancy of lateral buds is also a common symptom.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain any three physiological roles of Auxins in plants.",
+    "answer": "Auxins are a class of plant hormones with several important functions:<br><br>1. <b>Apical Dominance:</b> Auxin produced by the apical bud suppresses the growth of the lateral (axillary) buds located further down the stem. This ensures that the plant grows taller, which is an advantage in competing for sunlight.<br><br>2. <b>Cell Elongation:</b> Auxins play a crucial role in promoting the elongation of cells in the shoots and coleoptiles. This is the primary mechanism behind plant growth and phototropism.<br><br>3. <b>Initiation of Roots:</b> Auxins are essential for initiating the formation of adventitious roots, especially in stem cuttings. This property is widely exploited in horticulture for vegetative propagation.",
+    "marks": 3
+  }
+]

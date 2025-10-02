@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The reaction of an alkyl halide with sodium in the presence of dry ether is known as: (MHT CET 2022)",
+    "options": [
+      "(a) Wurtz reaction",
+      "(b) Fittig reaction",
+      "(c) Wurtz-Fittig reaction",
+      "(d) Friedel-Crafts reaction"
+    ],
+    "correct_answer": "a",
+    "answer": "The **Wurtz reaction** is a coupling reaction in organic chemistry where two alkyl halides are reacted with sodium metal in the presence of dry ether to form a new, longer-chain alkane. For example, $2CH_3-Br + 2Na \\xrightarrow{\\text{dry ether}} CH_3-CH_3 + 2NaBr$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The IUPAC name of $CH_3-CH(Cl)-CH_2-CH_3$ is: (MHT CET 2021)",
+    "options": [
+      "(a) 1-Chlorobutane",
+      "(b) 2-Chlorobutane",
+      "(c) 3-Chlorobutane",
+      "(d) 4-Chlorobutane"
+    ],
+    "correct_answer": "b",
+    "answer": "To name the compound using IUPAC rules, first, identify the longest carbon chain, which is a four-carbon chain (butane). Then, number the chain to give the substituent (chlorine) the lowest possible number. Numbering from the left gives the chlorine atom the position 2. Numbering from the right would give it position 3, which is incorrect. The name is **2-Chlorobutane**.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following undergoes a nucleophilic substitution reaction most readily? (MHT CET 2020)",
+    "options": [
+      "(a) $CH_3-F$",
+      "(b) $CH_3-Cl$",
+      "(c) $CH_3-Br$",
+      "(d) $CH_3-I$"
+    ],
+    "correct_answer": "d",
+    "answer": "In nucleophilic substitution reactions, the leaving group ability is a crucial factor. The reaction rate is directly proportional to the stability of the leaving group. Among the halogens, the iodide ion ($I^-$) is the best leaving group because it is the largest and most stable anion. Therefore, $CH_3-I$ undergoes nucleophilic substitution most readily.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an aryl halide with sodium in the presence of dry ether is known as: (MHT CET 2019)",
+    "options": [
+      "(a) Wurtz reaction",
+      "(b) Fittig reaction",
+      "(c) Wurtz-Fittig reaction",
+      "(d) Friedel-Crafts reaction"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Fittig reaction** is an organic coupling reaction in which two aryl halides are reacted with sodium metal in the presence of a dry ether solvent to form a symmetric diaryl compound. For example, $2C_6H_5-Cl + 2Na \\xrightarrow{\\text{dry ether}} C_6H_5-C_6H_5 + 2NaCl$.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The product of the reaction between chlorobenzene and methyl chloride in the presence of anhydrous $AlCl_3$ is: (MHT CET 2018)",
+    "options": [
+      "(a) Toluene",
+      "(b) Ethylbenzene",
+      "(c) Methylbenzene",
+      "(d) Xylene"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction between an aryl halide (chlorobenzene) and an alkyl halide (methyl chloride) in the presence of a Lewis acid ($AlCl_3$) is a **Friedel-Crafts alkylation reaction**. The product is **toluene** (methylbenzene).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The major product of the reaction of propene with HBr in the presence of a peroxide is: (MHT CET 2017)",
+    "options": [
+      "(a) 1-Bromopropane",
+      "(b) 2-Bromopropane",
+      "(c) 1,2-Dibromopropane",
+      "(d) Propane"
+    ],
+    "correct_answer": "a",
+    "answer": "The addition of HBr to an asymmetrical alkene (propene) in the presence of a peroxide follows the **anti-Markovnikov rule**. This means the hydrogen atom adds to the carbon atom with fewer hydrogen atoms, and the bromine atom adds to the carbon atom with more hydrogen atoms. Therefore, the major product is **1-Bromopropane**.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of an alkyl halide with aqueous KOH is an example of: (MHT CET 2016)",
+    "options": [
+      "(a) Elimination reaction",
+      "(b) Addition reaction",
+      "(c) Nucleophilic substitution reaction",
+      "(d) Electrophilic substitution reaction"
+    ],
+    "correct_answer": "c",
+    "answer": "In this reaction, the hydroxide ion ($OH^-$) from aqueous KOH acts as a nucleophile and substitutes the halogen atom of the alkyl halide. This is a classic example of a **nucleophilic substitution reaction**.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of structural isomers for $C_4H_9Br$ is: (MHT CET 2015)",
+    "options": [
+      "(a) 2",
+      "(b) 3",
+      "(c) 4",
+      "(d) 5"
+    ],
+    "correct_answer": "c",
+    "answer": "The formula $C_4H_9Br$ has four structural isomers:<br>1. 1-Bromobutane ($CH_3-CH_2-CH_2-CH_2Br$)<br>2. 2-Bromobutane ($CH_3-CH_2-CH(Br)-CH_3$)<br>3. 1-Bromo-2-methylpropane (($CH_3)_2CH-CH_2Br$)<br>4. 2-Bromo-2-methylpropane (($CH_3)_3C-Br$)<br>There are a total of **4** structural isomers.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Chloroform is stored in dark brown bottles to prevent: (MHT CET 2014)",
+    "options": [
+      "(a) Polymerization",
+      "(b) Reaction with water",
+      "(c) Reaction with light and air",
+      "(d) Decomposition"
+    ],
+    "correct_answer": "c",
+    "answer": "Chloroform ($CHCl_3$) is a volatile liquid that can be oxidized by air in the presence of sunlight to form a highly poisonous gas called phosgene ($COCl_2$). To prevent this reaction, it is stored in dark brown bottles, which block the light, and filled to the brim to minimize contact with air.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds will give a yellow precipitate with an ammoniacal silver nitrate solution? (MHT CET 2013)",
+    "options": [
+      "(a) Alkyl chloride",
+      "(b) Alkyl bromide",
+      "(c) Alkyl iodide",
+      "(d) Alkyl fluoride"
+    ],
+    "correct_answer": "c",
+    "answer": "The reaction of an alkyl halide with an ammoniacal silver nitrate solution is a test for the presence of a halogen. The halide ion forms a precipitate with silver ion. The color of the precipitate depends on the halide: $AgCl$ (white), $AgBr$ (pale yellow), and $AgI$ (yellow). Therefore, an alkyl iodide will give a yellow precipitate.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conversion of an alcohol to an alkyl halide using SOCl_2 and pyridine is known as: (MHT CET 2012)",
+    "options": [
+      "(a) Darzen's method",
+      "(b) Hunsdiecker reaction",
+      "(c) Finkelstein reaction",
+      "(d) Swarts reaction"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction of an alcohol with thionyl chloride ($SOCl_2$) in the presence of pyridine is known as **Darzen's method**. This is one of the best methods for preparing alkyl chlorides because the byproducts, $SO_2$ and HCl, are gases that escape, leaving a pure product.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of benzene with $Cl_2$ in the presence of anhydrous $FeCl_3$ is an example of: (MHT CET 2011)",
+    "options": [
+      "(a) Electrophilic addition",
+      "(b) Nucleophilic addition",
+      "(c) Electrophilic substitution",
+      "(d) Nucleophilic substitution"
+    ],
+    "correct_answer": "c",
+    "answer": "Benzene and its derivatives undergo **electrophilic substitution reactions**. The catalyst anhydrous $FeCl_3$ helps to generate the electrophile, $Cl^+$, which then attacks the electron-rich benzene ring, substituting a hydrogen atom with a chlorine atom.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the reaction of toluene with $Cl_2$ in the presence of sunlight, the product formed is: (MHT CET 2010)",
+    "options": [
+      "(a) Chlorotoluene",
+      "(b) Benzyl chloride",
+      "(c) o- and p-Chlorotoluene",
+      "(d) Benzal chloride"
+    ],
+    "correct_answer": "b",
+    "answer": "The reaction of toluene with $Cl_2$ under the influence of sunlight (UV light) is a free-radical substitution reaction that occurs at the alkyl side chain. A hydrogen atom on the methyl group is substituted by a chlorine atom. The product is **benzyl chloride**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a vicinal dihalide? (MHT CET 2009)",
+    "options": [
+      "(a) 1,1-Dichloropropane",
+      "(b) 1,2-Dichloropropane",
+      "(c) 1,3-Dichloropropane",
+      "(d) Dichloromethane"
+    ],
+    "correct_answer": "b",
+    "answer": "A **vicinal dihalide** is a compound in which two halogen atoms are bonded to adjacent carbon atoms. In **1,2-Dichloropropane**, the two chlorine atoms are bonded to the first and second carbon atoms, which are adjacent to each other. In contrast, a geminal dihalide has both halogen atoms on the same carbon atom.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The melting point of alkyl halides decreases in the order: (MHT CET 2008)",
+    "options": [
+      "(a) $RI > RBr > RCl > RF$",
+      "(b) $RF > RCl > RBr > RI$",
+      "(c) $RI < RBr < RCl < RF$",
+      "(d) $RBr > RI > RCl > RF$"
+    ],
+    "correct_answer": "a",
+    "answer": "The melting point of alkyl halides generally depends on the molecular mass and the strength of intermolecular forces. As the size of the halogen atom increases from F to I, the molecular mass and the strength of van der Waals forces also increase. This leads to an increase in the melting point. Therefore, the order is **$RI > RBr > RCl > RF$**.",
+    "marks": 1
+  }
+]

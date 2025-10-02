@@ -1,0 +1,377 @@
+[
+  {
+    "type": "mcq",
+    "text": "The causality behind the sudden changes was understood due to the _______ principle of Hugo de Vries.",
+    "options": [
+      "Mutation",
+      "Translation",
+      "Transcription",
+      "Translocation"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Hugo de Vries proposed the Mutation Theory. He suggested that evolution occurs through large, sudden changes or 'mutations' in the genetic material, which are then inherited by the next generation. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The proof for the fact that protein synthesis occurs through genes was given by George Beadle and Edward Tatum. This concept is known as _______.",
+    "options": [
+      "One gene-one enzyme hypothesis",
+      "Gene-protein theory",
+      "Central dogma",
+      "Theory of evolution"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> George Beadle and Edward Tatum's work on the fungus <i>Neurospora crassa</i> led to the 'one gene-one enzyme hypothesis'. They demonstrated that each gene is responsible for producing a single, specific enzyme that controls a step in a metabolic pathway. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Transfer of information from a molecule of DNA to mRNA is called _______ process.",
+    "options": [
+      "transcription",
+      "translation",
+      "translocation",
+      "mutation"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> The process of synthesizing an RNA strand from a DNA template is called transcription. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Evolution means ______.",
+    "options": [
+      "sudden development",
+      "gradual development",
+      "fast development",
+      "no development"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Evolution is the gradual change occurring in living organisms over a long duration. It is a slow-going process through which development of organisms is achieved. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The vestigial organ _______ present in the human body is proof of evolution.",
+    "options": [
+      "appendix",
+      "muscles of ear pinna",
+      "tail-bone",
+      "all of the above"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The appendix, muscles of the ear pinna, and the tail-bone (coccyx) are all examples of vestigial organs in humans, which were functional in our ancestors. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a connecting link between reptiles and mammals?",
+    "options": [
+      "Peripatus",
+      "Lungfish",
+      "Duck-billed Platypus",
+      "Archaeopteryx"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Duck-billed Platypus lays eggs like reptiles but shows relationships with mammals too due to the presence of mammary glands and hair. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory of inheritance of acquired characters is also known as _______.",
+    "options": [
+      "Darwinism",
+      "Lamarckism",
+      "Speciation",
+      "Mutation theory"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Jean-Baptiste Lamarck proposed the theory of inheritance of 'acquired characters', which is popularly known as Lamarckism. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+   {
+    "type": "mcq",
+    "text": "The first human-like animal with an erect posture was ______.",
+    "options": [
+        "Ramapithecus",
+        "Australopithecus",
+        "Neanderthal man",
+        "Cro-Magnon man"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> The first human-like animals are said to have appeared from apes like Ramapithecus that evolved in East Africa. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Define Heredity.",
+    "answer": "Heredity is defined as the transfer of biological characters from one generation to another via genes.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is a triplet codon?",
+    "answer": "A triplet codon is a sequence of three adjacent nucleotides in an mRNA molecule that codes for a specific amino acid during protein synthesis.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Who is considered the first wise man?",
+    "answer": "Neanderthal man is considered the first example of a 'wise man'.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Find the odd one out: Transcription, Translation, Translocation, Mutation.",
+    "answer": "<b>Mutation.</b><br><b>Reason:</b> Transcription, translation, and translocation are sequential processes of protein synthesis. Mutation is a sudden change in the genetic material.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Find the odd one out: Appendix, Coccyx, Wisdom tooth, Intestine.",
+    "answer": "<b>Intestine.</b><br><b>Reason:</b> The appendix, coccyx, and wisdom tooth are all vestigial organs in humans, whereas the intestine is a fully functional organ.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the analogy: Lamarckism : Acquired characters :: Darwinism : _______.",
+    "answer": "<b>Natural Selection.</b>",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the analogy: Annelida-Arthropoda : Peripatus :: Reptilia-Mammalia : _______.",
+    "answer": "<b>Duck-billed Platypus.</b>",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the following diagram showing the process of evidence of evolution. <br> ",
+    "answer": "The diagram illustrates the various pieces of evidence that support the theory of evolution. Here are the completed parts:<br><br><b>Evidences of Evolution</b><br><ul><li><b>Morphological Evidences:</b> Similarity in the structure of mouth, position of eyes, structure of nostrils, etc. in animals, and similarities in leaf shape, leaf venation, leaf petiole, etc. in plants.</li><li><b>Anatomical Evidences:</b> This includes the study of homologous organs (like the forelimbs of humans, whales, and bats) and vestigial organs.</li><li><b>Vestigial Organs:</b> Useless organs that are degenerated or underdeveloped in an organism but were functional in its ancestors (e.g., appendix, tail-bone in humans).</li><li><b>Palaeontological Evidences:</b> The study of fossils, which are remnants and impressions of organisms from the past.</li><li><b>Connecting Links:</b> Organisms that show morphological characters of two different groups (e.g., <i>Peripatus</i>, Duck-billed platypus).</li><li><b>Embryological Evidences:</b> The comparative study of embryos, which shows that early-stage embryos of different vertebrates are very similar.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Define Transcription, Translation, and Translocation. (PYQ: March 2022)",
+    "answer": "<b>Transcription:</b> The process of synthesis of an mRNA molecule according to the nucleotide sequence present on the DNA template. It occurs inside the nucleus of a cell.<br><br><b>Translation:</b> The process in which the ribosome reads the genetic code on the mRNA molecule and, with the help of tRNA, synthesizes a corresponding chain of amino acids to form a protein.<br><br><b>Translocation:</b> During translation, the ribosome continuously moves along the mRNA from one end to the other by a distance of one triplet codon at a time. This movement is called translocation.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What are vestigial organs? Write names of some vestigial organs in the human body and state which animals they were functional in.",
+    "answer": "<b>Vestigial Organs:</b> Degenerated or underdeveloped useless organs of organisms which were complete and functional in their ancestors are called vestigial organs.<br><br>Some examples in the human body are:<ul><li><b>Appendix:</b> It is attached to the large intestine. It was functional in our herbivorous ancestors (like cattle) for the digestion of cellulose.</li><li><b>Tail-bone (Coccyx):</b> This is the remnant of a tail, which was functional in our monkey-like ancestors for balance.</li><li><b>Wisdom Teeth (Third Molars):</b> These were useful to our ancestors for chewing raw and tough food.</li><li><b>Body Hairs:</b> A thick coat of body hair was functional in our ancestors for insulation against cold.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain Darwin's theory of natural selection. (PYQ: March 2020)",
+    "answer": "Charles Darwin proposed the theory of natural selection in his book 'On the Origin of Species'. The key principles of this theory are:<br><br>1. <b>Overproduction:</b> All organisms produce more offspring than can possibly survive in the environment.<br><br>2. <b>Struggle for Existence:</b> Due to overproduction, there is a constant competition or struggle for limited resources like food, water, and space.<br><br>3. <b>Variation:</b> No two individuals of the same species are exactly alike. There are variations among them.<br><br>4. <b>Survival of the Fittest (Natural Selection):</b> In the struggle for existence, individuals with favourable variations that help them adapt to the environment are more likely to survive and reproduce. Nature 'selects' these fit individuals.<br><br>5. <b>Origin of New Species:</b> Over a long period, the accumulation of these favourable variations leads to the formation of a new species.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain Lamarckism and why it was disproved.",
+    "answer": "Jean-Baptiste Lamarck proposed the theory of evolution based on two main principles:<br><br>1. <b>Principle of Use or Disuse of Organs:</b> Lamarck stated that organs which are used extensively by an organism develop and become stronger, while organs that are not used degenerate over time. For example, he proposed that the neck of the giraffe became long by stretching to reach leaves on tall trees.<br><br>2. <b>Principle of Inheritance of Acquired Characters:</b> He believed that the characteristics an organism develops during its lifetime (acquired characters) are passed on to its offspring.<br><br><b>Why Lamarckism was disproved:</b><br>The theory was disproved because it was found that only the changes that occur in the genetic material (genes and chromosomes) of germ cells (sperms and eggs) can be inherited. Changes in somatic (body) cells are not passed on to the next generation. For example, a person who builds strong muscles through exercise will not have children who are born with strong muscles. The idea of inheritance of acquired characters was rejected.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain the process of formation of complex proteins from DNA. (PYQ: March 2019, July 2022)",
+    "answer": "The formation of complex proteins from the genetic information in DNA is known as 'Gene Expression' or the 'Central Dogma of Life'. It involves two main steps:<br><br><b>1. Transcription:</b><br>This process occurs in the nucleus. The DNA double helix unwinds at the site of a gene. One of the DNA strands acts as a template. With the help of the enzyme RNA polymerase, a complementary molecule of messenger RNA (mRNA) is synthesized. In this process, Thymine (T) in DNA is replaced by Uracil (U) in RNA. The newly formed mRNA then leaves the nucleus and enters the cytoplasm.<br><br><b>2. Translation:</b><br>This process occurs in the cytoplasm, on the surface of ribosomes. The ribosome attaches to the mRNA molecule. The genetic message on the mRNA is in the form of codons (a sequence of three nucleotides). For each codon, a specific transfer RNA (tRNA) molecule, carrying a specific amino acid, comes and binds to the mRNA. As the ribosome moves along the mRNA (translocation), the amino acids brought by the tRNA are joined together by peptide bonds, forming a long polypeptide chain. This chain then folds into a specific three-dimensional structure to form a complex, functional protein.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "What is a connecting link? Explain with two examples.",
+    "answer": "A <b>connecting link</b> is an organism (living or fossilized) that exhibits morphological characteristics that are intermediate between two different major groups of organisms. They provide strong evidence that one group of organisms has evolved from another.<br><br><b>Examples:</b><br><br>1. <b>Peripatus:</b><br>It is considered a connecting link between Phylum Annelida and Phylum Arthropoda. <ul><li>It shows Annelid-like characters such as a worm-like segmented body, thin cuticle, and parapodia-like organs.</li><li>It shows Arthropod-like characters such as an open circulatory system and a tracheal system for respiration.</li></ul><br>2. <b>Duck-billed Platypus:</b><br>It is a connecting link between Reptiles and Mammals.<ul><li>It shows Reptilian characters like laying eggs.</li><li>It shows Mammalian characters like having mammary glands to feed its young and a body covered with hair.</li></ul>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Define Fossil. What is its importance?",
+    "answer": "<b>Fossil:</b> Remnants and impressions of ancient organisms which got preserved underground are called fossils.<br><br><b>Importance of Fossils:</b><br>1. They are direct evidence of evolution and help us understand the characteristics of past organisms.<br>2. They help in understanding the evolutionary relationships between different groups of organisms.<br>3. By studying fossils from different rock layers, we can understand the timeline of evolution.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Define Speciation.",
+    "answer": "Speciation is the evolutionary process of formation of new and distinct species from pre-existing species. It occurs when a population is split into two or more reproductively isolated groups, which then accumulate different genetic changes over time.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Distinguish between Homologous organs and Analogous organs.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse;'><tr><th style='padding: 8px; text-align: left;'>Homologous Organs</th><th style='padding: 8px; text-align: left;'>Analogous Organs</th></tr><tr><td style='padding: 8px;'>They have a similar basic structure and origin.</td><td style='padding: 8px;'>They have different basic structures and origins.</td></tr><tr><td style='padding: 8px;'>They may perform different functions in different organisms.</td><td style='padding: 8px;'>They perform similar functions.</td></tr><tr><td style='padding: 8px;'>Example: Forelimb of a man, wing of a bird, flipper of a whale.</td><td style='padding: 8px;'>Example: Wing of an insect and wing of a bird.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Give a scientific reason: Fossils are considered as a proof of evolution.",
+    "answer": "Fossils provide direct evidence of past life. When fossils are discovered, their age can be determined by methods like carbon dating. The arrangement of fossils in different rock strata reveals that life forms in older rocks are simpler, while those in more recent rocks are more complex. This sequential arrangement demonstrates a gradual increase in complexity over time, supporting the theory that modern complex organisms have evolved from simpler ancient ones.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Give a scientific reason: Peripatus is considered a connecting link.",
+    "answer": "Peripatus is considered a connecting link between Phylum Annelida and Phylum Arthropoda because it displays characteristics of both groups. It has annelid-like features such as a segmented body, thin cuticle, and parapodia-like appendages. Simultaneously, it shows arthropod-like features such as an open circulatory system and tracheal respiration. This suggests that arthropods have evolved from annelid-like ancestors.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the main objections to Darwin's theory of Natural Selection?",
+    "answer": "Some of the main objections to Darwin's theory were:<br><br>1. <b>Source of Variation:</b> Natural selection was a key factor, but Darwin could not explain the source of the variations upon which selection acts. He had no knowledge of genetics and mutation.<br><br>2. <b>Inheritance:</b> Darwin could not explain the mechanism of inheritance of characters from one generation to the next.<br><br>3. <b>Slow and Gradual Changes:</b> He only explained the survival of the fittest but did not explain the 'arrival of the fittest'. He did not explain the reasons for slow and abrupt changes in organisms.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on Embryological Evidences. ",
+    "answer": "Embryology is the study of the development of an organism from an embryo. The comparative study of embryos of various vertebrates provides strong evidence for evolution. In their initial stages, the embryos of different vertebrates like fish, amphibians, reptiles, birds, and mammals show extreme similarities. They have a similar structure, gill slits, and a rudimentary tail. These similarities decrease as the embryos develop further. This initial similarity suggests that all these vertebrates must have shared a common ancestor.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on Human Evolution.",
+    "answer": "The journey of human evolution began from ancient lemur-like animals around 7 crore years ago. About 2.5 crore years ago, apes like <i>Ramapithecus</i> and <i>Australopithecus</i> appeared. The first members of the genus <i>Homo</i>, like <i>Homo habilis</i> (the tool-maker), appeared around 20 lakh years ago. This was followed by <i>Homo erectus</i> (the man who stood erect) about 15 lakh years ago. <i>Neanderthal man</i> (the first wise man) appeared about 1.5 lakh years ago. <i>Cro-Magnon man</i> evolved about 50,000 years ago, and from them, modern man, <i>Homo sapiens sapiens</i>, evolved around 10,000 years ago, starting practices like agriculture.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is Carbon Dating? How does it work?",
+    "answer": "Carbon dating is a method used to determine the age of fossils and other organic materials. It works based on the radioactive decay of Carbon-14 (C-14). Living organisms constantly absorb carbon, including a small amount of radioactive C-14, from the atmosphere. When an organism dies, it stops absorbing carbon. The C-14 present in its body begins to decay into Nitrogen-14 (N-14) at a known, constant rate (its half-life is about 5730 years). By measuring the ratio of the remaining C-14 to the stable Carbon-12 (C-12) in a fossil, scientists can calculate how long ago the organism died.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Explain morphological evidences of evolution with suitable examples.",
+    "answer": "Morphological evidences are based on the similarities in the external form and structure of different organisms. These similarities suggest a common ancestry.<br><br><b>Examples in Animals:</b> Various animals like dogs, sheep, and wolves show similarities in their structure of mouth, position of eyes, structure of nostrils, and ear pinnae. This indicates that they may have originated from a common ancestor.<br><br><b>Examples in Plants:</b> Various plants show similarities in characteristics like leaf shape, leaf venation (the pattern of veins), and leaf petiole (the stalk attaching the leaf to the stem). These similarities suggest a common origin for these different plant groups.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What is evolution? Explain the modern synthetic theory of evolution.",
+    "answer": "<b>Evolution</b> is the gradual and continuous process of change occurring in living organisms over a very long period, leading to the formation of new species.<br><br>The <b>Modern Synthetic Theory of Evolution</b> is the most accepted theory of evolution. It is a combination of Darwin's theory of natural selection and Mendel's principles of genetics. It states that evolution is a result of the interaction of several factors. The main factors are:<br>1. <b>Genetic Variation:</b> Variations arise in a population due to processes like mutation, genetic recombination (during meiosis), and gene flow.<br>2. <b>Natural Selection:</b> Nature selects individuals with favorable genetic variations that help them better adapt to the environment. These individuals survive and reproduce more successfully.<br>3. <b>Isolation:</b> Geographical or reproductive isolation prevents gene flow between populations, leading to the accumulation of different variations and eventually the formation of a new species (speciation).",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Draw a neat, labelled diagram to explain the process of Translation.",
+    "answer": "<br><b>Explanation of Diagram:</b> The diagram shows a ribosome moving along an mRNA strand. A tRNA molecule with a specific anticodon (e.g., UAC) is shown binding to its complementary codon on the mRNA (e.g., AUG). This tRNA carries a specific amino acid (e.g., Methionine). As the ribosome moves, another tRNA brings the next amino acid, and a peptide bond forms between the adjacent amino acids, creating a growing polypeptide chain.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What are fossils? Explain the importance of fossils as proof of evolution and describe how their age is determined. (PYQ: March 2018)",
+    "answer": "<b>Fossils:</b> Remnants, impressions, or traces of organisms from a past geological age that have been preserved in the Earth's crust are called fossils.<br><br><b>Importance of Fossils as Proof of Evolution:</b><br>1. <b>Structural Evidence:</b> Fossils reveal the structure of extinct organisms and allow us to compare them with present-day organisms, helping to trace evolutionary lineages.<br>2. <b>Connecting Links:</b> Some fossils, like <i>Archaeopteryx</i>, act as connecting links between two different groups (reptiles and birds), providing evidence of how one group may have evolved from another.<br>3. <b>Timeline of Evolution:</b> The study of fossils in different layers of rock (palaeontology) shows that life forms have become progressively more complex over geological time.<br><br><b>Determination of Fossil Age:</b><br>The age of fossils is primarily determined by the <b>carbon dating method</b>. Living organisms continuously consume carbon, including radioactive carbon-14. After death, this intake stops, and the C-14 begins to decay at a constant, known rate. By measuring the ratio of remaining C-14 to stable C-12 in the fossil, scientists can accurately calculate the age of the fossil.",
+    "marks": 5
+  },
+  {
+    "type": "short",
+    "text": "Identify the given diagram and explain the concept it represents.",
+    "image_url": "https://i.imgur.com/example.png",
+    "answer": "The diagram shows the <b>forelimbs of a human, cat, whale, and bat</b>.<br><br>This is an example of <b>Anatomical Evidence</b> for evolution, specifically demonstrating <b>homologous organs</b>. Although these forelimbs are used for different functions (grasping in humans, walking in cats, swimming in whales, and flying in bats), they share a similar basic structure of bones (humerus, radius-ulna, carpals, metacarpals). This structural similarity suggests that all these mammals evolved from a common ancestor who had limbs with this basic plan.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Observe the diagram and answer the questions.  <br> 1. What is this process called? <br> 2. Where does this process take place?",
+    "answer": "1. The process shown in the diagram is <b>Transcription</b>.<br>2. This process takes place in the <b>nucleus</b> of a eukaryotic cell.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How are new species formed according to the theory of evolution?",
+    "answer": "New species are formed through a process called <b>speciation</b>. It occurs due to the combined effect of genetic variation, natural selection, and reproductive isolation. Over a long period, geographically or reproductively isolated populations accumulate significant genetic differences due to different selective pressures and mutations. Eventually, they become so different that they can no longer interbreed, resulting in the formation of a new species.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the role of tRNA in protein synthesis?",
+    "answer": "The role of transfer RNA (tRNA) is to act as an adapter molecule. It reads the specific codon on the mRNA molecule via its anticodon and brings the corresponding specific amino acid to the ribosome, where it is added to the growing polypeptide chain.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Name the book published by Charles Darwin that explained his theory. What was the main principle of the theory?",
+    "answer": "The book published by Charles Darwin was <b>'On the Origin of Species'</b>.<br>The main principle of his theory was <b>Natural Selection</b>, or 'survival of the fittest'.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "According to Darwin's theory, which organisms are selected by nature?",
+    "options": ["The strongest organisms", "The organisms that can best adapt to the environment", "The largest organisms", "The organisms that reproduce the fastest"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Darwin's theory of natural selection states that nature selects those individuals who are 'fittest' to survive. Fitness, in an evolutionary sense, means the ability to adapt to the surrounding environment and reproduce successfully. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ape-like animal that is considered the ancestor of both apes and humans is...",
+    "options": ["Dryopithecus", "Ramapithecus", "Australopithecus", "Aegyptopithecus"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> It is believed that modern lemur-like animals evolved into Aegyptopithecus, which is considered an ancestor to both apes and humans. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "About 10,000 years ago, the wise-man started to practice...",
+    "options": ["hunting", "writing", "agriculture", "building cities"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Cro-Magnon man evolved into modern man (Homo sapiens sapiens) about 10,000 years ago, and at this time, they began to practice agriculture, rear cattle, and establish settlements. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Complete the statement by choosing the correct options: The message of protein synthesis is communicated by DNA to the _______ located in the cytoplasm in the form of _______ RNA.",
+    "answer": "The message of protein synthesis is communicated by DNA to the <b>ribosomes</b> located in the cytoplasm in the form of <b>messenger</b> RNA.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Who proposed the theory of 'inheritance of acquired characters'?",
+    "answer": "Jean-Baptiste Lamarck proposed the theory of 'inheritance of acquired characters'.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "I am a connecting link between reptiles and mammals. Who am I?",
+    "answer": "You are the Duck-billed Platypus.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What is meant by 'Central Dogma'?",
+    "answer": "The Central Dogma of molecular biology describes the two-step process, transcription and translation, by which the information in genes flows into proteins: DNA → RNA → Protein. It states that genetic information is transferred from DNA to RNA, and then from RNA to protein.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write the evolutionary sequence of man.",
+    "answer": "The evolutionary sequence of man is:<br><i>Ramapithecus → Australopithecus → Homo habilis → Homo erectus → Neanderthal man → Cro-Magnon man → Homo sapiens sapiens</i> (Modern man).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are homologous organs?",
+    "answer": "Homologous organs are organs that have a similar basic structure and embryonic origin but perform different functions in different organisms. For example, the forelimb of a human and the wing of a bat.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are analogous organs?",
+    "answer": "Analogous organs are organs that have different basic structures and embryonic origins but perform similar functions. For example, the wing of an insect and the wing of a bird.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Give two examples of morphological evidences of evolution.",
+    "answer": "Two examples of morphological evidences are:<br>1. Similarities in the structure of the mouth and position of eyes among animals like dogs, sheep, and foxes.<br>2. Similarities in leaf shape, leaf venation, and petiole structure among different plants.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the first and last steps of human evolution?",
+    "answer": "The first human-like ancestors were lemur-like primates that evolved around 7 crore years ago. The last step in recorded human evolution is the emergence of modern man, Homo sapiens sapiens, about 10,000 years ago.",
+    "marks": 2
+  }
+]

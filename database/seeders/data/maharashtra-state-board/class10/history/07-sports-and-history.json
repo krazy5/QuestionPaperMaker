@@ -1,0 +1,197 @@
+[
+  {
+    "type": "mcq",
+    "text": "The National Sports Day of India is celebrated on the birthday of _______.",
+    "options": [
+      "Sachin Tendulkar",
+      "Kapil Dev",
+      "Major Dhyan Chand",
+      "Milkha Singh"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Major Dhyan Chand, known as the 'Wizard of Hockey', is one of India's greatest sportspersons. His birthday, 29th August, is celebrated as the National Sports Day in India. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ancient event of Olympic competitions used to be held at _______, Greece.",
+    "options": [
+      "Athens",
+      "Sparta",
+      "Olympia",
+      "Marathon"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The ancient Olympic games, a major sporting event, were held in Olympia, Greece. It is a common misconception that they were held in Athens. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The trainer who popularized the sport of ‘Mallakhamb’ was _______.",
+    "options": [
+      "Vishnudas Bhave",
+      "Major Khyatanarayana",
+      "Balambhat Deodhar",
+      "Annasaheb Kirloskar"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Balambhat Deodhar, who was the physical trainer of Peshwa Bajirao II, was instrumental in popularizing the gymnastic sport of Mallakhamb. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first Indian female boxer to win a medal in the Olympics is _______.",
+    "options": [
+      "P. V. Sindhu",
+      "Saina Nehwal",
+      "Mary Kom",
+      "Karnam Malleswari"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Mary Kom is a celebrated Indian boxer who won a bronze medal at the 2012 London Olympics, becoming the first Indian female boxer to achieve this feat. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Toys found in the excavations of the Harappan sites were mostly made of _______.",
+    "options": [
+      "metal",
+      "wood",
+      "terracotta",
+      "ivory"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Archaeological excavations at Harappan sites have unearthed various toys, such as carts and whistles, which were predominantly made from terracotta (earthen clay). The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first Indian cricketer to be awarded the 'Bharat Ratna' is _______.",
+    "options": [
+      "Kapil Dev",
+      "Sunil Gavaskar",
+      "Sachin Tendulkar",
+      "M. S. Dhoni"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Sachin Tendulkar, one of the greatest cricketers of all time, was awarded the Bharat Ratna, India's highest civilian award, in 2014 for his outstanding contribution to sports. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an indoor game?",
+    "options": [
+      "Cricket",
+      "Kabaddi",
+      "Chess",
+      "Mallakhamb"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Cricket, Kabaddi, and Mallakhamb are outdoor games that require a large playing area. Chess is a board game played indoors. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Vyayam Dnyankosh' is an encyclopedia about ______.",
+    "options": [
+      "History of Marathas",
+      "Marathi Theatre",
+      "Exercise and Games",
+      "Indian Cinema"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The 'Vyayam Dnyankosh' (Encyclopedia of Exercise) was created by the late D. C. Mujumdar to document the history and methods of various exercises and games. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the two main types of sports?",
+    "answer": "The two main types of sports are:<br>1. <b>Indoor Games:</b> Games that are played within a closed environment or a room, like chess, cards, and ludo.<br>2. <b>Outdoor Games:</b> Games that are played on a large open ground, like cricket, hockey, and kabaddi.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 'globalization of sports'?",
+    "answer": "Globalization of sports refers to the phenomenon where sports have transcended national boundaries and have become a global enterprise in the 20th-21st centuries. International events like the Olympics and World Cups are watched simultaneously across the world, and players from different countries play for the same club teams.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "How can toys throw light on history and technological development?",
+    "answer": "Toys found in archaeological excavations can provide valuable information about the past. Their design, material, and structure can reveal the cultural traditions, social life, and the level of technological advancement of that particular period.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Mallakhamb - Outdoor game<br>2. Chess - Indoor game<br>3. Water Polo - Water sport<br>4. Skating - Adventure sport",
+    "answer": "<b>Wrong Pair:</b> Skating - Adventure sport<br><b>Corrected Pair:</b> Skating - Ice/Balancing sport (While it can be adventurous, it's better classified as an ice or balancing sport).",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Cricket, Hockey, Chess, Kabaddi.",
+    "answer": "<b>Chess.</b><br><b>Reason:</b> Cricket, Hockey, and Kabaddi are outdoor sports. Chess is an indoor sport.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Outdoor Game : Cricket :: Indoor Game : _______.",
+    "answer": "<b>Chess / Cards.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Mary Kom : Boxing :: Phogat Sisters : _______.",
+    "answer": "<b>Wrestling.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Why is it important to know the history of sports?",
+    "answer": "Knowing the history of sports helps us to understand the evolution of different games and the cultural context in which they developed. It allows us to appreciate the traditions and skills associated with them. This knowledge is also essential for journalists, commentators, and researchers in the field of sports.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the history of the sport 'Mallakhamb'?",
+    "answer": "Mallakhamb is an ancient Indian sport that combines wrestling grips with gymnastics performed on a vertical wooden pole. It was revived and popularized by Balambhat Deodhar, the physical trainer of Peshwa Bajirao II, who developed the techniques to make his body strong and agile.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What does the literature on sports reveal?",
+    "answer": "Literature on sports, including encyclopedias, biographies, and historical articles, reveals the rich history and evolution of various games. It provides information about famous players, rules of the game, and the cultural and social importance of sports in different periods.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the importance of sports.",
+    "answer": "Sports play a very important role in human life.<br>1. <b>Physical Fitness:</b> Playing games is a form of exercise that makes our body strong, fit, and resilient. It helps in building a tenacious body.<br>2. <b>Mental Well-being:</b> Sports are a great way to overcome suffering and worries. They provide recreation and refreshment for the mind.<br>3. <b>Character Development:</b> Sports help in developing essential qualities like determination, perseverance, and sportsmanship. Team games also teach us cooperation and leadership.<br>4. <b>Social Skills:</b> Playing together helps in building social bonds and developing a spirit of unity.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Write a note on the connection between sports and movies.",
+    "answer": "Recently, the connection between sports and movies has become very prominent. Movies have been a powerful medium to showcase the world of sports.<br>1. <b>Biopics:</b> A number of movies have been made on the lives of famous sportspersons. Examples include 'Mary Kom', based on the life of the first Indian female Olympic boxer, and 'Dangal', based on the story of the Phogat sisters in wrestling.<br>2. <b>Documentaries:</b> Documentaries on various sports and players provide an in-depth look into their struggles, training, and achievements.<br>3. <b>Historical Context:</b> Movies like 'Lagaan', which is set during the British Raj and revolves around a game of cricket, show the social and historical context of sports. The process of making such movies requires a deep study of the history of that period.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What professional opportunities are available in the field of sports?",
+    "answer": "Sports is a vast field with numerous professional opportunities beyond just being a player.<br>1. <b>Coaching:</b> Trained coaches are required at all levels, from schools to professional teams.<br>2. <b>Sports Journalism and Commentary:</b> With the globalization of sports, there is a great demand for commentators and journalists who have a deep knowledge of the game and its history.<br>3. <b>Refereeing:</b> Trained and qualified referees are essential for conducting matches in any sport.<br>4. <b>Sports Science and Medicine:</b> Professionals like sports psychologists, physiotherapists, and dieticians play a crucial role in a player's performance and well-being.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Describe some of the traditional outdoor sports of India.",
+    "answer": "India has a rich tradition of indigenous outdoor sports.<br>1. <b>Kabaddi:</b> A popular team sport that requires both skill and power. It is played in many parts of India and is now an international sport.<br>2. <b>Mallakhamb:</b> A traditional sport from Maharashtra, which involves a gymnast performing aerial yoga postures and wrestling grips on a vertical wooden pole.<br>3. <b>Lagori:</b> A simple and popular game, also known as 'seven stones', which involves two teams. One team tries to knock down a pile of flat stones with a ball, and then tries to rebuild the pile before the other team hits them with the ball.<br>4. <b>Gilli Danda:</b> A game similar to cricket and baseball, played with two sticks: a large one called a danda and a small one called a gilli.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Write about the history of cricket.",
+    "answer": "Cricket is one of the most popular sports in the world.<br>1. <b>Origins in England:</b> The game of cricket originated in England. The first official match is believed to have been played in the 18th century.<br>2. <b>Spread to Colonies:</b> The British brought the game to their colonies, including India. The Parsees were the first Indian community to adopt the game in the 19th century.<br>3. <b>First Indian Club:</b> The first Indian cricket club, the 'Oriental Cricket Club', was founded by the Parsees in Mumbai in 1848.<br>4. <b>International Status:</b> In 1932, India gained the status to play test cricket. C. K. Nayudu was the first captain of the Indian test team.<br>5. <b>Global Popularity:</b> Today, cricket has been globalized. The Indian Premier League (IPL) and World Cup tournaments are watched by millions across the globe.",
+    "marks": 4
+  }
+]
+

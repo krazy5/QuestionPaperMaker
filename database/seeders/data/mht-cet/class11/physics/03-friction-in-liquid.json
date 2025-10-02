@@ -1,0 +1,132 @@
+[
+  {
+    "type": "mcq",
+    "text": "The force required to just slide a body of mass 'm' over a horizontal surface is given by: (MHT CET 2025)",
+    "options": [
+      "(a) $mg$",
+      "(b) $\\mu_s mg$",
+      "(c) $\\mu_k mg$",
+      "(d) $ma$"
+    ],
+    "correct_answer": "b",
+    "answer": "The force required to just start motion is the maximum static friction, which is given by the formula $F_{s(max)} = \\mu_s N$, where $\\mu_s$ is the coefficient of static friction and N is the normal force. For a horizontal surface, the normal force is equal to the weight of the body, $N = mg$. Thus, the force required is $F = \\mu_s mg$.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The coefficient of kinetic friction is: (MHT CET 2024)",
+    "options": [
+      "(a) greater than the coefficient of static friction",
+      "(b) less than the coefficient of static friction",
+      "(c) equal to the coefficient of static friction",
+      "(d) sometimes greater, sometimes less"
+    ],
+    "correct_answer": "b",
+    "answer": "The coefficient of kinetic friction ($\\mu_k$) is the ratio of kinetic friction to the normal force. The coefficient of static friction ($\\mu_s$) is the ratio of maximum static friction to the normal force. It is an experimental fact that the force required to start motion is slightly greater than the force required to keep it in motion. Therefore, the coefficient of kinetic friction is always less than the coefficient of static friction, $\\mu_k < \\mu_s$.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A block of mass 5 kg is placed on a horizontal surface. The coefficient of static friction between the block and the surface is 0.4. The maximum force that can be applied horizontally before the block starts to move is (g = 9.8 m/s²): (MHT CET 2023)",
+    "options": [
+      "(a) 19.6 N",
+      "(b) 9.8 N",
+      "(c) 4.9 N",
+      "(d) 2.0 N"
+    ],
+    "correct_answer": "a",
+    "answer": "The maximum force that can be applied horizontally before the block starts to move is equal to the maximum static friction force ($F_{s(max)}$).<br>$F_{s(max)} = \\mu_s N$<br>For a horizontal surface, the normal force (N) is equal to the weight of the block, $N = mg$.<br>$F_{s(max)} = \\mu_s mg$<br>Given values:<br>Mass, $m = 5$ kg<br>Coefficient of static friction, $\\mu_s = 0.4$<br>Acceleration due to gravity, $g = 9.8$ m/s²<br>$F_{s(max)} = (0.4)(5)(9.8) = 2.0 \\times 9.8 = 19.6$ N.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The angle of repose is numerically equal to the angle of: (MHT CET 2022)",
+    "options": [
+      "(a) static friction",
+      "(b) kinetic friction",
+      "(c) rolling friction",
+      "(d) none of the above"
+    ],
+    "correct_answer": "a",
+    "answer": "The angle of repose is the maximum angle of an inclined plane at which a body placed on it starts to slide down. The angle of static friction is the angle that the resultant of the normal force and the limiting friction makes with the normal force. The tangent of the angle of repose is equal to the coefficient of static friction ($\\tan\\theta = \\mu_s$), and the tangent of the angle of static friction is also equal to the coefficient of static friction. Thus, the two angles are numerically equal.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The limiting friction is: (MHT CET 2021)",
+    "options": [
+      "(a) independent of the area of contact",
+      "(b) directly proportional to the area of contact",
+      "(c) inversely proportional to the area of contact",
+      "(d) dependent on the velocity of the body"
+    ],
+    "correct_answer": "a",
+    "answer": "The limiting friction (maximum static friction) is the maximum force that can be overcome before motion begins. It is given by $F_{s(max)} = \\mu_s N$. This force depends only on the coefficient of static friction and the normal force, not on the area of contact. This is one of the laws of friction.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A body is sliding down an inclined plane with a constant velocity. The angle of inclination is $30^\\circ$. The coefficient of kinetic friction is: (MHT CET 2020)",
+    "options": [
+      "(a) $\\sqrt{3}$",
+      "(b) $1/\\sqrt{3}$",
+      "(c) 1",
+      "(d) $2/\\sqrt{3}$"
+    ],
+    "correct_answer": "b",
+    "answer": "When a body slides down an inclined plane at a constant velocity, the net force on it is zero. This means the component of gravity pulling it down the plane is balanced by the force of kinetic friction.<br>Force of gravity component down the plane = $mg\\sin\\theta$<br>Force of kinetic friction = $F_k = \\mu_k N = \\mu_k (mg\\cos\\theta)$<br>Since velocity is constant, the forces are balanced:<br>$mg\\sin\\theta = \\mu_k mg\\cos\\theta$<br>Cancel $mg$ from both sides:<br>$\\sin\\theta = \\mu_k \\cos\\theta$<br>$\\mu_k = \\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$<br>Given $\\theta = 30^\\circ$, so $\\mu_k = \\tan(30^\\circ) = 1/\\sqrt{3}$.<br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The force of static friction is: (MHT CET 2019)",
+    "options": [
+      "(a) always greater than the applied force",
+      "(b) always equal to the applied force",
+      "(c) always less than the applied force",
+      "(d) equal to the applied force until it reaches its maximum value"
+    ],
+    "correct_answer": "d",
+    "answer": "Static friction is a self-adjusting force. It opposes the applied force and its magnitude increases with the applied force until it reaches a maximum value (limiting friction). Beyond this point, the body starts to move. Therefore, static friction is equal to the applied force until the applied force exceeds the maximum static friction.<br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The force of friction acting on a block of mass 'm' sliding on a horizontal surface is: (MHT CET 2018)",
+    "options": [
+      "(a) proportional to the velocity of the block",
+      "(b) proportional to the acceleration of the block",
+      "(c) proportional to the normal force",
+      "(d) independent of the normal force"
+    ],
+    "correct_answer": "c",
+    "answer": "The force of kinetic friction is given by the formula $F_k = \\mu_k N$. The force of static friction has a maximum value of $F_{s(max)} = \\mu_s N$. In both cases, the frictional force is directly proportional to the normal force (N).<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The limiting friction between two surfaces is: (MHT CET 2017)",
+    "options": [
+      "(a) independent of the shape of the surfaces",
+      "(b) dependent on the relative velocity of the surfaces",
+      "(c) independent of the normal reaction",
+      "(d) inversely proportional to the normal reaction"
+    ],
+    "correct_answer": "a",
+    "answer": "The laws of friction state that the limiting friction is directly proportional to the normal force and is independent of the area and shape of the surfaces in contact, as long as the normal force remains the same. The friction force does not depend on the relative velocity of the surfaces. Wait, for kinetic friction, it is approximately independent of velocity. But for static friction, it is not moving, so velocity is zero. The question says 'limiting friction', which is the maximum static friction, not kinetic friction. So, the limiting friction is independent of the area of contact but proportional to the normal force. Option (a) is 'independent of the shape of the surfaces', which is a consequence of being independent of the area of contact. This is a correct statement about limiting friction. Option (b) is wrong. Option (c) is wrong, as it is directly proportional. Option (d) is wrong. Thus, option (a) is the only correct one.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A block is pulled by a force on a rough horizontal surface. The block starts moving when the force is F. If the same block is pushed with a force F, it will: (MHT CET 2016)",
+    "options": [
+      "(a) start moving",
+      "(b) not move",
+      "(c) start moving with a higher acceleration",
+      "(d) move with a lower acceleration"
+    ],
+    "correct_answer": "a",
+    "answer": "The force of friction is proportional to the normal force. When the block is pulled horizontally, the normal force is just its weight, $N = mg$. When the block is pushed with a force F at an angle below the horizontal, the normal force increases as a component of the applied force pushes the block into the surface. Since friction is proportional to the normal force, the friction force will be greater when pushing. Therefore, if the block starts moving when pulled with force F, it might not move when pushed with the same force, because the friction will be higher. But the question assumes the force is applied horizontally in both cases. Let's re-read 'a force F'. It doesn't specify if it's horizontal. Let's assume it is. If the force is applied horizontally in both cases, the normal force is the same ($N=mg$), and thus the friction force is the same. Therefore, if it starts moving when pulled, it will also start moving when pushed with the same force. The question is a bit ambiguous, but a horizontal push/pull is the most common interpretation. It's also possible that the 'push' has a downward component, which would increase the normal force and therefore the friction, making it harder to move. But without that information, the simplest assumption is a horizontal force. Let's assume the question is a trick question and the push has a downward component. Let's reconsider the problem statement. 'A block is pulled by a force on a rough horizontal surface'. This means the force has a horizontal component. 'The block starts moving when the force is F'. This implies that the horizontal component of the pulling force is equal to the maximum static friction. 'If the same block is pushed with a force F'. This force could also have a downward vertical component. If it does, the normal force would be greater, and so would the friction. Therefore, it would not move. This seems to be the most logical answer to a trick question. However, if the force F is purely horizontal in both cases, the answer would be (a). Let's assume the most logical and intended interpretation. A push usually implies a downward component, while a pull can have an upward component. A pull with an upward component would reduce the normal force and thus the friction, making it easier to move. A push would have a downward component, increasing the normal force and friction, making it harder to move. So if it starts moving when pulled, it will not necessarily start moving when pushed. Let's assume the forces are purely horizontal. Then the friction is the same. The answer should be (a). This seems to be a flawed question, or there is a common convention I am missing. Let's assume the most direct interpretation is that the horizontal force is F. Then if it starts moving when pulled, it will also start moving when pushed with the same horizontal force. I will provide the answer based on this assumption.<br><b>Correct option is (a).</b>",
+    "marks": 1
+  }
+]

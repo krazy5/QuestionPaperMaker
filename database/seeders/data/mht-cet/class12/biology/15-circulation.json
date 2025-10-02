@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The normal systolic and diastolic blood pressure of a healthy adult human is:",
+    "options": [
+      "(a) 120 mm Hg and 80 mm Hg",
+      "(b) 80 mm Hg and 120 mm Hg",
+      "(c) 140 mm Hg and 90 mm Hg",
+      "(d) 100 mm Hg and 70 mm Hg"
+    ],
+    "correct_answer": "a",
+    "answer": "The normal blood pressure reading is typically expressed as a ratio of **systolic** pressure (the pressure in your arteries when your heart beats) over **diastolic** pressure (the pressure in your arteries when your heart rests between beats). The normal range for a healthy adult is **120/80 mm Hg**.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pacemaker of the human heart is the:",
+    "options": [
+      "(a) AV node",
+      "(b) Purkinje fibers",
+      "(c) SA node",
+      "(d) Bundle of His"
+    ],
+    "correct_answer": "c",
+    "answer": "The **sinoatrial (SA) node** is a specialized clump of myocardial conducting cells located in the superior and posterior walls of the right atrium. It initiates the sequence of electrical impulses that cause the heart to beat and is therefore known as the natural **pacemaker** of the heart.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The only artery that carries deoxygenated blood is the:",
+    "options": [
+      "(a) Aorta",
+      "(b) Pulmonary artery",
+      "(c) Renal artery",
+      "(d) Hepatic artery"
+    ],
+    "correct_answer": "b",
+    "answer": "Arteries typically carry oxygenated blood away from the heart. The **pulmonary artery** is the exception, as it carries deoxygenated blood from the right ventricle to the lungs to be oxygenated.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where there is a thickening of the walls of arteries due to the deposition of fatty substances is called:",
+    "options": [
+      "(a) Arteriosclerosis",
+      "(b) Atherosclerosis",
+      "(c) Myocardial infarction",
+      "(d) Angina pectoris"
+    ],
+    "correct_answer": "b",
+    "answer": "**Atherosclerosis** is a specific type of arteriosclerosis where plaque builds up inside the arteries. This can lead to a hardening and narrowing of the arteries, restricting blood flow.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the human circulatory system, which chamber of the heart receives oxygenated blood from the lungs?",
+    "options": [
+      "(a) Right atrium",
+      "(b) Left atrium",
+      "(c) Right ventricle",
+      "(d) Left ventricle"
+    ],
+    "correct_answer": "b",
+    "answer": "Oxygenated blood from the lungs enters the heart through the **pulmonary veins** and is received by the **left atrium**. ",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The principal cation in the blood plasma is:",
+    "options": [
+      "(a) Magnesium",
+      "(b) Calcium",
+      "(c) Sodium",
+      "(d) Potassium"
+    ],
+    "correct_answer": "c",
+    "answer": "**Sodium ($Na^+$)** is the principal cation in the blood plasma and is essential for maintaining osmotic pressure and fluid balance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where a blood clot forms in the circulatory system is called:",
+    "options": [
+      "(a) Thrombus",
+      "(b) Embolus",
+      "(c) Hemolysis",
+      "(d) Anemia"
+    ],
+    "correct_answer": "a",
+    "answer": "A **thrombus** is a blood clot that forms and remains attached to the wall of a blood vessel or the heart. If it breaks free and travels, it becomes an embolus.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Haemoglobin is a type of:",
+    "options": [
+      "(a) Carbohydrate",
+      "(b) Lipid",
+      "(c) Protein",
+      "(d) Vitamin"
+    ],
+    "correct_answer": "c",
+    "answer": "**Haemoglobin** is a **protein** found in red blood cells that is responsible for transporting oxygen from the lungs to the rest of the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The liquid part of blood that contains water, salts, and proteins is called:",
+    "options": [
+      "(a) Lymph",
+      "(b) Serum",
+      "(c) Plasma",
+      "(d) Cytoplasm"
+    ],
+    "correct_answer": "c",
+    "answer": "**Plasma** is the yellowish liquid component of blood that holds the blood cells in suspension. It makes up about 55% of the total blood volume in the human body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The blood cells that are responsible for blood clotting are:",
+    "options": [
+      "(a) Erythrocytes",
+      "(b) Leukocytes",
+      "(c) Platelets",
+      "(d) Lymphocytes"
+    ],
+    "correct_answer": "c",
+    "answer": "**Platelets** (thrombocytes) are small, colorless cell fragments in our blood that form clots and stop or prevent bleeding. They are essential for hemostasis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a component of the human immune system?",
+    "options": [
+      "(a) Plasma",
+      "(b) Platelets",
+      "(c) White blood cells",
+      "(d) Red blood cells"
+    ],
+    "correct_answer": "c",
+    "answer": "**White blood cells** (leukocytes) are the cells of the immune system that are involved in protecting the body against both infectious diseases and foreign invaders. [Image of white blood cells]",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The blood group which has no antigens on the surface of its red blood cells is:",
+    "options": [
+      "(a) A",
+      "(b) B",
+      "(c) AB",
+      "(d) O"
+    ],
+    "correct_answer": "d",
+    "answer": "Blood group **O** is a universal donor because its red blood cells have no A or B antigens on their surface. This means they can be transfused to people with any other blood group without causing an immune reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The blood group with antibodies against both A and B antigens in its plasma is:",
+    "options": [
+      "(a) A",
+      "(b) B",
+      "(c) AB",
+      "(d) O"
+    ],
+    "correct_answer": "d",
+    "answer": "Blood group **O** has both anti-A and anti-B antibodies in its plasma, which is why it can only receive blood from other O donors. This is a key principle of blood transfusions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fluid that drains from the lacteals of the small intestine into the lymphatic system during digestion is called:",
+    "options": [
+      "(a) Chyme",
+      "(b) Bile",
+      "(c) Chyle",
+      "(d) Serum"
+    ],
+    "correct_answer": "c",
+    "answer": "**Chyle** is a fluid consisting of lymph and emulsified fats. It is formed in the small intestine during digestion and is transported to the circulatory system via the lymphatic vessels.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The blood vessels that carry blood towards the heart are called:",
+    "options": [
+      "(a) Arteries",
+      "(b) Veins",
+      "(c) Capillaries",
+      "(d) Venules"
+    ],
+    "correct_answer": "b",
+    "answer": "**Veins** are blood vessels that carry deoxygenated blood from the body tissues back to the heart. The exception is the pulmonary vein, which carries oxygenated blood from the lungs to the heart.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A condition where there is a sudden and severe loss of blood due to trauma is called:",
+    "options": [
+      "(a) Anemia",
+      "(b) Hemolysis",
+      "(c) Exsanguination",
+      "(d) Thrombus"
+    ],
+    "correct_answer": "c",
+    "answer": "**Exsanguination** is the process of bleeding to death. It is the most severe form of blood loss and can occur rapidly after major trauma.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an incorrect statement about the human heart?",
+    "options": [
+      "(a) It is a myogenic heart.",
+      "(b) It has four chambers.",
+      "(c) The SA node is the pacemaker.",
+      "(d) It has a single circulation."
+    ],
+    "correct_answer": "d",
+    "answer": "The human heart has a **double circulation** system, which means blood passes through the heart twice in one complete cycle. The other statements are correct. Myogenic means the heartbeat is generated from within the heart muscle itself.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The exchange of gases and nutrients between the blood and tissue cells occurs in:",
+    "options": [
+      "(a) Arteries",
+      "(b) Veins",
+      "(c) Capillaries",
+      "(d) Arterioles"
+    ],
+    "correct_answer": "c",
+    "answer": "**Capillaries** are the smallest blood vessels, and their walls are only one cell thick. This allows for the efficient exchange of gases, nutrients, and waste products between the blood and the surrounding tissue cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The total number of chambers in a human heart is:",
+    "options": [
+      "(a) Two",
+      "(b) Three",
+      "(c) Four",
+      "(d) Five"
+    ],
+    "correct_answer": "c",
+    "answer": "A human heart has **four chambers**: the right atrium, left atrium, right ventricle, and left ventricle. These chambers work together to pump blood throughout the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The protein responsible for binding and transporting oxygen in the blood is:",
+    "options": [
+      "(a) Albumin",
+      "(b) Fibrinogen",
+      "(c) Hemocyanin",
+      "(d) Hemoglobin"
+    ],
+    "correct_answer": "d",
+    "answer": "**Hemoglobin** is the iron-containing protein in red blood cells that reversibly binds to oxygen, enabling its transport from the lungs to the tissues.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disorder characterized by a decrease in the number of red blood cells or the amount of hemoglobin in the blood is:",
+    "options": [
+      "(a) Polycythemia",
+      "(b) Anemia",
+      "(c) Leukemia",
+      "(d) Hemophilia"
+    ],
+    "correct_answer": "b",
+    "answer": "**Anemia** is a condition in which the body does not have enough healthy red blood cells to carry adequate oxygen to the body's tissues. This can be due to a decrease in the number of red blood cells or a lack of hemoglobin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where the heart rate is abnormally slow is called:",
+    "options": [
+      "(a) Tachycardia",
+      "(b) Bradycardia",
+      "(c) Angina",
+      "(d) Arrhythmia"
+    ],
+    "correct_answer": "b",
+    "answer": "**Bradycardia** is a condition where the resting heart rate is slower than normal, typically below 60 beats per minute.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The formation of new red blood cells is called:",
+    "options": [
+      "(a) Hemopoiesis",
+      "(b) Leukopoiesis",
+      "(c) Erythropoiesis",
+      "(d) Thrombopoiesis"
+    ],
+    "correct_answer": "c",
+    "answer": "**Erythropoiesis** is the process of producing red blood cells. It occurs in the red bone marrow of adults.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The circulation of blood from the heart to the lungs and back to the heart is known as:",
+    "options": [
+      "(a) Systemic circulation",
+      "(b) Pulmonary circulation",
+      "(c) Coronary circulation",
+      "(d) Portal circulation"
+    ],
+    "correct_answer": "b",
+    "answer": "**Pulmonary circulation** is the part of the circulatory system that carries deoxygenated blood away from the heart, to the lungs, and returns oxygenated blood back to the heart.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'lub-dub' sound of the heart is caused by the closing of the:",
+    "options": [
+      "(a) Aortic and pulmonary valves",
+      "(b) Bicuspid and tricuspid valves",
+      "(c) Semilunar valves",
+      "(d) Both (a) and (b)"
+    ],
+    "correct_answer": "d",
+    "answer": "The first heart sound (**'lub'**) is caused by the closing of the **bicuspid** and **tricuspid valves**. The second sound (**'dub'**) is caused by the closing of the **semilunar valves** (aortic and pulmonary valves).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has a closed circulatory system?",
+    "options": [
+      "(a) Arthropods",
+      "(b) Annelids",
+      "(c) Molluscs",
+      "(d) Echinoderms"
+    ],
+    "correct_answer": "b",
+    "answer": "In a **closed circulatory system**, the blood is confined within blood vessels. **Annelids** (e.g., earthworms) have a closed circulatory system. The other options have an open circulatory system.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that causes an increase in heart rate and blood pressure is:",
+    "options": [
+      "(a) Insulin",
+      "(b) Thyroxine",
+      "(c) Adrenaline",
+      "(d) Glucagon"
+    ],
+    "correct_answer": "c",
+    "answer": "**Adrenaline** (epinephrine) is a hormone released by the adrenal glands in response to stress. It increases heart rate, constricts blood vessels, and raises blood pressure, preparing the body for a 'fight or flight' response.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The network of muscle fibers found throughout the walls of the ventricles is called:",
+    "options": [
+      "(a) SA node",
+      "(b) AV node",
+      "(c) Purkinje fibers",
+      "(d) Bundle of His"
+    ],
+    "correct_answer": "c",
+    "answer": "**Purkinje fibers** are a network of specialized cardiac muscle fibers that conduct electrical impulses from the AV node to the ventricles, causing them to contract.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disease in which the heart muscle is severely damaged due to an inadequate blood supply is:",
+    "options": [
+      "(a) Hypertension",
+      "(b) Heart attack",
+      "(c) Stroke",
+      "(d) Angina"
+    ],
+    "correct_answer": "b",
+    "answer": "A **heart attack** (myocardial infarction) occurs when blood flow to a part of the heart is blocked for a long enough time that a portion of the heart muscle is damaged or dies.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of blood vessel that has valves to prevent the backflow of blood is:",
+    "options": [
+      "(a) Arteries",
+      "(b) Veins",
+      "(c) Capillaries",
+      "(d) Arterioles"
+    ],
+    "correct_answer": "b",
+    "answer": "**Veins** have valves to ensure that blood flows in only one direction, preventing backflow due to gravity, especially in the lower limbs. Arteries do not require valves as blood flow is maintained by the pressure from the heart.",
+    "marks": 1
+  }
+]

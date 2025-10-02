@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "Who proposed the theory of natural selection?",
+    "options": [
+      "(a) Jean-Baptiste Lamarck",
+      "(b) Alfred Russel Wallace",
+      "(c) Charles Darwin",
+      "(d) Gregor Mendel"
+    ],
+    "correct_answer": "c",
+    "answer": "Charles Darwin proposed the theory of natural selection in his book 'On the Origin of Species'. He suggested that organisms with traits that are better suited to their environment are more likely to survive and reproduce.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The experiment by Stanley Miller and Harold Urey demonstrated the origin of:",
+    "options": [
+      "(a) Proteins",
+      "(b) Amino acids",
+      "(c) Nucleic acids",
+      "(d) Carbohydrates"
+    ],
+    "correct_answer": "b",
+    "answer": "Miller and Urey conducted an experiment to simulate the conditions of early Earth. They were able to synthesize simple organic compounds, including amino acids, from inorganic molecules. This provided evidence for the chemical origin of life.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The wing of a bat and the forelimb of a horse are examples of:",
+    "options": [
+      "(a) Analogous organs",
+      "(b) Homologous organs",
+      "(c) Vestigial organs",
+      "(d) Atavistic organs"
+    ],
+    "correct_answer": "b",
+    "answer": "Homologous organs are those that have a similar basic structure and origin but perform different functions. The wing of a bat and the forelimb of a horse share a common bone structure, suggesting a common ancestry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The flipper of a whale and the wing of a bat are examples of:",
+    "options": [
+      "(a) Analogous organs",
+      "(b) Homologous organs",
+      "(c) Vestigial organs",
+      "(d) Atavistic organs"
+    ],
+    "correct_answer": "a",
+    "answer": "Analogous organs are those that have a different basic structure and origin but perform similar functions. The flipper of a whale and the wing of a bat both aid in movement, but their underlying bone structures are different, suggesting they evolved independently.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The presence of gill slits in the human embryo is an example of:",
+    "options": [
+      "(a) Recapitulation theory",
+      "(b) Biogenetic law",
+      "(c) Both (a) and (b)",
+      "(d) All of the above"
+    ],
+    "correct_answer": "c",
+    "answer": "The recapitulation theory, or biogenetic law, states that 'ontogeny recapitulates phylogeny.' This means that the development of an individual (ontogeny) reflects the evolutionary history of its species (phylogeny). The presence of gill slits in the human embryo is a remnant of our evolutionary past shared with fish.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The concept of 'use and disuse' of organs was proposed by:",
+    "options": [
+      "(a) Charles Darwin",
+      "(b) Alfred Russel Wallace",
+      "(c) Jean-Baptiste Lamarck",
+      "(d) Hugo de Vries"
+    ],
+    "correct_answer": "c",
+    "answer": "Lamarck's theory of evolution, also known as Lamarckism, proposed the concept of 'use and disuse'. He suggested that the organs that are used frequently become stronger and more developed, while those that are not used atrophy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory of 'inheritance of acquired characters' was proposed by:",
+    "options": [
+      "(a) Charles Darwin",
+      "(b) Alfred Russel Wallace",
+      "(c) Jean-Baptiste Lamarck",
+      "(d) Hugo de Vries"
+    ],
+    "correct_answer": "c",
+    "answer": "Lamarck's theory of evolution also included the concept of 'inheritance of acquired characters'. He believed that the traits acquired during an organism's lifetime could be passed on to its offspring.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The discovery of *Archaeopteryx*, a fossil with both reptilian and avian characteristics, is an example of:",
+    "options": [
+      "(a) Convergent evolution",
+      "(b) Divergent evolution",
+      "(c) Connecting link",
+      "(d) Vestigial organ"
+    ],
+    "correct_answer": "c",
+    "answer": "*Archaeopteryx* is considered a connecting link between reptiles and birds. It possessed features of both groups, such as teeth and a long tail like reptiles and feathers like birds. Its discovery provided strong evidence for the evolutionary link between these two classes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The principle of 'survival of the fittest' was a key concept of:",
+    "options": [
+      "(a) Lamarckism",
+      "(b) Darwin's theory of natural selection",
+      "(c) Mutation theory",
+      "(d) Oparin-Haldane theory"
+    ],
+    "correct_answer": "b",
+    "answer": "'Survival of the fittest' is a phrase that was coined by Herbert Spencer and is often used to summarize the concept of natural selection. It refers to the idea that organisms best adapted to their environment will survive and reproduce more successfully.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a vestigial organ in humans?",
+    "options": [
+      "(a) Appendix",
+      "(b) Pancreas",
+      "(c) Liver",
+      "(d) Spleen"
+    ],
+    "correct_answer": "a",
+    "answer": "Vestigial organs are those that have lost their original function over the course of evolution. The appendix, which is a small, finger-like pouch attached to the large intestine, is a vestigial organ in humans.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The concept that 'life arose from non-living matter' is known as:",
+    "options": [
+      "(a) Biogenesis",
+      "(b) Abiogenesis",
+      "(c) Panspermia",
+      "(d) Spontaneous generation"
+    ],
+    "correct_answer": "b",
+    "answer": "Abiogenesis is the theory that life originated from non-living matter. It is a scientific theory about the origin of life that is supported by the Miller-Urey experiment and other research.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory of 'discontinuous variations' or 'mutation theory' was proposed by:",
+    "options": [
+      "(a) Charles Darwin",
+      "(b) Hugo de Vries",
+      "(c) Jean-Baptiste Lamarck",
+      "(d) Alfred Russel Wallace"
+    ],
+    "correct_answer": "b",
+    "answer": "Hugo de Vries proposed the mutation theory of evolution. He suggested that evolution occurs through sudden, large-scale changes called mutations, which lead to the formation of new species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The study of fossils is called:",
+    "options": [
+      "(a) Paleontology",
+      "(b) Embryology",
+      "(c) Anatomy",
+      "(d) Genetics"
+    ],
+    "correct_answer": "a",
+    "answer": "Paleontology is the scientific study of fossils, which are the preserved remains of ancient organisms. It provides crucial evidence for the evolutionary history of life on Earth.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a new species evolving from a common ancestor in a different geographical location is:",
+    "options": [
+      "(a) Convergent evolution",
+      "(b) Divergent evolution",
+      "(c) Parallel evolution",
+      "(d) Co-evolution"
+    ],
+    "correct_answer": "b",
+    "answer": "Divergent evolution occurs when two or more species diverge from a common ancestor. This often happens when populations are separated by a geographical barrier, leading to the formation of new species with different characteristics.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of two unrelated species evolving similar features to adapt to a similar environment is:",
+    "options": [
+      "(a) Convergent evolution",
+      "(b) Divergent evolution",
+      "(c) Parallel evolution",
+      "(d) Co-evolution"
+    ],
+    "correct_answer": "a",
+    "answer": "Convergent evolution is the process where unrelated organisms independently evolve similar traits to adapt to a similar environment. For example, the wings of a bat and a butterfly.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The industrial melanism observed in the peppered moth is an example of:",
+    "options": [
+      "(a) Artificial selection",
+      "(b) Natural selection",
+      "(c) Genetic drift",
+      "(d) Mutation"
+    ],
+    "correct_answer": "b",
+    "answer": "Industrial melanism is a classic example of natural selection. The dark-colored moths survived and reproduced more successfully in polluted industrial areas where they were better camouflaged from predators, while the light-colored moths were easily preyed upon.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Hardy-Weinberg principle describes a population that is:",
+    "options": [
+      "(a) Evolving",
+      "(b) In genetic equilibrium",
+      "(c) Undergoing natural selection",
+      "(d) Experiencing genetic drift"
+    ],
+    "correct_answer": "b",
+    "answer": "The Hardy-Weinberg principle states that the genetic variation in a population will remain constant from one generation to the next in the absence of other evolutionary influences. It describes a population that is in genetic equilibrium.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a condition for a population to be in Hardy-Weinberg equilibrium?",
+    "options": [
+      "(a) Large population size",
+      "(b) Random mating",
+      "(c) No gene flow",
+      "(d) Presence of mutations"
+    ],
+    "correct_answer": "d",
+    "answer": "The Hardy-Weinberg principle assumes the absence of mutations, as mutations introduce new alleles and disrupt the genetic equilibrium of a population.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The change in the allele frequency of a population by pure chance is known as:",
+    "options": [
+      "(a) Natural selection",
+      "(b) Mutation",
+      "(c) Genetic drift",
+      "(d) Gene flow"
+    ],
+    "correct_answer": "c",
+    "answer": "Genetic drift is the random fluctuation in the frequency of alleles in a population. Its effects are most significant in small populations, as the 'chance' events can have a greater impact on the overall gene pool.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'fossil' refers to the preserved remains of organisms that lived in the past. This provides evidence for:",
+    "options": [
+      "(a) Anatomy",
+      "(b) Physiology",
+      "(c) Evolution",
+      "(d) Genetics"
+    ],
+    "correct_answer": "c",
+    "answer": "Fossils are a key source of evidence for evolution. They show the gradual changes in organisms over time, providing a record of how life has evolved on Earth.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory that life on Earth originated from microorganisms or biochemical precursors from outer space is:",
+    "options": [
+      "(a) Panspermia",
+      "(b) Abiogenesis",
+      "(c) Biogenesis",
+      "(d) Spontaneous generation"
+    ],
+    "correct_answer": "a",
+    "answer": "The panspermia theory suggests that life on Earth may have originated from microorganisms or biochemical precursors transported to Earth from outer space.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The most widely accepted theory to explain the origin of life is:",
+    "options": [
+      "(a) Special creation",
+      "(b) Cosmic theory",
+      "(c) Oparin-Haldane theory",
+      "(d) Spontaneous generation"
+    ],
+    "correct_answer": "c",
+    "answer": "The Oparin-Haldane theory, also known as the chemical evolution theory, proposes that life on Earth originated from inorganic compounds through a series of chemical reactions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The idea that 'life comes from pre-existing life' is the theory of:",
+    "options": [
+      "(a) Biogenesis",
+      "(b) Abiogenesis",
+      "(c) Panspermia",
+      "(d) Spontaneous generation"
+    ],
+    "correct_answer": "a",
+    "answer": "Biogenesis is the theory that life originates from living organisms. This was experimentally proved by Louis Pasteur, who disproved the theory of spontaneous generation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The change in the heritable traits of a biological population over successive generations is:",
+    "options": [
+      "(a) Evolution",
+      "(b) Natural selection",
+      "(c) Genetic drift",
+      "(d) Mutation"
+    ],
+    "correct_answer": "a",
+    "answer": "Evolution is the process by which living organisms change over time, resulting in a change in the heritable traits of a population over successive generations.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory of evolution that proposes that changes in a species happen gradually over time is:",
+    "options": [
+      "(a) Punctuated equilibrium",
+      "(b) Catastrophism",
+      "(c) Gradualism",
+      "(d) Saltation"
+    ],
+    "correct_answer": "c",
+    "answer": "Gradualism is a theory of evolution that suggests that new species evolve from pre-existing ones through gradual, slow changes over a long period.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sudden, random changes in the DNA sequence of a gene are called:",
+    "options": [
+      "(a) Recombination",
+      "(b) Mutation",
+      "(c) Variation",
+      "(d) Natural selection"
+    ],
+    "correct_answer": "b",
+    "answer": "A mutation is a change in the DNA sequence of an organism. Mutations can be caused by various factors, including errors during DNA replication or exposure to mutagens.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory of 'punctuated equilibrium' suggests that:",
+    "options": [
+      "(a) Evolution occurs at a constant pace",
+      "(b) Evolution occurs in sudden bursts followed by long periods of stasis",
+      "(c) Evolution is driven by mutations only",
+      "(d) Evolution is a continuous process"
+    ],
+    "correct_answer": "b",
+    "answer": "Punctuated equilibrium is a theory that suggests that evolution occurs in short, rapid bursts of speciation followed by long periods of little or no change (stasis).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The study of the geographical distribution of organisms is known as:",
+    "options": [
+      "(a) Biogeography",
+      "(b) Ecology",
+      "(c) Paleontology",
+      "(d) Taxonomy"
+    ],
+    "correct_answer": "a",
+    "answer": "Biogeography is the study of the distribution of species and ecosystems in geographical space and through geological time. It provides evidence for evolution by showing how species have evolved in different regions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The theory of 'endosymbiosis' explains the origin of:",
+    "options": [
+      "(a) The nucleus",
+      "(b) Ribosomes",
+      "(c) Mitochondria and chloroplasts",
+      "(d) The cell wall"
+    ],
+    "correct_answer": "c",
+    "answer": "The endosymbiotic theory proposes that mitochondria and chloroplasts originated as symbiotic prokaryotes that were engulfed by a host cell. This theory is supported by the fact that both organelles have their own DNA and ribosomes, which are similar to those of bacteria.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process by which organisms with favorable traits tend to survive and reproduce more successfully is:",
+    "options": [
+      "(a) Mutation",
+      "(b) Genetic drift",
+      "(c) Gene flow",
+      "(d) Natural selection"
+    ],
+    "correct_answer": "d",
+    "answer": "Natural selection is the process by which heritable traits that enhance an organism's survival and reproduction become more common in successive generations. It is a key mechanism of evolution.",
+    "marks": 1
+  }
+]

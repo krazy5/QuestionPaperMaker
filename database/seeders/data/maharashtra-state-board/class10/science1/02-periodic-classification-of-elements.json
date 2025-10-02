@@ -1,0 +1,164 @@
+[
+  {
+    "type": "long",
+    "text": "Explain Mendeleev's Periodic Law and its two merits. (Practice Set 2.1)",
+    "answer": "### **Mendeleev's Periodic Law**\n'Properties of elements are a periodic function of their atomic masses.'\n\n### **Merits of Mendeleev's Periodic Table**\n1.  **Prediction of New Elements:** Mendeleev left some gaps in his periodic table for elements that were not discovered at that time. He successfully predicted the properties of these undiscovered elements, such as Eka-boron, Eka-aluminum, and Eka-silicon, which were later found and named Scandium, Gallium, and Germanium, respectively.\n2.  **Corrected Atomic Masses:** He corrected the atomic masses of some elements, like beryllium ($Be$), indium ($In$), and gold ($Au$), based on their positions in the table, which were verified experimentally later.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "State Dobereiner's Law of Triads.",
+    "answer": "Dobereiner's Law of Triads states that when elements are arranged in increasing order of their atomic masses, a group of three elements (a triad) having similar chemical properties is formed. The atomic mass of the middle element is approximately equal to the mean of the atomic masses of the other two elements.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "An element has an electronic configuration of $(2, 8, 1)$. To which group and period does it belong? Explain.",
+    "answer": "### **Analysis of Electronic Configuration**\n* **Electronic Configuration:** $(2, 8, 1)$\n* **Number of electrons:** $2 + 8 + 1 = 11$. The atomic number is 11, which corresponds to the element Sodium ($Na$).\n* **Number of shells:** There are three shells in its electronic configuration. The number of shells determines the period.\n* **Number of valence electrons:** There is one electron in its outermost shell. The number of valence electrons determines the group number for elements in groups 1 and 2.\n\n### **Group and Period**\n* **Period:** Since the element has three shells, it belongs to the **3rd period**.\n* **Group:** Since it has one valence electron, it belongs to **Group 1**.\n\n**Conclusion:** The element is Sodium ($Na$), which is in Period 3 and Group 1 of the modern periodic table.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is meant by valency?",
+    "answer": "Valency is the combining capacity of an element. It is determined by the number of valence electrons in the outermost shell of an atom. Elements in the same group of the periodic table have the same valency.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following elements has the highest electronegativity? (Problem Set 2)",
+    "options": ["$F$", "$Cl$", "$Br$", "$I$"],
+    "correct_answer": "A",
+    "answer": "Electronegativity is the measure of the ability of an atom to attract electrons towards itself. In the halogen group (Group 17), as we move down the group, the atomic size increases and the electronegativity decreases. Therefore, Fluorine ($F$) has the highest electronegativity. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the trends in atomic radius in the modern periodic table.",
+    "answer": "### **Across a Period (from left to right)**\n* **Atomic radius decreases** as we move from left to right in a period.\n* **Reason:** Electrons are added to the same outermost shell. At the same time, the nuclear charge (number of protons) increases, pulling the electrons more strongly towards the nucleus. This increased nuclear attraction causes the atomic size to shrink, resulting in a smaller atomic radius.\n\n### **Down a Group (from top to bottom)**\n* **Atomic radius increases** as we move down a group.\n* **Reason:** A new shell is added to the atom with each subsequent element. This addition of a new shell increases the distance between the outermost electrons and the nucleus. Additionally, the inner electrons shield the outermost electrons from the nuclear pull, reducing the effective nuclear charge. These two factors outweigh the increase in nuclear charge, causing the atomic size and thus the atomic radius to increase.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the Modern Periodic Law?",
+    "answer": "The Modern Periodic Law states that 'properties of elements are a periodic function of their atomic number.' This law was given by Henry Moseley after his experiments showed that the atomic number is a more fundamental property of an element than its atomic mass.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The electronic configuration of the element with atomic number 19 is... (Problem Set 2)",
+    "options": ["$(2, 8, 8, 1)$", "$(2, 8, 9)$", "$(2, 8, 7, 2)$", "$(2, 8, 1, 8)$"],
+    "correct_answer": "A",
+    "answer": "The electronic configuration of an element is the distribution of electrons in its shells. The first shell can hold up to 2 electrons, the second up to 8, and the third up to 18. However, for elements up to atomic number 20, the third shell is filled with 8 electrons before the fourth shell starts filling. For atomic number 19 (Potassium), the configuration is $(2, 8, 8, 1)$. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on the Dobereiner's triads and Newlands' Law of Octaves. (Practice Set 2.1)",
+    "answer": "### **Dobereiner's Triads**\nJohann Dobereiner classified elements into groups of three called 'triads'. The elements in a triad had similar chemical properties, and the atomic mass of the middle element was approximately the arithmetic mean of the other two. For example, in the triad of Lithium ($Li$), Sodium ($Na$), and Potassium ($K$), the atomic mass of Na is approximately the average of Li and K. This law had limited success as it could only identify a few triads.\n\n### **Newlands' Law of Octaves**\nJohn Newlands arranged the elements in increasing order of their atomic masses. He noticed that every eighth element had properties similar to the first, just like the octaves in music. He called this the 'Law of Octaves'. For example, the properties of Sodium ($Na$) were similar to Lithium ($Li$). This law was only applicable up to Calcium ($Ca$). Beyond Calcium, the law was not followed.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the relationship between the atomic number and the properties of elements?",
+    "answer": "The properties of elements are a periodic function of their atomic number. The atomic number determines the number of protons and electrons, which in turn dictates the electronic configuration and valency. Since the chemical properties of an element are dependent on its valency, the atomic number is the fundamental property that governs the periodic arrangement of elements.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The number of electrons in the outermost shell of a halogen element is... (Problem Set 2)",
+    "options": ["1", "2", "7", "8"],
+    "correct_answer": "C",
+    "answer": "Halogens are elements of Group 17 in the periodic table. They have seven electrons in their outermost shell, which is why they are very reactive and tend to gain one electron to achieve a stable octet. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Give reasons: Atomic radius increases down a group. (Practice Set 2.2)",
+    "answer": "Atomic radius increases as we go down a group in the periodic table. There are two main reasons for this trend:\n\n1.  **Addition of a new shell:** As we move from one element to the next in the same group, a new principal energy shell is added to the atom. This increases the distance between the outermost electrons and the nucleus, causing the atom to become larger.\n2.  **Increased Shielding Effect:** The electrons in the inner shells shield the outermost electrons from the full attractive force of the nucleus. This shielding effect increases as new shells are added, which further reduces the net attractive force on the valence electrons, allowing them to move farther away from the nucleus and contributing to a larger atomic size.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are alkali metals and alkaline earth metals?",
+    "answer": "### **Alkali Metals**\nAlkali metals are the elements of **Group 1** of the periodic table, excluding Hydrogen ($H$). They have one valence electron and are highly reactive. Examples: Lithium ($Li$), Sodium ($Na$), Potassium ($K$).\n\n### **Alkaline Earth Metals**\nAlkaline earth metals are the elements of **Group 2** of the periodic table. They have two valence electrons. Examples: Beryllium ($Be$), Magnesium ($Mg$), Calcium ($Ca$).",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is the position of Hydrogen in the modern periodic table? Give reasons for your answer.",
+    "answer": "Hydrogen's position in the modern periodic table is a matter of debate. It is typically placed at the top of Group 1, but it also shares properties with the halogens in Group 17.\n\n### **Why it's in Group 1**\n* Hydrogen has one valence electron, similar to alkali metals in Group 1. It can lose this electron to form a positive ion ($H^+$), just like alkali metals form positive ions ($Li^+$, $Na^+$, etc.).\n\n### **Why it's like Group 17**\n* Hydrogen is a non-metal and exists as a diatomic molecule ($H_2$), which is a property shared with halogens ($F_2$, $Cl_2$, etc.).\n* Hydrogen can gain one electron to form a negative ion ($H^-$) and achieve a stable duplet electronic configuration, similar to how halogens gain one electron to achieve a stable octet.\n\nBecause of these dual characteristics, Hydrogen's position is unique and is often placed in a separate box at the top of the periodic table.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the trend in metallic character across a period?",
+    "answer": "As we move from left to right across a period, the metallic character of elements **decreases**. This is because the effective nuclear charge increases, and the tendency of an atom to lose electrons decreases, making the element less metallic. Non-metallic character increases.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the trends in ionization energy in the modern periodic table.",
+    "answer": "Ionization energy is the energy required to remove an electron from the outermost shell of an isolated gaseous atom.\n\n### **Across a Period (from left to right)**\n* **Ionization energy increases** as we move from left to right in a period.\n* **Reason:** The effective nuclear charge increases, and the atomic size decreases. The valence electrons are held more tightly by the nucleus, requiring more energy to remove them.\n\n### **Down a Group (from top to bottom)**\n* **Ionization energy decreases** as we move down a group.\n* **Reason:** A new shell is added with each element. The distance between the nucleus and the outermost electron increases, and the shielding effect of inner electrons also increases. Both these factors weaken the nuclear attraction on the outermost electron, making it easier to remove.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following elements belongs to the same period as Magnesium ($Mg$)? (Problem Set 2)",
+    "options": ["$Ca$", "$Na$", "$Be$", "$K$"],
+    "correct_answer": "B",
+    "answer": "The electronic configuration of Magnesium ($Mg$) is $(2, 8, 2)$. It has three shells, so it is in the 3rd period. Among the given options, Sodium ($Na$) has an electronic configuration of $(2, 8, 1)$, which also has three shells and belongs to the 3rd period. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the drawbacks of Mendeleev's periodic table? (Practice Set 2.1)",
+    "answer": "The main drawbacks of Mendeleev's periodic table are:\n\n1.  **Position of Isotopes:** Isotopes of an element have the same chemical properties but different atomic masses. According to Mendeleev's law, they should have been placed in different positions, but they were not. This contradicted his law.\n2.  **Position of Hydrogen:** Hydrogen shows properties similar to both alkali metals and halogens. Mendeleev could not assign a single, unique position to Hydrogen in his table.\n3.  **Irregularities in Atomic Mass:** In some pairs of elements, the element with a higher atomic mass was placed before the one with a lower atomic mass. For example, Cobalt ($Co$, atomic mass 58.9) was placed before Nickel ($Ni$, atomic mass 58.7).\n4.  **No fixed position for rare earth elements:** Elements like Lanthanides and Actinides were not given a proper place in the main body of the periodic table.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is meant by a periodic trend?",
+    "answer": "A periodic trend is a consistent and predictable pattern in the properties of elements. These trends repeat at regular intervals as elements are arranged according to their atomic number in the modern periodic table. Examples include trends in atomic radius, valency, and metallic character.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which group of elements is known as the noble gases? (Problem Set 2)",
+    "options": ["Group 1", "Group 2", "Group 17", "Group 18"],
+    "correct_answer": "D",
+    "answer": "Noble gases are the elements of Group 18. They have a completely filled outermost electron shell, making them very stable and unreactive. They are also known as inert gases. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the trends in metallic and non-metallic character in the modern periodic table.",
+    "answer": "### **Metallic Character**\n* **Across a Period:** It **decreases** from left to right. This is because the effective nuclear charge increases, and the tendency of an atom to lose its valence electrons decreases. Therefore, elements on the left side of the periodic table are more metallic.\n* **Down a Group:** It **increases** as we go down a group. The atomic size increases and the shielding effect increases, making it easier for an atom to lose its outermost electrons. Therefore, elements at the bottom of a group are more metallic.\n\n### **Non-Metallic Character**\n* **Across a Period:** It **increases** from left to right. The effective nuclear charge increases, making it easier for an atom to gain electrons. Therefore, elements on the right side of the periodic table are more non-metallic.\n* **Down a Group:** It **decreases** as we go down a group. The atomic size and shielding effect increase, making it harder for an atom to gain electrons.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the valency of elements in Group 18?",
+    "answer": "Elements in Group 18 are noble gases with a completely filled outermost shell (octet). They are very stable and do not tend to gain or lose electrons. Therefore, their valency is zero.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What are the achievements of the modern periodic table? (Practice Set 2.3)",
+    "answer": "The modern periodic table, based on atomic number, resolved many of the anomalies of Mendeleev's periodic table. Its major achievements are:\n\n1.  **Resolved Position of Isotopes:** Since isotopes have the same atomic number, they are placed in the same position in the modern periodic table, which is a consistent arrangement.\n2.  **Systematic Arrangement:** It provides a logical and systematic arrangement of elements in increasing order of their atomic numbers, making it easy to study their properties.\n3.  **Correct Position of Elements:** The ambiguity regarding the position of certain elements, such as Cobalt and Nickel, was resolved as they were arranged according to their atomic number.\n4.  **Explanation of Periodicity:** The modern periodic table can explain the reason for the periodicity of elements based on their electronic configuration, specifically the valence electrons. The repetition of valence electrons after certain intervals leads to the repetition of chemical properties.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write the electronic configuration of Calcium (Ca), atomic number 20.",
+    "answer": "The electronic configuration of Calcium ($Ca$) with atomic number 20 is $(2, 8, 8, 2)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following elements is a metalloid? (Problem Set 2)",
+    "options": ["$Na$", "$P$", "$Si$", "$Cl$"],
+    "correct_answer": "C",
+    "answer": "Metalloids are elements that exhibit properties of both metals and non-metals. They are located along the zig-zag line in the periodic table. Silicon ($Si$) is a well-known example of a metalloid. The correct option is **C**.",
+    "marks": 1
+  }
+]

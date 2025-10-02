@@ -13,11 +13,14 @@
     </x-slot>
 
     <div class="relative min-h-screen overflow-visible"
-         x-data="paperForm({
-            initialClass: '{{ old('class_id') }}',
-            initialSubject: '{{ old('subject_id') }}',
-            endpoint: '{{ url('/institute/get-subjects-for-class') }}'
-         })"
+         x-data='paperForm({
+            initialBoard: @json(old("board_id", $selectedBoardId)),
+            initialClass: @json(old("class_id")),
+            initialSubject: @json(old("subject_id")),
+            // 💡 CHANGE 1: Use named route with a placeholder for better URL reliability
+             classEndpoint: @json(route('institute.classes.for.board', ['boardId' => '_BOARD_ID_'])),
+             subjectEndpoint: @json(route('institute.subjects.for.class', ['classId' => '_CLASS_ID_']))
+         })'
          x-init="init()">
 
         <div class="py-6 sm:py-10 pb-48">
@@ -63,9 +66,12 @@
                             <div>
                                 <label for="board_id" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Board</label>
                                 <select name="board_id" id="board_id" required
+                                        x-model="selectedBoard"
+                                        @change="fetchClasses()"
                                         class="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-indigo-500 focus:border-indigo-500">
-                                    @foreach($boards as $board)
-                                        <option value="{{ $board->id }}" @selected(old('board_id') == $board->id)>{{ $board->name }}</option>
+                                    <option value="">-- Select a Board --</option>
+                                    @foreach ($boards as $board)
+                                        <option value="{{ $board->id }}" @selected(old('board_id', $selectedBoardId) == $board->id)>{{ $board->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
@@ -73,35 +79,34 @@
                             <div>
                                 <label for="class_id" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Class</label>
                                 <select name="class_id" id="class_id" required
-                                        x-model="selectedClass" @change="fetchSubjects()"
-                                        class="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-indigo-500 focus:border-indigo-500">
+                                        x-model="selectedClass"
+                                        @change="fetchSubjects()"
+                                        :disabled="!selectedBoard || isLoadingClasses"
+                                        class="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-indigo-500 focus:border-indigo-500 disabled:bg-gray-100 dark:disabled:bg-gray-800/60 disabled:text-gray-500">
                                     <option value="">-- Select a Class --</option>
-                                    @foreach($classes as $class)
-                                        <option value="{{ $class->id }}">{{ $class->name }}</option>
-                                    @endforeach
+                                    <template x-for="cls in classes" :key="cls.id">
+                                        <option :value="cls.id" x-text="cls.name"></option>
+                                    </template>
                                 </select>
+                                <p x-cloak x-show="isLoadingClasses" class="mt-1 text-xs text-gray-500 dark:text-gray-400">Loading classes…</p>
+                                <p x-cloak x-show="classError" class="mt-1 text-xs text-red-500 dark:text-red-400">Could not load classes. Please try again.</p>
                             </div>
 
                             <div>
                                 <label for="subject_id" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Subject</label>
-                                <div class="relative">
-                                    <select name="subject_id" id="subject_id" required
-                                            x-model="selectedSubject" :disabled="!selectedClass || loading"
-                                            class="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-indigo-500 focus:border-indigo-500 disabled:bg-gray-100 dark:disabled:bg-gray-800/60 disabled:text-gray-500">
-                                        <template x-if="loading"><option value="">-- Loading subjects... --</option></template>
-                                        <template x-if="error && !loading"><option value="">-- Error loading subjects --</option></template>
-                                        <template x-if="!loading && !error && subjects.length === 0 && selectedClass"><option value="">-- No subjects found --</option></template>
-                                        <template x-if="!loading && !error && (!selectedClass || subjects.length === 0)"><option value="">-- Select a class first --</option></template>
-                                        <template x-for="s in subjects" :key="s.id">
-                                            <option :value="s.id" x-text="s.name"></option>
-                                        </template>
-                                    </select>
-                                    <div x-show="loading" x-transition
-                                         class="absolute left-0 right-0 -bottom-1 h-0.5 bg-indigo-100 dark:bg-indigo-900/30 overflow-hidden rounded">
-                                        <div class="h-full w-1/3 bg-indigo-500 dark:bg-indigo-400 animate-pulse"></div>
-                                    </div>
-                                </div>
-                                <p class="mt-1 text-xs text-gray-500 dark:text-gray-400">Choose class first to load available subjects.</p>
+                                <select name="subject_id" id="subject_id" required
+                                        x-model="selectedSubject"
+                                        :disabled="!selectedClass || isLoadingSubjects"
+                                        class="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 focus:ring-indigo-500 focus:border-indigo-500 disabled:bg-gray-100 dark:disabled:bg-gray-800/60 disabled:text-gray-500">
+                                    <option value="">-- Select a Subject --</option>
+                                    <template x-for="subject in subjects" :key="subject.id">
+                                        <option :value="subject.id" x-text="subject.name"></option>
+                                    </template>
+                                </select>
+                                <p x-cloak x-show="isLoadingSubjects" class="mt-1 text-xs text-gray-500 dark:text-gray-400">Loading subjects…</p>
+                                <p x-cloak x-show="subjectError" class="mt-1 text-xs text-red-500 dark:text-red-400">Could not load subjects. Please try again.</p>
+                                <p x-cloak x-show="!isLoadingSubjects && !subjectError && selectedClass && subjects.length === 0" class="mt-1 text-xs text-amber-600 dark:text-amber-400">No subjects found for the selected class.</p>
+                                <p class="mt-1 text-xs text-gray-500 dark:text-gray-400">Choose a class to load available subjects.</p>
                             </div>
                         </div>
 
@@ -181,34 +186,169 @@
     </div>
 
     <script>
-        function paperForm({ initialClass, initialSubject, endpoint }) {
+        function paperForm({
+            initialBoard,
+            initialClass,
+            initialSubject,
+            classEndpoint,
+            subjectEndpoint,
+        }) {
+            const normalize = (value) => (value !== null && value !== undefined && value !== '' ? String(value) : '');
+            const ensureArray = (value) => (Array.isArray(value) ? value : []);
+            const toKey = (value) => (value !== null && value !== undefined ? String(value) : '');
+
+            const normalizedBoard = normalize(initialBoard);
+            const normalizedClass = normalize(initialClass);
+            const normalizedSubject = normalize(initialSubject);
+
             return {
-                endpoint,
+                classEndpoint,
+                subjectEndpoint,
+                selectedBoard: normalizedBoard,
+                selectedClass: normalizedClass,
+                selectedSubject: normalizedSubject,
+                classes: [],
                 subjects: [],
-                selectedClass: initialClass || '',
-                selectedSubject: initialSubject || '',
-                loading: false,
-                error: false,
+                isLoadingClasses: false,
+                isLoadingSubjects: false,
+                classError: false,
+                subjectError: false,
+                storedInitialClass: normalizedClass || null,
+                storedInitialSubject: normalizedSubject || null,
                 async init() {
-                    if (this.selectedClass) {
-                        await this.fetchSubjects();
-                        if (this.selectedSubject && !this.subjects.find(s => String(s.id) === String(this.selectedSubject))) {
-                            this.selectedSubject = '';
-                        }
+                    if (this.selectedBoard) {
+                        await this.fetchClasses(true);
                     }
                 },
-                async fetchSubjects() {
-                    this.loading = true; this.error = false;
-                    this.subjects = []; this.selectedSubject = '';
-                    if (!this.selectedClass) { this.loading = false; return; }
+                async fetchClasses(isInitial = false) {
+                    if (!isInitial) {
+                        this.storedInitialClass = null;
+                        this.storedInitialSubject = null;
+                    }
+
+                    this.subjectError = false;
+                    this.subjects = [];
+                    this.selectedSubject = '';
+
+                    const boardId = toKey(this.selectedBoard);
+
+                    if (!boardId) {
+                        this.classes = [];
+                        this.selectedClass = '';
+                        this.isLoadingClasses = false;
+                        this.classError = false;
+                        return;
+                    }
+
+                    this.isLoadingClasses = true;
+                    this.classError = false;
+
                     try {
-                        const res = await fetch(`${this.endpoint}/${this.selectedClass}`, { headers: { 'Accept': 'application/json' } });
-                        if (!res.ok) throw new Error('Network response was not ok');
-                        const data = await res.json();
+                         // 💡 CHANGE 2: Replace the placeholder with the actual board ID
+                        const url = this.classEndpoint.replace('_BOARD_ID_', boardId);
+                       
+                        const response = await fetch(url, {
+                            headers: {
+                                'Accept': 'application/json',
+                                'X-Requested-With': 'XMLHttpRequest',
+                            },
+                            credentials: 'same-origin',
+                        });
+
+                        if (!response.ok) {
+                            throw new Error('Failed to load classes');
+                        }
+
+                        const data = await response.json();
+                        this.classes = Array.isArray(data)
+                            ? data.map(item => ({ id: item.id, name: item.name }))
+                            : [];
+                        this.classError = this.classes.length === 0;
+                    } catch (error) {
+                        console.error(error);
+                        this.classes = [];
+                        this.classError = true;
+                    } finally {
+                        this.isLoadingClasses = false;
+                    }
+
+                    const finalizeSelection = async () => {
+                        let chosenClass = null;
+
+                        if (isInitial) {
+                            if (
+                                this.storedInitialClass &&
+                                this.classes.some(cls => toKey(cls.id) === this.storedInitialClass)
+                            ) {
+                                chosenClass = this.storedInitialClass;
+                            } else if (this.classes.length === 1) {
+                                chosenClass = toKey(this.classes[0].id);
+                            }
+                        }
+
+                        this.selectedClass = chosenClass || '';
+
+                        if (this.selectedClass) {
+                            await this.fetchSubjects(isInitial);
+                        } else {
+                            this.subjects = [];
+                            this.selectedSubject = '';
+                        }
+                    };
+                    await finalizeSelection();
+                },
+                async fetchSubjects(isInitial = false) {
+                    this.isLoadingSubjects = true;
+                    this.subjectError = false;
+
+                    if (!isInitial) {
+                        this.storedInitialSubject = null;
+                    }
+
+                    this.subjects = [];
+
+                    const classId = toKey(this.selectedClass);
+
+                    if (!classId) {
+                        this.isLoadingSubjects = false;
+                        this.selectedSubject = '';
+                        return;
+                    }
+
+                    try {
+                        // 💡 CHANGE 3: Replace the placeholder with the actual class ID
+                        const url = this.subjectEndpoint.replace('_CLASS_ID_', classId);
+                        
+                        const response = await fetch(url, {
+                            headers: {
+                                'Accept': 'application/json',
+                                'X-Requested-With': 'XMLHttpRequest',
+                            },
+                            credentials: 'same-origin',
+                        });
+                        if (!response.ok) {
+                            throw new Error('Failed to load subjects');
+                        }
+
+                        const data = await response.json();
                         this.subjects = Array.isArray(data) ? data : [];
-                    } catch (e) { this.error = true; } finally { this.loading = false; }
-                }
-            }
+
+                        if (
+                            isInitial &&
+                            this.storedInitialSubject &&
+                            this.subjects.some(sub => toKey(sub.id) === this.storedInitialSubject)
+                        ) {
+                            this.selectedSubject = this.storedInitialSubject;
+                        } else if (!this.subjects.some(sub => toKey(sub.id) === this.selectedSubject)) {
+                            this.selectedSubject = '';
+                        }
+                    } catch (error) {
+                        this.subjectError = true;
+                    } finally {
+                        this.isLoadingSubjects = false;
+                    }
+                },
+            };
         }
     </script>
 </x-app-layout>

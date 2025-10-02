@@ -39,6 +39,33 @@
             ]
         },
         {
+            "total_marks": 20,
+            "name_template": "HSC {subject_name} Pattern - {total_marks}",
+            "sections": [
+                {
+                    "name": "Section A (Objective)",
+                    "instructions": "All questions compulsory.",
+                    "rules": [
+                        { "question_type": "mcq", "marks_per_question": 1, "number_of_questions_to_select": 4, "total_questions_to_display": 4 }
+                    ]
+                },
+                {
+                    "name": "Section B (VSA/SA)",
+                    "instructions": "Answer any 5.",
+                    "rules": [
+                        { "question_type": "short", "marks_per_question": 2, "number_of_questions_to_select": 5, "total_questions_to_display": 7 }
+                    ]
+                },
+                {
+                    "name": "Section C",
+                    "instructions": "Answer any 2.",
+                    "rules": [
+                        { "question_type": "short", "marks_per_question": 3, "number_of_questions_to_select": 2, "total_questions_to_display": 2}
+                    ]
+                }
+            ]
+        },
+        {
             "total_marks": 70,
             "name_template": "HSC {subject_name} Pattern - {total_marks}",
             "sections": [

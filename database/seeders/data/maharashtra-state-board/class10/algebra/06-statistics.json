@@ -4,20 +4,23 @@
     "text": "Which measure of central tendency is least affected by extreme values?",
     "options": ["Mean", "Median", "Mode", "All are equally affected"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Median is the middle value of a dataset, so it is not influenced by unusually large or small values (outliers). The Mean, however, can be significantly skewed by them. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "The class mark (midpoint) of the class 10–20 is:",
+    "text": "The class mark (midpoint) of the class $10–20$ is:",
     "options": ["10", "15", "20", "30"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The class mark is the average of the upper and lower class limits. Class Mark $= \\frac{10 + 20}{2} = 15$. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "In exclusive-type class intervals like 0–10, 10–20, 20–30, the upper limit is:",
+    "text": "In exclusive-type class intervals like $0–10, 10–20, 20–30$, the upper limit is:",
     "options": ["Included", "Excluded", "Sometimes included", "Always included if frequency is zero"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> In the exclusive method, the upper limit of a class interval is excluded from that class and is included in the next higher class. For example, the value 10 would be in the class 10-20, not 0-10. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
@@ -25,6 +28,7 @@
     "text": "In a histogram, the bars for adjacent classes are:",
     "options": ["Separated by gaps", "Touching each other", "Drawn as lines only", "Always of unequal widths"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> A histogram is used to represent continuous data, so there are no gaps between the bars representing adjacent class intervals. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
@@ -32,6 +36,7 @@
     "text": "The point of intersection of the 'less than' and 'more than' ogives gives:",
     "options": ["Mean", "Median", "Mode", "Range"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The x-coordinate of the point where the 'less than' type and 'more than' type ogive curves intersect gives the median of the grouped data. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
@@ -39,13 +44,15 @@
     "text": "For grouped data, the total number of observations N equals:",
     "options": ["Sum of class marks", "Sum of all class limits", "Sum of all frequencies", "Product of midpoints"],
     "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The total number of observations, denoted by $N$, is the sum of all the frequencies in the distribution ($N = \\Sigma f_i$). The correct option is <b>C</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "If class width is 5 and the class is 15–20, the class mark is:",
+    "text": "If class width is 5 and the class is $15–20$, the class mark is:",
     "options": ["16", "17.5", "18", "20"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Class mark $= \\frac{\\text{Lower Limit} + \\text{Upper Limit}}{2} = \\frac{15 + 20}{2} = \\frac{35}{2} = 17.5$. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
@@ -53,125 +60,23 @@
     "text": "Cumulative frequency of a class is:",
     "options": ["Frequency of that class only", "Sum of frequencies up to and including that class", "Sum of all class marks", "Difference of successive frequencies"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The cumulative frequency of a class is calculated by adding the frequency of that class to the frequencies of all the classes preceding it. The correct option is <b>B</b>.",
     "marks": 1
-  },
-
-  {
-    "type": "true_false",
-    "text": "In inclusive type, consecutive classes have overlapping limits.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "In exclusive type, the upper class limit is excluded from the class.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "Mode is the most frequently occurring value.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "The arithmetic mean of 2, 3, 7 is 4.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "An ogive is a bar graph of frequencies.",
-    "answer": "False",
-    "marks": 1
-  },
-
-  {
-    "type": "short",
-    "text": "Make a frequency table (with tally) for the data: 2, 5, 5, 6, 7, 2, 2, 4, 5, 6.",
-    "answer": "Step 1: List distinct values in ascending order: 2, 4, 5, 6, 7.\nStep 2: Tally and count.\nValue | Tally     | Frequency\n2     | |||       | 3\n4     | |         | 1\n5     | |||       | 3\n6     | ||        | 2\n7     | |         | 1\nTotal N = 3+1+3+2+1 = 10.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the mean of 8, 12, 15, 9, 6.",
-    "answer": "Sum = 8+12+15+9+6 = 50. Count n = 5. Mean = 50/5 = 10.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Complete the cumulative frequency (cf) column.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     3,     5,      7,      5",
-    "answer": "Compute cf by running totals.\nClass  f  cf\n0–10   3  3\n10–20  5  3+5 = 8\n20–30  7  8+7 = 15\n30–40  5  15+5 = 20\nTotal N = 20.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Identify the modal class for the table.\nClass: 10–20, 20–30, 30–40, 40–50\nf:     6,      9,      14,     11",
-    "answer": "Modal class is the class with highest frequency. Max f = 14 at class 30–40. So modal class = 30–40.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the class marks (midpoints) for classes 0–10, 10–20, 20–30.",
-    "answer": "Class mark = (lower + upper)/2.\n0–10: (0+10)/2 = 5\n10–20: (10+20)/2 = 15\n20–30: (20+30)/2 = 25.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find the median class for the table and justify.\nClass: 10–20, 20–30, 30–40\nf:     4,       7,      5",
-    "answer": "Compute N and cf.\nClass  f  cf\n10–20  4  4\n20–30  7  11\n30–40  5  16\nN = 16, N/2 = 8. The class where cf ≥ 8 first is 20–30. So median class = 20–30.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Compute the mean (grouped data, direct method).\nClass: 0–10, 10–20, 20–30\nf:     2,     3,      5",
-    "answer": "Step 1: Midpoints x: 5, 15, 25.\nStep 2: fx: 2×5=10, 3×15=45, 5×25=125.\nSum f = 2+3+5 = 10, Sum fx = 10+45+125 = 180.\nMean = (Σfx)/(Σf) = 180/10 = 18.",
-    "marks": 2
-  },
-
-  {
-    "type": "long",
-    "text": "Find the mean by the assumed mean method.\nClass: 10–20, 20–30, 30–40, 40–50\nf:     5,      8,      12,     5",
-    "answer": "Step 1: Midpoints x: 15, 25, 35, 45. Choose assumed mean a = 35; class width h = 10.\nStep 2: d = (x − a)/h: for x=15 ⇒ d=-2; 25 ⇒ -1; 35 ⇒ 0; 45 ⇒ 1.\nStep 3: Compute f·d: 5(-2)=-10; 8(-1)=-8; 12(0)=0; 5(1)=5. Σf=30; Σ(fd)=-13.\nStep 4: Mean = a + h·[Σ(fd)/Σf] = 35 + 10( -13/30 ) = 35 − 4.333... = 30.667 (approx).",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Find the median for the grouped data.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     5,     9,      12,     8",
-    "answer": "Step 1: Compute cf.\nClass  f  cf\n0–10   5   5\n10–20  9   14\n20–30  12  26\n30–40  8   34\nN = 34, N/2 = 17.\nStep 2: Median class: first cf ≥ 17 is 20–30.\nParameters: L=20, h=10, f=12, cf_prev=14.\nStep 3: Median = L + [(N/2 − cf_prev)/f] × h = 20 + [(17−14)/12]×10 = 20 + (3/12)×10 = 20 + 2.5 = 22.5.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Find the mode using the grouped-data formula.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     6,     7,      15,     9",
-    "answer": "Modal class = 20–30 (highest f=15).\nLet f1=15, f0=7 (preceding), f2=9 (succeeding), L=20, h=10.\nMode = L + [(f1 − f0)/(2f1 − f0 − f2)] × h\n= 20 + [(15−7)/(30 − 7 − 9)] × 10\n= 20 + [8/14] × 10 = 20 + 5.714 ≈ 25.714.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "The mean of the distribution is 19. Find the missing frequency x.\nClass: 0–10, 10–20, 20–30\nf:     5,     x,      15",
-    "answer": "Midpoints x̄: 5, 15, 25.\nΣf = 5 + x + 15 = x + 20.\nΣfx = 5×5 + x×15 + 15×25 = 25 + 15x + 375 = 400 + 15x.\nMean = (Σfx)/(Σf) = 19 ⇒ (400 + 15x)/(x + 20) = 19.\nSolve: 400 + 15x = 19x + 380 ⇒ 20 = 4x ⇒ x = 5.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "From the 'less than' cumulative frequencies below, find the median.\nLess than 10: 6; Less than 20: 15; Less than 30: 27; Less than 40: 34.",
-    "answer": "Step 1: Convert to class frequencies by difference.\nClasses: 0–10, 10–20, 20–30, 30–40.\nLess-than cf: 6, 15, 27, 34 ⇒ f: 6, (15−6)=9, (27−15)=12, (34−27)=7.\nStep 2: N=34, N/2=17. cf: 6, 15, 27, 34 ⇒ median class = 20–30 (first cf ≥ 17).\nL=20, h=10, f=12, cf_prev=15.\nMedian = 20 + [(17−15)/12]×10 = 20 + (2/12)×10 = 20 + 1.667 = 21.667.",
-    "marks": 4
   },
   {
     "type": "mcq",
     "text": "For ungrouped data, mean is computed as:",
     "options": ["Sum of values / number of values", "Middle value", "Most frequent value", "Largest value"],
     "correct_answer": "A",
+    "answer": "<b>Explanation:</b> The arithmetic mean (or average) for ungrouped data is calculated by summing all the values and dividing by the total number of values. The correct option is <b>A</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Class width for 25–35 is:",
+    "text": "Class width for $25–35$ is:",
     "options": ["5", "10", "15", "Cannot be found"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The class width (or size) is the difference between the upper and lower class limits. Width $= 35 - 25 = 10$. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
@@ -179,6 +84,7 @@
     "text": "'Less than' ogive generally:",
     "options": ["Slopes upward", "Slopes downward", "Is horizontal", "Is vertical"],
     "correct_answer": "A",
+    "answer": "<b>Explanation:</b> A 'less than' type ogive is a cumulative frequency curve that always slopes upwards from left to right because the cumulative frequency increases with each class. The correct option is <b>A</b>.",
     "marks": 1
   },
   {
@@ -186,6 +92,7 @@
     "text": "Modal class is the class with:",
     "options": ["Smallest width", "Largest midpoint", "Highest frequency", "Lowest frequency"],
     "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The modal class in a grouped frequency distribution is the class interval that has the highest frequency. The correct option is <b>C</b>.",
     "marks": 1
   },
   {
@@ -193,6 +100,7 @@
     "text": "Assumed-mean method is useful when:",
     "options": ["All classes have width 1", "Frequencies are all equal", "Class midpoints are large/awkward numbers", "Only ungrouped data is given"],
     "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The assumed-mean or step-deviation method simplifies calculations for the mean when the class midpoints ($x_i$) and frequencies ($f_i$) are large numerical values. The correct option is <b>C</b>.",
     "marks": 1
   },
   {
@@ -200,124 +108,177 @@
     "text": "If all observations are increased by 5, the mean:",
     "options": ["Decreases by 5", "Increases by 5", "Doubles", "Halves"],
     "correct_answer": "B",
+    "answer": "<b>Explanation:</b> If every observation in a dataset is increased by a constant value 'k', the mean of the new dataset will also increase by 'k'. The correct option is <b>B</b>.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "For classes 0–10, 10–20, 20–30 with f = 4, 6, 10, N equals:",
+    "text": "For classes $0–10, 10–20, 20–30$ with $f = 4, 6, 10$, N equals:",
     "options": ["10", "14", "16", "20"],
     "correct_answer": "D",
+    "answer": "<b>Explanation:</b> The total number of observations, $N$, is the sum of all frequencies. $N = \\Sigma f = 4 + 6 + 10 = 20$. The correct option is <b>D</b>.",
     "marks": 1
   },
-
+  {
+    "type": "true_false",
+    "text": "In inclusive type, consecutive classes have overlapping limits.",
+    "answer": "<b>False</b><br><b>Reason:</b> In inclusive type classes (e.g., 1-10, 11-20), there is a gap between the upper limit of one class and the lower limit of the next. Exclusive classes have overlapping limits (e.g., 0-10, 10-20).",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In exclusive type, the upper class limit is excluded from the class.",
+    "answer": "<b>True</b><br><b>Reason:</b> For a class like 10-20, the value 20 is included in the next class interval (20-30), not in the 10-20 class.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Mode is the most frequently occurring value.",
+    "answer": "<b>True</b><br><b>Reason:</b> The mode of a dataset is the value that appears most often in the set.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The arithmetic mean of $2, 3, 7$ is $4$.",
+    "answer": "<b>True</b><br><b>Reason:</b> Mean $= \\frac{2 + 3 + 7}{3} = \\frac{12}{3} = 4$.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "An ogive is a bar graph of frequencies.",
+    "answer": "<b>False</b><br><b>Reason:</b> An ogive is a cumulative frequency curve, which is a line graph. A histogram is a bar graph of frequencies.",
+    "marks": 1
+  },
   {
     "type": "true_false",
     "text": "For any ungrouped dataset, the sum of deviations from the mean is zero.",
-    "answer": "True",
+    "answer": "<b>True</b><br><b>Reason:</b> This is a fundamental property of the arithmetic mean. The sum of the differences of each value from the mean, $\\Sigma(x_i - \\bar{x})$, is always zero.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "In a histogram, all rectangles must have equal widths if class widths are equal.",
-    "answer": "True",
+    "answer": "<b>True</b><br><b>Reason:</b> The width of each bar in a histogram corresponds to the class width of the interval it represents.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "'More than' ogive is typically decreasing.",
-    "answer": "True",
+    "answer": "<b>True</b><br><b>Reason:</b> A 'more than' type ogive slopes downwards from left to right because the cumulative frequency decreases with each class.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "Median always equals mean for every dataset.",
-    "answer": "False",
+    "answer": "<b>False</b><br><b>Reason:</b> The mean and median are equal only for perfectly symmetrical distributions. For skewed data, they are different.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "If a distribution is symmetric, mean = median = mode.",
-    "answer": "True",
+    "answer": "<b>True</b><br><b>Reason:</b> In a perfectly symmetric and unimodal distribution, the three measures of central tendency coincide at the center of the distribution.",
     "marks": 1
   },
-
   {
     "type": "short",
-    "text": "Compute the mean (grouped, direct method).\nClass: 0–5, 5–10, 10–15, 15–20\nf:     3,    7,     5,      5",
-    "answer": "Midpoints x: 2.5, 7.5, 12.5, 17.5.\nfx: 3×2.5=7.5; 7×7.5=52.5; 5×12.5=62.5; 5×17.5=87.5.\nΣf=20; Σfx=210. Mean = 210/20 = 10.5.",
+    "text": "Make a frequency table (with tally) for the data: $2, 5, 5, 6, 7, 2, 2, 4, 5, 6$.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Value</th><th style='padding: 8px;'>Tally Marks</th><th style='padding: 8px;'>Frequency ($f$)</th></tr><tr><td style='padding: 8px;'>2</td><td style='padding: 8px;'>|||</td><td style='padding: 8px;'>3</td></tr><tr><td style='padding: 8px;'>4</td><td style='padding: 8px;'>|</td><td style='padding: 8px;'>1</td></tr><tr><td style='padding: 8px;'>5</td><td style='padding: 8px;'>|||</td><td style='padding: 8px;'>3</td></tr><tr><td style='padding: 8px;'>6</td><td style='padding: 8px;'>||</td><td style='padding: 8px;'>2</td></tr><tr><td style='padding: 8px;'>7</td><td style='padding: 8px;'>|</td><td style='padding: 8px;'>1</td></tr><tr><td style='padding: 8px;' colspan='2'><b>Total (N)</b></td><td style='padding: 8px;'><b>10</b></td></tr></table>",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Find the median of 7, 4, 9, 6, 3.",
-    "answer": "Arrange: 3, 4, 6, 7, 9. Middle value = 6. Median = 6.",
+    "text": "Find the mean of $8, 12, 15, 9, 6$.",
+    "answer": "Sum of observations $= 8+12+15+9+6 = 50$.<br>Number of observations $n = 5$.<br>Mean $= \\frac{\\text{Sum}}{\\text{Count}} = \\frac{50}{5} = 10$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Find the mode of 4, 2, 4, 3, 5, 4, 2.",
-    "answer": "Frequencies: 4→3 times; 2→2; 3→1; 5→1. Mode = 4 (most frequent).",
+    "text": "Complete the cumulative frequency (cf) column.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>3</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>7</td><td style='padding: 8px;'>5</td></tr></table>",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>f</th><th style='padding: 8px;'>cf (less than)</th></tr><tr><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>3</td><td style='padding: 8px;'>3</td></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>$3+5 = 8$</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>7</td><td style='padding: 8px;'>$8+7 = 15$</td></tr><tr><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>$15+5 = 20$</td></tr></table><br>Total $N = 20$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Complete the frequency table and N.\nClass: 20–30, 30–40, 40–50, 50–60\nf:     6,      8,      5,      1",
-    "answer": "Just add f to get N.\nClass  f\n20–30  6\n30–40  8\n40–50  5\n50–60  1\nN = 6+8+5+1 = 20.",
+    "text": "Identify the modal class for the table.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>40–50</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>6</td><td style='padding: 8px;'>9</td><td style='padding: 8px;'>14</td><td style='padding: 8px;'>11</td></tr></table>",
+    "answer": "The modal class is the class with the highest frequency. The maximum frequency is $14$, which corresponds to the class interval <b>30–40</b>.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Form the cumulative frequency (less than type).\nClass: 0–10, 10–20, 20–30, 30–40\nf:     4,     9,      11,     6",
-    "answer": "Less-than cf: 4, 4+9=13, 13+11=24, 24+6=30.",
+    "text": "Find the class marks (midpoints) for classes $0–10, 10–20, 20–30$.",
+    "answer": "Class mark $= \\frac{\\text{lower limit} + \\text{upper limit}}{2}$.<br><ul><li>For $0–10$: $\\frac{0+10}{2} = 5$</li><li>For $10–20$: $\\frac{10+20}{2} = 15$</li><li>For $20–30$: $\\frac{20+30}{2} = 25$</li></ul>",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Convert inclusive to exclusive classes: 1–10, 11–20, 21–30 (assume integer data).",
-    "answer": "For integer data, exclusive form can be kept as 1–11, 11–21, 21–31 (or 0.5–10.5, 10.5–20.5, 20.5–30.5 using continuity).",
+    "text": "Find the median class for the table and justify.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>4</td><td style='padding: 8px;'>7</td><td style='padding: 8px;'>5</td></tr></table>",
+    "answer": "<b>Step 1: Compute $N$ and cf.</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>f</th><th style='padding: 8px;'>cf</th></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>4</td><td style='padding: 8px;'>4</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>7</td><td style='padding: 8px;'>11</td></tr><tr><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>16</td></tr></table><br><b>Step 2: Find median class.</b><br>$N = 16$, so $\\frac{N}{2} = 8$. The first class where the cumulative frequency (cf) is greater than or equal to 8 is <b>20–30</b>. So, the median class is 20–30.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Find class width and class mark of 30–45.",
-    "answer": "Width = 45 − 30 = 15. Class mark = (30 + 45)/2 = 37.5.",
+    "text": "Compute the mean (grouped data, direct method).<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>2</td><td style='padding: 8px;'>3</td><td style='padding: 8px;'>5</td></tr></table>",
+    "answer": "<b>Step 1: Find midpoints ($x_i$) and $f_i x_i$.</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>$f_i$</th><th style='padding: 8px;'>$x_i$</th><th style='padding: 8px;'>$f_i x_i$</th></tr><tr><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>2</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>10</td></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>3</td><td style='padding: 8px;'>15</td><td style='padding: 8px;'>45</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>25</td><td style='padding: 8px;'>125</td></tr><tr><td style='padding: 8px;'><b>Total</b></td><td style='padding: 8px;'><b>10</b></td><td style='padding: 8px;'></td><td style='padding: 8px;'><b>180</b></td></tr></table><br><b>Step 2: Calculate Mean.</b><br>Mean $\\bar{x} = \\frac{\\Sigma f_i x_i}{\\Sigma f_i} = \\frac{180}{10} = 18$.",
     "marks": 2
   },
-  {
-    "type": "short",
-    "text": "Mean by step-deviation (quick):\nClass: 10–20, 20–30, 30–40\nf:     2,      5,      3",
-    "answer": "Midpoints x: 15, 25, 35. Take a=25, h=10.\nd=(x−a)/h: -1, 0, 1.\nfd: 2(-1)=-2; 5(0)=0; 3(1)=3 ⇒ Σfd=1; Σf=10.\nMean = a + h(Σfd/Σf) = 25 + 10(1/10) = 26.",
-    "marks": 2
-  },
-
   {
     "type": "long",
-    "text": "Find mean and median (grouped).\nClass: 0–10, 10–20, 20–30, 30–40\nf:     5,     7,      10,     8",
-    "answer": "Mean (direct): x: 5,15,25,35; fx: 25,105,250,280; Σfx=660; Σf=30 ⇒ Mean=660/30=22.\nMedian: cf: 5,12,22,30; N=30; N/2=15. Median class=20–30.\nMedian = L + [(N/2 − cf_prev)/f]×h = 20 + [(15−12)/10]×10 = 20 + 3 = 23.",
+    "text": "Find the mean by the assumed mean method.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>40–50</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>5</td><td style='padding: 8px;'>8</td><td style='padding: 8px;'>12</td><td style='padding: 8px;'>5</td></tr></table>",
+    "answer": "<b>Step 1: Choose assumed mean ($a$) and find deviations ($d_i$).</b><br>Let assumed mean $a = 35$. Midpoints $x_i$: 15, 25, 35, 45.<br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>$f_i$</th><th style='padding: 8px;'>$x_i$</th><th style='padding: 8px;'>$d_i = x_i - a$</th><th style='padding: 8px;'>$f_i d_i$</th></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>15</td><td style='padding: 8px;'>-20</td><td style='padding: 8px;'>-100</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>8</td><td style='padding: 8px;'>25</td><td style='padding: 8px;'>-10</td><td style='padding: 8px;'>-80</td></tr><tr><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>12</td><td style='padding: 8px;'>35</td><td style='padding: 8px;'>0</td><td style='padding: 8px;'>0</td></tr><tr><td style='padding: 8px;'>40–50</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>45</td><td style='padding: 8px;'>10</td><td style='padding: 8px;'>50</td></tr><tr><td style='padding: 8px;'><b>Total</b></td><td style='padding: 8px;'><b>30</b></td><td style='padding: 8px;'></td><td style='padding: 8px;'></td><td style='padding: 8px;'><b>-130</b></td></tr></table><br><b>Step 2: Calculate Mean.</b><br>$\\bar{d} = \\frac{\\Sigma f_i d_i}{\\Sigma f_i} = \\frac{-130}{30} \\approx -4.33$.<br>Mean $\\bar{x} = a + \\bar{d} = 35 - 4.33 = 30.67$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Verify the empirical relation Mode ≈ 3Median − 2Mean for the data.\nClass: 10–20, 20–30, 30–40, 40–50\nf:     4,      9,      12,     5",
-    "answer": "Mean: x:15,25,35,45; fx:60,225,420,225; Σfx=930; Σf=30 ⇒ Mean=31.\nMedian: cf:4,13,25,30; N/2=15 ⇒ median class=30–40.\nMedian = 30 + [(15−13)/12]×10 = 30 + (2/12)×10 = 31.667.\nMode (grouped): Modal class=30–40; f1=12, f0=9, f2=5, L=30, h=10.\nMode = 30 + [(12−9)/(2·12 − 9 − 5)]×10 = 30 + (3/10)×10 = 33.\nCheck: 3Median − 2Mean = 3(31.667) − 2(31) = 95.001 − 62 = 33.001 ≈ 33 (close).",
+    "text": "Find the median for the grouped data.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>5</td><td style='padding: 8px;'>9</td><td style='padding: 8px;'>12</td><td style='padding: 8px;'>8</td></tr></table>",
+    "answer": "<b>Step 1: Compute cf and find Median Class.</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>f</th><th style='padding: 8px;'>cf</th></tr><tr><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>5</td></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>9</td><td style='padding: 8px;'>14</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>12</td><td style='padding: 8px;'>26</td></tr><tr><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>8</td><td style='padding: 8px;'>34</td></tr></table>$N = 34$, so $\\frac{N}{2} = 17$. Median class is <b>20–30</b>.<br><br><b>Step 2: Apply the Median formula.</b><br>Median $= L + [\\frac{\\frac{N}{2} - cf_{prev}}{f}] \\times h$<br>$L=20, h=10, f=12, cf_{prev}=14$.<br>Median $= 20 + [\\frac{17 - 14}{12}] \\times 10 = 20 + \\frac{3}{12} \\times 10 = 20 + 2.5 = 22.5$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Find missing frequencies a and b if N=40 and mean = 22.\nClass: 0–10, 10–20, 20–30, 30–40\nf:     6,      a,      b,      8",
-    "answer": "Σf = 6 + a + b + 8 = 14 + a + b = 40 ⇒ a + b = 26. (1)\nMidpoints x: 5,15,25,35.\nΣfx = 6·5 + a·15 + b·25 + 8·35 = 30 + 15a + 25b + 280 = 310 + 15a + 25b.\nMean = 22 ⇒ (310 + 15a + 25b)/40 = 22 ⇒ 310 + 15a + 25b = 880 ⇒ 15a + 25b = 570.\nDivide by 5: 3a + 5b = 114. (2)\nFrom (1): a = 26 − b. Substitute: 3(26 − b) + 5b = 114 ⇒ 78 − 3b + 5b = 114 ⇒ 2b = 36 ⇒ b = 18 ⇒ a = 8.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Combined mean of two groups: Group A (n1=18) has mean 24; Group B (n2=22) has mean 28. Find combined mean.",
-    "answer": "Combined mean = (n1·x̄1 + n2·x̄2)/(n1+n2) = (18·24 + 22·28)/40 = (432 + 616)/40 = 1048/40 = 26.2.",
+    "text": "Find the mode using the grouped-data formula.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>6</td><td style='padding: 8px;'>7</td><td style='padding: 8px;'>15</td><td style='padding: 8px;'>9</td></tr></table>",
+    "answer": "<b>Step 1: Identify Modal Class and parameters.</b><br>Modal class = 20–30 (highest $f=15$).<br>$L=20, h=10, f_1=15, f_0=7, f_2=9$.<br><br><b>Step 2: Apply the Mode formula.</b><br>Mode $= L + [\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}] \\times h$<br>Mode $= 20 + [\\frac{15 - 7}{2(15) - 7 - 9}] \\times 10 = 20 + [\\frac{8}{30 - 16}] \\times 10$<br>Mode $= 20 + \\frac{8}{14} \\times 10 \\approx 20 + 5.71 = 25.71$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Find the mode (grouped) using formula.\nClass: 5–15, 15–25, 25–35, 35–45\nf:     5,      11,     17,     9",
-    "answer": "Modal class = 25–35 (highest f=17). L=25, h=10, f1=17, f0=11, f2=9.\nMode = L + [(f1 − f0)/(2f1 − f0 − f2)]×h = 25 + [(17−11)/(34−11−9)]×10 = 25 + (6/14)×10 = 25 + 4.286 ≈ 29.286.",
+    "text": "The mean of the distribution is 19. Find the missing frequency $x$.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>5</td><td style='padding: 8px;'>$x$</td><td style='padding: 8px;'>15</td></tr></table>",
+    "answer": "<b>Step 1: Prepare the table with midpoints and $fx$.</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>$f_i$</th><th style='padding: 8px;'>$x_i$</th><th style='padding: 8px;'>$f_i x_i$</th></tr><tr><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>25</td></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>$x$</td><td style='padding: 8px;'>15</td><td style='padding: 8px;'>$15x$</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>15</td><td style='padding: 8px;'>25</td><td style='padding: 8px;'>375</td></tr><tr><td style='padding: 8px;'><b>Total</b></td><td style='padding: 8px;'><b>$20+x$</b></td><td style='padding: 8px;'></td><td style='padding: 8px;'><b>$400+15x$</b></td></tr></table><br><b>Step 2: Use the Mean formula.</b><br>Mean $= \\frac{\\Sigma f_i x_i}{\\Sigma f_i} = 19$<br>$\\frac{400 + 15x}{20 + x} = 19$<br>$400 + 15x = 19(20 + x) = 380 + 19x$<br>$400 - 380 = 19x - 15x$<br>$20 = 4x \\implies x = 5$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "From the 'less than' cumulative frequencies below, find the median.<br>Less than 10: 6; Less than 20: 15; Less than 30: 27; Less than 40: 34.",
+    "answer": "<b>Step 1: Convert to a frequency table.</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>f</th><th style='padding: 8px;'>cf</th></tr><tr><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>6</td><td style='padding: 8px;'>6</td></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>$15-6=9$</td><td style='padding: 8px;'>15</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>$27-15=12$</td><td style='padding: 8px;'>27</td></tr><tr><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>$34-27=7$</td><td style='padding: 8px;'>34</td></tr></table><br><b>Step 2: Find median class and apply formula.</b><br>$N=34, \\frac{N}{2}=17$. Median class = 20–30.<br>$L=20, h=10, f=12, cf_{prev}=15$.<br>Median $= 20 + [\\frac{17-15}{12}] \\times 10 = 20 + \\frac{20}{12} \\approx 20 + 1.67 = 21.67$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find mean and median (grouped).<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>5</td><td style='padding: 8px;'>7</td><td style='padding: 8px;'>10</td><td style='padding: 8px;'>8</td></tr></table>",
+    "answer": "<b>Mean (Direct Method):</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><th style='padding: 8px;'>f</th><th style='padding: 8px;'>x</th><th style='padding: 8px;'>fx</th></tr><tr><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>5</td><td style='padding: 8px;'>25</td></tr><tr><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>7</td><td style='padding: 8px;'>15</td><td style='padding: 8px;'>105</td></tr><tr><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>10</td><td style='padding: 8px;'>25</td><td style='padding: 8px;'>250</td></tr><tr><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>8</td><td style='padding: 8px;'>35</td><td style='padding: 8px;'>280</td></tr><tr><td style='padding: 8px;'><b>Total</b></td><td style='padding: 8px;'><b>30</b></td><td style='padding: 8px;'></td><td style='padding: 8px;'><b>660</b></td></tr></table>Mean $= \\frac{660}{30} = 22$.<br><br><b>Median:</b><br>cf: 5, 12, 22, 30. $N=30, \\frac{N}{2}=15$. Median class=20–30.<br>Median $= 20 + [\\frac{15-12}{10}] \\times 10 = 20 + 3 = 23$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Verify the empirical relation Mode $\\approx 3 \\times$ Median $- 2 \\times$ Mean for the data.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td><td style='padding: 8px;'>40–50</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>4</td><td style='padding: 8px;'>9</td><td style='padding: 8px;'>12</td><td style='padding: 8px;'>5</td></tr></table>",
+    "answer": "<b>Mean:</b> $x_i$: 15, 25, 35, 45; $\\Sigma f_i=30$; $\\Sigma f_i x_i=930 \\implies$ Mean = 31.<br><b>Median:</b> cf: 4, 13, 25, 30; $N/2=15$; median class=30–40. Median $= 30 + [\\frac{15-13}{12}] \\times 10 \\approx 31.67$.<br><b>Mode:</b> Modal class=30–40. Mode $= 30 + [\\frac{12-9}{2(12)-9-5}] \\times 10 = 30 + \\frac{30}{10} = 33$.<br><br><b>Verification:</b><br>$3 \\times$ Median $- 2 \\times$ Mean $= 3 \\times 31.67 - 2 \\times 31 = 95.01 - 62 = 33.01$.<br>This is approximately equal to the calculated Mode (33). The relation is verified.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find missing frequencies $a$ and $b$ if $N=40$ and mean = $22$.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>0–10</td><td style='padding: 8px;'>10–20</td><td style='padding: 8px;'>20–30</td><td style='padding: 8px;'>30–40</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>6</td><td style='padding: 8px;'>$a$</td><td style='padding: 8px;'>$b$</td><td style='padding: 8px;'>8</td></tr></table>",
+    "answer": "<b>Equation 1 (from N):</b><br>$6 + a + b + 8 = 40 \\implies 14 + a + b = 40 \\implies a + b = 26$. (1)<br><br><b>Equation 2 (from Mean):</b><br>Midpoints $x_i$: 5, 15, 25, 35.<br>$\\Sigma f_i x_i = 6(5) + a(15) + b(25) + 8(35) = 30 + 15a + 25b + 280 = 310 + 15a + 25b$.<br>Mean $= \\frac{310 + 15a + 25b}{40} = 22 \\implies 310 + 15a + 25b = 880 \\implies 15a + 25b = 570$.<br>Dividing by 5: $3a + 5b = 114$. (2)<br><br><b>Solving (1) and (2):</b><br>From (1), $a = 26 - b$. Substitute in (2):<br>$3(26 - b) + 5b = 114 \\implies 78 - 3b + 5b = 114 \\implies 2b = 36 \\implies b = 18$.<br>Then $a = 26 - 18 = 8$.<br><br><b>Solution: $a = 8, b = 18$.</b>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Combined mean of two groups: Group A ($n_1=18$) has mean $\\bar{x}_1 = 24$; Group B ($n_2=22$) has mean $\\bar{x}_2 = 28$. Find combined mean.",
+    "answer": "<b>Formula for Combined Mean:</b><br>$\\bar{x}_{comb} = \\frac{n_1\\bar{x}_1 + n_2\\bar{x}_2}{n_1+n_2}$<br><br><b>Calculation:</b><br>$\\bar{x}_{comb} = \\frac{(18 \\times 24) + (22 \\times 28)}{18+22} = \\frac{432 + 616}{40} = \\frac{1048}{40} = 26.2$.<br><br><b>The combined mean is 26.2.</b>",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the mode (grouped) using formula.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th style='padding: 8px;'>Class</th><td style='padding: 8px;'>5–15</td><td style='padding: 8px;'>15–25</td><td style='padding: 8px;'>25–35</td><td style='padding: 8px;'>35–45</td></tr><tr><th style='padding: 8px;'>f</th><td style='padding: 8px;'>5</td><td style='padding: 8px;'>11</td><td style='padding: 8px;'>17</td><td style='padding: 8px;'>9</td></tr></table>",
+    "answer": "<b>Step 1: Identify Modal Class and parameters.</b><br>Modal class = 25–35 (highest $f=17$).<br>$L=25, h=10, f_1=17, f_0=11, f_2=9$.<br><br><b>Step 2: Apply the Mode formula.</b><br>Mode $= L + [\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}] \\times h$<br>Mode $= 25 + [\\frac{17 - 11}{2(17) - 11 - 9}] \\times 10 = 25 + [\\frac{6}{34 - 20}] \\times 10$<br>Mode $= 25 + \\frac{60}{14} \\approx 25 + 4.29 = 29.29$.",
     "marks": 3
   }
 ]

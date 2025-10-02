@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "As you go down Group 1 from lithium to rubidium, the first ionization energy:",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains the same",
+      "(d) first increases then decreases"
+    ],
+    "correct_answer": "b",
+    "answer": "As you go down Group 1, the atomic size increases due to the addition of new electron shells. The outermost electron is further from the nucleus and is shielded by more inner electrons, making it easier to remove. Therefore, the first ionization energy decreases.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds of Group 2 metals is most soluble in water?",
+    "options": [
+      "(a) $BeSO_4$",
+      "(b) $MgSO_4$",
+      "(c) $CaSO_4$",
+      "(d) $BaSO_4$"
+    ],
+    "correct_answer": "a",
+    "answer": "The solubility of Group 2 sulfates decreases down the group. Therefore, $BeSO_4$ is the most soluble.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When steam is passed over heated magnesium, the products are:",
+    "options": [
+      "(a) $MgO$ and $H_2$",
+      "(b) $Mg(OH)_2$ and $H_2$",
+      "(c) $Mg$ and $H_2O$",
+      "(d) $MgO$ and $H_2O$"
+    ],
+    "correct_answer": "a",
+    "answer": "Heated magnesium reacts with steam to form magnesium oxide and hydrogen gas. The balanced equation is $Mg(s) + H_2O(g) \\rightarrow MgO(s) + H_2(g)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following Group 2 carbonates is most thermally stable?",
+    "options": [
+      "(a) $BeCO_3$",
+      "(b) $MgCO_3$",
+      "(c) $CaCO_3$",
+      "(d) $BaCO_3$"
+    ],
+    "correct_answer": "d",
+    "answer": "The thermal stability of Group 2 carbonates increases down the group. This is because the larger cations have a lower charge density and polarize the carbonate ion less, making the compound more stable. Therefore, $BaCO_3$ is the most thermally stable.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ionic equation for the reaction between aqueous barium chloride and sodium sulfate is:",
+    "options": [
+      "(a) $Ba^{2+}(aq) + SO_4^{2-}(aq) \\rightarrow BaSO_4(s)$",
+      "(b) $Ba^{2+}(aq) + 2Cl^-(aq) \\rightarrow BaCl_2(s)$",
+      "(c) $2Na^+(aq) + SO_4^{2-}(aq) \\rightarrow Na_2SO_4(s)$",
+      "(d) $Na^+(aq) + Cl^-(aq) \\rightarrow NaCl(s)$"
+    ],
+    "correct_answer": "a",
+    "answer": "The reaction is $BaCl_2(aq) + Na_2SO_4(aq) \\rightarrow BaSO_4(s) + 2NaCl(aq)$. The spectator ions are $Na^+$ and $Cl^-$. The net ionic equation is $Ba^{2+}(aq) + SO_4^{2-}(aq) \\rightarrow BaSO_4(s)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The solubility of Group 2 hydroxides in water:",
+    "options": [
+      "(a) increases down the group",
+      "(b) decreases down the group",
+      "(c) remains the same",
+      "(d) first increases then decreases"
+    ],
+    "correct_answer": "a",
+    "answer": "The solubility of Group 2 hydroxides increases as you go down the group. For example, $Mg(OH)_2$ is sparingly soluble, while $Ba(OH)_2$ is a strong base and is much more soluble.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following alkali metals reacts most vigorously with water?",
+    "options": [
+      "(a) $Li$",
+      "(b) $Na$",
+      "(c) $K$",
+      "(d) $Cs$"
+    ],
+    "correct_answer": "d",
+    "answer": "The reactivity of alkali metals with water increases down the group. This is because the ionization energy decreases, and the atomic size increases, making it easier for the outermost electron to be lost. Cesium ($Cs$) is the most reactive of the given options.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The anomalous behavior of lithium is due to:",
+    "options": [
+      "(a) its small size",
+      "(b) its high electronegativity",
+      "(c) its high ionization energy",
+      "(d) all of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "Lithium, the first element of Group 1, shows anomalous behavior due to its exceptionally small size, high ionization energy, and high electronegativity compared to other alkali metals.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds is a component of Portland cement?",
+    "options": [
+      "(a) $Ca(OH)_2$",
+      "(b) $CaSO_4$",
+      "(c) $CaO$",
+      "(d) $CaCO_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "Calcium oxide, also known as quicklime, is a major component of Portland cement.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The formula of milk of magnesia is:",
+    "options": [
+      "(a) $MgO$",
+      "(b) $MgCO_3$",
+      "(c) $Mg(OH)_2$",
+      "(d) $MgCl_2$"
+    ],
+    "correct_answer": "c",
+    "answer": "Milk of magnesia is the common name for an aqueous suspension of magnesium hydroxide, $Mg(OH)_2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following Group 2 metals is used in nuclear reactors as a moderator?",
+    "options": [
+      "(a) $Ca$",
+      "(b) $K$",
+      "(c) $Mg$",
+      "(d) $Be$"
+    ],
+    "correct_answer": "d",
+    "answer": "Beryllium is used in nuclear reactors as a moderator to slow down fast-moving neutrons. Beryllium is a Group 2 metal.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is true about the diagonal relationship between lithium and magnesium?",
+    "options": [
+      "(a) Both form monoxides on heating in oxygen.",
+      "(b) Both form nitrides when heated with nitrogen.",
+      "(c) Both form carbides with acetylene.",
+      "(d) Both form stable carbonates that decompose easily."
+    ],
+    "correct_answer": "b",
+    "answer": "Both lithium and magnesium react directly with nitrogen gas to form their respective nitrides, $Li_3N$ and $Mg_3N_2$. This is a property of their diagonal relationship.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The thermal decomposition of $CaCO_3$ gives:",
+    "options": [
+      "(a) $CaO$ and $CO_2$",
+      "(b) $Ca$ and $CO_2$",
+      "(c) $Ca$ and $O_2$",
+      "(d) $Ca$ and $C$"
+    ],
+    "correct_answer": "a",
+    "answer": "When calcium carbonate is heated strongly, it decomposes to form calcium oxide and carbon dioxide gas. The reaction is $CaCO_3(s) \\xrightarrow{\\Delta} CaO(s) + CO_2(g)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following hydroxides is amphoteric?",
+    "options": [
+      "(a) $Be(OH)_2$",
+      "(b) $Mg(OH)_2$",
+      "(c) $Ca(OH)_2$",
+      "(d) $Ba(OH)_2$"
+    ],
+    "correct_answer": "a",
+    "answer": "Beryllium hydroxide, $Be(OH)_2$, is amphoteric. It reacts with both acids and bases. The hydroxides of the other Group 2 elements are basic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct order of increasing thermal stability of the nitrates of Group 2 metals is:",
+    "options": [
+      "(a) $Mg(NO_3)_2 < Ca(NO_3)_2 < Ba(NO_3)_2$",
+      "(b) $Ba(NO_3)_2 < Ca(NO_3)_2 < Mg(NO_3)_2$",
+      "(c) $Mg(NO_3)_2 > Ca(NO_3)_2 > Ba(NO_3)_2$",
+      "(d) $Ca(NO_3)_2 < Mg(NO_3)_2 < Ba(NO_3)_2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The thermal stability of nitrates increases down Group 2 as the cationic size increases and the polarizing power decreases. This makes it harder to decompose the nitrate ion. The correct order is $Mg(NO_3)_2 < Ca(NO_3)_2 < Ba(NO_3)_2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ionic radius of alkali metals down the group:",
+    "options": [
+      "(a) increases",
+      "(b) decreases",
+      "(c) remains the same",
+      "(d) first increases then decreases"
+    ],
+    "correct_answer": "a",
+    "answer": "As you move down Group 1, the number of electron shells increases, leading to a larger ionic radius.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is used for nuclear fusion?",
+    "options": [
+      "(a) Protium",
+      "(b) Deuterium",
+      "(c) Tritium",
+      "(d) Both deuterium and tritium"
+    ],
+    "correct_answer": "d",
+    "answer": "Deuterium and Tritium are the heavy isotopes of hydrogen and are used in nuclear fusion reactions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the formula of hydrolith?",
+    "options": [
+      "(a) $NaH$",
+      "(b) $LiH$",
+      "(c) $MgH_2$",
+      "(d) $CaH_2$"
+    ],
+    "correct_answer": "d",
+    "answer": "Calcium hydride, $CaH_2$, is commonly known as hydrolith and is used as a portable source of hydrogen gas.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hydration energy of alkali metal ions:",
+    "options": [
+      "(a) increases down the group",
+      "(b) decreases down the group",
+      "(c) remains the same",
+      "(d) first increases then decreases"
+    ],
+    "correct_answer": "b",
+    "answer": "Hydration energy is the energy released when one mole of gaseous ions dissolves in a large amount of water. It is inversely proportional to the ionic size. As the ionic size increases down the group, the hydration energy decreases.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements is INCORRECT about Group 2 elements?",
+    "options": [
+      "(a) They are all metals.",
+      "(b) They form basic oxides.",
+      "(c) They are known as alkaline earth metals.",
+      "(d) They have high ionization energies."
+    ],
+    "correct_answer": "d",
+    "answer": "Group 2 elements have relatively low first ionization energies, which decrease down the group, making them highly reactive metals.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electronic configuration of a Group 1 element is:",
+    "options": [
+      "(a) $ns^1$",
+      "(b) $ns^2$",
+      "(c) $ns^2np^1$",
+      "(d) $ns^2np^5$"
+    ],
+    "correct_answer": "a",
+    "answer": "Group 1 elements are alkali metals and have one valence electron in their outermost $s$-orbital. Their general electronic configuration is $ns^1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct balanced equation for the reaction between heated magnesium and steam is:",
+    "options": [
+      "(a) $Mg(s) + H_2O(l) \\rightarrow MgO(s) + H_2(g)$",
+      "(b) $Mg(s) + H_2O(g) \\rightarrow MgO(s) + H_2(g)$",
+      "(c) $Mg(s) + 2H_2O(g) \\rightarrow Mg(OH)_2(aq) + H_2(g)$",
+      "(d) $Mg(s) + 2H_2O(l) \\rightarrow Mg(OH)_2(aq) + H_2(g)$"
+    ],
+    "correct_answer": "b",
+    "answer": "The reaction of heated magnesium with steam (gaseous water) produces solid magnesium oxide and hydrogen gas. The correct balanced equation is $Mg(s) + H_2O(g) \\rightarrow MgO(s) + H_2(g)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a radioactive isotope of hydrogen?",
+    "options": [
+      "(a) Protium",
+      "(b) Deuterium",
+      "(c) Tritium",
+      "(d) All of these"
+    ],
+    "correct_answer": "c",
+    "answer": "Tritium is the radioactive isotope of hydrogen, with a half-life of 12.33 years.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ionic equation for the reaction between magnesium and dilute sulfuric acid is:",
+    "options": [
+      "(a) $Mg(s) + 2H^+(aq) \\rightarrow Mg^{2+}(aq) + H_2(g)$",
+      "(b) $Mg(s) + H_2SO_4(aq) \\rightarrow MgSO_4(aq) + H_2(g)$",
+      "(c) $Mg^{2+}(aq) + SO_4^{2-}(aq) \\rightarrow MgSO_4(s)$",
+      "(d) $2Mg(s) + O_2(g) \\rightarrow 2MgO(s)$"
+    ],
+    "correct_answer": "a",
+    "answer": "Magnesium metal reacts with dilute sulfuric acid to produce magnesium sulfate and hydrogen gas. The full equation is $Mg(s) + H_2SO_4(aq) \\rightarrow MgSO_4(aq) + H_2(g)$. The spectator ion is $SO_4^{2-}$. The net ionic equation is $Mg(s) + 2H^+(aq) \\rightarrow Mg^{2+}(aq) + H_2(g)$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is used in antacids to neutralize excess stomach acid?",
+    "options": [
+      "(a) $LiOH$",
+      "(b) $Mg(OH)_2$",
+      "(c) $KOH$",
+      "(d) $Ca(OH)_2$"
+    ],
+    "correct_answer": "b",
+    "answer": "Magnesium hydroxide, also known as milk of magnesia, is a common antacid used to neutralize excess stomach acid due to its mild basic nature.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The trend in the thermal stability of Group 1 carbonates is:",
+    "options": [
+      "(a) increasing down the group",
+      "(b) decreasing down the group",
+      "(c) remains the same",
+      "(d) first increases then decreases"
+    ],
+    "correct_answer": "a",
+    "answer": "Similar to Group 2, the thermal stability of Group 1 carbonates increases as you go down the group. Only lithium carbonate is significantly unstable to heat, while the others are very stable.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds is the most soluble in water?",
+    "options": [
+      "(a) $Be(OH)_2$",
+      "(b) $Mg(OH)_2$",
+      "(c) $Ca(OH)_2$",
+      "(d) $Ba(OH)_2$"
+    ],
+    "correct_answer": "d",
+    "answer": "The solubility of Group 2 hydroxides increases down the group due to the increase in lattice energy being outweighed by the increase in hydration energy. Therefore, $Ba(OH)_2$ is the most soluble.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The valence electron of which of the following elements requires the least energy to remove?",
+    "options": [
+      "(a) $Li$",
+      "(b) $Na$",
+      "(c) $K$",
+      "(d) $Rb$"
+    ],
+    "correct_answer": "d",
+    "answer": "The energy required to remove the outermost electron is the ionization energy. This property decreases down the group. Therefore, rubidium ($Rb$) has the lowest ionization energy, and its valence electron requires the least energy to remove.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The compound of an element R from Group 1 and an element T from Group 17 will have the formula:",
+    "options": [
+      "(a) $RT$",
+      "(b) $R_2T$",
+      "(c) $RT_2$",
+      "(d) $R_2T_2$"
+    ],
+    "correct_answer": "a",
+    "answer": "Group 1 elements form unipositive ions ($R^+$), and Group 17 elements form uninegative ions ($T^-$). The compound formed will have the formula $RT$ to achieve a neutral charge.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is true about the densities of alkali metals?",
+    "options": [
+      "(a) They are all denser than water.",
+      "(b) They are all less dense than water.",
+      "(c) Their density increases down the group.",
+      "(d) Their density decreases down the group."
+    ],
+    "correct_answer": "c",
+    "answer": "The density of alkali metals generally increases down the group due to the increase in atomic mass being more significant than the increase in atomic volume. Only lithium, sodium, and potassium are less dense than water.",
+    "marks": 1
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "type": "long",
+    "text": "Explain the major types of forests found in India. (Practice Set 5.1)",
+    "answer": "The major types of forests found in India are:\n\n1.  **Tropical Evergreen Forests:** Found in regions with high rainfall (over 200 cm). Trees are tall and dense. Example: Western Ghats, North-Eastern India. Trees: Rosewood, Mahogany, Ebony.\n2.  **Tropical Deciduous Forests:** The most widespread forests, found in regions with 100-200 cm rainfall. Trees shed their leaves during the dry season. Example: Madhya Pradesh, Chhattisgarh. Trees: Teak, Sal, Sandalwood.\n3.  **Thorny and Scrub Forests:** Found in arid regions with less than 70 cm rainfall. Trees and shrubs have long roots and thorns. Example: Rajasthan, Gujarat. Trees: Acacia, Kikar.\n4.  **Mangrove Forests:** Found in coastal and delta regions. Trees are adapted to salty water and have breathing roots. Example: Sunderban Delta. Trees: Sundari.\n5.  **Mountain Forests:** Found in the Himalayan region. Vegetation changes with altitude. Example: Himalayan ranges. Trees: Pine, Fir, Deodar.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Name any two animals found in the Amazon rainforest.",
+    "answer": "Two animals found in the Amazon rainforest are the **Anaconda** and the **Jaguar**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Differentiate between the forests of India and Brazil. (PYQ: March 2020)",
+    "answer": "### **Forests of India**\n* **Types:** India has a variety of forests including Tropical Evergreen, Deciduous, Thorny, Mangrove, and Himalayan forests.\n* **Reason for Variety:** The diversity in forests is due to the varied climate, rainfall, and topography of the country.\n* **Extent:** Forests cover a smaller percentage of the land compared to Brazil.\n\n### **Forests of Brazil**\n* **Types:** Brazil has a great variety of forests, most notably the Tropical Rainforest (Amazon), Deciduous forests, and Savannas.\n* **Reason for Variety:** The vast extent of the country and different climatic zones lead to diverse forest types.\n* **Extent:** Brazil has the largest continuous stretch of rainforest (Amazon) in the world, covering a significant portion of its land.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the name of the most important tree found in mangrove forests?",
+    "answer": "The most important tree found in the mangrove forests is the **Sundari** tree.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following animals is a reptile found in Brazil?",
+    "options": ["Anaconda", "Lion", "Tiger", "Koala"],
+    "correct_answer": "A",
+    "answer": "The Anaconda is a large snake and is a reptile found in Brazil's rainforests. The correct option is **A**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the characteristics of the vegetation in the Amazon river basin. (Practice Set 5.2)",
+    "answer": "The Amazon river basin is home to the world's largest rainforest, also known as the 'lungs of the world'. Its characteristics are:\n\n1.  **High Density:** The vegetation is extremely dense and lush due to high rainfall and temperature.\n2.  **Broad-leaved Trees:** Trees have broad leaves to maximize photosynthesis.\n3.  **High Biodiversity:** The region is home to an incredible variety of plant and animal species.\n4.  **Canopy Layers:** The forests have distinct layers of vegetation, with a dense canopy that prevents sunlight from reaching the forest floor.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Name the two major species of animals found in the grasslands of Brazil.",
+    "answer": "The two major species of animals found in the grasslands of Brazil are **Giant Anteater** and **Maned Wolf**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What are the major threats to wildlife in India? (PYQ: March 2022)",
+    "answer": "Wildlife in India faces several major threats:\n\n1.  **Habitat Loss:** Deforestation and land conversion for agriculture and urban development are leading to the loss of natural habitats.\n2.  **Poaching:** Illegal hunting and trade of animals for their skin, bones, and other products is a major threat.\n3.  **Human-Wildlife Conflict:** As human settlements expand, conflicts with animals like elephants, tigers, and leopards are increasing.\n4.  **Pollution:** Water and air pollution are affecting the health and survival of many species.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the name of the national animal of India?",
+    "answer": "The national animal of India is the **Tiger**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Describe the measures taken for wildlife conservation in India. (Practice Set 5.3)",
+    "answer": "India has taken several measures for wildlife conservation:\n\n1.  **Protected Areas:** The government has established a network of national parks, wildlife sanctuaries, and biosphere reserves to protect wildlife.\n2.  **Project Tiger:** This project was launched to conserve tigers and their habitats.\n3.  **Laws:** Strict laws have been enacted against poaching and illegal trade of wildlife products.\n4.  **Awareness:** Awareness programs are conducted to educate people about the importance of wildlife conservation.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following regions in India has the highest biodiversity?",
+    "options": ["Thar Desert", "Western Ghats", "Sunderban Delta", "Himalayan Region"],
+    "correct_answer": "B",
+    "answer": "The Western Ghats is a biodiversity hotspot and has the highest number of endemic species. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the major types of forests found in Brazil. (Practice Set 5.4)",
+    "answer": "The major types of forests found in Brazil are:\n\n1.  **Evergreen Rainforests:** Found in the Amazon basin and along the eastern coast. Characterized by dense, multi-layered vegetation and high biodiversity.\n2.  **Deciduous Forests:** Found in the central and southern parts of the country. Trees shed their leaves during the dry season.\n3.  **Savanna:** Found in the central and southern plateaus. It consists of grasslands with scattered trees and shrubs.\n4.  **Cerrado:** A vast tropical savanna ecosystem in Brazil. It has a mix of grasslands and small trees.\n5.  **Caatinga:** A semi-arid vegetation type found in the northeastern part of Brazil, characterized by thorny bushes and cacti.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Which region of India is known for its lions?",
+    "answer": "The **Gir Forest** in Gujarat is the only natural habitat of the Asiatic Lion in the world.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why do the trees in tropical deciduous forests shed their leaves?",
+    "answer": "The trees in tropical deciduous forests shed their leaves during the dry season to conserve water. This is a survival strategy to cope with the lack of moisture in the soil during the summer months. By shedding their leaves, the trees reduce the rate of transpiration and prevent water loss.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What are the 'lungs of the world'?",
+    "answer": "The **Amazon Rainforest** is often referred to as the 'lungs of the world' due to the massive amount of oxygen it produces.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the measures taken for wildlife conservation in Brazil.",
+    "answer": "Brazil has taken several measures for wildlife conservation, including:\n\n1.  **Protected Areas:** The government has established national parks, biological reserves, and other protected areas to conserve biodiversity.\n2.  **Combating Deforestation:** Efforts are being made to control deforestation in the Amazon rainforest.\n3.  **Laws and Regulations:** Strict laws have been implemented to protect endangered species and regulate the trade of wildlife.\n4.  **International Cooperation:** Brazil collaborates with international organizations to address issues related to climate change and biodiversity loss.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "The trees in which of the following forest types have breathing roots?",
+    "options": ["Tropical Evergreen", "Tropical Deciduous", "Thorny", "Mangrove"],
+    "correct_answer": "D",
+    "answer": "Mangrove trees have special roots called breathing roots (pneumatophores) to absorb oxygen from the atmosphere in the waterlogged, anaerobic soil. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on the vegetation found in the Himalayan region.",
+    "answer": "The vegetation in the Himalayan region changes with altitude:\n\n1.  **Lower Altitude:** At the foothills, you can find broad-leaved deciduous trees like Sal and Teak.\n2.  **Higher Altitude:** At a height of about $1500$ to $3000$ m, you find temperate forests with coniferous trees like Pine, Fir, and Deodar.\n3.  **Alpine Zone:** Above $3000$ m, the vegetation consists of alpine grasslands and shrubs. The vegetation becomes sparse as the altitude increases.\n4.  **Snowline:** Beyond the snowline, there is no vegetation.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Name one plant and one animal species of India that are on the verge of extinction.",
+    "answer": "A plant species on the verge of extinction is **Indian Sandalwood**, and an animal species is the **Bengal Tiger**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the reason behind the high biodiversity in the Amazon rainforest.",
+    "answer": "The high biodiversity in the Amazon rainforest is a result of several factors:\n\n1.  **Equatorial Location:** The region's location near the Equator ensures consistently high temperatures and rainfall, creating an ideal environment for plant and animal growth.\n2.  **Vast Area:** The sheer size of the Amazon basin provides a wide range of habitats for different species to thrive.\n3.  **Stable Climate:** Unlike regions with distinct seasons, the stable, year-round climate allows for continuous growth and reproduction.\n4.  **Canopy Layers:** The different layers of the forest provide unique niches and habitats, supporting a wide variety of species.",
+    "marks": 4
+  },
+  {
+    "type": "mcq",
+    "text": "In India, which type of forest is the most widespread?",
+    "options": ["Tropical Evergreen", "Tropical Deciduous", "Thorny", "Mangrove"],
+    "correct_answer": "B",
+    "answer": "Tropical Deciduous forests are the most widespread type of forests in India. They cover a large area of the country. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is the national bird of India?",
+    "answer": "The national bird of India is the **Peacock**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the differences between the forests of India and Brazil.",
+    "answer": "### **India**\n* **Diversity:** India has a great variety of forests ranging from tropical evergreen to alpine. However, they are not as dense or as large as those in Brazil.\n* **Conservation:** Wildlife conservation efforts in India often involve creating protected areas such as national parks and wildlife sanctuaries to protect specific species like tigers and lions.\n* **Habitat:** Forests are often fragmented due to human activity and population density.\n\n### **Brazil**\n* **Diversity:** Brazil is known for its unparalleled biodiversity, primarily centered in the Amazon rainforest, the world's largest. The forests are extremely dense and lush.\n* **Conservation:** Conservation efforts are focused on protecting vast, continuous ecosystems like the Amazon rainforest and combating deforestation.\n* **Habitat:** The habitats are more extensive and continuous, providing a larger, undisturbed area for wildlife.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Name the two major species of birds found in Brazil.",
+    "answer": "Two major species of birds found in Brazil are the **Macaw** and the **Toucan**.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Why is the vegetation in the Thar Desert different from that in the Amazon Rainforest?",
+    "answer": "The vegetation in the Thar Desert is very different from that of the Amazon Rainforest due to the contrasting climatic conditions.\n\n1.  **Rainfall:** The Thar Desert receives very little rainfall (less than $70$ cm), while the Amazon rainforest receives high rainfall (over $200$ cm).\n2.  **Temperature:** The Thar Desert has a hot and dry climate, while the Amazon rainforest has a hot and humid climate.\n3.  **Adaptation:** Plants in the Thar Desert have adapted to survive in arid conditions with long roots, thorns, and waxy leaves to minimize water loss. In contrast, plants in the Amazon rainforest are broad-leaved and thrive in a wet and humid environment.",
+    "marks": 3
+  }
+]

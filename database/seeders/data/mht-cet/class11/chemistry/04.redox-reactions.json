@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "In the reaction $Fe(s) + Cu^{2+}(aq) \\rightarrow Fe^{2+}(aq) + Cu(s)$, which species is the oxidizing agent?",
+    "options": [
+      "(a) $Fe(s)$",
+      "(b) $Cu(s)$",
+      "(c) $Cu^{2+}(aq)$",
+      "(d) $Fe^{2+}(aq)$"
+    ],
+    "correct_answer": "c",
+    "answer": "An oxidizing agent is a substance that accepts electrons and gets reduced. In this reaction, $Cu^{2+}$ gains electrons to become $Cu(s)$, so it is the oxidizing agent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation number of an element in its uncombined state is:",
+    "options": [
+      "(a) +1",
+      "(b) -1",
+      "(c) 0",
+      "(d) Depends on the element"
+    ],
+    "correct_answer": "c",
+    "answer": "The oxidation number of an element in its elemental or uncombined state is always zero.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a redox reaction?",
+    "options": [
+      "(a) $Ca(OH)_2 + 2CH_3COOH \\rightarrow Ca(CH_3COO)_2 + 2H_2O$",
+      "(b) $2NaH(s) \\rightarrow 2Na(s) + H_2(g)$",
+      "(c) $BaCl_2 + Na_2SO_4 \\rightarrow BaSO_4 + 2NaCl$",
+      "(d) $H_2SO_4 + 2KOH \\rightarrow K_2SO_4 + 2H_2O$"
+    ],
+    "correct_answer": "b",
+    "answer": "A redox reaction involves a change in the oxidation numbers of the participating species. In the decomposition of $NaH$, the oxidation number of Na changes from +1 to 0, and that of H changes from -1 to 0.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation state of sulfur in $H_2S_2O_7$ is:",
+    "options": [
+      "(a) +2",
+      "(b) +4",
+      "(c) +6",
+      "(d) +8"
+    ],
+    "correct_answer": "c",
+    "answer": "To find the oxidation state of S, we use the rule that the sum of the oxidation states of all atoms in a neutral compound is zero. Let the oxidation state of S be $x$. $2(+1) + 2(x) + 7(-2) = 0 \\Rightarrow 2 + 2x - 14 = 0 \\Rightarrow 2x = 12 \\Rightarrow x = +6$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Rusting of iron is an example of:",
+    "options": [
+      "(a) Combination reaction",
+      "(b) Decomposition reaction",
+      "(c) Redox reaction",
+      "(d) Neutralization reaction"
+    ],
+    "correct_answer": "c",
+    "answer": "Rusting is the corrosion of iron, a process where iron is oxidized and oxygen is reduced in the presence of moisture. This simultaneous oxidation and reduction makes it a redox reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the reaction $2H_2O_2(aq) \\rightarrow 2H_2O(l) + O_2(g)$, hydrogen peroxide is:",
+    "options": [
+      "(a) Oxidized only",
+      "(b) Reduced only",
+      "(c) Both oxidized and reduced",
+      "(d) Neither oxidized nor reduced"
+    ],
+    "correct_answer": "c",
+    "answer": "In this reaction, the oxidation state of oxygen in $H_2O_2$ changes from -1 to -2 in $H_2O$ (reduction) and to 0 in $O_2$ (oxidation). Since a single species is both oxidized and reduced, it is a disproportionation reaction, a type of redox reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation number of chromium in $K_2Cr_2O_7$ is:",
+    "options": [
+      "(a) +2",
+      "(b) +4",
+      "(c) +6",
+      "(d) +7"
+    ],
+    "correct_answer": "c",
+    "answer": "The sum of oxidation states is zero. Let the oxidation state of Cr be $x$. $2(+1) + 2(x) + 7(-2) = 0 \\Rightarrow 2 + 2x - 14 = 0 \\Rightarrow 2x = 12 \\Rightarrow x = +6$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a redox reaction, a reducing agent is a substance that:",
+    "options": [
+      "(a) Gets reduced",
+      "(b) Oxidizes another substance",
+      "(c) Gains electrons",
+      "(d) Loses electrons"
+    ],
+    "correct_answer": "d",
+    "answer": "A reducing agent is a substance that loses electrons and gets oxidized, causing another substance to be reduced.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "How many moles of electrons are required for the reduction of 1 mole of $Cr^{3+}$ to $Cr(s)$?",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 6"
+    ],
+    "correct_answer": "c",
+    "answer": "The reduction half-reaction is $Cr^{3+} + 3e^- \\rightarrow Cr(s)$. This equation shows that 3 electrons are required to reduce one $Cr^{3+}$ ion to a neutral Cr atom. Therefore, 3 moles of electrons are required for the reduction of 1 mole of $Cr^{3+}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation state of nitrogen in $HNO_3$ is:",
+    "options": [
+      "(a) +3",
+      "(b) +4",
+      "(c) +5",
+      "(d) +6"
+    ],
+    "correct_answer": "c",
+    "answer": "Let the oxidation state of N be $x$. The sum of oxidation states is zero. $1(+1) + x + 3(-2) = 0 \\Rightarrow 1 + x - 6 = 0 \\Rightarrow x = +5$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a disproportionation reaction?",
+    "options": [
+      "(a) $N_2(g) + O_2(g) \\rightarrow 2NO(g)$",
+      "(b) $Fe_2O_3(s) + 3C(s) \\rightarrow 2Fe(s) + 3CO(g)$",
+      "(c) $2NO_2(g) + 2OH^-(aq) \\rightarrow NO_2^-(aq) + NO_3^-(aq) + H_2O(l)$",
+      "(d) $CuO(s) + H_2(g) \\rightarrow Cu(s) + H_2O(l)$"
+    ],
+    "correct_answer": "c",
+    "answer": "A disproportionation reaction is a type of redox reaction in which a single element is both oxidized and reduced. In the given reaction, the oxidation state of N in $NO_2$ is +4, which is oxidized to +5 in $NO_3^-$ and reduced to +3 in $NO_2^-$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the change in oxidation number of carbon in the reaction $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$?",
+    "options": [
+      "(a) From -4 to +4",
+      "(b) From 0 to +4",
+      "(c) From -2 to +2",
+      "(d) From +4 to -4"
+    ],
+    "correct_answer": "a",
+    "answer": "In $CH_4$, the oxidation state of H is +1, so C is $x + 4(+1) = 0 \\Rightarrow x = -4$. In $CO_2$, the oxidation state of O is -2, so C is $x + 2(-2) = 0 \\Rightarrow x = +4$. The oxidation number of carbon changes from -4 to +4.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The rusting of iron is accelerated by the presence of:",
+    "options": [
+      "(a) Water and oxygen",
+      "(b) Water and nitrogen",
+      "(c) Oil and water",
+      "(d) Oxygen and nitrogen"
+    ],
+    "correct_answer": "a",
+    "answer": "Rusting of iron is an electrochemical process that requires the presence of both oxygen and water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the strongest reducing agent?",
+    "options": [
+      "(a) $Li$",
+      "(b) $Na$",
+      "(c) $K$",
+      "(d) $Rb$"
+    ],
+    "correct_answer": "c",
+    "answer": "A strong reducing agent is one that is easily oxidized (loses electrons). Among the alkali metals, the reducing power increases down the group. While Li has the most negative standard reduction potential in an aqueous solution, K has a larger atomic size and lower ionization energy, making it a stronger reducing agent in its solid state.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In the reaction $Zn(s) + 2H^+(aq) \\rightarrow Zn^{2+}(aq) + H_2(g)$, the substance oxidized is:",
+    "options": [
+      "(a) $Zn(s)$",
+      "(b) $H^+(aq)$",
+      "(c) $Zn^{2+}(aq)$",
+      "(d) $H_2(g)$"
+    ],
+    "correct_answer": "a",
+    "answer": "Oxidation is the loss of electrons. Here, $Zn$ loses two electrons to become $Zn^{2+}$. Therefore, $Zn(s)$ is oxidized.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation state of phosphorus in $H_3PO_4$ is:",
+    "options": [
+      "(a) +1",
+      "(b) +3",
+      "(c) +5",
+      "(d) -3"
+    ],
+    "correct_answer": "c",
+    "answer": "Let the oxidation state of P be $x$. $3(+1) + x + 4(-2) = 0 \\Rightarrow 3 + x - 8 = 0 \\Rightarrow x = +5$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following elements has an oxidation state of -1 in $CaO_2$?",
+    "options": [
+      "(a) $Ca$",
+      "(b) $O$",
+      "(c) Both Ca and O",
+      "(d) Neither Ca nor O"
+    ],
+    "correct_answer": "b",
+    "answer": "In $CaO_2$, Calcium is an alkaline earth metal and has an oxidation state of +2. The sum of oxidation states must be zero. So, $1(+2) + 2(x) = 0 \\Rightarrow 2x = -2 \\Rightarrow x = -1$. Therefore, the oxidation state of oxygen is -1, indicating it is a peroxide.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of loss of electrons is called:",
+    "options": [
+      "(a) Reduction",
+      "(b) Oxidation",
+      "(c) Redox",
+      "(d) Hydrolysis"
+    ],
+    "correct_answer": "b",
+    "answer": "Oxidation is defined as the loss of electrons, an increase in oxidation state, or the gain of oxygen.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a combination reaction?",
+    "options": [
+      "(a) $2H_2 + O_2 \\rightarrow 2H_2O$",
+      "(b) $2KClO_3 \\rightarrow 2KCl + 3O_2$",
+      "(c) $Zn + H_2SO_4 \\rightarrow ZnSO_4 + H_2$",
+      "(d) $AgNO_3 + NaCl \\rightarrow AgCl + NaNO_3$"
+    ],
+    "correct_answer": "a",
+    "answer": "A combination reaction is a reaction where two or more reactants combine to form a single product. In this case, hydrogen and oxygen combine to form water. This is also a redox reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation number of Mn in $KMnO_4$ is:",
+    "options": [
+      "(a) +2",
+      "(b) +4",
+      "(c) +6",
+      "(d) +7"
+    ],
+    "correct_answer": "d",
+    "answer": "The sum of oxidation states is zero. Let the oxidation state of Mn be $x$. $1(+1) + x + 4(-2) = 0 \\Rightarrow 1 + x - 8 = 0 \\Rightarrow x = +7$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation number of carbon in $CH_2O$ is:",
+    "options": [
+      "(a) 0",
+      "(b) +1",
+      "(c) -2",
+      "(d) +2"
+    ],
+    "correct_answer": "a",
+    "answer": "The sum of oxidation states is zero. Let the oxidation state of C be $x$. $x + 2(+1) + 1(-2) = 0 \\Rightarrow x + 2 - 2 = 0 \\Rightarrow x = 0$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following can act as both an oxidizing and a reducing agent?",
+    "options": [
+      "(a) $H_2SO_4$",
+      "(b) $KMnO_4$",
+      "(c) $H_2O_2$",
+      "(d) $HNO_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "A substance that can act as both an oxidizing and a reducing agent has an element in an intermediate oxidation state. In $H_2O_2$, the oxidation state of oxygen is -1, which can be oxidized to 0 (in $O_2$) or reduced to -2 (in $H_2O$).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a reaction, the oxidation number of an element decreases. This process is called:",
+    "options": [
+      "(a) Oxidation",
+      "(b) Reduction",
+      "(c) Hydrolysis",
+      "(d) Disproportionation"
+    ],
+    "correct_answer": "b",
+    "answer": "Reduction is defined as a decrease in oxidation number, gain of electrons, or loss of oxygen.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a reducing agent in the reaction $2Na + Cl_2 \\rightarrow 2NaCl$?",
+    "options": [
+      "(a) $Na$",
+      "(b) $Cl_2$",
+      "(c) $NaCl$",
+      "(d) Both Na and $Cl_2$"
+    ],
+    "correct_answer": "a",
+    "answer": "In this reaction, $Na$ loses an electron to form $Na^+$. Since it is oxidized, it acts as the reducing agent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation number of oxygen in $OF_2$ is:",
+    "options": [
+      "(a) -2",
+      "(b) -1",
+      "(c) +1",
+      "(d) +2"
+    ],
+    "correct_answer": "d",
+    "answer": "Fluorine is the most electronegative element and its oxidation state is always -1. Let the oxidation state of O be $x$. $x + 2(-1) = 0 \\Rightarrow x = +2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction $2Na + H_2 \\rightarrow 2NaH$ is an example of:",
+    "options": [
+      "(a) Oxidation",
+      "(b) Reduction",
+      "(c) Disproportionation",
+      "(d) Both oxidation and reduction"
+    ],
+    "correct_answer": "d",
+    "answer": "In this reaction, Na is oxidized (oxidation number from 0 to +1) and $H_2$ is reduced (oxidation number from 0 to -1). Since both oxidation and reduction are happening, it is a redox reaction.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In which of the following compounds does nitrogen have the highest oxidation state?",
+    "options": [
+      "(a) $HNO_3$",
+      "(b) $N_2O$",
+      "(c) $NO_2$",
+      "(d) $NH_3$"
+    ],
+    "correct_answer": "a",
+    "answer": "Oxidation state of N in $HNO_3$ is +5. In $N_2O$, it's +1. In $NO_2$, it's +4. In $NH_3$, it's -3. The highest oxidation state is +5 in $HNO_3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxidation state of a metal in its amalgams is:",
+    "options": [
+      "(a) Positive",
+      "(b) Negative",
+      "(c) Zero",
+      "(d) Varies"
+    ],
+    "correct_answer": "c",
+    "answer": "An amalgam is an alloy of mercury with another metal. In an alloy, the oxidation state of the elements is considered to be zero.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a decomposition reaction?",
+    "options": [
+      "(a) $2H_2 + O_2 \\rightarrow 2H_2O$",
+      "(b) $2KClO_3 \\rightarrow 2KCl + 3O_2$",
+      "(c) $Zn + H_2SO_4 \\rightarrow ZnSO_4 + H_2$",
+      "(d) $AgNO_3 + NaCl \\rightarrow AgCl + NaNO_3$"
+    ],
+    "correct_answer": "b",
+    "answer": "A decomposition reaction is a reaction where a single compound breaks down into two or more simpler substances. Here, $KClO_3$ breaks down into $KCl$ and $O_2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of gaining electrons is called:",
+    "options": [
+      "(a) Oxidation",
+      "(b) Reduction",
+      "(c) Disproportionation",
+      "(d) Neutralization"
+    ],
+    "correct_answer": "b",
+    "answer": "Reduction is the gain of electrons, a decrease in oxidation state, or the loss of oxygen.",
+    "marks": 1
+  }
+]

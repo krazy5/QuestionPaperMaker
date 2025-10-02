@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The maximum population size that an environment can sustain indefinitely is known as:",
+    "options": [
+      "(a) Biotic potential",
+      "(b) Carrying capacity",
+      "(c) Population density",
+      "(d) Ecological niche"
+    ],
+    "correct_answer": "b",
+    "answer": "**Carrying capacity (K)** is the maximum number of individuals of a population that a given environment can support without degrading the environment. It's a key concept in population ecology.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The interaction between two species where one species benefits and the other is neither harmed nor benefited is called:",
+    "options": [
+      "(a) Mutualism",
+      "(b) Commensalism",
+      "(c) Parasitism",
+      "(d) Amensalism"
+    ],
+    "correct_answer": "b",
+    "answer": "**Commensalism** is a type of symbiotic relationship where one organism benefits from the other without affecting it. An example is the relationship between cattle egrets and grazing cattle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of ecological succession that starts on a bare rock is:",
+    "options": [
+      "(a) Hydrarch succession",
+      "(b) Xerarch succession",
+      "(c) Secondary succession",
+      "(d) Autogenic succession"
+    ],
+    "correct_answer": "b",
+    "answer": "**Xerarch succession** begins in an extremely dry environment, such as on a bare rock. The pioneer species are typically lichens, which can survive in these harsh conditions and begin the process of soil formation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'population' refers to:",
+    "options": [
+      "(a) A group of organisms of different species living in an area",
+      "(b) A group of organisms of the same species living in an area",
+      "(c) All the living and non-living components in an area",
+      "(d) All the living organisms in a given area"
+    ],
+    "correct_answer": "b",
+    "answer": "A **population** is a group of individuals of the same species living in a particular geographical area at a given time.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The interaction where one species is harmed and the other is unaffected is known as:",
+    "options": [
+      "(a) Competition",
+      "(b) Predation",
+      "(c) Amensalism",
+      "(d) Parasitism"
+    ],
+    "correct_answer": "c",
+    "answer": "**Amensalism** is a biological interaction where one species is harmed while the other remains unaffected. A classic example is a large tree shading a small plant below it.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a food web, a secondary consumer is an organism that feeds on:",
+    "options": [
+      "(a) Producers",
+      "(b) Primary consumers",
+      "(c) Tertiary consumers",
+      "(d) Decomposers"
+    ],
+    "correct_answer": "b",
+    "answer": "A **secondary consumer** is a carnivore or omnivore that preys on **primary consumers**, which are typically herbivores. This places them at the third trophic level.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The rate of formation of new organic matter by consumers is called:",
+    "options": [
+      "(a) Gross primary productivity",
+      "(b) Net primary productivity",
+      "(c) Secondary productivity",
+      "(d) Standing crop"
+    ],
+    "correct_answer": "c",
+    "answer": "**Secondary productivity** is the rate of formation of new organic matter by consumers. It represents the energy that is available to the next trophic level.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term for a species whose population has been reduced to a critical level is:",
+    "options": [
+      "(a) Endangered species",
+      "(b) Extinct species",
+      "(c) Vulnerable species",
+      "(d) Endemic species"
+    ],
+    "correct_answer": "a",
+    "answer": "An **endangered species** is a species whose population is at risk of extinction because it is either few in number or threatened by a changing environmental or predation parameters.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of decomposition of detritus into smaller particles by detritivores is called:",
+    "options": [
+      "(a) Leaching",
+      "(b) Catabolism",
+      "(c) Humification",
+      "(d) Fragmentation"
+    ],
+    "correct_answer": "d",
+    "answer": "**Fragmentation** is the process where detritivores, such as earthworms, break down detritus (dead organic matter) into smaller pieces, increasing the surface area for microbial action.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term for the total amount of living organic matter in an ecosystem is:",
+    "options": [
+      "(a) Trophic level",
+      "(b) Standing crop",
+      "(c) Productivity",
+      "(d) Biome"
+    ],
+    "correct_answer": "b",
+    "answer": "**Standing crop** refers to the total mass or amount of living organisms in a particular area at a given time. It is a key measure of an ecosystem's productivity.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pyramid of energy is always upright because:",
+    "options": [
+      "(a) Energy flows in a unidirectional manner",
+      "(b) There is a loss of energy at each trophic level",
+      "(c) Producers have the most energy",
+      "(d) All of the above"
+    ],
+    "correct_answer": "d",
+    "answer": "The pyramid of energy is always upright because **all of the above** statements are true. Energy flows from producers to consumers, and at each step, a significant amount of energy is lost as heat, resulting in a decrease in energy at higher trophic levels.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The study of interactions between organisms and their environment is:",
+    "options": [
+      "(a) Taxonomy",
+      "(b) Evolution",
+      "(c) Ecology",
+      "(d) Genetics"
+    ],
+    "correct_answer": "c",
+    "answer": "**Ecology** is the branch of biology that studies the relationships between living organisms, including humans, and their physical environment. It seeks to understand the vital connections between plants and animals and the world around them.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The conversion of atmospheric nitrogen to ammonia by microorganisms is known as:",
+    "options": [
+      "(a) Nitrification",
+      "(b) Denitrification",
+      "(c) Nitrogen fixation",
+      "(d) Ammonification"
+    ],
+    "correct_answer": "c",
+    "answer": "**Nitrogen fixation** is the process by which atmospheric nitrogen ($N_2$) is converted into ammonia ($NH_3$) or other nitrogenous compounds by certain microorganisms, making it available to plants.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a biotic component of an ecosystem?",
+    "options": [
+      "(a) Temperature",
+      "(b) Water",
+      "(c) Soil",
+      "(d) Fungi"
+    ],
+    "correct_answer": "d",
+    "answer": "**Fungi** are a **biotic** (living) component of an ecosystem, as they are organisms. Temperature, water, and soil are all abiotic (non-living) components.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The sequential process of change in species composition in a particular area is:",
+    "options": [
+      "(a) Niche",
+      "(b) Homeostasis",
+      "(c) Ecological succession",
+      "(d) Stratification"
+    ],
+    "correct_answer": "c",
+    "answer": "**Ecological succession** is the process by which the structure of a biological community evolves over time. It is a predictable and gradual process of change in a species composition.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The interaction between a bee and a flower, where both organisms benefit, is an example of:",
+    "options": [
+      "(a) Competition",
+      "(b) Predation",
+      "(c) Parasitism",
+      "(d) Mutualism"
+    ],
+    "correct_answer": "d",
+    "answer": "**Mutualism** is an interspecific interaction in which both species benefit from the relationship. The bee gets nectar, and the flower gets pollinated.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary cause of the greenhouse effect is the increase in:",
+    "options": [
+      "(a) Oxygen",
+      "(b) Carbon dioxide",
+      "(c) Nitrogen",
+      "(d) Methane"
+    ],
+    "correct_answer": "b",
+    "answer": "The increase in the concentration of **carbon dioxide** and other greenhouse gases in the atmosphere is the primary cause of the greenhouse effect, leading to global warming.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "An organism that can tolerate a wide range of temperatures is called:",
+    "options": [
+      "(a) Eurythermal",
+      "(b) Stenothermal",
+      "(c) Poikilotherm",
+      "(d) Homoiotherm"
+    ],
+    "correct_answer": "a",
+    "answer": "**Eurythermal** organisms are those that can withstand a wide range of ambient temperatures. This is an important adaptation for organisms living in changing environments.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'Ecosystem' was coined by:",
+    "options": [
+      "(a) Ernst Haeckel",
+      "(b) A.G. Tansley",
+      "(c) E.P. Odum",
+      "(d) Charles Darwin"
+    ],
+    "correct_answer": "b",
+    "answer": "The term '**Ecosystem**' was first proposed by Sir Arthur George Tansley in 1935 to describe the entire collection of organisms in a particular area, together with their physical environment.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A plant that lives on another plant for physical support but not for nutrition is called a(n):",
+    "options": [
+      "(a) Parasite",
+      "(b) Saprophyte",
+      "(c) Epiphyte",
+      "(d) Holoparasite"
+    ],
+    "correct_answer": "c",
+    "answer": "An **epiphyte** is a plant that grows on another plant or object for physical support, but it derives its nutrients from the air, rain, or debris, not from its host. A common example is an orchid growing on a tree.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a pioneer species in primary succession on a bare rock?",
+    "options": [
+      "(a) Mosses",
+      "(b) Lichens",
+      "(c) Herbs",
+      "(d) Shrubs"
+    ],
+    "correct_answer": "b",
+    "answer": "**Lichens** are typically the pioneer species in primary succession on a bare rock. They can survive in harsh conditions and help break down the rock to form the first layer of soil.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon where a single organism and its environment interact is called:",
+    "options": [
+      "(a) Ecology",
+      "(b) Autecology",
+      "(c) Synecology",
+      "(d) Biogeography"
+    ],
+    "correct_answer": "b",
+    "answer": "**Autecology** is the study of the interactions of an individual organism or a single species with its environment. It focuses on the life history and behavior of a specific species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of a community changing its own environment, leading to its own replacement, is:",
+    "options": [
+      "(a) Autogenic succession",
+      "(b) Allogenic succession",
+      "(c) Primary succession",
+      "(d) Secondary succession"
+    ],
+    "correct_answer": "a",
+    "answer": "**Autogenic succession** is a type of ecological succession that is driven by the organisms themselves. For example, plants changing the soil composition, which allows for new species to grow.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The relationship between a tick and a dog is an example of:",
+    "options": [
+      "(a) Mutualism",
+      "(b) Commensalism",
+      "(c) Parasitism",
+      "(d) Predation"
+    ],
+    "correct_answer": "c",
+    "answer": "**Parasitism** is a non-mutual symbiotic relationship between species, where one species, the parasite (tick), lives on or inside another organism, the host (dog), and benefits by deriving nutrients at the host's expense.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of a stable ecosystem?",
+    "options": [
+      "(a) Low diversity",
+      "(b) High productivity",
+      "(c) High fluctuation in population size",
+      "(d) Simple food web"
+    ],
+    "correct_answer": "b",
+    "answer": "A **stable ecosystem** is one that is resilient and can resist change. It is typically characterized by a complex food web and high species diversity, which often leads to **high productivity** and a stable population size.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The zone of an aquatic ecosystem where light penetrates and photosynthesis occurs is the:",
+    "options": [
+      "(a) Benthic zone",
+      "(b) Littoral zone",
+      "(c) Limnetic zone",
+      "(d) Profundal zone"
+    ],
+    "correct_answer": "c",
+    "answer": "The **limnetic zone** is the open, well-lit, and sunlit area of a lake or other freshwater body where photosynthesis can occur. It is the main zone of a lake where primary production takes place.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The ecological term for a species that has a disproportionately large effect on its environment relative to its abundance is:",
+    "options": [
+      "(a) Keystone species",
+      "(b) Endemic species",
+      "(c) Endangered species",
+      "(d) Pioneer species"
+    ],
+    "correct_answer": "a",
+    "answer": "A **keystone species** is a species that has a unique and crucial role in the way an ecosystem functions. Without keystone species, the ecosystem would be dramatically different or cease to exist altogether.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The relationship where two species compete for the same limited resource is:",
+    "options": [
+      "(a) Predation",
+      "(b) Parasitism",
+      "(c) Commensalism",
+      "(d) Competition"
+    ],
+    "correct_answer": "d",
+    "answer": "**Competition** is a relationship in which two or more organisms seek the same limited resource. This can be intraspecific (within the same species) or interspecific (between different species).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of food chain that starts with dead organic matter is the:",
+    "options": [
+      "(a) Grazing food chain",
+      "(b) Detritus food chain",
+      "(c) Predator food chain",
+      "(d) Parasitic food chain"
+    ],
+    "correct_answer": "b",
+    "answer": "The **detritus food chain** is a type of food web that starts with dead organic material (detritus) and decomposers. These decomposers are then consumed by other organisms, continuing the flow of energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of a community of organisms gradually becoming more complex over time is:",
+    "options": [
+      "(a) Niche",
+      "(b) Succession",
+      "(c) Population dynamics",
+      "(d) Eutrophication"
+    ],
+    "correct_answer": "b",
+    "answer": "**Succession** is the gradual and predictable change in the species composition of an area over time. This process can be either primary or secondary.",
+    "marks": 1
+  }
+]

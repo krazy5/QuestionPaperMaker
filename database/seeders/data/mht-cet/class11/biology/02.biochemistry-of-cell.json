@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The term 'cell' was coined by:",
+    "options": [
+      "(a) Robert Hooke",
+      "(b) Anton van Leeuwenhoek",
+      "(c) Robert Brown",
+      "(d) M. J. Schleiden"
+    ],
+    "correct_answer": "a",
+    "answer": "Robert Hooke coined the term 'cell' in 1665 after observing the honeycomb-like structure of a thin slice of cork under a microscope.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following cell organelles is known as the 'suicidal bag' of the cell?",
+    "options": [
+      "(a) Mitochondria",
+      "(b) Lysosome",
+      "(c) Ribosome",
+      "(d) Endoplasmic reticulum"
+    ],
+    "correct_answer": "b",
+    "answer": "Lysosomes are membrane-bound organelles that contain hydrolytic enzymes. They are known as 'suicidal bags' because they can digest and destroy the cell in which they are present.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The fluid mosaic model of the cell membrane was proposed by:",
+    "options": [
+      "(a) Robert Hooke",
+      "(b) Gorter and Grendel",
+      "(c) Singer and Nicolson",
+      "(d) Schleiden and Schwann"
+    ],
+    "correct_answer": "c",
+    "answer": "The fluid mosaic model, which describes the cell membrane as a fluid structure with a mosaic of proteins, was proposed by S. J. Singer and G. L. Nicolson in 1972.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the main component of a plant cell wall?",
+    "options": [
+      "(a) Protein",
+      "(b) Cellulose",
+      "(c) Lipid",
+      "(d) Starch"
+    ],
+    "correct_answer": "b",
+    "answer": "The plant cell wall is a rigid, protective layer composed mainly of cellulose, a complex carbohydrate.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The powerhouse of the cell is:",
+    "options": [
+      "(a) Ribosome",
+      "(b) Lysosome",
+      "(c) Mitochondria",
+      "(d) Chloroplast"
+    ],
+    "correct_answer": "c",
+    "answer": "Mitochondria are the sites of aerobic respiration and produce a large amount of energy in the form of ATP. For this reason, they are called the 'powerhouses' of the cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following cell organelles is involved in apoptosis (programmed cell death)?",
+    "options": [
+      "(a) Lysosome",
+      "(b) Endoplasmic reticulum",
+      "(c) Golgi complex",
+      "(d) Mitochondria"
+    ],
+    "correct_answer": "d",
+    "answer": "Mitochondria play a crucial role in initiating and regulating apoptosis by releasing specific proteins that activate the cell's death pathway.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which organelle is primarily responsible for synthesizing proteins that are to be secreted from the cell?",
+    "options": [
+      "(a) Free ribosomes",
+      "(b) Ribosomes on the rough endoplasmic reticulum",
+      "(c) Smooth endoplasmic reticulum",
+      "(d) Lysosomes"
+    ],
+    "correct_answer": "b",
+    "answer": "Proteins destined for secretion or insertion into a membrane are synthesized on ribosomes attached to the rough endoplasmic reticulum. These proteins then enter the ER lumen for further processing.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The membrane around the vacuole in a plant cell is called:",
+    "options": [
+      "(a) Tonoplast",
+      "(b) Cytoplast",
+      "(c) Amyloplast",
+      "(d) Protoplast"
+    ],
+    "correct_answer": "a",
+    "answer": "The tonoplast is the membrane that encloses the large central vacuole in a mature plant cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The movement of oxygen and carbon dioxide across the plasma membrane occurs by:",
+    "options": [
+      "(a) Active diffusion",
+      "(b) Facilitated diffusion",
+      "(c) Passive diffusion",
+      "(d) Random diffusion"
+    ],
+    "correct_answer": "c",
+    "answer": "Oxygen and carbon dioxide are small, nonpolar molecules that can easily cross the lipid bilayer of the cell membrane by simple or passive diffusion, moving from an area of high concentration to an area of low concentration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is responsible for forming the spindle fibers during cell division?",
+    "options": [
+      "(a) Lysosome",
+      "(b) Centrosome",
+      "(c) Nucleus",
+      "(d) Golgi complex"
+    ],
+    "correct_answer": "b",
+    "answer": "The centrosome, an organelle located near the nucleus, is the main microtubule-organizing center and is responsible for forming the spindle fibers during mitosis and meiosis in animal cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a component of a nucleotide?",
+    "options": [
+      "(a) A nitrogenous base",
+      "(b) A pentose sugar",
+      "(c) A phosphate group",
+      "(d) A fatty acid"
+    ],
+    "correct_answer": "d",
+    "answer": "A nucleotide is the basic building block of DNA and RNA. It consists of a nitrogenous base, a pentose (five-carbon) sugar, and a phosphate group. Fatty acids are components of lipids.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond that links two consecutive nucleotides of a nucleic acid is a:",
+    "options": [
+      "(a) Glycosidic bond",
+      "(b) Phosphodiester bond",
+      "(c) Peptide bond",
+      "(d) Hydrogen bond"
+    ],
+    "correct_answer": "b",
+    "answer": "A phosphodiester bond links the 3' hydroxyl group of one sugar to the 5' phosphate group of the next sugar, forming the sugar-phosphate backbone of DNA or RNA.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of prokaryotic cells?",
+    "options": [
+      "(a) Presence of a nucleus",
+      "(b) Presence of mitochondria",
+      "(c) Absence of a cell wall",
+      "(d) Presence of a single, circular chromosome"
+    ],
+    "correct_answer": "d",
+    "answer": "Prokaryotic cells lack a nucleus and other membrane-bound organelles. Their genetic material is typically a single, circular chromosome located in a region called the nucleoid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary component of the cell membrane is:",
+    "options": [
+      "(a) Proteins",
+      "(b) Carbohydrates",
+      "(c) Phospholipids",
+      "(d) Nucleic acids"
+    ],
+    "correct_answer": "c",
+    "answer": "The cell membrane is a phospholipid bilayer, meaning it is primarily composed of two layers of phospholipid molecules. Proteins and carbohydrates are also present but make up a smaller portion.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of protein synthesis occurs on which of the following organelles?",
+    "options": [
+      "(a) Golgi complex",
+      "(b) Lysosome",
+      "(c) Ribosome",
+      "(d) Vacuole"
+    ],
+    "correct_answer": "c",
+    "answer": "Ribosomes are the cellular machines responsible for translating messenger RNA (mRNA) into proteins. This process is called translation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The joining of larger and smaller subunits of a ribosome during protein synthesis requires which ions?",
+    "options": [
+      "(a) $Mn^{++}$",
+      "(b) $Cl^-$",
+      "(c) $Ca^{++}$",
+      "(d) $Mg^{++}$"
+    ],
+    "correct_answer": "d",
+    "answer": "The association of the large and small ribosomal subunits to form a functional ribosome is dependent on the concentration of magnesium ions ($Mg^{++}$).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'fluid' in the fluid mosaic model refers to:",
+    "options": [
+      "(a) The ability of phospholipids to move laterally",
+      "(b) The presence of water in the membrane",
+      "(c) The movement of proteins across the membrane",
+      "(d) The watery environment of the cytoplasm"
+    ],
+    "correct_answer": "a",
+    "answer": "The 'fluid' nature of the cell membrane is due to the lateral movement of phospholipid molecules within their own layer. This allows the membrane to be flexible and dynamic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a function of the Golgi complex?",
+    "options": [
+      "(a) Protein modification",
+      "(b) Packaging of materials",
+      "(c) Lysosome formation",
+      "(d) ATP synthesis"
+    ],
+    "correct_answer": "d",
+    "answer": "The Golgi complex is involved in modifying, sorting, and packaging proteins and lipids for secretion or delivery to other organelles. It is also involved in lysosome formation. ATP synthesis, however, is a primary function of the mitochondria.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of the cell membrane is to:",
+    "options": [
+      "(a) Provide structural support to the cell",
+      "(b) Synthesize proteins",
+      "(c) Regulate the transport of substances in and out of the cell",
+      "(d) Store genetic material"
+    ],
+    "correct_answer": "c",
+    "answer": "The cell membrane is a selectively permeable barrier that controls the movement of ions and organic molecules into and out of the cell, thus regulating the cell's internal environment.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main components of the cell wall in bacteria are:",
+    "options": [
+      "(a) Cellulose and chitin",
+      "(b) Peptidoglycan",
+      "(c) Lipids and proteins",
+      "(d) Lignin and pectin"
+    ],
+    "correct_answer": "b",
+    "answer": "The cell wall of bacteria is composed of peptidoglycan, a polymer of sugars and amino acids that forms a mesh-like layer outside the plasma membrane.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a function of the smooth endoplasmic reticulum (SER)?",
+    "options": [
+      "(a) Protein synthesis",
+      "(b) Lipid synthesis",
+      "(c) Lysosome formation",
+      "(d) Ribosome formation"
+    ],
+    "correct_answer": "b",
+    "answer": "The smooth endoplasmic reticulum is primarily involved in the synthesis of lipids, steroids, and hormones. It also plays a role in detoxification and calcium ion storage.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of eukaryotic cells?",
+    "options": [
+      "(a) Absence of a nucleus",
+      "(b) Presence of a single, circular chromosome",
+      "(c) Presence of membrane-bound organelles",
+      "(d) All of the above"
+    ],
+    "correct_answer": "c",
+    "answer": "Eukaryotic cells are characterized by the presence of a true nucleus and other membrane-bound organelles like mitochondria, endoplasmic reticulum, and Golgi complex.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The two main types of nucleic acids are:",
+    "options": [
+      "(a) DNA and ATP",
+      "(b) DNA and RNA",
+      "(c) RNA and proteins",
+      "(d) ATP and ADP"
+    ],
+    "correct_answer": "b",
+    "answer": "The two main types of nucleic acids are deoxyribonucleic acid (DNA) and ribonucleic acid (RNA). They are essential for storing and transmitting genetic information.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a structural polysaccharide in plants?",
+    "options": [
+      "(a) Starch",
+      "(b) Glycogen",
+      "(c) Cellulose",
+      "(d) Chitin"
+    ],
+    "correct_answer": "c",
+    "answer": "Cellulose is a polysaccharide that forms the structural component of the plant cell wall. Starch and glycogen are used for energy storage.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of breaking down complex molecules into simpler ones to release energy is called:",
+    "options": [
+      "(a) Anabolism",
+      "(b) Catabolism",
+      "(c) Metabolism",
+      "(d) Photosynthesis"
+    ],
+    "correct_answer": "b",
+    "answer": "Catabolism is the set of metabolic pathways that break down complex molecules into simpler ones, releasing energy in the process.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of the ribosome is:",
+    "options": [
+      "(a) Lipid synthesis",
+      "(b) Protein synthesis",
+      "(c) Detoxification",
+      "(d) Cell wall formation"
+    ],
+    "correct_answer": "b",
+    "answer": "Ribosomes are the site of protein synthesis (translation) in the cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The term 'organelle' refers to:",
+    "options": [
+      "(a) A functional part of a cell",
+      "(b) A structural part of a cell",
+      "(c) A tiny organ-like structure within a cell",
+      "(d) All of the above"
+    ],
+    "correct_answer": "c",
+    "answer": "The term 'organelle' literally means 'little organ' and refers to specialized, tiny structures within a cell that perform specific functions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a characteristic of the plasma membrane?",
+    "options": [
+      "(a) It is a rigid, impermeable barrier.",
+      "(b) It is made of a single layer of phospholipids.",
+      "(c) It is a selectively permeable barrier.",
+      "(d) It is found only in plant cells."
+    ],
+    "correct_answer": "c",
+    "answer": "The plasma membrane is a selectively permeable barrier, meaning it controls which substances can pass through it. This is essential for maintaining the internal environment of the cell.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT an example of a carbohydrate?",
+    "options": [
+      "(a) Glucose",
+      "(b) Starch",
+      "(c) Cellulose",
+      "(d) Glycerol"
+    ],
+    "correct_answer": "d",
+    "answer": "Glycerol is a simple polyol compound, a component of lipids, while glucose, starch, and cellulose are all carbohydrates.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of the nucleus is to:",
+    "options": [
+      "(a) Synthesize lipids",
+      "(b) Produce energy for the cell",
+      "(c) Store and protect the genetic material",
+      "(d) Break down waste products"
+    ],
+    "correct_answer": "c",
+    "answer": "The nucleus is the control center of the cell, and its primary function is to store, protect, and manage the cell's genetic material (DNA).",
+    "marks": 1
+  }
+]

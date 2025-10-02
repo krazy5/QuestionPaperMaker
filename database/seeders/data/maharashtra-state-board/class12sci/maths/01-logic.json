@@ -2,49 +2,84 @@
   {
     "type": "mcq",
     "text": "If $p \\land q$ is false and $p \\lor q$ is true, then which of the following is not true?",
-    "options": ["$p \\lor q$", "$p \\leftrightarrow q$", "$\\sim p \\lor \\sim q$", "$q \\lor \\sim p$"],
+    "options": [
+      "$p \\lor q$",
+      "$p \\leftrightarrow q$",
+      "$\\sim p \\lor \\sim q$",
+      "$q \\lor \\sim p$"
+    ],
     "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "$(p \\land q) \\rightarrow r$ is logically equivalent to...",
-    "options": ["$p \\rightarrow (q \\rightarrow r)$", "$(p \\land q) \\rightarrow \\sim r$", "$(\\sim p \\lor \\sim q) \\rightarrow \\sim r$", "$(p \\lor q) \\rightarrow r$"],
+    "options": [
+      "$p \\rightarrow (q \\rightarrow r)$",
+      "$(p \\land q) \\rightarrow \\sim r$",
+      "$(\\sim p \\lor \\sim q) \\rightarrow \\sim r$",
+      "$(p \\lor q) \\rightarrow r$"
+    ],
     "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "Inverse of statement pattern $(p \\lor q) \\rightarrow (p \\land q)$ is:",
-    "options": ["$(p \\land q) \\rightarrow (p \\lor q)$", "$\\sim(p \\lor q) \\rightarrow (p \\land q)$", "$(\\sim p \\land \\sim q) \\rightarrow (\\sim p \\lor \\sim q)$", "$(\\sim p \\land \\sim q) \\rightarrow (\\sim p \\land \\sim q)$"],
+    "options": [
+      "$(p \\land q) \\rightarrow (p \\lor q)$",
+      "$\\sim(p \\lor q) \\rightarrow (p \\land q)$",
+      "$(\\sim p \\land \\sim q) \\rightarrow (\\sim p \\lor \\sim q)$",
+      "$(\\sim p \\land \\sim q) \\rightarrow (\\sim p \\land \\sim q)$"
+    ],
     "correct_answer": "C",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "If $p \\land q$ is F, and $p \\rightarrow q$ is F, then the truth values of p and q are:",
-    "options": ["T, T", "T, F", "F, T", "F, F"],
+    "options": [
+      "T, T",
+      "T, F",
+      "F, T",
+      "F, F"
+    ],
     "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "The negation of inverse of $\\sim p \\rightarrow q$ is:",
-    "options": ["$q \\land p$", "$\\sim p \\land \\sim q$", "$p \\land q$", "$\\sim q \\rightarrow \\sim p$"],
+    "options": [
+      "$q \\land p$",
+      "$\\sim p \\land \\sim q$",
+      "$p \\land q$",
+      "$\\sim q \\rightarrow \\sim p$"
+    ],
     "correct_answer": "C",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "The negation of $p \\land (q \\rightarrow r)$ is:",
-    "options": ["$\\sim p \\land (\\sim q \\rightarrow \\sim r)$", "$p \\lor (\\sim q \\lor r)$", "$\\sim p \\lor (q \\land \\sim r)$", "$\\sim p \\lor (\\sim q \\land \\sim r)$"],
+    "options": [
+      "$\\sim p \\land (\\sim q \\rightarrow \\sim r)$",
+      "$p \\lor (\\sim q \\lor r)$",
+      "$\\sim p \\lor (q \\land \\sim r)$",
+      "$\\sim p \\lor (\\sim q \\land \\sim r)$"
+    ],
     "correct_answer": "C",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "If $A = \\{1, 2, 3, 4, 5\\}$, then which of the following is not true?",
-    "options": ["$\\exists x \\in A$ such that $x+3=8$", "$\\exists x \\in A$ such that $x+2<9$", "$\\forall x \\in A, x+6 \\ge 9$", "$\\exists x \\in A$ such that $x+6<10$"],
+    "options": [
+      "$\\exists x \\in A$ such that $x+3=8$",
+      "$\\exists x \\in A$ such that $x+2<9$",
+      "$\\forall x \\in A, x+6 \\ge 9$",
+      "$\\exists x \\in A$ such that $x+6<10$"
+    ],
     "correct_answer": "C",
     "marks": 1
   },
@@ -208,18 +243,6 @@
     "type": "long",
     "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $(p \\rightarrow q) \\land (p \\land \\sim q)$.",
     "answer": "The statement pattern is a contradiction. The final column in its truth table is always False.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $[p \\rightarrow (q \\rightarrow r)] \\leftrightarrow [(p \\land q) \\rightarrow r]$.",
-    "answer": "The statement pattern is a tautology. The final column in its truth table is always True.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Determine whether the following statement pattern is a tautology, contradiction, or contingency: $[p \\rightarrow (p \\rightarrow q)] \\rightarrow q$.",
-    "answer": "The statement pattern is a tautology. The final column in its truth table is always True.",
     "marks": 4
   },
   {
@@ -479,12 +502,6 @@
   },
   {
     "type": "long",
-    "text": "Construct the truth table for the following statement pattern:<br> iv) $p \\rightarrow [\\sim(q \\wedge r)]$",
-    "answer": "The truth table is as follows:<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$r$</th><th>$q \\wedge r$</th><th>$\\sim(q \\wedge r)$</th><th>$p \\rightarrow [\\sim(q \\wedge r)]$</th></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>T</td><td>T</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td><td>T</td></tr><tr><td>F</td><td>F</td><td>F</td><td>F</td><td>T</td><td>T</td></tr></table><br>The final column shows the truth values for the given statement pattern.",
-    "marks": 4
-  },
-  {
-    "type": "long",
     "text": "Construct the truth table for the following statement pattern:<br> v) $\\sim p \\wedge [(p \\vee \\sim q) \\wedge q]$",
     "answer": "The truth table is as follows:<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$\\sim p$</th><th>$\\sim q$</th><th>$p \\vee \\sim q$</th><th>$(p \\vee \\sim q) \\wedge q$</th><th>$\\sim p \\wedge [(p \\vee \\sim q) \\wedge q]$</th></tr><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr></table><br>The final column shows the truth values for the given statement pattern.",
     "marks": 4
@@ -576,7 +593,7 @@
   {
     "type": "long",
     "text": "Using truth tables prove the following logical equivalence:<br> x) $\\sim (p \\leftrightarrow q) \\equiv (p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$",
-    "answer": "Let LHS be $\\sim (p \\leftrightarrow q)$ and RHS be $(p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$. The RHS is the definition of exclusive OR ($p \\oplus q$).<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$p \\leftrightarrow q$</th><th>LHS: $\\sim (p \\leftrightarrow q)$</th><th>$\\sim p$</th><th>$\\sim q$</th><th>$p \\wedge \\sim q$</th><th>$q \\wedge \\sim p$</th><th>RHS</th></tr><tr><td>T</td><td>T</td><td>T</td><td><b>F</b></td><td>F</td><td>F</td><td>F</td><td>F</td><td><b>F</b></td></tr><tr><td>T</td><td>F</td><td>F</td><td><b>T</b></td><td>F</td><td>T</td><td>T</td><td>F</td><td><b>T</b></td></tr><tr><td>F</td><td>T</td><td>T</td><td><b>F</b></td><td>T</td><td>F</td><td>F</td><td>T</td><td><b>T</b></td></tr><tr><td>F</td><td>F</td><td>F</td><td><b>T</b></td><td>T</td><td>T</td><td>F</td><td>F</td><td><b>F</b></td></tr></table><br>There appears to be a typo in my calculation for the RHS in the third row. Let's re-calculate: for F, T, $(F \\wedge F) \\vee (T \\wedge T) = F \\vee T = T$. The RHS column should be (F, T, T, F). Re-checking the table above... yes, a typo was made in my scratchpad. Correcting the table. The equivalence holds.<br>Corrected table:<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$p \\leftrightarrow q$</th><th>LHS: $\\sim (p \\leftrightarrow q)$</th><th>$\\sim p$</th><th>$\\sim q$</th><th>$p \\wedge \\sim q$</th><th>$q \\wedge \\sim p$</th><th>RHS</th></tr><tr><td>T</td><td>T</td><td>T</td><td><b>F</b></td><td>F</td><td>F</td><td>F</td><td>F</td><td><b>F</b></td></tr><tr><td>T</td><td>F</td><td>F</td><td><b>T</b></td><td>F</td><td>T</td><td>T</td><td>F</td><td><b>T</b></td></tr><tr><td>F</td><td>T</td><td>T</td><td><b>F</b></td><td>T</td><td>F</td><td>F</td><td>T</td><td><b>T</b></td></tr><tr><td>F</td><td>F</td><td>F</td><td><b>T</b></td><td>T</td><td>T</td><td>F</td><td>F</td><td><b>F</b></td></tr></table>Wait, my manual calculation is still mixed up. Let's be very systematic. <br>Row 3 (p=F, q=T):<br>LHS: $\\sim(F \\leftrightarrow T) = \\sim(F) = T$.<br>RHS: $(F \\wedge \\sim T) \\vee (T \\wedge \\sim F) = (F \\wedge F) \\vee (T \\wedge T) = F \\vee T = T$.<br>Ok, both are T for row 3.<br>Let me re-check all rows again.<br>Row 1(T,T): LHS=F. RHS=(T∧F)∨(T∧F)=F. Match.<br>Row 2(T,F): LHS=T. RHS=(T∧T)∨(F∧F)=T. Match.<br>Row 3(F,T): LHS=T. RHS=(F∧F)∨(T∧T)=T. Match.<br>Row 4(F,F): LHS=F. RHS=(F∧T)∨(F∧T)=F. Match.<br>The equivalence does hold. The columns are (F, T, T, F). My initial table generation logic for this complex one was flawed.<br>Final Correct Answer:<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$p \\leftrightarrow q$</th><th>LHS: $\\sim (p \\leftrightarrow q)$</th><th>$\\sim p$</th><th>$\\sim q$</th><th>$p \\wedge \\sim q$</th><th>$q \\wedge \\sim p$</th><th>RHS: $(p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$</th></tr><tr><td>T</td><td>T</td><td>T</td><td><b>F</b></td><td>F</td><td>F</td><td>F</td><td>F</td><td><b>F</b></td></tr><tr><td>T</td><td>F</td><td>F</td><td><b>T</b></td><td>F</td><td>T</td><td>T</td><td>F</td><td><b>T</b></td></tr><tr><td>F</td><td>T</td><td>T</td><td><b>T</b></td><td>T</td><td>F</td><td>F</td><td>T</td><td><b>T</b></td></tr><tr><td>F</td><td>F</td><td>F</td><td><b>F</b></td><td>T</td><td>T</td><td>F</td><td>F</td><td><b>F</b></td></tr></table><br>Since the columns for the LHS and RHS are identical (F, T, T, F), the logical equivalence is proved.",
+    "answer": "Let LHS be $\\sim (p \\leftrightarrow q)$ and RHS be $(p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$. The RHS is the definition of exclusive OR ($p \\oplus q$).<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$p \\leftrightarrow q$</th><th>LHS: $\\sim (p \\leftrightarrow q)$</th><th>$\\sim p$</th><th>$\\sim q$</th><th>$p \\wedge \\sim q$</th><th>$q \\wedge \\sim p$</th><th>RHS: $(p \\wedge \\sim q) \\vee (q \\wedge \\sim p)$</th></tr><tr><td>T</td><td>T</td><td>T</td><td><b>F</b></td><td>F</td><td>F</td><td>F</td><td>F</td><td><b>F</b></td></tr><tr><td>T</td><td>F</td><td>F</td><td><b>T</b></td><td>F</td><td>T</td><td>T</td><td>F</td><td><b>T</b></td></tr><tr><td>F</td><td>T</td><td>T</td><td><b>T</b></td><td>T</td><td>F</td><td>F</td><td>T</td><td><b>T</b></td></tr><tr><td>F</td><td>F</td><td>F</td><td><b>F</b></td><td>T</td><td>T</td><td>F</td><td>F</td><td><b>F</b></td></tr></table><br>Since the columns for the LHS and RHS are identical (F, T, T, F), the logical equivalence is proved.",
     "marks": 5
   },
   {
@@ -599,45 +616,38 @@
   },
   {
     "type": "long",
-    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> iv) $[(p \\rightarrow q) \\wedge q] \\rightarrow p$",
-    "answer": "This is the same as Q.1.i.<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$p \\rightarrow q$</th><th>$(p \\rightarrow q) \\wedge q$</th><th>$[(p \\rightarrow q) \\wedge q] \\rightarrow p$</th></tr><tr><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td></tr></table><br>Since the truth values in the last column are a mix of 'T' and 'F', the given statement pattern is a <b>contingency</b>.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> v) $[p \\rightarrow (q \\wedge \\sim q)] \\rightarrow \\sim p$",
+    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> iv) $[p \\rightarrow (q \\wedge \\sim q)] \\rightarrow \\sim p$",
     "answer": "The expression $q \\wedge \\sim q$ is always a contradiction (F).<br>So the statement simplifies to $(p \\rightarrow F) \\rightarrow \\sim p$.<br>And $p \\rightarrow F$ is equivalent to $\\sim p$.<br>So the statement becomes $\\sim p \\rightarrow \\sim p$, which is a tautology.<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$\\sim q$</th><th>$q \\wedge \\sim q$</th><th>$p \\rightarrow (q \\wedge \\sim q)$</th><th>$\\sim p$</th><th>$[p \\rightarrow (q \\wedge \\sim q)] \\rightarrow \\sim p$</th></tr><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td><td>T</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td><td>T</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr></table><br>Since all the truth values in the last column are 'T', the given statement pattern is a <b>tautology</b>.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> vi) $(p \\leftrightarrow q) \\wedge (p \\rightarrow \\sim q)$",
+    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> v) $(p \\leftrightarrow q) \\wedge (p \\rightarrow \\sim q)$",
     "answer": "<table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$p \\leftrightarrow q$</th><th>$\\sim q$</th><th>$p \\rightarrow \\sim q$</th><th>$(p \\leftrightarrow q) \\wedge (p \\rightarrow \\sim q)$</th></tr><tr><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td></tr></table><br>Since the truth values in the last column are a mix of 'T' and 'F', the given statement pattern is a <b>contingency</b>.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> vii) $\\sim (\\sim q \\wedge p) \\wedge q$",
+    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> vi) $\\sim (\\sim q \\wedge p) \\wedge q$",
     "answer": "<table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$\\sim q$</th><th>$\\sim q \\wedge p$</th><th>$\\sim (\\sim q \\wedge p)$</th><th>$\\sim (\\sim q \\wedge p) \\wedge q$</th></tr><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr></table><br>Since the truth values in the last column are a mix of 'T' and 'F', the given statement pattern is a <b>contingency</b>.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> viii) $(p \\wedge \\sim q) \\leftrightarrow (p \\rightarrow q)$",
-    "answer": "This is the same as Q.1.ii.<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$\\sim q$</th><th>$p \\wedge \\sim q$</th><th>$p \\rightarrow q$</th><th>$(p \\wedge \\sim q) \\leftrightarrow (p \\rightarrow q)$</th></tr><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>T</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td></tr></table><br>Since all the truth values in the last column are 'F', the given statement pattern is a <b>contradiction</b>.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> ix) $(\\sim p \\rightarrow q) \\wedge (p \\wedge r)$",
+    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> vii) $(\\sim p \\rightarrow q) \\wedge (p \\wedge r)$",
     "answer": "<table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$r$</th><th>$\\sim p$</th><th>$\\sim p \\rightarrow q$</th><th>$p \\wedge r$</th><th>$(\\sim p \\rightarrow q) \\wedge (p \\wedge r)$</th></tr><tr><td>T</td><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td></tr><tr><td>T</td><td>F</td><td>F</td><td>F</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td></tr></table><br>Since the truth values in the last column are a mix of 'T' and 'F', the given statement pattern is a <b>contingency</b>.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> x) $[p \\rightarrow (\\sim q \\vee r)] \\leftrightarrow \\sim [p \\rightarrow (q \\rightarrow r)]$",
+    "text": "Examine whether the following statement pattern is a tautology, a contradiction or a contingency.<br> viii) $[p \\rightarrow (\\sim q \\vee r)] \\leftrightarrow \\sim [p \\rightarrow (q \\rightarrow r)]$",
     "answer": "Let's analyse the RHS: $\\sim [p \\rightarrow (q \\rightarrow r)] \\equiv \\sim [\\sim p \\vee (\\sim q \\vee r)] \\equiv p \\wedge \\sim (\\sim q \\vee r) \\equiv p \\wedge (q \\wedge \\sim r)$.<br>Let's analyse the LHS: $p \\rightarrow (\\sim q \\vee r) \\equiv \\sim p \\vee (\\sim q \\vee r)$.<br>The statement compares $\\sim p \\vee (\\sim q \\vee r)$ with $p \\wedge (q \\wedge \\sim r)$. These are not equivalent.<br><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>$p$</th><th>$q$</th><th>$r$</th><th>$\\sim q$</th><th>$\\sim q \\vee r$</th><th>LHS: $p \\rightarrow (\\sim q \\vee r)$</th><th>$q \\rightarrow r$</th><th>$p \\rightarrow (q \\rightarrow r)$</th><th>RHS: $\\sim [p \\rightarrow (q \\rightarrow r)]$</th><th>LHS $\\leftrightarrow$ RHS</th></tr><tr><td>T</td><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>T</td><td>T</td><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td><td>T</td><td>F</td></tr><tr><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>T</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>T</td><td>F</td><td>F</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr><tr><td>F</td><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>F</td><td>F</td></tr></table><br>Since the truth values in the last column are all 'F', the given statement pattern is a <b>contradiction</b>.",
     "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "Write the dual of the statement: $(p \\lor q) \\land r$. Also, write its negation.",
+    "answer": "To find the dual, we replace $\\lor$ with $\\land$ and $\\land$ with $\\lor$. The dual is $(p \\land q) \\lor r$.<br>To find the negation, we use De Morgan's laws: $\\sim[(p \\lor q) \\land r] \\equiv \\sim(p \\lor q) \\lor (\\sim r) \\equiv (\\sim p \\land \\sim q) \\lor \\sim r$.",
+    "marks": 2
   }
 ]
-

@@ -2,303 +2,359 @@
   {
     "type": "mcq",
     "text": "A die is thrown once. Probability of getting a prime number is: [SSC 2016]",
-    "options": ["1/2", "1/3", "2/3", "5/6"],
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{5}{6}$"
+    ],
     "correct_answer": "A",
+    "answer": "The prime numbers on a standard die are 2, 3, and 5. There are 3 favorable outcomes out of 6 total possible outcomes. Therefore, the probability is $\\frac{3}{6}$, which simplifies to $\\frac{1}{2}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "A coin is tossed once. Probability of getting a tail is: [SSC 2017]",
-    "options": ["1/4", "1/2", "1/3", "2/3"],
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{3}$"
+    ],
     "correct_answer": "B",
+    "answer": "A single coin toss has two equally likely outcomes: Heads (H) or Tails (T). The probability of getting a tail is 1 out of 2, or $\\frac{1}{2}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "A card is drawn from a well-shuffled deck. Probability that it is a red card is: [SSC 2018]",
-    "options": ["1/4", "1/2", "1/3", "2/3"],
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{3}$"
+    ],
     "correct_answer": "B",
+    "answer": "A standard 52-card deck has 26 red cards (13 hearts and 13 diamonds) and 26 black cards. The probability of drawing a red card is $\\frac{26}{52}$, which simplifies to $\\frac{1}{2}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "From a bag of 5 red and 3 blue balls, one is drawn. Probability it is blue is: [SSC 2019]",
-    "options": ["3/5", "3/8", "5/8", "1/2"],
+    "options": [
+      "$\\frac{3}{5}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{1}{2}$"
+    ],
     "correct_answer": "B",
+    "answer": "The total number of balls in the bag is 5 (red) + 3 (blue) = 8. The number of blue balls is 3. The probability of drawing a blue ball is the number of favorable outcomes (3) divided by the total number of outcomes (8), which is $\\frac{3}{8}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "Two coins are tossed. Probability of getting at least one head is: [SSC 2020]",
-    "options": ["1/2", "1/3", "3/4", "1/4"],
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{1}{4}$"
+    ],
     "correct_answer": "C",
+    "answer": "The sample space for tossing two coins is {HH, HT, TH, TT}. The outcomes with at least one head are {HH, HT, TH}. There are 3 favorable outcomes out of 4 total outcomes, so the probability is $\\frac{3}{4}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "A die is thrown once. Probability of getting an even number is: [SSC 2016]",
-    "options": ["1/2", "1/3", "2/3", "5/6"],
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{5}{6}$"
+    ],
     "correct_answer": "A",
+    "answer": "The even numbers on a standard die are 2, 4, and 6. There are 3 favorable outcomes out of 6 total possible outcomes. Therefore, the probability is $\\frac{3}{6}$, which simplifies to $\\frac{1}{2}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "A card is drawn. Probability it is an ace is: [SSC 2021]",
-    "options": ["1/13", "1/12", "1/26", "1/52"],
+    "options": [
+      "$\\frac{1}{13}$",
+      "$\\frac{1}{12}$",
+      "$\\frac{1}{26}$",
+      "$\\frac{1}{52}$"
+    ],
     "correct_answer": "A",
+    "answer": "A standard 52-card deck has 4 aces. The probability of drawing an ace is $\\frac{4}{52}$, which simplifies to $\\frac{1}{13}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "A bag has 10 balls numbered 1 to 10. Probability of drawing a ball with number multiple of 3 is: [Predicted 2025]",
-    "options": ["1/5", "2/5", "3/10", "3/5"],
-    "correct_answer": "B",
+    "options": [
+      "$\\frac{1}{5}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{3}{5}$"
+    ],
+    "correct_answer": "C",
+    "answer": "The multiples of 3 between 1 and 10 are 3, 6, and 9. There are 3 favorable outcomes out of 10 total balls. Therefore, the probability is $\\frac{3}{10}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "A card is drawn. Probability that it is neither king nor queen is: [SSC 2019]",
-    "options": ["11/13", "12/13", "25/26", "50/52"],
-    "correct_answer": "B",
+    "options": [
+      "$\\frac{11}{13}$",
+      "$\\frac{12}{13}$",
+      "$\\frac{25}{26}$",
+      "$\\frac{50}{52}$"
+    ],
+    "correct_answer": "A",
+    "answer": "There are 4 kings and 4 queens in a deck of 52 cards, for a total of 8. The number of cards that are neither a king nor a queen is $52 - 8 = 44$. The probability is $\\frac{44}{52}$, which simplifies to $\\frac{11}{13}$.",
     "marks": 1
   },
   {
     "type": "mcq",
     "text": "Probability of getting 7 when a die is thrown is: [SSC 2017]",
-    "options": ["1", "0", "1/7", "1/6"],
+    "options": [
+      "1",
+      "0",
+      "$\\frac{1}{7}$",
+      "$\\frac{1}{6}$"
+    ],
     "correct_answer": "B",
+    "answer": "A standard die has only numbers 1 through 6. It is impossible to roll a 7. The probability of an impossible event is <b>0</b>.",
     "marks": 1
   },
-
   {
     "type": "true_false",
     "text": "Probability of any event lies between 0 and 1. [SSC 2016]",
-    "answer": "True",
+    "answer": "<b>True</b>",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "Probability of a sure event is 0. [SSC 2017]",
-    "answer": "False",
+    "answer": "<b>False</b>. The probability of a sure event is 1.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "The probability of drawing a king from 52 cards is 4/52. [SSC 2018]",
-    "answer": "True",
+    "answer": "<b>True</b>. There are 4 kings in a deck of 52 cards, so the probability is $\\frac{4}{52}$.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "The sum of probabilities of all outcomes of an experiment is 1. [SSC 2019]",
-    "answer": "True",
+    "answer": "<b>True</b>",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "When a coin is tossed once, sample space has 3 outcomes. [Predicted 2025]",
-    "answer": "False",
+    "answer": "<b>False</b>. The sample space has 2 outcomes: {Heads, Tails}.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "Probability of drawing an ace from 52 cards is 1/52. [SSC 2020]",
-    "answer": "False",
+    "answer": "<b>False</b>. There are 4 aces in a deck, so the probability is $\\frac{4}{52} = \\frac{1}{13}$.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "In a fair die, all six outcomes are equally likely. [SSC 2021]",
-    "answer": "True",
+    "answer": "<b>True</b>",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "If bag has 2 red and 3 blue balls, probability of red is 3/5. [Predicted 2025]",
-    "answer": "False",
+    "answer": "<b>False</b>. The total number of balls is 5. The number of red balls is 2. The probability of drawing a red ball is $\\frac{2}{5}$.",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "Probability of impossible event is 0. [SSC 2016]",
-    "answer": "True",
+    "answer": "<b>True</b>",
     "marks": 1
   },
   {
     "type": "true_false",
     "text": "Probability of drawing a face card from a deck is 12/52. [SSC 2018]",
-    "answer": "True",
+    "answer": "<b>True</b>",
     "marks": 1
   },
-
   {
     "type": "short",
     "text": "Find probability of getting odd number when a die is rolled. [SSC 2019]",
-    "answer": "Favourable outcomes = {1,3,5} = 3. Total = 6. Probability = 3/6 = 1/2.",
+    "answer": "The odd numbers on a die are {1, 3, 5}. There are 3 favorable outcomes out of 6 total outcomes. The probability is $\\frac{3}{6} = \\frac{1}{2}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "One card is drawn from 52. Find probability it is a heart. [SSC 2016]",
-    "answer": "Favourable = 13 hearts. Total = 52. Probability = 13/52 = 1/4.",
+    "answer": "There are 13 hearts in a standard 52-card deck. The probability is $\\frac{13}{52} = \\frac{1}{4}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "A coin is tossed twice. Find probability of getting exactly one head. [SSC 2020]",
-    "answer": "Sample space = {HH, HT, TH, TT}. Exactly one head = {HT, TH} = 2 outcomes. Total = 4. Probability = 2/4 = 1/2.",
+    "answer": "The sample space is {HH, HT, TH, TT}. The outcomes with exactly one head are {HT, TH}. There are 2 favorable outcomes out of 4 total outcomes. The probability is $\\frac{2}{4} = \\frac{1}{2}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "From a pack of 52, probability of getting black card. [SSC 2018]",
-    "answer": "Favourable = 26. Total = 52. Probability = 26/52 = 1/2.",
+    "answer": "There are 26 black cards in a deck of 52. The probability is $\\frac{26}{52} = \\frac{1}{2}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "A die is rolled. Probability of getting number greater than 4. [SSC 2017]",
-    "answer": "Favourable = {5,6} = 2. Total = 6. Probability = 2/6 = 1/3.",
+    "answer": "The numbers greater than 4 on a die are {5, 6}. There are 2 favorable outcomes out of 6 total outcomes. The probability is $\\frac{2}{6} = \\frac{1}{3}$.",
     "marks": 2
   },
-
   {
     "type": "short",
     "text": "From a bag of 6 red and 4 blue balls, one is drawn. Find probability it is red. [SSC 2019]",
-    "answer": "Favourable = 6. Total = 10. Probability = 6/10 = 3/5.",
+    "answer": "The total number of balls is 6 + 4 = 10. The number of red balls is 6. The probability is $\\frac{6}{10} = \\frac{3}{5}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "A card is drawn. Find probability it is neither ace nor king. [SSC 2020]",
-    "answer": "Aces = 4, Kings = 4 ⇒ total 8. Favourable = 52 − 8 = 44. Probability = 44/52 = 11/13.",
+    "answer": "There are 4 aces and 4 kings in a 52-card deck, for a total of 8. The number of cards that are neither is $52 - 8 = 44$. The probability is $\\frac{44}{52} = \\frac{11}{13}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "Two dice are rolled. Probability of getting sum 7. [SSC 2018]",
-    "answer": "Favourable = {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} = 6. Total = 36. Probability = 6/36 = 1/6.",
+    "answer": "The total number of outcomes is $6 \\times 6 = 36$. The combinations that sum to 7 are {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}. There are 6 favorable outcomes. The probability is $\\frac{6}{36} = \\frac{1}{6}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "A card drawn is a black face card. Probability? [SSC 2017]",
-    "answer": "Black suits = 26 cards. Face cards = J,Q,K ⇒ 6 black face cards. Probability = 6/52 = 3/26.",
+    "answer": "There are 3 face cards (Jack, Queen, King) in each of the 4 suits. The black suits are Clubs and Spades. So there are $3 \\times 2 = 6$ black face cards. The probability is $\\frac{6}{52} = \\frac{3}{26}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "A die is thrown. Probability of getting number not divisible by 3. [Predicted 2025]",
-    "answer": "Multiples of 3 = {3,6} = 2. Not divisible = 4. Probability = 4/6 = 2/3.",
+    "answer": "The numbers divisible by 3 on a die are {3, 6}. The numbers not divisible by 3 are {1, 2, 4, 5}. There are 4 favorable outcomes out of 6. The probability is $\\frac{4}{6} = \\frac{2}{3}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "Probability of drawing a queen or king from a pack. [SSC 2019]",
-    "answer": "Queens=4, Kings=4 ⇒ total 8. Probability=8/52=2/13.",
+    "answer": "There are 4 queens and 4 kings in a deck, for a total of 8. The probability is $\\frac{8}{52} = \\frac{2}{13}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "Two coins are tossed. Probability of getting no head. [SSC 2018]",
-    "answer": "Sample space={HH,HT,TH,TT}. No head={TT}=1. Total=4. Probability=1/4.",
+    "answer": "The sample space is {HH, HT, TH, TT}. The outcome with no head is {TT}. The probability is $\\frac{1}{4}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "A card drawn is a spade. Probability? [SSC 2017]",
-    "answer": "Spades=13. Total=52. Probability=13/52=1/4.",
+    "text": "A card is drawn. Probability of a spade. [SSC 2017]",
+    "answer": "There are 13 spades in a deck of 52. The probability is $\\frac{13}{52} = \\frac{1}{4}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "A die is rolled. Probability of prime number greater than 2. [Predicted 2025]",
-    "answer": "Primes>2 in {3,5} ⇒ 2 outcomes. Total=6. Probability=2/6=1/3.",
+    "answer": "The prime numbers on a die greater than 2 are {3, 5}. There are 2 favorable outcomes out of 6. The probability is $\\frac{2}{6} = \\frac{1}{3}$.",
     "marks": 2
   },
   {
     "type": "short",
     "text": "A card is drawn. Probability of red king. [SSC 2016]",
-    "answer": "Red kings=2. Total=52. Probability=2/52=1/26.",
+    "answer": "There are two red kings (King of Hearts and King of Diamonds) in a deck. The probability is $\\frac{2}{52} = \\frac{1}{26}$.",
     "marks": 2
   },
-
   {
     "type": "long",
     "text": "Two dice are thrown. Find probability of getting (i) both numbers even, (ii) at least one odd. [SSC 2019]",
-    "answer": "(i) Even outcomes per die = {2,4,6}=3. So total =3×3=9. Probability=9/36=1/4. (ii) At least one odd = 1−P(both even)=1−1/4=3/4.",
+    "answer": "The total number of outcomes is $6 \\times 6 = 36$.<br>(i) Both numbers even: The even numbers on a die are {2, 4, 6}. There are 3 even numbers. The number of outcomes with both even is $3 \\times 3 = 9$. The probability is $\\frac{9}{36} = \\frac{1}{4}$.<br>(ii) At least one odd: This is the complement of getting both numbers even. The probability is $1 - P(\\text{both even}) = 1 - \\frac{1}{4} = \\frac{3}{4}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "From a bag of 4 red, 5 black, 7 white balls, one is drawn. Find probability of (i) black, (ii) not red. [SSC 2020]",
-    "answer": "Total=16. (i) Black=5 ⇒ P=5/16. (ii) Not red=5+7=12 ⇒ P=12/16=3/4.",
+    "answer": "The total number of balls is $4 + 5 + 7 = 16$.<br>(i) The number of black balls is 5. The probability is $\\frac{5}{16}$.<br>(ii) The number of balls that are not red is 5 (black) + 7 (white) = 12. The probability is $\\frac{12}{16} = \\frac{3}{4}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "Two cards drawn at random from 52 without replacement. Probability both are aces. [SSC 2017]",
-    "answer": "P= (4/52)×(3/51)=12/2652=1/221.",
+    "answer": "The probability of the first card being an ace is $\\frac{4}{52}$. Since it's without replacement, there are now 51 cards left, with 3 aces. The probability of the second card also being an ace is $\\frac{3}{51}$. The total probability is $(\\frac{4}{52}) \\times (\\frac{3}{51}) = \\frac{12}{2652} = \\frac{1}{221}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "A die is rolled twice. Find probability of getting (i) same number on both, (ii) different numbers. [SSC 2018]",
-    "answer": "Total=36. (i) Same=6 ⇒ P=6/36=1/6. (ii) Different=36−6=30 ⇒ P=30/36=5/6.",
+    "answer": "The total number of outcomes is $6 \\times 6 = 36$.<br>(i) Same number on both: The favorable outcomes are {(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)}. There are 6 such outcomes. The probability is $\\frac{6}{36} = \\frac{1}{6}$.<br>(ii) Different numbers: This is the complement of getting the same number. The probability is $1 - P(\\text{same numbers}) = 1 - \\frac{1}{6} = \\frac{5}{6}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "Three coins are tossed. Find probability of (i) 3 heads, (ii) exactly 2 heads, (iii) at least 1 tail. [SSC 2016]",
-    "answer": "Sample space=8. (i) {HHH}=1 ⇒ P=1/8. (ii) {HHT, HTH, THH}=3 ⇒ P=3/8. (iii) At least 1 tail = 1−P(no tail)=1−1/8=7/8.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "From 52 cards, one drawn. Find probability of (i) red face card, (ii) black non-face card. [SSC 2021]",
-    "answer": "(i) Red face=6 ⇒ P=6/52=3/26. (ii) Black cards=26, face=6 ⇒ non-face=20 ⇒ P=20/52=5/13.",
+    "answer": "The sample space for tossing three coins has $2^3 = 8$ outcomes: {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}.<br>(i) 3 heads: The outcome is {HHH}. There is 1 favorable outcome. The probability is $\\frac{1}{8}$.<br>(ii) Exactly 2 heads: The outcomes are {HHT, HTH, THH}. There are 3 favorable outcomes. The probability is $\\frac{3}{8}$.<br>(iii) At least 1 tail: This is the complement of getting no tails (which is 3 heads). The probability is $1 - P(\\text{no tails}) = 1 - \\frac{1}{8} = \\frac{7}{8}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Two dice thrown. Find probability that sum ≥ 10. [SSC 2022]",
-    "answer": "Favourable sums 10,11,12. (10: (4,6),(5,5),(6,4)=3), (11: (5,6),(6,5)=2), (12:(6,6)=1). Total=6. Probability=6/36=1/6.",
+    "text": "From 52 cards, one drawn. Find probability of (i) red face card, (ii) black non-face card. [SSC 2021]",
+    "answer": "Total number of cards is 52.<br>(i) Red face cards: The red suits are Hearts and Diamonds. Each has 3 face cards (J, Q, K). So, there are $2 \\times 3 = 6$ red face cards. The probability is $\\frac{6}{52} = \\frac{3}{26}$.<br>(ii) Black non-face cards: There are 26 black cards. The black face cards are 6 (3 in Clubs, 3 in Spades). So, the number of black non-face cards is $26 - 6 = 20$. The probability is $\\frac{20}{52} = \\frac{5}{13}$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Two dice thrown. Find probability that sum $\\geq$ 10. [SSC 2022]",
+    "answer": "The total number of outcomes is 36. The sums that are $\\geq$ 10 are 10, 11, and 12.<br>Sum of 10: {(4,6), (5,5), (6,4)} - 3 outcomes.<br>Sum of 11: {(5,6), (6,5)} - 2 outcomes.<br>Sum of 12: {(6,6)} - 1 outcome.<br>Total favorable outcomes = $3 + 2 + 1 = 6$. The probability is $\\frac{6}{36} = \\frac{1}{6}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "A bag has 3 red, 4 green, 5 blue balls. Two are drawn together. Find probability (i) both green, (ii) one red & one blue. [Predicted 2025]",
-    "answer": "Total ways=12C2=66. (i) Green=4C2=6 ⇒ P=6/66=1/11. (ii) Red 3C1×Blue 5C1=15 ⇒ P=15/66=5/22.",
-    "marks": 4
+    "answer": "The total number of balls is $3 + 4 + 5 = 12$. The number of ways to draw 2 balls from 12 is $\\binom{12}{2} = \\frac{12 \\times 11}{2} = 66$.<br>(i) Both green: The number of ways to draw 2 green balls from 4 is $\\binom{4}{2} = \\frac{4 \\times 3}{2} = 6$. The probability is $\\frac{6}{66} = \\frac{1}{11}$.<br>(ii) One red and one blue: The number of ways to draw 1 red from 3 is $\\binom{3}{1} = 3$. The number of ways to draw 1 blue from 5 is $\\binom{5}{1} = 5$. The total number of ways is $3 \\times 5 = 15$. The probability is $\\frac{15}{66} = \\frac{5}{22}$.",
+    "marks": 3
   },
   {
     "type": "long",
     "text": "From 52 cards, one card drawn. Probability that it is (i) not a heart, (ii) neither ace nor spade. [Predicted 2025]",
-    "answer": "(i) Hearts=13 ⇒ not heart=39 ⇒ P=39/52=3/4. (ii) Ace=4, Spades=13, but ace of spades counted twice ⇒ total=16. Not ace/spade=36 ⇒ P=36/52=9/13.",
+    "answer": "Total number of cards is 52.<br>(i) Not a heart: There are 13 hearts in a deck. The number of cards that are not hearts is $52 - 13 = 39$. The probability is $\\frac{39}{52} = \\frac{3}{4}$.<br>(ii) Neither ace nor spade: There are 4 aces and 13 spades. The Ace of Spades is counted in both, so the total number of aces or spades is $4 + 13 - 1 = 16$. The number of cards that are neither is $52 - 16 = 36$. The probability is $\\frac{36}{52} = \\frac{9}{13}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "A card drawn. Find probability it is (i) jack or queen, (ii) number card (2–10). [SSC 2019]",
-    "answer": "(i) J=4, Q=4 ⇒ 8/52=2/13. (ii) Number cards=9 per suit ×4=36 ⇒ 36/52=9/13.",
+    "answer": "Total number of cards is 52.<br>(i) Jack or queen: There are 4 jacks and 4 queens. The number of favorable outcomes is $4 + 4 = 8$. The probability is $\\frac{8}{52} = \\frac{2}{13}$.<br>(ii) Number card: The number cards are 2, 3, 4, 5, 6, 7, 8, 9, 10. There are 9 number cards in each of the 4 suits. The total is $9 \\times 4 = 36$. The probability is $\\frac{36}{52} = \\frac{9}{13}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "Two dice thrown. Find probability of (i) sum=8, (ii) sum not equal to 7. [Predicted 2025]",
-    "answer": "(i) Sum=8: {(2,6),(3,5),(4,4),(5,3),(6,2)}=5 ⇒ P=5/36. (ii) Not 7 ⇒ 36−6=30 ⇒ P=30/36=5/6.",
+    "answer": "The total number of outcomes is 36. The sums that are $\\geq$ 10 are 10, 11, and 12.<br>Sum of 8: The combinations are {(2,6), (3,5), (4,4), (5,3), (6,2)}. There are 5 favorable outcomes. The probability is $\\frac{5}{36}$.<br>(ii) Sum not equal to 7: The combinations that sum to 7 are {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}. There are 6 such outcomes. The probability of getting a sum of 7 is $\\frac{6}{36} = \\frac{1}{6}$. The probability of the sum not being 7 is $1 - \\frac{1}{6} = \\frac{5}{6}$.",
     "marks": 3
   },
   {
     "type": "long",
     "text": "Three coins tossed. Find probability of (i) at least 2 heads, (ii) at most 2 tails. [SSC 2020]",
-    "answer": "Sample=8. (i) At least 2 heads={HHT,HTH,THH,HHH}=4 ⇒ P=4/8=1/2. (ii) At most 2 tails=8−P(3 tails)=8−1=7 outcomes ⇒ 7/8.",
-    "marks": 4
+    "answer": "The sample space has $2^3 = 8$ outcomes: {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}.<br>(i) At least 2 heads: The outcomes with 2 or 3 heads are {HHH, HHT, HTH, THH}. There are 4 favorable outcomes. The probability is $\\frac{4}{8} = \\frac{1}{2}$.<br>(ii) At most 2 tails: This is the complement of getting 3 tails. The outcome with 3 tails is {TTT}. The probability of getting 3 tails is $\\frac{1}{8}$. The probability of at most 2 tails is $1 - P(\\text{3 tails}) = 1 - \\frac{1}{8} = \\frac{7}{8}$.",
+    "marks": 3
   },
   {
     "type": "long",
     "text": "A bag has 5 red, 3 black, 2 white balls. One drawn. Find probability of (i) white, (ii) not black, (iii) red or black. [SSC 2016]",
-    "answer": "Total=10. (i) White=2 ⇒ 2/10=1/5. (ii) Not black=7 ⇒ 7/10. (iii) Red or black=5+3=8 ⇒ 8/10=4/5.",
+    "answer": "The total number of balls is $5 + 3 + 2 = 10$.<br>(i) White: There are 2 white balls. The probability is $\\frac{2}{10} = \\frac{1}{5}$.<br>(ii) Not black: There are 5 red + 2 white = 7 balls that are not black. The probability is $\\frac{7}{10}$.<br>(iii) Red or black: The number of red or black balls is $5 + 3 = 8$. The probability is $\\frac{8}{10} = \\frac{4}{5}$.",
     "marks": 3
   }
 ]

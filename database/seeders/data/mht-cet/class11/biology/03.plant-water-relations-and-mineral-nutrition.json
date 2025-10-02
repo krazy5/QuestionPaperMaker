@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The potential energy of water in a given system is known as:",
+    "options": [
+      "(a) Osmotic pressure",
+      "(b) Turgor pressure",
+      "(c) Water potential",
+      "(d) Diffusion Pressure Deficit"
+    ],
+    "correct_answer": "c",
+    "answer": "Water potential ($\\Psi_w$) is the potential energy of water in a system relative to pure water. It is a measure of the free energy of water molecules and determines the direction of water movement.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Water absorbed by solids (colloids) causing them to increase in volume is a process called:",
+    "options": [
+      "(a) Osmosis",
+      "(b) Diffusion",
+      "(c) Imbibition",
+      "(d) Plasmolysis"
+    ],
+    "correct_answer": "c",
+    "answer": "Imbibition is a type of diffusion where water is absorbed by solid particles (colloids), causing them to swell. This process is crucial for the germination of seeds.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "When a cell is placed in a hypertonic solution, it becomes:",
+    "options": [
+      "(a) Turgid",
+      "(b) Plasmolysed",
+      "(c) Flaccid",
+      "(d) Normal"
+    ],
+    "correct_answer": "b",
+    "answer": "A hypertonic solution has a lower water potential than the cell sap. When a cell is placed in such a solution, water moves out of the cell by exosmosis, causing the protoplast to shrink and the cell to become plasmolysed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pressure exerted by the cell contents on the cell wall is called:",
+    "options": [
+      "(a) Osmotic pressure",
+      "(b) Turgor pressure",
+      "(c) Wall pressure",
+      "(d) Diffusion pressure"
+    ],
+    "correct_answer": "b",
+    "answer": "When water enters a plant cell, it causes the protoplast to swell and press against the cell wall. This pressure is known as turgor pressure.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a macronutrient for plants?",
+    "options": [
+      "(a) Iron",
+      "(b) Zinc",
+      "(c) Calcium",
+      "(d) Copper"
+    ],
+    "correct_answer": "c",
+    "answer": "Macronutrients are elements required in large quantities by plants. Carbon, hydrogen, oxygen, nitrogen, phosphorus, sulfur, potassium, calcium, and magnesium are macronutrients. Iron, zinc, and copper are micronutrients.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant hormone is responsible for the closure of stomata?",
+    "options": [
+      "(a) Auxin",
+      "(b) Gibberellin",
+      "(c) Cytokinin",
+      "(d) Abscisic acid"
+    ],
+    "correct_answer": "d",
+    "answer": "Abscisic acid (ABA) is a plant hormone that acts as an inhibitor of plant growth. It plays a major role in inducing dormancy and the closure of stomata during water stress.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Transpiration is the process of water loss from plants in the form of:",
+    "options": [
+      "(a) Liquid",
+      "(b) Vapor",
+      "(c) Both liquid and vapor",
+      "(d) None of these"
+    ],
+    "correct_answer": "b",
+    "answer": "Transpiration is the process by which water is lost from the aerial parts of the plant, primarily through the stomata on leaves, in the form of vapor.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The force of attraction between water molecules is called:",
+    "options": [
+      "(a) Adhesion",
+      "(b) Cohesion",
+      "(c) Imbibition",
+      "(d) Osmosis"
+    ],
+    "correct_answer": "b",
+    "answer": "Cohesive force is the force of attraction between like molecules. In the context of water transport in plants, this refers to the strong attraction between water molecules that forms a continuous column of water in the xylem.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a micronutrient?",
+    "options": [
+      "(a) Nitrogen",
+      "(b) Phosphorus",
+      "(c) Sulfur",
+      "(d) Molybdenum"
+    ],
+    "correct_answer": "d",
+    "answer": "Micronutrients are elements required in very small amounts by plants. Molybdenum, iron, manganese, copper, zinc, boron, chlorine, and nickel are all micronutrients.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon of water rising in a narrow tube due to cohesive and adhesive forces is called:",
+    "options": [
+      "(a) Transpiration",
+      "(b) Osmosis",
+      "(c) Capillarity",
+      "(d) Imbibition"
+    ],
+    "correct_answer": "c",
+    "answer": "Capillarity is the phenomenon of a liquid rising in a narrow tube against the force of gravity. In plants, the narrow xylem vessels act as capillaries, aiding in the ascent of water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Root pressure is a positive pressure that develops in the xylem due to:",
+    "options": [
+      "(a) Active absorption of water",
+      "(b) Passive absorption of water",
+      "(c) Transpiration pull",
+      "(d) Photosynthesis"
+    ],
+    "correct_answer": "a",
+    "answer": "Root pressure is a positive pressure that pushes water up the xylem. It is developed in the roots due to the active absorption of water by the root cells.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The loss of water in the form of liquid droplets from the leaf margins is called:",
+    "options": [
+      "(a) Transpiration",
+      "(b) Evaporation",
+      "(c) Guttation",
+      "(d) Exosmosis"
+    ],
+    "correct_answer": "c",
+    "answer": "Guttation is the loss of water in its liquid form from the margins of leaves. It occurs through specialized pores called hydathodes, especially when transpiration is low and water absorption is high.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main force responsible for the ascent of sap in tall trees is:",
+    "options": [
+      "(a) Root pressure",
+      "(b) Capillarity",
+      "(c) Transpiration pull",
+      "(d) Atmospheric pressure"
+    ],
+    "correct_answer": "c",
+    "answer": "The transpiration pull theory, or cohesion-tension theory, is the most widely accepted mechanism for the ascent of sap in tall trees. The pull generated by transpiration from the leaves creates a tension that draws water up the xylem vessels.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an essential element for the synthesis of chlorophyll?",
+    "options": [
+      "(a) Magnesium",
+      "(b) Potassium",
+      "(c) Calcium",
+      "(d) Sodium"
+    ],
+    "correct_answer": "a",
+    "answer": "Magnesium is a central atom in the porphyrin ring structure of the chlorophyll molecule, making it essential for chlorophyll synthesis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Osmosis is a type of diffusion that occurs across a:",
+    "options": [
+      "(a) Permeable membrane",
+      "(b) Semipermeable membrane",
+      "(c) Non-permeable membrane",
+      "(d) None of these"
+    ],
+    "correct_answer": "b",
+    "answer": "Osmosis is the spontaneous net movement of solvent molecules through a selectively or semipermeable membrane into a region of higher solute concentration, in the direction that tends to equalize the solute concentrations on the two sides.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pressure required to prevent the passage of solvent due to osmosis is known as:",
+    "options": [
+      "(a) Turgor pressure",
+      "(b) Osmotic potential",
+      "(c) Osmotic pressure",
+      "(d) Diffusion pressure"
+    ],
+    "correct_answer": "c",
+    "answer": "Osmotic pressure ($ \\pi $) is the minimum pressure that must be applied to a solution to prevent the inward flow of its pure solvent across a semipermeable membrane.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following elements is a component of some vitamins and amino acids?",
+    "options": [
+      "(a) Calcium",
+      "(b) Magnesium",
+      "(c) Sulfur",
+      "(d) Potassium"
+    ],
+    "correct_answer": "c",
+    "answer": "Sulfur is an important component of the amino acids cysteine and methionine, and it is also found in some vitamins, such as thiamine and biotin.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The major role of potassium in plant metabolism is:",
+    "options": [
+      "(a) Component of chlorophyll",
+      "(b) Activating enzymes and maintaining turgor",
+      "(c) Component of cell wall",
+      "(d) Involved in photosynthesis"
+    ],
+    "correct_answer": "b",
+    "answer": "Potassium plays a vital role in activating many enzymes and maintaining the turgor pressure of cells, which is important for the opening and closing of stomata.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The diffusion of water across a semipermeable membrane from a region of high water potential to a region of low water potential is called:",
+    "options": [
+      "(a) Active transport",
+      "(b) Imbibition",
+      "(c) Osmosis",
+      "(d) Transpiration"
+    ],
+    "correct_answer": "c",
+    "answer": "This is the precise definition of osmosis. Water moves from a less negative (or zero) water potential to a more negative water potential.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where a plant cell has lost water and the protoplast has shrunk away from the cell wall is known as:",
+    "options": [
+      "(a) Turgidity",
+      "(b) Plasmolysis",
+      "(c) Flaccidity",
+      "(d) Imbibition"
+    ],
+    "correct_answer": "b",
+    "answer": "Plasmolysis is the process in which the protoplast shrinks and pulls away from the cell wall due to the loss of water through osmosis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a hydrophytic plant?",
+    "options": [
+      "(a) Cactus",
+      "(b) Water lily",
+      "(c) Pine tree",
+      "(d) Sugarcane"
+    ],
+    "correct_answer": "b",
+    "answer": "Hydrophytes are plants that grow in or on water. A water lily is a classic example. Cactus is a xerophyte, and pine trees and sugarcane are mesophytes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pressure potential of a flaccid cell is:",
+    "options": [
+      "(a) Positive",
+      "(b) Negative",
+      "(c) Zero",
+      "(d) Can be positive or negative"
+    ],
+    "correct_answer": "c",
+    "answer": "In a flaccid cell, there is no net influx of water, and the cell membrane is not exerting any pressure on the cell wall. Therefore, the pressure potential is zero.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of absorbing water and minerals by the roots of plants is called:",
+    "options": [
+      "(a) Transpiration",
+      "(b) Absorption",
+      "(c) Photosynthesis",
+      "(d) Respiration"
+    ],
+    "correct_answer": "b",
+    "answer": "Absorption is the process by which roots take up water and minerals from the soil. This is followed by the upward movement of water in the plant.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary role of the xylem is to:",
+    "options": [
+      "(a) Transport food from leaves to other parts",
+      "(b) Transport water and minerals from roots to leaves",
+      "(c) Provide structural support to the plant",
+      "(d) Store water in the plant"
+    ],
+    "correct_answer": "b",
+    "answer": "The xylem is a vascular tissue in plants that is responsible for the transport of water and dissolved minerals from the roots up to the rest of the plant.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a function of the mineral element phosphorus in plants?",
+    "options": [
+      "(a) Component of chlorophyll",
+      "(b) Constituent of ATP and nucleic acids",
+      "(c) Regulates the opening and closing of stomata",
+      "(d) Component of the cell wall"
+    ],
+    "correct_answer": "b",
+    "answer": "Phosphorus is a crucial component of molecules like ATP (adenosine triphosphate), nucleic acids (DNA and RNA), and phospholipids. It is essential for energy transfer and genetic information storage.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Diffusion Pressure Deficit (DPD) is the difference between:",
+    "options": [
+      "(a) Osmotic Pressure and Turgor Pressure",
+      "(b) Turgor Pressure and Wall Pressure",
+      "(c) Osmotic Potential and Pressure Potential",
+      "(d) Water Potential and Solute Potential"
+    ],
+    "correct_answer": "a",
+    "answer": "DPD, also known as suction pressure, is the measure of the water-absorbing capacity of a cell. It is given by the formula $DPD = OP - TP$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cohesive property of water molecules is due to:",
+    "options": [
+      "(a) Covalent bonds",
+      "(b) Ionic bonds",
+      "(c) Hydrogen bonds",
+      "(d) Van der Waals forces"
+    ],
+    "correct_answer": "c",
+    "answer": "The strong cohesive forces between water molecules are due to the hydrogen bonds formed between the hydrogen of one water molecule and the oxygen of a neighboring water molecule.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT an effect of transpiration?",
+    "options": [
+      "(a) Ascent of sap",
+      "(b) Cooling of leaves",
+      "(c) Root pressure development",
+      "(d) Distribution of mineral salts"
+    ],
+    "correct_answer": "c",
+    "answer": "Transpiration pull is a negative pressure, while root pressure is a positive pressure. Transpiration is the primary force for the ascent of sap, and it cools the leaves. It also helps in the distribution of mineral salts. Root pressure is a separate mechanism.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Hydroponics is a technique used for:",
+    "options": [
+      "(a) Growing plants in water containing dissolved nutrients",
+      "(b) Growing plants in soil",
+      "(c) Growing plants without water",
+      "(d) Growing plants in sand"
+    ],
+    "correct_answer": "a",
+    "answer": "Hydroponics is the method of growing plants using mineral nutrient solutions in water, without soil.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which element is a crucial component of the middle lamella in a plant cell?",
+    "options": [
+      "(a) Magnesium",
+      "(b) Calcium",
+      "(c) Potassium",
+      "(d) Sodium"
+    ],
+    "correct_answer": "b",
+    "answer": "The middle lamella, which cements the cell walls of adjacent plant cells, is primarily composed of calcium pectate and magnesium pectate. Therefore, calcium is a crucial component.",
+    "marks": 1
+  }
+]

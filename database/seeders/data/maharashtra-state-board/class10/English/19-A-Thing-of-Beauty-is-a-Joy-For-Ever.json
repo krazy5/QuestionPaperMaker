@@ -1,0 +1,28 @@
+[
+  {
+    "type": "long",
+    "text": "<b>Read the following extract and answer the questions that follow.</b><br><br><i>A thing of beauty is a joy for ever:<br>Its loveliness increases; it will never<br>Pass into nothingness; but still will keep<br>A bower quiet for us, and a sleep<br>Full of sweet dreams, and health, and quiet breathing.<br><br>Therefore, on every morrow, are we wreathing<br>A flowery band to bind us to the earth,<br>Spite of despondence, of the inhuman dearth<br>Of noble natures, of the gloomy days,<br>Of all the unhealthy and o’er-darkened ways<br>Made for our searching...</i><br><br><b>A1. Simple Factual (2 marks)</b><br>What are the three things a 'bower quiet' provides for us?<br><br><b>A2. Complex Factual (2 marks)</b><br>According to the poet, what are the negative things in our lives that make us unhappy?<br><br><b>A3. Poetic Device (1 mark)</b><br>Identify and explain the figure of speech in the line: 'A flowery band to bind us to the earth'.",
+    "answer": "<b>A1.</b> A 'bower quiet' provides us with:<br>1. A sleep full of sweet dreams.<br>2. Health.<br>3. Quiet breathing.<br><br><b>A2.</b> According to the poet, the negative things that make us unhappy are despondence (sadness), the inhuman lack ('dearth') of noble people, gloomy days, and all the unhealthy and dark paths we have to face in life.<br><br><b>A3.</b> The figure of speech is <b>Metaphor</b>. The beautiful things in our life are implicitly compared to a 'flowery band' that connects us and gives us a reason to live on this earth.",
+    "marks": 5
+  },
+  {
+    "type": "long",
+    "text": "<b>Write the appreciation of the poem 'A Thing of Beauty is a Joy For Ever'. You can use the following points:</b><br><ul><li>About the poem/poet and the title</li><li>The theme</li><li>Poetic style, language, poetic devices</li><li>Special features/message</li><li>Your opinion about the poem</li></ul>",
+    "answer": "<b>Appreciation of the Poem</b><br><br><b>About the Poem/Poet:</b> This poem is an excerpt from 'Endymion: A Poetic Romance' by the famous English Romantic poet, John Keats. The title, which is also the first line, encapsulates the central idea of the poem.<br><br><b>Theme:</b> The central theme is the power of beauty to provide everlasting joy and solace. Keats states that a beautiful thing is a constant source of happiness, and its beauty only grows with time. It provides us with comfort and helps us endure the sorrows and disappointments of life.<br><br><b>Poetic Style and Devices:</b> The poem is written in rhyming couplets, with an AABB rhyme scheme. The language is rich with imagery. The poet uses several figures of speech, including <b>Metaphor</b> (e.g., 'a bower quiet for us', 'a flowery band'), <b>Antithesis</b> (contrast between 'gloomy days' and 'shape of beauty'), and <b>Alliteration</b> (e.g., 'noble natures').<br><br><b>Special Features/Message:</b> The poem's special feature is its optimistic and philosophical tone. The powerful message is that beauty, in any form, has the divine ability to lift our spirits and remove the negativity from our lives. It gives us a reason to live and connects us to the earth.<br><br><b>My Opinion:</b> I find this poem to be incredibly beautiful and comforting. It's a wonderful reminder that even when life is difficult, we can find joy and hope by appreciating the beautiful things around us, whether in nature, art, or human actions.",
+    "marks": 5
+  },
+  {
+    "type": "short",
+    "text": "What does the poet mean by 'a thing of beauty will never pass into nothingness'?",
+    "answer": "The poet means that the joy and happiness provided by a beautiful thing are eternal and permanent. Unlike material objects that decay, the impact of a beautiful thing on our soul never fades away. Its loveliness and the pleasure it gives us only increase as time goes by.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "According to the poet, what 'moves away the pall from our dark spirits'?",
+    "answer": "According to the poet, it is 'some shape of beauty' that removes the pall (a dark cloud of sadness and gloom) from our dark spirits. This means that whenever we are sad or depressed, experiencing something beautiful—like the sun, the moon, or a simple flower—can lift our spirits and bring us happiness.",
+    "marks": 2
+  }
+]
+
+	

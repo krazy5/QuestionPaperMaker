@@ -1,314 +1,420 @@
 [
   {
     "type": "mcq",
-    "text": "Length of arc of a circle of radius r and central angle θ (in degrees) is:",
-    "options": ["πrθ/180", "(θ/360)·2πr", "(θ/180)·πr^2", "2πrθ"],
+    "text": "Right $\\triangle$ABC with $\\angle$B = $90^\\circ$. If $\\angle$A = $\\theta$, then sin $\\theta$ equals:",
+    "options": [
+      "AB/AC",
+      "BC/AC",
+      "AC/BC",
+      "AC/AB"
+    ],
     "correct_answer": "B",
+    "answer": "The sine of an angle in a right triangle is the ratio of the length of the opposite side to the length of the hypotenuse. For angle A, the opposite side is BC and the hypotenuse is AC. Therefore, sin $\\theta = \\frac{BC}{AC}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Area of a sector (radius r, angle θ in degrees) equals:",
-    "options": ["(θ/360)·πr^2", "(θ/180)·2πr", "πrθ", "πr^2θ"],
-    "correct_answer": "A",
+    "text": "The value of cos $60^\\circ$ is:",
+    "options": [
+      "0",
+      "1/2",
+      "$\\sqrt{3}/2$",
+      "1"
+    ],
+    "correct_answer": "B",
+    "answer": "This is a standard trigonometric value. The cosine of $60^\\circ$ is $\\frac{1}{2}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "For r = 7 cm and θ = 90°, the arc length is:",
-    "options": ["7π cm", "14π cm", "7π/2 cm", "π/2 cm"],
+    "text": "Right $\\triangle$ABC with $\\angle$B=$90^\\circ$, AB=3, BC=4, AC=5. Then tan A equals:",
+    "options": [
+      "3/4",
+      "4/5",
+      "4/3",
+      "3/5"
+    ],
     "correct_answer": "C",
+    "answer": "The tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side. For angle A, the opposite side is BC (length 4) and the adjacent side is AB (length 3). Therefore, tan A = $\\frac{4}{3}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "For r = 14 cm and θ = 60°, the sector area is:",
-    "options": ["49π/3 cm²", "98π/3 cm²", "196π/3 cm²", "14π cm²"],
+    "text": "For acute angles, sin($90^\\circ$-$\\theta$) equals:",
+    "options": [
+      "tan $\\theta$",
+      "cos $\\theta$",
+      "sec $\\theta$",
+      "cosec $\\theta$"
+    ],
     "correct_answer": "B",
+    "answer": "This is a fundamental trigonometric identity for complementary angles. The sine of an angle is equal to the cosine of its complementary angle, and vice-versa. Therefore, sin($90^\\circ$-$\\theta$) = cos $\\theta$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Curved surface area (CSA) of a right circular cylinder is:",
-    "options": ["πr^2h", "2πr(h + r)", "2πrh", "πr(h + r)"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Total surface area (TSA) of a cylinder (including both bases) is:",
-    "options": ["2πrh", "2πr(h + r)", "πr^2h", "πr(h + r)"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Volume of a cylinder (radius r, height h):",
-    "options": ["πr^2h", "(1/3)πr^2h", "2πrh", "4πr^2"],
+    "text": "If cos $\\theta$ = 4/5 for acute $\\theta$, then sin $\\theta$ is:",
+    "options": [
+      "3/5",
+      "5/4",
+      "4/3",
+      "$\\sqrt{5}/2$"
+    ],
     "correct_answer": "A",
+    "answer": "Using the Pythagorean identity sin$^2\\theta + \\text{cos}^2\\theta = 1$, we can find sin $\\theta$.<br>sin$^2\\theta = 1 - \\text{cos}^2\\theta = 1 - (\\frac{4}{5})^2 = 1 - \\frac{16}{25} = \\frac{9}{25}$.<br>sin $\\theta = \\sqrt{\\frac{9}{25}} = \\frac{3}{5}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "CSA of a cone (radius r, slant height l):",
-    "options": ["πrl", "πr(l + r)", "(1/3)πr^2l", "2πrl"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Volume of a cone (radius r, height h):",
-    "options": ["πr^2h", "(1/2)πr^2h", "(1/3)πr^2h", "2πr(h + r)"],
+    "text": "The value of tan $45^\\circ$ is:",
+    "options": [
+      "0",
+      "1/$\\sqrt{3}$",
+      "1",
+      "$\\sqrt{3}$"
+    ],
     "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The tangent of $45^\\circ$ is 1.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Surface area of a sphere of radius r is:",
-    "options": ["2πr^2", "3πr^2", "4πr^2", "πr^2"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Volume of a sphere of radius r is:",
-    "options": ["(4/3)πr^3", "2πr^3", "πr^3", "(3/4)πr^3"],
+    "text": "If sin $\\theta$ = 1/2 for acute $\\theta$, then $\\theta$ equals:",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
     "correct_answer": "A",
+    "answer": "The value of sin $\\theta$ is 1/2 when the angle $\\theta$ is $30^\\circ$. This is a standard trigonometric value.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "For a cone of radius r and height h, the slant height l equals:",
-    "options": ["r + h", "√(r^2 + h^2)", "h − r", "rh"],
-    "correct_answer": "B",
+    "text": "The value of tan $60^\\circ$ is:",
+    "options": [
+      "1/$\\sqrt{3}$",
+      "1",
+      "$\\sqrt{3}$",
+      "2"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The tangent of $60^\\circ$ is $\\sqrt{3}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "CSA of a frustum of a cone with radii R and r, slant height s:",
-    "options": ["π(R^2 − r^2)", "π(R + r)s", "(1/3)π(R^2 + Rr + r^2)", "2π(R + r)h"],
-    "correct_answer": "B",
+    "text": "If sin $\\theta$ = 12/13 ($\\theta$ acute), then cos $\\theta$ is:",
+    "options": [
+      "5/13",
+      "12/5",
+      "13/12",
+      "$\\sqrt{1-12/13}$"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the Pythagorean identity sin$^2\\theta + \\text{cos}^2\\theta = 1$, we can find cos $\\theta$.<br>cos$^2\\theta = 1 - \\text{sin}^2\\theta = 1 - (\\frac{12}{13})^2 = 1 - \\frac{144}{169} = \\frac{25}{169}$.<br>cos $\\theta = \\sqrt{\\frac{25}{169}} = \\frac{5}{13}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Volume of a frustum (radii R, r and height h) is:",
-    "options": ["πRh", "(1/3)πh(R^2 + Rr + r^2)", "(1/2)πh(R^2 − r^2)", "πr^2h"],
-    "correct_answer": "B",
+    "text": "Which is correct for acute $\\theta$?",
+    "options": [
+      "tan $\\theta$ = sin $\\theta$ / cos $\\theta$",
+      "tan $\\theta$ = cos $\\theta$ / sin $\\theta$",
+      "tan $\\theta$ = 1 / sin $\\theta$",
+      "tan $\\theta$ = 1 / cos $\\theta$"
+    ],
+    "correct_answer": "A",
+    "answer": "The identity tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta}$ is a fundamental trigonometric identity derived from the definitions of the ratios.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "[Application] A cylindrical can has r = 3 cm and h = 10 cm. Area of the label (curved surface) is:",
-    "options": ["30π cm²", "60π cm²", "90π cm²", "120π cm²"],
-    "correct_answer": "B",
+    "text": "sin($90^\\circ$ - $\\theta$) equals:",
+    "options": [
+      "sin $\\theta$",
+      "tan $\\theta$",
+      "cos $\\theta$",
+      "sec $\\theta$"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a co-function identity. The sine of an angle is equal to the cosine of its complement ($90^\\circ$ - $\\theta$). Therefore, sin($90^\\circ$ - $\\theta$) = cos $\\theta$.",
     "marks": 1
   },
-
+  {
+    "type": "mcq",
+    "text": "If sec $\\theta$ = 5/4 for acute $\\theta$, then tan $\\theta$ equals:",
+    "options": [
+      "3/4",
+      "4/3",
+      "5/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the identity $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$.<br>tan$^2\\theta = \\text{sec}^2\\theta - 1 = (\\frac{5}{4})^2 - 1 = \\frac{25}{16} - 1 = \\frac{9}{16}$.<br>tan $\\theta = \\sqrt{\\frac{9}{16}} = \\frac{3}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of cos $0^\\circ$ is:",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "Undefined"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The cosine of $0^\\circ$ is 1.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Right $\\triangle$ABC with $\\angle$B=$90^\\circ$, AB=3, BC=4, AC=5. Then tan A equals:",
+    "options": [
+      "3/4",
+      "4/5",
+      "4/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "The tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side. For angle A, the opposite side is BC (length 4) and the adjacent side is AB (length 3). Therefore, tan A = $\\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sec $\\theta$ = 5/4 for acute $\\theta$, then tan $\\theta$ equals:",
+    "options": [
+      "3/4",
+      "4/3",
+      "5/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the identity $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$.<br>tan$^2\\theta = \\text{sec}^2\\theta - 1 = (\\frac{5}{4})^2 - 1 = \\frac{25}{16} - 1 = \\frac{9}{16}$.<br>tan $\\theta = \\sqrt{\\frac{9}{16}} = \\frac{3}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of tan $60^\\circ$ is:",
+    "options": [
+      "1/$\\sqrt{3}$",
+      "1",
+      "$\\sqrt{3}$",
+      "2"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The tangent of $60^\\circ$ is $\\sqrt{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sin $\\theta$ = 12/13 ($\\theta$ acute), then cos $\\theta$ is:",
+    "options": [
+      "5/13",
+      "12/5",
+      "13/12",
+      "$\\sqrt{1-12/13}$"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the Pythagorean identity sin$^2\\theta + \\text{cos}^2\\theta = 1$, we can find cos $\\theta$.<br>cos$^2\\theta = 1 - \\text{sin}^2\\theta = 1 - (\\frac{12}{13})^2 = 1 - \\frac{144}{169} = \\frac{25}{169}$.<br>cos $\\theta = \\sqrt{\\frac{25}{169}} = \\frac{5}{13}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which is correct for acute $\\theta$?",
+    "options": [
+      "tan $\\theta$ = sin $\\theta$ / cos $\\theta$",
+      "tan $\\theta$ = cos $\\theta$ / sin $\\theta$",
+      "tan $\\theta$ = 1 / sin $\\theta$",
+      "tan $\\theta$ = 1 / cos $\\theta$"
+    ],
+    "correct_answer": "A",
+    "answer": "The identity tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta}$ is a fundamental trigonometric identity derived from the definitions of the ratios.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "sin($90^\\circ$ - $\\theta$) equals:",
+    "options": [
+      "sin $\\theta$",
+      "tan $\\theta$",
+      "cos $\\theta$",
+      "sec $\\theta$"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a co-function identity. The sine of an angle is equal to the cosine of its complement ($90^\\circ$ - $\\theta$). Therefore, sin($90^\\circ$ - $\\theta$) = cos $\\theta$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A tree casts a 12 m shadow when Sun’s elevation is $30^\\circ$. Height of tree is:",
+    "options": [
+      "4 m",
+      "$4\\sqrt{3}$ m",
+      "6 m",
+      "12/$\\sqrt{3}$ m"
+    ],
+    "correct_answer": "B",
+    "answer": "Let the height of the tree be h. The shadow length is 12 m. The angle of elevation is $30^\\circ$. We use the tangent ratio: tan $30^\\circ = \\frac{h}{12}$.<br>$\\frac{1}{\\sqrt{3}} = \\frac{h}{12} \\implies h = \\frac{12}{\\sqrt{3}} = \\frac{12\\sqrt{3}}{3} = 4\\sqrt{3}$ m.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sec $\\theta$ = 5/4 for acute $\\theta$, then tan $\\theta$ equals:",
+    "options": [
+      "3/4",
+      "4/3",
+      "5/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the identity $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$.<br>tan$^2\\theta = \\text{sec}^2\\theta - 1 = (\\frac{5}{4})^2 - 1 = \\frac{25}{16} - 1 = \\frac{9}{16}$.<br>tan $\\theta = \\sqrt{\\frac{9}{16}} = \\frac{3}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of cos $0^\\circ$ is:",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "Undefined"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The cosine of $0^\\circ$ is 1.",
+    "marks": 1
+  },
   {
     "type": "true_false",
-    "text": "Perimeter of a sector (radius r, angle θ) = 2r + (θ/360)·2πr.",
+    "text": "For any acute $\\theta$, sin$^2\\theta + \\text{cos}^2\\theta = 1$.",
     "answer": "True",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "TSA of a hemisphere is 3πr^2.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "TSA of a cone equals πrl.",
+    "text": "tan $\\theta = \\text{cos}\\theta / \\text{sin}\\theta$.",
     "answer": "False",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "For fixed r, arc length is directly proportional to θ (in degrees or radians).",
+    "text": "cosec $\\theta$ is the reciprocal of sin $\\theta$.",
     "answer": "True",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "Volume of a frustum is always the difference of volumes of two cones having the same height.",
+    "text": "[Application] Angle of elevation is measured from the horizontal upward to the line of sight.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "For acute $\\theta$, 0 $\\le$ cos $\\theta$ $\\le$ 1.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "cosec $\\theta \\cdot \\text{sin}\\theta = 1$ for $\\theta \\neq 0^\\circ$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "sec $\\theta \\cdot \\text{cos}\\theta = 0$ for all $\\theta$.",
     "answer": "False",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "For convex polyhedra, Euler’s relation V − E + F = 2 holds.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "Curved surface area of a cylinder equals (perimeter of base) × height.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "If θ is in radians, arc length L = rθ.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "Area of a segment = area of corresponding sector + area of triangle formed by the radii and chord.",
+    "text": "For acute $\\theta$, tan $\\theta$ can never be greater than 1.",
     "answer": "False",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "If slant height of a cone is doubled (radius fixed), its CSA doubles.",
+    "text": "For $\\theta = 90^\\circ$, sin $\\theta = 1$ and cos $\\theta = 0$.",
     "answer": "True",
     "marks": 1
   },
-
   {
     "type": "short",
-    "text": "Find the arc length for r = 7 cm, θ = 90°.",
-    "answer": "Step 1: L = (θ/360)·2πr = (90/360)·2π·7.\nStep 2: L = (1/4)·14π = 7π/2 cm.",
+    "text": "Right $\\triangle$ABC with $\\angle$B=$90^\\circ$, AB=5 (adjacent to $\\angle$A), BC=12 (opposite $\\angle$A), AC=13. Find sin A and cos A.",
+    "answer": "Step 1: The sine of an angle is opposite/hypotenuse. sin A = $\\frac{BC}{AC} = \\frac{12}{13}$.<br>Step 2: The cosine of an angle is adjacent/hypotenuse. cos A = $\\frac{AB}{AC} = \\frac{5}{13}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Find area of sector for r = 14 cm, θ = 60°.",
-    "answer": "Step 1: A = (θ/360)·πr^2 = (60/360)·π·14^2.\nStep 2: A = (1/6)·π·196 = 98π/3 cm².",
+    "text": "If tan $\\theta$ = 3/4 and $\\theta$ is acute, find sin $\\theta$ and cos $\\theta$.",
+    "answer": "Step 1: We can construct a right triangle where the opposite side is 3k and the adjacent side is 4k. By the Pythagorean theorem, the hypotenuse is $\\sqrt{(3k)^2 + (4k)^2} = \\sqrt{9k^2 + 16k^2} = \\sqrt{25k^2} = 5k$.<br>Step 2: sin $\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{3k}{5k} = \\frac{3}{5}$.<br>Step 3: cos $\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{4k}{5k} = \\frac{4}{5}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Find perimeter of a sector with r = 10 cm, θ = 120°.",
-    "answer": "Step 1: Arc length L = (120/360)·2π·10 = (1/3)·20π = 20π/3.\nStep 2: Perimeter = 2r + L = 20 + 20π/3 cm.",
+    "text": "Evaluate 2 sin $30^\\circ$ + 3 cos $60^\\circ$.",
+    "answer": "Step 1: Substitute the standard values. sin $30^\\circ = \\frac{1}{2}$ and cos $60^\\circ = \\frac{1}{2}$.<br>Step 2: Calculate the expression: $2(\\frac{1}{2}) + 3(\\frac{1}{2}) = 1 + \\frac{3}{2} = \\frac{5}{2}$ or 2.5.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Find CSA, TSA and Volume of a cylinder with r = 7 cm, h = 10 cm.",
-    "answer": "Step 1: CSA = 2πrh = 2π·7·10 = 140π cm².\nStep 2: TSA = 2πr(h + r) = 2π·7·(10 + 7) = 238π cm².\nStep 3: V = πr^2h = π·49·10 = 490π cm³.",
+    "text": "Simplify sin $45^\\circ$ + cos $45^\\circ$ and give exact value.",
+    "answer": "Step 1: Substitute the standard values. sin $45^\\circ = \\frac{\\sqrt{2}}{2}$ and cos $45^\\circ = \\frac{\\sqrt{2}}{2}$.<br>Step 2: Sum the values: $\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2} = \\frac{2\\sqrt{2}}{2} = \\sqrt{2}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "A cone has r = 7 cm and l = 25 cm. Find its CSA and TSA.",
-    "answer": "Step 1: CSA = πrl = π·7·25 = 175π cm².\nStep 2: TSA = πr(l + r) = π·7·(25 + 7) = 224π cm².",
+    "text": "If cos $\\theta = 0.8$ (acute), find sec $\\theta$ and tan $\\theta$.",
+    "answer": "Step 1: sec $\\theta = \\frac{1}{\\text{cos}\\theta} = \\frac{1}{0.8} = \\frac{1}{4/5} = \\frac{5}{4}$ or 1.25.<br>Step 2: sin $\\theta = \\sqrt{1 - \\text{cos}^2\\theta} = \\sqrt{1 - (0.8)^2} = \\sqrt{1 - 0.64} = \\sqrt{0.36} = 0.6$.<br>Step 3: tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta} = \\frac{0.6}{0.8} = \\frac{3}{4}$ or 0.75.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "A right cone has r = 7 cm and h = 24 cm. Find its volume.",
-    "answer": "Step 1: V = (1/3)πr^2h = (1/3)π·49·24.\nStep 2: V = 392π cm³.",
+    "text": "[Application] From a point 15 m away from the foot of a tower, angle of elevation is $30^\\circ$. Find the height of the tower.",
+    "answer": "Step 1: Use the tangent ratio: tan $30^\\circ = \\frac{\\text{height (h)}}{\\text{distance (15)}}$.<br>Step 2: Substitute the value of tan $30^\\circ$: $\\frac{1}{\\sqrt{3}} = \\frac{h}{15}$.<br>Step 3: Solve for h: $h = \\frac{15}{\\sqrt{3}} = \\frac{15\\sqrt{3}}{3} = 5\\sqrt{3}$ m.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Find TSA of a hemisphere of radius 7 cm.",
-    "answer": "Step 1: TSA(hemisphere) = 3πr^2.\nStep 2: = 3π·49 = 147π cm².",
+    "text": "Right $\\triangle$ABC, $\\angle$B=$90^\\circ$, AB=7, BC=24. Find sin A and cos A.",
+    "answer": "Step 1: Find the length of the hypotenuse AC using the Pythagorean theorem: $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$.<br>Step 2: sin A = $\\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{BC}{AC} = \\frac{24}{25}$.<br>Step 3: cos A = $\\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{AB}{AC} = \\frac{7}{25}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "For a circle of r = 14 cm and θ = 60°, find area of the minor segment.",
-    "answer": "Step 1: Sector area = (60/360)·π·14^2 = 98π/3.\nStep 2: Triangle area = (1/2)r^2·sin 60° = (1/2)·196·(√3/2) = 49√3.\nStep 3: Segment area = (98π/3 − 49√3) cm².",
+    "text": "Evaluate (sin $30^\\circ$ + sin $60^\\circ$)/(cos $30^\\circ$ + cos $60^\\circ$).",
+    "answer": "Step 1: Substitute the values: $\\frac{\\frac{1}{2} + \\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{3}}{2} + \\frac{1}{2}}$.<br>Step 2: The numerator and denominator are the same, so the expression simplifies to 1.",
     "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] A drum (open at top) has r = 0.35 m and h = 0.9 m. Find metal sheet area needed.",
-    "answer": "Step 1: Open top ⇒ Area = CSA + base = 2πrh + πr^2.\nStep 2: = 2π·0.35·0.9 + π·0.35^2 = 0.63π + 0.1225π = 0.7525π m².",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] A bucket is a frustum with R = 14 cm, r = 7 cm, h = 24 cm. Find its capacity (volume).",
-    "answer": "Step 1: V = (1/3)πh(R^2 + Rr + r^2).\nStep 2: = (1/3)π·24·(196 + 98 + 49) = 8π·343 = 2744π cm³.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] Find fencing length for a sector with r = 10 m, θ = 150°.",
-    "answer": "Step 1: Arc length L = (150/360)·2π·10 = (5/12)·20π = 25π/3 m.\nStep 2: Perimeter = 2r + L = 20 + 25π/3 m.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find arc length when r = 21 cm and θ = 120°.",
-    "answer": "Step 1: L = (120/360)·2π·21 = (1/3)·42π = 14π cm.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "A solid metal sphere of radius 6 cm is melted to form small spheres of radius 3 cm. How many?",
-    "answer": "Step 1: V_big = (4/3)π·6^3 = (4/3)π·216 = 288π.\nStep 2: V_small = (4/3)π·3^3 = (4/3)π·27 = 36π.\nStep 3: Number = 288π / 36π = 8.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Find radius r of a sphere if its surface area is 616 cm².",
-    "answer": "Step 1: 4πr^2 = 616 ⇒ r^2 = 616/(4π) = 154/π.\nStep 2: Using π = 22/7: r^2 = 154/(22/7) = 154·7/22 = 49 ⇒ r = 7 cm.",
-    "marks": 2
-  },
-
-  {
-    "type": "long",
-    "text": "[Application] An ice-cream has a hemispherical top (radius 3.5 cm) on a right cone (same radius 3.5 cm, height 12 cm). Find total volume.",
-    "answer": "Step 1: V_hemisphere = (2/3)πr^3 = (2/3)π·(3.5)^3 = (2/3)π·42.875 = (85.75/3)π cm³.\nStep 2: V_cone = (1/3)πr^2h = (1/3)π·(3.5)^2·12 = (1/3)π·12.25·12 = 49π cm³.\nStep 3: V_total = [(85.75/3) + 49]π = (85.75 + 147)/3 · π = (232.75/3)π ≈ 77.5833π ≈ 243.8 cm³.",
-    "marks": 4
   },
   {
     "type": "long",
-    "text": "[Application] A water tank has a cylindrical part (inner r = 2 m, h = 3 m) surmounted by a hemisphere (same r). Find interior plaster area (ignore base).",
-    "answer": "Step 1: Cylinder CSA = 2πrh = 2π·2·3 = 12π m².\nStep 2: Hemisphere CSA = 2πr^2 = 2π·4 = 8π m².\nStep 3: Total interior area = 12π + 8π = 20π ≈ 62.83 m².",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Find area of the minor segment when r = 10 cm and θ = 120°.",
-    "answer": "Step 1: Sector area = (120/360)·π·10^2 = (1/3)·100π = 100π/3.\nStep 2: Triangle area = (1/2)r^2·sin 120° = 50·(√3/2) = 25√3.\nStep 3: Segment area = 100π/3 − 25√3 cm².",
+    "text": "Prove the identity: $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$ for acute $\\theta$ using sin and cos.",
+    "answer": "Step 1: Start with the left-hand side (LHS) of the equation: $1 + \\text{tan}^2\\theta$.<br>Step 2: Replace tan $\\theta$ with $\\frac{\\text{sin}\\theta}{\\text{cos}\\theta}$: $1 + (\\frac{\\text{sin}\\theta}{\\text{cos}\\theta})^2 = 1 + \\frac{\\text{sin}^2\\theta}{\\text{cos}^2\\theta}$.<br>Step 3: Combine the terms over a common denominator: $\\frac{\\text{cos}^2\\theta}{\\text{cos}^2\\theta} + \\frac{\\text{sin}^2\\theta}{\\text{cos}^2\\theta} = \\frac{\\text{cos}^2\\theta + \\text{sin}^2\\theta}{\\text{cos}^2\\theta}$.<br>Step 4: Use the Pythagorean identity $\\text{sin}^2\\theta + \\text{cos}^2\\theta = 1$: $\\frac{1}{\\text{cos}^2\\theta}$.<br>Step 5: Replace $\\frac{1}{\\text{cos}\\theta}$ with sec $\\theta$: $(\\frac{1}{\\text{cos}\\theta})^2 = \\text{sec}^2\\theta$. This is the right-hand side (RHS), so the identity is proved.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "A frustum has R = 10 cm, r = 6 cm, slant height s = 8 cm and vertical height h = 6 cm. Find (i) CSA (ii) TSA (iii) Volume.",
-    "answer": "Step 1: CSA = π(R + r)s = π(10 + 6)·8 = 128π cm².\nStep 2: Top+bottom areas = πR^2 + πr^2 = π(100 + 36) = 136π ⇒ TSA = 128π + 136π = 264π cm².\nStep 3: V = (1/3)πh(R^2 + Rr + r^2) = (1/3)π·6·(100 + 60 + 36) = 2π·196 = 392π cm³.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "[Application] A metal cylinder (r = 6 cm, h = 10 cm) is melted into solid cones (r = 3 cm, h = 4 cm). How many cones are formed?",
-    "answer": "Step 1: V_cylinder = πr^2h = π·36·10 = 360π cm³.\nStep 2: V_cone = (1/3)πr^2h = (1/3)π·9·4 = 12π cm³.\nStep 3: Number = 360π / 12π = 30 cones.",
+    "text": "If sin $\\theta$ = 5/13 for acute $\\theta$, find cos $\\theta$, tan $\\theta$, sec $\\theta$, cosec $\\theta$, cot $\\theta$.",
+    "answer": "Step 1: Find cos $\\theta$ using the identity $\\text{sin}^2\\theta + \\text{cos}^2\\theta = 1$:<br>cos$^2\\theta = 1 - (\\frac{5}{13})^2 = 1 - \\frac{25}{169} = \\frac{144}{169}$.<br>cos $\\theta = \\sqrt{\\frac{144}{169}} = \\frac{12}{13}$.<br>Step 2: Find tan $\\theta$: tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta} = \\frac{5/13}{12/13} = \\frac{5}{12}$.<br>Step 3: Find the reciprocals:<br>sec $\\theta = \\frac{1}{\\text{cos}\\theta} = \\frac{13}{12}$.<br>cosec $\\theta = \\frac{1}{\\text{sin}\\theta} = \\frac{13}{5}$.<br>cot $\\theta = \\frac{1}{\\text{tan}\\theta} = \\frac{12}{5}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Verify Euler’s relation V − E + F = 2 for a cube. Then state V − E + F for a triangular prism.",
-    "answer": "Step 1: Cube: V = 8, E = 12, F = 6 ⇒ V − E + F = 8 − 12 + 6 = 2 (verified).\nStep 2: Triangular prism: V = 6, E = 9, F = 5 ⇒ 6 − 9 + 5 = 2 (also equals 2).",
+    "text": "[Application] A kite is flying with string 60 m making $45^\\circ$ with the ground. Assuming string is straight and taut, find the height of the kite and horizontal distance from the boy.",
+    "answer": "The kite, the ground, and the vertical line from the kite to the ground form a right triangle. The length of the string is the hypotenuse (60 m).<br>Step 1: Find the height (opposite side) using sine: height = $60 \\text{ sin } 45^\\circ = 60(\\frac{\\sqrt{2}}{2}) = 30\\sqrt{2}$ m. ($\\approx$ 42.43 m).<br>Step 2: Find the horizontal distance (adjacent side) using cosine: distance = $60 \\text{ cos } 45^\\circ = 60(\\frac{\\sqrt{2}}{2}) = 30\\sqrt{2}$ m. ($\\approx$ 42.43 m).",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "[Application] A road turn is a circular arc of radius 50 m making 45°. Find arc length and the area of the sector to be resurfaced.",
-    "answer": "Step 1: Arc length L = (45/360)·2π·50 = (1/8)·100π = 12.5π m.\nStep 2: Sector area A = (45/360)·π·50^2 = (1/8)·π·2500 = 312.5π m².",
+    "text": "[Application] From a ship, the angle of elevation of the top of a lighthouse is $30^\\circ$. The ship is 200 m from the base. Find lighthouse height.",
+    "answer": "The lighthouse, the ground, and the line of sight form a right triangle. The horizontal distance is 200 m and the angle of elevation is $30^\\circ$. We need to find the height (opposite side).<br>Step 1: Use the tangent ratio: tan $30^\\circ = \\frac{\\text{height (h)}}{\\text{distance (200)}}$.<br>Step 2: Substitute the value of tan $30^\\circ$: $\\frac{1}{\\sqrt{3}} = \\frac{h}{200}$.<br>Step 3: Solve for h: $h = \\frac{200}{\\sqrt{3}} = \\frac{200\\sqrt{3}}{3}$ m. ($\\approx$ 115.47 m).",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "[Application] An open cylindrical can (no lid) has r = 7 cm, h = 24 cm. Find sheet area and cost at ₹80 per m².",
-    "answer": "Step 1: Area (cm²) = CSA + base = 2πrh + πr^2 = 2π·7·24 + π·49 = 336π + 49π = 385π cm².\nStep 2: In m²: 385π × 10^{-4} m² ≈ 0.0385π ≈ 0.121 m².\nStep 3: Cost = 0.121 × 80 ≈ ₹9.68 (approx).",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "A chord subtends 60° at the center of a circle of radius 14 cm. Find (i) chord length (ii) area of the minor segment.",
-    "answer": "Step 1: Chord length c = 2r·sin(θ/2) = 2·14·sin30° = 28·(1/2) = 14 cm.\nStep 2: Sector area = (60/360)·π·14^2 = 98π/3.\nStep 3: Triangle area = (1/2)r^2·sin60° = 98·(√3/2) = 49√3.\nStep 4: Segment area = 98π/3 − 49√3 cm².",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "[Application] A solid is made by placing a hemisphere of radius 7 cm on a cylinder of same radius and height 10 cm. Find the total surface area (outer).",
-    "answer": "Step 1: TSA = Cylinder CSA + Hemisphere CSA + cylinder base (bottom).\nStep 2: Cylinder CSA = 2πrh = 2π·7·10 = 140π cm².\nStep 3: Hemisphere CSA = 2πr^2 = 2π·49 = 98π cm².\nStep 4: Bottom area = πr^2 = 49π cm².\nStep 5: Total = (140 + 98 + 49)π = 287π cm².",
-    "marks": 4
+    "text": "[Application] A 25 m long wire is attached to the top of a vertical pole and makes $60^\\circ$ with the ground. Find height of pole and distance of wire’s ground end from the pole.",
+    "answer": "The wire, the pole, and the ground form a right triangle. The wire is the hypotenuse (25 m) and the angle is $60^\\circ$.<br>Step 1: Find the height of the pole (opposite side) using sine: height = $25 \\text{ sin } 60^\\circ = 25(\\frac{\\sqrt{3}}{2})$ m. ($\\approx$ 21.65 m).<br>Step 2: Find the distance from the base (adjacent side) using cosine: distance = $25 \\text{ cos } 60^\\circ = 25(\\frac{1}{2}) = 12.5$ m.",
+    "marks": 3
   }
 ]

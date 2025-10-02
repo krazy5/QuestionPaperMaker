@@ -1,0 +1,132 @@
+[
+  {
+    "type": "mcq",
+    "text": "The magnetic field at a distance 'r' from a long straight wire carrying current 'I' is proportional to: (MHT CET 2022)",
+    "options": [
+      "(a) r",
+      "(b) $r^2$",
+      "(c) $1/r$",
+      "(d) $1/r^2$"
+    ],
+    "correct_answer": "c",
+    "answer": "According to the <b>Biot-Savart Law</b>, the magnetic field (B) at a distance 'r' from a long straight current-carrying wire is given by:<br>$B = \\frac{\\mu_0 I}{2\\pi r}$<br>where $\\mu_0$ is the permeability of free space and I is the current. This formula clearly shows that the magnetic field is inversely proportional to the distance from the wire.<br>$B \\propto \\frac{1}{r}$<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A wire of length 'L' is bent into a circle of radius 'R' and a current 'I' is passed through it. The magnetic moment of the loop is: (MHT CET 2021)",
+    "options": [
+      "(a) $I\\pi R^2$",
+      "(b) $I\\pi L^2$",
+      "(c) $2\\pi I R$",
+      "(d) $I\\pi r^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The magnetic moment ($\\vec{M}$) of a current loop is given by the product of the current (I) and the area (A) of the loop:<br>$\\vec{M} = I\\vec{A}$<br>For a circular loop, the area is $A = \\pi R^2$.<br>So, the magnitude of the magnetic moment is $M = I\\pi R^2$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The force on a charge 'q' moving with velocity 'v' in a uniform magnetic field 'B' is given by: (MHT CET 2020)",
+    "options": [
+      "(a) $\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})$",
+      "(b) $\\vec{F} = q(\\vec{v} \\times \\vec{B})$",
+      "(c) $\\vec{F} = q\\vec{E}$",
+      "(d) $\\vec{F} = q(\\vec{v} + \\vec{B})$"
+    ],
+    "correct_answer": "b",
+    "answer": "The magnetic force on a moving charge is a component of the Lorentz force. The force ($\\vec{F}$) on a charge 'q' moving with velocity '$\\vec{v}$' in a magnetic field '$\\vec{B}$' is given by the vector cross product:<br>$\\vec{F} = q(\\vec{v} \\times \\vec{B})$<br>This force is always perpendicular to both the velocity and the magnetic field.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic field inside a long straight solenoid carrying current is: (MHT CET 2019)",
+    "options": [
+      "(a) zero",
+      "(b) inversely proportional to its length",
+      "(c) uniform",
+      "(d) non-uniform"
+    ],
+    "correct_answer": "c",
+    "answer": "According to <b>Ampere's Law</b>, the magnetic field inside an ideal long straight solenoid is given by $B = \\mu_0 n I$, where 'n' is the number of turns per unit length and 'I' is the current. This formula shows that the magnetic field is constant throughout the interior of the solenoid, meaning it is <b>uniform</b>.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A straight conductor of length 'L' carrying current 'I' is placed in a uniform magnetic field 'B'. The force experienced by the conductor is maximum when the angle between the conductor and the magnetic field is: (MHT CET 2018)",
+    "options": [
+      "(a) $0^\\circ$",
+      "(b) $45^\\circ$",
+      "(c) $90^\\circ$",
+      "(d) $180^\\circ$"
+    ],
+    "correct_answer": "c",
+    "answer": "The force (F) experienced by a current-carrying conductor of length 'L' in a magnetic field 'B' is given by:<br>$F = I L B \\sin\\theta$<br>where $\\theta$ is the angle between the direction of the current and the magnetic field. The force is maximum when $\\sin\\theta$ is maximum. The maximum value of $\\sin\\theta$ is 1, which occurs when $\\theta = 90^\\circ$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic field at the center of a circular loop of radius 'R' carrying current 'I' is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{\\mu_0 I}{2R}$",
+      "(b) $\\frac{\\mu_0 I}{4\\pi R}$",
+      "(c) $\\frac{\\mu_0 I}{2\\pi R}$",
+      "(d) $\\frac{\\mu_0 I}{R}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Using the <b>Biot-Savart Law</b>, the magnetic field (B) at the center of a circular current loop of radius 'R' is derived as:<br>$B = \\frac{\\mu_0 I}{2R}$<br>This formula is specific to the center of the loop.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The force between two parallel current-carrying wires is: (MHT CET 2016)",
+    "options": [
+      "(a) attractive if the currents are in the same direction",
+      "(b) repulsive if the currents are in the same direction",
+      "(c) always repulsive",
+      "(d) always attractive"
+    ],
+    "correct_answer": "a",
+    "answer": "The force per unit length between two parallel current-carrying wires is given by $F = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$, where 'd' is the distance between the wires. The direction of the force is determined by the direction of the currents. If the currents are in the same direction, the force is <b>attractive</b>. If the currents are in opposite directions, the force is repulsive.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A charge 'q' moving in a uniform magnetic field 'B' with velocity 'v' experiences a force. The direction of the force is: (MHT CET 2015)",
+    "options": [
+      "(a) parallel to the magnetic field",
+      "(b) parallel to the velocity",
+      "(c) perpendicular to both velocity and magnetic field",
+      "(d) at an angle of $45^\\circ$ to both"
+    ],
+    "correct_answer": "c",
+    "answer": "The magnetic force on a moving charge is given by the cross product formula $\\vec{F} = q(\\vec{v} \\times \\vec{B})$. The result of a cross product is a vector that is <b>perpendicular to both of the original vectors</b>. Therefore, the force is perpendicular to both the velocity of the charge and the magnetic field.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The magnetic flux through a surface is the number of magnetic field lines passing through it. The SI unit of magnetic flux is: (MHT CET 2014)",
+    "options": [
+      "(a) Tesla",
+      "(b) Weber",
+      "(c) Gauss",
+      "(d) Ampere"
+    ],
+    "correct_answer": "b",
+    "answer": "The SI unit of magnetic flux ($\\Phi_B$) is the <b>Weber</b> (Wb). It is defined as the magnetic flux that, when linked with a single turn of a circuit, produces in it an e.m.f. of 1 volt as it is reduced to zero at a uniform rate in 1 second.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A proton enters a uniform magnetic field with a velocity perpendicular to the field. The path of the proton will be: (MHT CET 2013)",
+    "options": [
+      "(a) a straight line",
+      "(b) a circle",
+      "(c) a parabola",
+      "(d) a helix"
+    ],
+    "correct_answer": "b",
+    "answer": "When a charged particle enters a magnetic field with its velocity perpendicular to the field, the magnetic force acts as a centripetal force. This force continuously changes the direction of the velocity, forcing the particle to move in a <b>circular path</b>. The magnetic force does no work and thus does not change the speed of the particle.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  }
+]

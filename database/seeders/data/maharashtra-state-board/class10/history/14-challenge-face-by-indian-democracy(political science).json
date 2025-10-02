@@ -1,0 +1,191 @@
+[
+  {
+    "type": "mcq",
+    "text": "The feeling of excessive pride about one's religion, leading to religious hatred, is known as _______.",
+    "options": [
+      "Secularism",
+      "Regionalism",
+      "Communalism",
+      "Nationalism"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Communalism is an ideology based on excessive religious pride, which often leads to intolerance and hatred towards people of other faiths. It is a serious threat to the unity and secular fabric of a country. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is considered the most serious challenge to the internal security of India?",
+    "options": [
+      "Poverty",
+      "Unemployment",
+      "Corruption",
+      "Terrorism"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Terrorism is a form of organized and systematic violence with the aim of creating fear and terror in society to achieve political goals. It poses a grave threat to a nation's internal security. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The movement that started in the Naxalbari region of West Bengal is known as _______.",
+    "options": [
+      "Communalism",
+      "Naxalism",
+      "Regionalism",
+      "Terrorism"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Naxalite movement originated in Naxalbari, West Bengal, initially as a peasant uprising. It is a form of left-wing extremism that challenges the authority of the state through violent means. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Taking undue advantage of one's position in government to make personal gains is called _______.",
+    "options": [
+      "Democracy",
+      "Secularism",
+      "Corruption",
+      "Socialism"
+    ],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Corruption involves the misuse of public office for private gain. It includes practices like bribery, nepotism, and financial irregularities. It undermines good governance and public trust. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "To make democracy more meaningful, it is important to increase _______.",
+    "options": [
+      "political corruption",
+      "citizen participation",
+      "government control",
+      "social inequality"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Democracy is strengthened when citizens actively participate in the political process, not just during elections but also by keeping a check on the government and engaging in public discourse. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a social challenge faced by Indian democracy?",
+    "options": [
+      "Naxalism",
+      "Terrorism",
+      "Corruption",
+      "Poverty"
+    ],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> While all options are challenges, poverty is a deep-rooted social challenge that prevents a large section of the population from fully participating in and benefiting from the democratic process. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The criminalisation of politics means _______.",
+    "options": [
+      "politicians committing crimes",
+      "an increase in the participation of criminals in the political process",
+      "making laws against crime",
+      "the police controlling politics"
+    ],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Criminalisation of politics refers to the growing trend of candidates with criminal backgrounds contesting elections and getting elected. This seriously undermines the integrity of democracy. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A key feature of a successful democracy is _______.",
+    "options": [
+      "regular elections",
+      "a single powerful leader",
+      "limited rights for citizens",
+      "a state-controlled media"
+    ],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> Holding free, fair, and regular elections is a fundamental requirement and a key indicator of a healthy and functioning democracy, as it allows people to choose their representatives. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What is democracy?",
+    "answer": "Democracy is a system of government where the supreme power is vested in the people, who exercise it either directly or through their freely elected representatives. It is not just about the structure of government but also a way of life based on values like liberty, equality, and fraternity.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by Communalism?",
+    "answer": "Communalism is a political ideology based on the belief that religion is the primary basis of social identity. It involves excessive pride in one's own religion and intolerance and hatred towards other religions, which poses a serious threat to the unity of the country.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is the main objective of Terrorism?",
+    "answer": "The main objective of terrorism is to create terror or a sense of fear in the minds of the people and to destabilize the government by using or threatening to use violence. It is a method used to achieve political or ideological goals.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Find the wrong pair in the following set and write the corrected one.<br>1. Communalism - Threat to national unity<br>2. Naxalism - Threat to internal security<br>3. Corruption - Social challenge<br>4. Terrorism - Global problem",
+    "answer": "<b>Wrong Pair:</b> Corruption - Social challenge<br><b>Corrected Pair:</b> Corruption - Challenge to good governance / Political challenge",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Find the odd one out: Communalism, Naxalism, Regionalism, Poverty.",
+    "answer": "<b>Poverty.</b><br><b>Reason:</b> Communalism, Naxalism, and Regionalism are political/ideological challenges. Poverty is a socio-economic challenge.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: Religious Hatred : Communalism :: Violent Uprising : _______.",
+    "answer": "<b>Naxalism / Terrorism.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Complete the analogy: India : Democracy :: China : _______.",
+    "answer": "<b>Communism / One-party rule.</b>",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "What are the two major social challenges before Indian democracy?",
+    "answer": "Two major social challenges before Indian democracy are:<br>1. <b>Poverty:</b> A large section of the population still lives below the poverty line, which hinders their development.<br>2. <b>Unemployment:</b> Providing employment opportunities for a large and growing population is a significant challenge.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why is corruption a serious challenge?",
+    "answer": "Corruption is a serious challenge because it erodes public trust in the democratic system. It leads to inefficiency in government services, misuse of public funds, and a loss of faith in the political process. It negatively affects the economic development of the country.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Why must we fight communalism?",
+    "answer": "We must fight communalism because it is a major threat to the unity and integrity of our nation. It creates suspicion and hatred between different religious communities, leading to social conflict and violence. It undermines the secular principles of our constitution.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Explain the challenge of Naxalism in India.",
+    "answer": "Naxalism, or left-wing extremism, is a serious challenge to India's internal security.<br>1. <b>Origin:</b> The movement began in Naxalbari, West Bengal, as a protest by landless farmers and tribals against exploitation.<br>2. <b>Ideology and Methods:</b> Naxalites do not believe in the democratic system. They aim to overthrow the elected government through violent means and armed struggle. They attack police forces, government officials, and destroy infrastructure like railways and roads.<br>3. <b>Cause of Spread:</b> The movement has spread to areas where there is poverty, lack of development, and exploitation of tribal people, who are then attracted to the Naxalite ideology.<br>4. <b>Government Response:</b> The government is tackling this issue through a two-pronged approach: carrying out security operations against them and implementing development schemes in the affected areas.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What do you understand by the criminalisation of politics?",
+    "answer": "The criminalisation of politics is a grave challenge to Indian democracy. It refers to two main aspects:<br>1. <b>Increased Participation of Criminals:</b> It is the increasing trend of people with criminal backgrounds (those who have faced charges for serious crimes like corruption, murder, or rape) participating in the electoral process.<br>2. <b>Winning Elections:</b> Political parties often give tickets to such candidates because they have money and muscle power, which can help in winning elections. The fact that such candidates get elected shows a serious flaw in the democratic system.<br><b>Effects:</b> This leads to a decline in the credibility of political institutions, an increase in corruption, and a loss of public faith in democracy. The Supreme Court and the Election Commission have taken steps to curb this, but it remains a major problem.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "What steps are necessary to make democracy successful in India?",
+    "answer": "To make democracy truly successful in India, several steps are needed:<br>1. <b>Increase Citizen Participation:</b> The public should not only participate during voting but should also actively monitor the functioning of the government and political parties.<br>2. <b>Good Governance:</b> The government needs to be more transparent, accountable, and responsive to the needs of the citizens. The Right to Information is a step in this direction.<br>3. <b>Social Inclusion:</b> Policies should ensure that the benefits of development reach all sections of society, including women, minorities, and other marginalized groups.<br>4. <b>Strengthening Institutions:</b> It is important to maintain the autonomy and integrity of key institutions like the judiciary, the Election Commission, and the media.<br>5. <b>Electoral Reforms:</b> Reforms are needed to reduce the role of money and muscle power in elections and to prevent the criminalisation of politics.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Explain the major challenges faced by Indian democracy today.",
+    "answer": "Indian democracy, despite its successes, faces several serious challenges:<br>1. <b>Communalism and Regionalism:</b> The politics of religion and region can create deep divisions in society and threaten the unity of the country.<br>2. <b>Terrorism and Naxalism:</b> These are grave threats to the internal security of the nation. They challenge the authority of the state through violence.<br>3. <b>Corruption:</b> Widespread corruption in public life erodes the trust of the people in the democratic system and hampers economic development.<br>4. <b>Criminalisation of Politics:</b> The increasing entry of people with criminal backgrounds into politics is a major concern that undermines the credibility of our democratic institutions.<br>5. <b>Social Challenges:</b> Deep-rooted social problems like poverty, unemployment, and inequality prevent a large section of the population from enjoying the full benefits of democracy.",
+    "marks": 4
+  }
+]
+

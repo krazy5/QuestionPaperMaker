@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The functional unit of the human kidney is the:",
+    "options": [
+      "(a) Ureter",
+      "(b) Nephron",
+      "(c) Glomerulus",
+      "(d) Bowman's capsule"
+    ],
+    "correct_answer": "b",
+    "answer": "The **nephron** is the microscopic structural and functional unit of the kidney. It is responsible for filtering waste from the blood, reabsorbing essential substances, and forming urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main excretory product in humans is:",
+    "options": [
+      "(a) Ammonia",
+      "(b) Urea",
+      "(c) Uric acid",
+      "(d) Creatinine"
+    ],
+    "correct_answer": "b",
+    "answer": "Humans are ureotelic, meaning their primary nitrogenous waste product is **urea**. Urea is less toxic than ammonia and requires less water to be excreted.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of removing nitrogenous waste from the body is called:",
+    "options": [
+      "(a) Osmoregulation",
+      "(b) Respiration",
+      "(c) Digestion",
+      "(d) Excretion"
+    ],
+    "correct_answer": "d",
+    "answer": "**Excretion** is the process of eliminating metabolic waste products from an organism's body. It is vital for maintaining homeostasis and preventing the buildup of toxic substances.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of maintaining a stable internal water and salt balance is known as:",
+    "options": [
+      "(a) Homeostasis",
+      "(b) Thermoregulation",
+      "(c) Osmoregulation",
+      "(d) Excretion"
+    ],
+    "correct_answer": "c",
+    "answer": "**Osmoregulation** is the active regulation of osmotic pressure of an organism's fluids to maintain a stable internal water and salt balance.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the nephron where the maximum reabsorption of water, glucose, and amino acids occurs is the:",
+    "options": [
+      "(a) Loop of Henle",
+      "(b) Proximal Convoluted Tubule (PCT)",
+      "(c) Distal Convoluted Tubule (DCT)",
+      "(d) Collecting duct"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Proximal Convoluted Tubule (PCT)** is the primary site of reabsorption in the nephron, where a significant amount of water, glucose, amino acids, and other valuable substances are reabsorbed into the bloodstream.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of filtering blood in the Bowman's capsule is called:",
+    "options": [
+      "(a) Reabsorption",
+      "(b) Secretion",
+      "(c) Glomerular filtration",
+      "(d) Micturition"
+    ],
+    "correct_answer": "c",
+    "answer": "**Glomerular filtration** is the first step in urine formation. It's the process by which blood is filtered in the glomerulus and Bowman's capsule, forming a fluid called glomerular filtrate.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that regulates the reabsorption of water in the kidneys is:",
+    "options": [
+      "(a) Aldosterone",
+      "(b) Antidiuretic Hormone (ADH)",
+      "(c) Thyroxine",
+      "(d) Insulin"
+    ],
+    "correct_answer": "b",
+    "answer": "**Antidiuretic Hormone (ADH)**, also known as vasopressin, is released from the pituitary gland and acts on the kidneys to increase water reabsorption, thus concentrating the urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The condition where the kidneys fail to produce urine is called:",
+    "options": [
+      "(a) Oliguria",
+      "(b) Anuria",
+      "(c) Polyuria",
+      "(d) Dysuria"
+    ],
+    "correct_answer": "b",
+    "answer": "**Anuria** is a medical condition characterized by a severe decrease or complete absence of urine output from the kidneys. Oliguria is a condition with a low output of urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The final process of expelling urine from the body is called:",
+    "options": [
+      "(a) Urination",
+      "(b) Micturition",
+      "(c) Secretion",
+      "(d) Filtration"
+    ],
+    "correct_answer": "b",
+    "answer": "**Micturition** is the scientific term for urination, which is the act of expelling urine from the body.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The major excretory organ in humans is the:",
+    "options": [
+      "(a) Skin",
+      "(b) Liver",
+      "(c) Lungs",
+      "(d) Kidney"
+    ],
+    "correct_answer": "d",
+    "answer": "The **kidney** is the primary excretory organ in humans. It filters the blood to remove waste products and excess fluid, which are then excreted as urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The yellow color of urine is due to the presence of:",
+    "options": [
+      "(a) Urea",
+      "(b) Uric acid",
+      "(c) Urochrome",
+      "(d) Creatinine"
+    ],
+    "correct_answer": "c",
+    "answer": "**Urochrome** is a yellow pigment that is a product of hemoglobin breakdown. It is responsible for the characteristic yellow color of urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that causes an increase in the reabsorption of sodium ions and water from the renal tubules is:",
+    "options": [
+      "(a) ADH",
+      "(b) Aldosterone",
+      "(c) Renin",
+      "(d) Angiotensin"
+    ],
+    "correct_answer": "b",
+    "answer": "**Aldosterone** is a steroid hormone produced by the adrenal cortex. It plays a central role in the regulation of blood pressure by increasing the reabsorption of sodium ions and water in the kidneys, thereby increasing blood volume.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of forming a highly concentrated urine is an adaptation for organisms living in:",
+    "options": [
+      "(a) Aquatic environments",
+      "(b) Desert environments",
+      "(c) Cold environments",
+      "(d) Humid environments"
+    ],
+    "correct_answer": "b",
+    "answer": "Organisms living in **desert environments** need to conserve water. They have adaptations in their kidneys that allow them to produce highly concentrated urine to minimize water loss.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the nephron that is permeable to water but impermeable to salts is the:",
+    "options": [
+      "(a) Ascending loop of Henle",
+      "(b) Descending loop of Henle",
+      "(c) Proximal Convoluted Tubule",
+      "(d) Distal Convoluted Tubule"
+    ],
+    "correct_answer": "b",
+    "answer": "The **descending loop of Henle** is highly permeable to water but impermeable to solutes like $Na^+$. This allows water to be reabsorbed from the filtrate as it moves down into the hypertonic medulla of the kidney.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of animals that excrete ammonia as their main nitrogenous waste product are called:",
+    "options": [
+      "(a) Ureotelic",
+      "(b) Uricotelic",
+      "(c) Ammonotelic",
+      "(d) Aminotelic"
+    ],
+    "correct_answer": "c",
+    "answer": "**Ammonotelic** organisms, such as most aquatic animals, excrete nitrogenous waste as ammonia. This requires a large amount of water for its excretion, which is why it's common in aquatic environments.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that stimulates the adrenal cortex to release aldosterone is:",
+    "options": [
+      "(a) ADH",
+      "(b) Renin",
+      "(c) Angiotensin II",
+      "(d) Atrial Natriuretic Factor (ANF)"
+    ],
+    "correct_answer": "c",
+    "answer": "**Angiotensin II** is a potent vasoconstrictor that also stimulates the adrenal cortex to release aldosterone, which in turn increases blood pressure and blood volume.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of converting ammonia to urea in the liver is called:",
+    "options": [
+      "(a) Ammonification",
+      "(b) Ureotely",
+      "(c) The urea cycle",
+      "(d) Detoxification"
+    ],
+    "correct_answer": "c",
+    "answer": "The **urea cycle**, or ornithine cycle, is a series of biochemical reactions that produces urea from ammonia. This cycle is the body's main way of detoxifying ammonia, which is highly toxic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disease caused by the accumulation of uric acid in the joints is:",
+    "options": [
+      "(a) Renal calculi",
+      "(b) Glomerulonephritis",
+      "(c) Gout",
+      "(d) Uremia"
+    ],
+    "correct_answer": "c",
+    "answer": "**Gout** is a type of arthritis that results from an accumulation of uric acid crystals in a joint, leading to painful inflammation. It is often a result of a high-purine diet.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The maximum volume of air that can be inspired and expired in a single breath is the:",
+    "options": [
+      "(a) Tidal volume",
+      "(b) Vital capacity",
+      "(c) Inspiratory capacity",
+      "(d) Expiratory capacity"
+    ],
+    "correct_answer": "b",
+    "answer": "**Vital capacity** is the greatest volume of air that can be expelled from the lungs after taking the deepest possible breath. It is a measure of lung function.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone that is a vasodilator and decreases blood pressure is:",
+    "options": [
+      "(a) Aldosterone",
+      "(b) ADH",
+      "(c) Renin",
+      "(d) Atrial Natriuretic Factor (ANF)"
+    ],
+    "correct_answer": "d",
+    "answer": "**Atrial Natriuretic Factor (ANF)** is a hormone produced by the heart in response to high blood volume. It acts as a vasodilator and increases the excretion of sodium and water by the kidneys, thus decreasing blood pressure.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following organisms are primarily ammonotelic?",
+    "options": [
+      "(a) Birds",
+      "(b) Reptiles",
+      "(c) Aquatic insects",
+      "(d) Mammals"
+    ],
+    "correct_answer": "c",
+    "answer": "**Ammonotelic** organisms are those that excrete nitrogenous waste as ammonia. This group includes most aquatic animals, including **aquatic insects** and bony fish, because they have a constant supply of water to dilute the toxic ammonia.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The part of the nephron that is impermeable to water is the:",
+    "options": [
+      "(a) Descending loop of Henle",
+      "(b) Ascending loop of Henle",
+      "(c) Proximal Convoluted Tubule",
+      "(d) Collecting duct"
+    ],
+    "correct_answer": "b",
+    "answer": "The **ascending loop of Henle** is unique in that it is impermeable to water. This allows the filtrate to become less concentrated as salt is actively transported out, creating a high osmotic gradient in the surrounding medulla.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The disease caused by the formation of stones in the kidneys is:",
+    "options": [
+      "(a) Glomerulonephritis",
+      "(b) Uremia",
+      "(c) Renal calculi",
+      "(d) Gout"
+    ],
+    "correct_answer": "c",
+    "answer": "**Renal calculi**, or kidney stones, are hard, crystalline mineral deposits formed within the kidneys or urinary tract. They can cause severe pain when they pass through the ureters.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of removing a substance from the blood by the nephron into the renal tubule is:",
+    "options": [
+      "(a) Filtration",
+      "(b) Reabsorption",
+      "(c) Secretion",
+      "(d) Excretion"
+    ],
+    "correct_answer": "c",
+    "answer": "**Secretion** is the process where certain substances, such as excess $H^+$ and $K^+$, are actively transported from the blood in the peritubular capillaries into the fluid in the renal tubule. This is an important step in fine-tuning the final composition of urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hormone **ADH** increases the permeability of the collecting duct to:",
+    "options": [
+      "(a) Water",
+      "(b) Sodium ions",
+      "(c) Glucose",
+      "(d) Urea"
+    ],
+    "correct_answer": "a",
+    "answer": "**Antidiuretic hormone (ADH)** increases the permeability of the collecting duct to **water**, allowing more water to be reabsorbed into the body and producing more concentrated urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary function of the Loop of Henle is to:",
+    "options": [
+      "(a) Filter blood",
+      "(b) Reabsorb glucose",
+      "(c) Create a concentration gradient in the medulla",
+      "(d) Excrete uric acid"
+    ],
+    "correct_answer": "c",
+    "answer": "The main function of the Loop of Henle is to create a high osmotic gradient in the renal medulla. This gradient is crucial for the kidneys to produce concentrated urine and conserve water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The excretory organs of insects are:",
+    "options": [
+      "(a) Kidneys",
+      "(b) Malpighian tubules",
+      "(c) Nephridia",
+      "(d) Flame cells"
+    ],
+    "correct_answer": "b",
+    "answer": "The **Malpighian tubules** are the excretory and osmoregulatory organs of most insects. They filter waste from the hemolymph and produce a nitrogenous waste, typically uric acid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a symptom of kidney failure?",
+    "options": [
+      "(a) Hyperglycemia",
+      "(b) Jaundice",
+      "(c) Uremia",
+      "(d) Anemia"
+    ],
+    "correct_answer": "c",
+    "answer": "**Uremia** is a condition in which the kidneys fail to remove urea and other nitrogenous waste products from the blood, which can be fatal if left untreated.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The presence of glucose in urine is a symptom of:",
+    "options": [
+      "(a) Gout",
+      "(b) Diabetes mellitus",
+      "(c) Uremia",
+      "(d) Kidney stones"
+    ],
+    "correct_answer": "b",
+    "answer": "**Diabetes mellitus** is a metabolic disease characterized by high blood sugar levels over a prolonged period. This high sugar level overwhelms the kidney's ability to reabsorb glucose, leading to its presence in the urine.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The main function of the glomerulus is:",
+    "options": [
+      "(a) Reabsorption",
+      "(b) Secretion",
+      "(c) Filtration",
+      "(d) Excretion"
+    ],
+    "correct_answer": "c",
+    "answer": "The **glomerulus** is a network of capillaries located at the beginning of a nephron. Its primary function is to **filter** blood and produce a filtrate that is then processed to form urine.",
+    "marks": 1
+  }
+]

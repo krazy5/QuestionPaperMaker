@@ -1,38 +1,156 @@
 [
   {
+    "type": "mcq",
+    "text": "The process of formation of microspores from a pollen mother cell through meiosis is called _______.",
+    "options": ["Megasporogenesis", "Microsporogenesis", "Pollination", "Fertilization"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Microsporogenesis is the process that involves the meiotic division of diploid microspore mother cells (PMC) to form haploid microspores, which then develop into pollen grains. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In angiosperms, the endosperm is typically _______.",
+    "options": ["Haploid (n)", "Diploid (2n)", "Triploid (3n)", "Tetraploid (4n)"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The endosperm in angiosperms is formed by the fusion of one male gamete with the two polar nuclei of the central cell. This process, called triple fusion, results in a triploid (3n) primary endosperm nucleus (PEN). The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The transfer of pollen grains from the anther to the stigma of a genetically different plant is called _______.",
+    "options": ["Autogamy", "Geitonogamy", "Xenogamy", "Cleistogamy"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Xenogamy, or cross-pollination, is the transfer of pollen grains to the stigma of a flower on another plant. This is the only type of pollination that brings genetically different types of pollen grains to the stigma. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Pollination by wind is called _______.",
+    "options": ["Hydrophily", "Entomophily", "Ornithophily", "Anemophily"],
+    "correct_answer": "D",
+    "answer": "<b>Explanation:</b> Anemophily is the term used for pollination that is carried out by the agency of wind. The correct option is <b>D</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The development of a fruit without fertilization is known as _______.",
+    "options": ["Apomixis", "Polyembryony", "Parthenocarpy", "Parthenogenesis"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Parthenocarpy is the natural or artificially induced production of fruit without fertilization of ovules, which makes the fruit seedless. Example: Banana. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The two non-motile male gametes in angiosperms are produced by the _______.",
+    "options": ["Generative cell", "Vegetative cell", "Tube nucleus", "Antipodal cell"],
+    "correct_answer": "A",
+    "answer": "<b>Explanation:</b> After pollination, the pollen grain germinates. The generative cell divides by mitosis to form two non-motile male gametes. The correct option is <b>A</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an artificial method of vegetative propagation?",
+    "options": ["Runners in grass", "Tuber of potato", "Grafting in mango", "Bulbil of Agave"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Grafting is an artificial technique where parts of two plants are joined together so that they will grow as one plant. The others are examples of natural vegetative propagation. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "After fertilization, the ovule develops into the _______.",
+    "options": ["Fruit", "Seed", "Pericarp", "Endosperm"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> In sexual reproduction in plants, after successful double fertilization, the ovule matures and develops into the seed, while the ovary develops into the fruit. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "In asexual reproduction, the offspring are genetically identical to the parent.",
+    "answer": "<b>True</b><br><b>Reason:</b> Asexual reproduction involves only one parent and does not involve the fusion of gametes, so there is no genetic recombination. The offspring are clones of the parent.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Hydrophily is a common mode of pollination among all aquatic plants.",
+    "answer": "<b>False</b><br><b>Reason:</b> Hydrophily (pollination by water) is quite rare. Many aquatic plants like water hyacinth have flowers that emerge above the water and are pollinated by insects or wind.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "A typical angiosperm embryo sac is 7-celled and 8-nucleate.",
+    "answer": "<b>True</b><br><b>Reason:</b> At maturity, a typical female gametophyte or embryo sac consists of a three-celled egg apparatus, a central cell with two polar nuclei, and three antipodal cells.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Double fertilization is a characteristic feature of gymnosperms.",
+    "answer": "<b>False</b><br><b>Reason:</b> Double fertilization, which involves both syngamy and triple fusion, is a unique and characteristic feature of angiosperms (flowering plants).",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The outer protective covering of the seed is called the pericarp.",
+    "answer": "<b>False</b><br><b>Reason:</b> The outer protective covering of the seed is the seed coat (testa and tegmen). The pericarp is the wall of the fruit.",
+    "marks": 1
+  },
+  {
     "type": "short",
-    "text": "Define pollination. What are the two types of pollination?",
-    "answer": "**Pollination** is the process of transferring pollen grains from the anther (male part) to the stigma (female part) of a flower. It's a crucial step for fertilization in flowering plants. 🌱\n\nThe two main types are:\n1.  **Self-Pollination (Autogamy):** When pollen is transferred to the stigma of the same flower or another flower on the same plant.\n2.  **Cross-Pollination (Allogamy):** When pollen is transferred from the anther of a flower on one plant to the stigma of a flower on a different plant of the same species.",
+    "text": "Distinguish between Self-pollination and Cross-pollination.",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Self-pollination</th><th style='padding: 8px;'>Cross-pollination</th></tr><tr><td style='padding: 8px;'>It is the transfer of pollen grains from the anther to the stigma of the same flower or another flower on the same plant.</td><td style='padding: 8px;'>It is the transfer of pollen grains from the anther of one flower to the stigma of a flower on a different plant of the same species.</td></tr><tr><td style='padding: 8px;'>It does not require external pollinating agents.</td><td style='padding: 8px;'>It requires external agents like wind, water, insects, etc.</td></tr><tr><td style='padding: 8px;'>It does not introduce genetic variations.</td><td style='padding: 8px;'>It is a source of genetic variation in the offspring.</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 'outbreeding devices'? Give two examples.",
+    "answer": "Outbreeding devices are mechanisms or adaptations in plants that discourage self-pollination and encourage cross-pollination. This is important for promoting genetic diversity.<br><b>Examples:</b><br>1. <b>Unisexuality (Dioecism):</b> The plant bears either only male or only female flowers, making self-pollination impossible (e.g., Papaya).<br>2. <b>Dichogamy:</b> Anthers and stigma mature at different times in a bisexual flower, preventing self-pollination (e.g., Sunflower).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'Apomixis' and 'Polyembryony'.",
+    "answer": "<b>Apomixis:</b> It is a form of asexual reproduction that mimics sexual reproduction. In this process, seeds are formed without the fusion of gametes (fertilization). The embryo develops directly from a diploid cell of the ovule.<br><br><b>Polyembryony:</b> It is the phenomenon of the occurrence of more than one embryo in a seed, which then results in the emergence of multiple seedlings. (e.g., Citrus, Mango).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the two main parts of a typical stamen?",
+    "answer": "A typical stamen, which is the male reproductive part of a flower, consists of two main parts:<br>1. <b>Anther:</b> A bilobed, terminal structure that produces pollen grains.<br>2. <b>Filament:</b> The long, slender stalk that connects the anther to the thalamus.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Explain the terms 'stock' and 'scion' with respect to grafting.",
+    "answer": "Grafting is an artificial method of vegetative propagation. In this technique:<br><b>Stock:</b> It is the rooted part of one plant, typically the lower part, which has a well-developed root system.<br><b>Scion:</b> It is a piece of stem or a bud of another plant, typically the upper part, which has the desired characteristics (like better fruit or flowers).<br>The scion is inserted onto the stock, and they unite to grow as a single plant.",
     "marks": 2
   },
   {
     "type": "long",
-    "text": "Sketch and label the structure of an anatropous ovule.",
-    "answer": "The **anatropous ovule** is the most common type in angiosperms, characterized by its inverted structure. This inversion brings the micropyle close to the funiculus.\n\n[Image of a labeled anatropous ovule]\n\n## Key Parts\n- **Funiculus:** The stalk attaching the ovule to the placenta.\n- **Hilum:** The point where the funiculus joins the main body of the ovule.\n- **Integuments:** The outer protective layers (outer and inner).\n- **Micropyle:** A small opening where the integuments don't fully cover the nucellus, allowing the pollen tube to enter.\n- **Chalaza:** The basal part of the ovule, opposite the micropyle.\n- **Nucellus:** The central tissue mass containing the embryo sac.\n- **Embryo Sac:** The female gametophyte, which contains the egg cell, synergids, antipodal cells, and the secondary nucleus.",
-    "marks": 3
-  },
-  {
-    "type": "short",
-    "text": "What is double fertilization? Why is it called so?",
-    "answer": "**Double fertilization** is a unique and complex fertilization mechanism found exclusively in flowering plants (angiosperms). 🌸\n\nIt's called 'double' because it involves the fusion of **two male gametes** with **two different cells** in the embryo sac:\n1.  **Syngamy:** One male gamete fuses with the **egg cell** to form the diploid **zygote** (2n), which develops into the embryo.\n2.  **Triple Fusion:** The second male gamete fuses with the **diploid secondary nucleus** (or two polar nuclei) to form the triploid **Primary Endosperm Nucleus (PEN)** (3n), which develops into the endosperm, a nutritive tissue for the embryo.",
-    "marks": 2
+    "text": "Describe the structure of a typical anatropous ovule with a neat, labelled diagram. (PYQ: March 2022)",
+    "answer": "<br><br>The anatropous ovule is the most common type of ovule in angiosperms. It is inverted in such a way that the micropyle lies close to the funicle.<br><b>Its main parts are:</b><br><ul><li><b>Funicle:</b> The stalk that attaches the ovule to the placenta.</li><li><b>Hilum:</b> The point of attachment of the funicle to the body of the ovule.</li><li><b>Integuments:</b> The one or two protective outer layers of the ovule.</li><li><b>Micropyle:</b> A small opening at the tip of the integuments, through which the pollen tube usually enters.</li><li><b>Chalaza:</b> The basal part of the ovule, opposite to the micropyle.</li><li><b>Nucellus:</b> The mass of parenchymatous tissue inside the integuments, which provides nourishment.</li><li><b>Embryo sac (Female gametophyte):</b> Located within the nucellus, it contains the egg cell and other associated cells.</li></ul>",
+    "marks": 4
   },
   {
     "type": "long",
-    "text": "Distinguish between self-pollination and cross-pollination.",
-    "answer": "Here's the difference between self-pollination and cross-pollination:\n\n| Feature | Self-Pollination (Autogamy) | Cross-Pollination (Allogamy) |\n|---|---|---|\n| **Definition** | Transfer of pollen from the anther to the stigma of the **same flower** or another flower on the **same plant**. | Transfer of pollen from the anther of one flower to the stigma of a flower on a **different plant** of the same species. |\n| **Genetic Makeup** | Offspring are genetically **identical** to the parent, leading to purity of the race but less adaptability. | Offspring are genetically **different** from the parents, leading to variation and better adaptability. | \n| **Agents** | Doesn't require external pollinating agents. | Requires external agents like wind (anemophily), water (hydrophily), or animals (zoophily). 🦋 | \n| **Flower Type** | Occurs in bisexual flowers and requires the anther and stigma to mature at the same time. | Can occur in both unisexual and bisexual flowers. |",
+    "text": "What is double fertilization? Describe the process. (PYQ: March 2020)",
+    "answer": "Double fertilization is a complex fertilization mechanism that is a unique characteristic of flowering plants (angiosperms). It involves the fusion of two male gametes with different cells of the female gametophyte.<br><br><b>The process is as follows:</b><br>1. After pollination, the pollen grain on the stigma germinates, and the pollen tube grows down to the ovule.<br>2. The pollen tube carries two non-motile male gametes. It enters the embryo sac through the micropyle.<br>3. <b>First Fertilization (Syngamy):</b> One of the male gametes fuses with the haploid egg cell to form the diploid zygote ($2n$). This zygote later develops into the embryo.<br>4. <b>Second Fertilization (Triple Fusion):</b> The second male gamete moves towards the central cell and fuses with the two haploid polar nuclei (or the diploid secondary nucleus) to form the triploid Primary Endosperm Nucleus (PEN) ($3n$). This PEN develops into the endosperm, which provides nutrition to the developing embryo.<br>Since two fertilization events occur simultaneously, it is called double fertilization.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is pollination? Describe the adaptations shown by wind-pollinated (anemophilous) flowers.",
+    "answer": "<b>Pollination</b> is the process of transfer of pollen grains from the anther to the stigma of a flower.<br><br><b>Adaptations in Wind-Pollinated (Anemophilous) Flowers:</b><br>These flowers are adapted to increase the chances of pollination by wind.<br><ul><li><b>Flowers:</b> They are small, inconspicuous, and lack bright colours, nectar, and fragrance as they do not need to attract insects.</li><li><b>Pollen Grains:</b> They are produced in very large quantities. They are light in weight, dry, and sometimes winged to be easily carried by the wind.</li><li><b>Stigma:</b> The stigma is large, feathery, and branched to effectively trap the airborne pollen grains.</li><li><b>Stamens:</b> The stamens have long filaments and versatile anthers that are exposed to the wind currents to facilitate the dispersal of pollen.</li></ul>Example: Maize, grasses.",
     "marks": 3
   },
   {
-    "type": "short",
-    "text": "What are parthenocarpic fruits? Give an example.",
-    "answer": "**Parthenocarpic fruits** are fruits that develop **without the process of fertilization**. Since no fertilization occurs, these fruits are typically **seedless**. This process can occur naturally or can be induced by applying growth hormones like auxins.\n\n**Example:** Banana 🍌, Grapes (some varieties), and Pineapple.",
-    "marks": 2
+    "type": "long",
+    "text": "Describe the development of the male gametophyte in angiosperms.",
+    "answer": "The development of the male gametophyte (pollen grain) in angiosperms is a two-stage process.<br><br><b>1. Pre-pollination Development (within the anther):</b><br>The haploid microspore is the first cell of the male gametophyte. It undergoes the first mitotic division to form two unequal cells:<br><ul><li>A large, naked <b>vegetative cell</b> or tube cell, which is rich in food reserves.</li><li>A small, thin-walled <b>generative cell</b>, which floats in the cytoplasm of the vegetative cell.</li></ul>At this two-celled stage, the pollen grain is usually shed from the anther.<br><br><b>2. Post-pollination Development (on the stigma):</b><br>After landing on a compatible stigma, the pollen grain absorbs moisture and swells. The vegetative cell grows out through a germ pore to form the pollen tube. The generative cell then divides by mitosis to form two non-motile male gametes. The pollen tube, carrying the two male gametes, grows down through the style to the ovule to carry out fertilization.",
+    "marks": 3
   },
   {
-    "type": "short",
-    "text": "Define vegetative propagation and mention any two of its natural methods.",
-    "answer": "**Vegetative propagation** is a type of asexual reproduction in plants where new plants are produced from vegetative parts of the parent plant, such as roots, stems, or leaves. The offspring are genetically identical to the parent (clones).\n\nTwo natural methods are:\n1.  **Runners:** Stems that grow horizontally along the ground, producing new plants at their nodes. Example: Strawberry 🍓.\n2.  **Tubers:** Swollen underground stems that store food and have 'eyes' (axillary buds) from which new plants can grow. Example: Potato 🥔.",
-    "marks": 2
+    "type": "long",
+    "text": "Write a note on vegetative propagation in plants. Give two examples of natural methods.",
+    "answer": "<b>Vegetative Propagation</b> is a type of asexual reproduction in plants where new plants are produced from the vegetative parts of the parent plant, such as the root, stem, or leaf. The new plants are genetically identical to the parent.<br><br><b>Natural Methods of Vegetative Propagation:</b><br>Many plants propagate naturally through their vegetative parts.<br>1. <b>By Stem (Tuber):</b> The potato is an underground stem tuber. It has buds called 'eyes' on its surface. When a potato is planted, these eyes sprout and grow into new potato plants.<br>2. <b>By Leaf (Leaf Buds):</b> The leaves of plants like Bryophyllum have adventitious buds in the notches along the leaf margin. When the leaf falls on moist soil, these buds develop into new plantlets.<br><br>Other natural methods include runners (grass), rhizomes (ginger), and bulbs (onion).",
+    "marks": 4
   }
 ]

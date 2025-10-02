@@ -1,0 +1,144 @@
+[
+  {
+    "type": "short",
+    "text": "What is a chemical reaction?",
+    "answer": "A chemical reaction is a process in which a substance or substances (reactants) react to form new substances with different properties (products). A chemical reaction rearranges the atoms of the reactants to create new molecules.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Write the balanced chemical equation for the reaction of sodium metal with water.",
+    "answer": "The reaction of sodium metal with water is a highly exothermic reaction that produces sodium hydroxide and hydrogen gas.\n\n**Word equation:**\nSodium + Water $\\to$ Sodium hydroxide + Hydrogen gas\n\n**Unbalanced chemical equation:**\n$Na(s) + H_2O(l) \\to NaOH(aq) + H_2(g)$\n\n**Balanced chemical equation:**\n$2Na(s) + 2H_2O(l) \\to 2NaOH(aq) + H_2(g)$\n\n**Explanation of balancing:**\n* Start with the unbalanced equation.\n* There are 2 Hydrogen atoms on the product side ($2$ in $H_2$). On the reactant side, there are $2$ in $H_2O$. To balance, we put a coefficient of $2$ in front of $H_2O$.\n* Now there are $2$ Oxygen atoms on the reactant side, and $2$ on the product side (in $2NaOH$). This is balanced.\n* Finally, there are $2$ Sodium atoms on the product side (in $2NaOH$), so we need to put a coefficient of $2$ in front of $Na$ on the reactant side.",
+    "marks": 3
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a combination reaction? (Problem Set 3)",
+    "options": ["$CaCO_3 \\to CaO + CO_2$", "$2H_2 + O_2 \\to 2H_2O$", "$Zn + CuSO_4 \\to ZnSO_4 + Cu$", "$NaCl + AgNO_3 \\to AgCl + NaNO_3$"],
+    "correct_answer": "B",
+    "answer": "A combination reaction is one in which two or more reactants combine to form a single product. In the reaction $2H_2 + O_2 \\to 2H_2O$, hydrogen and oxygen combine to form water. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the different types of chemical reactions with examples.",
+    "answer": "1.  **Combination Reaction:** Two or more reactants combine to form a single product. Example: $2H_2 + O_2 \\to 2H_2O$\n2.  **Decomposition Reaction:** A single reactant breaks down into two or more products. Example: $CaCO_3 \\to CaO + CO_2$\n3.  **Displacement Reaction:** A more reactive element displaces a less reactive element from its compound. Example: $Zn(s) + CuSO_4(aq) \\to ZnSO_4(aq) + Cu(s)$\n4.  **Double Displacement Reaction:** An exchange of ions between the reactants takes place to form new compounds. Example: $AgNO_3(aq) + NaCl(aq) \\to AgCl(s) \\downarrow + NaNO_3(aq)$\n5.  **Redox Reaction:** A reaction that involves both oxidation and reduction simultaneously. Example: $CuO + H_2 \\to Cu + H_2O$",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Why is it necessary to balance a chemical equation?",
+    "answer": "Balancing a chemical equation is necessary to satisfy the **Law of Conservation of Mass**. This law states that mass can neither be created nor destroyed in a chemical reaction. Therefore, the number of atoms of each element on the reactant side must be equal to the number of atoms of each element on the product side.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is meant by an exothermic and an endothermic reaction? Explain with examples.",
+    "answer": "1.  **Exothermic Reaction:** A reaction in which heat energy is released. The temperature of the surroundings increases. Example: The reaction of quicklime with water to form slaked lime. $CaO(s) + H_2O(l) \\to Ca(OH)_2(aq) + heat$\n2.  **Endothermic Reaction:** A reaction in which heat energy is absorbed. The temperature of the surroundings decreases. Example: The thermal decomposition of calcium carbonate. $CaCO_3(s) + heat \\to CaO(s) + CO_2(g)$",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Define corrosion and give two methods to prevent it.",
+    "answer": "Corrosion is the gradual destruction of a metal by the chemical action of its environment. It is the oxidation of a metal in the presence of moisture and air. Two methods to prevent corrosion are:\n1.  **Galvanization:** Coating the metal with a layer of zinc.\n2.  **Oiling/Greasing/Painting:** Applying a protective layer to prevent contact with air and moisture.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "What is rancidity? How can it be prevented?",
+    "answer": "Rancidity is the oxidation of fats and oils in food, leading to a change in their taste and smell. It is caused by the exposure of food items containing fats and oils to oxygen in the air.\n\n**Methods to prevent rancidity:**\n1.  **Adding antioxidants:** These are substances that prevent oxidation. Examples include BHA (Butylated Hydroxyanisole) and BHT (Butylated Hydroxytoluene).\n2.  **Storing in airtight containers:** This prevents the entry of oxygen.\n3.  **Flushing with inert gas:** Snack items are often packed in a bag flushed with nitrogen gas to prevent oxidation.\n4.  **Refrigeration:** Storing food in the refrigerator slows down the oxidation process.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Identify the oxidizing and reducing agents in the reaction: $CuO + H_2 \\to Cu + H_2O$.",
+    "answer": "In the reaction $CuO + H_2 \\to Cu + H_2O$:\n* **Oxidizing agent:** $CuO$ (because it provides oxygen for the oxidation of $H_2$).\n* **Reducing agent:** $H_2$ (because it removes oxygen from $CuO$ and causes its reduction).",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction $2Pb(NO_3)_2(s) \\to 2PbO(s) + 4NO_2(g) + O_2(g)$ is an example of a... (Problem Set 3)",
+    "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction", "Double displacement reaction"],
+    "correct_answer": "B",
+    "answer": "In this reaction, a single reactant, lead nitrate, breaks down into three products: lead oxide, nitrogen dioxide, and oxygen. This is a decomposition reaction. The correct option is **B**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the factors affecting the rate of a chemical reaction.",
+    "answer": "The rate of a chemical reaction can be influenced by several factors:\n\n1.  **Nature of the Reactants:** The reactivity of the reactants determines how fast they react. For example, sodium reacts more vigorously with water than calcium.\n2.  **Size of the Reactant Particles:** Smaller particles have a larger surface area, leading to more frequent collisions between reactants. This increases the reaction rate. For example, powdered zinc reacts faster with acid than a zinc strip.\n3.  **Concentration of the Reactants:** Higher concentration means more reactant particles are present in a given volume, increasing the frequency of collisions and thus the reaction rate.\n4.  **Temperature of the Reaction:** An increase in temperature increases the kinetic energy of the reactant particles, causing them to move faster and collide more frequently and with greater force, increasing the reaction rate.\n5.  **Presence of a Catalyst:** A catalyst is a substance that increases the rate of a chemical reaction without being consumed in the process. It provides an alternative reaction pathway with lower activation energy.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "What is the role of a catalyst in a chemical reaction?",
+    "answer": "A catalyst is a substance that increases the rate of a chemical reaction. It provides a new reaction pathway that has a lower activation energy, allowing the reaction to proceed faster. A catalyst is not consumed in the overall reaction and can be recovered unchanged at the end.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction of iron with copper sulfate solution is an example of... (Problem Set 3)",
+    "options": ["Combination", "Decomposition", "Displacement", "Double displacement"],
+    "correct_answer": "C",
+    "answer": "When iron is added to copper sulfate solution, the more reactive iron displaces the less reactive copper. The reaction is $Fe + CuSO_4 \\to FeSO_4 + Cu$. This is a displacement reaction. The correct option is **C**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "What happens when a piece of iron is kept in water and exposed to air for a long time? Write the chemical equation.",
+    "answer": "When a piece of iron is exposed to air and water for a long time, it undergoes a process called rusting, which is a form of corrosion. Rust is a reddish-brown, flaky substance that is essentially hydrated iron(III) oxide. The presence of both oxygen and moisture is essential for this reaction to occur.\n\n**Chemical Equation for Rusting:**\n$4Fe(s) + 3O_2(g) + 2xH_2O(l) \\to 2Fe_2O_3 \\cdot xH_2O(s)$\n\n**Explanation:**\n* The iron metal ($Fe$) reacts with oxygen ($O_2$) from the air and water ($H_2O$) to form rust ($Fe_2O_3 \\cdot xH_2O$).\n* The variable $x$ in the formula of rust represents a variable number of water molecules, as the exact composition of rust can vary.",
+    "marks": 4
+  },
+  {
+    "type": "short",
+    "text": "Write the balanced chemical equation for the thermal decomposition of calcium carbonate.",
+    "answer": "The thermal decomposition of calcium carbonate is a reaction where calcium carbonate ($CaCO_3$) breaks down into calcium oxide ($CaO$) and carbon dioxide ($CO_2$) when heated.\n\n$CaCO_3(s) \\xrightarrow{heat} CaO(s) + CO_2(g)$",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The chemical formula for rust is... (Problem Set 3)",
+    "options": ["$Fe_2O_3$", "$Fe_3O_4$", "$FeO$", "$Fe_2O_3 \\cdot xH_2O$"],
+    "correct_answer": "D",
+    "answer": "Rust is chemically known as hydrated iron(III) oxide. The variable $x$ indicates that the number of water molecules can vary. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain what happens when zinc metal is added to a copper sulfate solution. Write the balanced chemical equation.",
+    "answer": "When zinc metal is added to a blue copper sulfate solution, a single displacement reaction occurs. Zinc is more reactive than copper, so it displaces copper from the copper sulfate solution.\n\n* The blue color of the copper sulfate solution starts to fade as copper sulfate is consumed.\n* A reddish-brown coating of copper metal is deposited on the surface of the zinc strip.\n* The solution becomes colorless due to the formation of zinc sulfate.\n\n**Balanced chemical equation:**\n$Zn(s) + CuSO_4(aq) \\to ZnSO_4(aq) + Cu(s)$\\n**Conclusion:** The reaction shows that a more reactive metal can displace a less reactive metal from its salt solution.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "What is the change in oxidation number of the atoms in the reaction: $Mg + S \\to MgS$?",
+    "answer": "In the reaction, magnesium ($Mg$) changes its oxidation state from $0$ to $+2$, which is oxidation. Sulfur ($S$) changes its oxidation state from $0$ to $-2$, which is reduction.",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Write a short note on oxidation and reduction reactions.",
+    "answer": "### **Oxidation**\nOxidation is a chemical process that involves the addition of oxygen, the removal of hydrogen, or the loss of electrons. For example, in the reaction $2Mg + O_2 \\to 2MgO$, magnesium is oxidized as it gains oxygen.\n\n### **Reduction**\nReduction is a chemical process that involves the removal of oxygen, the addition of hydrogen, or the gain of electrons. For example, in the reaction $CuO + H_2 \\to Cu + H_2O$, copper oxide is reduced as it loses oxygen.\n\n### **Redox Reaction**\nBoth oxidation and reduction occur simultaneously in a chemical reaction. One substance is oxidized while the other is reduced. For example, in the reaction of $CuO$ with $H_2$, $CuO$ is reduced to $Cu$, while $H_2$ is oxidized to $H_2O$.",
+    "marks": 3
+  },
+  {
+    "type": "short",
+    "text": "Identify the type of reaction: $2H_2O \\xrightarrow{electrolysis} 2H_2 + O_2$.",
+    "answer": "The reaction shows a single compound ($H_2O$) breaking down into two simpler substances ($H_2$ and $O_2$) with the application of electricity. This is a decomposition reaction, specifically an electrolytic decomposition reaction.",
+    "marks": 2
+  },
+  {
+    "type": "mcq",
+    "text": "The reaction $BaCl_2(aq) + Na_2SO_4(aq) \\to BaSO_4(s) \\downarrow + 2NaCl(aq)$ is a... (Problem Set 3)",
+    "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction", "Double displacement reaction"],
+    "correct_answer": "D",
+    "answer": "This reaction involves the exchange of ions between the reactants ($Ba^{2+}$ with $SO_4^{2-}$ and $Na^+$ with $Cl^-$) to form a precipitate of barium sulfate. This is a double displacement reaction. The correct option is **D**.",
+    "marks": 1
+  },
+  {
+    "type": "long",
+    "text": "Explain the characteristics of a chemical reaction.",
+    "answer": "There are several observable changes that indicate a chemical reaction has taken place:\n1.  **Change in State:** The state of reactants might change to form products. For example, in the reaction between hydrogen and oxygen (both gases), a liquid (water) is formed.\n2.  **Change in Color:** The color of the reactants can change after the reaction. For example, when an iron nail is placed in a blue copper sulfate solution, the solution turns green, and a reddish-brown deposit forms on the iron.\n3.  **Evolution of Gas:** A gas may be produced during a chemical reaction, often indicated by effervescence or bubbling. For example, the reaction of zinc with dilute sulfuric acid produces hydrogen gas.\n4.  **Formation of a Precipitate:** A solid, insoluble substance (precipitate) may form from a solution. For example, in the reaction of barium chloride with sodium sulfate, a white precipitate of barium sulfate is formed.\n5.  **Change in Temperature:** The reaction may either release heat (exothermic) or absorb heat (endothermic), leading to a change in the temperature of the system.",
+    "marks": 4
+  }
+]

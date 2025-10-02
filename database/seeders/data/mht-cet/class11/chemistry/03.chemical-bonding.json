@@ -1,0 +1,405 @@
+[
+  {
+    "type": "mcq",
+    "text": "According to VSEPR theory, the shape of the $H_2O$ molecule is:",
+    "options": [
+      "(a) Linear",
+      "(b) Trigonal planar",
+      "(c) Bent or V-shaped",
+      "(d) Tetrahedral"
+    ],
+    "correct_answer": "c",
+    "answer": "In the $H_2O$ molecule, the central oxygen atom has two bond pairs and two lone pairs of electrons. The repulsion between these electron pairs results in a bent or V-shaped geometry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hybridization of the central atom in $SF_6$ is:",
+    "options": [
+      "(a) $sp^3$",
+      "(b) $sp^3d$",
+      "(c) $sp^3d^2$",
+      "(d) $sp^2$"
+    ],
+    "correct_answer": "c",
+    "answer": "To determine the hybridization of the central sulfur atom in $SF_6$, we can use the formula: $H = \\frac{1}{2}(V+M-C+A)$, where $V=6$ (valence electrons of S), $M=6$ (monovalent atoms), $C=0$ (cationic charge), and $A=0$ (anionic charge). $H = \\frac{1}{2}(6+6) = 6$. A steric number of 6 corresponds to $sp^3d^2$ hybridization.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following molecules has a linear shape?",
+    "options": [
+      "(a) $NH_3$",
+      "(b) $H_2O$",
+      "(c) $CO_2$",
+      "(d) $CH_4$"
+    ],
+    "correct_answer": "c",
+    "answer": "The central carbon atom in $CO_2$ has two double bonds with oxygen atoms and no lone pairs. This results in $sp$ hybridization and a linear molecular geometry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond order of $N_2$ is:",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 2.5"
+    ],
+    "correct_answer": "c",
+    "answer": "According to molecular orbital theory, the electronic configuration of $N_2$ is $\\sigma1s^2 \\sigma^*1s^2 \\sigma2s^2 \\sigma^*2s^2 \\pi2p_x^2 \\pi2p_y^2 \\sigma2p_z^2$. Bond order = $\\frac{1}{2}(N_b - N_a) = \\frac{1}{2}(10-4)=3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The shape of $NH_3$ is:",
+    "options": [
+      "(a) Trigonal planar",
+      "(b) Tetrahedral",
+      "(c) Pyramidal",
+      "(d) Linear"
+    ],
+    "correct_answer": "c",
+    "answer": "The central nitrogen atom in $NH_3$ has three bond pairs and one lone pair of electrons. The lone pair-bond pair repulsion causes the bond angle to decrease from the ideal tetrahedral angle, resulting in a pyramidal shape.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following species is paramagnetic?",
+    "options": [
+      "(a) $O_2$",
+      "(b) $N_2$",
+      "(c) $F_2$",
+      "(d) $CO$"
+    ],
+    "correct_answer": "a",
+    "answer": "According to molecular orbital theory, the electronic configuration of $O_2$ includes two unpaired electrons in the $\\pi^*2p$ orbitals. The presence of these unpaired electrons makes $O_2$ paramagnetic.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What type of hybridization results in a tetrahedral geometry?",
+    "options": [
+      "(a) $dsp^2$",
+      "(b) $sp$",
+      "(c) $sp^2$",
+      "(d) $sp^3$"
+    ],
+    "correct_answer": "d",
+    "answer": "A tetrahedral geometry corresponds to a steric number of 4, which results from the mixing of one $s$ orbital and three $p$ orbitals to form four equivalent $sp^3$ hybrid orbitals.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following has the highest bond energy?",
+    "options": [
+      "(a) $O_2$",
+      "(b) $O_2^+$",
+      "(c) $O_2^-$",
+      "(d) $O_2^{2-}$"
+    ],
+    "correct_answer": "b",
+    "answer": "Bond energy is directly proportional to bond order. The bond orders are: $O_2^{2-}=1$, $O_2^{-}=1.5$, $O_2=2$, $O_2^+=2.5$. The species with the highest bond order, $O_2^+$, has the highest bond energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of an ionic solid?",
+    "options": [
+      "(a) $I_2$",
+      "(b) Diamond",
+      "(c) $NaCl$",
+      "(d) Dry ice ($CO_2$)"
+    ],
+    "correct_answer": "c",
+    "answer": "$NaCl$ is an ionic compound formed by the electrostatic attraction between $Na^+$ and $Cl^-$ ions, making it an ionic solid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The total number of lone pairs of electrons on the fluorine atoms in $XeF_4$ is:",
+    "options": [
+      "(a) 6",
+      "(b) 8",
+      "(c) 10",
+      "(d) 12"
+    ],
+    "correct_answer": "d",
+    "answer": "The central Xenon atom has 4 bond pairs with fluorine atoms and 2 lone pairs. Each fluorine atom has 3 lone pairs. Since there are four fluorine atoms, the total number of lone pairs on the fluorine atoms is $4 \\times 3 = 12$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following molecules has a trigonal bipyramidal shape?",
+    "options": [
+      "(a) $PCl_5$",
+      "(b) $BF_3$",
+      "(c) $NH_3$",
+      "(d) $H_2S$"
+    ],
+    "correct_answer": "a",
+    "answer": "The central phosphorus atom in $PCl_5$ is $sp^3d$ hybridized and has five bond pairs and no lone pairs, resulting in a trigonal bipyramidal geometry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond angle in $BF_3$ is:",
+    "options": [
+      "(a) $109.5^{\\circ}$",
+      "(b) $120^{\\circ}$",
+      "(c) $107^{\\circ}$",
+      "(d) $180^{\\circ}$"
+    ],
+    "correct_answer": "b",
+    "answer": "The central boron atom in $BF_3$ is $sp^2$ hybridized with three bond pairs and no lone pairs. This leads to a trigonal planar geometry with a bond angle of $120^{\\circ}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a non-polar molecule with polar bonds?",
+    "options": [
+      "(a) $HCl$",
+      "(b) $H_2O$",
+      "(c) $CO_2$",
+      "(d) $NH_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "In $CO_2$, the C=O bonds are polar due to the difference in electronegativity. However, the molecule is linear, and the two bond dipoles cancel each other out, making the overall molecule non-polar.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the hybridization of the carbon atoms in fullerene?",
+    "options": [
+      "(a) $sp^3$",
+      "(b) $sp^2$",
+      "(c) $sp$",
+      "(d) $dsp^2$"
+    ],
+    "correct_answer": "b",
+    "answer": "In fullerene ($C_{60}$), each carbon atom is bonded to three other carbon atoms, forming a hexagonal or pentagonal ring. This arrangement results in $sp^2$ hybridization for each carbon atom.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond length in carbon-halogen bonds follows the order:",
+    "options": [
+      "(a) $C-F < C-Cl < C-Br < C-I$",
+      "(b) $C-I < C-Br < C-Cl < C-F$",
+      "(c) $C-Cl < C-Br < C-F < C-I$",
+      "(d) $C-F = C-Cl = C-Br = C-I$"
+    ],
+    "correct_answer": "a",
+    "answer": "As you go down the halogen group, the atomic size increases. Therefore, the bond length of the carbon-halogen bond also increases. The correct order is $C-F < C-Cl < C-Br < C-I$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The molecular geometry of $SF_4$ is:",
+    "options": [
+      "(a) Square planar",
+      "(b) Tetrahedral",
+      "(c) See-saw",
+      "(d) Trigonal pyramidal"
+    ],
+    "correct_answer": "c",
+    "answer": "The central sulfur atom in $SF_4$ has a steric number of 5 (4 bond pairs and 1 lone pair), which corresponds to $sp^3d$ hybridization and a trigonal bipyramidal electron geometry. The lone pair occupies an equatorial position, resulting in a see-saw molecular geometry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds has the highest dipole moment?",
+    "options": [
+      "(a) $CO_2$",
+      "(b) $CH_4$",
+      "(c) $NH_3$",
+      "(d) $NF_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "While both $NH_3$ and $NF_3$ are pyramidal with a lone pair, the bond dipoles in $NH_3$ add up to the lone pair's dipole, resulting in a large net dipole moment. In $NF_3$, the bond dipoles point away from the lone pair, partially canceling its effect. $CO_2$ and $CH_4$ are non-polar due to their symmetrical shapes.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct order of bond angles in $BF_3$, $PF_3$, and $ICl_3$ is:",
+    "options": [
+      "(a) $BF_3 > PF_3 > ICl_3$",
+      "(b) $ICl_3 > PF_3 > BF_3$",
+      "(c) $PF_3 > BF_3 > ICl_3$",
+      "(d) $BF_3 < PF_3 < ICl_3$"
+    ],
+    "correct_answer": "a",
+    "answer": "The bond angle in $BF_3$ is $120^{\\circ}$ (trigonal planar). $PF_3$ is pyramidal with a bond angle of about $97.8^{\\circ}$ due to the lone pair repulsion. $ICl_3$ is T-shaped with bond angles of $90^{\\circ}$ and $180^{\\circ}$ (due to two lone pairs). The order of bond angles is $BF_3 > PF_3 > ICl_3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The geometry of $BF_3$ and $NH_3$ are:",
+    "options": [
+      "(a) Both are trigonal planar",
+      "(b) Both are tetrahedral",
+      "(c) Trigonal planar and pyramidal, respectively",
+      "(d) Pyramidal and trigonal planar, respectively"
+    ],
+    "correct_answer": "c",
+    "answer": "$BF_3$ has three bond pairs and no lone pairs, resulting in a trigonal planar geometry. $NH_3$ has three bond pairs and one lone pair, resulting in a pyramidal geometry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond dissociation energy of $B-F$ in $BF_3$ is higher than that of $C-F$ in $CF_4$. The correct reason is:",
+    "options": [
+      "(a) Smaller size of B-atom as compared to that of C-atom",
+      "(b) Stronger bond between B and F in $BF_3$ as compared to that between C and F in $CF_4$",
+      "(c) The formation of a single bond in $BF_3$ while a double bond in $CF_4$",
+      "(d) Significant $p\\pi-p\\pi$ interaction between B and F in $BF_3$"
+    ],
+    "correct_answer": "d",
+    "answer": "Due to the vacant $p$-orbital on the boron atom, there is a back-donation of a lone pair from the fluorine atom, which gives the $B-F$ bond a partial double bond character. This phenomenon, known as $p\\pi-p\\pi$ back-bonding, strengthens the $B-F$ bond and increases its bond dissociation energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of sigma ($\\sigma$) and pi ($\\pi$) bonds in $C_2H_2$ are:",
+    "options": [
+      "(a) $3\\sigma, 2\\pi$",
+      "(b) $2\\sigma, 3\\pi$",
+      "(c) $4\\sigma, 1\\pi$",
+      "(d) $2\\sigma, 2\\pi$"
+    ],
+    "correct_answer": "a",
+    "answer": "The structure of acetylene ($C_2H_2$) is $H-C\\equiv C-H$. There is one $\\sigma$ bond between the two carbon atoms and two $\\pi$ bonds. There is also one $\\sigma$ bond between each carbon atom and a hydrogen atom. This gives a total of $3\\sigma$ bonds and $2\\pi$ bonds.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following compounds exhibits hydrogen bonding?",
+    "options": [
+      "(a) $HCl$",
+      "(b) $H_2S$",
+      "(c) $NH_3$",
+      "(d) $CH_4$"
+    ],
+    "correct_answer": "c",
+    "answer": "Hydrogen bonding occurs when a hydrogen atom is bonded to a highly electronegative atom like Fluorine (F), Oxygen (O), or Nitrogen (N). In $NH_3$, hydrogen is bonded to nitrogen, allowing for hydrogen bonding.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a property of an ionic bond?",
+    "options": [
+      "(a) High melting and boiling points",
+      "(b) Soluble in polar solvents",
+      "(c) Good conductors in the solid state",
+      "(d) Formed by the transfer of electrons"
+    ],
+    "correct_answer": "c",
+    "answer": "Ionic compounds are typically good conductors of electricity in their molten or aqueous state, but not in their solid state, as the ions are held in a fixed lattice and are not free to move.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The hybridization of the central atom in $H_2O$ is:",
+    "options": [
+      "(a) $sp$",
+      "(b) $sp^2$",
+      "(c) $sp^3$",
+      "(d) $sp^3d$"
+    ],
+    "correct_answer": "c",
+    "answer": "The central oxygen atom in $H_2O$ has two bond pairs and two lone pairs, for a steric number of 4. This corresponds to $sp^3$ hybridization.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The geometry of $I_3^-$ is:",
+    "options": [
+      "(a) Linear",
+      "(b) Trigonal planar",
+      "(c) V-shaped",
+      "(d) T-shaped"
+    ],
+    "correct_answer": "a",
+    "answer": "The central iodine atom in $I_3^-$ has two bond pairs and three lone pairs. These arrange themselves in a trigonal bipyramidal electron geometry. However, the three lone pairs occupy the equatorial positions, forcing the two bonded iodine atoms into the axial positions, resulting in a linear molecular geometry.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The bond order of $O_2^{2-}$ is:",
+    "options": [
+      "(a) 2",
+      "(b) 1.5",
+      "(c) 1",
+      "(d) 2.5"
+    ],
+    "correct_answer": "c",
+    "answer": "The total number of electrons in $O_2^{2-}$ is 18. According to MO theory, the electronic configuration is $\\sigma1s^2 \\sigma^*1s^2 \\sigma2s^2 \\sigma^*2s^2 \\sigma2p_z^2 \\pi2p_x^2 \\pi2p_y^2 \\pi^*2p_x^2 \\pi^*2p_y^2$. Bond order = $\\frac{1}{2}(N_b - N_a) = \\frac{1}{2}(8-8)=1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following molecules has a permanent dipole moment?",
+    "options": [
+      "(a) $CH_4$",
+      "(b) $CCl_4$",
+      "(c) $H_2S$",
+      "(d) $CO_2$"
+    ],
+    "correct_answer": "c",
+    "answer": "Due to its bent shape, the bond dipoles in $H_2S$ do not cancel each other out, resulting in a net dipole moment. The other molecules listed have symmetrical geometries where the bond dipoles cancel out.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following statements is INCORRECT for a metallic bond?",
+    "options": [
+      "(a) Attraction between delocalized electrons and atomic kernels",
+      "(b) Good conductors of heat and electricity",
+      "(c) Ductile and malleable",
+      "(d) Increase in conductance by increasing temperature"
+    ],
+    "correct_answer": "d",
+    "answer": "The electrical conductance of metals decreases as the temperature increases because the increased thermal motion of the atomic kernels hinders the flow of the delocalized electrons.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The pair of compounds having the same shape is:",
+    "options": [
+      "(a) $NH_3, BF_3$",
+      "(b) $PCl_5, IF_5$",
+      "(c) $CO_2, SO_2$",
+      "(d) $BF_4^-, NH_4^+$"
+    ],
+    "correct_answer": "d",
+    "answer": "Both $BF_4^-$ and $NH_4^+$ have a central atom with four bond pairs and no lone pairs. This results in a tetrahedral geometry for both species.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a characteristic of a covalent bond?",
+    "options": [
+      "(a) Formed by sharing of electrons",
+      "(b) High melting point",
+      "(c) Exists in a directional nature",
+      "(d) Can be single, double, or triple"
+    ],
+    "correct_answer": "b",
+    "answer": "Covalent compounds generally have low melting and boiling points compared to ionic compounds due to the weaker intermolecular forces holding the molecules together.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The type of chemical bond formed by the complete transfer of one or more electrons between atoms is called:",
+    "options": [
+      "(a) Covalent bond",
+      "(b) Ionic bond",
+      "(c) Metallic bond",
+      "(d) Hydrogen bond"
+    ],
+    "correct_answer": "b",
+    "answer": "An ionic bond, also known as an electrovalent bond, is formed by the complete transfer of one or more valence electrons from one atom to another, resulting in the formation of oppositely charged ions.",
+    "marks": 1
+  }
+]

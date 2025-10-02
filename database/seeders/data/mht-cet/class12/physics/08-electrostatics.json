@@ -1,0 +1,158 @@
+[
+  {
+    "type": "mcq",
+    "text": "The electric potential at a point due to an electric dipole is given by: (MHT CET 2022)",
+    "options": [
+      "(a) $V = \\frac{1}{4\\pi\\epsilon_0}\\frac{p\\cos\\theta}{r^2}$",
+      "(b) $V = \\frac{1}{4\\pi\\epsilon_0}\\frac{p}{r^2}$",
+      "(c) $V = \\frac{1}{4\\pi\\epsilon_0}\\frac{p\\sin\\theta}{r^2}$",
+      "(d) $V = \\frac{1}{4\\pi\\epsilon_0}\\frac{p}{r}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The electric potential at a point with position vector 'r' and angle '$\\theta$' with the dipole axis, due to an electric dipole with moment 'p', is given by the formula:<br>$V = \\frac{1}{4\\pi\\epsilon_0}\\frac{p\\cos\\theta}{r^2}$<br>This shows that the potential is inversely proportional to the square of the distance from the dipole and depends on the angle with the dipole axis.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A parallel plate capacitor has a capacitance 'C'. If the distance between the plates is doubled and the area is halved, the new capacitance will be: (MHT CET 2021)",
+    "options": [
+      "(a) C",
+      "(b) 4C",
+      "(c) C/4",
+      "(d) 2C"
+    ],
+    "correct_answer": "c",
+    "answer": "The capacitance of a parallel plate capacitor is given by the formula:<br>$C = \\frac{\\epsilon_0 A}{d}$<br>where:<br>$\\epsilon_0$ is the permittivity of free space.<br>A is the area of the plates.<br>d is the distance between the plates.<br><br>Let the initial capacitance be $C_1 = C$, with area $A_1 = A$ and distance $d_1 = d$.<br>The new area is $A_2 = A/2$.<br>The new distance is $d_2 = 2d$.<br><br>The new capacitance ($C_2$) will be:<br>$C_2 = \\frac{\\epsilon_0 A_2}{d_2} = \\frac{\\epsilon_0 (A/2)}{2d} = \\frac{1}{4}\\left(\\frac{\\epsilon_0 A}{d}\\right) = \\frac{1}{4} C$<br><br>The new capacitance is C/4.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electric field intensity at a point outside a uniformly charged thin spherical shell is: (MHT CET 2020)",
+    "options": [
+      "(a) zero",
+      "(b) proportional to the distance from the center",
+      "(c) inversely proportional to the distance from the center",
+      "(d) inversely proportional to the square of the distance from the center"
+    ],
+    "correct_answer": "d",
+    "answer": "According to <b>Gauss's Law</b>, for a point outside a uniformly charged spherical shell, the electric field intensity is the same as if all the charge were concentrated at the center of the shell. The electric field due to a point charge 'q' at a distance 'r' is given by:<br>$E = \\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r^2}$<br><br>This shows that the electric field intensity is inversely proportional to the square of the distance from the center.<br><br><b>Correct option is (d).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of electric potential is: (MHT CET 2019)",
+    "options": [
+      "(a) Volt",
+      "(b) Joule",
+      "(c) Coulomb",
+      "(d) Ampere"
+    ],
+    "correct_answer": "a",
+    "answer": "The SI unit of electric potential is the <b>Volt</b> (V). It is defined as one Joule of work per one Coulomb of charge.<br>$1 V = 1 J/C$<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Three capacitors of capacitances 2 $\\mu$F, 3 $\\mu$F, and 6 $\\mu$F are connected in series. The equivalent capacitance is: (MHT CET 2018)",
+    "options": [
+      "(a) 11 $\\mu$F",
+      "(b) 6 $\\mu$F",
+      "(c) 1 $\\mu$F",
+      "(d) 1.5 $\\mu$F"
+    ],
+    "correct_answer": "c",
+    "answer": "For capacitors connected in series, the reciprocal of the equivalent capacitance ($C_{eq}$) is the sum of the reciprocals of the individual capacitances.<br>$\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3}$<br><br>Given:<br>$C_1 = 2 \\mu F$<br>$C_2 = 3 \\mu F$<br>$C_3 = 6 \\mu F$<br><br>Substitute the values:<br>$\\frac{1}{C_{eq}} = \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6}$<br>Find a common denominator, which is 6.<br>$\\frac{1}{C_{eq}} = \\frac{3}{6} + \\frac{2}{6} + \\frac{1}{6} = \\frac{3+2+1}{6} = \\frac{6}{6} = 1$<br><br>So, $C_{eq} = 1 \\mu F$.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The energy stored in a capacitor with capacitance 'C' and voltage 'V' across it is: (MHT CET 2017)",
+    "options": [
+      "(a) $E = \\frac{1}{2}CV^2$",
+      "(b) $E = CV^2$",
+      "(c) $E = \\frac{1}{2}C^2V$",
+      "(d) $E = \\frac{1}{2}QV^2$"
+    ],
+    "correct_answer": "a",
+    "answer": "The energy stored in a capacitor is given by the formula:<br>$E = \\frac{1}{2}QV = \\frac{1}{2}CV^2 = \\frac{Q^2}{2C}$<br>The most common form is $E = \\frac{1}{2}CV^2$.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electric field intensity inside a hollow conducting sphere is: (MHT CET 2017)",
+    "options": [
+      "(a) zero",
+      "(b) constant and non-zero",
+      "(c) directly proportional to the distance from the center",
+      "(d) inversely proportional to the distance from the center"
+    ],
+    "correct_answer": "a",
+    "answer": "For a hollow conducting sphere in electrostatic equilibrium, the charge resides only on its outer surface. According to <b>Gauss's Law</b>, if you consider a Gaussian surface inside the conductor, the net charge enclosed is zero. Therefore, the electric flux through this surface is also zero, and consequently, the electric field intensity inside the conductor is <b>zero</b>.<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The work done in moving a charge 'q' from point A to point B in an electric field is: (MHT CET 2016)",
+    "options": [
+      "(a) $W = q(V_B - V_A)$",
+      "(b) $W = qV_B - qV_A$",
+      "(c) $W = q(V_A - V_B)$",
+      "(d) $W = qV_B + qV_A$"
+    ],
+    "correct_answer": "a",
+    "answer": "The potential difference between two points A and B is defined as the work done per unit positive charge in moving it from point A to point B. This can be expressed as:<br>$V_B - V_A = \\frac{W_{AB}}{q}$<br><br>Rearranging the formula to solve for the work done ($W_{AB}$):<br>$W_{AB} = q(V_B - V_A)$<br><br><b>Correct option is (a).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The SI unit of electric field intensity is: (MHT CET 2015)",
+    "options": [
+      "(a) V/m",
+      "(b) N/C",
+      "(c) Both (a) and (b)",
+      "(d) J/C"
+    ],
+    "correct_answer": "c",
+    "answer": "The electric field intensity (E) can be defined in two ways:<br>1. Force per unit charge: $E = F/q$. The unit is Newton per Coulomb (N/C).<br>2. Negative of the potential gradient: $E = -\\frac{dV}{dr}$. The unit is Volt per meter (V/m).<br><br>Both units are equivalent and are used to express electric field intensity.<br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The capacitance of a parallel plate capacitor depends on: (MHT CET 2014)",
+    "options": [
+      "(a) the material of the plates",
+      "(b) the thickness of the plates",
+      "(c) the distance between the plates",
+      "(d) the voltage applied"
+    ],
+    "correct_answer": "c",
+    "answer": "The capacitance of a parallel plate capacitor is given by the formula:<br>$C = \\frac{\\kappa \\epsilon_0 A}{d}$<br>This formula shows that the capacitance is dependent on the area of the plates (A), the distance between them (d), and the dielectric constant of the material between the plates ($\\kappa$). It does not depend on the voltage applied or the material of the plates themselves.<br><br><b>Correct option is (c).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The electric field intensity at a point is a: (MHT CET 2013)",
+    "options": [
+      "(a) scalar quantity",
+      "(b) vector quantity",
+      "(c) dimensionless quantity",
+      "(d) non-physical quantity"
+    ],
+    "correct_answer": "b",
+    "answer": "Electric field intensity is defined as the force experienced by a unit positive test charge. Since force is a vector quantity (having both magnitude and direction), the electric field intensity is also a <b>vector quantity</b>.<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The equivalent capacitance of two capacitors $C_1$ and $C_2$ connected in parallel is: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{C_1C_2}{C_1+C_2}$",
+      "(b) $C_1+C_2$",
+      "(c) $\\frac{C_1+C_2}{C_1C_2}$",
+      "(d) $\\sqrt{C_1+C_2}$"
+    ],
+    "correct_answer": "b",
+    "answer": "For capacitors connected in parallel, the equivalent capacitance ($C_{eq}$) is the sum of the individual capacitances.<br>$C_{eq} = C_1 + C_2$<br><br><b>Correct option is (b).</b>",
+    "marks": 1
+  }
+]

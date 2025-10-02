@@ -1,0 +1,156 @@
+[
+  {
+    "type": "mcq",
+    "text": "The pathogen responsible for causing typhoid fever is _______.",
+    "options": ["Plasmodium vivax", "Wuchereria bancrofti", "Salmonella typhi", "Rhinovirus"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Typhoid is a bacterial infection caused by Salmonella typhi, which is generally transmitted through contaminated food and water. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The 'Widal test' is used for the diagnosis of _______.",
+    "options": ["Malaria", "Pneumonia", "Typhoid", "AIDS"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> The Widal test is a serological test used to detect the presence of antibodies against the Salmonella typhi bacterium in a patient's serum, thus confirming a diagnosis of typhoid fever. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following provides passive immunity to a newborn baby?",
+    "options": ["Vaccination", "Infection", "Colostrum", "Antibiotics"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Colostrum, the first milk produced by the mother, is rich in ready-made antibodies (especially IgA) that are transferred to the infant, providing immediate protection. This is a form of natural passive immunity. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "AIDS is caused by the HIV virus, which belongs to a group of viruses called _______.",
+    "options": ["Rhinoviruses", "Retroviruses", "Adenoviruses", "Bacteriophages"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> The Human Immunodeficiency Virus (HIV) is a retrovirus. It has an RNA genome and uses an enzyme called reverse transcriptase to synthesize DNA from its RNA, which is the reverse of the usual transcription process. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The property of cancerous cells by which they spread to distant sites is called _______.",
+    "options": ["Contact inhibition", "Metastasis", "Benign growth", "Angiogenesis"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> Metastasis is the most feared property of malignant tumors. It is the process by which cancer cells break away from the primary tumor and travel through the blood or lymph system to form new tumors (secondary tumors) in other parts of the body. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The malarial parasite, Plasmodium, requires two hosts to complete its life cycle. They are _______.",
+    "options": ["Human and Pig", "Mosquito and Pig", "Human and Mosquito", "Human and Snail"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> Plasmodium is digenetic. It completes its asexual life cycle in the human host and its sexual life cycle in the female Anopheles mosquito, which acts as the vector. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "B-lymphocytes and T-lymphocytes are the two main types of cells involved in _______ immunity.",
+    "options": ["Innate", "Acquired", "Passive", "Natural"],
+    "correct_answer": "B",
+    "answer": "<b>Explanation:</b> B-cells (humoral immunity) and T-cells (cell-mediated immunity) are the primary cells of the acquired or adaptive immune system. This type of immunity is pathogen-specific and has memory. The correct option is <b>B</b>.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an autoimmune disorder?",
+    "options": ["Malaria", "Tuberculosis", "Rheumatoid arthritis", "Ascariasis"],
+    "correct_answer": "C",
+    "answer": "<b>Explanation:</b> An autoimmune disorder is a condition where the body's immune system mistakenly attacks its own healthy cells and tissues. Rheumatoid arthritis is a classic example. The correct option is <b>C</b>.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Vaccination is an example of artificially acquired active immunity.",
+    "answer": "<b>True</b><br><b>Reason:</b> A vaccine contains weakened or inactivated pathogens or their antigens, which are introduced into the body. This stimulates the body's immune system to produce its own antibodies and memory cells, providing active immunity.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Elephantiasis (Filariasis) is caused by the roundworm Ascaris lumbricoides.",
+    "answer": "<b>False</b><br><b>Reason:</b> Elephantiasis is caused by the filarial worm, Wuchereria bancrofti. Ascariasis is the disease caused by Ascaris lumbricoides.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Benign tumors are cancerous and show the property of metastasis.",
+    "answer": "<b>False</b><br><b>Reason:</b> Benign tumors are non-cancerous. They remain confined to their original location and do not spread to other parts of the body (i.e., they do not metastasize).",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "The primary lymphoid organs are the bone marrow and the thymus.",
+    "answer": "<b>True</b><br><b>Reason:</b> The primary lymphoid organs are where lymphocytes mature and acquire antigen-specificity. B-cells mature in the bone marrow and T-cells mature in the thymus.",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "Ringworm is a disease caused by a helminth worm.",
+    "answer": "<b>False</b><br><b>Reason:</b> Ringworm is one of the most common infectious fungal diseases in humans, caused by fungi belonging to the genera Microsporum, Trichophyton, and Epidermophyton.",
+    "marks": 1
+  },
+  {
+    "type": "short",
+    "text": "Distinguish between Active Immunity and Passive Immunity. (PYQ: March 2022)",
+    "answer": "<table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Active Immunity</th><th style='padding: 8px;'>Passive Immunity</th></tr><tr><td style='padding: 8px;'>It is produced actively by the host's body in response to an infection or vaccination.</td><td style='padding: 8px;'>It is acquired when ready-made antibodies are transferred to the body from an outside source.</td></tr><tr><td style='padding: 8px;'>It is slow and takes time to develop.</td><td style='padding: 8px;'>It provides immediate protection.</td></tr><tr><td style='padding: 8px;'>It is long-lasting and has immunological memory.</td><td style='padding: 8px;'>It is short-lived and does not have memory.</td></tr><tr><td style='padding: 8px;'>Example: Immunity developed after a disease or after vaccination.</td><td style='padding: 8px;'>Example: Immunity transferred from mother to foetus (IgG) or through colostrum (IgA).</td></tr></table>",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What is meant by 'innate immunity'? Mention any two of its barriers.",
+    "answer": "<b>Innate Immunity</b> is the non-specific, inborn resistance to diseases that an individual possesses right from birth. It is the first line of defense against pathogens.<br><br><b>Two barriers of innate immunity are:</b><br>1. <b>Physical Barriers:</b> These prevent the entry of microorganisms. The most important physical barrier is the skin. The mucous coating of the epithelial lining of the respiratory and gastrointestinal tracts also helps in trapping microbes.<br>2. <b>Physiological Barriers:</b> These include factors like acid in the stomach (which kills most microbes), saliva in the mouth, and tears from the eyes (which have lysozyme).",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Define 'antigen' and 'antibody'.",
+    "answer": "<b>Antigen:</b> An antigen is any foreign substance (such as a virus, bacterium, or pollen) that, when introduced into the body, is capable of stimulating an immune response, specifically the production of antibodies.<br><br><b>Antibody:</b> An antibody is a Y-shaped protein produced by the B-lymphocytes of the immune system in response to the presence of a specific antigen. Antibodies bind to antigens and help to neutralize or eliminate them.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are carcinogens? Give two examples of physical and chemical carcinogens.",
+    "answer": "<b>Carcinogens</b> are physical, chemical, or biological agents that can cause cancer by inducing mutations in the DNA.<br><br><b>Examples:</b><br>1. <b>Physical Carcinogens:</b> Ionizing radiations like X-rays and gamma rays, and non-ionizing radiations like UV rays.<br>2. <b>Chemical Carcinogens:</b> Chemicals present in tobacco smoke (e.g., benzopyrene), and other agents like asbestos and nickel.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "What are the common withdrawal symptoms of drug and alcohol abuse?",
+    "answer": "Withdrawal syndrome occurs when a dependent person abruptly stops taking drugs or alcohol. The symptoms can be unpleasant and severe.<br>Common symptoms include:<br><ul><li>Anxiety and shakiness</li><li>Nausea and vomiting</li><li>Sweating and tremors</li><li>In severe cases, it can be life-threatening and may lead to seizures and hallucinations.</li></ul>",
+    "marks": 2
+  },
+  {
+    "type": "long",
+    "text": "Describe the life cycle of Plasmodium vivax with a neat, labelled diagram. (PYQ: March 2019)",
+    "answer": "<br><br>The malarial parasite, Plasmodium, is digenetic, meaning it completes its life cycle in two hosts: Human and the female Anopheles mosquito.<br><br><b>A. In Human Host (Asexual Cycle):</b><br>1. <b>Infection:</b> When an infected mosquito bites a human, it injects sporozoites into the bloodstream.<br>2. <b>Liver Stage (Hepatic Schizogony):</b> The sporozoites travel to the liver cells, where they multiply asexually to form thousands of merozoites. The liver cells then rupture, releasing the merozoites into the blood.<br>3. <b>RBC Stage (Erythrocytic Schizogony):</b> The merozoites invade the Red Blood Cells (RBCs). Inside the RBCs, they multiply asexually, causing the RBCs to rupture. This rupture releases toxic substances like hemozoin, which causes the characteristic chills and high fever of malaria. The released merozoites infect new RBCs, and the cycle repeats.<br>4. <b>Gametocyte Formation:</b> Some of the merozoites develop into male and female gametocytes within the RBCs.<br><br><b>B. In Mosquito Host (Sexual Cycle):</b><br>1. <b>Gametocyte Ingestion:</b> When a female Anopheles mosquito bites an infected person, it ingests the gametocytes along with the blood.<br>2. <b>Fertilization:</b> Inside the mosquito's gut, the gametocytes mature into male and female gametes. Fertilization occurs, forming a diploid zygote.<br>3. <b>Sporogony:</b> The zygote develops into an oocyst. The oocyst undergoes meiosis and then mitosis to produce a large number of haploid sporozoites.<br>4. <b>Migration:</b> The oocyst ruptures, and the sporozoites are released. They migrate to the mosquito's salivary glands, ready to infect a new human host.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is cancer? Explain the difference between benign and malignant tumors.",
+    "answer": "<b>Cancer</b> is a disease characterized by the uncontrolled, abnormal, and rapid division of cells. These cells invade and destroy surrounding normal tissues. This unregulated cell growth leads to the formation of a mass of cells called a tumor or neoplasm.<br><br><b>Tumors are of two main types:</b><br><table border='1' style='width:100%; border-collapse: collapse; text-align: left;'><tr><th style='padding: 8px;'>Benign Tumor</th><th style='padding: 8px;'>Malignant Tumor</th></tr><tr><td style='padding: 8px;'>It is a non-cancerous tumor.</td><td style='padding: 8px;'>It is a cancerous tumor.</td></tr><tr><td style='padding: 8px;'>It grows slowly and remains confined to its original location.</td><td style='padding: 8px;'>It grows rapidly and invades the surrounding normal tissues.</td></tr><tr><td style='padding: 8px;'>It does not spread to other parts of the body (no metastasis).</td><td style='padding: 8px;'>Cells can break away and spread to distant parts of the body to form new tumors (metastasis).</td></tr><tr><td style='padding: 8px;'>It causes limited damage and is generally not life-threatening.</td><td style='padding: 8px;'>It is very dangerous and can be fatal if not treated.</td></tr></table>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is AIDS? Describe its modes of transmission and methods of prevention.",
+    "answer": "<b>AIDS</b> stands for Acquired Immuno Deficiency Syndrome. It is a chronic, potentially life-threatening condition caused by the Human Immunodeficiency Virus (HIV). HIV attacks and weakens the body's immune system, specifically the helper T-cells, making the person highly susceptible to various opportunistic infections.<br><br><b>Modes of Transmission:</b><br>HIV is transmitted through the exchange of body fluids. The main modes are:<br><ul><li><b>Sexual Contact:</b> Through unprotected sexual intercourse with an infected person.</li><li><b>Blood Transfusion:</b> By transfusion of contaminated blood and blood products.</li><li><b>Sharing of Needles:</b> By sharing infected needles, as in the case of intravenous drug abusers.</li><li><b>Mother to Child (Vertical Transmission):</b> From an infected mother to her child through the placenta during pregnancy, or through breast milk after birth.</li></ul><b>Methods of Prevention:</b><br>As there is no cure for AIDS, prevention is the best strategy.<br><ul><li>Ensuring the use of safe, screened blood for transfusions.</li><li>Using disposable needles and syringes.</li><li>Practicing safe sex by using condoms.</li><li>Regular check-ups for pregnant women to prevent transmission to the child.</li><li>Creating widespread awareness about the disease through education.</li></ul>",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Describe the structure of an antibody molecule with a neat, labelled diagram.",
+    "answer": "<br><br>An antibody is a Y-shaped glycoprotein molecule produced by B-lymphocytes. Each antibody molecule is made up of four polypeptide chains:<br><ul><li><b>Two Heavy (H) Chains:</b> These are two identical, long polypeptide chains.</li><li><b>Two Light (L) Chains:</b> These are two identical, short polypeptide chains.</li></ul>The four chains are held together by disulfide bonds to form a Y-shaped structure.<br><br>Each chain has two regions:<br>1. <b>Variable (V) Region:</b> This is the region at the tip of the 'Y' arms. The amino acid sequence in this region is highly variable, which allows the antibody to recognize and bind to a specific antigen. This part forms the <b>antigen-binding site</b> (paratope).<br>2. <b>Constant (C) Region:</b> The amino acid sequence in this region is the same for all antibodies of a particular class. This region determines the biological function of the antibody.<br><br>The two arms of the Y are called the Fab (Fragment, antigen-binding) region, and the stem of the Y is called the Fc (Fragment, crystallizable) region.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "What is addiction? Explain the effects of alcohol abuse.",
+    "answer": "<b>Addiction</b> is a psychological and physical inability to stop consuming a chemical, drug, activity, or substance, even though it is causing psychological and physical harm.<br><br><b>Effects of Alcohol Abuse:</b><br>Excessive consumption of alcohol has severe effects on the individual and society.<br><b>A. Effects on the Individual:</b><br><ul><li><b>Nervous System:</b> It acts as a depressant on the central nervous system, leading to impaired judgment, poor coordination, and slurred speech.</li><li><b>Liver:</b> Long-term abuse leads to fatty liver, alcoholic hepatitis, and finally, liver cirrhosis, which can be fatal.</li><li><b>Heart:</b> It can cause high blood pressure and damage to the heart muscle.</li><li><b>Stomach:</b> It can cause gastritis and stomach ulcers.</li></ul><b>B. Effects on Society:</b><br><ul><li>It is a major cause of road accidents.</li><li>It leads to domestic violence and social problems.</li><li>An addict can become a financial burden on his family and society.</li></ul>",
+    "marks": 3
+  }
+]

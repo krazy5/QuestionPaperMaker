@@ -1,76 +1,305 @@
 [
   {
     "type": "mcq",
-    "text": "Right △ABC with ∠B = 90°. If ∠A = θ, then sin θ equals:",
-    "options": ["AB/AC", "BC/AC", "AC/BC", "AC/AB"],
+    "text": "Right $\\triangle$ABC with $\\angle$B = $90^\\circ$. If $\\angle$A = $\\theta$, then sin $\\theta$ equals:",
+    "options": [
+      "AB/AC",
+      "BC/AC",
+      "AC/BC",
+      "AC/AB"
+    ],
     "correct_answer": "B",
+    "answer": "The sine of an angle in a right triangle is the ratio of the length of the opposite side to the length of the hypotenuse. For angle A, the opposite side is BC and the hypotenuse is AC. Therefore, sin $\\theta = \\frac{BC}{AC}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "The value of cos 60° is:",
-    "options": ["0", "1/2", "√3/2", "1"],
+    "text": "The value of cos $60^\\circ$ is:",
+    "options": [
+      "0",
+      "1/2",
+      "$\\sqrt{3}/2$",
+      "1"
+    ],
     "correct_answer": "B",
+    "answer": "This is a standard trigonometric value. The cosine of $60^\\circ$ is $\\frac{1}{2}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Right △ABC with ∠B=90°, AB=3, BC=4, AC=5. Then tan A equals:",
-    "options": ["3/4", "4/5", "4/3", "3/5"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "For acute angles, sin(90°−θ) equals:",
-    "options": ["tan θ", "cos θ", "sec θ", "cosec θ"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "If cos θ = 4/5 for acute θ, then sin θ is:",
-    "options": ["3/5", "5/4", "4/3", "√5/2"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "[Application] From a point on level ground, the angle of elevation of a tower top is θ. Which ratio directly relates height (h) and horizontal distance (d)?",
-    "options": ["sin θ = d/h", "cos θ = h/d", "tan θ = h/d", "tan θ = d/h"],
+    "text": "Right $\\triangle$ABC with $\\angle$B=$90^\\circ$, AB=3, BC=4, AC=5. Then tan A equals:",
+    "options": [
+      "3/4",
+      "4/5",
+      "4/3",
+      "3/5"
+    ],
     "correct_answer": "C",
+    "answer": "The tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side. For angle A, the opposite side is BC (length 4) and the adjacent side is AB (length 3). Therefore, tan A = $\\frac{4}{3}$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "The value of tan 45° is:",
-    "options": ["0", "1/√3", "1", "√3"],
-    "correct_answer": "C",
+    "text": "For acute angles, sin($90^\\circ$-$\\theta$) equals:",
+    "options": [
+      "tan $\\theta$",
+      "cos $\\theta$",
+      "sec $\\theta$",
+      "cosec $\\theta$"
+    ],
+    "correct_answer": "B",
+    "answer": "This is a fundamental trigonometric identity for complementary angles. The sine of an angle is equal to the cosine of its complementary angle, and vice-versa. Therefore, sin($90^\\circ$-$\\theta$) = cos $\\theta$.",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "If sin θ = 1/2 for acute θ, then θ equals:",
-    "options": ["30°", "45°", "60°", "90°"],
+    "text": "If cos $\\theta$ = 4/5 for acute $\\theta$, then sin $\\theta$ is:",
+    "options": [
+      "3/5",
+      "5/4",
+      "4/3",
+      "$\\sqrt{5}/2$"
+    ],
     "correct_answer": "A",
+    "answer": "Using the Pythagorean identity sin$^2\\theta + \\text{cos}^2\\theta = 1$, we can find sin $\\theta$.<br>sin$^2\\theta = 1 - \\text{cos}^2\\theta = 1 - (\\frac{4}{5})^2 = 1 - \\frac{16}{25} = \\frac{9}{25}$.<br>sin $\\theta = \\sqrt{\\frac{9}{25}} = \\frac{3}{5}$.",
     "marks": 1
   },
-
+  {
+    "type": "mcq",
+    "text": "The value of tan $45^\\circ$ is:",
+    "options": [
+      "0",
+      "1/$\\sqrt{3}$",
+      "1",
+      "$\\sqrt{3}$"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The tangent of $45^\\circ$ is 1.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sin $\\theta$ = 1/2 for acute $\\theta$, then $\\theta$ equals:",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "correct_answer": "A",
+    "answer": "The value of sin $\\theta$ is 1/2 when the angle $\\theta$ is $30^\\circ$. This is a standard trigonometric value.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of tan $60^\\circ$ is:",
+    "options": [
+      "1/$\\sqrt{3}$",
+      "1",
+      "$\\sqrt{3}$",
+      "2"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The tangent of $60^\\circ$ is $\\sqrt{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sin $\\theta$ = 12/13 ($\\theta$ acute), then cos $\\theta$ is:",
+    "options": [
+      "5/13",
+      "12/5",
+      "13/12",
+      "$\\sqrt{1-12/13}$"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the Pythagorean identity sin$^2\\theta + \\text{cos}^2\\theta = 1$, we can find cos $\\theta$.<br>cos$^2\\theta = 1 - \\text{sin}^2\\theta = 1 - (\\frac{12}{13})^2 = 1 - \\frac{144}{169} = \\frac{25}{169}$.<br>cos $\\theta = \\sqrt{\\frac{25}{169}} = \\frac{5}{13}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which is correct for acute $\\theta$?",
+    "options": [
+      "tan $\\theta$ = sin $\\theta$ / cos $\\theta$",
+      "tan $\\theta$ = cos $\\theta$ / sin $\\theta$",
+      "tan $\\theta$ = 1 / sin $\\theta$",
+      "tan $\\theta$ = 1 / cos $\\theta$"
+    ],
+    "correct_answer": "A",
+    "answer": "The identity tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta}$ is a fundamental trigonometric identity derived from the definitions of the ratios.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "sin($90^\\circ$ - $\\theta$) equals:",
+    "options": [
+      "sin $\\theta$",
+      "tan $\\theta$",
+      "cos $\\theta$",
+      "sec $\\theta$"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a co-function identity. The sine of an angle is equal to the cosine of its complement ($90^\\circ$ - $\\theta$). Therefore, sin($90^\\circ$ - $\\theta$) = cos $\\theta$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sec $\\theta$ = 5/4 for acute $\\theta$, then tan $\\theta$ equals:",
+    "options": [
+      "3/4",
+      "4/3",
+      "5/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the identity $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$.<br>tan$^2\\theta = \\text{sec}^2\\theta - 1 = (\\frac{5}{4})^2 - 1 = \\frac{25}{16} - 1 = \\frac{9}{16}$.<br>tan $\\theta = \\sqrt{\\frac{9}{16}} = \\frac{3}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of cos $0^\\circ$ is:",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "Undefined"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The cosine of $0^\\circ$ is 1.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Right $\\triangle$ABC with $\\angle$B=$90^\\circ$, AB=3, BC=4, AC=5. Then tan A equals:",
+    "options": [
+      "3/4",
+      "4/5",
+      "4/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "The tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side. For angle A, the opposite side is BC (length 4) and the adjacent side is AB (length 3). Therefore, tan A = $\\frac{4}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sec $\\theta$ = 5/4 for acute $\\theta$, then tan $\\theta$ equals:",
+    "options": [
+      "3/4",
+      "4/3",
+      "5/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the identity $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$.<br>tan$^2\\theta = \\text{sec}^2\\theta - 1 = (\\frac{5}{4})^2 - 1 = \\frac{25}{16} - 1 = \\frac{9}{16}$.<br>tan $\\theta = \\sqrt{\\frac{9}{16}} = \\frac{3}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of tan $60^\\circ$ is:",
+    "options": [
+      "1/$\\sqrt{3}$",
+      "1",
+      "$\\sqrt{3}$",
+      "2"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The tangent of $60^\\circ$ is $\\sqrt{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sin $\\theta$ = 12/13 ($\\theta$ acute), then cos $\\theta$ is:",
+    "options": [
+      "5/13",
+      "12/5",
+      "13/12",
+      "$\\sqrt{1-12/13}$"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the Pythagorean identity sin$^2\\theta + \\text{cos}^2\\theta = 1$, we can find cos $\\theta$.<br>cos$^2\\theta = 1 - \\text{sin}^2\\theta = 1 - (\\frac{12}{13})^2 = 1 - \\frac{144}{169} = \\frac{25}{169}$.<br>cos $\\theta = \\sqrt{\\frac{25}{169}} = \\frac{5}{13}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which is correct for acute $\\theta$?",
+    "options": [
+      "tan $\\theta$ = sin $\\theta$ / cos $\\theta$",
+      "tan $\\theta$ = cos $\\theta$ / sin $\\theta$",
+      "tan $\\theta$ = 1 / sin $\\theta$",
+      "tan $\\theta$ = 1 / cos $\\theta$"
+    ],
+    "correct_answer": "A",
+    "answer": "The identity tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta}$ is a fundamental trigonometric identity derived from the definitions of the ratios.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "sin($90^\\circ$ - $\\theta$) equals:",
+    "options": [
+      "sin $\\theta$",
+      "tan $\\theta$",
+      "cos $\\theta$",
+      "sec $\\theta$"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a co-function identity. The sine of an angle is equal to the cosine of its complement ($90^\\circ$ - $\\theta$). Therefore, sin($90^\\circ$ - $\\theta$) = cos $\\theta$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "[Application] A tree casts a 12 m shadow when Sun’s elevation is $30^\\circ$. Height of tree is:",
+    "options": [
+      "4 m",
+      "$4\\sqrt{3}$ m",
+      "6 m",
+      "12/$\\sqrt{3}$ m"
+    ],
+    "correct_answer": "B",
+    "answer": "Let the height of the tree be h. The shadow length is 12 m. The angle of elevation is $30^\\circ$. We use the tangent ratio: tan $30^\\circ = \\frac{h}{12}$.<br>$\\frac{1}{\\sqrt{3}} = \\frac{h}{12} \\implies h = \\frac{12}{\\sqrt{3}} = \\frac{12\\sqrt{3}}{3} = 4\\sqrt{3}$ m.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If sec $\\theta$ = 5/4 for acute $\\theta$, then tan $\\theta$ equals:",
+    "options": [
+      "3/4",
+      "4/3",
+      "5/3",
+      "3/5"
+    ],
+    "correct_answer": "A",
+    "answer": "Using the identity $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$.<br>tan$^2\\theta = \\text{sec}^2\\theta - 1 = (\\frac{5}{4})^2 - 1 = \\frac{25}{16} - 1 = \\frac{9}{16}$.<br>tan $\\theta = \\sqrt{\\frac{9}{16}} = \\frac{3}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The value of cos $0^\\circ$ is:",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "Undefined"
+    ],
+    "correct_answer": "C",
+    "answer": "This is a standard trigonometric value. The cosine of $0^\\circ$ is 1.",
+    "marks": 1
+  },
   {
     "type": "true_false",
-    "text": "For any acute θ, sin^2 θ + cos^2 θ = 1.",
+    "text": "For any acute $\\theta$, sin$^2\\theta + \\text{cos}^2\\theta = 1$.",
     "answer": "True",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "tan θ = cos θ / sin θ.",
+    "text": "tan $\\theta = \\text{cos}\\theta / \\text{sin}\\theta$.",
     "answer": "False",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "cosec θ is the reciprocal of sin θ.",
+    "text": "cosec $\\theta$ is the reciprocal of sin $\\theta$.",
     "answer": "True",
     "marks": 1
   },
@@ -82,236 +311,110 @@
   },
   {
     "type": "true_false",
-    "text": "For acute θ, 0 ≤ cos θ ≤ 1.",
-    "answer": "True",
-    "marks": 1
-  },
-
-  {
-    "type": "short",
-    "text": "Right △ABC with ∠B=90°. If AB=5 (adjacent to ∠A), BC=12 (opposite ∠A), AC=13. Find sin A and cos A.",
-    "answer": "Step 1: sin A = (opposite)/(hypotenuse) = BC/AC = 12/13.\nStep 2: cos A = (adjacent)/(hypotenuse) = AB/AC = 5/13.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "If tan θ = 3/4 and θ is acute, find sin θ and cos θ.",
-    "answer": "Step 1: Let opposite=3k, adjacent=4k ⇒ hypotenuse = √(3^2+4^2)k = 5k.\nStep 2: sin θ = (3k)/(5k) = 3/5; cos θ = (4k)/(5k) = 4/5.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Evaluate 2 sin 30° + 3 cos 60°.",
-    "answer": "Step 1: sin 30° = 1/2, cos 60° = 1/2.\nStep 2: 2(1/2) + 3(1/2) = 1 + 1.5 = 2.5.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "Simplify sin 45° + cos 45° and give exact value.",
-    "answer": "Step 1: sin 45° = cos 45° = √2/2.\nStep 2: Sum = √2/2 + √2/2 = √2.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "If cos θ = 0.8 (acute), find sec θ and tan θ.",
-    "answer": "Step 1: sec θ = 1/cos θ = 1/0.8 = 5/4 = 1.25.\nStep 2: sin θ = √(1 − cos^2 θ) = √(1 − 0.64) = √0.36 = 0.6.\nStep 3: tan θ = sin θ / cos θ = 0.6/0.8 = 3/4 = 0.75.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] From a point 15 m away from the foot of a tower, angle of elevation is 30°. Find the height of the tower.",
-    "answer": "Step 1: tan 30° = h/15 = 1/√3.\nStep 2: h = 15/√3 = (15√3)/3 = 5√3 ≈ 8.66 m.",
-    "marks": 2
-  },
-  {
-    "type": "short",
-    "text": "[Application] A 10 m ladder makes an angle of 60° with the ground. Find the height reached on the wall.",
-    "answer": "Step 1: Opposite = ladder × sin 60° = 10 × (√3/2) = 5√3 ≈ 8.66 m.",
-    "marks": 2
-  },
-
-  {
-    "type": "long",
-    "text": "Prove the identity: 1 + tan^2 θ = sec^2 θ for acute θ using sin and cos.",
-    "answer": "Step 1: tan θ = sin θ / cos θ, sec θ = 1 / cos θ.\nStep 2: 1 + tan^2 θ = 1 + (sin^2 θ / cos^2 θ) = (cos^2 θ + sin^2 θ)/cos^2 θ.\nStep 3: Using sin^2 θ + cos^2 θ = 1 ⇒ (1)/(cos^2 θ) = sec^2 θ. Hence proved.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "If sin θ = 5/13 for acute θ, find cos θ, tan θ, sec θ, cosec θ, cot θ.",
-    "answer": "Step 1: Opposite/Hypotenuse = 5/13 ⇒ adjacent = √(13^2 − 5^2) = √(169 − 25) = √144 = 12.\nStep 2: cos θ = adjacent/hypotenuse = 12/13.\nStep 3: tan θ = opposite/adjacent = 5/12.\nStep 4: sec θ = 1/cos θ = 13/12.\nStep 5: cosec θ = 1/sin θ = 13/5.\nStep 6: cot θ = 1/tan θ = 12/5.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "[Application] From a point on the ground 20 m from a building, the angle of elevation of the top is 45°. Find the height of the building and the length of a supporting wire from the top to that point.",
-    "answer": "Step 1: tan 45° = h/20 ⇒ h = 20 m.\nStep 2: Wire length is hypotenuse: √(20^2 + 20^2) = √800 = 20√2 ≈ 28.28 m.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "[Application] A flagpole is supported by a 13 m wire making 30° with the ground. Find the height of the pole and the distance from the base to the anchor point.",
-    "answer": "Step 1: Height = 13 sin 30° = 13 × 1/2 = 6.5 m.\nStep 2: Distance from base = 13 cos 30° = 13 × (√3/2) ≈ 11.26 m.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Evaluate sin 30° cos 60° + sin 60° cos 30° step-by-step.",
-    "answer": "Step 1: Use exact values: sin 30°=1/2, cos 60°=1/2, sin 60°=√3/2, cos 30°=√3/2.\nStep 2: Compute: (1/2)(1/2) + (√3/2)(√3/2) = 1/4 + 3/4 = 1.",
-    "marks": 3
-  },
-  {
-    "type": "mcq",
-    "text": "The value of tan 60° is:",
-    "options": ["1/√3", "1", "√3", "2"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "If sin θ = 12/13 (θ acute), then cos θ is:",
-    "options": ["5/13", "12/5", "13/12", "√(1−12/13)"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "Which is correct for acute θ?",
-    "options": ["tan θ = sin θ / cos θ", "tan θ = cos θ / sin θ", "tan θ = 1 / sin θ", "tan θ = 1 / cos θ"],
-    "correct_answer": "A",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "sin(90° − θ) equals:",
-    "options": ["sin θ", "tan θ", "cos θ", "sec θ"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "[Application] A tree casts a 12 m shadow when Sun’s elevation is 30°. Height of tree is:",
-    "options": ["4 m", "4√3 m", "6 m", "12/√3 m"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "If sec θ = 5/4 for acute θ, then tan θ equals:",
-    "options": ["3/4", "4/3", "5/3", "3/5"],
-    "correct_answer": "B",
-    "marks": 1
-  },
-  {
-    "type": "mcq",
-    "text": "The value of cos 0° is:",
-    "options": ["0", "1/2", "1", "Undefined"],
-    "correct_answer": "C",
-    "marks": 1
-  },
-
-  {
-    "type": "true_false",
-    "text": "cosec θ · sin θ = 1 for θ ≠ 0°.",
+    "text": "For acute $\\theta$, 0 $\\le$ cos $\\theta$ $\\le$ 1.",
     "answer": "True",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "sec θ · cos θ = 0 for all θ.",
+    "text": "cosec $\\theta \\cdot \\text{sin}\\theta = 1$ for $\\theta \\neq 0^\\circ$.",
+    "answer": "True",
+    "marks": 1
+  },
+  {
+    "type": "true_false",
+    "text": "sec $\\theta \\cdot \\text{cos}\\theta = 0$ for all $\\theta$.",
     "answer": "False",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "[Application] Angle of depression equals angle of elevation if measured from the same horizontal line.",
-    "answer": "True",
-    "marks": 1
-  },
-  {
-    "type": "true_false",
-    "text": "For acute θ, tan θ can never be greater than 1.",
+    "text": "For acute $\\theta$, tan $\\theta$ can never be greater than 1.",
     "answer": "False",
     "marks": 1
   },
   {
     "type": "true_false",
-    "text": "For θ=90°, sin θ = 1 and cos θ = 0.",
+    "text": "For $\\theta = 90^\\circ$, sin $\\theta = 1$ and cos $\\theta = 0$.",
     "answer": "True",
     "marks": 1
   },
-
   {
     "type": "short",
-    "text": "Evaluate tan 45° + sec 60° − cosec 30°.",
-    "answer": "Step 1: tan 45°=1, sec 60°=2, cosec 30°=2.\nStep 2: 1 + 2 − 2 = 1.",
+    "text": "Right $\\triangle$ABC with $\\angle$B=$90^\\circ$, AB=5 (adjacent to $\\angle$A), BC=12 (opposite $\\angle$A), AC=13. Find sin A and cos A.",
+    "answer": "Step 1: The sine of an angle is opposite/hypotenuse. sin A = $\\frac{BC}{AC} = \\frac{12}{13}$.<br>Step 2: The cosine of an angle is adjacent/hypotenuse. cos A = $\\frac{AB}{AC} = \\frac{5}{13}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "If sin θ = 0.6 and θ acute, find cos θ and tan θ.",
-    "answer": "Step 1: cos θ = √(1 − 0.6^2) = √(1 − 0.36) = √0.64 = 0.8.\nStep 2: tan θ = sin θ / cos θ = 0.6 / 0.8 = 3/4 = 0.75.",
+    "text": "If tan $\\theta$ = 3/4 and $\\theta$ is acute, find sin $\\theta$ and cos $\\theta$.",
+    "answer": "Step 1: We can construct a right triangle where the opposite side is 3k and the adjacent side is 4k. By the Pythagorean theorem, the hypotenuse is $\\sqrt{(3k)^2 + (4k)^2} = \\sqrt{9k^2 + 16k^2} = \\sqrt{25k^2} = 5k$.<br>Step 2: sin $\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{3k}{5k} = \\frac{3}{5}$.<br>Step 3: cos $\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{4k}{5k} = \\frac{4}{5}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "If cos A = √3/2 for acute A, find A and sin A.",
-    "answer": "Step 1: cos A = √3/2 ⇒ A = 30°.\nStep 2: sin A = 1/2.",
+    "text": "Evaluate 2 sin $30^\\circ$ + 3 cos $60^\\circ$.",
+    "answer": "Step 1: Substitute the standard values. sin $30^\\circ = \\frac{1}{2}$ and cos $60^\\circ = \\frac{1}{2}$.<br>Step 2: Calculate the expression: $2(\\frac{1}{2}) + 3(\\frac{1}{2}) = 1 + \\frac{3}{2} = \\frac{5}{2}$ or 2.5.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Prove that (sin^2 θ + cos^2 θ)/(sin θ · cos θ) = cosec θ · sin θ + sec θ · cos θ.",
-    "answer": "Step 1: LHS = (sin^2 θ + cos^2 θ)/(sin θ cos θ) = 1/(sin θ cos θ).\nStep 2: RHS = (1/sin θ)·sin θ + (1/cos θ)·cos θ = 1 + 1 = 2. (Oops mismatch!)\nStep 3: Correct simplification: Write LHS as sinθ/cosθ + cosθ/sinθ = tan θ + cot θ.\nHence the correct identity is (sin^2 θ + cos^2 θ)/(sin θ cos θ) = tan θ + cot θ.",
+    "text": "Simplify sin $45^\\circ$ + cos $45^\\circ$ and give exact value.",
+    "answer": "Step 1: Substitute the standard values. sin $45^\\circ = \\frac{\\sqrt{2}}{2}$ and cos $45^\\circ = \\frac{\\sqrt{2}}{2}$.<br>Step 2: Sum the values: $\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2} = \\frac{2\\sqrt{2}}{2} = \\sqrt{2}$.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "[Application] A tower’s height is h and its shadow is 12 m when Sun’s elevation is 30°. Find h (exact).",
-    "answer": "Step 1: tan 30° = h/12 = 1/√3.\nStep 2: h = 12/√3 = 4√3 m (≈ 6.93 m).",
+    "text": "If cos $\\theta = 0.8$ (acute), find sec $\\theta$ and tan $\\theta$.",
+    "answer": "Step 1: sec $\\theta = \\frac{1}{\\text{cos}\\theta} = \\frac{1}{0.8} = \\frac{1}{4/5} = \\frac{5}{4}$ or 1.25.<br>Step 2: sin $\\theta = \\sqrt{1 - \\text{cos}^2\\theta} = \\sqrt{1 - (0.8)^2} = \\sqrt{1 - 0.64} = \\sqrt{0.36} = 0.6$.<br>Step 3: tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta} = \\frac{0.6}{0.8} = \\frac{3}{4}$ or 0.75.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Right △ABC, ∠B=90°, AB=7, BC=24. Find sin A and cos A.",
-    "answer": "Step 1: Hypotenuse AC = √(7^2+24^2) = √(49+576) = √625 = 25.\nStep 2: sin A = opposite/hypotenuse = BC/AC = 24/25.\nStep 3: cos A = adjacent/hypotenuse = AB/AC = 7/25.",
+    "text": "[Application] From a point 15 m away from the foot of a tower, angle of elevation is $30^\\circ$. Find the height of the tower.",
+    "answer": "Step 1: Use the tangent ratio: tan $30^\\circ = \\frac{\\text{height (h)}}{\\text{distance (15)}}$.<br>Step 2: Substitute the value of tan $30^\\circ$: $\\frac{1}{\\sqrt{3}} = \\frac{h}{15}$.<br>Step 3: Solve for h: $h = \\frac{15}{\\sqrt{3}} = \\frac{15\\sqrt{3}}{3} = 5\\sqrt{3}$ m.",
     "marks": 2
   },
   {
     "type": "short",
-    "text": "Evaluate (sin 30° + sin 60°)/(cos 30° + cos 60°).",
-    "answer": "Step 1: Substitute: (1/2 + √3/2)/(√3/2 + 1/2) = ( (1+√3)/2 ) / ( (√3+1)/2 ).\nStep 2: The factors cancel ⇒ 1.",
+    "text": "Right $\\triangle$ABC, $\\angle$B=$90^\\circ$, AB=7, BC=24. Find sin A and cos A.",
+    "answer": "Step 1: Find the length of the hypotenuse AC using the Pythagorean theorem: $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$.<br>Step 2: sin A = $\\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{BC}{AC} = \\frac{24}{25}$.<br>Step 3: cos A = $\\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{AB}{AC} = \\frac{7}{25}$.",
     "marks": 2
   },
-
+  {
+    "type": "short",
+    "text": "Evaluate (sin $30^\\circ$ + sin $60^\\circ$)/(cos $30^\\circ$ + cos $60^\\circ$).",
+    "answer": "Step 1: Substitute the values: $\\frac{\\frac{1}{2} + \\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{3}}{2} + \\frac{1}{2}}$.<br>Step 2: The numerator and denominator are the same, so the expression simplifies to 1.",
+    "marks": 2
+  },
   {
     "type": "long",
-    "text": "Show that sin(90° − θ) = cos θ using a right triangle diagram (text).",
-    "answer": "Step 1: Consider right △ABC with ∠B=90°. Let ∠A=θ ⇒ ∠C=90°−θ.\nStep 2: By definition, sin(90°−θ) = opposite/hypotenuse to angle (90°−θ) = AB/AC.\nStep 3: For angle θ at A, cos θ = adjacent/hypotenuse = AB/AC.\nStep 4: Hence sin(90°−θ) = cos θ.",
+    "text": "Prove the identity: $1 + \\text{tan}^2\\theta = \\text{sec}^2\\theta$ for acute $\\theta$ using sin and cos.",
+    "answer": "Step 1: Start with the left-hand side (LHS) of the equation: $1 + \\text{tan}^2\\theta$.<br>Step 2: Replace tan $\\theta$ with $\\frac{\\text{sin}\\theta}{\\text{cos}\\theta}$: $1 + (\\frac{\\text{sin}\\theta}{\\text{cos}\\theta})^2 = 1 + \\frac{\\text{sin}^2\\theta}{\\text{cos}^2\\theta}$.<br>Step 3: Combine the terms over a common denominator: $\\frac{\\text{cos}^2\\theta}{\\text{cos}^2\\theta} + \\frac{\\text{sin}^2\\theta}{\\text{cos}^2\\theta} = \\frac{\\text{cos}^2\\theta + \\text{sin}^2\\theta}{\\text{cos}^2\\theta}$.<br>Step 4: Use the Pythagorean identity $\\text{sin}^2\\theta + \\text{cos}^2\\theta = 1$: $\\frac{1}{\\text{cos}^2\\theta}$.<br>Step 5: Replace $\\frac{1}{\\text{cos}\\theta}$ with sec $\\theta$: $(\\frac{1}{\\text{cos}\\theta})^2 = \\text{sec}^2\\theta$. This is the right-hand side (RHS), so the identity is proved.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "If cos θ = 4/5 for acute θ, evaluate: (i) sin θ, (ii) tan θ, (iii) 1 + tan^2 θ, and verify it equals sec^2 θ.",
-    "answer": "Step 1: sin θ = √(1 − cos^2 θ) = √(1 − 16/25) = √(9/25) = 3/5.\nStep 2: tan θ = (sin θ)/(cos θ) = (3/5)/(4/5) = 3/4.\nStep 3: 1 + tan^2 θ = 1 + (9/16) = 25/16.\nStep 4: sec^2 θ = 1/(cos^2 θ) = 1/(16/25) = 25/16 → matches Step 3.",
+    "text": "If sin $\\theta$ = 5/13 for acute $\\theta$, find cos $\\theta$, tan $\\theta$, sec $\\theta$, cosec $\\theta$, cot $\\theta$.",
+    "answer": "Step 1: Find cos $\\theta$ using the identity $\\text{sin}^2\\theta + \\text{cos}^2\\theta = 1$:<br>cos$^2\\theta = 1 - (\\frac{5}{13})^2 = 1 - \\frac{25}{169} = \\frac{144}{169}$.<br>cos $\\theta = \\sqrt{\\frac{144}{169}} = \\frac{12}{13}$.<br>Step 2: Find tan $\\theta$: tan $\\theta = \\frac{\\text{sin}\\theta}{\\text{cos}\\theta} = \\frac{5/13}{12/13} = \\frac{5}{12}$.<br>Step 3: Find the reciprocals:<br>sec $\\theta = \\frac{1}{\\text{cos}\\theta} = \\frac{13}{12}$.<br>cosec $\\theta = \\frac{1}{\\text{sin}\\theta} = \\frac{13}{5}$.<br>cot $\\theta = \\frac{1}{\\text{tan}\\theta} = \\frac{12}{5}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "[Application] A kite is flying with string 60 m making 45° with the ground. Assuming string is straight and taut, find the height of the kite and horizontal distance from the boy.",
-    "answer": "Step 1: Height = 60 sin 45° = 60(√2/2) = 30√2 ≈ 42.43 m.\nStep 2: Horizontal distance = 60 cos 45° = 60(√2/2) = 30√2 ≈ 42.43 m.",
+    "text": "[Application] A kite is flying with string 60 m making $45^\\circ$ with the ground. Assuming string is straight and taut, find the height of the kite and horizontal distance from the boy.",
+    "answer": "The kite, the ground, and the vertical line from the kite to the ground form a right triangle. The length of the string is the hypotenuse (60 m).<br>Step 1: Find the height (opposite side) using sine: height = $60 \\text{ sin } 45^\\circ = 60(\\frac{\\sqrt{2}}{2}) = 30\\sqrt{2}$ m. ($\\approx$ 42.43 m).<br>Step 2: Find the horizontal distance (adjacent side) using cosine: distance = $60 \\text{ cos } 45^\\circ = 60(\\frac{\\sqrt{2}}{2}) = 30\\sqrt{2}$ m. ($\\approx$ 42.43 m).",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "[Application] From a ship, the angle of elevation of the top of a lighthouse is 30°. The ship is 200 m from the base. Find lighthouse height.",
-    "answer": "Step 1: tan 30° = h/200 = 1/√3.\nStep 2: h = 200/√3 = (200√3)/3 ≈ 115.47 m.",
-    "marks": 4
+    "text": "[Application] From a ship, the angle of elevation of the top of a lighthouse is $30^\\circ$. The ship is 200 m from the base. Find lighthouse height.",
+    "answer": "The lighthouse, the ground, and the line of sight form a right triangle. The horizontal distance is 200 m and the angle of elevation is $30^\\circ$. We need to find the height (opposite side).<br>Step 1: Use the tangent ratio: tan $30^\\circ = \\frac{\\text{height (h)}}{\\text{distance (200)}}$.<br>Step 2: Substitute the value of tan $30^\\circ$: $\\frac{1}{\\sqrt{3}} = \\frac{h}{200}$.<br>Step 3: Solve for h: $h = \\frac{200}{\\sqrt{3}} = \\frac{200\\sqrt{3}}{3}$ m. ($\\approx$ 115.47 m).",
+    "marks": 3
   },
   {
     "type": "long",
-    "text": "[Application] A 25 m long wire is attached to the top of a vertical pole and makes 60° with the ground. Find height of pole and distance of wire’s ground end from the pole.",
-    "answer": "Step 1: Height = 25 sin 60° = 25(√3/2) = (25√3)/2 ≈ 21.65 m.\nStep 2: Distance = 25 cos 60° = 25(1/2) = 12.5 m.",
-    "marks": 4
+    "text": "[Application] A 25 m long wire is attached to the top of a vertical pole and makes $60^\\circ$ with the ground. Find height of pole and distance of wire’s ground end from the pole.",
+    "answer": "The wire, the pole, and the ground form a right triangle. The wire is the hypotenuse (25 m) and the angle is $60^\\circ$.<br>Step 1: Find the height of the pole (opposite side) using sine: height = $25 \\text{ sin } 60^\\circ = 25(\\frac{\\sqrt{3}}{2})$ m. ($\\approx$ 21.65 m).<br>Step 2: Find the distance from the base (adjacent side) using cosine: distance = $25 \\text{ cos } 60^\\circ = 25(\\frac{1}{2}) = 12.5$ m.",
+    "marks": 3
   }
 ]

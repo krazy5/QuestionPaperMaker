@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "The primary pigment involved in photosynthesis is:",
+    "options": [
+      "(a) Xanthophylls",
+      "(b) Carotenoids",
+      "(c) Chlorophyll 'a'",
+      "(d) Chlorophyll 'b'"
+    ],
+    "correct_answer": "c",
+    "answer": "Chlorophyll 'a' is the main photosynthetic pigment that absorbs light energy and initiates the process of photosynthesis. Other pigments are accessory pigments.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The site of the light-dependent reactions of photosynthesis is the:",
+    "options": [
+      "(a) Stroma",
+      "(b) Thylakoid membrane",
+      "(c) Inner mitochondrial membrane",
+      "(d) Cytoplasm"
+    ],
+    "correct_answer": "b",
+    "answer": "The light-dependent reactions take place in the thylakoid membrane of the chloroplasts, where chlorophyll and other pigments are organized into photosystems to capture light energy.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the final product of the Calvin cycle?",
+    "options": [
+      "(a) Ribulose-1,5-bisphosphate (RuBP)",
+      "(b) ATP",
+      "(c) $CO_2$",
+      "(d) Glucose"
+    ],
+    "correct_answer": "d",
+    "answer": "The Calvin cycle is the light-independent reaction of photosynthesis. It uses ATP and NADPH to convert carbon dioxide ($CO_2$) into glucose, which is the final product of photosynthesis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of photolysis of water in photosynthesis produces:",
+    "options": [
+      "(a) Oxygen, ATP, and NADPH",
+      "(b) Oxygen, protons, and electrons",
+      "(c) $CO_2$ and water",
+      "(d) Glucose and oxygen"
+    ],
+    "correct_answer": "b",
+    "answer": "Photolysis is the splitting of water molecules in the presence of light. It produces oxygen gas ($O_2$), protons ($H^+$), and electrons ($e^-$). The electrons are then used in the electron transport chain.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The light-independent reactions of photosynthesis are also known as the:",
+    "options": [
+      "(a) Krebs cycle",
+      "(b) Glycolysis",
+      "(c) Calvin cycle",
+      "(d) Citric acid cycle"
+    ],
+    "correct_answer": "c",
+    "answer": "The light-independent reactions, which do not directly require light, are a series of biochemical reactions that occur in the stroma of chloroplasts. This process is commonly known as the Calvin cycle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In which part of the light spectrum is the rate of photosynthesis highest?",
+    "options": [
+      "(a) Green and yellow",
+      "(b) Red and blue",
+      "(c) Violet and orange",
+      "(d) Far-red"
+    ],
+    "correct_answer": "b",
+    "answer": "The absorption spectrum of chlorophyll shows that it absorbs light most strongly in the blue and red regions of the visible spectrum. Therefore, the rate of photosynthesis is highest in these regions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme responsible for the fixation of $CO_2$ in $C_3$ plants is:",
+    "options": [
+      "(a) PEP carboxylase",
+      "(b) Rubisco",
+      "(c) Hexokinase",
+      "(d) ATP synthase"
+    ],
+    "correct_answer": "b",
+    "answer": "Ribulose-1,5-bisphosphate carboxylase/oxygenase, or RuBisCO, is the enzyme that catalyzes the first major step of carbon fixation in the Calvin cycle. It is the most abundant protein on Earth.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "In a $C_4$ pathway, the primary $CO_2$ acceptor in the mesophyll cell is:",
+    "options": [
+      "(a) Phosphoglyceric acid (PGA)",
+      "(b) Oxaloacetic acid (OAA)",
+      "(c) Phosphoenolpyruvate (PEP)",
+      "(d) Ribulose-1,5-bisphosphate (RuBP)"
+    ],
+    "correct_answer": "c",
+    "answer": "In $C_4$ plants, carbon fixation occurs in the mesophyll cells, where the enzyme PEP carboxylase fixes $CO_2$ by combining it with phosphoenolpyruvate (PEP) to form oxaloacetic acid (OAA).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The splitting of water molecules during the light reaction of photosynthesis is also known as:",
+    "options": [
+      "(a) Glycolysis",
+      "(b) Photolysis",
+      "(c) Hydrolysis",
+      "(d) Chemiosmosis"
+    ],
+    "correct_answer": "b",
+    "answer": "Photolysis is the process of splitting water molecules using light energy. This process releases electrons, protons, and oxygen, which are essential for the light-dependent reactions.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules required for the synthesis of one glucose molecule in the $C_3$ cycle is:",
+    "options": [
+      "(a) 18",
+      "(b) 12",
+      "(c) 6",
+      "(d) 2"
+    ],
+    "correct_answer": "a",
+    "answer": "For the synthesis of one glucose molecule, the Calvin cycle requires 18 molecules of ATP and 12 molecules of NADPH.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The Calvin cycle takes place in the:",
+    "options": [
+      "(a) Cytoplasm",
+      "(b) Stroma of the chloroplasts",
+      "(c) Grana of the chloroplasts",
+      "(d) Outer membrane of the chloroplasts"
+    ],
+    "correct_answer": "b",
+    "answer": "The Calvin cycle, or the light-independent reactions, occurs in the stroma, the fluid-filled space within the chloroplasts that surrounds the grana.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The oxygen molecule released during photosynthesis comes from:",
+    "options": [
+      "(a) $CO_2$",
+      "(b) $H_2O$",
+      "(c) Glucose",
+      "(d) ATP"
+    ],
+    "correct_answer": "b",
+    "answer": "Experiments using heavy isotopes of oxygen ($O^{18}$) have shown that the oxygen released during photosynthesis originates from the splitting of water molecules, not from carbon dioxide.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of photosynthesis is an example of:",
+    "options": [
+      "(a) Catabolism",
+      "(b) Anabolism",
+      "(c) Catabolism and Anabolism",
+      "(d) Respiration"
+    ],
+    "correct_answer": "b",
+    "answer": "Photosynthesis is an anabolic process, which means it is a process of building complex molecules from simpler ones. In this case, glucose is synthesized from carbon dioxide and water.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first stable product of the Calvin cycle is:",
+    "options": [
+      "(a) Oxaloacetic acid (OAA)",
+      "(b) Phosphoglyceric acid (PGA)",
+      "(c) Ribulose-1,5-bisphosphate (RuBP)",
+      "(d) Glucose"
+    ],
+    "correct_answer": "b",
+    "answer": "The first stable product of the Calvin cycle, following the fixation of $CO_2$, is a three-carbon compound called 3-phosphoglyceric acid (PGA).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The two main products of the light-dependent reactions that are used in the Calvin cycle are:",
+    "options": [
+      "(a) $O_2$ and glucose",
+      "(b) ATP and NADPH",
+      "(c) $H_2O$ and $CO_2$",
+      "(d) ADP and $NADP^+$"
+    ],
+    "correct_answer": "b",
+    "answer": "The light-dependent reactions produce ATP (energy-rich molecule) and NADPH (reducing power), which are then used in the light-independent Calvin cycle to convert $CO_2$ into glucose.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The most efficient light for photosynthesis is:",
+    "options": [
+      "(a) Green light",
+      "(b) Yellow light",
+      "(c) Blue light",
+      "(d) Red light"
+    ],
+    "correct_answer": "d",
+    "answer": "While chlorophyll absorbs both blue and red light, it is most efficient at absorbing red light. The rate of photosynthesis is typically highest in the red region of the visible spectrum.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The phenomenon where plants absorb oxygen and release carbon dioxide in the presence of light is called:",
+    "options": [
+      "(a) Respiration",
+      "(b) Photorespiration",
+      "(c) Transpiration",
+      "(d) Glycolysis"
+    ],
+    "correct_answer": "b",
+    "answer": "Photorespiration is a wasteful pathway that occurs when the enzyme RuBisCO in the Calvin cycle binds to oxygen instead of carbon dioxide. This process consumes energy and releases $CO_2$, reducing photosynthetic efficiency.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following plants has Kranz anatomy?",
+    "options": [
+      "(a) Mango",
+      "(b) Rice",
+      "(c) Maize",
+      "(d) Potato"
+    ],
+    "correct_answer": "c",
+    "answer": "Kranz anatomy is a characteristic feature of $C_4$ plants, which include maize, sugarcane, and sorghum. It is an adaptation that allows them to minimize photorespiration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The transfer of energy from accessory pigments to chlorophyll 'a' is known as:",
+    "options": [
+      "(a) Photosynthesis",
+      "(b) Resonance transfer",
+      "(c) Photolysis",
+      "(d) Quenching"
+    ],
+    "correct_answer": "b",
+    "answer": "Accessory pigments like carotenoids and xanthophylls absorb light energy and transfer it to the primary pigment, chlorophyll 'a', through a process called resonance transfer. This broadens the range of light wavelengths that can be used for photosynthesis.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The light reaction of photosynthesis is also known as:",
+    "options": [
+      "(a) Krebs cycle",
+      "(b) Z-scheme",
+      "(c) Glycolysis",
+      "(d) Calvin cycle"
+    ],
+    "correct_answer": "b",
+    "answer": "The light-dependent reactions of photosynthesis involve two photosystems, Photosystem I (PS I) and Photosystem II (PS II), which are arranged in a zig-zag pattern, hence the name Z-scheme.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The cyclic photophosphorylation produces only:",
+    "options": [
+      "(a) ATP",
+      "(b) NADPH",
+      "(c) Both ATP and NADPH",
+      "(d) Glucose"
+    ],
+    "correct_answer": "a",
+    "answer": "Cyclic photophosphorylation involves only Photosystem I (PS I). It results in the production of ATP but not NADPH or oxygen.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of oxidation of organic compounds to release energy is called:",
+    "options": [
+      "(a) Photosynthesis",
+      "(b) Respiration",
+      "(c) Transpiration",
+      "(d) Glycolysis"
+    ],
+    "correct_answer": "b",
+    "answer": "Respiration is the process by which organisms oxidize organic molecules, like glucose, to release energy in the form of ATP. It is a catabolic process.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The first stable product of $C_4$ photosynthesis is:",
+    "options": [
+      "(a) Phosphoglyceric acid (PGA)",
+      "(b) Oxaloacetic acid (OAA)",
+      "(c) Ribulose-1,5-bisphosphate (RuBP)",
+      "(d) Glucose"
+    ],
+    "correct_answer": "b",
+    "answer": "In $C_4$ plants, the first stable product of carbon fixation is a four-carbon compound, oxaloacetic acid (OAA). This occurs in the mesophyll cells before the $CO_2$ is transferred to the bundle sheath cells for the Calvin cycle.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced in cyclic photophosphorylation per electron is:",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "correct_answer": "a",
+    "answer": "In cyclic photophosphorylation, for every electron that moves through the electron transport chain, one molecule of ATP is produced. This is a simple and efficient way for the plant to generate extra ATP when needed.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The enzyme that catalyzes the reaction of $CO_2$ with PEP in $C_4$ plants is:",
+    "options": [
+      "(a) RuBisCO",
+      "(b) PEP carboxylase",
+      "(c) ATP synthase",
+      "(d) Hexokinase"
+    ],
+    "correct_answer": "b",
+    "answer": "Phosphoenolpyruvate carboxylase, or PEP carboxylase, is the enzyme that fixes $CO_2$ in $C_4$ plants. It has a high affinity for $CO_2$ and does not bind to oxygen, which prevents photorespiration.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of ATP molecules produced in non-cyclic photophosphorylation per electron pair is:",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "correct_answer": "c",
+    "answer": "In non-cyclic photophosphorylation, for every two electrons that move through the electron transport chain, three molecules of ATP are produced. Additionally, two molecules of NADPH are also produced.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The primary function of carotenoid pigments is:",
+    "options": [
+      "(a) Light absorption in the blue-green region",
+      "(b) Protection of chlorophyll from photo-oxidation",
+      "(c) Both (a) and (b)",
+      "(d) Energy transfer to chlorophyll 'a'"
+    ],
+    "correct_answer": "c",
+    "answer": "Carotenoids are accessory pigments that broaden the range of light wavelengths that can be used for photosynthesis. They also play a crucial role in protecting the chlorophyll from photo-oxidation by dissipating excess light energy as heat.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The process of converting light energy into chemical energy is:",
+    "options": [
+      "(a) Respiration",
+      "(b) Photosynthesis",
+      "(c) Glycolysis",
+      "(d) Transpiration"
+    ],
+    "correct_answer": "b",
+    "answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water. This process converts light energy into chemical energy, which is stored in glucose molecules.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The number of NADPH molecules required for the synthesis of one glucose molecule in the Calvin cycle is:",
+    "options": [
+      "(a) 18",
+      "(b) 12",
+      "(c) 6",
+      "(d) 2"
+    ],
+    "correct_answer": "b",
+    "answer": "The Calvin cycle, for every six molecules of $CO_2$ fixed to produce one glucose molecule, requires 12 molecules of NADPH and 18 molecules of ATP.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of a $C_3$ plant?",
+    "options": [
+      "(a) Maize",
+      "(b) Sugarcane",
+      "(c) Rice",
+      "(d) Sorghum"
+    ],
+    "correct_answer": "c",
+    "answer": "Rice is a $C_3$ plant, which means its carbon fixation pathway uses the enzyme RuBisCO directly in the Calvin cycle. Maize, sugarcane, and sorghum are $C_4$ plants.",
+    "marks": 1
+  }
+]

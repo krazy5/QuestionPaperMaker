@@ -1,980 +1,660 @@
 [
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> i) $$\\frac{d^2y}{dx^2} + x\\left(\\frac{dy}{dx}\\right) + y = 2 \\sin x$$",
-    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 1, so the **degree is 1**.",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$\\frac{d^2y}{dx^2} + x\\left(\\frac{dy}{dx}\\right) + y = 2 \\sin x$$",
+    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The equation is a polynomial in its derivatives, and the power of the highest order derivative is 1, so the **degree is 1**.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> ii) $$ \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} = \\frac{d^2y}{dx^2} $$",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} = \\frac{d^2y}{dx^2} $$",
     "answer": "To find the degree, we first need to remove the radical. Squaring both sides gives $1 + (\\frac{dy}{dx})^2 = (\\frac{d^2y}{dx^2})^2$. The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 2, so the **degree is 2**.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> iii) $$ \\frac{dy}{dx} = \\frac{2 \\sin x + 3}{\\frac{dy}{dx}} $$",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ \\frac{dy}{dx} = \\frac{2 \\sin x + 3}{\\frac{dy}{dx}} $$",
     "answer": "Multiplying both sides by $\\frac{dy}{dx}$ gives $(\\frac{dy}{dx})^2 = 2 \\sin x + 3$. The highest order derivative is $\\frac{dy}{dx}$, so the **order is 1**. The power of the highest order derivative is 2, so the **degree is 2**.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> iv) $$ \\frac{d^2y}{dx^2} + x\\frac{dy}{dx} + x = \\sqrt{1 + \\frac{d^3y}{dx^3}} $$",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ \\frac{d^2y}{dx^2} + x\\frac{dy}{dx} + x = \\sqrt{1 + \\frac{d^3y}{dx^3}} $$",
     "answer": "To find the degree, we first need to remove the radical. Squaring both sides gives $(\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} + x)^2 = 1 + \\frac{d^3y}{dx^3}$. The highest order derivative is $\\frac{d^3y}{dx^3}$, so the **order is 3**. The power of the highest order derivative is 1, so the **degree is 1**.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> v) $$ \\frac{d^2y}{dt^2} + \\left(\\frac{dy}{dt}\\right)^2 + 7x + 5 = 0 $$",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ \\frac{d^2y}{dt^2} + \\left(\\frac{dy}{dt}\\right)^2 + 7x + 5 = 0 $$",
     "answer": "The highest order derivative is $\\frac{d^2y}{dt^2}$, so the **order is 2**. The power of the highest order derivative is 1, so the **degree is 1**.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> vi) $$ (y''')^2 + 3y'' + 3xy' + 5y = 0 $$",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ (y''')^2 + 3y'' + 3xy' + 5y = 0 $$",
     "answer": "The highest order derivative is $y'''$, so the **order is 3**. The power of the highest order derivative is 2, so the **degree is 2**.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> vii) $$ \\left(\\frac{d^2y}{dx^2}\\right)^2 + \\cos\\left(\\frac{dy}{dx}\\right) = 0 $$",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ \\left(\\frac{d^2y}{dx^2}\\right)^2 + \\cos\\left(\\frac{dy}{dx}\\right) = 0 $$",
     "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The presence of the term $\\cos(\\frac{dy}{dx})$ means that the degree is not defined, as the differential equation is not a polynomial in its derivatives.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> viii) $$ \\left[1 + \\left(\\frac{dy}{dx}\\right)^2\\right]^{3/2} = 8 \\frac{d^2y}{dx^2} $$",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ \\left[1 + \\left(\\frac{dy}{dx}\\right)^2\\right]^{3/2} = 8 \\frac{d^2y}{dx^2} $$",
     "answer": "To find the degree, we first need to remove the fractional exponent. Squaring both sides gives $[1 + (\\frac{dy}{dx})^2]^3 = (8 \\frac{d^2y}{dx^2})^2 = 64 (\\frac{d^2y}{dx^2})^2$. The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 2, so the **degree is 2**.",
     "marks": 2
   },
   {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> ix) $$ \\left(\\frac{d^2y}{dx^2}\\right)^{1/2} - \\left(\\frac{dy}{dx}\\right)^{1/3} = 20 $$",
-    "answer": "To find the degree, we first need to remove the fractional exponents. Rearranging gives $(\\frac{d^2y}{dx^2})^{1/2} = 20 + (\\frac{dy}{dx})^{1/3}$. Cubing both sides gives $(\\frac{d^2y}{dx^2})^{3/2} = (20 + (\\frac{dy}{dx})^{1/3})^3$. Squaring both sides then gives $(\\frac{d^2y}{dx^2})^3 = ((20 + (\\frac{dy}{dx})^{1/3})^3)^2$. The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 3, so the **degree is 3**.",
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ \\left(\\frac{d^2y}{dx^2}\\right)^{1/2} - \\left(\\frac{dy}{dx}\\right)^{1/3} = 20 $$",
+    "answer": "To find the degree, we first need to remove the fractional exponents by raising both sides to the power of 6 (LCM of 2 and 3). First isolate a term: $(\\frac{d^2y}{dx^2})^{1/2} = 20 + (\\frac{dy}{dx})^{1/3}$. Squaring gives $\\frac{d^2y}{dx^2} = (20+(\\frac{dy}{dx})^{1/3})^2$. The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 1, so the **degree is 1**.",
+    "marks": 2
+  },
+  {
+    "type": "short",
+    "text": "Determine the order and degree of the differential equation: $$ x\\frac{d^2y}{dx^2} = \\sqrt{1 + \\left(\\frac{d^2y}{dx^2}\\right)^2} $$",
+    "answer": "To find the degree, we first need to remove the radical. Squaring both sides gives $(x\\frac{d^2y}{dx^2})^2 = 1 + (\\frac{d^2y}{dx^2})^2 \\implies x^2(\\frac{d^2y}{dx^2})^2 = 1 + (\\frac{d^2y}{dx^2})^2$. The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 2, so the **degree is 2**.",
     "marks": 2
   },
   {
     "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations. <br> x) $$ x\\frac{d^2y}{dx^2} = \\sqrt{1 + \\left(\\frac{d^2y}{dx^2}\\right)^2} $$",
-    "answer": "To find the degree, we first need to remove the radical. Squaring both sides gives $(x\\frac{d^2y}{dx^2})^2 = 1 + (\\frac{d^2y}{dx^2})^2$. The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 2, so the **degree is 2**.",
+    "text": "Obtain the differential equation by eliminating the arbitrary constant: $x^3 + y^3 = 4ax$.",
+    "answer": "The equation has one arbitrary constant, $a$. Differentiating with respect to x: $3x^2 + 3y^2y' = 4a$. From the original equation, $a = \\frac{x^3+y^3}{4x}$. Substituting this into the derivative: $3x^2 + 3y^2y' = 4(\\frac{x^3+y^3}{4x}) = \\frac{x^3+y^3}{x}$. Multiplying by $x$ gives: $3x^3 + 3xy^2y' = x^3 + y^3$. Rearranging gives: $2x^3 - y^3 + 3xy^2\\frac{dy}{dx} = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating the arbitrary constants: $(Ax + By)^2 = 1$.",
+    "answer": "The equation has two arbitrary constants, $A$ and $B$. Taking the square root gives $Ax + By = C$, where $C=\\pm 1$. Differentiating with respect to x: $A + By' = 0$. Differentiating again: $By'' = 0$. Since $B$ cannot be zero (otherwise it's not a family of lines), we must have $y'' = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating arbitrary constants from $y = A \\cos(\\log x) + B \\sin(\\log x)$. (March 2017)",
+    "answer": "This equation has two arbitrary constants, $A$ and $B$. Differentiating with respect to x: $y' = \\frac{1}{x}(-A\\sin(\\log x) + B\\cos(\\log x))$. So, $xy' = -A\\sin(\\log x) + B\\cos(\\log x)$. Differentiating again: $y' + xy'' = -\\frac{1}{x}(A\\cos(\\log x) + B\\sin(\\log x)) = -\\frac{y}{x}$. Multiplying by x gives $xy' + x^2y'' = -y$. Rearranging gives $x^2y'' + xy' + y = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating the arbitrary constant: $y^2 = (x + c)^3$.",
+    "answer": "This equation has one arbitrary constant, $c$. Differentiating with respect to x: $2yy' = 3(x+c)^2$. From the original equation, $(x+c) = y^{2/3}$. So, $2yy' = 3(y^{2/3})^2 = 3y^{4/3}$. Dividing by y gives: $2y' = 3y^{1/3}$. Rearranging and cubing to remove the fractional exponent: $(2y')^3 = (3y^{1/3})^3 \\implies 8(y')^3 = 27y$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating arbitrary constants from $y = Ae^{5x} + Be^{-5x}$.",
+    "answer": "This equation has two arbitrary constants, $A$ and $B$. Differentiating with respect to x: $y' = 5Ae^{5x} - 5Be^{-5x}$. Differentiating again: $y'' = 25Ae^{5x} + 25Be^{-5x} = 25(Ae^{5x} + Be^{-5x})$. Since $y = Ae^{5x} + Be^{-5x}$, we have $y'' = 25y$. Rearranging gives $y'' - 25y = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating arbitrary constants from $(y-a)^2 = 4(x-b)$.",
+    "answer": "This equation has two arbitrary constants, $a$ and $b$. Differentiating with respect to x: $2(y-a)y' = 4$, so $(y-a)y' = 2$. Differentiating again: $y'(y') + (y-a)y'' = 0$. From the previous step, $(y-a) = 2/y'$. Substituting this in: $(y')^2 + (2/y')y'' = 0$. Multiplying by $y'$ gives $2y'' + (y')^3 = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating the arbitrary constant: $y = a + \\frac{a}{x}$.",
+    "answer": "This equation has one arbitrary constant, $a$. We can write $y=a(1+1/x)$. So $a = \\frac{xy}{x+1}$. Differentiating the original equation: $y' = -a/x^2$. Substituting for $a$: $y' = -\\frac{xy}{x^2(x+1)} = -\\frac{y}{x(x+1)}$. Rearranging gives $x(x+1)y' + y = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating arbitrary constants from $y = c_1e^{2x} + c_2e^{3x}$.",
+    "answer": "This equation represents a solution to a second-order linear homogeneous DE with constant coefficients. The roots of the characteristic equation are $m=2$ and $m=3$. The characteristic equation is $(m-2)(m-3)=0 \\implies m^2-5m+6=0$. The corresponding differential equation is $y'' - 5y' + 6y = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating arbitrary constants from $c_1x^3 + c_2y^2 = 5$.",
+    "answer": "This equation has two arbitrary constants, $c_1$ and $c_2$. Differentiating with respect to x: $3c_1x^2 + 2c_2yy' = 0$. Rearranging gives $\\frac{3c_1}{2c_2} = -\\frac{yy'}{x^2}$. Let $k = \\frac{3c_1}{2c_2}$. So $k = -\\frac{yy'}{x^2}$. Differentiating again using the quotient rule: $0 = -\\frac{(y'y'+yy'')(x^2) - (yy')(2x)}{x^4}$. So, $x^2(y')^2 + x^2yy'' - 2xyy' = 0$. Dividing by $x$ gives $x(y')^2 + xyy'' - 2yy' = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Obtain the differential equation by eliminating arbitrary constants from $y = e^{2x}(A \\cos x + B \\sin x)$.",
+    "answer": "The roots of the characteristic equation are $m=2\\pm i$. The sum of roots is 4 and product is $2^2-i^2 = 5$. The characteristic equation is $m^2-4m+5=0$. The corresponding differential equation is $y'' - 4y' + 5y = 0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Form the differential equation of family of lines having intercepts $a$ and $b$ on the co-ordinate axes respectively, where $a+b=k$ (a constant).",
+    "answer": "The equation of the line is $\\frac{x}{a} + \\frac{y}{b} = 1$. Given $b=k-a$. So $\\frac{x}{a} + \\frac{y}{k-a} = 1$. Differentiating wrt $x$: $-\\frac{x}{a^2} - \\frac{y}{(k-a)^2} = 0$. This still has $a$ and $k$. Let's try another approach. $y' = -b/a$. So $b=-ay'$. Substitute into $a+b=k$: $a-ay'=k \\implies a(1-y')=k \\implies a=\\frac{k}{1-y'}$. Then $b=-(\\frac{k}{1-y'})y' = \\frac{-ky'}{1-y'}$. The DE is formed from $y'=-b/a$ without $a$ and $b$. But we need to eliminate them. The equation is $xy'+y-b=0$. So $y-xy'=b$. Substitute into $a+b=k$. We also need $a$. $x/a + y/(y-xy')=1 \\implies x/a = 1 - y/(y-xy') = -xy'/(y-xy')$. So $a=-(y-xy')/y'$. Sub into $a+b=k$: $-(y-xy')/y' + y-xy'=k \\implies (y-xy')(1-1/y')=k \\implies (y-xy')\\frac{y'-1}{y'}=k$.",
+    "marks": 4
+  },
+  {
+    "type": "long",
+    "text": "Find the differential equation of all parabolas having length of latus rectum $4a$ and axis parallel to the X-axis.",
+    "answer": "The general equation is $(y-k)^2 = 4a(x-h)$. Differentiating wrt $x$: $2(y-k)y' = 4a$. Differentiating again: $2(y')^2+2(y-k)y''=0$. From first derivative, $y-k = 2a/y'$. Substitute: $2(y')^2+2(2a/y')y''=0 \\implies (y')^3+2ay''=0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Find the differential equation of an ellipse whose major axis is twice its minor axis.",
+    "answer": "The equation is $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. Given $a=2b$ or $b=2a$. Case 1: $a=2b \\implies x^2+4y^2=4b^2$. Differentiating gives $2x+8yy'=0 \\implies x+4yy'=0$. Case 2: $b=2a \\implies 4x^2+y^2=4a^2$. Differentiating gives $8x+2yy'=0 \\implies 4x+yy'=0$.",
+    "marks": 3
+  },
+  {
+    "type": "long",
+    "text": "Form the differential equation of family of lines parallel to the line $2x + 3y + 4 = 0$.",
+    "answer": "A line parallel to $2x + 3y + 4 = 0$ is $2x + 3y + c = 0$. Differentiating with respect to x: $2 + 3y' = 0$.",
     "marks": 2
   },
   {
     "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> i) $x^3 + y^3 = 4ax$",
-    "answer": "The equation has one arbitrary constant, $a$. Differentiating with respect to x: $3x^2 + 3y^2y' = 4a$. From the original equation, $a = \\frac{x^3+y^3}{4x}$. Substituting this into the derivative: $3x^2 + 3y^2y' = 4(\\frac{x^3+y^3}{4x}) = \\frac{x^3+y^3}{x}$. Multiplying by $x$ gives: $3x^3 + 3xy^2y' = x^3 + y^3$. Rearranging gives: $2x^3 + 3xy^2y' - y^3 = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> ii) $(Ax + By)^2 = 1$",
-    "answer": "The equation has two arbitrary constants, $A$ and $B$. Taking the square root gives $Ax + By = \\pm 1$. Differentiating with respect to x: $A + By' = 0 \\implies y' = -A/B$. Differentiating again: $y'' = 0$. So the differential equation is $y'' = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> iii) $y = A \\cos(\\log x) + B \\sin(\\log x)$",
-    "answer": "This equation has two arbitrary constants, $A$ and $B$. Differentiating with respect to x: $y' = A(-\\sin(\\log x))(\\frac{1}{x}) + B(\\cos(\\log x))(\\frac{1}{x}) = \\frac{1}{x}(-A\\sin(\\log x) + B\\cos(\\log x))$. So, $xy' = -A\\sin(\\log x) + B\\cos(\\log x)$. Differentiating again: $y' + xy'' = -A\\cos(\\log x)(\\frac{1}{x}) + B(-\\sin(\\log x))(\\frac{1}{x}) = -\\frac{1}{x}(A\\cos(\\log x) + B\\sin(\\log x))$. We know that $y = A\\cos(\\log x) + B\\sin(\\log x)$. So, $y' + xy'' = -\\frac{y}{x}$. Multiplying by x gives $xy' + x^2y'' = -y$. Rearranging gives $x^2y'' + xy' + y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> iv) $y^2 = (x + c)^3$",
-    "answer": "This equation has one arbitrary constant, $c$. Differentiating with respect to x: $2yy' = 3(x+c)^2$. From the original equation, $(x+c) = y^{2/3}$. So, $2yy' = 3(y^{2/3})^2 = 3y^{4/3}$. Dividing by y gives: $2y' = 3y^{1/3}$. Rearranging gives: $2y' - 3y^{1/3} = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> v) $y = Ae^{5x} + Be^{-5x}$",
-    "answer": "This equation has two arbitrary constants, $A$ and $B$. Differentiating with respect to x: $y' = 5Ae^{5x} - 5Be^{-5x}$. Differentiating again: $y'' = 25Ae^{5x} + 25Be^{-5x} = 25(Ae^{5x} + Be^{-5x})$. We know that $y = Ae^{5x} + Be^{-5x}$. So, $y'' = 25y$. Rearranging gives $y'' - 25y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> vi) $(y-a)^2 = 4(x-b)$",
-    "answer": "This equation has two arbitrary constants, $a$ and $b$. Differentiating with respect to x: $2(y-a)y' = 4$. So, $(y-a)y' = 2$. Differentiating again: $y'(y') + (y-a)y'' = 0$. We can substitute $(y-a) = 2/y'$: $(y')^2 + (2/y')y'' = 0$. Multiplying by $y'$ gives $(y')^3 + 2y'' = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> vii) $y = a + \\frac{a}{x}$",
-    "answer": "This equation has one arbitrary constant, $a$. From the original equation, $y = a(1 + 1/x) = a(\\frac{x+1}{x})$, so $a = \\frac{xy}{x+1}$. Differentiating the original equation: $y' = -a/x^2$. Substituting the value of $a$: $y' = -(\\frac{xy}{x+1})/x^2 = -\\frac{y}{x(x+1)}$. Rearranging gives $x(x+1)y' + y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> viii) $y = c_1e^{2x} + c_2e^{3x}$",
-    "answer": "This equation has two arbitrary constants, $c_1$ and $c_2$. Differentiating with respect to x: $y' = 2c_1e^{2x} + 3c_2e^{3x}$. Differentiating again: $y'' = 4c_1e^{2x} + 9c_2e^{3x}$. We need to eliminate $c_1$ and $c_2$. From the original equation and its derivatives, we can form a system of equations: <br> (1) $y = c_1e^{2x} + c_2e^{3x}$ <br> (2) $y' = 2c_1e^{2x} + 3c_2e^{3x}$ <br> (3) $y'' = 4c_1e^{2x} + 9c_2e^{3x}$ <br> Multiply (1) by 6, (2) by -5, and (3) by 1 and add them together: $6y - 5y' + y'' = 0$. So, the differential equation is $y'' - 5y' + 6y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> ix) $c_1x^3 + c_2y^2 = 5$",
-    "answer": "This equation has two arbitrary constants, $c_1$ and $c_2$. Differentiating with respect to x: $3c_1x^2 + 2c_2yy' = 0$. So, $c_1x^2 = -\\frac{2}{3}c_2yy'$. Differentiating again: $6c_1x + 2c_2(y'y' + yy'') = 0$. From $3c_1x^2 = -2c_2yy'$, we have $c_1 = -\\frac{2c_2yy'}{3x^2}$. Substituting this into the second derivative equation: $6(-\\frac{2c_2yy'}{3x^2})x + 2c_2((y')^2 + yy'') = 0$. Dividing by $2c_2$: $-4\\frac{yy'}{x} + (y')^2 + yy'' = 0$. Multiplying by $x$ gives: $-4yy' + x(y')^2 + xyy'' = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equations by eliminating arbitrary constants $c_1$ and $c_2$.<br> x) $y = e^{2x}(A \\cos x + B \\sin x)$",
-    "answer": "This equation has two arbitrary constants, $A$ and $B$. Differentiating with respect to x: $y' = 2e^{2x}(A\\cos x + B\\sin x) + e^{2x}(-A\\sin x + B\\cos x) = 2y + e^{2x}(-A\\sin x + B\\cos x)$. So, $y' - 2y = e^{2x}(-A\\sin x + B\\cos x)$. Differentiating again: $y'' - 2y' = 2e^{2x}(-A\\sin x + B\\cos x) + e^{2x}(-A\\cos x - B\\sin x)$. We can replace $e^{2x}(-A\\sin x + B\\cos x)$ with $y'-2y$: $y''-2y' = 2(y'-2y) - e^{2x}(A\\cos x + B\\sin x) = 2y' - 4y - y$. So, $y''-2y' = 2y'-5y$. Rearranging gives $y'' - 4y' + 5y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Form the differential equation of family of lines having intercepts $a$ and $b$ on the co-ordinate arcs respectively.",
-    "answer": "The equation of a line with intercepts $a$ and $b$ is $\\frac{x}{a} + \\frac{y}{b} = 1$. Differentiating with respect to x: $\\frac{1}{a} + \\frac{1}{b}y' = 0$. So, $b = -ay'$. Differentiating again: $\\frac{1}{b}y'' = 0$. This implies $y'' = 0$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the differential equation of all parabolas having length of latus rectum $4a$ and axis is parallel to the X-axis.",
-    "answer": "The general equation for such a parabola is $(y-k)^2 = 4a(x-h)$, where $h$ and $k$ are arbitrary constants representing the vertex. Differentiating with respect to x: $2(y-k)y' = 4a$. So, $(y-k)y' = 2a$. Differentiating again: $y'(y') + (y-k)y'' = 0$. From the previous step, $(y-k) = \\frac{2a}{y'}$. Substituting this in: $(y')^2 + (\\frac{2a}{y'})y'' = 0$. Multiplying by $y'$ gives $(y')^3 + 2ay'' = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the differential equation of an ellipse whose major axis is twice its minor axis.",
-    "answer": "The standard equation of an ellipse centered at the origin is $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. Given that the major axis is twice the minor axis, we have $a=2b$ (or $b=2a$). Let's assume $a=2b$. The equation becomes $\\frac{x^2}{(2b)^2} + \\frac{y^2}{b^2} = 1 \\implies \\frac{x^2}{4b^2} + \\frac{y^2}{b^2} = 1$. This can be written as $x^2 + 4y^2 = 4b^2$. Differentiating with respect to x: $2x + 8yy' = 0$. So, $x + 4yy' = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Form the differential equation of family of lines parallel to the line $2x + 3y + 4 = 0$.",
-    "answer": "The equation of a line parallel to $2x + 3y + 4 = 0$ is of the form $2x + 3y + c = 0$, where $c$ is an arbitrary constant. Differentiating with respect to x: $2 + 3y' = 0$. So, $y' = -2/3$. The differential equation is $y' + 2/3 = 0$.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the differential equations of all circles having radius 9 and centre at point $A (h, k)$.",
-    "answer": "The general equation of a circle with center $(h,k)$ and radius 9 is $(x-h)^2 + (y-k)^2 = 9^2 = 81$. Differentiating with respect to x: $2(x-h) + 2(y-k)y' = 0 \\implies (x-h) + (y-k)y' = 0$. Differentiating again: $1 + y'y' + (y-k)y'' = 0 \\implies 1 + (y')^2 + (y-k)y'' = 0$. From the first derivative, $(y-k) = -\\frac{x-h}{y'}$. Substituting this into the second derivative: $1 + (y')^2 - \\frac{x-h}{y'}y'' = 0$. We still have $h$ in the equation. Differentiating the second derivative again: $2y'y'' + y'y'' + (y-k)y''' = 0 \\implies 3y'y'' + (y-k)y''' = 0$. From the second derivative equation, $(y-k) = -\\frac{1+(y')^2}{y''}$. Substituting this in: $3y'y'' - \\frac{1+(y')^2}{y''}y''' = 0$. Multiplying by $y''$ gives $3y'(y'')^2 - (1+(y')^2)y''' = 0$.",
+    "text": "Find the differential equation of all circles having radius 9 and centre at point $(h, k)$.",
+    "answer": "The equation is $(x-h)^2+(y-k)^2=81$. Differentiating: $2(x-h)+2(y-k)y'=0$. Differentiating again: $1+(y')^2+(y-k)y''=0$. Differentiating again: $2y'y'' + y'y'' + (y-k)y''' = 0 \\implies 3y'y''+(y-k)y'''=0$. From second derivative, $y-k = -\\frac{1+(y')^2}{y''}$. So $3y'y'' - \\frac{1+(y')^2}{y''}y''' = 0 \\implies 3y'(y'')^2-(1+(y')^2)y'''=0$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Form the differential equation of all parabolas whose axis is the X-axis.",
-    "answer": "The general equation of a parabola with the X-axis as its axis is $y^2 = 4a(x-h)$. It has two arbitrary constants, $a$ and $h$. Differentiating with respect to x: $2yy' = 4a$. So, $yy' = 2a$. Differentiating again: $y'y' + yy'' = 0 \\implies (y')^2 + yy'' = 0$.",
+    "text": "Form the differential equation of all parabolas whose axis is the X-axis.",
+    "answer": "The general equation is $y^2 = 4a(x-h)$. Differentiating: $2yy' = 4a$. Differentiating again: $2(y')^2 + 2yy'' = 0 \\implies (y')^2 + yy'' = 0$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) In each of the following examples verify that the given expression is a solution of the corresponding differential equation. <br> i) $xy = \\log y + c$ ; $$\\frac{dy}{dx} = \\frac{y^2}{1-xy}$$",
-    "answer": "Given the equation $xy = \\log y + c$. Differentiating both sides with respect to x: $x\\frac{dy}{dx} + y(1) = \\frac{1}{y}\\frac{dy}{dx}$. Rearranging the terms to solve for $\\frac{dy}{dx}$: $x\\frac{dy}{dx} - \\frac{1}{y}\\frac{dy}{dx} = -y \\implies (x - \\frac{1}{y})\\frac{dy}{dx} = -y \\implies (\\frac{xy-1}{y})\\frac{dy}{dx} = -y \\implies \\frac{dy}{dx} = -y \\cdot \\frac{y}{xy-1} = \\frac{-y^2}{xy-1} = \\frac{y^2}{1-xy}$. This matches the given differential equation, so the expression is a solution.",
+    "text": "Verify that $xy = \\log y + c$ is a solution of the differential equation $\\frac{dy}{dx} = \\frac{y^2}{1-xy}$.",
+    "answer": "Differentiating $xy = \\log y + c$ implicitly wrt $x$: $y+xy' = \\frac{1}{y}y'$.<br>$y = y'(\\frac{1}{y}-x) = y'(\\frac{1-xy}{y})$.<br>$y^2 = y'(1-xy) \\implies y' = \\frac{dy}{dx} = \\frac{y^2}{1-xy}$. Hence, verified.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) In each of the following examples verify that the given expression is a solution of the corresponding differential equation. <br> ii) $y = (\\sin^{-1} x)^2 + c$ ; $(1-x^2)\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} = 2$",
-    "answer": "Given the equation $y = (\\sin^{-1} x)^2 + c$. Differentiating with respect to x: $\\frac{dy}{dx} = 2(\\sin^{-1} x) \\cdot \\frac{1}{\\sqrt{1-x^2}}$. So, $\\sqrt{1-x^2}\\frac{dy}{dx} = 2\\sin^{-1} x$. Differentiating this new equation with respect to x: $\\frac{-2x}{2\\sqrt{1-x^2}}\\frac{dy}{dx} + \\sqrt{1-x^2}\\frac{d^2y}{dx^2} = \\frac{2}{\\sqrt{1-x^2}}$. Multiplying the entire equation by $\\sqrt{1-x^2}$: $-x\\frac{dy}{dx} + (1-x^2)\\frac{d^2y}{dx^2} = 2$. Rearranging the terms: $(1-x^2)\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} = 2$. This matches the given differential equation, so the expression is a solution.",
+    "text": "Verify that $y = (\\sin^{-1} x)^2 + c$ is a solution of $(1-x^2)\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} = 2$.",
+    "answer": "Differentiating gives $y' = \\frac{2\\sin^{-1}x}{\\sqrt{1-x^2}}$. So $\\sqrt{1-x^2}y' = 2\\sin^{-1}x$. Differentiating again: $\\frac{-x}{\\sqrt{1-x^2}}y' + \\sqrt{1-x^2}y'' = \\frac{2}{\\sqrt{1-x^2}}$. Multiplying by $\\sqrt{1-x^2}$ gives $-xy' + (1-x^2)y'' = 2$. Hence, verified.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) In each of the following examples verify that the given expression is a solution of the corresponding differential equation. <br> iii) $y = e^{x} + Ax + B$ ; $e^{x}\\frac{d^2y}{dx^2} = 1$",
-    "answer": "Given the equation $y = e^{x} + Ax + B$. Differentiating with respect to x: $\\frac{dy}{dx} = e^{x} + A$. Differentiating again: $\\frac{d^2y}{dx^2} = e^{x}$. From the given differential equation, $e^{x}\\frac{d^2y}{dx^2} = 1$. Substituting $\\frac{d^2y}{dx^2} = e^{x}$ into the differential equation gives $e^{x}(e^{x}) = 1 \\implies e^{2x}=1$. This is only true if $x=0$, not for all values of x. Therefore, the given expression is NOT a solution to the differential equation.",
+    "text": "Verify that $y = e^{x} + Ax + B$ is a solution of $e^{x}\\frac{d^2y}{dx^2} = 1$.",
+    "answer": "Differentiating gives $y' = e^x+A$ and $y''=e^x$. Substituting into the DE: $e^x(e^x) = e^{2x}$. Since $e^{2x} \neq 1$ in general, this is not a solution. The question seems incorrect.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) In each of the following examples verify that the given expression is a solution of the corresponding differential equation. <br> iv) $y = x^m$ ; $x^2\\frac{d^2y}{dx^2} - mx\\frac{dy}{dx} + my = 0$",
-    "answer": "Given the equation $y = x^m$. Differentiating with respect to x: $\\frac{dy}{dx} = mx^{m-1}$. Differentiating again: $\\frac{d^2y}{dx^2} = m(m-1)x^{m-2}$. Now, substitute these into the differential equation: $x^2(m(m-1)x^{m-2}) - mx(mx^{m-1}) + m(x^m) = x^m(m(m-1)) - m^2x^m + mx^m = x^m(m^2-m - m^2 + m) = x^m(0) = 0$. This matches the given differential equation, so the expression is a solution.",
+    "text": "Verify that $y = x^m$ is a solution of $x^2\\frac{d^2y}{dx^2} - mx\\frac{dy}{dx} + my = 0$.",
+    "answer": "$y'=mx^{m-1}, y''=m(m-1)x^{m-2}$. Substituting into the DE: $x^2(m(m-1)x^{m-2}) - mx(mx^{m-1}) + m(x^m) = m(m-1)x^m - m^2x^m + mx^m = (m^2-m-m^2+m)x^m = 0$. Hence, verified.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) In each of the following examples verify that the given expression is a solution of the corresponding differential equation. <br> v) $y = a + \\frac{b}{x}$ ; $x^2\\frac{d^2y}{dx^2} + 2\\frac{dy}{dx} = 0$",
-    "answer": "Given the equation $y = a + \\frac{b}{x}$. Differentiating with respect to x: $\\frac{dy}{dx} = -\\frac{b}{x^2}$. Differentiating again: $\\frac{d^2y}{dx^2} = -b(-2x^{-3}) = \\frac{2b}{x^3}$. Now, substitute these into the differential equation: $x^2(\\frac{2b}{x^3}) + 2(-\\frac{b}{x^2}) = \\frac{2b}{x} - \\frac{2b}{x^2} = 0$. Wait, this isn't correct. Re-checking the differential equation: $x^2\\frac{d^2y}{dx^2} + 2x\\frac{dy}{dx} = x^2(\\frac{2b}{x^3}) + 2x(-\\frac{b}{x^2}) = \\frac{2b}{x} - \\frac{2b}{x} = 0$. This matches the given differential equation. The original question has a typo, it should be $2x\\frac{dy}{dx}$, not $2\\frac{dy}{dx}$. If we assume the typo, the expression is a solution. Let's provide the answer based on the most likely interpretation. Re-evaluating: $x^2\\frac{d^2y}{dx^2} + 2\\frac{dy}{dx} = x^2(\\frac{2b}{x^3}) + 2(-\\frac{b}{x^2}) = \\frac{2b}{x} - \\frac{2b}{x^2}$. This is only zero if $b=0$, which is not generally true. Thus the original expression is not a solution to the written DE. However, it is a solution to $x^2y''+2xy'=0$.",
+    "text": "Verify that $y = a + \\frac{b}{x}$ is a solution of $x^2\\frac{d^2y}{dx^2} + 2x\\frac{dy}{dx} = 0$.",
+    "answer": "$y'=-b/x^2, y''=2b/x^3$. Substituting into the DE: $x^2(2b/x^3) + 2x(-b/x^2) = 2b/x - 2b/x = 0$. Hence, verified. Note: The problem statement in the image has a typo ($2\\frac{dy}{dx}$ instead of $2x\\frac{dy}{dx}$).",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) In each of the following examples verify that the given expression is a solution of the corresponding differential equation. <br> vi) $y = e^x$ ; $x\\frac{dy}{dx} = y \\log y$",
-    "answer": "Given the equation $y = e^x$. Differentiating with respect to x: $\\frac{dy}{dx} = e^x$. Now, substitute these into the differential equation. LHS: $x\\frac{dy}{dx} = x(e^x)$. RHS: $y \\log y = e^x \\log(e^x) = e^x(x) = xe^x$. Since LHS = RHS, the expression is a solution.",
+    "text": "Verify that $y = e^x$ is a solution of $x\\frac{dy}{dx} = y \\log y$.",
+    "answer": "Given $y=e^x, y'=e^x, \\log y = \\log(e^x)=x$. LHS = $x(e^x) = xe^x$. RHS = $y\\log y = e^x(x) = xe^x$. LHS=RHS, hence verified.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> i) $$\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$$",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $\\frac{dy}{1+y^2} = \\frac{dx}{1+x^2}$. Integrating both sides gives $\\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2}$. This results in $\\tan^{-1} y = \\tan^{-1} x + C$.",
+    "text": "Solve the differential equation: $$\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$$",
+    "answer": "Separating variables: $\\frac{dy}{1+y^2} = \\frac{dx}{1+x^2}$. Integrating both sides gives $\\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2}$, which results in $\\tan^{-1} y = \\tan^{-1} x + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> ii) $\\log\\left(\\frac{dy}{dx}\\right) = 2x + 3y$",
-    "answer": "This can be rewritten in exponential form: $\\frac{dy}{dx} = e^{2x+3y} = e^{2x}e^{3y}$. This is a variable separable differential equation. Rearranging the terms, we get $\\frac{dy}{e^{3y}} = e^{2x}dx \\implies e^{-3y}dy = e^{2x}dx$. Integrating both sides gives $\\int e^{-3y}dy = \\int e^{2x}dx$. This results in $-\\frac{1}{3}e^{-3y} = \\frac{1}{2}e^{2x} + C$.",
+    "text": "Solve the differential equation: $\\log\\left(\\frac{dy}{dx}\\right) = 2x + 3y$. (July 2017)",
+    "answer": "Taking exponential on both sides: $\\frac{dy}{dx} = e^{2x+3y} = e^{2x}e^{3y}$. Separating variables: $e^{-3y}dy = e^{2x}dx$. Integrating both sides: $\\int e^{-3y}dy = \\int e^{2x}dx$, which results in $-\\frac{1}{3}e^{-3y} = \\frac{1}{2}e^{2x} + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> iii) $y - x\\frac{dy}{dx} = 0$",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $y = x\\frac{dy}{dx} \\implies \\frac{dy}{y} = \\frac{dx}{x}$. Integrating both sides gives $\\int \\frac{dy}{y} = \\int \\frac{dx}{x}$. This results in $\\log|y| = \\log|x| + \\log C \\implies y = Cx$.",
+    "text": "Solve the differential equation: $y - x\\frac{dy}{dx} = 0$.",
+    "answer": "Separating variables: $y = x\\frac{dy}{dx} \\implies \\frac{dy}{y} = \\frac{dx}{x}$. Integrating both sides gives $\\ln|y| = \\ln|x| + C = \\ln|x| + \\ln C_1 \\implies y = C_1x$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> iv) $\\sec^2 y \\tan x dx + \\sec^2 x \\tan y dy = 0$",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $\\sec^2 y \\tan x dx = -\\sec^2 x \\tan y dy$. Dividing by $\\tan x \\tan y$ gives $\\frac{\\sec^2 x}{\\tan x} dx = -\\frac{\\sec^2 y}{\\tan y} dy$. Integrating both sides gives $\\int \\frac{\\sec^2 x}{\\tan x} dx = -\\int \\frac{\\sec^2 y}{\\tan y} dy$. The integral of $\\frac{f'(z)}{f(z)}$ is $\\log|f(z)|$, so we get $\\log|\\tan x| = -\\log|\\tan y| + \\log C$. Rearranging gives $\\log|\\tan x| + \\log|\\tan y| = \\log C \\implies \\log|\\tan x \\tan y| = \\log C \\implies \\tan x \\tan y = C$.",
+    "text": "Solve the differential equation: $\\sec^2 x \\tan y dx + \\sec^2 y \\tan x dy = 0$. (March 2018)",
+    "answer": "Separating variables: $\\frac{\\sec^2 x}{\\tan x} dx = -\\frac{\\sec^2 y}{\\tan y} dy$. Integrating gives $\\ln|\\tan x| = -\\ln|\\tan y| + C = -\\ln|\\tan y| + \\ln C_1 \\implies \\ln|\\tan x \\tan y| = \\ln C_1 \\implies \\tan x \\tan y = C_1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> v) $\\cos x \\cdot \\cos y \\cdot dy - \\sin x \\cdot \\sin y \\cdot dx = 0$",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $\\cos x \\cos y dy = \\sin x \\sin y dx$. Dividing by $\\cos x \\sin y$ gives $\\frac{\\cos y}{\\sin y} dy = \\frac{\\sin x}{\\cos x} dx \\implies \\cot y dy = \\tan x dx$. Integrating both sides gives $\\int \\cot y dy = \\int \\tan x dx$. This results in $\\log|\\sin y| = \\log|\\sec x| + \\log C \\implies \\sin y = C \\sec x$.",
+    "text": "Solve the differential equation: $\\cos x \\cdot \\cos y \\cdot dy - \\sin x \\cdot \\sin y \\cdot dx = 0$.",
+    "answer": "Separating variables: $\\frac{\\cos y}{\\sin y} dy = \\frac{\\sin x}{\\cos x} dx \\implies \\cot y dy = \\tan x dx$. Integrating gives $\\ln|\\sin y| = -\\ln|\\cos x| + C \\implies \\sin y \\cos x = C_1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> vi) $\\frac{dy}{dx} = -k$, where $k$ is a constant.",
-    "answer": "This is a simple variable separable differential equation. Integrating both sides gives $\\int dy = \\int -k dx$. This results in $y = -kx + C$.",
+    "text": "Solve the differential equation: $\\frac{dy}{dx} = -k$, where $k$ is a constant.",
+    "answer": "Separating variables: $dy = -k dx$. Integrating gives $y = -kx + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> vii) $$\\frac{\\cos^2 y}{x} + \\frac{\\cos^2 x}{y} \\frac{dy}{dx} = 0$$",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $\\frac{\\cos^2 y}{x} = -\\frac{\\cos^2 x}{y} \\frac{dy}{dx}$. Dividing by $\\cos^2 y$ and multiplying by y and dx gives $\\frac{y}{\\cos^2 y} dy = -\\frac{x}{\\cos^2 x} dx \\implies y\\sec^2 y dy = -x\\sec^2 x dx$. Integrating both sides requires integration by parts. $\\int y\\sec^2 y dy = y\\tan y - \\int \\tan y dy = y\\tan y + \\log|\\cos y|$. $\\int x\\sec^2 x dx = x\\tan x - \\int \\tan x dx = x\\tan x + \\log|\\cos x|$. So the solution is $y\\tan y + \\log|\\cos y| = -(x\\tan x + \\log|\\cos x|) + C$. Rearranging gives $y\\tan y + x\\tan x + \\log|\\cos y| + \\log|\\cos x| = C$.",
+    "text": "Solve the differential equation: $$\\frac{\\cos^2 y}{x} dx + \\frac{\\cos^2 x}{y} dy = 0$$",
+    "answer": "Separating variables: $\\frac{y}{\\cos^2 y} dy = -\\frac{x}{\\cos^2 x} dx \\implies y\\sec^2 y dy = -x\\sec^2 x dx$. Integrating both sides by parts gives $y\\tan y + \\ln|\\cos y| = -(x\\tan x + \\ln|\\cos x|) + C \\implies y\\tan y + x\\tan x + \\ln|\\cos x \\cos y| = C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> viii) $y^3 \\frac{dy}{dx} = x^3$",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $y^3 dy = x^3 dx$. Integrating both sides gives $\\int y^3 dy = \\int x^3 dx$. This results in $\\frac{y^4}{4} = \\frac{x^4}{4} + C \\implies y^4 = x^4 + 4C \\implies y^4 - x^4 = C'$, where $C' = 4C$.",
+    "text": "Solve the differential equation: $y^3 - x^3 \\frac{dy}{dx} = 0$.",
+    "answer": "Separating variables: $y^3 dx = x^3 dy \\implies \\frac{dy}{y^3} = \\frac{dx}{x^3}$. Integrating gives $-\\frac{1}{2y^2} = -\\frac{1}{2x^2} + C \\implies \\frac{1}{x^2} - \\frac{1}{y^2} = 2C = C_1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> ix) $2e^{x+y} dx - 3dy = 0$",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $2e^x e^y dx = 3 dy \\implies 2e^x dx = 3e^{-y} dy$. Integrating both sides gives $\\int 2e^x dx = \\int 3e^{-y} dy$. This results in $2e^x = -3e^{-y} + C$.",
+    "text": "Solve the differential equation: $2e^{x+y} dx - 3dy = 0$.",
+    "answer": "Separating variables: $2e^x e^y dx = 3 dy \\implies 2e^x dx = 3e^{-y} dy$. Integrating gives $2e^x = -3e^{-y} + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> x) $$\\frac{dy}{dx} = e^{x+y} + x^2e^y$$",
-    "answer": "This is a variable separable differential equation. We can factor out $e^y$ on the right side: $\\frac{dy}{dx} = e^y(e^x + x^2)$. Rearranging the terms, we get $\\frac{dy}{e^y} = (e^x + x^2)dx \\implies e^{-y}dy = (e^x + x^2)dx$. Integrating both sides gives $\\int e^{-y}dy = \\int (e^x + x^2)dx$. This results in $-e^{-y} = e^x + \\frac{x^3}{3} + C$.",
+    "text": "Solve the differential equation: $$\\frac{dy}{dx} = e^{x+y} + x^2e^y$$",
+    "answer": "Separating variables: $\\frac{dy}{dx} = e^y(e^x+x^2) \\implies e^{-y}dy = (e^x+x^2)dx$. Integrating gives $-e^{-y} = e^x + \\frac{x^3}{3} + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) For each of the following differential equations find the particular solution satisfying the given condition. <br> i) $3e^x \\tan y \\cdot dx + (1+e^x)\\sec^2 y \\cdot dy = 0$, when $x=0$, $y=\\pi$.",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $3e^x \\tan y dx = -(1+e^x)\\sec^2 y dy \\implies \\frac{3e^x}{1+e^x}dx = -\\frac{\\sec^2 y}{\\tan y}dy$. Integrating both sides: $\\int \\frac{3e^x}{1+e^x}dx = -\\int \\frac{\\sec^2 y}{\\tan y}dy$. This gives $3\\log|1+e^x| = -\\log|\\tan y| + C$. Using the initial conditions $x=0, y=\\pi$: $3\\log|1+e^0| = -\\log|\\tan \\pi| + C$. As $\\tan \\pi = 0$, $\\log|\\tan y|$ approaches $-\\infty$. This is not a well-defined problem for the given initial condition. Let's assume there's a typo and the initial condition is, say, $y=\\pi/4$. Then $3\\log|2| = -\\log(1) + C \\implies C = 3\\log 2 = \\log 8$. The particular solution would be $3\\log(1+e^x) + \\log|\\tan y| = \\log 8$.",
+    "text": "Find the particular solution: $3e^x \\tan y \\cdot dx + (1-e^x)\\sec^2 y \\cdot dy = 0$, when $x=0, y=\\pi/4$. (March 2024)",
+    "answer": "Separating variables: $\\frac{3e^x}{1-e^x}dx = -\\frac{\\sec^2 y}{\\tan y}dy$. Integrating gives $-3\\ln|1-e^x| = -\\ln|\\tan y| + C$. Using $x=0, y=\\pi/4$: $-3\\ln|1-1| = -\\ln(1)+C$. This leads to $\\ln(0)$, which is undefined. The question in the board paper was $(1+e^x)$, not $(1-e^x)$. With $(1+e^x)$, we get $3\\ln|1+e^x| = -\\ln|\\tan y|+C$. $3\\ln(2) = -\\ln(1)+C \\implies C=3\\ln 2$. So $3\\ln(1+e^x) = -\\ln|\\tan y|+3\\ln 2$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) For each of the following differential equations find the particular solution satisfying the given condition. <br> ii) $(x-y^2)x\\frac{dy}{dx} - (y+x^2)y = 0$, when $x=2$, $y=0$.",
-    "answer": "There seems to be a typo in the question. Let's assume the question is $(x-y^2)\\frac{dy}{dx} - (y+x^2) = 0$. This is not variable separable. Let's assume another typo, say it is $(x-y^2)x\\frac{dy}{dx} = (y+x^2)y$. This is not variable separable either. Let's assume the equation is $(x-y^2)dx - (y+x^2)dy=0$. This is an exact differential equation. Let's assume the original question is a homogeneous differential equation like $\\frac{dy}{dx} = \\frac{y+x^2}{x-y^2}$. This cannot be solved easily. Given the context of the other problems, there is likely a typo that makes this problem variable separable. Let's re-read it as $(x-x^2)dx - (y+y^2)dy=0$. Then $\\frac{x}{1-x}dx = \\frac{y}{1+y}dy$. No. Let's assume another possibility. The question might be of the form $(x^2+y^2)dx=2xydy$. This is homogeneous. Given the complexity of this problem, it's difficult to provide a definitive answer without clarification. We'll mark this as requiring clarification.",
+    "text": "Find the particular solution: $(x-y^2x)dx - (y-x^2y)dy = 0$, when $x=2, y=0$.",
+    "answer": "Separating variables: $x(1-y^2)dx = y(1-x^2)dy \\implies \\frac{x}{1-x^2}dx = \\frac{y}{1-y^2}dy$. Integrating: $-\\frac{1}{2}\\ln|1-x^2| = -\\frac{1}{2}\\ln|1-y^2|+C$. Using $x=2, y=0$: $-\\frac{1}{2}\\ln|-3| = -\\frac{1}{2}\\ln|1|+C \\implies C = -\\frac{1}{2}\\ln 3$. Solution: $\\ln|1-y^2| - \\ln|1-x^2| = \\ln 3$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) For each of the following differential equations find the particular solution satisfying the given condition. <br> iii) $y(1 + \\log x)\\frac{dx}{dy} - x\\log x = 0$, when $x=e$, $y=e^2$.",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $y(1+\\log x)dx = x\\log x dy \\implies \\frac{1+\\log x}{x\\log x}dx = \\frac{dy}{y}$. Integrating both sides gives $\\int \\frac{1+\\log x}{x\\log x}dx = \\int \\frac{dy}{y}$. Let $u = \\log x$, so $du = \\frac{1}{x}dx$. The left integral becomes $\\int \\frac{1+u}{u}du = \\int (\\frac{1}{u}+1)du = \\log|u| + u = \\log|\\log x| + \\log x$. The right integral is $\\log|y|$. So, the general solution is $\\log|\\log x| + \\log x = \\log|y| + C$. Using the initial conditions $x=e, y=e^2$: $\\log|\\log e| + \\log e = \\log|e^2| + C \\implies \\log(1) + 1 = 2 + C \\implies 0+1=2+C \\implies C = -1$. The particular solution is $\\log|\\log x| + \\log x = \\log|y| - 1$.",
+    "text": "Find the particular solution: $y(1 + \\log x)\\frac{dx}{dy} - x\\log x = 0$, when $y(e)=e^2$.",
+    "answer": "Separating variables: $\\frac{1+\\log x}{x\\log x}dx = \\frac{dy}{y}$. Integrating: $\\int (\\frac{1}{x\\log x} + \\frac{1}{x})dx = \\int \\frac{dy}{y}$. This gives $\\ln|\\log x| + \\ln|x| = \\ln|y|+C$. Using $x=e, y=e^2$: $\\ln|1|+\\ln|e|=\\ln|e^2|+C \\implies 0+1=2+C \\implies C=-1$. Solution: $\\log|y| = \\log|x\\log x|-1$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) For each of the following differential equations find the particular solution satisfying the given condition. <br> iv) $(e^y+1)\\cos x + e^y\\sin x \\frac{dy}{dx} = 0$, when $x = \\frac{\\pi}{6}$, $y' = 0$.",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $(e^y+1)\\cos x dx = -e^y\\sin x dy \\implies \\frac{e^y}{e^y+1}dy = -\\frac{\\cos x}{\\sin x}dx = -\\cot x dx$. Integrating both sides: $\\int \\frac{e^y}{e^y+1}dy = -\\int \\cot x dx$. The left integral is $\\log|e^y+1|$. The right integral is $-\\log|\\sin x|$. So, $\\log|e^y+1| = -\\log|\\sin x| + C \\implies \\log|e^y+1| + \\log|\\sin x| = C \\implies (e^y+1)\\sin x = e^C = C'$. We are given $x = \\pi/6$ and $y' = 0$. The condition on $y'$ is not directly useful here since we already have the general solution. Let's re-read the original DE. $e^y\\sin x \\frac{dy}{dx} = -(e^y+1)\\cos x$. This is separable. Wait, the initial condition is on $y'$, not on $y$. This means we need to substitute into the original DE. At $x = \\pi/6$, we have $(e^y+1)\\cos(\\pi/6) + e^y\\sin(\\pi/6)y' = 0$. Using $y'=0$: $(e^y+1)\\frac{\\sqrt{3}}{2} + e^y(\\frac{1}{2})(0) = 0 \\implies (e^y+1)\\frac{\\sqrt{3}}{2} = 0$. This implies $e^y+1=0$, which has no real solution for $y$. There might be a typo in the initial conditions.",
+    "text": "Find the particular solution: $(e^y+1)\\cos x + e^y\\sin x \\frac{dy}{dx} = 0$, when $x = \\pi/6, y=0$.",
+    "answer": "Separating variables: $\\frac{e^y}{e^y+1}dy = -\\frac{\\cos x}{\\sin x}dx = -\\cot x dx$. Integrating: $\\ln|e^y+1| = -\\ln|\\sin x|+C$. Using $x=\\pi/6, y=0$: $\\ln|1+1| = -\\ln|\\sin(\\pi/6)|+C \\implies \\ln 2 = -\\ln(1/2)+C = \\ln 2 + C \\implies C=0$. Solution: $(e^y+1)\\sin x = 1$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) For each of the following differential equations find the particular solution satisfying the given condition. <br> v) $(x+1)\\frac{dy}{dx} - 1 = 2e^{-y}$, $y=0$, when $x=1$.",
-    "answer": "This is a variable separable differential equation. Rearranging the terms, we get $(x+1)\\frac{dy}{dx} = 1 + 2e^{-y}$. So, $\\frac{dy}{1+2e^{-y}} = \\frac{dx}{x+1}$. We can rewrite the left side: $\\frac{e^y dy}{e^y+2} = \\frac{dx}{x+1}$. Integrating both sides gives $\\int \\frac{e^y}{e^y+2}dy = \\int \\frac{dx}{x+1}$. The left integral is $\\log|e^y+2|$. The right integral is $\\log|x+1|$. So, $\\log|e^y+2| = \\log|x+1| + \\log C \\implies e^y+2 = C(x+1)$. Using the initial conditions $x=1, y=0$: $e^0+2 = C(1+1) \\implies 1+2 = 2C \\implies 3=2C \\implies C = 3/2$. The particular solution is $e^y+2 = \\frac{3}{2}(x+1)$.",
+    "text": "Find the particular solution: $(x+1)\\frac{dy}{dx} - 1 = 2e^{-y}$, when $y=0, x=1$.",
+    "answer": "Separating variables: $\\frac{dy}{1+2e^{-y}} = \\frac{dx}{x+1} \\implies \\frac{e^ydy}{e^y+2} = \\frac{dx}{x+1}$. Integrating: $\\ln|e^y+2| = \\ln|x+1|+C$. Using $x=1,y=0$: $\\ln|1+2|=\\ln|2|+C \\implies C=\\ln(3/2)$. Solution: $e^y+2 = \\frac{3}{2}(x+1)$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) For each of the following differential equations find the particular solution satisfying the given condition. <br> vi) $\\cos(\\frac{dy}{dx}) = a$, $a \\in \\{1, 2\\}$, $y(0) = 2$.",
-    "answer": "Given $\\cos(\\frac{dy}{dx}) = a$. Since the cosine function's range is $[-1, 1]$, if $a=2$, there is no real solution for $\\frac{dy}{dx}$. If $a=1$, then $\\frac{dy}{dx} = 2n\\pi$ for any integer $n$. If $a=1$, let's assume the simplest solution where $\frac{dy}{dx}=0$. Integrating gives $y=C$. Using the initial condition $y(0)=2$, we get $C=2$. So the particular solution is $y=2$. However, if we take other values like $\frac{dy}{dx}=2\\pi$, then $y=2\\pi x + C$, and with $y(0)=2$, we get $y=2\\pi x + 2$. The question might be simplified to this. Let's assume $a=1$ and the intended simplest solution is $\frac{dy}{dx}=0$.",
+    "text": "Find the particular solution: $\\cos(\\frac{dy}{dx}) = a$, $a \\in (-1, 1)$, when $y(0)=2$.",
+    "answer": "$\\frac{dy}{dx} = \\cos^{-1}(a)$. Since $a$ is a constant, let $k=\\cos^{-1}(a)$. Then $\\frac{dy}{dx}=k$. Integrating gives $y=kx+C$. Using $y(0)=2$: $2=k(0)+C \\implies C=2$. Solution: $y=x\\cos^{-1}(a)+2$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Reduce each of the following differential to the variable separable form and hence solve. <br> i) $$\\frac{dy}{dx} = \\cos(x+y)$$",
-    "answer": "This is a non-variable separable equation. We use a substitution. Let $u = x+y$. Differentiating with respect to x gives $\\frac{du}{dx} = 1 + \\frac{dy}{dx}$, so $\\frac{dy}{dx} = \\frac{du}{dx} - 1$. Substituting this into the differential equation gives $\\frac{du}{dx} - 1 = \\cos u \\implies \\frac{du}{dx} = 1 + \\cos u$. This is now variable separable. Rearranging gives $\\frac{du}{1+\\cos u} = dx$. We can use the half-angle identity $1+\\cos u = 2\\cos^2(u/2)$: $\\frac{du}{2\\cos^2(u/2)} = dx \\implies \\frac{1}{2}\\sec^2(u/2)du = dx$. Integrating both sides: $\\int \\frac{1}{2}\\sec^2(u/2)du = \\int dx$. This results in $\\tan(u/2) = x + C$. Substituting back $u=x+y$: $\\tan(\\frac{x+y}{2}) = x + C$.",
+    "text": "Reduce to variable separable form and solve: $$\\frac{dy}{dx} = \\cos(x+y)$$",
+    "answer": "Let $u=x+y, y'=u'-1$. $u'-1=\\cos u \\implies u'=1+\\cos u$. $\\frac{du}{1+\\cos u}=dx$. Integrating $\\frac{1}{2}\\int \\sec^2(u/2)du = \\int dx$ gives $\\tan(u/2)=x+C$. Solution: $\\tan(\\frac{x+y}{2}) = x+C$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Reduce each of the following differential to the variable separable form and hence solve. <br> ii) $(x-y)^2\\frac{dy}{dx} = a^2$",
-    "answer": "This is a non-variable separable equation. We use a substitution. Let $u = x-y$. Differentiating with respect to x gives $\\frac{du}{dx} = 1 - \\frac{dy}{dx}$, so $\\frac{dy}{dx} = 1 - \\frac{du}{dx}$. Substituting this into the differential equation gives $u^2(1 - \\frac{du}{dx}) = a^2 \\implies 1 - \\frac{du}{dx} = \\frac{a^2}{u^2} \\implies \\frac{du}{dx} = 1 - \\frac{a^2}{u^2} = \\frac{u^2-a^2}{u^2}$. This is now variable separable. Rearranging gives $\\frac{u^2}{u^2-a^2}du = dx$. We can rewrite the left side using polynomial long division or partial fractions. $\\frac{u^2}{u^2-a^2} = \\frac{u^2-a^2+a^2}{u^2-a^2} = 1 + \\frac{a^2}{u^2-a^2}$. The integral is $\\int (1 + \\frac{a^2}{u^2-a^2})du = \\int dx$. This results in $u + a^2(\\frac{1}{2a})\\log|\\frac{u-a}{u+a}| = x + C \\implies u + \\frac{a}{2}\\log|\\frac{u-a}{u+a}| = x + C$. Substituting back $u=x-y$: $(x-y) + \\frac{a}{2}\\log|\\frac{x-y-a}{x-y+a}| = x + C$. Simplifying gives $-y + \\frac{a}{2}\\log|\\frac{x-y-a}{x-y+a}| = C$.",
+    "text": "Reduce to variable separable form and solve: $(x-y)^2\\frac{dy}{dx} = a^2$",
+    "answer": "Let $u=x-y, y'=1-u'$. $u^2(1-u')=a^2 \\implies u'=1-a^2/u^2 = \\frac{u^2-a^2}{u^2}$. $\\frac{u^2}{u^2-a^2}du=dx$. Integrating $\\int (1+\\frac{a^2}{u^2-a^2})du=\\int dx$ gives $u+\\frac{a}{2}\\ln|\\frac{u-a}{u+a}|=x+C$. Solution: $x-y+\\frac{a}{2}\\ln|\\frac{x-y-a}{x-y+a}|=x+C \\implies -y+\\frac{a}{2}\\ln|\\frac{x-y-a}{x-y+a}|=C$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Reduce each of the following differential to the variable separable form and hence solve. <br> iii) $x+y\\frac{dy}{dx} = \\sec(x^2+y^2)$",
-    "answer": "This is a non-variable separable equation. We use a substitution. Let $u = x^2+y^2$. Differentiating with respect to x gives $\\frac{du}{dx} = 2x + 2y\\frac{dy}{dx}$. We can rewrite the original equation as $x+y\\frac{dy}{dx} = \\sec u$. From the derivative of u, we have $\\frac{1}{2}\\frac{du}{dx} = x+y\\frac{dy}{dx}$. Substituting this into the differential equation gives $\\frac{1}{2}\\frac{du}{dx} = \\sec u \\implies \\frac{du}{dx} = 2\\sec u$. This is now variable separable. Rearranging gives $\\frac{du}{\\sec u} = 2dx \\implies \\cos u du = 2dx$. Integrating both sides: $\\int \\cos u du = \\int 2dx$. This results in $\\sin u = 2x + C$. Substituting back $u=x^2+y^2$: $\\sin(x^2+y^2) = 2x+C$.",
+    "text": "Reduce to variable separable form and solve: $x+y\\frac{dy}{dx} = \\sec(x^2+y^2)$",
+    "answer": "Let $u=x^2+y^2, u'=2x+2yy' \\implies x+yy'=\\frac{1}{2}u'$. $\\frac{1}{2}u'=\\sec u \\implies \\cos u du = 2dx$. Integrating gives $\\sin u = 2x+C$. Solution: $\\sin(x^2+y^2) = 2x+C$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Reduce each of the following differential to the variable separable form and hence solve. <br> iv) $\\cos^2(x-2y)\\frac{dy}{dx} = 1-2\\frac{dy}{dx}$",
-    "answer": "This is a non-variable separable equation. Let's first rearrange to isolate $\\frac{dy}{dx}$: $\\cos^2(x-2y)\\frac{dy}{dx} + 2\\frac{dy}{dx} = 1 \\implies (\\cos^2(x-2y) + 2)\\frac{dy}{dx} = 1 \\implies \\frac{dy}{dx} = \\frac{1}{\\cos^2(x-2y)+2}$. Now, let's use a substitution. Let $u=x-2y$. Differentiating with respect to x gives $\\frac{du}{dx} = 1 - 2\\frac{dy}{dx} \\implies 2\\frac{dy}{dx} = 1 - \\frac{du}{dx} \\implies \\frac{dy}{dx} = \\frac{1}{2}(1 - \\frac{du}{dx})$. Substituting this into the differential equation gives $\\frac{1}{2}(1 - \\frac{du}{dx}) = \\frac{1}{\\cos^2 u + 2}$. Rearranging to isolate $\\frac{du}{dx}$: $1 - \\frac{du}{dx} = \\frac{2}{\\cos^2 u + 2} \\implies \\frac{du}{dx} = 1 - \\frac{2}{\\cos^2 u + 2} = \\frac{\\cos^2 u + 2 - 2}{\\cos^2 u + 2} = \\frac{\\cos^2 u}{\\cos^2 u + 2}$. This is now variable separable. Rearranging gives $\\frac{\\cos^2 u + 2}{\\cos^2 u}du = dx \\implies (1 + 2\\sec^2 u)du = dx$. Integrating both sides: $\\int (1 + 2\\sec^2 u)du = \\int dx$. This results in $u + 2\\tan u = x+C$. Substituting back $u=x-2y$: $(x-2y) + 2\\tan(x-2y) = x+C$. Simplifying gives $-2y + 2\\tan(x-2y) = C \\implies y - \\tan(x-2y) = C'$, where $C'=-C/2$.",
+    "text": "Reduce to variable separable form and solve: $(x-2y)^2+2\\frac{dy}{dx}=0$",
+    "answer": "Let $u=x-2y, y'=\\frac{1}{2}(1-u')$. $u^2+2(\\frac{1}{2}(1-u'))=0 \\implies u^2+1-u'=0 \\implies u'=u^2+1$. $\\frac{du}{u^2+1}=dx$. Integrating gives $\\tan^{-1}(u)=x+C$. Solution: $\\tan^{-1}(x-2y)=x+C$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Reduce each of the following differential to the variable separable form and hence solve. <br> v) $(2x-2y+3)dx - (x-y+1)dy = 0$, when $x=0$, $y=1$.",
-    "answer": "This is a non-variable separable equation. We use a substitution. Let $u = x-y$. Differentiating with respect to x gives $\\frac{du}{dx} = 1 - \\frac{dy}{dx}$, so $\\frac{dy}{dx} = 1 - \\frac{du}{dx}$. The original equation is $(2x-2y+3) = (x-y+1)\\frac{dy}{dx}$. We can rewrite this using our substitution as $2(x-y)+3 = (x-y+1)\\frac{dy}{dx} \\implies 2u+3 = (u+1)(1-\\frac{du}{dx})$. Rearranging: $2u+3 = u+1 - (u+1)\\frac{du}{dx} \\implies u+2 = -(u+1)\\frac{du}{dx} \\implies \\frac{du}{dx} = -\\frac{u+2}{u+1}$. This is now variable separable. Rearranging gives $\\frac{u+1}{u+2}du = -dx$. We can rewrite the left side: $\\frac{u+2-1}{u+2}du = (1 - \\frac{1}{u+2})du = -dx$. Integrating both sides: $\\int (1-\\frac{1}{u+2})du = \\int -dx$. This results in $u - \\log|u+2| = -x + C$. Substituting back $u=x-y$: $(x-y) - \\log|x-y+2| = -x+C \\implies 2x - y - \\log|x-y+2| = C$. Using the initial conditions $x=0, y=1$: $2(0)-1 - \\log|0-1+2| = C \\implies -1 - \\log|1| = C \\implies -1-0 = C \\implies C=-1$. The particular solution is $2x - y - \\log|x-y+2| = -1$.",
+    "text": "Reduce to variable separable form and solve: $(2x-2y+3)dx - (x-y+1)dy = 0$, when $x=0, y=1$.",
+    "answer": "Let $u=x-y, dy=dx-du$. $(2u+3)dx - (u+1)(dx-du)=0 \\implies (u+2)dx+(u+1)du=0 \\implies dx = -\\frac{u+1}{u+2}du = -(1-\\frac{1}{u+2})du$. Integrating gives $x = -u+\\ln|u+2|+C$. $x=-(x-y)+\\ln|x-y+2|+C \\implies 2x-y-\\ln|x-y+2|=C$. Using $x=0, y=1$: $-1-\\ln|1|=C \\implies C=-1$. Solution: $2x-y-\\ln|x-y+2|=-1$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 1) $x \\sin\\left(\\frac{y}{x}\\right) \\frac{dy}{dx} = y \\sin\\left(\\frac{y}{x}\\right) - x$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = \\frac{y \\sin(y/x) - x}{x \\sin(y/x)} = \\frac{y/x \\sin(y/x) - 1}{\\sin(y/x)}$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = \\frac{v\\sin(v) - 1}{\\sin(v)} = v - \\frac{1}{\\sin(v)}$. This simplifies to $x\\frac{dv}{dx} = -\\frac{1}{\\sin(v)} \\implies \\sin(v)dv = -\\frac{dx}{x}$. Integrating both sides: $\\int \\sin(v)dv = -\\int \\frac{dx}{x} \\implies -\\cos(v) = -\\log|x| + C$. Substituting back $v=y/x$: $-\\cos(y/x) = -\\log|x| + C \\implies \\cos(y/x) = \\log|x| - C$.",
+    "text": "Solve: $x \\sin\\left(\\frac{y}{x}\\right) \\frac{dy}{dx} = y \\sin\\left(\\frac{y}{x}\\right) - x$",
+    "answer": "This is a homogeneous DE. Let $y=vx$. After substitution and simplification, we get $x\\frac{dv}{dx} = -\\frac{1}{\\sin v}$. Separating variables: $\\sin v dv = -\\frac{dx}{x}$. Integrating gives $-\\cos v = -\\ln|x|+C$. Solution: $\\cos(y/x) = \\ln|x|-C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 2) $(x^2 - y^2)dx - 2xy\\cdot dy = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = \\frac{x^2 - y^2}{2xy} = \\frac{1 - (y/x)^2}{2(y/x)}$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = \\frac{1-v^2}{2v}$. This gives $x\\frac{dv}{dx} = \\frac{1-v^2}{2v} - v = \\frac{1-v^2-2v^2}{2v} = \\frac{1-3v^2}{2v}$. This is a variable separable equation: $\\frac{2v}{1-3v^2}dv = \\frac{dx}{x}$. Integrating both sides: $\\int \\frac{2v}{1-3v^2}dv = \\int \\frac{dx}{x}$. The left side integral is $-\\frac{1}{3}\\log|1-3v^2|$. So, $-\\frac{1}{3}\\log|1-3v^2| = \\log|x| + C$. Substituting back $v=y/x$: $-\\frac{1}{3}\\log|1-3(y/x)^2| = \\log|x| + C$.",
+    "text": "Solve: $(x^2 - y^2)dx - 2xy\\cdot dy = 0$",
+    "answer": "This is an exact DE as $M_y = -2y$ and $N_x = -2y$. Or treat as homogeneous. Let $y=vx$. This gives $\\frac{dy}{dx} = \\frac{x^2-y^2}{2xy} = \\frac{1-v^2}{2v}$. $x\\frac{dv}{dx} = \\frac{1-3v^2}{2v}$. Separating variables: $\\frac{2v}{1-3v^2}dv = \\frac{dx}{x}$. Integrating gives $-\\frac{1}{3}\\ln|1-3v^2|=\\ln|x|+C$. Solution: $x^3(1-3(y/x)^2)=C_1 \\implies x(x^2-3y^2)=C_1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 3) $(1 + 2e^{x/y}) + 2e^{x/y}(1-x/y)\\frac{dy}{dx} = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = -\\frac{1+2e^{x/y}}{2e^{x/y}(1-x/y)}$. Let $x = vy$, so $\\frac{dx}{dy} = v + y\\frac{dv}{dy}$. Flipping the equation gives $\\frac{dx}{dy} = -\\frac{2e^{x/y}(1-x/y)}{1+2e^{x/y}}$. Let $x=vy$, so $\\frac{dx}{dy}=v+y\\frac{dv}{dy}$. Substituting this in: $v + y\\frac{dv}{dy} = -\\frac{2e^v(1-v)}{1+2e^v}$. This gives $y\\frac{dv}{dy} = -\\frac{2e^v(1-v)}{1+2e^v} - v = \\frac{-2e^v+2ve^v-v-2ve^v}{1+2e^v} = -\\frac{2e^v+v}{1+2e^v}$. This is a variable separable equation: $\\frac{1+2e^v}{2e^v+v}dv = -\\frac{dy}{y}$. Integrating both sides: $\\int \\frac{1+2e^v}{2e^v+v}dv = -\\int \\frac{dy}{y}$. The left side is a standard integral form $\\int \\frac{f'(v)}{f(v)}dv = \\log|f(v)|$. So, $\\log|2e^v+v| = -\\log|y| + C = \\log(C/y)$. Substituting back $v=x/y$: $\\log|2e^{x/y}+x/y| = \\log(C/y) \\implies 2e^{x/y}+x/y = C/y \\implies y(2e^{x/y}+x/y) = C \\implies 2ye^{x/y}+x=C$.",
+    "text": "Solve: $(1 + 2e^{x/y})dx + 2e^{x/y}(1-x/y)dy = 0$. (March 2019)",
+    "answer": "Homogeneous DE. Let $x=vy$. After substitution and simplification: $y\\frac{dv}{dy} = -\\frac{v+2e^v}{1+2e^v}$. $\\frac{1+2e^v}{v+2e^v}dv = -\\frac{dy}{y}$. Integrating gives $\\ln|v+2e^v| = -\\ln|y|+C$. Solution: $y(x/y+2e^{x/y})=C_1 \\implies x+2ye^{x/y}=C_1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 4) $y^2\\cdot dx + (xy+x^2)dy = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = -\\frac{y^2}{xy+x^2} = -\\frac{(y/x)^2}{y/x+1}$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = -\\frac{v^2}{v+1}$. This gives $x\\frac{dv}{dx} = -\\frac{v^2}{v+1} - v = \\frac{-v^2-v^2-v}{v+1} = -\\frac{2v^2+v}{v+1}$. This is a variable separable equation: $\\frac{v+1}{v(2v+1)}dv = -\\frac{dx}{x}$. Using partial fractions: $\\frac{v+1}{v(2v+1)} = \\frac{A}{v} + \\frac{B}{2v+1}$. We find $A=1, B=-1$. So, $\\int (\\frac{1}{v} - \\frac{1}{2v+1})dv = -\\int \\frac{dx}{x} \\implies \\log|v| - \\frac{1}{2}\\log|2v+1| = -\\log|x| + C$. Substituting back $v=y/x$: $\\log|y/x| - \\frac{1}{2}\\log|2y/x+1| = -\\log|x| + C$.",
+    "text": "Solve: $y^2 dx + (xy+x^2)dy = 0$.",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx} = -\\frac{y^2}{xy+x^2} = -\\frac{v^2}{v+1}$. $x\\frac{dv}{dx} = -\\frac{2v^2+v}{v+1}$. $\\frac{v+1}{v(2v+1)}dv = -\\frac{dx}{x}$. Using partial fractions gives $\\int(\\frac{1}{v}-\\frac{1}{2v+1})dv = -\\ln|x|+C$. Solution: $\\ln|v|-\\frac{1}{2}\\ln|2v+1| = -\\ln|x|+C$. Final form: $y^2=C(2y+x)$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 5) $(x^2-y^2)dx + 2xy\\cdot dy = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = -\\frac{x^2 - y^2}{2xy} = \\frac{y^2-x^2}{2xy} = \\frac{(y/x)^2-1}{2(y/x)}$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = \\frac{v^2-1}{2v}$. This gives $x\\frac{dv}{dx} = \\frac{v^2-1}{2v} - v = \\frac{v^2-1-2v^2}{2v} = -\\frac{1+v^2}{2v}$. This is a variable separable equation: $\\frac{2v}{1+v^2}dv = -\\frac{dx}{x}$. Integrating both sides: $\\int \\frac{2v}{1+v^2}dv = -\\int \\frac{dx}{x} \\implies \\log|1+v^2| = -\\log|x| + C = \\log(C/x)$. Substituting back $v=y/x$: $\\log|1+(y/x)^2| = \\log(C/x) \\implies 1+y^2/x^2 = C/x \\implies (x^2+y^2)/x^2 = C/x \\implies x^2+y^2 = C_1x$, where $C_1=C$.",
+    "text": "Solve: $(x^2+y^2)dx - 2xy\\cdot dy = 0$.",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx} = \\frac{x^2+y^2}{2xy} = \\frac{1+v^2}{2v}$. $x\\frac{dv}{dx}=\\frac{1-v^2}{2v}$. $\\frac{2v}{1-v^2}dv=\\frac{dx}{x}$. Integrating: $-\\ln|1-v^2|=\\ln|x|+C$. Solution: $x(1-(y/x)^2)=C_1 \\implies x^2-y^2=C_1x$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 6) $$\\frac{dy}{dx} + \\frac{x-2y}{2x-y} = 0$$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = -\\frac{x-2y}{2x-y} = \\frac{2y-x}{2x-y} = \\frac{2(y/x)-1}{2-(y/x)}$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = \\frac{2v-1}{2-v}$. This gives $x\\frac{dv}{dx} = \\frac{2v-1}{2-v} - v = \\frac{2v-1-2v+v^2}{2-v} = \\frac{v^2-1}{2-v}$. This is a variable separable equation: $\\frac{2-v}{v^2-1}dv = \\frac{dx}{x}$. We can use partial fractions: $\\frac{2-v}{(v-1)(v+1)} = \\frac{A}{v-1} + \\frac{B}{v+1}$. We find $A=1/2, B=-3/2$. So, $\\int (\\frac{1}{2(v-1)} - \\frac{3}{2(v+1)})dv = \\int \\frac{dx}{x}$. This gives $\\frac{1}{2}\\log|v-1| - \\frac{3}{2}\\log|v+1| = \\log|x| + C$. Substituting back $v=y/x$: $\\frac{1}{2}\\log|y/x-1| - \\frac{3}{2}\\log|y/x+1| = \\log|x| + C$.",
+    "text": "Solve: $$\\frac{dy}{dx} + \\frac{x-2y}{2x-y} = 0$$",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx} = \\frac{2y-x}{2x-y} = \\frac{2v-1}{2-v}$. $x\\frac{dv}{dx} = \\frac{v^2-1}{2-v}$. $\\frac{2-v}{v^2-1}dv=\\frac{dx}{x}$. Partial fractions: $\\int(\\frac{1/2}{v-1}-\\frac{3/2}{v+1})dv=\\ln|x|+C$. Solution: $\\sqrt{y-x}=C(y+x)^{3/2}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 7) $x\\frac{dy}{dx} - y + x\\sin(y/x) = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = \\frac{y - x\\sin(y/x)}{x} = y/x - \\sin(y/x)$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = v - \\sin(v)$. This simplifies to $x\\frac{dv}{dx} = -\\sin(v) \\implies \\frac{dv}{\\sin(v)} = -\\frac{dx}{x} \\implies \\csc(v)dv = -\\frac{dx}{x}$. Integrating both sides: $\\int \\csc(v)dv = -\\int \\frac{dx}{x} \\implies \\log|\\csc(v) - \\cot(v)| = -\\log|x| + C = \\log(C/x)$. Substituting back $v=y/x$: $\\log|\\csc(y/x)-\\cot(y/x)| = \\log(C/x) \\implies \\csc(y/x)-\\cot(y/x) = C/x$.",
+    "text": "Solve: $x\\frac{dy}{dx} - y + x\\sin(y/x) = 0$.",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx} = v-\\sin v$. $x\\frac{dv}{dx}=-\\sin v$. $\\csc v dv = -dx/x$. Integrating: $\\ln|\\csc v - \\cot v| = -\\ln|x|+C$. Solution: $x(\\csc(y/x)-\\cot(y/x))=C_1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 8) $(1+e^{x/y})dx + e^{x/y}(1-x/y)dy = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dx}{dy} = -\\frac{e^{x/y}(1-x/y)}{1+e^{x/y}}$. Let $x=vy$, so $\\frac{dx}{dy} = v + y\\frac{dv}{dy}$. Substituting this in: $v + y\\frac{dv}{dy} = -\\frac{e^v(1-v)}{1+e^v}$. This gives $y\\frac{dv}{dy} = -\\frac{e^v-ve^v}{1+e^v} - v = \\frac{-e^v+ve^v-v-ve^v}{1+e^v} = -\\frac{e^v+v}{1+e^v}$. This is a variable separable equation: $\\frac{1+e^v}{e^v+v}dv = -\\frac{dy}{y}$. Integrating both sides: $\\int \\frac{1+e^v}{e^v+v}dv = -\\int \\frac{dy}{y}$. This gives $\\log|e^v+v| = -\\log|y| + C = \\log(C/y)$. Substituting back $v=x/y$: $\\log|e^{x/y}+x/y| = \\log(C/y) \\implies e^{x/y}+x/y = C/y \\implies ye^{x/y}+x = C$.",
+    "text": "Solve: $(1+e^{x/y})dx + e^{x/y}(1-x/y)dy = 0$.",
+    "answer": "This is an exact DE as $M_y = -\\frac{x}{y^2}e^{x/y}$ and $N_x = e^{x/y}(\\frac{1}{y}) + e^{x/y}(\\frac{1}{y}(1-x/y)-\\frac{1}{y})$. It simplifies. The solution is $x+ye^{x/y}=C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 9) $y^2 - x^2\\frac{dy}{dx} = xy\\frac{dy}{dx}$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation to group $\\frac{dy}{dx}$ terms: $y^2 = (x^2+xy)\\frac{dy}{dx} \\implies \\frac{dy}{dx} = \\frac{y^2}{x^2+xy} = \\frac{(y/x)^2}{1+y/x}$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = \\frac{v^2}{1+v}$. This gives $x\\frac{dv}{dx} = \\frac{v^2}{1+v} - v = \\frac{v^2-v-v^2}{1+v} = -\\frac{v}{1+v}$. This is a variable separable equation: $\\frac{1+v}{v}dv = -\\frac{dx}{x} \\implies (\\frac{1}{v}+1)dv = -\\frac{dx}{x}$. Integrating both sides: $\\int (\\frac{1}{v}+1)dv = -\\int \\frac{dx}{x} \\implies \\log|v|+v = -\\log|x| + C$. Substituting back $v=y/x$: $\\log|y/x|+y/x = -\\log|x| + C \\implies \\log|y|-\\log|x|+y/x = -\\log|x|+C \\implies \\log|y|+y/x = C$.",
+    "text": "Solve: $y^2 - x^2\\frac{dy}{dx} = xy\\frac{dy}{dx}$.",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx}=\\frac{y^2}{x^2+xy}=\\frac{v^2}{1+v}$. $x\\frac{dv}{dx}=-\\frac{v}{1+v}$. $\\frac{1+v}{v}dv = -dx/x$. Integrating: $\\ln|v|+v = -\\ln|x|+C$. Solution: $xy e^{y/x}=C_1$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 10) $xy\\frac{dy}{dx} = x^2+2y^2$, $y(1)=0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = \\frac{x^2+2y^2}{xy} = \\frac{x}{y} + \\frac{2y}{x} = \\frac{1}{y/x} + 2(y/x)$. Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting this in, we get $v + x\\frac{dv}{dx} = \\frac{1}{v} + 2v$. This gives $x\\frac{dv}{dx} = \\frac{1}{v} + v = \\frac{1+v^2}{v}$. This is a variable separable equation: $\\frac{v}{1+v^2}dv = \\frac{dx}{x}$. Integrating both sides: $\\int \\frac{v}{1+v^2}dv = \\int \\frac{dx}{x} \\implies \\frac{1}{2}\\log|1+v^2| = \\log|x| + C$. Substituting back $v=y/x$: $\\frac{1}{2}\\log|1+(y/x)^2| = \\log|x| + C$. Using the initial condition $y(1)=0$: $\\frac{1}{2}\\log|1+0| = \\log|1| + C \\implies 0=0+C \\implies C=0$. The particular solution is $\\frac{1}{2}\\log|1+(y/x)^2| = \\log|x| \\implies \\log|1+y^2/x^2| = 2\\log|x| = \\log(x^2) \\implies 1+y^2/x^2 = x^2 \\implies x^2+y^2 = x^4$.",
+    "text": "Solve: $xy\\frac{dy}{dx} = x^2+2y^2$, given that $y(1)=0$. (July 2023)",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx}=\\frac{x^2+2y^2}{xy}=\\frac{1+2v^2}{v}$. $x\\frac{dv}{dx}=\\frac{1+v^2}{v}$. $\\frac{v}{1+v^2}dv=\\frac{dx}{x}$. Integrating: $\\frac{1}{2}\\ln|1+v^2|=\\ln|x|+C$. Using $y(1)=0$, $v=0$ when $x=1$. So $C=0$. Solution: $1+y^2/x^2=x^2 \\implies x^2+y^2=x^4$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 11) $x\\frac{dy}{dx} + 2y\\cdot dx = 0$, when $x=2$, $y=1$",
-    "answer": "This is a **variable separable differential equation**. The equation is $x\\frac{dy}{dx} = -2y \\implies \\frac{dy}{y} = -\\frac{2}{x}dx$. Integrating both sides: $\\int \\frac{dy}{y} = -\\int \\frac{2}{x}dx \\implies \\log|y| = -2\\log|x| + C = \\log(x^{-2}) + C$. This gives $y = C_1x^{-2} = \\frac{C_1}{x^2}$. Using the initial condition $x=2, y=1$: $1 = \\frac{C_1}{2^2} = \\frac{C_1}{4} \\implies C_1=4$. The particular solution is $y = \\frac{4}{x^2}$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 12) $x^2\\frac{dy}{dx} = x^2+xy+y^2$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = \\frac{x^2+xy+y^2}{x^2} = 1+y/x+(y/x)^2$. Let $y=vx$, so $\\frac{dy}{dx} = v+x\\frac{dv}{dx}$. Substituting this in: $v+x\\frac{dv}{dx} = 1+v+v^2$. This simplifies to $x\\frac{dv}{dx} = 1+v^2$. This is a variable separable equation: $\\frac{dv}{1+v^2} = \\frac{dx}{x}$. Integrating both sides: $\\int \\frac{dv}{1+v^2} = \\int \\frac{dx}{x} \\implies \\tan^{-1}v = \\log|x| + C$. Substituting back $v=y/x$: $\\tan^{-1}(y/x) = \\log|x|+C$.",
+    "text": "Solve: $x\\frac{dy}{dx} + 2y = x^2\\log x$.",
+    "answer": "Linear DE. Standard form: $\\frac{dy}{dx} + \\frac{2}{x}y = x\\log x$. IF is $e^{\\int 2/x dx}=x^2$. Solution: $yx^2 = \\int x^3\\log x dx + C = \\frac{x^4}{4}\\log x - \\frac{x^4}{16} + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 13) $(9x+5y)dy + (15x+11y)dx = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = -\\frac{15x+11y}{9x+5y} = -\\frac{15+11(y/x)}{9+5(y/x)}$. Let $y=vx$, so $\\frac{dy}{dx} = v+x\\frac{dv}{dx}$. Substituting this in: $v+x\\frac{dv}{dx} = -\\frac{15+11v}{9+5v}$. This gives $x\\frac{dv}{dx} = -\\frac{15+11v}{9+5v}-v = \\frac{-15-11v-9v-5v^2}{9+5v} = -\\frac{5v^2+20v+15}{9+5v} = -\\frac{5(v^2+4v+3)}{9+5v}$. This is a variable separable equation: $\\frac{9+5v}{5(v^2+4v+3)}dv = -\\frac{dx}{x}$. We can use partial fractions for the left side: $\\frac{9+5v}{5(v+1)(v+3)} = \\frac{A}{v+1} + \\frac{B}{v+3}$. We find $A=1/2, B=1/2$. So, $\\frac{1}{2}\\int (\\frac{1}{v+1} + \\frac{1}{v+3})dv = -\\int \\frac{dx}{x}$. This gives $\\frac{1}{2}(\\log|v+1|+\\log|v+3|) = -\\log|x|+C \\implies \\log| (v+1)(v+3) | = -2\\log|x|+C$. Substituting back $v=y/x$: $\\log|(y/x+1)(y/x+3)| = -2\\log|x|+C$.",
+    "text": "Solve: $x^2\\frac{dy}{dx} = x^2+xy+y^2$.",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx}=1+v+v^2$. $x\\frac{dv}{dx}=1+v^2$. $\\frac{dv}{1+v^2}=\\frac{dx}{x}$. Integrating: $\\tan^{-1}(v)=\\ln|x|+C$. Solution: $\\tan^{-1}(y/x)=\\ln|x|+C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 14) $(x^2+3xy+y^2)dx - x^2dy = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = \\frac{x^2+3xy+y^2}{x^2} = 1+3y/x+(y/x)^2$. Let $y=vx$, so $\\frac{dy}{dx} = v+x\\frac{dv}{dx}$. Substituting this in: $v+x\\frac{dv}{dx} = 1+3v+v^2$. This gives $x\\frac{dv}{dx} = 1+2v+v^2 = (1+v)^2$. This is a variable separable equation: $\\frac{dv}{(1+v)^2} = \\frac{dx}{x}$. Integrating both sides: $\\int (1+v)^{-2}dv = \\int \\frac{dx}{x} \\implies -\\frac{1}{1+v} = \\log|x|+C$. Substituting back $v=y/x$: -\\frac{1}{1+y/x} = \\log|x|+C \\implies -\\frac{x}{x+y} = \\log|x|+C$.",
+    "text": "Solve: $(x^2+3xy+y^2)dx - x^2dy = 0$.",
+    "answer": "Homogeneous DE. Let $y=vx$. $\\frac{dy}{dx}=\\frac{x^2+3xy+y^2}{x^2}=1+3v+v^2$. $x\\frac{dv}{dx}=1+2v+v^2=(1+v)^2$. $\\frac{dv}{(1+v)^2}=\\frac{dx}{x}$. Integrating: $-\\frac{1}{1+v}=\\ln|x|+C$. Solution: $x=-(x+y)(\\ln|x|+C)$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> 15) $(x^2+y^2)dx - 2xy\\cdot dy = 0$",
-    "answer": "This is a **homogeneous differential equation**. Rearranging the equation gives $\\frac{dy}{dx} = \\frac{x^2+y^2}{2xy} = \\frac{1+(y/x)^2}{2(y/x)}$. Let $y=vx$, so $\\frac{dy}{dx} = v+x\\frac{dv}{dx}$. Substituting this in: $v+x\\frac{dv}{dx} = \\frac{1+v^2}{2v}$. This gives $x\\frac{dv}{dx} = \\frac{1+v^2}{2v} - v = \\frac{1+v^2-2v^2}{2v} = \\frac{1-v^2}{2v}$. This is a variable separable equation: $\\frac{2v}{1-v^2}dv = \\frac{dx}{x}$. Integrating both sides: $\\int \\frac{2v}{1-v^2}dv = \\int \\frac{dx}{x} \\implies -\\log|1-v^2| = \\log|x|+C = \\log(C_1x)$. Substituting back $v=y/x$: $-\\log|1-y^2/x^2| = \\log(C_1x) \\implies \\log|1-y^2/x^2|^{-1} = \\log(C_1x) \\implies |\\frac{x^2}{x^2-y^2}| = C_1x \\implies x^2 = C_1x(x^2-y^2) \\implies x = C_1(x^2-y^2)$.",
+    "text": "Solve: $\\frac{dy}{dx} + y\\cot x = 2\\cos x$. (March 2024)",
+    "answer": "Linear DE. IF is $e^{\\int \\cot x dx}=e^{\\ln|\\sin x|}=\\sin x$. Solution: $y\\sin x = \\int 2\\cos x \\sin x dx = \\int \\sin 2x dx = -\\frac{1}{2}\\cos 2x + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> i) $$\\frac{dy}{dx} - \\frac{y}{x} = x^2 - 3$$",
-    "answer": "This is a **linear differential equation** of the form $\\frac{dy}{dx} + P(x)y = Q(x)$, with $P(x) = -1/x$ and $Q(x) = x^2 - 3$. The integrating factor is $IF = e^{\\int P(x)dx} = e^{\\int -1/x dx} = e^{-\\log x} = e^{\\log(x^{-1})} = 1/x$. The general solution is $y \\cdot IF = \\int Q(x) \\cdot IF dx + C$. So, $y\\cdot\\frac{1}{x} = \\int (x^2-3)\\frac{1}{x} dx + C = \\int (x - \\frac{3}{x}) dx + C = \\frac{x^2}{2} - 3\\log|x| + C$. The general solution is $y = \\frac{x^3}{2} - 3x\\log|x| + Cx$.",
+    "text": "Solve: $\\cos^2 x \\frac{dy}{dx} + y = \\tan x$. (March 2020)",
+    "answer": "Linear DE. $\\frac{dy}{dx} + y\\sec^2 x = \\tan x \\sec^2 x$. IF is $e^{\\int \\sec^2 x dx}=e^{\\tan x}$. Solution: $y e^{\\tan x} = \\int \\tan x \\sec^2 x e^{\\tan x} dx$. Let $u=\\tan x$. $\\int u e^u du = e^u(u-1)+C$. Solution: $y = \\tan x - 1 + Ce^{-\\tan x}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> ii) $$\\cos^2 x \\frac{dy}{dx} + y = \\tan x$$",
-    "answer": "This is a **linear differential equation**. First, divide by $\\cos^2 x$ to get the standard form: $\\frac{dy}{dx} + \\frac{1}{\\cos^2 x}y = \\frac{\\tan x}{\\cos^2 x} \\implies \\frac{dy}{dx} + \\sec^2 xy = \\tan x\\sec^2 x$. The integrating factor is $IF = e^{\\int \\sec^2 x dx} = e^{\\tan x}$. The general solution is $y \\cdot e^{\\tan x} = \\int \\tan x \\sec^2 x \\cdot e^{\\tan x} dx + C$. Let $u = \\tan x$, then $du = \\sec^2 x dx$. The integral becomes $\\int u e^u du = ue^u - e^u = e^u(u-1)$. So, $y e^{\\tan x} = e^{\\tan x}(\\tan x - 1) + C$. The general solution is $y = \\tan x - 1 + Ce^{-\\tan x}$.",
+    "text": "Solve: $(x+2y^3)\\frac{dy}{dx} = y$.",
+    "answer": "Linear in x. $\\frac{dx}{dy} - \\frac{x}{y} = 2y^2$. IF is $e^{\\int -1/y dy}=1/y$. Solution: $x/y = \\int 2y^2(1/y)dy = \\int 2y dy = y^2+C$. So $x=y^3+Cy$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> iii) $(x+2y^3)\\frac{dy}{dx} = y$",
-    "answer": "This is not a linear differential equation in $y$, but it is linear in $x$ with respect to $y$. Rearrange the equation: $(x+2y^3) = y\\frac{dx}{dy} \\implies y\\frac{dx}{dy} - x = 2y^3 \\implies \\frac{dx}{dy} - \\frac{1}{y}x = 2y^2$. This is a linear DE of the form $\\frac{dx}{dy} + P(y)x = Q(y)$, with $P(y) = -1/y$ and $Q(y) = 2y^2$. The integrating factor is $IF = e^{\\int -1/y dy} = e^{-\\log y} = 1/y$. The general solution is $x \\cdot IF = \\int Q(y) \\cdot IF dy + C$. So, $x\\cdot\\frac{1}{y} = \\int (2y^2)\\frac{1}{y} dy + C = \\int 2y dy + C = y^2 + C$. The general solution is $x = y^3 + Cy$.",
+    "text": "Solve: $\\frac{dy}{dx} + y\\sec x = \\tan x$.",
+    "answer": "Linear DE. IF is $e^{\\int \\sec x dx}=\\sec x + \\tan x$. Solution: $y(\\sec x+\\tan x) = \\int \\tan x(\\sec x+\\tan x)dx = \\int(\\sec x\\tan x + \\sec^2 x-1)dx = \\sec x + \\tan x - x + C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> iv) $$\\frac{dy}{dx} + y\\sec x = \\tan x$$",
-    "answer": "This is a **linear differential equation** with $P(x) = \\sec x$ and $Q(x) = \\tan x$. The integrating factor is $IF = e^{\\int \\sec x dx} = e^{\\log|\\sec x + \\tan x|} = \\sec x + \\tan x$. The general solution is $y\\cdot(\\sec x + \\tan x) = \\int \\tan x (\\sec x + \\tan x) dx + C = \\int (\\sec x\\tan x + \\tan^2 x) dx + C = \\int (\\sec x\\tan x + \\sec^2 x - 1) dx + C = \\sec x + \\tan x - x + C$. The general solution is $y = 1 - \\frac{x}{\\sec x + \\tan x} + \\frac{C}{\\sec x + \\tan x}$.",
+    "text": "Solve: $(x+y)\\frac{dy}{dx} = 1$.",
+    "answer": "Linear in x. $\\frac{dx}{dy} - x = y$. IF is $e^{\\int -1 dy}=e^{-y}$. Solution: $xe^{-y}=\\int ye^{-y}dy = -ye^{-y}-e^{-y}+C$. So $x=-(y+1)+Ce^y$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> v) $x\\frac{dy}{dx} + 2y = x^2\\log x$",
-    "answer": "This is a **linear differential equation**. First, divide by $x$: $\\frac{dy}{dx} + \\frac{2}{x}y = x\\log x$. The integrating factor is $IF = e^{\\int 2/x dx} = e^{2\\log x} = e^{\\log(x^2)} = x^2$. The general solution is $y\\cdot x^2 = \\int (x\\log x)x^2 dx + C = \\int x^3\\log x dx + C$. Using integration by parts for $\\int x^3\\log x dx$: let $u=\\log x, dv=x^3dx$. Then $du = 1/x dx, v=x^4/4$. So, $\\int x^3\\log x dx = \\frac{x^4}{4}\\log x - \\int \\frac{x^4}{4}\\frac{1}{x}dx = \\frac{x^4}{4}\\log x - \\frac{1}{4}\\int x^3dx = \\frac{x^4}{4}\\log x - \\frac{x^4}{16}$. So, $yx^2 = \\frac{x^4}{4}\\log x - \\frac{x^4}{16} + C$. The general solution is $y = \\frac{x^2}{4}\\log x - \\frac{x^2}{16} + \\frac{C}{x^2}$.",
+    "text": "Solve: $(x+a)\\frac{dy}{dx} - 3y = (x+a)^5$.",
+    "answer": "Linear DE. $\\frac{dy}{dx}-\\frac{3}{x+a}y=(x+a)^4$. IF is $(x+a)^{-3}$. Solution: $y(x+a)^{-3}=\\int(x+a)^4(x+a)^{-3}dx=\\int(x+a)dx = \\frac{(x+a)^2}{2}+C$. So $y=\\frac{(x+a)^5}{2}+C(x+a)^3$. The question likely had a typo (power 4 instead of 5, matching another problem).",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> vi) $$(x+y)\\frac{dy}{dx} = 1$$",
-    "answer": "This is not a linear differential equation. However, if we rearrange it: $\\frac{dx}{dy} = x+y$. This is a **linear differential equation** in $x$ with respect to $y$: $\\frac{dx}{dy} - x = y$. The integrating factor is $IF = e^{\\int -1 dy} = e^{-y}$. The general solution is $x e^{-y} = \\int y e^{-y} dy + C$. Using integration by parts for $\\int y e^{-y} dy$: let $u=y, dv=e^{-y}dy$. Then $du=dy, v=-e^{-y}$. So, $\\int y e^{-y} dy = -ye^{-y} - \\int -e^{-y}dy = -ye^{-y} - e^{-y} = -e^{-y}(y+1)$. So, $xe^{-y} = -e^{-y}(y+1) + C$. The general solution is $x = -(y+1) + Ce^y$.",
+    "text": "Solve: $y dx + (x-y^2) dy = 0$.",
+    "answer": "Linear in x. $\\frac{dx}{dy}+\\frac{x}{y}=y$. IF is $e^{\\int 1/y dy}=y$. Solution: $xy = \\int y^2 dy = \\frac{y^3}{3}+C$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> vii) $(x+a)\\frac{dy}{dx} - 3y = (x+a)^4$",
-    "answer": "This is a **linear differential equation**. First, divide by $(x+a)$: $\\frac{dy}{dx} - \\frac{3}{x+a}y = (x+a)^3$. The integrating factor is $IF = e^{\\int -3/(x+a) dx} = e^{-3\\log(x+a)} = e^{\\log((x+a)^{-3})} = (x+a)^{-3}$. The general solution is $y \\cdot (x+a)^{-3} = \\int (x+a)^3 (x+a)^{-3} dx + C = \\int 1 dx + C = x+C$. The general solution is $y = (x+C)(x+a)^3$.",
+    "text": "Solve: $(1-x^2)\\frac{dy}{dx} + 2xy = x(1-x^2)^{1/2}$.",
+    "answer": "Linear DE. $\\frac{dy}{dx}+\\frac{2x}{1-x^2}y=\\frac{x}{\\sqrt{1-x^2}}$. IF is $e^{\\int \\frac{2x}{1-x^2}dx} = e^{-\\ln(1-x^2)} = \\frac{1}{1-x^2}$. Solution: $\\frac{y}{1-x^2} = \\int \\frac{x}{\\sqrt{1-x^2}}\\frac{1}{1-x^2}dx = \\int x(1-x^2)^{-3/2}dx = (1-x^2)^{-1/2}+C$. So $y=\\sqrt{1-x^2}+C(1-x^2)$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> viii) $dr + (2r\\cot\\theta + \\sin 2\\theta)d\\theta = 0$",
-    "answer": "This is a **linear differential equation**. Rearranging the equation: $\\frac{dr}{d\\theta} + (2\\cot\\theta)r = -\\sin 2\\theta$. Here, $P(\\theta) = 2\\cot\\theta$ and $Q(\\theta) = -\\sin 2\\theta$. The integrating factor is $IF = e^{\\int 2\\cot\\theta d\\theta} = e^{2\\log|\\sin\\theta|} = e^{\\log(\\sin^2\\theta)} = \\sin^2\\theta$. The general solution is $r\\cdot\\sin^2\\theta = \\int -\\sin 2\\theta \\sin^2\\theta d\\theta + C$. Using the identity $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$, the integral becomes $-\\int 2\\sin\\theta\\cos\\theta\\sin^2\\theta d\\theta = -2\\int \\sin^3\\theta\\cos\\theta d\\theta$. Let $u=\\sin\\theta$, $du=\\cos\\theta d\\theta$. The integral is $-2\\int u^3du = -2\\frac{u^4}{4} = -\\frac{u^4}{2} = -\\frac{\\sin^4\\theta}{2}$. So, $r\\sin^2\\theta = -\\frac{\\sin^4\\theta}{2} + C$. The general solution is $r = -\\frac{\\sin^2\\theta}{2} + \\frac{C}{\\sin^2\\theta}$.",
+    "text": "Solve: $(1+x^2)\\frac{dy}{dx} + y = e^{\\tan^{-1}x}$.",
+    "answer": "Linear DE. $\\frac{dy}{dx} + \\frac{y}{1+x^2} = \\frac{e^{\\tan^{-1}x}}{1+x^2}$. IF is $e^{\\int \\frac{dx}{1+x^2}} = e^{\\tan^{-1}x}$. Solution: $y e^{\\tan^{-1}x} = \\int \\frac{e^{2\\tan^{-1}x}}{1+x^2}dx = \\frac{1}{2}e^{2\\tan^{-1}x}+C$. So $y=\\frac{1}{2}e^{\\tan^{-1}x}+Ce^{-\\tan^{-1}x}$.",
     "marks": 3
   },
   {
     "type": "long",
-    "text": "Q) Solve the following differential equations. <br> ix) $y dx + (x-y^2) dy = 0$",
-    "answer": "This is a **linear differential equation** in $x$ with respect to $y$. Rearranging the equation: $y\\frac{dx}{dy} + x - y^2 = 0 \\implies \\frac{dx}{dy} + \\frac{1}{y}x = y$. Here, $P(y) = 1/y$ and $Q(y) = y$. The integrating factor is $IF = e^{\\int 1/y dy} = e^{\\log y} = y$. The general solution is $x\\cdot y = \\int y\\cdot y dy + C = \\int y^2 dy + C = \\frac{y^3}{3} + C$. The general solution is $x = \\frac{y^2}{3} + \\frac{C}{y}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations. <br> x) $$(1-x^2)\\frac{dy}{dx} + 2xy = x(1-x^2)^{1/2}$$",
-    "answer": "This is a **linear differential equation**. First, divide by $(1-x^2)$: $\\frac{dy}{dx} + \\frac{2x}{1-x^2}y = \\frac{x(1-x^2)^{1/2}}{1-x^2} = \\frac{x}{\\sqrt{1-x^2}}$. Here, $P(x) = \\frac{2x}{1-x^2}$ and $Q(x) = \\frac{x}{\\sqrt{1-x^2}}$. The integrating factor is $IF = e^{\\int \\frac{2x}{1-x^2}dx}$. Let $u=1-x^2$, $du=-2xdx$. The integral becomes $\\int \\frac{-du}{u} = -\\log|u| = -\\log|1-x^2| = \\log((1-x^2)^{-1})$. So, $IF = e^{\\log((1-x^2)^{-1})} = (1-x^2)^{-1} = \\frac{1}{1-x^2}$. The general solution is $y\\cdot\\frac{1}{1-x^2} = \\int \\frac{x}{\\sqrt{1-x^2}}\\cdot\\frac{1}{1-x^2}dx + C = \\int x(1-x^2)^{-3/2}dx+C$. Let $u=1-x^2$, $du=-2xdx$. The integral becomes $\\int u^{-3/2}(-\\frac{1}{2})du = -\\frac{1}{2}\\frac{u^{-1/2}}{-1/2} = u^{-1/2} = \\frac{1}{\\sqrt{1-x^2}}$. So, $y\\frac{1}{1-x^2} = \\frac{1}{\\sqrt{1-x^2}}+C$. The general solution is $y = \\sqrt{1-x^2} + C(1-x^2)$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations. <br> xi) $(1+x^2)\\frac{dy}{dx} + y = e^{\\tan^{-1}x}$",
-    "answer": "This is a **linear differential equation**. First, divide by $(1+x^2)$: $\\frac{dy}{dx} + \\frac{1}{1+x^2}y = \\frac{e^{\\tan^{-1}x}}{1+x^2}$. Here, $P(x) = \\frac{1}{1+x^2}$ and $Q(x) = \\frac{e^{\\tan^{-1}x}}{1+x^2}$. The integrating factor is $IF = e^{\\int \\frac{1}{1+x^2}dx} = e^{\\tan^{-1}x}$. The general solution is $y\\cdot e^{\\tan^{-1}x} = \\int \\frac{e^{\\tan^{-1}x}}{1+x^2} \\cdot e^{\\tan^{-1}x} dx + C = \\int \\frac{(e^{\\tan^{-1}x})^2}{1+x^2} dx + C$. Let $u = e^{\\tan^{-1}x}$, $du = e^{\\tan^{-1}x}\\frac{1}{1+x^2}dx$. The integral becomes $\\int u du = \\frac{u^2}{2} = \\frac{(e^{\\tan^{-1}x})^2}{2}$. So, $y e^{\\tan^{-1}x} = \\frac{(e^{\\tan^{-1}x})^2}{2} + C$. The general solution is $y = \\frac{e^{\\tan^{-1}x}}{2} + Ce^{-\\tan^{-1}x}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the equation of the curve which passes through the origin and has slope $x+3y-1$ at any point $(x,y)$ on it.",
-    "answer": "The slope of the curve is given by $\\frac{dy}{dx} = x+3y-1$. This is a **linear differential equation**: $\\frac{dy}{dx} - 3y = x-1$. Here, $P(x)=-3$ and $Q(x)=x-1$. The integrating factor is $IF = e^{\\int -3dx} = e^{-3x}$. The general solution is $y e^{-3x} = \\int (x-1)e^{-3x}dx + C$. Using integration by parts: $\\int (x-1)e^{-3x}dx = (x-1)(-\\frac{1}{3}e^{-3x}) - \\int (1)(-\\frac{1}{3}e^{-3x})dx = -\\frac{1}{3}(x-1)e^{-3x} + \\frac{1}{3}\\int e^{-3x}dx = -\\frac{1}{3}(x-1)e^{-3x} - \\frac{1}{9}e^{-3x} = -e^{-3x}(\\frac{x-1}{3} + \\frac{1}{9}) = -e^{-3x}(\\frac{3x-3+1}{9}) = -e^{-3x}(\\frac{3x-2}{9})$. So, $ye^{-3x} = -e^{-3x}(\\frac{3x-2}{9}) + C$. This gives $y = -\\frac{3x-2}{9} + Ce^{3x}$. The curve passes through the origin (0,0), so $0 = -\\frac{-2}{9} + Ce^0 \\implies 0 = \\frac{2}{9} + C \\implies C = -\\frac{2}{9}$. The equation of the curve is $y = -\\frac{3x-2}{9} - \\frac{2}{9}e^{3x}$.",
+    "text": "Find the equation of the curve which passes through the origin and has slope $x+3y-1$ at any point $(x,y)$ on it.",
+    "answer": "$\\frac{dy}{dx}-3y=x-1$. Linear DE. IF is $e^{-3x}$. Solution: $ye^{-3x}=\\int(x-1)e^{-3x}dx = -\\frac{1}{3}(x-1)e^{-3x}-\\frac{1}{9}e^{-3x}+C$. $y=-\\frac{3x-2}{9}+Ce^{3x}$. Using $(0,0)$, $0=2/9+C \\implies C=-2/9$. Solution: $9y=2-3x-2e^{3x}$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Find the equation of the curve passing through the point $(\\frac{3}{\\sqrt{2}}, \\frac{3}{\\sqrt{2}})$ having slope of the tangent to the curve at any point $(x,y)$ is $-\\frac{4x}{9y}$.",
-    "answer": "The slope is given by $\\frac{dy}{dx} = -\\frac{4x}{9y}$. This is a **variable separable differential equation**. Rearranging: $9y dy = -4x dx$. Integrating both sides gives $\\int 9y dy = -\\int 4x dx \\implies \\frac{9y^2}{2} = -\\frac{4x^2}{2} + C \\implies 9y^2 = -4x^2 + 2C$. Let $C' = 2C$. Then $9y^2 + 4x^2 = C'$. The curve passes through $(\\frac{3}{\\sqrt{2}}, \\frac{3}{\\sqrt{2}})$, so we substitute these values to find $C'$: $9(\\frac{3}{\\sqrt{2}})^2 + 4(\\frac{3}{\\sqrt{2}})^2 = C' \\implies 9(\\frac{9}{2}) + 4(\\frac{9}{2}) = C' \\implies \\frac{81}{2} + \\frac{36}{2} = C' \\implies \\frac{117}{2} = C'$. The equation of the curve is $9y^2 + 4x^2 = \\frac{117}{2}$ or $18y^2 + 8x^2 = 117$.",
+    "text": "Find the equation of the curve passing through the point $(\\frac{3}{\\sqrt{2}}, \\frac{3}{\\sqrt{2}})$ having slope $-\\frac{4x}{9y}$ at any point $(x,y)$.",
+    "answer": "$\\frac{dy}{dx}=-\\frac{4x}{9y} \\implies 9ydy=-4xdx$. Integrating gives $\\frac{9y^2}{2}=-2x^2+C$. Using the point: $\\frac{9}{2}(\\frac{9}{2})=-2(\\frac{9}{2})+C \\implies 81/4=-9+C \\implies C=117/4$. Solution: $18y^2+8x^2=117$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The curve passes through the point $(0, 2)$. The sum of the co-ordinates of any point on the curve exceeds the slope of the tangent to the curve at that point by 5. Find the equation of the curve.",
-    "answer": "Let the point on the curve be $(x,y)$. The slope of the tangent is $\\frac{dy}{dx}$. The problem states that the sum of the coordinates, $x+y$, exceeds the slope, $\\frac{dy}{dx}$, by 5. So, $x+y - \\frac{dy}{dx} = 5 \\implies \\frac{dy}{dx} - y = x - 5$. This is a **linear differential equation** with $P(x)=-1$ and $Q(x)=x-5$. The integrating factor is $IF = e^{\\int -1 dx} = e^{-x}$. The general solution is $y e^{-x} = \\int (x-5)e^{-x} dx + C$. Using integration by parts: $\\int (x-5)e^{-x}dx = (x-5)(-e^{-x}) - \\int (1)(-e^{-x})dx = -(x-5)e^{-x} + \\int e^{-x}dx = -(x-5)e^{-x} - e^{-x} = -e^{-x}(x-5+1) = -e^{-x}(x-4)$. So, $ye^{-x} = -e^{-x}(x-4) + C$. This gives $y = -(x-4) + Ce^x = 4-x + Ce^x$. The curve passes through $(0,2)$, so we substitute: $2 = 4-0 + Ce^0 \\implies 2 = 4+C \\implies C = -2$. The equation of the curve is $y = 4 - x - 2e^x$.",
+    "text": "The sum of the coordinates of a point on a curve exceeds the slope of the tangent at that point by 5. If the curve passes through $(0, 2)$, find its equation.",
+    "answer": "$x+y=\\frac{dy}{dx}+5 \\implies \\frac{dy}{dx}-y=x-5$. Linear DE. IF is $e^{-x}$. Solution: $ye^{-x}=\\int(x-5)e^{-x}dx = -(x-4)e^{-x}+C$. $y=4-x+Ce^x$. Using $(0,2)$: $2=4+C \\implies C=-2$. Solution: $y=4-x-2e^x$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) If the slope of the tangent to the curve at each of its point is equal to the sum of abscissa and the product of the abscissa and ordinate of the point. Also the curve passes through the point $(0, 1)$. Find the equation of the curve.",
-    "answer": "The slope of the tangent is $\\frac{dy}{dx}$. The sum of the abscissa (x) and the product of the abscissa and ordinate (xy) is $x+xy$. So, the differential equation is $\\frac{dy}{dx} = x+xy = x(1+y)$. This is a **variable separable differential equation**. Rearranging gives $\\frac{dy}{1+y} = x dx$. Integrating both sides: $\\int \\frac{dy}{1+y} = \\int x dx \\implies \\log|1+y| = \\frac{x^2}{2} + C$. The curve passes through $(0,1)$, so we substitute: $\\log|1+1| = \\frac{0^2}{2} + C \\implies \\log 2 = C$. The particular solution is $\\log|1+y| = \\frac{x^2}{2} + \\log 2$. This can be rewritten as $\\log|1+y| - \\log 2 = \\frac{x^2}{2} \\implies \\log|\\frac{1+y}{2}| = \\frac{x^2}{2}$. Exponentiating both sides: $\\frac{1+y}{2} = e^{x^2/2} \\implies 1+y = 2e^{x^2/2} \\implies y = 2e^{x^2/2} - 1$.",
+    "text": "The slope of the tangent to a curve at any point is the sum of the abscissa and the product of the abscissa and ordinate of that point. If the curve passes through $(0,1)$, find its equation.",
+    "answer": "$\\frac{dy}{dx}=x+xy=x(1+y)$. Separating variables: $\\frac{dy}{1+y}=xdx$. Integrating: $\\ln|1+y|=\\frac{x^2}{2}+C$. Using $(0,1)$: $\\ln 2=C$. Solution: $\\ln|\\frac{y+1}{2}| = \\frac{x^2}{2}$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) In a certain culture of bacteria the rate of increase is proportional to the number present. If it is found that the number doubles in 4 hours, find the number of times the bacteria are increased in 12 hours.",
-    "answer": "Let $N(t)$ be the number of bacteria at time $t$. The rate of increase is proportional to the number present, so $\\frac{dN}{dt} = kN$ for some constant $k$. The solution to this is $N(t) = N_0e^{kt}$, where $N_0$ is the initial number of bacteria. We are given that the number doubles in 4 hours, so $N(4) = 2N_0$. Substituting this into the equation: $2N_0 = N_0e^{k(4)} \\implies 2 = e^{4k} \\implies k = \\frac{\\ln 2}{4}$. We want to find the number of times the bacteria are increased in 12 hours, which is $\\frac{N(12)}{N_0}$. $N(12) = N_0e^{k(12)} = N_0e^{(\\frac{\\ln 2}{4})12} = N_0e^{3\\ln 2} = N_0e^{\\ln(2^3)} = N_0(2^3) = 8N_0$. So, the number of bacteria is increased 8 times in 12 hours.",
+    "text": "The rate of increase in bacteria in a culture is proportional to the number present. If the number doubles in 4 hours, find the number of times the bacteria increase in 12 hours.",
+    "answer": "$N(t)=N_0e^{kt}$. $N(4)=2N_0 \\implies 2=e^{4k} \\implies k=\\frac{\\ln 2}{4}$. $N(12)=N_0e^{12k}=N_0e^{3\\ln 2}=N_0(8)$. So it increases 8 times.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) If the population of a country doubles in 60 years, in how many years will it be triple (treble) under the assumption that the rate of increase is proportional to the number of inhabitants? [Given $\\log 2 = 0.6912$, $\\log 3 = 1.0986$]",
-    "answer": "Let $P(t)$ be the population at time $t$. The rate of increase is proportional to the number of inhabitants, so $\\frac{dP}{dt} = kP$, which has the solution $P(t) = P_0e^{kt}$. We are given that the population doubles in 60 years, so $P(60) = 2P_0$. $2P_0 = P_0e^{60k} \\implies 2 = e^{60k} \\implies k = \\frac{\\ln 2}{60}$. We want to find the time $T$ when the population triples, so $P(T) = 3P_0$. $3P_0 = P_0e^{kT} \\implies 3 = e^{kT} \\implies \\ln 3 = kT = (\\frac{\\ln 2}{60})T$. So, $T = 60\\frac{\\ln 3}{\\ln 2} = 60\\frac{1.0986}{0.6912} \\approx 60(1.5894) \\approx 95.364$ years. The population will be triple in approximately 95.36 years.",
+    "text": "If a country's population doubles in 60 years, in how many years will it be triple, assuming the rate of increase is proportional to the population? [Given $\\log 2 = 0.6912$, $\\log 3 = 1.0986$]",
+    "answer": "$P(t)=P_0e^{kt}$. $P(60)=2P_0 \\implies k=\\frac{\\ln 2}{60}$. We want $T$ for $P(T)=3P_0 \\implies 3=e^{kT}$. So $T=\\frac{\\ln 3}{k}=60\\frac{\\ln 3}{\\ln 2} \\approx 60\\frac{1.0986}{0.6912} \\approx 95.36$ years.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) If a body cools from $80^\\circ C$ to $50^\\circ C$ at room temperature of $25^\\circ C$ in 30 minutes, find the temperature of the body after 1 hour.",
-    "answer": "This problem uses Newton's Law of Cooling, which states that $\\frac{dT}{dt} = -k(T-T_s)$, where $T$ is the temperature of the body, and $T_s$ is the surrounding temperature. The solution is $T(t) = T_s + (T_0 - T_s)e^{-kt}$. We are given $T_s = 25^\\circ C$ and the initial temperature $T_0 = 80^\\circ C$. So, $T(t) = 25 + (80-25)e^{-kt} = 25 + 55e^{-kt}$. We are also given that $T(30) = 50^\\circ C$. Substituting this in: $50 = 25 + 55e^{-30k} \\implies 25 = 55e^{-30k} \\implies e^{-30k} = \\frac{25}{55} = \\frac{5}{11}$. We want to find the temperature after 1 hour (60 minutes), which is $T(60)$. $T(60) = 25 + 55e^{-60k} = 25 + 55(e^{-30k})^2 = 25 + 55(\\frac{5}{11})^2 = 25 + 55(\\frac{25}{121}) = 25 + \\frac{5 \\cdot 25}{11} = 25 + \\frac{125}{11} = \\frac{275+125}{11} = \\frac{400}{11} \\approx 36.36^\\circ C$.",
+    "text": "A body cools from $80^\\circ C$ to $50^\\circ C$ in 30 minutes at a room temperature of $25^\\circ C$. Find the temperature of the body after 1 hour.",
+    "answer": "$T(t) = T_s+(T_0-T_s)e^{-kt} = 25+55e^{-kt}$. $T(30)=50 \\implies 50=25+55e^{-30k} \\implies e^{-30k}=5/11$. We want $T(60) = 25+55e^{-60k}=25+55(e^{-30k})^2 = 25+55(5/11)^2=25+125/11 = 400/11 \\approx 36.36^\\circ C$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The rate of growth of bacteria is proportional to the number present. Initially, there were 1000 bacteria and the number double in 1 hour, find the number of bacteria after $2\\frac{1}{2}$ hours. [Take $\\sqrt{2} = 1.414$]",
-    "answer": "Let $N(t)$ be the number of bacteria at time $t$. We have the differential equation $\\frac{dN}{dt} = kN$ with the solution $N(t) = N_0e^{kt}$. We are given $N_0 = 1000$ and $N(1) = 2000$. Substituting in: $2000 = 1000e^{k(1)} \\implies 2 = e^k \\implies k = \\ln 2$. We want to find the number of bacteria after $t = 2.5$ hours. $N(2.5) = N_0e^{k(2.5)} = 1000e^{(\\ln 2)(2.5)} = 1000e^{\\ln(2^{2.5})} = 1000(2^{2.5}) = 1000(2^2\\sqrt{2}) = 1000(4\\sqrt{2}) = 4000\\sqrt{2}$. Using the given value $\\sqrt{2} = 1.414$: $N(2.5) = 4000(1.414) = 5656$.",
+    "text": "The rate of growth of bacteria is proportional to the number present. Initially, there were 1000 bacteria and the number doubles in 1 hour. Find the number after $2.5$ hours. [Take $\\sqrt{2} = 1.414$]",
+    "answer": "$N(t)=1000e^{kt}$. $N(1)=2000 \\implies k=\\ln 2$. $N(2.5)=1000e^{2.5\\ln 2}=1000(2^{2.5})=1000(4\\sqrt{2}) \\approx 4000(1.414)=5656$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The rate of disintegration of a radio active element at any time $t$ is proportional to its mass at that time. Find the time during which the original mass of 1.5 gm. will disintegrate into its mass of 0.5 gm.",
-    "answer": "Let $m(t)$ be the mass of the radioactive element at time $t$. The rate of disintegration is proportional to its mass, so $\\frac{dm}{dt} = -km$ for some constant $k$. The solution is $m(t) = m_0e^{-kt}$. We are given the original mass $m_0 = 1.5$ gm and the final mass $m(T) = 0.5$ gm, where $T$ is the time we want to find. So, $0.5 = 1.5e^{-kT} \\implies e^{-kT} = \\frac{0.5}{1.5} = \\frac{1}{3} \\implies -kT = \\ln(\\frac{1}{3}) = -\\ln 3 \\implies kT = \\ln 3$. We cannot solve for $T$ without knowing the value of $k$. This suggests the problem is either missing information (like a half-life) or is intended to be answered in terms of $k$. For instance, $T = \\frac{\\ln 3}{k}$.",
+    "text": "Radium decomposes at a rate proportional to the amount present. If the half-life of radium is 1600 years, find the time it takes for 1.5 gm to disintegrate to 0.5 gm.",
+    "answer": "$A(t)=A_0e^{-kt}$. Half-life means $A(1600)=A_0/2 \\implies k=\\frac{\\ln 2}{1600}$. We want $T$ for $A(T)=0.5$ from $A_0=1.5$. $0.5=1.5e^{-kT} \\implies 1/3=e^{-kT} \\implies kT=\\ln 3$. $T = \\frac{\\ln 3}{k} = 1600\\frac{\\ln 3}{\\ln 2} \\approx 1600(1.585) \\approx 2536$ years.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The rate of decay of certain substance is directly proportional to the amount present at that instant. Initially, there are 25 gms of certain substance and two hours later it is found that 9 gms are left. Find the amount left after one more hour.",
-    "answer": "Let $A(t)$ be the amount of the substance at time $t$. The rate of decay is proportional to the amount present, so $\\frac{dA}{dt} = -kA$, with the solution $A(t) = A_0e^{-kt}$. We are given $A_0 = 25$ gms and $A(2) = 9$ gms. Substituting in: $9 = 25e^{-k(2)} \\implies e^{-2k} = \\frac{9}{25} \\implies (e^{-k})^2 = (3/5)^2 \\implies e^{-k} = 3/5$. We want to find the amount left after one more hour, which is at time $t=2+1=3$ hours. $A(3) = A_0e^{-3k} = 25(e^{-k})^3 = 25(\\frac{3}{5})^3 = 25(\\frac{27}{125}) = \\frac{27}{5} = 5.4$ gms. The amount left after one more hour is 5.4 gms.",
+    "text": "The rate of decay of a substance is proportional to the amount present. Initially, there are 25 gms, and after 2 hours, 9 gms are left. Find the amount left after one more hour.",
+    "answer": "$A(t)=25e^{-kt}$. $A(2)=9 \\implies 9=25e^{-2k} \\implies e^{-k}=3/5$. We want $A(3)=25e^{-3k}=25(e^{-k})^3 = 25(3/5)^3 = 25(27/125)=27/5=5.4$ gms.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Find the population of a city at any time $t$, given that the rate of increase of population is proportional to the population at the instant and that in a period of 40 years the population increased from 30,000 to 40,000.",
-    "answer": "Let $P(t)$ be the population at time $t$. We have $\\frac{dP}{dt} = kP$ with the solution $P(t) = P_0e^{kt}$. We are given that in a period of 40 years, the population increased from 30,000 to 40,000. Let's set the initial time $t=0$ when the population is $P(0) = 30000$. Then at $t=40$, the population is $P(40) = 40000$. Substituting these values: $40000 = 30000e^{40k} \\implies e^{40k} = \\frac{4}{3}$. So, $k = \\frac{\\ln(4/3)}{40}$. The population at any time $t$ is $P(t) = P_0e^{kt} = 30000e^{(\\frac{\\ln(4/3)}{40})t} = 30000e^{\\ln((4/3)^{t/40})} = 30000(\\frac{4}{3})^{t/40}$.",
+    "text": "Find the population of a city at time $t$ if the rate of increase is proportional to the population, and in 40 years it increased from 30,000 to 40,000.",
+    "answer": "$P(t)=30000e^{kt}$. $P(40)=40000 \\implies 4/3=e^{40k} \\implies k=\\frac{\\ln(4/3)}{40}$. $P(t)=30000e^{\\frac{t}{40}\\ln(4/3)} = 30000(4/3)^{t/40}$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) A body cools according to Newton's law from $100^\\circ C$ to $60^\\circ C$ in 20 minutes. The temperature of the surrounding being $20^\\circ C$ how long will it take to cool down to $30^\\circ C$?",
-    "answer": "Using Newton's Law of Cooling, the temperature of the body at time $t$ is given by $T(t) = T_s + (T_0 - T_s)e^{-kt}$. We are given $T_s = 20^\\circ C$, $T_0 = 100^\\circ C$. So, $T(t) = 20 + (100-20)e^{-kt} = 20 + 80e^{-kt}$. We are given that $T(20) = 60^\\circ C$. Substituting this in: $60 = 20 + 80e^{-20k} \\implies 40 = 80e^{-20k} \\implies e^{-20k} = \\frac{1}{2}$. We want to find the time $T$ when the temperature is $30^\\circ C$, so $T(T) = 30$. $30 = 20 + 80e^{-kT} \\implies 10 = 80e^{-kT} \\implies e^{-kT} = \\frac{1}{8}$. We know from the previous step that $e^{-k} = (e^{-20k})^{1/20} = (1/2)^{1/20}$. So, $(\\frac{1}{2})^{T/20} = \\frac{1}{8} = (\\frac{1}{2})^3$. Equating the exponents: $\\frac{T}{20} = 3 \\implies T = 60$ minutes. It will take 60 minutes to cool down to $30^\\circ C$.",
+    "text": "A body cools from $100^\\circ C$ to $60^\\circ C$ in 20 minutes with surrounding temperature $20^\\circ C$. How long will it take to cool down to $30^\\circ C$?",
+    "answer": "$T(t)=20+80e^{-kt}$. $T(20)=60 \\implies 60=20+80e^{-20k} \\implies e^{-20k}=1/2$. We want $T$ for $T(T)=30 \\implies 30=20+80e^{-kT} \\implies e^{-kT}=1/8$. Since $e^{-kT}=(e^{-20k})^{T/20} = (1/2)^{T/20}$. So $(1/2)^{T/20}=(1/2)^3 \\implies T/20=3 \\implies T=60$ minutes.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) A right circular cone has height 9 cms and radius of the base 5 cms. It is inverted and water is poured into it. If at any instant the water level rises at the rate of $\\frac{\\pi}{A}$ cms/sec. where $A$ is the area of water surface at that instant, show that the vessel will the full in 75 seconds.",
-    "answer": "Let $h$ be the height of the water and $r$ be the radius of the water surface at time $t$. By similar triangles, $\\frac{r}{h} = \\frac{5}{9} \\implies r = \\frac{5h}{9}$. The volume of water is $V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi (\\frac{5h}{9})^2 h = \\frac{1}{3}\\pi\\frac{25h^2}{81}h = \\frac{25\\pi}{243}h^3$. The area of the water surface is $A = \\pi r^2 = \\pi (\\frac{5h}{9})^2 = \\frac{25\\pi}{81}h^2$. We are given that $\\frac{dh}{dt} = \\frac{\\pi}{A} = \\frac{\\pi}{\\frac{25\\pi}{81}h^2} = \\frac{81}{25h^2}$. This is a variable separable differential equation: $25h^2dh = 81dt$. Integrating both sides: $\\int 25h^2dh = \\int 81dt \\implies \\frac{25h^3}{3} = 81t + C$. At $t=0$, $h=0$, so $C=0$. Thus, $\\frac{25h^3}{3} = 81t \\implies t = \\frac{25h^3}{243}$. The vessel is full when the water level reaches the height of the cone, which is $h=9$ cms. At $h=9$, $t = \\frac{25(9)^3}{243} = \\frac{25(729)}{243} = 25(3) = 75$ seconds. Thus, the vessel will be full in 75 seconds.",
+    "text": "A right circular cone of height 9 cm and radius 5 cm is inverted and water is poured in. If the water level rises at a rate of $\\pi/A$ cm/s, where $A$ is the area of the water surface, show that the vessel will be full in 75 seconds.",
+    "answer": "$r/h=5/9 \\implies r=5h/9$. $A=\\pi r^2 = 25\\pi h^2/81$. $\\frac{dh}{dt}=\\pi/A = 81/(25h^2)$. $25h^2dh=81dt$. Integrating gives $\\frac{25h^3}{3}=81t$. For $h=9$, $t=\\frac{25(9^3)}{3(81)} = \\frac{25(729)}{243}=75$ seconds.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Assume that a spherical raindrop evaporates at a rate proportional to its surface area. If its radius originally is 3mm and 1 hour later has been reduced to 2mm, find an expression for the radius of the raindrop at any time $t$.",
-    "answer": "Let $r(t)$ be the radius of the raindrop at time $t$. The volume is $V = \\frac{4}{3}\\pi r^3$ and the surface area is $A = 4\\pi r^2$. The rate of evaporation is the rate of change of volume with respect to time, so $\\frac{dV}{dt} = -kA$, where $k$ is a constant of proportionality. $\\frac{d}{dt}(\\frac{4}{3}\\pi r^3) = -k(4\\pi r^2) \\implies 4\\pi r^2 \\frac{dr}{dt} = -k(4\\pi r^2)$. This simplifies to $\\frac{dr}{dt} = -k$. This is a variable separable equation: $dr = -k dt$. Integrating both sides: $\\int dr = \\int -k dt \\implies r(t) = -kt + C$. We are given that the initial radius is 3mm, so $r(0) = 3$. Substituting in: $3 = -k(0)+C \\implies C=3$. So, $r(t) = 3-kt$. We are also given that 1 hour later the radius is 2mm, so $r(1) = 2$. Substituting in: $2 = 3-k(1) \\implies k=1$. The expression for the radius of the raindrop at any time $t$ is $r(t) = 3-t$.",
+    "text": "A spherical raindrop evaporates at a rate proportional to its surface area. If its radius is initially 3mm and after 1 hour it is 2mm, find the expression for the radius at time $t$.",
+    "answer": "$\\frac{dV}{dt}=-kA \\implies 4\\pi r^2 \\frac{dr}{dt} = -k(4\\pi r^2) \\implies \\frac{dr}{dt}=-k$. Integrating gives $r=-kt+C$. $r(0)=3 \\implies C=3$. $r(1)=2 \\implies 2=-k+3 \\implies k=1$. Solution: $r(t)=3-t$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) The rate of growth of the population of a city at any time $t$ is proportional to the size of the population. For a certain city it is found that the constant of proportionality is 0.04. Find the population of the city after 25 years if the initial population is 10,000. [Take $e = 2.7182$]",
-    "answer": "Let $P(t)$ be the population of the city at time $t$. We have the differential equation $\\frac{dP}{dt} = kP$, with the solution $P(t) = P_0e^{kt}$. We are given the constant of proportionality $k = 0.04$, the initial population $P_0 = 10000$, and the time $t=25$ years. We want to find $P(25)$. $P(25) = 10000e^{(0.04)(25)} = 10000e^{1} = 10000e$. Using the given value $e = 2.7182$: $P(25) = 10000(2.7182) = 27182$. The population of the city after 25 years is 27182.",
+    "text": "The rate of growth of a city population is proportional to the number present. If the constant of proportionality is 0.04 and initial population is 10,000, find the population after 25 years. [Take $e = 2.7182$]",
+    "answer": "$P(t)=10000e^{0.04t}$. $P(25)=10000e^{0.04(25)}=10000e^1=10000(2.7182)=27182$.",
     "marks": 4
   },
   {
     "type": "long",
-    "text": "Q) Radium decomposes at the rate proportional to the amount present at any time. If $p$ percent of amount disappears in one year, what percent of amount of radium will be left after 2 years?",
-    "answer": "Let $A(t)$ be the amount of radium at time $t$. The rate of decomposition is proportional to the amount present, so $\\frac{dA}{dt} = -kA$, with the solution $A(t) = A_0e^{-kt}$. We are given that in one year, $p$ percent of the amount disappears, which means $(100-p)$ percent is left. So, $A(1) = A_0(1-\\frac{p}{100})$. Substituting into the solution: $A_0(1-\\frac{p}{100}) = A_0e^{-k(1)} \\implies e^{-k} = 1-\\frac{p}{100}$. We want to find the percent of the amount of radium left after 2 years, which is $\\frac{A(2)}{A_0}$. $A(2) = A_0e^{-2k} = A_0(e^{-k})^2 = A_0(1-\\frac{p}{100})^2$. The percent left is $\\frac{A(2)}{A_0} \\times 100 = 100(1-\\frac{p}{100})^2$. So, $100(1-p/100)^2$ percent of the amount of radium will be left after 2 years.",
+    "text": "Radium decomposes at a rate proportional to the amount present. If $p$ percent disappears in one year, what percent will be left after 2 years?",
+    "answer": "$A(t)=A_0e^{-kt}$. $A(1)=A_0(1-p/100) = A_0e^{-k} \\implies e^{-k}=1-p/100$. $A(2)=A_0e^{-2k}=A_0(e^{-k})^2 = A_0(1-p/100)^2$. The percentage left is $100(1-p/100)^2$.",
     "marks": 4
   },
   {
     "type": "mcq",
-    "text": "Q) The order and degree of the differential equation $\\sqrt{1+\\left(\\frac{dy}{dx}\\right)^2} = \\frac{d^2y}{dx^2}$ are respectively ...",
-    "options": [
-      "A) 2, 1",
-      "B) 1, 2",
-      "C) 3, 2",
-      "D) 2, 3"
-    ],
-    "correct_answer": "A) 2, 1",
+    "text": "The order and degree of the differential equation $\\sqrt{1+\\left(\\frac{dy}{dx}\\right)^2} = (\\frac{d^2y}{dx^2})^{3/2}$ are respectively:",
+    "options": ["2, 3", "2, 2", "2, 6", "3, 2"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The differential equation of $y = c^2 + \\frac{c}{x}$ is ...",
-    "options": [
-      "A) $x^4\\left(\\frac{dy}{dx}\\right)^2 - x\\frac{dy}{dx} = y$",
-      "B) $\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} + y = 0$",
-      "C) $x^3\\left(\\frac{dy}{dx}\\right)^2 + x\\frac{dy}{dx} = y$",
-      "D) $\\frac{d^2y}{dx^2} + \\frac{dy}{dx} - y = 0$"
-    ],
-    "correct_answer": "A) $x^4\\left(\\frac{dy}{dx}\\right)^2 - x\\frac{dy}{dx} = y$",
+    "text": "The differential equation of $y = c^2 + c/x$ is:",
+    "options": ["$x^4(y')^2 - xy' = y$", "$x^4(y')^2 + xy' = y$", "$x^2(y')^2+xy'=y$", "None of these"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) $x^2 + y^2 = a^2$ is a solution of ...",
-    "options": [
-      "A) $x^2\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} - y = 0$",
-      "B) $y = x\\sqrt{1+\\left(\\frac{dy}{dx}\\right)^2} + a\\frac{dy}{dx}$",
-      "C) $y = x\\frac{dy}{dx} + a\\sqrt{1+\\left(\\frac{dy}{dx}\\right)^2}$",
-      "D) $\\frac{d^2y}{dx^2} = (x+1)\\frac{dy}{dx}$"
-    ],
-    "correct_answer": "C) $y = x\\frac{dy}{dx} + a\\sqrt{1+\\left(\\frac{dy}{dx}\\right)^2}$",
+    "text": "$x^2 + y^2 = a^2$ is a solution of:",
+    "options": ["$x+y y' = 0$", "$y = x y' + a\\sqrt{1+(y')^2}$", "$y''=0$", "None of these"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The differential equation of all circles having their centers on the line $y=5$ and touching the X-axis is",
-    "options": [
-      "A) $y^2\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right] = 25$",
-      "B) $(y-5)^2\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right] = 25$",
-      "C) $(y-5)^2\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right] = 25$",
-      "D) $(y-5)^2\\left[1-\\left(\\frac{dy}{dx}\\right)^2\\right] = 25$"
-    ],
-    "correct_answer": "B) $(y-5)^2\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right] = 25$",
+    "text": "The differential equation of all circles having their centers on the line $y=5$ and touching the X-axis is:",
+    "options": ["$y^2[1+(y')^2] = 25$", "$(y-5)^2[1+(y')^2] = 25$", "$y^2[1-(y')^2] = 25$", "None of these"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The differential equation $y\\frac{dy}{dx} + x = 0$ represents family of ...",
-    "options": [
-      "A) circles",
-      "B) parabolas",
-      "C) ellipses",
-      "D) hyper bolas"
-    ],
-    "correct_answer": "A) circles",
+    "text": "The differential equation $y\\frac{dy}{dx} + x = 0$ represents family of:",
+    "options": ["circles", "parabolas", "ellipses", "hyperbolas"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The solution of $\\frac{1}{y}\\frac{dy}{dx} = \\tan^{-1} x$ is ...",
-    "options": [
-      "A) $x\\tan^{-1}x$",
-      "B) $x\\tan^{-1}x + c = 0$",
-      "C) $x - \\tan^{-1}x = c$",
-      "D) $y = \\frac{x^2 \\tan^{-1}x}{2} - \\frac{1}{2}(x - \\tan^{-1}x) + C$"
-    ],
-    "correct_answer": "D) $y = \\frac{x^2 \\tan^{-1}x}{2} - \\frac{1}{2}(x - \\tan^{-1}x) + C$",
+    "text": "The solution of $\\frac{1}{x}\\frac{dx}{dy} = \\cot^{-1} y$ is:",
+    "options": ["$x = e^{y \\cot^{-1}y - \\frac{1}{2}\\ln(1+y^2)+C}$", "$y = x \\cot^{-1}y + C$", "$\\ln|x| = y \\cot^{-1}y+C$", "None of these"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The solution of $(x+y)^2 \\frac{dy}{dx} = 1$ is ...",
-    "options": [
-      "A) $x = \\tan^{-1}(x+y)+c$",
-      "B) $y \\tan^{-1}\\left(\\frac{y}{x}\\right)=c$",
-      "C) $y = \\tan^{-1}(x+y)+c$",
-      "D) $y + \\tan^{-1}(x+y)=c$"
-    ],
-    "correct_answer": "A) $x = \\tan^{-1}(x+y)+c$",
+    "text": "The solution of $(x+y)^2 \\frac{dy}{dx} = 1$ is:",
+    "options": ["$y = \\tan^{-1}(x+y)+c$", "$x = \\tan^{-1}(x+y)+c$", "$y + \\tan^{-1}(x+y)=c$", "$x - \\tan^{-1}(x+y)=c$"],
+    "correct_answer": "D",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The solution of $\\frac{dy}{dx} = \\frac{y+\\sqrt{x^2-y^2}}{x}$ is ...",
-    "options": [
-      "A) $\\sin^{-1}\\left(\\frac{y}{x}\\right) = 2 \\log|x|+c$",
-      "B) $\\sin^{-1}\\left(\\frac{y}{x}\\right) = \\log|x|+c$",
-      "C) $\\sin\\left(\\frac{y}{x}\\right) = \\log|x|+c$",
-      "D) $\\sin\\left(\\frac{y}{x}\\right) = \\log|x|+c$"
-    ],
-    "correct_answer": "B) $\\sin^{-1}\\left(\\frac{y}{x}\\right) = \\log|x|+c$",
+    "text": "The solution of $\\frac{dy}{dx} = \\frac{y+\\sqrt{x^2-y^2}}{x}$ is:",
+    "options": ["$\\sin^{-1}(y/x) = 2 \\ln|x|+c$", "$\\sin^{-1}(y/x) = \\ln|x|+c$", "$\\sin(y/x) = \\ln|x|+c$", "None of these"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The solution of $\\frac{dy}{dx} + y = \\cos x - \\sin x$ is ...",
-    "options": [
-      "A) $y e^x = \\cos x + c$",
-      "B) $y e^x = e^x \\cos x + c$",
-      "C) $y e^x = e^x \\cos x + c$",
-      "D) $y^2 e^x = e^x \\cos x + c$"
-    ],
-    "correct_answer": "C) $y e^x = e^x \\cos x + c$",
+    "text": "The solution of $\\frac{dy}{dx} + y = \\cos x - \\sin x$ is:",
+    "options": ["$y e^x = \\sin x + c$", "$y e^x = e^x \\cos x + c$", "$y e^x = e^x \\sin x + c$", "$y e^x = \\cos x + c$"],
+    "correct_answer": "B",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The integrating factor of linear differential equation $x\\frac{dy}{dx} + 2y = x^2 \\log x$ is ...",
-    "options": [
-      "A) $\\frac{1}{x}$",
-      "B) $k$",
-      "C) $\\frac{1}{x^2}$",
-      "D) $x^2$"
-    ],
-    "correct_answer": "D) $x^2$",
+    "text": "The integrating factor of linear differential equation $x\\frac{dy}{dx} + 2y = x^2 \\log x$ is:",
+    "options": ["$1/x$", "$x$", "$1/x^2$", "$x^2$"],
+    "correct_answer": "D",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The solution of the differential equation $\\frac{dy}{dx} = \\sec x - y \\tan x$ is",
-    "options": [
-      "A) $y \\sec x + \\tan x = c$",
-      "B) $y \\sec x = \\tan x + c$",
-      "C) $\\sec x + y \\tan x = c$",
-      "D) $\\sec x = y \\tan x + c$"
-    ],
-    "correct_answer": "B) $y \\sec x = \\tan x + c$",
+    "text": "The solution of the differential equation $\\frac{dy}{dx} = \\sec x - y \\tan x$ is:",
+    "options": ["$y \\sec x + \\tan x = c$", "$y \\sec x = \\sin x + c$", "$y = \\sin x + c \\cos x$", "$y = \\cos x + c \\sin x$"],
+    "correct_answer": "C",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The particular solution of $\\frac{dy}{dx} = xe^{y-x}$, when $x=y=0$ is ...",
-    "options": [
-      "A) $e^{-y} = x+1$",
-      "B) $e^{x-y} = x+1$",
-      "C) $e^{y} = e^x + 1$",
-      "D) $e^{y-x} = x-1$"
-    ],
-    "correct_answer": "B) $e^{x-y} = x+1$",
+    "text": "The particular solution of $\\frac{dy}{dx} = xe^{y-x}$, when $x=y=0$ is:",
+    "options": ["$e^{x-y} = x+1$", "$e^{y-x} = x+1$", "$e^x + e^{-y} = 2$", "None of these"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The particular solution of $\\frac{dy}{dx} = xe^{y-x}$, when $x=y=0$ is ...",
-    "options": [
-      "A) $e^{x-y} = x+1$",
-      "B) $e^{x-y} = x+1$",
-      "C) $e^x + e^y = x+1$",
-      "D) $e^{y-x} = x-1$"
-    ],
-    "correct_answer": "A) $e^{x-y} = x+1$",
+    "text": "The differential equation of the family of curves $y = e^x(A\\cos x + B\\sin x)$ is:",
+    "options": ["$y''-2y'+2y=0$", "$y''+2y'+2y=0$", "$y''-y'-y=0$", "$y''+y=0$"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ is a solution of ...",
-    "options": [
-      "A) $\\frac{d^2y}{dx^2} + yx + \\left(\\frac{dy}{dx}\\right)^2 = 0$",
-      "B) $xy\\frac{d^2y}{dx^2} + 2\\left(\\frac{dy}{dx}\\right)^2 - y\\frac{dy}{dx} = 0$",
-      "C) $y\\frac{d^2y}{dx^2} + 2\\left(\\frac{dy}{dx}\\right)^2 + y = 0$",
-      "D) $xy\\frac{dy}{dx} + y + \\frac{d^2y}{dx^2} = 0$"
-    ],
-    "correct_answer": "B) $xy\\frac{d^2y}{dx^2} + 2\\left(\\frac{dy}{dx}\\right)^2 - y\\frac{dy}{dx} = 0$",
+    "text": "$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$ is a solution of:",
+    "options": ["$xyy''+x(y')^2-yy'=0$", "$yy''+ (y')^2=0$", "$xyy'' - x(y')^2 + yy' = 0$", "None of these"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) The decay rate of certain substance is directly proportional to the amount present at that instant. Initially there are 27 grams of substance and 3 hours later it is found that 8 grams left. The amount left after one more hour is...",
-    "options": [
-      "A) 2/3 grams",
-      "B) 5/3 grams",
-      "C) 5.1 grams",
-      "D) 5 grams"
-    ],
-    "correct_answer": "D) 5 grams",
+    "text": "The decay rate of a substance is proportional to the amount present. Initially there are 27 grams, and 3 hours later 8 grams are left. The amount left after one more hour is:",
+    "options": ["16/3 grams", "5 grams", "5.33 grams", "4.5 grams"],
+    "correct_answer": "A",
     "marks": 1
   },
   {
     "type": "mcq",
-    "text": "Q) If the surrounding air is kept at $20^\\circ C$ and a body cools from $80^\\circ C$ to $70^\\circ C$ in 5 minutes, the temperature of the body after 15 minutes will be...",
-    "options": [
-      "A) $51.7^\\circ C$",
-      "B) $54.7^\\circ C$",
-      "C) $52.7^\\circ C$",
-      "D) $50.7^\\circ C$"
-    ],
-    "correct_answer": "D) $50.7^\\circ C$",
+    "text": "A body cools from $80^\\circ C$ to $70^\\circ C$ in 5 minutes at a room temperature of $20^\\circ C$. Its temperature after 15 minutes will be:",
+    "options": ["$51.7^\\circ C$", "$54.7^\\circ C$", "$52.7^\\circ C$", "$50.7^\\circ C$"],
+    "correct_answer": "C",
     "marks": 1
-  },
-  {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations: <br> i) $$\\frac{d^2y}{dx^2} + 5\\frac{dy}{dx} + y = x^3$$",
-    "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 1, so the **degree is 1**.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations: <br> ii) $$ (\\frac{d^2y}{dx^2})^3 = \\sqrt{1+\\frac{d^3y}{dx^3}} $$",
-    "answer": "To find the degree, we first need to remove the radical. Squaring both sides gives $((\\frac{d^2y}{dx^2})^3)^2 = 1+\\frac{d^3y}{dx^3} \\implies (\\frac{d^2y}{dx^2})^6 = 1+\\frac{d^3y}{dx^3}$. The highest order derivative is $\\frac{d^3y}{dx^3}$, so the **order is 3**. The power of the highest order derivative is 1, so the **degree is 1**.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations: <br> iii) $$ \\sqrt{1+\\left(\\frac{dy}{dx}\\right)^3} = \\frac{d^2y}{dx^2} $$",
-    "answer": "To find the degree, we first need to remove the radical. Squaring both sides gives $1+\\left(\\frac{dy}{dx}\\right)^3 = \\left(\\frac{d^2y}{dx^2}\\right)^2$. The highest order derivative is $\\frac{d^2y}{dx^2}$, so the **order is 2**. The power of the highest order derivative is 2, so the **degree is 2**.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations: <br> iv) $$ \\frac{dy}{dx} = 3y + \\sqrt{1+5\\left(\\frac{dy}{dx}\\right)^2} $$",
-    "answer": "To find the degree, we first need to remove the radical. Rearranging gives $\\frac{dy}{dx} - 3y = \\sqrt{1+5\\left(\\frac{dy}{dx}\\right)^2}$. Squaring both sides gives $(\\frac{dy}{dx} - 3y)^2 = 1+5(\\frac{dy}{dx})^2$. The highest order derivative is $\\frac{dy}{dx}$, so the **order is 1**. The power of the highest order derivative is 2, so the **degree is 2**.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Q) Determine the order and degree of each of the following differential equations: <br> v) $$ \\frac{d^2y}{dx^4} + \\sin\\left(\\frac{dy}{dx}\\right) = 0 $$",
-    "answer": "The highest order derivative is $\\frac{d^4y}{dx^4}$, so the **order is 4**. The presence of the term $\\sin(\\frac{dy}{dx})$ means that the differential equation is not a polynomial in its derivatives, so the **degree is not defined**.",
-    "marks": 2
-  },
-  {
-    "type": "long",
-    "text": "Q) In each of the following examples, verify that the given function is a solution of the differential equation.<br>i) $x^2+y^2=r^2$; $$\\frac{dy}{dx} + \\frac{x}{y} = 0$$",
-    "answer": "Given the function $x^2+y^2=r^2$. Differentiating implicitly with respect to $x$, we get $2x + 2y\\frac{dy}{dx} = 0$. Dividing by 2, we have $x+y\\frac{dy}{dx} = 0$. Rearranging this gives $\\frac{dy}{dx} = -\\frac{x}{y}$. Substituting this into the given differential equation: $-\\frac{x}{y} + \\frac{x}{y} = 0$. Since the equation holds true, the given function is a solution.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) In each of the following examples, verify that the given function is a solution of the differential equation.<br>ii) $y = e^{ax}\\sin bx$; $$\\frac{d^2y}{dx^2} - 2a\\frac{dy}{dx} + (a^2+b^2)y = 0$$",
-    "answer": "Given the function $y = e^{ax}\\sin bx$. Differentiating with respect to $x$: $\\frac{dy}{dx} = ae^{ax}\\sin bx + be^{ax}\\cos bx = a(e^{ax}\\sin bx) + be^{ax}\\cos bx = ay + be^{ax}\\cos bx$. Differentiating again: $\\frac{d^2y}{dx^2} = a\\frac{dy}{dx} + be^{ax}(a\\cos bx - b\\sin bx) = a\\frac{dy}{dx} + abe^{ax}\\cos bx - b^2e^{ax}\\sin bx = a\\frac{dy}{dx} + a(be^{ax}\\cos bx) - b^2y$. From the first derivative, $be^{ax}\\cos bx = \\frac{dy}{dx} - ay$. Substituting this in: $\\frac{d^2y}{dx^2} = a\\frac{dy}{dx} + a(\\frac{dy}{dx} - ay) - b^2y = 2a\\frac{dy}{dx} - a^2y - b^2y = 2a\\frac{dy}{dx} - (a^2+b^2)y$. Rearranging gives $\\frac{d^2y}{dx^2} - 2a\\frac{dy}{dx} + (a^2+b^2)y = 0$. This matches the given differential equation, so the function is a solution.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) In each of the following examples, verify that the given function is a solution of the differential equation.<br>iii) $y = 3\\cos(\\log x) + 4\\sin(\\log x)$; $$x^2\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} + y = 0$$",
-    "answer": "Given the function $y = 3\\cos(\\log x) + 4\\sin(\\log x)$. Differentiating with respect to $x$: $\\frac{dy}{dx} = 3(-\\sin(\\log x))\\frac{1}{x} + 4(\\cos(\\log x))\\frac{1}{x} = \\frac{1}{x}(-3\\sin(\\log x) + 4\\cos(\\log x))$. Multiplying by $x$, we have $x\\frac{dy}{dx} = -3\\sin(\\log x) + 4\\cos(\\log x)$. Differentiating again: $x\\frac{d^2y}{dx^2} + 1\\cdot\\frac{dy}{dx} = -3\\cos(\\log x)\\frac{1}{x} - 4\\sin(\\log x)\\frac{1}{x} = -\\frac{1}{x}(3\\cos(\\log x) + 4\\sin(\\log x))$. We know that $y = 3\\cos(\\log x) + 4\\sin(\\log x)$, so $x\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = -\\frac{y}{x}$. Multiplying by $x$ gives $x^2\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} = -y$. Rearranging, we get $x^2\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} + y = 0$. This matches the given differential equation, so the function is a solution.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) In each of the following examples, verify that the given function is a solution of the differential equation.<br>iv) $y = ae^x + be^{-x} + x^2$; $$x\\frac{d^2y}{dx^2} + 2\\frac{dy}{dx} + x^3 = xy + 2$$",
-    "answer": "Given the function $y = ae^x + be^{-x} + x^2$. Differentiating with respect to $x$: $\\frac{dy}{dx} = ae^x - be^{-x} + 2x$. Differentiating again: $\\frac{d^2y}{dx^2} = ae^x + be^{-x} + 2$. Substituting these derivatives into the given differential equation: $x(ae^x + be^{-x} + 2) + 2(ae^x - be^{-x} + 2x) + x^3 = x(ae^x + be^{-x} + x^2) + 2$. <br>LHS = $xae^x + xbe^{-x} + 2x + 2ae^x - 2be^{-x} + 4x + x^3 = xae^x + xbe^{-x} + 6x + 2ae^x - 2be^{-x} + x^3$. <br>RHS = $xae^x + xbe^{-x} + x^3 + 2$. <br>Since LHS $\\ne$ RHS, the given function is NOT a solution.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) In each of the following examples, verify that the given function is a solution of the differential equation.<br>v) $x^2 = 2\\log y$; $x\\frac{dy}{dx} = y\\sqrt{x^2+y^2}$",
-    "answer": "There appears to be a typo in the question. Let's assume the question is verifying if $x^2 = 2\\log y$ is a solution to $x\\frac{dy}{dx} = y$. Differentiating the given function with respect to $x$: $2x = 2\\frac{1}{y}\\frac{dy}{dx}$. This simplifies to $xy = \\frac{dy}{dx}$, which is not the same as the given DE. Let's assume the DE is $x\\frac{dy}{dx} = y$. Differentiating $x^2=2\\log y$ gives $2x = \\frac{2}{y}\\frac{dy}{dx} \\implies xy = \\frac{dy}{dx}$. This is a match. Let's check the given DE. The term $\\sqrt{x^2+y^2}$ makes it unlikely to be a simple solution. It seems the problem has typos.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equation by eliminating the arbitrary constants from the following equations.<br>i) $y^2 = a(b-x)(b+x)$",
-    "answer": "The equation has two arbitrary constants, $a$ and $b$. Differentiating with respect to $x$: $2y\\frac{dy}{dx} = a(-1)(b+x) + a(b-x)(1) = a(-b-x+b-x) = -2ax$. So, $y\\frac{dy}{dx} = -ax$. Differentiating again: $y\\frac{d^2y}{dx^2} + (\\frac{dy}{dx})^2 = -a$. From the previous step, $a = -\\frac{y}{x}\\frac{dy}{dx}$. Substituting this in: $y\\frac{d^2y}{dx^2} + (\\frac{dy}{dx})^2 = -(-\\frac{y}{x}\\frac{dy}{dx}) = \\frac{y}{x}\\frac{dy}{dx}$. Multiplying by $x$ gives $xy\\frac{d^2y}{dx^2} + x(\\frac{dy}{dx})^2 = y\\frac{dy}{dx}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equation by eliminating the arbitrary constants from the following equations.<br>ii) $y=a\\sin(x+b)$",
-    "answer": "The equation has two arbitrary constants, $a$ and $b$. Differentiating with respect to $x$: $\\frac{dy}{dx} = a\\cos(x+b)$. Differentiating again: $\\frac{d^2y}{dx^2} = -a\\sin(x+b)$. Since $y = a\\sin(x+b)$, we have $\\frac{d^2y}{dx^2} = -y$. Rearranging gives $\\frac{d^2y}{dx^2} + y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equation by eliminating the arbitrary constants from the following equations.<br>iii) $(y-a)^2 = b(x+4)$",
-    "answer": "The equation has two arbitrary constants, $a$ and $b$. Differentiating with respect to $x$: $2(y-a)\\frac{dy}{dx} = b$. Differentiating again: $2\\frac{dy}{dx}\\frac{dy}{dx} + 2(y-a)\\frac{d^2y}{dx^2} = 0 \\implies 2(\\frac{dy}{dx})^2 + 2(y-a)\\frac{d^2y}{dx^2} = 0$. From the first derivative, $y-a = \\frac{b}{2(dy/dx)}$. Substituting this in: $2(\\frac{dy}{dx})^2 + 2(\\frac{b}{2(dy/dx)})\\frac{d^2y}{dx^2} = 0 \\implies 2(\\frac{dy}{dx})^2 + \\frac{b}{(dy/dx)}\\frac{d^2y}{dx^2} = 0$. This still contains $b$. Let's try again. From $2(y-a)y' = b$, we have $2(y-a)y'' + 2(y')^2 = 0$. This gives $(y-a)y'' = -(y')^2$. We can get $y-a$ from the original equation: $y-a = \\pm\\sqrt{b(x+4)}$. Substituting this in gives $\\pm\\sqrt{b(x+4)}y'' = -(y')^2$. This is getting complicated. Let's go back to $2(y-a)y' = b$. Differentiating again: $2(y')^2 + 2(y-a)y'' = 0$. This gives $(y-a)y'' + (y')^2 = 0$. This equation no longer contains $b$. The only remaining arbitrary constant is $a$. Let's solve for $y-a$: $y-a = -\\frac{(y')^2}{y''}$. This has only one constant. The differential equation is $(y')^2 + (y-a)y'' = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equation by eliminating the arbitrary constants from the following equations.<br>iv) $y = \\sqrt{a}\\cos(\\log x) + b\\sin(\\log x)$",
-    "answer": "This equation has two arbitrary constants, $a$ and $b$. Differentiating with respect to $x$: $\\frac{dy}{dx} = \\sqrt{a}(-\\sin(\\log x))\\frac{1}{x} + b(\\cos(\\log x))\\frac{1}{x} = \\frac{1}{x}(-\\sqrt{a}\\sin(\\log x)+b\\cos(\\log x))$. So, $x\\frac{dy}{dx} = -\\sqrt{a}\\sin(\\log x) + b\\cos(\\log x)$. Differentiating again: $x\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = -\\sqrt{a}\\cos(\\log x)\\frac{1}{x} - b\\sin(\\log x)\\frac{1}{x} = -\\frac{1}{x}(\\sqrt{a}\\cos(\\log x)+b\\sin(\\log x))$. We know that $y = \\sqrt{a}\\cos(\\log x) + b\\sin(\\log x)$. So, $x\\frac{d^2y}{dx^2} + \\frac{dy}{dx} = -\\frac{y}{x}$. Multiplying by $x$ gives $x^2\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} = -y$. Rearranging gives $x^2\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} + y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Obtain the differential equation by eliminating the arbitrary constants from the following equations.<br>v) $y = Ae^{3x+1} + Be^{-3x-1}$",
-    "answer": "The equation has two arbitrary constants, $A$ and $B$. Let's rewrite the equation as $y = Ae^{3x}e^1 + Be^{-3x}e^{-1} = C_1e^{3x} + C_2e^{-3x}$, where $C_1=Ae$ and $C_2=Be^{-1}$. Differentiating with respect to $x$: $\\frac{dy}{dx} = 3C_1e^{3x} - 3C_2e^{-3x}$. Differentiating again: $\\frac{d^2y}{dx^2} = 9C_1e^{3x} + 9C_2e^{-3x} = 9(C_1e^{3x}+C_2e^{-3x}) = 9y$. The differential equation is $\\frac{d^2y}{dx^2} - 9y = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Form the differential equation of all circles which pass through the origin and whose centres lie on X-axis.",
-    "answer": "The equation of a circle with center on the X-axis is $(x-a)^2 + (y-0)^2 = a^2$, since it passes through the origin. This simplifies to $x^2 - 2ax + a^2 + y^2 = a^2 \\implies x^2 - 2ax + y^2 = 0$. This equation has one arbitrary constant, $a$. Differentiating with respect to $x$: $2x - 2a + 2y\\frac{dy}{dx} = 0$. From this, we can solve for $a$: $2a = 2x + 2y\\frac{dy}{dx} \\implies a = x + y\\frac{dy}{dx}$. Substituting this back into the original equation: $x^2 - 2(x+y\\frac{dy}{dx})x + y^2 = 0 \\implies x^2 - 2x^2 - 2xy\\frac{dy}{dx} + y^2 = 0 \\implies -x^2 - 2xy\\frac{dy}{dx} + y^2 = 0$. The differential equation is $y^2 - x^2 = 2xy\\frac{dy}{dx}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Form the differential equation of all parabolas which have 4b as latus rectum and whose axes are parallel to Y-axis.",
-    "answer": "The general equation for such a parabola is $(x-h)^2 = 4b(y-k)$, where $h$ and $k$ are arbitrary constants representing the vertex. Differentiating with respect to $x$: $2(x-h) = 4b\\frac{dy}{dx}$. So, $x-h = 2b\\frac{dy}{dx}$. Differentiating again: $1 = 2b\\frac{d^2y}{dx^2}$. The differential equation is $1 = 2b\\frac{d^2y}{dx^2}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Form the differential equation of an ellipse whose major axis is twice its minor axis.",
-    "answer": "The standard equation of an ellipse is $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. Assuming the major axis is along the X-axis, we have $a=2b$. The equation becomes $\\frac{x^2}{(2b)^2} + \\frac{y^2}{b^2} = 1 \\implies \\frac{x^2}{4b^2} + \\frac{y^2}{b^2} = 1$. This simplifies to $x^2 + 4y^2 = 4b^2$. Differentiating with respect to $x$: $2x + 8y\\frac{dy}{dx} = 0$. The differential equation is $x + 4y\\frac{dy}{dx} = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Form the differential equation of all the lines which are normal to the line $3x-2y+7=0$.",
-    "answer": "The slope of the line $3x-2y+7=0$ is $m = -\\frac{3}{-2} = \\frac{3}{2}$. The slope of any line normal to this line is $m_{\\perp} = -\\frac{1}{m} = -\\frac{2}{3}$. Since the slope of any normal line is a constant, the differential equation is simply $\\frac{dy}{dx} = -\\frac{2}{3}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Form the differential equation of the hyperbola whose length of transverse and conjugate axes are half of that of the given hyperbola: $$\\frac{x^2}{16} - \\frac{y^2}{36} = k$$",
-    "answer": "The length of the transverse axis of the given hyperbola is $2a = 2\\sqrt{16} = 8$ and the length of the conjugate axis is $2b = 2\\sqrt{36} = 12$. The new hyperbola has transverse axis length of $8/2 = 4$ and conjugate axis length of $12/2 = 6$. So, for the new hyperbola, $2a'=4 \\implies a'=2$ and $2b'=6 \\implies b'=3$. The equation of the family of such hyperbolas is $\\frac{x^2}{(2)^2} - \\frac{y^2}{(3)^2} = C \\implies \\frac{x^2}{4} - \\frac{y^2}{9} = C$. Differentiating with respect to $x$: $\\frac{2x}{4} - \\frac{2y}{9}\\frac{dy}{dx} = 0 \\implies \\frac{x}{2} - \\frac{2y}{9}\\frac{dy}{dx} = 0$. Multiplying by 18 gives $9x - 4y\\frac{dy}{dx} = 0$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations.<br>i) $$\\log\\left(\\frac{dy}{dx}\\right) = 2x+3y$$",
-    "answer": "This is a variable separable differential equation. Taking the exponential of both sides gives $\\frac{dy}{dx} = e^{2x+3y} = e^{2x}e^{3y}$. Rearranging gives $e^{-3y}dy = e^{2x}dx$. Integrating both sides: $\\int e^{-3y}dy = \\int e^{2x}dx$. This results in $-\\frac{1}{3}e^{-3y} = \\frac{1}{2}e^{2x} + C$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations.<br>ii) $$\\frac{dy}{dx} = x^2y + y$$",
-    "answer": "This is a variable separable differential equation. We can factor out $y$: $\\frac{dy}{dx} = y(x^2+1)$. Rearranging gives $\\frac{dy}{y} = (x^2+1)dx$. Integrating both sides: $\\int \\frac{dy}{y} = \\int (x^2+1)dx$. This results in $\\log|y| = \\frac{x^3}{3} + x + C$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations.<br>iii) $$\\frac{dy}{dx} = \\frac{2y-x}{2y+x}$$",
-    "answer": "This is a homogeneous differential equation. Rearranging gives $\\frac{dy}{dx} = \\frac{2(y/x)-1}{2(y/x)+1}$. Let $y=vx$, so $\\frac{dy}{dx} = v+x\\frac{dv}{dx}$. Substituting this in: $v+x\\frac{dv}{dx} = \\frac{2v-1}{2v+1}$. This gives $x\\frac{dv}{dx} = \\frac{2v-1}{2v+1} - v = \\frac{2v-1-2v^2-v}{2v+1} = \\frac{v-1-2v^2}{2v+1}$. This is a variable separable equation: $\\frac{2v+1}{2v^2-v+1}dv = -\\frac{dx}{x}$. The integral of the left side is complicated. There might be a typo in the question, e.g. $\\frac{dy}{dx}=\\frac{x+2y}{y-2x}$. Let's solve the problem as it is given. The denominator $2v^2-v+1$ has no real roots, so it cannot be factored. The integral will involve arctan and log.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations.<br>iv) $x\\frac{dy}{dx} = (x+y+1)dx$",
-    "answer": "This appears to be a typo. Let's assume the equation is $x\\frac{dy}{dx} = x+y+1$. This is a linear differential equation. Rearranging gives $\\frac{dy}{dx} - \\frac{1}{x}y = 1+\\frac{1}{x}$. The integrating factor is $IF = e^{\\int -1/x dx} = 1/x$. The solution is $y\\cdot\\frac{1}{x} = \\int (1+\\frac{1}{x})\\frac{1}{x}dx+C = \\int (\\frac{1}{x}+\\frac{1}{x^2})dx+C = \\log|x| - \\frac{1}{x} + C$. The general solution is $y = x\\log|x| - 1 + Cx$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations.<br>v) $y + \\frac{dy}{dx}\\cot x = x^2\\cot x + xy$",
-    "answer": "This is a linear differential equation. First, rearrange the equation to the standard form $\\frac{dy}{dx} + P(x)y = Q(x)$. Divide by $\\cot x$: $\\frac{dy}{dx} + \\frac{y}{\\cot x} = x^2 + \\frac{xy}{\\cot x} \\implies \\frac{dy}{dx} + (\\tan x)y = x^2+xy\\tan x$. This is not a linear equation. Let's re-examine. The equation is likely $y + \\frac{dy}{dx}\\cot x = x\\cot x$. Let's assume the question is $\\frac{dy}{dx}+y\\tan x = x\\sec x$. The integrating factor is $e^{\\int \\tan x dx} = e^{\\log|\\sec x|} = \\sec x$. The solution is $y\\sec x = \\int x\\sec^2 x dx + C$. Using integration by parts, $\\int x\\sec^2 x dx = x\\tan x - \\int \\tan x dx = x\\tan x + \\log|\\cos x|$. So, $y\\sec x = x\\tan x + \\log|\\cos x| + C$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations.<br>vi) $y\\log y = (\\log y)^2\\frac{dy}{dx}$",
-    "answer": "This is a variable separable differential equation. Rearranging gives $\\frac{dy}{dx} = \\frac{y\\log y}{(\\log y)^2} = \\frac{y}{\\log y}$. This is not separable. Let's assume the question has a typo and it should be $y\\log y = (x\\log y - y)\\frac{dy}{dx}$. No. Let's assume the equation is $y\\log y\\frac{dx}{dy} = x-y$. No. Let's assume it is $\\frac{dy}{dx} = y\\log y / x$. Then $\\frac{dy}{y\\log y} = \\frac{dx}{x}$. Let $u=\\log y$, $du = \\frac{1}{y}dy$. So, $\\int \\frac{du}{u} = \\int \\frac{dx}{x} \\implies \\log|u| = \\log|x|+C \\implies u = C'x \\implies \\log y = C'x \\implies y=e^{C'x}$.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Solve the following differential equations.<br>vii) $4\\frac{dy}{dx} - 8x = 5e^{3y}$",
-    "answer": "This is a non-linear differential equation. Rearranging to a recognizable form: $4\\frac{dy}{dx} = 8x + 5e^{3y}$. This is a Bernoulli equation if we let $z=e^{-3y}$. Differentiating gives $\\frac{dz}{dx} = -3e^{-3y}\\frac{dy}{dx} = -3z\\frac{dy}{dx}$. So, $\\frac{dy}{dx} = -\\frac{1}{3z}\\frac{dz}{dx}$. Substituting this into the original DE: $4(-\\frac{1}{3z}\\frac{dz}{dx}) - 8x = 5e^{3y} = 5/z$. So, $-\\frac{4}{3z}\\frac{dz}{dx} = 8x + 5/z$. Multiplying by $-3z/4$: $\\frac{dz}{dx} = -\\frac{3z}{4}(8x + 5/z) = -6xz - \\frac{15}{4}$. Rearranging: $\\frac{dz}{dx} + 6xz = -\\frac{15}{4}$. This is a linear differential equation in $z$. The integrating factor is $IF = e^{\\int 6x dx} = e^{3x^2}$. The solution is $ze^{3x^2} = \\int -\\frac{15}{4}e^{3x^2}dx+C$. This integral cannot be solved in terms of elementary functions. There might be a typo in the question.",
-    "marks": 3
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the particular solution of the following differential equations: <br> 1) $y(1+\\log x) = (\\log x^2)\\frac{dy}{dx}$, when $y(e)=e^2$.",
-    "answer": "This is a variable separable differential equation. Rearranging gives: $y(1+\\log x) = (2\\log x)\\frac{dy}{dx} \\implies \\frac{1+\\log x}{2\\log x}dx = \\frac{dy}{y}$. Integrating both sides: $\\int (\\frac{1}{2\\log x} + \\frac{1}{2})dx = \\int \\frac{dy}{y}$. The left side is problematic to integrate in a simple form. Let's re-examine the equation. It's likely a typo. Let's assume the equation is $y(1+\\log x)\\frac{dx}{dy} = \\frac{2x}{\\log x}$. This would be $\\frac{1+\\log x}{2x\\log x}dx = \\frac{dy}{y}$. No, this is also complex. Let's re-read the original problem from the image. It is $y(1+\\log x) = (\\log x^2)\\frac{dy}{dx}$. Let's try again with the original form. $\\frac{dy}{dx} = \\frac{y(1+\\log x)}{2\\log x}$. This is separable. $\\frac{dy}{y} = \\frac{1+\\log x}{2\\log x}dx = (\\frac{1}{2\\log x} + \\frac{1}{2})dx$. The first term on the right side cannot be integrated in a simple form. This question might have a typo. A common typo is to have a problem that simplifies to $\\int \\frac{1+\\log x}{x\\log x}dx$. Let's assume the question is $y(1+\\log x)\\frac{dx}{dy} = x\\log x$. Rearranging gives $\\frac{1+\\log x}{x\\log x}dx = \\frac{dy}{y}$. Let $u=\\log x$, so $du = 1/x dx$. The left side becomes $\\int \\frac{1+u}{u}du = \\log|u|+u = \\log|\\log x|+\\log x$. So, $\\log|\\log x|+\\log x = \\log|y|+C$. With $y(e)=e^2$: $\\log|\\log e|+\\log e = \\log|e^2|+C \\implies \\log 1+1 = 2+C \\implies 1=2+C \\implies C=-1$. The solution is $\\log|y| = \\log|\\log x|+\\log x+1$. This is the likely intended problem and solution.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the particular solution of the following differential equations: <br> 2) $(x+2y^2)\\frac{dy}{dx} = y$, when $x=2$, $y=1$.",
-    "answer": "This is a linear differential equation in $x$ with respect to $y$. Rearranging gives $\\frac{dx}{dy} = \\frac{x+2y^2}{y} = \\frac{x}{y}+2y \\implies \\frac{dx}{dy} - \\frac{1}{y}x = 2y$. This is of the form $\\frac{dx}{dy} + P(y)x = Q(y)$. The integrating factor is $IF = e^{\\int -1/y dy} = e^{-\\log y} = 1/y$. The general solution is $x\\cdot\\frac{1}{y} = \\int 2y\\cdot\\frac{1}{y} dy + C = \\int 2 dy + C = 2y+C$. So, $x=2y^2+Cy$. Using the initial conditions $x=2, y=1$: $2 = 2(1)^2 + C(1) \\implies 2=2+C \\implies C=0$. The particular solution is $x=2y^2$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the particular solution of the following differential equations: <br> 3) $$\\frac{dy}{dx} - 3y\\cot x = \\sin 2x$$, when $y(\\frac{\\pi}{2}) = 2$.",
-    "answer": "This is a linear differential equation of the form $\\frac{dy}{dx} + P(x)y = Q(x)$, with $P(x)=-3\\cot x$ and $Q(x)=\\sin 2x$. The integrating factor is $IF = e^{\\int -3\\cot x dx} = e^{-3\\log|\\sin x|} = e^{\\log|\\sin x|^{-3}} = \\frac{1}{\\sin^3 x}$. The general solution is $y\\cdot\\frac{1}{\\sin^3 x} = \\int \\sin 2x \\cdot \\frac{1}{\\sin^3 x}dx + C = \\int \\frac{2\\sin x\\cos x}{\\sin^3 x}dx + C = \\int 2\\frac{\\cos x}{\\sin x}\\frac{1}{\\sin^2 x}dx + C = \\int 2\\cot x\\csc^2 x dx + C$. Let $u=\\cot x$, $du = -\\csc^2 x dx$. The integral becomes $\\int -2u du = -u^2 = -\\cot^2 x$. So, $\\frac{y}{\\sin^3 x} = -\\cot^2 x + C$. Using the initial conditions $x=\\pi/2, y=2$: $\\frac{2}{\\sin^3(\\pi/2)} = -\\cot^2(\\pi/2)+C \\implies \\frac{2}{1} = -0+C \\implies C=2$. The particular solution is $\\frac{y}{\\sin^3 x} = -\\cot^2 x + 2$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the particular solution of the following differential equations: <br> 4) $(x+y)dy + (x-y)dx = 0$, when $x=1$, $y=0$.",
-    "answer": "This is a homogeneous differential equation. Rearranging gives $\\frac{dy}{dx} = -\\frac{x-y}{x+y} = \\frac{y-x}{y+x} = \\frac{y/x-1}{y/x+1}$. Let $y=vx$, so $\\frac{dy}{dx} = v+x\\frac{dv}{dx}$. Substituting this in: $v+x\\frac{dv}{dx} = \\frac{v-1}{v+1}$. This gives $x\\frac{dv}{dx} = \\frac{v-1}{v+1} - v = \\frac{v-1-v^2-v}{v+1} = -\\frac{v^2+1}{v+1}$. This is a variable separable equation: $\\frac{v+1}{v^2+1}dv = -\\frac{dx}{x} \\implies (\\frac{v}{v^2+1}+\\frac{1}{v^2+1})dv = -\\frac{dx}{x}$. Integrating both sides: $\\int (\\frac{v}{v^2+1}+\\frac{1}{v^2+1})dv = -\\int \\frac{dx}{x}$. This gives $\\frac{1}{2}\\log|v^2+1|+\\tan^{-1}v = -\\log|x|+C$. Substituting back $v=y/x$: $\\frac{1}{2}\\log| (y/x)^2+1 | + \\tan^{-1}(y/x) = -\\log|x|+C$. Using the initial conditions $x=1, y=0$: $\\frac{1}{2}\\log(1) + \\tan^{-1}(0) = -\\log(1)+C \\implies 0+0 = 0+C \\implies C=0$. The particular solution is $\\frac{1}{2}\\log| (y/x)^2+1 | + \\tan^{-1}(y/x) = -\\log|x|$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Find the particular solution of the following differential equations: <br> 5) $2e^{x} \\frac{x}{y} dx + y-2xe^{x}\\frac{y}{y} dy = 0$, when $y(0)=1$",
-    "answer": "This appears to be a typo. Let's assume the question is $2e^x\\frac{x}{y}dx + y\\frac{dx}{dy} - 2xe^x\\frac{x}{y}dy = 0$. No, that doesn't make sense. Let's assume the question is a homogeneous DE of the form $(2e^{x/y})dx + e^{x/y}(y-2x)dy = 0$. This is not quite right. A common form is a linear equation. Let's assume the question is a variable separable DE, such as $2e^x\\frac{x}{y}dx = (2xe^x-y)dy$. Let's try to make it look like a homogeneous DE. $(2e^{x/y} + 2xe^{x/y})dx + ydy = 0$. This is not homogeneous. Let's assume the question is a typo of a common type, such as $(1+e^{x/y})dx + e^{x/y}(1-x/y)dy = 0$. This is a homogeneous DE. Let's solve it and see if it fits. The solution is $ye^{x/y}+x=C$. With $x=0, y=1$: $1e^{0/1}+0=C \\implies 1=C$. The solution would be $ye^{x/y}+x=1$. This seems plausible. Given the context of previous problems, a typo in this question is highly likely. We'll provide a solution assuming a plausible correct problem.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) Show that the general solution of the differential equation $$\\frac{dy}{dx} = \\frac{y^2+y+1}{x^2+x+1}$$ is given by $(x+y+1) = c(1-x-y-2xy)$.",
-    "answer": "The given differential equation is variable separable. Rearranging gives $\\frac{dy}{y^2+y+1} = \\frac{dx}{x^2+x+1}$. Let's integrate both sides. The denominator is irreducible since its discriminant is $b^2-4ac = 1-4(1)(1) = -3 < 0$. We complete the square for both denominators: $y^2+y+1 = (y+\\frac{1}{2})^2 + \\frac{3}{4}$ and $x^2+x+1 = (x+\\frac{1}{2})^2 + \\frac{3}{4}$. The integral is of the form $\\int \\frac{dz}{z^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{z}{a})$. So, $\\int \\frac{dy}{(y+1/2)^2+(\\sqrt{3}/2)^2} = \\int \\frac{dx}{(x+1/2)^2+(\\sqrt{3}/2)^2}$. This gives $\\frac{1}{\\sqrt{3}/2}\\tan^{-1}(\\frac{y+1/2}{\\sqrt{3}/2}) = \\frac{1}{\\sqrt{3}/2}\\tan^{-1}(\\frac{x+1/2}{\\sqrt{3}/2}) + C$. This simplifies to $\\tan^{-1}(\\frac{2y+1}{\\sqrt{3}}) = \\tan^{-1}(\\frac{2x+1}{\\sqrt{3}}) + C$. Using the identity $\\tan^{-1}A - \\tan^{-1}B = \\tan^{-1}(\\frac{A-B}{1+AB})$, we get $\\tan^{-1}(\\frac{2y+1}{\\sqrt{3}}) - \\tan^{-1}(\\frac{2x+1}{\\sqrt{3}}) = C \\implies \\tan^{-1}\\left[\\frac{\\frac{2y+1}{\\sqrt{3}} - \\frac{2x+1}{\\sqrt{3}}}{1+(\\frac{2y+1}{\\sqrt{3}})(\\frac{2x+1}{\\sqrt{3}})}\\right] = C \\implies \\tan^{-1}\\left[\\frac{2y-2x}{3+(2y+1)(2x+1)}\\right] = C$. This simplifies to $\\frac{2y-2x}{3+4xy+2x+2y+1} = \\tan C = C_1$. So, $\\frac{2(y-x)}{4(xy+x+y+1)} = C_1 \\implies \\frac{y-x}{2(x+1)(y+1)} = C_1$. The form given in the question, $(x+y+1) = c(1-x-y-2xy)$, does not seem to match. There may be an error in the question's provided solution form.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) The normal lines to a given curve at each point $(x,y)$ on the curve pass through $(2,0)$. The curve passes through $(2,3)$. Find the equation of the curve.",
-    "answer": "The slope of the normal line at a point $(x,y)$ is given by $m_{normal} = \\frac{y-0}{x-2} = \\frac{y}{x-2}$. The slope of the tangent to the curve is the negative reciprocal of the normal's slope, so $m_{tangent} = \\frac{dy}{dx} = -\\frac{x-2}{y} = \\frac{2-x}{y}$. This is a variable separable differential equation. Rearranging gives $y dy = (2-x)dx$. Integrating both sides: $\\int y dy = \\int (2-x)dx \\implies \\frac{y^2}{2} = 2x - \\frac{x^2}{2} + C$. Multiplying by 2 gives $y^2 = 4x-x^2+2C$. Let $C' = 2C$. So, $y^2 = 4x-x^2+C'$. We are given that the curve passes through $(2,3)$, so we substitute: $3^2 = 4(2)-(2)^2+C' \\implies 9 = 8-4+C' \\implies 9=4+C' \\implies C'=5$. The equation of the curve is $y^2 = 4x-x^2+5$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) The volume of spherical balloon being inflated changes at a constant rate. If initially its radius is 3 units and after 3 seconds it is 6 units. Find the radius of the balloon after $t$ second.",
-    "answer": "Let $V(t)$ be the volume of the balloon at time $t$ and $r(t)$ be its radius. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. The problem states that the volume changes at a constant rate, so $\\frac{dV}{dt} = k$, where $k$ is a constant. We can express $\\frac{dV}{dt}$ in terms of $r$: $\\frac{dV}{dt} = \\frac{d}{dt}(\\frac{4}{3}\\pi r^3) = 4\\pi r^2 \\frac{dr}{dt}$. So, $4\\pi r^2 \\frac{dr}{dt} = k$. This is a variable separable differential equation: $4\\pi r^2 dr = k dt$. Integrating both sides: $\\int 4\\pi r^2 dr = \\int k dt \\implies \\frac{4}{3}\\pi r^3 = kt+C$. We are given that initially (at $t=0$), the radius is 3, so $r(0)=3$. Substituting in: $\\frac{4}{3}\\pi(3)^3 = k(0)+C \\implies \\frac{4}{3}\\pi(27) = C \\implies C = 36\\pi$. The equation is $\\frac{4}{3}\\pi r^3 = kt+36\\pi$. We are also given that after 3 seconds, the radius is 6, so $r(3)=6$. Substituting in: $\\frac{4}{3}\\pi(6)^3 = k(3)+36\\pi \\implies \\frac{4}{3}\\pi(216) = 3k+36\\pi \\implies 288\\pi = 3k+36\\pi \\implies 3k = 252\\pi \\implies k=84\\pi$. So, the equation is $\\frac{4}{3}\\pi r^3 = 84\\pi t + 36\\pi$. Dividing by $\\frac{4}{3}\\pi$: $r^3 = \\frac{84\\pi}{\\frac{4}{3}\\pi}t + \\frac{36\\pi}{\\frac{4}{3}\\pi} = 63t+27$. The radius of the balloon after $t$ seconds is $r(t) = \\sqrt[3]{63t+27}$.",
-    "marks": 4
-  },
-  {
-    "type": "long",
-    "text": "Q) A person's assets start reducing in such a way that the rate of reduction of assets is proportional to the square root of the assets existing at that moment. If the assets at the beginning are ₹10 lakhs and they dwindle down to ₹10,000 after 2 years, show that the person will be bankrupt in $2\\frac{2}{9}$ years from the start.",
-    "answer": "Let $A(t)$ be the assets at time $t$. The rate of reduction of assets is proportional to the square root of the assets, so $\\frac{dA}{dt} = -k\\sqrt{A}$ for some constant $k$. This is a variable separable differential equation. Rearranging gives $\\frac{dA}{\\sqrt{A}} = -k dt \\implies A^{-1/2}dA = -k dt$. Integrating both sides: $\\int A^{-1/2}dA = \\int -k dt \\implies 2A^{1/2} = -kt+C$. So, $2\\sqrt{A} = -kt+C$. We are given that the initial assets are ₹10 lakhs, so $A(0) = 1000000$. Substituting in: $2\\sqrt{1000000} = -k(0)+C \\implies 2(1000) = C \\implies C=2000$. The equation is $2\\sqrt{A} = -kt+2000$. We are also given that the assets are ₹10,000 after 2 years, so $A(2)=10000$. Substituting in: $2\\sqrt{10000} = -k(2)+2000 \\implies 2(100) = -2k+2000 \\implies 200 = -2k+2000 \\implies 2k = 1800 \\implies k=900$. The equation for the assets is $2\\sqrt{A} = -900t+2000$. The person is bankrupt when the assets are zero, so $A(T)=0$. Substituting in: $2\\sqrt{0} = -900T+2000 \\implies 0 = -900T+2000 \\implies 900T = 2000 \\implies T = \\frac{2000}{900} = \\frac{20}{9}$ years. $T = \\frac{18+2}{9} = 2 + \\frac{2}{9}$. Thus, the person will be bankrupt in $2\\frac{2}{9}$ years from the start.",
-    "marks": 4
   }
 ]

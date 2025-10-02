@@ -1,0 +1,392 @@
+[
+  {
+    "type": "mcq",
+    "text": "What is the IUPAC name for the following compound: $CH_3-CH(CH_3)-CH_2-CHO$?",
+    "options": [
+      "(a) 2-methylbutanal",
+      "(b) 3-methylbutanal",
+      "(c) 2-methylbutanone",
+      "(d) 3-methylbutanone"
+    ],
+    "correct_answer": "b",
+    "answer": "The longest carbon chain containing the aldehyde functional group has four carbon atoms, so the parent name is butanal. The methyl group is on the third carbon from the aldehyde group, so the IUPAC name is 3-methylbutanal.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The displacement of electrons in a multiple bond in the presence of an attacking reagent is called:",
+    "options": [
+      "(a) Inductive effect",
+      "(b) Electromeric effect",
+      "(c) Resonance",
+      "(d) Hyperconjugation"
+    ],
+    "correct_answer": "b",
+    "answer": "The electromeric effect is a temporary effect where a $\\pi$-electron pair is completely transferred to one of the atoms joined by a multiple bond in the presence of an attacking reagent.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following carbocations is the most stable?",
+    "options": [
+      "(a) Methyl carbocation",
+      "(b) Primary carbocation",
+      "(c) Secondary carbocation",
+      "(d) Tertiary carbocation"
+    ],
+    "correct_answer": "d",
+    "answer": "The stability of carbocations increases with the number of alkyl groups attached to the positively charged carbon atom. This is due to the inductive effect and hyperconjugation. The order of stability is tertiary > secondary > primary > methyl.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following isomerism is exhibited by n-butane and 2-methylpropane?",
+    "options": [
+      "(a) Chain isomerism",
+      "(b) Position isomerism",
+      "(c) Functional isomerism",
+      "(d) Metamerism"
+    ],
+    "correct_answer": "a",
+    "answer": "Chain isomerism occurs when compounds have the same molecular formula but differ in the arrangement of the carbon skeleton. n-Butane has a straight chain, while 2-methylpropane has a branched chain.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Homolytic fission of a covalent bond leads to the formation of:",
+    "options": [
+      "(a) Carbocation",
+      "(b) Carbanion",
+      "(c) Free radical",
+      "(d) Electrophile"
+    ],
+    "correct_answer": "c",
+    "answer": "In homolytic fission, the shared pair of electrons is divided equally between the two bonded atoms, resulting in the formation of two neutral species called free radicals, which each have an unpaired electron.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is the most powerful electron-donating group by the inductive effect?",
+    "options": [
+      "(a) $-CH_3$",
+      "(b) $-C_2H_5$",
+      "(c) $-CH(CH_3)_2$",
+      "(d) $-C(CH_3)_3$"
+    ],
+    "correct_answer": "d",
+    "answer": "The electron-donating inductive effect of alkyl groups increases with the number of carbon atoms and the degree of branching. Therefore, the tertiary butyl group ($-C(CH_3)_3$) has the most powerful electron-donating effect.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A miscible mixture of benzene and chloroform can be separated by:",
+    "options": [
+      "(a) Sublimation",
+      "(b) Distillation",
+      "(c) Filtration",
+      "(d) Crystallisation"
+    ],
+    "correct_answer": "b",
+    "answer": "Distillation is a method used to separate miscible liquids with different boiling points. Benzene and chloroform have different boiling points, so they can be separated by distillation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "During Lassaigne's test, if both nitrogen and sulfur are present in an organic compound, which of the following is formed?",
+    "options": [
+      "(a) $NaCN$",
+      "(b) $Na_2S$",
+      "(c) $NaSCN$",
+      "(d) $Na_2SO_4$"
+    ],
+    "correct_answer": "c",
+    "answer": "When an organic compound containing both nitrogen and sulfur is fused with sodium metal, sodium thiocyanate ($NaSCN$) is formed. This gives a blood-red coloration with ferric chloride ($FeCl_3$).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following functional groups exhibits metamerism?",
+    "options": [
+      "(a) Alcohols",
+      "(b) Aldehydes",
+      "(c) Ethers",
+      "(d) Carboxylic acids"
+    ],
+    "correct_answer": "c",
+    "answer": "Metamerism is a type of structural isomerism where isomers have the same molecular formula but differ in the nature of alkyl groups attached to the same functional group. Ethers, ketones, and esters are some examples of functional groups that can exhibit metamerism.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The stability of carbanions follows the order:",
+    "options": [
+      "(a) $1^{\\circ} > 2^{\\circ} > 3^{\\circ}$",
+      "(b) $3^{\\circ} > 2^{\\circ} > 1^{\\circ}$",
+      "(c) $1^{\\circ} > 3^{\\circ} > 2^{\\circ}$",
+      "(d) $2^{\\circ} > 1^{\\circ} > 3^{\\circ}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The stability of carbanions is determined by the electron-donating inductive effect of the alkyl groups. More alkyl groups increase the electron density on the already negative carbon, decreasing stability. Therefore, the stability order is primary ($1^{\\circ}$) > secondary ($2^{\\circ}$) > tertiary ($3^{\\circ}$), and the methyl carbanion is the most stable.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is NOT a characteristic of a homologous series?",
+    "options": [
+      "(a) They have a general formula.",
+      "(b) They have similar chemical properties.",
+      "(c) Their physical properties show a gradual change.",
+      "(d) They have the same functional group but different carbon skeletons."
+    ],
+    "correct_answer": "d",
+    "answer": "Members of a homologous series have the same functional group and a similar chemical structure, but they differ by a $CH_2$ group in their molecular formula. They do not necessarily have different carbon skeletons.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a nucleophile?",
+    "options": [
+      "(a) $BF_3$",
+      "(b) $H_3O^+$",
+      "(c) $NH_3$",
+      "(d) $AlCl_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "A nucleophile is an electron-rich species that can donate a pair of electrons. In $NH_3$, the nitrogen atom has a lone pair of electrons, making it a nucleophile. $BF_3$ and $AlCl_3$ are Lewis acids and electrophiles. $H_3O^+$ is also an electrophile as it can accept a pair of electrons.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The correct order of acidity for alkynes is:",
+    "options": [
+      "(a) $CH_3C\\equiv CH > CH\\equiv CH > CH_2=CH_2 > CH_3-CH_3$",
+      "(b) $CH\\equiv CH > CH_3C\\equiv CH > CH_2=CH_2 > CH_3-CH_3$",
+      "(c) $CH_2=CH_2 > CH_3C\\equiv CH > CH\\equiv CH > CH_3-CH_3$",
+      "(d) $CH_3-CH_3 > CH_2=CH_2 > CH_3C\\equiv CH > CH\\equiv CH$"
+    ],
+    "correct_answer": "b",
+    "answer": "The acidity of hydrocarbons is determined by the s-character of the hybrid orbital of carbon. The order of s-character is $sp > sp^2 > sp^3$. Terminal alkynes (like ethyne and propyne) have sp-hybridized carbons, making them more acidic than alkenes and alkanes. Ethyne is more acidic than propyne because the inductive effect of the methyl group slightly destabilizes the ethynide ion. So, the correct order is $CH\\equiv CH > CH_3C\\equiv CH > CH_2=CH_2 > CH_3-CH_3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following pairs represents structural isomers?",
+    "options": [
+      "(a) Ethane and ethene",
+      "(b) n-butane and isobutane",
+      "(c) But-1-ene and cis-but-2-ene",
+      "(d) Glucose and fructose"
+    ],
+    "correct_answer": "b",
+    "answer": "Structural isomers are compounds with the same molecular formula but different structural arrangements. n-Butane and isobutane both have the molecular formula $C_4H_{10}$ but differ in their carbon skeletons.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following species acts as a Lewis acid?",
+    "options": [
+      "(a) $H_2O$",
+      "(b) $BF_3$",
+      "(c) $NH_3$",
+      "(d) $OH^-$"
+    ],
+    "correct_answer": "b",
+    "answer": "A Lewis acid is an electron-pair acceptor. Boron trifluoride ($BF_3$) has an incomplete octet on the central boron atom, so it can accept a pair of electrons, making it a Lewis acid.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The IUPAC name of the compound with the structure $CH_3-CH(OH)-CH_3$ is:",
+    "options": [
+      "(a) Propan-1-ol",
+      "(b) Propan-2-ol",
+      "(c) Propanone",
+      "(d) Propane"
+    ],
+    "correct_answer": "b",
+    "answer": "The longest carbon chain has three carbons (propane) with a hydroxyl group (-OH) on the second carbon. The IUPAC name is propan-2-ol.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an example of positional isomerism?",
+    "options": [
+      "(a) Ethanol and dimethyl ether",
+      "(b) n-butane and isobutane",
+      "(c) 1-chloropropane and 2-chloropropane",
+      "(d) Propene and cyclopropane"
+    ],
+    "correct_answer": "c",
+    "answer": "Positional isomers are compounds that have the same carbon skeleton and functional group but differ in the position of the functional group. 1-chloropropane and 2-chloropropane are an example of this.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The stability of carbocations can be explained by:",
+    "options": [
+      "(a) Inductive effect only",
+      "(b) Resonance only",
+      "(c) Hyperconjugation only",
+      "(d) Inductive effect and hyperconjugation"
+    ],
+    "correct_answer": "d",
+    "answer": "The stability of carbocations is primarily due to the electron-donating inductive effect of alkyl groups and the stabilization provided by hyperconjugation, which involves the delocalization of electrons from C-H bonds to the empty p-orbital of the carbocation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a test for the detection of halogens in an organic compound?",
+    "options": [
+      "(a) Lassaigne's test",
+      "(b) Fehling's test",
+      "(c) Tollens' test",
+      "(d) Victor Meyer's test"
+    ],
+    "correct_answer": "a",
+    "answer": "Lassaigne's test is used to detect the presence of nitrogen, sulfur, and halogens in an organic compound.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general formula for an alkyl radical is:",
+    "options": [
+      "(a) $C_nH_{2n}$",
+      "(b) $C_nH_{2n+1}$",
+      "(c) $C_nH_{2n+2}$",
+      "(d) $C_nH_{2n-2}$"
+    ],
+    "correct_answer": "b",
+    "answer": "An alkyl radical is formed by the removal of one hydrogen atom from an alkane. Since the general formula for alkanes is $C_nH_{2n+2}$, the formula for an alkyl radical is $C_nH_{2n+1}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following represents a homologous series?",
+    "options": [
+      "(a) $CH_3OH, CH_3CHO, CH_3COOH$",
+      "(b) $CH_3CH_2OH, CH_3COOH, CH_3COCH_3$",
+      "(c) $CH_3OH, CH_3CH_2OH, CH_3CH_2CH_2OH$",
+      "(d) $CH_3OCH_3, CH_3CH_2OCH_3, CH_3CH_2CH_2OCH_3$"
+    ],
+    "correct_answer": "c",
+    "answer": "A homologous series is a series of compounds with the same functional group and similar chemical properties, in which successive members differ by a $CH_2$ group. The compounds in option (c) are all alcohols and differ by a $CH_2$ group.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The compound which has a trigonal planar geometry is:",
+    "options": [
+      "(a) $CH_4$",
+      "(b) $NH_3$",
+      "(c) $BF_3$",
+      "(d) $H_2O$"
+    ],
+    "correct_answer": "c",
+    "answer": "The geometry of a molecule can be predicted using the VSEPR theory. In $BF_3$, the central boron atom has three bond pairs and no lone pairs, so its geometry is trigonal planar.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following cannot be represented by resonance structures?",
+    "options": [
+      "(a) Nitrate anion",
+      "(b) Carboxylate anion",
+      "(c) Dimethyl ether",
+      "(d) Benzene"
+    ],
+    "correct_answer": "c",
+    "answer": "Resonance occurs in molecules with delocalized electrons, typically involving multiple bonds and lone pairs. Dimethyl ether ($CH_3OCH_3$) has no multiple bonds or adjacent atoms with lone pairs, so it cannot be represented by resonance structures.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The most satisfactory method to separate a mixture of sugar is:",
+    "options": [
+      "(a) Fractional crystallisation",
+      "(b) Sublimation",
+      "(c) Chromatography",
+      "(d) Distillation"
+    ],
+    "correct_answer": "c",
+    "answer": "Chromatography is a separation technique used to separate complex mixtures, such as a mixture of sugars, based on the differential partitioning between a stationary phase and a mobile phase.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is an electrophile?",
+    "options": [
+      "(a) $NH_3$",
+      "(b) $H_2O$",
+      "(c) $Cl^-$",
+      "(d) $NO_2^+$"
+    ],
+    "correct_answer": "d",
+    "answer": "An electrophile is an electron-deficient species that can accept a pair of electrons. The nitronium ion ($NO_2^+$) is a strong electrophile due to the positive charge on the nitrogen atom.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The general formula for an alkene is:",
+    "options": [
+      "(a) $C_nH_{2n}$",
+      "(b) $C_nH_{2n+2}$",
+      "(c) $C_nH_{2n-2}$",
+      "(d) $C_nH_{2n-4}$"
+    ],
+    "correct_answer": "a",
+    "answer": "An alkene is a hydrocarbon containing a carbon-carbon double bond. Its general formula is $C_nH_{2n}$ (for non-cyclic alkenes).",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a feature of the $S_N1$ mechanism?",
+    "options": [
+      "(a) It is a single-step reaction.",
+      "(b) It proceeds via a concerted mechanism.",
+      "(c) The order of reactivity is $1^{\\circ} > 2^{\\circ} > 3^{\\circ}$.",
+      "(d) It involves the formation of a carbocation intermediate."
+    ],
+    "correct_answer": "d",
+    "answer": "The $S_N1$ (unimolecular nucleophilic substitution) mechanism is a two-step reaction that involves the formation of a carbocation intermediate in the first step. The order of reactivity is $3^{\\circ} > 2^{\\circ} > 1^{\\circ}$ due to the stability of the carbocation.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a pair of metamers?",
+    "options": [
+      "(a) Propan-1-ol and propan-2-ol",
+      "(b) Diethyl ether and methyl propyl ether",
+      "(c) n-butane and isobutane",
+      "(d) Ethene and cyclopropane"
+    ],
+    "correct_answer": "b",
+    "answer": "Metamers are isomers that have the same molecular formula and functional group but differ in the arrangement of alkyl groups around the functional group. Diethyl ether and methyl propyl ether are metamers with the formula $C_4H_{10}O$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "What is the IUPAC name of the compound with the formula $CH_3CH_2OH$?",
+    "options": [
+      "(a) Methanol",
+      "(b) Ethanol",
+      "(c) Propanol",
+      "(d) Propanone"
+    ],
+    "correct_answer": "b",
+    "answer": "The compound has two carbon atoms and a hydroxyl functional group, so it is an alcohol. The IUPAC name is ethanol.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Which of the following is a method for the purification of a substance that changes from a solid to a vapor without passing through the liquid state on heating?",
+    "options": [
+      "(a) Distillation",
+      "(b) Sublimation",
+      "(c) Crystallisation",
+      "(d) Chromatography"
+    ],
+    "correct_answer": "b",
+    "answer": "Sublimation is the process where a solid changes directly into a gas without passing through the liquid phase. This property is used to purify substances like camphor, naphthalene, and dry ice.",
+    "marks": 1
+  }
+]

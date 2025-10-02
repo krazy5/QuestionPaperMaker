@@ -1,0 +1,626 @@
+[
+  {
+    "type": "mcq",
+    "text": "If $A$ and $B$ are two events such that $P(A) = 0.5, P(B) = 0.6$ and $P(A \\cap B) = 0.3$, then $P(A \\cup B)$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $0.8$",
+      "(b) $0.7$",
+      "(c) $0.9$",
+      "(d) $1.1$"
+    ],
+    "correct_answer": "a",
+    "answer": "Using the formula for the probability of the union of two events, $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.\n$P(A \\cup B) = 0.5 + 0.6 - 0.3 = 1.1 - 0.3 = 0.8$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $A$ and $B$ are independent events with $P(A) = 0.2$ and $P(B) = 0.5$, then $P(A \\cap B)$ is: (MHT CET 2019)",
+    "options": [
+      "(a) $0.7$",
+      "(b) $0.1$",
+      "(c) $0.3$",
+      "(d) $0.5$"
+    ],
+    "correct_answer": "b",
+    "answer": "For independent events $A$ and $B$, the probability of their intersection is the product of their individual probabilities. \n$P(A \\cap B) = P(A)P(B) = (0.2)(0.5) = 0.10$.\n\n**Correct option is (b).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A card is drawn from a well-shuffled pack of 52 cards. The probability that it is a king or a spade is: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{4}{13}$",
+      "(b) $\\frac{1}{13}$",
+      "(c) $\\frac{17}{52}$",
+      "(d) $\\frac{1}{4}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Let A be the event of drawing a king. There are 4 kings, so $P(A) = \\frac{4}{52}$.\nLet B be the event of drawing a spade. There are 13 spades, so $P(B) = \\frac{13}{52}$.\nLet $A \\cap B$ be the event of drawing a king of spades. There is 1 such card, so $P(A \\cap B) = \\frac{1}{52}$.\nWe want to find $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.\n$P(A \\cup B) = \\frac{4}{52} + \\frac{13}{52} - \\frac{1}{52} = \\frac{16}{52} = \\frac{4}{13}$.\n\n**Correct option is (a).**",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The probability that a non-leap year has 53 Tuesdays is: (MHT CET 2021)",
+    "options": [
+      "(a) $\\frac{1}{7}$",
+      "(b) $\\frac{2}{7}$",
+      "(c) $\\frac{3}{7}$",
+      "(d) 0"
+    ],
+    "correct_answer": "a",
+    "answer": "A non-leap year has 365 days. $365 = 52 \\times 7 + 1$. This means a non-leap year has 52 full weeks and one extra day. The 52 weeks already contain 52 Tuesdays. The extra day can be any of the 7 days of the week. For the year to have 53 Tuesdays, this extra day must be a Tuesday. The probability of this is $\\frac{1}{7}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two dice are thrown. The probability that the sum of the numbers on the faces is 8 is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{5}{36}$",
+      "(b) $\\frac{1}{6}$",
+      "(c) $\\frac{7}{36}$",
+      "(d) $\\frac{1}{12}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The total number of possible outcomes when two dice are thrown is $6 \\times 6=36$. The outcomes where the sum is 8 are: $(2,6), (3,5), (4,4), (5,3), (6,2)$. There are 5 such outcomes. The probability is $\\frac{5}{36}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A) = 0.4, P(B) = 0.7$ and $P(A \\cup B) = 0.9$, then $P(A|B)$ is: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{2}{7}$",
+      "(b) $\\frac{3}{7}$",
+      "(c) $\\frac{4}{7}$",
+      "(d) $\\frac{1}{7}$"
+    ],
+    "correct_answer": "a",
+    "answer": "We first find $P(A \\cap B)$ using the formula $P(A \\cup B) = P(A)+P(B)-P(A \\cap B)$.\n$0.9 = 0.4+0.7-P(A \\cap B) \\implies 0.9=1.1-P(A \\cap B) \\implies P(A \\cap B) = 1.1-0.9=0.2$. \nNow, we find $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{0.2}{0.7} = \\frac{2}{7}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A bag contains 5 white and 3 black balls. If 2 balls are drawn at random, the probability that both are black is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{3}{28}$",
+      "(b) $\\frac{1}{4}$",
+      "(c) $\\frac{3}{14}$",
+      "(d) $\\frac{5}{14}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Total number of balls is $5+3=8$. The number of ways to draw 2 balls from 8 is $\\binom{8}{2} = \\frac{8 \\times 7}{2}=28$. \nNumber of ways to draw 2 black balls from 3 black balls is $\\binom{3}{2} = \\frac{3 \\times 2}{2}=3$. \nProbability is $\\frac{3}{28}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.5, P(B)=0.4$ and $A, B$ are mutually exclusive events, then $P(A \\cup B)$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $0.9$",
+      "(b) $0.2$",
+      "(c) $0.1$",
+      "(d) $0.7$"
+    ],
+    "correct_answer": "a",
+    "answer": "For mutually exclusive events, $P(A \\cap B)=0$. The probability of their union is $P(A \\cup B)=P(A)+P(B)=0.5+0.4=0.9$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A box contains 5 red and 5 black balls. If 2 balls are drawn at random, what is the probability that they are of different colors? (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{5}{18}$",
+      "(b) $\\frac{5}{9}$",
+      "(c) $\\frac{1}{2}$",
+      "(d) $\\frac{1}{4}$"
+    ],
+    "correct_answer": "b",
+    "answer": "Total balls = 10. Number of ways to draw 2 balls is $\\binom{10}{2} = \\frac{10 \\times 9}{2} = 45$. \nNumber of ways to draw 1 red and 1 black ball is $\\binom{5}{1}\\binom{5}{1} = 5 \\times 5 = 25$. \nProbability is $\\frac{25}{45}=\\frac{5}{9}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A) = 0.3, P(B) = 0.4$ and $P(A \\cap B) = 0.2$, then $P(A' \\cap B')$ is: (MHT CET 2014)",
+    "options": [
+      "(a) $0.5$",
+      "(b) $0.3$",
+      "(c) $0.4$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using De Morgan's law, $P(A' \\cap B') = P((A \\cup B)') = 1-P(A \\cup B)$.\nFirst, find $P(A \\cup B) = P(A)+P(B)-P(A \\cap B) = 0.3+0.4-0.2=0.5$. \nThen, $P(A' \\cap B') = 1-0.5=0.5$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A bag contains 4 red and 6 black balls. If a ball is drawn at random, what is the probability that it is red? (MHT CET 2013)",
+    "options": [
+      "(a) $\\frac{2}{5}$",
+      "(b) $\\frac{3}{5}$",
+      "(c) $\\frac{1}{2}$",
+      "(d) $\\frac{1}{4}$"
+    ],
+    "correct_answer": "a",
+    "answer": "Total number of balls is $4+6=10$. Number of red balls is 4. \nProbability of drawing a red ball is $\\frac{\\text{Number of red balls}}{\\text{Total number of balls}} = \\frac{4}{10} = \\frac{2}{5}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A) = 0.6$ and $P(B) = 0.3$, and $A, B$ are independent events, then $P(A \\cup B)$ is: (MHT CET 2012)",
+    "options": [
+      "(a) $0.72$",
+      "(b) $0.9$",
+      "(c) $0.18$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "For independent events, $P(A \\cap B) = P(A)P(B) = (0.6)(0.3)=0.18$. \n$P(A \\cup B) = P(A)+P(B)-P(A \\cap B) = 0.6+0.3-0.18=0.9-0.18=0.72$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Three coins are tossed. The probability of getting at least two heads is: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{1}{8}$",
+      "(b) $\\frac{1}{4}$",
+      "(c) $\\frac{1}{2}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "c",
+    "answer": "The total number of outcomes is $2^3=8$: {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}. \nAt least two heads means getting 2 or 3 heads. The outcomes are: {HHT, HTH, THH, HHH}. There are 4 such outcomes. \nProbability is $\\frac{4}{8}=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(B) = 0.8$ and $P(A|B) = 0.6$, then $P(A \\cap B)$ is: (MHT CET 2010)",
+    "options": [
+      "(a) $0.48$",
+      "(b) $0.3$",
+      "(c) $0.6$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the formula for conditional probability, $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$. \nWe can rearrange this to find $P(A \\cap B) = P(A|B)P(B)$. \n$P(A \\cap B)=(0.6)(0.8)=0.48$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two cards are drawn from a pack of 52 cards without replacement. The probability that both are aces is: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{1}{221}$",
+      "(b) $\\frac{4}{51}$",
+      "(c) $\\frac{1}{26}$",
+      "(d) $\\frac{1}{13}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The probability of drawing the first ace is $\\frac{4}{52}$. \nSince the cards are drawn without replacement, there are now 51 cards and 3 aces left. \nSo, the probability of drawing a second ace is $\\frac{3}{51}$. \nTotal probability is $\\frac{4}{52} \\times \\frac{3}{51} = \\frac{1}{13} \\times \\frac{1}{17} = \\frac{1}{221}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If a card is drawn from a well-shuffled deck of 52 cards, the probability that it is a red card is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{2}$",
+      "(b) $\\frac{1}{4}$",
+      "(c) $\\frac{1}{13}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "There are 52 cards in total. There are 26 red cards (13 hearts and 13 diamonds). \nProbability is $\\frac{26}{52} = \\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.3$ and $P(B)=0.5$, and $A, B$ are mutually exclusive, then $P(A \\cup B)$ is: (MHT CET 2007)",
+    "options": [
+      "(a) $0.8$",
+      "(b) $0.15$",
+      "(c) $0.2$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "For mutually exclusive events, $P(A \\cap B)=0$. The probability of their union is $P(A \\cup B)=P(A)+P(B)=0.3+0.5=0.8$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A bag contains 3 red and 4 black balls. A ball is drawn at random. The probability that it is red is: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{3}{7}$",
+      "(b) $\\frac{4}{7}$",
+      "(c) $\\frac{1}{7}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Total number of balls is $3+4=7$. Number of red balls is 3. \nProbability is $\\frac{3}{7}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The probability of getting a sum of 7 when two dice are thrown is: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{1}{6}$",
+      "(b) $\\frac{1}{36}$",
+      "(c) $\\frac{5}{36}$",
+      "(d) $\\frac{1}{12}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The total number of outcomes is 36. The outcomes with a sum of 7 are: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$. There are 6 such outcomes. \nProbability is $\\frac{6}{36}=\\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $A$ and $B$ are two events such that $P(A)=0.4, P(B)=0.5$ and $P(A \\cup B) = 0.8$, then $P(A \\cap B)$ is: (MHT CET 2004)",
+    "options": [
+      "(a) $0.1$",
+      "(b) $0.2$",
+      "(c) $0.3$",
+      "(d) $0.4$"
+    ],
+    "correct_answer": "a",
+    "answer": "Using the formula $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$.\n$0.8=0.4+0.5-P(A \\cap B) \\implies 0.8=0.9-P(A \\cap B) \\implies P(A \\cap B)=0.1$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A coin is tossed three times. The probability of getting exactly two tails is: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{3}{8}$",
+      "(b) $\\frac{1}{8}$",
+      "(c) $\\frac{1}{2}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The total number of outcomes is $2^3=8$: {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}. \nExactly two tails means getting 2 tails and 1 head. The outcomes are: {HTT, THT, TTH}. There are 3 such outcomes. \nProbability is $\\frac{3}{8}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A) = 0.7, P(B) = 0.8$ and $P(A \\cap B) = 0.6$, then $P(A \\cup B)$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $0.9$",
+      "(b) $0.8$",
+      "(c) $0.7$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the formula $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$.\n$P(A \\cup B) = 0.7+0.8-0.6 = 1.5-0.6=0.9$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The probability of getting an even number when a die is thrown is: (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{1}{2}$",
+      "(b) $\\frac{1}{3}$",
+      "(c) $\\frac{1}{6}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The possible outcomes are {1, 2, 3, 4, 5, 6}. The total number of outcomes is 6. \nEven numbers are {2, 4, 6}. The number of favorable outcomes is 3. \nProbability is $\\frac{3}{6}=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A bag contains 5 red and 4 white balls. Two balls are drawn at random. The probability that they are of the same color is: (MHT CET 2018)",
+    "options": [
+      "(a) $\\frac{4}{9}$",
+      "(b) $\\frac{5}{9}$",
+      "(c) $\\frac{1}{9}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Total balls = 9. Number of ways to draw 2 balls is $\\binom{9}{2} = \\frac{9 \\times 8}{2}=36$. \nSame color means either both are red or both are white. \nWays to draw 2 red balls: $\\binom{5}{2} = \\frac{5 \\times 4}{2}=10$. \nWays to draw 2 white balls: $\\binom{4}{2} = \\frac{4 \\times 3}{2}=6$. \nTotal favorable outcomes = $10+6=16$. \nProbability is $\\frac{16}{36}=\\frac{4}{9}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A) = 0.6, P(B) = 0.3$ and $A, B$ are independent events, then $P(A \\cup B)$ is: (MHT CET 2019)",
+    "options": [
+      "(a) $0.72$",
+      "(b) $0.9$",
+      "(c) $0.18$",
+      "(d) $0.6$"
+    ],
+    "correct_answer": "a",
+    "answer": "For independent events, $P(A \\cap B)=P(A)P(B)=(0.6)(0.3)=0.18$. \n$P(A \\cup B)=P(A)+P(B)-P(A \\cap B) = 0.6+0.3-0.18=0.72$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The probability that a leap year has 53 Mondays is: (MHT CET 2020)",
+    "options": [
+      "(a) $\\frac{2}{7}$",
+      "(b) $\\frac{1}{7}$",
+      "(c) $\\frac{3}{7}$",
+      "(d) 0"
+    ],
+    "correct_answer": "a",
+    "answer": "A leap year has 366 days. $366 = 52 \\times 7 + 2$. The two extra days can be any of the 7 pairs: (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), (Sat, Sun). \nFor the year to have 53 Mondays, the two extra days must include a Monday. This happens in 2 of the 7 cases: (Sun, Mon) and (Mon, Tue). \nProbability is $\\frac{2}{7}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.5, P(B)=0.6$ and $P(A \\cup B) = 0.8$, then $P(A' \\cap B')$ is: (MHT CET 2021)",
+    "options": [
+      "(a) $0.2$",
+      "(b) $0.3$",
+      "(c) $0.4$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using De Morgan's law, $P(A' \\cap B')=P((A \\cup B)')=1-P(A \\cup B)$. \nGiven $P(A \\cup B)=0.8$. \n$P(A' \\cap B')=1-0.8=0.2$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two dice are thrown. The probability that the sum of the numbers on the faces is at most 4 is: (MHT CET 2022)",
+    "options": [
+      "(a) $\\frac{1}{6}$",
+      "(b) $\\frac{1}{12}$",
+      "(c) $\\frac{1}{9}$",
+      "(d) $\\frac{5}{36}$"
+    ],
+    "correct_answer": "a",
+    "answer": "The total number of outcomes is 36. \nSum is at most 4 means sum is 2, 3, or 4. \nSum=2: (1,1). (1 outcome) \nSum=3: (1,2), (2,1). (2 outcomes) \nSum=4: (1,3), (2,2), (3,1). (3 outcomes) \nTotal favorable outcomes = $1+2+3=6$. \nProbability is $\\frac{6}{36}=\\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $A$ and $B$ are independent events with $P(A)=\\frac{1}{3}$ and $P(B)=\\frac{1}{4}$, then $P(A \\cup B)$ is: (MHT CET 2023)",
+    "options": [
+      "(a) $\\frac{1}{2}$",
+      "(b) $\\frac{5}{12}$",
+      "(c) $\\frac{7}{12}$",
+      "(d) $\\frac{1}{12}$"
+    ],
+    "correct_answer": "a",
+    "answer": "For independent events, $P(A \\cap B) = P(A)P(B) = (\\frac{1}{3})(\\frac{1}{4}) = \\frac{1}{12}$.\n$P(A \\cup B)=P(A)+P(B)-P(A \\cap B) = \\frac{1}{3}+\\frac{1}{4}-\\frac{1}{12}=\\frac{4+3-1}{12}=\\frac{6}{12}=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A bag contains 5 red, 6 white, and 7 black balls. One ball is drawn at random. The probability that it is a white or a black ball is: (MHT CET 2017)",
+    "options": [
+      "(a) $\\frac{13}{18}$",
+      "(b) $\\frac{11}{18}$",
+      "(c) $\\frac{1}{18}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Total number of balls is $5+6+7=18$. \nNumber of white or black balls is $6+7=13$. \nProbability is $\\frac{13}{18}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.5, P(B)=0.6$ and $P(A \\cup B) = 0.8$, then $P(A \\cap B)$ is: (MHT CET 2016)",
+    "options": [
+      "(a) $0.3$",
+      "(b) $0.2$",
+      "(c) $0.4$",
+      "(d) $0.1$"
+    ],
+    "correct_answer": "a",
+    "answer": "Using the formula $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$.\n$0.8=0.5+0.6-P(A \\cap B) \\implies 0.8=1.1-P(A \\cap B) \\implies P(A \\cap B)=0.3$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "Two fair coins are tossed. The probability of getting at least one head is: (MHT CET 2015)",
+    "options": [
+      "(a) $\\frac{1}{4}$",
+      "(b) $\\frac{1}{2}$",
+      "(c) $\\frac{3}{4}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "c",
+    "answer": "The total number of outcomes is $2^2=4$: {HH, HT, TH, TT}. \nAt least one head means getting 1 or 2 heads. The outcomes are: {HH, HT, TH}. There are 3 such outcomes. \nProbability is $\\frac{3}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "The probability that a leap year has 53 Sundays is: (MHT CET 2014)",
+    "options": [
+      "(a) $\\frac{2}{7}$",
+      "(b) $\\frac{1}{7}$",
+      "(c) $\\frac{3}{7}$",
+      "(d) 0"
+    ],
+    "correct_answer": "a",
+    "answer": "A leap year has 366 days. $366=52 \\times 7+2$. The two extra days can be any of the 7 pairs: (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), (Sat, Sun). \nFor the year to have 53 Sundays, the two extra days must include a Sunday. This happens in 2 cases: (Sun, Mon) and (Sat, Sun). \nProbability is $\\frac{2}{7}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.5, P(B)=0.6$ and $P(A \\cap B)=0.4$, then $P(A \\cup B)$ is: (MHT CET 2013)",
+    "options": [
+      "(a) $0.7$",
+      "(b) $0.8$",
+      "(c) $0.6$",
+      "(d) $0.5$"
+    ],
+    "correct_answer": "a",
+    "answer": "Using the formula for the union of two events, $P(A \\cup B) = P(A)+P(B)-P(A \\cap B)$.\n$P(A \\cup B) = 0.5+0.6-0.4 = 1.1-0.4=0.7$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A bag contains 5 red and 3 black balls. Two balls are drawn at random. The probability that they are of the same color is: (MHT CET 2012)",
+    "options": [
+      "(a) $\\frac{13}{28}$",
+      "(b) $\\frac{1}{4}$",
+      "(c) $\\frac{15}{28}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Total balls = 8. Ways to draw 2 balls = $\\binom{8}{2}=28$. \nSame color means both are red or both are black. \nWays to draw 2 red balls = $\\binom{5}{2}=10$. \nWays to draw 2 black balls = $\\binom{3}{2}=3$. \nTotal favorable outcomes = $10+3=13$. \nProbability is $\\frac{13}{28}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If a card is drawn from a well-shuffled deck of 52 cards, the probability that it is a face card is: (MHT CET 2011)",
+    "options": [
+      "(a) $\\frac{3}{13}$",
+      "(b) $\\frac{1}{13}$",
+      "(c) $\\frac{1}{4}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Total cards = 52. Face cards are King, Queen, Jack. There are 4 of each, so total face cards = $4 \\times 3=12$. \nProbability is $\\frac{12}{52}=\\frac{3}{13}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.5, P(B)=0.4$ and $A, B$ are independent, then $P(A \\cup B)$ is: (MHT CET 2010)",
+    "options": [
+      "(a) $0.7$",
+      "(b) $0.9$",
+      "(c) $0.2$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "For independent events, $P(A \\cap B)=P(A)P(B)=(0.5)(0.4)=0.2$. \n$P(A \\cup B)=P(A)+P(B)-P(A \\cap B)=0.5+0.4-0.2=0.7$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A coin is tossed three times. The probability of getting at least one head is: (MHT CET 2009)",
+    "options": [
+      "(a) $\\frac{7}{8}$",
+      "(b) $\\frac{1}{8}$",
+      "(c) $\\frac{1}{2}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The total number of outcomes is 8. The probability of getting no heads (all tails) is $P(TTT)=\\frac{1}{8}$. \nThe probability of getting at least one head is $1-P(no heads) = 1-\\frac{1}{8}=\\frac{7}{8}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A) = 0.5$ and $P(B) = 0.4$, and $P(A \\cup B) = 0.8$, then $P(A|B)$ is: (MHT CET 2008)",
+    "options": [
+      "(a) $\\frac{1}{4}$",
+      "(b) $\\frac{1}{2}$",
+      "(c) $\\frac{3}{4}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "First, find $P(A \\cap B) = P(A)+P(B)-P(A \\cup B) = 0.5+0.4-0.8=0.1$. \n$P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{0.1}{0.4} = \\frac{1}{4}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A card is drawn from a well-shuffled pack of 52 cards. The probability that it is a king or a queen is: (MHT CET 2007)",
+    "options": [
+      "(a) $\\frac{2}{13}$",
+      "(b) $\\frac{1}{13}$",
+      "(c) $\\frac{1}{4}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Let A be the event of drawing a king ($P(A)=\\frac{4}{52}$). Let B be the event of drawing a queen ($P(B)=\\frac{4}{52}$). These are mutually exclusive events. \n$P(A \\cup B)=P(A)+P(B)=\\frac{4}{52}+\\frac{4}{52}=\\frac{8}{52}=\\frac{2}{13}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.5, P(B)=0.6$ and $P(A \\cap B)=0.3$, then $P(A'|B')$ is: (MHT CET 2006)",
+    "options": [
+      "(a) $\\frac{1}{2}$",
+      "(b) $\\frac{1}{3}$",
+      "(c) $\\frac{2}{3}$",
+      "(d) $\\frac{1}{4}$"
+    ],
+    "correct_answer": "a",
+    "answer": "We use the formula $P(A'|B') = \\frac{P(A' \\cap B')}{P(B')}$. \nUsing De Morgan's law, $P(A' \\cap B')=P((A \\cup B)')=1-P(A \\cup B)$. \n$P(A \\cup B) = P(A)+P(B)-P(A \\cap B) = 0.5+0.6-0.3=0.8$. \nSo $P(A' \\cap B')=1-0.8=0.2$. \nAnd $P(B')=1-P(B)=1-0.6=0.4$. \n$P(A'|B') = \\frac{0.2}{0.4}=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $A$ and $B$ are independent events with $P(A)=\\frac{1}{2}$ and $P(B)=\\frac{1}{3}$, then $P(A \\cap B)$ is: (MHT CET 2005)",
+    "options": [
+      "(a) $\\frac{1}{6}$",
+      "(b) $\\frac{1}{2}$",
+      "(c) $\\frac{1}{3}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "For independent events, $P(A \\cap B)=P(A)P(B)=(\\frac{1}{2})(\\frac{1}{3})=\\frac{1}{6}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If a die is thrown, the probability of getting an odd prime number is: (MHT CET 2004)",
+    "options": [
+      "(a) $\\frac{1}{3}$",
+      "(b) $\\frac{1}{6}$",
+      "(c) $\\frac{1}{2}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The possible outcomes are {1, 2, 3, 4, 5, 6}. \nPrime numbers are {2, 3, 5}. Odd prime numbers are {3, 5}. There are 2 such outcomes. \nProbability is $\\frac{2}{6}=\\frac{1}{3}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A coin is tossed two times. The probability of getting exactly one head is: (MHT CET 2003)",
+    "options": [
+      "(a) $\\frac{1}{2}$",
+      "(b) $\\frac{1}{4}$",
+      "(c) $\\frac{3}{4}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "The total outcomes are {HH, HT, TH, TT}. There are 4 outcomes. \nExactly one head means getting one H and one T. Outcomes are {HT, TH}. There are 2 such outcomes. \nProbability is $\\frac{2}{4}=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.6, P(B)=0.7$ and $A, B$ are independent events, then $P(A \\cup B)$ is: (MHT CET 2002)",
+    "options": [
+      "(a) $0.88$",
+      "(b) $0.42$",
+      "(c) $0.92$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "For independent events, $P(A \\cap B)=P(A)P(B)=(0.6)(0.7)=0.42$. \n$P(A \\cup B)=P(A)+P(B)-P(A \\cap B)=0.6+0.7-0.42=1.3-0.42=0.88$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A bag contains 5 red and 5 black balls. If 1 ball is drawn at random, what is the probability that it is red? (MHT CET 2001)",
+    "options": [
+      "(a) $\\frac{1}{2}$",
+      "(b) $\\frac{5}{9}$",
+      "(c) $\\frac{1}{5}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Total number of balls is $5+5=10$. Number of red balls is 5. \nProbability is $\\frac{5}{10}=\\frac{1}{2}$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "If $P(A)=0.4$ and $P(B)=0.5$, and $P(A \\cap B)=0.2$, then $P(A|B)$ is: (MHT CET 2018)",
+    "options": [
+      "(a) $0.4$",
+      "(b) $0.5$",
+      "(c) $0.6$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Using the formula for conditional probability, $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{0.2}{0.5}=\\frac{2}{5}=0.4$.",
+    "marks": 1
+  },
+  {
+    "type": "mcq",
+    "text": "A card is drawn from a well-shuffled pack of 52 cards. The probability that it is a red face card is: (MHT CET 2019)",
+    "options": [
+      "(a) $\\frac{3}{26}$",
+      "(b) $\\frac{1}{13}$",
+      "(c) $\\frac{1}{26}$",
+      "(d) None of these."
+    ],
+    "correct_answer": "a",
+    "answer": "Face cards are King, Queen, Jack. There are 4 of each, so 12 face cards. Half of them are red. So there are 6 red face cards. \nProbability is $\\frac{6}{52}=\\frac{3}{26}$.",
+    "marks": 1
+  }
+]
